@@ -1,0 +1,125 @@
+{
+  "title": "referring-expression-segmentation-on-phrasecut",
+  "task-hierarchy": [
+    "Referring Expression Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://people.cs.umass.edu/~chenyun/publication/phrasecut/",
+    "paper": "PhraseCut: Language-based Image Segmentation in the Wild"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Mean IoU",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Pr@0.5",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Pr@0.7",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Pr@0.9",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "GLIPv2: Unifying Localization and Vision-Language Understanding",
+          "link": "https://arxiv.org/abs/2206.05836v2"
+        },
+        "c": "https://github.com/microsoft/GLIP",
+        "n": "GLIPv2",
+        "d": "2022-06-12",
+        "m1": "61.3"
+      },
+      {
+        "p": {
+          "name": "GROUNDHOG: Grounding Large Language Models to Holistic Segmentation",
+          "link": "https://arxiv.org/abs/2402.16846v2"
+        },
+        "c": "",
+        "n": "GROUNDHOG",
+        "d": "2024-02-26",
+        "m1": "54.5"
+      },
+      {
+        "p": {
+          "name": "MDETR -- Modulated Detection for End-to-End Multi-Modal Understanding",
+          "link": "https://arxiv.org/abs/2104.12763v2"
+        },
+        "c": "https://github.com/facebookresearch/multimodal",
+        "n": "MDETR ENB3",
+        "d": "2021-04-26",
+        "m1": "53.7",
+        "m2": "57.5",
+        "m3": "39.9",
+        "m4": "11.9"
+      },
+      {
+        "p": {
+          "name": "PhraseCut: Language-based Image Segmentation in the Wild",
+          "link": "https://arxiv.org/abs/2008.01187v1"
+        },
+        "c": "https://github.com/ChenyunWu/PhraseCutDataset",
+        "n": "HULANet",
+        "d": "2020-08-03",
+        "m1": "41.3",
+        "m2": "42.9",
+        "m3": "27.8",
+        "m4": "5.9"
+      },
+      {
+        "p": {
+          "name": "PhraseCut: Language-based Image Segmentation in the Wild",
+          "link": "https://arxiv.org/abs/2008.01187v1"
+        },
+        "c": "https://github.com/ChenyunWu/PhraseCutDataset",
+        "n": "RMI",
+        "d": "2020-08-03",
+        "m1": "21.1",
+        "m2": "22",
+        "m3": "11.6",
+        "m4": "1.5"
+      },
+      {
+        "p": {
+          "name": "PhraseCut: Language-based Image Segmentation in the Wild",
+          "link": "https://arxiv.org/abs/2008.01187v1"
+        },
+        "c": "https://github.com/ChenyunWu/PhraseCutDataset",
+        "n": "MattNet",
+        "d": "2020-08-03",
+        "m1": "20.2",
+        "m2": "19.7",
+        "m3": "13.5",
+        "m4": "3"
+      }
+    ]
+  }
+}

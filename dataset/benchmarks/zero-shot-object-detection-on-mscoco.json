@@ -2,11 +2,12 @@
   "title": "zero-shot-object-detection-on-mscoco",
   "task-hierarchy": [
     "Object Detection",
+    "Open Vocabulary Object Detection",
     "Zero-Shot Object Detection"
   ],
   "dataset-info": {
-    "link": "",
-    "paper": ""
+    "link": "https://cocodataset.org/",
+    "paper": "Microsoft COCO: Common Objects in Context"
   },
   "benchmark": {
     "fields": [

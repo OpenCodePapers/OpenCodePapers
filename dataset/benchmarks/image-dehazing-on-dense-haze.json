@@ -1,11 +1,12 @@
 {
   "title": "image-dehazing-on-dense-haze",
   "task-hierarchy": [
+    "Image Restoration",
     "Image Dehazing"
   ],
   "dataset-info": {
-    "link": "https://github.com/uzh-rpg/rpg_e2depth",
-    "paper": "Learning Monocular Dense Depth from Events"
+    "link": "https://arxiv.org/abs/1904.02904",
+    "paper": "Dense-Haze: A Benchmark for Image Dehazing with Dense-Haze and Haze-Free Images"
   },
   "benchmark": {
     "fields": [

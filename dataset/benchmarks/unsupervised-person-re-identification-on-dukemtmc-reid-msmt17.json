@@ -1,0 +1,143 @@
+{
+  "title": "unsupervised-person-re-identification-on-dukemtmc-reid-msmt17",
+  "task-hierarchy": [
+    "Person Re-Identification",
+    "Unsupervised Person Re-Identification"
+  ],
+  "dataset-info": {
+    "link": "http://www.pkuvmc.com/dataset.html",
+    "paper": "Person Transfer GAN to Bridge Domain Gap for Person Re-Identification"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mAP",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Rank-1",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Rank-10",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Rank-5",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "Top-1 (%)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "CORE-ReID: Comprehensive Optimization and Refinement through Ensemble Fusion in Domain Adaptation for Person Re-Identification",
+          "link": "https://www.mdpi.com/2674-113X/3/2/12"
+        },
+        "c": "https://github.com/TrinhQuocNguyen/CORE-ReID",
+        "n": "CORE-ReID",
+        "d": "2024-06-03",
+        "m1": "45.2",
+        "m2": "72.2",
+        "m3": "86.3",
+        "m4": "82.9"
+      },
+      {
+        "p": {
+          "name": "Domain Adaptive Person Re-Identification via Coupling Optimization",
+          "link": "https://arxiv.org/abs/2011.03363v1"
+        },
+        "c": "https://github.com/liu-xb/DIM_GLO",
+        "n": "DIM+GLO",
+        "d": "2020-11-06",
+        "m1": "24.4",
+        "m2": "56.5"
+      },
+      {
+        "p": {
+          "name": "Self-similarity Grouping: A Simple Unsupervised Cross Domain Adaptation Approach for Person Re-identification",
+          "link": "https://arxiv.org/abs/1811.10144v3"
+        },
+        "c": "https://github.com/OasisYang/SSG",
+        "n": "Self-Similarity Grouping (one shot)",
+        "d": "2018-11-26",
+        "m1": "23.6",
+        "m2": "43.6",
+        "m3": "61.8"
+      },
+      {
+        "p": {
+          "name": "Mutual Mean-Teaching: Pseudo Label Refinery for Unsupervised Domain Adaptation on Person Re-identification",
+          "link": "https://arxiv.org/abs/2001.01526v2"
+        },
+        "c": "https://github.com/thuml/Transfer-Learning-Library",
+        "n": "MMT-ResNet50",
+        "d": "2020-01-06",
+        "m1": "23.5",
+        "m5": "50.0"
+      },
+      {
+        "p": {
+          "name": "Invariance Matters: Exemplar Memory for Domain Adaptive Person Re-identification",
+          "link": "http://arxiv.org/abs/1904.01990v1"
+        },
+        "c": "https://github.com/zhunzhong07/ECN",
+        "n": "ECN",
+        "d": "2019-04-03",
+        "m1": "10.2",
+        "m2": "30.2",
+        "m3": "46.8",
+        "m4": "41.5"
+      },
+      {
+        "p": {
+          "name": "Joint Discriminative and Generative Learning for Person Re-identification",
+          "link": "https://arxiv.org/abs/1904.07223v3"
+        },
+        "c": "https://github.com/layumi/Person_reID_baseline_pytorch",
+        "n": "DGNet",
+        "d": "2019-04-15",
+        "m1": "6.35",
+        "m2": "20.59",
+        "m3": "31.67",
+        "m4": "37.04"
+      },
+      {
+        "p": {
+          "name": "Parameter-Efficient Person Re-identification in the 3D Space",
+          "link": "https://arxiv.org/abs/2006.04569v3"
+        },
+        "c": "https://github.com/layumi/person-reid-3d",
+        "n": "OGNet",
+        "d": "2020-06-08",
+        "m1": "1.9",
+        "m2": "6.8"
+      }
+    ]
+  }
+}

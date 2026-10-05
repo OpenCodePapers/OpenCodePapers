@@ -1,0 +1,148 @@
+{
+  "title": "image-classification-on-food-101",
+  "task-hierarchy": [
+    "Image Classification"
+  ],
+  "dataset-info": {
+    "link": "https://data.vision.ee.ethz.ch/cvl/datasets_extra/food-101/",
+    "paper": "Food-101 - Mining Discriminative Components with Random Forests"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy (%)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Bamboo: Building Mega-Scale Vision Dataset Continually with Human-Machine Synergy",
+          "link": "https://arxiv.org/abs/2203.07845v2"
+        },
+        "c": "https://github.com/zhangyuanhan-ai/bamboo",
+        "n": "Bamboo (ViTB/16)",
+        "d": "2022-03-15",
+        "m1": "92.9"
+      },
+      {
+        "p": {
+          "name": "SST: Self-training with Self-adaptive Thresholding for Semi-supervised Learning",
+          "link": "https://arxiv.org/abs/2506.00467v1"
+        },
+        "c": "",
+        "n": "Semi-SST (ViT-Base, 10% Labels)",
+        "d": "2025-05-31",
+        "m1": "91.5"
+      },
+      {
+        "p": {
+          "name": "SST: Self-training with Self-adaptive Thresholding for Semi-supervised Learning",
+          "link": "https://arxiv.org/abs/2506.00467v1"
+        },
+        "c": "",
+        "n": "Super-SST (ViT-Base, 10% Labels)",
+        "d": "2025-05-31",
+        "m1": "91.1"
+      },
+      {
+        "p": {
+          "name": "Vision Models Are More Robust And Fair When Pretrained On Uncurated Images Without Supervision",
+          "link": "https://arxiv.org/abs/2202.08360v2"
+        },
+        "c": "https://github.com/facebookresearch/vissl",
+        "n": "SEER (RegNet10B - linear eval)",
+        "d": "2022-02-16",
+        "m1": "90.3"
+      },
+      {
+        "p": {
+          "name": "Self-Supervised Learning by Estimating Twin Class Distributions",
+          "link": "https://arxiv.org/abs/2110.07402v4"
+        },
+        "c": "https://github.com/bytedance/TWIST",
+        "n": "TWIST (ResNet-50)",
+        "d": "2021-10-14",
+        "m1": "89.3"
+      },
+      {
+        "p": {
+          "name": "SST: Self-training with Self-adaptive Thresholding for Semi-supervised Learning",
+          "link": "https://arxiv.org/abs/2506.00467v1"
+        },
+        "c": "",
+        "n": "Semi-SST (ViT-Base, 1% Labels)",
+        "d": "2025-05-31",
+        "m1": "86.5"
+      },
+      {
+        "p": {
+          "name": "TransBoost: Improving the Best ImageNet Performance using Deep Transduction",
+          "link": "https://arxiv.org/abs/2205.13331v4"
+        },
+        "c": "https://github.com/omerb01/transboost",
+        "n": "TransBoost-ResNet50",
+        "d": "2022-05-26",
+        "m1": "84.30"
+      },
+      {
+        "p": {
+          "name": "SST: Self-training with Self-adaptive Thresholding for Semi-supervised Learning",
+          "link": "https://arxiv.org/abs/2506.00467v1"
+        },
+        "c": "",
+        "n": "Super-SST (ViT-Base, 1% Labels)",
+        "d": "2025-05-31",
+        "m1": "83.4"
+      },
+      {
+        "p": {
+          "name": "Linear Attention with Global Context: A Multipole Attention Mechanism for Vision and Physics",
+          "link": "https://arxiv.org/abs/2507.02748v1"
+        },
+        "c": "https://github.com/AlexColagrande/MANO",
+        "n": "MANO-tiny",
+        "d": "2025-07-03",
+        "m1": "82.48"
+      },
+      {
+        "p": {
+          "name": "With a Little Help from My Friends: Nearest-Neighbor Contrastive Learning of Visual Representations",
+          "link": "https://arxiv.org/abs/2104.14548v2"
+        },
+        "c": "https://github.com/lightly-ai/lightly",
+        "n": "NNCLR",
+        "d": "2021-04-29",
+        "m1": "76.7"
+      },
+      {
+        "p": {
+          "name": "Image and Text fusion for UPMC Food-101 \\\\using BERT and CNNs",
+          "link": "https://ieeexplore.ieee.org/abstract/document/9290622"
+        },
+        "c": "https://github.com/artelab/Image-and-Text-fusion-for-UPMC-Food-101-using-BERT-and-CNNs",
+        "n": "Inception V3",
+        "d": "2020-12-17",
+        "m1": "71.67"
+      }
+    ]
+  }
+}

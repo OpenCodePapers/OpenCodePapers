@@ -1,0 +1,196 @@
+{
+  "title": "few-shot-image-classification-on-mini-imagenet-1-shot-learning",
+  "task-hierarchy": [
+    "Image Classification",
+    "Few-Shot Image Classification"
+  ],
+  "dataset-info": {
+    "link": "",
+    "paper": "Matching Networks for One Shot Learning"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Leveraging the Feature Distribution in Transfer-based Few-Shot Learning",
+          "link": "https://arxiv.org/abs/2006.03806v3"
+        },
+        "c": "https://github.com/sicara/easy-few-shot-learning",
+        "n": "PT+MAP",
+        "d": "2020-06-06",
+        "m1": "82.92%"
+      },
+      {
+        "p": {
+          "name": "Meta-Learned Confidence for Few-shot Learning",
+          "link": "https://arxiv.org/abs/2002.12017v2"
+        },
+        "c": "https://github.com/seongmin-kye/MCT",
+        "n": "MCT",
+        "d": "2020-02-27",
+        "m1": "78.55%"
+      },
+      {
+        "p": {
+          "name": "Embedding Propagation: Smoother Manifold for Few-Shot Classification",
+          "link": "https://arxiv.org/abs/2003.04151v2"
+        },
+        "c": "https://github.com/ElementAI/embedding-propagation",
+        "n": "EPNet",
+        "d": "2020-03-09",
+        "m1": "77.27%"
+      },
+      {
+        "p": {
+          "name": "Self-Supervised Learning For Few-Shot Image Classification",
+          "link": "https://arxiv.org/abs/1911.06045v3"
+        },
+        "c": "https://github.com/Alibaba-AAIG/SSL-FEW-SHOT",
+        "n": "AmdimNet",
+        "d": "2019-11-14",
+        "m1": "76.82%"
+      },
+      {
+        "p": {
+          "name": "Graph-based Interpolation of Feature Vectors for Accurate Few-Shot Classification",
+          "link": "https://arxiv.org/abs/2001.09849v4"
+        },
+        "c": "https://github.com/yhu01/transfer-sgc",
+        "n": "Transfer+SGC",
+        "d": "2020-01-27",
+        "m1": "76.47%"
+      },
+      {
+        "p": {
+          "name": "BaseTransformers: Attention over base data-points for One Shot Learning",
+          "link": "https://arxiv.org/abs/2210.02476v1"
+        },
+        "c": "https://github.com/mayug/basetransformers",
+        "n": "BaseTransformers (Inductive)",
+        "d": "2022-10-05",
+        "m1": "70.88%"
+      },
+      {
+        "p": {
+          "name": "Prototype Rectification for Few-Shot Learning",
+          "link": "https://arxiv.org/abs/1911.10713v4"
+        },
+        "c": "https://github.com/sicara/easy-few-shot-learning",
+        "n": "BD-CSPN",
+        "d": "2019-11-25",
+        "m1": "70.31%"
+      },
+      {
+        "p": "",
+        "c": "",
+        "n": "SIB",
+        "d": "",
+        "m1": "70.0%"
+      },
+      {
+        "p": {
+          "name": "Baby steps towards few-shot learning with multiple semantics",
+          "link": "https://arxiv.org/abs/1906.01905v2"
+        },
+        "c": "",
+        "n": "Multiple-semantics",
+        "d": "2019-06-05",
+        "m1": "67.2%"
+      },
+      {
+        "p": {
+          "name": "Task Augmentation by Rotating for Meta-Learning",
+          "link": "https://arxiv.org/abs/2003.00804v1"
+        },
+        "c": "https://github.com/AceChuse/TaskLevelAug",
+        "n": "R2-D2+Task Aug",
+        "d": "2020-02-08",
+        "m1": "65.95%"
+      },
+      {
+        "p": {
+          "name": "Task Augmentation by Rotating for Meta-Learning",
+          "link": "https://arxiv.org/abs/2003.00804v1"
+        },
+        "c": "https://github.com/AceChuse/TaskLevelAug",
+        "n": "MetaOptNet-SVM+Task Aug",
+        "d": "2020-02-08",
+        "m1": "65.38%"
+      },
+      {
+        "p": {
+          "name": "Negative Margin Matters: Understanding Margin in Few-shot Classification",
+          "link": "https://arxiv.org/abs/2003.12060v1"
+        },
+        "c": "https://github.com/bl0/negative-margin.few-shot",
+        "n": "Neg-Margin",
+        "d": "2020-03-26",
+        "m1": "63.85"
+      },
+      {
+        "p": {
+          "name": "Diversity with Cooperation: Ensemble Methods for Few-Shot Classification",
+          "link": "https://arxiv.org/abs/1903.11341v2"
+        },
+        "c": "https://github.com/dvornikita/fewshot_ensemble",
+        "n": "DivCoop",
+        "d": "2019-03-27",
+        "m1": "63.73%"
+      },
+      {
+        "p": {
+          "name": "Few-Shot Learning with Global Class Representations",
+          "link": "https://arxiv.org/abs/1908.05257v1"
+        },
+        "c": "https://github.com/tiangeluo/fsl-global",
+        "n": "GCR",
+        "d": "2019-08-14",
+        "m1": "53.21"
+      },
+      {
+        "p": {
+          "name": "HyperShot: Few-Shot Learning by Kernel HyperNetworks",
+          "link": "https://arxiv.org/abs/2203.11378v1"
+        },
+        "c": "https://github.com/gmum/few-shot-hypernets-public",
+        "n": "HyperShot",
+        "d": "2022-03-21",
+        "m1": "53.18%"
+      },
+      {
+        "p": {
+          "name": "Probabilistic Model-Agnostic Meta-Learning",
+          "link": "https://arxiv.org/abs/1806.02817v2"
+        },
+        "c": "https://github.com/cnguyen10/few_shot_meta_learning",
+        "n": "PLATIPUS",
+        "d": "2018-06-07",
+        "m1": "50.13%"
+      }
+    ]
+  }
+}

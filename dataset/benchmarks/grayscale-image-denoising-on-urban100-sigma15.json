@@ -1,12 +1,13 @@
 {
   "title": "grayscale-image-denoising-on-urban100-sigma15",
   "task-hierarchy": [
-    "Denoising",
+    "Image Restoration",
+    "Image Denoising",
     "Grayscale Image Denoising"
   ],
   "dataset-info": {
-    "link": "",
-    "paper": ""
+    "link": "https://github.com/jbhuang0604/SelfExSR",
+    "paper": "Single Image Super-Resolution From Transformed Self-Exemplars"
   },
   "benchmark": {
     "fields": [

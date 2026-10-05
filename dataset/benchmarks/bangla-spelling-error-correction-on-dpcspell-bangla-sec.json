@@ -1,0 +1,79 @@
+{
+  "title": "bangla-spelling-error-correction-on-dpcspell-bangla-sec",
+  "task-hierarchy": [
+    "Grammatical Error Correction",
+    "Bangla Spelling Error Correction"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/mehedihasanbijoy/DPCSpell",
+    "paper": "DPCSpell: A Transformer-based Detector-Purificator-Corrector Framework for Spelling Error Correction of Bangla and Resource Scarce Indic Languages"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Exact Match Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "DPCSpell: A Transformer-based Detector-Purificator-Corrector Framework for Spelling Error Correction of Bangla and Resource Scarce Indic Languages",
+          "link": "https://arxiv.org/abs/2211.03730v3"
+        },
+        "c": "https://github.com/mehedihasanbijoy/DPCSpell",
+        "n": "DPCSpell",
+        "d": "2022-11-07",
+        "m1": "94.78"
+      },
+      {
+        "p": {
+          "name": "Spelling Correction with Denoising Transformer",
+          "link": "https://arxiv.org/abs/2105.05977v1"
+        },
+        "c": "",
+        "n": "DTransformer",
+        "d": "2021-05-12",
+        "m1": "90.44%"
+      },
+      {
+        "p": {
+          "name": "Convolutional Sequence to Sequence Learning",
+          "link": "http://arxiv.org/abs/1705.03122v3"
+        },
+        "c": "https://github.com/facebookresearch/fairseq",
+        "n": "ConvSeq2Seq",
+        "d": "2017-05-08",
+        "m1": "78.85%"
+      },
+      {
+        "p": {
+          "name": "Neural Machine Translation by Jointly Learning to Align and Translate",
+          "link": "http://arxiv.org/abs/1409.0473v7"
+        },
+        "c": "https://github.com/graykode/nlp-tutorial",
+        "n": "GRUSeq2Seq",
+        "d": "2014-09-01",
+        "m1": "75.56"
+      }
+    ]
+  }
+}

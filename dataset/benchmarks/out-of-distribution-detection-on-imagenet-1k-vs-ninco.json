@@ -1,0 +1,104 @@
+{
+  "title": "out-of-distribution-detection-on-imagenet-1k-vs-ninco",
+  "task-hierarchy": [
+    "Out-of-Distribution Detection"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/j-cb/NINCO",
+    "paper": "In or Out? Fixing ImageNet Out-of-Distribution Detection Evaluation"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AUROC",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "FPR@95",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Latency, ms",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Forte : Finding Outliers with Representation Typicality Estimation",
+          "link": "https://arxiv.org/abs/2410.01322v2"
+        },
+        "c": "https://github.com/DebarghaG/forte",
+        "n": "Forte",
+        "d": "2024-10-02",
+        "m1": "98.34 ± 00.09",
+        "m2": "5.18 ± 00.51"
+      },
+      {
+        "p": {
+          "name": "In or Out? Fixing ImageNet Out-of-Distribution Detection Evaluation",
+          "link": "https://arxiv.org/abs/2306.00826v1"
+        },
+        "c": "https://github.com/j-cb/ninco",
+        "n": "ViT-B-384 Mahalanobis (pre-trained on IN-21k)",
+        "d": "2023-06-01",
+        "m1": "95.0",
+        "m2": "27.5 "
+      },
+      {
+        "p": {
+          "name": "DisCoPatch: Taming Adversarially-driven Batch Statistics for Improved Out-of-Distribution Detection",
+          "link": "https://arxiv.org/abs/2501.08005v3"
+        },
+        "c": "",
+        "n": "DisCoPatch",
+        "d": "2025-01-14",
+        "m1": "94.3",
+        "m2": "39.0",
+        "m3": "1.56"
+      },
+      {
+        "p": {
+          "name": "In or Out? Fixing ImageNet Out-of-Distribution Detection Evaluation",
+          "link": "https://arxiv.org/abs/2306.00826v1"
+        },
+        "c": "https://github.com/j-cb/ninco",
+        "n": "EffNetv2-M Relative Mahalanobis",
+        "d": "2023-06-01",
+        "m1": "88.9",
+        "m2": "54.9 "
+      },
+      {
+        "p": {
+          "name": "In or Out? Fixing ImageNet Out-of-Distribution Detection Evaluation",
+          "link": "https://arxiv.org/abs/2306.00826v1"
+        },
+        "c": "https://github.com/j-cb/ninco",
+        "n": "EffNetb7  Relative Cosine Sim",
+        "d": "2023-06-01",
+        "m1": "87.9",
+        "m2": "53.7"
+      }
+    ]
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "title": "long-tail-video-object-segmentation-on-burst-val",
+  "task-hierarchy": [
+    "Video Segmentation",
+    "Long-tail Video Object Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/Ali2500/BURST-benchmark",
+    "paper": "BURST: A Benchmark for Unifying Object Recognition, Segmentation and Tracking in Video"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "HOTA (all)",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "mAP (all)",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "HOTA (com)",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "mAP (com)",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "HOTA (unc)",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "mAP (unc)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "General Object Foundation Model for Images and Videos at Scale",
+          "link": "https://arxiv.org/abs/2312.09158v1"
+        },
+        "c": "https://github.com/FoundationVision/GLEE",
+        "n": "GLEE-Pro",
+        "d": "2023-12-14",
+        "m1": "31.2",
+        "m2": "19.2",
+        "m3": "48.7",
+        "m4": "24.8",
+        "m5": "26.9",
+        "m6": "17.7"
+      },
+      {
+        "p": {
+          "name": "General Object Foundation Model for Images and Videos at Scale",
+          "link": "https://arxiv.org/abs/2312.09158v1"
+        },
+        "c": "https://github.com/FoundationVision/GLEE",
+        "n": "GLEE-Plus",
+        "d": "2023-12-14",
+        "m1": "26.9",
+        "m2": "17.2",
+        "m3": "38.8",
+        "m4": "23.7",
+        "m5": "23.9",
+        "m6": "15.5"
+      },
+      {
+        "p": {
+          "name": "General Object Foundation Model for Images and Videos at Scale",
+          "link": "https://arxiv.org/abs/2312.09158v1"
+        },
+        "c": "https://github.com/FoundationVision/GLEE",
+        "n": "GLEE-Lite",
+        "d": "2023-12-14",
+        "m1": "22.6",
+        "m2": "12.6",
+        "m3": "36.4",
+        "m4": "18.9",
+        "m5": "19.1",
+        "m6": "11.0"
+      },
+      {
+        "p": {
+          "name": "BURST: A Benchmark for Unifying Object Recognition, Segmentation and Tracking in Video",
+          "link": "https://arxiv.org/abs/2209.12118v2"
+        },
+        "c": "https://github.com/ali2500/burst-benchmark",
+        "n": "Box Tracker",
+        "d": "2022-09-25",
+        "m1": "8.2",
+        "m2": "1.4",
+        "m3": "27.0",
+        "m4": "3.0",
+        "m5": "3.6",
+        "m6": "0.9"
+      },
+      {
+        "p": {
+          "name": "BURST: A Benchmark for Unifying Object Recognition, Segmentation and Tracking in Video",
+          "link": "https://arxiv.org/abs/2209.12118v2"
+        },
+        "c": "https://github.com/ali2500/burst-benchmark",
+        "n": "STCN Tracker",
+        "d": "2022-09-25",
+        "m1": "5.5",
+        "m2": "0.9",
+        "m3": "17.5",
+        "m4": "0.7",
+        "m5": "2.5",
+        "m6": "0.6"
+      }
+    ]
+  }
+}

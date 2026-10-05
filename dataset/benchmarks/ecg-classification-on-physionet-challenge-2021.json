@@ -1,0 +1,90 @@
+{
+  "title": "ecg-classification-on-physionet-challenge-2021",
+  "task-hierarchy": [
+    "Physiological Signal Analysis",
+    "Electrocardiography (ECG)",
+    "ECG Classification"
+  ],
+  "dataset-info": {
+    "link": "https://physionet.org/content/challenge-2021/1.0.2/",
+    "paper": "Will Two Do? Varying Dimensions in Electrocardiography: the PhysioNet/Computing in Cardiology Challenge 2021"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "PhysioNet Challenge score 2021",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Reading Between the Leads: Local Lead-Attention Based Classification of Electrocardiogram Signals",
+          "link": "https://ieeexplore.ieee.org/document/10364166"
+        },
+        "c": "https://github.com/cph-cachet/LocalLeadAttention",
+        "n": "Local Lead Attention",
+        "d": "2023-12-26",
+        "m1": "0.521"
+      },
+      {
+        "p": {
+          "name": "Multi-Label ECG Classification Using Convolutional Neural Networks in a Classifier Chain",
+          "link": "https://ieeexplore.ieee.org/abstract/document/9662750"
+        },
+        "c": "https://github.com/CardiOUS/PhysioNetChallenge2021-CNN",
+        "n": "Classifier Chain (3-lead)",
+        "d": "2022-01-10",
+        "m1": "-0.60"
+      },
+      {
+        "p": {
+          "name": "Multi-Label ECG Classification Using Convolutional Neural Networks in a Classifier Chain",
+          "link": "https://ieeexplore.ieee.org/abstract/document/9662750"
+        },
+        "c": "https://github.com/CardiOUS/PhysioNetChallenge2021-CNN",
+        "n": "Classifier Chain (6-lead)",
+        "d": "2022-01-10",
+        "m1": "-0.63"
+      },
+      {
+        "p": {
+          "name": "Multi-Label ECG Classification Using Convolutional Neural Networks in a Classifier Chain",
+          "link": "https://ieeexplore.ieee.org/abstract/document/9662750"
+        },
+        "c": "https://github.com/CardiOUS/PhysioNetChallenge2021-CNN",
+        "n": "Classifier Chain (4-lead)",
+        "d": "2022-01-10",
+        "m1": "-0.63"
+      },
+      {
+        "p": {
+          "name": "Multi-Label ECG Classification Using Convolutional Neural Networks in a Classifier Chain",
+          "link": "https://ieeexplore.ieee.org/abstract/document/9662750"
+        },
+        "c": "https://github.com/CardiOUS/PhysioNetChallenge2021-CNN",
+        "n": "Classifier Chain (2-lead)",
+        "d": "2022-01-10",
+        "m1": "-0.63"
+      }
+    ]
+  }
+}

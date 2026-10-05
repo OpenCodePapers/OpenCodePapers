@@ -1,0 +1,89 @@
+{
+  "title": "unsupervised-object-segmentation-on-objectsroom",
+  "task-hierarchy": [
+    "Instance Segmentation",
+    "Unsupervised Object Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/deepmind/multi_object_datasets",
+    "paper": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "ARI-FG",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Unsupervised Multi-object Segmentation Using Attention and Soft-argmax",
+          "link": "https://arxiv.org/abs/2205.13271v2"
+        },
+        "c": "https://github.com/BrunoSauvalle/AST",
+        "n": "AST",
+        "d": "2022-05-26",
+        "m1": "0.87"
+      },
+      {
+        "p": {
+          "name": "GENESIS-V2: Inferring Unordered Object Representations without Iterative Refinement",
+          "link": "https://arxiv.org/abs/2104.09958v3"
+        },
+        "c": "https://github.com/applied-ai-lab/genesis",
+        "n": "GENESIS-V2",
+        "d": "2021-04-20",
+        "m1": "0.84"
+      },
+      {
+        "p": {
+          "name": "GENESIS-V2: Inferring Unordered Object Representations without Iterative Refinement",
+          "link": "https://arxiv.org/abs/2104.09958v3"
+        },
+        "c": "https://github.com/applied-ai-lab/genesis",
+        "n": "SlotAttention",
+        "d": "2021-04-20",
+        "m1": "0.79"
+      },
+      {
+        "p": {
+          "name": "GENESIS-V2: Inferring Unordered Object Representations without Iterative Refinement",
+          "link": "https://arxiv.org/abs/2104.09958v3"
+        },
+        "c": "https://github.com/applied-ai-lab/genesis",
+        "n": "GENESIS",
+        "d": "2021-04-20",
+        "m1": "0.63"
+      },
+      {
+        "p": {
+          "name": "GENESIS-V2: Inferring Unordered Object Representations without Iterative Refinement",
+          "link": "https://arxiv.org/abs/2104.09958v3"
+        },
+        "c": "https://github.com/applied-ai-lab/genesis",
+        "n": "MONET-G",
+        "d": "2021-04-20",
+        "m1": "0.54"
+      }
+    ]
+  }
+}

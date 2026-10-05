@@ -1,0 +1,1253 @@
+{
+  "title": "video-super-resolution-on-msu-super-resolution-for-video-compression",
+  "task-hierarchy": [
+    "Super-Resolution",
+    "Video Super-Resolution"
+  ],
+  "dataset-info": {
+    "link": "https://videoprocessing.ai/benchmarks/super-resolution-for-video-compression.html",
+    "paper": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "BSQ-rate over Subjective Score",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "BSQ-rate over ERQA",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "BSQ-rate over VMAF",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "BSQ-rate over PSNR",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "BSQ-rate over MS-SSIM",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "BSQ-rate over LPIPS",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Real-World Super-Resolution via Kernel Estimation and Noise Injection",
+          "link": "https://ieeexplore.ieee.org/document/9150628"
+        },
+        "c": "https://github.com/nihui/realsr-ncnn-vulkan",
+        "n": "RealSR + x264",
+        "d": "2020-06-19",
+        "m1": "0.196",
+        "m2": "0.77",
+        "m3": "0.775",
+        "m4": "0.675",
+        "m5": "0.487",
+        "m6": "0.591"
+      },
+      {
+        "p": "",
+        "c": "",
+        "n": "ahq-11 + x264",
+        "d": "",
+        "m1": "0.271",
+        "m2": "0.883",
+        "m3": "0.753",
+        "m4": "0.873",
+        "m5": "0.719",
+        "m6": "0.656"
+      },
+      {
+        "p": {
+          "name": "SwinIR: Image Restoration Using Swin Transformer",
+          "link": "https://arxiv.org/abs/2108.10257v1"
+        },
+        "c": "https://github.com/XPixelGroup/BasicSR",
+        "n": "SwinIR + x264",
+        "d": "2021-08-23",
+        "m1": "0.304",
+        "m2": "0.76",
+        "m3": "0.642",
+        "m4": "6.268",
+        "m5": "0.736",
+        "m6": "0.559"
+      },
+      {
+        "p": {
+          "name": "Real-ESRGAN: Training Real-World Blind Super-Resolution with Pure Synthetic Data",
+          "link": "https://arxiv.org/abs/2107.10833v2"
+        },
+        "c": "https://github.com/xinntao/Real-ESRGAN",
+        "n": "Real-ESRGAN + x264",
+        "d": "2021-07-22",
+        "m1": "0.335",
+        "m2": "5.58",
+        "m3": "0.698",
+        "m4": "7.874",
+        "m5": "0.881",
+        "m6": "0.733"
+      },
+      {
+        "p": {
+          "name": "SwinIR: Image Restoration Using Swin Transformer",
+          "link": "https://arxiv.org/abs/2108.10257v1"
+        },
+        "c": "https://github.com/XPixelGroup/BasicSR",
+        "n": "SwinIR + x265",
+        "d": "2021-08-23",
+        "m1": "0.346",
+        "m2": "1.575",
+        "m3": "1.304",
+        "m4": "8.13",
+        "m5": "4.641",
+        "m6": "1.474"
+      },
+      {
+        "p": {
+          "name": "COMISR: Compression-Informed Video Super-Resolution",
+          "link": "https://arxiv.org/abs/2105.01237v2"
+        },
+        "c": "https://github.com/google-research/google-research",
+        "n": "COMISR + x264",
+        "d": "2021-05-04",
+        "m1": "0.367",
+        "m2": "0.969",
+        "m3": "1.302",
+        "m4": "6.081",
+        "m5": "0.672",
+        "m6": "1.118"
+      },
+      {
+        "p": {
+          "name": "Real-World Super-Resolution via Kernel Estimation and Noise Injection",
+          "link": "https://ieeexplore.ieee.org/document/9150628"
+        },
+        "c": "https://github.com/nihui/realsr-ncnn-vulkan",
+        "n": "RealSR + x265",
+        "d": "2020-06-19",
+        "m1": "0.502",
+        "m2": "1.622",
+        "m3": "1.617",
+        "m4": "1.064",
+        "m5": "1.033",
+        "m6": "1.206"
+      },
+      {
+        "p": {
+          "name": "Real-World Super-Resolution via Kernel Estimation and Noise Injection",
+          "link": "https://ieeexplore.ieee.org/document/9150628"
+        },
+        "c": "https://github.com/nihui/realsr-ncnn-vulkan",
+        "n": "RealSR + uavs3e",
+        "d": "2020-06-19",
+        "m1": "0.639",
+        "m2": "1.943",
+        "m3": "2.253",
+        "m4": "14.741",
+        "m5": "1.441",
+        "m6": "1.149"
+      },
+      {
+        "p": {
+          "name": "SwinIR: Image Restoration Using Swin Transformer",
+          "link": "https://arxiv.org/abs/2108.10257v1"
+        },
+        "c": "https://github.com/XPixelGroup/BasicSR",
+        "n": "SwinIR + uavs3e",
+        "d": "2021-08-23",
+        "m1": "0.639",
+        "m2": "6.803",
+        "m3": "1.848",
+        "m4": "15.144",
+        "m5": "4.411",
+        "m6": "1.671"
+      },
+      {
+        "p": {
+          "name": "Real-ESRGAN: Training Real-World Blind Super-Resolution with Pure Synthetic Data",
+          "link": "https://arxiv.org/abs/2107.10833v2"
+        },
+        "c": "https://github.com/xinntao/Real-ESRGAN",
+        "n": "Real-ESRGAN + x265",
+        "d": "2021-07-22",
+        "m1": "0.64",
+        "m2": "6.328",
+        "m3": "1.464",
+        "m4": "8.113",
+        "m5": "5.393",
+        "m6": "12.689"
+      },
+      {
+        "p": {
+          "name": "COMISR: Compression-Informed Video Super-Resolution",
+          "link": "https://arxiv.org/abs/2105.01237v2"
+        },
+        "c": "https://github.com/google-research/google-research",
+        "n": "COMISR + vvenc",
+        "d": "2021-05-04",
+        "m1": "0.701",
+        "m2": "13.246",
+        "m3": "8.105",
+        "m4": "11.497",
+        "m5": "6.024",
+        "m6": "11.026"
+      },
+      {
+        "p": "",
+        "c": "",
+        "n": "ahq-11 + x265",
+        "d": "",
+        "m1": "0.724",
+        "m2": "1.917",
+        "m3": "1.503",
+        "m4": "1.725",
+        "m5": "1.594",
+        "m6": "1.388"
+      },
+      {
+        "p": {
+          "name": "COMISR: Compression-Informed Video Super-Resolution",
+          "link": "https://arxiv.org/abs/2105.01237v2"
+        },
+        "c": "https://github.com/google-research/google-research",
+        "n": "COMISR + x265",
+        "d": "2021-05-04",
+        "m1": "0.741",
+        "m2": "8.139",
+        "m3": "6.363",
+        "m4": "10.678",
+        "m5": "4.793",
+        "m6": "12.998"
+      },
+      {
+        "p": {
+          "name": "SwinIR: Image Restoration Using Swin Transformer",
+          "link": "https://arxiv.org/abs/2108.10257v1"
+        },
+        "c": "https://github.com/XPixelGroup/BasicSR",
+        "n": "SwinIR + aomenc",
+        "d": "2021-08-23",
+        "m1": "0.835",
+        "m2": "10.854",
+        "m3": "3.32",
+        "m4": "15.144",
+        "m5": "7.105",
+        "m6": "4.566"
+      },
+      {
+        "p": {
+          "name": "Real-World Super-Resolution via Kernel Estimation and Noise Injection",
+          "link": "https://ieeexplore.ieee.org/document/9150628"
+        },
+        "c": "https://github.com/nihui/realsr-ncnn-vulkan",
+        "n": "RealSR + aomenc",
+        "d": "2020-06-19",
+        "m1": "0.843",
+        "m2": "6.762",
+        "m3": "4.283",
+        "m4": "15.144",
+        "m5": "5.463",
+        "m6": "10.915"
+      },
+      {
+        "p": {
+          "name": "COMISR: Compression-Informed Video Super-Resolution",
+          "link": "https://arxiv.org/abs/2105.01237v2"
+        },
+        "c": "https://github.com/google-research/google-research",
+        "n": "COMISR + uavs3e",
+        "d": "2021-05-04",
+        "m1": "1.229",
+        "m2": "3.427",
+        "m3": "9.47",
+        "m4": "5.761",
+        "m5": "7.711",
+        "m6": "3.851"
+      },
+      {
+        "p": {
+          "name": "VRT: A Video Restoration Transformer",
+          "link": "https://arxiv.org/abs/2201.12288v2"
+        },
+        "c": "https://github.com/jingyunliang/vrt",
+        "n": "VRT + x264",
+        "d": "2022-01-28",
+        "m1": "1.245",
+        "m2": "1.578",
+        "m3": "0.7",
+        "m4": "1.09",
+        "m5": "0.662",
+        "m6": "1.259"
+      },
+      {
+        "p": {
+          "name": "Deep Video Super-Resolution using HR Optical Flow Estimation",
+          "link": "https://arxiv.org/abs/2001.02129v1"
+        },
+        "c": "https://github.com/LongguangWang/SOF-VSR",
+        "n": "SOF-VSR-BI + x264",
+        "d": "2020-01-06",
+        "m1": "1.273",
+        "m2": "4.981",
+        "m3": "1.083",
+        "m4": "6.058",
+        "m5": "0.764",
+        "m6": "1.26"
+      },
+      {
+        "p": "",
+        "c": "",
+        "n": "ahq-11 + vvenc",
+        "d": "",
+        "m1": "1.291",
+        "m2": "2.675",
+        "m3": "0.917",
+        "m4": "5.761",
+        "m5": "1.575",
+        "m6": "0.981"
+      },
+      {
+        "p": {
+          "name": "SwinIR: Image Restoration Using Swin Transformer",
+          "link": "https://arxiv.org/abs/2108.10257v1"
+        },
+        "c": "https://github.com/XPixelGroup/BasicSR",
+        "n": "SwinIR + vvenc",
+        "d": "2021-08-23",
+        "m1": "1.35",
+        "m2": "6.624",
+        "m3": "0.887",
+        "m4": "8.971",
+        "m5": "5.758",
+        "m6": "1.552"
+      },
+      {
+        "p": "",
+        "c": "",
+        "n": "ahq-11 + uavs3e",
+        "d": "",
+        "m1": "1.376",
+        "m2": "3.37",
+        "m3": "2.249",
+        "m4": "5.761",
+        "m5": "3.166",
+        "m6": "1.365"
+      },
+      {
+        "p": {
+          "name": "Real-ESRGAN: Training Real-World Blind Super-Resolution with Pure Synthetic Data",
+          "link": "https://arxiv.org/abs/2107.10833v2"
+        },
+        "c": "https://github.com/xinntao/Real-ESRGAN",
+        "n": "Real-ESRGAN + aomenc",
+        "d": "2021-07-22",
+        "m1": "1.398",
+        "m2": "11.584",
+        "m3": "2.712",
+        "m4": "15.144",
+        "m5": "6.857",
+        "m6": "11.957"
+      },
+      {
+        "p": {
+          "name": "Real-ESRGAN: Training Real-World Blind Super-Resolution with Pure Synthetic Data",
+          "link": "https://arxiv.org/abs/2107.10833v2"
+        },
+        "c": "https://github.com/xinntao/Real-ESRGAN",
+        "n": "Real-ESRGAN + uavs3e",
+        "d": "2021-07-22",
+        "m1": "1.417",
+        "m2": "7.225",
+        "m3": "2.122",
+        "m4": "15.144",
+        "m5": "4.612",
+        "m6": "2.633"
+      },
+      {
+        "p": {
+          "name": "BasicVSR: The Search for Essential Components in Video Super-Resolution and Beyond",
+          "link": "https://arxiv.org/abs/2012.02181v2"
+        },
+        "c": "https://github.com/XPixelGroup/BasicSR",
+        "n": "BasicVSR + x264",
+        "d": "2020-12-03",
+        "m1": "1.49",
+        "m2": "1.659",
+        "m3": "0.714",
+        "m4": "1.212",
+        "m5": "0.751",
+        "m6": "1.289"
+      },
+      {
+        "p": {
+          "name": "Recurrent Back-Projection Network for Video Super-Resolution",
+          "link": "http://arxiv.org/abs/1903.10128v1"
+        },
+        "c": "https://github.com/alterzero/RBPN-PyTorch",
+        "n": "RBPN + x264",
+        "d": "2019-03-25",
+        "m1": "1.498",
+        "m2": "1.599",
+        "m3": "0.733",
+        "m4": "1.127",
+        "m5": "0.729",
+        "m6": "1.335"
+      },
+      {
+        "p": {
+          "name": "COMISR: Compression-Informed Video Super-Resolution",
+          "link": "https://arxiv.org/abs/2105.01237v2"
+        },
+        "c": "https://github.com/google-research/google-research",
+        "n": "COMISR + aomenc",
+        "d": "2021-05-04",
+        "m1": "1.943",
+        "m2": "11.177",
+        "m3": "10.67",
+        "m4": "15.144",
+        "m5": "11.303",
+        "m6": "4.801"
+      },
+      {
+        "p": "",
+        "c": "",
+        "n": "ahq-11 + aomenc",
+        "d": "",
+        "m1": "1.95",
+        "m2": "4.799",
+        "m3": "2.808",
+        "m4": "12.542",
+        "m5": "5.999",
+        "m6": "1.368"
+      },
+      {
+        "p": {
+          "name": "VRT: A Video Restoration Transformer",
+          "link": "https://arxiv.org/abs/2201.12288v2"
+        },
+        "c": "https://github.com/jingyunliang/vrt",
+        "n": "VRT + x265",
+        "d": "2022-01-28",
+        "m1": "2.023",
+        "m2": "8.92",
+        "m3": "1.217",
+        "m4": "6.634",
+        "m5": "1.257",
+        "m6": "11.329"
+      },
+      {
+        "p": {
+          "name": "VRT: A Video Restoration Transformer",
+          "link": "https://arxiv.org/abs/2201.12288v2"
+        },
+        "c": "https://github.com/jingyunliang/vrt",
+        "n": "VRT + vvenc",
+        "d": "2022-01-28",
+        "m1": "2.235",
+        "m2": "18.333",
+        "m3": "0.652",
+        "m4": "5.777",
+        "m5": "0.836",
+        "m6": "11.496"
+      },
+      {
+        "p": {
+          "name": "BasicVSR: The Search for Essential Components in Video Super-Resolution and Beyond",
+          "link": "https://arxiv.org/abs/2012.02181v2"
+        },
+        "c": "https://github.com/XPixelGroup/BasicSR",
+        "n": "BasicVSR + x265",
+        "d": "2020-12-03",
+        "m1": "2.238",
+        "m2": "8.921",
+        "m3": "1.272",
+        "m4": "1.906",
+        "m5": "1.48",
+        "m6": "13.198"
+      },
+      {
+        "p": {
+          "name": "Deep Video Super-Resolution using HR Optical Flow Estimation",
+          "link": "https://arxiv.org/abs/2001.02129v1"
+        },
+        "c": "https://github.com/LongguangWang/SOF-VSR",
+        "n": "SOF-VSR-BI + x265",
+        "d": "2020-01-06",
+        "m1": "2.244",
+        "m2": "18.545",
+        "m3": "3.565",
+        "m4": "9.07",
+        "m5": "4.558",
+        "m6": "11.236"
+      },
+      {
+        "p": {
+          "name": "Recurrent Back-Projection Network for Video Super-Resolution",
+          "link": "http://arxiv.org/abs/1903.10128v1"
+        },
+        "c": "https://github.com/alterzero/RBPN-PyTorch",
+        "n": "RBPN + x265",
+        "d": "2019-03-25",
+        "m1": "2.282",
+        "m2": "13.185",
+        "m3": "1.324",
+        "m4": "1.89",
+        "m5": "1.438",
+        "m6": "13.237"
+      },
+      {
+        "p": {
+          "name": "VRT: A Video Restoration Transformer",
+          "link": "https://arxiv.org/abs/2201.12288v2"
+        },
+        "c": "https://github.com/jingyunliang/vrt",
+        "n": "VRT + uavs3e",
+        "d": "2022-01-28",
+        "m1": "2.511",
+        "m2": "6.619",
+        "m3": "1.425",
+        "m4": "5.862",
+        "m5": "1.982",
+        "m6": "4.003"
+      },
+      {
+        "p": {
+          "name": "VRT: A Video Restoration Transformer",
+          "link": "https://arxiv.org/abs/2201.12288v2"
+        },
+        "c": "https://github.com/jingyunliang/vrt",
+        "n": "VRT + aomenc",
+        "d": "2022-01-28",
+        "m1": "2.631",
+        "m2": "12.289",
+        "m3": "1.733",
+        "m4": "10.075",
+        "m5": "2.797",
+        "m6": "4.429"
+      },
+      {
+        "p": {
+          "name": "BasicVSR: The Search for Essential Components in Video Super-Resolution and Beyond",
+          "link": "https://arxiv.org/abs/2012.02181v2"
+        },
+        "c": "https://github.com/XPixelGroup/BasicSR",
+        "n": "BasicVSR + vvenc",
+        "d": "2020-12-03",
+        "m1": "2.659",
+        "m2": "18.333",
+        "m3": "0.676",
+        "m4": "5.781",
+        "m5": "0.919",
+        "m6": "11.561"
+      },
+      {
+        "p": {
+          "name": "BasicVSR: The Search for Essential Components in Video Super-Resolution and Beyond",
+          "link": "https://arxiv.org/abs/2012.02181v2"
+        },
+        "c": "https://github.com/XPixelGroup/BasicSR",
+        "n": "BasicVSR + aomenc",
+        "d": "2020-12-03",
+        "m1": "2.673",
+        "m2": "14.568",
+        "m3": "1.857",
+        "m4": "11.428",
+        "m5": "4.128",
+        "m6": "4.938"
+      },
+      {
+        "p": {
+          "name": "Recurrent Back-Projection Network for Video Super-Resolution",
+          "link": "http://arxiv.org/abs/1903.10128v1"
+        },
+        "c": "https://github.com/alterzero/RBPN-PyTorch",
+        "n": "RBPN + aomenc",
+        "d": "2019-03-25",
+        "m1": "2.7",
+        "m2": "13.572",
+        "m3": "1.996",
+        "m4": "10.89",
+        "m5": "3.089",
+        "m6": "5.821"
+      },
+      {
+        "p": {
+          "name": "Recurrent Back-Projection Network for Video Super-Resolution",
+          "link": "http://arxiv.org/abs/1903.10128v1"
+        },
+        "c": "https://github.com/alterzero/RBPN-PyTorch",
+        "n": "RBPN + vvenc",
+        "d": "2019-03-25",
+        "m1": "2.719",
+        "m2": "18.314",
+        "m3": "0.689",
+        "m4": "5.783",
+        "m5": "0.884",
+        "m6": "11.777"
+      },
+      {
+        "p": {
+          "name": "BasicVSR: The Search for Essential Components in Video Super-Resolution and Beyond",
+          "link": "https://arxiv.org/abs/2012.02181v2"
+        },
+        "c": "https://github.com/XPixelGroup/BasicSR",
+        "n": "BasicVSR + uavs3e",
+        "d": "2020-12-03",
+        "m1": "2.724",
+        "m2": "8.251",
+        "m3": "1.523",
+        "m4": "6.833",
+        "m5": "2.261",
+        "m6": "4.383"
+      },
+      {
+        "p": {
+          "name": "Deep Video Super-Resolution using HR Optical Flow Estimation",
+          "link": "https://arxiv.org/abs/2001.02129v1"
+        },
+        "c": "https://github.com/LongguangWang/SOF-VSR",
+        "n": "SOF-VSR-BI + vvenc",
+        "d": "2020-01-06",
+        "m1": "2.822",
+        "m2": "18.844",
+        "m3": "4.527",
+        "m4": "9.245",
+        "m5": "4.882",
+        "m6": "11.273"
+      },
+      {
+        "p": {
+          "name": "Deep Video Super-Resolution using HR Optical Flow Estimation",
+          "link": "https://arxiv.org/abs/2001.02129v1"
+        },
+        "c": "https://github.com/LongguangWang/SOF-VSR",
+        "n": "SOF-VSR-BI + aomenc",
+        "d": "2020-01-06",
+        "m1": "2.84",
+        "m2": "12.808",
+        "m3": "5.398",
+        "m4": "11.314",
+        "m5": "6.833",
+        "m6": "4.82"
+      },
+      {
+        "p": {
+          "name": "Deep Blind Video Super-resolution",
+          "link": "https://arxiv.org/abs/2003.04716v1"
+        },
+        "c": "https://github.com/csbhr/Deep-Blind-VSR",
+        "n": "DBVSR + vvenc",
+        "d": "2020-03-10",
+        "m1": "2.842",
+        "m2": "15.988",
+        "m3": "0.698",
+        "m4": "5.765",
+        "m5": "0.898",
+        "m6": "11.435"
+      },
+      {
+        "p": {
+          "name": "Recurrent Back-Projection Network for Video Super-Resolution",
+          "link": "http://arxiv.org/abs/1903.10128v1"
+        },
+        "c": "https://github.com/alterzero/RBPN-PyTorch",
+        "n": "RBPN + uavs3e",
+        "d": "2019-03-25",
+        "m1": "2.944",
+        "m2": "7.133",
+        "m3": "0.702",
+        "m4": "6.301",
+        "m5": "2.263",
+        "m6": "4.859"
+      },
+      {
+        "p": {
+          "name": "Local-Global Fusion Network for Video Super-Resolution",
+          "link": "https://ieeexplore.ieee.org/document/9203860/authors#authors"
+        },
+        "c": "https://github.com/BIOINSu/LGFN",
+        "n": "LGFN + vvenc",
+        "d": "2020-09-22",
+        "m1": "2.944",
+        "m2": "18.342",
+        "m3": "1.626",
+        "m4": "5.768",
+        "m5": "0.889",
+        "m6": "11.759"
+      },
+      {
+        "p": {
+          "name": "Deep Video Super-Resolution using HR Optical Flow Estimation",
+          "link": "https://arxiv.org/abs/2001.02129v1"
+        },
+        "c": "https://github.com/LongguangWang/SOF-VSR",
+        "n": "SOF-VSR-BI + uavs3e",
+        "d": "2020-01-06",
+        "m1": "3.196",
+        "m2": "5.299",
+        "m3": "5.361",
+        "m4": "10.917",
+        "m5": "6.82",
+        "m6": "4.23"
+      },
+      {
+        "p": "",
+        "c": "",
+        "n": "amq-12 + x264",
+        "d": "",
+        "m2": "0.922",
+        "m4": "0.813",
+        "m5": "0.643",
+        "m6": "0.767"
+      },
+      {
+        "p": {
+          "name": "Deep Video Super-Resolution using HR Optical Flow Estimation",
+          "link": "https://arxiv.org/abs/2001.02129v1"
+        },
+        "c": "https://github.com/LongguangWang/SOF-VSR",
+        "n": "SOF-VSR-BD + x264",
+        "d": "2020-01-06",
+        "m2": "1.544",
+        "m3": "1.213",
+        "m4": "2.763",
+        "m5": "0.843",
+        "m6": "1.262"
+      },
+      {
+        "p": {
+          "name": "Deep Blind Video Super-resolution",
+          "link": "https://arxiv.org/abs/2003.04716v1"
+        },
+        "c": "https://github.com/csbhr/Deep-Blind-VSR",
+        "n": "DBVSR + x264",
+        "d": "2020-03-10",
+        "m2": "1.606",
+        "m3": "0.75",
+        "m4": "1.082",
+        "m5": "0.714",
+        "m6": "1.293"
+      },
+      {
+        "p": {
+          "name": "Local-Global Fusion Network for Video Super-Resolution",
+          "link": "https://ieeexplore.ieee.org/document/9203860/authors#authors"
+        },
+        "c": "https://github.com/BIOINSu/LGFN",
+        "n": "LGFN + x264",
+        "d": "2020-09-22",
+        "m2": "1.704",
+        "m3": "0.744",
+        "m4": "1.151",
+        "m5": "0.77",
+        "m6": "1.324"
+      },
+      {
+        "p": {
+          "name": "Temporal Modulation Network for Controllable Space-Time Video Super-Resolution",
+          "link": "https://arxiv.org/abs/2104.10642v2"
+        },
+        "c": "https://github.com/CS-GangXu/TMNet",
+        "n": "TMNet + x264",
+        "d": "2021-04-21",
+        "m2": "1.879",
+        "m3": "1.061",
+        "m4": "1.481",
+        "m5": "0.844",
+        "m6": "1.377"
+      },
+      {
+        "p": "",
+        "c": "",
+        "n": "amq-12 + x265",
+        "d": "",
+        "m2": "1.996",
+        "m3": "1.525",
+        "m4": "1.629",
+        "m5": "1.462",
+        "m6": "10.639"
+      },
+      {
+        "p": "",
+        "c": "",
+        "n": "bicubic + x264",
+        "d": "",
+        "m2": "2.182",
+        "m3": "1.338",
+        "m4": "0.91",
+        "m5": "0.699",
+        "m6": "10.965"
+      },
+      {
+        "p": "",
+        "c": "",
+        "n": "amq-12 + uavs3e",
+        "d": "",
+        "m2": "3.679",
+        "m3": "2.308",
+        "m4": "6.547",
+        "m5": "2.861",
+        "m6": "1.742"
+      },
+      {
+        "p": {
+          "name": "Real-Time Super-Resolution System of 4K-Video Based on Deep Learning",
+          "link": "https://arxiv.org/abs/2107.05307v2"
+        },
+        "c": "https://github.com/Thmen/EGVSR",
+        "n": "EGVSR + x264",
+        "d": "2021-07-12",
+        "m2": "6.029",
+        "m3": "1.519",
+        "m4": "10.595",
+        "m5": "1.196",
+        "m6": "1.226"
+      },
+      {
+        "p": {
+          "name": "Video Super-Resolution with Recurrent Structure-Detail Network",
+          "link": "https://arxiv.org/abs/2008.00455v1"
+        },
+        "c": "https://github.com/junpan19/RSDN",
+        "n": "RSDN + x264",
+        "d": "2020-08-02",
+        "m2": "6.58",
+        "m3": "1.5",
+        "m4": "13.348",
+        "m5": "1.023",
+        "m6": "10.775"
+      },
+      {
+        "p": {
+          "name": "Real-ESRGAN: Training Real-World Blind Super-Resolution with Pure Synthetic Data",
+          "link": "https://arxiv.org/abs/2107.10833v2"
+        },
+        "c": "https://github.com/xinntao/Real-ESRGAN",
+        "n": "Real-ESRGAN + vvenc",
+        "d": "2021-07-22",
+        "m2": "6.712",
+        "m3": "3.8",
+        "m4": "14.561",
+        "m5": "5.95",
+        "m6": "12.744"
+      },
+      {
+        "p": {
+          "name": "Deep Blind Video Super-resolution",
+          "link": "https://arxiv.org/abs/2003.04716v1"
+        },
+        "c": "https://github.com/csbhr/Deep-Blind-VSR",
+        "n": "DBVSR + uavs3e",
+        "d": "2020-03-10",
+        "m2": "7.0",
+        "m3": "1.83",
+        "m4": "5.845",
+        "m5": "2.396",
+        "m6": "4.371"
+      },
+      {
+        "p": {
+          "name": "Local-Global Fusion Network for Video Super-Resolution",
+          "link": "https://ieeexplore.ieee.org/document/9203860/authors#authors"
+        },
+        "c": "https://github.com/BIOINSu/LGFN",
+        "n": "LGFN + uavs3e",
+        "d": "2020-09-22",
+        "m2": "9.279",
+        "m3": "1.625",
+        "m4": "5.503",
+        "m5": "2.427",
+        "m6": "4.504"
+      },
+      {
+        "p": {
+          "name": "Real-Time Super-Resolution System of 4K-Video Based on Deep Learning",
+          "link": "https://arxiv.org/abs/2107.05307v2"
+        },
+        "c": "https://github.com/Thmen/EGVSR",
+        "n": "EGVSR + uavs3e",
+        "d": "2021-07-12",
+        "m2": "10.1",
+        "m3": "10.337",
+        "m4": "15.144",
+        "m5": "8.194",
+        "m6": "4.0"
+      },
+      {
+        "p": "",
+        "c": "",
+        "n": "amq-12 + aomenc",
+        "d": "",
+        "m2": "10.388",
+        "m3": "2.874",
+        "m4": "11.079",
+        "m5": "5.883",
+        "m6": "1.843"
+      },
+      {
+        "p": "",
+        "c": "",
+        "n": "amq-12 + vvenc",
+        "d": "",
+        "m2": "11.064",
+        "m3": "0.898",
+        "m4": "5.718",
+        "m5": "1.371",
+        "m6": "1.219"
+      },
+      {
+        "p": {
+          "name": "Deep Video Super-Resolution using HR Optical Flow Estimation",
+          "link": "https://arxiv.org/abs/2001.02129v1"
+        },
+        "c": "https://github.com/LongguangWang/SOF-VSR",
+        "n": "SOF-VSR-BD + uavs3e",
+        "d": "2020-01-06",
+        "m2": "11.458",
+        "m3": "6.596",
+        "m4": "8.658",
+        "m5": "3.566",
+        "m6": "4.007"
+      },
+      {
+        "p": {
+          "name": "Real-Time Super-Resolution System of 4K-Video Based on Deep Learning",
+          "link": "https://arxiv.org/abs/2107.05307v2"
+        },
+        "c": "https://github.com/Thmen/EGVSR",
+        "n": "EGVSR + x265",
+        "d": "2021-07-12",
+        "m2": "12.917",
+        "m3": "6.497",
+        "m4": "10.701",
+        "m5": "5.548",
+        "m6": "10.748"
+      },
+      {
+        "p": {
+          "name": "Deep Video Super-Resolution using HR Optical Flow Estimation",
+          "link": "https://arxiv.org/abs/2001.02129v1"
+        },
+        "c": "https://github.com/LongguangWang/SOF-VSR",
+        "n": "SOF-VSR-BD + x265",
+        "d": "2020-01-06",
+        "m2": "13.098",
+        "m3": "4.346",
+        "m4": "3.274",
+        "m5": "1.825",
+        "m6": "13.141"
+      },
+      {
+        "p": {
+          "name": "Deep Blind Video Super-resolution",
+          "link": "https://arxiv.org/abs/2003.04716v1"
+        },
+        "c": "https://github.com/csbhr/Deep-Blind-VSR",
+        "n": "DBVSR + x265",
+        "d": "2020-03-10",
+        "m2": "13.145",
+        "m3": "1.383",
+        "m4": "6.607",
+        "m5": "1.438",
+        "m6": "13.211"
+      },
+      {
+        "p": {
+          "name": "Temporal Modulation Network for Controllable Space-Time Video Super-Resolution",
+          "link": "https://arxiv.org/abs/2104.10642v2"
+        },
+        "c": "https://github.com/CS-GangXu/TMNet",
+        "n": "TMNet + uavs3e",
+        "d": "2021-04-21",
+        "m2": "13.187",
+        "m3": "3.487",
+        "m4": "15.144",
+        "m5": "4.317",
+        "m6": "5.015"
+      },
+      {
+        "p": {
+          "name": "Local-Global Fusion Network for Video Super-Resolution",
+          "link": "https://ieeexplore.ieee.org/document/9203860/authors#authors"
+        },
+        "c": "https://github.com/BIOINSu/LGFN",
+        "n": "LGFN + x265",
+        "d": "2020-09-22",
+        "m2": "13.213",
+        "m3": "1.341",
+        "m4": "6.646",
+        "m5": "1.533",
+        "m6": "11.399"
+      },
+      {
+        "p": {
+          "name": "Video Super-Resolution with Recurrent Structure-Detail Network",
+          "link": "https://arxiv.org/abs/2008.00455v1"
+        },
+        "c": "https://github.com/junpan19/RSDN",
+        "n": "RSDN + x265",
+        "d": "2020-08-02",
+        "m2": "13.416",
+        "m3": "6.467",
+        "m4": "13.403",
+        "m5": "5.682",
+        "m6": "13.232"
+      },
+      {
+        "p": {
+          "name": "Deep Blind Video Super-resolution",
+          "link": "https://arxiv.org/abs/2003.04716v1"
+        },
+        "c": "https://github.com/csbhr/Deep-Blind-VSR",
+        "n": "DBVSR + aomenc",
+        "d": "2020-03-10",
+        "m2": "13.476",
+        "m3": "2.093",
+        "m4": "10.296",
+        "m5": "3.886",
+        "m6": "4.916"
+      },
+      {
+        "p": {
+          "name": "Temporal Modulation Network for Controllable Space-Time Video Super-Resolution",
+          "link": "https://arxiv.org/abs/2104.10642v2"
+        },
+        "c": "https://github.com/CS-GangXu/TMNet",
+        "n": "TMNet + x265",
+        "d": "2021-04-21",
+        "m2": "13.577",
+        "m3": "2.009",
+        "m4": "7.046",
+        "m5": "1.735",
+        "m6": "13.485"
+      },
+      {
+        "p": {
+          "name": "Real-Time Super-Resolution System of 4K-Video Based on Deep Learning",
+          "link": "https://arxiv.org/abs/2107.05307v2"
+        },
+        "c": "https://github.com/Thmen/EGVSR",
+        "n": "EGVSR + vvenc",
+        "d": "2021-07-12",
+        "m2": "13.684",
+        "m3": "10.163",
+        "m4": "11.543",
+        "m5": "6.209",
+        "m6": "10.643"
+      },
+      {
+        "p": {
+          "name": "Local-Global Fusion Network for Video Super-Resolution",
+          "link": "https://ieeexplore.ieee.org/document/9203860/authors#authors"
+        },
+        "c": "https://github.com/BIOINSu/LGFN",
+        "n": "LGFN + aomenc",
+        "d": "2020-09-22",
+        "m2": "14.631",
+        "m3": "1.99",
+        "m4": "9.79",
+        "m5": "4.321",
+        "m6": "5.536"
+      },
+      {
+        "p": {
+          "name": "Video Super-Resolution with Recurrent Structure-Detail Network",
+          "link": "https://arxiv.org/abs/2008.00455v1"
+        },
+        "c": "https://github.com/junpan19/RSDN",
+        "n": "RSDN + vvenc",
+        "d": "2020-08-02",
+        "m2": "14.95",
+        "m3": "10.145",
+        "m4": "14.061",
+        "m5": "9.138",
+        "m6": "4.866"
+      },
+      {
+        "p": {
+          "name": "Deep Video Super-Resolution using HR Optical Flow Estimation",
+          "link": "https://arxiv.org/abs/2001.02129v1"
+        },
+        "c": "https://github.com/LongguangWang/SOF-VSR",
+        "n": "SOF-VSR-BD + aomenc",
+        "d": "2020-01-06",
+        "m2": "15.11",
+        "m3": "7.464",
+        "m4": "13.076",
+        "m5": "7.546",
+        "m6": "4.034"
+      },
+      {
+        "p": {
+          "name": "Deep Video Super-Resolution using HR Optical Flow Estimation",
+          "link": "https://arxiv.org/abs/2001.02129v1"
+        },
+        "c": "https://github.com/LongguangWang/SOF-VSR",
+        "n": "SOF-VSR-BD + vvenc",
+        "d": "2020-01-06",
+        "m2": "15.958",
+        "m3": "6.41",
+        "m4": "8.027",
+        "m5": "2.112",
+        "m6": "13.494"
+      },
+      {
+        "p": "",
+        "c": "",
+        "n": "bicubic + x265",
+        "d": "",
+        "m2": "16.014",
+        "m3": "6.469",
+        "m4": "6.473",
+        "m5": "4.563",
+        "m6": "15.363"
+      },
+      {
+        "p": {
+          "name": "Real-Time Super-Resolution System of 4K-Video Based on Deep Learning",
+          "link": "https://arxiv.org/abs/2107.05307v2"
+        },
+        "c": "https://github.com/Thmen/EGVSR",
+        "n": "EGVSR + aomenc",
+        "d": "2021-07-12",
+        "m2": "16.733",
+        "m3": "10.67",
+        "m4": "15.144",
+        "m5": "11.643",
+        "m6": "5.67"
+      },
+      {
+        "p": {
+          "name": "Video Super-Resolution with Recurrent Structure-Detail Network",
+          "link": "https://arxiv.org/abs/2008.00455v1"
+        },
+        "c": "https://github.com/junpan19/RSDN",
+        "n": "RSDN + uavs3e",
+        "d": "2020-08-02",
+        "m2": "18.327",
+        "m3": "9.796",
+        "m4": "15.144",
+        "m5": "11.643",
+        "m6": "13.844"
+      },
+      {
+        "p": {
+          "name": "Video Super-Resolution with Recurrent Structure-Detail Network",
+          "link": "https://arxiv.org/abs/2008.00455v1"
+        },
+        "c": "https://github.com/junpan19/RSDN",
+        "n": "RSDN + aomenc",
+        "d": "2020-08-02",
+        "m2": "20.617",
+        "m3": "10.67",
+        "m4": "15.144",
+        "m5": "11.643",
+        "m6": "14.574"
+      },
+      {
+        "p": {
+          "name": "Temporal Modulation Network for Controllable Space-Time Video Super-Resolution",
+          "link": "https://arxiv.org/abs/2104.10642v2"
+        },
+        "c": "https://github.com/CS-GangXu/TMNet",
+        "n": "TMNet + vvenc",
+        "d": "2021-04-21",
+        "m2": "21.303",
+        "m3": "1.795",
+        "m4": "9.43",
+        "m5": "1.813",
+        "m6": "13.988"
+      },
+      {
+        "p": {
+          "name": "Temporal Modulation Network for Controllable Space-Time Video Super-Resolution",
+          "link": "https://arxiv.org/abs/2104.10642v2"
+        },
+        "c": "https://github.com/CS-GangXu/TMNet",
+        "n": "TMNet + aomenc",
+        "d": "2021-04-21",
+        "m2": "21.798",
+        "m3": "4.667",
+        "m4": "15.144",
+        "m5": "10.322",
+        "m6": "6.276"
+      },
+      {
+        "p": "",
+        "c": "",
+        "n": "bicubic + aomenc",
+        "d": "",
+        "m2": "21.965",
+        "m3": "6.797",
+        "m4": "8.395",
+        "m5": "2.888",
+        "m6": "17.458"
+      },
+      {
+        "p": "",
+        "c": "",
+        "n": "bicubic + uavs3e",
+        "d": "",
+        "m2": "21.965",
+        "m3": "7.026",
+        "m4": "7.372",
+        "m5": "5.068",
+        "m6": "18.057"
+      },
+      {
+        "p": "",
+        "c": "",
+        "n": "bicubic + vvenc",
+        "d": "",
+        "m2": "21.965",
+        "m3": "8.635",
+        "m4": "12.787",
+        "m5": "5.735",
+        "m6": "16.894"
+      },
+      {
+        "p": {
+          "name": "Real-World Super-Resolution via Kernel Estimation and Noise Injection",
+          "link": "https://ieeexplore.ieee.org/document/9150628"
+        },
+        "c": "https://github.com/nihui/realsr-ncnn-vulkan",
+        "n": "RealSR + vvenc",
+        "d": "2020-06-19",
+        "m2": "21.965",
+        "m3": "10.67",
+        "m4": "15.144",
+        "m5": "11.643",
+        "m6": "18.344"
+      }
+    ]
+  }
+}

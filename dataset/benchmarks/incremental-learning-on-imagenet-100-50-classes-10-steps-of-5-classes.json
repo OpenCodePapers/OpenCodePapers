@@ -1,0 +1,89 @@
+{
+  "title": "incremental-learning-on-imagenet-100-50-classes-10-steps-of-5-classes",
+  "task-hierarchy": [
+    "Continual Learning",
+    "Incremental Learning"
+  ],
+  "dataset-info": {
+    "link": "",
+    "paper": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Average Incremental Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "RMM: Reinforced Memory Management for Class-Incremental Learning",
+          "link": "https://arxiv.org/abs/2301.05792v1"
+        },
+        "c": "https://github.com/g-u-n/pycil",
+        "n": "RMM (ResNet-18)",
+        "d": "2023-01-14",
+        "m1": "78.47"
+      },
+      {
+        "p": {
+          "name": "DER: Dynamically Expandable Representation for Class Incremental Learning",
+          "link": "https://arxiv.org/abs/2103.16788v1"
+        },
+        "c": "https://github.com/g-u-n/pycil",
+        "n": "DER",
+        "d": "2021-03-31",
+        "m1": "77.73"
+      },
+      {
+        "p": {
+          "name": "FOSTER: Feature Boosting and Compression for Class-Incremental Learning",
+          "link": "https://arxiv.org/abs/2204.04662v2"
+        },
+        "c": "https://github.com/g-u-n/pycil",
+        "n": "FOSTER",
+        "d": "2022-04-10",
+        "m1": "77.54"
+      },
+      {
+        "p": {
+          "name": "Essentials for Class Incremental Learning",
+          "link": "https://arxiv.org/abs/2102.09517v1"
+        },
+        "c": "https://github.com/sud0301/essentials_for_CIL",
+        "n": "CCIL-SD",
+        "d": "2021-02-18",
+        "m1": "76.77"
+      },
+      {
+        "p": {
+          "name": "PODNet: Pooled Outputs Distillation for Small-Tasks Incremental Learning",
+          "link": "https://arxiv.org/abs/2004.13513v3"
+        },
+        "c": "https://github.com/g-u-n/pycil",
+        "n": "PODNet",
+        "d": "2020-04-28",
+        "m1": "73.14"
+      }
+    ]
+  }
+}

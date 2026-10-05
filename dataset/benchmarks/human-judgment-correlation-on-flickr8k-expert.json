@@ -1,11 +1,12 @@
 {
   "title": "human-judgment-correlation-on-flickr8k-expert",
   "task-hierarchy": [
+    "Image Captioning",
     "Human Judgment Correlation"
   ],
   "dataset-info": {
-    "link": "",
-    "paper": ""
+    "link": "https://hockenmaier.cs.illinois.edu/8k-pictures.html",
+    "paper": "Framing Image Description as a Ranking Task: Data, Models and Evaluation Metrics"
   },
   "benchmark": {
     "fields": [

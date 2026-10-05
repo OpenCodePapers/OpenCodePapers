@@ -1,0 +1,826 @@
+{
+  "title": "2d-human-pose-estimation-on-coco-wholebody",
+  "task-hierarchy": [
+    "Pose Estimation",
+    "2D Pose Estimation",
+    "2D Human Pose Estimation"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/jin-s13/COCO-WholeBody",
+    "paper": "Whole-Body Human Pose Estimation in the Wild"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "WB",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "body",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "foot",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "face",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "hand",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Sapiens: Foundation for Human Vision Models",
+          "link": "https://arxiv.org/abs/2408.12569v3"
+        },
+        "c": "https://github.com/facebookresearch/sapiens",
+        "n": "Sapiens-2B",
+        "d": "2024-08-22",
+        "m1": "74.4",
+        "m2": "79.2",
+        "m3": "84.1",
+        "m4": "91.2",
+        "m5": "70.4"
+      },
+      {
+        "p": {
+          "name": "SDPose: Exploiting Diffusion Priors for Out-of-Domain and Robust Pose Estimation",
+          "link": "https://arxiv.org/abs/2509.24980v1"
+        },
+        "c": "https://github.com/T-S-Liang/SDPose-OOD",
+        "n": "SDPose",
+        "d": "2025-09-29",
+        "m1": "72.8",
+        "m2": "78.6",
+        "m3": "82.3",
+        "m4": "89.7",
+        "m5": "67.3"
+      },
+      {
+        "p": {
+          "name": "Sapiens: Foundation for Human Vision Models",
+          "link": "https://arxiv.org/abs/2408.12569v3"
+        },
+        "c": "https://github.com/facebookresearch/sapiens",
+        "n": "Sapiens-1B",
+        "d": "2024-08-22",
+        "m1": "72.7",
+        "m2": "77.4",
+        "m3": "83.0",
+        "m4": "90.7",
+        "m5": "69.2"
+      },
+      {
+        "p": {
+          "name": "RTMW: Real-Time Multi-Person 2D and 3D Whole-body Pose Estimation",
+          "link": "https://arxiv.org/abs/2407.08634v1"
+        },
+        "c": "https://github.com/open-mmlab/mmpose",
+        "n": "RTMW-x",
+        "d": "2024-07-11",
+        "m1": "70.2",
+        "m2": "76.3",
+        "m3": "79.6",
+        "m4": "88.4",
+        "m5": "66.4"
+      },
+      {
+        "p": {
+          "name": "DAREPose: Causally Inspired Risk-Adaptive Correction for Robust Whole-Body Pose Estimation",
+          "link": "https://ssrn.com/abstract=7353767"
+        },
+        "c": "",
+        "n": "DAREPose-x",
+        "d": "2026-08-26",
+        "m1": "69.7",
+        "m2": "82.6",
+        "m3": "74.0",
+        "m4": "91.7",
+        "m5": "70.8"
+      },
+      {
+        "p": {
+          "name": "Sapiens: Foundation for Human Vision Models",
+          "link": "https://arxiv.org/abs/2408.12569v3"
+        },
+        "c": "https://github.com/facebookresearch/sapiens",
+        "n": "Sapiens-0.6B",
+        "d": "2024-08-22",
+        "m1": "69.5",
+        "m2": "74.3",
+        "m3": "79.4",
+        "m4": "89.5",
+        "m5": "65.4"
+      },
+      {
+        "p": {
+          "name": "DAREPose: Causally Inspired Risk-Adaptive Correction for Robust Whole-Body Pose Estimation",
+          "link": "https://ssrn.com/abstract=7353767"
+        },
+        "c": "",
+        "n": "DAREPose-l",
+        "d": "2026-08-26",
+        "m1": "69.4",
+        "m2": "76.5",
+        "m3": "74.6",
+        "m4": "92.3",
+        "m5": "67.4"
+      },
+      {
+        "p": {
+          "name": "Full-BAPose: Bottom Up Framework for Full Body Pose Estimation",
+          "link": "https://doi.org/10.3390/s23073725"
+        },
+        "c": "",
+        "n": "Full-BAPose (HRNet-W48)",
+        "d": "2023-04-04",
+        "m1": "68.4",
+        "m2": "74.4",
+        "m3": "76.4",
+        "m4": "86.8",
+        "m5": "64.6"
+      },
+      {
+        "p": {
+          "name": "CIGPose: Causal Intervention Graph Neural Network for Whole-Body Pose Estimation",
+          "link": "https://arxiv.org/abs/2603.09418v1"
+        },
+        "c": "https://github.com/53mins/CIGPose",
+        "n": "CIGPose-x + UBody",
+        "d": "2026-03-10",
+        "m1": "67.5",
+        "m2": "73.5",
+        "m3": "70.3",
+        "m4": "88.4",
+        "m5": "62.6"
+      },
+      {
+        "p": {
+          "name": "CIGPose: Causal Intervention Graph Neural Network for Whole-Body Pose Estimation",
+          "link": "https://arxiv.org/abs/2603.09418v1"
+        },
+        "c": "https://github.com/53mins/CIGPose",
+        "n": "CIGPose-x",
+        "d": "2026-03-10",
+        "m1": "67.0",
+        "m2": "73.5",
+        "m3": "72.3",
+        "m4": "88.1",
+        "m5": "60.2"
+      },
+      {
+        "p": {
+          "name": "CIGPose: Causal Intervention Graph Neural Network for Whole-Body Pose Estimation",
+          "link": "https://arxiv.org/abs/2603.09418v1"
+        },
+        "c": "https://github.com/53mins/CIGPose",
+        "n": "CIGPose-l + UBody",
+        "d": "2026-03-10",
+        "m1": "66.9",
+        "m2": "73.1",
+        "m3": "72.3",
+        "m4": "88.0",
+        "m5": "61.2"
+      },
+      {
+        "p": {
+          "name": "Spatial-Aware Regression for Keypoint Localization",
+          "link": "https://openaccess.thecvf.com/content/CVPR2024/html/Wang_Spatial-Aware_Regression_for_Keypoint_Localization_CVPR_2024_paper.html"
+        },
+        "c": "https://github.com/kennethwdk/SAR",
+        "n": "SAR (HRNet-W48)",
+        "d": "2024-06-16",
+        "m1": "66.6",
+        "m2": "71.2",
+        "m3": "69.3",
+        "m4": "90.3",
+        "m5": "61.3"
+      },
+      {
+        "p": {
+          "name": "Effective Whole-body Pose Estimation with Two-stages Distillation",
+          "link": "https://arxiv.org/abs/2307.15880v1"
+        },
+        "c": "https://github.com/IDEA-Research/DWPose",
+        "n": "DWPose-l",
+        "d": "2023-07-29",
+        "m1": "66.5",
+        "m2": "72.2",
+        "m3": "70.4",
+        "m4": "88.7",
+        "m5": "62.1"
+      },
+      {
+        "p": {
+          "name": "PCNet: a human pose compensation network based on incremental learning for sports actions estimation",
+          "link": "https://link.springer.com/content/pdf/10.1007/s40747-024-01647-1.pdf"
+        },
+        "c": "",
+        "n": "PCNet",
+        "d": "2024-11-11",
+        "m1": "66.4",
+        "m2": "76.9",
+        "m3": "65.3",
+        "m4": "89.7",
+        "m5": "65.6"
+      },
+      {
+        "p": {
+          "name": "CIGPose: Causal Intervention Graph Neural Network for Whole-Body Pose Estimation",
+          "link": "https://arxiv.org/abs/2603.09418v1"
+        },
+        "c": "https://github.com/53mins/CIGPose",
+        "n": "CIGPose-l",
+        "d": "2026-03-10",
+        "m1": "66.3",
+        "m2": "73.0",
+        "m3": "72.0",
+        "m4": "88.3",
+        "m5": "59.8"
+      },
+      {
+        "p": {
+          "name": "ZoomNAS: Searching for Whole-body Human Pose Estimation in the Wild",
+          "link": "https://arxiv.org/abs/2208.11547v1"
+        },
+        "c": "https://github.com/jin-s13/COCO-WholeBody",
+        "n": "ZoomNAS (V1.0 data)",
+        "d": "2022-08-23",
+        "m1": "65.4",
+        "m2": "74.0",
+        "m3": "61.7",
+        "m4": "88.9",
+        "m5": "62.5"
+      },
+      {
+        "p": {
+          "name": "Effective Whole-body Pose Estimation with Two-stages Distillation",
+          "link": "https://arxiv.org/abs/2307.15880v1"
+        },
+        "c": "https://github.com/IDEA-Research/DWPose",
+        "n": "RTMPose-l + UBody",
+        "d": "2023-07-29",
+        "m1": "65.4",
+        "m2": "71.0",
+        "m3": "68.6",
+        "m4": "88.5",
+        "m5": "60.6"
+      },
+      {
+        "p": {
+          "name": "RTMPose: Real-Time Multi-Person Pose Estimation based on MMPose",
+          "link": "https://arxiv.org/abs/2303.07399v2"
+        },
+        "c": "https://github.com/open-mmlab/mmpose",
+        "n": "RTMPose-x",
+        "d": "2023-03-13",
+        "m1": "65.3",
+        "m2": "71.4",
+        "m3": "69.2",
+        "m4": "88.9",
+        "m5": "59.0"
+      },
+      {
+        "p": {
+          "name": "TCFormer: Visual Recognition via Token Clustering Transformer",
+          "link": "https://arxiv.org/abs/2407.11321v1"
+        },
+        "c": "https://github.com/zengwang430521/TCFormer",
+        "n": "TCFormerV2-Base",
+        "d": "2024-07-16",
+        "m1": "65.1",
+        "m2": "72.7",
+        "m3": "74.6",
+        "m4": "78.8",
+        "m5": "62.6"
+      },
+      {
+        "p": {
+          "name": "RTMPose: Real-Time Multi-Person Pose Estimation based on MMPose",
+          "link": "https://arxiv.org/abs/2303.07399v2"
+        },
+        "c": "https://github.com/open-mmlab/mmpose",
+        "n": "RTMPose-l",
+        "d": "2023-03-13",
+        "m1": "64.8",
+        "m2": "71.2",
+        "m3": "69.3",
+        "m4": "88.2",
+        "m5": "57.9"
+      },
+      {
+        "p": {
+          "name": "Not All Tokens Are Equal: Human-centric Visual Analysis via Token Clustering Transformer",
+          "link": "https://arxiv.org/abs/2204.08680v3"
+        },
+        "c": "https://github.com/zengwang430521/tcformer",
+        "n": "TCFormer",
+        "d": "2022-04-19",
+        "m1": "64.2",
+        "m2": "71.8",
+        "m3": "74.4",
+        "m4": "79.0",
+        "m5": "61.4"
+      },
+      {
+        "p": {
+          "name": "DAREPose: Causally Inspired Risk-Adaptive Correction for Robust Whole-Body Pose Estimation",
+          "link": "https://ssrn.com/abstract=7353767"
+        },
+        "c": "",
+        "n": "DAREPose-l (256x192)",
+        "d": "2026-08-26",
+        "m1": "63.4",
+        "m2": "77.5",
+        "m3": "68.5",
+        "m4": "83.6",
+        "m5": "62.0"
+      },
+      {
+        "p": {
+          "name": "Effective Whole-body Pose Estimation with Two-stages Distillation",
+          "link": "https://arxiv.org/abs/2307.15880v1"
+        },
+        "c": "https://github.com/IDEA-Research/DWPose",
+        "n": "DWPose-l (256x192)",
+        "d": "2023-07-29",
+        "m1": "63.1",
+        "m2": "70.4",
+        "m3": "66.2",
+        "m4": "84.3",
+        "m5": "56.6"
+      },
+      {
+        "p": {
+          "name": "ZoomNAS: Searching for Whole-body Human Pose Estimation in the Wild",
+          "link": "https://arxiv.org/abs/2208.11547v1"
+        },
+        "c": "https://github.com/jin-s13/COCO-WholeBody",
+        "n": "ZoomNet (V1.0 data)",
+        "d": "2022-08-23",
+        "m1": "63.0",
+        "m2": "74.5",
+        "m3": "60.9",
+        "m4": "88.0",
+        "m5": "57.9"
+      },
+      {
+        "p": {
+          "name": "CIGPose: Causal Intervention Graph Neural Network for Whole-Body Pose Estimation",
+          "link": "https://arxiv.org/abs/2603.09418v1"
+        },
+        "c": "https://github.com/53mins/CIGPose",
+        "n": "CIGPose-l (256x192)",
+        "d": "2026-03-10",
+        "m1": "62.6",
+        "m2": "71.2",
+        "m3": "69.0",
+        "m4": "83.3",
+        "m5": "54.0"
+      },
+      {
+        "p": {
+          "name": "Effective Whole-body Pose Estimation with Two-stages Distillation",
+          "link": "https://arxiv.org/abs/2307.15880v1"
+        },
+        "c": "https://github.com/IDEA-Research/DWPose",
+        "n": "RTMPose-l + UBody (256x192)",
+        "d": "2023-07-29",
+        "m1": "62.1",
+        "m2": "69.7",
+        "m3": "65.5",
+        "m4": "84.1",
+        "m5": "55.1"
+      },
+      {
+        "p": {
+          "name": "Sapiens: Foundation for Human Vision Models",
+          "link": "https://arxiv.org/abs/2408.12569v3"
+        },
+        "c": "https://github.com/facebookresearch/sapiens",
+        "n": "Sapiens-0.3B",
+        "d": "2024-08-22",
+        "m1": "62.0",
+        "m2": "66.4",
+        "m3": "67.3",
+        "m4": "87.1",
+        "m5": "58.1"
+      },
+      {
+        "p": {
+          "name": "DAREPose: Causally Inspired Risk-Adaptive Correction for Robust Whole-Body Pose Estimation",
+          "link": "https://ssrn.com/abstract=7353767"
+        },
+        "c": "",
+        "n": "DAREPose-m",
+        "d": "2026-08-26",
+        "m1": "61.8",
+        "m2": "76.4",
+        "m3": "65.2",
+        "m4": "83.5",
+        "m5": "58.3"
+      },
+      {
+        "p": {
+          "name": "GTPT: Group-based Token Pruning Transformer for Efficient Human Pose Estimation",
+          "link": "https://arxiv.org/abs/2407.10756v1"
+        },
+        "c": "https://github.com/haonanwang0522/GTPT",
+        "n": "GTPT-B",
+        "d": "2024-07-15",
+        "m1": "61.7",
+        "m2": "72.0",
+        "m3": "73.0",
+        "m4": "84.2",
+        "m5": "47.9"
+      },
+      {
+        "p": {
+          "name": "Keypoint-wise Adaptive Loss for Whole-Body Human Pose Estimation",
+          "link": "https://r2hcai.github.io/AAAI-23/files/CameraReadys/26.pdf"
+        },
+        "c": "",
+        "n": "HRNet-w32+DARK+FoWKAL",
+        "d": "2023-02-13",
+        "m1": "61.6",
+        "m2": "72.7",
+        "m3": "74.2",
+        "m4": "73.8",
+        "m5": "53.5"
+      },
+      {
+        "p": {
+          "name": "ViTPose++: Vision Transformer for Generic Body Pose Estimation",
+          "link": "https://arxiv.org/abs/2212.04246v3"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "ViTPose+-H",
+        "d": "2022-12-07",
+        "m1": "61.2",
+        "m2": "75.9",
+        "m3": "77.9",
+        "m4": "63.3",
+        "m5": "54.7"
+      },
+      {
+        "p": {
+          "name": "RTMPose: Real-Time Multi-Person Pose Estimation based on MMPose",
+          "link": "https://arxiv.org/abs/2303.07399v2"
+        },
+        "c": "https://github.com/open-mmlab/mmpose",
+        "n": "RTMPose-l (256x192)",
+        "d": "2023-03-13",
+        "m1": "61.1",
+        "m2": "69.5",
+        "m3": "65.8",
+        "m4": "83.3",
+        "m5": "51.9"
+      },
+      {
+        "p": {
+          "name": "ViTPose++: Vision Transformer for Generic Body Pose Estimation",
+          "link": "https://arxiv.org/abs/2212.04246v3"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "ViTPose+-L",
+        "d": "2022-12-07",
+        "m1": "60.6",
+        "m2": "75.3",
+        "m3": "77.1",
+        "m4": "63.0",
+        "m5": "54.2"
+      },
+      {
+        "p": {
+          "name": "Effective Whole-body Pose Estimation with Two-stages Distillation",
+          "link": "https://arxiv.org/abs/2307.15880v1"
+        },
+        "c": "https://github.com/IDEA-Research/DWPose",
+        "n": "DWPose-m",
+        "d": "2023-07-29",
+        "m1": "60.6",
+        "m2": "68.5",
+        "m3": "63.6",
+        "m4": "82.8",
+        "m5": "52.7"
+      },
+      {
+        "p": {
+          "name": "Keypoint Communities",
+          "link": "https://arxiv.org/abs/2110.00988v1"
+        },
+        "c": "https://github.com/duncanzauss/keypoint_communities",
+        "n": "Zauss et al.",
+        "d": "2021-10-03",
+        "m1": "60.4",
+        "m2": "69.6",
+        "m3": "63.4",
+        "m4": "85.0",
+        "m5": "52.9"
+      },
+      {
+        "p": {
+          "name": "CIGPose: Causal Intervention Graph Neural Network for Whole-Body Pose Estimation",
+          "link": "https://arxiv.org/abs/2603.09418v1"
+        },
+        "c": "https://github.com/53mins/CIGPose",
+        "n": "CIGPose-m",
+        "d": "2026-03-10",
+        "m1": "59.9",
+        "m2": "69.0",
+        "m3": "64.3",
+        "m4": "82.1",
+        "m5": "49.7"
+      },
+      {
+        "p": {
+          "name": "AlphaPose: Whole-Body Regional Multi-Person Pose Estimation and Tracking in Real-Time",
+          "link": "https://arxiv.org/abs/2211.03375v1"
+        },
+        "c": "https://github.com/MVIG-SJTU/AlphaPose",
+        "n": "FastPose50-dcn-si (V1.0 data)",
+        "d": "2022-11-07",
+        "m1": "59.2",
+        "m2": "70.6",
+        "m3": "70.2",
+        "m4": "77.5",
+        "m5": "45.7"
+      },
+      {
+        "p": {
+          "name": "Pyramid Vision Transformer: A Versatile Backbone for Dense Prediction without Convolutions",
+          "link": "https://arxiv.org/abs/2102.12122v1"
+        },
+        "c": "https://github.com/whai362/PVT",
+        "n": "PVT",
+        "d": "2021-02-24",
+        "m1": "58.9",
+        "m2": "67.3",
+        "m3": "66.0",
+        "m4": "74.5",
+        "m5": "54.5"
+      },
+      {
+        "p": {
+          "name": "Deep High-Resolution Representation Learning for Human Pose Estimation",
+          "link": "http://arxiv.org/abs/1902.09212v1"
+        },
+        "c": "https://github.com/open-mmlab/mmpose",
+        "n": "HRNet-w32 (V1.0 data)",
+        "d": "2019-02-25",
+        "m1": "58.6",
+        "m2": "70.1",
+        "m3": "58.6",
+        "m4": "72.7",
+        "m5": "51.6"
+      },
+      {
+        "p": {
+          "name": "RTMPose: Real-Time Multi-Person Pose Estimation based on MMPose",
+          "link": "https://arxiv.org/abs/2303.07399v2"
+        },
+        "c": "https://github.com/open-mmlab/mmpose",
+        "n": "RTMPose-m",
+        "d": "2023-03-13",
+        "m1": "58.2",
+        "m2": "67.3",
+        "m3": "61.5",
+        "m4": "81.3",
+        "m5": "47.5"
+      },
+      {
+        "p": {
+          "name": "RTMW: Real-Time Multi-Person 2D and 3D Whole-body Pose Estimation",
+          "link": "https://arxiv.org/abs/2407.08634v1"
+        },
+        "c": "https://github.com/open-mmlab/mmpose",
+        "n": "RTMW-m",
+        "d": "2024-07-11",
+        "m1": "58",
+        "m2": "67.6",
+        "m3": "67.1",
+        "m4": "78.3",
+        "m5": "49.1"
+      },
+      {
+        "p": {
+          "name": "PoseBH: Prototypical Multi-Dataset Training Beyond Human Pose Estimation",
+          "link": "https://arxiv.org/abs/2505.17475v1"
+        },
+        "c": "https://github.com/uyoung-jeong/PoseBH",
+        "n": "PoseBH (ViT-B)",
+        "d": "2025-05-23",
+        "m1": "57.9"
+      },
+      {
+        "p": {
+          "name": "AlphaPose: Whole-Body Regional Multi-Person Pose Estimation and Tracking in Real-Time",
+          "link": "https://arxiv.org/abs/2211.03375v1"
+        },
+        "c": "https://github.com/MVIG-SJTU/AlphaPose",
+        "n": "FastPose50-dcn-si (V0.5 data)",
+        "d": "2022-11-07",
+        "m1": "57.7",
+        "m2": "69.3",
+        "m3": "69.0",
+        "m4": "75.9",
+        "m5": "45.3"
+      },
+      {
+        "p": {
+          "name": "Simple Baselines for Human Pose Estimation and Tracking",
+          "link": "https://arxiv.org/abs/1804.06208v2"
+        },
+        "c": "https://github.com/open-mmlab/mmpose",
+        "n": "SimpleBaseline",
+        "d": "2018-04-17",
+        "m1": "57.3",
+        "m2": "66.6",
+        "m3": "63.5",
+        "m4": "73.2",
+        "m5": "53.7"
+      },
+      {
+        "p": {
+          "name": "Semantic-Structural Graph Convolutional Networks for Whole-Body Human Pose Estimation",
+          "link": "https://doi.org/10.3390/info13030109"
+        },
+        "c": "",
+        "n": "SSGCN (HRNet-w32)",
+        "d": "2022-02-25",
+        "m1": "55.0",
+        "m2": "73.8",
+        "m3": "80.7",
+        "m4": "75.9",
+        "m5": "52.5"
+      },
+      {
+        "p": {
+          "name": "Whole-Body Human Pose Estimation in the Wild",
+          "link": "https://arxiv.org/abs/2007.11858v1"
+        },
+        "c": "https://github.com/open-mmlab/mmpose",
+        "n": "ZoomNet (V0.5 data)",
+        "d": "2020-07-23",
+        "m1": "54.1",
+        "m2": "74.3",
+        "m3": "79.8",
+        "m4": "62.3",
+        "m5": "40.1"
+      },
+      {
+        "p": {
+          "name": "OpenPose: Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields",
+          "link": "https://arxiv.org/abs/1812.08008v1"
+        },
+        "c": "https://github.com/CMU-Perceptual-Computing-Lab/openpose",
+        "n": "OpenPose (V1.0 data)",
+        "d": "2018-12-18",
+        "m1": "44.2",
+        "m2": "56.3",
+        "m3": "53.2",
+        "m4": "76.5",
+        "m5": "38.6"
+      },
+      {
+        "p": {
+          "name": "Associative Embedding: End-to-End Learning for Joint Detection and Grouping",
+          "link": "http://arxiv.org/abs/1611.05424v2"
+        },
+        "c": "https://github.com/open-mmlab/mmpose",
+        "n": "AE (V1.0 data)",
+        "d": "2016-11-16",
+        "m1": "44.0",
+        "m2": "58.0",
+        "m3": "57.7",
+        "m4": "58.8",
+        "m5": "48.1"
+      },
+      {
+        "p": {
+          "name": "Deep High-Resolution Representation Learning for Human Pose Estimation",
+          "link": "http://arxiv.org/abs/1902.09212v1"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
+        "n": "HRNet (V0.5 data)",
+        "d": "2019-02-25",
+        "m1": "43.2",
+        "m2": "65.9",
+        "m3": "31.4",
+        "m4": " 52.3",
+        "m5": "30.0"
+      },
+      {
+        "p": {
+          "name": "HPRNet: Hierarchical Point Regression for Whole-Body Human Pose Estimation",
+          "link": "https://arxiv.org/abs/2106.04269v2"
+        },
+        "c": "https://github.com/nerminsamet/HPRNet",
+        "n": "HPRNet",
+        "d": "2021-06-08",
+        "m1": "34.8",
+        "m2": "59.4",
+        "m3": "53.0",
+        "m4": "75.4",
+        "m5": "50.4"
+      },
+      {
+        "p": {
+          "name": "Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields",
+          "link": "http://arxiv.org/abs/1611.08050v2"
+        },
+        "c": "https://github.com/CMU-Perceptual-Computing-Lab/openpose",
+        "n": "OpenPose (V0.5 data)",
+        "d": "2016-11-24",
+        "m1": "33.8",
+        "m2": "56.3",
+        "m3": "53.2",
+        "m4": "48.2",
+        "m5": "19.8"
+      },
+      {
+        "p": {
+          "name": "DeepPose: Human Pose Estimation via Deep Neural Networks",
+          "link": "https://arxiv.org/abs/1312.4659v3"
+        },
+        "c": "https://github.com/open-mmlab/mmpose",
+        "n": "DeepPose",
+        "d": "2013-12-17",
+        "m1": "33.5",
+        "m2": "44.4",
+        "m3": "36.8",
+        "m4": "49.3",
+        "m5": "23.5"
+      },
+      {
+        "p": {
+          "name": "Single-Network Whole-Body Pose Estimation",
+          "link": "https://arxiv.org/abs/1909.13423v1"
+        },
+        "c": "https://github.com/CMU-Perceptual-Computing-Lab/openpose",
+        "n": "SN",
+        "d": "2019-09-30",
+        "m1": "32.7",
+        "m2": "42.7",
+        "m3": "9.9",
+        "m4": "64.9",
+        "m5": "40.8"
+      },
+      {
+        "p": {
+          "name": "Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields",
+          "link": "http://arxiv.org/abs/1611.08050v2"
+        },
+        "c": "https://github.com/CMU-Perceptual-Computing-Lab/openpose",
+        "n": "PAF",
+        "d": "2016-11-24",
+        "m1": "29.5",
+        "m2": "38.1",
+        "m3": "5.3",
+        "m4": "65.6",
+        "m5": "35.9"
+      },
+      {
+        "p": {
+          "name": "Associative Embedding: End-to-End Learning for Joint Detection and Grouping",
+          "link": "http://arxiv.org/abs/1611.05424v2"
+        },
+        "c": "https://github.com/open-mmlab/mmpose",
+        "n": "AE (V0.5 data)",
+        "d": "2016-11-16",
+        "m1": "27.4",
+        "m2": "40.5",
+        "m3": "7.7",
+        "m4": "47.7",
+        "m5": "34.1"
+      }
+    ]
+  }
+}

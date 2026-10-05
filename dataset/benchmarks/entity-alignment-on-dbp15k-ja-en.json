@@ -1,11 +1,12 @@
 {
   "title": "entity-alignment-on-dbp15k-ja-en",
   "task-hierarchy": [
+    "Knowledge Graphs",
     "Entity Alignment"
   ],
   "dataset-info": {
-    "link": "https://github.com/nle-ml/mmkb",
-    "paper": "MMKG: Multi-Modal Knowledge Graphs"
+    "link": "https://github.com/nju-websoft/JAPE",
+    "paper": "Cross-lingual Entity Alignment via Joint Attribute-Preserving Embedding"
   },
   "benchmark": {
     "fields": [

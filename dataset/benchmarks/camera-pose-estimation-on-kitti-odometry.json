@@ -1,11 +1,12 @@
 {
   "title": "camera-pose-estimation-on-kitti-odometry",
   "task-hierarchy": [
+    "Visual Localization",
     "Camera Pose Estimation"
   ],
   "dataset-info": {
     "link": "https://www.cvlibs.net/datasets/kitti/eval_odometry.php",
-    "paper": ""
+    "paper": "Are we ready for autonomous driving? The KITTI vision benchmark suite"
   },
   "benchmark": {
     "fields": [

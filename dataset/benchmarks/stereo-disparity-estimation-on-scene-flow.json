@@ -1,11 +1,13 @@
 {
   "title": "stereo-disparity-estimation-on-scene-flow",
   "task-hierarchy": [
+    "Depth Estimation",
+    "Stereo Depth Estimation",
     "Stereo Disparity Estimation"
   ],
   "dataset-info": {
-    "link": "",
-    "paper": ""
+    "link": "https://lmb.informatik.uni-freiburg.de/resources/datasets/SceneFlowDatasets.en.html",
+    "paper": "A Large Dataset to Train Convolutional Networks for Disparity, Optical Flow, and Scene Flow Estimation"
   },
   "benchmark": {
     "fields": [

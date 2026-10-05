@@ -1,0 +1,114 @@
+{
+  "title": "data-to-text-generation-on-cleaned-e2e-nlg-challenge",
+  "task-hierarchy": [
+    "Text Generation",
+    "Data-to-Text Generation"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/tuetschek/e2e-cleaning",
+    "paper": "Semantic Noise Matters for Neural Natural Language Generation"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "BLEU (Test set)",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "METEOR (Validation set)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Control Prefixes for Parameter-Efficient Text Generation",
+          "link": "https://arxiv.org/abs/2110.08329v2"
+        },
+        "c": "https://github.com/Yale-LILY/dart",
+        "n": "Control Prefixes (T5-large)",
+        "d": "2021-10-15",
+        "m1": "44.15"
+      },
+      {
+        "p": {
+          "name": "Have Your Text and Use It Too! End-to-End Neural Data-to-Text Generation with Semantic Fidelity",
+          "link": "https://arxiv.org/abs/2004.06577v2"
+        },
+        "c": "https://github.com/amazon-research/datatuner",
+        "n": "DataTuner_FC",
+        "d": "2020-04-08",
+        "m1": "43.6"
+      },
+      {
+        "p": {
+          "name": "Semantic Noise Matters for Neural Natural Language Generation",
+          "link": "https://arxiv.org/abs/1911.03905v1"
+        },
+        "c": "https://github.com/tuetschek/e2e-cleaning",
+        "n": "TGen",
+        "d": "2019-11-10",
+        "m1": "40.73"
+      },
+      {
+        "p": {
+          "name": "The GEM Benchmark: Natural Language Generation, its Evaluation and Metrics",
+          "link": "https://arxiv.org/abs/2102.01672v3"
+        },
+        "c": "",
+        "n": "LSTM",
+        "d": "2021-02-02",
+        "m2": "0.394"
+      },
+      {
+        "p": {
+          "name": "The GEM Benchmark: Natural Language Generation, its Evaluation and Metrics",
+          "link": "https://arxiv.org/abs/2102.01672v3"
+        },
+        "c": "",
+        "n": "TGen",
+        "d": "2021-02-02",
+        "m2": "0.391"
+      },
+      {
+        "p": {
+          "name": "The GEM Benchmark: Natural Language Generation, its Evaluation and Metrics",
+          "link": "https://arxiv.org/abs/2102.01672v3"
+        },
+        "c": "",
+        "n": "BART",
+        "d": "2021-02-02",
+        "m2": "0.373"
+      },
+      {
+        "p": {
+          "name": "The GEM Benchmark: Natural Language Generation, its Evaluation and Metrics",
+          "link": "https://arxiv.org/abs/2102.01672v3"
+        },
+        "c": "",
+        "n": "T5",
+        "d": "2021-02-02",
+        "m2": "0.369"
+      }
+    ]
+  }
+}

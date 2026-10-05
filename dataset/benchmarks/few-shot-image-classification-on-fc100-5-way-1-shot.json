@@ -1,0 +1,259 @@
+{
+  "title": "few-shot-image-classification-on-fc100-5-way-1-shot",
+  "task-hierarchy": [
+    "Image Classification",
+    "Few-Shot Image Classification"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/ElementAI/TADAM",
+    "paper": "TADAM: Task dependent adaptive metric for improved few-shot learning"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Adaptive Dimension Reduction and Variational Inference for Transductive Few-Shot Classification",
+          "link": "https://arxiv.org/abs/2209.08527v1"
+        },
+        "c": "",
+        "n": "BAVARDAGE",
+        "d": "2022-09-18",
+        "m1": "57.27"
+      },
+      {
+        "p": {
+          "name": "EASY: Ensemble Augmented-Shot Y-shaped Learning: State-Of-The-Art Few-Shot Classification with Simple Ingredients",
+          "link": "https://arxiv.org/abs/2201.09699v2"
+        },
+        "c": "https://github.com/ybendou/easy",
+        "n": "EASY 2xResNet12 1/√2 (transductive)",
+        "d": "2022-01-24",
+        "m1": "54.47"
+      },
+      {
+        "p": {
+          "name": "EASY: Ensemble Augmented-Shot Y-shaped Learning: State-Of-The-Art Few-Shot Classification with Simple Ingredients",
+          "link": "https://arxiv.org/abs/2201.09699v2"
+        },
+        "c": "https://github.com/ybendou/easy",
+        "n": "EASY 3xResNet12 (transductive)",
+        "d": "2022-01-24",
+        "m1": "54.13"
+      },
+      {
+        "p": {
+          "name": "Task Augmentation by Rotating for Meta-Learning",
+          "link": "https://arxiv.org/abs/2003.00804v1"
+        },
+        "c": "https://github.com/AceChuse/TaskLevelAug",
+        "n": "R2-D2+Task Aug",
+        "d": "2020-02-08",
+        "m1": "51.35"
+      },
+      {
+        "p": {
+          "name": "Extended Few-Shot Learning: Exploiting Existing Resources for Novel Tasks",
+          "link": "https://arxiv.org/abs/2012.07176v3"
+        },
+        "c": "https://github.com/BatsResearch/efsl",
+        "n": "pseudo-shots",
+        "d": "2020-12-13",
+        "m1": "50.57"
+      },
+      {
+        "p": {
+          "name": "Task Augmentation by Rotating for Meta-Learning",
+          "link": "https://arxiv.org/abs/2003.00804v1"
+        },
+        "c": "https://github.com/AceChuse/TaskLevelAug",
+        "n": "MetaOptNet-SVM+Task Aug",
+        "d": "2020-02-08",
+        "m1": "49.77"
+      },
+      {
+        "p": {
+          "name": "Attribute Surrogates Learning and Spectral Tokens Pooling in Transformers for Few-shot Learning",
+          "link": "https://arxiv.org/abs/2203.09064v1"
+        },
+        "c": "https://github.com/stomachcold/hctransformers",
+        "n": "HCTransformers",
+        "d": "2022-03-17",
+        "m1": "48.27"
+      },
+      {
+        "p": {
+          "name": "EASY: Ensemble Augmented-Shot Y-shaped Learning: State-Of-The-Art Few-Shot Classification with Simple Ingredients",
+          "link": "https://arxiv.org/abs/2201.09699v2"
+        },
+        "c": "https://github.com/ybendou/easy",
+        "n": "EASY 3xResNet12 (inductive)",
+        "d": "2022-01-24",
+        "m1": "48.07"
+      },
+      {
+        "p": {
+          "name": "EASY: Ensemble Augmented-Shot Y-shaped Learning: State-Of-The-Art Few-Shot Classification with Simple Ingredients",
+          "link": "https://arxiv.org/abs/2201.09699v2"
+        },
+        "c": "https://github.com/ybendou/easy",
+        "n": "EASY 2xResNet12 1/√2 (inductive)",
+        "d": "2022-01-24",
+        "m1": "47.94"
+      },
+      {
+        "p": {
+          "name": "Exploring Complementary Strengths of Invariant and Equivariant Representations for Few-Shot Learning",
+          "link": "https://arxiv.org/abs/2103.01315v2"
+        },
+        "c": "https://github.com/nayeemrizve/invariance-equivariance",
+        "n": "Invariance-Equivariance",
+        "d": "2021-03-01",
+        "m1": "47.76"
+      },
+      {
+        "p": {
+          "name": "Rethinking Generalization in Few-Shot Classification",
+          "link": "https://arxiv.org/abs/2206.07267v3"
+        },
+        "c": "https://github.com/mrkshllr/FewTURE",
+        "n": "FewTURE",
+        "d": "2022-06-15",
+        "m1": "47.68"
+      },
+      {
+        "p": {
+          "name": "Meta-Learning with Differentiable Convex Optimization",
+          "link": "http://arxiv.org/abs/1904.03758v2"
+        },
+        "c": "https://github.com/learnables/learn2learn",
+        "n": "MetaOptNet-SVM-trainval",
+        "d": "2019-04-07",
+        "m1": "47.2"
+      },
+      {
+        "p": {
+          "name": "Self-supervised Knowledge Distillation for Few-shot Learning",
+          "link": "https://arxiv.org/abs/2006.09785v2"
+        },
+        "c": "https://github.com/brjathu/SKD",
+        "n": "SKD",
+        "d": "2020-06-17",
+        "m1": "46.5"
+      },
+      {
+        "p": {
+          "name": "Meta-Transfer Learning for Few-Shot Learning",
+          "link": "http://arxiv.org/abs/1812.02391v3"
+        },
+        "c": "https://github.com/yaoyao-liu/meta-transfer-learning",
+        "n": "MTL",
+        "d": "2018-12-06",
+        "m1": "45.1"
+      },
+      {
+        "p": {
+          "name": "Enhancing Few-Shot Image Classification through Learnable Multi-Scale Embedding and Attention Mechanisms",
+          "link": "https://arxiv.org/abs/2409.07989v2"
+        },
+        "c": "https://github.com/FatemehAskari/MSENet",
+        "n": "MSENet",
+        "d": "2024-09-12",
+        "m1": "44.78"
+      },
+      {
+        "p": {
+          "name": "Constellation Nets for Few-Shot Learning",
+          "link": "https://openreview.net/forum?id=vujTf_I8Kmc"
+        },
+        "c": "https://github.com/mlpc-ucsd/ConstellationNet",
+        "n": "ConstellationNets",
+        "d": "2021-01-01",
+        "m1": "43.8"
+      },
+      {
+        "p": {
+          "name": "Sparse Spatial Transformers for Few-Shot Learning",
+          "link": "https://arxiv.org/abs/2109.12932v3"
+        },
+        "c": "https://github.com/chenhaoxing/ssformers",
+        "n": "SSFormers",
+        "d": "2021-09-27",
+        "m1": "43.72"
+      },
+      {
+        "p": {
+          "name": "Bridging Multi-Task Learning and Meta-Learning: Towards Efficient Training and Effective Adaptation",
+          "link": "https://arxiv.org/abs/2106.09017v1"
+        },
+        "c": "https://github.com/AI-secure/multi-task-learning",
+        "n": "Multi-Task Learning",
+        "d": "2021-06-16",
+        "m1": "42.4"
+      },
+      {
+        "p": {
+          "name": "Generalized Adaptation for Few-Shot Learning",
+          "link": "https://arxiv.org/abs/1911.10807v3"
+        },
+        "c": "",
+        "n": "ACC + Amphibian",
+        "d": "2019-11-25",
+        "m1": "41.6"
+      },
+      {
+        "p": {
+          "name": "Complementing Representation Deficiency in Few-shot Image Classification: A Meta-Learning Approach",
+          "link": "https://arxiv.org/abs/2007.10778v1"
+        },
+        "c": "https://github.com/GuChenghs/MCRNet",
+        "n": "MCRNet-SVM",
+        "d": "2020-07-21",
+        "m1": "41"
+      },
+      {
+        "p": {
+          "name": "Complementing Representation Deficiency in Few-shot Image Classification: A Meta-Learning Approach",
+          "link": "https://arxiv.org/abs/2007.10778v1"
+        },
+        "c": "https://github.com/GuChenghs/MCRNet",
+        "n": "MCRNet-RR",
+        "d": "2020-07-21",
+        "m1": "40.7"
+      },
+      {
+        "p": {
+          "name": "TADAM: Task dependent adaptive metric for improved few-shot learning",
+          "link": "http://arxiv.org/abs/1805.10123v4"
+        },
+        "c": "https://github.com/yaoyao-liu/mini-imagenet-tools",
+        "n": "TADAM",
+        "d": "2018-05-23",
+        "m1": "40.1"
+      }
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "title": "few-shot-learning-on-mini-imagenet-5-shot-learning",
+  "task-hierarchy": [
+    "Few-Shot Learning"
+  ],
+  "dataset-info": {
+    "link": "",
+    "paper": "Matching Networks for One Shot Learning"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "",
+        "c": "",
+        "n": "BGNN",
+        "d": "",
+        "m1": "92.7%"
+      },
+      {
+        "p": {
+          "name": "Transductive Information Maximization For Few-Shot Learning",
+          "link": "https://arxiv.org/abs/2008.11297v3"
+        },
+        "c": "https://github.com/sicara/easy-few-shot-learning",
+        "n": "TIM-GD",
+        "d": "2020-08-25",
+        "m1": "87.4%"
+      },
+      {
+        "p": {
+          "name": "UNEM: UNrolled Generalized EM for Transductive Few-Shot Learning",
+          "link": "https://arxiv.org/abs/2412.16739v1"
+        },
+        "c": "https://github.com/zhoulong0/unem-transductive",
+        "n": "UNEM-Gaussian",
+        "d": "2024-12-21",
+        "m1": "66.4%"
+      }
+    ]
+  }
+}

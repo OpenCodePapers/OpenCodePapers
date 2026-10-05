@@ -1,0 +1,194 @@
+{
+  "title": "de-novo-molecule-generation-from-ms-ms-spectrum-bonus-chemical-formulae-on-massspecgym",
+  "task-hierarchy": [
+    "Molecular Modelling",
+    "Mass Spectrometry",
+    "De novo molecule generation from MS/MS spectrum (bonus chemical formulae)"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/pluskal-lab/MassSpecGym",
+    "paper": "MassSpecGym: A benchmark for the discovery and identification of molecules"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Top-1 Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Top-1 MCES",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Top-1 Tanimoto",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Top-10 Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "Top-10 MCES",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "Top-10 Tanimoto",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "DiffMS: Diffusion Generation of Molecules Conditioned on Mass Spectra",
+          "link": "https://arxiv.org/abs/2502.09571v2"
+        },
+        "c": "https://github.com/coleygroup/diffms",
+        "n": "DiffMS",
+        "d": "2025-02-13",
+        "m1": "2.3",
+        "m2": "18.45",
+        "m3": "0.28",
+        "m4": "4.25",
+        "m5": "14.73",
+        "m6": "0.39"
+      },
+      {
+        "p": {
+          "name": "MADGEN: Mass-Spec attends to De Novo Molecular generation",
+          "link": "https://arxiv.org/abs/2501.01950v3"
+        },
+        "c": "https://github.com/HassounLab/MADGEN",
+        "n": "Madgen",
+        "d": "2025-01-03",
+        "m1": "1.31",
+        "m2": "27.47",
+        "m3": "0.20",
+        "m4": "1.54",
+        "m5": "16.84",
+        "m6": "0.26"
+      },
+      {
+        "p": {
+          "name": "MassSpecGym: A benchmark for the discovery and identification of molecules",
+          "link": "https://arxiv.org/abs/2410.23326v3"
+        },
+        "c": "https://github.com/pluskal-lab/massspecgym",
+        "n": "Random chemical generation",
+        "d": "2024-10-30",
+        "m1": "0.00",
+        "m2": "21.11",
+        "m3": "0.08",
+        "m4": "0.00",
+        "m5": "18.25",
+        "m6": "0.11"
+      },
+      {
+        "p": "",
+        "c": "",
+        "n": "MIST + Neuraldecipher",
+        "d": "",
+        "m1": "0.00",
+        "m2": "33.19",
+        "m3": "0.14",
+        "m4": "0.00",
+        "m5": "31.89",
+        "m6": "0.16"
+      },
+      {
+        "p": {
+          "name": "MassSpecGym: A benchmark for the discovery and identification of molecules",
+          "link": "https://arxiv.org/abs/2410.23326v3"
+        },
+        "c": "https://github.com/pluskal-lab/massspecgym",
+        "n": "SELFIES Transformer",
+        "d": "2024-10-30",
+        "m1": "0.00",
+        "m2": "38.88",
+        "m3": "0.08",
+        "m4": "0.00",
+        "m5": "26.87",
+        "m6": "0.13"
+      },
+      {
+        "p": {
+          "name": "MassSpecGym: A benchmark for the discovery and identification of molecules",
+          "link": "https://arxiv.org/abs/2410.23326v3"
+        },
+        "c": "https://github.com/pluskal-lab/massspecgym",
+        "n": "SMILES Transformer",
+        "d": "2024-10-30",
+        "m1": "0.00",
+        "m2": "79.39",
+        "m3": "0.03",
+        "m4": "0.00",
+        "m5": "52.13",
+        "m6": "0.10"
+      },
+      {
+        "p": {
+          "name": "MADGEN: Mass-Spec attends to De Novo Molecular generation",
+          "link": "https://arxiv.org/abs/2501.01950v3"
+        },
+        "c": "https://github.com/HassounLab/MADGEN",
+        "n": "Spec2Mol",
+        "d": "2025-01-03",
+        "m1": "0.00",
+        "m2": "45.89",
+        "m3": "0.19",
+        "m4": "0",
+        "m5": "32.6",
+        "m6": "0.28"
+      },
+      {
+        "p": {
+          "name": "DiffMS: Diffusion Generation of Molecules Conditioned on Mass Spectra",
+          "link": "https://arxiv.org/abs/2502.09571v2"
+        },
+        "c": "https://github.com/coleygroup/diffms",
+        "n": "Spec2Mol",
+        "d": "2025-02-13",
+        "m1": "0.00",
+        "m2": "37.76",
+        "m3": "0.12",
+        "m4": "0.00",
+        "m5": "29.40",
+        "m6": "0.16"
+      },
+      {
+        "p": "",
+        "c": "",
+        "n": "MIST + MSNovelist",
+        "d": "",
+        "m1": "0.00",
+        "m2": "45.55",
+        "m3": "0.06",
+        "m4": "0.00",
+        "m5": "30.13",
+        "m6": "0.15"
+      }
+    ]
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "title": "multi-label-image-classification-on-bigearthnet-official-test-set",
+  "task-hierarchy": [
+    "Image Classification",
+    "Multi-Label Image Classification"
+  ],
+  "dataset-info": {
+    "link": "http://bigearth.net/",
+    "paper": "BigEarthNet: A Large-Scale Benchmark Archive For Remote Sensing Image Understanding"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mAP (micro)",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "F1 Score",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "SSL4EO-S12: A Large-Scale Multi-Modal, Multi-Temporal Dataset for Self-Supervised Learning in Earth Observation",
+          "link": "https://arxiv.org/abs/2211.07044v2"
+        },
+        "c": "https://github.com/zhu-xlab/ssl4eo-s12",
+        "n": "MoCov3 (ViT-S/16)",
+        "d": "2022-11-13",
+        "m1": "89.3",
+        "m2": "80.5"
+      },
+      {
+        "p": {
+          "name": "Feature Guided Masked Autoencoder for Self-supervised Learning in Remote Sensing",
+          "link": "https://arxiv.org/abs/2310.18653v1"
+        },
+        "c": "https://github.com/zhu-xlab/fgmae",
+        "n": "FG-MAE (ViT-S/16)",
+        "d": "2023-10-28",
+        "m1": "89.3",
+        "m2": "80.8"
+      },
+      {
+        "p": {
+          "name": "SSL4EO-S12: A Large-Scale Multi-Modal, Multi-Temporal Dataset for Self-Supervised Learning in Earth Observation",
+          "link": "https://arxiv.org/abs/2211.07044v2"
+        },
+        "c": "https://github.com/zhu-xlab/ssl4eo-s12",
+        "n": "MoCov2 (ResNet50)",
+        "d": "2022-11-13",
+        "m1": "88.7",
+        "m2": "79.8"
+      },
+      {
+        "p": {
+          "name": "Feature Guided Masked Autoencoder for Self-supervised Learning in Remote Sensing",
+          "link": "https://arxiv.org/abs/2310.18653v1"
+        },
+        "c": "https://github.com/zhu-xlab/fgmae",
+        "n": "MAE (ViT-S/16)",
+        "d": "2023-10-28",
+        "m1": "88.6",
+        "m2": "79.9"
+      },
+      {
+        "p": {
+          "name": "Feature Guided Masked Autoencoder for Self-supervised Learning in Remote Sensing",
+          "link": "https://arxiv.org/abs/2310.18653v1"
+        },
+        "c": "https://github.com/zhu-xlab/fgmae",
+        "n": "ViT-S/16",
+        "d": "2023-10-28",
+        "m1": "87.8",
+        "m2": "78.9"
+      },
+      {
+        "p": {
+          "name": "Benchmarking and scaling of deep learning models for land cover image classification",
+          "link": "https://arxiv.org/abs/2111.09451v3"
+        },
+        "c": "https://github.com/orion-ai-lab/efficientbigearthnet",
+        "n": "ResNet50",
+        "d": "2021-11-18",
+        "m2": "76.8"
+      }
+    ]
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "title": "image-based-localization-on-cvusa",
+  "task-hierarchy": [
+    "Visual Localization",
+    "Image-Based Localization"
+  ],
+  "dataset-info": {
+    "link": "",
+    "paper": "Wide-Area Image Geolocalization with Aerial Reference Imagery"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Recall@1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Recall@5",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Recall@10",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Recall@top1%",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "CV-Cities: Advancing Cross-View Geo-Localization in Global Cities",
+          "link": "https://arxiv.org/abs/2411.12431v1"
+        },
+        "c": "https://github.com/gaoshuang98/cvcities",
+        "n": "CV-Cities",
+        "d": "2024-11-19",
+        "m1": "99.19",
+        "m2": "99.80",
+        "m3": "99.85",
+        "m4": "99.92"
+      },
+      {
+        "p": {
+          "name": "Sample4Geo: Hard Negative Sampling For Cross-View Geo-Localisation",
+          "link": "https://arxiv.org/abs/2303.11851v2"
+        },
+        "c": "https://github.com/Skyy93/Sample4Geo",
+        "n": "Sample4Geo",
+        "d": "2023-03-21",
+        "m1": "98.68",
+        "m2": "99.68",
+        "m3": "99.78",
+        "m4": "99.87"
+      },
+      {
+        "p": {
+          "name": "Simple, Effective and General: A New Backbone for Cross-view Image Geo-localization",
+          "link": "https://arxiv.org/abs/2302.01572v1"
+        },
+        "c": "https://github.com/yanghongji2007/saig",
+        "n": "SAIG-D",
+        "d": "2023-02-03",
+        "m1": "96.34",
+        "m2": "99.10",
+        "m3": "99.50",
+        "m4": "99.86"
+      },
+      {
+        "p": {
+          "name": "Beyond Geo-localization: Fine-grained Orientation of Street-view Images by Cross-view Matching with Satellite Imagery with Supplementary Materials",
+          "link": "https://arxiv.org/abs/2307.03398v2"
+        },
+        "c": "",
+        "n": "GeoDTR",
+        "d": "2023-07-07",
+        "m1": "95.43",
+        "m2": "98.86",
+        "m3": "99.34",
+        "m4": "99.86"
+      },
+      {
+        "p": {
+          "name": "TransGeo: Transformer Is All You Need for Cross-view Image Geo-localization",
+          "link": "https://arxiv.org/abs/2204.00097v1"
+        },
+        "c": "https://github.com/jeff-zilence/transgeo2022",
+        "n": "Transgeo",
+        "d": "2022-03-31",
+        "m1": "94.08",
+        "m2": "98.36",
+        "m3": "99.04",
+        "m4": "99.77"
+      },
+      {
+        "p": {
+          "name": "Each Part Matters: Local Patterns Facilitate Cross-view Geo-localization",
+          "link": "https://arxiv.org/abs/2008.11646v3"
+        },
+        "c": "https://github.com/wtyhub/LPN",
+        "n": "LPN",
+        "d": "2020-08-26",
+        "m1": "85.79",
+        "m2": "95.38",
+        "m3": "96.98",
+        "m4": "99.41"
+      },
+      {
+        "p": {
+          "name": "Joint Representation Learning and Keypoint Detection for Cross-view Geo-localization",
+          "link": "https://zhunzhong.site/paper/RK_Net.pdf"
+        },
+        "c": "https://github.com/AggMan96/RK-Net",
+        "n": "RK-Net",
+        "d": "2022-05-15",
+        "m1": "52.50",
+        "m4": "96.52"
+      },
+      {
+        "p": {
+          "name": "University-1652: A Multi-view Multi-source Benchmark for Drone-based Geo-localization",
+          "link": "https://arxiv.org/abs/2002.12186v2"
+        },
+        "c": "https://github.com/layumi/University1652-Baseline",
+        "n": "Instance Loss",
+        "d": "2020-02-27",
+        "m1": "43.91",
+        "m2": "66.38",
+        "m3": "74.58",
+        "m4": "91.78"
+      }
+    ]
+  }
+}

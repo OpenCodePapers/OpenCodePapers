@@ -1,0 +1,133 @@
+{
+  "title": "diffusion-personalization-tuning-free-on-agedb",
+  "task-hierarchy": [
+    "Image Generation",
+    "Diffusion Personalization Tuning Free"
+  ],
+  "dataset-info": {
+    "link": "https://ibug.doc.ic.ac.uk/resources/agedb/",
+    "paper": "AgeDB: the first manually collected, in-the-wild age database"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Cosine Similarity",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "FID",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "LPIPS",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Arc2Face: A Foundation Model for ID-Consistent Human Faces",
+          "link": "https://arxiv.org/abs/2403.11641v2"
+        },
+        "c": "https://github.com/foivospar/Arc2Face",
+        "n": "Arc2Face",
+        "d": "2024-03-18",
+        "m1": "0.796",
+        "m2": "6.628",
+        "m3": "0.508"
+      },
+      {
+        "p": {
+          "name": "InstantID: Zero-shot Identity-Preserving Generation in Seconds",
+          "link": "https://arxiv.org/abs/2401.07519v2"
+        },
+        "c": "https://github.com/instantid/instantid",
+        "n": "InstantID",
+        "d": "2024-01-15",
+        "m1": "0.713",
+        "m2": "18.598",
+        "m3": "0.437"
+      },
+      {
+        "p": {
+          "name": "IP-Adapter: Text Compatible Image Prompt Adapter for Text-to-Image Diffusion Models",
+          "link": "https://arxiv.org/abs/2308.06721v1"
+        },
+        "c": "https://github.com/tencent-ailab/ip-adapter",
+        "n": "IP-Adapter-FaceID-Plus",
+        "d": "2023-08-13",
+        "m1": "0.600",
+        "m2": "11.817",
+        "m3": "0.384"
+      },
+      {
+        "p": {
+          "name": "IP-Adapter: Text Compatible Image Prompt Adapter for Text-to-Image Diffusion Models",
+          "link": "https://arxiv.org/abs/2308.06721v1"
+        },
+        "c": "https://github.com/tencent-ailab/ip-adapter",
+        "n": "IP-Adapter-FaceID-PlusV2",
+        "d": "2023-08-13",
+        "m1": "0.572",
+        "m2": "10.798",
+        "m3": "0.429"
+      },
+      {
+        "p": {
+          "name": "IP-Adapter: Text Compatible Image Prompt Adapter for Text-to-Image Diffusion Models",
+          "link": "https://arxiv.org/abs/2308.06721v1"
+        },
+        "c": "https://github.com/tencent-ailab/ip-adapter",
+        "n": "IP-Adapter-FaceID (SDXL)",
+        "d": "2023-08-13",
+        "m1": "0.535",
+        "m2": "24.105",
+        "m3": "0.462"
+      },
+      {
+        "p": {
+          "name": "PhotoMaker: Customizing Realistic Human Photos via Stacked ID Embedding",
+          "link": "https://arxiv.org/abs/2312.04461v1"
+        },
+        "c": "https://github.com/TencentARC/PhotoMaker",
+        "n": "PhotoMaker",
+        "d": "2023-12-07",
+        "m1": "0.287",
+        "m2": "8.410",
+        "m3": "0.424"
+      },
+      {
+        "p": {
+          "name": "FastComposer: Tuning-Free Multi-Subject Image Generation with Localized Attention",
+          "link": "https://arxiv.org/abs/2305.10431v2"
+        },
+        "c": "https://github.com/mit-han-lab/fastcomposer",
+        "n": "FastComposer",
+        "d": "2023-05-17",
+        "m1": "0.256",
+        "m2": "31.736",
+        "m3": "0.487"
+      }
+    ]
+  }
+}

@@ -1,6 +1,7 @@
 {
   "title": "video-anomaly-detection-on-shanghaitech",
   "task-hierarchy": [
+    "Anomaly Detection",
     "Video Anomaly Detection"
   ],
   "dataset-info": {
@@ -23,6 +24,16 @@
         "sortable": "true"
       },
       {
+        "key": "m2",
+        "label": "RBDC",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "TBDC",
+        "sortable": "true"
+      },
+      {
         "key": "n",
         "label": "ModelName"
       },
@@ -35,13 +46,43 @@
     "items": [
       {
         "p": {
-          "name": "PoseWatch: A Transformer-based Architecture for Human-centric Video Anomaly Detection Using Spatio-temporal Pose Tokenization",
-          "link": "https://arxiv.org/abs/2408.15185v1"
+          "name": "MULDE: Multiscale Log-Density Estimation via Denoising Score Matching for Video Anomaly Detection",
+          "link": "https://arxiv.org/abs/2403.14497v1"
         },
-        "c": "https://github.com/TeCSAR-UNCC/SPARTA",
-        "n": "PoseWatch-H",
-        "d": "2024-08-27",
-        "m1": "85.75"
+        "c": "https://github.com/jakubmicorek/MULDE-Multiscale-Log-Density-Estimation-via-Denoising-Score-Matching-for-Video-Anomaly-Detection",
+        "n": "MULDE-object-centric-micro",
+        "d": "2024-03-21",
+        "m1": "86.7%"
+      },
+      {
+        "p": {
+          "name": "Follow the Rules: Reasoning for Video Anomaly Detection with Large Language Models",
+          "link": "https://arxiv.org/abs/2407.10299v2"
+        },
+        "c": "https://github.com/Yuchen413/AnomalyRuler",
+        "n": "AnomalyRuler",
+        "d": "2024-07-14",
+        "m1": "85.2%"
+      },
+      {
+        "p": {
+          "name": "VideoPatchCore: An Effective Method to Memorize Normality for Video Anomaly Detection",
+          "link": "https://arxiv.org/abs/2409.16225v5"
+        },
+        "c": "https://github.com/SkiddieAhn/Paper-VideoPatchCore",
+        "n": "VideoPatchCore",
+        "d": "2024-09-24",
+        "m1": "85.1%"
+      },
+      {
+        "p": {
+          "name": "MULDE: Multiscale Log-Density Estimation via Denoising Score Matching for Video Anomaly Detection",
+          "link": "https://arxiv.org/abs/2403.14497v1"
+        },
+        "c": "https://github.com/jakubmicorek/MULDE-Multiscale-Log-Density-Estimation-via-Denoising-Score-Matching-for-Video-Anomaly-Detection",
+        "n": "MULDE-frame-centric-micro",
+        "d": "2024-03-21",
+        "m1": "81.3%"
       },
       {
         "p": {
@@ -51,27 +92,29 @@
         "c": "https://github.com/tecsar-uncc/tsgad",
         "n": "TSGAD",
         "d": "2024-04-29",
-        "m1": "80.6"
+        "m1": "80.6%"
       },
       {
         "p": {
-          "name": "VADMamba: Exploring State Space Models for Fast Video Anomaly Detection",
-          "link": "https://arxiv.org/abs/2503.21169v1"
+          "name": "AnyAnomaly: Zero-Shot Customizable Video Anomaly Detection with LVLM",
+          "link": "https://arxiv.org/abs/2503.04504v1"
         },
-        "c": "https://github.com/jLooo/VADMamba",
-        "n": "VADMamba",
-        "d": "2025-03-27",
-        "m1": "77.0%"
+        "c": "https://github.com/SkiddieAhn/Paper-AnyAnomaly",
+        "n": "AnyAnomaly",
+        "d": "2025-03-06",
+        "m1": "79.7%"
       },
       {
         "p": {
-          "name": "A Hybrid Video Anomaly Detection Framework via Memory-Augmented Flow Reconstruction and Flow-Guided Frame Prediction",
-          "link": "https://arxiv.org/abs/2108.06852v1"
+          "name": "Bounding Boxes and Probabilistic Graphical Models: Video Anomaly Detection Simplified",
+          "link": "https://arxiv.org/abs/2407.06000v2"
         },
-        "c": "https://github.com/LiUzHiAn/hf2vad",
-        "n": "HF2-VAD",
-        "d": "2021-08-16",
-        "m1": "76.2"
+        "c": "https://github.com/milestonesys-research/vad-with-pgms",
+        "n": "PGM",
+        "d": "2024-07-08",
+        "m1": "61.28%",
+        "m2": "45.4",
+        "m3": "81.87"
       }
     ]
   }

@@ -1,0 +1,168 @@
+{
+  "title": "object-detection-on-usb-standard-usb-1-0-protocol",
+  "task-hierarchy": [
+    "Object Detection"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/shinya7y/UniverseNet",
+    "paper": "USB: Universal-Scale Object Detection Benchmark"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mCAP",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "USB: Universal-Scale Object Detection Benchmark",
+          "link": "https://arxiv.org/abs/2103.14027v3"
+        },
+        "c": "https://github.com/shinya7y/UniverseNet",
+        "n": "UniverseNet-20.08",
+        "d": "2021-03-25",
+        "m1": "52.1"
+      },
+      {
+        "p": {
+          "name": "USB: Universal-Scale Object Detection Benchmark",
+          "link": "https://arxiv.org/abs/2103.14027v3"
+        },
+        "c": "https://github.com/shinya7y/UniverseNet",
+        "n": "UniverseNet",
+        "d": "2021-03-25",
+        "m1": "51.4"
+      },
+      {
+        "p": {
+          "name": "USB: Universal-Scale Object Detection Benchmark",
+          "link": "https://arxiv.org/abs/2103.14027v3"
+        },
+        "c": "https://github.com/shinya7y/UniverseNet",
+        "n": "ATSS (ConvNeXt-T)",
+        "d": "2021-03-25",
+        "m1": "50.4"
+      },
+      {
+        "p": {
+          "name": "USB: Universal-Scale Object Detection Benchmark",
+          "link": "https://arxiv.org/abs/2103.14027v3"
+        },
+        "c": "https://github.com/shinya7y/UniverseNet",
+        "n": "YOLOX-L",
+        "d": "2021-03-25",
+        "m1": "49.6"
+      },
+      {
+        "p": {
+          "name": "USB: Universal-Scale Object Detection Benchmark",
+          "link": "https://arxiv.org/abs/2103.14027v3"
+        },
+        "c": "https://github.com/shinya7y/UniverseNet",
+        "n": "ATSS+DyHead",
+        "d": "2021-03-25",
+        "m1": "49.4"
+      },
+      {
+        "p": {
+          "name": "USB: Universal-Scale Object Detection Benchmark",
+          "link": "https://arxiv.org/abs/2103.14027v3"
+        },
+        "c": "https://github.com/shinya7y/UniverseNet",
+        "n": "ATSS (Swin-T)",
+        "d": "2021-03-25",
+        "m1": "49.0"
+      },
+      {
+        "p": {
+          "name": "USB: Universal-Scale Object Detection Benchmark",
+          "link": "https://arxiv.org/abs/2103.14027v3"
+        },
+        "c": "https://github.com/shinya7y/UniverseNet",
+        "n": "Cascade R-CNN",
+        "d": "2021-03-25",
+        "m1": "48.1"
+      },
+      {
+        "p": {
+          "name": "USB: Universal-Scale Object Detection Benchmark",
+          "link": "https://arxiv.org/abs/2103.14027v3"
+        },
+        "c": "https://github.com/shinya7y/UniverseNet",
+        "n": "GFL",
+        "d": "2021-03-25",
+        "m1": "47.7"
+      },
+      {
+        "p": {
+          "name": "USB: Universal-Scale Object Detection Benchmark",
+          "link": "https://arxiv.org/abs/2103.14027v3"
+        },
+        "c": "https://github.com/shinya7y/UniverseNet",
+        "n": "ATSS",
+        "d": "2021-03-25",
+        "m1": "47.1"
+      },
+      {
+        "p": {
+          "name": "USB: Universal-Scale Object Detection Benchmark",
+          "link": "https://arxiv.org/abs/2103.14027v3"
+        },
+        "c": "https://github.com/shinya7y/UniverseNet",
+        "n": "Faster R-CNN",
+        "d": "2021-03-25",
+        "m1": "45.9"
+      },
+      {
+        "p": {
+          "name": "USB: Universal-Scale Object Detection Benchmark",
+          "link": "https://arxiv.org/abs/2103.14027v3"
+        },
+        "c": "https://github.com/shinya7y/UniverseNet",
+        "n": "RetinaNet",
+        "d": "2021-03-25",
+        "m1": "44.8"
+      },
+      {
+        "p": {
+          "name": "USB: Universal-Scale Object Detection Benchmark",
+          "link": "https://arxiv.org/abs/2103.14027v3"
+        },
+        "c": "https://github.com/shinya7y/UniverseNet",
+        "n": "Sparse R-CNN",
+        "d": "2021-03-25",
+        "m1": "44.6"
+      },
+      {
+        "p": {
+          "name": "USB: Universal-Scale Object Detection Benchmark",
+          "link": "https://arxiv.org/abs/2103.14027v3"
+        },
+        "c": "https://github.com/shinya7y/UniverseNet",
+        "n": "DETR",
+        "d": "2021-03-25",
+        "m1": "23.7"
+      }
+    ]
+  }
+}

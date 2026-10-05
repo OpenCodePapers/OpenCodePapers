@@ -1,0 +1,250 @@
+{
+  "title": "open-domain-question-answering-on-kilt-triviaqa",
+  "task-hierarchy": [
+    "Question Answering",
+    "Open-Domain Question Answering"
+  ],
+  "dataset-info": {
+    "link": "http://kiltbenchmark.com/",
+    "paper": "KILT: a Benchmark for Knowledge Intensive Language Tasks"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "KILT-EM",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "R-Prec",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Recall@5",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "EM",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "F1",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "KILT-F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Re2G: Retrieve, Rerank, Generate",
+          "link": "https://arxiv.org/abs/2207.06300v1"
+        },
+        "c": "https://github.com/ibm/kgi-slot-filling",
+        "n": "Re2G",
+        "d": "2022-07-13",
+        "m1": "57.91",
+        "m2": "72.68",
+        "m3": "74.23",
+        "m4": "76.27",
+        "m5": "81.4",
+        "m6": "61.78"
+      },
+      {
+        "p": "",
+        "c": "",
+        "n": "intersect",
+        "d": "",
+        "m1": "50.56",
+        "m2": "68.36",
+        "m3": "76.36",
+        "m4": "70.86",
+        "m5": "77.29",
+        "m6": "54.99"
+      },
+      {
+        "p": "",
+        "c": "",
+        "n": "Wikipedia",
+        "d": "",
+        "m1": "45.55",
+        "m2": "58.85",
+        "m3": "71.55",
+        "m4": "72.73",
+        "m5": "79.54",
+        "m6": "49.57"
+      },
+      {
+        "p": "",
+        "c": "",
+        "n": "KGI_0",
+        "d": "",
+        "m1": "42.85",
+        "m2": "60.49",
+        "m3": "63.54",
+        "m4": "60.99",
+        "m5": "66.55",
+        "m6": "46.08"
+      },
+      {
+        "p": "",
+        "c": "",
+        "n": "Multitask DPR + BART",
+        "d": "",
+        "m1": "42.36",
+        "m2": "61.49",
+        "m3": "68.33",
+        "m4": "59.6",
+        "m5": "66.53",
+        "m6": "46.19"
+      },
+      {
+        "p": "",
+        "c": "",
+        "n": "RAG",
+        "d": "",
+        "m1": "38.13",
+        "m2": "48.68",
+        "m3": "57.13",
+        "m4": "71.27",
+        "m5": "75.88",
+        "m6": "40.15"
+      },
+      {
+        "p": "",
+        "c": "",
+        "n": "BERT + DPR",
+        "d": "",
+        "m1": "34.48",
+        "m2": "43.4",
+        "m3": "31.45",
+        "m4": "70.38",
+        "m5": "74.41",
+        "m6": "36.28"
+      },
+      {
+        "p": "",
+        "c": "",
+        "n": "BART + DPR",
+        "d": "",
+        "m1": "31.4",
+        "m2": "44.49",
+        "m3": "56.99",
+        "m4": "58.55",
+        "m5": "67.79",
+        "m6": "35.34"
+      },
+      {
+        "p": "",
+        "c": "",
+        "n": "TABi",
+        "d": "",
+        "m1": "0.0",
+        "m2": "70.36",
+        "m3": "69.16",
+        "m4": "0.0",
+        "m5": "0.0",
+        "m6": "0.0"
+      },
+      {
+        "p": "",
+        "c": "",
+        "n": "chriskuei",
+        "d": "",
+        "m1": "0.0",
+        "m2": "70.19",
+        "m3": "75.64",
+        "m4": "0.0",
+        "m5": "0.0",
+        "m6": "0.0"
+      },
+      {
+        "p": "",
+        "c": "",
+        "n": "GENRE",
+        "d": "",
+        "m1": "0.0",
+        "m2": "69.16",
+        "m3": "75.07",
+        "m4": "0.0",
+        "m5": "0.0",
+        "m6": "0.0"
+      },
+      {
+        "p": "",
+        "c": "",
+        "n": "Multi-task DPR",
+        "d": "",
+        "m1": "0.0",
+        "m2": "61.49",
+        "m3": "68.33",
+        "m4": "0.0",
+        "m5": "0.0",
+        "m6": "0.0"
+      },
+      {
+        "p": "",
+        "c": "",
+        "n": "Sphere",
+        "d": "",
+        "m1": "0.0",
+        "m2": "0.0",
+        "m3": "0.0",
+        "m4": "73.06",
+        "m5": "80.33",
+        "m6": "0.0"
+      },
+      {
+        "p": "",
+        "c": "",
+        "n": "BART",
+        "d": "",
+        "m1": "0.0",
+        "m2": "0.0",
+        "m3": "0.0",
+        "m4": "32.39",
+        "m5": "39.85",
+        "m6": "0.0"
+      },
+      {
+        "p": {
+          "name": "KILT: a Benchmark for Knowledge Intensive Language Tasks",
+          "link": "https://arxiv.org/abs/2009.02252v4"
+        },
+        "c": "https://github.com/facebookresearch/KILT",
+        "n": "T5-base",
+        "d": "2020-09-04",
+        "m1": "0.0",
+        "m2": "0.0",
+        "m3": "0.0",
+        "m4": "18.11",
+        "m5": "27.83",
+        "m6": "0.0"
+      }
+    ]
+  }
+}

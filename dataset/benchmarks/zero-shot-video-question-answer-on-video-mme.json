@@ -36,23 +36,23 @@
     "items": [
       {
         "p": {
-          "name": "Video-RAG: Visually-aligned Retrieval-Augmented Long Video Comprehension",
-          "link": "https://arxiv.org/abs/2411.13093v3"
-        },
-        "c": "https://github.com/leon1207/video-rag-master",
-        "n": "Video-RAG (based on LLaVA-Video)",
-        "d": "2024-11-20",
-        "m1": "77.4"
-      },
-      {
-        "p": {
           "name": "Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context",
           "link": "https://arxiv.org/abs/2403.05530v5"
         },
         "c": "https://github.com/dlvuldet/primevul",
         "n": "Gemini 1.5 Pro",
         "d": "2024-03-08",
-        "m1": "71.9"
+        "m1": "81.3"
+      },
+      {
+        "p": {
+          "name": "Video-RAG: Visually-aligned Retrieval-Augmented Long Video Comprehension",
+          "link": "https://arxiv.org/abs/2411.13093v3"
+        },
+        "c": "https://github.com/leon1207/video-rag-master",
+        "n": "Video-RAG (Based on LLaVA-Video)",
+        "d": "2024-11-20",
+        "m1": "77.4"
       },
       {
         "p": {
@@ -62,7 +62,7 @@
         "c": "",
         "n": "GPT-4o",
         "d": "2024-06-14",
-        "m1": "70.3"
+        "m1": "77.2"
       },
       {
         "p": {
@@ -72,14 +72,7 @@
         "c": "https://github.com/dlvuldet/primevul",
         "n": "Gemini 1.5 Flash",
         "d": "2024-03-08",
-        "m1": "66.3"
-      },
-      {
-        "p": "",
-        "c": "",
-        "n": "LLaVA-OneVision (72B)",
-        "d": "",
-        "m1": "64.8"
+        "m1": "75.0"
       },
       {
         "p": {
@@ -89,7 +82,17 @@
         "c": "",
         "n": "GPT-4o mini",
         "d": "2024-06-14",
-        "m1": "62.3"
+        "m1": "68.9"
+      },
+      {
+        "p": {
+          "name": "BIMBA: Selective-Scan Compression for Long-Range Video Question Answering",
+          "link": "https://arxiv.org/abs/2503.09590v1"
+        },
+        "c": "https://github.com/md-mohaiminul/BIMBA",
+        "n": "BIMBA-LLaVA-Qwen2-7B",
+        "d": "2025-03-12",
+        "m1": "64.67"
       },
       {
         "p": {
@@ -99,7 +102,17 @@
         "c": "https://github.com/efficient-large-model/vila",
         "n": "VILA-1.5 (34B)",
         "d": "2023-12-12",
-        "m1": "61.4"
+        "m1": "64.1"
+      },
+      {
+        "p": {
+          "name": "MiniCPM-V: A GPT-4V Level MLLM on Your Phone",
+          "link": "https://arxiv.org/abs/2408.01800v1"
+        },
+        "c": "https://github.com/openbmb/minicpm-v",
+        "n": "MiniCPM-V 2.6 (8B)",
+        "d": "2024-08-03",
+        "m1": "63.7"
       },
       {
         "p": {
@@ -109,7 +122,17 @@
         "c": "https://github.com/damo-nlp-sg/videollama2",
         "n": "VideoLLaMA2 (72B)",
         "d": "2024-06-11",
-        "m1": "60.9"
+        "m1": "63.1"
+      },
+      {
+        "p": {
+          "name": "LongVU: Spatiotemporal Adaptive Compression for Long Video-Language Understanding",
+          "link": "https://arxiv.org/abs/2410.17434v1"
+        },
+        "c": "https://github.com/Vision-CAIR/LongVU",
+        "n": "LongVU (7B)",
+        "d": "2024-10-22",
+        "m1": "60.6"
       },
       {
         "p": {
@@ -119,7 +142,7 @@
         "c": "https://github.com/OpenGVLab/TimeSuite",
         "n": "VideoChat-T (7B)",
         "d": "2024-10-25",
-        "m1": "46.3"
+        "m1": "55.8"
       }
     ]
   }

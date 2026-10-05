@@ -1,0 +1,406 @@
+{
+  "title": "video-frame-interpolation-on-msu-video-frame-interpolation",
+  "task-hierarchy": [
+    "Video Frame Interpolation"
+  ],
+  "dataset-info": {
+    "link": "https://videoprocessing.ai/benchmarks/video-frame-interpolation.html",
+    "paper": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Subjective score",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "PSNR",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "SSIM",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "VMAF",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "LPIPS",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "MS-SSIM",
+        "sortable": "true"
+      },
+      {
+        "key": "m7",
+        "label": "FPS",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "RIFE: Real-Time Intermediate Flow Estimation for Video Frame Interpolation",
+          "link": "https://arxiv.org/abs/2011.06294v11"
+        },
+        "c": "https://github.com/hzwer/eccv2022-rife",
+        "n": "RIFE",
+        "d": "2020-11-12",
+        "m1": "1.99",
+        "m2": "27.15",
+        "m3": "0.914",
+        "m4": "66.33",
+        "m5": "0.039",
+        "m6": "0.939",
+        "m7": "27.3"
+      },
+      {
+        "p": {
+          "name": "XVFI: eXtreme Video Frame Interpolation",
+          "link": "https://arxiv.org/abs/2103.16206v2"
+        },
+        "c": "https://github.com/JihyongOh/XVFI",
+        "n": "XVFI (S_{tst}=3)",
+        "d": "2021-03-30",
+        "m1": "1.38",
+        "m2": "27.35",
+        "m3": "0.913",
+        "m4": "63.47",
+        "m5": "0.061",
+        "m6": "0.933",
+        "m7": "5.4"
+      },
+      {
+        "p": {
+          "name": "Super SloMo: High Quality Estimation of Multiple Intermediate Frames for Video Interpolation",
+          "link": "http://arxiv.org/abs/1712.00080v2"
+        },
+        "c": "https://github.com/avinashpaliwal/Super-SloMo",
+        "n": "Super-SloMo",
+        "d": "2017-11-30",
+        "m1": "1.11",
+        "m2": "26.69",
+        "m3": "0.904",
+        "m4": "61.35",
+        "m5": "0.068",
+        "m6": "0.924",
+        "m7": "3.1"
+      },
+      {
+        "p": {
+          "name": "Extracting Motion and Appearance via Inter-Frame Attention for Efficient Video Frame Interpolation",
+          "link": "https://arxiv.org/abs/2303.00440v2"
+        },
+        "c": "https://github.com/mcg-nju/ema-vfi",
+        "n": "EMA-VFI",
+        "d": "2023-03-01",
+        "m2": "29.89",
+        "m3": "0.953",
+        "m4": "71.71",
+        "m5": "0.022",
+        "m6": "0.965"
+      },
+      {
+        "p": {
+          "name": "A Unified Pyramid Recurrent Network for Video Frame Interpolation",
+          "link": "https://arxiv.org/abs/2211.03456v2"
+        },
+        "c": "https://github.com/srcn-ivl/upr-net",
+        "n": "UPR-Net LARGE",
+        "d": "2022-11-07",
+        "m2": "29.73",
+        "m3": "0.951",
+        "m4": "71.34",
+        "m5": "0.025",
+        "m6": "0.962"
+      },
+      {
+        "p": {
+          "name": "Video Frame Interpolation with Densely Queried Bilateral Correlation",
+          "link": "https://arxiv.org/abs/2304.13596v1"
+        },
+        "c": "https://github.com/kinoud/DQBC",
+        "n": "DQBC",
+        "d": "2023-04-26",
+        "m2": "29.45",
+        "m3": "0.949",
+        "m4": "72.12",
+        "m5": "0.021",
+        "m6": "0.961"
+      },
+      {
+        "p": {
+          "name": "Enhanced Bi-directional Motion Estimation for Video Frame Interpolation",
+          "link": "https://arxiv.org/abs/2206.08572v3"
+        },
+        "c": "https://github.com/srcn-ivl/ebme",
+        "n": "EBME-H",
+        "d": "2022-06-17",
+        "m2": "28.77",
+        "m3": "0.931",
+        "m4": "68.20",
+        "m5": "0.024",
+        "m6": "0.958"
+      },
+      {
+        "p": {
+          "name": "Enhanced Bi-directional Motion Estimation for Video Frame Interpolation",
+          "link": "https://arxiv.org/abs/2206.08572v3"
+        },
+        "c": "https://github.com/srcn-ivl/ebme",
+        "n": "EBME",
+        "d": "2022-06-17",
+        "m2": "28.56",
+        "m3": "0.928",
+        "m4": "69.37",
+        "m5": "0.028",
+        "m6": "0.957"
+      },
+      {
+        "p": {
+          "name": "Video Frame Interpolation with Transformer",
+          "link": "https://arxiv.org/abs/2205.07230v1"
+        },
+        "c": "https://github.com/dvlab-research/vfiformer",
+        "n": "VFIformer",
+        "d": "2022-05-15",
+        "m2": "28.34",
+        "m3": "0.917",
+        "m4": "68.87",
+        "m5": "0.044",
+        "m6": "0.942"
+      },
+      {
+        "p": {
+          "name": "FILM: Frame Interpolation for Large Motion",
+          "link": "https://arxiv.org/abs/2202.04901v4"
+        },
+        "c": "https://github.com/google-research/frame-interpolation",
+        "n": "FILM",
+        "d": "2022-02-10",
+        "m2": "28.11",
+        "m3": "0.928",
+        "m4": "68.68",
+        "m5": "0.033",
+        "m6": "0.948"
+      },
+      {
+        "p": {
+          "name": "IFRNet: Intermediate Feature Refine Network for Efficient Frame Interpolation",
+          "link": "https://arxiv.org/abs/2205.14620v1"
+        },
+        "c": "https://github.com/ltkong218/ifrnet",
+        "n": "IFRNet_large",
+        "d": "2022-05-29",
+        "m2": "28.04",
+        "m3": "0.921",
+        "m4": "66.98",
+        "m5": "0.037",
+        "m6": "0.943"
+      },
+      {
+        "p": {
+          "name": "Learning Cross-Video Neural Representations for High-Quality Frame Interpolation",
+          "link": "https://arxiv.org/abs/2203.00137v1"
+        },
+        "c": "https://github.com/wustl-cig/CURE",
+        "n": "CURE",
+        "d": "2022-02-28",
+        "m2": "28.01",
+        "m3": "0.920",
+        "m4": "67.07",
+        "m5": "0.029",
+        "m6": "0.946"
+      },
+      {
+        "p": {
+          "name": "Asymmetric Bilateral Motion Estimation for Video Frame Interpolation",
+          "link": "https://arxiv.org/abs/2108.06815v1"
+        },
+        "c": "https://github.com/junheum/abme",
+        "n": "ABME",
+        "d": "2021-08-15",
+        "m2": "27.99",
+        "m3": "0.919",
+        "m4": "68.10",
+        "m5": "0.039",
+        "m6": "0.945"
+      },
+      {
+        "p": {
+          "name": "XVFI: eXtreme Video Frame Interpolation",
+          "link": "https://arxiv.org/abs/2103.16206v2"
+        },
+        "c": "https://github.com/JihyongOh/XVFI",
+        "n": "XVFI (S_{tst}=5)",
+        "d": "2021-03-30",
+        "m2": "27.86",
+        "m3": "0.921",
+        "m4": "67.25",
+        "m5": "0.049",
+        "m6": "0.955"
+      },
+      {
+        "p": {
+          "name": "IFRNet: Intermediate Feature Refine Network for Efficient Frame Interpolation",
+          "link": "https://arxiv.org/abs/2205.14620v1"
+        },
+        "c": "https://github.com/ltkong218/ifrnet",
+        "n": "IFRNet_base",
+        "d": "2022-05-29",
+        "m2": "27.67",
+        "m3": "0.909",
+        "m4": "64.16",
+        "m5": "0.048",
+        "m6": "0.932"
+      },
+      {
+        "p": {
+          "name": "IFRNet: Intermediate Feature Refine Network for Efficient Frame Interpolation",
+          "link": "https://arxiv.org/abs/2205.14620v1"
+        },
+        "c": "https://github.com/ltkong218/ifrnet",
+        "n": "IFRNet_small",
+        "d": "2022-05-29",
+        "m2": "27.45",
+        "m3": "0.908",
+        "m4": "63.43",
+        "m5": "0.049",
+        "m6": "0.931"
+      },
+      {
+        "p": {
+          "name": "CDFI: Compression-Driven Network Design for Frame Interpolation",
+          "link": "https://arxiv.org/abs/2103.10559v2"
+        },
+        "c": "https://github.com/tding1/CDFI",
+        "n": "CDFI",
+        "d": "2021-03-18",
+        "m2": "26.99",
+        "m3": "0.908",
+        "m4": "61.72",
+        "m5": "0.051",
+        "m6": "0.926"
+      },
+      {
+        "p": {
+          "name": "Video Frame Interpolation via Adaptive Separable Convolution",
+          "link": "http://arxiv.org/abs/1708.01692v1"
+        },
+        "c": "https://github.com/sniklaus/sepconv-slomo",
+        "n": "SepConv-L1",
+        "d": "2017-08-05",
+        "m2": "26.36"
+      },
+      {
+        "p": {
+          "name": "Video Frame Interpolation via Residue Refinement",
+          "link": "https://ieeexplore.ieee.org/document/9053987"
+        },
+        "c": "https://github.com/HopLee6/RRIN",
+        "n": "RRIN",
+        "d": "2020-05-04",
+        "m2": "25.76",
+        "m3": "0.893",
+        "m4": "59.82",
+        "m5": "0.072",
+        "m6": "0.902"
+      },
+      {
+        "p": {
+          "name": "AdaCoF: Adaptive Collaboration of Flows for Video Frame Interpolation",
+          "link": "https://arxiv.org/abs/1907.10244v3"
+        },
+        "c": "https://github.com/HyeongminLEE/AdaCoF-pytorch",
+        "n": "AdaCoF_f",
+        "d": "2019-07-24",
+        "m2": "24.99",
+        "m3": "0.903",
+        "m4": "60.19",
+        "m5": "0.058",
+        "m6": "0.913"
+      },
+      {
+        "p": {
+          "name": "FeatureFlow: Robust Video Interpolation via Structure-to-Texture Generation",
+          "link": "http://openaccess.thecvf.com/content_CVPR_2020/html/Gui_FeatureFlow_Robust_Video_Interpolation_via_Structure-to-Texture_Generation_CVPR_2020_paper.html"
+        },
+        "c": "https://github.com/CM-BF/FeatureFlow",
+        "n": "FeFlow_f",
+        "d": "2020-06-01",
+        "m2": "24.48",
+        "m3": "0.902",
+        "m4": "60.70",
+        "m5": "0.060",
+        "m6": "0.911"
+      },
+      {
+        "p": {
+          "name": "BMBC: Bilateral Motion Estimation with Bilateral Cost Volume for Video Interpolation",
+          "link": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/2095_ECCV_2020_paper.php"
+        },
+        "c": "https://github.com/JunHeum/BMBC",
+        "n": "BMBC",
+        "d": "",
+        "m2": "23.34",
+        "m3": "0.885",
+        "m4": "59.27",
+        "m5": "0.071",
+        "m6": "0.898"
+      },
+      {
+        "p": {
+          "name": "FeatureFlow: Robust Video Interpolation via Structure-to-Texture Generation",
+          "link": "http://openaccess.thecvf.com/content_CVPR_2020/html/Gui_FeatureFlow_Robust_Video_Interpolation_via_Structure-to-Texture_Generation_CVPR_2020_paper.html"
+        },
+        "c": "https://github.com/CM-BF/FeatureFlow",
+        "n": "FeFlow",
+        "d": "2020-06-01",
+        "m2": "23.28",
+        "m3": "0.889",
+        "m4": "58.11",
+        "m5": "0.070",
+        "m6": "0.894"
+      },
+      {
+        "p": {
+          "name": "AdaCoF: Adaptive Collaboration of Flows for Video Frame Interpolation",
+          "link": "https://arxiv.org/abs/1907.10244v3"
+        },
+        "c": "https://github.com/HyeongminLEE/AdaCoF-pytorch",
+        "n": "AdaCoF",
+        "d": "2019-07-24",
+        "m2": "23.17",
+        "m3": "0.891",
+        "m4": "58.29",
+        "m5": "0.692",
+        "m6": "0.883"
+      }
+    ]
+  }
+}

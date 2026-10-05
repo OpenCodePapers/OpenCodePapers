@@ -1,0 +1,89 @@
+{
+  "title": "text-to-image-generation-on-conceptual-captions",
+  "task-hierarchy": [
+    "Image Generation",
+    "Text-to-Image Generation"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/google-research-datasets/conceptual-captions",
+    "paper": "Conceptual Captions: A Cleaned, Hypernymed, Image Alt-text Dataset For Automatic Image Captioning"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "FID",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Draft-and-Revise: Effective Image Generation with Contextual RQ-Transformer",
+          "link": "https://arxiv.org/abs/2206.04452v1"
+        },
+        "c": "",
+        "n": "Contextual RQ-Transformer",
+        "d": "2022-06-09",
+        "m1": "9.80"
+      },
+      {
+        "p": {
+          "name": "Autoregressive Image Generation using Residual Quantization",
+          "link": "https://arxiv.org/abs/2203.01941v2"
+        },
+        "c": "https://github.com/kakaobrain/rq-vae-transformer",
+        "n": "RQ-Transformer",
+        "d": "2022-03-03",
+        "m1": "12.33"
+      },
+      {
+        "p": {
+          "name": "High-Resolution Image Synthesis with Latent Diffusion Models",
+          "link": "https://arxiv.org/abs/2112.10752v2"
+        },
+        "c": "https://github.com/compvis/stable-diffusion",
+        "n": "LDM-4",
+        "d": "2021-12-20",
+        "m1": "17.01"
+      },
+      {
+        "p": {
+          "name": "ImageBART: Bidirectional Context with Multinomial Diffusion for Autoregressive Image Synthesis",
+          "link": "https://arxiv.org/abs/2108.08827v1"
+        },
+        "c": "https://github.com/compvis/imagebart",
+        "n": "Image-BART",
+        "d": "2021-08-19",
+        "m1": "22.61"
+      },
+      {
+        "p": {
+          "name": "Taming Transformers for High-Resolution Image Synthesis",
+          "link": "https://arxiv.org/abs/2012.09841v3"
+        },
+        "c": "https://github.com/CompVis/taming-transformers",
+        "n": "VQ-GAN",
+        "d": "2020-12-17",
+        "m1": "28.86"
+      }
+    ]
+  }
+}

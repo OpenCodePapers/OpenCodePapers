@@ -1,0 +1,99 @@
+{
+  "title": "few-shot-image-classification-on-stanford-cars-5-way-1-shot",
+  "task-hierarchy": [
+    "Image Classification",
+    "Few-Shot Image Classification"
+  ],
+  "dataset-info": {
+    "link": "https://ai.stanford.edu/~jkrause/cars/car_dataset.html",
+    "paper": "3D Object Representations for Fine-Grained Categorization"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Multi-scale Adaptive Task Attention Network for Few-Shot Learning",
+          "link": "https://arxiv.org/abs/2011.14479v1"
+        },
+        "c": "",
+        "n": "MATANet",
+        "d": "2020-11-30",
+        "m1": "73.15"
+      },
+      {
+        "p": {
+          "name": "Multi-level Metric Learning for Few-shot Image Recognition",
+          "link": "https://arxiv.org/abs/2103.11383v4"
+        },
+        "c": "",
+        "n": "MML(KL)",
+        "d": "2021-03-21",
+        "m1": "72.43"
+      },
+      {
+        "p": {
+          "name": "Revisiting Local Descriptor based Image-to-Class Measure for Few-shot Learning",
+          "link": "http://arxiv.org/abs/1903.12290v2"
+        },
+        "c": "https://github.com/WenbinLee/DN4",
+        "n": "DN4-DA (k=1)",
+        "d": "2019-03-28",
+        "m1": "61.51"
+      },
+      {
+        "p": {
+          "name": "Few-Shot Learning with Graph Neural Networks",
+          "link": "http://arxiv.org/abs/1711.04043v3"
+        },
+        "c": "https://github.com/vgsatorras/few-shot-gnn",
+        "n": "GNN++",
+        "d": "2017-11-10",
+        "m1": "55.85"
+      },
+      {
+        "p": {
+          "name": "Prototypical Networks for Few-shot Learning",
+          "link": "http://arxiv.org/abs/1703.05175v2"
+        },
+        "c": "https://github.com/learnables/learn2learn",
+        "n": "Prototypical Nets++",
+        "d": "2017-03-15",
+        "m1": "40.90"
+      },
+      {
+        "p": {
+          "name": "Matching Networks for One Shot Learning",
+          "link": "http://arxiv.org/abs/1606.04080v2"
+        },
+        "c": "https://github.com/oscarknagg/few-shot",
+        "n": "Matching Nets FCE++",
+        "d": "2016-06-13",
+        "m1": "34.80"
+      }
+    ]
+  }
+}

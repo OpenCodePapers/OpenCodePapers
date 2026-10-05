@@ -1,0 +1,98 @@
+{
+  "title": "image-to-image-translation-on-cityscapes-to-foggy-cityscapes",
+  "task-hierarchy": [
+    "Image-to-Image Translation"
+  ],
+  "dataset-info": {
+    "link": "http://people.ee.ethz.ch/~csakarid/SFSU_synthetic/",
+    "paper": "Semantic Foggy Scene Understanding with Synthetic Data"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mAP",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "MIC: Masked Image Consistency for Context-Enhanced Domain Adaptation",
+          "link": "https://arxiv.org/abs/2212.01322v2"
+        },
+        "c": "https://github.com/lhoyer/mic",
+        "n": "MIC",
+        "d": "2022-12-02",
+        "m1": "47.6"
+      },
+      {
+        "p": {
+          "name": "Bi-Dimensional Feature Alignment for Cross-Domain Object Detection",
+          "link": "https://arxiv.org/abs/2011.07205v1"
+        },
+        "c": "",
+        "n": "SSA-DA",
+        "d": "2020-11-14",
+        "m1": "42.5"
+      },
+      {
+        "p": {
+          "name": "Adaptive Object Detection with Dual Multi-Label Prediction",
+          "link": "https://arxiv.org/abs/2003.12943v2"
+        },
+        "c": "",
+        "n": "MCAR",
+        "d": "2020-03-29",
+        "m1": "38.8"
+      },
+      {
+        "p": {
+          "name": "Progressive Domain Adaptation for Object Detection",
+          "link": "https://arxiv.org/abs/1910.11319v1"
+        },
+        "c": "https://github.com/kevinhkhsu/DA_detection",
+        "n": "Progressive Domain Adaptation",
+        "d": "2019-10-24",
+        "m1": "36.9"
+      },
+      {
+        "p": {
+          "name": "Diversify and Match: A Domain Adaptive Representation Learning Paradigm for Object Detection",
+          "link": "https://arxiv.org/abs/1905.05396v1"
+        },
+        "c": "",
+        "n": "Diversify & Match",
+        "d": "2019-05-14",
+        "m1": "34.6"
+      },
+      {
+        "p": {
+          "name": "Domain Adaptive Faster R-CNN for Object Detection in the Wild",
+          "link": "http://arxiv.org/abs/1803.03243v1"
+        },
+        "c": "https://github.com/yuhuayc/da-faster-rcnn",
+        "n": "FRCNN in the wild",
+        "d": "2018-03-08",
+        "m1": "27.6"
+      }
+    ]
+  }
+}

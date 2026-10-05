@@ -1,0 +1,80 @@
+{
+  "title": "3d-semantic-scene-completion-from-a-single-rgb-image-on-kitti-360",
+  "task-hierarchy": [
+    "3D Reconstruction",
+    "3D Semantic Scene Completion",
+    "3D Semantic Scene Completion from a single RGB image"
+  ],
+  "dataset-info": {
+    "link": "http://www.cvlibs.net/datasets/kitti-360/",
+    "paper": "KITTI-360: A Novel Dataset and Benchmarks for Urban Scene Understanding in 2D and 3D"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mIoU",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Context and Geometry Aware Voxel Transformer for Semantic Scene Completion",
+          "link": "https://arxiv.org/abs/2405.13675v4"
+        },
+        "c": "https://github.com/pkqbajng/cgformer",
+        "n": "CGFormer",
+        "d": "2024-05-22",
+        "m1": "20.05"
+      },
+      {
+        "p": {
+          "name": "Symphonize 3D Semantic Scene Completion with Contextual Instance Queries",
+          "link": "https://arxiv.org/abs/2306.15670v2"
+        },
+        "c": "https://github.com/hustvl/symphonies",
+        "n": "Symphonies",
+        "d": "2023-06-27",
+        "m1": "18.58"
+      },
+      {
+        "p": {
+          "name": "MonoScene: Monocular 3D Semantic Scene Completion",
+          "link": "https://arxiv.org/abs/2112.00726v2"
+        },
+        "c": "https://github.com/astra-vision/monoscene",
+        "n": "MonoScene",
+        "d": "2021-12-01",
+        "m1": "12.31"
+      },
+      {
+        "p": {
+          "name": "VoxFormer: Sparse Voxel Transformer for Camera-based 3D Semantic Scene Completion",
+          "link": "https://arxiv.org/abs/2302.12251v2"
+        },
+        "c": "https://github.com/nvlabs/voxformer",
+        "n": "VoxFormer",
+        "d": "2023-02-23",
+        "m1": "11.91"
+      }
+    ]
+  }
+}

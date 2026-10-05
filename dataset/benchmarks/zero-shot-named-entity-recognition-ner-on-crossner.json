@@ -1,0 +1,115 @@
+{
+  "title": "zero-shot-named-entity-recognition-ner-on-crossner",
+  "task-hierarchy": [
+    "Named Entity Recognition (NER)",
+    "Zero-shot Named Entity Recognition (NER)"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/zliucr/CrossNER",
+    "paper": "CrossNER: Evaluating Cross-Domain Named Entity Recognition"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AI",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Literature",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Music",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Politics",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "Science",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "NuNER: Entity Recognition Encoder Pre-training via LLM-Annotated Data",
+          "link": "https://arxiv.org/abs/2402.15343v1"
+        },
+        "c": "https://github.com/Serega6678/NuNER",
+        "n": "NuNERZero span",
+        "d": "2024-02-23",
+        "m1": "61.7",
+        "m2": "64.9",
+        "m3": "69.9",
+        "m4": "71.7",
+        "m5": "65.4"
+      },
+      {
+        "p": {
+          "name": "GoLLIE: Annotation Guidelines improve Zero-Shot Information-Extraction",
+          "link": "https://arxiv.org/abs/2310.03668v5"
+        },
+        "c": "https://github.com/hitz-zentroa/gollie",
+        "n": "GoLLIE",
+        "d": "2023-10-05",
+        "m1": "61.6",
+        "m2": "62.7",
+        "m3": "68.4",
+        "m4": "60.2",
+        "m5": "56.3"
+      },
+      {
+        "p": {
+          "name": "InstructUIE: Multi-task Instruction Tuning for Unified Information Extraction",
+          "link": "https://arxiv.org/abs/2304.08085v1"
+        },
+        "c": "https://github.com/beyonderxx/instructuie",
+        "n": "InstructUIE",
+        "d": "2023-04-17",
+        "m1": "49.0",
+        "m2": "47.2",
+        "m3": "53.2",
+        "m4": "48.2",
+        "m5": "49.3"
+      },
+      {
+        "p": {
+          "name": "PromptNER: Prompting For Named Entity Recognition",
+          "link": "https://arxiv.org/abs/2305.15444v2"
+        },
+        "c": "",
+        "n": "ChatGPT",
+        "d": "2023-05-24",
+        "m1": "40.7",
+        "m2": "21.3",
+        "m3": "24.5",
+        "m4": "20.3",
+        "m5": "40.6"
+      }
+    ]
+  }
+}

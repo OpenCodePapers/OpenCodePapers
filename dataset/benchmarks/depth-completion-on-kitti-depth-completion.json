@@ -1,11 +1,12 @@
 {
   "title": "depth-completion-on-kitti-depth-completion",
   "task-hierarchy": [
+    "Depth Estimation",
     "Depth Completion"
   ],
   "dataset-info": {
-    "link": "",
-    "paper": ""
+    "link": "https://www.cvlibs.net/datasets/kitti/eval_depth.php?benchmark=depth_completion",
+    "paper": "Sparsity Invariant CNNs"
   },
   "benchmark": {
     "fields": [

@@ -1,0 +1,163 @@
+{
+  "title": "generalizable-person-re-identification-on-cuhk03-np-detected",
+  "task-hierarchy": [
+    "Person Re-Identification",
+    "Generalizable Person Re-identification"
+  ],
+  "dataset-info": {
+    "link": "http://www.ee.cuhk.edu.hk/~xgwang/CUHK_identification.html",
+    "paper": "DeepReID: Deep Filter Pairing Neural Network for Person Re-Identification"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "ClonedPerson->mAP",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "ClonedPerson->Rank-1",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "RandPerson->mAP",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "RandPerson->Rank-1",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "MSMT17->mAP",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "MSMT17->Rank-1",
+        "sortable": "true"
+      },
+      {
+        "key": "m7",
+        "label": "MSMT17-All->mAP",
+        "sortable": "true"
+      },
+      {
+        "key": "m8",
+        "label": "MSMT17-All->Rank-1",
+        "sortable": "true"
+      },
+      {
+        "key": "m9",
+        "label": "Market-1501->mAP",
+        "sortable": "true"
+      },
+      {
+        "key": "m10",
+        "label": "Market-1501->Rank-1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Graph Sampling Based Deep Metric Learning for Generalizable Person Re-Identification",
+          "link": "https://arxiv.org/abs/2104.01546v4"
+        },
+        "c": "https://github.com/shengcailiao/QAConv",
+        "n": "QAConv-GS",
+        "d": "2021-04-04",
+        "m1": "21.8",
+        "m2": "22.6",
+        "m3": "16.1",
+        "m4": "18.4",
+        "m5": "20.6",
+        "m6": "20.9",
+        "m7": "28.0",
+        "m8": "27.6",
+        "m9": "18.1",
+        "m10": "19.1"
+      },
+      {
+        "p": {
+          "name": "TransMatcher: Deep Image Matching Through Transformers for Generalizable Person Re-identification",
+          "link": "https://arxiv.org/abs/2105.14432v2"
+        },
+        "c": "https://github.com/shengcailiao/QAConv",
+        "n": "TransMatcher",
+        "d": "2021-05-30",
+        "m1": "24.4",
+        "m2": "25.4",
+        "m3": "16.0",
+        "m4": "17.1",
+        "m5": "22.5",
+        "m6": "23.7",
+        "m7": "30.7",
+        "m8": "31.9",
+        "m9": "21.4",
+        "m10": "22.2"
+      },
+      {
+        "p": {
+          "name": "ReMix: Training Generalized Person Re-identification on a Mixture of Data",
+          "link": "https://arxiv.org/abs/2410.21938v1"
+        },
+        "c": "",
+        "n": "ReMix",
+        "d": "2024-10-29",
+        "m3": "18.4",
+        "m4": "19.3",
+        "m5": "27.4",
+        "m6": "27.3",
+        "m7": "37.2",
+        "m8": "37.7"
+      },
+      {
+        "p": {
+          "name": "Unleashing the Potential of Pre-Trained Diffusion Models for Generalizable Person Re-Identification",
+          "link": "https://arxiv.org/abs/2502.06619v1"
+        },
+        "c": "https://github.com/RikoLi/DCAC",
+        "n": "DCAC",
+        "d": "2025-02-10",
+        "m5": "34.1",
+        "m6": "34.4",
+        "m9": "32.5",
+        "m10": "33.2"
+      },
+      {
+        "p": {
+          "name": "Interpretable and Generalizable Person Re-Identification with Query-Adaptive Convolution and Temporal Lifting",
+          "link": "https://arxiv.org/abs/1904.10424v4"
+        },
+        "c": "https://github.com/shengcailiao/QAConv",
+        "n": "QAConv",
+        "d": "2019-04-23",
+        "m7": "22.6",
+        "m8": "25.3",
+        "m9": "8.6",
+        "m10": "9.9"
+      }
+    ]
+  }
+}

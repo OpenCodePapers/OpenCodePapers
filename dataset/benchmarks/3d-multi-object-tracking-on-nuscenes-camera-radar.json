@@ -1,0 +1,80 @@
+{
+  "title": "3d-multi-object-tracking-on-nuscenes-camera-radar",
+  "task-hierarchy": [
+    "Object Tracking",
+    "Multi-Object Tracking",
+    "3D Multi-Object Tracking"
+  ],
+  "dataset-info": {
+    "link": "https://www.nuscenes.org/",
+    "paper": "nuScenes: A multimodal dataset for autonomous driving"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AMOTA",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "SpaRC: Sparse Radar-Camera Fusion for 3D Object Detection",
+          "link": "https://arxiv.org/abs/2411.19860v1"
+        },
+        "c": "",
+        "n": "SpaRC",
+        "d": "2024-11-29",
+        "m1": "0.631"
+      },
+      {
+        "p": {
+          "name": "Unleashing HyDRa: Hybrid Fusion, Depth Consistency and Radar for Unified 3D Perception",
+          "link": "https://arxiv.org/abs/2403.07746v4"
+        },
+        "c": "https://github.com/phi-wol/hydra",
+        "n": "HyDRa",
+        "d": "2024-03-12",
+        "m1": "0.584"
+      },
+      {
+        "p": {
+          "name": "CRN: Camera Radar Net for Accurate, Robust, Efficient 3D Perception",
+          "link": "https://arxiv.org/abs/2304.00670v3"
+        },
+        "c": "https://github.com/youngskkim/CRN",
+        "n": "CRN",
+        "d": "2023-04-03",
+        "m1": "0.569"
+      },
+      {
+        "p": {
+          "name": "CR3DT: Camera-RADAR Fusion for 3D Detection and Tracking",
+          "link": "https://arxiv.org/abs/2403.15313v2"
+        },
+        "c": "https://github.com/eth-pbl/cr3dt",
+        "n": "CR3DT",
+        "d": "2024-03-22",
+        "m1": "0.355"
+      }
+    ]
+  }
+}

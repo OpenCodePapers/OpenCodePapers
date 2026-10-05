@@ -1,0 +1,187 @@
+{
+  "title": "jpeg-artifact-correction-on-live1-quality-20-grayscale",
+  "task-hierarchy": [
+    "Image Restoration",
+    "JPEG Artifact Correction"
+  ],
+  "dataset-info": {
+    "link": "https://live.ece.utexas.edu/research/quality/subjective.htm",
+    "paper": "A statistical evaluation of recent full reference image quality assessment algorithms"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "PSNR",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "PSNR-B",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "SSIM",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Hierarchical Information Flow for Generalized Efficient Image Restoration",
+          "link": "https://arxiv.org/abs/2411.18588v1"
+        },
+        "c": "",
+        "n": "Hi-IR",
+        "d": "2024-11-27",
+        "m1": "32.31",
+        "m3": "0.8938"
+      },
+      {
+        "p": {
+          "name": "Towards Flexible Blind JPEG Artifacts Removal",
+          "link": "https://arxiv.org/abs/2109.14573v1"
+        },
+        "c": "https://github.com/jiaxi-jiang/fbcnn",
+        "n": "FBCNN",
+        "d": "2021-09-29",
+        "m1": "32.13",
+        "m2": "31.57",
+        "m3": "0.889"
+      },
+      {
+        "p": {
+          "name": "Residual Dense Network for Image Restoration",
+          "link": "https://arxiv.org/abs/1812.10477v2"
+        },
+        "c": "https://github.com/yulunzhang/RDN",
+        "n": "Residual Dense Network +",
+        "d": "2018-12-25",
+        "m1": "32.1",
+        "m3": "0.8886"
+      },
+      {
+        "p": {
+          "name": "Implicit Dual-domain Convolutional Network for Robust Color Image Compression Artifact Reduction",
+          "link": "https://arxiv.org/abs/1810.08042v3"
+        },
+        "c": "",
+        "n": "IDCN",
+        "d": "2018-10-18",
+        "m1": "32.09",
+        "m2": "32.00",
+        "m3": "0.9006"
+      },
+      {
+        "p": {
+          "name": "Multi-level Wavelet-CNN for Image Restoration",
+          "link": "http://arxiv.org/abs/1805.07071v2"
+        },
+        "c": "https://github.com/lpj0/MWCNN",
+        "n": "MWCNN",
+        "d": "2018-05-18",
+        "m1": "32.04",
+        "m2": "31.83",
+        "m3": "0.8989"
+      },
+      {
+        "p": {
+          "name": "Quantization Guided JPEG Artifact Correction",
+          "link": "https://arxiv.org/abs/2004.09320v2"
+        },
+        "c": "https://gitlab.com/Queuecumber/quantization-guided-ac",
+        "n": "QGAC",
+        "d": "2020-04-17",
+        "m1": "31.86",
+        "m2": "31.27",
+        "m3": "0.901"
+      },
+      {
+        "p": {
+          "name": "MemNet: A Persistent Memory Network for Image Restoration",
+          "link": "http://arxiv.org/abs/1708.02209v1"
+        },
+        "c": "https://github.com/tyshiwo/MemNet",
+        "n": "MemNet",
+        "d": "2017-08-07",
+        "m1": "31.83",
+        "m2": "31.74",
+        "m3": "0.8970"
+      },
+      {
+        "p": {
+          "name": "S-Net: A Scalable Convolutional Neural Network for JPEG Compression Artifact Reduction",
+          "link": "http://arxiv.org/abs/1810.07960v1"
+        },
+        "c": "",
+        "n": "S-Net",
+        "d": "2018-10-18",
+        "m1": "31.83",
+        "m2": "31.76",
+        "m3": "0.8975"
+      },
+      {
+        "p": {
+          "name": "Image Restoration Using Convolutional Auto-encoders with Symmetric Skip Connections",
+          "link": "http://arxiv.org/abs/1606.08921v3"
+        },
+        "c": "https://github.com/titu1994/Image-Super-Resolution",
+        "n": "RED30",
+        "d": "2016-06-29",
+        "m1": "31.73"
+      },
+      {
+        "p": {
+          "name": "DPW-SDNet: Dual Pixel-Wavelet Domain Deep CNNs for Soft Decoding of JPEG-Compressed Images",
+          "link": "http://arxiv.org/abs/1805.10558v1"
+        },
+        "c": "",
+        "n": "DPW-SDNet",
+        "d": "2018-05-27",
+        "m1": "31.69",
+        "m2": "31.60",
+        "m3": "0.8891"
+      },
+      {
+        "p": {
+          "name": "Beyond a Gaussian Denoiser: Residual Learning of Deep CNN for Image Denoising",
+          "link": "http://arxiv.org/abs/1608.03981v1"
+        },
+        "c": "https://github.com/cszn/DnCNN",
+        "n": "DnCNN-3",
+        "d": "2016-08-13",
+        "m1": "31.59"
+      },
+      {
+        "p": {
+          "name": "Compression Artifacts Reduction by a Deep Convolutional Network",
+          "link": "http://arxiv.org/abs/1504.06993v1"
+        },
+        "c": "https://github.com/ryanxingql/powerqe",
+        "n": "ARCNN",
+        "d": "2015-04-27",
+        "m1": "31.29",
+        "m2": "31.37",
+        "m3": "0.8891"
+      }
+    ]
+  }
+}

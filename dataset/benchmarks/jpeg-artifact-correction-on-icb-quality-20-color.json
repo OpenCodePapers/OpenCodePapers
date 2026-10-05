@@ -1,0 +1,121 @@
+{
+  "title": "jpeg-artifact-correction-on-icb-quality-20-color",
+  "task-hierarchy": [
+    "Image Restoration",
+    "JPEG Artifact Correction"
+  ],
+  "dataset-info": {
+    "link": "https://imagecompression.info/",
+    "paper": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "PSNR",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "PSNR-B",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "SSIM",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Towards Flexible Blind JPEG Artifacts Removal",
+          "link": "https://arxiv.org/abs/2109.14573v1"
+        },
+        "c": "https://github.com/jiaxi-jiang/fbcnn",
+        "n": "FBCNN",
+        "d": "2021-09-29",
+        "m1": "34.38",
+        "m2": "34.34",
+        "m3": "0.844"
+      },
+      {
+        "p": {
+          "name": "Quantization Guided JPEG Artifact Correction",
+          "link": "https://arxiv.org/abs/2004.09320v2"
+        },
+        "c": "https://gitlab.com/Queuecumber/quantization-guided-ac",
+        "n": "QGAC",
+        "d": "2020-04-17",
+        "m1": "34.23",
+        "m2": "34.67",
+        "m3": "0.845"
+      },
+      {
+        "p": {
+          "name": "Implicit Dual-domain Convolutional Network for Robust Color Image Compression Artifact Reduction",
+          "link": "https://arxiv.org/abs/1810.08042v3"
+        },
+        "c": "",
+        "n": "IDCN",
+        "d": "2018-10-18",
+        "m1": "33.99",
+        "m2": "34.37",
+        "m3": "0.838"
+      },
+      {
+        "p": {
+          "name": "Multi-level Wavelet-CNN for Image Restoration",
+          "link": "http://arxiv.org/abs/1805.07071v2"
+        },
+        "c": "https://github.com/lpj0/MWCNN",
+        "n": "MWCNN",
+        "d": "2018-05-18",
+        "m1": "32.79",
+        "m2": "33.32",
+        "m3": "0.812"
+      },
+      {
+        "p": {
+          "name": "DMCNN: Dual-Domain Multi-Scale Convolutional Neural Network for Compression Artifacts Removal",
+          "link": "http://arxiv.org/abs/1806.03275v2"
+        },
+        "c": "",
+        "n": "DMCNN",
+        "d": "2018-06-08",
+        "m1": "32.77",
+        "m2": "33.26",
+        "m3": "0.830"
+      },
+      {
+        "p": {
+          "name": "Compression Artifacts Reduction by a Deep Convolutional Network",
+          "link": "http://arxiv.org/abs/1504.06993v1"
+        },
+        "c": "https://github.com/ryanxingql/powerqe",
+        "n": "ARCNN",
+        "d": "2015-04-27",
+        "m1": "32.24",
+        "m2": "32.53",
+        "m3": "0.778"
+      }
+    ]
+  }
+}

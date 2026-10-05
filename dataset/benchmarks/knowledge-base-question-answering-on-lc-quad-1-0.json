@@ -1,0 +1,109 @@
+{
+  "title": "knowledge-base-question-answering-on-lc-quad-1-0",
+  "task-hierarchy": [
+    "Question Answering",
+    "Knowledge Base Question Answering"
+  ],
+  "dataset-info": {
+    "link": "http://lc-quad.sda.tech",
+    "paper": "LC-QuAD: A Corpus for Complex Question Answering over Knowledge Graphs"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Outlining and Filling: Hierarchical Query Graph Generation for Answering Complex Questions over Knowledge Graphs",
+          "link": "https://arxiv.org/abs/2111.00732v2"
+        },
+        "c": "https://github.com/bahuia/aqgnet",
+        "n": "HGNet (oracle entity used)",
+        "d": "2021-11-01",
+        "m1": "78.1"
+      },
+      {
+        "p": {
+          "name": "Formal Query Building with Query Structure Prediction for Complex Question Answering over Knowledge Base",
+          "link": "https://arxiv.org/abs/2109.03614v1"
+        },
+        "c": "https://github.com/bahuia/aqgnet",
+        "n": "AQGNet (oracle entity used)",
+        "d": "2021-09-08",
+        "m1": "74.8"
+      },
+      {
+        "p": {
+          "name": "SPARKLE: Enhancing SPARQL Generation with Direct KG Integration in Decoding",
+          "link": "https://arxiv.org/abs/2407.01626v1"
+        },
+        "c": "https://github.com/zzaebok/sparkle",
+        "n": "SPARKLE",
+        "d": "2024-06-29",
+        "m1": "72.2"
+      },
+      {
+        "p": {
+          "name": "Question Decomposition Tree for Answering Complex Questions over Knowledge Bases",
+          "link": "https://arxiv.org/abs/2306.07597v1"
+        },
+        "c": "https://github.com/cdhx/qdtqa",
+        "n": "QDT",
+        "d": "2023-06-13",
+        "m1": "58.8"
+      },
+      {
+        "p": {
+          "name": "A Two-Stage Approach towards Generalization in Knowledge Base Question Answering",
+          "link": "https://openreview.net/forum?id=-5R9TsypRrW"
+        },
+        "c": "",
+        "n": "STaG-QA",
+        "d": "2022-01-16",
+        "m1": "53.6"
+      },
+      {
+        "p": {
+          "name": "EDG-Based Question Decomposition for Complex Question Answering over Knowledge Bases",
+          "link": "https://dl.acm.org/doi/10.1007/978-3-030-88361-4_8"
+        },
+        "c": "",
+        "n": "EDGQA",
+        "d": "2021-10-24",
+        "m1": "53.1"
+      },
+      {
+        "p": {
+          "name": "A Universal Question-Answering Platform for Knowledge Graphs",
+          "link": "https://arxiv.org/abs/2303.00595v2"
+        },
+        "c": "https://github.com/cods-gcs/kgqan",
+        "n": "KGQAN",
+        "d": "2023-03-01",
+        "m1": "51.6"
+      }
+    ]
+  }
+}

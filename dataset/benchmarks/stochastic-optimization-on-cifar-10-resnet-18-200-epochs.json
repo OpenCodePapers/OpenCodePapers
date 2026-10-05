@@ -1,0 +1,79 @@
+{
+  "title": "stochastic-optimization-on-cifar-10-resnet-18-200-epochs",
+  "task-hierarchy": [
+    "Methodology",
+    "Stochastic Optimization"
+  ],
+  "dataset-info": {
+    "link": "https://www.cs.toronto.edu/~kriz/learning-features-2009-TR.pdf",
+    "paper": "Learning multiple layers of features from tiny images"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Benchopt: Reproducible, efficient and collaborative optimization benchmarks",
+          "link": "https://arxiv.org/abs/2206.13424v3"
+        },
+        "c": "https://github.com/deepmind/optax",
+        "n": "SGD - cosine LR schedule",
+        "d": "2022-06-27",
+        "m1": "95.55"
+      },
+      {
+        "p": {
+          "name": "Lookahead Optimizer: k steps forward, 1 step back",
+          "link": "https://arxiv.org/abs/1907.08610v2"
+        },
+        "c": "https://github.com/rwightman/pytorch-image-models",
+        "n": "Lookahead",
+        "d": "2019-07-19",
+        "m1": "95.27"
+      },
+      {
+        "p": {
+          "name": "Lookahead Optimizer: k steps forward, 1 step back",
+          "link": "https://arxiv.org/abs/1907.08610v2"
+        },
+        "c": "https://github.com/rwightman/pytorch-image-models",
+        "n": "SGD",
+        "d": "2019-07-19",
+        "m1": "95.23"
+      },
+      {
+        "p": {
+          "name": "Lookahead Optimizer: k steps forward, 1 step back",
+          "link": "https://arxiv.org/abs/1907.08610v2"
+        },
+        "c": "https://github.com/rwightman/pytorch-image-models",
+        "n": "ADAM",
+        "d": "2019-07-19",
+        "m1": "94.84"
+      }
+    ]
+  }
+}

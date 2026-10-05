@@ -1,0 +1,119 @@
+{
+  "title": "molecular-property-prediction-on-toxcast",
+  "task-hierarchy": [
+    "Molecular Modelling",
+    "Molecular Property Prediction"
+  ],
+  "dataset-info": {
+    "link": "https://moleculenet.org/",
+    "paper": "MoleculeNet: A Benchmark for Molecular Machine Learning"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "ROC-AUC",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Dumpling GNN: Hybrid GNN Enables Better ADC Payload Activity Prediction Based on Chemical Structure",
+          "link": "https://arxiv.org/abs/2410.05278v1"
+        },
+        "c": "",
+        "n": "DumplingGNN",
+        "d": "2024-09-23",
+        "m1": "78.2"
+      },
+      {
+        "p": {
+          "name": "Pre-training Graph Neural Networks on Molecules by Using Subgraph-Conditioned Graph Information Bottleneck",
+          "link": "https://arxiv.org/abs/2412.15589"
+        },
+        "c": "https://github.com/NSLab-CUK/S-CGIB",
+        "n": "S-CGIB",
+        "d": "2025-02-20",
+        "m1": "70.95±0.27"
+      },
+      {
+        "p": {
+          "name": "Uni-Mol: A Universal 3D Molecular Representation Learning Framework",
+          "link": "https://chemrxiv.org/engage/chemrxiv/article-details/628e5b4d5d948517f5ce6d72"
+        },
+        "c": "https://github.com/dptech-corp/Uni-Mol",
+        "n": "Uni-Mol",
+        "d": "2022-09-08",
+        "m1": "69.6"
+      },
+      {
+        "p": {
+          "name": "ChemRL-GEM: Geometry Enhanced Molecular Representation Learning for Property Prediction",
+          "link": "https://arxiv.org/abs/2106.06130v4"
+        },
+        "c": "",
+        "n": "ChemRL-GEM",
+        "d": "2021-06-11",
+        "m1": "69.2"
+      },
+      {
+        "p": {
+          "name": "Strategies for Pre-training Graph Neural Networks",
+          "link": "https://arxiv.org/abs/1905.12265v3"
+        },
+        "c": "https://github.com/snap-stanford/pretrain-gnns",
+        "n": "PretrainGNN",
+        "d": "2019-05-29",
+        "m1": "65.7"
+      },
+      {
+        "p": {
+          "name": "Analyzing Learned Molecular Representations for Property Prediction",
+          "link": "https://arxiv.org/abs/1904.01561v5"
+        },
+        "c": "https://github.com/swansonk14/chemprop",
+        "n": "D-MPNN",
+        "d": "2019-04-02",
+        "m1": "65.5"
+      },
+      {
+        "p": {
+          "name": "Self-Supervised Graph Transformer on Large-Scale Molecular Data",
+          "link": "https://arxiv.org/abs/2007.02835v2"
+        },
+        "c": "https://github.com/deepchem/deepchem",
+        "n": "GROVER (base)",
+        "d": "2020-06-18",
+        "m1": "65.4"
+      },
+      {
+        "p": {
+          "name": "Self-Supervised Graph Transformer on Large-Scale Molecular Data",
+          "link": "https://arxiv.org/abs/2007.02835v2"
+        },
+        "c": "https://github.com/deepchem/deepchem",
+        "n": "GROVER (large)",
+        "d": "2020-06-18",
+        "m1": "65.3"
+      }
+    ]
+  }
+}

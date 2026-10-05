@@ -1,0 +1,139 @@
+{
+  "title": "age-and-gender-classification-on-adience-gender",
+  "task-hierarchy": [
+    "Face Analysis",
+    "Age And Gender Classification"
+  ],
+  "dataset-info": {
+    "link": "https://talhassner.github.io/home/projects/Adience/Adience-data.html",
+    "paper": "Age and Gender Estimation of Unfiltered Faces"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy (5-fold)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Beyond Specialization: Assessing the Capabilities of MLLMs in Age and Gender Estimation",
+          "link": "https://arxiv.org/abs/2403.02302v4"
+        },
+        "c": "https://github.com/wildchlamydia/mivolo",
+        "n": "MiVOLO-V2",
+        "d": "2024-03-04",
+        "m1": "97.39"
+      },
+      {
+        "p": {
+          "name": "A Hybrid Transformer-Sequencer approach for Age and Gender classification from in-wild facial images",
+          "link": "https://arxiv.org/abs/2403.12483v2"
+        },
+        "c": "",
+        "n": "ViT-hSeq",
+        "d": "2024-03-19",
+        "m1": "96.56"
+      },
+      {
+        "p": {
+          "name": "MiVOLO: Multi-input Transformer for Age and Gender Estimation",
+          "link": "https://arxiv.org/abs/2307.04616v2"
+        },
+        "c": "https://github.com/wildchlamydia/mivolo",
+        "n": "MiVOLO-D1",
+        "d": "2023-07-10",
+        "m1": "96.51"
+      },
+      {
+        "p": {
+          "name": "Generalizing MLPs With Dropouts, Batch Normalization, and Skip Connections",
+          "link": "https://arxiv.org/abs/2108.08186v2"
+        },
+        "c": "https://github.com/tae898/age-gender",
+        "n": "RetinaFace + ArcFace + MLP + Skip connections",
+        "d": "2021-08-18",
+        "m1": "90.66"
+      },
+      {
+        "p": {
+          "name": "Compacting, Picking and Growing for Unforgetting Continual Learning",
+          "link": "https://arxiv.org/abs/1910.06562v3"
+        },
+        "c": "https://github.com/ivclab/CPG",
+        "n": "CPG (single crop, pytorch)",
+        "d": "2019-10-15",
+        "m1": "89.66"
+      },
+      {
+        "p": {
+          "name": "Increasingly Packing Multiple Facial-Informatics Modules in A Unified Deep-Learning Model via Lifelong Learning",
+          "link": "https://dl.acm.org/doi/10.1145/3323873.3325053"
+        },
+        "c": "https://github.com/ivclab/CPG",
+        "n": "PAENet (single crop, tensorflow)",
+        "d": "2019-06-10",
+        "m1": "89.08"
+      },
+      {
+        "p": {
+          "name": "Age and Gender Classification using Convolutional Neural Networks",
+          "link": "https://talhassner.github.io/home/publication/2015_CVPR"
+        },
+        "c": "https://github.com/dpressel/rude-carnie",
+        "n": "Levi_Hassner CNN ( over-sample, caffe)",
+        "d": "2015-10-26",
+        "m1": "86.8"
+      },
+      {
+        "p": {
+          "name": "Age and Gender Classification using Convolutional Neural Networks",
+          "link": "https://talhassner.github.io/home/publication/2015_CVPR"
+        },
+        "c": "https://github.com/dpressel/rude-carnie",
+        "n": "Levi_Hassner CNN (single crop, caffe)",
+        "d": "2015-10-26",
+        "m1": "85.9"
+      },
+      {
+        "p": {
+          "name": "Joint Estimation of Age and Gender from Unconstrained Face Images using Lightweight Multi-task CNN for Mobile Applications",
+          "link": "http://arxiv.org/abs/1806.02023v1"
+        },
+        "c": "https://github.com/ivclab/agegenderLMTCNN",
+        "n": "LMTCNN-2-1 (single crop, tensorflow)",
+        "d": "2018-06-06",
+        "m1": "85.16"
+      },
+      {
+        "p": {
+          "name": "Age and Gender Classification using Convolutional Neural Networks",
+          "link": "https://talhassner.github.io/home/publication/2015_CVPR"
+        },
+        "c": "https://github.com/dpressel/rude-carnie",
+        "n": "Levi_Hassner CNN (single crop, tensorflow)",
+        "d": "2015-10-26",
+        "m1": "82.52"
+      }
+    ]
+  }
+}

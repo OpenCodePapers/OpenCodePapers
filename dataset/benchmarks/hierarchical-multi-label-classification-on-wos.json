@@ -1,0 +1,77 @@
+{
+  "title": "hierarchical-multi-label-classification-on-wos",
+  "task-hierarchy": [
+    "Multi-Label Classification",
+    "Hierarchical Multi-label Classification"
+  ],
+  "dataset-info": {
+    "link": "https://data.mendeley.com/datasets/9rw3vkcfy4/6",
+    "paper": "HDLTex: Hierarchical Deep Learning for Text Classification"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Macro F1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Micro F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "HILL: Hierarchy-aware Information Lossless Contrastive Learning for Hierarchical Text Classification",
+          "link": "https://arxiv.org/abs/2403.17307v1"
+        },
+        "c": "https://github.com/rooooyy/hill",
+        "n": "HILL",
+        "d": "2024-03-26",
+        "m1": "81.77",
+        "m2": "87.28"
+      },
+      {
+        "p": {
+          "name": "HiTIN: Hierarchy-aware Tree Isomorphism Network for Hierarchical Text Classification",
+          "link": "https://arxiv.org/abs/2305.15182v2"
+        },
+        "c": "https://github.com/rooooyy/hitin",
+        "n": "HiTIN+BERT",
+        "d": "2023-05-24",
+        "m1": "81.57",
+        "m2": "87.19"
+      },
+      {
+        "p": {
+          "name": "HiTIN: Hierarchy-aware Tree Isomorphism Network for Hierarchical Text Classification",
+          "link": "https://arxiv.org/abs/2305.15182v2"
+        },
+        "c": "https://github.com/rooooyy/hitin",
+        "n": "HiTIN",
+        "d": "2023-05-24",
+        "m1": "81.11",
+        "m2": "86.66"
+      }
+    ]
+  }
+}

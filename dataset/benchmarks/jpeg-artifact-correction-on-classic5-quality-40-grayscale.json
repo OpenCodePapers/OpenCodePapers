@@ -1,0 +1,97 @@
+{
+  "title": "jpeg-artifact-correction-on-classic5-quality-40-grayscale",
+  "task-hierarchy": [
+    "Image Restoration",
+    "JPEG Artifact Correction"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/cszn/DnCNN/tree/master/testsets/classic5",
+    "paper": "Pointwise shape-adaptive DCT for high-quality deblocking of compressed color images"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "PSNR",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "SSIM",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Hierarchical Information Flow for Generalized Efficient Image Restoration",
+          "link": "https://arxiv.org/abs/2411.18588v1"
+        },
+        "c": "",
+        "n": "Hi-IR",
+        "d": "2024-11-27",
+        "m1": "34.61",
+        "m2": "0.9082"
+      },
+      {
+        "p": {
+          "name": "Towards Flexible Blind JPEG Artifacts Removal",
+          "link": "https://arxiv.org/abs/2109.14573v1"
+        },
+        "c": "https://github.com/jiaxi-jiang/fbcnn",
+        "n": "FBCNN",
+        "d": "2021-09-29",
+        "m1": "34.35",
+        "m2": "0.907"
+      },
+      {
+        "p": {
+          "name": "Residual Dense Network for Image Restoration",
+          "link": "https://arxiv.org/abs/1812.10477v2"
+        },
+        "c": "https://github.com/yulunzhang/RDN",
+        "n": "Residual Dense Network +",
+        "d": "2018-12-25",
+        "m1": "34.29",
+        "m2": "0.9063"
+      },
+      {
+        "p": {
+          "name": "Multi-level Wavelet-CNN for Image Restoration",
+          "link": "http://arxiv.org/abs/1805.07071v2"
+        },
+        "c": "https://github.com/lpj0/MWCNN",
+        "n": "MWCNN",
+        "d": "2018-05-18",
+        "m1": "34.27"
+      },
+      {
+        "p": {
+          "name": "Beyond a Gaussian Denoiser: Residual Learning of Deep CNN for Image Denoising",
+          "link": "http://arxiv.org/abs/1608.03981v1"
+        },
+        "c": "https://github.com/cszn/DnCNN",
+        "n": "DnCNN-3",
+        "d": "2016-08-13",
+        "m1": "33.77"
+      }
+    ]
+  }
+}

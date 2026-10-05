@@ -1,0 +1,77 @@
+{
+  "title": "skin-lesion-segmentation-on-university-of-waterloo-skin-cancer",
+  "task-hierarchy": [
+    "Medical Image Segmentation",
+    "Skin Lesion Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://uwaterloo.ca/vision-image-processing-lab/research-demos/skin-cancer-detection",
+    "paper": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Dice Score",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "DTP-Net: A convolutional neural network model to predict threshold for localizing the lesions on dermatological macro-images",
+          "link": "https://www.sciencedirect.com/science/article/pii/S0010482522006047"
+        },
+        "c": "https://github.com/VipinBioLab/DTP-Net",
+        "n": "DTP-Net",
+        "d": "2022-07-12",
+        "m1": "0.884 ±0.100"
+      },
+      {
+        "p": "",
+        "c": "",
+        "n": "DeepLabV3+",
+        "d": "",
+        "m1": "0.883 ±0.108"
+      },
+      {
+        "p": "",
+        "c": "",
+        "n": "FCN-8s",
+        "d": "",
+        "m1": "0.870 ±0.063"
+      },
+      {
+        "p": "",
+        "c": "",
+        "n": "SegNet",
+        "d": "",
+        "m1": "0.854 ±0.088"
+      },
+      {
+        "p": "",
+        "c": "",
+        "n": "U-Net",
+        "d": "",
+        "m1": "0.836 ±0.132"
+      }
+    ]
+  }
+}

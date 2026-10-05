@@ -1,0 +1,70 @@
+{
+  "title": "3d-open-vocabulary-instance-segmentation-on-stpls3d",
+  "task-hierarchy": [
+    "Instance Segmentation",
+    "3D Instance Segmentation",
+    "3D Open-Vocabulary Instance Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://www.stpls3d.com/",
+    "paper": "STPLS3D: A Large-Scale Synthetic and Real Aerial Photogrammetry 3D Point Cloud Dataset"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AP50",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "OpenIns3D: Snap and Lookup for 3D Open-vocabulary Instance Segmentation",
+          "link": "https://arxiv.org/abs/2309.00616v5"
+        },
+        "c": "https://github.com/Pointcept/OpenIns3D",
+        "n": "OPENINS3D",
+        "d": "2023-09-01",
+        "m1": "13.3"
+      },
+      {
+        "p": {
+          "name": "PointCLIP V2: Prompting CLIP and GPT for Powerful 3D Open-world Learning",
+          "link": "https://arxiv.org/abs/2211.11682v2"
+        },
+        "c": "https://github.com/zrrskywalker/pointclip",
+        "n": "PointCLIPV2",
+        "d": "2022-11-21",
+        "m1": "03.1"
+      },
+      {
+        "p": {
+          "name": "PointCLIP: Point Cloud Understanding by CLIP",
+          "link": "https://arxiv.org/abs/2112.02413v1"
+        },
+        "c": "https://github.com/zrrskywalker/pointclip",
+        "n": "PointCLIP",
+        "d": "2021-12-04",
+        "m1": "02.6"
+      }
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "title": "video-semantic-segmentation-on-multispectral-video-semantic-segmentation",
+  "task-hierarchy": [
+    "Video Segmentation",
+    "Video Semantic Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://openaccess.thecvf.com/content/CVPR2023/html/Ji_Multispectral_Video_Semantic_Segmentation_A_Benchmark_Dataset_and_Baseline_CVPR_2023_paper.html",
+    "paper": "Multispectral Video Semantic Segmentation: A Benchmark Dataset and Baseline"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mIoU",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Multispectral Video Semantic Segmentation: A Benchmark Dataset and Baseline",
+          "link": "http://openaccess.thecvf.com//content/CVPR2023/html/Ji_Multispectral_Video_Semantic_Segmentation_A_Benchmark_Dataset_and_Baseline_CVPR_2023_paper.html"
+        },
+        "c": "https://github.com/jiwei0921/MVSS-Baseline",
+        "n": "MVNet(DeepLabV3)",
+        "d": "2023-01-01",
+        "m1": "54.52"
+      },
+      {
+        "p": {
+          "name": "Multispectral Video Semantic Segmentation: A Benchmark Dataset and Baseline",
+          "link": "http://openaccess.thecvf.com//content/CVPR2023/html/Ji_Multispectral_Video_Semantic_Segmentation_A_Benchmark_Dataset_and_Baseline_CVPR_2023_paper.html"
+        },
+        "c": "https://github.com/jiwei0921/MVSS-Baseline",
+        "n": "MVNet(PSPNet)",
+        "d": "2023-01-01",
+        "m1": "54.36"
+      },
+      {
+        "p": {
+          "name": "Multispectral Video Semantic Segmentation: A Benchmark Dataset and Baseline",
+          "link": "http://openaccess.thecvf.com//content/CVPR2023/html/Ji_Multispectral_Video_Semantic_Segmentation_A_Benchmark_Dataset_and_Baseline_CVPR_2023_paper.html"
+        },
+        "c": "https://github.com/jiwei0921/MVSS-Baseline",
+        "n": "MVNet(FCN)",
+        "d": "2023-01-01",
+        "m1": "53.90"
+      }
+    ]
+  }
+}

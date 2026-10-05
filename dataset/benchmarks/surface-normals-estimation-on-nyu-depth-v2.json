@@ -1,0 +1,139 @@
+{
+  "title": "surface-normals-estimation-on-nyu-depth-v2",
+  "task-hierarchy": [
+    "Surface Normals Estimation"
+  ],
+  "dataset-info": {
+    "link": "https://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html",
+    "paper": "Indoor Segmentation and Support Inference from RGBD Images"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "% < 11.25",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "% < 22.5",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "% < 30",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Mean Angle Error",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "RMSE",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Metric3Dv2: A Versatile Monocular Geometric Foundation Model for Zero-shot Metric Depth and Surface Normal Estimation",
+          "link": "https://arxiv.org/abs/2404.15506v4"
+        },
+        "c": "https://github.com/yvanyin/metric3d",
+        "n": "Metric3Dv2(L, FT)",
+        "d": "2024-03-22",
+        "m1": "68.8",
+        "m2": "84.9",
+        "m3": "89.8",
+        "m4": "12.0",
+        "m5": "19.2"
+      },
+      {
+        "p": {
+          "name": "PolyMaX: General Dense Prediction with Mask Transformer",
+          "link": "https://arxiv.org/abs/2311.05770v1"
+        },
+        "c": "https://github.com/google-research/deeplab2",
+        "n": "PolyMaX(ConvNeXt-L)",
+        "d": "2023-11-09",
+        "m1": "65.66",
+        "m2": "82.28",
+        "m3": "87.83",
+        "m4": "13.09",
+        "m5": "20.4"
+      },
+      {
+        "p": {
+          "name": "iDisc: Internal Discretization for Monocular Depth Estimation",
+          "link": "https://arxiv.org/abs/2304.06334v1"
+        },
+        "c": "https://github.com/lpiccinelli-eth/unidepth",
+        "n": "iDisc",
+        "d": "2023-04-13",
+        "m1": "63.8",
+        "m2": "79.8",
+        "m3": "85.6",
+        "m4": "14.6",
+        "m5": "22.8"
+      },
+      {
+        "p": {
+          "name": "Estimating and Exploiting the Aleatoric Uncertainty in Surface Normal Estimation",
+          "link": "https://arxiv.org/abs/2109.09881v1"
+        },
+        "c": "https://github.com/baegwangbin/surface_normal_uncertainty",
+        "n": "Bae et al.",
+        "d": "2021-09-20",
+        "m1": "62.2",
+        "m2": "79.3",
+        "m3": "85.2",
+        "m4": "14.9",
+        "m5": "23.5"
+      },
+      {
+        "p": {
+          "name": "Fine-Tuning Image-Conditional Diffusion Models is Easier than You Think",
+          "link": "https://arxiv.org/abs/2409.11355v1"
+        },
+        "c": "https://github.com/VisualComputingInstitute/diffusion-e2e-ft",
+        "n": "Marigold + E2E FT(zero-shot)",
+        "d": "2024-09-17",
+        "m1": "61.4",
+        "m4": "16.2"
+      },
+      {
+        "p": {
+          "name": "Floors are Flat: Leveraging Semantics for Real-Time Surface Normal Prediction",
+          "link": "https://arxiv.org/abs/1906.06792v1"
+        },
+        "c": "https://github.com/StevenHickson/CreateNormals",
+        "n": "Floors are Flat",
+        "d": "2019-06-16",
+        "m1": "59.5",
+        "m2": "72.2",
+        "m3": "77.3",
+        "m4": "19.7",
+        "m5": "19.3"
+      }
+    ]
+  }
+}

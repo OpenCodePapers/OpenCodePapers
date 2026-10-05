@@ -1,14 +1,12 @@
 {
   "title": "icu-mortality-on-hirid",
   "task-hierarchy": [
-    "Medical waveform analysis",
-    "Electrocardiography (ECG)",
-    "Mortality Prediction",
+    "Clinical Prediction",
     "ICU Mortality"
   ],
   "dataset-info": {
     "link": "https://physionet.org/content/hirid/1.1.1/",
-    "paper": ""
+    "paper": "HiRID-ICU-Benchmark -- A Comprehensive Machine Learning Benchmark on High-resolution ICU Data"
   },
   "benchmark": {
     "fields": [

@@ -1,0 +1,121 @@
+{
+  "title": "bird-s-eye-view-semantic-segmentation-on-lyft-level-5",
+  "task-hierarchy": [
+    "Semantic Segmentation",
+    "Bird's-Eye View Semantic Segmentation"
+  ],
+  "dataset-info": {
+    "link": "",
+    "paper": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "IoU vehicle - 224x480 - Long",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "IoU vehicle - 224x480 - Short",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "PointBeV: A Sparse Approach to BeV Predictions",
+          "link": "https://arxiv.org/abs/2312.00703v2"
+        },
+        "c": "https://github.com/valeoai/pointbev",
+        "n": "PointBeV (EfficientNet-b4)",
+        "d": "2023-12-01",
+        "m1": "45.4",
+        "m2": "72.6"
+      },
+      {
+        "p": {
+          "name": "BEVFormer: Learning Bird's-Eye-View Representation from Multi-Camera Images via Spatiotemporal Transformers",
+          "link": "https://arxiv.org/abs/2203.17270v2"
+        },
+        "c": "https://github.com/fundamentalvision/BEVFormer",
+        "n": "BEVFormer (EfficientNet-b4)",
+        "d": "2022-03-31",
+        "m1": "44.5",
+        "m2": "69.9"
+      },
+      {
+        "p": {
+          "name": "Simple-BEV: What Really Matters for Multi-Sensor BEV Perception?",
+          "link": "https://arxiv.org/abs/2206.07959v2"
+        },
+        "c": "https://github.com/valeoai/pointbev",
+        "n": "Simple-BEV (EfficientNet-b4)",
+        "d": "2022-06-16",
+        "m1": "44.5",
+        "m2": "70.4"
+      },
+      {
+        "p": {
+          "name": "PointBeV: A Sparse Approach to BeV Predictions",
+          "link": "https://arxiv.org/abs/2312.00703v2"
+        },
+        "c": "https://github.com/valeoai/pointbev",
+        "n": "PointBeV (ResNet-50)",
+        "d": "2023-12-01",
+        "m1": "44.5",
+        "m2": "72.3"
+      },
+      {
+        "p": {
+          "name": "Simple-BEV: What Really Matters for Multi-Sensor BEV Perception?",
+          "link": "https://arxiv.org/abs/2206.07959v2"
+        },
+        "c": "https://github.com/valeoai/pointbev",
+        "n": "Simple-BEV (ResNet-50)",
+        "d": "2022-06-16",
+        "m1": "43.6",
+        "m2": "70.7"
+      },
+      {
+        "p": {
+          "name": "BEVFormer: Learning Bird's-Eye-View Representation from Multi-Camera Images via Spatiotemporal Transformers",
+          "link": "https://arxiv.org/abs/2203.17270v2"
+        },
+        "c": "https://github.com/fundamentalvision/BEVFormer",
+        "n": "BEVFormer(ResNet-50)",
+        "d": "2022-03-31",
+        "m1": "43.2",
+        "m2": "68.8"
+      },
+      {
+        "p": {
+          "name": "FIERY: Future Instance Prediction in Bird's-Eye View from Surround Monocular Cameras",
+          "link": "https://arxiv.org/abs/2104.10490v3"
+        },
+        "c": "https://github.com/wayveai/fiery",
+        "n": "FIERY",
+        "d": "2021-04-21",
+        "m1": "36.7",
+        "m2": "59.4"
+      }
+    ]
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "title": "generalized-zero-shot-learning-on-sun-attribute",
+  "task-hierarchy": [
+    "Zero-Shot Learning",
+    "Generalized Zero-Shot Learning"
+  ],
+  "dataset-info": {
+    "link": "https://cs.brown.edu/~gmpatter/sunattributes.html",
+    "paper": "The SUN Attribute Database: Beyond Categories for Deeper Scene Understanding"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Harmonic mean",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "H",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Exploring Data Efficiency in Zero-Shot Learning with Diffusion Models",
+          "link": "https://arxiv.org/abs/2406.02929v1"
+        },
+        "c": "",
+        "n": "ZeroDiff",
+        "d": "2024-06-05",
+        "m1": "59.8"
+      },
+      {
+        "p": {
+          "name": "Synthetic Sample Selection for Generalized Zero-Shot Learning",
+          "link": "https://arxiv.org/abs/2304.02846v1"
+        },
+        "c": "",
+        "n": "SPOT (CMC-GAN)",
+        "d": "2023-04-06",
+        "m1": "46.4"
+      },
+      {
+        "p": {
+          "name": "Latent Embedding Feedback and Discriminative Features for Zero-Shot Classification",
+          "link": "https://arxiv.org/abs/2003.07833v2"
+        },
+        "c": "https://github.com/akshitac8/tfvaegan",
+        "n": "GZSL_TF-VAEGAN",
+        "d": "2020-03-17",
+        "m1": "43"
+      },
+      {
+        "p": {
+          "name": "f-VAEGAN-D2: A Feature Generating Framework for Any-Shot Learning",
+          "link": "http://arxiv.org/abs/1903.10132v1"
+        },
+        "c": "",
+        "n": "f-VAEGAN",
+        "d": "2019-03-25",
+        "m1": "41.3"
+      },
+      {
+        "p": {
+          "name": "Leveraging the Invariant Side of Generative Zero-Shot Learning",
+          "link": "http://arxiv.org/abs/1904.04092v1"
+        },
+        "c": "https://github.com/lijin118/LisGAN",
+        "n": "LisGAN",
+        "d": "2019-04-08",
+        "m1": "40.2"
+      },
+      {
+        "p": {
+          "name": "Feature Generating Networks for Zero-Shot Learning",
+          "link": "http://arxiv.org/abs/1712.00981v2"
+        },
+        "c": "https://github.com/akku1506/Feature-Generating-Networks-for-ZSL",
+        "n": "f-CLSWGAN",
+        "d": "2017-12-04",
+        "m1": "39.4"
+      },
+      {
+        "p": {
+          "name": "Multi-modal Cycle-consistent Generalized Zero-Shot Learning",
+          "link": "http://arxiv.org/abs/1808.00136v2"
+        },
+        "c": "https://github.com/rfelixmg/frwgan-eccv18",
+        "n": "Cycle-WGAN",
+        "d": "2018-08-01",
+        "m1": "39.4"
+      },
+      {
+        "p": {
+          "name": "Transferable Contrastive Network for Generalized Zero-Shot Learning",
+          "link": "https://arxiv.org/abs/1908.05832v1"
+        },
+        "c": "",
+        "n": "TCN",
+        "d": "2019-08-16",
+        "m1": "34.0"
+      },
+      {
+        "p": {
+          "name": "Zero-Shot Logit Adjustment",
+          "link": "https://arxiv.org/abs/2204.11822v4"
+        },
+        "c": "https://github.com/cdb342/ijcai-2022-zla",
+        "n": "WGAN+ZLAP",
+        "d": "2022-04-25",
+        "m2": "43.2"
+      }
+    ]
+  }
+}

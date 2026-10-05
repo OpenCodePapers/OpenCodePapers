@@ -1,0 +1,119 @@
+{
+  "title": "3d-human-pose-estimation-on-surreal",
+  "task-hierarchy": [
+    "Pose Estimation",
+    "3D Human Pose Estimation"
+  ],
+  "dataset-info": {
+    "link": "https://www.di.ens.fr/willow/research/surreal/",
+    "paper": "Learning from Synthetic Humans"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "MPJPE",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "PA-MPJPE",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "PVE",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "PCK",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "3D Human Mesh Estimation from Virtual Markers",
+          "link": "https://arxiv.org/abs/2303.11726v4"
+        },
+        "c": "https://github.com/ShirleyMaxx/VirtualMarker",
+        "n": "VirtualMarker",
+        "d": "2023-03-21",
+        "m1": "36.9",
+        "m2": "28.9",
+        "m3": "44.7"
+      },
+      {
+        "p": {
+          "name": "Predicting Camera Viewpoint Improves Cross-dataset Generalization for 3D Human Pose Estimation",
+          "link": "https://arxiv.org/abs/2004.03143v1"
+        },
+        "c": "",
+        "n": "Cross Dataset Generalization",
+        "d": "2020-04-07",
+        "m1": "37.1",
+        "m4": "97.3"
+      },
+      {
+        "p": {
+          "name": "BodyNet: Volumetric Inference of 3D Human Body Shapes",
+          "link": "http://arxiv.org/abs/1804.04875v3"
+        },
+        "c": "https://github.com/gulvarol/bodynet",
+        "n": "BodyNet",
+        "d": "2018-04-13",
+        "m1": "49.1"
+      },
+      {
+        "p": {
+          "name": "PC-HMR: Pose Calibration for 3D Human Mesh Recovery from 2D Images/Videos",
+          "link": "https://arxiv.org/abs/2103.09009v2"
+        },
+        "c": "",
+        "n": "PC-HMR",
+        "d": "2021-03-16",
+        "m1": "51.7",
+        "m2": "37.9"
+      },
+      {
+        "p": {
+          "name": "Self-supervised Learning of Motion Capture",
+          "link": "http://arxiv.org/abs/1712.01337v1"
+        },
+        "c": "https://github.com/chingswy/HumanPoseMemo",
+        "n": "self-supervised mocap",
+        "d": "2017-12-04",
+        "m1": "64.4"
+      },
+      {
+        "p": {
+          "name": "Out-of-Domain Human Mesh Reconstruction via Dynamic Bilevel Online Adaptation",
+          "link": "https://arxiv.org/abs/2111.04017v1"
+        },
+        "c": "https://github.com/syguan96/dynaboa",
+        "n": "DynaBOA",
+        "d": "2021-11-07",
+        "m2": "34",
+        "m3": "70.7"
+      }
+    ]
+  }
+}

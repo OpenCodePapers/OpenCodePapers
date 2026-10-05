@@ -1,0 +1,116 @@
+{
+  "title": "generalizable-person-re-identification-on-msmt17",
+  "task-hierarchy": [
+    "Person Re-Identification",
+    "Generalizable Person Re-identification"
+  ],
+  "dataset-info": {
+    "link": "http://www.pkuvmc.com/dataset.html",
+    "paper": "Person Transfer GAN to Bridge Domain Gap for Person Re-Identification"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "ClonedPerson->mAP",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "ClonedPerson->Rank-1",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "RandPerson->mAP",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "RandPerson->Rank-1",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "Market-1501->mAP",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "Market-1501->Rank1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Graph Sampling Based Deep Metric Learning for Generalizable Person Re-Identification",
+          "link": "https://arxiv.org/abs/2104.01546v4"
+        },
+        "c": "https://github.com/shengcailiao/QAConv",
+        "n": "QAConv-GS",
+        "d": "2021-04-04",
+        "m1": "18.5",
+        "m2": "49.1",
+        "m3": "15.5",
+        "m4": "45.1",
+        "m5": "17.2",
+        "m6": "45.9"
+      },
+      {
+        "p": {
+          "name": "TransMatcher: Deep Image Matching Through Transformers for Generalizable Person Re-identification",
+          "link": "https://arxiv.org/abs/2105.14432v2"
+        },
+        "c": "https://github.com/shengcailiao/QAConv",
+        "n": "TransMatcher",
+        "d": "2021-05-30",
+        "m1": "20.8",
+        "m2": "51.6",
+        "m3": "17.7",
+        "m4": "48.3",
+        "m5": "18.4",
+        "m6": "47.3"
+      },
+      {
+        "p": {
+          "name": "Unleashing the Potential of Pre-Trained Diffusion Models for Generalizable Person Re-Identification",
+          "link": "https://arxiv.org/abs/2502.06619v1"
+        },
+        "c": "https://github.com/RikoLi/DCAC",
+        "n": "DCAC",
+        "d": "2025-02-10",
+        "m5": "23.4",
+        "m6": "52.1"
+      },
+      {
+        "p": {
+          "name": "Interpretable and Generalizable Person Re-Identification with Query-Adaptive Convolution and Temporal Lifting",
+          "link": "https://arxiv.org/abs/1904.10424v4"
+        },
+        "c": "https://github.com/shengcailiao/QAConv",
+        "n": "QAConv",
+        "d": "2019-04-23",
+        "m5": "7.0",
+        "m6": "22.6"
+      }
+    ]
+  }
+}

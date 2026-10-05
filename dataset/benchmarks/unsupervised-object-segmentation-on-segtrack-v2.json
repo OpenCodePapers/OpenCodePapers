@@ -1,0 +1,116 @@
+{
+  "title": "unsupervised-object-segmentation-on-segtrack-v2",
+  "task-hierarchy": [
+    "Instance Segmentation",
+    "Unsupervised Object Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://web.engr.oregonstate.edu/~lif/SegTrack2/dataset.html",
+    "paper": "Video Segmentation by Tracking Many Figure-Ground Segments"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mIoU",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Bootstrapping Objectness from Videos by Relaxed Common Fate and Visual Grouping",
+          "link": "https://arxiv.org/abs/2304.08025v1"
+        },
+        "c": "https://github.com/TonyLianLong/RCF-UnsupVideoSeg",
+        "n": "RCF (with post-processing)",
+        "d": "2023-04-17",
+        "m1": "79.6"
+      },
+      {
+        "p": {
+          "name": "Bootstrapping Objectness from Videos by Relaxed Common Fate and Visual Grouping",
+          "link": "https://arxiv.org/abs/2304.08025v1"
+        },
+        "c": "https://github.com/TonyLianLong/RCF-UnsupVideoSeg",
+        "n": "RCF (without post-processing)",
+        "d": "2023-04-17",
+        "m1": "76.7"
+      },
+      {
+        "p": {
+          "name": "Segmenting Moving Objects via an Object-Centric Layered Representation",
+          "link": "https://arxiv.org/abs/2207.02206v2"
+        },
+        "c": "https://github.com/Jyxarthur/OCLR_model",
+        "n": "OCLR",
+        "d": "2022-07-05",
+        "m1": "67.6"
+      },
+      {
+        "p": {
+          "name": "Guess What Moves: Unsupervised Video and Image Segmentation by Anticipating Motion",
+          "link": "https://arxiv.org/abs/2205.07844v2"
+        },
+        "c": "",
+        "n": "GWM",
+        "d": "2022-05-16",
+        "m1": "66.7"
+      },
+      {
+        "p": {
+          "name": "Motion-inductive Self-supervised Object Discovery in Videos",
+          "link": "https://arxiv.org/abs/2210.00221v1"
+        },
+        "c": "",
+        "n": "MOD",
+        "d": "2022-10-01",
+        "m1": "62.2"
+      },
+      {
+        "p": "",
+        "c": "",
+        "n": "SIMO",
+        "d": "",
+        "m1": "62.0"
+      },
+      {
+        "p": {
+          "name": "TokenCut: Segmenting Objects in Images and Videos with Self-supervised Transformer and Normalized Cut",
+          "link": "https://arxiv.org/abs/2209.00383v3"
+        },
+        "c": "",
+        "n": "TokenCut",
+        "d": "2022-09-01",
+        "m1": "59.6"
+      },
+      {
+        "p": {
+          "name": "The Emergence of Objectness: Learning Zero-Shot Segmentation from Videos",
+          "link": "https://arxiv.org/abs/2111.06394v1"
+        },
+        "c": "https://github.com/rt219/the-emergence-of-objectness",
+        "n": "AMD",
+        "d": "2021-11-11",
+        "m1": "57.0"
+      }
+    ]
+  }
+}

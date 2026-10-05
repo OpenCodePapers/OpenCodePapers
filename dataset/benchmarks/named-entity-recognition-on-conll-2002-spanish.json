@@ -1,0 +1,98 @@
+{
+  "title": "named-entity-recognition-on-conll-2002-spanish",
+  "task-hierarchy": [
+    "Named Entity Recognition (NER)"
+  ],
+  "dataset-info": {
+    "link": "https://aclanthology.org/W02-2024/",
+    "paper": "Introduction to the CoNLL-2002 Shared Task: Language-Independent Named Entity Recognition"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Automated Concatenation of Embeddings for Structured Prediction",
+          "link": "https://arxiv.org/abs/2010.05006v4"
+        },
+        "c": "https://github.com/Alibaba-NLP/ACE",
+        "n": "ACE + document-context",
+        "d": "2020-10-10",
+        "m1": "95.9"
+      },
+      {
+        "p": {
+          "name": "Automated Concatenation of Embeddings for Structured Prediction",
+          "link": "https://arxiv.org/abs/2010.05006v4"
+        },
+        "c": "https://github.com/Alibaba-NLP/ACE",
+        "n": "ACE",
+        "d": "2020-10-10",
+        "m1": "91.7"
+      },
+      {
+        "p": {
+          "name": "Named Entity Recognition as Dependency Parsing",
+          "link": "https://arxiv.org/abs/2005.07150v3"
+        },
+        "c": "https://github.com/juntaoy/biaffine-ner",
+        "n": "Biaffine-NER",
+        "d": "2020-05-14",
+        "m1": "90.3"
+      },
+      {
+        "p": {
+          "name": "FLERT: Document-Level Features for Named Entity Recognition",
+          "link": "https://arxiv.org/abs/2011.06993v2"
+        },
+        "c": "https://github.com/flairNLP/flair",
+        "n": "FLERT XLM-R",
+        "d": "2020-11-13",
+        "m1": "90.14"
+      },
+      {
+        "p": {
+          "name": "Neural Architectures for Nested NER through Linearization",
+          "link": "https://arxiv.org/abs/1908.06926v1"
+        },
+        "c": "https://github.com/ufal/acl2019_nested_ner",
+        "n": "Straková et al., 2019",
+        "d": "2019-08-19",
+        "m1": "88.8"
+      },
+      {
+        "p": {
+          "name": "Exploring Cross-sentence Contexts for Named Entity Recognition with BERT",
+          "link": "https://arxiv.org/abs/2006.01563v2"
+        },
+        "c": "https://github.com/jouniluoma/bert-ner-cmv",
+        "n": "Cross-sentence context (CMV)",
+        "d": "2020-06-02",
+        "m1": "88.32"
+      }
+    ]
+  }
+}

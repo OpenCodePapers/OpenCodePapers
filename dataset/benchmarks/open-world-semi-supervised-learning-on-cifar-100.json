@@ -1,0 +1,107 @@
+{
+  "title": "open-world-semi-supervised-learning-on-cifar-100",
+  "task-hierarchy": [
+    "Image Classification",
+    "Semi-Supervised Image Classification",
+    "Open-World Semi-Supervised Learning"
+  ],
+  "dataset-info": {
+    "link": "https://www.cs.toronto.edu/~kriz/cifar.html",
+    "paper": "Learning multiple layers of features from tiny images"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "All accuracy (10% Labeled)",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Novel accuracy (10% Labeled)",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Seen accuracy (10% Labeled)",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "All accuracy (50% Labeled)",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "Novel accuracy (50% Labeled)",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "Seen accuracy (50% Labeled)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Towards Realistic Semi-Supervised Learning",
+          "link": "https://arxiv.org/abs/2207.02269v2"
+        },
+        "c": "https://github.com/nayeemrizve/trssl",
+        "n": "TRSSL (ResNet-18)",
+        "d": "2022-07-05",
+        "m1": "60.3",
+        "m2": "52.1",
+        "m3": "68.5"
+      },
+      {
+        "p": {
+          "name": "OpenLDN: Learning to Discover Novel Classes for Open-World Semi-Supervised Learning",
+          "link": "https://arxiv.org/abs/2207.02261v2"
+        },
+        "c": "https://github.com/nayeemrizve/openldn",
+        "n": "OpenLDN (ResNet-18)",
+        "d": "2022-07-05",
+        "m1": "47.7",
+        "m2": "40.0",
+        "m3": "55.0",
+        "m4": "60.1",
+        "m5": "46.8",
+        "m6": "73.5"
+      },
+      {
+        "p": {
+          "name": "Open-World Semi-Supervised Learning",
+          "link": "https://arxiv.org/abs/2102.03526v3"
+        },
+        "c": "https://github.com/snap-stanford/orca",
+        "n": "ORCA (ResNet-18)",
+        "d": "2021-02-06",
+        "m1": "38.6",
+        "m2": "31.8",
+        "m3": "52.5",
+        "m4": "48.1",
+        "m5": "43.0",
+        "m6": "66.9"
+      }
+    ]
+  }
+}

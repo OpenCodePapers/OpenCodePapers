@@ -1,0 +1,280 @@
+{
+  "title": "out-of-distribution-detection-on-imagenet-1k-vs-sun",
+  "task-hierarchy": [
+    "Out-of-Distribution Detection"
+  ],
+  "dataset-info": {
+    "link": "",
+    "paper": "MOS: Towards Scaling Out-of-distribution Detection for Large Semantic Space"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "FPR95",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "AUROC",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Enhanced OoD Detection through Cross-Modal Alignment of Multi-Modal Representations",
+          "link": "https://arxiv.org/abs/2503.18817v1"
+        },
+        "c": "https://github.com/ma-kjh/CMA-OoDD",
+        "n": "CMA(ViT-B/16, NegLabel)",
+        "d": "2025-03-24",
+        "m1": "16.84",
+        "m2": "96.36"
+      },
+      {
+        "p": {
+          "name": "LINe: Out-of-Distribution Detection by Leveraging Important Neurons",
+          "link": "https://arxiv.org/abs/2303.13995v1"
+        },
+        "c": "https://github.com/yonghyun-ahn/line-out-of-distribution-detection-by-leveraging-important-neurons",
+        "n": "LINe (ResNet50)",
+        "d": "2023-03-24",
+        "m1": "19.48",
+        "m2": "95.26"
+      },
+      {
+        "p": {
+          "name": "Nearest Neighbor Guidance for Out-of-Distribution Detection",
+          "link": "https://arxiv.org/abs/2309.14888v1"
+        },
+        "c": "https://github.com/jingkang50/openood",
+        "n": "NNGuide (RegNet)",
+        "d": "2023-09-26",
+        "m1": "21.58",
+        "m2": "94.43"
+      },
+      {
+        "p": {
+          "name": "Scaling for Training Time and Post-hoc Out-of-distribution Detection Enhancement",
+          "link": "https://arxiv.org/abs/2310.00227v1"
+        },
+        "c": "https://github.com/kai422/scale",
+        "n": "SCALE (ResNet50)",
+        "d": "2023-09-30",
+        "m1": "23.27",
+        "m2": "95.02"
+      },
+      {
+        "p": {
+          "name": "DICE: Leveraging Sparsification for Out-of-Distribution Detection",
+          "link": "https://arxiv.org/abs/2111.09805v2"
+        },
+        "c": "https://github.com/deeplearning-wisc/dice",
+        "n": "DICE + ReAct (ResNet-50)",
+        "d": "2021-11-18",
+        "m1": "25.45",
+        "m2": "93.94"
+      },
+      {
+        "p": {
+          "name": "Extremely Simple Activation Shaping for Out-of-Distribution Detection",
+          "link": "https://arxiv.org/abs/2209.09858v2"
+        },
+        "c": "https://github.com/andrijazz/ash",
+        "n": "ASH-S (ResNet-50)",
+        "d": "2022-09-20",
+        "m1": "27.98",
+        "m2": "94.02"
+      },
+      {
+        "p": {
+          "name": "Delving into Out-of-Distribution Detection with Vision-Language Representations",
+          "link": "https://arxiv.org/abs/2211.13445v1"
+        },
+        "c": "https://github.com/deeplearning-wisc/mcm",
+        "n": "MCM (CLIP-L)",
+        "d": "2022-11-24",
+        "m1": "29.00",
+        "m2": "94.14"
+      },
+      {
+        "p": {
+          "name": "RankFeat: Rank-1 Feature Removal for Out-of-distribution Detection",
+          "link": "https://arxiv.org/abs/2209.08590v1"
+        },
+        "c": "https://github.com/kingjamessong/rankfeat",
+        "n": "RankFeat (ResNetv2-101)",
+        "d": "2022-09-18",
+        "m1": "29.27",
+        "m2": "94.07"
+      },
+      {
+        "p": {
+          "name": "DICE: Leveraging Sparsification for Out-of-Distribution Detection",
+          "link": "https://arxiv.org/abs/2111.09805v2"
+        },
+        "c": "https://github.com/deeplearning-wisc/dice",
+        "n": "DICE (ResNet-50)",
+        "d": "2021-11-18",
+        "m1": "35.15",
+        "m2": "90.83"
+      },
+      {
+        "p": {
+          "name": "Delving into Out-of-Distribution Detection with Vision-Language Representations",
+          "link": "https://arxiv.org/abs/2211.13445v1"
+        },
+        "c": "https://github.com/deeplearning-wisc/mcm",
+        "n": "MCM (CLIP-B)",
+        "d": "2022-11-24",
+        "m1": "37.59",
+        "m2": "92.57"
+      },
+      {
+        "p": {
+          "name": "MOS: Towards Scaling Out-of-distribution Detection for Large Semantic Space",
+          "link": "https://arxiv.org/abs/2105.01879v1"
+        },
+        "c": "https://github.com/deeplearning-wisc/large_scale_ood",
+        "n": "MOS (BiT-S-R101x1)",
+        "d": "2021-05-05",
+        "m1": "40.63",
+        "m2": "92.01"
+      },
+      {
+        "p": {
+          "name": "Non-Parametric Outlier Synthesis",
+          "link": "https://arxiv.org/abs/2303.02966v1"
+        },
+        "c": "https://github.com/deeplearning-wisc/npos",
+        "n": "NPOS",
+        "d": "2023-03-06",
+        "m1": "43.77",
+        "m2": "90.44"
+      },
+      {
+        "p": {
+          "name": "On the Importance of Gradients for Detecting Distributional Shifts in the Wild",
+          "link": "https://arxiv.org/abs/2110.00218v2"
+        },
+        "c": "https://github.com/deeplearning-wisc/gradnorm_ood",
+        "n": "GradNorm (ResNetv2-101)",
+        "d": "2021-10-01",
+        "m1": "46.48"
+      },
+      {
+        "p": {
+          "name": "ReAct: Out-of-distribution Detection With Rectified Activations",
+          "link": "https://arxiv.org/abs/2111.12797v1"
+        },
+        "c": "https://github.com/deeplearning-wisc/react",
+        "n": "ReAct (ResNet-50)",
+        "d": "2021-11-24",
+        "m1": "47.69",
+        "m2": "88.16"
+      },
+      {
+        "p": {
+          "name": "Out-of-Distribution Detection with Deep Nearest Neighbors",
+          "link": "https://arxiv.org/abs/2204.06507v3"
+        },
+        "c": "https://github.com/deeplearning-wisc/knn-ood",
+        "n": "KNN (ResNet-50 SupCon)",
+        "d": "2022-04-13",
+        "m1": "48.91",
+        "m2": "88.40"
+      },
+      {
+        "p": {
+          "name": "Unleashing Mask: Explore the Intrinsic Out-of-Distribution Detection Capability",
+          "link": "https://arxiv.org/abs/2306.03715v1"
+        },
+        "c": "https://github.com/tmlr-group/unleashing-mask",
+        "n": "ODIN+UMAP (ResNet-50)",
+        "d": "2023-06-06",
+        "m1": "49.69",
+        "m2": "86.92"
+      },
+      {
+        "p": {
+          "name": "Out-of-Distribution Detection based on In-Distribution Data Patterns Memorization with Modern Hopfield Energy",
+          "link": "https://openreview.net/forum?id=KkazG4lgKL"
+        },
+        "c": "https://github.com/zjs975584714/she_ood_detection",
+        "n": "SHE",
+        "d": "2023-01-21",
+        "m1": "54.19"
+      },
+      {
+        "p": {
+          "name": "Decoupling MaxLogit for Out-of-Distribution Detection",
+          "link": "http://openaccess.thecvf.com//content/CVPR2023/html/Zhang_Decoupling_MaxLogit_for_Out-of-Distribution_Detection_CVPR_2023_paper.html"
+        },
+        "c": "",
+        "n": "DML",
+        "d": "2023-01-01",
+        "m1": "57.40"
+      },
+      {
+        "p": {
+          "name": "Out-of-Distribution Detection with Deep Nearest Neighbors",
+          "link": "https://arxiv.org/abs/2204.06507v3"
+        },
+        "c": "https://github.com/deeplearning-wisc/knn-ood",
+        "n": "KNN (ResNet-50)",
+        "d": "2022-04-13",
+        "m1": "69.53",
+        "m2": "80.10"
+      },
+      {
+        "p": {
+          "name": "Detecting Out-of-distribution Data through In-distribution Class Prior",
+          "link": "https://openreview.net/forum?id=charggEv8v&referrer=%5Bthe%20profile%20of%20Tongliang%20Liu%5D(%2Fprofile%3Fid%3D~Tongliang_Liu1"
+        },
+        "c": "https://github.com/tmlr-group/class_prior",
+        "n": "RP+GradNorm",
+        "d": "2023-04-25",
+        "m1": "73.53"
+      },
+      {
+        "p": {
+          "name": "Out-of-distribution Detection with Implicit Outlier Transformation",
+          "link": "https://arxiv.org/abs/2303.05033v1"
+        },
+        "c": "https://github.com/qizhouwang/doe",
+        "n": "DOE",
+        "d": "2023-03-09",
+        "m1": "80.94",
+        "m2": "76.26"
+      },
+      {
+        "p": {
+          "name": "Rethinking Out-of-distribution (OOD) Detection: Masked Image Modeling is All You Need",
+          "link": "https://arxiv.org/abs/2302.02615v2"
+        },
+        "c": "https://github.com/dvlab-research/mood",
+        "n": "MOOD",
+        "d": "2023-02-06",
+        "m2": "89.8"
+      }
+    ]
+  }
+}

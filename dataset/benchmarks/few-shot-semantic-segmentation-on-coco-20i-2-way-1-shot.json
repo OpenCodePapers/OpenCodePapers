@@ -1,0 +1,99 @@
+{
+  "title": "few-shot-semantic-segmentation-on-coco-20i-2-way-1-shot",
+  "task-hierarchy": [
+    "Semantic Segmentation",
+    "Few-Shot Semantic Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://cocodataset.org/",
+    "paper": "Microsoft COCO: Common Objects in Context"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mIoU",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Label Anything: Multi-Class Few-Shot Semantic Segmentation with Visual Prompts",
+          "link": "https://arxiv.org/abs/2407.02075v1"
+        },
+        "c": "https://github.com/pasqualedem/LabelAnything",
+        "n": "Label Anything (Vit-B/16-SAM)",
+        "d": "2024-07-02",
+        "m1": "34.6"
+      },
+      {
+        "p": {
+          "name": "Label Anything: Multi-Class Few-Shot Semantic Segmentation with Visual Prompts",
+          "link": "https://arxiv.org/abs/2407.02075v1"
+        },
+        "c": "https://github.com/pasqualedem/LabelAnything",
+        "n": "Label Anything (ViT-B/16-MAE)",
+        "d": "2024-07-02",
+        "m1": "31.9"
+      },
+      {
+        "p": {
+          "name": "Dense Cross-Query-and-Support Attention Weighted Mask Aggregation for Few-Shot Segmentation",
+          "link": "https://arxiv.org/abs/2207.08549v1"
+        },
+        "c": "https://github.com/pawn-sxy/dcama",
+        "n": "DCAMA (Swin-B)",
+        "d": "2022-07-18",
+        "m1": "31.7"
+      },
+      {
+        "p": {
+          "name": "MFNet: Multi-class Few-shot Segmentation Network with Pixel-wise Metric Learning",
+          "link": "https://arxiv.org/abs/2111.00232v4"
+        },
+        "c": "",
+        "n": "MFNet (ResNet-50)",
+        "d": "2021-10-30",
+        "m1": "24.1"
+      },
+      {
+        "p": {
+          "name": "Part-aware Prototype Network for Few-shot Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2007.06309v3"
+        },
+        "c": "https://github.com/Xiangyi1996/PPNet-PyTorch",
+        "n": "PPNet (ResNet-50)",
+        "d": "2020-07-13",
+        "m1": "20.4"
+      },
+      {
+        "p": {
+          "name": "PANet: Few-Shot Image Semantic Segmentation with Prototype Alignment",
+          "link": "https://arxiv.org/abs/1908.06391v2"
+        },
+        "c": "https://github.com/kaixin96/PANet",
+        "n": "PANet (ResNet-50)",
+        "d": "2019-08-18",
+        "m1": "18.0"
+      }
+    ]
+  }
+}

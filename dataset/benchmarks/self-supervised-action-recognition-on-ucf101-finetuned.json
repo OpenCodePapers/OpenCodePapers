@@ -1,0 +1,192 @@
+{
+  "title": "self-supervised-action-recognition-on-ucf101-finetuned",
+  "task-hierarchy": [
+    "Action Recognition",
+    "Self-Supervised Action Recognition"
+  ],
+  "dataset-info": {
+    "link": "https://www.crcv.ucf.edu/data/UCF101.php",
+    "paper": "UCF101: A Dataset of 101 Human Actions Classes From Videos in The Wild"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "3-fold Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Pretrain",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Broaden Your Views for Self-Supervised Video Learning",
+          "link": "https://arxiv.org/abs/2103.16559v3"
+        },
+        "c": "https://github.com/deepmind/brave",
+        "n": "BraVe:V-FA (TSM-50x2)",
+        "d": "2021-03-30",
+        "m1": "95.7"
+      },
+      {
+        "p": {
+          "name": "Self-Supervised Learning by Cross-Modal Audio-Video Clustering",
+          "link": "https://arxiv.org/abs/1911.12667v3"
+        },
+        "c": "https://github.com/HumamAlwassel/XDC",
+        "n": "XDC",
+        "d": "2019-11-28",
+        "m1": "95.5"
+      },
+      {
+        "p": {
+          "name": "Spatiotemporal Contrastive Video Representation Learning",
+          "link": "https://arxiv.org/abs/2008.03800v4"
+        },
+        "c": "https://github.com/tensorflow/models/tree/master/official/projects/video_ssl",
+        "n": "CVRL (R3D-152 2x; K600)",
+        "d": "2020-08-09",
+        "m1": "93.9",
+        "m2": "K600"
+      },
+      {
+        "p": {
+          "name": "Evolving Losses for Unsupervised Video Representation Learning",
+          "link": "https://arxiv.org/abs/2002.12177v1"
+        },
+        "c": "",
+        "n": "ELo",
+        "d": "2020-02-26",
+        "m1": "93.8"
+      },
+      {
+        "p": {
+          "name": "Spatiotemporal Contrastive Video Representation Learning",
+          "link": "https://arxiv.org/abs/2008.03800v4"
+        },
+        "c": "https://github.com/tensorflow/models/tree/master/official/projects/video_ssl",
+        "n": "CVRL (R3D-50; K600)",
+        "d": "2020-08-09",
+        "m1": "93.4",
+        "m2": "K600"
+      },
+      {
+        "p": {
+          "name": "Spatiotemporal Contrastive Video Representation Learning",
+          "link": "https://arxiv.org/abs/2008.03800v4"
+        },
+        "c": "https://github.com/tensorflow/models/tree/master/official/projects/video_ssl",
+        "n": "CVRL (R3D-50; K400)",
+        "d": "2020-08-09",
+        "m1": "92.2",
+        "m2": "K400"
+      },
+      {
+        "p": {
+          "name": "Audio-Visual Instance Discrimination with Cross-Modal Agreement",
+          "link": "https://arxiv.org/abs/2004.12943v3"
+        },
+        "c": "https://github.com/facebookresearch/AVID-CMA",
+        "n": "AVID",
+        "d": "2020-04-27",
+        "m1": "91.5"
+      },
+      {
+        "p": {
+          "name": "Self-Supervised MultiModal Versatile Networks",
+          "link": "https://arxiv.org/abs/2006.16228v2"
+        },
+        "c": "https://github.com/deepmind/deepmind-research/tree/master/mmv",
+        "n": "MMV",
+        "d": "2020-06-29",
+        "m1": "91.5"
+      },
+      {
+        "p": {
+          "name": "Self-supervised Video Representation Learning with Cross-Stream Prototypical Contrasting",
+          "link": "https://arxiv.org/abs/2106.10137v3"
+        },
+        "c": "https://github.com/martinetoering/ViCC",
+        "n": "ViCC (S3D; R+F)",
+        "d": "2021-06-18",
+        "m1": "90.5",
+        "m2": "UCF101"
+      },
+      {
+        "p": {
+          "name": "Cooperative Learning of Audio and Video Models from Self-Supervised Synchronization",
+          "link": "http://arxiv.org/abs/1807.00230v2"
+        },
+        "c": "",
+        "n": "AVTS",
+        "d": "2018-06-30",
+        "m1": "89.0"
+      },
+      {
+        "p": {
+          "name": "Self-supervised Video Representation Learning with Cross-Stream Prototypical Contrasting",
+          "link": "https://arxiv.org/abs/2106.10137v3"
+        },
+        "c": "https://github.com/martinetoering/ViCC",
+        "n": "ViCC (R2+1D; R+F)",
+        "d": "2021-06-18",
+        "m1": "88.8",
+        "m2": "UCF101"
+      },
+      {
+        "p": {
+          "name": "Self-supervised Co-training for Video Representation Learning",
+          "link": "https://arxiv.org/abs/2010.09709v2"
+        },
+        "c": "https://github.com/TengdaHan/CoCLR",
+        "n": "CoCLR",
+        "d": "2020-10-19",
+        "m1": "87.9",
+        "m2": "K400"
+      },
+      {
+        "p": {
+          "name": "Self-supervised Video Representation Learning with Cross-Stream Prototypical Contrasting",
+          "link": "https://arxiv.org/abs/2106.10137v3"
+        },
+        "c": "https://github.com/martinetoering/ViCC",
+        "n": "ViCC (S3D; RGB)",
+        "d": "2021-06-18",
+        "m1": "84.3",
+        "m2": "UCF101"
+      },
+      {
+        "p": {
+          "name": "Self-supervised Video Representation Learning with Cross-Stream Prototypical Contrasting",
+          "link": "https://arxiv.org/abs/2106.10137v3"
+        },
+        "c": "https://github.com/martinetoering/ViCC",
+        "n": "ViCC (R2+1D; RGB)",
+        "d": "2021-06-18",
+        "m1": "82.8",
+        "m2": "UCF101"
+      }
+    ]
+  }
+}

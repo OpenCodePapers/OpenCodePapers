@@ -1,0 +1,389 @@
+{
+  "title": "paraphrase-identification-on-quora-question-pairs",
+  "task-hierarchy": [
+    "Semantic Textual Similarity",
+    "Paraphrase Identification"
+  ],
+  "dataset-info": {
+    "link": "https://quoradata.quora.com/First-Quora-Dataset-Release-Question-Pairs",
+    "paper": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Direct Intrinsic Dimension",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Structure Aware Intrinsic Dimension",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "Dev Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "Accuarcy",
+        "sortable": "true"
+      },
+      {
+        "key": "m7",
+        "label": "Dev F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "SMART: Robust and Efficient Fine-Tuning for Pre-trained Natural Language Models through Principled Regularized Optimization",
+          "link": "https://arxiv.org/abs/1911.03437v5"
+        },
+        "c": "https://github.com/namisan/mt-dnn",
+        "n": "ALICE",
+        "d": "2019-11-08",
+        "m1": "90.7"
+      },
+      {
+        "p": {
+          "name": "Entailment as Few-Shot Learner",
+          "link": "https://arxiv.org/abs/2104.14690v1"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleNLP/tree/develop/examples/few_shot/efl",
+        "n": "RoBERTa-large 355M + Entailment as Few-shot Learner",
+        "d": "2021-04-29",
+        "m1": "89.2"
+      },
+      {
+        "p": {
+          "name": "Charformer: Fast Character Transformers via Gradient-based Subword Tokenization",
+          "link": "https://arxiv.org/abs/2106.12672v3"
+        },
+        "c": "https://github.com/google-research/google-research",
+        "n": "Charformer-Tall",
+        "d": "2021-06-23",
+        "m1": "88.5",
+        "m2": "91.4"
+      },
+      {
+        "p": {
+          "name": "RealFormer: Transformer Likes Residual Attention",
+          "link": "https://arxiv.org/abs/2012.11747v3"
+        },
+        "c": "https://github.com/google-research/google-research",
+        "n": "RealFormer",
+        "d": "2020-12-21",
+        "m1": "88.28",
+        "m2": "91.34"
+      },
+      {
+        "p": {
+          "name": "FNet: Mixing Tokens with Fourier Transforms",
+          "link": "https://arxiv.org/abs/2105.03824v4"
+        },
+        "c": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
+        "n": "FNet-Large",
+        "d": "2021-05-09",
+        "m1": "85"
+      },
+      {
+        "p": {
+          "name": "StructBERT: Incorporating Language Structures into Pre-training for Deep Language Understanding",
+          "link": "https://arxiv.org/abs/1908.04577v3"
+        },
+        "c": "",
+        "n": "StructBERTRoBERTa ensemble",
+        "d": "2019-08-13",
+        "m1": "74.4",
+        "m2": "90.7"
+      },
+      {
+        "p": {
+          "name": "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+          "link": "https://arxiv.org/abs/1906.08237v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "XLNet-Large (ensemble)",
+        "d": "2019-06-19",
+        "m1": "74.2",
+        "m2": "90.3"
+      },
+      {
+        "p": {
+          "name": "Adversarial Self-Attention for Language Understanding",
+          "link": "https://arxiv.org/abs/2206.12608v3"
+        },
+        "c": "https://github.com/gingasan/adversarialsa",
+        "n": "ASA + RoBERTa",
+        "d": "2022-06-25",
+        "m1": "73.7"
+      },
+      {
+        "p": {
+          "name": "Training Complex Models with Multi-Task Weak Supervision",
+          "link": "http://arxiv.org/abs/1810.02840v2"
+        },
+        "c": "https://github.com/HazyResearch/metal",
+        "n": "Snorkel MeTaL(ensemble)",
+        "d": "2018-10-05",
+        "m1": "73.1",
+        "m2": "89.9"
+      },
+      {
+        "p": {
+          "name": "Multi-Task Deep Neural Networks for Natural Language Understanding",
+          "link": "https://arxiv.org/abs/1901.11504v2"
+        },
+        "c": "https://github.com/namisan/mt-dnn",
+        "n": "MT-DNN",
+        "d": "2019-01-31",
+        "m1": "72.4",
+        "m2": "89.6"
+      },
+      {
+        "p": {
+          "name": "Adversarial Self-Attention for Language Understanding",
+          "link": "https://arxiv.org/abs/2206.12608v3"
+        },
+        "c": "https://github.com/gingasan/adversarialsa",
+        "n": "ASA + BERT-base",
+        "d": "2022-06-25",
+        "m1": "72.3"
+      },
+      {
+        "p": {
+          "name": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+          "link": "https://arxiv.org/abs/1810.04805v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "BERT-LARGE",
+        "d": "2018-10-11",
+        "m1": "72.1"
+      },
+      {
+        "p": {
+          "name": "SpanBERT: Improving Pre-training by Representing and Predicting Spans",
+          "link": "https://arxiv.org/abs/1907.10529v3"
+        },
+        "c": "https://github.com/facebookresearch/SpanBERT",
+        "n": "SpanBERT",
+        "d": "2019-07-24",
+        "m1": "71.9",
+        "m2": "89.5"
+      },
+      {
+        "p": {
+          "name": "TinyBERT: Distilling BERT for Natural Language Understanding",
+          "link": "https://arxiv.org/abs/1909.10351v5"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleNLP/tree/develop/paddlenlp/transformers/tinybert",
+        "n": "TinyBERT",
+        "d": "2019-09-23",
+        "m1": "71.3"
+      },
+      {
+        "p": {
+          "name": "ERNIE: Enhanced Language Representation with Informative Entities",
+          "link": "https://arxiv.org/abs/1905.07129v3"
+        },
+        "c": "https://github.com/thunlp/ERNIE",
+        "n": "ERNIE",
+        "d": "2019-05-17",
+        "m1": "71.2"
+      },
+      {
+        "p": {
+          "name": "data2vec: A General Framework for Self-supervised Learning in Speech, Vision and Language",
+          "link": "https://arxiv.org/abs/2202.03555v3"
+        },
+        "c": "https://github.com/huggingface/transformers/tree/main/src/transformers/models/data2vec",
+        "n": "data2vec",
+        "d": "2022-02-07",
+        "m2": "92.4"
+      },
+      {
+        "p": {
+          "name": "What Do Questions Exactly Ask? MFAE: Duplicate Question Identification with Multi-Fusion Asking Emphasis",
+          "link": "https://epubs.siam.org/doi/10.1137/1.9781611976236.26"
+        },
+        "c": "https://github.com/rzhangpku/MFAE",
+        "n": "MFAE",
+        "d": "2020-05-07",
+        "m2": "90.54"
+      },
+      {
+        "p": {
+          "name": "Simple and Effective Text Matching with Richer Alignment Features",
+          "link": "https://arxiv.org/abs/1908.00300v1"
+        },
+        "c": "https://github.com/alibaba-edu/simple-effective-text-matching",
+        "n": "RE2",
+        "d": "2019-08-01",
+        "m2": "89.2"
+      },
+      {
+        "p": {
+          "name": "Multiway Attention Networks for Modeling Sentence Pairs",
+          "link": "https://www.ijcai.org/proceedings/2018/0613"
+        },
+        "c": "https://github.com/zsweet/zsw_AI_model",
+        "n": "MwAN ",
+        "d": "2018-07-01",
+        "m2": "89.12"
+      },
+      {
+        "p": {
+          "name": "Natural Language Inference over Interaction Space",
+          "link": "http://arxiv.org/abs/1709.04348v2"
+        },
+        "c": "https://github.com/YichenGong/Densely-Interactive-Inference-Network",
+        "n": "DIIN",
+        "d": "2017-09-13",
+        "m2": "89.06"
+      },
+      {
+        "p": {
+          "name": "Multi-task Sentence Encoding Model for Semantic Retrieval in Question Answering Systems",
+          "link": "https://arxiv.org/abs/1911.07405v1"
+        },
+        "c": "",
+        "n": "MSEM",
+        "d": "2019-11-18",
+        "m2": "88.86"
+      },
+      {
+        "p": {
+          "name": "Cell-aware Stacked LSTMs for Modeling Sentences",
+          "link": "https://arxiv.org/abs/1809.02279v2"
+        },
+        "c": "",
+        "n": "Bi-CAS-LSTM",
+        "d": "2018-09-07",
+        "m2": "88.6"
+      },
+      {
+        "p": {
+          "name": "Neural Paraphrase Identification of Questions with Noisy Pretraining",
+          "link": "http://arxiv.org/abs/1704.04565v2"
+        },
+        "c": "",
+        "n": "pt-DecAtt",
+        "d": "2017-04-15",
+        "m2": "88.40"
+      },
+      {
+        "p": {
+          "name": "TRANS-BLSTM: Transformer with Bidirectional LSTM for Language Understanding",
+          "link": "https://arxiv.org/abs/2003.07000v1"
+        },
+        "c": "",
+        "n": "TRANS-BLSTM",
+        "d": "2020-03-16",
+        "m2": "88.28"
+      },
+      {
+        "p": {
+          "name": "Bilateral Multi-Perspective Matching for Natural Language Sentences",
+          "link": "http://arxiv.org/abs/1702.03814v3"
+        },
+        "c": "https://github.com/google-research-datasets/paws",
+        "n": "BiMPM",
+        "d": "2017-02-13",
+        "m2": "88.17"
+      },
+      {
+        "p": {
+          "name": "Learning General Purpose Distributed Sentence Representations via Large Scale Multi-task Learning",
+          "link": "http://arxiv.org/abs/1804.00079v1"
+        },
+        "c": "https://github.com/facebookresearch/InferSent",
+        "n": "GenSen",
+        "d": "2018-03-30",
+        "m2": "87.01"
+      },
+      {
+        "p": {
+          "name": "Self-Explaining Structures Improve NLP Models",
+          "link": "https://arxiv.org/abs/2012.01786v2"
+        },
+        "c": "https://github.com/ShannonAI/Self_Explaining_Structures_Improve_NLP_Models",
+        "n": "1-3[0.8pt/2pt] Random",
+        "d": "2020-12-03",
+        "m2": "80"
+      },
+      {
+        "p": {
+          "name": "SMART: Robust and Efficient Fine-Tuning for Pre-trained Natural Language Models through Principled Regularized Optimization",
+          "link": "https://arxiv.org/abs/1911.03437v5"
+        },
+        "c": "https://github.com/namisan/mt-dnn",
+        "n": "FreeLB",
+        "d": "2019-11-08",
+        "m2": "74.8",
+        "m5": "92.6"
+      },
+      {
+        "p": {
+          "name": "Intrinsic Dimensionality Explains the Effectiveness of Language Model Fine-Tuning",
+          "link": "https://arxiv.org/abs/2012.13255v1"
+        },
+        "c": "https://github.com/rabeehk/compacter",
+        "n": "BERT-Base",
+        "d": "2020-12-22",
+        "m3": "9295",
+        "m4": "8030"
+      },
+      {
+        "p": {
+          "name": "SMART: Robust and Efficient Fine-Tuning for Pre-trained Natural Language Models through Principled Regularized Optimization",
+          "link": "https://arxiv.org/abs/1911.03437v5"
+        },
+        "c": "https://github.com/namisan/mt-dnn",
+        "n": "SMART-BERT",
+        "d": "2019-11-08",
+        "m5": "91.5",
+        "m7": "88.5"
+      },
+      {
+        "p": {
+          "name": "SplitEE: Early Exit in Deep Neural Networks with Split Computing",
+          "link": "https://arxiv.org/abs/2309.09195v1"
+        },
+        "c": "https://github.com/Div290/SplitEE/blob/main/README.md",
+        "n": "SplitEE-S",
+        "d": "2023-09-17",
+        "m6": "71.1"
+      }
+    ]
+  }
+}

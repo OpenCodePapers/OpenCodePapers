@@ -1,0 +1,88 @@
+{
+  "title": "unsupervised-semantic-segmentation-on-coco-stuff-81",
+  "task-hierarchy": [
+    "Semantic Segmentation",
+    "Unsupervised Semantic Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/nightrome/cocostuff",
+    "paper": "COCO-Stuff: Thing and Stuff Classes in Context"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mIoU",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Pixel Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Causal Unsupervised Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2310.07379v1"
+        },
+        "c": "https://github.com/ByungKwanLee/Causal-Unsupervised-Segmentation",
+        "n": "CAUSE-TR (ViT-S/8)",
+        "d": "2023-10-11",
+        "m1": "21.2",
+        "m2": "75.2"
+      },
+      {
+        "p": {
+          "name": "Causal Unsupervised Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2310.07379v1"
+        },
+        "c": "https://github.com/ByungKwanLee/Causal-Unsupervised-Segmentation",
+        "n": "CAUSE-MLP (ViT-S/8)",
+        "d": "2023-10-11",
+        "m1": "19.1",
+        "m2": "78.8"
+      },
+      {
+        "p": {
+          "name": "TransFGU: A Top-down Approach to Fine-Grained Unsupervised Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2112.01515v2"
+        },
+        "c": "https://github.com/damo-cv/transfgu",
+        "n": "TransFGU (ViT-S/8)",
+        "d": "2021-12-02",
+        "m1": "12.7",
+        "m2": "64.3"
+      },
+      {
+        "p": {
+          "name": "Unsupervised Semantic Segmentation by Contrasting Object Mask Proposals",
+          "link": "https://arxiv.org/abs/2102.06191v3"
+        },
+        "c": "https://github.com/wvangansbeke/Unsupervised-Semantic-Segmentation",
+        "n": "MaskContrast (ResNet-50)",
+        "d": "2021-02-11",
+        "m1": "3.7",
+        "m2": "8.8"
+      }
+    ]
+  }
+}

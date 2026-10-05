@@ -1,0 +1,141 @@
+{
+  "title": "image-manipulation-detection-on-casia-v1-plus",
+  "task-hierarchy": [
+    "Image Manipulation Detection"
+  ],
+  "dataset-info": {
+    "link": "",
+    "paper": "Image Manipulation Detection by Multi-View Multi-Scale Supervision"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Balanced Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "AUC",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "MMFusion: Combining Image Forensic Filters for Visual Manipulation Detection and Localization",
+          "link": "https://arxiv.org/abs/2312.01790v2"
+        },
+        "c": "https://github.com/idt-iti/mmfusion-iml",
+        "n": "Late Fusion",
+        "d": "2023-12-04",
+        "m1": ".860",
+        "m2": ".930"
+      },
+      {
+        "p": {
+          "name": "MMFusion: Combining Image Forensic Filters for Visual Manipulation Detection and Localization",
+          "link": "https://arxiv.org/abs/2312.01790v2"
+        },
+        "c": "https://github.com/idt-iti/mmfusion-iml",
+        "n": "Early Fusion",
+        "d": "2023-12-04",
+        "m1": ".845",
+        "m2": ".929"
+      },
+      {
+        "p": {
+          "name": "Learning JPEG Compression Artifacts for Image Manipulation Detection and Localization",
+          "link": "https://arxiv.org/abs/2108.12947v2"
+        },
+        "c": "https://github.com/mjkwon2021/cat-net",
+        "n": "CAT-Net v2",
+        "d": "2021-08-30",
+        "m1": ".838",
+        "m2": ".942"
+      },
+      {
+        "p": {
+          "name": "TruFor: Leveraging all-round clues for trustworthy image forgery detection and localization",
+          "link": "https://arxiv.org/abs/2212.10957v3"
+        },
+        "c": "",
+        "n": "TruFor",
+        "d": "2022-12-21",
+        "m1": ".813",
+        "m2": ".916"
+      },
+      {
+        "p": {
+          "name": "Image Manipulation Detection by Multi-View Multi-Scale Supervision",
+          "link": "https://arxiv.org/abs/2104.06832v2"
+        },
+        "c": "https://github.com/dong03/MVSS-Net",
+        "n": "MVSS-Net",
+        "d": "2021-04-14",
+        "m1": ".528",
+        "m2": ".932"
+      },
+      {
+        "p": {
+          "name": "ManTra-Net: Manipulation Tracing Network for Detection and Localization of Image Forgeries With Anomalous Features",
+          "link": "http://openaccess.thecvf.com/content_CVPR_2019/html/Wu_ManTra-Net_Manipulation_Tracing_Network_for_Detection_and_Localization_of_Image_CVPR_2019_paper.html"
+        },
+        "c": "https://github.com/ISICV/ManTraNet",
+        "n": "ManTraNet",
+        "d": "2019-06-01",
+        "m1": ".500",
+        "m2": ".644"
+      },
+      {
+        "p": {
+          "name": "Constrained R-CNN: A general image manipulation detection model",
+          "link": "https://arxiv.org/abs/1911.08217v3"
+        },
+        "c": "",
+        "n": "CR-CNN",
+        "d": "2019-11-19",
+        "m1": ".481",
+        "m2": ".670"
+      },
+      {
+        "p": {
+          "name": "SPAN: Spatial Pyramid Attention Network for Image Manipulation Localization",
+          "link": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/3720_ECCV_2020_paper.php"
+        },
+        "c": "https://github.com/ZhiHanZ/IRIS0-SPAN",
+        "n": "SPAN",
+        "d": "",
+        "m1": ".112",
+        "m2": ".480"
+      },
+      {
+        "p": {
+          "name": "DF-Net: The Digital Forensics Network for Image Forgery Detection",
+          "link": "https://arxiv.org/abs/2503.22398v1"
+        },
+        "c": "https://zenodo.org/record/8142658",
+        "n": "DF-Net",
+        "d": "2025-03-28",
+        "m2": ".906"
+      }
+    ]
+  }
+}

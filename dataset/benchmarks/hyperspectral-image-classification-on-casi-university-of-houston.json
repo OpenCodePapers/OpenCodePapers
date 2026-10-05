@@ -1,0 +1,112 @@
+{
+  "title": "hyperspectral-image-classification-on-casi-university-of-houston",
+  "task-hierarchy": [
+    "Remote Sensing",
+    "Hyperspectral Image Classification"
+  ],
+  "dataset-info": {
+    "link": "",
+    "paper": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Overall Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "AA@disjoint",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Average Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Kappa",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "Kappa@disjoint",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "OA@disjoint",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "A Spectral-Spatial-Dependent Global Learning Framework for Insufficient and Imbalanced Hyperspectral Image Classification",
+          "link": "https://arxiv.org/abs/2105.14327v1"
+        },
+        "c": "https://github.com/dengweihuan/SSDGL",
+        "n": "SSDGL",
+        "d": "2021-05-29",
+        "m1": "95.36"
+      },
+      {
+        "p": {
+          "name": "Adaptive Mask Sampling and Manifold to Euclidean Subspace Learning with Distance Covariance Representation for Hyperspectral Image Classification",
+          "link": "https://ieeexplore.ieee.org/abstract/document/10097620"
+        },
+        "c": "https://github.com/lms-07/AMS-M2ESL",
+        "n": "AMS-M2ESL",
+        "d": "2023-04-07",
+        "m1": "88.82±0.93%",
+        "m2": "92.15±0.30%",
+        "m5": "0.8785±0.0101",
+        "m6": "88.82±0.93%"
+      },
+      {
+        "p": {
+          "name": "FPGA: Fast Patch-Free Global Learning Framework for Fully End-to-End Hyperspectral Image Classification",
+          "link": "https://arxiv.org/abs/2011.05670v1"
+        },
+        "c": "https://github.com/Z-Zheng/FreeNet",
+        "n": "FPGA",
+        "d": "2020-11-11",
+        "m1": "86.61",
+        "m3": "88.44",
+        "m4": "0.8555"
+      },
+      {
+        "p": {
+          "name": "Exploring the Relationship between Center and Neighborhoods: Central Vector oriented Self-Similarity Network for Hyperspectral Image Classification",
+          "link": "http://dx.doi.org/10.1109/tcsvt.2022.3218284"
+        },
+        "c": "https://github.com/lms-07/CVSSN",
+        "n": "CVSSN",
+        "d": "2022-10-31",
+        "m1": "82.55±0.47%",
+        "m2": "85.64±0.98%",
+        "m5": "0.8115±0.0050",
+        "m6": "82.55±0.47%"
+      }
+    ]
+  }
+}

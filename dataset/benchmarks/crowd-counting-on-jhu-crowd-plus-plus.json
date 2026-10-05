@@ -1,0 +1,82 @@
+{
+  "title": "crowd-counting-on-jhu-crowd-plus-plus",
+  "task-hierarchy": [
+    "Object Counting",
+    "Crowd Counting"
+  ],
+  "dataset-info": {
+    "link": "http://www.crowd-counting.com/",
+    "paper": "JHU-CROWD++: Large-Scale Crowd Counting Dataset and A Benchmark Method"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "MAE",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "MSE",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "MSE ",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Improved Knowledge Distillation for Crowd Counting on IoT Device",
+          "link": "https://ieeexplore.ieee.org/document/10234317"
+        },
+        "c": "https://github.com/huangzuo/effcc_distilled",
+        "n": "EffCC-Lite0.5",
+        "d": "2023-08-02",
+        "m1": "77.24",
+        "m3": "276.17"
+      },
+      {
+        "p": {
+          "name": "Rethinking Spatial Invariance of Convolutional Networks for Object Counting",
+          "link": "https://arxiv.org/abs/2206.05253v2"
+        },
+        "c": "https://github.com/zhiqic/rethinking-counting",
+        "n": "GauNet (ResNet-50)",
+        "d": "2022-06-10",
+        "m1": "58.2",
+        "m2": "245.1"
+      },
+      {
+        "p": {
+          "name": "Improving Point-based Crowd Counting and Localization Based on Auxiliary Point Guidance",
+          "link": "https://arxiv.org/abs/2405.10589v1"
+        },
+        "c": "https://github.com/AaronCIH/APGCC",
+        "n": "APGCC",
+        "d": "2024-05-17",
+        "m1": "54.3",
+        "m2": "225.9"
+      }
+    ]
+  }
+}

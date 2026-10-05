@@ -1,13 +1,12 @@
 {
   "title": "video-salient-object-detection-on-davis-2016",
   "task-hierarchy": [
-    "Object Detection",
-    "RGB Salient Object Detection",
+    "Salient Object Detection",
     "Video Salient Object Detection"
   ],
   "dataset-info": {
-    "link": "",
-    "paper": ""
+    "link": "https://davischallenge.org/davis2016/code.html",
+    "paper": "A Benchmark Dataset and Evaluation Methodology for Video Object Segmentation"
   },
   "benchmark": {
     "fields": [

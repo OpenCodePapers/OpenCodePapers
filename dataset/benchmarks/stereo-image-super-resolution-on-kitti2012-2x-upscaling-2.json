@@ -1,0 +1,89 @@
+{
+  "title": "stereo-image-super-resolution-on-kitti2012-2x-upscaling-2",
+  "task-hierarchy": [
+    "Super-Resolution",
+    "Stereo Image Super-Resolution"
+  ],
+  "dataset-info": {
+    "link": "http://www.cvlibs.net/datasets/kitti/",
+    "paper": "Are we ready for autonomous driving? The KITTI vision benchmark suite"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "PSNR",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "SwinFIR: Revisiting the SwinIR with Fast Fourier Convolution and Improved Training for Image Super-Resolution",
+          "link": "https://arxiv.org/abs/2208.11247v3"
+        },
+        "c": "https://github.com/Zdafeng/SwinFIR",
+        "n": "SwinFIRSSR",
+        "d": "2022-08-24",
+        "m1": "31.79"
+      },
+      {
+        "p": {
+          "name": "Feedback Network for Mutually Boosted Stereo Image Super-Resolution and Disparity Estimation",
+          "link": "https://arxiv.org/abs/2106.00985v1"
+        },
+        "c": "https://github.com/MIVRC/SSRDEFNet-PyTorch",
+        "n": "SSRDE-FNet",
+        "d": "2021-06-02",
+        "m1": "31.23"
+      },
+      {
+        "p": {
+          "name": "Symmetric Parallax Attention for Stereo Image Super-Resolution",
+          "link": "https://arxiv.org/abs/2011.03802v2"
+        },
+        "c": "https://github.com/YingqianWang/iPASSR",
+        "n": "iPASSR",
+        "d": "2020-11-07",
+        "m1": "31.11"
+      },
+      {
+        "p": {
+          "name": "Learning Parallax Attention for Stereo Image Super-Resolution",
+          "link": "http://arxiv.org/abs/1903.05784v3"
+        },
+        "c": "https://github.com/LongguangWang/PASSRnet",
+        "n": "PASSRnet",
+        "d": "2019-03-14",
+        "m1": "30.81"
+      },
+      {
+        "p": {
+          "name": "Enhancing the Spatial Resolution of Stereo Images Using a Parallax Prior",
+          "link": "http://openaccess.thecvf.com/content_cvpr_2018/html/Jeon_Enhancing_the_Spatial_CVPR_2018_paper.html"
+        },
+        "c": "",
+        "n": "StereoSR",
+        "d": "2018-06-01",
+        "m1": "29.51"
+      }
+    ]
+  }
+}

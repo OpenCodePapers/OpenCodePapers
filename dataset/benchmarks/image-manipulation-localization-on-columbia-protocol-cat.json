@@ -1,0 +1,119 @@
+{
+  "title": "image-manipulation-localization-on-columbia-protocol-cat",
+  "task-hierarchy": [
+    "Image Manipulation Detection",
+    "Image Manipulation Localization"
+  ],
+  "dataset-info": {
+    "link": "https://www.ee.columbia.edu/ln/dvmm/downloads/AuthSplicedDataSet/detailed.htm",
+    "paper": "A Data Set of Authentic and Spliced Image Blocks"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Pixel Binary F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "IML-ViT: Benchmarking Image Manipulation Localization by Vision Transformer",
+          "link": "https://arxiv.org/abs/2307.14863v4"
+        },
+        "c": "https://github.com/sunnyhaze/iml-vit",
+        "n": "IML-ViT",
+        "d": "2023-07-27",
+        "m1": "0.948"
+      },
+      {
+        "p": {
+          "name": "Mesoscopic Insights: Orchestrating Multi-scale & Hybrid Architecture for Image Manipulation Localization",
+          "link": "https://arxiv.org/abs/2412.13753v1"
+        },
+        "c": "https://github.com/scu-zjz/Mesorch",
+        "n": "Mesorch",
+        "d": "2024-12-18",
+        "m1": "0.9224"
+      },
+      {
+        "p": {
+          "name": "Learning JPEG Compression Artifacts for Image Manipulation Detection and Localization",
+          "link": "https://arxiv.org/abs/2108.12947v2"
+        },
+        "c": "https://github.com/mjkwon2021/cat-net",
+        "n": "CAT-Net",
+        "d": "2021-08-30",
+        "m1": "0.915"
+      },
+      {
+        "p": {
+          "name": "TruFor: Leveraging all-round clues for trustworthy image forgery detection and localization",
+          "link": "https://arxiv.org/abs/2212.10957v3"
+        },
+        "c": "",
+        "n": "Trufor",
+        "d": "2022-12-21",
+        "m1": "0.885"
+      },
+      {
+        "p": {
+          "name": "PSCC-Net: Progressive Spatio-Channel Correlation Network for Image Manipulation Detection and Localization",
+          "link": "https://arxiv.org/abs/2103.10596v2"
+        },
+        "c": "https://github.com/proteus1991/pscc-net",
+        "n": "PSCC-Net",
+        "d": "2021-03-19",
+        "m1": "0.864"
+      },
+      {
+        "p": {
+          "name": "MVSS-Net: Multi-View Multi-Scale Supervised Networks for Image Manipulation Detection",
+          "link": "https://arxiv.org/abs/2112.08935v3"
+        },
+        "c": "https://github.com/dong03/MVSS-Net",
+        "n": "MVSS-Net",
+        "d": "2021-12-16",
+        "m1": "0.739"
+      },
+      {
+        "p": {
+          "name": "ObjectFormer for Image Manipulation Detection and Localization",
+          "link": "https://arxiv.org/abs/2203.14681v2"
+        },
+        "c": "",
+        "n": "ObjectFormer",
+        "d": "2022-03-28",
+        "m1": "0.732"
+      },
+      {
+        "p": {
+          "name": "ManTra-Net: Manipulation Tracing Network for Detection and Localization of Image Forgeries With Anomalous Features",
+          "link": "http://openaccess.thecvf.com/content_CVPR_2019/html/Wu_ManTra-Net_Manipulation_Tracing_Network_for_Detection_and_Localization_of_Image_CVPR_2019_paper.html"
+        },
+        "c": "https://github.com/ISICV/ManTraNet",
+        "n": "Mantra-Net",
+        "d": "2019-06-01",
+        "m1": "0.462"
+      }
+    ]
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "title": "visual-navigation-on-cooperative-vision-and-dialogue-navigation",
+  "task-hierarchy": [
+    "Robotics",
+    "Robot Navigation",
+    "Visual Navigation"
+  ],
+  "dataset-info": {
+    "link": "https://arxiv.org/abs/1907.04957",
+    "paper": "Vision-and-Dialog Navigation"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "dist_to_end_reduction",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "spl",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Towards Learning a Generalist Model for Embodied Navigation",
+          "link": "https://arxiv.org/abs/2312.02010v3"
+        },
+        "c": "https://github.com/zd11024/NaviLLM",
+        "n": "NaviLLM",
+        "d": "2023-12-04",
+        "m1": "7.90",
+        "m2": "0.09"
+      },
+      {
+        "p": {
+          "name": "VLN-PETL: Parameter-Efficient Transfer Learning for Vision-and-Language Navigation",
+          "link": "https://arxiv.org/abs/2308.10172v1"
+        },
+        "c": "https://github.com/yanyuanqiao/vln-petl",
+        "n": "VLN-PETL",
+        "d": "2023-08-20",
+        "m1": "6.13",
+        "m2": "0.07"
+      },
+      {
+        "p": "",
+        "c": "",
+        "n": "early to bed",
+        "d": "",
+        "m1": "6.03",
+        "m2": "0.06"
+      },
+      {
+        "p": "",
+        "c": "",
+        "n": "HAMT",
+        "d": "",
+        "m1": "5.58",
+        "m2": "0.07"
+      },
+      {
+        "p": "",
+        "c": "",
+        "n": "s-agent (NDH-Full)",
+        "d": "",
+        "m1": "5.27",
+        "m2": "0.15"
+      },
+      {
+        "p": {
+          "name": "BabyWalk: Going Farther in Vision-and-Language Navigation by Taking Baby Steps",
+          "link": "https://arxiv.org/abs/2005.04625v2"
+        },
+        "c": "https://github.com/Sha-Lab/babywalk",
+        "n": "BabyWalk (r2r-pretrain)",
+        "d": "2020-05-10",
+        "m1": "4.46",
+        "m2": "0.23"
+      },
+      {
+        "p": {
+          "name": "Environment-agnostic Multitask Learning for Natural Language Grounded Navigation",
+          "link": "https://arxiv.org/abs/2003.00443v5"
+        },
+        "c": "https://github.com/google-research/valan",
+        "n": "Environment-agnostic Multitask Learning",
+        "d": "2020-03-01",
+        "m1": "3.91",
+        "m2": "0.17"
+      },
+      {
+        "p": {
+          "name": "BabyWalk: Going Farther in Vision-and-Language Navigation by Taking Baby Steps",
+          "link": "https://arxiv.org/abs/2005.04625v2"
+        },
+        "c": "https://github.com/Sha-Lab/babywalk",
+        "n": "BabyWalk",
+        "d": "2020-05-10",
+        "m1": "3.65",
+        "m2": "0.11"
+      },
+      {
+        "p": "",
+        "c": "",
+        "n": "Test2-NDH",
+        "d": "",
+        "m1": "3.44",
+        "m2": "0.09"
+      },
+      {
+        "p": "",
+        "c": "",
+        "n": "SCoA",
+        "d": "",
+        "m1": "3.37",
+        "m2": "0.15"
+      },
+      {
+        "p": "",
+        "c": "",
+        "n": "ed",
+        "d": "",
+        "m1": "3.3",
+        "m2": "0.14"
+      },
+      {
+        "p": "",
+        "c": "",
+        "n": "HESNet",
+        "d": "",
+        "m1": "3.26",
+        "m2": "0.11"
+      },
+      {
+        "p": "",
+        "c": "",
+        "n": "n151-7200-trusted",
+        "d": "",
+        "m1": "3.14",
+        "m2": "0.01"
+      },
+      {
+        "p": "",
+        "c": "",
+        "n": "VISITRON",
+        "d": "",
+        "m1": "3.08",
+        "m2": "0.22"
+      },
+      {
+        "p": "",
+        "c": "",
+        "n": "aux",
+        "d": "",
+        "m1": "2.75",
+        "m2": "0.11"
+      },
+      {
+        "p": "",
+        "c": "",
+        "n": "PREVALENT",
+        "d": "",
+        "m1": "2.44",
+        "m2": "0.24"
+      },
+      {
+        "p": "",
+        "c": "",
+        "n": "Best SPL",
+        "d": "",
+        "m1": "2.4",
+        "m2": "0.25"
+      },
+      {
+        "p": {
+          "name": "Vision-and-Dialog Navigation",
+          "link": "https://arxiv.org/abs/1907.04957v3"
+        },
+        "c": "https://github.com/mmurray/cvdn",
+        "n": "Seq2Seq Baseline",
+        "d": "2019-07-10",
+        "m1": "2.35",
+        "m2": "0.16"
+      },
+      {
+        "p": {
+          "name": "Vision-and-Dialog Navigation",
+          "link": "https://arxiv.org/abs/1907.04957v3"
+        },
+        "c": "https://github.com/mmurray/cvdn",
+        "n": "Pansy",
+        "d": "2019-07-10",
+        "m1": "1.76",
+        "m2": "0.15"
+      }
+    ]
+  }
+}

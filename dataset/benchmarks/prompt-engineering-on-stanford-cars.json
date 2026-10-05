@@ -1,0 +1,179 @@
+{
+  "title": "prompt-engineering-on-stanford-cars",
+  "task-hierarchy": [
+    "Transfer Learning",
+    "Prompt Engineering"
+  ],
+  "dataset-info": {
+    "link": "https://ai.stanford.edu/~jkrause/cars/car_dataset.html",
+    "paper": "3D Object Representations for Fine-Grained Categorization"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Harmonic mean",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "PromptKD: Unsupervised Prompt Distillation for Vision-Language Models",
+          "link": "https://arxiv.org/abs/2403.02781v5"
+        },
+        "c": "https://github.com/zhengli97/promptkd",
+        "n": "PromptKD",
+        "d": "2024-03-05",
+        "m1": "83.13"
+      },
+      {
+        "p": {
+          "name": "MMRL++: Parameter-Efficient and Interaction-Aware Representation Learning for Vision-Language Models",
+          "link": "https://arxiv.org/abs/2505.10088v1"
+        },
+        "c": "https://github.com/yunncheng/MMRL",
+        "n": "MMRL++",
+        "d": "2025-05-15",
+        "m1": "78.18"
+      },
+      {
+        "p": {
+          "name": "MMRL: Multi-Modal Representation Learning for Vision-Language Models",
+          "link": "https://arxiv.org/abs/2503.08497v2"
+        },
+        "c": "https://github.com/yunncheng/MMRL",
+        "n": "MMRL",
+        "d": "2025-03-11",
+        "m1": "78.06"
+      },
+      {
+        "p": {
+          "name": "DePT: Decoupled Prompt Tuning",
+          "link": "https://arxiv.org/abs/2309.07439v2"
+        },
+        "c": "https://github.com/koorye/dept",
+        "n": "DePT",
+        "d": "2023-09-14",
+        "m1": "77.79"
+      },
+      {
+        "p": {
+          "name": "Prompt Learning via Meta-Regularization",
+          "link": "https://arxiv.org/abs/2404.00851v1"
+        },
+        "c": "https://github.com/mlvlab/prometar",
+        "n": "ProMetaR",
+        "d": "2024-04-01",
+        "m1": "76.72"
+      },
+      {
+        "p": {
+          "name": "Self-regulating Prompts: Foundational Model Adaptation without Forgetting",
+          "link": "https://arxiv.org/abs/2307.06948v2"
+        },
+        "c": "https://github.com/muzairkhattak/promptsrc",
+        "n": "PromptSRC",
+        "d": "2023-07-13",
+        "m1": "76.58"
+      },
+      {
+        "p": {
+          "name": "Consistency-guided Prompt Learning for Vision-Language Models",
+          "link": "https://arxiv.org/abs/2306.01195v4"
+        },
+        "c": "https://github.com/shuvenduroy/coprompt",
+        "n": "CoPrompt",
+        "d": "2023-06-01",
+        "m1": "75.66"
+      },
+      {
+        "p": {
+          "name": "HPT++: Hierarchically Prompting Vision-Language Models with Multi-Granularity Knowledge Generation and Improved Structure Modeling",
+          "link": "https://arxiv.org/abs/2408.14812v1"
+        },
+        "c": "https://github.com/vill-lab/2024-aaai-hpt",
+        "n": "HPT++",
+        "d": "2024-08-27",
+        "m1": "75.59"
+      },
+      {
+        "p": {
+          "name": "Learning Hierarchical Prompt with Structured Linguistic Knowledge for Vision-Language Models",
+          "link": "https://arxiv.org/abs/2312.06323v1"
+        },
+        "c": "https://github.com/vill-lab/2024-aaai-hpt",
+        "n": "HPT",
+        "d": "2023-12-11",
+        "m1": "75.57"
+      },
+      {
+        "p": {
+          "name": "Learning Domain Invariant Prompt for Vision-Language Models",
+          "link": "https://arxiv.org/abs/2212.04196v2"
+        },
+        "c": "https://github.com/Vill-Lab/2024-TIP-MetaPrompt",
+        "n": "MetaPrompt",
+        "d": "2022-12-08",
+        "m1": "75.48"
+      },
+      {
+        "p": {
+          "name": "Read-only Prompt Optimization for Vision-Language Few-shot Learning",
+          "link": "https://arxiv.org/abs/2308.14960v2"
+        },
+        "c": "https://github.com/mlvlab/rpo",
+        "n": "RPO",
+        "d": "2023-08-29",
+        "m1": "74.69"
+      },
+      {
+        "p": {
+          "name": "MaPLe: Multi-modal Prompt Learning",
+          "link": "https://arxiv.org/abs/2210.03117v3"
+        },
+        "c": "https://github.com/muzairkhattak/multimodal-prompt-learning",
+        "n": "MaPLe",
+        "d": "2022-10-06",
+        "m1": "73.47"
+      },
+      {
+        "p": {
+          "name": "Conditional Prompt Learning for Vision-Language Models",
+          "link": "https://arxiv.org/abs/2203.05557v2"
+        },
+        "c": "https://github.com/kaiyangzhou/coop",
+        "n": "CoCoOp",
+        "d": "2022-03-10",
+        "m1": "72.01"
+      },
+      {
+        "p": {
+          "name": "Learning Transferable Visual Models From Natural Language Supervision",
+          "link": "https://arxiv.org/abs/2103.00020v1"
+        },
+        "c": "https://github.com/openai/CLIP",
+        "n": "CLIP",
+        "d": "2021-02-26",
+        "m1": "68.65"
+      }
+    ]
+  }
+}

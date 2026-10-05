@@ -1,12 +1,13 @@
 {
   "title": "multi-human-parsing-on-mhp-v20",
   "task-hierarchy": [
+    "Semantic Segmentation",
     "Human Parsing",
     "Multi-Human Parsing"
   ],
   "dataset-info": {
-    "link": "https://arxiv.org/pdf/1705.07206.pdf",
-    "paper": "Multiple-Human Parsing in the Wild"
+    "link": "https://lv-mhp.github.io/",
+    "paper": "Understanding Humans in Crowded Scenes: Deep Nested Adversarial Learning and A New Benchmark for Multi-Human Parsing"
   },
   "benchmark": {
     "fields": [

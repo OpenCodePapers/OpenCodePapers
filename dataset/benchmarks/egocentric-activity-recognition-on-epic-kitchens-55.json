@@ -1,0 +1,119 @@
+{
+  "title": "egocentric-activity-recognition-on-epic-kitchens-55",
+  "task-hierarchy": [
+    "Action Recognition",
+    "Activity Recognition",
+    "Egocentric Activity Recognition"
+  ],
+  "dataset-info": {
+    "link": "https://epic-kitchens.github.io/2019",
+    "paper": "Scaling Egocentric Vision: The EPIC-KITCHENS Dataset"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Actions Top-1 (S1)",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Actions Top-1 (S2)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Self-supervising Action Recognition by Statistical Moment and Subspace Descriptors",
+          "link": "https://arxiv.org/abs/2001.04627v2"
+        },
+        "c": "",
+        "n": "DEEP-HAL with ODF+SDF (AssembleNet++)",
+        "d": "2020-01-14",
+        "m1": "35.8",
+        "m2": "27.3"
+      },
+      {
+        "p": {
+          "name": "EPIC-Fusion: Audio-Visual Temporal Binding for Egocentric Action Recognition",
+          "link": "https://arxiv.org/abs/1908.08498v1"
+        },
+        "c": "https://github.com/ekazakos/temporal-binding-network",
+        "n": "TBN",
+        "d": "2019-08-22",
+        "m1": "34.8",
+        "m2": "19.06"
+      },
+      {
+        "p": {
+          "name": "What Would You Expect? Anticipating Egocentric Actions with Rolling-Unrolling LSTMs and Modality Attention",
+          "link": "https://arxiv.org/abs/1905.09035v2"
+        },
+        "c": "https://github.com/antoninofurnari/rulstm",
+        "n": "RULSTM",
+        "d": "2019-05-22",
+        "m1": "33.06",
+        "m2": "19.49"
+      },
+      {
+        "p": {
+          "name": "Long-Term Feature Banks for Detailed Video Understanding",
+          "link": "http://arxiv.org/abs/1812.05038v2"
+        },
+        "c": "https://github.com/open-mmlab/mmaction2",
+        "n": "LFB Max",
+        "d": "2018-12-12",
+        "m1": "32.70",
+        "m2": "21.2"
+      },
+      {
+        "p": {
+          "name": "Large-scale weakly-supervised pre-training for video action recognition",
+          "link": "http://arxiv.org/abs/1905.00561v1"
+        },
+        "c": "https://github.com/microsoft/computervision-recipes",
+        "n": "R(2+1)D-152-SE (ig)",
+        "d": "2019-05-02",
+        "m2": "25.6"
+      },
+      {
+        "p": {
+          "name": "Large-scale weakly-supervised pre-training for video action recognition",
+          "link": "http://arxiv.org/abs/1905.00561v1"
+        },
+        "c": "https://github.com/microsoft/computervision-recipes",
+        "n": "R(2+1)D-34 (kinetics)",
+        "d": "2019-05-02",
+        "m2": "16.8"
+      },
+      {
+        "p": {
+          "name": "LSTA: Long Short-Term Attention for Egocentric Action Recognition",
+          "link": "http://arxiv.org/abs/1811.10698v3"
+        },
+        "c": "https://github.com/swathikirans/LSTA",
+        "n": "LSTA",
+        "d": "2018-11-26",
+        "m2": "16.63"
+      }
+    ]
+  }
+}

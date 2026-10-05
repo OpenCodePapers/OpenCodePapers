@@ -1,0 +1,79 @@
+{
+  "title": "unsupervised-panoptic-segmentation-on-waymo-open",
+  "task-hierarchy": [
+    "Panoptic Segmentation",
+    "Unsupervised Panoptic Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://waymo.com/open",
+    "paper": "Scalability in Perception for Autonomous Driving: Waymo Open Dataset"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "PQ",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Scene-Centric Unsupervised Panoptic Segmentation",
+          "link": "https://arxiv.org/abs/2504.01955v1"
+        },
+        "c": "https://github.com/visinf/cups",
+        "n": "CUPS (54 pseudo-classes)",
+        "d": "2025-04-02",
+        "m1": "27.3"
+      },
+      {
+        "p": {
+          "name": "Scene-Centric Unsupervised Panoptic Segmentation",
+          "link": "https://arxiv.org/abs/2504.01955v1"
+        },
+        "c": "https://github.com/visinf/cups",
+        "n": "CUPS (40 pseudo-classes)",
+        "d": "2025-04-02",
+        "m1": "27.2"
+      },
+      {
+        "p": {
+          "name": "Scene-Centric Unsupervised Panoptic Segmentation",
+          "link": "https://arxiv.org/abs/2504.01955v1"
+        },
+        "c": "https://github.com/visinf/cups",
+        "n": "CUPS (27 pseudo-classes)",
+        "d": "2025-04-02",
+        "m1": "26.4"
+      },
+      {
+        "p": {
+          "name": "Unsupervised Universal Image Segmentation",
+          "link": "https://arxiv.org/abs/2312.17243v1"
+        },
+        "c": "https://github.com/u2seg/u2seg",
+        "n": "U2Seg",
+        "d": "2023-12-28",
+        "m1": "19.8"
+      }
+    ]
+  }
+}

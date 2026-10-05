@@ -1,0 +1,200 @@
+{
+  "title": "suspicious-birads-4-5-no-suspicious-birads-1-2-3-per-image-classification-on-inbreast",
+  "task-hierarchy": [
+    "Medical Image Analysis",
+    "Medical Image Classification",
+    "Suspicious (BIRADS 4,5)-no suspicious (BIRADS 1,2,3) per image classification"
+  ],
+  "dataset-info": {
+    "link": "",
+    "paper": "INbreast: toward a full-field digital mammographic database"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AUC",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "WDCCNet: Weighted Double-Classifier Constraint Neural Network for Mammographic Image Classification",
+          "link": "https://ieeexplore.ieee.org/abstract/document/9557267"
+        },
+        "c": "",
+        "n": "WCCNet DenseNet-121",
+        "d": "2021-10-04",
+        "m1": "0.947"
+      },
+      {
+        "p": {
+          "name": "Deep Neural Networks With Region-Based Pooling Structures for Mammographic Image Classification",
+          "link": "https://ieeexplore.ieee.org/document/8964266"
+        },
+        "c": "",
+        "n": "RGP DenseNet-169",
+        "d": "2020-06-06",
+        "m1": "0.934"
+      },
+      {
+        "p": {
+          "name": "WDCCNet: Weighted Double-Classifier Constraint Neural Network for Mammographic Image Classification",
+          "link": "https://ieeexplore.ieee.org/abstract/document/9557267"
+        },
+        "c": "",
+        "n": "WCCNet ResNet-50",
+        "d": "2021-10-04",
+        "m1": "0.931"
+      },
+      {
+        "p": {
+          "name": "WDCCNet: Weighted Double-Classifier Constraint Neural Network for Mammographic Image Classification",
+          "link": "https://ieeexplore.ieee.org/abstract/document/9557267"
+        },
+        "c": "",
+        "n": "WCCNet ResNet-101",
+        "d": "2021-10-04",
+        "m1": "0.926"
+      },
+      {
+        "p": {
+          "name": "WDCCNet: Weighted Double-Classifier Constraint Neural Network for Mammographic Image Classification",
+          "link": "https://ieeexplore.ieee.org/abstract/document/9557267"
+        },
+        "c": "",
+        "n": "WCCNet ResNet-34",
+        "d": "2021-10-04",
+        "m1": "0.923"
+      },
+      {
+        "p": {
+          "name": "Deep Neural Networks With Region-Based Pooling Structures for Mammographic Image Classification",
+          "link": "https://ieeexplore.ieee.org/document/8964266"
+        },
+        "c": "",
+        "n": "GGP DenseNet-169",
+        "d": "2020-06-06",
+        "m1": "0.922"
+      },
+      {
+        "p": {
+          "name": "WDCCNet: Weighted Double-Classifier Constraint Neural Network for Mammographic Image Classification",
+          "link": "https://ieeexplore.ieee.org/abstract/document/9557267"
+        },
+        "c": "",
+        "n": "WCCNet VGG16",
+        "d": "2021-10-04",
+        "m1": "0.915"
+      },
+      {
+        "p": {
+          "name": "WDCCNet: Weighted Double-Classifier Constraint Neural Network for Mammographic Image Classification",
+          "link": "https://ieeexplore.ieee.org/abstract/document/9557267"
+        },
+        "c": "",
+        "n": "WCCNet ResNet-18",
+        "d": "2021-10-04",
+        "m1": "0.913"
+      },
+      {
+        "p": {
+          "name": "Deep Multi-instance Networks with Sparse Label Assignment for Whole Mammogram Classification",
+          "link": "http://arxiv.org/abs/1705.08550v1"
+        },
+        "c": "https://github.com/wentaozhu/deep-mil-for-whole-mammogram-classification",
+        "n": "AlexNet+Sparse MIL INbr. Auto.",
+        "d": "2017-05-23",
+        "m1": "0.89"
+      },
+      {
+        "p": {
+          "name": "WDCCNet: Weighted Double-Classifier Constraint Neural Network for Mammographic Image Classification",
+          "link": "https://ieeexplore.ieee.org/abstract/document/9557267"
+        },
+        "c": "",
+        "n": "WCCNet AlexNet",
+        "d": "2021-10-04",
+        "m1": "0.870"
+      },
+      {
+        "p": {
+          "name": "Deep Neural Networks With Region-Based Pooling Structures for Mammographic Image Classification",
+          "link": "https://ieeexplore.ieee.org/document/8964266"
+        },
+        "c": "",
+        "n": "Avg pooling DenseNet-169",
+        "d": "2020-06-06",
+        "m1": "0.862"
+      },
+      {
+        "p": {
+          "name": "Deep Multi-instance Networks with Sparse Label Assignment for Whole Mammogram Classification",
+          "link": "http://arxiv.org/abs/1705.08550v1"
+        },
+        "c": "https://github.com/wentaozhu/deep-mil-for-whole-mammogram-classification",
+        "n": "AlexNet+Label Assign. MIL INbr. Auto.",
+        "d": "2017-05-23",
+        "m1": "0.84"
+      },
+      {
+        "p": {
+          "name": "Deep Neural Networks With Region-Based Pooling Structures for Mammographic Image Classification",
+          "link": "https://ieeexplore.ieee.org/document/8964266"
+        },
+        "c": "",
+        "n": "Max pooling DenseNet-169",
+        "d": "2020-06-06",
+        "m1": "0.837"
+      },
+      {
+        "p": {
+          "name": "Deep Multi-instance Networks with Sparse Label Assignment for Whole Mammogram Classification",
+          "link": "http://arxiv.org/abs/1705.08550v1"
+        },
+        "c": "https://github.com/wentaozhu/deep-mil-for-whole-mammogram-classification",
+        "n": "AlexNet+Max Pooling MIL",
+        "d": "2017-05-23",
+        "m1": "0.83"
+      },
+      {
+        "p": {
+          "name": "Deep Multi-instance Networks with Sparse Label Assignment for Whole Mammogram Classification",
+          "link": "http://arxiv.org/abs/1705.08550v1"
+        },
+        "c": "https://github.com/wentaozhu/deep-mil-for-whole-mammogram-classification",
+        "n": "AlexNet",
+        "d": "2017-05-23",
+        "m1": "0.79"
+      },
+      {
+        "p": {
+          "name": "Automated mass detection in mammograms using cascaded deep learning and random forests,",
+          "link": "https://ieeexplore.ieee.org/document/7371234"
+        },
+        "c": "",
+        "n": "Pretrained CNN + Random Forest",
+        "d": "2015-11-23",
+        "m1": "0.76"
+      }
+    ]
+  }
+}

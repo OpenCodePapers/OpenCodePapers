@@ -1,0 +1,179 @@
+{
+  "title": "sentence-embeddings-for-biomedical-texts-on-biosses",
+  "task-hierarchy": [
+    "Semantic Textual Similarity",
+    "Sentence Embeddings For Biomedical Texts"
+  ],
+  "dataset-info": {
+    "link": "https://tabilab.cmpe.boun.edu.tr/BIOSSES/DataSet.html",
+    "paper": "BIOSSES: A Semantic Sentence Similarity Estimation System for the Biomedical Domain"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Pearson Correlation",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Neural sentence embedding models for semantic similarity estimation in the biomedical domain",
+          "link": "https://arxiv.org/abs/2110.15708v1"
+        },
+        "c": "https://github.com/kathrinblagec/neural-sentence-embedding-models-for-biomedical-applications",
+        "n": "Supervised combination of: Jaccard, Q-gram, sent2vec, Paragraph vector DM, skip-thoughts, fastText",
+        "d": "2021-10-01",
+        "m1": "0.871"
+      },
+      {
+        "p": {
+          "name": "Neural sentence embedding models for semantic similarity estimation in the biomedical domain",
+          "link": "https://arxiv.org/abs/2110.15708v1"
+        },
+        "c": "https://github.com/kathrinblagec/neural-sentence-embedding-models-for-biomedical-applications",
+        "n": "Unsupervised combination (mean) of: Jaccard, q-gram, Paragraph vector (PV-DBOW) and sent2vec",
+        "d": "2021-10-01",
+        "m1": "0.846"
+      },
+      {
+        "p": {
+          "name": "Neural sentence embedding models for semantic similarity estimation in the biomedical domain",
+          "link": "https://arxiv.org/abs/2110.15708v1"
+        },
+        "c": "https://github.com/kathrinblagec/neural-sentence-embedding-models-for-biomedical-applications",
+        "n": "Paragraph vector (PV-DM)",
+        "d": "2021-10-01",
+        "m1": "0.819"
+      },
+      {
+        "p": {
+          "name": "BioSentVec: creating sentence embeddings for biomedical texts",
+          "link": "https://arxiv.org/abs/1810.09302v6"
+        },
+        "c": "https://github.com/ncbi-nlp/BioSentVec",
+        "n": "BioSentVec (PubMed)",
+        "d": "2018-10-22",
+        "m1": "0.817"
+      },
+      {
+        "p": {
+          "name": "Neural sentence embedding models for semantic similarity estimation in the biomedical domain",
+          "link": "https://arxiv.org/abs/2110.15708v1"
+        },
+        "c": "https://github.com/kathrinblagec/neural-sentence-embedding-models-for-biomedical-applications",
+        "n": "Paragraph vector (PV-DBOW)",
+        "d": "2021-10-01",
+        "m1": "0.804"
+      },
+      {
+        "p": {
+          "name": "Neural sentence embedding models for semantic similarity estimation in the biomedical domain",
+          "link": "https://arxiv.org/abs/2110.15708v1"
+        },
+        "c": "https://github.com/kathrinblagec/neural-sentence-embedding-models-for-biomedical-applications",
+        "n": "Sent2vec",
+        "d": "2021-10-01",
+        "m1": "0.798"
+      },
+      {
+        "p": {
+          "name": "BioSentVec: creating sentence embeddings for biomedical texts",
+          "link": "https://arxiv.org/abs/1810.09302v6"
+        },
+        "c": "https://github.com/ncbi-nlp/BioSentVec",
+        "n": "BioSentVec (PubMed + MIMIC-III)",
+        "d": "2018-10-22",
+        "m1": "0.795"
+      },
+      {
+        "p": {
+          "name": "BIOSSES: A Semantic Sentence Similarity Estimation System for the Biomedical Domain",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/28881973/"
+        },
+        "c": "",
+        "n": "Paragraph Vector",
+        "d": "2017-07-15",
+        "m1": "0.787"
+      },
+      {
+        "p": {
+          "name": "Neural sentence embedding models for semantic similarity estimation in the biomedical domain",
+          "link": "https://arxiv.org/abs/2110.15708v1"
+        },
+        "c": "https://github.com/kathrinblagec/neural-sentence-embedding-models-for-biomedical-applications",
+        "n": "fastText (skip-gram, max pooling)",
+        "d": "2021-10-01",
+        "m1": "0.766"
+      },
+      {
+        "p": {
+          "name": "Neural sentence embedding models for semantic similarity estimation in the biomedical domain",
+          "link": "https://arxiv.org/abs/2110.15708v1"
+        },
+        "c": "https://github.com/kathrinblagec/neural-sentence-embedding-models-for-biomedical-applications",
+        "n": "Q-gram (q = 3)",
+        "d": "2021-10-01",
+        "m1": "0.723"
+      },
+      {
+        "p": {
+          "name": "Neural sentence embedding models for semantic similarity estimation in the biomedical domain",
+          "link": "https://arxiv.org/abs/2110.15708v1"
+        },
+        "c": "https://github.com/kathrinblagec/neural-sentence-embedding-models-for-biomedical-applications",
+        "n": "Skip-thoughts",
+        "d": "2021-10-01",
+        "m1": "0.485"
+      },
+      {
+        "p": {
+          "name": "BioSentVec: creating sentence embeddings for biomedical texts",
+          "link": "https://arxiv.org/abs/1810.09302v6"
+        },
+        "c": "https://github.com/ncbi-nlp/BioSentVec",
+        "n": "BioSentVec (MIMIC-III)",
+        "d": "2018-10-22",
+        "m1": "0.350"
+      },
+      {
+        "p": {
+          "name": "BioSentVec: creating sentence embeddings for biomedical texts",
+          "link": "https://arxiv.org/abs/1810.09302v6"
+        },
+        "c": "https://github.com/ncbi-nlp/BioSentVec",
+        "n": "Universal Sentence Encoder",
+        "d": "2018-10-22",
+        "m1": "0.345"
+      },
+      {
+        "p": {
+          "name": "Neural sentence embedding models for semantic similarity estimation in the biomedical domain",
+          "link": "https://arxiv.org/abs/2110.15708v1"
+        },
+        "c": "https://github.com/kathrinblagec/neural-sentence-embedding-models-for-biomedical-applications",
+        "n": "fastText (CBOW, max pooling)",
+        "d": "2021-10-01",
+        "m1": "0.253"
+      }
+    ]
+  }
+}

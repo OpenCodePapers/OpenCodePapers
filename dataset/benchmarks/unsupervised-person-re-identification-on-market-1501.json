@@ -1,0 +1,344 @@
+{
+  "title": "unsupervised-person-re-identification-on-market-1501",
+  "task-hierarchy": [
+    "Person Re-Identification",
+    "Unsupervised Person Re-Identification"
+  ],
+  "dataset-info": {
+    "link": "https://www.kaggle.com/pengcw1/market-1501/data",
+    "paper": "Scalable Person Re-Identification: A Benchmark"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "MAP",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Rank-1",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Rank-5",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Rank-10",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Self-Supervised Pre-Training for Transformer-Based Person Re-Identification",
+          "link": "https://arxiv.org/abs/2111.12084v1"
+        },
+        "c": "https://github.com/DengpanFu/LUPerson",
+        "n": "TransReID-SSL (ViTi-S)",
+        "d": "2021-11-23",
+        "m1": "89.6",
+        "m2": "95.3"
+      },
+      {
+        "p": {
+          "name": "Transformer Based Multi-Grained Features for Unsupervised Person Re-Identification",
+          "link": "https://arxiv.org/abs/2211.12280v1"
+        },
+        "c": "https://github.com/rikoli/wacv23-workshop-tmgf",
+        "n": "TMGF",
+        "d": "2022-11-22",
+        "m1": "89.5",
+        "m2": "95.5",
+        "m3": "98.0",
+        "m4": "98.7"
+      },
+      {
+        "p": {
+          "name": "Prototypical Contrastive Learning-based CLIP Fine-tuning for Object Re-identification",
+          "link": "https://arxiv.org/abs/2310.17218v1"
+        },
+        "c": "https://github.com/RikoLi/PCL-CLIP",
+        "n": "PCL-CLIP (O2CAP)",
+        "d": "2023-10-26",
+        "m1": "88.4",
+        "m2": "94.8",
+        "m3": "98.0",
+        "m4": "98.7"
+      },
+      {
+        "p": {
+          "name": "Self-Supervised Pre-Training for Transformer-Based Person Re-Identification",
+          "link": "https://arxiv.org/abs/2111.12084v1"
+        },
+        "c": "https://github.com/DengpanFu/LUPerson",
+        "n": "TransReID-SSL (ViT-S)",
+        "d": "2021-11-23",
+        "m1": "88.2",
+        "m2": "94.2"
+      },
+      {
+        "p": {
+          "name": "Prototypical Contrastive Learning-based CLIP Fine-tuning for Object Re-identification",
+          "link": "https://arxiv.org/abs/2310.17218v1"
+        },
+        "c": "https://github.com/RikoLi/PCL-CLIP",
+        "n": "PCL-CLIP (CAP)",
+        "d": "2023-10-26",
+        "m1": "87.4",
+        "m2": "93.9",
+        "m3": "97.7",
+        "m4": "98.5"
+      },
+      {
+        "p": {
+          "name": "Prototypical Contrastive Learning-based CLIP Fine-tuning for Object Re-identification",
+          "link": "https://arxiv.org/abs/2310.17218v1"
+        },
+        "c": "https://github.com/RikoLi/PCL-CLIP",
+        "n": "PCL-CLIP (CC)",
+        "d": "2023-10-26",
+        "m1": "86.9",
+        "m2": "94.2",
+        "m3": "97.8",
+        "m4": "98.7"
+      },
+      {
+        "p": {
+          "name": "CA-Jaccard: Camera-aware Jaccard Distance for Person Re-identification",
+          "link": "https://arxiv.org/abs/2311.10605v2"
+        },
+        "c": "https://github.com/chen960/ca-jaccard",
+        "n": "CA-Jaccard",
+        "d": "2023-11-17",
+        "m1": "86.1",
+        "m2": "94.4",
+        "m3": "97.9",
+        "m4": "98.7"
+      },
+      {
+        "p": {
+          "name": "Part-based Pseudo Label Refinement for Unsupervised Person Re-identification",
+          "link": "https://arxiv.org/abs/2203.14675v1"
+        },
+        "c": "https://github.com/yoonkicho/pplr",
+        "n": "PPLR",
+        "d": "2022-03-28",
+        "m1": "84.4",
+        "m2": "94.3",
+        "m3": "97.8",
+        "m4": "98.6"
+      },
+      {
+        "p": {
+          "name": "Hard-sample Guided Hybrid Contrast Learning for Unsupervised Person Re-Identification",
+          "link": "https://arxiv.org/abs/2109.12333v2"
+        },
+        "c": "https://github.com/bupt-ai-cz/hhcl-reid",
+        "n": "HHCL(ResNet50 w/o RK)",
+        "d": "2021-09-25",
+        "m1": "84.2",
+        "m2": "93.4",
+        "m3": "97.7",
+        "m4": "98.5"
+      },
+      {
+        "p": {
+          "name": "Cluster Contrast for Unsupervised Person Re-Identification",
+          "link": "https://arxiv.org/abs/2103.11568v4"
+        },
+        "c": "https://github.com/alibaba/cluster-contrast",
+        "n": "Cluster Contrast",
+        "d": "2021-03-22",
+        "m1": "83",
+        "m2": "92.9",
+        "m3": "97.2",
+        "m4": "98"
+      },
+      {
+        "p": {
+          "name": "ICE: Inter-instance Contrastive Encoding for Unsupervised Person Re-identification",
+          "link": "https://arxiv.org/abs/2103.16364v2"
+        },
+        "c": "https://github.com/chenhao2345/ICE",
+        "n": "ICE",
+        "d": "2021-03-30",
+        "m1": "82.3",
+        "m2": "93.8",
+        "m3": "97.6",
+        "m4": "98.4"
+      },
+      {
+        "p": {
+          "name": "Cluster-guided Asymmetric Contrastive Learning for Unsupervised Person Re-Identification",
+          "link": "https://arxiv.org/abs/2106.07846v2"
+        },
+        "c": "https://github.com/MingkunLishigure/CACL",
+        "n": "CACL",
+        "d": "2021-06-15",
+        "m1": "80.9",
+        "m2": "92.7",
+        "m3": "97.4",
+        "m4": "98.5"
+      },
+      {
+        "p": {
+          "name": "Hybrid Contrastive Learning with Cluster Ensemble for Unsupervised Person Re-identification",
+          "link": "https://arxiv.org/abs/2201.11995v2"
+        },
+        "c": "",
+        "n": "MGCE-HCL",
+        "d": "2022-01-28",
+        "m1": "79.6",
+        "m2": "92.1"
+      },
+      {
+        "p": {
+          "name": "Camera-aware Proxies for Unsupervised Person Re-Identification",
+          "link": "https://arxiv.org/abs/2012.10674v2"
+        },
+        "c": "https://github.com/Terminator8758/CAP-master",
+        "n": "CAP",
+        "d": "2020-12-19",
+        "m1": "79.2",
+        "m2": "91.4",
+        "m3": "96.3",
+        "m4": "97.7"
+      },
+      {
+        "p": {
+          "name": "Rethinking Sampling Strategies for Unsupervised Person Re-identification",
+          "link": "https://arxiv.org/abs/2107.03024v4"
+        },
+        "c": "https://github.com/ucas-vg/groupsampling",
+        "n": "Group Sampling",
+        "d": "2021-07-07",
+        "m1": "79.2",
+        "m2": "92.3",
+        "m3": "96.6",
+        "m4": "97.8"
+      },
+      {
+        "p": {
+          "name": "Intra-Inter Camera Similarity for Unsupervised Person Re-Identification",
+          "link": "https://arxiv.org/abs/2103.11658v1"
+        },
+        "c": "https://github.com/SY-Xuan/IICS",
+        "n": "IICS",
+        "d": "2021-03-22",
+        "m1": "72.9",
+        "m2": "89.5",
+        "m3": "95.2",
+        "m4": "97.0"
+      },
+      {
+        "p": {
+          "name": "Self-paced Contrastive Learning with Hybrid Memory for Domain Adaptive Object Re-ID",
+          "link": "https://arxiv.org/abs/2006.02713v2"
+        },
+        "c": "https://github.com/open-mmlab/OpenUnReID",
+        "n": "SpCL",
+        "d": "2020-06-04",
+        "m1": "72.6",
+        "m2": "87.7",
+        "m3": "95.2",
+        "m4": "96.9"
+      },
+      {
+        "p": {
+          "name": "Self-similarity Grouping: A Simple Unsupervised Cross Domain Adaptation Approach for Person Re-identification",
+          "link": "https://arxiv.org/abs/1811.10144v3"
+        },
+        "c": "https://github.com/OasisYang/SSG",
+        "n": "Self-Similarity Grouping (one shot)",
+        "d": "2018-11-26",
+        "m1": "71.5",
+        "m2": "87.5",
+        "m3": "95.2",
+        "m4": "96.8"
+      },
+      {
+        "p": {
+          "name": "Invariance Matters: Exemplar Memory for Domain Adaptive Person Re-identification",
+          "link": "http://arxiv.org/abs/1904.01990v1"
+        },
+        "c": "https://github.com/zhunzhong07/ECN",
+        "n": "ECN",
+        "d": "2019-04-03",
+        "m1": "43",
+        "m2": "75.1",
+        "m3": "87.6",
+        "m4": "91.6"
+      },
+      {
+        "p": {
+          "name": "Towards better Validity: Dispersion based Clustering for Unsupervised Person Re-identification",
+          "link": "https://arxiv.org/abs/1906.01308v1"
+        },
+        "c": "https://github.com/gddingcs/Dispersion-based-Clustering",
+        "n": "Dispersion based Clustering",
+        "d": "2019-06-04",
+        "m1": "41.3",
+        "m2": "69.2",
+        "m3": "83",
+        "m4": "87.8"
+      },
+      {
+        "p": {
+          "name": "Image-Image Domain Adaptation with Preserved Self-Similarity and Domain-Dissimilarity for Person Re-identification",
+          "link": "http://arxiv.org/abs/1711.07027v3"
+        },
+        "c": "https://github.com/thuml/Transfer-Learning-Library",
+        "n": "SPGAN+LMP",
+        "d": "2017-11-19",
+        "m1": "26.7",
+        "m2": "57.7",
+        "m3": "75.8",
+        "m4": "82.4"
+      },
+      {
+        "p": {
+          "name": "Unsupervised Person Re-identification: Clustering and Fine-tuning",
+          "link": "http://arxiv.org/abs/1705.10444v2"
+        },
+        "c": "https://github.com/hehefan/Unsupervised-Person-Re-identification-Clustering-and-Fine-tuning",
+        "n": "PUL",
+        "d": "2017-05-30",
+        "m1": "20.5",
+        "m2": "45.5",
+        "m3": "60.7",
+        "m4": "66.7"
+      },
+      {
+        "p": {
+          "name": "Self-Supervised Pre-Training for Transformer-Based Person Re-Identification",
+          "link": "https://arxiv.org/abs/2111.12084v1"
+        },
+        "c": "https://github.com/DengpanFu/LUPerson",
+        "n": "TransReID-SSL (ViT-S w/o RK)",
+        "d": "2021-11-23",
+        "m2": "95.3"
+      }
+    ]
+  }
+}

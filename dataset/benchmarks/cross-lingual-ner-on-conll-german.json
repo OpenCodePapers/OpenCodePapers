@@ -1,12 +1,12 @@
 {
   "title": "cross-lingual-ner-on-conll-german",
   "task-hierarchy": [
-    "Cross-Lingual Transfer",
+    "Named Entity Recognition (NER)",
     "Cross-Lingual NER"
   ],
   "dataset-info": {
-    "link": "https://www.conll.org/",
-    "paper": ""
+    "link": "https://aclanthology.org/W03-0419/",
+    "paper": "Introduction to the CoNLL-2003 Shared Task: Language-Independent Named Entity Recognition"
   },
   "benchmark": {
     "fields": [

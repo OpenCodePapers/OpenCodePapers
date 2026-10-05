@@ -1,0 +1,248 @@
+{
+  "title": "node-classification-on-pascalvoc-sp",
+  "task-hierarchy": [
+    "Node Classification"
+  ],
+  "dataset-info": {
+    "link": "http://github.com/vijaydwivedi75/lrgb",
+    "paper": "Long Range Graph Benchmark"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "macro F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Learning Long Range Dependencies on Graphs via Random Walks",
+          "link": "https://arxiv.org/abs/2406.03386v2"
+        },
+        "c": "https://github.com/borgwardtlab/neuralwalker",
+        "n": "NeuralWalker",
+        "d": "2024-06-05",
+        "m1": "0.4912 ± 0.0042"
+      },
+      {
+        "p": {
+          "name": "Next Level Message-Passing with Hierarchical Support Graphs",
+          "link": "https://arxiv.org/abs/2406.15852v2"
+        },
+        "c": "https://github.com/carlosinator/support-graphs",
+        "n": "GatedGCN-HSG",
+        "d": "2024-06-22",
+        "m1": "0.4604±0.0059"
+      },
+      {
+        "p": {
+          "name": "Where Did the Gap Go? Reassessing the Long-Range Graph Benchmark",
+          "link": "https://arxiv.org/abs/2309.00367v2"
+        },
+        "c": "https://github.com/toenshoff/lrgb",
+        "n": "GPS-tuned",
+        "d": "2023-09-01",
+        "m1": "0.4440±0.0065"
+      },
+      {
+        "p": {
+          "name": "Improving the Effective Receptive Field of Message-Passing Neural Networks",
+          "link": "https://arxiv.org/abs/2505.23185v1"
+        },
+        "c": "https://github.com/bgu-cs-vil/im-mpnn",
+        "n": "IM-GatedGCN",
+        "d": "2025-05-29",
+        "m1": "0.4332 ± 0.0078"
+      },
+      {
+        "p": {
+          "name": "Unlocking the Potential of Classic GNNs for Graph-level Tasks: Simple Architectures Meet Excellence",
+          "link": "https://arxiv.org/abs/2502.09263v1"
+        },
+        "c": "https://github.com/LUOyk1999/GNNPlus",
+        "n": "GatedGCN+",
+        "d": "2025-02-13",
+        "m1": "0.4263 ± 0.0057"
+      },
+      {
+        "p": {
+          "name": "Exphormer: Sparse Transformers for Graphs",
+          "link": "https://arxiv.org/abs/2303.06147v2"
+        },
+        "c": "https://github.com/hamed1375/exphormer",
+        "n": "Exphormer",
+        "d": "2023-03-10",
+        "m1": "0.396±0.0027"
+      },
+      {
+        "p": {
+          "name": "Where Did the Gap Go? Reassessing the Long-Range Graph Benchmark",
+          "link": "https://arxiv.org/abs/2309.00367v2"
+        },
+        "c": "https://github.com/toenshoff/lrgb",
+        "n": "GatedGCN-tuned",
+        "d": "2023-09-01",
+        "m1": "0.3880±0.0040"
+      },
+      {
+        "p": {
+          "name": "Recipe for a General, Powerful, Scalable Graph Transformer",
+          "link": "https://arxiv.org/abs/2205.12454v4"
+        },
+        "c": "https://github.com/rampasek/GraphGPS",
+        "n": "GPS",
+        "d": "2022-05-25",
+        "m1": "0.3748±0.0109"
+      },
+      {
+        "p": {
+          "name": "DRew: Dynamically Rewired Message Passing with Delay",
+          "link": "https://arxiv.org/abs/2305.08018v2"
+        },
+        "c": "https://github.com/bengutteridge/drew",
+        "n": "DRew-GatedGCN+LapPE",
+        "d": "2023-05-13",
+        "m1": "0.3314±0.0024"
+      },
+      {
+        "p": {
+          "name": "Long Range Graph Benchmark",
+          "link": "https://arxiv.org/abs/2206.08164v4"
+        },
+        "c": "https://github.com/vijaydwivedi75/lrgb",
+        "n": "SAN+LapPE",
+        "d": "2022-06-16",
+        "m1": "0.3230±0.0039"
+      },
+      {
+        "p": {
+          "name": "Long Range Graph Benchmark",
+          "link": "https://arxiv.org/abs/2206.08164v4"
+        },
+        "c": "https://github.com/vijaydwivedi75/lrgb",
+        "n": "SAN+RWSE",
+        "d": "2022-06-16",
+        "m1": "0.3216±0.0027"
+      },
+      {
+        "p": {
+          "name": "On the Connection Between MPNN and Graph Transformer",
+          "link": "https://arxiv.org/abs/2301.11956v4"
+        },
+        "c": "https://github.com/chen-cai-osu/mpnn-gt-connection",
+        "n": "GatedGCN+LapPE+virtual node",
+        "d": "2023-01-27",
+        "m1": "0.3103±0.0068"
+      },
+      {
+        "p": {
+          "name": "Improving the Effective Receptive Field of Message-Passing Neural Networks",
+          "link": "https://arxiv.org/abs/2505.23185v1"
+        },
+        "c": "https://github.com/bgu-cs-vil/im-mpnn",
+        "n": "IM-GCN",
+        "d": "2025-05-29",
+        "m1": "0.2929 ± 0.0058"
+      },
+      {
+        "p": {
+          "name": "Long Range Graph Benchmark",
+          "link": "https://arxiv.org/abs/2206.08164v4"
+        },
+        "c": "https://github.com/vijaydwivedi75/lrgb",
+        "n": "GatedGCN",
+        "d": "2022-06-16",
+        "m1": "0.2873±0.0219"
+      },
+      {
+        "p": {
+          "name": "Long Range Graph Benchmark",
+          "link": "https://arxiv.org/abs/2206.08164v4"
+        },
+        "c": "https://github.com/vijaydwivedi75/lrgb",
+        "n": "GatedGCN+LapPE",
+        "d": "2022-06-16",
+        "m1": "0.2860±0.0085"
+      },
+      {
+        "p": {
+          "name": "Where Did the Gap Go? Reassessing the Long-Range Graph Benchmark",
+          "link": "https://arxiv.org/abs/2309.00367v2"
+        },
+        "c": "https://github.com/toenshoff/lrgb",
+        "n": "GINE-tuned",
+        "d": "2023-09-01",
+        "m1": "0.2718±0.0054"
+      },
+      {
+        "p": {
+          "name": "Long Range Graph Benchmark",
+          "link": "https://arxiv.org/abs/2206.08164v4"
+        },
+        "c": "https://github.com/vijaydwivedi75/lrgb",
+        "n": "Transformer+LapPE",
+        "d": "2022-06-16",
+        "m1": "0.2694±0.0098"
+      },
+      {
+        "p": {
+          "name": "Where Did the Gap Go? Reassessing the Long-Range Graph Benchmark",
+          "link": "https://arxiv.org/abs/2309.00367v2"
+        },
+        "c": "https://github.com/toenshoff/lrgb",
+        "n": "GCN-tuned",
+        "d": "2023-09-01",
+        "m1": "0.2078±0.0031"
+      },
+      {
+        "p": {
+          "name": "Simple and Deep Graph Convolutional Networks",
+          "link": "https://arxiv.org/abs/2007.02133v1"
+        },
+        "c": "https://github.com/chennnM/GCNII/tree/master/PyG/ogbn-arxiv",
+        "n": "GCNII",
+        "d": "2020-07-04",
+        "m1": "0.1698±0.0080"
+      },
+      {
+        "p": {
+          "name": "Long Range Graph Benchmark",
+          "link": "https://arxiv.org/abs/2206.08164v4"
+        },
+        "c": "https://github.com/vijaydwivedi75/lrgb",
+        "n": "GCN",
+        "d": "2022-06-16",
+        "m1": "0.1268±0.0060"
+      },
+      {
+        "p": {
+          "name": "Long Range Graph Benchmark",
+          "link": "https://arxiv.org/abs/2206.08164v4"
+        },
+        "c": "https://github.com/vijaydwivedi75/lrgb",
+        "n": "GINE",
+        "d": "2022-06-16",
+        "m1": "0.1265±0.0076"
+      }
+    ]
+  }
+}

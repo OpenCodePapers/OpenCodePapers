@@ -1,0 +1,68 @@
+{
+  "title": "anomaly-detection-on-mvtec-ad-textures-domain-generalization",
+  "task-hierarchy": [
+    "Anomaly Detection"
+  ],
+  "dataset-info": {
+    "link": "",
+    "paper": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Detection AUROC",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "FABLE : Fabric Anomaly Detection Automation Process",
+          "link": "https://arxiv.org/abs/2306.10089v1"
+        },
+        "c": "https://github.com/SimonThomine/FABLE",
+        "n": "FABLE",
+        "d": "2023-06-16",
+        "m1": "97.5"
+      },
+      {
+        "p": {
+          "name": "Domain-Generalized Textured Surface Anomaly Detection",
+          "link": "https://arxiv.org/abs/2203.12304v1"
+        },
+        "c": "",
+        "n": "DGTSAD",
+        "d": "2022-03-23",
+        "m1": "91.8"
+      },
+      {
+        "p": {
+          "name": "Learning from Extrinsic and Intrinsic Supervisions for Domain Generalization",
+          "link": "https://arxiv.org/abs/2007.09316v1"
+        },
+        "c": "",
+        "n": "EISNet+",
+        "d": "2020-07-18",
+        "m1": "90.9"
+      }
+    ]
+  }
+}

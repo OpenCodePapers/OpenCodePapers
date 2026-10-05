@@ -1,0 +1,104 @@
+{
+  "title": "surgical-phase-recognition-on-cholec80",
+  "task-hierarchy": [
+    "Surgical Video Analysis",
+    "Surgical phase recognition"
+  ],
+  "dataset-info": {
+    "link": "http://camma.u-strasbg.fr/datasets",
+    "paper": "EndoNet: A Deep Architecture for Recognition Tasks on Laparoscopic Videos"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Acc",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "LoViT: Long Video Transformer for Surgical Phase Recognition",
+          "link": "https://arxiv.org/abs/2305.08989v3"
+        },
+        "c": "https://github.com/MRUIL/LoViT",
+        "n": "LoViT",
+        "d": "2023-05-15",
+        "m1": "90.24"
+      },
+      {
+        "p": {
+          "name": "Self-Supervised Learning for Endoscopic Video Analysis",
+          "link": "https://arxiv.org/abs/2308.12394v1"
+        },
+        "c": "https://github.com/royhirsch/endossl",
+        "n": "MSN",
+        "d": "2023-08-23",
+        "m1": "89.6"
+      },
+      {
+        "p": {
+          "name": "MuST: Multi-Scale Transformers for Surgical Phase Recognition",
+          "link": "https://arxiv.org/abs/2407.17361v1"
+        },
+        "c": "https://github.com/BCV-Uniandes/MuST",
+        "n": "MuST",
+        "d": "2024-07-24",
+        "m1": "85.57"
+      },
+      {
+        "p": {
+          "name": "Dissecting Self-Supervised Learning Methods for Surgical Computer Vision",
+          "link": "https://arxiv.org/abs/2207.00449v3"
+        },
+        "c": "https://github.com/camma-public/selfsupsurg",
+        "n": "MoCo V2 Surg SSL - TCN head",
+        "d": "2022-07-01",
+        "m1": "81.6"
+      },
+      {
+        "p": {
+          "name": "TeCNO: Surgical Phase Recognition with Multi-Stage Temporal Convolutional Networks",
+          "link": "https://arxiv.org/abs/2003.10751v1"
+        },
+        "c": "https://github.com/tobiascz/TeCNO",
+        "n": "TCN",
+        "d": "2020-03-24",
+        "m1": "80.3"
+      },
+      {
+        "p": {
+          "name": "SF-TMN: SlowFast Temporal Modeling Network for Surgical Phase Recognition",
+          "link": "https://arxiv.org/abs/2306.08859v1"
+        },
+        "c": "",
+        "n": "SF-TMN(ASFormer)",
+        "d": "2023-06-15",
+        "m2": "95.43"
+      }
+    ]
+  }
+}

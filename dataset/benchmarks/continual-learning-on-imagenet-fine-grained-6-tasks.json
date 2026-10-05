@@ -1,0 +1,98 @@
+{
+  "title": "continual-learning-on-imagenet-fine-grained-6-tasks",
+  "task-hierarchy": [
+    "Continual Learning"
+  ],
+  "dataset-info": {
+    "link": "",
+    "paper": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Progressive Neural Networks",
+          "link": "https://arxiv.org/abs/1606.04671v4"
+        },
+        "c": "https://github.com/ContinualAI/avalanche",
+        "n": "ProgressiveNet",
+        "d": "2016-06-15",
+        "m1": "76.16"
+      },
+      {
+        "p": {
+          "name": "Piggyback: Adapting a Single Network to Multiple Tasks by Learning to Mask Weights",
+          "link": "http://arxiv.org/abs/1801.06519v2"
+        },
+        "c": "https://github.com/arunmallya/piggyback",
+        "n": "Piggyback",
+        "d": "2018-01-19",
+        "m1": "76.16"
+      },
+      {
+        "p": {
+          "name": "EXTENDING CONDITIONAL CONVOLUTION STRUCTURES FOR ENHANCING MULTITASKING CONTINUAL LEARNING",
+          "link": "http://www.apsipa.org/proceedings/2020/pdfs/0001605.pdf"
+        },
+        "c": "https://github.com/ivclab/CondConvContinual",
+        "n": "CondConvContinual",
+        "d": "2020-12-07",
+        "m1": "76.16"
+      },
+      {
+        "p": {
+          "name": "Compacting, Picking and Growing for Unforgetting Continual Learning",
+          "link": "https://arxiv.org/abs/1910.06562v3"
+        },
+        "c": "https://github.com/ivclab/CPG",
+        "n": "CPG",
+        "d": "2019-10-15",
+        "m1": "75.81"
+      },
+      {
+        "p": {
+          "name": "PackNet: Adding Multiple Tasks to a Single Network by Iterative Pruning",
+          "link": "http://arxiv.org/abs/1711.05769v2"
+        },
+        "c": "https://github.com/arunmallya/packnet",
+        "n": "PackNet",
+        "d": "2017-11-15",
+        "m1": "75.71"
+      },
+      {
+        "p": {
+          "name": "Helpful or Harmful: Inter-Task Association in Continual Learning",
+          "link": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136710518.pdf"
+        },
+        "c": "https://github.com/Jin0316/Helpful-or-Harmful-Inter-Task-Association",
+        "n": "H$^{2}$",
+        "d": "2022-10-23",
+        "m1": "75.71"
+      }
+    ]
+  }
+}

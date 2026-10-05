@@ -1,11 +1,12 @@
 {
   "title": "protein-ligand-affinity-prediction-on-pdbbind",
   "task-hierarchy": [
+    "Drug Discovery",
     "Protein-Ligand Affinity Prediction"
   ],
   "dataset-info": {
-    "link": "",
-    "paper": ""
+    "link": "https://www.pdbbind-plus.org.cn/",
+    "paper": "The PDBbind Database: Collection of Binding Affinities for Protein-Ligand Complexes with Known Three-Dimensional Structures"
   },
   "benchmark": {
     "fields": [

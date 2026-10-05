@@ -1,11 +1,12 @@
 {
   "title": "camera-localization-on-oxford-robotcar-full",
   "task-hierarchy": [
+    "Visual Localization",
     "Camera Localization"
   ],
   "dataset-info": {
-    "link": "",
-    "paper": ""
+    "link": "http://robotcar-dataset.robots.ox.ac.uk/",
+    "paper": "1 year, 1000 km: The Oxford RobotCar dataset"
   },
   "benchmark": {
     "fields": [

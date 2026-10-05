@@ -1,11 +1,13 @@
 {
   "title": "scene-classification-on-uc-merced-land-use",
   "task-hierarchy": [
+    "Image Classification",
+    "Scene Recognition",
     "Scene Classification"
   ],
   "dataset-info": {
     "link": "http://weegee.vision.ucmerced.edu/datasets/landuse.html",
-    "paper": ""
+    "paper": "Bag-of-visual-words and spatial extensions for land-use classification"
   },
   "benchmark": {
     "fields": [

@@ -1,0 +1,69 @@
+{
+  "title": "knowledge-graph-completion-on-dbp-5l-greek",
+  "task-hierarchy": [
+    "Knowledge Graphs",
+    "Knowledge Graph Completion"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/stasl0217/KEnS",
+    "paper": "Multilingual Knowledge Graph Completion via Ensemble Knowledge Transfer"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "MRR",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Joint Multilingual Knowledge Graph Completion and Alignment",
+          "link": "https://arxiv.org/abs/2210.08922v2"
+        },
+        "c": "https://github.com/vinhsuhi/jmac",
+        "n": "JMAC",
+        "d": "2022-10-17",
+        "m1": "71.7"
+      },
+      {
+        "p": {
+          "name": "Multilingual Knowledge Graph Completion with Joint Relation and Entity Alignment",
+          "link": "https://arxiv.org/abs/2104.08804v1"
+        },
+        "c": "",
+        "n": "AlignKGC",
+        "d": "2021-04-18",
+        "m1": "69.4"
+      },
+      {
+        "p": {
+          "name": "Multilingual Knowledge Graph Completion with Self-Supervised Adaptive Graph Alignment",
+          "link": "https://arxiv.org/abs/2203.14987v1"
+        },
+        "c": "https://github.com/amzn/ss-aga-kgc",
+        "n": "SS-AGA",
+        "d": "2022-03-28",
+        "m1": "35.3"
+      }
+    ]
+  }
+}

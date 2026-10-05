@@ -1,0 +1,121 @@
+{
+  "title": "clustering-algorithms-evaluation-on-fashion-mnist",
+  "task-hierarchy": [
+    "Clustering",
+    "Clustering Algorithms Evaluation"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/zalandoresearch/fashion-mnist",
+    "paper": "Fashion-MNIST: a Novel Image Dataset for Benchmarking Machine Learning Algorithms"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "ARI",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "F1-score",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "NMI",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Git: Clustering Based on Graph of Intensity Topology",
+          "link": "https://arxiv.org/abs/2110.01274v1"
+        },
+        "c": "https://github.com/gaozhangyang/DGC",
+        "n": "AE+GIT",
+        "d": "2021-10-04",
+        "m1": "49%",
+        "m2": "65%",
+        "m3": "61%"
+      },
+      {
+        "p": {
+          "name": "Git: Clustering Based on Graph of Intensity Topology",
+          "link": "https://arxiv.org/abs/2110.01274v1"
+        },
+        "c": "https://github.com/gaozhangyang/DGC",
+        "n": "k-Means++",
+        "d": "2021-10-04",
+        "m1": "35%",
+        "m2": "39%",
+        "m3": "51%"
+      },
+      {
+        "p": {
+          "name": "Git: Clustering Based on Graph of Intensity Topology",
+          "link": "https://arxiv.org/abs/2110.01274v1"
+        },
+        "c": "https://github.com/gaozhangyang/DGC",
+        "n": "Spectral Clustering",
+        "d": "2021-10-04",
+        "m1": "34%",
+        "m2": "43%",
+        "m3": "49%"
+      },
+      {
+        "p": {
+          "name": "Git: Clustering Based on Graph of Intensity Topology",
+          "link": "https://arxiv.org/abs/2110.01274v1"
+        },
+        "c": "https://github.com/gaozhangyang/DGC",
+        "n": "GIT",
+        "d": "2021-10-04",
+        "m1": "32%",
+        "m2": "56%",
+        "m3": "51%"
+      },
+      {
+        "p": {
+          "name": "Git: Clustering Based on Graph of Intensity Topology",
+          "link": "https://arxiv.org/abs/2110.01274v1"
+        },
+        "c": "https://github.com/gaozhangyang/DGC",
+        "n": "SpectACI",
+        "d": "2021-10-04",
+        "m1": "29%",
+        "m2": "47%",
+        "m3": "45%"
+      },
+      {
+        "p": {
+          "name": "Git: Clustering Based on Graph of Intensity Topology",
+          "link": "https://arxiv.org/abs/2110.01274v1"
+        },
+        "c": "https://github.com/gaozhangyang/DGC",
+        "n": "QuickShiftPP",
+        "d": "2021-10-04",
+        "m1": "16%",
+        "m2": "42%",
+        "m3": "41%"
+      }
+    ]
+  }
+}

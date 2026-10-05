@@ -1,0 +1,1162 @@
+{
+  "title": "few-shot-semantic-segmentation-on-pascal-5i-1-shot",
+  "task-hierarchy": [
+    "Semantic Segmentation",
+    "Few-Shot Semantic Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://arxiv.org/abs/1709.03410",
+    "paper": "One-Shot Learning for Semantic Segmentation"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Mean IoU",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "FB-IoU",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "learnable parameters (million)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "SegGPT: Segmenting Everything In Context",
+          "link": "https://arxiv.org/abs/2304.03284v1"
+        },
+        "c": "https://github.com/baaivision/painter",
+        "n": "SegGPT (ViT)",
+        "d": "2023-04-06",
+        "m1": "83.2"
+      },
+      {
+        "p": {
+          "name": "Visual and Textual Prior Guided Mask Assemble for Few-Shot Segmentation and Beyond",
+          "link": "https://arxiv.org/abs/2308.07539v1"
+        },
+        "c": "",
+        "n": "PGMA-Net (ResNet-101)",
+        "d": "2023-08-15",
+        "m1": "77.6",
+        "m2": "86.2"
+      },
+      {
+        "p": {
+          "name": "Visual and Textual Prior Guided Mask Assemble for Few-Shot Segmentation and Beyond",
+          "link": "https://arxiv.org/abs/2308.07539v1"
+        },
+        "c": "",
+        "n": "PGMA-Net (ResNet-50)",
+        "d": "2023-08-15",
+        "m1": "74.1",
+        "m2": "83.5"
+      },
+      {
+        "p": {
+          "name": "Visual and Textual Prior Guided Mask Assemble for Few-Shot Segmentation and Beyond",
+          "link": "https://arxiv.org/abs/2308.07539v1"
+        },
+        "c": "",
+        "n": "PGMA-Net (ViT-B/16)",
+        "d": "2023-08-15",
+        "m1": "74.1",
+        "m2": "82.1"
+      },
+      {
+        "p": {
+          "name": "Bridge the Points: Graph-based Few-shot Segment Anything Semantically",
+          "link": "https://arxiv.org/abs/2410.06964v2"
+        },
+        "c": "https://github.com/ANDYZAQ/GF-SAM",
+        "n": "GF-SAM (DINOv2)",
+        "d": "2024-10-09",
+        "m1": "72.1"
+      },
+      {
+        "p": {
+          "name": "Hybrid Mamba for Few-Shot Segmentation",
+          "link": "https://arxiv.org/abs/2409.19613v1"
+        },
+        "c": "https://github.com/sam1224/hmnet",
+        "n": "HMNet (ResNet-50)",
+        "d": "2024-09-29",
+        "m1": "70.4",
+        "m2": "81.6"
+      },
+      {
+        "p": {
+          "name": "Eliminating Feature Ambiguity for Few-Shot Segmentation",
+          "link": "https://arxiv.org/abs/2407.09842v1"
+        },
+        "c": "https://github.com/sam1224/aenet",
+        "n": "AENet (ResNet-50)",
+        "d": "2024-07-13",
+        "m1": "70.3",
+        "m2": "81.2"
+      },
+      {
+        "p": {
+          "name": "DifFSS: Diffusion Model for Few-Shot Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2307.00773v3"
+        },
+        "c": "https://github.com/TrinitialChan/DifFSS",
+        "n": "HDMNet (DifFSS, ResNet-50)",
+        "d": "2023-07-03",
+        "m1": "70.2"
+      },
+      {
+        "p": {
+          "name": "MSI: Maximize Support-Set Information for Few-Shot Segmentation",
+          "link": "https://arxiv.org/abs/2212.04673v3"
+        },
+        "c": "https://github.com/moonsh/msi-maximize-support-set-information",
+        "n": "VAT + MSI (ResNet-101)",
+        "d": "2022-12-09",
+        "m1": "70.1",
+        "m2": "82.3"
+      },
+      {
+        "p": {
+          "name": "Hierarchical Dense Correlation Distillation for Few-Shot Segmentation",
+          "link": "https://arxiv.org/abs/2303.14652v1"
+        },
+        "c": "https://github.com/pbihao/hdmnet",
+        "n": "HDMNet (ResNet-50)",
+        "d": "2023-03-26",
+        "m1": "69.4"
+      },
+      {
+        "p": {
+          "name": "Dense Cross-Query-and-Support Attention Weighted Mask Aggregation for Few-Shot Segmentation",
+          "link": "https://arxiv.org/abs/2207.08549v1"
+        },
+        "c": "https://github.com/pawn-sxy/dcama",
+        "n": "DCAMA (Swin-B)",
+        "d": "2022-07-18",
+        "m1": "69.3",
+        "m2": "78.5"
+      },
+      {
+        "p": {
+          "name": "DifFSS: Diffusion Model for Few-Shot Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2307.00773v3"
+        },
+        "c": "https://github.com/TrinitialChan/DifFSS",
+        "n": "BAM (DifFSS, ResNet-50)",
+        "d": "2023-07-03",
+        "m1": "69.3"
+      },
+      {
+        "p": {
+          "name": "MSANet: Multi-Similarity and Attention Guidance for Boosting Few-Shot Segmentation",
+          "link": "https://arxiv.org/abs/2206.09667v1"
+        },
+        "c": "https://github.com/AIVResearch/MSANet",
+        "n": "MSANet (ResNet-101)",
+        "d": "2022-06-20",
+        "m1": "69.13",
+        "m2": "80.38"
+      },
+      {
+        "p": {
+          "name": "Doubly Deformable Aggregation of Covariance Matrices for Few-shot Segmentation",
+          "link": "https://arxiv.org/abs/2208.00306v1"
+        },
+        "c": "https://github.com/shadowxzt/dacm-few-shot.pytorch",
+        "n": "DACM (VAT, ResNet-101)",
+        "d": "2022-07-30",
+        "m1": "69.1",
+        "m2": "79.4"
+      },
+      {
+        "p": {
+          "name": "Singular Value Fine-tuning: Few-shot Segmentation requires Few-parameters Fine-tuning",
+          "link": "https://arxiv.org/abs/2206.06122v2"
+        },
+        "c": "https://github.com/syp2ysy/SVF",
+        "n": "BAM (SVF, ResNet-50)",
+        "d": "2022-06-13",
+        "m1": "68.95",
+        "m2": "80.13"
+      },
+      {
+        "p": {
+          "name": "Feature-Proxy Transformer for Few-Shot Segmentation",
+          "link": "https://arxiv.org/abs/2210.06908v1"
+        },
+        "c": "https://github.com/jarvis73/fptrans",
+        "n": "FPTrans (DeiT-B/16)",
+        "d": "2022-10-13",
+        "m1": "68.8"
+      },
+      {
+        "p": {
+          "name": "MIANet: Aggregating Unbiased Instance and General Information for Few-Shot Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2305.13864v1"
+        },
+        "c": "https://github.com/aldrich2y/mianet",
+        "n": "MIANet (ResNet-50)",
+        "d": "2023-05-23",
+        "m1": "68.72",
+        "m2": "79.54"
+      },
+      {
+        "p": {
+          "name": "MSANet: Multi-Similarity and Attention Guidance for Boosting Few-Shot Segmentation",
+          "link": "https://arxiv.org/abs/2206.09667v1"
+        },
+        "c": "https://github.com/AIVResearch/MSANet",
+        "n": "MSANet (ResNet-50)",
+        "d": "2022-06-20",
+        "m1": "68.52",
+        "m2": "80.44"
+      },
+      {
+        "p": {
+          "name": "Self-Calibrated Cross Attention Network for Few-Shot Segmentation",
+          "link": "https://arxiv.org/abs/2308.09294v1"
+        },
+        "c": "https://github.com/sam1224/sccan",
+        "n": "SCCAN (ResNet-101)",
+        "d": "2023-08-18",
+        "m1": "68.3",
+        "m2": "78.5"
+      },
+      {
+        "p": {
+          "name": "Singular Value Fine-tuning: Few-shot Segmentation requires Few-parameters Fine-tuning",
+          "link": "https://arxiv.org/abs/2206.06122v2"
+        },
+        "c": "https://github.com/syp2ysy/SVF",
+        "n": "PFENet (SVF, ResNet-50)",
+        "d": "2022-06-13",
+        "m1": "68.15",
+        "m2": "79.07"
+      },
+      {
+        "p": {
+          "name": "Cost Aggregation with 4D Convolutional Swin Transformer for Few-Shot Segmentation",
+          "link": "https://arxiv.org/abs/2207.10866v1"
+        },
+        "c": "https://github.com/Seokju-Cho/Volumetric-Aggregation-Transformer",
+        "n": "VAT (ResNet-101)",
+        "d": "2022-07-22",
+        "m1": "67.9",
+        "m2": "79.6"
+      },
+      {
+        "p": {
+          "name": "Learning What Not to Segment: A New Perspective on Few-Shot Segmentation",
+          "link": "https://arxiv.org/abs/2203.07615v2"
+        },
+        "c": "https://github.com/chunbolang/BAM",
+        "n": "BAM (ResNet-50)",
+        "d": "2022-03-15",
+        "m1": "67.81"
+      },
+      {
+        "p": {
+          "name": "HM: Hybrid Masking for Few-Shot Segmentation",
+          "link": "https://arxiv.org/abs/2203.12826v2"
+        },
+        "c": "https://github.com/moonsh/hm-hybrid-masking",
+        "n": "VAT (HM, ResNet-101)",
+        "d": "2022-03-24",
+        "m1": "67.8",
+        "m2": "79.4"
+      },
+      {
+        "p": {
+          "name": "MIANet: Aggregating Unbiased Instance and General Information for Few-Shot Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2305.13864v1"
+        },
+        "c": "https://github.com/aldrich2y/mianet",
+        "n": "MIANet (ResNet-101)",
+        "d": "2023-05-23",
+        "m1": "67.63"
+      },
+      {
+        "p": {
+          "name": "Cost Aggregation Is All You Need for Few-Shot Segmentation",
+          "link": "https://arxiv.org/abs/2112.11685v1"
+        },
+        "c": "https://github.com/Seokju-Cho/Volumetric-Aggregation-Transformer",
+        "n": "VAT",
+        "d": "2021-12-22",
+        "m1": "67.5"
+      },
+      {
+        "p": {
+          "name": "Doubly Deformable Aggregation of Covariance Matrices for Few-shot Segmentation",
+          "link": "https://arxiv.org/abs/2208.00306v1"
+        },
+        "c": "https://github.com/shadowxzt/dacm-few-shot.pytorch",
+        "n": "DACM (ResNet-101)",
+        "d": "2022-07-30",
+        "m1": "67.5",
+        "m2": "78.9"
+      },
+      {
+        "p": {
+          "name": "Interclass Prototype Relation for Few-Shot Segmentation",
+          "link": "https://arxiv.org/abs/2211.08681v1"
+        },
+        "c": "",
+        "n": "IPRNet (ResNet-101)",
+        "d": "2022-11-16",
+        "m1": "67.5"
+      },
+      {
+        "p": {
+          "name": "FECANet: Boosting Few-Shot Semantic Segmentation with Feature-Enhanced Context-Aware Network",
+          "link": "https://arxiv.org/abs/2301.08160v1"
+        },
+        "c": "https://github.com/nust-machine-intelligence-laboratory/fecanet",
+        "n": "FECANet (ResNet-50)",
+        "d": "2023-01-19",
+        "m1": "67.4",
+        "m2": "78.7"
+      },
+      {
+        "p": {
+          "name": "Hybrid Mamba for Few-Shot Segmentation",
+          "link": "https://arxiv.org/abs/2409.19613v1"
+        },
+        "c": "https://github.com/sam1224/hmnet",
+        "n": "HMNet (VGG-16)",
+        "d": "2024-09-29",
+        "m1": "67.3",
+        "m2": "79.2"
+      },
+      {
+        "p": {
+          "name": "MIANet: Aggregating Unbiased Instance and General Information for Few-Shot Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2305.13864v1"
+        },
+        "c": "https://github.com/aldrich2y/mianet",
+        "n": "MIANet (VGG-16)",
+        "d": "2023-05-23",
+        "m1": "67.10",
+        "m2": "79.22"
+      },
+      {
+        "p": {
+          "name": "Quaternion-valued Correlation Learning for Few-Shot Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2305.07283v3"
+        },
+        "c": "https://github.com/zwzheng98/qclnet",
+        "n": "QCLNet (ResNet-101)",
+        "d": "2023-05-12",
+        "m1": "67"
+      },
+      {
+        "p": {
+          "name": "Integrative Few-Shot Learning for Classification and Segmentation",
+          "link": "https://arxiv.org/abs/2203.15712v2"
+        },
+        "c": "https://github.com/dahyun-kang/ifsl",
+        "n": "ASNet",
+        "d": "2022-03-29",
+        "m1": "66.9"
+      },
+      {
+        "p": {
+          "name": "Doubly Deformable Aggregation of Covariance Matrices for Few-shot Segmentation",
+          "link": "https://arxiv.org/abs/2208.00306v1"
+        },
+        "c": "https://github.com/shadowxzt/dacm-few-shot.pytorch",
+        "n": "DACM (VAT, ResNet-50)",
+        "d": "2022-07-30",
+        "m1": "66.8",
+        "m2": "78.6"
+      },
+      {
+        "p": {
+          "name": "Intermediate Prototype Mining Transformer for Few-Shot Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2210.06780v1"
+        },
+        "c": "https://github.com/liuyuanwei98/ipmt",
+        "n": "IPMT (ResNet-50)",
+        "d": "2022-10-13",
+        "m1": "66.8",
+        "m2": "77.1"
+      },
+      {
+        "p": {
+          "name": "Self-Calibrated Cross Attention Network for Few-Shot Segmentation",
+          "link": "https://arxiv.org/abs/2308.09294v1"
+        },
+        "c": "https://github.com/sam1224/sccan",
+        "n": "SCCAN (ResNet-50)",
+        "d": "2023-08-18",
+        "m1": "66.8",
+        "m2": "77.7"
+      },
+      {
+        "p": {
+          "name": "HM: Hybrid Masking for Few-Shot Segmentation",
+          "link": "https://arxiv.org/abs/2203.12826v2"
+        },
+        "c": "https://github.com/moonsh/hm-hybrid-masking",
+        "n": "HSNet (HM, ResNet-101)",
+        "d": "2022-03-24",
+        "m1": "66.7",
+        "m2": "77.8"
+      },
+      {
+        "p": {
+          "name": "Dynamic Prototype Convolution Network for Few-Shot Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2204.10638v1"
+        },
+        "c": "",
+        "n": "DPCN",
+        "d": "2022-04-22",
+        "m1": "66.7"
+      },
+      {
+        "p": {
+          "name": "Eliminating Feature Ambiguity for Few-Shot Segmentation",
+          "link": "https://arxiv.org/abs/2407.09842v1"
+        },
+        "c": "https://github.com/sam1224/aenet",
+        "n": "AENet (VGG-16)",
+        "d": "2024-07-13",
+        "m1": "66.6",
+        "m2": "79.0"
+      },
+      {
+        "p": {
+          "name": "Hypercorrelation Squeeze for Few-Shot Segmentation",
+          "link": "https://arxiv.org/abs/2104.01538v3"
+        },
+        "c": "https://github.com/juhongm999/hsnet",
+        "n": "HSNet (ResNet-101)",
+        "d": "2021-04-04",
+        "m1": "66.2",
+        "m2": "77.6",
+        "m3": "2.5"
+      },
+      {
+        "p": {
+          "name": "DifFSS: Diffusion Model for Few-Shot Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2307.00773v3"
+        },
+        "c": "https://github.com/TrinitialChan/DifFSS",
+        "n": "CyCTR (DifFSS, ResNet-50)",
+        "d": "2023-07-03",
+        "m1": "66.2"
+      },
+      {
+        "p": {
+          "name": "Intermediate Prototype Mining Transformer for Few-Shot Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2210.06780v1"
+        },
+        "c": "https://github.com/liuyuanwei98/ipmt",
+        "n": "IPMT (ResNet-101)",
+        "d": "2022-10-13",
+        "m1": "66.1",
+        "m2": "78.5"
+      },
+      {
+        "p": {
+          "name": "Masked Cross-image Encoding for Few-shot Segmentation",
+          "link": "https://arxiv.org/abs/2308.11201v1"
+        },
+        "c": "",
+        "n": "MCE (ResNet-50)",
+        "d": "2023-08-22",
+        "m1": "65.93",
+        "m2": "78.1"
+      },
+      {
+        "p": {
+          "name": "HM: Hybrid Masking for Few-Shot Segmentation",
+          "link": "https://arxiv.org/abs/2203.12826v2"
+        },
+        "c": "https://github.com/moonsh/hm-hybrid-masking",
+        "n": "VAT (HM, ResNet-50)",
+        "d": "2022-03-24",
+        "m1": "65.8",
+        "m2": "77.1"
+      },
+      {
+        "p": {
+          "name": "MSANet: Multi-Similarity and Attention Guidance for Boosting Few-Shot Segmentation",
+          "link": "https://arxiv.org/abs/2206.09667v1"
+        },
+        "c": "https://github.com/AIVResearch/MSANet",
+        "n": "MSANet (VGG-16)",
+        "d": "2022-06-20",
+        "m1": "65.76",
+        "m2": "78.01"
+      },
+      {
+        "p": {
+          "name": "Doubly Deformable Aggregation of Covariance Matrices for Few-shot Segmentation",
+          "link": "https://arxiv.org/abs/2208.00306v1"
+        },
+        "c": "https://github.com/shadowxzt/dacm-few-shot.pytorch",
+        "n": "DACM (ResNet-50)",
+        "d": "2022-07-30",
+        "m1": "65.7",
+        "m2": "77.8"
+      },
+      {
+        "p": {
+          "name": "Interclass Prototype Relation for Few-Shot Segmentation",
+          "link": "https://arxiv.org/abs/2211.08681v1"
+        },
+        "c": "",
+        "n": "IPRNet (ResNet-50)",
+        "d": "2022-11-16",
+        "m1": "65.7"
+      },
+      {
+        "p": {
+          "name": "Few-shot Semantic Segmentation with Support-induced Graph Convolutional Network",
+          "link": "https://arxiv.org/abs/2301.03194v2"
+        },
+        "c": "",
+        "n": "SiGCN (ResNet-101)",
+        "d": "2023-01-09",
+        "m1": "65.7",
+        "m2": "78.3"
+      },
+      {
+        "p": {
+          "name": "Cost Aggregation with 4D Convolutional Swin Transformer for Few-Shot Segmentation",
+          "link": "https://arxiv.org/abs/2207.10866v1"
+        },
+        "c": "https://github.com/Seokju-Cho/Volumetric-Aggregation-Transformer",
+        "n": "VAT (ResNet-50)",
+        "d": "2022-07-22",
+        "m1": "65.5",
+        "m2": "77.8"
+      },
+      {
+        "p": {
+          "name": "Few-shot Semantic Segmentation with Support-induced Graph Convolutional Network",
+          "link": "https://arxiv.org/abs/2301.03194v2"
+        },
+        "c": "",
+        "n": "SiGCN (ResNet-50)",
+        "d": "2023-01-09",
+        "m1": "65.3",
+        "m2": "77.5"
+      },
+      {
+        "p": {
+          "name": "Hierarchical Dense Correlation Distillation for Few-Shot Segmentation",
+          "link": "https://arxiv.org/abs/2303.14652v1"
+        },
+        "c": "https://github.com/pbihao/hdmnet",
+        "n": "HDMNet (VGG-16)",
+        "d": "2023-03-26",
+        "m1": "65.1"
+      },
+      {
+        "p": {
+          "name": "HM: Hybrid Masking for Few-Shot Segmentation",
+          "link": "https://arxiv.org/abs/2203.12826v2"
+        },
+        "c": "https://github.com/moonsh/hm-hybrid-masking",
+        "n": "HSNet (HM, ResNet-50)",
+        "d": "2022-03-24",
+        "m1": "65",
+        "m2": "76.5"
+      },
+      {
+        "p": {
+          "name": "Singular Value Fine-tuning: Few-shot Segmentation requires Few-parameters Fine-tuning",
+          "link": "https://arxiv.org/abs/2206.06122v2"
+        },
+        "c": "https://github.com/syp2ysy/SVF",
+        "n": "BAM (SVF, VGG-16)",
+        "d": "2022-06-13",
+        "m1": "64.87"
+      },
+      {
+        "p": {
+          "name": "Dense Gaussian Processes for Few-Shot Segmentation",
+          "link": "https://arxiv.org/abs/2110.03674v2"
+        },
+        "c": "https://github.com/joakimjohnander/dgpnet",
+        "n": "DGPNet (ResNet-101)",
+        "d": "2021-10-07",
+        "m1": "64.8"
+      },
+      {
+        "p": {
+          "name": "Feature-Proxy Transformer for Few-Shot Segmentation",
+          "link": "https://arxiv.org/abs/2210.06908v1"
+        },
+        "c": "https://github.com/jarvis73/fptrans",
+        "n": "FPTrans (ViT-B/16)",
+        "d": "2022-10-13",
+        "m1": "64.7"
+      },
+      {
+        "p": {
+          "name": "MSDNet: Multi-Scale Decoder for Few-Shot Semantic Segmentation via Transformer-Guided Prototyping",
+          "link": "https://arxiv.org/abs/2409.11316v2"
+        },
+        "c": "https://github.com/amirrezafateh/msdnet",
+        "n": "MSDNet (ResNet-101)",
+        "d": "2024-09-17",
+        "m1": "64.7",
+        "m2": "77.3",
+        "m3": "1.5"
+      },
+      {
+        "p": {
+          "name": "Dense Cross-Query-and-Support Attention Weighted Mask Aggregation for Few-Shot Segmentation",
+          "link": "https://arxiv.org/abs/2207.08549v1"
+        },
+        "c": "https://github.com/pawn-sxy/dcama",
+        "n": "DCAMA (ResNet-50)",
+        "d": "2022-07-18",
+        "m1": "64.6",
+        "m2": "75.7"
+      },
+      {
+        "p": {
+          "name": "Self-Support Few-Shot Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2207.11549v1"
+        },
+        "c": "https://github.com/fanq15/ssp",
+        "n": "SSP (ResNet-101)",
+        "d": "2022-07-23",
+        "m1": "64.6"
+      },
+      {
+        "p": {
+          "name": "Singular Value Fine-tuning: Few-shot Segmentation requires Few-parameters Fine-tuning",
+          "link": "https://arxiv.org/abs/2206.06122v2"
+        },
+        "c": "https://github.com/syp2ysy/SVF",
+        "n": "PFENet (SVF, VGG-16)",
+        "d": "2022-06-13",
+        "m1": "64.33"
+      },
+      {
+        "p": {
+          "name": "Few-Shot Segmentation via Cycle-Consistent Transformer",
+          "link": "https://arxiv.org/abs/2106.02320v4"
+        },
+        "c": "https://github.com/YanFangCS/CyCTR-Pytorch",
+        "n": "CyCTR (ResNet-101)",
+        "d": "2021-06-04",
+        "m1": "64.3",
+        "m3": "15.4"
+      },
+      {
+        "p": {
+          "name": "FECANet: Boosting Few-Shot Semantic Segmentation with Feature-Enhanced Context-Aware Network",
+          "link": "https://arxiv.org/abs/2301.08160v1"
+        },
+        "c": "https://github.com/nust-machine-intelligence-laboratory/fecanet",
+        "n": "FECANet (VGG-16)",
+        "d": "2023-01-19",
+        "m1": "64.3",
+        "m2": "76.2"
+      },
+      {
+        "p": {
+          "name": "Quaternion-valued Correlation Learning for Few-Shot Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2305.07283v3"
+        },
+        "c": "https://github.com/zwzheng98/qclnet",
+        "n": "QCLNet (ResNet-50)",
+        "d": "2023-05-12",
+        "m1": "64.3"
+      },
+      {
+        "p": {
+          "name": "MSDNet: Multi-Scale Decoder for Few-Shot Semantic Segmentation via Transformer-Guided Prototyping",
+          "link": "https://arxiv.org/abs/2409.11316v2"
+        },
+        "c": "https://github.com/amirrezafateh/msdnet",
+        "n": "MSDNet (ResNet-50)",
+        "d": "2024-09-17",
+        "m1": "64.3",
+        "m2": "77.1",
+        "m3": "1.5"
+      },
+      {
+        "p": {
+          "name": "Hypercorrelation Squeeze for Few-Shot Segmentation",
+          "link": "https://arxiv.org/abs/2104.01538v3"
+        },
+        "c": "https://github.com/juhongm999/hsnet",
+        "n": "HSNet (ResNet-50)",
+        "d": "2021-04-04",
+        "m1": "64.0",
+        "m2": "76.7",
+        "m3": "2.5"
+      },
+      {
+        "p": {
+          "name": "APANet: Adaptive Prototypes Alignment Network for Few-Shot Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2111.12263v2"
+        },
+        "c": "",
+        "n": "APANet (ResNet-101)",
+        "d": "2021-11-24",
+        "m1": "64"
+      },
+      {
+        "p": {
+          "name": "Mining Latent Classes for Few-shot Segmentation",
+          "link": "https://arxiv.org/abs/2103.15402v3"
+        },
+        "c": "https://github.com/LiheYoung/MiningFSS",
+        "n": "MLC (ResNet-101)",
+        "d": "2021-03-29",
+        "m1": "63.8"
+      },
+      {
+        "p": {
+          "name": "Mining Latent Classes for Few-shot Segmentation",
+          "link": "https://arxiv.org/abs/2103.15402v3"
+        },
+        "c": "https://github.com/LiheYoung/MiningFSS",
+        "n": "MLC (ResNet-50)",
+        "d": "2021-03-29",
+        "m1": "63.6"
+      },
+      {
+        "p": {
+          "name": "Dense Gaussian Processes for Few-Shot Segmentation",
+          "link": "https://arxiv.org/abs/2110.03674v2"
+        },
+        "c": "https://github.com/joakimjohnander/dgpnet",
+        "n": "DGPNet (ResNet-50)",
+        "d": "2021-10-07",
+        "m1": "63.5"
+      },
+      {
+        "p": {
+          "name": "Prototype as Query for Few Shot Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2211.14764v1"
+        },
+        "c": "https://github.com/leileicao/protoformer",
+        "n": "ProtoFormer (ResNet-101)",
+        "d": "2022-11-27",
+        "m1": "63.2",
+        "m2": "72.6"
+      },
+      {
+        "p": {
+          "name": "Prototype as Query for Few Shot Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2211.14764v1"
+        },
+        "c": "https://github.com/leileicao/protoformer",
+        "n": "ProtoFormer (ResNet-50)",
+        "d": "2022-11-27",
+        "m1": "63.1",
+        "m2": "72.6"
+      },
+      {
+        "p": {
+          "name": "APANet: Adaptive Prototypes Alignment Network for Few-Shot Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2111.12263v2"
+        },
+        "c": "",
+        "n": "APANet (ResNet-50)",
+        "d": "2021-11-24",
+        "m1": "63"
+      },
+      {
+        "p": {
+          "name": "Masked Cross-image Encoding for Few-shot Segmentation",
+          "link": "https://arxiv.org/abs/2308.11201v1"
+        },
+        "c": "",
+        "n": "MCE (VGG-16)",
+        "d": "2023-08-22",
+        "m1": "62.87",
+        "m2": "74.51"
+      },
+      {
+        "p": {
+          "name": "Beyond the Prototype: Divide-and-conquer Proxies for Few-shot Segmentation",
+          "link": "https://arxiv.org/abs/2204.09903v2"
+        },
+        "c": "https://github.com/chunbolang/DCP",
+        "n": "DCP (ResNet-50)",
+        "d": "2022-04-21",
+        "m1": "62.80"
+      },
+      {
+        "p": {
+          "name": "Self-Guided and Cross-Guided Learning for Few-Shot Segmentation",
+          "link": "https://arxiv.org/abs/2103.16129v1"
+        },
+        "c": "https://github.com/zbf1991/SCL",
+        "n": "PFENet (SCL, ResNet-50)",
+        "d": "2021-03-30",
+        "m1": "61.8",
+        "m2": "71.9"
+      },
+      {
+        "p": {
+          "name": "Doubly Deformable Aggregation of Covariance Matrices for Few-shot Segmentation",
+          "link": "https://arxiv.org/abs/2208.00306v1"
+        },
+        "c": "https://github.com/shadowxzt/dacm-few-shot.pytorch",
+        "n": "DACM (VGG-16)",
+        "d": "2022-07-30",
+        "m1": "61.8",
+        "m2": "75.5"
+      },
+      {
+        "p": {
+          "name": "Self-Support Few-Shot Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2207.11549v1"
+        },
+        "c": "https://github.com/fanq15/ssp",
+        "n": "SSP (ResNet-50)",
+        "d": "2022-07-23",
+        "m1": "61.4"
+      },
+      {
+        "p": {
+          "name": "Iterative Few-shot Semantic Segmentation from Image Label Text",
+          "link": "https://arxiv.org/abs/2303.05646v1"
+        },
+        "c": "https://github.com/whileherham/imr-hsnet",
+        "n": "IMR-HSNet (ResNet-50)",
+        "d": "2023-03-10",
+        "m1": "61.1"
+      },
+      {
+        "p": {
+          "name": "Prior Guided Feature Enrichment Network for Few-Shot Segmentation",
+          "link": "https://arxiv.org/abs/2008.01449v1"
+        },
+        "c": "https://github.com/Jia-Research-Lab/PFENet",
+        "n": "PFENet (ResNet-50)",
+        "d": "2020-08-04",
+        "m1": "60.8",
+        "m2": "73.3",
+        "m3": "10.3"
+      },
+      {
+        "p": {
+          "name": "Few-shot Semantic Segmentation with Support-induced Graph Convolutional Network",
+          "link": "https://arxiv.org/abs/2301.03194v2"
+        },
+        "c": "",
+        "n": "SiGCN (VGG-16)",
+        "d": "2023-01-09",
+        "m1": "60.8",
+        "m2": "73.5"
+      },
+      {
+        "p": {
+          "name": "Quaternion-valued Correlation Learning for Few-Shot Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2305.07283v3"
+        },
+        "c": "https://github.com/zwzheng98/qclnet",
+        "n": "QCLNet (VGG-16)",
+        "d": "2023-05-12",
+        "m1": "60.6"
+      },
+      {
+        "p": {
+          "name": "Clustered-patch Element Connection for Few-shot Learning",
+          "link": "https://arxiv.org/abs/2304.10093v3"
+        },
+        "c": "https://github.com/Layjins/CECNet",
+        "n": "RePRI (CECE-T,ResNet-50)",
+        "d": "2023-04-20",
+        "m1": "60.5"
+      },
+      {
+        "p": {
+          "name": "Clustered-patch Element Connection for Few-shot Learning",
+          "link": "https://arxiv.org/abs/2304.10093v3"
+        },
+        "c": "https://github.com/Layjins/CECNet",
+        "n": "RePRI (CECE-M,ResNet-50)",
+        "d": "2023-04-20",
+        "m1": "60.4"
+      },
+      {
+        "p": {
+          "name": "Prior Guided Feature Enrichment Network for Few-Shot Segmentation",
+          "link": "https://arxiv.org/abs/2008.01449v1"
+        },
+        "c": "https://github.com/Jia-Research-Lab/PFENet",
+        "n": "PFENet (ResNet-101)",
+        "d": "2020-08-04",
+        "m1": "60.1",
+        "m2": "72.9",
+        "m3": "10.3"
+      },
+      {
+        "p": {
+          "name": "Few-Shot Segmentation Without Meta-Learning: A Good Transductive Inference Is All You Need?",
+          "link": "https://arxiv.org/abs/2012.06166v2"
+        },
+        "c": "https://github.com/mboudiaf/RePRI-for-Few-Shot-Segmentation",
+        "n": "RePRI (ResNet-50)",
+        "d": "2020-12-11",
+        "m1": "59.7"
+      },
+      {
+        "p": {
+          "name": "Hypercorrelation Squeeze for Few-Shot Segmentation",
+          "link": "https://arxiv.org/abs/2104.01538v3"
+        },
+        "c": "https://github.com/juhongm999/hsnet",
+        "n": "HSNet (VGG-16)",
+        "d": "2021-04-04",
+        "m1": "59.7",
+        "m2": "73.4"
+      },
+      {
+        "p": {
+          "name": "Few-Shot Segmentation Without Meta-Learning: A Good Transductive Inference Is All You Need?",
+          "link": "https://arxiv.org/abs/2012.06166v2"
+        },
+        "c": "https://github.com/mboudiaf/RePRI-for-Few-Shot-Segmentation",
+        "n": "RePRI (ResNet-101)",
+        "d": "2020-12-11",
+        "m1": "59.4"
+      },
+      {
+        "p": {
+          "name": "Adaptive Prototype Learning and Allocation for Few-Shot Segmentation",
+          "link": "https://arxiv.org/abs/2104.01893v2"
+        },
+        "c": "https://github.com/Reagan1311/ASGNet",
+        "n": "ASGNet (ResNet-101)",
+        "d": "2021-04-05",
+        "m1": "59.31",
+        "m2": "71.7"
+      },
+      {
+        "p": {
+          "name": "Adaptive Prototype Learning and Allocation for Few-Shot Segmentation",
+          "link": "https://arxiv.org/abs/2104.01893v2"
+        },
+        "c": "https://github.com/Reagan1311/ASGNet",
+        "n": "ASGNet (ResNet-50)",
+        "d": "2021-04-05",
+        "m1": "59.29",
+        "m2": "69.2"
+      },
+      {
+        "p": {
+          "name": "APANet: Adaptive Prototypes Alignment Network for Few-Shot Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2111.12263v2"
+        },
+        "c": "",
+        "n": "APANet (VGG-16)",
+        "d": "2021-11-24",
+        "m1": "59"
+      },
+      {
+        "p": {
+          "name": "Anti-aliasing Semantic Reconstruction for Few-Shot Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2106.00184v1"
+        },
+        "c": "https://github.com/Bibkiller/ASR",
+        "n": "ASR (ResNet-50)",
+        "d": "2021-06-01",
+        "m1": "58.16"
+      },
+      {
+        "p": {
+          "name": "Prior Guided Feature Enrichment Network for Few-Shot Segmentation",
+          "link": "https://arxiv.org/abs/2008.01449v1"
+        },
+        "c": "https://github.com/Jia-Research-Lab/PFENet",
+        "n": "PFENet (VGG-16)",
+        "d": "2020-08-04",
+        "m1": "58",
+        "m2": "72"
+      },
+      {
+        "p": {
+          "name": "Simpler is Better: Few-shot Semantic Segmentation with Classifier Weight Transformer",
+          "link": "https://arxiv.org/abs/2108.03032v3"
+        },
+        "c": "https://github.com/zhiheLu/CWT-for-FSS",
+        "n": "CWT (ResNet-101)",
+        "d": "2021-08-06",
+        "m1": "58"
+      },
+      {
+        "p": {
+          "name": "Self-Guided and Cross-Guided Learning for Few-Shot Segmentation",
+          "link": "https://arxiv.org/abs/2103.16129v1"
+        },
+        "c": "https://github.com/zbf1991/SCL",
+        "n": "CANet (SCL, ResNet-50)",
+        "d": "2021-03-30",
+        "m1": "57.5",
+        "m2": "70.3"
+      },
+      {
+        "p": {
+          "name": "A New Local Transformation Module for Few-shot Segmentation",
+          "link": "https://arxiv.org/abs/1910.05886v2"
+        },
+        "c": "",
+        "n": "LTM",
+        "d": "2019-10-14",
+        "m1": "57.0"
+      },
+      {
+        "p": {
+          "name": "Iterative Few-shot Semantic Segmentation from Image Label Text",
+          "link": "https://arxiv.org/abs/2303.05646v1"
+        },
+        "c": "https://github.com/whileherham/imr-hsnet",
+        "n": "IMR-HSNet (VGG-16)",
+        "d": "2023-03-10",
+        "m1": "56.5"
+      },
+      {
+        "p": {
+          "name": "Simpler is Better: Few-shot Semantic Segmentation with Classifier Weight Transformer",
+          "link": "https://arxiv.org/abs/2108.03032v3"
+        },
+        "c": "https://github.com/zhiheLu/CWT-for-FSS",
+        "n": "CWT (ResNet-50)",
+        "d": "2021-08-06",
+        "m1": "56.4"
+      },
+      {
+        "p": {
+          "name": "Prototype Mixture Models for Few-shot Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2008.03898v2"
+        },
+        "c": "https://github.com/Yang-Bob/PMMs",
+        "n": "RPMM (ResNet-50)",
+        "d": "2020-08-10",
+        "m1": "56.3"
+      },
+      {
+        "p": {
+          "name": "Feature Weighting and Boosting for Few-Shot Segmentation",
+          "link": "https://arxiv.org/abs/1909.13140v1"
+        },
+        "c": "https://github.com/ducminhkhoi/Feature-Weighting-and-Boosting",
+        "n": "FWB (ResNet-101)",
+        "d": "2019-09-28",
+        "m1": "56.2"
+      },
+      {
+        "p": {
+          "name": "Pyramid Graph Networks With Connection Attentions for Region-Based One-Shot Semantic Segmentation",
+          "link": "http://openaccess.thecvf.com/content_ICCV_2019/html/Zhang_Pyramid_Graph_Networks_With_Connection_Attentions_for_Region-Based_One-Shot_Semantic_ICCV_2019_paper.html"
+        },
+        "c": "",
+        "n": "PGNet (ResNet-50)",
+        "d": "2019-10-01",
+        "m1": "56.0",
+        "m3": "17.2"
+      },
+      {
+        "p": {
+          "name": "Anti-aliasing Semantic Reconstruction for Few-Shot Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2106.00184v1"
+        },
+        "c": "https://github.com/Bibkiller/ASR",
+        "n": "ASR (VGG-16)",
+        "d": "2021-06-01",
+        "m1": "55.66"
+      },
+      {
+        "p": {
+          "name": "CANet: Class-Agnostic Segmentation Networks with Iterative Refinement and Attentive Few-Shot Learning",
+          "link": "http://arxiv.org/abs/1903.02351v1"
+        },
+        "c": "https://github.com/icoz69/CaNet",
+        "n": "CANet (ResNet-50)",
+        "d": "2019-03-06",
+        "m1": "55.4"
+      },
+      {
+        "p": {
+          "name": "Feature Weighting and Boosting for Few-Shot Segmentation",
+          "link": "https://arxiv.org/abs/1909.13140v1"
+        },
+        "c": "https://github.com/ducminhkhoi/Feature-Weighting-and-Boosting",
+        "n": "FWB (VGG-16)",
+        "d": "2019-09-28",
+        "m1": "51.9"
+      },
+      {
+        "p": {
+          "name": "Part-aware Prototype Network for Few-shot Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2007.06309v3"
+        },
+        "c": "https://github.com/Xiangyi1996/PPNet-PyTorch",
+        "n": "PPNet (ResNet-50)",
+        "d": "2020-07-13",
+        "m1": "51.5",
+        "m3": "31.5"
+      },
+      {
+        "p": {
+          "name": "PANet: Few-Shot Image Semantic Segmentation with Prototype Alignment",
+          "link": "https://arxiv.org/abs/1908.06391v2"
+        },
+        "c": "https://github.com/kaixin96/PANet",
+        "n": "PANet (VGG-16)",
+        "d": "2019-08-18",
+        "m1": "48.1",
+        "m2": "66.5"
+      },
+      {
+        "p": {
+          "name": "SG-One: Similarity Guidance Network for One-Shot Semantic Segmentation",
+          "link": "https://arxiv.org/abs/1810.09091v4"
+        },
+        "c": "https://github.com/xiaomengyc/SG-One",
+        "n": "SG-One (VGG-16)",
+        "d": "2018-10-22",
+        "m1": "46.3"
+      },
+      {
+        "p": {
+          "name": "Dense Cross-Query-and-Support Attention Weighted Mask Aggregation for Few-Shot Segmentation",
+          "link": "https://arxiv.org/abs/2207.08549v1"
+        },
+        "c": "https://github.com/pawn-sxy/dcama",
+        "n": "DCAMA (ResNet-101)",
+        "d": "2022-07-18",
+        "m2": "77.6"
+      }
+    ]
+  }
+}

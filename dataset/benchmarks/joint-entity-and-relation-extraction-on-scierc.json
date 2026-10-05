@@ -1,0 +1,186 @@
+{
+  "title": "joint-entity-and-relation-extraction-on-scierc",
+  "task-hierarchy": [
+    "Relation Extraction",
+    "Joint Entity and Relation Extraction"
+  ],
+  "dataset-info": {
+    "link": "http://nlp.cs.washington.edu/sciIE/",
+    "paper": "Multi-Task Identification of Entities, Relations, and Coreference for Scientific Knowledge Graph Construction"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Relation F1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Entity F1",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "RE+ Micro F1",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Cross Sentence",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Packed Levitated Marker for Entity and Relation Extraction",
+          "link": "https://arxiv.org/abs/2109.06067v5"
+        },
+        "c": "https://github.com/tomaarsen/spanmarkerner",
+        "n": "PL-Marker",
+        "d": "2021-09-13",
+        "m1": "53.2",
+        "m2": "69.9",
+        "m3": "41.6",
+        "m4": "Yes"
+      },
+      {
+        "p": {
+          "name": "A Trigger-Sense Memory Flow Framework for Joint Entity and Relation Extraction",
+          "link": "https://arxiv.org/abs/2101.10213v3"
+        },
+        "c": "https://github.com/tricktreat/trimf",
+        "n": "TriMF",
+        "d": "2021-01-25",
+        "m1": "52.44",
+        "m2": "70.17"
+      },
+      {
+        "p": {
+          "name": "Joint Entity and Relation Extraction from Scientific Documents: Role of Linguistic Information and Entity Types",
+          "link": "http://ceur-ws.org/Vol-3004/paper2.pdf"
+        },
+        "c": "https://github.com/dksanyal/SpERT.PL",
+        "n": "SpERT.PL (SciBERT)",
+        "d": "2021-09-30",
+        "m1": "51.25",
+        "m2": "70.53",
+        "m4": "No"
+      },
+      {
+        "p": {
+          "name": "Span-based Joint Entity and Relation Extraction with Transformer Pre-training",
+          "link": "https://arxiv.org/abs/1909.07755v4"
+        },
+        "c": "https://github.com/markus-eberts/spert",
+        "n": "SpERT (with overlap)",
+        "d": "2019-09-17",
+        "m1": "50.84",
+        "m2": "70.3",
+        "m4": "No"
+      },
+      {
+        "p": {
+          "name": "A Frustratingly Easy Approach for Entity and Relation Extraction",
+          "link": "https://arxiv.org/abs/2010.12812v2"
+        },
+        "c": "https://github.com/princeton-nlp/PURE",
+        "n": "Ours: cross-sentence",
+        "d": "2020-10-24",
+        "m1": "50.1",
+        "m2": "68.9",
+        "m3": "36.7",
+        "m4": "Yes"
+      },
+      {
+        "p": {
+          "name": "Entity, Relation, and Event Extraction with Contextualized Span Representations",
+          "link": "https://arxiv.org/abs/1909.03546v2"
+        },
+        "c": "https://github.com/dwadden/dygiepp",
+        "n": "DyGIE++",
+        "d": "2019-09-08",
+        "m1": "48.40",
+        "m2": "67.50",
+        "m4": "Yes"
+      },
+      {
+        "p": {
+          "name": "A General Framework for Information Extraction using Dynamic Span Graphs",
+          "link": "http://arxiv.org/abs/1904.03296v1"
+        },
+        "c": "https://github.com/luanyi/DyGIE",
+        "n": "DyGIE",
+        "d": "2019-04-05",
+        "m1": "41.6",
+        "m2": "65.2",
+        "m4": "Yes"
+      },
+      {
+        "p": {
+          "name": "Multi-Task Identification of Entities, Relations, and Coreference for Scientific Knowledge Graph Construction",
+          "link": "http://arxiv.org/abs/1808.09602v1"
+        },
+        "c": "https://github.com/luanyi/DyGIE",
+        "n": "SciIE",
+        "d": "2018-08-29",
+        "m1": "39.30",
+        "m2": "64.20",
+        "m4": "No"
+      },
+      {
+        "p": {
+          "name": "Span-based Joint Entity and Relation Extraction with Transformer Pre-training",
+          "link": "https://arxiv.org/abs/1909.07755v4"
+        },
+        "c": "https://github.com/markus-eberts/spert",
+        "n": "SpERT",
+        "d": "2019-09-17",
+        "m2": "70.33",
+        "m4": "No"
+      },
+      {
+        "p": {
+          "name": "A Multi-Gate Encoder for Joint Entity and Relation Extraction",
+          "link": "https://aclanthology.org/2022.ccl-1.75"
+        },
+        "c": "",
+        "n": "MGE",
+        "d": "",
+        "m2": "68.4",
+        "m3": "39.4",
+        "m4": "No"
+      },
+      {
+        "p": {
+          "name": "A Partition Filter Network for Joint Entity and Relation Extraction",
+          "link": "https://arxiv.org/abs/2108.12202v8"
+        },
+        "c": "https://github.com/Coopercoppers/PFN",
+        "n": "PFN",
+        "d": "2021-08-27",
+        "m2": "66.8",
+        "m3": "38.4",
+        "m4": "No"
+      }
+    ]
+  }
+}

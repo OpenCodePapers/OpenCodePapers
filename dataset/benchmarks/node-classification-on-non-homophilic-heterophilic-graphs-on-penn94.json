@@ -1,0 +1,319 @@
+{
+  "title": "node-classification-on-non-homophilic-heterophilic-graphs-on-penn94",
+  "task-hierarchy": [
+    "Node Classification",
+    "Node Classification on Non-Homophilic (Heterophilic) Graphs"
+  ],
+  "dataset-info": {
+    "link": "",
+    "paper": "Large Scale Learning on Non-Homophilous Graphs: New Benchmarks and Strong Simple Methods"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "1:1 Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Revisiting Heterophily For Graph Neural Networks",
+          "link": "https://arxiv.org/abs/2210.07606v1"
+        },
+        "c": "https://github.com/SitaoLuan/ACM-GNN",
+        "n": "ACM-GCN++",
+        "d": "2022-10-14",
+        "m1": "86.08 ± 0.43"
+      },
+      {
+        "p": {
+          "name": "Revisiting Heterophily For Graph Neural Networks",
+          "link": "https://arxiv.org/abs/2210.07606v1"
+        },
+        "c": "https://github.com/SitaoLuan/ACM-GNN",
+        "n": "ACMII-GCN++",
+        "d": "2022-10-14",
+        "m1": "85.95 ± 0.26"
+      },
+      {
+        "p": {
+          "name": "Finding Global Homophily in Graph Neural Networks When Meeting Heterophily",
+          "link": "https://arxiv.org/abs/2205.07308v1"
+        },
+        "c": "https://github.com/recklessronan/glognn",
+        "n": "GloGNN++",
+        "d": "2022-05-15",
+        "m1": "85.74 ± 0.42"
+      },
+      {
+        "p": {
+          "name": "Finding Global Homophily in Graph Neural Networks When Meeting Heterophily",
+          "link": "https://arxiv.org/abs/2205.07308v1"
+        },
+        "c": "https://github.com/recklessronan/glognn",
+        "n": "GloGNN",
+        "d": "2022-05-15",
+        "m1": "85.57 ±  0.35"
+      },
+      {
+        "p": {
+          "name": "Revisiting Heterophily For Graph Neural Networks",
+          "link": "https://arxiv.org/abs/2210.07606v1"
+        },
+        "c": "https://github.com/SitaoLuan/ACM-GNN",
+        "n": "ACM-GCN+",
+        "d": "2022-10-14",
+        "m1": "85.05 ± 0.19"
+      },
+      {
+        "p": {
+          "name": "Revisiting Heterophily For Graph Neural Networks",
+          "link": "https://arxiv.org/abs/2210.07606v1"
+        },
+        "c": "https://github.com/SitaoLuan/ACM-GNN",
+        "n": "ACMII-GCN+",
+        "d": "2022-10-14",
+        "m1": "84.95 ± 0.43"
+      },
+      {
+        "p": {
+          "name": "Large Scale Learning on Non-Homophilous Graphs: New Benchmarks and Strong Simple Methods",
+          "link": "https://arxiv.org/abs/2110.14446v1"
+        },
+        "c": "https://github.com/cuai/non-homophily-large-scale",
+        "n": "LINKX",
+        "d": "2021-10-27",
+        "m1": "84.71 ± 0.52"
+      },
+      {
+        "p": {
+          "name": "MixHop: Higher-Order Graph Convolutional Architectures via Sparsified Neighborhood Mixing",
+          "link": "https://arxiv.org/abs/1905.00067v3"
+        },
+        "c": "https://github.com/dmlc/dgl/tree/master/examples/pytorch/mixhop",
+        "n": "MixHop",
+        "d": "2019-04-30",
+        "m1": "83.47 ± 0.71"
+      },
+      {
+        "p": {
+          "name": "Simple and Deep Graph Convolutional Networks",
+          "link": "https://arxiv.org/abs/2007.02133v1"
+        },
+        "c": "https://github.com/chennnM/GCNII/tree/master/PyG/ogbn-arxiv",
+        "n": "GCNII",
+        "d": "2020-07-04",
+        "m1": "82.92 ± 0.59"
+      },
+      {
+        "p": {
+          "name": "Revisiting Heterophily For Graph Neural Networks",
+          "link": "https://arxiv.org/abs/2210.07606v1"
+        },
+        "c": "https://github.com/SitaoLuan/ACM-GNN",
+        "n": "ACM-GCN",
+        "d": "2022-10-14",
+        "m1": "82.73 ± 0.52"
+      },
+      {
+        "p": {
+          "name": "Semi-Supervised Classification with Graph Convolutional Networks",
+          "link": "http://arxiv.org/abs/1609.02907v4"
+        },
+        "c": "https://github.com/dmlc/dgl/tree/master/examples/mxnet/gcn",
+        "n": "GCN",
+        "d": "2016-09-09",
+        "m1": "82.47 ± 0.27"
+      },
+      {
+        "p": {
+          "name": "Revisiting Heterophily For Graph Neural Networks",
+          "link": "https://arxiv.org/abs/2210.07606v1"
+        },
+        "c": "https://github.com/SitaoLuan/ACM-GNN",
+        "n": "ACMII-GCN",
+        "d": "2022-10-14",
+        "m1": "82.4 ± 0.48"
+      },
+      {
+        "p": {
+          "name": "Large Scale Learning on Non-Homophilous Graphs: New Benchmarks and Strong Simple Methods",
+          "link": "https://arxiv.org/abs/2110.14446v1"
+        },
+        "c": "https://github.com/cuai/non-homophily-large-scale",
+        "n": "GCNJK",
+        "d": "2021-10-27",
+        "m1": "81.63 ± 0.54"
+      },
+      {
+        "p": {
+          "name": "Graph Attention Networks",
+          "link": "http://arxiv.org/abs/1710.10903v3"
+        },
+        "c": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
+        "n": "GAT",
+        "d": "2017-10-30",
+        "m1": "81.53 ± 0.55"
+      },
+      {
+        "p": {
+          "name": "Adaptive Universal Generalized PageRank Graph Neural Network",
+          "link": "https://arxiv.org/abs/2006.07988v6"
+        },
+        "c": "https://github.com/jianhao2016/GPRGNN",
+        "n": "GPRGCN",
+        "d": "2020-06-14",
+        "m1": "81.38 ± 0.16"
+      },
+      {
+        "p": {
+          "name": "Beyond Homophily in Graph Neural Networks: Current Limitations and Effective Designs",
+          "link": "https://arxiv.org/abs/2006.11468v2"
+        },
+        "c": "https://github.com/GemsLab/H2GCN",
+        "n": "H2GCN",
+        "d": "2020-06-20",
+        "m1": "81.31 ± 0.60"
+      },
+      {
+        "p": {
+          "name": "Large Scale Learning on Non-Homophilous Graphs: New Benchmarks and Strong Simple Methods",
+          "link": "https://arxiv.org/abs/2110.14446v1"
+        },
+        "c": "https://github.com/cuai/non-homophily-large-scale",
+        "n": "LINK ",
+        "d": "2021-10-27",
+        "m1": "80.79 ± 0.49"
+      },
+      {
+        "p": {
+          "name": "Large Scale Learning on Non-Homophilous Graphs: New Benchmarks and Strong Simple Methods",
+          "link": "https://arxiv.org/abs/2110.14446v1"
+        },
+        "c": "https://github.com/cuai/non-homophily-large-scale",
+        "n": "GATJK",
+        "d": "2021-10-27",
+        "m1": "80.69 ± 0.36"
+      },
+      {
+        "p": {
+          "name": "Addressing Heterophily in Node Classification with Graph Echo State Networks",
+          "link": "https://arxiv.org/abs/2305.08233v2"
+        },
+        "c": "https://github.com/dtortorella/addressing-heterophily-gesn",
+        "n": "GESN",
+        "d": "2023-05-14",
+        "m1": "80.29 ± 0.41"
+      },
+      {
+        "p": {
+          "name": "Combining Label Propagation and Simple Models Out-performs Graph Neural Networks",
+          "link": "https://arxiv.org/abs/2010.13993v2"
+        },
+        "c": "https://github.com/dmlc/dgl/tree/master/examples/pytorch/correct_and_smooth",
+        "n": "C&S 2-hop",
+        "d": "2020-10-27",
+        "m1": "78.40 ± 3.12"
+      },
+      {
+        "p": {
+          "name": "Simplifying Graph Convolutional Networks",
+          "link": "https://arxiv.org/abs/1902.07153v2"
+        },
+        "c": "https://github.com/dmlc/dgl/tree/master/examples/pytorch/sgc",
+        "n": "SGC 2-hop",
+        "d": "2019-02-19",
+        "m1": "76.09 ± 0.45"
+      },
+      {
+        "p": {
+          "name": "Predict then Propagate: Graph Neural Networks meet Personalized PageRank",
+          "link": "https://arxiv.org/abs/1810.05997v6"
+        },
+        "c": "https://github.com/dmlc/dgl/tree/master/examples/pytorch/appnp",
+        "n": "APPNP",
+        "d": "2018-10-14",
+        "m1": "74.33 ± 0.38"
+      },
+      {
+        "p": {
+          "name": "Breaking the Limit of Graph Neural Networks by Improving the Assortativity of Graphs with Local Mixing Patterns",
+          "link": "https://arxiv.org/abs/2106.06586v1"
+        },
+        "c": "https://github.com/susheels/gnns-and-local-assortativity",
+        "n": "WRGAT",
+        "d": "2021-06-11",
+        "m1": "74.32 ± 0.53"
+      },
+      {
+        "p": {
+          "name": "Combining Label Propagation and Simple Models Out-performs Graph Neural Networks",
+          "link": "https://arxiv.org/abs/2010.13993v2"
+        },
+        "c": "https://github.com/dmlc/dgl/tree/master/examples/pytorch/correct_and_smooth",
+        "n": "C&S 1-hop ",
+        "d": "2020-10-27",
+        "m1": "74.28 ± 1.19"
+      },
+      {
+        "p": {
+          "name": "Large Scale Learning on Non-Homophilous Graphs: New Benchmarks and Strong Simple Methods",
+          "link": "https://arxiv.org/abs/2110.14446v1"
+        },
+        "c": "https://github.com/cuai/non-homophily-large-scale",
+        "n": "L Prop 2-hop",
+        "d": "2021-10-27",
+        "m1": "74.13 ±  0.46"
+      },
+      {
+        "p": {
+          "name": "Revisiting Heterophily For Graph Neural Networks",
+          "link": "https://arxiv.org/abs/2210.07606v1"
+        },
+        "c": "https://github.com/SitaoLuan/ACM-GNN",
+        "n": "MLP",
+        "d": "2022-10-14",
+        "m1": "73.61 ± 0.40"
+      },
+      {
+        "p": {
+          "name": "Simplifying Graph Convolutional Networks",
+          "link": "https://arxiv.org/abs/1902.07153v2"
+        },
+        "c": "https://github.com/dmlc/dgl/tree/master/examples/pytorch/sgc",
+        "n": "SGC 1-hop",
+        "d": "2019-02-19",
+        "m1": "66.79 ± 0.27"
+      },
+      {
+        "p": {
+          "name": "Large Scale Learning on Non-Homophilous Graphs: New Benchmarks and Strong Simple Methods",
+          "link": "https://arxiv.org/abs/2110.14446v1"
+        },
+        "c": "https://github.com/cuai/non-homophily-large-scale",
+        "n": "L Prop 1-hop",
+        "d": "2021-10-27",
+        "m1": "63.21 ±  0.39"
+      }
+    ]
+  }
+}

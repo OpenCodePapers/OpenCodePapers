@@ -1,0 +1,232 @@
+{
+  "title": "semi-supervised-semantic-segmentation-on-semantickitti",
+  "task-hierarchy": [
+    "Semantic Segmentation",
+    "Semi-Supervised Semantic Segmentation"
+  ],
+  "dataset-info": {
+    "link": "http://www.semantic-kitti.org/",
+    "paper": "SemanticKITTI: A Dataset for Semantic Scene Understanding of LiDAR Sequences"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mIoU (0.5% Labels)",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "mIoU (1% Labels)",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "mIoU (2% Labels)",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "mIoU (5% Labels)",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "mIoU (10% Labels)",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "mIoU (20% Labels)",
+        "sortable": "true"
+      },
+      {
+        "key": "m7",
+        "label": "mIoU (50% Labels)",
+        "sortable": "true"
+      },
+      {
+        "key": "m8",
+        "label": "mIOU (1% Test set)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Learning from Spatio-temporal Correlation for Semi-Supervised LiDAR Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2410.06893v1"
+        },
+        "c": "https://github.com/halbielee/ple",
+        "n": "PLE (Voxel)",
+        "d": "2024-10-09",
+        "m1": "52.2",
+        "m2": "61.1",
+        "m3": "62.9",
+        "m4": "62.8",
+        "m5": "63.1",
+        "m6": "64.1",
+        "m7": "64.3"
+      },
+      {
+        "p": {
+          "name": "Learning from Spatio-temporal Correlation for Semi-Supervised LiDAR Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2410.06893v1"
+        },
+        "c": "https://github.com/halbielee/ple",
+        "n": "LaserMix (Voxel)",
+        "d": "2024-10-09",
+        "m1": "47.3",
+        "m3": "59.2",
+        "m4": "61.7"
+      },
+      {
+        "p": {
+          "name": "Learning from Spatio-temporal Correlation for Semi-Supervised LiDAR Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2410.06893v1"
+        },
+        "c": "https://github.com/halbielee/ple",
+        "n": "PLE (CENet, Range view)",
+        "d": "2024-10-09",
+        "m1": "46.2",
+        "m2": "51.5",
+        "m3": "54.3",
+        "m4": "58.1"
+      },
+      {
+        "p": {
+          "name": "360$^\\circ$ from a Single Camera: A Few-Shot Approach for LiDAR Segmentation",
+          "link": "https://arxiv.org/abs/2309.06197v1"
+        },
+        "c": "",
+        "n": "360° from a Single Camera: A Few-Shot Approach for LiDAR Segmentation (All)",
+        "d": "2023-09-12",
+        "m2": "59.5",
+        "m5": "62.4",
+        "m6": "64.2",
+        "m7": "66.1",
+        "m8": "57.7"
+      },
+      {
+        "p": {
+          "name": "What Can be Seen is What You Get: Structure Aware Point Cloud Augmentation",
+          "link": "https://arxiv.org/abs/2206.09664v1"
+        },
+        "c": "",
+        "n": "SAPCA (Cylinder3D)",
+        "d": "2022-06-20",
+        "m2": "50.9",
+        "m5": "64.0",
+        "m7": "64.9"
+      },
+      {
+        "p": {
+          "name": "LaserMix for Semi-Supervised LiDAR Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2207.00026v4"
+        },
+        "c": "https://github.com/ldkong1205/LaserMix",
+        "n": "LaserMix (Voxel)",
+        "d": "2022-06-30",
+        "m2": "50.6",
+        "m5": "60.0",
+        "m6": "61.9",
+        "m7": "62.3"
+      },
+      {
+        "p": {
+          "name": "Mean teachers are better role models: Weight-averaged consistency targets improve semi-supervised deep learning results",
+          "link": "http://arxiv.org/abs/1703.01780v6"
+        },
+        "c": "https://github.com/CuriousAI/mean-teacher",
+        "n": "MeanTeacher (Voxel)",
+        "d": "2017-03-06",
+        "m2": "45.4",
+        "m5": "57.1",
+        "m6": "59.2",
+        "m7": "60.0"
+      },
+      {
+        "p": {
+          "name": "LaserMix for Semi-Supervised LiDAR Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2207.00026v4"
+        },
+        "c": "https://github.com/ldkong1205/LaserMix",
+        "n": "LaserMix (Range View)",
+        "d": "2022-06-30",
+        "m2": "43.4",
+        "m5": "58.8",
+        "m6": "59.4",
+        "m7": "61.4"
+      },
+      {
+        "p": {
+          "name": "Unsupervised Domain Adaptation for Semantic Segmentation via Class-Balanced Self-Training",
+          "link": "http://openaccess.thecvf.com/content_ECCV_2018/html/Yang_Zou_Unsupervised_Domain_Adaptation_ECCV_2018_paper.html"
+        },
+        "c": "https://github.com/yzou2/CBST",
+        "n": "CBST (Range View)",
+        "d": "2018-09-01",
+        "m2": "39.9",
+        "m5": "53.4",
+        "m6": "56.1",
+        "m7": "56.9"
+      },
+      {
+        "p": {
+          "name": "Mean teachers are better role models: Weight-averaged consistency targets improve semi-supervised deep learning results",
+          "link": "http://arxiv.org/abs/1703.01780v6"
+        },
+        "c": "https://github.com/CuriousAI/mean-teacher",
+        "n": "MeanTeacher (Range View)",
+        "d": "2017-03-06",
+        "m2": "37.5",
+        "m5": "53.1",
+        "m6": "56.1",
+        "m7": "57.4"
+      },
+      {
+        "p": {
+          "name": "Semi-supervised semantic segmentation needs strong, varied perturbations",
+          "link": "https://arxiv.org/abs/1906.01916v5"
+        },
+        "c": "https://github.com/ZHKKKe/PixelSSL",
+        "n": "CutMix-Seg (Range View)",
+        "d": "2019-06-05",
+        "m2": "37.4",
+        "m5": "54.3",
+        "m6": "56.6",
+        "m7": "57.6"
+      },
+      {
+        "p": {
+          "name": "Semi-Supervised Semantic Segmentation with Cross Pseudo Supervision",
+          "link": "https://arxiv.org/abs/2106.01226v2"
+        },
+        "c": "https://github.com/charlesCXK/TorchSemiSeg",
+        "n": "CPS (Range View)",
+        "d": "2021-06-02",
+        "m2": "36.5",
+        "m5": "52.3",
+        "m6": "56.3",
+        "m7": "57.4"
+      }
+    ]
+  }
+}

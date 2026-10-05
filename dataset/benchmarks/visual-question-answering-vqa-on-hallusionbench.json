@@ -1,0 +1,80 @@
+{
+  "title": "visual-question-answering-vqa-on-hallusionbench",
+  "task-hierarchy": [
+    "Visual Question Answering (VQA)"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/tianyi-lab/HallusionBench",
+    "paper": "HallusionBench: An Advanced Diagnostic Suite for Entangled Language Hallucination and Visual Illusion in Large Vision-Language Models"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Question Pair Acc\t",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Question Pair Acc",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "HallusionBench: An Advanced Diagnostic Suite for Entangled Language Hallucination and Visual Illusion in Large Vision-Language Models",
+          "link": "https://arxiv.org/abs/2310.14566v5"
+        },
+        "c": "https://github.com/codelion/adaptive-classifier",
+        "n": "GPT-4V",
+        "d": "2023-10-23",
+        "m1": "12.2047"
+      },
+      {
+        "p": "",
+        "c": "",
+        "n": "LLaVA-1.5",
+        "d": "",
+        "m1": "4.3307"
+      },
+      {
+        "p": {
+          "name": "Mitigating Hallucination in Large Multi-Modal Models via Robust Instruction Tuning",
+          "link": "https://arxiv.org/abs/2306.14565v4"
+        },
+        "c": "https://github.com/h-zhao1997/cobra",
+        "n": "LRV-Instruct",
+        "d": "2023-06-26",
+        "m1": "1.57"
+      },
+      {
+        "p": {
+          "name": "mPLUG-Owl: Modularization Empowers Large Language Models with Multimodality",
+          "link": "https://arxiv.org/abs/2304.14178v3"
+        },
+        "c": "https://github.com/x-plug/mplug-owl",
+        "n": "mPLUG-Owl",
+        "d": "2023-04-27",
+        "m2": "2.36"
+      }
+    ]
+  }
+}

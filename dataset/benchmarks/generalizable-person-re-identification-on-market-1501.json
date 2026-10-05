@@ -1,0 +1,159 @@
+{
+  "title": "generalizable-person-re-identification-on-market-1501",
+  "task-hierarchy": [
+    "Person Re-Identification",
+    "Generalizable Person Re-identification"
+  ],
+  "dataset-info": {
+    "link": "https://www.kaggle.com/pengcw1/market-1501/data",
+    "paper": "Scalable Person Re-Identification: A Benchmark"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "ClonedPerson->mAP",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "ClonedPerson->Rank-1",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "RandPerson->mAP",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "RandPerson->Rank-1",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "MSMT17->mAP",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "MSMT17->Rank-1",
+        "sortable": "true"
+      },
+      {
+        "key": "m7",
+        "label": "MSMT17-All->mAP",
+        "sortable": "true"
+      },
+      {
+        "key": "m8",
+        "label": "MSMT17-All->Rank-1",
+        "sortable": "true"
+      },
+      {
+        "key": "m9",
+        "label": "DukeMTMC-reID->mAP",
+        "sortable": "true"
+      },
+      {
+        "key": "m10",
+        "label": "DukeMTMC-reID->Rank1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Graph Sampling Based Deep Metric Learning for Generalizable Person Re-Identification",
+          "link": "https://arxiv.org/abs/2104.01546v4"
+        },
+        "c": "https://github.com/shengcailiao/QAConv",
+        "n": "QAConv-GS",
+        "d": "2021-04-04",
+        "m1": "59.9",
+        "m2": "84.5",
+        "m3": "46.7",
+        "m4": "76.7",
+        "m5": "49.5",
+        "m6": "79.1",
+        "m7": "56.9",
+        "m8": "82.4"
+      },
+      {
+        "p": {
+          "name": "TransMatcher: Deep Image Matching Through Transformers for Generalizable Person Re-identification",
+          "link": "https://arxiv.org/abs/2105.14432v2"
+        },
+        "c": "https://github.com/shengcailiao/QAConv",
+        "n": "TransMatcher",
+        "d": "2021-05-30",
+        "m1": "62.3",
+        "m2": "84.8",
+        "m3": "49.1",
+        "m4": "77.3",
+        "m5": "52.0",
+        "m6": "80.1",
+        "m7": "58.4",
+        "m8": "82.6"
+      },
+      {
+        "p": {
+          "name": "ReMix: Training Generalized Person Re-identification on a Mixture of Data",
+          "link": "https://arxiv.org/abs/2410.21938v1"
+        },
+        "c": "",
+        "n": "ReMix",
+        "d": "2024-10-29",
+        "m3": "45.4",
+        "m4": "72.7",
+        "m5": "52.4",
+        "m6": "78.2",
+        "m7": "61.0",
+        "m8": "84.0",
+        "m9": "43.0",
+        "m10": "71.3"
+      },
+      {
+        "p": {
+          "name": "Unleashing the Potential of Pre-Trained Diffusion Models for Generalizable Person Re-Identification",
+          "link": "https://arxiv.org/abs/2502.06619v1"
+        },
+        "c": "https://github.com/RikoLi/DCAC",
+        "n": "DCAC",
+        "d": "2025-02-10",
+        "m5": "52.1",
+        "m6": "77.9",
+        "m9": "42.3",
+        "m10": "71.5"
+      },
+      {
+        "p": {
+          "name": "Interpretable and Generalizable Person Re-Identification with Query-Adaptive Convolution and Temporal Lifting",
+          "link": "https://arxiv.org/abs/1904.10424v4"
+        },
+        "c": "https://github.com/shengcailiao/QAConv",
+        "n": "QAConv",
+        "d": "2019-04-23",
+        "m7": "43.1",
+        "m8": "72.6"
+      }
+    ]
+  }
+}

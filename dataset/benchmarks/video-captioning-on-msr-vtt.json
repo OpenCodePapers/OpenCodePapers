@@ -1,0 +1,358 @@
+{
+  "title": "video-captioning-on-msr-vtt",
+  "task-hierarchy": [
+    "Video Captioning"
+  ],
+  "dataset-info": {
+    "link": "https://www.microsoft.com/en-us/research/publication/msr-vtt-a-large-video-description-dataset-for-bridging-video-and-language/",
+    "paper": "MSR-VTT: A Large Video Description Dataset for Bridging Video and Language"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "CIDEr",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "METEOR",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "ROUGE-L",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "BLEU-4",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "GS",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "mPLUG-2: A Modularized Multi-modal Foundation Model Across Text, Image and Video",
+          "link": "https://arxiv.org/abs/2302.00402v1"
+        },
+        "c": "https://github.com/modelscope/modelscope",
+        "n": "mPLUG-2",
+        "d": "2023-02-01",
+        "m1": "80.0",
+        "m2": "34.9",
+        "m3": "70.1",
+        "m4": "57.8"
+      },
+      {
+        "p": {
+          "name": "VAST: A Vision-Audio-Subtitle-Text Omni-Modality Foundation Model and Dataset",
+          "link": "https://arxiv.org/abs/2305.18500v2"
+        },
+        "c": "https://github.com/TXH-mercury/VALOR",
+        "n": "VAST",
+        "d": "2023-05-29",
+        "m1": "78.0",
+        "m4": "56.7"
+      },
+      {
+        "p": {
+          "name": "GIT: A Generative Image-to-text Transformer for Vision and Language",
+          "link": "https://arxiv.org/abs/2205.14100v5"
+        },
+        "c": "https://github.com/microsoft/GenerativeImage2Text",
+        "n": "GIT2",
+        "d": "2022-05-27",
+        "m1": "75.9",
+        "m2": "33.1",
+        "m3": "68.2",
+        "m4": "54.8",
+        "m5": "201.6"
+      },
+      {
+        "p": {
+          "name": "VLAB: Enhancing Video Language Pre-training by Feature Adapting and Blending",
+          "link": "https://arxiv.org/abs/2305.13167v1"
+        },
+        "c": "",
+        "n": "VLAB",
+        "d": "2023-05-22",
+        "m1": "74.9",
+        "m2": "33.4",
+        "m3": "68.3",
+        "m4": "54.6"
+      },
+      {
+        "p": {
+          "name": "COSA: Concatenated Sample Pretrained Vision-Language Foundation Model",
+          "link": "https://arxiv.org/abs/2306.09085v1"
+        },
+        "c": "https://github.com/txh-mercury/cosa",
+        "n": "COSA",
+        "d": "2023-06-15",
+        "m1": "74.7",
+        "m4": "53.7"
+      },
+      {
+        "p": {
+          "name": "VALOR: Vision-Audio-Language Omni-Perception Pretraining Model and Dataset",
+          "link": "https://arxiv.org/abs/2304.08345v2"
+        },
+        "c": "https://github.com/TXH-mercury/VALOR",
+        "n": "VALOR",
+        "d": "2023-04-17",
+        "m1": "74.0",
+        "m2": "32.9",
+        "m3": "68.0",
+        "m4": "54.4"
+      },
+      {
+        "p": {
+          "name": "MaMMUT: A Simple Architecture for Joint Learning for MultiModal Tasks",
+          "link": "https://arxiv.org/abs/2303.16839v3"
+        },
+        "c": "https://github.com/lucidrains/mammut-pytorch",
+        "n": "MaMMUT (ours)",
+        "d": "2023-03-29",
+        "m1": "73.6"
+      },
+      {
+        "p": {
+          "name": "VideoCoCa: Video-Text Modeling with Zero-Shot Transfer from Contrastive Captioners",
+          "link": "https://arxiv.org/abs/2212.04979v3"
+        },
+        "c": "",
+        "n": "VideoCoCa",
+        "d": "2022-12-09",
+        "m1": "73.2",
+        "m3": "68.0",
+        "m4": "53.8"
+      },
+      {
+        "p": {
+          "name": "RTQ: Rethinking Video-language Understanding Based on Image-text Model",
+          "link": "https://arxiv.org/abs/2312.00347v2"
+        },
+        "c": "https://github.com/SCZwangxiao/RTQ-MM2023",
+        "n": "RTQ",
+        "d": "2023-12-01",
+        "m1": "69.3",
+        "m3": "66.1",
+        "m4": "49.6"
+      },
+      {
+        "p": {
+          "name": "HowToCaption: Prompting LLMs to Transform Video Annotations at Scale",
+          "link": "https://arxiv.org/abs/2310.04900v2"
+        },
+        "c": "https://github.com/ninatu/howtocaption",
+        "n": "HowToCaption",
+        "d": "2023-10-07",
+        "m1": "65.3",
+        "m2": "32.2",
+        "m3": "66.3",
+        "m4": "49.8"
+      },
+      {
+        "p": {
+          "name": "HiTeA: Hierarchical Temporal-Aware Video-Language Pre-training",
+          "link": "https://arxiv.org/abs/2212.14546v1"
+        },
+        "c": "",
+        "n": "HiTeA",
+        "d": "2022-12-30",
+        "m1": "65.1",
+        "m2": "30.7",
+        "m3": "65.0",
+        "m4": "49.2"
+      },
+      {
+        "p": {
+          "name": "Vid2Seq: Large-Scale Pretraining of a Visual Language Model for Dense Video Captioning",
+          "link": "https://arxiv.org/abs/2302.14115v2"
+        },
+        "c": "https://github.com/google-research/scenic/tree/main/scenic/projects/vid2seq",
+        "n": "Vid2Seq",
+        "d": "2023-02-27",
+        "m1": "64.6",
+        "m2": "30.8"
+      },
+      {
+        "p": {
+          "name": "Text with Knowledge Graph Augmented Transformer for Video Captioning",
+          "link": "https://arxiv.org/abs/2303.12423v2"
+        },
+        "c": "",
+        "n": "TextKG",
+        "d": "2023-03-22",
+        "m1": "60.8",
+        "m2": "30.5",
+        "m3": "64.8",
+        "m4": "46.6"
+      },
+      {
+        "p": {
+          "name": "IcoCap: Improving Video Captioning by Compounding Images",
+          "link": "https://ieeexplore.ieee.org/abstract/document/10272675"
+        },
+        "c": "",
+        "n": "IcoCap (ViT-B/16)",
+        "d": "2023-10-05",
+        "m1": "60.2",
+        "m2": "31.1",
+        "m3": "64.9",
+        "m4": "47.0"
+      },
+      {
+        "p": {
+          "name": "End-to-end Generative Pretraining for Multimodal Video Captioning",
+          "link": "https://arxiv.org/abs/2201.08264v2"
+        },
+        "c": "",
+        "n": "MV-GPT",
+        "d": "2022-01-20",
+        "m1": "60.0",
+        "m2": "38.7",
+        "m3": "64.0",
+        "m4": "48.9"
+      },
+      {
+        "p": {
+          "name": "IcoCap: Improving Video Captioning by Compounding Images",
+          "link": "https://ieeexplore.ieee.org/abstract/document/10272675"
+        },
+        "c": "",
+        "n": "IcoCap (ViT-B/32)",
+        "d": "2023-10-05",
+        "m1": "59.1",
+        "m2": "30.3",
+        "m3": "64.3",
+        "m4": "46.1"
+      },
+      {
+        "p": {
+          "name": "CLIP Meets Video Captioning: Concept-Aware Representation Learning Does Matter",
+          "link": "https://arxiv.org/abs/2111.15162v2"
+        },
+        "c": "https://github.com/yangbang18/CLIP-Captioner",
+        "n": "CLIP-DCD",
+        "d": "2021-11-30",
+        "m1": "58.7",
+        "m2": "31.3",
+        "m3": "64.8",
+        "m4": "48.2"
+      },
+      {
+        "p": {
+          "name": "An Empirical Study of End-to-End Video-Language Transformers with Masked Visual Modeling",
+          "link": "https://arxiv.org/abs/2209.01540v5"
+        },
+        "c": "https://github.com/tsujuifu/pytorch_empirical-mvm",
+        "n": "VIOLETv2",
+        "d": "2022-09-04",
+        "m1": "58"
+      },
+      {
+        "p": {
+          "name": "Accurate and Fast Compressed Video Captioning",
+          "link": "https://arxiv.org/abs/2309.12867v2"
+        },
+        "c": "https://github.com/acherstyx/CoCap",
+        "n": "CoCap (ViT/L14)",
+        "d": "2023-09-22",
+        "m1": "57.2",
+        "m2": "30.3",
+        "m3": "63.4",
+        "m4": "44.4"
+      },
+      {
+        "p": {
+          "name": "Diverse Video Captioning by Adaptive Spatio-temporal Attention",
+          "link": "https://arxiv.org/abs/2208.09266v1"
+        },
+        "c": "https://github.com/zohrehghaderi/vasta",
+        "n": "VASTA (Vatex-backbone)",
+        "d": "2022-08-19",
+        "m1": "56.08",
+        "m2": "30.24",
+        "m3": "62.9",
+        "m4": "44.21"
+      },
+      {
+        "p": {
+          "name": "Diverse Video Captioning by Adaptive Spatio-temporal Attention",
+          "link": "https://arxiv.org/abs/2208.09266v1"
+        },
+        "c": "https://github.com/zohrehghaderi/vasta",
+        "n": "VASTA (Kinetics-backbone)",
+        "d": "2022-08-19",
+        "m1": "55",
+        "m2": "30.2",
+        "m3": "62.5",
+        "m4": "43.4"
+      },
+      {
+        "p": {
+          "name": "Expectation-Maximization Contrastive Learning for Compact Video-and-Language Representations",
+          "link": "https://arxiv.org/abs/2211.11427v1"
+        },
+        "c": "https://github.com/jpthu17/emcl",
+        "n": "EMCL-Net",
+        "d": "2022-11-21",
+        "m1": "54.6",
+        "m2": "30.2",
+        "m3": "63.2",
+        "m4": "45.3"
+      },
+      {
+        "p": {
+          "name": "SEM-POS: Grammatically and Semantically Correct Video Captioning",
+          "link": "https://arxiv.org/abs/2303.14829v2"
+        },
+        "c": "",
+        "n": "SEM-POS",
+        "d": "2023-03-26",
+        "m1": "53.1",
+        "m2": "30.7",
+        "m3": "64.1",
+        "m4": "45.2",
+        "m5": "192.6"
+      },
+      {
+        "p": {
+          "name": "MELTR: Meta Loss Transformer for Learning to Fine-tune Video Foundation Models",
+          "link": "https://arxiv.org/abs/2303.13009v1"
+        },
+        "c": "https://github.com/mlvlab/MELTR",
+        "n": "UniVL + MELTR",
+        "d": "2023-03-23",
+        "m1": "52.77",
+        "m2": "29.26",
+        "m3": "62.35",
+        "m4": "44.17"
+      }
+    ]
+  }
+}

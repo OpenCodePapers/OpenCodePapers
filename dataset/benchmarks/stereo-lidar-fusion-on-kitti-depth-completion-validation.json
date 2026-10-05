@@ -1,0 +1,129 @@
+{
+  "title": "stereo-lidar-fusion-on-kitti-depth-completion-validation",
+  "task-hierarchy": [
+    "Depth Estimation",
+    "Stereo-LiDAR Fusion"
+  ],
+  "dataset-info": {
+    "link": "https://www.cvlibs.net/datasets/kitti/eval_depth.php?benchmark=depth_completion",
+    "paper": "Sparsity Invariant CNNs"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "RMSE",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Volumetric Propagation Network: Stereo-LiDAR Fusion for Long-Range Depth Estimation",
+          "link": "https://arxiv.org/abs/2103.12964v1"
+        },
+        "c": "",
+        "n": "Volumetric Propagation Network",
+        "d": "2021-03-24",
+        "m1": "636.2"
+      },
+      {
+        "p": {
+          "name": "CSPN++: Learning Context and Resource Aware Convolutional Spatial Propagation Networks for Depth Completion",
+          "link": "https://arxiv.org/abs/1911.05377v2"
+        },
+        "c": "",
+        "n": "CSPN++",
+        "d": "2019-11-13",
+        "m1": "725.43"
+      },
+      {
+        "p": {
+          "name": "3D LiDAR and Stereo Fusion using Stereo Matching Network with Conditional Cost Volume Normalization",
+          "link": "http://arxiv.org/abs/1904.02917v1"
+        },
+        "c": "https://github.com/zswang666/Stereo-LiDAR-CCVNorm",
+        "n": "CCVN",
+        "d": "2019-04-05",
+        "m1": "749.3"
+      },
+      {
+        "p": {
+          "name": "LiStereo: Generate Dense Depth Maps from LIDAR and Stereo Imagery",
+          "link": "https://arxiv.org/abs/1905.02744v3"
+        },
+        "c": "",
+        "n": "LiStereo",
+        "d": "2019-05-07",
+        "m1": "749.3"
+      },
+      {
+        "p": {
+          "name": "Non-Local Spatial Propagation Network for Depth Completion",
+          "link": "https://arxiv.org/abs/2007.10042v1"
+        },
+        "c": "https://github.com/zzangjinsun/NLSPN_ECCV20",
+        "n": "NLSPN",
+        "d": "2020-07-20",
+        "m1": "771.8"
+      },
+      {
+        "p": {
+          "name": "Learning Guided Convolutional Network for Depth Completion",
+          "link": "https://arxiv.org/abs/1908.01238v1"
+        },
+        "c": "https://github.com/kakaxi314/GuideNet",
+        "n": "GuideNet",
+        "d": "2019-08-03",
+        "m1": "777.78"
+      },
+      {
+        "p": {
+          "name": "Pyramid Stereo Matching Network",
+          "link": "http://arxiv.org/abs/1803.08669v1"
+        },
+        "c": "https://github.com/JiaRenChang/PSMNet",
+        "n": "PSMNet",
+        "d": "2018-03-23",
+        "m1": "884"
+      },
+      {
+        "p": {
+          "name": "Scene Completeness-Aware Lidar Depth Completion for Driving Scenario",
+          "link": "https://arxiv.org/abs/2003.06945v4"
+        },
+        "c": "https://github.com/choyingw/SCADC-DepthCompletion",
+        "n": "SCADC",
+        "d": "2020-03-15",
+        "m1": "1009.6"
+      },
+      {
+        "p": {
+          "name": "End-to-End Learning of Geometry and Context for Deep Stereo Regression",
+          "link": "http://arxiv.org/abs/1703.04309v1"
+        },
+        "c": "https://github.com/zyf12389/GC-Net",
+        "n": "GCNet",
+        "d": "2017-03-13",
+        "m1": "1031.4"
+      }
+    ]
+  }
+}

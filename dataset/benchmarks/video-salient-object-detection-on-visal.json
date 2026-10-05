@@ -1,13 +1,12 @@
 {
   "title": "video-salient-object-detection-on-visal",
   "task-hierarchy": [
-    "Object Detection",
-    "RGB Salient Object Detection",
+    "Salient Object Detection",
     "Video Salient Object Detection"
   ],
   "dataset-info": {
     "link": "https://github.com/shenjianbing/ViSalDataset",
-    "paper": ""
+    "paper": "Consistent Video Saliency Using Local Gradient Flow Optimization and Global Refinement"
   },
   "benchmark": {
     "fields": [

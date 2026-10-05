@@ -1,0 +1,79 @@
+{
+  "title": "zero-shot-action-recognition-on-charades",
+  "task-hierarchy": [
+    "Action Recognition",
+    "Zero-Shot Action Recognition"
+  ],
+  "dataset-info": {
+    "link": "http://vuchallenge.org/charades.html",
+    "paper": "Hollywood in Homes: Crowdsourcing Data Collection for Activity Understanding"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mAP",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Actor-agnostic Multi-label Action Recognition with Multi-modal Query",
+          "link": "https://arxiv.org/abs/2307.10763v3"
+        },
+        "c": "https://github.com/mondalanindya/msqnet",
+        "n": "MSQNet",
+        "d": "2023-07-20",
+        "m1": "35.59"
+      },
+      {
+        "p": {
+          "name": "VideoCoCa: Video-Text Modeling with Zero-Shot Transfer from Contrastive Captioners",
+          "link": "https://arxiv.org/abs/2212.04979v3"
+        },
+        "c": "",
+        "n": "VideoCoCa",
+        "d": "2022-12-09",
+        "m1": "25.8"
+      },
+      {
+        "p": {
+          "name": "MAtch, eXpand and Improve: Unsupervised Finetuning for Zero-Shot Action Recognition with Language Knowledge",
+          "link": "https://arxiv.org/abs/2303.08914v2"
+        },
+        "c": "https://github.com/wlin-at/maxi",
+        "n": "MAXI",
+        "d": "2023-03-15",
+        "m1": "23.8"
+      },
+      {
+        "p": {
+          "name": "A CLIP-Hitchhiker's Guide to Long Video Retrieval",
+          "link": "https://arxiv.org/abs/2205.08508v1"
+        },
+        "c": "https://github.com/m-bain/clip-hitchhiker",
+        "n": "CLIP-Hitchhiker (ViT-B/16, 32 frames)",
+        "d": "2022-05-17",
+        "m1": "21.1"
+      }
+    ]
+  }
+}

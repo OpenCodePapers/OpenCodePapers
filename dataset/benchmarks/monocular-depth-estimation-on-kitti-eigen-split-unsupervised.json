@@ -1,0 +1,882 @@
+{
+  "title": "monocular-depth-estimation-on-kitti-eigen-split-unsupervised",
+  "task-hierarchy": [
+    "Depth Estimation",
+    "Monocular Depth Estimation"
+  ],
+  "dataset-info": {
+    "link": "http://www.cvlibs.net/datasets/kitti/",
+    "paper": "Are we ready for autonomous driving? The KITTI vision benchmark suite"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "absolute relative error",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "RMSE",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "RMSE log",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Sq Rel",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "Delta < 1.25",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "Delta < 1.25^2",
+        "sortable": "true"
+      },
+      {
+        "key": "m7",
+        "label": "Delta < 1.25^3",
+        "sortable": "true"
+      },
+      {
+        "key": "m8",
+        "label": "Resolution",
+        "sortable": "true"
+      },
+      {
+        "key": "m9",
+        "label": "Mono",
+        "sortable": "true"
+      },
+      {
+        "key": "m10",
+        "label": "Test frames",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "SPIdepth: Strengthened Pose Information for Self-supervised Monocular Depth Estimation",
+          "link": "https://arxiv.org/abs/2404.12501v3"
+        },
+        "c": "https://github.com/Lavreniuk/SPIdepth",
+        "n": "SPIdepth",
+        "d": "2024-04-18",
+        "m1": "0.071",
+        "m2": "3.662",
+        "m3": "0.153",
+        "m4": "0.531",
+        "m5": "0.94",
+        "m6": "0.973",
+        "m7": "0.985",
+        "m8": "1024x320",
+        "m9": "X",
+        "m10": "1"
+      },
+      {
+        "p": {
+          "name": "PlaneDepth: Self-supervised Depth Estimation via Orthogonal Planes",
+          "link": "https://arxiv.org/abs/2210.01612v3"
+        },
+        "c": "https://github.com/svip-lab/planedepth",
+        "n": "PlaneDepth (S + 1280x384)",
+        "d": "2022-10-04",
+        "m1": "0.084",
+        "m2": "3.981",
+        "m3": "0.169",
+        "m4": "0.549",
+        "m5": "0.911",
+        "m6": "0.968",
+        "m7": "0.984",
+        "m8": "1280x384",
+        "m9": "X"
+      },
+      {
+        "p": {
+          "name": "ProDepth: Boosting Self-Supervised Multi-Frame Monocular Depth with Probabilistic Fusion",
+          "link": "https://arxiv.org/abs/2407.09303v1"
+        },
+        "c": "https://github.com/sungmin-woo/ProDepth",
+        "n": "ProDepth",
+        "d": "2024-07-12",
+        "m1": "0.086",
+        "m2": "4.139",
+        "m3": "0.166",
+        "m4": "0.629",
+        "m5": "0.918",
+        "m6": "0.969",
+        "m7": "0.984",
+        "m8": "640x192",
+        "m9": "O",
+        "m10": "2(-1,0)"
+      },
+      {
+        "p": {
+          "name": "DCPI-Depth: Explicitly Infusing Dense Correspondence Prior to Unsupervised Monocular Depth Estimation",
+          "link": "https://arxiv.org/abs/2405.16960v2"
+        },
+        "c": "",
+        "n": "DCPI-Depth (M+1024x320)",
+        "d": "2024-05-27",
+        "m1": "0.090",
+        "m2": "4.113",
+        "m3": "0.167",
+        "m4": "0.655",
+        "m5": "0.914",
+        "m6": "0.969",
+        "m7": "0.985",
+        "m9": "O"
+      },
+      {
+        "p": {
+          "name": "SCIPaD: Incorporating Spatial Clues into Unsupervised Pose-Depth Joint Learning",
+          "link": "https://arxiv.org/abs/2407.05283v1"
+        },
+        "c": "https://github.com/fengyi233/SCIPaD",
+        "n": "SCIPaD",
+        "d": "2024-07-07",
+        "m1": "0.090",
+        "m2": "4.056",
+        "m3": "0.166",
+        "m4": "0.650",
+        "m5": "0.918",
+        "m6": "0.970",
+        "m7": "0.985",
+        "m8": "640x192"
+      },
+      {
+        "p": {
+          "name": "Jasmine: Harnessing Diffusion Prior for Self-supervised Depth Estimation",
+          "link": "https://arxiv.org/abs/2503.15905v1"
+        },
+        "c": "",
+        "n": "Jasmine",
+        "d": "2025-03-20",
+        "m1": "0.09",
+        "m2": "3.944",
+        "m3": "0.161",
+        "m4": "0.581",
+        "m5": "0.919",
+        "m6": "0.972",
+        "m7": "0.986",
+        "m8": "1024x320",
+        "m9": "O"
+      },
+      {
+        "p": {
+          "name": "Excavating the Potential Capacity of Self-Supervised Monocular Depth Estimation",
+          "link": "https://arxiv.org/abs/2109.12484v1"
+        },
+        "c": "https://github.com/prstrive/EPCDepth",
+        "n": "EPCDepth(S+1024x320)",
+        "d": "2021-09-26",
+        "m1": "0.091",
+        "m2": "4.207",
+        "m3": "0.176",
+        "m4": "0.646",
+        "m5": "0.901",
+        "m6": "0.966",
+        "m7": "0.983",
+        "m8": "1024x320",
+        "m9": "X"
+      },
+      {
+        "p": {
+          "name": "Manydepth2: Motion-Aware Self-Supervised Multi-Frame Monocular Depth Estimation in Dynamic Scenes",
+          "link": "https://arxiv.org/abs/2312.15268v8"
+        },
+        "c": "https://github.com/kaichen-z/rad",
+        "n": "Manydepth2(M+640x192)",
+        "d": "2023-12-23",
+        "m1": "0.091",
+        "m2": "4.232",
+        "m3": "0.170",
+        "m4": "0.649",
+        "m5": "0.909",
+        "m6": "0.968",
+        "m7": "0.984",
+        "m8": "640x192",
+        "m9": "O"
+      },
+      {
+        "p": {
+          "name": "NimbleD: Enhancing Self-supervised Monocular Depth Estimation with Pseudo-labels and Large-scale Video Pre-training",
+          "link": "https://arxiv.org/abs/2408.14177v1"
+        },
+        "c": "https://github.com/xapaxca/nimbled",
+        "n": "NimbleD-LiteMono-8M",
+        "d": "2024-08-26",
+        "m1": "0.092",
+        "m2": "4.194",
+        "m3": "0.165",
+        "m4": "0.646",
+        "m5": "0.910",
+        "m6": "0.970",
+        "m7": "0.986",
+        "m8": "640x192",
+        "m9": "O"
+      },
+      {
+        "p": {
+          "name": "MonoViT: Self-Supervised Monocular Depth Estimation with a Vision Transformer",
+          "link": "https://arxiv.org/abs/2208.03543v1"
+        },
+        "c": "https://github.com/zxcqlf/monovit",
+        "n": "MonoViT(MS+1024x320)",
+        "d": "2022-08-06",
+        "m1": "0.093",
+        "m2": "4.202",
+        "m3": "0.169",
+        "m4": "0.671",
+        "m5": "0.912",
+        "m6": "0.969",
+        "m7": "0.985",
+        "m8": "1024x320",
+        "m9": "X"
+      },
+      {
+        "p": {
+          "name": "Self-Supervised Monocular Depth Estimation with Internal Feature Fusion",
+          "link": "https://arxiv.org/abs/2110.09482v3"
+        },
+        "c": "https://github.com/brandleyzhou/diffnet",
+        "n": "DIFFNet (MS+1024x320)",
+        "d": "2021-10-18",
+        "m1": "0.094",
+        "m2": "4.250",
+        "m3": "0.172",
+        "m4": "0.678",
+        "m5": "0.911",
+        "m6": "0.968",
+        "m7": "0.984",
+        "m9": "X"
+      },
+      {
+        "p": {
+          "name": "Manydepth2: Motion-Aware Self-Supervised Multi-Frame Monocular Depth Estimation in Dynamic Scenes",
+          "link": "https://arxiv.org/abs/2312.15268v8"
+        },
+        "c": "https://github.com/kaichen-z/rad",
+        "n": "Manydepth2-NF(M+640x192)",
+        "d": "2023-12-23",
+        "m1": "0.094",
+        "m2": "4.246",
+        "m3": "0.170",
+        "m4": "0.676",
+        "m5": "0.909",
+        "m6": "0.968",
+        "m7": "0.985",
+        "m8": "640x192",
+        "m9": "O"
+      },
+      {
+        "p": {
+          "name": "TransDSSL: Transformer based Depth Estimation via Self-Supervised Learning",
+          "link": "https://ieeexplore.ieee.org/document/9851497"
+        },
+        "c": "https://github.com/sejong-rcv/2021.Paper.TransDSSL",
+        "n": "TransDSSL",
+        "d": "2022-08-05",
+        "m1": "0.095",
+        "m2": "4.321",
+        "m3": "0.172",
+        "m4": "0.711",
+        "m5": "0.906",
+        "m6": "0.967",
+        "m7": "0.984",
+        "m9": "O"
+      },
+      {
+        "p": {
+          "name": "DS-Depth: Dynamic and Static Depth Estimation via a Fusion Cost Volume",
+          "link": "https://arxiv.org/abs/2308.07225v1"
+        },
+        "c": "https://github.com/xingy038/ds-depth",
+        "n": "DS-Depth",
+        "d": "2023-08-14",
+        "m1": "0.095",
+        "m2": "4.329",
+        "m3": "0.173",
+        "m4": "0.698",
+        "m5": "0.905",
+        "m6": "0.966",
+        "m7": "0.984"
+      },
+      {
+        "p": {
+          "name": "DCPI-Depth: Explicitly Infusing Dense Correspondence Prior to Unsupervised Monocular Depth Estimation",
+          "link": "https://arxiv.org/abs/2405.16960v2"
+        },
+        "c": "",
+        "n": "DCPI-Depth (M+640x192)",
+        "d": "2024-05-27",
+        "m1": "0.095",
+        "m2": "4.274",
+        "m3": "0.170",
+        "m4": "0.662",
+        "m5": "0.902",
+        "m6": "0.967",
+        "m7": "0.985"
+      },
+      {
+        "p": {
+          "name": "ProDepth: Boosting Self-Supervised Multi-Frame Monocular Depth with Probabilistic Fusion",
+          "link": "https://arxiv.org/abs/2407.09303v1"
+        },
+        "c": "https://github.com/sungmin-woo/ProDepth",
+        "n": "ProDepth(M+640x192)",
+        "d": "2024-07-12",
+        "m1": "0.095",
+        "m2": "4.345",
+        "m3": "0.172",
+        "m4": "0.693",
+        "m5": "0.902",
+        "m6": "0.967",
+        "m7": "0.985",
+        "m8": "640x192",
+        "m9": "O"
+      },
+      {
+        "p": {
+          "name": "Channel-Wise Attention-Based Network for Self-Supervised Monocular Depth Estimation",
+          "link": "https://arxiv.org/abs/2112.13047v1"
+        },
+        "c": "https://github.com/kamiLight/CADepth-master",
+        "n": "CADepth-Net (MS+1024x320)",
+        "d": "2021-12-24",
+        "m1": "0.096",
+        "m2": "4.264",
+        "m3": "0.173",
+        "m4": "0.694"
+      },
+      {
+        "p": {
+          "name": "Disentangling Object Motion and Occlusion for Unsupervised Multi-frame Monocular Depth",
+          "link": "https://arxiv.org/abs/2203.15174v2"
+        },
+        "c": "https://github.com/AutoAILab/DynamicDepth",
+        "n": "DynamicDepth (M+640x192)",
+        "d": "2022-03-29",
+        "m1": "0.096",
+        "m2": "4.458",
+        "m3": "0.175",
+        "m4": "0.720",
+        "m5": "0.897",
+        "m6": "0.964",
+        "m7": "0.984",
+        "m9": "X"
+      },
+      {
+        "p": {
+          "name": "NimbleD: Enhancing Self-supervised Monocular Depth Estimation with Pseudo-labels and Large-scale Video Pre-training",
+          "link": "https://arxiv.org/abs/2408.14177v1"
+        },
+        "c": "https://github.com/xapaxca/nimbled",
+        "n": "NimbleD-LiteMono",
+        "d": "2024-08-26",
+        "m1": "0.096",
+        "m2": "4.304",
+        "m3": "0.171",
+        "m4": "0.684",
+        "m5": "0.903",
+        "m6": "0.969",
+        "m7": "0.986",
+        "m8": "640x192",
+        "m9": "O"
+      },
+      {
+        "p": {
+          "name": "NimbleD: Enhancing Self-supervised Monocular Depth Estimation with Pseudo-labels and Large-scale Video Pre-training",
+          "link": "https://arxiv.org/abs/2408.14177v1"
+        },
+        "c": "https://github.com/xapaxca/nimbled",
+        "n": "Nimbled-SwiftDepth",
+        "d": "2024-08-26",
+        "m1": "0.096",
+        "m2": "4.333",
+        "m3": "0.171",
+        "m4": "0.697",
+        "m5": "0.905",
+        "m6": "0.969",
+        "m7": "0.986",
+        "m8": "640x192",
+        "m9": "O"
+      },
+      {
+        "p": {
+          "name": "NimbleD: Enhancing Self-supervised Monocular Depth Estimation with Pseudo-labels and Large-scale Video Pre-training",
+          "link": "https://arxiv.org/abs/2408.14177v1"
+        },
+        "c": "https://github.com/xapaxca/nimbled",
+        "n": "Nimbled-MD2-R50",
+        "d": "2024-08-26",
+        "m1": "0.097",
+        "m2": "4.377",
+        "m3": "0.172",
+        "m4": "0.721",
+        "m5": "0.904",
+        "m6": "0.968",
+        "m7": "0.985",
+        "m8": "640x192",
+        "m9": "O"
+      },
+      {
+        "p": {
+          "name": "SCIPaD: Incorporating Spatial Clues into Unsupervised Pose-Depth Joint Learning",
+          "link": "https://arxiv.org/abs/2407.05283v1"
+        },
+        "c": "https://github.com/fengyi233/SCIPaD",
+        "n": "SCIPaD(M+640x192)",
+        "d": "2024-07-07",
+        "m1": "0.098",
+        "m2": "4.391",
+        "m3": "0.175",
+        "m4": "0.732",
+        "m5": "0.897",
+        "m6": "0.964",
+        "m7": "0.983",
+        "m8": "640x192",
+        "m9": "O"
+      },
+      {
+        "p": {
+          "name": "NimbleD: Enhancing Self-supervised Monocular Depth Estimation with Pseudo-labels and Large-scale Video Pre-training",
+          "link": "https://arxiv.org/abs/2408.14177v1"
+        },
+        "c": "https://github.com/xapaxca/nimbled",
+        "n": "Nimbled-SwiftDepth-S",
+        "d": "2024-08-26",
+        "m1": "0.098",
+        "m2": "4.401",
+        "m3": "0.174",
+        "m4": "0.733",
+        "m5": "0.901",
+        "m6": "0.968",
+        "m7": "0.985",
+        "m8": "640x192",
+        "m9": "O"
+      },
+      {
+        "p": {
+          "name": "Feature-metric Loss for Self-supervised Learning of Depth and Egomotion",
+          "link": "https://arxiv.org/abs/2007.10603v1"
+        },
+        "c": "https://github.com/sconlyshootery/FeatDepth",
+        "n": "FeatDepth-MS",
+        "d": "2020-07-21",
+        "m1": "0.099",
+        "m2": "4.427",
+        "m3": "0.184",
+        "m4": "0.697",
+        "m5": "0.889",
+        "m6": "0.963",
+        "m7": "0.982"
+      },
+      {
+        "p": {
+          "name": "Excavating the Potential Capacity of Self-Supervised Monocular Depth Estimation",
+          "link": "https://arxiv.org/abs/2109.12484v1"
+        },
+        "c": "https://github.com/prstrive/EPCDepth",
+        "n": "EPCDepth(S+640x192)",
+        "d": "2021-09-26",
+        "m1": "0.099",
+        "m2": "4.490",
+        "m3": "0.183",
+        "m4": "0.754",
+        "m5": "0.888",
+        "m6": "0.963",
+        "m7": "0.982"
+      },
+      {
+        "p": {
+          "name": "Towards Comprehensive Representation Enhancement in Semantics-guided Self-supervised Monocular Depth Estimation",
+          "link": "https://link.springer.com/chapter/10.1007/978-3-031-19769-7_18"
+        },
+        "c": "",
+        "n": "CREMono(M + 1024x320 + Res50)",
+        "d": "2022-10-23",
+        "m1": "0.099",
+        "m2": "4.165",
+        "m3": "0.171",
+        "m4": "0.624",
+        "m5": "0.902",
+        "m6": " 0.969",
+        "m7": " 0.986"
+      },
+      {
+        "p": {
+          "name": "Exploring Efficiency of Vision Transformers for Self-Supervised Monocular Depth Estimation",
+          "link": "https://ieeexplore.ieee.org/document/9995672"
+        },
+        "c": "https://github.com/ahbpp/VTDepth",
+        "n": "VTDepthB2 (stereo supervision)",
+        "d": "2022-12-27",
+        "m1": "0.099",
+        "m2": "4.439",
+        "m3": "0.178",
+        "m4": "0.743",
+        "m5": "0.904",
+        "m6": "0.965",
+        "m7": "0.983"
+      },
+      {
+        "p": {
+          "name": "NimbleD: Enhancing Self-supervised Monocular Depth Estimation with Pseudo-labels and Large-scale Video Pre-training",
+          "link": "https://arxiv.org/abs/2408.14177v1"
+        },
+        "c": "https://github.com/xapaxca/nimbled",
+        "n": "NimbleD-LiteMono-S",
+        "d": "2024-08-26",
+        "m1": "0.099",
+        "m2": "4.370",
+        "m3": "0.172",
+        "m4": "0.709",
+        "m5": "0.898",
+        "m6": "0.967",
+        "m7": "0.986",
+        "m8": "640x192",
+        "m9": "O"
+      },
+      {
+        "p": {
+          "name": "NimbleD: Enhancing Self-supervised Monocular Depth Estimation with Pseudo-labels and Large-scale Video Pre-training",
+          "link": "https://arxiv.org/abs/2408.14177v1"
+        },
+        "c": "https://github.com/xapaxca/nimbled",
+        "n": "Nimbled-MD2-R18",
+        "d": "2024-08-26",
+        "m1": "0.100",
+        "m2": "4.440",
+        "m3": "0.175",
+        "m4": "0.739",
+        "m5": "0.898",
+        "m6": "0.967",
+        "m7": "0.985",
+        "m8": "640x192",
+        "m9": "O"
+      },
+      {
+        "p": {
+          "name": "HR-Depth: High Resolution Self-Supervised Monocular Depth Estimation",
+          "link": "https://arxiv.org/abs/2012.07356v1"
+        },
+        "c": "https://github.com/shawLyu/HR-Depth",
+        "n": "HR-Depth-MS-1024X320",
+        "d": "2020-12-14",
+        "m1": "0.101"
+      },
+      {
+        "p": {
+          "name": "Monocular Depth Estimation through Virtual-world Supervision and Real-world SfM Self-Supervision",
+          "link": "https://arxiv.org/abs/2103.12209v3"
+        },
+        "c": "https://github.com/HMRC-AEL/MonoDEVSNet",
+        "n": "MonoDEVSNet",
+        "d": "2021-03-22",
+        "m1": "0.101",
+        "m2": "4.413",
+        "m4": "0.703",
+        "m5": "0.882",
+        "m6": "0.962"
+      },
+      {
+        "p": {
+          "name": "X-Distill: Improving Self-Supervised Monocular Depth via Cross-Task Distillation",
+          "link": "https://arxiv.org/abs/2110.12516v1"
+        },
+        "c": "",
+        "n": "X-Distill (M+1024x320)",
+        "d": "2021-10-24",
+        "m1": "0.102",
+        "m2": "4.439",
+        "m3": "0.180",
+        "m4": "0.698",
+        "m5": "0.895",
+        "m6": "0.965",
+        "m7": "0.983"
+      },
+      {
+        "p": {
+          "name": "CamLessMonoDepth: Monocular Depth Estimation with Unknown Camera Parameters",
+          "link": "https://arxiv.org/abs/2110.14347v1"
+        },
+        "c": "",
+        "n": "CamLessMonoDepth-1024x320",
+        "d": "2021-10-27",
+        "m1": "0.102"
+      },
+      {
+        "p": {
+          "name": "Feature-metric Loss for Self-supervised Learning of Depth and Egomotion",
+          "link": "https://arxiv.org/abs/2007.10603v1"
+        },
+        "c": "https://github.com/sconlyshootery/FeatDepth",
+        "n": "FeatDepth-M",
+        "d": "2020-07-21",
+        "m1": "0.104"
+      },
+      {
+        "p": {
+          "name": "HR-Depth: High Resolution Self-Supervised Monocular Depth Estimation",
+          "link": "https://arxiv.org/abs/2012.07356v1"
+        },
+        "c": "https://github.com/shawLyu/HR-Depth",
+        "n": "HR-Depth-M-1280x384",
+        "d": "2020-12-14",
+        "m1": "0.104"
+      },
+      {
+        "p": {
+          "name": "HR-Depth: High Resolution Self-Supervised Monocular Depth Estimation",
+          "link": "https://arxiv.org/abs/2012.07356v1"
+        },
+        "c": "https://github.com/shawLyu/HR-Depth",
+        "n": "Lite-HR-Depth-T-1280x384",
+        "d": "2020-12-14",
+        "m1": "0.104"
+      },
+      {
+        "p": {
+          "name": "GCNDepth: Self-supervised Monocular Depth Estimation based on Graph Convolutional Network",
+          "link": "https://arxiv.org/abs/2112.06782v1"
+        },
+        "c": "https://github.com/arminmasoumian/gcndepth",
+        "n": "GCNDepth",
+        "d": "2021-12-13",
+        "m1": "0.104",
+        "m2": "4.494",
+        "m3": "0.181",
+        "m4": "0.720"
+      },
+      {
+        "p": {
+          "name": "Deep Digging into the Generalization of Self-Supervised Monocular Depth Estimation",
+          "link": "https://arxiv.org/abs/2205.11083v3"
+        },
+        "c": "https://github.com/sjg02122/MonoFormer",
+        "n": "MonoFormer",
+        "d": "2022-05-23",
+        "m1": "0.104",
+        "m8": "640x192",
+        "m9": "O"
+      },
+      {
+        "p": {
+          "name": "CamLessMonoDepth: Monocular Depth Estimation with Unknown Camera Parameters",
+          "link": "https://arxiv.org/abs/2110.14347v1"
+        },
+        "c": "",
+        "n": "CamLessMonoDepth (V1)-640x192",
+        "d": "2021-10-27",
+        "m1": "0.105"
+      },
+      {
+        "p": {
+          "name": "Exploring Efficiency of Vision Transformers for Self-Supervised Monocular Depth Estimation",
+          "link": "https://ieeexplore.ieee.org/document/9995672"
+        },
+        "c": "https://github.com/ahbpp/VTDepth",
+        "n": "VTDepthB2 (monocular supervision)",
+        "d": "2022-12-27",
+        "m1": "0.105",
+        "m2": "4.530",
+        "m3": "0.182",
+        "m4": "0.762",
+        "m5": "0.893",
+        "m6": "0.964",
+        "m7": "0.983"
+      },
+      {
+        "p": {
+          "name": "Digging Into Self-Supervised Monocular Depth Estimation",
+          "link": "http://openaccess.thecvf.com/content_ICCV_2019/html/Godard_Digging_Into_Self-Supervised_Monocular_Depth_Estimation_ICCV_2019_paper.html"
+        },
+        "c": "https://github.com/nianticlabs/monodepth2",
+        "n": "Monodepth2 MS",
+        "d": "2019-10-01",
+        "m1": "0.106"
+      },
+      {
+        "p": {
+          "name": "CamLessMonoDepth: Monocular Depth Estimation with Unknown Camera Parameters",
+          "link": "https://arxiv.org/abs/2110.14347v1"
+        },
+        "c": "",
+        "n": "CamLessMonoDepth (V2)-640x192",
+        "d": "2021-10-27",
+        "m1": "0.106"
+      },
+      {
+        "p": {
+          "name": "3D Packing for Self-Supervised Monocular Depth Estimation",
+          "link": "https://arxiv.org/abs/1905.02693v4"
+        },
+        "c": "https://github.com/TRI-ML/packnet-sfm",
+        "n": "PackNet-SfM M",
+        "d": "2019-05-06",
+        "m1": "0.107"
+      },
+      {
+        "p": {
+          "name": "Digging Into Self-Supervised Monocular Depth Estimation",
+          "link": "http://openaccess.thecvf.com/content_ICCV_2019/html/Godard_Digging_Into_Self-Supervised_Monocular_Depth_Estimation_ICCV_2019_paper.html"
+        },
+        "c": "https://github.com/nianticlabs/monodepth2",
+        "n": "Monodepth2 S",
+        "d": "2019-10-01",
+        "m1": "0.109"
+      },
+      {
+        "p": {
+          "name": "SharinGAN: Combining Synthetic and Real Data for Unsupervised Geometry Estimation",
+          "link": "https://arxiv.org/abs/2006.04026v1"
+        },
+        "c": "https://github.com/koutilya40192/SharinGAN",
+        "n": "SharinGAN",
+        "d": "2020-06-07",
+        "m1": "0.109",
+        "m2": "3.77",
+        "m3": "0.19",
+        "m4": "0.673",
+        "m5": "0.864",
+        "m6": "0.954",
+        "m7": "0.981"
+      },
+      {
+        "p": {
+          "name": "HR-Depth: High Resolution Self-Supervised Monocular Depth Estimation",
+          "link": "https://arxiv.org/abs/2012.07356v1"
+        },
+        "c": "https://github.com/shawLyu/HR-Depth",
+        "n": "HR-Depth-M-640x192",
+        "d": "2020-12-14",
+        "m1": "0.109"
+      },
+      {
+        "p": {
+          "name": "Multimodal Scale Consistency and Awareness for Monocular Self-Supervised Depth Estimation",
+          "link": "https://arxiv.org/abs/2103.02451v1"
+        },
+        "c": "https://github.com/NeurAI-Lab/G2S",
+        "n": "G2S (MD2-M-R18-pp-640 x 192)",
+        "d": "2021-03-03",
+        "m1": "0.109"
+      },
+      {
+        "p": {
+          "name": "DCPI-Depth: Explicitly Infusing Dense Correspondence Prior to Unsupervised Monocular Depth Estimation",
+          "link": "https://arxiv.org/abs/2405.16960v2"
+        },
+        "c": "",
+        "n": "DCPI-Depth (M+832x256+SC-V3)",
+        "d": "2024-05-27",
+        "m1": "0.109",
+        "m2": "4.496",
+        "m4": "0.679"
+      },
+      {
+        "p": {
+          "name": "SuperDepth: Self-Supervised, Super-Resolved Monocular Depth Estimation",
+          "link": "http://arxiv.org/abs/1810.01849v1"
+        },
+        "c": "",
+        "n": "SuperDepth S",
+        "d": "2018-10-03",
+        "m1": "0.112"
+      },
+      {
+        "p": {
+          "name": "Improving Self-Supervised Single View Depth Estimation by Masking Occlusion",
+          "link": "https://arxiv.org/abs/1908.11112v1"
+        },
+        "c": "https://github.com/schelv/monodepth2",
+        "n": "Occlusion_mask_640x192",
+        "d": "2019-08-29",
+        "m1": "0.113"
+      },
+      {
+        "p": {
+          "name": "Pose Constraints for Consistent Self-supervised Monocular Depth and Ego-motion",
+          "link": "https://arxiv.org/abs/2304.08916v1"
+        },
+        "c": "https://github.com/zshn25/pc4consistentdepth",
+        "n": "pc4consistentdepth",
+        "d": "2023-04-18",
+        "m1": "0.113"
+      },
+      {
+        "p": {
+          "name": "Digging Into Self-Supervised Monocular Depth Estimation",
+          "link": "http://openaccess.thecvf.com/content_ICCV_2019/html/Godard_Digging_Into_Self-Supervised_Monocular_Depth_Estimation_ICCV_2019_paper.html"
+        },
+        "c": "https://github.com/nianticlabs/monodepth2",
+        "n": "Monodepth2 M",
+        "d": "2019-10-01",
+        "m1": "0.115",
+        "m10": "1"
+      },
+      {
+        "p": {
+          "name": "Dyna-DM: Dynamic Object-aware Self-supervised Monocular Depth Maps",
+          "link": "https://arxiv.org/abs/2206.03799v3"
+        },
+        "c": "https://github.com/kieran514/dyna-dm",
+        "n": "Dyna-DM",
+        "d": "2022-06-08",
+        "m1": "0.115",
+        "m2": "4.698",
+        "m3": "0.192",
+        "m4": "0.785",
+        "m5": "0.871",
+        "m6": "0.959",
+        "m7": "0.982"
+      },
+      {
+        "p": {
+          "name": "Unsupervised Monocular Depth Estimation with Left-Right Consistency",
+          "link": "http://arxiv.org/abs/1609.03677v3"
+        },
+        "c": "https://github.com/mrharicot/monodepth",
+        "n": "Monodepth S",
+        "d": "2016-09-13",
+        "m1": "0.133"
+      },
+      {
+        "p": {
+          "name": "Unsupervised Monocular Depth and Ego-motion Learning with Structure and Semantics",
+          "link": "https://arxiv.org/abs/1906.05717v1"
+        },
+        "c": "",
+        "n": "Struct2Depth M",
+        "d": "2019-06-12",
+        "m1": "0.1412"
+      }
+    ]
+  }
+}

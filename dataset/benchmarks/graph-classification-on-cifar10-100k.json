@@ -1,12 +1,12 @@
 {
   "title": "graph-classification-on-cifar10-100k",
   "task-hierarchy": [
-    "Classification",
+    "Graph Property Prediction",
     "Graph Classification"
   ],
   "dataset-info": {
-    "link": "https://www.cs.toronto.edu/~kriz/learning-features-2009-TR.pdf",
-    "paper": "Learning multiple layers of features from tiny images"
+    "link": "https://github.com/graphdeeplearning/benchmarking-gnns",
+    "paper": "Benchmarking Graph Neural Networks"
   },
   "benchmark": {
     "fields": [

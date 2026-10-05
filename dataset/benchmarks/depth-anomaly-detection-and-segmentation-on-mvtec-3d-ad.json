@@ -1,0 +1,201 @@
+{
+  "title": "depth-anomaly-detection-and-segmentation-on-mvtec-3d-ad",
+  "task-hierarchy": [
+    "Anomaly Detection",
+    "3D Anomaly Detection",
+    "Depth Anomaly Detection and Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://www.mvtec.com/company/research/datasets/mvtec-3d-ad",
+    "paper": "The MVTec 3D-AD Dataset for Unsupervised 3D Anomaly Detection and Localization"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Segmentation AUPRO",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Detection AUROC",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Segmentation AUROC",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "TransFusion -- A Transparency-Based Diffusion Model for Anomaly Detection",
+          "link": "https://arxiv.org/abs/2311.09999v2"
+        },
+        "c": "https://github.com/maticfuc/eccv_transfusion",
+        "n": "TransFusion",
+        "d": "2023-11-16",
+        "m1": "0.947",
+        "m2": "0.957"
+      },
+      {
+        "p": {
+          "name": "Complementary Pseudo Multimodal Feature for Point Cloud Anomaly Detection",
+          "link": "https://arxiv.org/abs/2303.13194v1"
+        },
+        "c": "https://github.com/m-3lab/real3d-ad",
+        "n": "CPMF (2D+3D)",
+        "d": "2023-03-23",
+        "m1": "0.9293",
+        "m2": "0.9515",
+        "m3": "0.9781"
+      },
+      {
+        "p": {
+          "name": "Complementary Pseudo Multimodal Feature for Point Cloud Anomaly Detection",
+          "link": "https://arxiv.org/abs/2303.13194v1"
+        },
+        "c": "https://github.com/m-3lab/real3d-ad",
+        "n": "CPMF (3D)",
+        "d": "2023-03-23",
+        "m1": "0.9230",
+        "m2": "0.8304",
+        "m3": "0.9780"
+      },
+      {
+        "p": {
+          "name": "Complementary Pseudo Multimodal Feature for Point Cloud Anomaly Detection",
+          "link": "https://arxiv.org/abs/2303.13194v1"
+        },
+        "c": "https://github.com/m-3lab/real3d-ad",
+        "n": "CPMF (2D)",
+        "d": "2023-03-23",
+        "m1": "0.9145",
+        "m2": "0.8918",
+        "m3": "0.9730"
+      },
+      {
+        "p": {
+          "name": "Back to the Feature: Classical 3D Features are (Almost) All You Need for 3D Anomaly Detection",
+          "link": "https://arxiv.org/abs/2203.05550v3"
+        },
+        "c": "https://github.com/eliahuhorwitz/3D-ADS",
+        "n": "Back to the Feature:\nClassical 3D Features are (Almost) All You Need for 3D Anomaly Detection (SIFT)",
+        "d": "2022-03-10",
+        "m1": "0.910",
+        "m2": "0.727",
+        "m3": "0.974"
+      },
+      {
+        "p": {
+          "name": "Cheating Depth: Enhancing 3D Surface Anomaly Detection via Depth Simulation",
+          "link": "https://arxiv.org/abs/2311.01117v1"
+        },
+        "c": "https://github.com/vitjanz/3dsr",
+        "n": "3DSR (3D)",
+        "d": "2023-11-02",
+        "m1": "0.907",
+        "m2": "0.922"
+      },
+      {
+        "p": {
+          "name": "Back to the Feature: Classical 3D Features are (Almost) All You Need for 3D Anomaly Detection",
+          "link": "https://arxiv.org/abs/2203.05550v3"
+        },
+        "c": "https://github.com/eliahuhorwitz/3D-ADS",
+        "n": "Back to the Feature:\nClassical 3D Features are (Almost) All You Need for 3D Anomaly Detection  (HoG)",
+        "d": "2022-03-10",
+        "m1": "0.771",
+        "m2": "0.559",
+        "m3": "0.930"
+      },
+      {
+        "p": {
+          "name": "Back to the Feature: Classical 3D Features are (Almost) All You Need for 3D Anomaly Detection",
+          "link": "https://arxiv.org/abs/2203.05550v3"
+        },
+        "c": "https://github.com/eliahuhorwitz/3D-ADS",
+        "n": "Back to the Feature:\nClassical 3D Features are (Almost) All You Need for 3D Anomaly Detection  (Depth iNet)",
+        "d": "2022-03-10",
+        "m1": "0.755",
+        "m2": "0.675",
+        "m3": "0.930"
+      },
+      {
+        "p": {
+          "name": "Back to the Feature: Classical 3D Features are (Almost) All You Need for 3D Anomaly Detection",
+          "link": "https://arxiv.org/abs/2203.05550v3"
+        },
+        "c": "https://github.com/eliahuhorwitz/3D-ADS",
+        "n": "Back to the Feature:\nClassical 3D Features are (Almost) All You Need for 3D Anomaly Detection  (NSA)",
+        "d": "2022-03-10",
+        "m1": "0.5572",
+        "m2": "0.696",
+        "m3": "0.817"
+      },
+      {
+        "p": {
+          "name": "Back to the Feature: Classical 3D Features are (Almost) All You Need for 3D Anomaly Detection",
+          "link": "https://arxiv.org/abs/2203.05550v3"
+        },
+        "c": "https://github.com/eliahuhorwitz/3D-ADS",
+        "n": "Back to the Feature:\nClassical 3D Features are (Almost) All You Need for 3D Anomaly Detection  (RaW)",
+        "d": "2022-03-10",
+        "m1": "0.442",
+        "m2": "0.573",
+        "m3": "0.771"
+      },
+      {
+        "p": {
+          "name": "The MVTec 3D-AD Dataset for Unsupervised 3D Anomaly Detection and Localization",
+          "link": "https://arxiv.org/abs/2112.09045v1"
+        },
+        "c": "https://github.com/openvinotoolkit/anomalib",
+        "n": "Depth VM",
+        "d": "2021-12-16",
+        "m1": "0.374",
+        "m2": "0.546"
+      },
+      {
+        "p": {
+          "name": "The MVTec 3D-AD Dataset for Unsupervised 3D Anomaly Detection and Localization",
+          "link": "https://arxiv.org/abs/2112.09045v1"
+        },
+        "c": "https://github.com/openvinotoolkit/anomalib",
+        "n": "Depth AE",
+        "d": "2021-12-16",
+        "m1": "0.203",
+        "m2": "0.546"
+      },
+      {
+        "p": {
+          "name": "The MVTec 3D-AD Dataset for Unsupervised 3D Anomaly Detection and Localization",
+          "link": "https://arxiv.org/abs/2112.09045v1"
+        },
+        "c": "https://github.com/openvinotoolkit/anomalib",
+        "n": "Depth GAN",
+        "d": "2021-12-16",
+        "m1": "0.143",
+        "m2": "0.523"
+      }
+    ]
+  }
+}

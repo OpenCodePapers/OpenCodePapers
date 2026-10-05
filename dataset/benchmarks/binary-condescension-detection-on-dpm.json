@@ -1,11 +1,13 @@
 {
   "title": "binary-condescension-detection-on-dpm",
   "task-hierarchy": [
+    "Text Classification",
+    "Toxicity and Bias Detection",
     "Binary Condescension Detection"
   ],
   "dataset-info": {
-    "link": "",
-    "paper": ""
+    "link": "https://arxiv.org/abs/2011.08320",
+    "paper": "Don't Patronize Me! An Annotated Dataset with Patronizing and Condescending Language towards Vulnerable Communities"
   },
   "benchmark": {
     "fields": [

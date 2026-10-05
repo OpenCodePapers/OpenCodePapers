@@ -1,0 +1,83 @@
+{
+  "title": "factual-inconsistency-detection-in-chart-captioning-on-chocolate-lvlm",
+  "task-hierarchy": [
+    "Image Captioning",
+    "Factual Inconsistency Detection in Chart Captioning"
+  ],
+  "dataset-info": {
+    "link": "https://khuangaf.github.io/CHOCOLATE/",
+    "paper": "Do LVLMs Understand Charts? Analyzing and Correcting Factual Errors in Chart Captioning"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Kendall's Tau-c",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Do LVLMs Understand Charts? Analyzing and Correcting Factual Errors in Chart Captioning",
+          "link": "https://arxiv.org/abs/2312.10160v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "ChartVE",
+        "d": "2023-12-15",
+        "m1": "0.178"
+      },
+      {
+        "p": "",
+        "c": "",
+        "n": "GPT-4V",
+        "d": "",
+        "m1": "0.157"
+      },
+      {
+        "p": {
+          "name": "DePlot: One-shot visual language reasoning by plot-to-table translation",
+          "link": "https://arxiv.org/abs/2212.10505v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "DePlot + GPT-4",
+        "d": "2022-12-20",
+        "m1": "0.129"
+      },
+      {
+        "p": {
+          "name": "Improved Baselines with Visual Instruction Tuning",
+          "link": "https://arxiv.org/abs/2310.03744v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "LLaVA-1.5-13B",
+        "d": "2023-10-05",
+        "m1": "0.002"
+      },
+      {
+        "p": "",
+        "c": "",
+        "n": "Bard (before Gemini)",
+        "d": "",
+        "m1": "-0.014"
+      }
+    ]
+  }
+}

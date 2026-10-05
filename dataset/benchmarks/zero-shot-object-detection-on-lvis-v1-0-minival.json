@@ -1,0 +1,150 @@
+{
+  "title": "zero-shot-object-detection-on-lvis-v1-0-minival",
+  "task-hierarchy": [
+    "Object Detection",
+    "Open Vocabulary Object Detection",
+    "Zero-Shot Object Detection"
+  ],
+  "dataset-info": {
+    "link": "https://www.lvisdataset.org/dataset",
+    "paper": "LVIS: A Dataset for Large Vocabulary Instance Segmentation"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AP",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "CP-DETR: Concept Prompt Guide DETR Toward Stronger Universal Object Detection",
+          "link": "https://arxiv.org/abs/2412.09799v1"
+        },
+        "c": "",
+        "n": "CP-DETR-Pro(without LVIS data)",
+        "d": "2024-12-13",
+        "m1": "58.2"
+      },
+      {
+        "p": {
+          "name": "Grounding DINO 1.5: Advance the \"Edge\" of Open-Set Object Detection",
+          "link": "https://arxiv.org/abs/2405.10300v2"
+        },
+        "c": "https://github.com/mit-han-lab/efficientvit",
+        "n": "Grounding DINO 1.6 Pro (without LVIS data)",
+        "d": "2024-05-16",
+        "m1": "57.7"
+      },
+      {
+        "p": {
+          "name": "Grounding DINO 1.5: Advance the \"Edge\" of Open-Set Object Detection",
+          "link": "https://arxiv.org/abs/2405.10300v2"
+        },
+        "c": "https://github.com/mit-han-lab/efficientvit",
+        "n": "Grounding DINO 1.5 Pro (without LVIS data)",
+        "d": "2024-05-16",
+        "m1": "55.7"
+      },
+      {
+        "p": {
+          "name": "Scaling Open-Vocabulary Object Detection",
+          "link": "https://arxiv.org/abs/2306.09683v3"
+        },
+        "c": "https://github.com/google-research/scenic/tree/main/scenic/projects/owl_vit",
+        "n": "OWLv2 (OWL-ST+FT)",
+        "d": "2023-06-16",
+        "m1": "51.3"
+      },
+      {
+        "p": {
+          "name": "Multi-modal Queried Object Detection in the Wild",
+          "link": "https://arxiv.org/abs/2305.18980v2"
+        },
+        "c": "https://github.com/yifanxu74/mq-det",
+        "n": "MQ-GLIP-L",
+        "d": "2023-05-30",
+        "m1": "43.4"
+      },
+      {
+        "p": {
+          "name": "OV-DINO: Unified Open-Vocabulary Detection with Language-Aware Selective Fusion",
+          "link": "https://arxiv.org/abs/2407.07844v2"
+        },
+        "c": "https://github.com/wanghao9610/ov-dino",
+        "n": "OV-DINO-T (without LVIS data, swin tiny)",
+        "d": "2024-07-10",
+        "m1": "40.1"
+      },
+      {
+        "p": {
+          "name": "Grounded Language-Image Pre-training",
+          "link": "https://arxiv.org/abs/2112.03857v2"
+        },
+        "c": "https://github.com/microsoft/GLIP",
+        "n": "GLIP-L",
+        "d": "2021-12-07",
+        "m1": "37.3"
+      },
+      {
+        "p": {
+          "name": "YOLO-World: Real-Time Open-Vocabulary Object Detection",
+          "link": "https://arxiv.org/abs/2401.17270v3"
+        },
+        "c": "https://github.com/ailab-cvc/yolo-world",
+        "n": "YOLO-World-L",
+        "d": "2024-01-30",
+        "m1": "35.4"
+      },
+      {
+        "p": {
+          "name": "Grounding DINO: Marrying DINO with Grounded Pre-Training for Open-Set Object Detection",
+          "link": "https://arxiv.org/abs/2303.05499v5"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "GroundingDINO-L",
+        "d": "2023-03-09",
+        "m1": "33.9"
+      },
+      {
+        "p": {
+          "name": "Multi-modal Queried Object Detection in the Wild",
+          "link": "https://arxiv.org/abs/2305.18980v2"
+        },
+        "c": "https://github.com/yifanxu74/mq-det",
+        "n": "MQ-GLIP-T",
+        "d": "2023-05-30",
+        "m1": "30.4"
+      },
+      {
+        "p": {
+          "name": "Multi-modal Queried Object Detection in the Wild",
+          "link": "https://arxiv.org/abs/2305.18980v2"
+        },
+        "c": "https://github.com/yifanxu74/mq-det",
+        "n": "MQ-GroundingDINO-T",
+        "d": "2023-05-30",
+        "m1": "30.2"
+      }
+    ]
+  }
+}

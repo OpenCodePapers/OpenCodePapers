@@ -1,0 +1,84 @@
+{
+  "title": "sleep-stage-detection-on-sleep-edfx-single-channel",
+  "task-hierarchy": [
+    "Physiological Signal Analysis",
+    "Sleep Stage Detection"
+  ],
+  "dataset-info": {
+    "link": "https://www.physionet.org/content/sleep-edfx/1.0.0/",
+    "paper": "Physiobank, physiotoolkit, and physionet: components of a new research resource for complex physiologic signals"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Cohen's Kappa",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Macro-F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "NeuroNet: A Novel Hybrid Self-Supervised Learning Framework for Sleep Stage Classification Using Single-Channel EEG",
+          "link": "https://arxiv.org/abs/2404.17585v2"
+        },
+        "c": "https://github.com/dlcjfgmlnasa/NeuroNet",
+        "n": "NeuroNet (Fpz-Cz only)",
+        "d": "2024-04-10",
+        "m1": "85.24%",
+        "m3": "0.798"
+      },
+      {
+        "p": {
+          "name": "SleePyCo: Automatic Sleep Scoring with Feature Pyramid and Contrastive Learning",
+          "link": "https://arxiv.org/abs/2209.09452v1"
+        },
+        "c": "https://github.com/gist-ailab/sleepyco",
+        "n": "SleePyCo (Fpz-Cz only)",
+        "d": "2022-09-20",
+        "m1": "84.6%",
+        "m2": "0.787",
+        "m3": "0.790"
+      },
+      {
+        "p": {
+          "name": "XSleepNet: Multi-View Sequential Model for Automatic Sleep Staging",
+          "link": "https://arxiv.org/abs/2007.05492v4"
+        },
+        "c": "https://github.com/pquochuy/xsleepnet",
+        "n": "XSleepNet (Fpz-Cz only)",
+        "d": "2020-07-08",
+        "m1": "84.0%",
+        "m2": "0.778",
+        "m3": "0.779"
+      }
+    ]
+  }
+}

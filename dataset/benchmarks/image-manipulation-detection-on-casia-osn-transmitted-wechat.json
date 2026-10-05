@@ -1,0 +1,96 @@
+{
+  "title": "image-manipulation-detection-on-casia-osn-transmitted-wechat",
+  "task-hierarchy": [
+    "Image Manipulation Detection"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/HighwayWu/ImageForensicsOSN",
+    "paper": "Robust Image Forgery Detection Over Online Social Network Shared Images"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AUC",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Intersection over Union",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "f-Score",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "DF-Net: The Digital Forensics Network for Image Forgery Detection",
+          "link": "https://arxiv.org/abs/2503.22398v1"
+        },
+        "c": "https://zenodo.org/record/8142658",
+        "n": "DF-Net",
+        "d": "2025-03-28",
+        "m1": "0.902",
+        "m2": "0.467",
+        "m3": "0.564"
+      },
+      {
+        "p": {
+          "name": "Robust Image Forgery Detection Over Online Social Network Shared Images",
+          "link": "http://openaccess.thecvf.com//content/CVPR2022/html/Wu_Robust_Image_Forgery_Detection_Over_Online_Social_Network_Shared_Images_CVPR_2022_paper.html"
+        },
+        "c": "https://github.com/highwaywu/imageforensicsosn",
+        "n": "Wu22",
+        "d": "2022-01-01",
+        "m1": "0.833",
+        "m2": "0.405",
+        "m3": "0.358"
+      },
+      {
+        "p": {
+          "name": "ManTra-Net: Manipulation Tracing Network for Detection and Localization of Image Forgeries With Anomalous Features",
+          "link": "http://openaccess.thecvf.com/content_CVPR_2019/html/Wu_ManTra-Net_Manipulation_Tracing_Network_for_Detection_and_Localization_of_Image_CVPR_2019_paper.html"
+        },
+        "c": "https://github.com/ISICV/ManTraNet",
+        "n": "ManTra-Net",
+        "d": "2019-06-01",
+        "m1": "0.724",
+        "m2": "0.080",
+        "m3": "0.048"
+      },
+      {
+        "p": {
+          "name": "Forensic Similarity for Digital Images",
+          "link": "https://arxiv.org/abs/1902.04684v2"
+        },
+        "c": "https://gitlab.com/MISLgit/forensic-similarity-for-digital-images",
+        "n": "ForSim",
+        "d": "2019-02-13",
+        "m1": "0.532",
+        "m2": "0.153",
+        "m3": "0.091"
+      }
+    ]
+  }
+}

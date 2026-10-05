@@ -1,11 +1,12 @@
 {
   "title": "image-dehazing-on-o-haze",
   "task-hierarchy": [
+    "Image Restoration",
     "Image Dehazing"
   ],
   "dataset-info": {
-    "link": "",
-    "paper": ""
+    "link": "https://data.vision.ee.ethz.ch/cvl/ntire18/o-haze/",
+    "paper": "O-HAZE: A Dehazing Benchmark with Real Hazy and Haze-Free Outdoor Images"
   },
   "benchmark": {
     "fields": [

@@ -1,0 +1,179 @@
+{
+  "title": "facial-expression-recognition-on-fer-plus",
+  "task-hierarchy": [
+    "Face Analysis",
+    "Facial Expression Recognition (FER)"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/Microsoft/FERPlus",
+    "paper": "Training Deep Networks for Facial Expression Recognition with Crowd-Sourced Label Distribution"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "PAtt-Lite: Lightweight Patch and Attention MobileNet for Challenging Facial Expression Recognition",
+          "link": "https://arxiv.org/abs/2306.09626v2"
+        },
+        "c": "https://github.com/jlrex/patt-lite",
+        "n": "PAtt-Lite",
+        "d": "2023-06-16",
+        "m1": "95.55"
+      },
+      {
+        "p": {
+          "name": "GReFEL: Geometry-Aware Reliable Facial Expression Learning under Bias and Imbalanced Data Distribution",
+          "link": "https://arxiv.org/abs/2410.15927v1"
+        },
+        "c": "",
+        "n": "GReFEL",
+        "d": "2024-10-21",
+        "m1": "93.09"
+      },
+      {
+        "p": {
+          "name": "QCS: Feature Refining from Quadruplet Cross Similarity for Facial Expression Recognition",
+          "link": "https://arxiv.org/abs/2411.01988v5"
+        },
+        "c": "https://github.com/birdwcp/qcs",
+        "n": "QCS",
+        "d": "2024-11-04",
+        "m1": "91.85"
+      },
+      {
+        "p": {
+          "name": "Real Time Emotion Analysis Using Deep Learning for Education, Entertainment, and Beyond",
+          "link": "https://arxiv.org/abs/2407.04560v1"
+        },
+        "c": "",
+        "n": "ResNet18 Dense Architecture",
+        "d": "2024-07-05",
+        "m1": "91.41"
+      },
+      {
+        "p": {
+          "name": "A Dual-Direction Attention Mixed Feature Network for Facial Expression Recognition",
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=P4efBMcAAAAJ&citation_for_view=P4efBMcAAAAJ:d1gkVwhDpl0C"
+        },
+        "c": "https://github.com/simon20010923/DDAMFN",
+        "n": "DDAMFN",
+        "d": "2023-08-25",
+        "m1": "90.74"
+      },
+      {
+        "p": {
+          "name": "Adaptively Learning Facial Expression Representation via C-F Labels and Distillation",
+          "link": "https://doi.org/10.1109/TIP.2021.3049955"
+        },
+        "c": "",
+        "n": "KTN",
+        "d": "2021-01-13",
+        "m1": "90.49"
+      },
+      {
+        "p": {
+          "name": "Emotion Separation and Recognition from a Facial Expression by Generating the Poker Face with Vision Transformers",
+          "link": "https://arxiv.org/abs/2207.11081v4"
+        },
+        "c": "",
+        "n": "Vit-base + MAE",
+        "d": "2022-07-22",
+        "m1": "90.18"
+      },
+      {
+        "p": {
+          "name": "Facial expression recognition with grid-wise attention and visual transformer",
+          "link": "https://www.sciencedirect.com/science/article/pii/S0020025521008495"
+        },
+        "c": "https://github.com/ZBigFish/FER-VT",
+        "n": "FER-VT",
+        "d": "2021-08-21",
+        "m1": "90.04"
+      },
+      {
+        "p": {
+          "name": "Learn From All: Erasing Attention Consistency for Noisy Label Facial Expression Recognition",
+          "link": "https://arxiv.org/abs/2207.10299v2"
+        },
+        "c": "https://github.com/zyh-uaiaaaa/erasing-attention-consistency",
+        "n": "EAC",
+        "d": "2022-07-21",
+        "m1": "89.64"
+      },
+      {
+        "p": {
+          "name": "Exploring Emotion Features and Fusion Strategies for Audio-Video Emotion Recognition",
+          "link": "https://arxiv.org/abs/2012.13912v1"
+        },
+        "c": "",
+        "n": "LResNet50E-IR",
+        "d": "2020-12-27",
+        "m1": "89.257"
+      },
+      {
+        "p": {
+          "name": "Emotion Separation and Recognition from a Facial Expression by Generating the Poker Face with Vision Transformers",
+          "link": "https://arxiv.org/abs/2207.11081v4"
+        },
+        "c": "",
+        "n": "ViT-base",
+        "d": "2022-07-22",
+        "m1": "88.91"
+      },
+      {
+        "p": {
+          "name": "Emotion Separation and Recognition from a Facial Expression by Generating the Poker Face with Vision Transformers",
+          "link": "https://arxiv.org/abs/2207.11081v4"
+        },
+        "c": "",
+        "n": "ViT-tiny",
+        "d": "2022-07-22",
+        "m1": "88.56"
+      },
+      {
+        "p": {
+          "name": "Local Learning with Deep and Handcrafted Features for Facial Expression Recognition",
+          "link": "https://arxiv.org/abs/1804.10892v7"
+        },
+        "c": "",
+        "n": "Local Learning Deep + BOW",
+        "d": "2018-04-29",
+        "m1": "87.76"
+      },
+      {
+        "p": {
+          "name": "Efficient Facial Feature Learning with Wide Ensemble-based Convolutional Neural Networks",
+          "link": "https://arxiv.org/abs/2001.06338v1"
+        },
+        "c": "https://github.com/siqueira-hc/Efficient-Facial-Feature-Learning-with-Wide-Ensemble-based-Convolutional-Neural-Networks",
+        "n": "Ensemble with Shared Representations (ESR-9)",
+        "d": "2020-01-17",
+        "m1": "87.15"
+      }
+    ]
+  }
+}

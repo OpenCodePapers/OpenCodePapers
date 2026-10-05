@@ -1,11 +1,13 @@
 {
   "title": "human-activity-recognition-on-pamap2",
   "task-hierarchy": [
+    "Action Recognition",
+    "Activity Recognition",
     "Human Activity Recognition"
   ],
   "dataset-info": {
-    "link": "",
-    "paper": ""
+    "link": "https://archive.ics.uci.edu/dataset/231/pamap2+physical+activity+monitoring",
+    "paper": "Introducing a new benchmarked dataset for activity monitoring"
   },
   "benchmark": {
     "fields": [

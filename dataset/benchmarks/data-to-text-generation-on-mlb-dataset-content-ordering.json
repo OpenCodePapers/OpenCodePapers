@@ -1,0 +1,79 @@
+{
+  "title": "data-to-text-generation-on-mlb-dataset-content-ordering",
+  "task-hierarchy": [
+    "Text Generation",
+    "Data-to-Text Generation"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/ratishsp/mlb-data-scripts",
+    "paper": "Data-to-text Generation with Entity Modeling"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "DLD",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Data-to-text Generation with Variational Sequential Planning",
+          "link": "https://arxiv.org/abs/2202.13756v1"
+        },
+        "c": "https://github.com/ratishsp/data2text-seq-plan-py",
+        "n": "SeqPlan",
+        "d": "2022-02-28",
+        "m1": "22.7"
+      },
+      {
+        "p": {
+          "name": "Data-to-text Generation with Macro Planning",
+          "link": "https://arxiv.org/abs/2102.02723v1"
+        },
+        "c": "https://github.com/ratishsp/data2text-macro-plan-py",
+        "n": "Macro",
+        "d": "2021-02-04",
+        "m1": "21.8"
+      },
+      {
+        "p": {
+          "name": "May the Force Be with Your Copy Mechanism: Enhanced Supervised-Copy Method for Natural Language Generation",
+          "link": "https://arxiv.org/abs/2112.10360v1"
+        },
+        "c": "",
+        "n": "Force-Copy",
+        "d": "2021-12-20",
+        "m1": "21.16"
+      },
+      {
+        "p": {
+          "name": "Data-to-text Generation with Macro Planning",
+          "link": "https://arxiv.org/abs/2102.02723v1"
+        },
+        "c": "https://github.com/ratishsp/data2text-macro-plan-py",
+        "n": "ENT",
+        "d": "2021-02-04",
+        "m1": "20.7"
+      }
+    ]
+  }
+}

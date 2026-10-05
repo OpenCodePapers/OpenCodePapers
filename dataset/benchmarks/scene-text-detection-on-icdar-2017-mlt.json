@@ -1,0 +1,222 @@
+{
+  "title": "scene-text-detection-on-icdar-2017-mlt",
+  "task-hierarchy": [
+    "Optical Character Recognition (OCR)",
+    "Scene Text Detection"
+  ],
+  "dataset-info": {
+    "link": "https://rrc.cvc.uab.es/?ch=8",
+    "paper": "ICDAR2017 Robust Reading Challenge on Multi-Lingual Scene Text Detection and Script Identification - RRC-MLT"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Precision",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Recall",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "F-Measure",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "H-Mean",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Pyramid Mask Text Detector",
+          "link": "http://arxiv.org/abs/1903.11800v1"
+        },
+        "c": "https://github.com/jjprincess/PMTD",
+        "n": "PMTD*",
+        "d": "2019-03-28",
+        "m1": "84.42",
+        "m2": "76.25",
+        "m3": "80.13%"
+      },
+      {
+        "p": {
+          "name": "Multi-Oriented Scene Text Detection via Corner Localization and Region Segmentation",
+          "link": "http://arxiv.org/abs/1802.08948v2"
+        },
+        "c": "https://github.com/lvpengyuan/corner",
+        "n": "Corner Localization (single-scale)",
+        "d": "2018-02-25",
+        "m1": "83.8",
+        "m2": "55.6",
+        "m3": "66.8%"
+      },
+      {
+        "p": {
+          "name": "Exploring the Capacity of an Orderless Box Discretization Network for Multi-orientation Scene Text Detection",
+          "link": "https://arxiv.org/abs/1912.09629v3"
+        },
+        "c": "https://github.com/Yuliang-Liu/Box_Discretization_Network",
+        "n": "SBD",
+        "d": "2019-12-20",
+        "m1": "82.75",
+        "m2": "76.44",
+        "m3": "79.47%"
+      },
+      {
+        "p": {
+          "name": "FOTS: Fast Oriented Text Spotting with a Unified Network",
+          "link": "http://arxiv.org/abs/1801.01671v2"
+        },
+        "c": "https://github.com/jiangxiluning/FOTS.PyTorch",
+        "n": "FOTS MS",
+        "d": "2018-01-05",
+        "m1": "81.86",
+        "m2": "62.3",
+        "m3": "70.75%"
+      },
+      {
+        "p": {
+          "name": "Convolutional Character Networks",
+          "link": "https://arxiv.org/abs/1910.07954v1"
+        },
+        "c": "https://github.com/MalongTech/research-charnet",
+        "n": "CharNet H-88",
+        "d": "2019-10-17",
+        "m1": "81.27",
+        "m2": "70.97",
+        "m3": "75.77%"
+      },
+      {
+        "p": {
+          "name": "FOTS: Fast Oriented Text Spotting with a Unified Network",
+          "link": "http://arxiv.org/abs/1801.01671v2"
+        },
+        "c": "https://github.com/jiangxiluning/FOTS.PyTorch",
+        "n": "FOTS",
+        "d": "2018-01-05",
+        "m1": "80.95",
+        "m2": "57.51",
+        "m3": "67.25%"
+      },
+      {
+        "p": {
+          "name": "Scene Text Detection with Supervised Pyramid Context Network",
+          "link": "http://arxiv.org/abs/1811.08605v1"
+        },
+        "c": "https://github.com/AirBernard/Scene-Text-Detection-with-SPCNET",
+        "n": "SPCNET",
+        "d": "2018-11-21",
+        "m1": "80.6",
+        "m2": "68.6",
+        "m3": "74.1%"
+      },
+      {
+        "p": {
+          "name": "Character Region Awareness for Text Detection",
+          "link": "http://arxiv.org/abs/1904.01941v1"
+        },
+        "c": "https://github.com/JaidedAI/EasyOCR",
+        "n": "CRAFT",
+        "d": "2019-04-03",
+        "m1": "80.6",
+        "m2": "68.2",
+        "m4": "73.9"
+      },
+      {
+        "p": {
+          "name": "Mask R-CNN with Pyramid Attention Network for Scene Text Detection",
+          "link": "http://arxiv.org/abs/1811.09058v1"
+        },
+        "c": "",
+        "n": "PAN",
+        "d": "2018-11-22",
+        "m1": "80",
+        "m2": "69.8",
+        "m3": "74.3%"
+      },
+      {
+        "p": {
+          "name": "Geometry Normalization Networks for Accurate Scene Text Detection",
+          "link": "https://arxiv.org/abs/1909.00794v1"
+        },
+        "c": "https://github.com/bigvideoresearch/GNNets",
+        "n": "GNNets",
+        "d": "2019-09-02",
+        "m1": "79.63",
+        "m2": "70.06",
+        "m3": "74.54%"
+      },
+      {
+        "p": {
+          "name": "Convolutional Character Networks",
+          "link": "https://arxiv.org/abs/1910.07954v1"
+        },
+        "c": "https://github.com/MalongTech/research-charnet",
+        "n": "CharNet R-50 ",
+        "d": "2019-10-17",
+        "m1": "77.07",
+        "m2": "70.1",
+        "m3": "73.42%"
+      },
+      {
+        "p": {
+          "name": "Shape Robust Text Detection with Progressive Scale Expansion Network",
+          "link": "http://arxiv.org/abs/1806.02559v1"
+        },
+        "c": "https://github.com/whai362/PSENet",
+        "n": "PSENet-1s",
+        "d": "2018-06-07",
+        "m1": "77.01",
+        "m2": "68.4",
+        "m3": "72.45%"
+      },
+      {
+        "p": {
+          "name": "Shape Robust Text Detection with Progressive Scale Expansion Network",
+          "link": "https://arxiv.org/abs/1903.12473v2"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleOCR",
+        "n": "PSENet (ResNet-152)",
+        "d": "2019-03-28",
+        "m1": "75.35",
+        "m2": "69.18",
+        "m3": "72.13%"
+      },
+      {
+        "p": {
+          "name": "Multi-Oriented Scene Text Detection via Corner Localization and Region Segmentation",
+          "link": "http://arxiv.org/abs/1802.08948v2"
+        },
+        "c": "https://github.com/lvpengyuan/corner",
+        "n": "Corner Localization (multi-scale)",
+        "d": "2018-02-25",
+        "m1": "74.3",
+        "m2": "70.6",
+        "m3": "72.4%"
+      }
+    ]
+  }
+}

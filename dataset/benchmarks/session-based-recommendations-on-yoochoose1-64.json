@@ -1,0 +1,170 @@
+{
+  "title": "session-based-recommendations-on-yoochoose1-64",
+  "task-hierarchy": [
+    "Recommendation Systems",
+    "Session-Based Recommendations"
+  ],
+  "dataset-info": {
+    "link": "https://recsys.acm.org/recsys15/challenge/",
+    "paper": "RecSys Challenge 2015 and the YOOCHOOSE Dataset"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "MRR@20",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "HR@20",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Hit@20",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Star Graph Neural Networks for Session-based Recommendation",
+          "link": "https://dl.acm.org/doi/10.1145/3340531.3412014"
+        },
+        "c": "",
+        "n": "SGNN-HN",
+        "d": "2020-10-19",
+        "m1": "32.61",
+        "m2": "72.06"
+      },
+      {
+        "p": {
+          "name": "SR-PredictAO: Session-based Recommendation with High-Capability Predictor Add-On",
+          "link": "https://arxiv.org/abs/2309.12218v2"
+        },
+        "c": "https://github.com/rickyskywalker/sr-predictao-official",
+        "n": "SR-PredAO+SGNNHN",
+        "d": "2023-09-20",
+        "m1": "32.47",
+        "m2": "72.62"
+      },
+      {
+        "p": {
+          "name": "PEN4Rec: Preference Evolution Networks for Session-based Recommendation",
+          "link": "https://arxiv.org/abs/2106.09306v1"
+        },
+        "c": "https://github.com/zerohd4869/PEN4Rec",
+        "n": "PEN4Rec",
+        "d": "2021-06-17",
+        "m1": "31.71",
+        "m2": "71.53"
+      },
+      {
+        "p": {
+          "name": "NISER: Normalized Item and Session Representations to Handle Popularity Bias",
+          "link": "https://arxiv.org/abs/1909.04276v4"
+        },
+        "c": "https://github.com/johnny12150/NISER",
+        "n": "NISER+",
+        "d": "2019-09-10",
+        "m1": "31.61",
+        "m2": "71.27"
+      },
+      {
+        "p": {
+          "name": "Introducing Self-Attention to Target Attentive Graph Neural Networks",
+          "link": "https://arxiv.org/abs/2107.01516v3"
+        },
+        "c": "https://github.com/The-Learning-Machines/SBR",
+        "n": "TAGNN++",
+        "d": "2021-07-04",
+        "m1": "31.57",
+        "m2": "71.91"
+      },
+      {
+        "p": {
+          "name": "DGTN: Dual-channel Graph Transition Network for Session-based Recommendation",
+          "link": "https://arxiv.org/abs/2009.10002v1"
+        },
+        "c": "https://github.com/kunwuz/DGTN",
+        "n": "DTGN",
+        "d": "2020-09-21",
+        "m1": "31.35",
+        "m2": "71.18"
+      },
+      {
+        "p": {
+          "name": "STAR: A Session-Based Time-Aware Recommender System",
+          "link": "https://arxiv.org/abs/2211.06394v1"
+        },
+        "c": "https://github.com/yeganegi-reza/star",
+        "n": "STAR",
+        "d": "2022-11-11",
+        "m1": "31.3",
+        "m3": "71.31"
+      },
+      {
+        "p": {
+          "name": "TAGNN: Target Attentive Graph Neural Networks for Session-based Recommendation",
+          "link": "https://arxiv.org/abs/2005.02844v1"
+        },
+        "c": "https://github.com/CRIPAC-DIG/TAGNN",
+        "n": "TAGNN",
+        "d": "2020-05-06",
+        "m1": "31.12",
+        "m2": "71.02"
+      },
+      {
+        "p": {
+          "name": "Session-based Recommendation with Graph Neural Networks",
+          "link": "http://arxiv.org/abs/1811.00855v4"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleRec/tree/release/1.8.5/models/recall/gnn/",
+        "n": "SR-GNN",
+        "d": "2018-11-01",
+        "m1": "30.94",
+        "m2": "70.57"
+      },
+      {
+        "p": {
+          "name": "Neural Attentive Session-based Recommendation",
+          "link": "https://arxiv.org/abs/1711.04725v1"
+        },
+        "c": "https://github.com/lijingsdu/sessionRec_NARM",
+        "n": "NARM",
+        "d": "2017-11-13",
+        "m1": "28.63",
+        "m2": "68.32"
+      },
+      {
+        "p": {
+          "name": "Session-based Recommendations with Recurrent Neural Networks",
+          "link": "http://arxiv.org/abs/1511.06939v4"
+        },
+        "c": "https://github.com/microsoft/recommenders",
+        "n": "GRU4REC",
+        "d": "2015-11-21",
+        "m1": "22.89",
+        "m2": "60.64"
+      }
+    ]
+  }
+}

@@ -1,0 +1,389 @@
+{
+  "title": "3d-hand-pose-estimation-on-ho-3d-v2",
+  "task-hierarchy": [
+    "Pose Estimation",
+    "Hand Pose Estimation",
+    "3D Hand Pose Estimation"
+  ],
+  "dataset-info": {
+    "link": "https://www.tugraz.at/institute/icg/research/team-lepetit/research-projects/hand-object-3d-pose-annotation/",
+    "paper": "HOnnotate: A method for 3D Annotation of Hand and Object Poses"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "PA-MPJPE (mm)",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "PA-MPVPE",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "F@5mm",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "F@15mm",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "AUC_J",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "AUC_V",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "ExtPose: Robust and Coherent Pose Estimation by Extending ViTs",
+          "link": "https://openreview.net/forum?id=hm9FNEZZ6z"
+        },
+        "c": "",
+        "n": "ExtPose (T=16)",
+        "d": "2025-06-18",
+        "m1": "6.9",
+        "m2": "7.3",
+        "m3": "0.667",
+        "m4": "0.991",
+        "m5": "0.863",
+        "m6": "0.856"
+      },
+      {
+        "p": {
+          "name": "Hamba: Single-view 3D Hand Reconstruction with Graph-guided Bi-Scanning Mamba",
+          "link": "https://arxiv.org/abs/2407.09646v2"
+        },
+        "c": "https://github.com/humansensinglab/Hamba",
+        "n": "Hamba",
+        "d": "2024-07-12",
+        "m1": "7.5",
+        "m2": "7.7",
+        "m3": "0.648",
+        "m4": "0.982",
+        "m5": "0.850",
+        "m6": "0.846"
+      },
+      {
+        "p": {
+          "name": "WiLoR: End-to-end 3D Hand Localization and Reconstruction in-the-wild",
+          "link": "https://arxiv.org/abs/2409.12259v2"
+        },
+        "c": "https://github.com/rolpotamias/WiLoR",
+        "n": "WiLoR",
+        "d": "2024-09-18",
+        "m1": "7.5",
+        "m2": "7.7",
+        "m3": "0.646",
+        "m4": "0.983",
+        "m5": "0.851",
+        "m6": "0.846"
+      },
+      {
+        "p": {
+          "name": "Reconstructing Hands in 3D with Transformers",
+          "link": "https://arxiv.org/abs/2312.05251v1"
+        },
+        "c": "https://github.com/geopavlakos/hamer",
+        "n": "HaMeR",
+        "d": "2023-12-08",
+        "m1": "7.7",
+        "m2": "7.9",
+        "m3": "0.635",
+        "m4": "0.980",
+        "m5": "0.846",
+        "m6": "0.841"
+      },
+      {
+        "p": {
+          "name": "HandBooster: Boosting 3D Hand-Mesh Reconstruction by Conditional Synthesis and Sampling of Hand-Object Interactions",
+          "link": "https://arxiv.org/abs/2403.18575v1"
+        },
+        "c": "https://github.com/hxwork/handbooster_pytorch",
+        "n": "HandBooster",
+        "d": "2024-03-27",
+        "m1": "8.2",
+        "m2": "8.4",
+        "m3": "0.585",
+        "m4": "0.972",
+        "m5": "0.836",
+        "m6": "0.832"
+      },
+      {
+        "p": {
+          "name": "A Probabilistic Attention Model with Occlusion-aware Texture Regression for 3D Hand Reconstruction from a Single RGB Image",
+          "link": "https://arxiv.org/abs/2304.14299v1"
+        },
+        "c": "https://github.com/zhehengjianglancaster/amvur",
+        "n": "AMVUR",
+        "d": "2023-04-27",
+        "m1": "8.3",
+        "m2": "8.2",
+        "m3": "0.608",
+        "m4": "0.965",
+        "m5": "0.835",
+        "m6": "0.836"
+      },
+      {
+        "p": {
+          "name": "H2ONet: Hand-Occlusion-and-Orientation-Aware Network for Real-Time 3D Hand Mesh Reconstruction",
+          "link": "http://openaccess.thecvf.com//content/CVPR2023/html/Xu_H2ONet_Hand-Occlusion-and-Orientation-Aware_Network_for_Real-Time_3D_Hand_Mesh_Reconstruction_CVPR_2023_paper.html"
+        },
+        "c": "https://github.com/hxwork/H2ONet_Pytorch",
+        "n": "H2ONet",
+        "d": "2023-01-01",
+        "m1": "8.5",
+        "m2": "8.6",
+        "m3": "0.570",
+        "m4": "0.966",
+        "m5": "0.829",
+        "m6": "0.828"
+      },
+      {
+        "p": {
+          "name": "3D Hand Reconstruction via Aggregating Intra and Inter Graphs Guided by Prior Knowledge for Hand-Object Interaction Scenario",
+          "link": "https://arxiv.org/abs/2403.01733v1"
+        },
+        "c": "",
+        "n": "SemGCN",
+        "d": "2024-03-04",
+        "m1": "8.8"
+      },
+      {
+        "p": {
+          "name": "Harmonious Feature Learning for Interactive Hand-Object Pose Estimation",
+          "link": "http://openaccess.thecvf.com//content/CVPR2023/html/Lin_Harmonious_Feature_Learning_for_Interactive_Hand-Object_Pose_Estimation_CVPR_2023_paper.html"
+        },
+        "c": "https://github.com/lzfff12/hfl-net",
+        "n": "HFL-Net",
+        "d": "2023-01-01",
+        "m1": "8.9",
+        "m2": "8.7",
+        "m3": "0.575",
+        "m4": "0.965"
+      },
+      {
+        "p": {
+          "name": "HandOccNet: Occlusion-Robust 3D Hand Mesh Estimation Network",
+          "link": "https://arxiv.org/abs/2203.14564v1"
+        },
+        "c": "",
+        "n": "HandOccNet",
+        "d": "2022-03-28",
+        "m1": "9.1",
+        "m2": "8.8",
+        "m3": "0.564",
+        "m4": "0.963",
+        "m5": "0.819",
+        "m6": "0.819"
+      },
+      {
+        "p": {
+          "name": "MobRecon: Mobile-Friendly Hand Mesh Reconstruction from Monocular Image",
+          "link": "https://arxiv.org/abs/2112.02753v2"
+        },
+        "c": "https://github.com/SeanChenxy/HandMesh",
+        "n": "MobRecon",
+        "d": "2021-12-06",
+        "m1": "9.2",
+        "m2": "9.4",
+        "m3": "0.538",
+        "m4": "0.957"
+      },
+      {
+        "p": {
+          "name": "HOISDF: Constraining 3D Hand-Object Pose Estimation with Global Signed Distance Fields",
+          "link": "https://arxiv.org/abs/2402.17062v1"
+        },
+        "c": "https://github.com/amathislab/hoisdf",
+        "n": "HOISDF",
+        "d": "2024-02-26",
+        "m1": "9.2"
+      },
+      {
+        "p": {
+          "name": "I2UV-HandNet: Image-to-UV Prediction Network for Accurate and High-fidelity 3D Hand Mesh Modeling",
+          "link": "https://arxiv.org/abs/2102.03725v2"
+        },
+        "c": "",
+        "n": "I2UV-HandNet",
+        "d": "2021-02-07",
+        "m1": "9.9",
+        "m2": "10.1",
+        "m3": "0.500",
+        "m4": "0.943",
+        "m5": "0.804",
+        "m6": "0.799"
+      },
+      {
+        "p": {
+          "name": "Semi-Supervised 3D Hand-Object Poses Estimation with Interactions in Time",
+          "link": "https://arxiv.org/abs/2106.05266v1"
+        },
+        "c": "https://github.com/stevenlsw/Semi-Hand-Object",
+        "n": "SHO",
+        "d": "2021-06-09",
+        "m1": "10.1"
+      },
+      {
+        "p": {
+          "name": "Interacting Hand-Object Pose Estimation via Dense Mutual Attention",
+          "link": "https://arxiv.org/abs/2211.08805v1"
+        },
+        "c": "https://github.com/rongakowang/densemutualattention",
+        "n": "DMA",
+        "d": "2022-11-16",
+        "m1": "10.1"
+      },
+      {
+        "p": {
+          "name": "End-to-End Human Pose and Mesh Reconstruction with Transformers",
+          "link": "https://arxiv.org/abs/2012.09760v3"
+        },
+        "c": "https://github.com/microsoft/MeshTransformer",
+        "n": "METRO",
+        "d": "2020-12-17",
+        "m1": "10.4",
+        "m2": "11.1",
+        "m3": "0.484",
+        "m4": "0.946",
+        "m5": "0.792",
+        "m6": "0.779"
+      },
+      {
+        "p": {
+          "name": "HOnnotate: A method for 3D Annotation of Hand and Object Poses",
+          "link": "https://arxiv.org/abs/1907.01481v6"
+        },
+        "c": "https://github.com/shreyashampali/ho3d",
+        "n": "Hampali et al.",
+        "d": "2019-07-02",
+        "m1": "10.7",
+        "m2": "10.6",
+        "m3": "0.506",
+        "m4": "0.942",
+        "m5": "0.788",
+        "m6": "0.790"
+      },
+      {
+        "p": {
+          "name": "Keypoint Transformer: Solving Joint Identification in Challenging Hands and Object Interactions for Accurate 3D Pose Estimation",
+          "link": "https://arxiv.org/abs/2104.14639v2"
+        },
+        "c": "https://github.com/shreyashampali/kypt_transformer",
+        "n": "KPT-Transformer",
+        "d": "2021-04-29",
+        "m1": "10.8",
+        "m5": "0.786"
+      },
+      {
+        "p": {
+          "name": "I2L-MeshNet: Image-to-Lixel Prediction Network for Accurate 3D Human Pose and Mesh Estimation from a Single RGB Image",
+          "link": "https://arxiv.org/abs/2008.03713v2"
+        },
+        "c": "https://github.com/mks0601/I2L-MeshNet_RELEASE",
+        "n": "I2L-MeshNet",
+        "d": "2020-08-09",
+        "m1": "11.2",
+        "m2": "13.9",
+        "m3": "0.409",
+        "m4": "0.932",
+        "m5": "0.775",
+        "m6": "0.722"
+      },
+      {
+        "p": {
+          "name": "Model-based 3D Hand Reconstruction via Self-Supervised Learning",
+          "link": "https://arxiv.org/abs/2103.11703v1"
+        },
+        "c": "https://github.com/TerenceCYJ/S2HAND",
+        "n": "S2Hand",
+        "d": "2021-03-22",
+        "m1": "11.4",
+        "m2": "11.2",
+        "m3": "0.450",
+        "m4": "0.930",
+        "m5": "0.773",
+        "m6": "0.777"
+      },
+      {
+        "p": {
+          "name": "ArtiBoost: Boosting Articulated 3D Hand-Object Pose Estimation via Online Exploration and Synthesis",
+          "link": "https://arxiv.org/abs/2109.05488v2"
+        },
+        "c": "https://github.com/mvig-sjtu/artiboost",
+        "n": "ArtiBoost",
+        "d": "2021-09-12",
+        "m1": "11.4",
+        "m2": "10.9",
+        "m3": "0.488",
+        "m4": "0.944",
+        "m5": "0.773",
+        "m6": "0.782"
+      },
+      {
+        "p": {
+          "name": "Towards unconstrained joint hand-object reconstruction from RGB videos",
+          "link": "https://arxiv.org/abs/2108.07044v2"
+        },
+        "c": "https://github.com/hassony2/homan",
+        "n": "HOR",
+        "d": "2021-08-16",
+        "m1": "12.0"
+      },
+      {
+        "p": {
+          "name": "Pose2Mesh: Graph Convolutional Network for 3D Human Pose and Mesh Recovery from a 2D Human Pose",
+          "link": "https://arxiv.org/abs/2008.09047v3"
+        },
+        "c": "https://github.com/hongsukchoi/Pose2Mesh_RELEASE",
+        "n": "Pose2Mesh",
+        "d": "2020-08-20",
+        "m1": "12.5",
+        "m2": "12.7",
+        "m3": "0.441",
+        "m4": "0.909",
+        "m5": "0.754",
+        "m6": "0.749"
+      },
+      {
+        "p": {
+          "name": "Collaborative Learning for Hand and Object Reconstruction with Attention-guided Graph Convolution",
+          "link": "https://arxiv.org/abs/2204.13062v1"
+        },
+        "c": "",
+        "n": "Tse et al.",
+        "d": "2022-04-27",
+        "m2": "10.9",
+        "m3": "0.485",
+        "m4": "0.943"
+      }
+    ]
+  }
+}

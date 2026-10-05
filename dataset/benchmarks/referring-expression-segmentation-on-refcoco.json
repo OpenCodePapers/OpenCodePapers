@@ -5,7 +5,7 @@
   ],
   "dataset-info": {
     "link": "https://github.com/lichengunc/refer",
-    "paper": "ReferItGame: Referring to Objects in Photographs of Natural Scenes"
+    "paper": "Modeling Context in Referring Expressions"
   },
   "benchmark": {
     "fields": [
@@ -19,42 +19,12 @@
       },
       {
         "key": "m1",
-        "label": "Overall IoU",
+        "label": "IoU",
         "sortable": "true"
       },
       {
         "key": "m2",
-        "label": "mIoU",
-        "sortable": "true"
-      },
-      {
-        "key": "m3",
-        "label": "Precision@0.5",
-        "sortable": "true"
-      },
-      {
-        "key": "m4",
-        "label": "Precision@0.6",
-        "sortable": "true"
-      },
-      {
-        "key": "m5",
-        "label": "Precision@0.7",
-        "sortable": "true"
-      },
-      {
-        "key": "m6",
-        "label": "Precision@0.8",
-        "sortable": "true"
-      },
-      {
-        "key": "m7",
-        "label": "Precision@0.9",
-        "sortable": "true"
-      },
-      {
-        "key": "m8",
-        "label": "Mean IoU",
+        "label": "IoU (%)",
         "sortable": "true"
       },
       {
@@ -70,97 +40,6 @@
     "items": [
       {
         "p": {
-          "name": "DeRIS: Decoupling Perception and Cognition for Enhanced Referring Image Segmentation through Loopback Synergy",
-          "link": "https://arxiv.org/abs/2507.01738v1"
-        },
-        "c": "https://github.com/Dmmm1997/DeRIS",
-        "n": "DeRIS-L",
-        "d": "2025-07-02",
-        "m1": "85.41",
-        "m8": "85.72"
-      },
-      {
-        "p": {
-          "name": "HyperSeg: Towards Universal Visual Segmentation with Large Language Model",
-          "link": "https://arxiv.org/abs/2411.17606v2"
-        },
-        "c": "https://github.com/congvvc/HyperSeg",
-        "n": "HyperSeg",
-        "d": "2024-11-26",
-        "m1": "84.8"
-      },
-      {
-        "p": {
-          "name": "PSALM: Pixelwise SegmentAtion with Large Multi-Modal Model",
-          "link": "https://arxiv.org/abs/2403.14598v1"
-        },
-        "c": "https://github.com/zamling/psalm",
-        "n": "PSALM",
-        "d": "2024-03-21",
-        "m1": "83.6"
-      },
-      {
-        "p": {
-          "name": "Multi-label Cluster Discrimination for Visual Representation Learning",
-          "link": "https://arxiv.org/abs/2407.17331v2"
-        },
-        "c": "https://github.com/deepglint/unicom",
-        "n": "MLCD-Seg-7B",
-        "d": "2024-07-24",
-        "m1": "83.6"
-      },
-      {
-        "p": {
-          "name": "Advancing Visual Large Language Model for Multi-granular Versatile Perception",
-          "link": "https://arxiv.org/abs/2507.16213"
-        },
-        "c": "https://github.com/xiangwentao666/MVP-LM",
-        "n": "MVP-LM",
-        "d": "2025-07-22",
-        "m1": "83.6"
-      },
-      {
-        "p": {
-          "name": "Hierarchical Open-vocabulary Universal Image Segmentation",
-          "link": "https://arxiv.org/abs/2307.00764v2"
-        },
-        "c": "https://github.com/berkeley-hipie/hipie",
-        "n": "HIPIE",
-        "d": "2023-07-03",
-        "m1": "82.8"
-      },
-      {
-        "p": {
-          "name": "EVF-SAM: Early Vision-Language Fusion for Text-Prompted Segment Anything Model",
-          "link": "https://arxiv.org/abs/2406.20076v4"
-        },
-        "c": "https://github.com/hustvl/evf-sam",
-        "n": "EVF-SAM",
-        "d": "2024-06-28",
-        "m1": "82.4"
-      },
-      {
-        "p": {
-          "name": "Universal Instance Perception as Object Discovery and Retrieval",
-          "link": "https://arxiv.org/abs/2303.06674v2"
-        },
-        "c": "https://github.com/MasterBin-IIAU/UNINEXT",
-        "n": "UNINEXT-H",
-        "d": "2023-03-12",
-        "m1": "82.19"
-      },
-      {
-        "p": {
-          "name": "Universal Segmentation at Arbitrary Granularity with Language Instruction",
-          "link": "https://arxiv.org/abs/2312.01623v4"
-        },
-        "c": "https://github.com/yongliu20/UniLSeg",
-        "n": "UniLSeg-100",
-        "d": "2023-12-04",
-        "m1": "81.74"
-      },
-      {
-        "p": {
           "name": "Densely Connected Parameter-Efficient Tuning for Referring Image Segmentation",
           "link": "https://arxiv.org/abs/2501.08580v1"
         },
@@ -168,16 +47,6 @@
         "n": "DETRIS",
         "d": "2025-01-15",
         "m1": "81.0"
-      },
-      {
-        "p": {
-          "name": "Multi-task Visual Grounding with Coarse-to-Fine Consistency Constraints",
-          "link": "https://arxiv.org/abs/2501.06710v1"
-        },
-        "c": "https://github.com/dmmm1997/c3vg",
-        "n": "C3VG",
-        "d": "2025-01-12",
-        "m1": "80.89"
       },
       {
         "p": {
@@ -191,115 +60,14 @@
       },
       {
         "p": {
-          "name": "SegAgent: Exploring Pixel Understanding Capabilities in MLLMs by Imitating Human Annotator Trajectories",
-          "link": "https://arxiv.org/abs/2503.08625"
+          "name": "EVP: Enhanced Visual Perception using Inverse Multi-Attentive Feature Refinement and Regularized Image-Text Alignment",
+          "link": "https://arxiv.org/abs/2312.08548v1"
         },
-        "c": "https://github.com/aim-uofa/SegAgent",
-        "n": "SegAgent",
-        "d": "2025-03-11",
-        "m1": "79.7"
-      },
-      {
-        "p": {
-          "name": "MaskRIS: Semantic Distortion-aware Data Augmentation for Referring Image Segmentation",
-          "link": "https://arxiv.org/abs/2411.19067v1"
-        },
-        "c": "https://github.com/naver-ai/maskris",
-        "n": "MaskRIS (Swin-B, combined DB)",
-        "d": "2024-11-28",
-        "m1": "78.71"
-      },
-      {
-        "p": {
-          "name": "GROUNDHOG: Grounding Large Language Models to Holistic Segmentation",
-          "link": "https://arxiv.org/abs/2402.16846v2"
-        },
-        "c": "",
-        "n": "GROUNDHOG",
-        "d": "2024-02-26",
-        "m1": "78.5"
-      },
-      {
-        "p": {
-          "name": "SafaRi:Adaptive Sequence Transformer for Weakly Supervised Referring Expression Segmentation",
-          "link": "https://arxiv.org/abs/2407.02389v1"
-        },
-        "c": "",
-        "n": "SafaRi-B",
-        "d": "2024-07-02",
-        "m1": "77.21"
-      },
-      {
-        "p": {
-          "name": "MaskRIS: Semantic Distortion-aware Data Augmentation for Referring Image Segmentation",
-          "link": "https://arxiv.org/abs/2411.19067v1"
-        },
-        "c": "https://github.com/naver-ai/maskris",
-        "n": "MaskRIS (Swin-B)",
-        "d": "2024-11-28",
-        "m1": "76.49",
-        "m8": "78.35"
-      },
-      {
-        "p": {
-          "name": "PolyFormer: Referring Image Segmentation as Sequential Polygon Generation",
-          "link": "https://arxiv.org/abs/2302.07387v2"
-        },
-        "c": "https://github.com/amazon-science/polygon-transformer",
-        "n": "PolyFormer-L",
-        "d": "2023-02-14",
-        "m1": "75.96",
-        "m8": "76.94"
-      },
-      {
-        "p": {
-          "name": "Mask Grounding for Referring Image Segmentation",
-          "link": "https://arxiv.org/abs/2312.12198v2"
-        },
-        "c": "https://github.com/yxchng/mask-grounding",
-        "n": "MagNet",
-        "d": "2023-12-19",
-        "m1": "75.24"
-      },
-      {
-        "p": {
-          "name": "PolyFormer: Referring Image Segmentation as Sequential Polygon Generation",
-          "link": "https://arxiv.org/abs/2302.07387v2"
-        },
-        "c": "https://github.com/amazon-science/polygon-transformer",
-        "n": "PolyFormer-B",
-        "d": "2023-02-14",
-        "m1": "74.82"
-      },
-      {
-        "p": {
-          "name": "GRES: Generalized Referring Expression Segmentation",
-          "link": "https://arxiv.org/abs/2306.00968v1"
-        },
-        "c": "https://github.com/henghuiding/ReLA",
-        "n": "ReLA",
-        "d": "2023-06-01",
-        "m1": "73.82"
-      },
-      {
-        "p": {
-          "name": "Unleashing Text-to-Image Diffusion Models for Visual Perception",
-          "link": "https://arxiv.org/abs/2303.02153v1"
-        },
-        "c": "https://github.com/open-mmlab/mmsegmentation/tree/main/configs/vpd",
-        "n": "VPD",
-        "d": "2023-03-03",
-        "m1": "73.25"
-      },
-      {
-        "p": {
-          "name": "VLT: Vision-Language Transformer and Query Generation for Referring Segmentation",
-          "link": "https://arxiv.org/abs/2210.15871v1"
-        },
-        "c": "https://github.com/henghuiding/Vision-Language-Transformer",
-        "n": "VLT",
-        "d": "2022-10-28",
-        "m1": "72.96"
+        "c": "https://github.com/lavreniuk/evp",
+        "n": "EVP",
+        "d": "2023-12-13",
+        "m1": "77.61",
+        "m2": "77.61"
       },
       {
         "p": {
@@ -310,151 +78,6 @@
         "n": "ETRIS",
         "d": "2023-07-21",
         "m1": "71.06"
-      },
-      {
-        "p": {
-          "name": "Referring Transformer: A One-step Approach to Multi-task Visual Grounding",
-          "link": "https://arxiv.org/abs/2106.03089v2"
-        },
-        "c": "https://github.com/ubc-vision/RefTR",
-        "n": "RefTR",
-        "d": "2021-06-06",
-        "m1": "70.56"
-      },
-      {
-        "p": {
-          "name": "CRIS: CLIP-Driven Referring Image Segmentation",
-          "link": "https://arxiv.org/abs/2111.15174v2"
-        },
-        "c": "https://github.com/DerrickWang005/CRIS.pytorch",
-        "n": "CRIS",
-        "d": "2021-11-30",
-        "m1": "70.47"
-      },
-      {
-        "p": {
-          "name": "MaIL: A Unified Mask-Image-Language Trimodal Network for Referring Image Segmentation",
-          "link": "https://arxiv.org/abs/2111.10747v2"
-        },
-        "c": "",
-        "n": "MaIL",
-        "d": "2021-11-21",
-        "m1": "70.13"
-      },
-      {
-        "p": {
-          "name": "Vision-Language Transformer and Query Generation for Referring Segmentation",
-          "link": "https://arxiv.org/abs/2108.05565v1"
-        },
-        "c": "https://github.com/henghuiding/Vision-Language-Transformer",
-        "n": "VLT",
-        "d": "2021-08-12",
-        "m1": "65.65"
-      },
-      {
-        "p": {
-          "name": "Comprehensive Multi-Modal Interactions for Referring Image Segmentation",
-          "link": "https://arxiv.org/abs/2104.10412v4"
-        },
-        "c": "https://github.com/kanji95/SHNET",
-        "n": "SHNet",
-        "d": "2021-04-21",
-        "m1": "65.32",
-        "m3": "75.18",
-        "m4": "69.36",
-        "m5": "61.21",
-        "m6": "46.16",
-        "m7": "16.23"
-      },
-      {
-        "p": {
-          "name": "Referring Image Segmentation via Cross-Modal Progressive Comprehension",
-          "link": "https://arxiv.org/abs/2010.00514v1"
-        },
-        "c": "https://github.com/spyflying/CMPC-Refseg",
-        "n": "CPMC",
-        "d": "2020-10-01",
-        "m1": "61.36"
-      },
-      {
-        "p": {
-          "name": "Bi-Directional Relationship Inferring Network for Referring Image Segmentation",
-          "link": "http://openaccess.thecvf.com/content_CVPR_2020/html/Hu_Bi-Directional_Relationship_Inferring_Network_for_Referring_Image_Segmentation_CVPR_2020_paper.html"
-        },
-        "c": "",
-        "n": "BRINet",
-        "d": "2020-06-01",
-        "m1": "61.35"
-      },
-      {
-        "p": {
-          "name": "RefVOS: A Closer Look at Referring Expressions for Video Object Segmentation",
-          "link": "https://arxiv.org/abs/2010.00263v1"
-        },
-        "c": "https://github.com/miriambellver/refvos",
-        "n": "RefVOS with BERT + MLM loss",
-        "d": "2020-10-01",
-        "m1": "59.45"
-      },
-      {
-        "p": {
-          "name": "Referring Expression Object Segmentation with Caption-Aware Consistency",
-          "link": "https://arxiv.org/abs/1910.04748v1"
-        },
-        "c": "https://github.com/wenz116/lang2seg",
-        "n": "LANG2SEG",
-        "d": "2019-10-10",
-        "m1": "58.90"
-      },
-      {
-        "p": {
-          "name": "RefVOS: A Closer Look at Referring Expressions for Video Object Segmentation",
-          "link": "https://arxiv.org/abs/2010.00263v1"
-        },
-        "c": "https://github.com/miriambellver/refvos",
-        "n": "RefVOS with BERT Pre-train",
-        "d": "2020-10-01",
-        "m1": "58.65"
-      },
-      {
-        "p": {
-          "name": "Cross-Modal Self-Attention Network for Referring Image Segmentation",
-          "link": "http://arxiv.org/abs/1904.04745v1"
-        },
-        "c": "https://github.com/lwye/CMSA-Net",
-        "n": "CMSA",
-        "d": "2019-04-09",
-        "m1": "58.32"
-      },
-      {
-        "p": {
-          "name": "See-Through-Text Grouping for Referring Image Segmentation",
-          "link": "http://openaccess.thecvf.com/content_ICCV_2019/html/Chen_See-Through-Text_Grouping_for_Referring_Image_Segmentation_ICCV_2019_paper.html"
-        },
-        "c": "",
-        "n": "STEP (1-fold)",
-        "d": "2019-10-01",
-        "m1": "56.58"
-      },
-      {
-        "p": {
-          "name": "MAttNet: Modular Attention Network for Referring Expression Comprehension",
-          "link": "http://arxiv.org/abs/1801.08186v3"
-        },
-        "c": "https://github.com/lichengunc/MAttNet",
-        "n": "MattNet",
-        "d": "2018-01-24",
-        "m1": "56.51"
-      },
-      {
-        "p": {
-          "name": "Vision-Aware Text Features in Referring Image Segmentation: From Object Understanding to Context Understanding",
-          "link": "https://arxiv.org/abs/2404.08590v2"
-        },
-        "c": "https://github.com/nero1342/VATEX",
-        "n": "VATEX",
-        "d": "2024-04-12",
-        "m2": "78.16"
       }
     ]
   }

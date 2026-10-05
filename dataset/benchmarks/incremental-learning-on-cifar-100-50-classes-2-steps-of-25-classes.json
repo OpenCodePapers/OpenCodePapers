@@ -1,0 +1,79 @@
+{
+  "title": "incremental-learning-on-cifar-100-50-classes-2-steps-of-25-classes",
+  "task-hierarchy": [
+    "Continual Learning",
+    "Incremental Learning"
+  ],
+  "dataset-info": {
+    "link": "https://www.cs.toronto.edu/~kriz/cifar.html",
+    "paper": "Learning multiple layers of features from tiny images"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Average Incremental Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Resolving Task Confusion in Dynamic Expansion Architectures for Class Incremental Learning",
+          "link": "https://arxiv.org/abs/2212.14284v2"
+        },
+        "c": "https://github.com/yellowpancake/tcil",
+        "n": "TCIL",
+        "d": "2022-12-29",
+        "m1": "76.42"
+      },
+      {
+        "p": {
+          "name": "Resolving Task Confusion in Dynamic Expansion Architectures for Class Incremental Learning",
+          "link": "https://arxiv.org/abs/2212.14284v2"
+        },
+        "c": "https://github.com/yellowpancake/tcil",
+        "n": "TCIL-Lite",
+        "d": "2022-12-29",
+        "m1": "74.95"
+      },
+      {
+        "p": {
+          "name": "DER: Dynamically Expandable Representation for Class Incremental Learning",
+          "link": "https://arxiv.org/abs/2103.16788v1"
+        },
+        "c": "https://github.com/g-u-n/pycil",
+        "n": "DER\n(w/o P)",
+        "d": "2021-03-31",
+        "m1": "74.61"
+      },
+      {
+        "p": {
+          "name": "iCaRL: Incremental Classifier and Representation Learning",
+          "link": "http://arxiv.org/abs/1611.07725v2"
+        },
+        "c": "https://github.com/ContinualAI/avalanche",
+        "n": "iCaRL",
+        "d": "2016-11-23",
+        "m1": "71.33"
+      }
+    ]
+  }
+}

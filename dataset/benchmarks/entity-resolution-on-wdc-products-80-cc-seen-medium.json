@@ -1,0 +1,169 @@
+{
+  "title": "entity-resolution-on-wdc-products-80-cc-seen-medium",
+  "task-hierarchy": [
+    "Data Integration",
+    "Entity Resolution"
+  ],
+  "dataset-info": {
+    "link": "http://webdatacommons.org/largescaleproductcorpus/wdc-products/",
+    "paper": "WDC Products: A Multi-Dimensional Entity Matching Benchmark"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F1 (%)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Entity Matching using Large Language Models",
+          "link": "https://arxiv.org/abs/2310.11244v4"
+        },
+        "c": "https://github.com/wbsg-uni-mannheim/matchgpt",
+        "n": "gpt4-0613_zeroshot",
+        "d": "2023-10-17",
+        "m1": "89.61"
+      },
+      {
+        "p": {
+          "name": "Fine-tuning Large Language Models for Entity Matching",
+          "link": "https://arxiv.org/abs/2409.08185v2"
+        },
+        "c": "https://github.com/wbsg-uni-mannheim/tailormatch",
+        "n": "gpt-4o-2024-08-06_fine_tuned_wdc_small",
+        "d": "2024-09-12",
+        "m1": "87.10"
+      },
+      {
+        "p": {
+          "name": "Fine-tuning Large Language Models for Entity Matching",
+          "link": "https://arxiv.org/abs/2409.08185v2"
+        },
+        "c": "https://github.com/wbsg-uni-mannheim/tailormatch",
+        "n": "gpt-4o-mini-2024-07-18_structured_explanations",
+        "d": "2024-09-12",
+        "m1": "84.38"
+      },
+      {
+        "p": {
+          "name": "Fine-tuning Large Language Models for Entity Matching",
+          "link": "https://arxiv.org/abs/2409.08185v2"
+        },
+        "c": "https://github.com/wbsg-uni-mannheim/tailormatch",
+        "n": "gpt-4o-mini-2024-07-18",
+        "d": "2024-09-12",
+        "m1": "81.61"
+      },
+      {
+        "p": {
+          "name": "WDC Products: A Multi-Dimensional Entity Matching Benchmark",
+          "link": "https://arxiv.org/abs/2301.09521v2"
+        },
+        "c": "https://github.com/wbsg-uni-mannheim/wdcproducts",
+        "n": "RoBERTa-SupCon",
+        "d": "2023-01-23",
+        "m1": "79.99"
+      },
+      {
+        "p": {
+          "name": "Fine-tuning Large Language Models for Entity Matching",
+          "link": "https://arxiv.org/abs/2409.08185v2"
+        },
+        "c": "https://github.com/wbsg-uni-mannheim/tailormatch",
+        "n": "Llama3.1_70B_structured_explanations",
+        "d": "2024-09-12",
+        "m1": "76.70"
+      },
+      {
+        "p": {
+          "name": "Fine-tuning Large Language Models for Entity Matching",
+          "link": "https://arxiv.org/abs/2409.08185v2"
+        },
+        "c": "https://github.com/wbsg-uni-mannheim/tailormatch",
+        "n": "Llama3.1_70B",
+        "d": "2024-09-12",
+        "m1": "75.20"
+      },
+      {
+        "p": {
+          "name": "Fine-tuning Large Language Models for Entity Matching",
+          "link": "https://arxiv.org/abs/2409.08185v2"
+        },
+        "c": "https://github.com/wbsg-uni-mannheim/tailormatch",
+        "n": "Llama3.1_8B_error-based_example_selection",
+        "d": "2024-09-12",
+        "m1": "74.37"
+      },
+      {
+        "p": {
+          "name": "Fine-tuning Large Language Models for Entity Matching",
+          "link": "https://arxiv.org/abs/2409.08185v2"
+        },
+        "c": "https://github.com/wbsg-uni-mannheim/tailormatch",
+        "n": "Llama3.1_8B_structured_explanations",
+        "d": "2024-09-12",
+        "m1": "74.13"
+      },
+      {
+        "p": {
+          "name": "WDC Products: A Multi-Dimensional Entity Matching Benchmark",
+          "link": "https://arxiv.org/abs/2301.09521v2"
+        },
+        "c": "https://github.com/wbsg-uni-mannheim/wdcproducts",
+        "n": "Ditto",
+        "d": "2023-01-23",
+        "m1": "73.93"
+      },
+      {
+        "p": {
+          "name": "WDC Products: A Multi-Dimensional Entity Matching Benchmark",
+          "link": "https://arxiv.org/abs/2301.09521v2"
+        },
+        "c": "https://github.com/wbsg-uni-mannheim/wdcproducts",
+        "n": "RoBERTa-base",
+        "d": "2023-01-23",
+        "m1": "72.18"
+      },
+      {
+        "p": {
+          "name": "WDC Products: A Multi-Dimensional Entity Matching Benchmark",
+          "link": "https://arxiv.org/abs/2301.09521v2"
+        },
+        "c": "https://github.com/wbsg-uni-mannheim/wdcproducts",
+        "n": "HG",
+        "d": "2023-01-23",
+        "m1": "71.40"
+      },
+      {
+        "p": {
+          "name": "Fine-tuning Large Language Models for Entity Matching",
+          "link": "https://arxiv.org/abs/2409.08185v2"
+        },
+        "c": "https://github.com/wbsg-uni-mannheim/tailormatch",
+        "n": "Llama3.1_8B",
+        "d": "2024-09-12",
+        "m1": "53.36"
+      }
+    ]
+  }
+}

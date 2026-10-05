@@ -1,11 +1,12 @@
 {
   "title": "action-detection-on-ucf101-24",
   "task-hierarchy": [
+    "Action Localization",
     "Action Detection"
   ],
   "dataset-info": {
-    "link": "",
-    "paper": ""
+    "link": "https://www.crcv.ucf.edu/data/UCF101.php",
+    "paper": "UCF101: A Dataset of 101 Human Actions Classes From Videos in The Wild"
   },
   "benchmark": {
     "fields": [

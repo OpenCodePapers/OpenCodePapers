@@ -1,0 +1,75 @@
+{
+  "title": "action-recognition-in-videos-on-kinetics-400",
+  "task-hierarchy": [
+    "Action Recognition",
+    "Action Recognition In Videos"
+  ],
+  "dataset-info": {
+    "link": "https://deepmind.com/research/open-source/kinetics",
+    "paper": "The Kinetics Human Action Video Dataset"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Top-1 Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Top-5 Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Florence: A New Foundation Model for Computer Vision",
+          "link": "https://arxiv.org/abs/2111.11432v1"
+        },
+        "c": "https://github.com/microsoft/unicl",
+        "n": "Florence",
+        "d": "2021-11-22",
+        "m1": "86.5",
+        "m2": "97.3"
+      },
+      {
+        "p": {
+          "name": "ActionCLIP: A New Paradigm for Video Action Recognition",
+          "link": "https://arxiv.org/abs/2109.08472v1"
+        },
+        "c": "https://github.com/towhee-io/towhee",
+        "n": "ActionCLIP (ViT-B/16)",
+        "d": "2021-09-17",
+        "m1": "83.8"
+      },
+      {
+        "p": {
+          "name": "Could Giant Pretrained Image Models Extract Universal Representations?",
+          "link": "https://arxiv.org/abs/2211.02043v1"
+        },
+        "c": "",
+        "n": "Frozen Backbone, SwinV2-G-ext22K (Video-Swin)",
+        "d": "2022-11-03",
+        "m1": "81.7"
+      }
+    ]
+  }
+}

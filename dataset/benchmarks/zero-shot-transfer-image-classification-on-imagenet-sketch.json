@@ -1,0 +1,107 @@
+{
+  "title": "zero-shot-transfer-image-classification-on-imagenet-sketch",
+  "task-hierarchy": [
+    "Image Classification",
+    "Zero-Shot Image Classification",
+    "Zero-Shot Transfer Image Classification"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/HaohanWang/ImageNet-Sketch",
+    "paper": "Learning Robust Global Representations by Penalizing Local Predictive Power"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy (Private)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "CoCa: Contrastive Captioners are Image-Text Foundation Models",
+          "link": "https://arxiv.org/abs/2205.01917v2"
+        },
+        "c": "https://github.com/mlfoundations/open_clip",
+        "n": "CoCa",
+        "d": "2022-05-04",
+        "m1": "77.6"
+      },
+      {
+        "p": "",
+        "c": "",
+        "n": "BASIC (Lion)",
+        "d": "",
+        "m1": "77.2"
+      },
+      {
+        "p": {
+          "name": "Combined Scaling for Zero-shot Transfer Learning",
+          "link": "https://arxiv.org/abs/2111.10050v3"
+        },
+        "c": "",
+        "n": "BASIC",
+        "d": "2021-11-19",
+        "m1": "76.1"
+      },
+      {
+        "p": {
+          "name": "EVA-CLIP-18B: Scaling CLIP to 18 Billion Parameters",
+          "link": "https://arxiv.org/abs/2402.04252v1"
+        },
+        "c": "https://github.com/baaivision/EVA/tree/master/EVA-CLIP-18B",
+        "n": "EVA-CLIP-18B",
+        "d": "2024-02-06",
+        "m1": "74.7"
+      },
+      {
+        "p": {
+          "name": "InternVL: Scaling up Vision Foundation Models and Aligning for Generic Visual-Linguistic Tasks",
+          "link": "https://arxiv.org/abs/2312.14238v3"
+        },
+        "c": "https://github.com/opengvlab/internvl",
+        "n": "InternVL-C",
+        "d": "2023-12-21",
+        "m1": "73.9"
+      },
+      {
+        "p": {
+          "name": "EVA-CLIP: Improved Training Techniques for CLIP at Scale",
+          "link": "https://arxiv.org/abs/2303.15389v1"
+        },
+        "c": "https://github.com/baaivision/eva",
+        "n": "EVA-CLIP-E/14+",
+        "d": "2023-03-27",
+        "m1": "71.6"
+      },
+      {
+        "p": {
+          "name": "AltCLIP: Altering the Language Encoder in CLIP for Extended Language Capabilities",
+          "link": "https://arxiv.org/abs/2211.06679v2"
+        },
+        "c": "https://github.com/flagai-open/flagai",
+        "n": "AltCLIP",
+        "d": "2022-11-12",
+        "m1": "58.7"
+      }
+    ]
+  }
+}

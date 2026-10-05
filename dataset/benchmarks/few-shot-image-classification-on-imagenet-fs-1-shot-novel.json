@@ -1,0 +1,109 @@
+{
+  "title": "few-shot-image-classification-on-imagenet-fs-1-shot-novel",
+  "task-hierarchy": [
+    "Image Classification",
+    "Few-Shot Image Classification"
+  ],
+  "dataset-info": {
+    "link": "https://arxiv.org/abs/1606.02819",
+    "paper": "Low-shot Visual Recognition by Shrinking and Hallucinating Features"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Top-5 Accuracy (%)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "KGTN-ens: Few-Shot Image Classification with Knowledge Graph Ensembles",
+          "link": "https://arxiv.org/abs/2211.03199v1"
+        },
+        "c": "https://github.com/DominikFilipiak/KGTN-ens",
+        "n": "KGTN-ens (ResNet-50, h+g, max)",
+        "d": "2022-11-06",
+        "m1": "62.73"
+      },
+      {
+        "p": {
+          "name": "Knowledge Graph Transfer Network for Few-Shot Recognition",
+          "link": "https://arxiv.org/abs/1911.09579v2"
+        },
+        "c": "https://github.com/MyChocer/KGTN",
+        "n": "KGTN (ResNet-50)",
+        "d": "2019-11-21",
+        "m1": "62.1"
+      },
+      {
+        "p": {
+          "name": "Model-Agnostic Graph Regularization for Few-Shot Learning",
+          "link": "https://arxiv.org/abs/2102.07077v1"
+        },
+        "c": "",
+        "n": "SGM + Graph (ResNet-50)",
+        "d": "2021-02-14",
+        "m1": "61.1"
+      },
+      {
+        "p": {
+          "name": "Image Deformation Meta-Networks for One-Shot Learning",
+          "link": "https://arxiv.org/abs/1905.11641v2"
+        },
+        "c": "https://github.com/tankche1/IDeMe-Net",
+        "n": "IDeMe-Net (ResNet-50)",
+        "d": "2019-05-28",
+        "m1": "60.1"
+      },
+      {
+        "p": {
+          "name": "Few-shot Relational Reasoning via Connection Subgraph Pretraining",
+          "link": "https://arxiv.org/abs/2210.06722v1"
+        },
+        "c": "https://github.com/snap-stanford/csr",
+        "n": "KTCH (ResNet-50)",
+        "d": "2022-10-13",
+        "m1": "58.1"
+      },
+      {
+        "p": {
+          "name": "Low-shot learning with large-scale diffusion",
+          "link": "http://arxiv.org/abs/1706.02332v3"
+        },
+        "c": "https://github.com/facebookresearch/low-shot-with-diffusion",
+        "n": "LSD (ResNet-50)",
+        "d": "2017-06-07",
+        "m1": "57.7"
+      },
+      {
+        "p": {
+          "name": "Low-shot Visual Recognition by Shrinking and Hallucinating Features",
+          "link": "http://arxiv.org/abs/1606.02819v4"
+        },
+        "c": "https://github.com/facebookresearch/low-shot-shrink-hallucinate",
+        "n": "SGM (ResNet-50)",
+        "d": "2016-06-09",
+        "m1": "52.9"
+      }
+    ]
+  }
+}

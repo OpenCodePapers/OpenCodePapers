@@ -1,0 +1,69 @@
+{
+  "title": "video-anomaly-detection-on-ucsd-ped2",
+  "task-hierarchy": [
+    "Anomaly Detection",
+    "Video Anomaly Detection"
+  ],
+  "dataset-info": {
+    "link": "http://www.svcl.ucsd.edu/projects/anomaly/dataset.htm",
+    "paper": "Anomaly detection in crowded scenes"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AUC",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "MULDE: Multiscale Log-Density Estimation via Denoising Score Matching for Video Anomaly Detection",
+          "link": "https://arxiv.org/abs/2403.14497v1"
+        },
+        "c": "https://github.com/jakubmicorek/MULDE-Multiscale-Log-Density-Estimation-via-Denoising-Score-Matching-for-Video-Anomaly-Detection",
+        "n": "MULDE-object-centric-micro",
+        "d": "2024-03-21",
+        "m1": "99.7%"
+      },
+      {
+        "p": {
+          "name": "VADMamba: Exploring State Space Models for Fast Video Anomaly Detection",
+          "link": "https://arxiv.org/abs/2503.21169v1"
+        },
+        "c": "https://github.com/jLooo/VADMamba",
+        "n": "VADMamba",
+        "d": "2025-03-27",
+        "m1": "98.5%"
+      },
+      {
+        "p": {
+          "name": "Follow the Rules: Reasoning for Video Anomaly Detection with Large Language Models",
+          "link": "https://arxiv.org/abs/2407.10299v2"
+        },
+        "c": "https://github.com/Yuchen413/AnomalyRuler",
+        "n": "AnomalyRuler",
+        "d": "2024-07-14",
+        "m1": "97.9%"
+      }
+    ]
+  }
+}

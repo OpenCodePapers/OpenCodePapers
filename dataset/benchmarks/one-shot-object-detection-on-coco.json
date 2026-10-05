@@ -2,11 +2,12 @@
   "title": "one-shot-object-detection-on-coco",
   "task-hierarchy": [
     "Object Detection",
+    "Few-Shot Object Detection",
     "One-Shot Object Detection"
   ],
   "dataset-info": {
-    "link": "",
-    "paper": ""
+    "link": "https://cocodataset.org/",
+    "paper": "Microsoft COCO: Common Objects in Context"
   },
   "benchmark": {
     "fields": [

@@ -1,0 +1,989 @@
+{
+  "title": "few-shot-image-classification-on-mini-imagenet-5-way-5-shot",
+  "task-hierarchy": [
+    "Image Classification",
+    "Few-Shot Image Classification"
+  ],
+  "dataset-info": {
+    "link": "",
+    "paper": "Matching Networks for One Shot Learning"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "SgVA-CLIP: Semantic-guided Visual Adapting of Vision-Language Models for Few-shot Image Classification",
+          "link": "https://arxiv.org/abs/2211.16191v2"
+        },
+        "c": "https://github.com/FannierPeng/SgVA-CLIP",
+        "n": "SgVA-CLIP",
+        "d": "2022-11-28",
+        "m1": "98.72"
+      },
+      {
+        "p": {
+          "name": "Context-Aware Meta-Learning",
+          "link": "https://arxiv.org/abs/2310.10971v2"
+        },
+        "c": "https://github.com/cfifty/CAML",
+        "n": "CAML [Laion-2b]",
+        "d": "2023-10-17",
+        "m1": "98.6"
+      },
+      {
+        "p": {
+          "name": "Pushing the Limits of Simple Pipelines for Few-Shot Learning: External Data and Fine-Tuning Make a Difference",
+          "link": "https://arxiv.org/abs/2204.07305v1"
+        },
+        "c": "https://github.com/hushell/pmf_cvpr22",
+        "n": "P>M>F (P=DINO-ViT-base, M=ProtoNet)",
+        "d": "2022-04-15",
+        "m1": "98.4"
+      },
+      {
+        "p": {
+          "name": "Transductive Decoupled Variational Inference for Few-Shot Classification",
+          "link": "https://arxiv.org/abs/2208.10559v1"
+        },
+        "c": "https://github.com/anujinho/trident",
+        "n": "TRIDENT",
+        "d": "2022-08-22",
+        "m1": "95.95"
+      },
+      {
+        "p": {
+          "name": "Adaptive Dimension Reduction and Variational Inference for Transductive Few-Shot Classification",
+          "link": "https://arxiv.org/abs/2209.08527v1"
+        },
+        "c": "",
+        "n": "BAVARDAGE",
+        "d": "2022-09-18",
+        "m1": "91.65"
+      },
+      {
+        "p": {
+          "name": "Squeezing Backbone Feature Distributions to the Max for Efficient Few-Shot Learning",
+          "link": "https://arxiv.org/abs/2110.09446v1"
+        },
+        "c": "https://github.com/yhu01/bms",
+        "n": "PEMnE-BMS*(transductive)",
+        "d": "2021-10-18",
+        "m1": "91.53"
+      },
+      {
+        "p": {
+          "name": "Enhancing Few-Shot Image Classification with Unlabelled Examples",
+          "link": "https://arxiv.org/abs/2006.12245v6"
+        },
+        "c": "https://github.com/peymanbateni/simple-cnaps",
+        "n": "Transductive CNAPS + FETI",
+        "d": "2020-06-17",
+        "m1": "91.5"
+      },
+      {
+        "p": {
+          "name": "The Self-Optimal-Transport Feature Transform",
+          "link": "https://arxiv.org/abs/2204.03065v1"
+        },
+        "c": "https://github.com/danielshalam/bpa",
+        "n": "PT+MAP+SF+SOT (transductive)",
+        "d": "2022-04-06",
+        "m1": "91.34"
+      },
+      {
+        "p": {
+          "name": "The Balanced-Pairwise-Affinities Feature Transform",
+          "link": "https://arxiv.org/abs/2407.01467v1"
+        },
+        "c": "https://github.com/danielshalam/bpa",
+        "n": "PT+MAP+SF+BPA (transductive)",
+        "d": "2024-06-25",
+        "m1": "91.34"
+      },
+      {
+        "p": {
+          "name": "Self-Supervised Learning For Few-Shot Image Classification",
+          "link": "https://arxiv.org/abs/1911.06045v3"
+        },
+        "c": "https://github.com/Alibaba-AAIG/SSL-FEW-SHOT",
+        "n": "AmdimNet",
+        "d": "2019-11-14",
+        "m1": "90.98"
+      },
+      {
+        "p": {
+          "name": "Improved Few-Shot Visual Classification",
+          "link": "https://arxiv.org/abs/1912.03432v3"
+        },
+        "c": "https://github.com/peymanbateni/simple-cnaps",
+        "n": "Simple CNAPS + FETI",
+        "d": "2019-12-07",
+        "m1": "90.3"
+      },
+      {
+        "p": {
+          "name": "Attribute Surrogates Learning and Spectral Tokens Pooling in Transformers for Few-shot Learning",
+          "link": "https://arxiv.org/abs/2203.09064v1"
+        },
+        "c": "https://github.com/stomachcold/hctransformers",
+        "n": "HCTransformers",
+        "d": "2022-03-17",
+        "m1": "89.19"
+      },
+      {
+        "p": {
+          "name": "Sill-Net: Feature Augmentation with Separated Illumination Representation",
+          "link": "https://arxiv.org/abs/2102.03539v3"
+        },
+        "c": "https://github.com/lanfenghuanyu/Sill-Net",
+        "n": "Illumination Augmentation",
+        "d": "2021-02-06",
+        "m1": "89.14"
+      },
+      {
+        "p": {
+          "name": "EASY: Ensemble Augmented-Shot Y-shaped Learning: State-Of-The-Art Few-Shot Classification with Simple Ingredients",
+          "link": "https://arxiv.org/abs/2201.09699v2"
+        },
+        "c": "https://github.com/ybendou/easy",
+        "n": "EASY 3xResNet12 (transductive)",
+        "d": "2022-01-24",
+        "m1": "89.14"
+      },
+      {
+        "p": {
+          "name": "Leveraging the Feature Distribution in Transfer-based Few-Shot Learning",
+          "link": "https://arxiv.org/abs/2006.03806v3"
+        },
+        "c": "https://github.com/sicara/easy-few-shot-learning",
+        "n": "PT+MAP",
+        "d": "2020-06-06",
+        "m1": "88.82"
+      },
+      {
+        "p": {
+          "name": "EASY: Ensemble Augmented-Shot Y-shaped Learning: State-Of-The-Art Few-Shot Classification with Simple Ingredients",
+          "link": "https://arxiv.org/abs/2201.09699v2"
+        },
+        "c": "https://github.com/ybendou/easy",
+        "n": "EASY 2xResNet12 1/√2 (transductive)",
+        "d": "2022-01-24",
+        "m1": "88.57"
+      },
+      {
+        "p": {
+          "name": "Embedding Propagation: Smoother Manifold for Few-Shot Classification",
+          "link": "https://arxiv.org/abs/2003.04151v2"
+        },
+        "c": "https://github.com/ElementAI/embedding-propagation",
+        "n": "EPNet + SSL",
+        "d": "2020-03-09",
+        "m1": "88.05 "
+      },
+      {
+        "p": {
+          "name": "EASY: Ensemble Augmented-Shot Y-shaped Learning: State-Of-The-Art Few-Shot Classification with Simple Ingredients",
+          "link": "https://arxiv.org/abs/2201.09699v2"
+        },
+        "c": "https://github.com/ybendou/easy",
+        "n": "EASY 3xResNet12 (inductive)",
+        "d": "2022-01-24",
+        "m1": "87.15"
+      },
+      {
+        "p": {
+          "name": "Class-Aware Patch Embedding Adaptation for Few-Shot Image Classification",
+          "link": "http://openaccess.thecvf.com//content/ICCV2023/html/Hao_Class-Aware_Patch_Embedding_Adaptation_for_Few-Shot_Image_Classification_ICCV_2023_paper.html"
+        },
+        "c": "https://github.com/fushenghao/cpea",
+        "n": "CPEA",
+        "d": "2023-01-01",
+        "m1": "87.06"
+      },
+      {
+        "p": {
+          "name": "Simple Semantic-Aided Few-Shot Learning",
+          "link": "https://arxiv.org/abs/2311.18649v3"
+        },
+        "c": "https://github.com/zhangdoudou123/semfew",
+        "n": "SemFew-Trans",
+        "d": "2023-11-30",
+        "m1": "86.49"
+      },
+      {
+        "p": {
+          "name": "Rethinking Generalization in Few-Shot Classification",
+          "link": "https://arxiv.org/abs/2206.07267v3"
+        },
+        "c": "https://github.com/mrkshllr/FewTURE",
+        "n": "FewTURE",
+        "d": "2022-06-15",
+        "m1": "86.38"
+      },
+      {
+        "p": {
+          "name": "EASY: Ensemble Augmented-Shot Y-shaped Learning: State-Of-The-Art Few-Shot Classification with Simple Ingredients",
+          "link": "https://arxiv.org/abs/2201.09699v2"
+        },
+        "c": "https://github.com/ybendou/easy",
+        "n": "EASY 2xResNet12 1/√2 (inductive)",
+        "d": "2022-01-24",
+        "m1": "86.28"
+      },
+      {
+        "p": {
+          "name": "Rectifying the Shortcut Learning of Background for Few-Shot Learning",
+          "link": "https://arxiv.org/abs/2107.07746v3"
+        },
+        "c": "https://github.com/Frankluox/FewShotCodeBase",
+        "n": "COSOC (inductive)",
+        "d": "2021-07-16",
+        "m1": "85.16"
+      },
+      {
+        "p": {
+          "name": "Exploring Complementary Strengths of Invariant and Equivariant Representations for Few-Shot Learning",
+          "link": "https://arxiv.org/abs/2103.01315v2"
+        },
+        "c": "https://github.com/nayeemrizve/invariance-equivariance",
+        "n": "Invariance-Equivariance",
+        "d": "2021-03-01",
+        "m1": "84.78"
+      },
+      {
+        "p": {
+          "name": "Laplacian Regularized Few-Shot Learning",
+          "link": "https://arxiv.org/abs/2006.15486"
+        },
+        "c": "https://github.com/sicara/easy-few-shot-learning",
+        "n": "LaplacianShot",
+        "d": "2020-06-29",
+        "m1": "84.72"
+      },
+      {
+        "p": {
+          "name": "Squeezing Backbone Feature Distributions to the Max for Efficient Few-Shot Learning",
+          "link": "https://arxiv.org/abs/2110.09446v1"
+        },
+        "c": "https://github.com/yhu01/bms",
+        "n": "PEMbE-NCM (inductive)",
+        "d": "2021-10-18",
+        "m1": "84.67"
+      },
+      {
+        "p": {
+          "name": "Enhancing Few-Shot Image Classification through Learnable Multi-Scale Embedding and Attention Mechanisms",
+          "link": "https://arxiv.org/abs/2409.07989v2"
+        },
+        "c": "https://github.com/FatemehAskari/MSENet",
+        "n": "MSENet",
+        "d": "2024-09-12",
+        "m1": "84.42"
+      },
+      {
+        "p": {
+          "name": "Unsupervised Embedding Adaptation via Early-Stage Feature Reconstruction for Few-Shot Classification",
+          "link": "https://arxiv.org/abs/2106.11486v1"
+        },
+        "c": "https://github.com/movinghoon/ESFR",
+        "n": "BD-CSPN + ESFR (WRN)",
+        "d": "2021-06-22",
+        "m1": "84.36"
+      },
+      {
+        "p": {
+          "name": "Embedding Propagation: Smoother Manifold for Few-Shot Classification",
+          "link": "https://arxiv.org/abs/2003.04151v2"
+        },
+        "c": "https://github.com/ElementAI/embedding-propagation",
+        "n": "EPNet",
+        "d": "2020-03-09",
+        "m1": "84.34"
+      },
+      {
+        "p": {
+          "name": "Shallow Bayesian Meta Learning for Real-World Few-Shot Recognition",
+          "link": "https://arxiv.org/abs/2101.02833v2"
+        },
+        "c": "https://github.com/open-debin/bayesian_mqda",
+        "n": "MetaQDA",
+        "d": "2021-01-08",
+        "m1": "84.28"
+      },
+      {
+        "p": {
+          "name": "Prototype Completion for Few-Shot Learning",
+          "link": "https://arxiv.org/abs/2108.05010v1"
+        },
+        "c": "https://github.com/zhangbq-research/Prototype_Completion_for_FSL",
+        "n": "PrototypeCompletion",
+        "d": "2021-08-11",
+        "m1": "84.18"
+      },
+      {
+        "p": {
+          "name": "ESPT: A Self-Supervised Episodic Spatial Pretext Task for Improving Few-Shot Learning",
+          "link": "https://arxiv.org/abs/2304.13287v1"
+        },
+        "c": "https://github.com/whut-yirong/espt",
+        "n": "ESPT",
+        "d": "2023-04-26",
+        "m1": "84.11"
+      },
+      {
+        "p": {
+          "name": "Few-Shot Learning as Domain Adaptation: Algorithm and Analysis",
+          "link": "https://arxiv.org/abs/2002.02050v3"
+        },
+        "c": "",
+        "n": "DAPNA",
+        "d": "2020-02-06",
+        "m1": "84.07"
+      },
+      {
+        "p": {
+          "name": "Self-supervised Knowledge Distillation for Few-shot Learning",
+          "link": "https://arxiv.org/abs/2006.09785v2"
+        },
+        "c": "https://github.com/brjathu/SKD",
+        "n": "SKD",
+        "d": "2020-06-17",
+        "m1": "83.54"
+      },
+      {
+        "p": {
+          "name": "Self-Supervision Can Be a Good Few-Shot Learner",
+          "link": "https://arxiv.org/abs/2207.09176v1"
+        },
+        "c": "https://github.com/bbbdylan/unisiam",
+        "n": "UniSiam",
+        "d": "2022-07-19",
+        "m1": "83.40"
+      },
+      {
+        "p": {
+          "name": "Open-Set Likelihood Maximization for Few-Shot Learning",
+          "link": "https://arxiv.org/abs/2301.08390v2"
+        },
+        "c": "https://github.com/ebennequin/few-shot-open-set",
+        "n": "OSLO",
+        "d": "2023-01-20",
+        "m1": "83.4"
+      },
+      {
+        "p": {
+          "name": "Charting the Right Manifold: Manifold Mixup for Few-shot Learning",
+          "link": "https://arxiv.org/abs/1907.12087v4"
+        },
+        "c": "https://github.com/ShuoYang-1998/Few_Shot_Distribution_Calibration",
+        "n": "S2M2R",
+        "d": "2019-07-28",
+        "m1": "83.18"
+      },
+      {
+        "p": {
+          "name": "Sparse Spatial Transformers for Few-Shot Learning",
+          "link": "https://arxiv.org/abs/2109.12932v3"
+        },
+        "c": "https://github.com/chenhaoxing/ssformers",
+        "n": "SSFormers",
+        "d": "2021-09-27",
+        "m1": "82.75"
+      },
+      {
+        "p": {
+          "name": "Relational Embedding for Few-Shot Classification",
+          "link": "https://arxiv.org/abs/2108.09666v1"
+        },
+        "c": "https://github.com/dahyun-kang/renet",
+        "n": "RENet",
+        "d": "2021-08-22",
+        "m1": "82.58"
+      },
+      {
+        "p": {
+          "name": "Extended Few-Shot Learning: Exploiting Existing Resources for Novel Tasks",
+          "link": "https://arxiv.org/abs/2012.07176v3"
+        },
+        "c": "https://github.com/BatsResearch/efsl",
+        "n": "pseudo-shots",
+        "d": "2020-12-13",
+        "m1": "82.51"
+      },
+      {
+        "p": {
+          "name": "Unsupervised Embedding Adaptation via Early-Stage Feature Reconstruction for Few-Shot Classification",
+          "link": "https://arxiv.org/abs/2106.11486v1"
+        },
+        "c": "https://github.com/movinghoon/ESFR",
+        "n": "BD-CSPN + ESFR (ResNet-18)",
+        "d": "2021-06-22",
+        "m1": "82.32"
+      },
+      {
+        "p": {
+          "name": "GPU-based Self-Organizing Maps for Post-Labeled Few-Shot Unsupervised Learning",
+          "link": "https://arxiv.org/abs/2009.03665v1"
+        },
+        "c": "https://github.com/lyes-khacef/GPU-SOM",
+        "n": "WRN + Self-Organizing Map",
+        "d": "2020-09-04",
+        "m1": "82.2"
+      },
+      {
+        "p": {
+          "name": "Task Augmentation by Rotating for Meta-Learning",
+          "link": "https://arxiv.org/abs/2003.00804v1"
+        },
+        "c": "https://github.com/AceChuse/TaskLevelAug",
+        "n": "MetaOptNet-SVM+Task Aug",
+        "d": "2020-02-08",
+        "m1": "82.13"
+      },
+      {
+        "p": {
+          "name": "Task Augmentation by Rotating for Meta-Learning",
+          "link": "https://arxiv.org/abs/2003.00804v1"
+        },
+        "c": "https://github.com/AceChuse/TaskLevelAug",
+        "n": "R2-D2+Task Aug",
+        "d": "2020-02-08",
+        "m1": "81.96"
+      },
+      {
+        "p": {
+          "name": "Adaptive Subspaces for Few-Shot Learning",
+          "link": "http://openaccess.thecvf.com/content_CVPR_2020/html/Simon_Adaptive_Subspaces_for_Few-Shot_Learning_CVPR_2020_paper.html"
+        },
+        "c": "https://github.com/chrysts/dsn_fewshot",
+        "n": "Adaptive Subspace Network",
+        "d": "2020-06-01",
+        "m1": "81.65"
+      },
+      {
+        "p": {
+          "name": "SimpleShot: Revisiting Nearest-Neighbor Classification for Few-Shot Learning",
+          "link": "https://arxiv.org/abs/1911.04623v2"
+        },
+        "c": "https://github.com/sicara/easy-few-shot-learning",
+        "n": "SimpleShot (CL2N-DenseNet)",
+        "d": "2019-11-12",
+        "m1": "81.5"
+      },
+      {
+        "p": {
+          "name": "Geometric Mean Improves Loss For Few-Shot Learning",
+          "link": "https://arxiv.org/abs/2501.14593v1"
+        },
+        "c": "",
+        "n": "GML (ResNet-12)",
+        "d": "2025-01-24",
+        "m1": "81.13"
+      },
+      {
+        "p": {
+          "name": "MetaFun: Meta-Learning with Iterative Functional Updates",
+          "link": "https://arxiv.org/abs/1912.02738v4"
+        },
+        "c": "https://github.com/jinxu06/metafun-tensorflow",
+        "n": "MetaFun-Attention",
+        "d": "2019-12-05",
+        "m1": "80.82"
+      },
+      {
+        "p": {
+          "name": "DiffKendall: A Novel Approach for Few-Shot Learning with Differentiable Kendall's Rank Correlation",
+          "link": "https://arxiv.org/abs/2307.15317v2"
+        },
+        "c": "https://github.com/kaipengm2/DiffKendall",
+        "n": "DiffKendall (Meta-Baseline, ResNet-12)",
+        "d": "2023-07-28",
+        "m1": "80.79"
+      },
+      {
+        "p": {
+          "name": "Generalized Adaptation for Few-Shot Learning",
+          "link": "https://arxiv.org/abs/1911.10807v3"
+        },
+        "c": "",
+        "n": "ACC + Amphibian",
+        "d": "2019-11-25",
+        "m1": "80.75"
+      },
+      {
+        "p": {
+          "name": "MergedNET: A simple approach for one-shot learning in siamese networks based on similarity layers",
+          "link": "https://doi.org/10.1016/j.neucom.2022.08.070"
+        },
+        "c": "https://github.com/Amotica/MergedNET",
+        "n": "MergedNet-Max",
+        "d": "2022-10-14",
+        "m1": "80.40"
+      },
+      {
+        "p": {
+          "name": "Complementing Representation Deficiency in Few-shot Image Classification: A Meta-Learning Approach",
+          "link": "https://arxiv.org/abs/2007.10778v1"
+        },
+        "c": "https://github.com/GuChenghs/MCRNet",
+        "n": "MCRNet-SVM",
+        "d": "2020-07-21",
+        "m1": "80.34"
+      },
+      {
+        "p": {
+          "name": "Instance Credibility Inference for Few-Shot Learning",
+          "link": "https://arxiv.org/abs/2003.11853v2"
+        },
+        "c": "https://github.com/Yikai-Wang/ICI-FSL",
+        "n": "ICI",
+        "d": "2020-03-26",
+        "m1": "80.11"
+      },
+      {
+        "p": {
+          "name": "Meta-Learning with Differentiable Convex Optimization",
+          "link": "http://arxiv.org/abs/1904.03758v2"
+        },
+        "c": "https://github.com/learnables/learn2learn",
+        "n": "MetaOptNet-SVM-trainval",
+        "d": "2019-04-07",
+        "m1": "80"
+      },
+      {
+        "p": {
+          "name": "Constellation Nets for Few-Shot Learning",
+          "link": "https://openreview.net/forum?id=vujTf_I8Kmc"
+        },
+        "c": "https://github.com/mlpc-ucsd/ConstellationNet",
+        "n": "ConstellationNets",
+        "d": "2021-01-01",
+        "m1": "79.95"
+      },
+      {
+        "p": {
+          "name": "Boosting Few-Shot Learning With Adaptive Margin Loss",
+          "link": "https://arxiv.org/abs/2005.13826v1"
+        },
+        "c": "",
+        "n": "TRAML",
+        "d": "2020-05-28",
+        "m1": "79.54"
+      },
+      {
+        "p": {
+          "name": "Empirical Bayes Transductive Meta-Learning with Synthetic Gradients",
+          "link": "https://arxiv.org/abs/2004.12696v1"
+        },
+        "c": "https://github.com/amzn/xfer",
+        "n": "SIB",
+        "d": "2020-04-27",
+        "m1": "79.2"
+      },
+      {
+        "p": {
+          "name": "Learning to Self-Train for Semi-Supervised Few-Shot Classification",
+          "link": "https://arxiv.org/abs/1906.00562v2"
+        },
+        "c": "https://github.com/xinzheli1217/learning-to-self-train",
+        "n": "LST",
+        "d": "2019-06-03",
+        "m1": "78.7"
+      },
+      {
+        "p": {
+          "name": "Few-Shot Learning via Embedding Adaptation with Set-to-Set Functions",
+          "link": "https://arxiv.org/abs/1812.03664v6"
+        },
+        "c": "https://github.com/sicara/easy-few-shot-learning",
+        "n": "feat+ (ProtoNet-ResNet)",
+        "d": "2018-12-10",
+        "m1": "78.38"
+      },
+      {
+        "p": {
+          "name": "Complementing Representation Deficiency in Few-shot Image Classification: A Meta-Learning Approach",
+          "link": "https://arxiv.org/abs/2007.10778v1"
+        },
+        "c": "https://github.com/GuChenghs/MCRNet",
+        "n": "MCRNet-RR",
+        "d": "2020-07-21",
+        "m1": "78.16"
+      },
+      {
+        "p": {
+          "name": "Adaptive Cross-Modal Few-Shot Learning",
+          "link": "https://arxiv.org/abs/1902.07104v3"
+        },
+        "c": "https://github.com/ElementAI/am3",
+        "n": "AM3-TADAM",
+        "d": "2019-02-19",
+        "m1": "78.10"
+      },
+      {
+        "p": {
+          "name": "Neural TMDlayer: Modeling Instantaneous flow of features via SDE Generators",
+          "link": "https://arxiv.org/abs/2108.08891v1"
+        },
+        "c": "https://github.com/zihangm/neural-tmd-layer",
+        "n": "TMDlayer + Transduction",
+        "d": "2021-08-19",
+        "m1": "77.78"
+      },
+      {
+        "p": {
+          "name": "Bridging Multi-Task Learning and Meta-Learning: Towards Efficient Training and Effective Adaptation",
+          "link": "https://arxiv.org/abs/2106.09017v1"
+        },
+        "c": "https://github.com/AI-secure/multi-task-learning",
+        "n": "Multi-Task Learning",
+        "d": "2021-06-16",
+        "m1": "77.72"
+      },
+      {
+        "p": {
+          "name": "Learning to learn via Self-Critique",
+          "link": "https://arxiv.org/abs/1905.10295v6"
+        },
+        "c": "https://github.com/AntreasAntoniou/Learning_to_Learn_via_Self-Critique",
+        "n": "Self-Critique and Adapt + High-End MAML++",
+        "d": "2019-05-24",
+        "m1": "77.64"
+      },
+      {
+        "p": {
+          "name": "TADAM: Task dependent adaptive metric for improved few-shot learning",
+          "link": "http://arxiv.org/abs/1805.10123v4"
+        },
+        "c": "https://github.com/yaoyao-liu/mini-imagenet-tools",
+        "n": "TADAM",
+        "d": "2018-05-23",
+        "m1": "76.7"
+      },
+      {
+        "p": {
+          "name": "Edge-labeling Graph Neural Network for Few-shot Learning",
+          "link": "https://arxiv.org/abs/1905.01436v1"
+        },
+        "c": "https://github.com/khy0809/fewshot-egnn",
+        "n": "EGNN + Transduction",
+        "d": "2019-05-04",
+        "m1": "76.37"
+      },
+      {
+        "p": {
+          "name": "TapNet: Neural Network Augmented with Task-Adaptive Projection for Few-Shot Learning",
+          "link": "https://arxiv.org/abs/1905.06549v2"
+        },
+        "c": "https://github.com/istarjun/TapNet",
+        "n": "TapNet",
+        "d": "2019-05-16",
+        "m1": "76.36"
+      },
+      {
+        "p": {
+          "name": "RelationNet2: Deep Comparison Columns for Few-Shot Learning",
+          "link": "https://arxiv.org/abs/1811.07100v3"
+        },
+        "c": "https://github.com/zhangxueting/DCN",
+        "n": "Deep Comparison Network",
+        "d": "2018-11-17",
+        "m1": "75.84"
+      },
+      {
+        "p": {
+          "name": "Meta-Transfer Learning for Few-Shot Learning",
+          "link": "http://arxiv.org/abs/1812.02391v3"
+        },
+        "c": "https://github.com/yaoyao-liu/meta-transfer-learning",
+        "n": "MTL",
+        "d": "2018-12-06",
+        "m1": "75.5"
+      },
+      {
+        "p": {
+          "name": "Region Comparison Network for Interpretable Few-shot Image Classification",
+          "link": "https://arxiv.org/abs/2009.03558v1"
+        },
+        "c": "https://github.com/chrisyxue/RCN_for_Interpretable_few_shot",
+        "n": "RCN - ResNet12",
+        "d": "2020-09-08",
+        "m1": "75.19"
+      },
+      {
+        "p": {
+          "name": "Image Deformation Meta-Networks for One-Shot Learning",
+          "link": "https://arxiv.org/abs/1905.11641v2"
+        },
+        "c": "https://github.com/tankche1/IDeMe-Net",
+        "n": "IDeMe-Net",
+        "d": "2019-05-28",
+        "m1": "74.63"
+      },
+      {
+        "p": {
+          "name": "Few-Shot Image Recognition by Predicting Parameters from Activations",
+          "link": "http://arxiv.org/abs/1706.03466v3"
+        },
+        "c": "https://github.com/joe-siyuan-qiao/FewShot-CVPR",
+        "n": "Category-agnostic mapping WRN",
+        "d": "2017-06-12",
+        "m1": "73.74"
+      },
+      {
+        "p": {
+          "name": "Enhancing Few-Shot Image Classification with Unlabelled Examples",
+          "link": "https://arxiv.org/abs/2006.12245v6"
+        },
+        "c": "https://github.com/peymanbateni/simple-cnaps",
+        "n": "Transductive CNAPS",
+        "d": "2020-06-17",
+        "m1": "73.1"
+      },
+      {
+        "p": {
+          "name": "Dynamic Few-Shot Visual Learning without Forgetting",
+          "link": "http://arxiv.org/abs/1804.09458v1"
+        },
+        "c": "https://github.com/gidariss/FewShotWithoutForgetting",
+        "n": "Cosine similarity function + C64F feature extractor",
+        "d": "2018-04-25",
+        "m1": "72.81"
+      },
+      {
+        "p": {
+          "name": "Multi-scale Adaptive Task Attention Network for Few-Shot Learning",
+          "link": "https://arxiv.org/abs/2011.14479v1"
+        },
+        "c": "",
+        "n": "MATANet",
+        "d": "2020-11-30",
+        "m1": "72.67"
+      },
+      {
+        "p": {
+          "name": "Rapid Adaptation with Conditionally Shifted Neurons",
+          "link": "http://arxiv.org/abs/1712.09926v3"
+        },
+        "c": "",
+        "n": "adaResNet (DF)",
+        "d": "2017-12-28",
+        "m1": "71.94"
+      },
+      {
+        "p": {
+          "name": "Match Them Up: Visually Explainable Few-shot Image Classification",
+          "link": "https://arxiv.org/abs/2011.12527v1"
+        },
+        "c": "https://github.com/wbw520/MTUNet",
+        "n": "MTUNet+WRN",
+        "d": "2020-11-25",
+        "m1": "71.93"
+      },
+      {
+        "p": {
+          "name": "Region Comparison Network for Interpretable Few-shot Image Classification",
+          "link": "https://arxiv.org/abs/2009.03558v1"
+        },
+        "c": "https://github.com/chrisyxue/RCN_for_Interpretable_few_shot",
+        "n": "RCN - Conv4-64",
+        "d": "2020-09-08",
+        "m1": "71.63"
+      },
+      {
+        "p": {
+          "name": "Meta-Learning with a Geometry-Adaptive Preconditioner",
+          "link": "https://arxiv.org/abs/2304.01552v2"
+        },
+        "c": "https://github.com/suhyun777/cvpr23-gap",
+        "n": "GAP",
+        "d": "2023-04-04",
+        "m1": "71.55"
+      },
+      {
+        "p": {
+          "name": "Revisiting Local Descriptor based Image-to-Class Measure for Few-shot Learning",
+          "link": "http://arxiv.org/abs/1903.12290v2"
+        },
+        "c": "https://github.com/WenbinLee/DN4",
+        "n": "DN4 (k=3)",
+        "d": "2019-03-28",
+        "m1": "71.02"
+      },
+      {
+        "p": {
+          "name": "Improved Few-Shot Visual Classification",
+          "link": "https://arxiv.org/abs/1912.03432v3"
+        },
+        "c": "https://github.com/peymanbateni/simple-cnaps",
+        "n": "Simple CNAPS",
+        "d": "2019-12-07",
+        "m1": "70.8"
+      },
+      {
+        "p": {
+          "name": "Meta-Learning with a Geometry-Adaptive Preconditioner",
+          "link": "https://arxiv.org/abs/2304.01552v2"
+        },
+        "c": "https://github.com/suhyun777/cvpr23-gap",
+        "n": "Approximate GAP",
+        "d": "2023-04-04",
+        "m1": "70.75"
+      },
+      {
+        "p": {
+          "name": "Meta-Curvature",
+          "link": "https://arxiv.org/abs/1902.03356v3"
+        },
+        "c": "https://github.com/silverbottlep/meta_curvature",
+        "n": "MC2+",
+        "d": "2019-02-09",
+        "m1": "70.33"
+      },
+      {
+        "p": {
+          "name": "Match Them Up: Visually Explainable Few-shot Image Classification",
+          "link": "https://arxiv.org/abs/2011.12527v1"
+        },
+        "c": "https://github.com/wbw520/MTUNet",
+        "n": "MTUNet+ResNet-18",
+        "d": "2020-11-25",
+        "m1": "70.22"
+      },
+      {
+        "p": {
+          "name": "HyperShot: Few-Shot Learning by Kernel HyperNetworks",
+          "link": "https://arxiv.org/abs/2203.11378v1"
+        },
+        "c": "https://github.com/gmum/few-shot-hypernets-public",
+        "n": "HyperShot",
+        "d": "2022-03-21",
+        "m1": "69.62%"
+      },
+      {
+        "p": {
+          "name": "Prototypical Networks for Few-shot Learning",
+          "link": "http://arxiv.org/abs/1703.05175v2"
+        },
+        "c": "https://github.com/learnables/learn2learn",
+        "n": "Prototypical Networks",
+        "d": "2017-03-15",
+        "m1": "68.20"
+      },
+      {
+        "p": {
+          "name": "VNE: An Effective Method for Improving Deep Representation by Manipulating Eigenvalue Distribution",
+          "link": "https://arxiv.org/abs/2304.01434v1"
+        },
+        "c": "https://github.com/jaeill/CVPR23-VNE",
+        "n": "VNE (BOIL)",
+        "d": "2023-04-04",
+        "m1": "67.52"
+      },
+      {
+        "p": {
+          "name": "How to train your MAML",
+          "link": "http://arxiv.org/abs/1810.09502v3"
+        },
+        "c": "https://github.com/AntreasAntoniou/HowToTrainYourMAMLPytorch",
+        "n": "MAML++",
+        "d": "2018-10-22",
+        "m1": "67.15"
+      },
+      {
+        "p": {
+          "name": "Hyperbolic Image Embeddings",
+          "link": "https://arxiv.org/abs/1904.02239v2"
+        },
+        "c": "https://github.com/KhrulkovV/hyperbolic-image-embeddings",
+        "n": "Hyperbolic ProtoNet",
+        "d": "2019-04-03",
+        "m1": "66.27"
+      },
+      {
+        "p": {
+          "name": "On First-Order Meta-Learning Algorithms",
+          "link": "http://arxiv.org/abs/1803.02999v3"
+        },
+        "c": "https://github.com/learnables/learn2learn",
+        "n": "Reptile + Transduction",
+        "d": "2018-03-08",
+        "m1": "65.99"
+      },
+      {
+        "p": {
+          "name": "Uncertainty in Model-Agnostic Meta-Learning using Variational Inference",
+          "link": "https://arxiv.org/abs/1907.11864v2"
+        },
+        "c": "https://github.com/cnguyen10/few_shot_meta_learning",
+        "n": "VAMPIRE",
+        "d": "2019-07-27",
+        "m1": "64.31"
+      },
+      {
+        "p": {
+          "name": "Bayesian Meta-Learning for the Few-Shot Setting via Deep Kernels",
+          "link": "https://arxiv.org/abs/1910.05199v4"
+        },
+        "c": "https://github.com/BayesWatch/deep-kernel-transfer",
+        "n": "DKT + BNCosSim",
+        "d": "2019-10-11",
+        "m1": "64.0"
+      },
+      {
+        "p": {
+          "name": "PAC-Bayes meta-learning with implicit task-specific posteriors",
+          "link": "https://arxiv.org/abs/2003.02455v3"
+        },
+        "c": "https://github.com/cnguyen10/few_shot_meta_learning",
+        "n": "SImPa",
+        "d": "2020-03-05",
+        "m1": "63.87"
+      },
+      {
+        "p": {
+          "name": "Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks",
+          "link": "http://arxiv.org/abs/1703.03400v3"
+        },
+        "c": "https://github.com/ray-project/ray/tree/master/rllib",
+        "n": "MAML",
+        "d": "2017-03-09",
+        "m1": "63.1"
+      },
+      {
+        "p": {
+          "name": "Matching Networks for One Shot Learning",
+          "link": "http://arxiv.org/abs/1606.04080v2"
+        },
+        "c": "https://github.com/oscarknagg/few-shot",
+        "n": "Matching Nets (Cosine Matching Fn)",
+        "d": "2016-06-13",
+        "m1": "60"
+      }
+    ]
+  }
+}

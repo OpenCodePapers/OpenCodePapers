@@ -1,0 +1,158 @@
+{
+  "title": "unsupervised-action-segmentation-on-youtube-inria-instructional",
+  "task-hierarchy": [
+    "Action Localization",
+    "Action Segmentation",
+    "Unsupervised Action Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://www.di.ens.fr/willow/research/instructionvideos/",
+    "paper": "Unsupervised Learning from Narrated Instruction Videos"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Acc",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Precision",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Recall",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "mIoU",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "A Perceptual Prediction Framework for Self Supervised Event Segmentation",
+          "link": "http://arxiv.org/abs/1811.04869v3"
+        },
+        "c": "https://github.com/CVPRUSFTampa/EventSegmentation",
+        "n": "LSTM+AL",
+        "d": "2018-11-12",
+        "m1": "39.7"
+      },
+      {
+        "p": {
+          "name": "Temporally Consistent Unbalanced Optimal Transport for Unsupervised Action Segmentation",
+          "link": "https://arxiv.org/abs/2404.01518v3"
+        },
+        "c": "https://github.com/mingu6/action_seg_ot",
+        "n": "ASOT",
+        "d": "2024-04-01",
+        "m1": "35.1",
+        "m2": "52.9",
+        "m3": "47.6",
+        "m4": "27.8",
+        "m5": "24.7"
+      },
+      {
+        "p": {
+          "name": "Hierarchical Vector Quantization for Unsupervised Action Segmentation",
+          "link": "https://arxiv.org/abs/2412.17640v2"
+        },
+        "c": "https://github.com/fedespu/hvq",
+        "n": "HVQ",
+        "d": "2024-12-23",
+        "m1": "35.1",
+        "m2": "50.3",
+        "m3": "32.1",
+        "m4": "38.7"
+      },
+      {
+        "p": {
+          "name": "Unsupervised Action Segmentation by Joint Representation Learning and Online Clustering",
+          "link": "https://arxiv.org/abs/2105.13353v7"
+        },
+        "c": "https://github.com/trquhuytin/TOT-CVPR22",
+        "n": "TOT+TCL",
+        "d": "2021-05-27",
+        "m1": "32.9",
+        "m2": "45.3",
+        "m3": "40.1",
+        "m4": "27.9"
+      },
+      {
+        "p": {
+          "name": "Permutation-Aware Action Segmentation via Unsupervised Frame-to-Segment Alignment",
+          "link": "https://arxiv.org/abs/2305.19478v4"
+        },
+        "c": "https://github.com/trquhuytin/TOT-CVPR22",
+        "n": "UFSA",
+        "d": "2023-05-31",
+        "m1": "32.4",
+        "m2": "49.6"
+      },
+      {
+        "p": {
+          "name": "Action Shuffle Alternating Learning for Unsupervised Action Segmentation",
+          "link": "https://arxiv.org/abs/2104.02116v1"
+        },
+        "c": "",
+        "n": "ASAL",
+        "d": "2021-04-05",
+        "m1": "32.1",
+        "m2": "44.9"
+      },
+      {
+        "p": {
+          "name": "Unsupervised Action Segmentation by Joint Representation Learning and Online Clustering",
+          "link": "https://arxiv.org/abs/2105.13353v7"
+        },
+        "c": "https://github.com/trquhuytin/TOT-CVPR22",
+        "n": "TOT",
+        "d": "2021-05-27",
+        "m1": "30.0",
+        "m2": "40.6",
+        "m3": "28.7",
+        "m4": "31.4"
+      },
+      {
+        "p": {
+          "name": "Unsupervised learning of action classes with continuous temporal embedding",
+          "link": "http://arxiv.org/abs/1904.04189v1"
+        },
+        "c": "https://github.com/annusha/unsup_temp_embed",
+        "n": "CTE",
+        "d": "2019-04-08",
+        "m1": "28.3",
+        "m2": "39",
+        "m3": "39.3",
+        "m4": "22.1"
+      }
+    ]
+  }
+}

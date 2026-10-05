@@ -1,0 +1,75 @@
+{
+  "title": "out-of-distribution-detection-on-imagenet-1k-vs-imagenet-o",
+  "task-hierarchy": [
+    "Out-of-Distribution Detection"
+  ],
+  "dataset-info": {
+    "link": "",
+    "paper": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "FPR95",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "AUROC",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Nearest Neighbor Guidance for Out-of-Distribution Detection",
+          "link": "https://arxiv.org/abs/2309.14888v1"
+        },
+        "c": "https://github.com/jingkang50/openood",
+        "n": "NNGuide-ViM (ViT-B/16)",
+        "d": "2023-09-26",
+        "m1": "33.10",
+        "m2": "92.96"
+      },
+      {
+        "p": {
+          "name": "ViM: Out-Of-Distribution with Virtual-logit Matching",
+          "link": "https://arxiv.org/abs/2203.10807v1"
+        },
+        "c": "https://github.com/jingkang50/openood",
+        "n": "ViM (ViT-B/16)",
+        "d": "2022-03-21",
+        "m1": "36.75",
+        "m2": "92.55"
+      },
+      {
+        "p": {
+          "name": "GEN: Pushing the Limits of Softmax-Based Out-of-Distribution Detection",
+          "link": "http://openaccess.thecvf.com//content/CVPR2023/html/Liu_GEN_Pushing_the_Limits_of_Softmax-Based_Out-of-Distribution_Detection_CVPR_2023_paper.html"
+        },
+        "c": "https://github.com/xixiliu95/gen",
+        "n": "GEN",
+        "d": "2023-01-01",
+        "m1": "97.30"
+      }
+    ]
+  }
+}

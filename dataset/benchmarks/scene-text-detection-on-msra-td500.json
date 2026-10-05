@@ -1,11 +1,12 @@
 {
   "title": "scene-text-detection-on-msra-td500",
   "task-hierarchy": [
+    "Optical Character Recognition (OCR)",
     "Scene Text Detection"
   ],
   "dataset-info": {
-    "link": "http://www.iapr-tc11.org/mediawiki/index.php/MSRA_Text_Detection_500_Database_(MSRA-TD500",
-    "paper": ""
+    "link": "http://www.iapr-tc11.org/mediawiki/index.php/MSRA_Text_Detection_500_Database_(MSRA-TD500)",
+    "paper": "Detecting Texts of Arbitrary Orientations in Natural Images"
   },
   "benchmark": {
     "fields": [

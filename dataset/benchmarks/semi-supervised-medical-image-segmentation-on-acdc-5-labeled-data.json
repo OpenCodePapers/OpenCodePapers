@@ -1,0 +1,79 @@
+{
+  "title": "semi-supervised-medical-image-segmentation-on-acdc-5-labeled-data",
+  "task-hierarchy": [
+    "Medical Image Segmentation",
+    "Semi-supervised Medical Image Segmentation"
+  ],
+  "dataset-info": {
+    "link": "",
+    "paper": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Dice (Average)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Alternate Diverse Teaching for Semi-supervised Medical Image Segmentation",
+          "link": "https://arxiv.org/abs/2311.17325v2"
+        },
+        "c": "https://github.com/zhenzhao/ad-mt",
+        "n": "AD-MT",
+        "d": "2023-11-29",
+        "m1": "88.75"
+      },
+      {
+        "p": {
+          "name": "CrossMatch: Enhance Semi-Supervised Medical Image Segmentation with Perturbation Strategies and Knowledge Distillation",
+          "link": "https://arxiv.org/abs/2405.00354v2"
+        },
+        "c": "https://github.com/aieson/crossmatch",
+        "n": "CrossMatch",
+        "d": "2024-05-01",
+        "m1": "88.27"
+      },
+      {
+        "p": {
+          "name": "Revisiting Weak-to-Strong Consistency in Semi-Supervised Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2208.09910v2"
+        },
+        "c": "https://github.com/LiheYoung/UniMatch",
+        "n": "UniMatch",
+        "d": "2022-08-21",
+        "m1": "87.61"
+      },
+      {
+        "p": {
+          "name": "Bidirectional Copy-Paste for Semi-Supervised Medical Image Segmentation",
+          "link": "https://arxiv.org/abs/2305.00673v1"
+        },
+        "c": "https://github.com/HiLab-git/SSL4MIS",
+        "n": "BCP",
+        "d": "2023-05-01",
+        "m1": "87.59"
+      }
+    ]
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "title": "monocular-depth-estimation-on-nyu-depth-v2-self-supervised",
+  "task-hierarchy": [
+    "Depth Estimation",
+    "Monocular Depth Estimation"
+  ],
+  "dataset-info": {
+    "link": "https://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html",
+    "paper": "Indoor Segmentation and Support Inference from RGBD Images"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Root mean square error (RMSE)",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Absolute relative error (AbsRel)",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "delta_1",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "delta_2",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "delta_3",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Deeper into Self-Supervised Monocular Indoor Depth Estimation",
+          "link": "https://arxiv.org/abs/2312.01283v1"
+        },
+        "c": "https://github.com/fcntes/indoordepth",
+        "n": "IndoorDepth",
+        "d": "2023-12-03",
+        "m1": "0.494",
+        "m2": "0.126",
+        "m3": "84.5",
+        "m4": "96.5",
+        "m5": "99.1"
+      },
+      {
+        "p": {
+          "name": "Toward Practical Monocular Indoor Depth Estimation",
+          "link": "https://arxiv.org/abs/2112.02306v2"
+        },
+        "c": "https://github.com/facebookresearch/DistDepth",
+        "n": "DistDepth",
+        "d": "2021-12-04",
+        "m1": "0.517",
+        "m2": "0.130",
+        "m3": "83.2",
+        "m4": "96.3",
+        "m5": "99.0"
+      },
+      {
+        "p": {
+          "name": "MonoIndoor: Towards Good Practice of Self-Supervised Monocular Depth Estimation for Indoor Environments",
+          "link": "https://arxiv.org/abs/2107.12429v2"
+        },
+        "c": "",
+        "n": "MonoIndoor",
+        "d": "2021-07-26",
+        "m1": "0.526",
+        "m2": "0.134",
+        "m3": "82.3",
+        "m4": "95.8",
+        "m5": "98.9"
+      },
+      {
+        "p": {
+          "name": "StructDepth: Leveraging the structural regularities for self-supervised indoor depth estimation",
+          "link": "https://arxiv.org/abs/2108.08574v1"
+        },
+        "c": "https://github.com/sjtu-visys/structdepth",
+        "n": "StrutDepth",
+        "d": "2021-08-19",
+        "m1": "0.540",
+        "m2": "0.142",
+        "m3": "81.3",
+        "m4": "95.4",
+        "m5": "98.8"
+      },
+      {
+        "p": {
+          "name": "P$^{2}$Net: Patch-match and Plane-regularization for Unsupervised Indoor Depth Estimation",
+          "link": "https://arxiv.org/abs/2007.07696v1"
+        },
+        "c": "https://github.com/svip-lab/Indoor-SfMLearner",
+        "n": "P2Net+PP",
+        "d": "2020-07-15",
+        "m1": "0.553",
+        "m2": "0.147",
+        "m3": "80.4",
+        "m4": "95.2",
+        "m5": "98.7"
+      },
+      {
+        "p": {
+          "name": "Unsupervised Scale-consistent Depth Learning from Video",
+          "link": "https://arxiv.org/abs/2105.11610v1"
+        },
+        "c": "https://github.com/JiawangBian/SC-SfMLearner-Release",
+        "n": "Bian et al",
+        "d": "2021-05-25",
+        "m1": "0.593",
+        "m2": "0.157",
+        "m3": "78.0",
+        "m4": "94.0",
+        "m5": "98.4"
+      },
+      {
+        "p": {
+          "name": "Towards Better Generalization: Joint Depth-Pose Learning without PoseNet",
+          "link": "https://arxiv.org/abs/2004.01314v2"
+        },
+        "c": "https://github.com/B1ueber2y/TrianFlow",
+        "n": "Zhao et al",
+        "d": "2020-04-03",
+        "m1": "0.686",
+        "m2": "0.189",
+        "m3": "70.1",
+        "m4": "91.2",
+        "m5": "97.8"
+      },
+      {
+        "p": {
+          "name": "Moving Indoor: Unsupervised Video Depth Learning in Challenging Environments",
+          "link": "https://arxiv.org/abs/1910.08898v1"
+        },
+        "c": "",
+        "n": "Zhou et al",
+        "d": "2019-10-20",
+        "m1": "0.712",
+        "m2": "0.208",
+        "m3": "67.4",
+        "m4": "90.0",
+        "m5": "96.8"
+      }
+    ]
+  }
+}

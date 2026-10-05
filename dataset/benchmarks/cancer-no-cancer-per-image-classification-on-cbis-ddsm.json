@@ -1,0 +1,200 @@
+{
+  "title": "cancer-no-cancer-per-image-classification-on-cbis-ddsm",
+  "task-hierarchy": [
+    "Medical Image Analysis",
+    "Medical Image Classification",
+    "Cancer-no cancer per image classification"
+  ],
+  "dataset-info": {
+    "link": "https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=22516629",
+    "paper": "A curated mammography data set for use in computer-aided detection and diagnosis research"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AUC",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Exploiting Patch Sizes and Resolutions for Multi-Scale Deep Learning in Mammogram Image Classification",
+          "link": "https://www.mdpi.com/2306-5354/10/5/534"
+        },
+        "c": "",
+        "n": "Multi-patch size DenseNet-121",
+        "d": "2023-04-21",
+        "m1": "0.809"
+      },
+      {
+        "p": {
+          "name": "Breast Cancer Diagnosis in Two-View Mammography Using End-to-End Trained EfficientNet-Based Convolutional Network",
+          "link": "https://arxiv.org/abs/2110.01606v3"
+        },
+        "c": "https://github.com/dpetrini/two-views-classifier",
+        "n": "SingleView_PatchBased_EfficientNet-B0",
+        "d": "2021-10-01",
+        "m1": "0.8033"
+      },
+      {
+        "p": {
+          "name": "Beyond Fine-tuning: Classifying High Resolution Mammograms using Function-Preserving Transformations",
+          "link": "https://arxiv.org/abs/2101.07945v1"
+        },
+        "c": "",
+        "n": "MorphHR-ResNet18_S896",
+        "d": "2021-01-20",
+        "m1": "0.7964"
+      },
+      {
+        "p": {
+          "name": "Beyond Fine-tuning: Classifying High Resolution Mammograms using Function-Preserving Transformations",
+          "link": "https://arxiv.org/abs/2101.07945v1"
+        },
+        "c": "",
+        "n": "ResNet18_S896",
+        "d": "2021-01-20",
+        "m1": "0.7958"
+      },
+      {
+        "p": {
+          "name": "Breast Cancer Diagnosis in Two-View Mammography Using End-to-End Trained EfficientNet-Based Convolutional Network",
+          "link": "https://arxiv.org/abs/2110.01606v3"
+        },
+        "c": "https://github.com/dpetrini/two-views-classifier",
+        "n": "SingleView_PatchBased_EfficientNet-B3",
+        "d": "2021-10-01",
+        "m1": "0.7952"
+      },
+      {
+        "p": {
+          "name": "Exploiting Patch Sizes and Resolutions for Multi-Scale Deep Learning in Mammogram Image Classification",
+          "link": "https://www.mdpi.com/2306-5354/10/5/534"
+        },
+        "c": "",
+        "n": "Multi-resolution DenseNet-121",
+        "d": "2023-04-21",
+        "m1": "0.789"
+      },
+      {
+        "p": {
+          "name": "Beyond Fine-tuning: Classifying High Resolution Mammograms using Function-Preserving Transformations",
+          "link": "https://arxiv.org/abs/2101.07945v1"
+        },
+        "c": "",
+        "n": "ResNet18_S448",
+        "d": "2021-01-20",
+        "m1": "0.7882"
+      },
+      {
+        "p": {
+          "name": "Exploiting Patch Sizes and Resolutions for Multi-Scale Deep Learning in Mammogram Image Classification",
+          "link": "https://www.mdpi.com/2306-5354/10/5/534"
+        },
+        "c": "",
+        "n": "Feature Pyramid Network DenseNet-121",
+        "d": "2023-04-21",
+        "m1": "0.788"
+      },
+      {
+        "p": {
+          "name": "Exploiting Patch Sizes and Resolutions for Multi-Scale Deep Learning in Mammogram Image Classification",
+          "link": "https://www.mdpi.com/2306-5354/10/5/534"
+        },
+        "c": "",
+        "n": "Patch-based DenseNet-121",
+        "d": "2023-04-21",
+        "m1": "0.784"
+      },
+      {
+        "p": {
+          "name": "Beyond Fine-tuning: Classifying High Resolution Mammograms using Function-Preserving Transformations",
+          "link": "https://arxiv.org/abs/2101.07945v1"
+        },
+        "c": "",
+        "n": "MorphHR-ResNet18_S448",
+        "d": "2021-01-20",
+        "m1": "0.7836"
+      },
+      {
+        "p": {
+          "name": "Beyond Fine-tuning: Classifying High Resolution Mammograms using Function-Preserving Transformations",
+          "link": "https://arxiv.org/abs/2101.07945v1"
+        },
+        "c": "",
+        "n": "MorphHR-ResNet18_S224",
+        "d": "2021-01-20",
+        "m1": "0.7523"
+      },
+      {
+        "p": {
+          "name": "Deep Learning to Improve Breast Cancer Early Detection on Screening Mammography",
+          "link": "http://arxiv.org/abs/1708.09427v5"
+        },
+        "c": "https://github.com/lishen/end2end-all-conv",
+        "n": "VGG/ResNet",
+        "d": "2017-08-30",
+        "m1": "0.75"
+      },
+      {
+        "p": {
+          "name": "Breast Cancer Diagnosis in Two-View Mammography Using End-to-End Trained EfficientNet-Based Convolutional Network",
+          "link": "https://arxiv.org/abs/2110.01606v3"
+        },
+        "c": "https://github.com/dpetrini/two-views-classifier",
+        "n": "VGG/ResNet",
+        "d": "2021-10-01",
+        "m1": "0.75"
+      },
+      {
+        "p": {
+          "name": "Beyond Fine-tuning: Classifying High Resolution Mammograms using Function-Preserving Transformations",
+          "link": "https://arxiv.org/abs/2101.07945v1"
+        },
+        "c": "",
+        "n": "ResNet18_S224",
+        "d": "2021-01-20",
+        "m1": "0.7257"
+      },
+      {
+        "p": {
+          "name": "Machine Learning Algorithms for Breast Cancer Detection in Mammography Images: A Comparative Study",
+          "link": "https://pdfs.semanticscholar.org/9131/a8fe454ece5c207a41c9e594b3435f08824c.pdf"
+        },
+        "c": "",
+        "n": "XGBoost",
+        "d": "2021-04-26",
+        "m1": "0.6849"
+      },
+      {
+        "p": {
+          "name": "Machine Learning Algorithms for Breast Cancer Detection in Mammography Images: A Comparative Study",
+          "link": "https://pdfs.semanticscholar.org/9131/a8fe454ece5c207a41c9e594b3435f08824c.pdf"
+        },
+        "c": "",
+        "n": "VGG16",
+        "d": "2021-04-26",
+        "m1": "0.6822"
+      }
+    ]
+  }
+}

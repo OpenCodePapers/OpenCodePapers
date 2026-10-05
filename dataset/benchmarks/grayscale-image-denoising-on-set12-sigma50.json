@@ -1,12 +1,13 @@
 {
   "title": "grayscale-image-denoising-on-set12-sigma50",
   "task-hierarchy": [
-    "Denoising",
+    "Image Restoration",
+    "Image Denoising",
     "Grayscale Image Denoising"
   ],
   "dataset-info": {
     "link": "",
-    "paper": ""
+    "paper": "Beyond a Gaussian Denoiser: Residual Learning of Deep CNN for Image Denoising"
   },
   "benchmark": {
     "fields": [

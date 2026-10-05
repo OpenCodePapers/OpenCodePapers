@@ -1,0 +1,119 @@
+{
+  "title": "few-shot-image-classification-on-dirichlet-cub-200-5-way-5-shot",
+  "task-hierarchy": [
+    "Image Classification",
+    "Few-Shot Image Classification"
+  ],
+  "dataset-info": {
+    "link": "",
+    "paper": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "1:1 Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Adaptive Dimension Reduction and Variational Inference for Transductive Few-Shot Classification",
+          "link": "https://arxiv.org/abs/2209.08527v1"
+        },
+        "c": "",
+        "n": "BAVARDAGE",
+        "d": "2022-09-18",
+        "m1": "90.7"
+      },
+      {
+        "p": {
+          "name": "Realistic Evaluation of Transductive Few-Shot Learning",
+          "link": "https://arxiv.org/abs/2204.11181v1"
+        },
+        "c": "https://github.com/oveilleux/realistic_transductive_few_shot",
+        "n": "\\alpha-TIM",
+        "d": "2022-04-24",
+        "m1": "89.8"
+      },
+      {
+        "p": {
+          "name": "Laplacian Regularized Few-Shot Learning",
+          "link": "https://arxiv.org/abs/2006.15486v3"
+        },
+        "c": "https://github.com/sicara/easy-few-shot-learning",
+        "n": "Laplacian-Shot",
+        "d": "2020-06-28",
+        "m1": "87.7"
+      },
+      {
+        "p": {
+          "name": "A Closer Look at Few-shot Classification",
+          "link": "https://arxiv.org/abs/1904.04232v2"
+        },
+        "c": "https://github.com/sicara/easy-few-shot-learning",
+        "n": "Baseline++",
+        "d": "2019-04-08",
+        "m1": "87.5"
+      },
+      {
+        "p": {
+          "name": "SimpleShot: Revisiting Nearest-Neighbor Classification for Few-Shot Learning",
+          "link": "https://arxiv.org/abs/1911.04623v2"
+        },
+        "c": "https://github.com/sicara/easy-few-shot-learning",
+        "n": "Simpleshot",
+        "d": "2019-11-12",
+        "m1": "87.5"
+      },
+      {
+        "p": {
+          "name": "Prototype Rectification for Few-Shot Learning",
+          "link": "https://arxiv.org/abs/1911.10713v4"
+        },
+        "c": "https://github.com/sicara/easy-few-shot-learning",
+        "n": "BDCSPN",
+        "d": "2019-11-25",
+        "m1": "87.1"
+      },
+      {
+        "p": {
+          "name": "A Baseline for Few-Shot Image Classification",
+          "link": "https://arxiv.org/abs/1909.02729v5"
+        },
+        "c": "https://github.com/learnables/learn2learn",
+        "n": "Entropy Minimization",
+        "d": "2019-09-06",
+        "m1": "82.9"
+      },
+      {
+        "p": {
+          "name": "Leveraging the Feature Distribution in Transfer-based Few-Shot Learning",
+          "link": "https://arxiv.org/abs/2006.03806v3"
+        },
+        "c": "https://github.com/sicara/easy-few-shot-learning",
+        "n": "PT-MAP",
+        "d": "2020-06-06",
+        "m1": "71.3"
+      }
+    ]
+  }
+}

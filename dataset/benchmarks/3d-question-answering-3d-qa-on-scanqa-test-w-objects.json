@@ -1,0 +1,324 @@
+{
+  "title": "3d-question-answering-3d-qa-on-scanqa-test-w-objects",
+  "task-hierarchy": [
+    "Visual Question Answering (VQA)",
+    "3D Question Answering (3D-QA)"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/ATR-DBI/ScanQA",
+    "paper": "ScanQA: 3D Question Answering for Spatial Scene Understanding"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Exact Match",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "BLEU-1",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "BLEU-4",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "ROUGE",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "METEOR",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "CIDEr",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Bridging the Gap between 2D and 3D Visual Question Answering: A Fusion Approach for 3D VQA",
+          "link": "https://arxiv.org/abs/2402.15933v1"
+        },
+        "c": "https://github.com/matthewdm0816/bridgeqa",
+        "n": "BridgeQA",
+        "d": "2024-02-24",
+        "m1": "31.29",
+        "m2": "34.49",
+        "m3": "24.06",
+        "m4": "43.26",
+        "m5": "16.51",
+        "m6": "83.75"
+      },
+      {
+        "p": {
+          "name": "LLaVA-3D: A Simple yet Effective Pathway to Empowering LMMs with 3D-awareness",
+          "link": "https://arxiv.org/abs/2409.18125v2"
+        },
+        "c": "",
+        "n": "LLaVA-3D",
+        "d": "2024-09-26",
+        "m1": "30.6",
+        "m3": "16.4",
+        "m4": "49.6",
+        "m5": "20.8",
+        "m6": "103.1"
+      },
+      {
+        "p": {
+          "name": "Video-3D LLM: Learning Position-Aware Video Representation for 3D Scene Understanding",
+          "link": "https://arxiv.org/abs/2412.00493v2"
+        },
+        "c": "https://github.com/LaVi-Lab/Video-3D-LLM",
+        "n": "Video-3D LLM",
+        "d": "2024-11-30",
+        "m1": "30.1",
+        "m6": "102.1"
+      },
+      {
+        "p": {
+          "name": "Scene-LLM: Extending Language Model for 3D Visual Understanding and Reasoning",
+          "link": "https://arxiv.org/abs/2403.11401v2"
+        },
+        "c": "",
+        "n": "Scene-LLM",
+        "d": "2024-03-18",
+        "m1": "27.2",
+        "m3": "12.0",
+        "m4": "40.0",
+        "m5": "16.6",
+        "m6": "80"
+      },
+      {
+        "p": {
+          "name": "Towards Learning a Generalist Model for Embodied Navigation",
+          "link": "https://arxiv.org/abs/2312.02010v3"
+        },
+        "c": "https://github.com/zd11024/NaviLLM",
+        "n": "NaviLLM",
+        "d": "2023-12-04",
+        "m1": "26.27",
+        "m2": "39.73",
+        "m3": "13.90",
+        "m4": "40.23",
+        "m5": "16.56",
+        "m6": "80.77"
+      },
+      {
+        "p": {
+          "name": "An Embodied Generalist Agent in 3D World",
+          "link": "https://arxiv.org/abs/2311.12871v3"
+        },
+        "c": "https://github.com/embodied-generalist/embodied-generalist",
+        "n": "LEO",
+        "d": "2023-11-18",
+        "m1": "24.5",
+        "m3": "13.2",
+        "m4": "49.2",
+        "m5": "20.0",
+        "m6": "101.4"
+      },
+      {
+        "p": {
+          "name": "ScanQA: 3D Question Answering for Spatial Scene Understanding",
+          "link": "https://arxiv.org/abs/2112.10482v3"
+        },
+        "c": "https://github.com/atr-dbi/scanqa",
+        "n": "ScanQA",
+        "d": "2021-12-20",
+        "m1": "23.45",
+        "m2": "31.56",
+        "m3": "12.04",
+        "m4": "34.34",
+        "m5": "13.55",
+        "m6": "67.29"
+      },
+      {
+        "p": {
+          "name": "3D-LLM: Injecting the 3D World into Large Language Models",
+          "link": "https://arxiv.org/abs/2307.12981v1"
+        },
+        "c": "https://github.com/umass-foundation-model/3d-llm",
+        "n": "3D-LLM (flamingo)",
+        "d": "2023-07-24",
+        "m1": "23.2",
+        "m2": "32.6",
+        "m3": "8.4",
+        "m4": "34.8",
+        "m5": "13.5",
+        "m6": "65.6"
+      },
+      {
+        "p": {
+          "name": "3D-VisTA: Pre-trained Transformer for 3D Vision and Text Alignment",
+          "link": "https://arxiv.org/abs/2308.04352v1"
+        },
+        "c": "https://github.com/3d-vista/3D-VisTA",
+        "n": "3D-VisTA",
+        "d": "2023-08-08",
+        "m1": "22.4",
+        "m2": "",
+        "m3": "10.4",
+        "m4": "35.7",
+        "m5": "13.9",
+        "m6": "69.6"
+      },
+      {
+        "p": {
+          "name": "Chat-Scene: Bridging 3D Scene and Large Language Models with Object Identifiers",
+          "link": "https://arxiv.org/abs/2312.08168v4"
+        },
+        "c": "https://github.com/chat-3d/chat-3d-v2",
+        "n": "ChatScene",
+        "d": "2023-12-13",
+        "m1": "21.6",
+        "m3": "14.3",
+        "m4": "41.6",
+        "m5": "18.0",
+        "m6": "87.7"
+      },
+      {
+        "p": {
+          "name": "ScanQA: 3D Question Answering for Spatial Scene Understanding",
+          "link": "https://arxiv.org/abs/2112.10482v3"
+        },
+        "c": "https://github.com/atr-dbi/scanqa",
+        "n": "ScanRefer+MCAN",
+        "d": "2021-12-20",
+        "m1": "20.56",
+        "m2": "27.85",
+        "m3": "7.46",
+        "m4": "30.68",
+        "m5": "11.97",
+        "m6": "57.56"
+      },
+      {
+        "p": {
+          "name": "ScanQA: 3D Question Answering for Spatial Scene Understanding",
+          "link": "https://arxiv.org/abs/2112.10482v3"
+        },
+        "c": "https://github.com/atr-dbi/scanqa",
+        "n": "VoteNet+MCAN",
+        "d": "2021-12-20",
+        "m1": "19.71",
+        "m2": "29.46",
+        "m3": "6.08",
+        "m4": "30.97",
+        "m5": "12.07",
+        "m6": "58.23"
+      },
+      {
+        "p": {
+          "name": "MVBench: A Comprehensive Multi-modal Video Understanding Benchmark",
+          "link": "https://arxiv.org/abs/2311.17005v4"
+        },
+        "c": "https://github.com/opengvlab/ask-anything",
+        "n": "VideoChat2",
+        "d": "2023-11-28",
+        "m1": "19.2",
+        "m3": "9.6",
+        "m4": "28.2",
+        "m5": "9.5",
+        "m6": "49.2"
+      },
+      {
+        "p": {
+          "name": "3D-LLM: Injecting the 3D World into Large Language Models",
+          "link": "https://arxiv.org/abs/2307.12981v1"
+        },
+        "c": "https://github.com/umass-foundation-model/3d-llm",
+        "n": "3D-LLM (BLIP2-flant5)",
+        "d": "2023-07-24",
+        "m1": "19.1",
+        "m2": "38.3",
+        "m3": "11.6",
+        "m4": "35.3",
+        "m5": "14.9",
+        "m6": "69.6"
+      },
+      {
+        "p": {
+          "name": "3D-LLM: Injecting the 3D World into Large Language Models",
+          "link": "https://arxiv.org/abs/2307.12981v1"
+        },
+        "c": "https://github.com/umass-foundation-model/3d-llm",
+        "n": "3D-LLM (BLIP2-opt)",
+        "d": "2023-07-24",
+        "m1": "19.1",
+        "m2": "37.3",
+        "m3": "10.7",
+        "m4": "34.5",
+        "m5": "14.3",
+        "m6": "67.1"
+      },
+      {
+        "p": {
+          "name": "LLaVA-OneVision: Easy Visual Task Transfer",
+          "link": "https://arxiv.org/abs/2408.03326v3"
+        },
+        "c": "https://github.com/evolvinglmms-lab/lmms-eval",
+        "n": "LLaVA-NeXT-Video",
+        "d": "2024-08-06",
+        "m1": "18.7",
+        "m3": "9.8",
+        "m4": "27.8",
+        "m5": "9.1",
+        "m6": "46.2"
+      },
+      {
+        "p": {
+          "name": "Chat-Scene: Bridging 3D Scene and Large Language Models with Object Identifiers",
+          "link": "https://arxiv.org/abs/2312.08168v4"
+        },
+        "c": "https://github.com/chat-3d/chat-3d-v2",
+        "n": "Chat-3D v2",
+        "d": "2023-12-13",
+        "m1": "",
+        "m2": "",
+        "m3": "14.0",
+        "m4": "",
+        "m5": "",
+        "m6": "87.6"
+      },
+      {
+        "p": {
+          "name": "Visual Instruction Tuning",
+          "link": "https://arxiv.org/abs/2304.08485v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "LL3DA",
+        "d": "2023-04-17",
+        "m1": "",
+        "m2": "",
+        "m3": "13.5",
+        "m4": "37.3",
+        "m5": "15.9",
+        "m6": "76.8"
+      }
+    ]
+  }
+}

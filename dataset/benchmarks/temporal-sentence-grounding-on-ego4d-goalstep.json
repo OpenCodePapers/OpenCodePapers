@@ -1,11 +1,13 @@
 {
   "title": "temporal-sentence-grounding-on-ego4d-goalstep",
   "task-hierarchy": [
+    "Visual Grounding",
+    "Video Grounding",
     "Temporal Sentence Grounding"
   ],
   "dataset-info": {
-    "link": "",
-    "paper": ""
+    "link": "https://github.com/facebookresearch/ego4d-goalstep",
+    "paper": "Ego4D Goal-Step: Toward Hierarchical Understanding of Procedural Activities"
   },
   "benchmark": {
     "fields": [

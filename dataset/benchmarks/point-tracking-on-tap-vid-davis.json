@@ -1,11 +1,12 @@
 {
   "title": "point-tracking-on-tap-vid-davis",
   "task-hierarchy": [
+    "Object Tracking",
     "Point Tracking"
   ],
   "dataset-info": {
-    "link": "",
-    "paper": ""
+    "link": "https://github.com/google-deepmind/tapnet",
+    "paper": "TAP-Vid: A Benchmark for Tracking Any Point in a Video"
   },
   "benchmark": {
     "fields": [

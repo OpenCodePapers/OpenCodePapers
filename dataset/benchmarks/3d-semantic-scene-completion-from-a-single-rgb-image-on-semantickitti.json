@@ -1,0 +1,170 @@
+{
+  "title": "3d-semantic-scene-completion-from-a-single-rgb-image-on-semantickitti",
+  "task-hierarchy": [
+    "3D Reconstruction",
+    "3D Semantic Scene Completion",
+    "3D Semantic Scene Completion from a single RGB image"
+  ],
+  "dataset-info": {
+    "link": "http://www.semantic-kitti.org/",
+    "paper": "SemanticKITTI: A Dataset for Semantic Scene Understanding of LiDAR Sequences"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mIoU",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "One Step Closer: Creating the Future to Boost Monocular Semantic Scene Completion",
+          "link": "https://arxiv.org/abs/2507.13801"
+        },
+        "c": "",
+        "n": "CF-SSC-Offline",
+        "d": "2025-07-18",
+        "m1": "17.70"
+      },
+      {
+        "p": {
+          "name": "Disentangling Instance and Scene Contexts for 3D Semantic Scene Completion",
+          "link": "https://arxiv.org/abs/2507.08555"
+        },
+        "c": "https://github.com/Enyu-Liu/DISC",
+        "n": "DISC",
+        "d": "2025-07-11",
+        "m1": "17.35"
+      },
+      {
+        "p": {
+          "name": "Context and Geometry Aware Voxel Transformer for Semantic Scene Completion",
+          "link": "https://arxiv.org/abs/2405.13675v4"
+        },
+        "c": "https://github.com/pkqbajng/cgformer",
+        "n": "CGFormer",
+        "d": "2024-05-22",
+        "m1": "16.63"
+      },
+      {
+        "p": {
+          "name": "One Step Closer: Creating the Future to Boost Monocular Semantic Scene Completion",
+          "link": "https://arxiv.org/abs/2507.13801"
+        },
+        "c": "",
+        "n": "CF-SSC-Online",
+        "d": "2025-07-18",
+        "m1": "16.40"
+      },
+      {
+        "p": {
+          "name": "Symphonize 3D Semantic Scene Completion with Contextual Instance Queries",
+          "link": "https://arxiv.org/abs/2306.15670v2"
+        },
+        "c": "https://github.com/hustvl/symphonies",
+        "n": "Symphonies",
+        "d": "2023-06-27",
+        "m1": "15.04"
+      },
+      {
+        "p": {
+          "name": "OC-SOP: Enhancing Vision-Based 3D Semantic Occupancy Prediction by Object-Centric Awareness",
+          "link": "https://arxiv.org/abs/2506.18798"
+        },
+        "c": "",
+        "n": "OC-SOP",
+        "d": "2025-06-23",
+        "m1": "14.83"
+      },
+      {
+        "p": {
+          "name": "NDC-Scene: Boost Monocular 3D Semantic Scene Completion in Normalized Device Coordinates Space",
+          "link": "https://arxiv.org/abs/2309.14616v3"
+        },
+        "c": "https://github.com/Jiawei-Yao0812/NDCScene",
+        "n": "NDC-Scene",
+        "d": "2023-09-26",
+        "m1": "12.58"
+      },
+      {
+        "p": {
+          "name": "OccFormer: Dual-path Transformer for Vision-based 3D Semantic Occupancy Prediction",
+          "link": "https://arxiv.org/abs/2304.05316v1"
+        },
+        "c": "https://github.com/zhangyp15/occformer",
+        "n": "OccFormer",
+        "d": "2023-04-11",
+        "m1": "12.32"
+      },
+      {
+        "p": {
+          "name": "VoxFormer: Sparse Voxel Transformer for Camera-based 3D Semantic Scene Completion",
+          "link": "https://arxiv.org/abs/2302.12251v2"
+        },
+        "c": "https://github.com/nvlabs/voxformer",
+        "n": "VoxFormer",
+        "d": "2023-02-23",
+        "m1": "12.20"
+      },
+      {
+        "p": {
+          "name": "MonoScene: Monocular 3D Semantic Scene Completion",
+          "link": "https://arxiv.org/abs/2112.00726v2"
+        },
+        "c": "https://github.com/astra-vision/monoscene",
+        "n": "MonoScene",
+        "d": "2021-12-01",
+        "m1": "11.08"
+      },
+      {
+        "p": {
+          "name": "Sparse Single Sweep LiDAR Point Cloud Segmentation via Learning Contextual Shape Priors from Scene Completion",
+          "link": "https://arxiv.org/abs/2012.03762v1"
+        },
+        "c": "https://github.com/yanx27/JS3C-Net",
+        "n": "JS3C-Net (rgb input - reported in MonoScene paper)",
+        "d": "2020-12-07",
+        "m1": "8.97"
+      },
+      {
+        "p": {
+          "name": "LMSCNet: Lightweight Multiscale 3D Semantic Completion",
+          "link": "https://arxiv.org/abs/2008.10559v2"
+        },
+        "c": "https://github.com/astra-vision/lmscnet",
+        "n": "LMSCNet (rgb input - reported in MonoScene paper)",
+        "d": "2020-08-24",
+        "m1": "7.09"
+      },
+      {
+        "p": {
+          "name": "3D Sketch-aware Semantic Scene Completion via Semi-supervised Structure Prior",
+          "link": "https://arxiv.org/abs/2003.14052v1"
+        },
+        "c": "https://github.com/charlesCXK/3D-SketchAware-SSC",
+        "n": "3DSketch (rgb input - reported in MonoScene paper)",
+        "d": "2020-03-31",
+        "m1": "6.23"
+      }
+    ]
+  }
+}

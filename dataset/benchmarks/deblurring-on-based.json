@@ -1,11 +1,12 @@
 {
   "title": "deblurring-on-based",
   "task-hierarchy": [
-    "Blind Image Deblurring",
+    "Image Restoration",
+    "Image Deblurring",
     "Deblurring"
   ],
   "dataset-info": {
-    "link": "https://videoprocessing.ai/benchmarks/deblurring.html",
+    "link": "",
     "paper": ""
   },
   "benchmark": {
@@ -20,32 +21,27 @@
       },
       {
         "key": "m1",
-        "label": "Subjective",
-        "sortable": "true"
-      },
-      {
-        "key": "m2",
-        "label": "SSIM",
-        "sortable": "true"
-      },
-      {
-        "key": "m3",
         "label": "PSNR",
         "sortable": "true"
       },
       {
-        "key": "m4",
+        "key": "m2",
         "label": "VMAF",
         "sortable": "true"
       },
       {
-        "key": "m5",
+        "key": "m3",
+        "label": "ERQAv2.0",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
         "label": "LPIPS",
         "sortable": "true"
       },
       {
-        "key": "m6",
-        "label": "ERQAv2.0",
+        "key": "m5",
+        "label": "SSIM",
         "sortable": "true"
       },
       {
@@ -61,48 +57,14 @@
     "items": [
       {
         "p": {
-          "name": "Simple Baselines for Image Restoration",
-          "link": "https://arxiv.org/abs/2204.04676v4"
-        },
-        "c": "https://github.com/megvii-research/NAFNet",
-        "n": "NAFNet (REDS)",
-        "d": "2022-04-10",
-        "m1": "2.8405",
-        "m2": "0.95035",
-        "m3": "30.54803",
-        "m4": "66.85941",
-        "m5": "0.08561",
-        "m6": "0.74508"
-      },
-      {
-        "p": {
           "name": "VRT: A Video Restoration Transformer",
           "link": "https://arxiv.org/abs/2201.12288v2"
         },
         "c": "https://github.com/jingyunliang/vrt",
         "n": "VRT (GoPro)",
         "d": "2022-01-28",
-        "m1": "2.3854",
-        "m2": "0.94503",
-        "m3": "31.42945",
-        "m4": "66.72253",
-        "m5": "0.08165",
-        "m6": "0.74874"
-      },
-      {
-        "p": {
-          "name": "VRT: A Video Restoration Transformer",
-          "link": "https://arxiv.org/abs/2201.12288v2"
-        },
-        "c": "https://github.com/jingyunliang/vrt",
-        "n": "VRT (REDS)",
-        "d": "2022-01-28",
-        "m1": "1.5660",
-        "m2": "0.94601",
-        "m3": "30.97878",
-        "m4": "66.81782",
-        "m5": "0.08248",
-        "m6": "0.75056"
+        "m1": "31.42945",
+        "m2": "66.72253"
       },
       {
         "p": {
@@ -112,7 +74,25 @@
         "c": "https://github.com/kritiksoman/GIMP-ML",
         "n": "DeblurGAN Inception",
         "d": "2019-08-10",
-        "m1": "1.0375"
+        "m1": "31.17171",
+        "m2": "66.91781",
+        "m3": "0.74297",
+        "m4": "0.08867",
+        "m5": "0.94301"
+      },
+      {
+        "p": {
+          "name": "VRT: A Video Restoration Transformer",
+          "link": "https://arxiv.org/abs/2201.12288v2"
+        },
+        "c": "https://github.com/jingyunliang/vrt",
+        "n": "VRT (REDS)",
+        "d": "2022-01-28",
+        "m1": "30.97878",
+        "m2": "66.81782",
+        "m3": "0.74874",
+        "m4": "0.08248",
+        "m5": "0.94503"
       },
       {
         "p": {
@@ -122,100 +102,7 @@
         "c": "https://github.com/google-research/maxim",
         "n": "MAXIM (REDS)",
         "d": "2022-01-09",
-        "m1": "1.0081",
-        "m2": "0.94959",
-        "m4": "67.3502",
-        "m5": "0.07836",
-        "m6": "0.74277"
-      },
-      {
-        "p": {
-          "name": "Intriguing Findings of Frequency Selection for Image Deblurring",
-          "link": "https://arxiv.org/abs/2111.11745v2"
-        },
-        "c": "https://github.com/invokerer/deeprft",
-        "n": "Deeprft (GoPro)",
-        "d": "2021-11-23",
-        "m1": "0.5354",
-        "m2": "0.94484",
-        "m3": "31.57612",
-        "m4": "66.55057",
-        "m5": "0.08326",
-        "m6": "0.74323"
-      },
-      {
-        "p": {
-          "name": "Intriguing Findings of Frequency Selection for Image Deblurring",
-          "link": "https://arxiv.org/abs/2111.11745v2"
-        },
-        "c": "https://github.com/invokerer/deeprft",
-        "n": "Deeprft (REDS)",
-        "d": "2021-11-23",
-        "m1": "0.4622",
-        "m2": "0.94479",
-        "m3": "31.32349",
-        "m4": "66.46811",
-        "m5": "0.08139",
-        "m6": "0.74339"
-      },
-      {
-        "p": {
-          "name": "Improving Image Restoration by Revisiting Global Information Aggregation",
-          "link": "https://arxiv.org/abs/2112.04491v4"
-        },
-        "c": "https://github.com/megvii-research/NAFNet",
-        "n": "MPR local",
-        "d": "2021-12-08",
-        "m1": "0.4407",
-        "m2": "0.94542",
-        "m3": "31.65037",
-        "m4": "67.01788",
-        "m5": "0.08323",
-        "m6": "0.74521"
-      },
-      {
-        "p": {
-          "name": "MAXIM: Multi-Axis MLP for Image Processing",
-          "link": "https://arxiv.org/abs/2201.02973v2"
-        },
-        "c": "https://github.com/google-research/maxim",
-        "n": "MAXIM (GoPro)",
-        "d": "2022-01-09",
-        "m1": "0.2070",
-        "m2": "0.94386",
-        "m3": "31.36344",
-        "m4": "67.7557",
-        "m5": "0.09188"
-      },
-      {
-        "p": {
-          "name": "Restormer: Efficient Transformer for High-Resolution Image Restoration",
-          "link": "https://arxiv.org/abs/2111.09881v2"
-        },
-        "c": "https://github.com/swz30/restormer",
-        "n": "Restormer local",
-        "d": "2021-11-18",
-        "m1": "0.1231",
-        "m2": "0.94217",
-        "m3": "31.12341",
-        "m4": "65.25911",
-        "m5": "0.08251",
-        "m6": "0.73875"
-      },
-      {
-        "p": {
-          "name": "Restormer: Efficient Transformer for High-Resolution Image Restoration",
-          "link": "https://arxiv.org/abs/2111.09881v2"
-        },
-        "c": "https://github.com/swz30/restormer",
-        "n": "Restormer",
-        "d": "2021-11-18",
-        "m1": "0.1175",
-        "m2": "0.94632",
-        "m3": "31.76111",
-        "m4": "66.3964",
-        "m5": "0.08239",
-        "m6": "0.74776"
+        "m1": "30.65728"
       }
     ]
   }

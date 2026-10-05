@@ -1,0 +1,284 @@
+{
+  "title": "automatic-lyrics-transcription-on-jam-alt-german",
+  "task-hierarchy": [
+    "Speech Recognition",
+    "Automatic Lyrics Transcription"
+  ],
+  "dataset-info": {
+    "link": "https://huggingface.co/datasets/audioshake/jam-alt",
+    "paper": "Jam-ALT: A Formatting-Aware Lyrics Transcription Benchmark"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Word Error Rate (WER)",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Case-Sensitive Word Error Rate",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Case Error Rate",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Punctuation F-1",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "Parenthesis F-1",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "Line break F-1",
+        "sortable": "true"
+      },
+      {
+        "key": "m7",
+        "label": "Section break F-1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Lyrics Transcription for Humans: A Readability-Aware Benchmark",
+          "link": "https://arxiv.org/abs/2408.06370v1"
+        },
+        "c": "https://github.com/audioshake/alt-eval",
+        "n": "AudioShake v3",
+        "d": "2024-07-30",
+        "m1": "12.6",
+        "m2": "17.5",
+        "m4": " 57.1",
+        "m5": "76.6",
+        "m6": "83.7",
+        "m7": "74.5"
+      },
+      {
+        "p": {
+          "name": "Lyrics Transcription for Humans: A Readability-Aware Benchmark",
+          "link": "https://arxiv.org/abs/2408.06370v1"
+        },
+        "c": "https://github.com/audioshake/alt-eval",
+        "n": "Whisper v2 +lang",
+        "d": "2024-07-30",
+        "m1": "19.9",
+        "m2": "26.0",
+        "m4": "48.4",
+        "m6": "71.7"
+      },
+      {
+        "p": {
+          "name": "Lyrics Transcription for Humans: A Readability-Aware Benchmark",
+          "link": "https://arxiv.org/abs/2408.06370v1"
+        },
+        "c": "https://github.com/audioshake/alt-eval",
+        "n": "Whisper v2 +demucs +lang",
+        "d": "2024-07-30",
+        "m1": "23.9",
+        "m2": "30.4",
+        "m4": "49.2",
+        "m6": "70.6"
+      },
+      {
+        "p": {
+          "name": "Jam-ALT: A Formatting-Aware Lyrics Transcription Benchmark",
+          "link": "https://arxiv.org/abs/2311.13987v1"
+        },
+        "c": "https://github.com/audioshake/alt-eval",
+        "n": "AudioShake v1",
+        "d": "2023-11-23",
+        "m1": "24.4",
+        "m3": "4.1",
+        "m4": "48.5",
+        "m5": "8.1",
+        "m6": " 81.2",
+        "m7": "69.2"
+      },
+      {
+        "p": {
+          "name": "Lyrics Transcription for Humans: A Readability-Aware Benchmark",
+          "link": "https://arxiv.org/abs/2408.06370v1"
+        },
+        "c": "https://github.com/audioshake/alt-eval",
+        "n": "Whisper v3 +lang",
+        "d": "2024-07-30",
+        "m1": "35.9",
+        "m2": "40.4",
+        "m4": "47.4",
+        "m6": "71.1"
+      },
+      {
+        "p": {
+          "name": "Jam-ALT: A Formatting-Aware Lyrics Transcription Benchmark",
+          "link": "https://arxiv.org/abs/2311.13987v1"
+        },
+        "c": "https://github.com/audioshake/alt-eval",
+        "n": "Whisper v3",
+        "d": "2023-11-23",
+        "m1": "40.7",
+        "m3": "4.0",
+        "m4": "41.2",
+        "m6": "71.2",
+        "m7": "1.2"
+      },
+      {
+        "p": {
+          "name": "Lyrics Transcription for Humans: A Readability-Aware Benchmark",
+          "link": "https://arxiv.org/abs/2408.06370v1"
+        },
+        "c": "https://github.com/audioshake/alt-eval",
+        "n": "Whisper v3",
+        "d": "2024-07-30",
+        "m1": "40.7",
+        "m2": "44.6",
+        "m4": "47.3",
+        "m6": "71.1",
+        "m7": "1.2"
+      },
+      {
+        "p": {
+          "name": "Lyrics Transcription for Humans: A Readability-Aware Benchmark",
+          "link": "https://arxiv.org/abs/2408.06370v1"
+        },
+        "c": "https://github.com/audioshake/alt-eval",
+        "n": "Whisper v3 +demucs +lang",
+        "d": "2024-07-30",
+        "m1": "40.8",
+        "m2": "44.9",
+        "m4": "46.9",
+        "m6": "70.5"
+      },
+      {
+        "p": {
+          "name": "Jam-ALT: A Formatting-Aware Lyrics Transcription Benchmark",
+          "link": "https://arxiv.org/abs/2311.13987v1"
+        },
+        "c": "https://github.com/audioshake/alt-eval",
+        "n": "Whisper v3 +demucs",
+        "d": "2023-11-23",
+        "m1": "43.5",
+        "m3": "4.4",
+        "m4": "34.0",
+        "m6": "72.0"
+      },
+      {
+        "p": {
+          "name": "Lyrics Transcription for Humans: A Readability-Aware Benchmark",
+          "link": "https://arxiv.org/abs/2408.06370v1"
+        },
+        "c": "https://github.com/audioshake/alt-eval",
+        "n": "Whisper v3 +demucs",
+        "d": "2024-07-30",
+        "m1": "43.5",
+        "m2": "47.4",
+        "m4": "45.4",
+        "m6": "71.9"
+      },
+      {
+        "p": {
+          "name": "Jam-ALT: A Formatting-Aware Lyrics Transcription Benchmark",
+          "link": "https://arxiv.org/abs/2311.13987v1"
+        },
+        "c": "https://github.com/audioshake/alt-eval",
+        "n": "Whisper v2",
+        "d": "2023-11-23",
+        "m1": "45.4",
+        "m3": " 5.3",
+        "m4": "38.7",
+        "m6": "69.9"
+      },
+      {
+        "p": {
+          "name": "Lyrics Transcription for Humans: A Readability-Aware Benchmark",
+          "link": "https://arxiv.org/abs/2408.06370v1"
+        },
+        "c": "https://github.com/audioshake/alt-eval",
+        "n": "OWSM v3.1 +demucs +lang",
+        "d": "2024-07-30",
+        "m1": "51.8",
+        "m2": "62.0",
+        "m4": "24.7",
+        "m6": "41.4"
+      },
+      {
+        "p": {
+          "name": "Lyrics Transcription for Humans: A Readability-Aware Benchmark",
+          "link": "https://arxiv.org/abs/2408.06370v1"
+        },
+        "c": "https://github.com/audioshake/alt-eval",
+        "n": "Whisper v2",
+        "d": "2024-07-30",
+        "m1": "54.5",
+        "m2": "59.3",
+        "m4": "47.1",
+        "m6": "70.0"
+      },
+      {
+        "p": {
+          "name": "Lyrics Transcription for Humans: A Readability-Aware Benchmark",
+          "link": "https://arxiv.org/abs/2408.06370v1"
+        },
+        "c": "https://github.com/audioshake/alt-eval",
+        "n": "OWSM v3.1 +lang",
+        "d": "2024-07-30",
+        "m1": "63.3",
+        "m2": "71.8",
+        "m4": "28.6",
+        "m5": "0.0",
+        "m6": "40.7"
+      },
+      {
+        "p": {
+          "name": "Jam-ALT: A Formatting-Aware Lyrics Transcription Benchmark",
+          "link": "https://arxiv.org/abs/2311.13987v1"
+        },
+        "c": "https://github.com/audioshake/alt-eval",
+        "n": "Whisper v2 +demucs",
+        "d": "2023-11-23",
+        "m1": "65.2",
+        "m3": " 5.9",
+        "m4": "30.2",
+        "m6": "67.5"
+      },
+      {
+        "p": {
+          "name": "Lyrics Transcription for Humans: A Readability-Aware Benchmark",
+          "link": "https://arxiv.org/abs/2408.06370v1"
+        },
+        "c": "https://github.com/audioshake/alt-eval",
+        "n": "Whisper v2 +demucs",
+        "d": "2024-07-30",
+        "m1": "65.2",
+        "m2": "70.4",
+        "m4": "49.1",
+        "m6": "67.3"
+      }
+    ]
+  }
+}

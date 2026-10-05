@@ -1,0 +1,269 @@
+{
+  "title": "architecture-search-on-cifar-10-image-classification",
+  "task-hierarchy": [
+    "Neural Architecture Search"
+  ],
+  "dataset-info": {
+    "link": "https://www.cs.toronto.edu/~kriz/learning-features-2009-TR.pdf",
+    "paper": "Learning multiple layers of features from tiny images"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Percentage error",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Params",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "FLOPS",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Search Time (GPU days)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Neural Architecture Transfer",
+          "link": "https://arxiv.org/abs/2005.05859v2"
+        },
+        "c": "https://github.com/human-analysis/neural-architecture-transfer",
+        "n": "NAT-M4",
+        "d": "2020-05-12",
+        "m1": "1.6",
+        "m2": "6.9M",
+        "m3": "468M"
+      },
+      {
+        "p": {
+          "name": "Neural Architecture Transfer",
+          "link": "https://arxiv.org/abs/2005.05859v2"
+        },
+        "c": "https://github.com/human-analysis/neural-architecture-transfer",
+        "n": "NAT-M3",
+        "d": "2020-05-12",
+        "m1": "1.8",
+        "m2": "6.2M",
+        "m3": "392M"
+      },
+      {
+        "p": {
+          "name": "Neural Architecture Optimization",
+          "link": "https://arxiv.org/abs/1808.07233v5"
+        },
+        "c": "https://github.com/renqianluo/NAO",
+        "n": "NAONet + c/o",
+        "d": "2018-08-22",
+        "m1": "1.93",
+        "m2": "144.6M"
+      },
+      {
+        "p": {
+          "name": "sharpDARTS: Faster and More Accurate Differentiable Architecture Search",
+          "link": "http://arxiv.org/abs/1903.09900v1"
+        },
+        "c": "https://github.com/ahundt/sharpDARTS",
+        "n": "SharpSepConvDARTS",
+        "d": "2019-03-23",
+        "m1": "1.98",
+        "m2": "3.6M",
+        "m3": "579M"
+      },
+      {
+        "p": {
+          "name": "MUXConv: Information Multiplexing in Convolutional Neural Networks",
+          "link": "https://arxiv.org/abs/2003.13880v2"
+        },
+        "c": "https://github.com/human-analysis/MUXConv",
+        "n": "MUXNet-m",
+        "d": "2020-03-31",
+        "m1": "2.0",
+        "m2": "2.1M",
+        "m3": "200M"
+      },
+      {
+        "p": {
+          "name": "ProxylessNAS: Direct Neural Architecture Search on Target Task and Hardware",
+          "link": "http://arxiv.org/abs/1812.00332v2"
+        },
+        "c": "https://github.com/osmr/imgclsmob",
+        "n": "Proxyless-G + c/o",
+        "d": "2018-12-02",
+        "m1": "2.08",
+        "m2": "5.7M"
+      },
+      {
+        "p": {
+          "name": "Neural Architecture Transfer",
+          "link": "https://arxiv.org/abs/2005.05859v2"
+        },
+        "c": "https://github.com/human-analysis/neural-architecture-transfer",
+        "n": "NAT-M2",
+        "d": "2020-05-12",
+        "m1": "2.1",
+        "m2": "4.6M",
+        "m3": "291M"
+      },
+      {
+        "p": {
+          "name": "Regularized Evolution for Image Classifier Architecture Search",
+          "link": "http://arxiv.org/abs/1802.01548v7"
+        },
+        "c": "https://github.com/tensorflow/tpu/tree/master/models/official/amoeba_net",
+        "n": "AmoebaNet-B + c/o",
+        "d": "2018-02-05",
+        "m1": "2.13",
+        "m2": "34.9M"
+      },
+      {
+        "p": {
+          "name": "Path-Level Network Transformation for Efficient Architecture Search",
+          "link": "http://arxiv.org/abs/1806.02639v1"
+        },
+        "c": "https://github.com/han-cai/RL4AS_NetTrans",
+        "n": "PathLevel EAS + c/o",
+        "d": "2018-06-07",
+        "m1": "2.30",
+        "m2": "14.3M"
+      },
+      {
+        "p": {
+          "name": "Neural Architecture Search with Reinforcement Learning",
+          "link": "http://arxiv.org/abs/1611.01578v2"
+        },
+        "c": "https://github.com/tensorflow/models",
+        "n": "NAS-RL-A + c/o",
+        "d": "2016-11-05",
+        "m1": "2.4",
+        "m2": "27.6M"
+      },
+      {
+        "p": {
+          "name": "CATE: Computation-aware Neural Architecture Encoding with Transformers",
+          "link": "https://arxiv.org/abs/2102.07108v2"
+        },
+        "c": "https://github.com/MSU-MLSys-Lab/CATE",
+        "n": "CATE",
+        "d": "2021-02-14",
+        "m1": "2.46",
+        "m2": "4.1",
+        "m4": "10.3"
+      },
+      {
+        "p": {
+          "name": "Learning Implicitly Recurrent CNNs Through Parameter Sharing",
+          "link": "http://arxiv.org/abs/1902.09701v2"
+        },
+        "c": "https://github.com/lolemacs/soft-sharing",
+        "n": "Soft Parameter Sharing",
+        "d": "2019-02-26",
+        "m1": "2.53",
+        "m2": "33.5"
+      },
+      {
+        "p": {
+          "name": "Does Unsupervised Architecture Representation Learning Help Neural Architecture Search?",
+          "link": "https://arxiv.org/abs/2006.06936v2"
+        },
+        "c": "https://github.com/MSU-MLSys-Lab/arch2vec",
+        "n": "arch2vec",
+        "d": "2020-06-12",
+        "m1": "2.56",
+        "m2": "3.6",
+        "m4": "10.5"
+      },
+      {
+        "p": {
+          "name": "A Generic Graph-based Neural Architecture Encoding Scheme for Predictor-based NAS",
+          "link": "https://arxiv.org/abs/2004.01899v3"
+        },
+        "c": "https://github.com/walkerning/aw_nas",
+        "n": "GATES + c/o",
+        "d": "2020-04-04",
+        "m1": "2.58",
+        "m2": "4.1M"
+      },
+      {
+        "p": {
+          "name": "Neural Architecture Transfer",
+          "link": "https://arxiv.org/abs/2005.05859v2"
+        },
+        "c": "https://github.com/human-analysis/neural-architecture-transfer",
+        "n": "NAT-M1",
+        "d": "2020-05-12",
+        "m1": "2.6",
+        "m2": "4.3M",
+        "m3": "232M"
+      },
+      {
+        "p": {
+          "name": "DARTS: Differentiable Architecture Search",
+          "link": "http://arxiv.org/abs/1806.09055v2"
+        },
+        "c": "https://github.com/google-research/google-research/tree/master/enas_lm",
+        "n": "DARTS + c/o",
+        "d": "2018-06-24",
+        "m1": "2.83",
+        "m2": "3.4M",
+        "m4": "4"
+      },
+      {
+        "p": {
+          "name": "Efficient Neural Architecture Search via Parameter Sharing",
+          "link": "http://arxiv.org/abs/1802.03268v2"
+        },
+        "c": "https://github.com/google-research/google-research/tree/master/enas_lm",
+        "n": "ENAS + c/o",
+        "d": "2018-02-09",
+        "m1": "2.89",
+        "m2": "4.6M"
+      },
+      {
+        "p": {
+          "name": "EEEA-Net: An Early Exit Evolutionary Neural Architecture Search",
+          "link": "https://arxiv.org/abs/2108.06156v1"
+        },
+        "c": "https://github.com/chakkritte/eeea-net",
+        "n": "EEEA-Net-C (b=5)+ CO",
+        "d": "2021-08-13",
+        "m2": "3.6"
+      },
+      {
+        "p": {
+          "name": "AlphaX: eXploring Neural Architectures with Deep Neural Networks and Monte Carlo Tree Search",
+          "link": "https://arxiv.org/abs/1903.11059v2"
+        },
+        "c": "https://github.com/linnanwang/AlphaX-NASBench101",
+        "n": "AlphaX-1 (cutout NASNet)",
+        "d": "2019-03-26",
+        "m2": "3.59M"
+      }
+    ]
+  }
+}

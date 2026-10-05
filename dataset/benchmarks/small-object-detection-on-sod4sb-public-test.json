@@ -1,0 +1,89 @@
+{
+  "title": "small-object-detection-on-sod4sb-public-test",
+  "task-hierarchy": [
+    "Object Detection",
+    "Small Object Detection"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/iim-ttij/mva2023smallobjectdetection4spottingbirds",
+    "paper": "MVA2023 Small Object Detection Challenge for Spotting Birds: Dataset, Methods, and Results"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AP50",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Ensemble Fusion for Small Object Detection",
+          "link": "https://ieeexplore.ieee.org/document/10215748"
+        },
+        "c": "",
+        "n": "Weighted Box Fusion (WBF)",
+        "d": "2023-08-22",
+        "m1": "77.6"
+      },
+      {
+        "p": {
+          "name": "MVA2023 Small Object Detection Challenge for Spotting Birds: Dataset, Methods, and Results",
+          "link": "https://arxiv.org/abs/2307.09143v1"
+        },
+        "c": "https://github.com/iim-ttij/mva2023smallobjectdetection4spottingbirds",
+        "n": "DL method (YOLOv8 + Ensamble)",
+        "d": "2023-07-18",
+        "m1": "73.1"
+      },
+      {
+        "p": {
+          "name": "BandRe: Rethinking Band-Pass Filters for Scale-Wise Object Detection Evaluation",
+          "link": "https://arxiv.org/abs/2307.11748v1"
+        },
+        "c": "https://github.com/shinya7y/UniverseNet",
+        "n": "GFL + Test Time Augmentation",
+        "d": "2023-07-21",
+        "m1": "73.1"
+      },
+      {
+        "p": {
+          "name": "Small Object Detection for Birds with Swin Transformer",
+          "link": "https://ieeexplore.ieee.org/document/10216093"
+        },
+        "c": "",
+        "n": "Swin Transformer + Hierarchical design",
+        "d": "2023-08-22",
+        "m1": "70.2"
+      },
+      {
+        "p": {
+          "name": "MVA2023 Small Object Detection Challenge for Spotting Birds: Dataset, Methods, and Results",
+          "link": "https://arxiv.org/abs/2307.09143v1"
+        },
+        "c": "https://github.com/iim-ttij/mva2023smallobjectdetection4spottingbirds",
+        "n": "E2 method (Normalized Gaussian Wasserstein Distance + Switch Hard Augmentation + Multi scale train + Weight Moving Average + CenterNet + VarifocalNet)",
+        "d": "2023-07-18",
+        "m1": "69.6"
+      }
+    ]
+  }
+}

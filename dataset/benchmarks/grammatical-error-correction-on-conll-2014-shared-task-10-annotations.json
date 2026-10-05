@@ -1,0 +1,68 @@
+{
+  "title": "grammatical-error-correction-on-conll-2014-shared-task-10-annotations",
+  "task-hierarchy": [
+    "Grammatical Error Correction"
+  ],
+  "dataset-info": {
+    "link": "https://www.comp.nus.edu.sg/~nlp/conll14st.html",
+    "paper": "The CoNLL-2014 Shared Task on Grammatical Error Correction"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F0.5",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "System Combination via Quality Estimation for Grammatical Error Correction",
+          "link": "https://arxiv.org/abs/2310.14947v1"
+        },
+        "c": "https://github.com/nusnlp/greco",
+        "n": "GRECO (vote+ESC)",
+        "d": "2023-10-23",
+        "m1": "85.21"
+      },
+      {
+        "p": {
+          "name": "Near Human-Level Performance in Grammatical Error Correction with Hybrid Machine Translation",
+          "link": "http://arxiv.org/abs/1804.05945v1"
+        },
+        "c": "",
+        "n": "SMT + BiGRU",
+        "d": "2018-04-16",
+        "m1": "72.04 "
+      },
+      {
+        "p": {
+          "name": "A Multilayer Convolutional Encoder-Decoder Neural Network for Grammatical Error Correction",
+          "link": "http://arxiv.org/abs/1801.08831v1"
+        },
+        "c": "https://github.com/nusnlp/mlconvgec2018",
+        "n": "CNN Seq2Seq",
+        "d": "2018-01-26",
+        "m1": "70.14"
+      }
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "title": "part-aware-panoptic-segmentation-on-cityscapes-panoptic-parts",
+  "task-hierarchy": [
+    "Panoptic Segmentation",
+    "Part-aware Panoptic Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/tue-mps/panoptic_parts",
+    "paper": "Part-aware Panoptic Segmentation"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "PartPQ",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Task-aligned Part-aware Panoptic Segmentation through Joint Object-Part Representations",
+          "link": "https://arxiv.org/abs/2406.10114v1"
+        },
+        "c": "https://github.com/tue-mps/tapps",
+        "n": "TAPPS (Swin-B, COCO pre-training)",
+        "d": "2024-06-14",
+        "m1": "64.8"
+      },
+      {
+        "p": {
+          "name": "JPPF: Multi-task Fusion for Consistent Panoptic-Part Segmentation",
+          "link": "https://arxiv.org/abs/2311.18618v1"
+        },
+        "c": "",
+        "n": "JPPF",
+        "d": "2023-11-30",
+        "m1": "63.3"
+      },
+      {
+        "p": {
+          "name": "Panoptic-PartFormer: Learning a Unified Model for Panoptic Part Segmentation",
+          "link": "https://arxiv.org/abs/2204.04655v2"
+        },
+        "c": "https://github.com/lxtgh/panoptic-partformer",
+        "n": "Panoptic-PartFormer",
+        "d": "2022-04-10",
+        "m1": "61.9"
+      },
+      {
+        "p": {
+          "name": "Multi-task Fusion for Efficient Panoptic-Part Segmentation",
+          "link": "https://arxiv.org/abs/2212.07671v2"
+        },
+        "c": "",
+        "n": "JPPF",
+        "d": "2022-12-15",
+        "m1": "61.8"
+      }
+    ]
+  }
+}

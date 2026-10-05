@@ -1,0 +1,91 @@
+{
+  "title": "medical-named-entity-recognition-on-share-clef-ehealth",
+  "task-hierarchy": [
+    "Named Entity Recognition (NER)",
+    "Medical Named Entity Recognition"
+  ],
+  "dataset-info": {
+    "link": "",
+    "paper": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Precision",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Recall",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "BioELECTRA:Pretrained Biomedical text Encoder using Discriminators",
+          "link": "https://aclanthology.org/2021.bionlp-1.16"
+        },
+        "c": "https://github.com/kamalkraj/BioELECTRA",
+        "n": "BioELECTRA",
+        "d": "2021-06-11",
+        "m1": "0.8371"
+      },
+      {
+        "p": {
+          "name": "Biomedical NER using Novel Schema and Distant Supervision",
+          "link": "https://aclanthology.org/2022.bionlp-1.15"
+        },
+        "c": "",
+        "n": "Distant Supervision with BIODT Tagging",
+        "d": "",
+        "m1": "0.799"
+      },
+      {
+        "p": {
+          "name": "Transfer Learning in Biomedical Natural Language Processing: An Evaluation of BERT and ELMo on Ten Benchmarking Datasets",
+          "link": "https://arxiv.org/abs/1906.05474v2"
+        },
+        "c": "https://github.com/ncbi-nlp/NCBI_BERT",
+        "n": "NCBI_BERT(base) (P+M)",
+        "d": "2019-06-13",
+        "m1": "0.792"
+      },
+      {
+        "p": {
+          "name": "Challenges in clinical natural language processing for automated disorder normalization",
+          "link": "https://www.sciencedirect.com/science/article/pii/S1532046415001501?via%3Dihub"
+        },
+        "c": "",
+        "n": "BANNER + DNORM",
+        "d": "2015-07-14",
+        "m1": "0.753",
+        "m2": "0.797",
+        "m3": "0.713"
+      }
+    ]
+  }
+}

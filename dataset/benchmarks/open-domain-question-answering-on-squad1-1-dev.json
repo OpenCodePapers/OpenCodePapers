@@ -1,0 +1,79 @@
+{
+  "title": "open-domain-question-answering-on-squad1-1-dev",
+  "task-hierarchy": [
+    "Question Answering",
+    "Open-Domain Question Answering"
+  ],
+  "dataset-info": {
+    "link": "https://rajpurkar.github.io/SQuAD-explorer/",
+    "paper": "SQuAD: 100,000+ Questions for Machine Comprehension of Text"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "EM",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "SPARTA: Efficient Open-Domain Question Answering via Sparse Transformer Matching Retrieval",
+          "link": "https://arxiv.org/abs/2009.13013v1"
+        },
+        "c": "https://github.com/soco-ai/SF-QA",
+        "n": "SPARTA",
+        "d": "2020-09-28",
+        "m1": "59.3"
+      },
+      {
+        "p": {
+          "name": "Blended RAG: Improving RAG (Retriever-Augmented Generation) Accuracy with Semantic Search and Hybrid Query-Based Retrievers",
+          "link": "https://arxiv.org/abs/2404.07220v2"
+        },
+        "c": "https://github.com/ibm-ecosystem-engineering/blended-rag",
+        "n": "Blended RAG",
+        "d": "2024-03-22",
+        "m1": "57.63"
+      },
+      {
+        "p": {
+          "name": "Data Augmentation for BERT Fine-Tuning in Open-Domain Question Answering",
+          "link": "http://arxiv.org/abs/1904.06652v1"
+        },
+        "c": "",
+        "n": "BERTserini",
+        "d": "2019-04-14",
+        "m1": "50.2"
+      },
+      {
+        "p": {
+          "name": "End-to-End Open-Domain Question Answering with BERTserini",
+          "link": "https://arxiv.org/abs/1902.01718v2"
+        },
+        "c": "https://github.com/rsvp-ai/bertserini",
+        "n": "BERTserini",
+        "d": "2019-02-05",
+        "m1": "38.6"
+      }
+    ]
+  }
+}

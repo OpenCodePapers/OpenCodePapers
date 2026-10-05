@@ -1,0 +1,109 @@
+{
+  "title": "news-classification-on-reddit-ideological-and-extreme-bias",
+  "task-hierarchy": [
+    "Text Classification",
+    "News Classification"
+  ],
+  "dataset-info": {
+    "link": "https://data.mendeley.com/datasets/2tdr9sjd83/3",
+    "paper": "Comprehensive dataset of user-submitted articles with ideological and extreme bias from Reddit"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "weighted-F1 score",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "RICo: Reddit ideological communities",
+          "link": "https://www.sciencedirect.com/science/article/pii/S2468696424000041"
+        },
+        "c": "https://github.com/ADCLab/RedditIdeologyDB",
+        "n": "SVM",
+        "d": "2024-06-05",
+        "m1": "79.1"
+      },
+      {
+        "p": {
+          "name": "RICo: Reddit ideological communities",
+          "link": "https://www.sciencedirect.com/science/article/pii/S2468696424000041"
+        },
+        "c": "https://github.com/ADCLab/RedditIdeologyDB",
+        "n": "ULMFit",
+        "d": "2024-06-05",
+        "m1": "76.8"
+      },
+      {
+        "p": {
+          "name": "RICo: Reddit ideological communities",
+          "link": "https://www.sciencedirect.com/science/article/pii/S2468696424000041"
+        },
+        "c": "https://github.com/ADCLab/RedditIdeologyDB",
+        "n": "Longformer",
+        "d": "2024-06-05",
+        "m1": "76.47"
+      },
+      {
+        "p": {
+          "name": "RICo: Reddit ideological communities",
+          "link": "https://www.sciencedirect.com/science/article/pii/S2468696424000041"
+        },
+        "c": "https://github.com/ADCLab/RedditIdeologyDB",
+        "n": "GPT-2",
+        "d": "2024-06-05",
+        "m1": "76.43"
+      },
+      {
+        "p": {
+          "name": "RICo: Reddit ideological communities",
+          "link": "https://www.sciencedirect.com/science/article/pii/S2468696424000041"
+        },
+        "c": "https://github.com/ADCLab/RedditIdeologyDB",
+        "n": "RoBERTa",
+        "d": "2024-06-05",
+        "m1": "75.2"
+      },
+      {
+        "p": {
+          "name": "RICo: Reddit ideological communities",
+          "link": "https://www.sciencedirect.com/science/article/pii/S2468696424000041"
+        },
+        "c": "https://github.com/ADCLab/RedditIdeologyDB",
+        "n": "fastText",
+        "d": "2024-06-05",
+        "m1": "73.44"
+      },
+      {
+        "p": {
+          "name": "RICo: Reddit ideological communities",
+          "link": "https://www.sciencedirect.com/science/article/pii/S2468696424000041"
+        },
+        "c": "https://github.com/ADCLab/RedditIdeologyDB",
+        "n": "LightGBM",
+        "d": "2024-06-05",
+        "m1": "73.06"
+      }
+    ]
+  }
+}

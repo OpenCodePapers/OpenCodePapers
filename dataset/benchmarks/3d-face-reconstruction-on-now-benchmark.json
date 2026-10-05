@@ -1,0 +1,253 @@
+{
+  "title": "3d-face-reconstruction-on-now-benchmark",
+  "task-hierarchy": [
+    "Face Analysis",
+    "3D Face Reconstruction"
+  ],
+  "dataset-info": {
+    "link": "https://now.is.tue.mpg.de/index.html",
+    "paper": "Learning to Regress 3D Face Shape and Expression from an Image without 3D Supervision"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Median Reconstruction Error",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Mean Reconstruction Error (mm)",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Stdev Reconstruction Error (mm)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "3D face reconstruction with dense landmarks",
+          "link": "https://arxiv.org/abs/2204.02776v2"
+        },
+        "c": "",
+        "n": "DenseLandmarks (Multi-view)",
+        "d": "2022-04-06",
+        "m1": "0.81",
+        "m2": "1.01",
+        "m3": "0.84"
+      },
+      {
+        "p": {
+          "name": "Towards Metrical Reconstruction of Human Faces",
+          "link": "https://arxiv.org/abs/2204.06607v2"
+        },
+        "c": "https://github.com/Zielon/MICA",
+        "n": "MICA",
+        "d": "2022-04-13",
+        "m1": "0.90",
+        "m2": "1.11",
+        "m3": "0.92"
+      },
+      {
+        "p": {
+          "name": "3D face reconstruction with dense landmarks",
+          "link": "https://arxiv.org/abs/2204.02776v2"
+        },
+        "c": "",
+        "n": "DenseLandmarks (Single-view)",
+        "d": "2022-04-06",
+        "m1": "1.02",
+        "m2": "1.28",
+        "m3": "1.08"
+      },
+      {
+        "p": {
+          "name": "Robust Model-based Face Reconstruction through Weakly-Supervised Outlier Segmentation",
+          "link": "https://arxiv.org/abs/2106.09614v3"
+        },
+        "c": "https://github.com/unibas-gravis/Occlusion-Robust-MoFA",
+        "n": "FOCUS",
+        "d": "2021-06-17",
+        "m1": "1.04",
+        "m2": "1.30",
+        "m3": "1.10"
+      },
+      {
+        "p": {
+          "name": "Learning an Animatable Detailed 3D Face Model from In-The-Wild Images",
+          "link": "https://arxiv.org/abs/2012.04012v2"
+        },
+        "c": "https://github.com/YadiraF/DECA",
+        "n": "DECA",
+        "d": "2020-12-07",
+        "m1": "1.09",
+        "m2": "1.38",
+        "m3": "1.18"
+      },
+      {
+        "p": {
+          "name": "Accurate 3D Face Reconstruction with Weakly-Supervised Learning: From Single Image to Image Set",
+          "link": "https://arxiv.org/abs/1903.08527v2"
+        },
+        "c": "https://github.com/Microsoft/Deep3DFaceReconstruction",
+        "n": "Deep3DFaceRecon PyTorch",
+        "d": "2019-03-20",
+        "m1": "1.11",
+        "m2": "1.41",
+        "m3": "1.21"
+      },
+      {
+        "p": {
+          "name": "Collaborative Regression of Expressive Bodies using Moderation",
+          "link": "https://arxiv.org/abs/2105.05301v2"
+        },
+        "c": "https://github.com/YadiraF/PIXIE",
+        "n": "PIXIE",
+        "d": "2021-05-11",
+        "m1": "1.18",
+        "m2": "1.49",
+        "m3": "1.25"
+      },
+      {
+        "p": {
+          "name": "Learning a model of facial shape and expression from 4D scans",
+          "link": "http://flame.is.tue.mpg.de/"
+        },
+        "c": "https://github.com/YadiraF/DECA",
+        "n": "FLAME template",
+        "d": "2017-11-01",
+        "m1": "1.21",
+        "m2": "1.53",
+        "m3": "1.31"
+      },
+      {
+        "p": {
+          "name": "Learning to Regress 3D Face Shape and Expression from an Image without 3D Supervision",
+          "link": "https://arxiv.org/abs/1905.06817v1"
+        },
+        "c": "https://github.com/soubhiksanyal/RingNet",
+        "n": "RingNet",
+        "d": "2019-05-16",
+        "m1": "1.21",
+        "m2": "1.53",
+        "m3": "1.31"
+      },
+      {
+        "p": {
+          "name": "Accurate 3D Face Reconstruction with Weakly-Supervised Learning: From Single Image to Image Set",
+          "link": "https://arxiv.org/abs/1903.08527v2"
+        },
+        "c": "https://github.com/Microsoft/Deep3DFaceReconstruction",
+        "n": "Deng et al. 2019",
+        "d": "2019-03-20",
+        "m1": "1.23",
+        "m2": "1.54",
+        "m3": "1.29"
+      },
+      {
+        "p": {
+          "name": "Towards Fast, Accurate and Stable 3D Dense Face Alignment",
+          "link": "https://arxiv.org/abs/2009.09960v2"
+        },
+        "c": "https://github.com/cleardusk/3DDFA",
+        "n": "3DDFA_V2",
+        "d": "2020-09-21",
+        "m1": "1.23",
+        "m2": "1.57",
+        "m3": "1.39"
+      },
+      {
+        "p": {
+          "name": "Towards High Fidelity Monocular Face Reconstruction with Rich Reflectance using Self-supervised Learning and Ray Tracing",
+          "link": "https://arxiv.org/abs/2103.15432v3"
+        },
+        "c": "",
+        "n": "Dib et al. 2021",
+        "d": "2021-03-29",
+        "m1": "1.26",
+        "m2": "1.57",
+        "m3": "1.31"
+      },
+      {
+        "p": {
+          "name": "Synergy between 3DMM and 3D Landmarks for Accurate 3D Facial Geometry",
+          "link": "https://arxiv.org/abs/2110.09772v3"
+        },
+        "c": "https://github.com/tomas-gajarsky/facetorch",
+        "n": "SynergyNet",
+        "d": "2021-10-19",
+        "m1": "1.27",
+        "m2": "1.59",
+        "m3": "1.31"
+      },
+      {
+        "p": {
+          "name": "Self-Supervised Monocular 3D Face Reconstruction by Occlusion-Aware Multi-view Geometry Consistency",
+          "link": "https://arxiv.org/abs/2007.12494v1"
+        },
+        "c": "https://github.com/jiaxiangshang/MGCNet",
+        "n": "MGCNet",
+        "d": "2020-07-24",
+        "m1": "1.31",
+        "m2": "1.87",
+        "m3": "2.63"
+      },
+      {
+        "p": {
+          "name": "Joint 3D Face Reconstruction and Dense Alignment with Position Map Regression Network",
+          "link": "http://arxiv.org/abs/1803.07835v1"
+        },
+        "c": "https://github.com/YadiraF/PRNet",
+        "n": "PRNet",
+        "d": "2018-03-21",
+        "m1": "1.50",
+        "m2": "1.98",
+        "m3": "1.88"
+      },
+      {
+        "p": {
+          "name": "“Look Ma, no landmarks!” – Unsupervised, Model-based Dense Face Alignment",
+          "link": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/4043_ECCV_2020_paper.php"
+        },
+        "c": "https://github.com/kzmttr/UMDFA",
+        "n": "UMDFA",
+        "d": "",
+        "m1": "1.52",
+        "m2": "1.89",
+        "m3": "1.57"
+      },
+      {
+        "p": {
+          "name": "Regressing Robust and Discriminative 3D Morphable Models with a very Deep Neural Network",
+          "link": "http://arxiv.org/abs/1612.04904v1"
+        },
+        "c": "https://github.com/anhttran/3dmm_cnn",
+        "n": "3DMM-CNN",
+        "d": "2016-12-15",
+        "m1": "1.84",
+        "m2": "2.33",
+        "m3": "2.05"
+      }
+    ]
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "title": "anomaly-detection-on-surface-defect-saliency-of-magnetic-tile",
+  "task-hierarchy": [
+    "Anomaly Detection"
+  ],
+  "dataset-info": {
+    "link": "",
+    "paper": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Detection AUROC",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Segmentation AUROC",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Hard-normal Example-aware Template Mutual Matching for Industrial Anomaly Detection",
+          "link": "https://arxiv.org/abs/2303.16191v5"
+        },
+        "c": "https://github.com/NarcissusEx/HETMM",
+        "n": "HETMM",
+        "d": "2023-03-28",
+        "m1": "99.5"
+      },
+      {
+        "p": {
+          "name": "Fully Convolutional Cross-Scale-Flows for Image-based Defect Detection",
+          "link": "https://arxiv.org/abs/2110.02855v1"
+        },
+        "c": "https://github.com/marco-rudolph/cs-flow",
+        "n": "CS-Flow (unsupervised)",
+        "d": "2021-10-06",
+        "m1": "99.3"
+      },
+      {
+        "p": {
+          "name": "Same Same But DifferNet: Semi-Supervised Defect Detection with Normalizing Flows",
+          "link": "https://arxiv.org/abs/2008.12577v1"
+        },
+        "c": "https://github.com/marco-rudolph/differnet",
+        "n": "DifferNet (unsupervised)",
+        "d": "2020-08-28",
+        "m1": "97.7"
+      },
+      {
+        "p": {
+          "name": "Surface Defect Saliency of Magnetic Tile",
+          "link": "https://www.researchgate.net/publication/325882869_Surface_Defect_Saliency_of_Magnetic_Tile"
+        },
+        "c": "https://github.com/abin24/Saliency-detection-toolbox",
+        "n": "MCuePush (supervised)",
+        "d": "2018-08-24",
+        "m2": "98.5"
+      }
+    ]
+  }
+}

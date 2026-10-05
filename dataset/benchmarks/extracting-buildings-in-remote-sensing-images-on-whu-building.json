@@ -1,0 +1,121 @@
+{
+  "title": "extracting-buildings-in-remote-sensing-images-on-whu-building",
+  "task-hierarchy": [
+    "Remote Sensing",
+    "Extracting Buildings In Remote Sensing Images"
+  ],
+  "dataset-info": {
+    "link": "http://gpcv.whu.edu.cn/data/building_dataset.html",
+    "paper": "Fully convolutional networks for multisource building extraction from an open aerial and satellite imagery data set"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "IoU",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "SiamixFormer: a fully-transformer Siamese network with temporal Fusion for accurate building detection and change detection in bi-temporal remote sensing images",
+          "link": "https://arxiv.org/abs/2208.00657v2"
+        },
+        "c": "",
+        "n": "SiamixFormer-5",
+        "d": "2022-08-01",
+        "m1": "96.69",
+        "m2": "93.58"
+      },
+      {
+        "p": {
+          "name": "SiamixFormer: a fully-transformer Siamese network with temporal Fusion for accurate building detection and change detection in bi-temporal remote sensing images",
+          "link": "https://arxiv.org/abs/2208.00657v2"
+        },
+        "c": "",
+        "n": "SiamixFormer-4",
+        "d": "2022-08-01",
+        "m1": "96.59",
+        "m2": "93.4"
+      },
+      {
+        "p": {
+          "name": "SiamixFormer: a fully-transformer Siamese network with temporal Fusion for accurate building detection and change detection in bi-temporal remote sensing images",
+          "link": "https://arxiv.org/abs/2208.00657v2"
+        },
+        "c": "",
+        "n": "SiamixFormer-3",
+        "d": "2022-08-01",
+        "m1": "96.32",
+        "m2": "92.9"
+      },
+      {
+        "p": {
+          "name": "SiamixFormer: a fully-transformer Siamese network with temporal Fusion for accurate building detection and change detection in bi-temporal remote sensing images",
+          "link": "https://arxiv.org/abs/2208.00657v2"
+        },
+        "c": "",
+        "n": "SiamixFormer-2",
+        "d": "2022-08-01",
+        "m1": "96.22",
+        "m2": "92.7"
+      },
+      {
+        "p": {
+          "name": "SiamixFormer: a fully-transformer Siamese network with temporal Fusion for accurate building detection and change detection in bi-temporal remote sensing images",
+          "link": "https://arxiv.org/abs/2208.00657v2"
+        },
+        "c": "",
+        "n": "SiamixFormer-1",
+        "d": "2022-08-01",
+        "m1": "96.01",
+        "m2": "92.31"
+      },
+      {
+        "p": {
+          "name": "Building Extraction from Remote Sensing Images via an Uncertainty-Aware Network",
+          "link": "https://arxiv.org/abs/2307.12309v1"
+        },
+        "c": "https://github.com/henryjiepanli/uncertainty-aware-network",
+        "n": "UANet(VGG-16)",
+        "d": "2023-07-23",
+        "m1": "95.91",
+        "m2": "92.15"
+      },
+      {
+        "p": {
+          "name": "SiamixFormer: a fully-transformer Siamese network with temporal Fusion for accurate building detection and change detection in bi-temporal remote sensing images",
+          "link": "https://arxiv.org/abs/2208.00657v2"
+        },
+        "c": "",
+        "n": "SiamixFormer-0",
+        "d": "2022-08-01",
+        "m1": "95.53",
+        "m2": "91.43"
+      }
+    ]
+  }
+}

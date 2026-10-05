@@ -1,15 +1,13 @@
 {
   "title": "heart-rate-estimation-on-ppg-dalia",
   "task-hierarchy": [
-    "Medical waveform analysis",
-    "Electrocardiography (ECG)",
-    "ECG Classification",
+    "Physiological Signal Analysis",
     "Photoplethysmography (PPG)",
     "Heart rate estimation"
   ],
   "dataset-info": {
-    "link": "",
-    "paper": ""
+    "link": "https://archive.ics.uci.edu/dataset/495/ppg+dalia",
+    "paper": "Deep PPG: Large-Scale Heart Rate Estimation with Convolutional Neural Networks"
   },
   "benchmark": {
     "fields": [

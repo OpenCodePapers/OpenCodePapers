@@ -1,0 +1,127 @@
+{
+  "title": "dynamic-link-prediction-on-enron-emails",
+  "task-hierarchy": [
+    "Link Prediction",
+    "Dynamic Link Prediction"
+  ],
+  "dataset-info": {
+    "link": "https://www.cs.cmu.edu/~enron/",
+    "paper": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AP",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "AUC",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "MRR",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Euler: Detecting Network Lateral Movement via Scalable Temporal Link Prediction",
+          "link": "https://www.ndss-symposium.org/ndss-paper/auto-draft-227/"
+        },
+        "c": "https://github.com/iHeartGraph/Euler",
+        "n": "Euler",
+        "d": "2022-04-24",
+        "m1": "94.10",
+        "m2": "93.15"
+      },
+      {
+        "p": {
+          "name": "Variational Graph Recurrent Neural Networks",
+          "link": "https://arxiv.org/abs/1908.09710v3"
+        },
+        "c": "https://github.com/VGraphRNN/VGRNN",
+        "n": "SI-VGRNN",
+        "d": "2019-08-26",
+        "m1": "93.93",
+        "m2": "94.44"
+      },
+      {
+        "p": {
+          "name": "Contrastive Representation Learning for Dynamic Link Prediction in Temporal Networks",
+          "link": "https://arxiv.org/abs/2408.12753v1"
+        },
+        "c": "https://github.com/amrhssn/teneNCE",
+        "n": "teneNCE",
+        "d": "2024-08-22",
+        "m1": "93.65",
+        "m2": "93.54",
+        "m3": "0.315"
+      },
+      {
+        "p": {
+          "name": "Variational Graph Recurrent Neural Networks",
+          "link": "https://arxiv.org/abs/1908.09710v3"
+        },
+        "c": "https://github.com/VGraphRNN/VGRNN",
+        "n": "VGRNN",
+        "d": "2019-08-26",
+        "m1": "93.10",
+        "m2": "93.29"
+      },
+      {
+        "p": {
+          "name": "EvolveGCN: Evolving Graph Convolutional Networks for Dynamic Graphs",
+          "link": "https://arxiv.org/abs/1902.10191v3"
+        },
+        "c": "https://github.com/dmlc/dgl/tree/master/examples/pytorch/evolveGCN",
+        "n": "EGCN-H",
+        "d": "2019-02-26",
+        "m1": "88.29",
+        "m2": "89.33"
+      },
+      {
+        "p": {
+          "name": "dyngraph2vec: Capturing Network Dynamics using Dynamic Graph Representation Learning",
+          "link": "https://arxiv.org/abs/1809.02657v2"
+        },
+        "c": "https://github.com/palash1992/DynamicGEM",
+        "n": "DynAERNN",
+        "d": "2018-09-07",
+        "m1": "87.43",
+        "m2": "89.37"
+      },
+      {
+        "p": {
+          "name": "EvolveGCN: Evolving Graph Convolutional Networks for Dynamic Graphs",
+          "link": "https://arxiv.org/abs/1902.10191v3"
+        },
+        "c": "https://github.com/dmlc/dgl/tree/master/examples/pytorch/evolveGCN",
+        "n": "EGCN-O",
+        "d": "2019-02-26",
+        "m1": "84.28",
+        "m2": "86.55"
+      }
+    ]
+  }
+}

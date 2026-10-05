@@ -1,0 +1,113 @@
+{
+  "title": "visual-grounding-on-refcoco-plus-testa",
+  "task-hierarchy": [
+    "Visual Grounding"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/lichengunc/refer",
+    "paper": "Modeling Context in Referring Expressions"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy (%)",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "IoU",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Florence-2: Advancing a Unified Representation for a Variety of Vision Tasks",
+          "link": "https://arxiv.org/abs/2311.06242v1"
+        },
+        "c": "https://github.com/retkowsky/florence-2",
+        "n": "Florence-2-large-ft",
+        "d": "2023-11-10",
+        "m1": " 95.3"
+      },
+      {
+        "p": {
+          "name": "mPLUG-2: A Modularized Multi-modal Foundation Model Across Text, Image and Video",
+          "link": "https://arxiv.org/abs/2302.00402v1"
+        },
+        "c": "https://github.com/modelscope/modelscope",
+        "n": "mPLUG-2",
+        "d": "2023-02-01",
+        "m1": "92.8"
+      },
+      {
+        "p": {
+          "name": "X$^2$-VLM: All-In-One Pre-trained Model For Vision-Language Tasks",
+          "link": "https://arxiv.org/abs/2211.12402v2"
+        },
+        "c": "https://github.com/zengyan-97/x-vlm",
+        "n": "X2-VLM (large)",
+        "d": "2022-11-22",
+        "m1": "92.1"
+      },
+      {
+        "p": {
+          "name": "Toward Building General Foundation Models for Language, Vision, and Vision-Language Understanding Tasks",
+          "link": "https://arxiv.org/abs/2301.05065v2"
+        },
+        "c": "https://github.com/zhangxinsong-nlp/XFM",
+        "n": "XFM (base)",
+        "d": "2023-01-12",
+        "m1": "90.4"
+      },
+      {
+        "p": {
+          "name": "X$^2$-VLM: All-In-One Pre-trained Model For Vision-Language Tasks",
+          "link": "https://arxiv.org/abs/2211.12402v2"
+        },
+        "c": "https://github.com/zengyan-97/x-vlm",
+        "n": "X2-VLM (base)",
+        "d": "2022-11-22",
+        "m1": "90.3"
+      },
+      {
+        "p": {
+          "name": "Multi-Grained Vision Language Pre-Training: Aligning Texts with Visual Concepts",
+          "link": "https://arxiv.org/abs/2111.08276v3"
+        },
+        "c": "https://github.com/zengyan-97/x-vlm",
+        "n": "X-VLM (base)",
+        "d": "2021-11-16",
+        "m1": "89.00"
+      },
+      {
+        "p": {
+          "name": "HYDRA: A Hyper Agent for Dynamic Compositional Visual Reasoning",
+          "link": "https://arxiv.org/abs/2403.12884v2"
+        },
+        "c": "https://github.com/ControlNet/HYDRA",
+        "n": "HYDRA",
+        "d": "2024-03-19",
+        "m2": "61.1"
+      }
+    ]
+  }
+}

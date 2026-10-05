@@ -1,0 +1,151 @@
+{
+  "title": "low-light-image-enhancement-on-lolv2-synthetic",
+  "task-hierarchy": [
+    "Image Enhancement",
+    "Low-Light Image Enhancement"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/flyywh/CVPR-2020-Semi-Low-Light",
+    "paper": "Sparse Gradient Regularized Deep Retinex Network for Robust Low-Light Image Enhancement"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Average PSNR",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "SSIM",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "LPIPS",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "DPEC: Dual-Path Error Compensation Method for Enhanced Low-Light Image Clarity",
+          "link": "https://arxiv.org/abs/2407.09553v4"
+        },
+        "c": "https://github.com/wangshuang233/DPEC-VM",
+        "n": "DPEC_",
+        "d": "2024-06-28",
+        "m1": "29.95",
+        "m2": "0.950"
+      },
+      {
+        "p": {
+          "name": "GLARE: Low Light Image Enhancement via Generative Latent Feature based Codebook Retrieval",
+          "link": "https://arxiv.org/abs/2407.12431v1"
+        },
+        "c": "https://github.com/lowlevelai/glare",
+        "n": "GLARE",
+        "d": "2024-07-17",
+        "m1": "29.84",
+        "m2": "0.958"
+      },
+      {
+        "p": {
+          "name": "Enhancing Low-Light Images with Kolmogorov–Arnold Networks in Transformer Attention",
+          "link": "https://ieeexplore.ieee.org/abstract/document/10797300"
+        },
+        "c": "https://github.com/albrateanu/KANT",
+        "n": "KAN-T",
+        "d": "2024-11-07",
+        "m1": "29.77",
+        "m2": "0.949"
+      },
+      {
+        "p": {
+          "name": "You Only Need One Color Space: An Efficient Network for Low-light Image Enhancement",
+          "link": "https://arxiv.org/abs/2402.05809v3"
+        },
+        "c": "https://github.com/fediory/hvi-cidnet",
+        "n": "CIDNet",
+        "d": "2024-02-08",
+        "m1": "29.566",
+        "m2": "0.950",
+        "m3": "0.040"
+      },
+      {
+        "p": {
+          "name": "LYT-NET: Lightweight YUV Transformer-based Network for Low-light Image Enhancement",
+          "link": "https://arxiv.org/abs/2401.15204v6"
+        },
+        "c": "https://github.com/albrateanu/LYT-Net/tree/main/PyTorch",
+        "n": "LYT-Net",
+        "d": "2024-01-26",
+        "m1": "29.38",
+        "m2": "0.939",
+        "m3": "0.037"
+      },
+      {
+        "p": {
+          "name": "Retinexformer: One-stage Retinex-based Transformer for Low-light Image Enhancement",
+          "link": "https://arxiv.org/abs/2303.06705v3"
+        },
+        "c": "https://github.com/cmhungsteve/Awesome-Transformer-Attention",
+        "n": "Retinexformer",
+        "d": "2023-03-12",
+        "m1": "29.04",
+        "m2": "0.939"
+      },
+      {
+        "p": {
+          "name": "Global Structure-Aware Diffusion Process for Low-Light Image Enhancement",
+          "link": "https://arxiv.org/abs/2310.17577v2"
+        },
+        "c": "https://github.com/jinnh/GSAD",
+        "n": "GlobalDiff",
+        "d": "2023-10-26",
+        "m1": "28.67",
+        "m2": "0.944",
+        "m3": "0.047"
+      },
+      {
+        "p": {
+          "name": "DPEC: Dual-Path Error Compensation Method for Enhanced Low-Light Image Clarity",
+          "link": "https://arxiv.org/abs/2407.09553v4"
+        },
+        "c": "https://github.com/wangshuang233/DPEC-VM",
+        "n": "DPEC",
+        "d": "2024-06-28",
+        "m1": "26.19",
+        "m2": "0.939"
+      },
+      {
+        "p": {
+          "name": "FLIGHT Mode On: A Feather-Light Network for Low-Light Image Enhancement",
+          "link": "https://arxiv.org/abs/2305.10889v1"
+        },
+        "c": "https://github.com/aselsan-research-imaging-team/flight-net",
+        "n": "FLIGHTNet",
+        "d": "2023-05-18",
+        "m1": "24.92",
+        "m2": "0.93"
+      }
+    ]
+  }
+}

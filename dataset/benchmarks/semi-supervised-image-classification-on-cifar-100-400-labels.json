@@ -1,0 +1,246 @@
+{
+  "title": "semi-supervised-image-classification-on-cifar-100-400-labels",
+  "task-hierarchy": [
+    "Image Classification",
+    "Semi-Supervised Image Classification"
+  ],
+  "dataset-info": {
+    "link": "https://www.cs.toronto.edu/~kriz/cifar.html",
+    "paper": "Learning multiple layers of features from tiny images"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Percentage error",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "SemiReward: A General Reward Model for Semi-supervised Learning",
+          "link": "https://arxiv.org/abs/2310.03013v2"
+        },
+        "c": "https://github.com/Westlake-AI/SemiReward",
+        "n": "SemiReward",
+        "d": "2023-10-04",
+        "m1": "15.62"
+      },
+      {
+        "p": {
+          "name": "USB: A Unified Semi-supervised Learning Benchmark for Classification",
+          "link": "https://arxiv.org/abs/2208.07204v2"
+        },
+        "c": "https://github.com/microsoft/semi-supervised-learning",
+        "n": "ReMixMatch",
+        "d": "2022-08-12",
+        "m1": "16.8"
+      },
+      {
+        "p": {
+          "name": "ViTSGMM: A Robust Semi-Supervised Image Recognition Network Using Sparse Labels",
+          "link": "https://arxiv.org/abs/2506.03582v1"
+        },
+        "c": "https://github.com/Shu1L0n9/SemiOccam",
+        "n": "SemiOccam",
+        "d": "2025-06-04",
+        "m1": "26.59"
+      },
+      {
+        "p": {
+          "name": "SST: Self-training with Self-adaptive Thresholding for Semi-supervised Learning",
+          "link": "https://arxiv.org/abs/2506.00467v1"
+        },
+        "c": "",
+        "n": "Semi-SST (ViT-Small)",
+        "d": "2025-05-31",
+        "m1": "31.39±0.47"
+      },
+      {
+        "p": {
+          "name": "Shrinking Class Space for Enhanced Certainty in Semi-Supervised Learning",
+          "link": "https://arxiv.org/abs/2308.06777v1"
+        },
+        "c": "https://github.com/LiheYoung/ShrinkMatch",
+        "n": "ShrinkMatch",
+        "d": "2023-08-13",
+        "m1": "35.36"
+      },
+      {
+        "p": {
+          "name": "SST: Self-training with Self-adaptive Thresholding for Semi-supervised Learning",
+          "link": "https://arxiv.org/abs/2506.00467v1"
+        },
+        "c": "",
+        "n": "Super-SST (ViT-Small)",
+        "d": "2025-05-31",
+        "m1": "35.50±0.58"
+      },
+      {
+        "p": {
+          "name": "Probabilistic Contrastive Learning for Domain Adaptation",
+          "link": "https://arxiv.org/abs/2111.06021v5"
+        },
+        "c": "https://github.com/ljjcoder/PCL",
+        "n": "PCL (Flexmatch)",
+        "d": "2021-11-11",
+        "m1": "35.75±0.53"
+      },
+      {
+        "p": {
+          "name": "SimMatch: Semi-supervised Learning with Similarity Matching",
+          "link": "https://arxiv.org/abs/2203.06915v2"
+        },
+        "c": "https://github.com/kylezheng1997/simmatch",
+        "n": "SimMatch",
+        "d": "2022-03-14",
+        "m1": "37.81"
+      },
+      {
+        "p": {
+          "name": "FreeMatch: Self-adaptive Thresholding for Semi-supervised Learning",
+          "link": "https://arxiv.org/abs/2205.07246v3"
+        },
+        "c": "https://github.com/microsoft/semi-supervised-learning",
+        "n": "FreeMatch",
+        "d": "2022-05-15",
+        "m1": "37.98"
+      },
+      {
+        "p": {
+          "name": "NP-Match: When Neural Processes meet Semi-Supervised Learning",
+          "link": "https://arxiv.org/abs/2207.01066v1"
+        },
+        "c": "https://github.com/jianf-wang/np-match",
+        "n": "NP-Match",
+        "d": "2022-07-03",
+        "m1": "38.67"
+      },
+      {
+        "p": {
+          "name": "Class-Aware Contrastive Semi-Supervised Learning",
+          "link": "https://arxiv.org/abs/2203.02261v3"
+        },
+        "c": "https://github.com/tencentyouturesearch/classification-semicls",
+        "n": "CCSSL(FixMatch)",
+        "d": "2022-03-04",
+        "m1": "38.81"
+      },
+      {
+        "p": {
+          "name": "FlexMatch: Boosting Semi-Supervised Learning with Curriculum Pseudo Labeling",
+          "link": "https://arxiv.org/abs/2110.08263v3"
+        },
+        "c": "https://github.com/torchssl/torchssl",
+        "n": "FlexMatch",
+        "d": "2021-10-15",
+        "m1": "39.94±1.62"
+      },
+      {
+        "p": "",
+        "c": "",
+        "n": "FixMatch+DM",
+        "d": "",
+        "m1": "40.25±0.95"
+      },
+      {
+        "p": {
+          "name": "DoubleMatch: Improving Semi-Supervised Learning with Self-Supervision",
+          "link": "https://arxiv.org/abs/2205.05575v1"
+        },
+        "c": "https://github.com/walline/doublematch",
+        "n": "DoubleMatch",
+        "d": "2022-05-11",
+        "m1": "41.83± 1.22"
+      },
+      {
+        "p": {
+          "name": "Probabilistic Contrastive Learning for Domain Adaptation",
+          "link": "https://arxiv.org/abs/2111.06021v5"
+        },
+        "c": "https://github.com/ljjcoder/PCL",
+        "n": "PCL (Fixmatch)",
+        "d": "2021-11-11",
+        "m1": "42.38±2.52"
+      },
+      {
+        "p": {
+          "name": "DP-SSL: Towards Robust Semi-supervised Learning with A Few Labeled Samples",
+          "link": "https://arxiv.org/abs/2110.13740v1"
+        },
+        "c": "",
+        "n": "DP-SSL",
+        "d": "2021-10-26",
+        "m1": "43.17±1.29"
+      },
+      {
+        "p": {
+          "name": "ReMixMatch: Semi-Supervised Learning with Distribution Alignment and Augmentation Anchoring",
+          "link": "https://arxiv.org/abs/1911.09785v2"
+        },
+        "c": "https://github.com/google-research/mixmatch",
+        "n": "ReMixMatch",
+        "d": "2019-11-21",
+        "m1": "44.28±2.06"
+      },
+      {
+        "p": {
+          "name": "Dash: Semi-Supervised Learning with Dynamic Thresholding",
+          "link": "https://arxiv.org/abs/2109.00650v1"
+        },
+        "c": "",
+        "n": "Dash\n(RA, WRN-28-8)",
+        "d": "2021-09-01",
+        "m1": "44.76±0.96"
+      },
+      {
+        "p": {
+          "name": "Dash: Semi-Supervised Learning with Dynamic Thresholding",
+          "link": "https://arxiv.org/abs/2109.00650v1"
+        },
+        "c": "",
+        "n": "Dash\n(CTA, WRN-28-8)",
+        "d": "2021-09-01",
+        "m1": "44.83±1.36"
+      },
+      {
+        "p": {
+          "name": "Contrastive Regularization for Semi-Supervised Learning",
+          "link": "https://arxiv.org/abs/2201.06247v2"
+        },
+        "c": "",
+        "n": "FixMatch+CR",
+        "d": "2022-01-17",
+        "m1": "49.23"
+      },
+      {
+        "p": {
+          "name": "FixMatch: Simplifying Semi-Supervised Learning with Consistency and Confidence",
+          "link": "https://arxiv.org/abs/2001.07685v2"
+        },
+        "c": "https://github.com/google-research/fixmatch",
+        "n": "FixMatch (CTA)",
+        "d": "2020-01-21",
+        "m1": "49.95±3.01"
+      }
+    ]
+  }
+}

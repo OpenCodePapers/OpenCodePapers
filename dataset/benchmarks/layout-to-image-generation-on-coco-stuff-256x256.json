@@ -1,0 +1,102 @@
+{
+  "title": "layout-to-image-generation-on-coco-stuff-256x256",
+  "task-hierarchy": [
+    "Image Generation",
+    "Layout-to-Image Generation"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/nightrome/cocostuff",
+    "paper": "COCO-Stuff: Thing and Stuff Classes in Context"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "FID",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Inception Score",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "LPIPS",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "LayoutDiffusion: Controllable Diffusion Model for Layout-to-image Generation",
+          "link": "https://arxiv.org/abs/2303.17189v2"
+        },
+        "c": "https://github.com/zgctroy/layoutdiffusion",
+        "n": "LayoutDiffusion (25steps)",
+        "d": "2023-03-30",
+        "m1": "31.68"
+      },
+      {
+        "p": {
+          "name": "High-Resolution Image Synthesis with Latent Diffusion Models",
+          "link": "https://arxiv.org/abs/2112.10752v2"
+        },
+        "c": "https://github.com/compvis/stable-diffusion",
+        "n": "LDM-4 (200steps)",
+        "d": "2021-12-20",
+        "m1": "40.96"
+      },
+      {
+        "p": {
+          "name": "Object-Centric Image Generation from Layouts",
+          "link": "https://arxiv.org/abs/2003.07449v2"
+        },
+        "c": "",
+        "n": "OC-GAN",
+        "d": "2020-03-16",
+        "m1": "41.65",
+        "m2": "17.8"
+      },
+      {
+        "p": {
+          "name": "High-Resolution Image Synthesis with Latent Diffusion Models",
+          "link": "https://arxiv.org/abs/2112.10752v2"
+        },
+        "c": "https://github.com/compvis/stable-diffusion",
+        "n": "LDM-8 (100steps)",
+        "d": "2021-12-20",
+        "m1": "42.06"
+      },
+      {
+        "p": {
+          "name": "Learning Canonical Representations for Scene Graph to Image Generation",
+          "link": "https://arxiv.org/abs/1912.07414v5"
+        },
+        "c": "https://github.com/roeiherz/AG2Video",
+        "n": "AttSPADE",
+        "d": "2019-12-16",
+        "m1": "54.7",
+        "m2": "15.6",
+        "m3": "0.44"
+      }
+    ]
+  }
+}

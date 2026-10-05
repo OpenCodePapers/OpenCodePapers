@@ -1,0 +1,88 @@
+{
+  "title": "hierarchical-multi-label-classification-on-eurlex57k",
+  "task-hierarchy": [
+    "Multi-Label Classification",
+    "Hierarchical Multi-label Classification"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/iliaschalkidis/lmtc-eurlex57k",
+    "paper": "Large-Scale Multi-Label Text Classification on EU Legislation"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Macro F1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Micro F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Hierarchy-aware Biased Bound Margin Loss Function for Hierarchical Text Classification",
+          "link": "https://aclanthology.org/2024.findings-acl.457/"
+        },
+        "c": "https://github.com/whitepurple/HBM-loss-for-HTC",
+        "n": "HiDEC+HBM Loss",
+        "d": "2024-08-13",
+        "m1": "28.77±0.11",
+        "m2": "76.48±0.12"
+      },
+      {
+        "p": {
+          "name": "Hierarchy-aware Biased Bound Margin Loss Function for Hierarchical Text Classification",
+          "link": "https://aclanthology.org/2024.findings-acl.457/"
+        },
+        "c": "https://github.com/whitepurple/HBM-loss-for-HTC",
+        "n": "HPT+HBM Loss",
+        "d": "2024-08-13",
+        "m1": "28.70±0.22",
+        "m2": "75.78±0.15"
+      },
+      {
+        "p": {
+          "name": "Hierarchy-aware Biased Bound Margin Loss Function for Hierarchical Text Classification",
+          "link": "https://aclanthology.org/2024.findings-acl.457/"
+        },
+        "c": "https://github.com/whitepurple/HBM-loss-for-HTC",
+        "n": "HPT",
+        "d": "2024-08-13",
+        "m1": "28.46±0.26",
+        "m2": "75.54±0.20"
+      },
+      {
+        "p": {
+          "name": "Hierarchy-aware Biased Bound Margin Loss Function for Hierarchical Text Classification",
+          "link": "https://aclanthology.org/2024.findings-acl.457/"
+        },
+        "c": "https://github.com/whitepurple/HBM-loss-for-HTC",
+        "n": "HiDEC",
+        "d": "2024-08-13",
+        "m1": "27.91±0.11",
+        "m2": "75.14±0.19"
+      }
+    ]
+  }
+}

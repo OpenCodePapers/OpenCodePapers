@@ -1,0 +1,278 @@
+{
+  "title": "domain-generalization-on-gta-to-avg-cityscapes-bdd-mapillary",
+  "task-hierarchy": [
+    "Domain Generalization"
+  ],
+  "dataset-info": {
+    "link": "",
+    "paper": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mIoU",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "SoRA: Singular Value Decomposed Low-Rank Adaptation for Domain Generalizable Representation Learning",
+          "link": "https://arxiv.org/abs/2412.04077v1"
+        },
+        "c": "https://github.com/ysj9909/DG-SoRA",
+        "n": "SoRA",
+        "d": "2024-12-05",
+        "m1": "68.27"
+      },
+      {
+        "p": {
+          "name": "Mamba as a Bridge: Where Vision Foundation Models Meet Vision Language Models for Domain-Generalized Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2504.03193v1"
+        },
+        "c": "https://github.com/devinxzhang/mfuser",
+        "n": "MFuser",
+        "d": "2025-04-04",
+        "m1": "68.20"
+      },
+      {
+        "p": {
+          "name": "Textual Query-Driven Mask Transformer for Domain Generalized Segmentation",
+          "link": "https://arxiv.org/abs/2407.09033v1"
+        },
+        "c": "https://github.com/ByeongHyunPak/tqdm",
+        "n": "tqdm (EVA02-CLIP-L)",
+        "d": "2024-07-12",
+        "m1": "66.05"
+      },
+      {
+        "p": {
+          "name": "Domain Generalization through Attenuation of Domain-Specific Information",
+          "link": "https://arxiv.org/abs/2504.06781v1"
+        },
+        "c": "https://github.com/ReijiSoftmaxSaito/ADSI",
+        "n": "ADSI",
+        "d": "2025-04-09",
+        "m1": "65.57"
+      },
+      {
+        "p": {
+          "name": "Stronger, Fewer, & Superior: Harnessing Vision Foundation Models for Domain Generalized Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2312.04265v5"
+        },
+        "c": "https://github.com/w1oves/rein",
+        "n": "Rein",
+        "d": "2023-12-07",
+        "m1": "64.3"
+      },
+      {
+        "p": {
+          "name": "Strong but simple: A Baseline for Domain Generalized Dense Perception by CLIP-based Transfer Learning",
+          "link": "https://arxiv.org/abs/2312.02021v4"
+        },
+        "c": "https://github.com/VLTSeg/VLTSeg",
+        "n": "VLTSeg",
+        "d": "2023-12-04",
+        "m1": "63.5"
+      },
+      {
+        "p": {
+          "name": "Collaborating Foundation Models for Domain Generalized Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2312.09788v2"
+        },
+        "c": "https://github.com/yasserben/clouds",
+        "n": "CLOUDS",
+        "d": "2023-12-15",
+        "m1": "61.5"
+      },
+      {
+        "p": {
+          "name": "Generalization by Adaptation: Diffusion-Based Domain Extension for Domain-Generalized Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2312.01850v1"
+        },
+        "c": "https://github.com/jniemeijer/didex",
+        "n": "DIDEX",
+        "d": "2023-12-04",
+        "m1": "59.7"
+      },
+      {
+        "p": {
+          "name": "DGInStyle: Domain-Generalizable Semantic Segmentation with Image Diffusion Models and Stylized Semantic Control",
+          "link": "https://arxiv.org/abs/2312.03048v2"
+        },
+        "c": "",
+        "n": "DGInStyle",
+        "d": "2023-12-05",
+        "m1": "57.78"
+      },
+      {
+        "p": {
+          "name": "Diffusion Features to Bridge Domain Gap for Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2406.00777v2"
+        },
+        "c": "https://github.com/Yux1angJi/DIFF",
+        "n": "DIFF",
+        "d": "2024-06-02",
+        "m1": "57.15"
+      },
+      {
+        "p": {
+          "name": "Domain Adaptive and Generalizable Network Architectures and Training Strategies for Semantic Image Segmentation",
+          "link": "https://arxiv.org/abs/2304.13615v2"
+        },
+        "c": "https://github.com/lhoyer/DAFormer",
+        "n": "HRDA",
+        "d": "2023-04-26",
+        "m1": "55.9"
+      },
+      {
+        "p": {
+          "name": "Domain Adaptive and Generalizable Network Architectures and Training Strategies for Semantic Image Segmentation",
+          "link": "https://arxiv.org/abs/2304.13615v2"
+        },
+        "c": "https://github.com/lhoyer/DAFormer",
+        "n": "DAFormer",
+        "d": "2023-04-26",
+        "m1": "51.73"
+      },
+      {
+        "p": {
+          "name": "Learning Content-enhanced Mask Transformer for Domain Generalized Urban-Scene Segmentation",
+          "link": "https://arxiv.org/abs/2307.00371v5"
+        },
+        "c": "https://github.com/BiQiWHU/CMFormer",
+        "n": "CMFormer",
+        "d": "2023-07-01",
+        "m1": "51.10"
+      },
+      {
+        "p": {
+          "name": "A Re-Parameterized Vision Transformer (ReVT) for Domain-Generalized Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2308.13331v1"
+        },
+        "c": "https://github.com/ifnspaml/revt",
+        "n": "ReVT",
+        "d": "2023-08-25",
+        "m1": "50.2"
+      },
+      {
+        "p": {
+          "name": "Texture Learning Domain Randomization for Domain Generalized Segmentation",
+          "link": "https://arxiv.org/abs/2303.11546v2"
+        },
+        "c": "https://github.com/ssssshwan/tldr",
+        "n": "TLDR",
+        "d": "2023-03-21",
+        "m1": "47.09"
+      },
+      {
+        "p": {
+          "name": "Style-Hallucinated Dual Consistency Learning for Domain Generalized Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2204.02548v2"
+        },
+        "c": "https://github.com/helioszhao/shade",
+        "n": "SHADE",
+        "d": "2022-04-06",
+        "m1": "45.27"
+      },
+      {
+        "p": {
+          "name": "Semantic Self-adaptation: Enhancing Generalization with a Single Sample",
+          "link": "https://arxiv.org/abs/2208.05788v3"
+        },
+        "c": "https://github.com/visinf/self-adaptive",
+        "n": "Self-adaptation (ResNet - 101)",
+        "d": "2022-08-10",
+        "m1": "44.89"
+      },
+      {
+        "p": {
+          "name": "Semantic Self-adaptation: Enhancing Generalization with a Single Sample",
+          "link": "https://arxiv.org/abs/2208.05788v3"
+        },
+        "c": "https://github.com/visinf/self-adaptive",
+        "n": "Self-adaptation (ResNet - 50)",
+        "d": "2022-08-10",
+        "m1": "44.07"
+      },
+      {
+        "p": {
+          "name": "Semantic-Aware Domain Generalized Segmentation",
+          "link": "https://arxiv.org/abs/2204.00822v1"
+        },
+        "c": "https://github.com/leolyj/san-saw",
+        "n": "SAN-SAW",
+        "d": "2022-04-02",
+        "m1": "42.43"
+      },
+      {
+        "p": {
+          "name": "Adversarial Style Augmentation for Domain Generalized Urban-Scene Segmentation",
+          "link": "https://arxiv.org/abs/2207.04892v2"
+        },
+        "c": "https://github.com/harisankar95/AdvStyle",
+        "n": "AdvStyle",
+        "d": "2022-07-11",
+        "m1": "42.42"
+      },
+      {
+        "p": {
+          "name": "Global and Local Texture Randomization for Synthetic-to-Real Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2108.02376v2"
+        },
+        "c": "",
+        "n": "GTR",
+        "d": "2021-08-05",
+        "m1": "40.8"
+      },
+      {
+        "p": {
+          "name": "Domain Randomization and Pyramid Consistency: Simulation-to-Real Generalization without Accessing Target Domain Data",
+          "link": "https://arxiv.org/abs/1909.00889v2"
+        },
+        "c": "",
+        "n": "DRPC",
+        "d": "2019-09-02",
+        "m1": "39.77"
+      },
+      {
+        "p": {
+          "name": "RobustNet: Improving Domain Generalization in Urban-Scene Segmentation via Instance Selective Whitening",
+          "link": "https://arxiv.org/abs/2103.15597v2"
+        },
+        "c": "https://github.com/shachoi/RobustNet",
+        "n": "RobustNet",
+        "d": "2021-03-29",
+        "m1": "37.37"
+      },
+      {
+        "p": {
+          "name": "Two at Once: Enhancing Learning and Generalization Capacities via IBN-Net",
+          "link": "https://arxiv.org/abs/1807.09441v3"
+        },
+        "c": "https://github.com/layumi/Person_reID_baseline_pytorch",
+        "n": "IBN",
+        "d": "2018-07-25",
+        "m1": "34.63"
+      }
+    ]
+  }
+}

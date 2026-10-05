@@ -1,0 +1,139 @@
+{
+  "title": "gesture-to-gesture-translation-on-ntu-hand-digit",
+  "task-hierarchy": [
+    "Image-to-Image Translation",
+    "Gesture-to-Gesture Translation"
+  ],
+  "dataset-info": {
+    "link": "",
+    "paper": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "IS",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "PSNR",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "AMT",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "FID",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "FRD",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "MSE",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "GestureGAN for Hand Gesture-to-Gesture Translation in the Wild",
+          "link": "https://arxiv.org/abs/1808.04859v2"
+        },
+        "c": "https://github.com/Ha0Tang/GestureGAN",
+        "n": "GestureGAN",
+        "d": "2018-08-14",
+        "m1": "2.5532",
+        "m2": "32.6091",
+        "m3": "26.1",
+        "m6": "105.7286"
+      },
+      {
+        "p": {
+          "name": "Skeleton-aided Articulated Motion Generation",
+          "link": "http://arxiv.org/abs/1707.01058v2"
+        },
+        "c": "",
+        "n": "SAMG",
+        "d": "2017-07-04",
+        "m1": "2.4919",
+        "m2": "28.0185",
+        "m3": "2.6"
+      },
+      {
+        "p": {
+          "name": "Disentangled Person Image Generation",
+          "link": "http://arxiv.org/abs/1712.02621v4"
+        },
+        "c": "https://github.com/charliememory/Disentangled-Person-Image-Generation",
+        "n": "DPIG",
+        "d": "2017-12-07",
+        "m1": "2.4547",
+        "m2": "30.6487",
+        "m3": "7.1"
+      },
+      {
+        "p": {
+          "name": "Pose Guided Person Image Generation",
+          "link": "http://arxiv.org/abs/1705.09368v6"
+        },
+        "c": "https://github.com/sgoldyaev/DeepFashion.ADGAN",
+        "n": "PG2",
+        "d": "2017-05-25",
+        "m1": "2.4152",
+        "m2": "28.2403",
+        "m3": "3.5"
+      },
+      {
+        "p": {
+          "name": "Deformable GANs for Pose-based Human Image Generation",
+          "link": "http://arxiv.org/abs/1801.00055v2"
+        },
+        "c": "https://github.com/AliaksandrSiarohin/pose-gan",
+        "n": "PoseGAN",
+        "d": "2017-12-29",
+        "m1": "2.4017",
+        "m2": "29.5471",
+        "m3": "9.3"
+      },
+      {
+        "p": {
+          "name": "Unified Generative Adversarial Networks for Controllable Image-to-Image Translation",
+          "link": "https://arxiv.org/abs/1912.06112v2"
+        },
+        "c": "https://github.com/Ha0Tang/GestureGAN",
+        "n": "UniGAN",
+        "d": "2019-12-12",
+        "m1": "2.3783",
+        "m2": "32.6574",
+        "m3": "29.3",
+        "m4": "6.7493",
+        "m5": "1.7401"
+      }
+    ]
+  }
+}

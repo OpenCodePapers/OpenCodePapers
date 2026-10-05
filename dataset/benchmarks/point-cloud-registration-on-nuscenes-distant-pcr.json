@@ -1,0 +1,88 @@
+{
+  "title": "point-cloud-registration-on-nuscenes-distant-pcr",
+  "task-hierarchy": [
+    "Point Cloud Analysis",
+    "Point Cloud Registration"
+  ],
+  "dataset-info": {
+    "link": "",
+    "paper": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mRR @ Normal Criterion (1.5°&0.3m)",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "RR @ Loose Criterion (5°&2m), on LoNuScenes",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Density-invariant Features for Distant Point Cloud Registration",
+          "link": "https://arxiv.org/abs/2307.09788v2"
+        },
+        "c": "https://github.com/liuquan98/gcl",
+        "n": "GCL+KPConv",
+        "d": "2023-07-19",
+        "m1": "71.5",
+        "m2": "86.5"
+      },
+      {
+        "p": {
+          "name": "Density-invariant Features for Distant Point Cloud Registration",
+          "link": "https://arxiv.org/abs/2307.09788v2"
+        },
+        "c": "https://github.com/liuquan98/gcl",
+        "n": "GCL+Conv",
+        "d": "2023-07-19",
+        "m1": "70.2",
+        "m2": "82.4"
+      },
+      {
+        "p": {
+          "name": "APR: Online Distant Point Cloud Registration Through Aggregated Point Cloud Reconstruction",
+          "link": "https://arxiv.org/abs/2305.02893v2"
+        },
+        "c": "https://github.com/liuquan98/apr",
+        "n": "FCGF+APR(s)",
+        "d": "2023-05-04",
+        "m1": "62.9",
+        "m2": "51.8"
+      },
+      {
+        "p": {
+          "name": "APR: Online Distant Point Cloud Registration Through Aggregated Point Cloud Reconstruction",
+          "link": "https://arxiv.org/abs/2305.02893v2"
+        },
+        "c": "https://github.com/liuquan98/apr",
+        "n": "Predator+APR(a)",
+        "d": "2023-05-04",
+        "m1": "52.2",
+        "m2": "62.7"
+      }
+    ]
+  }
+}

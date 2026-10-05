@@ -1,0 +1,133 @@
+{
+  "title": "node-classification-on-cora-fixed-20-node-per-class",
+  "task-hierarchy": [
+    "Node Classification"
+  ],
+  "dataset-info": {
+    "link": "https://relational.fit.cvut.cz/dataset/CORA",
+    "paper": "Automating the Construction of Internet Portals with Machine Learning"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Micro F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Bridging the Gap Between Spectral and Spatial Domains in Graph Neural Networks",
+          "link": "https://arxiv.org/abs/2003.11702v1"
+        },
+        "c": "https://github.com/balcilar/Spectral-Designed-Graph-Convolutions",
+        "n": "DSGCN",
+        "d": "2020-03-26",
+        "m1": "84.2"
+      },
+      {
+        "p": {
+          "name": "GraphMAE: Self-Supervised Masked Graph Autoencoders",
+          "link": "https://arxiv.org/abs/2205.10803v3"
+        },
+        "c": "https://github.com/thudm/graphmae",
+        "n": "Self-supervised GraphMAE",
+        "d": "2022-05-22",
+        "m1": "84.2"
+      },
+      {
+        "p": {
+          "name": "Learning Discrete Structures for Graph Neural Networks",
+          "link": "https://arxiv.org/abs/1903.11960v4"
+        },
+        "c": "https://github.com/lucfra/LDS",
+        "n": "LDS-GNN",
+        "d": "2019-03-28",
+        "m1": "84.1"
+      },
+      {
+        "p": {
+          "name": "Every Node Counts: Self-Ensembling Graph Convolutional Networks for Semi-Supervised Learning",
+          "link": "http://arxiv.org/abs/1809.09925v1"
+        },
+        "c": "https://github.com/RoyalVane/SEGCN",
+        "n": "SEGCN",
+        "d": "2018-09-26",
+        "m1": "83.5 ± 0.4"
+      },
+      {
+        "p": {
+          "name": "TREE-G: Decision Trees Contesting Graph Neural Networks",
+          "link": "https://arxiv.org/abs/2207.02760v5"
+        },
+        "c": "https://github.com/mayabechlerspeicher/tree-g",
+        "n": "TREE-G",
+        "d": "2022-07-06",
+        "m1": "83.5"
+      },
+      {
+        "p": {
+          "name": "Simple Spectral Graph Convolution",
+          "link": "https://openreview.net/forum?id=CYO5T-YjWZV"
+        },
+        "c": "https://github.com/allenhaozhu/SSGC",
+        "n": "SSGC",
+        "d": "2021-01-01",
+        "m1": "83.0"
+      },
+      {
+        "p": {
+          "name": "Scale Invariance of Graph Neural Networks",
+          "link": "https://arxiv.org/abs/2411.19392v2"
+        },
+        "c": "https://github.com/qin87/scalenet",
+        "n": "ScaleNet",
+        "d": "2024-11-28",
+        "m1": "82.3±1.1"
+      },
+      {
+        "p": {
+          "name": "Graph InfoClust: Leveraging cluster-level node information for unsupervised graph representation learning",
+          "link": "https://arxiv.org/abs/2009.06946v1"
+        },
+        "c": "https://github.com/cmavro/Graph-InfoClust-GIC",
+        "n": "Graph InfoClust (GIC)",
+        "d": "2020-09-15",
+        "m1": "81.7 ± 1.5"
+      },
+      {
+        "p": {
+          "name": "Graph Representation Learning Beyond Node and Homophily",
+          "link": "https://arxiv.org/abs/2203.01564v1"
+        },
+        "c": "https://github.com/syvail/PairE-Graph-Representation-Learning-Beyond-Node-and-Homophily",
+        "n": "PairE",
+        "d": "2022-03-03",
+        "m2": "75.12"
+      }
+    ]
+  }
+}

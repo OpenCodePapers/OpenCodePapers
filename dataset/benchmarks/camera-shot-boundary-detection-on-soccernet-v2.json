@@ -1,0 +1,79 @@
+{
+  "title": "camera-shot-boundary-detection-on-soccernet-v2",
+  "task-hierarchy": [
+    "Video Segmentation",
+    "Camera shot boundary detection"
+  ],
+  "dataset-info": {
+    "link": "https://soccer-net.org/",
+    "paper": "SoccerNet-v2: A Dataset and Benchmarks for Holistic Understanding of Broadcast Soccer Videos"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mAP",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "SoccerNet-v2: A Dataset and Benchmarks for Holistic Understanding of Broadcast Soccer Videos",
+          "link": "https://arxiv.org/abs/2011.13367v3"
+        },
+        "c": "https://github.com/SilvioGiancola/SoccerNetv2-DevKit",
+        "n": "Histogram (Scikit-Video)",
+        "d": "2020-11-26",
+        "m1": "78.5"
+      },
+      {
+        "p": {
+          "name": "SoccerNet-v2: A Dataset and Benchmarks for Holistic Understanding of Broadcast Soccer Videos",
+          "link": "https://arxiv.org/abs/2011.13367v3"
+        },
+        "c": "https://github.com/SilvioGiancola/SoccerNetv2-DevKit",
+        "n": "Intensity (Scikit-Video)",
+        "d": "2020-11-26",
+        "m1": "64.0"
+      },
+      {
+        "p": {
+          "name": "SoccerNet-v2: A Dataset and Benchmarks for Holistic Understanding of Broadcast Soccer Videos",
+          "link": "https://arxiv.org/abs/2011.13367v3"
+        },
+        "c": "https://github.com/SilvioGiancola/SoccerNetv2-DevKit",
+        "n": "Content (PySceneDetect)",
+        "d": "2020-11-26",
+        "m1": "62.2"
+      },
+      {
+        "p": {
+          "name": "SoccerNet-v2: A Dataset and Benchmarks for Holistic Understanding of Broadcast Soccer Videos",
+          "link": "https://arxiv.org/abs/2011.13367v3"
+        },
+        "c": "https://github.com/SilvioGiancola/SoccerNetv2-DevKit",
+        "n": "CALF (Cioppa et al.)",
+        "d": "2020-11-26",
+        "m1": "59.6"
+      }
+    ]
+  }
+}
