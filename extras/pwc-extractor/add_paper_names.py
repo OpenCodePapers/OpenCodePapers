@@ -26,7 +26,24 @@ def process_datasets(data: list):
                 if "title" in item["paper"]:
                     paper = item["paper"]["title"]
 
+            # Variant names shared by datasets with different papers are ambiguous
+            if v in results and results[v]["paper"] != paper:
+                paper = ""
+
             results[v] = {"url": url, "paper": paper}
+    return results
+
+
+# ==================================================================================================
+
+
+def process_benchmarks(data: list, results: dict):
+    for item in data:
+        process_benchmarks(item.get("subtasks", []), results)
+        for ds in item.get("datasets", []):
+            for dl in ds["dataset_links"]:
+                if "/sota/" in dl["url"]:
+                    results.setdefault(dl["url"].split("/sota/")[1], ds["dataset"])
     return results
 
 
@@ -41,8 +58,11 @@ def main():
         data = json.load(f)
     data_ds = process_datasets(data)
 
-    # Reorder data_ds by url
-    data_ds = {v["url"]: v for _, v in data_ds.items()}
+    # Map benchmark names to dataset names
+    path = "data/evaluation-tables.json"
+    with open(path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+    data_bm = process_benchmarks(data, {})
 
     for f in sorted(os.listdir(benchmark_dir)):
         if f.endswith(".json"):
@@ -51,10 +71,10 @@ def main():
             with open(filepath, "r", encoding="utf-8") as f:
                 data = json.load(f)
 
-            link = data.get("dataset-info", {}).get("link", "")
+            dataset = data_bm.get(data["title"], "")
             paper = ""
-            if link != "" and link in data_ds:
-                paper = data_ds[link].get("paper", "")
+            if dataset != "" and dataset in data_ds:
+                paper = data_ds[dataset].get("paper", "")
             data["dataset-info"]["paper"] = paper
 
             with open(filepath, "w", encoding="utf-8") as f:
