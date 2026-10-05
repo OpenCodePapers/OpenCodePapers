@@ -1,0 +1,272 @@
+{
+  "title": "image-super-resolution-on-manga109-2x-upscaling",
+  "task-hierarchy": [
+    "Super-Resolution",
+    "Image Super-Resolution"
+  ],
+  "dataset-info": {
+    "link": "http://www.manga109.org/en/",
+    "paper": "Sketch-based Manga Retrieval using Manga109 Dataset"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "PSNR",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "SSIM",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Hierarchical Information Flow for Generalized Efficient Image Restoration",
+          "link": "https://arxiv.org/abs/2411.18588v1"
+        },
+        "c": "",
+        "n": "Hi-IR-L",
+        "d": "2024-11-27",
+        "m1": "41.22",
+        "m2": "0.9846"
+      },
+      {
+        "p": {
+          "name": "DRCT: Saving Image Super-resolution away from Information Bottleneck",
+          "link": "https://arxiv.org/abs/2404.00722v5"
+        },
+        "c": "https://github.com/ming053l/drct",
+        "n": "DRCT-L",
+        "d": "2024-03-31",
+        "m1": "41.14",
+        "m2": "0.9842"
+      },
+      {
+        "p": {
+          "name": "HMANet: Hybrid Multi-Axis Aggregation Network for Image Super-Resolution",
+          "link": "https://arxiv.org/abs/2405.05001v1"
+        },
+        "c": "https://github.com/korouuuuu/hma",
+        "n": "HMA†",
+        "d": "2024-05-08",
+        "m1": "41.13",
+        "m2": "0.9836"
+      },
+      {
+        "p": {
+          "name": "Activating More Pixels in Image Super-Resolution Transformer",
+          "link": "https://arxiv.org/abs/2205.04437v3"
+        },
+        "c": "https://github.com/xpixelgroup/hat",
+        "n": "HAT-L",
+        "d": "2022-05-09",
+        "m1": "41.01",
+        "m2": "0.9831"
+      },
+      {
+        "p": {
+          "name": "SwinFIR: Revisiting the SwinIR with Fast Fourier Convolution and Improved Training for Image Super-Resolution",
+          "link": "https://arxiv.org/abs/2208.11247v3"
+        },
+        "c": "https://github.com/Zdafeng/SwinFIR",
+        "n": "HAT_FIR",
+        "d": "2022-08-24",
+        "m1": "40.77"
+      },
+      {
+        "p": {
+          "name": "Activating More Pixels in Image Super-Resolution Transformer",
+          "link": "https://arxiv.org/abs/2205.04437v3"
+        },
+        "c": "https://github.com/xpixelgroup/hat",
+        "n": "HAT",
+        "d": "2022-05-09",
+        "m1": "40.71",
+        "m2": "0.9819"
+      },
+      {
+        "p": {
+          "name": "SwinFIR: Revisiting the SwinIR with Fast Fourier Convolution and Improved Training for Image Super-Resolution",
+          "link": "https://arxiv.org/abs/2208.11247v3"
+        },
+        "c": "https://github.com/Zdafeng/SwinFIR",
+        "n": "SwinFIR",
+        "d": "2022-08-24",
+        "m1": "40.61",
+        "m2": "0.9816"
+      },
+      {
+        "p": {
+          "name": "Channel-Partitioned Windowed Attention And Frequency Learning for Single Image Super-Resolution",
+          "link": "https://arxiv.org/abs/2407.16232v2"
+        },
+        "c": "",
+        "n": "CPAT+",
+        "d": "2024-07-23",
+        "m1": "40.59",
+        "m2": "0.9816"
+      },
+      {
+        "p": {
+          "name": "Channel-Partitioned Windowed Attention And Frequency Learning for Single Image Super-Resolution",
+          "link": "https://arxiv.org/abs/2407.16232v2"
+        },
+        "c": "",
+        "n": "CPAT",
+        "d": "2024-07-23",
+        "m1": "40.48",
+        "m2": "0.9814"
+      },
+      {
+        "p": {
+          "name": "DRCT: Saving Image Super-resolution away from Information Bottleneck",
+          "link": "https://arxiv.org/abs/2404.00722v5"
+        },
+        "c": "https://github.com/ming053l/drct",
+        "n": "DRCT",
+        "d": "2024-03-31",
+        "m1": "40.41",
+        "m2": "0.9814"
+      },
+      {
+        "p": {
+          "name": "Densely Residual Laplacian Super-Resolution",
+          "link": "https://arxiv.org/abs/1906.12021v2"
+        },
+        "c": "https://github.com/saeed-anwar/DRLN",
+        "n": "DRLN+",
+        "d": "2019-06-28",
+        "m1": "39.75",
+        "m2": "0.9792"
+      },
+      {
+        "p": {
+          "name": "Single Image Super-Resolution via a Holistic Attention Network",
+          "link": "https://arxiv.org/abs/2008.08767v1"
+        },
+        "c": "https://github.com/wwlCape/HAN",
+        "n": "HAN+",
+        "d": "2020-08-20",
+        "m1": "39.62",
+        "m2": "0.9787"
+      },
+      {
+        "p": {
+          "name": "Image Super-Resolution with Cross-Scale Non-Local Attention and Exhaustive Self-Exemplars Mining",
+          "link": "https://arxiv.org/abs/2006.01424v1"
+        },
+        "c": "https://github.com/SHI-Labs/Cross-Scale-Non-Local-Attention",
+        "n": "CSNLN",
+        "d": "2020-06-02",
+        "m1": "39.37",
+        "m2": "0.9785"
+      },
+      {
+        "p": {
+          "name": "Hierarchical Back Projection Network for Image Super-Resolution",
+          "link": "https://arxiv.org/abs/1906.06874v2"
+        },
+        "c": "https://github.com/Holmes-Alan/HBPN",
+        "n": "HBPN",
+        "d": "2019-06-17",
+        "m1": "39.3",
+        "m2": "0.979"
+      },
+      {
+        "p": {
+          "name": "Deep Back-Projection Networks for Single Image Super-resolution",
+          "link": "https://arxiv.org/abs/1904.05677v2"
+        },
+        "c": "https://github.com/alterzero/DBPN-Pytorch",
+        "n": "DBPN-RES-MR64-3",
+        "d": "2019-04-04",
+        "m1": "39.28",
+        "m2": "0.977"
+      },
+      {
+        "p": {
+          "name": "ML-CrAIST: Multi-scale Low-high Frequency Information-based Cross black Attention with Image Super-resolving Transformer",
+          "link": "https://arxiv.org/abs/2408.09940v1"
+        },
+        "c": "https://github.com/alik033/ml-craist",
+        "n": "ML-CrAIST",
+        "d": "2024-08-19",
+        "m1": "39.26",
+        "m2": "0.9786"
+      },
+      {
+        "p": {
+          "name": "ML-CrAIST: Multi-scale Low-high Frequency Information-based Cross black Attention with Image Super-resolving Transformer",
+          "link": "https://arxiv.org/abs/2408.09940v1"
+        },
+        "c": "https://github.com/alik033/ml-craist",
+        "n": "ML-CrAIST-Li",
+        "d": "2024-08-19",
+        "m1": "39.23",
+        "m2": "0.9785"
+      },
+      {
+        "p": {
+          "name": "Sequential Hierarchical Learning with Distribution Transformation for Image Super-Resolution",
+          "link": "https://arxiv.org/abs/2007.09552v4"
+        },
+        "c": "",
+        "n": "PMRN+",
+        "d": "2020-07-19",
+        "m1": "39.15",
+        "m2": "0.9781"
+      },
+      {
+        "p": {
+          "name": "Feedback Network for Image Super-Resolution",
+          "link": "https://arxiv.org/abs/1903.09814v2"
+        },
+        "c": "https://github.com/Paper99/SRFBN_CVPR19",
+        "n": "SRFBN",
+        "d": "2019-03-23",
+        "m1": "39.08"
+      },
+      {
+        "p": {
+          "name": "Lightweight Image Super-Resolution with Information Multi-distillation Network",
+          "link": "https://arxiv.org/abs/1909.11856v1"
+        },
+        "c": "https://github.com/Zheng222/IMDN",
+        "n": "IMDN",
+        "d": "2019-09-26",
+        "m1": "38.88"
+      },
+      {
+        "p": {
+          "name": "Lightweight Feature Fusion Network for Single Image Super-Resolution",
+          "link": "http://arxiv.org/abs/1902.05694v2"
+        },
+        "c": "https://github.com/qibao77/LFFN-master",
+        "n": "LFFN-S",
+        "d": "2019-02-15",
+        "m1": "37.93",
+        "m2": "0.9746"
+      }
+    ]
+  }
+}

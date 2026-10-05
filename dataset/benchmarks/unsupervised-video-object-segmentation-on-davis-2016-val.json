@@ -1,0 +1,349 @@
+{
+  "title": "unsupervised-video-object-segmentation-on-davis-2016-val",
+  "task-hierarchy": [
+    "Video Segmentation",
+    "Unsupervised Video Object Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://davischallenge.org/davis2016/code.html",
+    "paper": "A Benchmark Dataset and Evaluation Methodology for Video Object Segmentation"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "G",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "J",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "F",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Guided Slot Attention for Unsupervised Video Object Segmentation",
+          "link": "https://arxiv.org/abs/2303.08314v3"
+        },
+        "c": "https://github.com/hydragon516/gsanet",
+        "n": "GSANet",
+        "d": "2023-03-15",
+        "m1": "88.9",
+        "m2": "88.3",
+        "m3": "89.6"
+      },
+      {
+        "p": {
+          "name": "Tracking Anything with Decoupled Video Segmentation",
+          "link": "https://arxiv.org/abs/2309.03903v1"
+        },
+        "c": "https://github.com/hkchengrex/Tracking-Anything-with-DEVA",
+        "n": "DEVA (DIS)",
+        "d": "2023-09-07",
+        "m1": "88.9",
+        "m2": "87.6",
+        "m3": "90.2"
+      },
+      {
+        "p": {
+          "name": "Improving Unsupervised Video Object Segmentation via Fake Flow Generation",
+          "link": "https://arxiv.org/abs/2407.11714v1"
+        },
+        "c": "",
+        "n": "FakeFlow",
+        "d": "2024-07-16",
+        "m1": "88.5",
+        "m2": "88.0",
+        "m3": "89.0"
+      },
+      {
+        "p": {
+          "name": "Dual Prototype Attention for Unsupervised Video Object Segmentation",
+          "link": "https://arxiv.org/abs/2211.12036v3"
+        },
+        "c": "https://github.com/hydragon516/dpa",
+        "n": "DPA",
+        "d": "2022-11-22",
+        "m1": "87.6",
+        "m2": "86.8",
+        "m3": "88.4"
+      },
+      {
+        "p": {
+          "name": "Adaptive Multi-source Predictor for Zero-shot Video Object Segmentation",
+          "link": "https://arxiv.org/abs/2303.10383v2"
+        },
+        "c": "https://github.com/xiaoqi-zhao-dlut/multi-source-aps-zvos",
+        "n": "AMP",
+        "d": "2023-03-18",
+        "m1": "87.3",
+        "m2": "87.1",
+        "m3": "87.5"
+      },
+      {
+        "p": {
+          "name": "Treating Motion as Option to Reduce Motion Dependency in Unsupervised Video Object Segmentation",
+          "link": "https://arxiv.org/abs/2209.03138v5"
+        },
+        "c": "https://github.com/suhwan-cho/tmo",
+        "n": "TMO (MiT-b1)",
+        "d": "2022-09-04",
+        "m1": "87.2",
+        "m2": "86.6",
+        "m3": "87.8"
+      },
+      {
+        "p": {
+          "name": "Treating Motion as Option to Reduce Motion Dependency in Unsupervised Video Object Segmentation",
+          "link": "https://arxiv.org/abs/2209.03138v5"
+        },
+        "c": "https://github.com/suhwan-cho/tmo",
+        "n": "TMO (RN-101)",
+        "d": "2022-09-04",
+        "m1": "86.1",
+        "m2": "85.6",
+        "m3": "86.6"
+      },
+      {
+        "p": {
+          "name": "D2Conv3D: Dynamic Dilated Convolutions for Object Segmentation in Videos",
+          "link": "https://openaccess.thecvf.com/content/WACV2022/html/Schmidt_D2Conv3D_Dynamic_Dilated_Convolutions_for_Object_Segmentation_in_Videos_WACV_2022_paper.html"
+        },
+        "c": "https://github.com/schmiddo/d2conv3d",
+        "n": "D2Conv3D",
+        "d": "2021-11-15",
+        "m1": "86.0",
+        "m2": "85.5",
+        "m3": "86.5"
+      },
+      {
+        "p": {
+          "name": "Unsupervised Video Object Segmentation via Prototype Memory Network",
+          "link": "https://arxiv.org/abs/2209.03712v1"
+        },
+        "c": "https://github.com/Hydragon516/PMN",
+        "n": "PMN",
+        "d": "2022-09-08",
+        "m1": "85.9",
+        "m2": "85.4",
+        "m3": "86.4"
+      },
+      {
+        "p": {
+          "name": "Self-supervised Video Object Segmentation with Distillation Learning of Deformable Attention",
+          "link": "https://arxiv.org/abs/2401.13937v2"
+        },
+        "c": "",
+        "n": "DLDA",
+        "d": "2024-01-25",
+        "m1": "85.75",
+        "m2": "84.9",
+        "m3": "86.6"
+      },
+      {
+        "p": {
+          "name": "Iteratively Selecting an Easy Reference Frame Makes Unsupervised Video Object Segmentation Easier",
+          "link": "https://arxiv.org/abs/2112.12402v1"
+        },
+        "c": "",
+        "n": "IMP",
+        "d": "2021-12-23",
+        "m1": "85.6",
+        "m2": "84.5",
+        "m3": "86.7"
+      },
+      {
+        "p": {
+          "name": "Reciprocal Transformations for Unsupervised Video Object Segmentation",
+          "link": "http://openaccess.thecvf.com//content/CVPR2021/html/Ren_Reciprocal_Transformations_for_Unsupervised_Video_Object_Segmentation_CVPR_2021_paper.html"
+        },
+        "c": "https://github.com/OliverRensu/RTNet",
+        "n": "RTNet",
+        "d": "2021-06-19",
+        "m1": "85.2",
+        "m2": "85.6",
+        "m3": "84.7"
+      },
+      {
+        "p": {
+          "name": "Deep Transport Network for Unsupervised Video Object Segmentation",
+          "link": "http://openaccess.thecvf.com//content/ICCV2021/html/Zhang_Deep_Transport_Network_for_Unsupervised_Video_Object_Segmentation_ICCV_2021_paper.html"
+        },
+        "c": "",
+        "n": "TransportNet",
+        "d": "2021-01-01",
+        "m1": "84.8",
+        "m2": "84.5",
+        "m3": "85.0"
+      },
+      {
+        "p": {
+          "name": "Learning Motion-Appearance Co-Attention for Zero-Shot Video Object Segmentation",
+          "link": "http://openaccess.thecvf.com//content/ICCV2021/html/Yang_Learning_Motion-Appearance_Co-Attention_for_Zero-Shot_Video_Object_Segmentation_ICCV_2021_paper.html"
+        },
+        "c": "https://github.com/isyangshu/amc-net",
+        "n": "AMC-Net",
+        "d": "2021-01-01",
+        "m1": "84.6",
+        "m2": "84.5",
+        "m3": "84.6"
+      },
+      {
+        "p": {
+          "name": "Making a Case for 3D Convolutions for Object Segmentation in Videos",
+          "link": "https://arxiv.org/abs/2008.11516v2"
+        },
+        "c": "https://github.com/sabarim/3DC-Seg",
+        "n": "3DC-Seg",
+        "d": "2020-08-26",
+        "m1": "84.5",
+        "m2": "84.3",
+        "m3": "84.7"
+      },
+      {
+        "p": {
+          "name": "F2Net: Learning to Focus on the Foreground for Unsupervised Video Object Segmentation",
+          "link": "https://arxiv.org/abs/2012.02534v1"
+        },
+        "c": "",
+        "n": "F2Net",
+        "d": "2020-12-04",
+        "m1": "83.7",
+        "m2": "83.1",
+        "m3": "54.4"
+      },
+      {
+        "p": {
+          "name": "Full-Duplex Strategy for Video Object Segmentation",
+          "link": "https://arxiv.org/abs/2108.03151v3"
+        },
+        "c": "https://github.com/GewelsJI/FSNet",
+        "n": "FSNet",
+        "d": "2021-08-06",
+        "m1": "83.3",
+        "m2": "83.4",
+        "m3": "83.1"
+      },
+      {
+        "p": {
+          "name": "Learning Discriminative Feature with CRF for Unsupervised Video Object Segmentation",
+          "link": "https://arxiv.org/abs/2008.01270v1"
+        },
+        "c": "",
+        "n": "DFNet",
+        "d": "2020-08-04",
+        "m1": "82.6",
+        "m2": "83.4",
+        "m3": "81.8"
+      },
+      {
+        "p": {
+          "name": "Motion-Attentive Transition for Zero-Shot Video Object Segmentation",
+          "link": "https://arxiv.org/abs/2003.04253v3"
+        },
+        "c": "https://github.com/tfzhou/MATNet",
+        "n": "MATNet",
+        "d": "2020-03-09",
+        "m1": "81.6",
+        "m2": "82.4",
+        "m3": "80.7"
+      },
+      {
+        "p": {
+          "name": "Unsupervised Video Object Segmentation with Joint Hotspot Tracking",
+          "link": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/2189_ECCV_2020_paper.php"
+        },
+        "c": "",
+        "n": "WCS-Net",
+        "d": "",
+        "m1": "81.5",
+        "m2": "82.2",
+        "m3": "80.7"
+      },
+      {
+        "p": {
+          "name": "Anchor Diffusion for Unsupervised Video Object Segmentation",
+          "link": "https://arxiv.org/abs/1910.10895v1"
+        },
+        "c": "https://github.com/yz93/anchor-diff-VOS",
+        "n": "AD-Net",
+        "d": "2019-10-24",
+        "m1": "81.1",
+        "m2": "81.7",
+        "m3": "80.5"
+      },
+      {
+        "p": {
+          "name": "See More, Know More: Unsupervised Video Object Segmentation with Co-Attention Siamese Networks",
+          "link": "https://arxiv.org/abs/2001.06810v1"
+        },
+        "c": "https://github.com/carrierlxk/COSNet",
+        "n": "COSNet",
+        "d": "2020-01-19",
+        "m1": "80.0",
+        "m2": "80.5",
+        "m3": "79.4"
+      },
+      {
+        "p": {
+          "name": "Zero-Shot Video Object Segmentation via Attentive Graph Neural Networks",
+          "link": "https://arxiv.org/abs/2001.06807v1"
+        },
+        "c": "https://github.com/carrierlxk/AGNN",
+        "n": "AGNN",
+        "d": "2020-01-19",
+        "m1": "79.9",
+        "m2": "80.7",
+        "m3": "79.1"
+      },
+      {
+        "p": {
+          "name": "Learning Unsupervised Video Object Segmentation Through Visual Attention",
+          "link": "http://openaccess.thecvf.com/content_CVPR_2019/html/Wang_Learning_Unsupervised_Video_Object_Segmentation_Through_Visual_Attention_CVPR_2019_paper.html"
+        },
+        "c": "https://github.com/wenguanwang/AGS",
+        "n": "AGS",
+        "d": "2019-06-01",
+        "m1": "78.6",
+        "m2": "79.7",
+        "m3": "77.4"
+      },
+      {
+        "p": {
+          "name": "Pyramid Dilated Deeper ConvLSTM for Video Salient Object Detection",
+          "link": "http://openaccess.thecvf.com/content_ECCV_2018/html/Hongmei_Song_Pseudo_Pyramid_Deeper_ECCV_2018_paper.html"
+        },
+        "c": "",
+        "n": "PDB",
+        "d": "2018-09-01",
+        "m1": "75.9",
+        "m2": "77.2",
+        "m3": "74.5"
+      }
+    ]
+  }
+}

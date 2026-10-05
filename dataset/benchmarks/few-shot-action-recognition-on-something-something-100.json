@@ -1,0 +1,86 @@
+{
+  "title": "few-shot-action-recognition-on-something-something-100",
+  "task-hierarchy": [
+    "Action Recognition",
+    "Few Shot Action Recognition"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/ffmpbgrnn/CMN/tree/master/smsm-100",
+    "paper": "Compound Memory Networks for Few-shot Video Classification"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "1:1 Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Hybrid Relation Guided Set Matching for Few-shot Action Recognition",
+          "link": "https://arxiv.org/abs/2204.13423v1"
+        },
+        "c": "https://github.com/alibaba-mmai-research/HyRSM",
+        "n": "HyRSM",
+        "d": "2022-04-28",
+        "m1": "69.0"
+      },
+      {
+        "p": {
+          "name": "Spatio-temporal Relation Modeling for Few-shot Action Recognition",
+          "link": "https://arxiv.org/abs/2112.05132v2"
+        },
+        "c": "https://github.com/Anirudh257/strm",
+        "n": "STRM",
+        "d": "2021-12-09",
+        "m1": "68.1"
+      },
+      {
+        "p": {
+          "name": "Temporal-Relational CrossTransformers for Few-Shot Action Recognition",
+          "link": "https://arxiv.org/abs/2101.06184v3"
+        },
+        "c": "https://github.com/tobyperrett/trx",
+        "n": "TRX",
+        "d": "2021-01-15",
+        "m1": "64.6"
+      },
+      {
+        "p": "",
+        "c": "",
+        "n": "HF-AR",
+        "d": "",
+        "m1": "55.1"
+      },
+      {
+        "p": {
+          "name": "Few-Shot Video Classification via Temporal Alignment",
+          "link": "https://arxiv.org/abs/1906.11415v1"
+        },
+        "c": "",
+        "n": "OTAM",
+        "d": "2019-06-27",
+        "m1": "52.3"
+      }
+    ]
+  }
+}

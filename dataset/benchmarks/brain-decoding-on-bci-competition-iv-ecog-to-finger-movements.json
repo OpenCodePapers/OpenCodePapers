@@ -1,0 +1,109 @@
+{
+  "title": "brain-decoding-on-bci-competition-iv-ecog-to-finger-movements",
+  "task-hierarchy": [
+    "Brain-Computer Interface",
+    "Brain Decoding"
+  ],
+  "dataset-info": {
+    "link": "https://www.bbci.de/competition/iv/desc_4.pdf",
+    "paper": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Pearson Correlation",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "FingerFlex: Inferring Finger Trajectories from ECoG signals",
+          "link": "https://arxiv.org/abs/2211.01960v2"
+        },
+        "c": "https://github.com/Irautak/FingerFlex",
+        "n": "FingerFlex",
+        "d": "2022-10-23",
+        "m1": "0.67"
+      },
+      {
+        "p": {
+          "name": "Fast and accurate decoding of finger movements from ECoG through Riemannian features and modern machine learning techniques",
+          "link": "https://iopscience.iop.org/article/10.1088/1741-2552/ac4ed1"
+        },
+        "c": "",
+        "n": "Gradient boosted trees on Riemannian features",
+        "d": "2022-02-25",
+        "m1": "0.53"
+      },
+      {
+        "p": {
+          "name": "Decoding of finger trajectory from ECoG using deep learning",
+          "link": "https://iopscience.iop.org/article/10.1088/1741-2552/aa9dbe#:~:text=Decoding%20performance%20of%20the%20finger,computational%20load%2C%20and%20model%20capacity."
+        },
+        "c": "",
+        "n": "CNN-LSTM",
+        "d": "2018-02-28",
+        "m1": "0.52"
+      },
+      {
+        "p": {
+          "name": "Interpreting wide-band neural activity using convolutional neural networks",
+          "link": "https://elifesciences.org/articles/66551"
+        },
+        "c": "",
+        "n": "Multi purpose CNN",
+        "d": "2021-08-02",
+        "m1": "0.52"
+      },
+      {
+        "p": {
+          "name": "Decoding finger flexion from band-specific ECoG signals in humans",
+          "link": "https://www.frontiersin.org/articles/10.3389/fnins.2012.00091/full"
+        },
+        "c": "",
+        "n": "Linear regression based on band-specific ECoG",
+        "d": "2012-06-28",
+        "m1": "0.48"
+      },
+      {
+        "p": {
+          "name": "Decoding and interpreting cortical signals with a compact convolutional neural network",
+          "link": "https://iopscience.iop.org/article/10.1088/1741-2552/abe20e"
+        },
+        "c": "",
+        "n": "Interpretable Compact CNN",
+        "d": "2021-03-02",
+        "m1": "0.45"
+      },
+      {
+        "p": {
+          "name": "Decoding finger movements from ECoG signals using switching linear models",
+          "link": "https://www.frontiersin.org/articles/10.3389/fnins.2012.00029/full"
+        },
+        "c": "",
+        "n": "Switching linear models",
+        "d": "2012-03-06",
+        "m1": "0.43"
+      }
+    ]
+  }
+}

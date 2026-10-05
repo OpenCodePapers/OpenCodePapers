@@ -1,0 +1,69 @@
+{
+  "title": "few-shot-image-classification-on-imagenet-fs-5-shot-novel",
+  "task-hierarchy": [
+    "Image Classification",
+    "Few-Shot Image Classification"
+  ],
+  "dataset-info": {
+    "link": "https://arxiv.org/abs/1606.02819",
+    "paper": "Low-shot Visual Recognition by Shrinking and Hallucinating Features"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Top-5 Accuracy (%)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "KGTN-ens: Few-Shot Image Classification with Knowledge Graph Ensembles",
+          "link": "https://arxiv.org/abs/2211.03199v1"
+        },
+        "c": "https://github.com/DominikFilipiak/KGTN-ens",
+        "n": "KGTN-ens (ResNet-50, h+g, mean)",
+        "d": "2022-11-06",
+        "m1": "78.90"
+      },
+      {
+        "p": {
+          "name": "Model-Agnostic Graph Regularization for Few-Shot Learning",
+          "link": "https://arxiv.org/abs/2102.07077v1"
+        },
+        "c": "",
+        "n": "SGM + Graph (ResNet-50)",
+        "d": "2021-02-14",
+        "m1": "78.6"
+      },
+      {
+        "p": {
+          "name": "Knowledge Graph Transfer Network for Few-Shot Recognition",
+          "link": "https://arxiv.org/abs/1911.09579v2"
+        },
+        "c": "https://github.com/MyChocer/KGTN",
+        "n": "KGTN (ResNet-50)",
+        "d": "2019-11-21",
+        "m1": "78.5"
+      }
+    ]
+  }
+}

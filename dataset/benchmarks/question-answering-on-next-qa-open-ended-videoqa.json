@@ -1,0 +1,109 @@
+{
+  "title": "question-answering-on-next-qa-open-ended-videoqa",
+  "task-hierarchy": [
+    "Question Answering"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/doc-doc/NExT-OE",
+    "paper": "NExT-QA: Next Phase of Question-Answering to Explaining Temporal Actions"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Confidence Score",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Flash-VStream: Memory-Based Real-Time Understanding for Long Video Streams",
+          "link": "https://arxiv.org/abs/2406.08085v2"
+        },
+        "c": "https://github.com/IVGSZ/Flash-VStream",
+        "n": "Flash-VStream",
+        "d": "2024-06-12",
+        "m1": "61.6",
+        "m2": "3.4"
+      },
+      {
+        "p": {
+          "name": "Vista-LLaMA: Reliable Video Narrator via Equal Distance to Visual Tokens",
+          "link": "https://arxiv.org/abs/2312.08870v1"
+        },
+        "c": "",
+        "n": "Vista-LLaMA",
+        "d": "2023-12-12",
+        "m1": "60.7",
+        "m2": "3.4"
+      },
+      {
+        "p": {
+          "name": "VideoChat: Chat-Centric Video Understanding",
+          "link": "https://arxiv.org/abs/2305.06355v2"
+        },
+        "c": "https://github.com/opengvlab/ask-anything",
+        "n": "VideoChat",
+        "d": "2023-05-10",
+        "m1": "56.6",
+        "m2": "3.2"
+      },
+      {
+        "p": {
+          "name": "MovieChat+: Question-aware Sparse Memory for Long Video Question Answering",
+          "link": "https://arxiv.org/abs/2404.17176v1"
+        },
+        "c": "https://github.com/rese1f/MovieChat",
+        "n": "MovieChat+",
+        "d": "2024-04-26",
+        "m1": "54.8",
+        "m2": "3.0"
+      },
+      {
+        "p": {
+          "name": "Video-ChatGPT: Towards Detailed Video Understanding via Large Vision and Language Models",
+          "link": "https://arxiv.org/abs/2306.05424v2"
+        },
+        "c": "https://github.com/mbzuai-oryx/video-chatgpt",
+        "n": "Video-ChatGPT",
+        "d": "2023-06-08",
+        "m1": "54.6",
+        "m2": "3.2"
+      },
+      {
+        "p": {
+          "name": "MovieChat: From Dense Token to Sparse Memory for Long Video Understanding",
+          "link": "https://arxiv.org/abs/2307.16449v4"
+        },
+        "c": "https://github.com/rese1f/MovieChat",
+        "n": "MovieChat",
+        "d": "2023-07-31",
+        "m1": "49.9",
+        "m2": "2.7"
+      }
+    ]
+  }
+}

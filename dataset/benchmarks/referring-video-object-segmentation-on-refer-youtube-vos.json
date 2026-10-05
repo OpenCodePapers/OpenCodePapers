@@ -1,0 +1,263 @@
+{
+  "title": "referring-video-object-segmentation-on-refer-youtube-vos",
+  "task-hierarchy": [
+    "Video Segmentation",
+    "Referring Video Object Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://youtube-vos.org/dataset/rvos/",
+    "paper": "URVOS: Unified Referring Video Object Segmentation Network with a Large-Scale Benchmark"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "J&F",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "J",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "F",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Find First, Track Next: Decoupling Identification and Propagation in Referring Video Object Segmentation",
+          "link": "https://arxiv.org/abs/2503.03492v1"
+        },
+        "c": "https://github.com/suhwan-cho/FindTrack",
+        "n": "FindTrack",
+        "d": "2025-03-05",
+        "m1": "73.7",
+        "m2": "71.8",
+        "m3": "75.7"
+      },
+      {
+        "p": {
+          "name": "General Object Foundation Model for Images and Videos at Scale",
+          "link": "https://arxiv.org/abs/2312.09158v1"
+        },
+        "c": "https://github.com/FoundationVision/GLEE",
+        "n": "GLEE-Pro",
+        "d": "2023-12-14",
+        "m1": "70.6",
+        "m2": "68.2",
+        "m3": "72.9"
+      },
+      {
+        "p": {
+          "name": "HyperSeg: Towards Universal Visual Segmentation with Large Language Model",
+          "link": "https://arxiv.org/abs/2411.17606v2"
+        },
+        "c": "https://github.com/congvvc/HyperSeg",
+        "n": "HyperSeg",
+        "d": "2024-11-26",
+        "m1": "68.5"
+      },
+      {
+        "p": {
+          "name": "General Object Foundation Model for Images and Videos at Scale",
+          "link": "https://arxiv.org/abs/2312.09158v1"
+        },
+        "c": "https://github.com/FoundationVision/GLEE",
+        "n": "GLEE-Plus",
+        "d": "2023-12-14",
+        "m1": "67.7",
+        "m2": "65.6",
+        "m3": "69.7"
+      },
+      {
+        "p": {
+          "name": "Temporally Consistent Referring Video Object Segmentation with Hybrid Memory",
+          "link": "https://arxiv.org/abs/2403.19407v2"
+        },
+        "c": "https://github.com/bo-miao/HTR",
+        "n": "HTR",
+        "d": "2024-03-28",
+        "m1": "67.1",
+        "m2": "65.3",
+        "m3": "68.9"
+      },
+      {
+        "p": {
+          "name": "SOC: Semantic-Assisted Object Cluster for Referring Video Object Segmentation",
+          "link": "https://arxiv.org/abs/2305.17011v1"
+        },
+        "c": "https://github.com/RobertLuo1/NeurIPS2023_SOC",
+        "n": "SOC",
+        "d": "2023-05-26",
+        "m1": "66.0",
+        "m2": "64.1",
+        "m3": "67.9"
+      },
+      {
+        "p": {
+          "name": "Spectrum-guided Multi-granularity Referring Video Object Segmentation",
+          "link": "https://arxiv.org/abs/2307.13537v1"
+        },
+        "c": "https://github.com/bo-miao/sgmg",
+        "n": "SgMg",
+        "d": "2023-07-25",
+        "m1": "65.7",
+        "m2": "63.9",
+        "m3": "67.4"
+      },
+      {
+        "p": {
+          "name": "Vision-Aware Text Features in Referring Image Segmentation: From Object Understanding to Context Understanding",
+          "link": "https://arxiv.org/abs/2404.08590v2"
+        },
+        "c": "https://github.com/nero1342/VATEX",
+        "n": "VATEX",
+        "d": "2024-04-12",
+        "m1": "65.4",
+        "m2": "63.3",
+        "m3": "67.5"
+      },
+      {
+        "p": {
+          "name": "VLT: Vision-Language Transformer and Query Generation for Referring Segmentation",
+          "link": "https://arxiv.org/abs/2210.15871v1"
+        },
+        "c": "https://github.com/henghuiding/Vision-Language-Transformer",
+        "n": "VLT",
+        "d": "2022-10-28",
+        "m1": "63.8",
+        "m2": "61.9",
+        "m3": "65.6"
+      },
+      {
+        "p": {
+          "name": "HTML: Hybrid Temporal-scale Multimodal Learning Framework for Referring Video Object Segmentation",
+          "link": "http://openaccess.thecvf.com//content/ICCV2023/html/Han_HTML_Hybrid_Temporal-scale_Multimodal_Learning_Framework_for_Referring_Video_Object_ICCV_2023_paper.html"
+        },
+        "c": "",
+        "n": "HTML-SwinL",
+        "d": "2023-01-01",
+        "m1": "63.4",
+        "m2": "61.5",
+        "m3": "65.3"
+      },
+      {
+        "p": {
+          "name": "HTML: Hybrid Temporal-scale Multimodal Learning Framework for Referring Video Object Segmentation",
+          "link": "http://openaccess.thecvf.com//content/ICCV2023/html/Han_HTML_Hybrid_Temporal-scale_Multimodal_Learning_Framework_for_Referring_Video_Object_ICCV_2023_paper.html"
+        },
+        "c": "",
+        "n": "HTML-Video-SwinB",
+        "d": "2023-01-01",
+        "m1": "63.4",
+        "m2": "61.5",
+        "m3": "65.2"
+      },
+      {
+        "p": {
+          "name": "Language as Queries for Referring Video Object Segmentation",
+          "link": "https://arxiv.org/abs/2201.00487v2"
+        },
+        "c": "https://github.com/wjn922/referformer",
+        "n": "ReferFormer (Large)",
+        "d": "2022-01-03",
+        "m1": "62.9",
+        "m2": "61.3",
+        "m3": "64.6"
+      },
+      {
+        "p": {
+          "name": "HTML: Hybrid Temporal-scale Multimodal Learning Framework for Referring Video Object Segmentation",
+          "link": "http://openaccess.thecvf.com//content/ICCV2023/html/Han_HTML_Hybrid_Temporal-scale_Multimodal_Learning_Framework_for_Referring_Video_Object_ICCV_2023_paper.html"
+        },
+        "c": "",
+        "n": "HTML-Video-SwinS",
+        "d": "2023-01-01",
+        "m1": "61.4",
+        "m2": "59.9",
+        "m3": "62.9"
+      },
+      {
+        "p": {
+          "name": "HTML: Hybrid Temporal-scale Multimodal Learning Framework for Referring Video Object Segmentation",
+          "link": "http://openaccess.thecvf.com//content/ICCV2023/html/Han_HTML_Hybrid_Temporal-scale_Multimodal_Learning_Framework_for_Referring_Video_Object_ICCV_2023_paper.html"
+        },
+        "c": "",
+        "n": "HTML-Video-SwinT",
+        "d": "2023-01-01",
+        "m1": "61.2",
+        "m2": "59.5",
+        "m3": "63.0"
+      },
+      {
+        "p": {
+          "name": "Towards Robust Referring Video Object Segmentation with Cyclic Relational Consensus",
+          "link": "https://arxiv.org/abs/2207.01203v3"
+        },
+        "c": "https://github.com/lxa9867/R2VOS",
+        "n": "R2VOS (Swin-T)",
+        "d": "2022-07-04",
+        "m1": "60.2",
+        "m2": "58.9",
+        "m3": "61.5"
+      },
+      {
+        "p": {
+          "name": "HTML: Hybrid Temporal-scale Multimodal Learning Framework for Referring Video Object Segmentation",
+          "link": "http://openaccess.thecvf.com//content/ICCV2023/html/Han_HTML_Hybrid_Temporal-scale_Multimodal_Learning_Framework_for_Referring_Video_Object_ICCV_2023_paper.html"
+        },
+        "c": "",
+        "n": "HTML-ResNet101",
+        "d": "2023-01-01",
+        "m1": "58.5",
+        "m2": "57.3",
+        "m3": "59.8"
+      },
+      {
+        "p": {
+          "name": "HTML: Hybrid Temporal-scale Multimodal Learning Framework for Referring Video Object Segmentation",
+          "link": "http://openaccess.thecvf.com//content/ICCV2023/html/Han_HTML_Hybrid_Temporal-scale_Multimodal_Learning_Framework_for_Referring_Video_Object_ICCV_2023_paper.html"
+        },
+        "c": "",
+        "n": "HTML-ResNet50",
+        "d": "2023-01-01",
+        "m1": "57.8",
+        "m2": "56.5",
+        "m3": "59.0"
+      },
+      {
+        "p": {
+          "name": "Cross-Modal Self-Attention Network for Referring Image Segmentation",
+          "link": "http://arxiv.org/abs/1904.04745v1"
+        },
+        "c": "https://github.com/lwye/CMSA-Net",
+        "n": "CMSA",
+        "d": "2019-04-09",
+        "m1": "36.4",
+        "m2": "34.8",
+        "m3": "38.1"
+      }
+    ]
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "title": "time-series-forecasting-on-usna-cn2-short-duration",
+  "task-hierarchy": [
+    "Time Series Forecasting"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/cdjellen/otbench",
+    "paper": "Effective Benchmarks for Optical Turbulence Modeling"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "RMSE",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Effective Benchmarks for Optical Turbulence Modeling",
+          "link": "https://arxiv.org/abs/2401.03573v1"
+        },
+        "c": "https://github.com/cdjellen/otbench",
+        "n": "GBRT",
+        "d": "2024-01-07",
+        "m1": "0.160"
+      },
+      {
+        "p": {
+          "name": "Effective Benchmarks for Optical Turbulence Modeling",
+          "link": "https://arxiv.org/abs/2401.03573v1"
+        },
+        "c": "https://github.com/cdjellen/otbench",
+        "n": "Mean Window Forecast",
+        "d": "2024-01-07",
+        "m1": "0.182"
+      },
+      {
+        "p": {
+          "name": "Effective Benchmarks for Optical Turbulence Modeling",
+          "link": "https://arxiv.org/abs/2401.03573v1"
+        },
+        "c": "https://github.com/cdjellen/otbench",
+        "n": "RNN",
+        "d": "2024-01-07",
+        "m1": "0.187"
+      },
+      {
+        "p": {
+          "name": "Effective Benchmarks for Optical Turbulence Modeling",
+          "link": "https://arxiv.org/abs/2401.03573v1"
+        },
+        "c": "https://github.com/cdjellen/otbench",
+        "n": "Minute Climatology",
+        "d": "2024-01-07",
+        "m1": "0.453"
+      },
+      {
+        "p": {
+          "name": "Effective Benchmarks for Optical Turbulence Modeling",
+          "link": "https://arxiv.org/abs/2401.03573v1"
+        },
+        "c": "https://github.com/cdjellen/otbench",
+        "n": "Persistence",
+        "d": "2024-01-07",
+        "m1": "0.821"
+      }
+    ]
+  }
+}

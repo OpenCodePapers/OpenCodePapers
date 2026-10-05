@@ -1,0 +1,245 @@
+{
+  "title": "deblurring-on-realblur-j",
+  "task-hierarchy": [
+    "Image Restoration",
+    "Image Deblurring",
+    "Deblurring"
+  ],
+  "dataset-info": {
+    "link": "http://cg.postech.ac.kr/research/realblur/",
+    "paper": "Real-World Blur Dataset for Learning and Benchmarking Deblurring Algorithms"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "PSNR (sRGB)",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "SSIM (sRGB)",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Params(M)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "AdaRevD: Adaptive Patch Exiting Reversible Decoder Pushes the Limit of Image Deblurring",
+          "link": "https://arxiv.org/abs/2406.09135v1"
+        },
+        "c": "https://github.com/invokerer/deeprft",
+        "n": "AdaRevD",
+        "d": "2024-06-13",
+        "m1": "33.96",
+        "m2": "0.944"
+      },
+      {
+        "p": {
+          "name": "Efficient Multi-scale Network with Learnable Discrete Wavelet Transform for Blind Motion Deblurring",
+          "link": "https://arxiv.org/abs/2401.00027v2"
+        },
+        "c": "https://github.com/thqiu0419/mlwnet",
+        "n": "MLWNet",
+        "d": "2023-12-29",
+        "m1": "33.84",
+        "m2": "0.941"
+      },
+      {
+        "p": {
+          "name": "ID-Blau: Image Deblurring by Implicit Diffusion-based reBLurring AUgmentation",
+          "link": "https://arxiv.org/abs/2312.10998v2"
+        },
+        "c": "https://github.com/plusgood-steven/id-blau",
+        "n": "ID-Blau (Stripformer)",
+        "d": "2023-12-18",
+        "m1": "33.77",
+        "m2": "0.940",
+        "m3": "20"
+      },
+      {
+        "p": {
+          "name": "ID-Blau: Image Deblurring by Implicit Diffusion-based reBLurring AUgmentation",
+          "link": "https://arxiv.org/abs/2312.10998v2"
+        },
+        "c": "https://github.com/plusgood-steven/id-blau",
+        "n": "ID-Blau (Restormer)",
+        "d": "2023-12-18",
+        "m1": "33.11",
+        "m2": "0.937"
+      },
+      {
+        "p": {
+          "name": "Learning Enriched Features via Selective State Spaces Model for Efficient Image Deblurring",
+          "link": "https://arxiv.org/abs/2403.20106v2"
+        },
+        "c": "https://github.com/Tombs98/ALGNet",
+        "n": "ALGNet",
+        "d": "2024-03-29",
+        "m1": "32.94",
+        "m2": "0.946"
+      },
+      {
+        "p": {
+          "name": "LoFormer: Local Frequency Transformer for Image Deblurring",
+          "link": "https://arxiv.org/abs/2407.16993v1"
+        },
+        "c": "https://github.com/INVOKERer/LoFormer",
+        "n": "LoFormer",
+        "d": "2024-07-24",
+        "m1": "32.90",
+        "m2": "0.933"
+      },
+      {
+        "p": {
+          "name": "ID-Blau: Image Deblurring by Implicit Diffusion-based reBLurring AUgmentation",
+          "link": "https://arxiv.org/abs/2312.10998v2"
+        },
+        "c": "https://github.com/plusgood-steven/id-blau",
+        "n": "ID-Blau (FFTformer)",
+        "d": "2023-12-18",
+        "m1": "32.88",
+        "m2": "0.934"
+      },
+      {
+        "p": {
+          "name": "MAXIM: Multi-Axis MLP for Image Processing",
+          "link": "https://arxiv.org/abs/2201.02973v2"
+        },
+        "c": "https://github.com/google-research/maxim",
+        "n": "MAXIM",
+        "d": "2022-01-09",
+        "m1": "32.84",
+        "m2": "0.935",
+        "m3": "22.2"
+      },
+      {
+        "p": {
+          "name": "Intriguing Findings of Frequency Selection for Image Deblurring",
+          "link": "https://arxiv.org/abs/2111.11745v2"
+        },
+        "c": "https://github.com/invokerer/deeprft",
+        "n": "DeepRFT+",
+        "d": "2021-11-23",
+        "m1": "32.63",
+        "m2": "0.933"
+      },
+      {
+        "p": {
+          "name": "Efficient Frequency Domain-based Transformers for High-Quality Image Deblurring",
+          "link": "https://arxiv.org/abs/2211.12250v1"
+        },
+        "c": "https://github.com/kkkls/fftformer",
+        "n": "FFTformer",
+        "d": "2022-11-22",
+        "m1": "32.62",
+        "m2": "0.9326"
+      },
+      {
+        "p": {
+          "name": "Stripformer: Strip Transformer for Fast Image Deblurring",
+          "link": "https://arxiv.org/abs/2204.04627v2"
+        },
+        "c": "https://github.com/pp00704831/Stripformer-ECCV-2022-",
+        "n": "Stripformer",
+        "d": "2022-04-10",
+        "m1": "32.48",
+        "m2": "0.929",
+        "m3": "20"
+      },
+      {
+        "p": {
+          "name": "MSSNet: Multi-Scale-Stage Network for Single Image Deblurring",
+          "link": "https://arxiv.org/abs/2202.09652v3"
+        },
+        "c": "https://github.com/kky7/MSSNet",
+        "n": "MSSNet",
+        "d": "2022-02-19",
+        "m1": "32.1",
+        "m2": "0.928",
+        "m3": "15.6"
+      },
+      {
+        "p": {
+          "name": "Rethinking Coarse-to-Fine Approach in Single Image Deblurring",
+          "link": "https://arxiv.org/abs/2108.05054v2"
+        },
+        "c": "https://github.com/chosj95/mimo-unet",
+        "n": "MIMO-UNet++",
+        "d": "2021-08-11",
+        "m1": "32.05",
+        "m2": "0.921",
+        "m3": "16.1"
+      },
+      {
+        "p": {
+          "name": "BANet: Blur-aware Attention Networks for Dynamic Scene Deblurring",
+          "link": "https://arxiv.org/abs/2101.07518v4"
+        },
+        "c": "https://github.com/pp00704831/banet",
+        "n": "BANet",
+        "d": "2021-01-19",
+        "m1": "32.00",
+        "m2": "0.923"
+      },
+      {
+        "p": {
+          "name": "Multi-Stage Progressive Image Restoration",
+          "link": "https://arxiv.org/abs/2102.02808v2"
+        },
+        "c": "https://github.com/swz30/restormer",
+        "n": "MPRNet",
+        "d": "2021-02-04",
+        "m1": "31.76",
+        "m2": "0.922",
+        "m3": "20.1"
+      },
+      {
+        "p": {
+          "name": "Scale-recurrent Network for Deep Image Deblurring",
+          "link": "http://arxiv.org/abs/1802.01770v1"
+        },
+        "c": "https://github.com/jiangsutx/SRN-Deblur",
+        "n": "SRN",
+        "d": "2018-02-06",
+        "m1": "31.38",
+        "m2": "0.909",
+        "m3": "8.06"
+      },
+      {
+        "p": {
+          "name": "DeblurGAN-v2: Deblurring (Orders-of-Magnitude) Faster and Better",
+          "link": "https://arxiv.org/abs/1908.03826v1"
+        },
+        "c": "https://github.com/kritiksoman/GIMP-ML",
+        "n": "DeblurGAN-v2",
+        "d": "2019-08-10",
+        "m1": "29.69",
+        "m2": "0.870",
+        "m3": "5.08"
+      }
+    ]
+  }
+}

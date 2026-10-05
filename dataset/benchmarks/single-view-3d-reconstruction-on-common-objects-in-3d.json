@@ -1,0 +1,69 @@
+{
+  "title": "single-view-3d-reconstruction-on-common-objects-in-3d",
+  "task-hierarchy": [
+    "3D Reconstruction",
+    "Single-View 3D Reconstruction"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/facebookresearch/co3d",
+    "paper": "Common Objects in 3D: Large-Scale Learning and Evaluation of Real-life 3D Category Reconstruction"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Avg. F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "NU-MCC: Multiview Compressive Coding with Neighborhood Decoder and Repulsive UDF",
+          "link": "https://arxiv.org/abs/2307.09112v2"
+        },
+        "c": "https://github.com/sail-sg/numcc",
+        "n": "NU-MCC",
+        "d": "2023-07-18",
+        "m1": "83.8"
+      },
+      {
+        "p": {
+          "name": "Multiview Compressive Coding for 3D Reconstruction",
+          "link": "https://arxiv.org/abs/2301.08247v1"
+        },
+        "c": "https://github.com/facebookresearch/mcc",
+        "n": "MCC",
+        "d": "2023-01-19",
+        "m1": "56.7"
+      },
+      {
+        "p": {
+          "name": "PoinTr: Diverse Point Cloud Completion with Geometry-Aware Transformers",
+          "link": "https://arxiv.org/abs/2108.08839v1"
+        },
+        "c": "https://github.com/yuxumin/PoinTr",
+        "n": "PointTr",
+        "d": "2021-08-19",
+        "m1": "39.7"
+      }
+    ]
+  }
+}

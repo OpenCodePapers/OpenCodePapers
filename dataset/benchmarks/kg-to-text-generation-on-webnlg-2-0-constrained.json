@@ -1,0 +1,163 @@
+{
+  "title": "kg-to-text-generation-on-webnlg-2-0-constrained",
+  "task-hierarchy": [
+    "Text Generation",
+    "Data-to-Text Generation",
+    "KG-to-Text Generation"
+  ],
+  "dataset-info": {
+    "link": "https://webnlg-challenge.loria.fr/",
+    "paper": "Creating Training Corpora for NLG Micro-Planners"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "BLEU",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "METEOR",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "ROUGE",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "FactSpotter",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "FactSpotter: Evaluating the Factual Faithfulness of Graph-to-Text Generation",
+          "link": "https://dumas.ccsd.cnrs.fr/INRIA-SACLAY/hal-04257838v1"
+        },
+        "c": "https://github.com/guihuzhang/FactSpotter",
+        "n": "FactT5B",
+        "d": "2023-10-25",
+        "m1": "67.08",
+        "m2": "48.34",
+        "m4": "99.71"
+      },
+      {
+        "p": {
+          "name": "FactSpotter: Evaluating the Factual Faithfulness of Graph-to-Text Generation",
+          "link": "https://dumas.ccsd.cnrs.fr/INRIA-SACLAY/hal-04257838v1"
+        },
+        "c": "https://github.com/guihuzhang/FactSpotter",
+        "n": "JointGT Baseline",
+        "d": "2023-10-25",
+        "m1": "67.08",
+        "m2": "48.34",
+        "m4": "99.44"
+      },
+      {
+        "p": {
+          "name": "FactSpotter: Evaluating the Factual Faithfulness of Graph-to-Text Generation",
+          "link": "https://dumas.ccsd.cnrs.fr/INRIA-SACLAY/hal-04257838v1"
+        },
+        "c": "https://github.com/guihuzhang/FactSpotter",
+        "n": "T5B Baseline",
+        "d": "2023-10-25",
+        "m1": "67.04",
+        "m2": "48.35",
+        "m4": "99.05"
+      },
+      {
+        "p": {
+          "name": "FactSpotter: Evaluating the Factual Faithfulness of Graph-to-Text Generation",
+          "link": "https://dumas.ccsd.cnrs.fr/INRIA-SACLAY/hal-04257838v1"
+        },
+        "c": "https://github.com/guihuzhang/FactSpotter",
+        "n": "FactJointGT",
+        "d": "2023-10-25",
+        "m1": "66.89",
+        "m2": "48.19",
+        "m4": "99.67"
+      },
+      {
+        "p": {
+          "name": "JointGT: Graph-Text Joint Representation Learning for Text Generation from Knowledge Graphs",
+          "link": "https://arxiv.org/abs/2106.10502v1"
+        },
+        "c": "https://github.com/thu-coai/JointGT",
+        "n": "JointGT (T5)",
+        "d": "2021-06-19",
+        "m1": "61.01",
+        "m2": "46.32",
+        "m3": "73.57"
+      },
+      {
+        "p": {
+          "name": "JointGT: Graph-Text Joint Representation Learning for Text Generation from Knowledge Graphs",
+          "link": "https://arxiv.org/abs/2106.10502v1"
+        },
+        "c": "https://github.com/thu-coai/JointGT",
+        "n": "T5",
+        "d": "2021-06-19",
+        "m1": "58.66",
+        "m2": "46.04",
+        "m3": "73.06"
+      },
+      {
+        "p": {
+          "name": "JointGT: Graph-Text Joint Representation Learning for Text Generation from Knowledge Graphs",
+          "link": "https://arxiv.org/abs/2106.10502v1"
+        },
+        "c": "https://github.com/thu-coai/JointGT",
+        "n": "JointGT (BART)",
+        "d": "2021-06-19",
+        "m1": "58.55",
+        "m2": "45.01",
+        "m3": "72.31"
+      },
+      {
+        "p": {
+          "name": "JointGT: Graph-Text Joint Representation Learning for Text Generation from Knowledge Graphs",
+          "link": "https://arxiv.org/abs/2106.10502v1"
+        },
+        "c": "https://github.com/thu-coai/JointGT",
+        "n": "BART",
+        "d": "2021-06-19",
+        "m1": "56.65",
+        "m2": "44.51",
+        "m3": "70.94"
+      },
+      {
+        "p": {
+          "name": "Handling Rare Items in Data-to-Text Generation",
+          "link": "https://aclanthology.org/W18-6543"
+        },
+        "c": "https://gitlab.com/shimorina/webnlg-dataset",
+        "n": "SOTA-NPT ",
+        "d": "2018-11-01",
+        "m1": "48.0",
+        "m2": "36.0",
+        "m3": "65.0"
+      }
+    ]
+  }
+}

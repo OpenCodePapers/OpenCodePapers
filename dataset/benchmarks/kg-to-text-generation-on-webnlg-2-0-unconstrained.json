@@ -1,0 +1,203 @@
+{
+  "title": "kg-to-text-generation-on-webnlg-2-0-unconstrained",
+  "task-hierarchy": [
+    "Text Generation",
+    "Data-to-Text Generation",
+    "KG-to-Text Generation"
+  ],
+  "dataset-info": {
+    "link": "https://webnlg-challenge.loria.fr/",
+    "paper": "Creating Training Corpora for NLG Micro-Planners"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "BLEU",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "METEOR",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "ROUGE",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "GAP: A Graph-aware Language Model Framework for Knowledge Graph-to-Text Generation",
+          "link": "https://arxiv.org/abs/2204.06674v4"
+        },
+        "c": "https://github.com/acolas1/GAP_COLING2022",
+        "n": "GAP - Me,r+γ",
+        "d": "2022-04-13",
+        "m1": "66.2",
+        "m3": "76.36"
+      },
+      {
+        "p": {
+          "name": "JointGT: Graph-Text Joint Representation Learning for Text Generation from Knowledge Graphs",
+          "link": "https://arxiv.org/abs/2106.10502v1"
+        },
+        "c": "https://github.com/thu-coai/JointGT",
+        "n": "JointGT (T5)",
+        "d": "2021-06-19",
+        "m1": "66.14",
+        "m2": "47.25",
+        "m3": "75.91"
+      },
+      {
+        "p": {
+          "name": "JointGT: Graph-Text Joint Representation Learning for Text Generation from Knowledge Graphs",
+          "link": "https://arxiv.org/abs/2106.10502v1"
+        },
+        "c": "https://github.com/thu-coai/JointGT",
+        "n": "JointGT (BART)",
+        "d": "2021-06-19",
+        "m1": "65.92",
+        "m2": "47.15",
+        "m3": "76.10"
+      },
+      {
+        "p": {
+          "name": "GAP: A Graph-aware Language Model Framework for Knowledge Graph-to-Text Generation",
+          "link": "https://arxiv.org/abs/2204.06674v4"
+        },
+        "c": "https://github.com/acolas1/GAP_COLING2022",
+        "n": "JointGT (BART) - w/ JointGTPretrain",
+        "d": "2022-04-13",
+        "m1": "65.92",
+        "m2": "47.15",
+        "m3": "76.1"
+      },
+      {
+        "p": {
+          "name": "GAP: A Graph-aware Language Model Framework for Knowledge Graph-to-Text Generation",
+          "link": "https://arxiv.org/abs/2204.06674v4"
+        },
+        "c": "https://github.com/acolas1/GAP_COLING2022",
+        "n": "JointGT (BART) - w/ BARTPretrain",
+        "d": "2022-04-13",
+        "m1": "64.6",
+        "m2": "46.77",
+        "m3": "75.74"
+      },
+      {
+        "p": {
+          "name": "JointGT: Graph-Text Joint Representation Learning for Text Generation from Knowledge Graphs",
+          "link": "https://arxiv.org/abs/2106.10502v1"
+        },
+        "c": "https://github.com/thu-coai/JointGT",
+        "n": "BART",
+        "d": "2021-06-19",
+        "m1": "64.55",
+        "m2": "46.51",
+        "m3": "75.13"
+      },
+      {
+        "p": {
+          "name": "JointGT: Graph-Text Joint Representation Learning for Text Generation from Knowledge Graphs",
+          "link": "https://arxiv.org/abs/2106.10502v1"
+        },
+        "c": "https://github.com/thu-coai/JointGT",
+        "n": "T5",
+        "d": "2021-06-19",
+        "m1": "64.42",
+        "m2": "46.58",
+        "m3": "74.77"
+      },
+      {
+        "p": {
+          "name": "KGPT: Knowledge-Grounded Pre-Training for Data-to-Text Generation",
+          "link": "https://arxiv.org/abs/2010.02307v2"
+        },
+        "c": "https://github.com/wenhuchen/KGPT",
+        "n": "KGPT",
+        "d": "2020-10-05",
+        "m1": "64.11",
+        "m2": "46.30",
+        "m3": "74.57"
+      },
+      {
+        "p": {
+          "name": "KGPT: Knowledge-Grounded Pre-Training for Data-to-Text Generation",
+          "link": "https://arxiv.org/abs/2010.02307v2"
+        },
+        "c": "https://github.com/wenhuchen/KGPT",
+        "n": "KGPT w/o pretrain",
+        "d": "2020-10-05",
+        "m1": "62.3",
+        "m2": "44.33",
+        "m3": "73"
+      },
+      {
+        "p": {
+          "name": "GAP: A Graph-aware Language Model Framework for Knowledge Graph-to-Text Generation",
+          "link": "https://arxiv.org/abs/2204.06674v4"
+        },
+        "c": "https://github.com/acolas1/GAP_COLING2022",
+        "n": "KGPT w/o pretrain",
+        "d": "2022-04-13",
+        "m1": "62.3",
+        "m2": "44.33",
+        "m3": "73"
+      },
+      {
+        "p": {
+          "name": "Handling Rare Items in Data-to-Text Generation",
+          "link": "https://aclanthology.org/W18-6543"
+        },
+        "c": "https://gitlab.com/shimorina/webnlg-dataset",
+        "n": "SOTA-NPT ",
+        "d": "2018-11-01",
+        "m1": "61",
+        "m2": "42",
+        "m3": "71.0"
+      },
+      {
+        "p": {
+          "name": "GAP: A Graph-aware Language Model Framework for Knowledge Graph-to-Text Generation",
+          "link": "https://arxiv.org/abs/2204.06674v4"
+        },
+        "c": "https://github.com/acolas1/GAP_COLING2022",
+        "n": "GCN",
+        "d": "2022-04-13",
+        "m1": "60.8",
+        "m2": "42.76",
+        "m3": "71.13"
+      },
+      {
+        "p": {
+          "name": "GAP: A Graph-aware Language Model Framework for Knowledge Graph-to-Text Generation",
+          "link": "https://arxiv.org/abs/2204.06674v4"
+        },
+        "c": "https://github.com/acolas1/GAP_COLING2022",
+        "n": "GAP - Me,re",
+        "d": "2022-04-13",
+        "m3": "76.22"
+      }
+    ]
+  }
+}

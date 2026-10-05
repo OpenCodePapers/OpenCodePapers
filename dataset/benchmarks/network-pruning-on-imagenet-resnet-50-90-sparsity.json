@@ -1,0 +1,129 @@
+{
+  "title": "network-pruning-on-imagenet-resnet-50-90-sparsity",
+  "task-hierarchy": [
+    "Model Compression",
+    "Network Pruning"
+  ],
+  "dataset-info": {
+    "link": "https://image-net.org/",
+    "paper": "ImageNet: A large-scale hierarchical image database"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Top-1 Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Feather: An Elegant Solution to Effective DNN Sparsification",
+          "link": "https://arxiv.org/abs/2310.02448v1"
+        },
+        "c": "https://github.com/athglentis/feather",
+        "n": "Feather",
+        "d": "2023-10-03",
+        "m1": "76.93"
+      },
+      {
+        "p": {
+          "name": "Spartan: Differentiable Sparsity via Regularized Transportation",
+          "link": "https://arxiv.org/abs/2205.14107v2"
+        },
+        "c": "https://github.com/facebookresearch/spartan",
+        "n": "Spartan",
+        "d": "2022-05-27",
+        "m1": "76.17"
+      },
+      {
+        "p": {
+          "name": "Are Straight-Through gradients and Soft-Thresholding all you need for Sparse Training?",
+          "link": "https://arxiv.org/abs/2212.01076v1"
+        },
+        "c": "https://github.com/vanderschuea/stthree",
+        "n": "ST-3",
+        "d": "2022-12-02",
+        "m1": "76.03"
+      },
+      {
+        "p": {
+          "name": "AC/DC: Alternating Compressed/DeCompressed Training of Deep Neural Networks",
+          "link": "https://arxiv.org/abs/2106.12379v2"
+        },
+        "c": "https://github.com/IST-DASLab/ACDC",
+        "n": "AC/DC",
+        "d": "2021-06-23",
+        "m1": "75.64"
+      },
+      {
+        "p": {
+          "name": "Winning the Lottery with Continuous Sparsification",
+          "link": "https://arxiv.org/abs/1912.04427v4"
+        },
+        "c": "https://github.com/lolemacs/continuous-sparsification",
+        "n": "CS",
+        "d": "2019-12-10",
+        "m1": "75.5"
+      },
+      {
+        "p": {
+          "name": "Effective Sparsification of Neural Networks with Global Sparsity Constraint",
+          "link": "https://arxiv.org/abs/2105.01571v1"
+        },
+        "c": "https://github.com/x-zho14/ProbMask-official",
+        "n": "ProbMask",
+        "d": "2021-05-03",
+        "m1": "74.68"
+      },
+      {
+        "p": {
+          "name": "Soft Threshold Weight Reparameterization for Learnable Sparsity",
+          "link": "https://arxiv.org/abs/2002.03231v9"
+        },
+        "c": "https://github.com/RAIVNLab/STR",
+        "n": "STR",
+        "d": "2020-02-08",
+        "m1": "74.31"
+      },
+      {
+        "p": {
+          "name": "Discovering Neural Wirings",
+          "link": "https://arxiv.org/abs/1906.00586v5"
+        },
+        "c": "https://github.com/intellabs/model-compression-research-package",
+        "n": "DNW",
+        "d": "2019-06-03",
+        "m1": "74"
+      },
+      {
+        "p": {
+          "name": "Soft Threshold Weight Reparameterization for Learnable Sparsity",
+          "link": "https://arxiv.org/abs/2002.03231v9"
+        },
+        "c": "https://github.com/RAIVNLab/STR",
+        "n": "GMP",
+        "d": "2020-02-08",
+        "m1": "73.91"
+      }
+    ]
+  }
+}

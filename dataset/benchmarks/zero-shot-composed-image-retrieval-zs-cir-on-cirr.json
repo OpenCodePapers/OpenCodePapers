@@ -1,0 +1,574 @@
+{
+  "title": "zero-shot-composed-image-retrieval-zs-cir-on-cirr",
+  "task-hierarchy": [
+    "Image Retrieval",
+    "Zero-Shot Composed Image Retrieval (ZS-CIR)"
+  ],
+  "dataset-info": {
+    "link": "https://cuberick-orion.github.io/CIRR/",
+    "paper": "Image Retrieval on Real-life Images with Pre-trained Vision-and-Language Models"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "R@1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "R@5",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "R@10",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "R@50",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "Rsubset@1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "CoLLM: A Large Language Model for Composed Image Retrieval",
+          "link": "https://arxiv.org/abs/2503.19910v1"
+        },
+        "c": "https://github.com/hmchuong/CoLLM",
+        "n": "CoLLM (finetuned - BLIP-L/16)",
+        "d": "2025-03-25",
+        "m1": "45.8",
+        "m3": "84.7",
+        "m4": "95.8"
+      },
+      {
+        "p": {
+          "name": "CoVR-2: Automatic Data Construction for Composed Video Retrieval",
+          "link": "https://arxiv.org/abs/2308.14746v4"
+        },
+        "c": "https://github.com/lucas-ventura/CoVR",
+        "n": "CoVR-BLIP-2",
+        "d": "2023-08-28",
+        "m1": "43.74",
+        "m2": "73.61",
+        "m3": "83.95",
+        "m4": "96.1"
+      },
+      {
+        "p": {
+          "name": "ImageScope: Unifying Language-Guided Image Retrieval via Large Multimodal Model Collective Reasoning",
+          "link": "https://arxiv.org/abs/2503.10166v1"
+        },
+        "c": "https://github.com/pengfei-luo/ImageScope",
+        "n": "ImageScope (CLIP-ViT-L/14)",
+        "d": "2025-03-13",
+        "m1": "39.37",
+        "m2": "67.54",
+        "m3": "78.05",
+        "m4": "92.94"
+      },
+      {
+        "p": {
+          "name": "Imagine and Seek: Improving Composed Image Retrieval with an Imagined Proxy",
+          "link": "https://arxiv.org/abs/2411.16752v2"
+        },
+        "c": "",
+        "n": "IP-CIR + LDRE (CLIP G/14)",
+        "d": "2024-11-24",
+        "m1": "39.25",
+        "m2": "70.07",
+        "m3": "80",
+        "m4": "94.89"
+      },
+      {
+        "p": {
+          "name": "Semantic Editing Increment Benefits Zero-Shot Composed Image Retrieval",
+          "link": "https://dl.acm.org/doi/10.1145/3664647.3681649"
+        },
+        "c": "https://github.com/yzy-bupt/LDRE",
+        "n": "SEIZE (CLIP G/14)",
+        "d": "2024-10-28",
+        "m1": "38.87",
+        "m2": "69.42",
+        "m3": "79.42"
+      },
+      {
+        "p": {
+          "name": "Zero-shot Composed Text-Image Retrieval",
+          "link": "https://arxiv.org/abs/2306.07272v2"
+        },
+        "c": "https://github.com/Code-kunkun/ZS-CIR",
+        "n": "TransAgg (Laion-CIR-Combined)",
+        "d": "2023-06-12",
+        "m1": "37.87",
+        "m2": "68.88",
+        "m4": "93.86"
+      },
+      {
+        "p": {
+          "name": "Reason-before-Retrieve: One-Stage Reflective Chain-of-Thoughts for Training-Free Zero-Shot Composed Image Retrieval",
+          "link": "https://arxiv.org/abs/2412.11077v3"
+        },
+        "c": "https://github.com/Pter61/osrcir",
+        "n": "OSrCIR (CLIP G/14)",
+        "d": "2024-12-15",
+        "m1": "37.26",
+        "m2": "67.25",
+        "m3": "77.33"
+      },
+      {
+        "p": {
+          "name": "SCOT: Self-Supervised Contrastive Pretraining For Zero-Shot Compositional Retrieval",
+          "link": "https://arxiv.org/abs/2501.08347v1"
+        },
+        "c": "",
+        "n": "SCOT (WACV 2025)",
+        "d": "2025-01-12",
+        "m1": "36.82",
+        "m2": "64.34",
+        "m3": "74.48",
+        "m4": "93.42"
+      },
+      {
+        "p": {
+          "name": "CoLLM: A Large Language Model for Composed Image Retrieval",
+          "link": "https://arxiv.org/abs/2503.19910v1"
+        },
+        "c": "https://github.com/hmchuong/CoLLM",
+        "n": "CoLLM (Pretrained - BLIP-L/16)",
+        "d": "2025-03-25",
+        "m1": "35.00",
+        "m3": "78.6",
+        "m4": "94.2"
+      },
+      {
+        "p": {
+          "name": "Vision-by-Language for Training-Free Compositional Image Retrieval",
+          "link": "https://arxiv.org/abs/2310.09291v2"
+        },
+        "c": "https://github.com/explainableml/vision_by_language",
+        "n": "CIReVL (CLIP G/14)",
+        "d": "2023-10-13",
+        "m1": "34.65",
+        "m2": "64.29"
+      },
+      {
+        "p": {
+          "name": "MagicLens: Self-Supervised Image Retrieval with Open-Ended Instructions",
+          "link": "https://arxiv.org/abs/2403.19651v2"
+        },
+        "c": "https://github.com/google-deepmind/magiclens",
+        "n": "MagicLens (CoCa L)",
+        "d": "2024-03-28",
+        "m1": "33.3",
+        "m2": "67.0",
+        "m3": "77.9",
+        "m4": "94.4"
+      },
+      {
+        "p": {
+          "name": "Training-free Zero-shot Composed Image Retrieval via Weighted Modality Fusion and Similarity",
+          "link": "https://arxiv.org/abs/2409.04918v4"
+        },
+        "c": "https://github.com/whats2000/WeiMoCIR",
+        "n": "WeiMoCIR (CLIP G/14)",
+        "d": "2024-09-07",
+        "m1": "31.04",
+        "m2": "60.41"
+      },
+      {
+        "p": {
+          "name": "Training-free Zero-shot Composed Image Retrieval via Weighted Modality Fusion and Similarity",
+          "link": "https://arxiv.org/abs/2409.04918v4"
+        },
+        "c": "https://github.com/whats2000/WeiMoCIR",
+        "n": "WeiMoCIR (CLIP L/14)",
+        "d": "2024-09-07",
+        "m1": "30.94",
+        "m2": "60.87"
+      },
+      {
+        "p": {
+          "name": "MagicLens: Self-Supervised Image Retrieval with Open-Ended Instructions",
+          "link": "https://arxiv.org/abs/2403.19651v2"
+        },
+        "c": "https://github.com/google-deepmind/magiclens",
+        "n": "MagicLens (CLIP L)",
+        "d": "2024-03-28",
+        "m1": "30.1",
+        "m2": "61.7",
+        "m3": "74.4",
+        "m4": "92.6"
+      },
+      {
+        "p": {
+          "name": "Imagine and Seek: Improving Composed Image Retrieval with an Imagined Proxy",
+          "link": "https://arxiv.org/abs/2411.16752v2"
+        },
+        "c": "",
+        "n": "IP-CIR + LDRE (CLIP L/14)",
+        "d": "2024-11-24",
+        "m1": "29.76",
+        "m2": "58.82",
+        "m3": "71.21",
+        "m4": "90.41"
+      },
+      {
+        "p": {
+          "name": "CoLLM: A Large Language Model for Composed Image Retrieval",
+          "link": "https://arxiv.org/abs/2503.19910v1"
+        },
+        "c": "https://github.com/hmchuong/CoLLM",
+        "n": "CoLLM (Pretrained - CLIP-L/14)",
+        "d": "2025-03-25",
+        "m1": "29.7",
+        "m3": "72.8",
+        "m4": "91.5"
+      },
+      {
+        "p": {
+          "name": "Reason-before-Retrieve: One-Stage Reflective Chain-of-Thoughts for Training-Free Zero-Shot Composed Image Retrieval",
+          "link": "https://arxiv.org/abs/2412.11077v3"
+        },
+        "c": "https://github.com/Pter61/osrcir",
+        "n": "OSrCIR (CLIP L/14)",
+        "d": "2024-12-15",
+        "m1": "29.45",
+        "m2": "57.68",
+        "m3": "69.86"
+      },
+      {
+        "p": {
+          "name": "Training-free Zero-shot Composed Image Retrieval via Weighted Modality Fusion and Similarity",
+          "link": "https://arxiv.org/abs/2409.04918v4"
+        },
+        "c": "https://github.com/whats2000/WeiMoCIR",
+        "n": "WeiMoCIR (CLIP H/14)",
+        "d": "2024-09-07",
+        "m1": "29.11",
+        "m2": "59.76"
+      },
+      {
+        "p": {
+          "name": "Training-free Zero-shot Composed Image Retrieval via Weighted Modality Fusion and Similarity",
+          "link": "https://arxiv.org/abs/2409.04918v4"
+        },
+        "c": "https://github.com/whats2000/WeiMoCIR",
+        "n": "WeiMoCIR (CLIP B/32)",
+        "d": "2024-09-07",
+        "m1": "26.31",
+        "m2": "57.69"
+      },
+      {
+        "p": {
+          "name": "Reason-before-Retrieve: One-Stage Reflective Chain-of-Thoughts for Training-Free Zero-Shot Composed Image Retrieval",
+          "link": "https://arxiv.org/abs/2412.11077v3"
+        },
+        "c": "https://github.com/Pter61/osrcir",
+        "n": "OSrCIR (CLIP B/32)",
+        "d": "2024-12-15",
+        "m1": "25.42",
+        "m2": "54.54",
+        "m3": "68.19"
+      },
+      {
+        "p": {
+          "name": "Vision-by-Language for Training-Free Compositional Image Retrieval",
+          "link": "https://arxiv.org/abs/2310.09291v2"
+        },
+        "c": "https://github.com/explainableml/vision_by_language",
+        "n": "CIReVL (CLIP L/14)",
+        "d": "2023-10-13",
+        "m1": "24.55",
+        "m2": "52.31"
+      },
+      {
+        "p": {
+          "name": "Vision-by-Language for Training-Free Compositional Image Retrieval",
+          "link": "https://arxiv.org/abs/2310.09291v2"
+        },
+        "c": "https://github.com/explainableml/vision_by_language",
+        "n": "CIReVL (CLIP B/32)",
+        "d": "2023-10-13",
+        "m1": "23.94",
+        "m2": "52.51"
+      },
+      {
+        "p": {
+          "name": "An Efficient Post-hoc Framework for Reducing Task Discrepancy of Text Encoders for Composed Image Retrieval",
+          "link": "https://arxiv.org/abs/2406.09188v2"
+        },
+        "c": "https://github.com/navervision/lincir",
+        "n": "RTD + LinCIR (CLIP G/14)",
+        "d": "2024-06-13",
+        "m2": "67.47"
+      },
+      {
+        "p": {
+          "name": "LDRE: LLM-based Divergent Reasoning and Ensemble for Zero-Shot Composed Image Retrieval",
+          "link": "https://dl.acm.org/doi/10.1145/3626772.3657740"
+        },
+        "c": "https://github.com/yzy-bupt/LDRE",
+        "n": "LDRE (CLIP G/14)",
+        "d": "2024-07-11",
+        "m2": "66.39"
+      },
+      {
+        "p": {
+          "name": "Improving Composed Image Retrieval via Contrastive Learning with Scaling Positives and Negatives",
+          "link": "https://arxiv.org/abs/2404.11317v2"
+        },
+        "c": "https://github.com/BUAADreamer/SPN4CIR",
+        "n": "SPN4CIR (SPN-CC)",
+        "d": "2024-04-17",
+        "m2": "65.42",
+        "m5": "64.87"
+      },
+      {
+        "p": {
+          "name": "Language-only Efficient Training of Zero-shot Composed Image Retrieval",
+          "link": "https://arxiv.org/abs/2312.01998v2"
+        },
+        "c": "https://github.com/navervision/lincir",
+        "n": "LinCIR (CLIP G/14)",
+        "d": "2023-12-04",
+        "m2": "64.72"
+      },
+      {
+        "p": {
+          "name": "MagicLens: Self-Supervised Image Retrieval with Open-Ended Instructions",
+          "link": "https://arxiv.org/abs/2403.19651v2"
+        },
+        "c": "https://github.com/google-deepmind/magiclens",
+        "n": "MagicLens (CoCa B)",
+        "d": "2024-03-28",
+        "m2": "64.0"
+      },
+      {
+        "p": {
+          "name": "Pretrain like Your Inference: Masked Tuning Improves Zero-Shot Composed Image Retrieval",
+          "link": "https://arxiv.org/abs/2311.07622v3"
+        },
+        "c": "https://github.com/Chen-Junyang-cn/PLI",
+        "n": "MTCIR (BLIP B/16)",
+        "d": "2023-11-13",
+        "m2": "58.87"
+      },
+      {
+        "p": {
+          "name": "MagicLens: Self-Supervised Image Retrieval with Open-Ended Instructions",
+          "link": "https://arxiv.org/abs/2403.19651v2"
+        },
+        "c": "https://github.com/google-deepmind/magiclens",
+        "n": "MagicLens (CLIP B)",
+        "d": "2024-03-28",
+        "m2": "58.0"
+      },
+      {
+        "p": {
+          "name": "CompoDiff: Versatile Composed Image Retrieval With Latent Diffusion",
+          "link": "https://arxiv.org/abs/2303.11916v4"
+        },
+        "c": "https://github.com/navervision/compodiff",
+        "n": "CompoDiff (CLIP G/14)",
+        "d": "2023-03-21",
+        "m2": "57.61"
+      },
+      {
+        "p": {
+          "name": "Semantic Editing Increment Benefits Zero-Shot Composed Image Retrieval",
+          "link": "https://dl.acm.org/doi/10.1145/3664647.3681649"
+        },
+        "c": "https://github.com/yzy-bupt/LDRE",
+        "n": "SEIZE (CLIP B/32)",
+        "d": "2024-10-28",
+        "m2": "57.42"
+      },
+      {
+        "p": {
+          "name": "Semantic Editing Increment Benefits Zero-Shot Composed Image Retrieval",
+          "link": "https://dl.acm.org/doi/10.1145/3664647.3681649"
+        },
+        "c": "https://github.com/yzy-bupt/LDRE",
+        "n": "SEIZE (CLIP L/14)",
+        "d": "2024-10-28",
+        "m2": "57.16"
+      },
+      {
+        "p": {
+          "name": "An Efficient Post-hoc Framework for Reducing Task Discrepancy of Text Encoders for Composed Image Retrieval",
+          "link": "https://arxiv.org/abs/2406.09188v2"
+        },
+        "c": "https://github.com/navervision/lincir",
+        "n": "RTD + LinCIR (CLIP L/14)",
+        "d": "2024-06-13",
+        "m2": "56.17"
+      },
+      {
+        "p": {
+          "name": "iSEARLE: Improving Textual Inversion for Zero-Shot Composed Image Retrieval",
+          "link": "https://arxiv.org/abs/2405.02951v1"
+        },
+        "c": "https://github.com/miccunifi/searle",
+        "n": "iSEARLE (CLIP B/32)",
+        "d": "2024-05-05",
+        "m2": "55.69"
+      },
+      {
+        "p": {
+          "name": "LDRE: LLM-based Divergent Reasoning and Ensemble for Zero-Shot Composed Image Retrieval",
+          "link": "https://dl.acm.org/doi/10.1145/3626772.3657740"
+        },
+        "c": "https://github.com/yzy-bupt/LDRE",
+        "n": "LDRE (CLIP L/14)",
+        "d": "2024-07-11",
+        "m2": "55.57"
+      },
+      {
+        "p": {
+          "name": "iSEARLE: Improving Textual Inversion for Zero-Shot Composed Image Retrieval",
+          "link": "https://arxiv.org/abs/2405.02951v1"
+        },
+        "c": "https://github.com/miccunifi/searle",
+        "n": "iSEARLE-OTI (CLIP B/32)",
+        "d": "2024-05-05",
+        "m2": "55.18"
+      },
+      {
+        "p": {
+          "name": "LDRE: LLM-based Divergent Reasoning and Ensemble for Zero-Shot Composed Image Retrieval",
+          "link": "https://dl.acm.org/doi/10.1145/3626772.3657740"
+        },
+        "c": "https://github.com/yzy-bupt/LDRE",
+        "n": "LDRE (CLIP B/32)",
+        "d": "2024-07-11",
+        "m2": "55.13"
+      },
+      {
+        "p": {
+          "name": "Context-I2W: Mapping Images to Context-dependent Words for Accurate Zero-Shot Composed Image Retrieval",
+          "link": "https://arxiv.org/abs/2309.16137v2"
+        },
+        "c": "https://github.com/pter61/context-i2w",
+        "n": "Context-I2W (CLIP L/14)",
+        "d": "2023-09-28",
+        "m2": "55.1"
+      },
+      {
+        "p": {
+          "name": "Pretrain like Your Inference: Masked Tuning Improves Zero-Shot Composed Image Retrieval",
+          "link": "https://arxiv.org/abs/2311.07622v3"
+        },
+        "c": "https://github.com/Chen-Junyang-cn/PLI",
+        "n": "MTCIR (CLIP L/14)",
+        "d": "2023-11-13",
+        "m2": "54.58"
+      },
+      {
+        "p": {
+          "name": "CompoDiff: Versatile Composed Image Retrieval With Latent Diffusion",
+          "link": "https://arxiv.org/abs/2303.11916v4"
+        },
+        "c": "https://github.com/navervision/compodiff",
+        "n": "CompoDiff (CLIP L/14)",
+        "d": "2023-03-21",
+        "m2": "54.36"
+      },
+      {
+        "p": {
+          "name": "iSEARLE: Improving Textual Inversion for Zero-Shot Composed Image Retrieval",
+          "link": "https://arxiv.org/abs/2405.02951v1"
+        },
+        "c": "https://github.com/miccunifi/searle",
+        "n": "iSEARLE-XL-OTI (CLIP L/14)",
+        "d": "2024-05-05",
+        "m2": "54.05"
+      },
+      {
+        "p": {
+          "name": "iSEARLE: Improving Textual Inversion for Zero-Shot Composed Image Retrieval",
+          "link": "https://arxiv.org/abs/2405.02951v1"
+        },
+        "c": "https://github.com/miccunifi/searle",
+        "n": "iSEARLE-XL (CLIP L/14)",
+        "d": "2024-05-05",
+        "m2": "54.00"
+      },
+      {
+        "p": {
+          "name": "Zero-Shot Composed Image Retrieval with Textual Inversion",
+          "link": "https://arxiv.org/abs/2303.15247v2"
+        },
+        "c": "https://github.com/miccunifi/searle",
+        "n": "SEARLE",
+        "d": "2023-03-27",
+        "m2": "53.42"
+      },
+      {
+        "p": {
+          "name": "Language-only Efficient Training of Zero-shot Composed Image Retrieval",
+          "link": "https://arxiv.org/abs/2312.01998v2"
+        },
+        "c": "https://github.com/navervision/lincir",
+        "n": "LinCIR (CLIP L/14)",
+        "d": "2023-12-04",
+        "m2": "53.25"
+      },
+      {
+        "p": {
+          "name": "Zero-Shot Composed Image Retrieval with Textual Inversion",
+          "link": "https://arxiv.org/abs/2303.15247v2"
+        },
+        "c": "https://github.com/miccunifi/searle",
+        "n": "SEARLE-XL",
+        "d": "2023-03-27",
+        "m2": "52.48"
+      },
+      {
+        "p": {
+          "name": "Pic2Word: Mapping Pictures to Words for Zero-shot Composed Image Retrieval",
+          "link": "https://arxiv.org/abs/2302.03084v2"
+        },
+        "c": "https://github.com/google-research/composed_image_retrieval",
+        "n": "Pic2Word",
+        "d": "2023-02-06",
+        "m2": "51.70"
+      },
+      {
+        "p": {
+          "name": "\"This is my unicorn, Fluffy\": Personalizing frozen vision-language representations",
+          "link": "https://arxiv.org/abs/2204.01694v3"
+        },
+        "c": "https://github.com/nvlabs/palavra",
+        "n": "PALAVRA",
+        "d": "2022-04-04",
+        "m2": "43.49"
+      }
+    ]
+  }
+}

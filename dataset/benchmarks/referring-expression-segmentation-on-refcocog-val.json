@@ -1,0 +1,287 @@
+{
+  "title": "referring-expression-segmentation-on-refcocog-val",
+  "task-hierarchy": [
+    "Referring Expression Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/lichengunc/refer",
+    "paper": "Generation and Comprehension of Unambiguous Object Descriptions"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Overall IoU",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Mean IoU",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "IoU",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "mIoU",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Multi-label Cluster Discrimination for Visual Representation Learning",
+          "link": "https://arxiv.org/abs/2407.17331v2"
+        },
+        "c": "https://github.com/deepglint/unicom",
+        "n": "MLCD-Seg-7B",
+        "d": "2024-07-24",
+        "m1": "79.9"
+      },
+      {
+        "p": {
+          "name": "HyperSeg: Towards Universal Visual Segmentation with Large Language Model",
+          "link": "https://arxiv.org/abs/2411.17606v2"
+        },
+        "c": "https://github.com/congvvc/HyperSeg",
+        "n": "HyperSeg",
+        "d": "2024-11-26",
+        "m1": "79.4"
+      },
+      {
+        "p": {
+          "name": "Universal Segmentation at Arbitrary Granularity with Language Instruction",
+          "link": "https://arxiv.org/abs/2312.01623v4"
+        },
+        "c": "https://github.com/yongliu20/UniLSeg",
+        "n": "UniLSeg-100",
+        "d": "2023-12-04",
+        "m1": "79.27"
+      },
+      {
+        "p": {
+          "name": "Universal Segmentation at Arbitrary Granularity with Language Instruction",
+          "link": "https://arxiv.org/abs/2312.01623v4"
+        },
+        "c": "https://github.com/yongliu20/UniLSeg",
+        "n": "UniLSeg-20",
+        "d": "2023-12-04",
+        "m1": "78.41"
+      },
+      {
+        "p": {
+          "name": "EVF-SAM: Early Vision-Language Fusion for Text-Prompted Segment Anything Model",
+          "link": "https://arxiv.org/abs/2406.20076v4"
+        },
+        "c": "https://github.com/hustvl/evf-sam",
+        "n": "EVF-SAM",
+        "d": "2024-06-28",
+        "m1": "78.2"
+      },
+      {
+        "p": {
+          "name": "SegAgent: Exploring Pixel Understanding Capabilities in MLLMs by Imitating Human Annotator Trajectories",
+          "link": "https://arxiv.org/abs/2503.08625"
+        },
+        "c": "https://github.com/aim-uofa/SegAgent",
+        "n": "SegAgent",
+        "d": "2025-03-11",
+        "m1": "75.11"
+      },
+      {
+        "p": {
+          "name": "Densely Connected Parameter-Efficient Tuning for Referring Image Segmentation",
+          "link": "https://arxiv.org/abs/2501.08580v1"
+        },
+        "c": "https://github.com/jiaqihuang01/detris",
+        "n": "DETRIS",
+        "d": "2025-01-15",
+        "m1": "74.6"
+      },
+      {
+        "p": {
+          "name": "Multi-task Visual Grounding with Coarse-to-Fine Consistency Constraints",
+          "link": "https://arxiv.org/abs/2501.06710v1"
+        },
+        "c": "https://github.com/dmmm1997/c3vg",
+        "n": "C3VG",
+        "d": "2025-01-12",
+        "m1": "74.43"
+      },
+      {
+        "p": {
+          "name": "GROUNDHOG: Grounding Large Language Models to Holistic Segmentation",
+          "link": "https://arxiv.org/abs/2402.16846v2"
+        },
+        "c": "",
+        "n": "GROUNDHOG",
+        "d": "2024-02-26",
+        "m1": "74.1"
+      },
+      {
+        "p": {
+          "name": "General Object Foundation Model for Images and Videos at Scale",
+          "link": "https://arxiv.org/abs/2312.09158v1"
+        },
+        "c": "https://github.com/FoundationVision/GLEE",
+        "n": "GLEE-Pro",
+        "d": "2023-12-14",
+        "m1": "72.9"
+      },
+      {
+        "p": {
+          "name": "SafaRi:Adaptive Sequence Transformer for Weakly Supervised Referring Expression Segmentation",
+          "link": "https://arxiv.org/abs/2407.02389v1"
+        },
+        "c": "",
+        "n": "SafaRi-B",
+        "d": "2024-07-02",
+        "m1": "70.48"
+      },
+      {
+        "p": {
+          "name": "PolyFormer: Referring Image Segmentation as Sequential Polygon Generation",
+          "link": "https://arxiv.org/abs/2302.07387v2"
+        },
+        "c": "https://github.com/amazon-science/polygon-transformer",
+        "n": "PolyFormer-L",
+        "d": "2023-02-14",
+        "m1": "69.2",
+        "m2": "71.15"
+      },
+      {
+        "p": {
+          "name": "MaskRIS: Semantic Distortion-aware Data Augmentation for Referring Image Segmentation",
+          "link": "https://arxiv.org/abs/2411.19067v1"
+        },
+        "c": "https://github.com/naver-ai/maskris",
+        "n": "MaskRIS (Swin-B, combined DB)",
+        "d": "2024-11-28",
+        "m1": "69.12"
+      },
+      {
+        "p": {
+          "name": "PolyFormer: Referring Image Segmentation as Sequential Polygon Generation",
+          "link": "https://arxiv.org/abs/2302.07387v2"
+        },
+        "c": "https://github.com/amazon-science/polygon-transformer",
+        "n": "PolyFormer-B",
+        "d": "2023-02-14",
+        "m1": "67.76",
+        "m2": "69.36"
+      },
+      {
+        "p": {
+          "name": "MaskRIS: Semantic Distortion-aware Data Augmentation for Referring Image Segmentation",
+          "link": "https://arxiv.org/abs/2411.19067v1"
+        },
+        "c": "https://github.com/naver-ai/maskris",
+        "n": "MaskRIS (Swin-B)",
+        "d": "2024-11-28",
+        "m1": "65.55",
+        "m2": "69.31"
+      },
+      {
+        "p": {
+          "name": "Mask Grounding for Referring Image Segmentation",
+          "link": "https://arxiv.org/abs/2312.12198v2"
+        },
+        "c": "https://github.com/yxchng/mask-grounding",
+        "n": "MagNet",
+        "d": "2023-12-19",
+        "m1": "65.36"
+      },
+      {
+        "p": {
+          "name": "Generalized Decoding for Pixel, Image, and Language",
+          "link": "https://arxiv.org/abs/2212.11270v1"
+        },
+        "c": "https://github.com/microsoft/X-Decoder",
+        "n": "X-Decoder (Davit-d5)",
+        "d": "2022-12-21",
+        "m1": "64.6"
+      },
+      {
+        "p": {
+          "name": "VLT: Vision-Language Transformer and Query Generation for Referring Segmentation",
+          "link": "https://arxiv.org/abs/2210.15871v1"
+        },
+        "c": "https://github.com/henghuiding/Vision-Language-Transformer",
+        "n": "VLT (Swin-B)",
+        "d": "2022-10-28",
+        "m1": "63.49"
+      },
+      {
+        "p": {
+          "name": "LAVT: Language-Aware Vision Transformer for Referring Image Segmentation",
+          "link": "https://arxiv.org/abs/2112.02244v2"
+        },
+        "c": "https://github.com/yz93/lavt-ris",
+        "n": "LAVT",
+        "d": "2021-12-04",
+        "m1": "61.24"
+      },
+      {
+        "p": {
+          "name": "Vision-Language Transformer and Query Generation for Referring Segmentation",
+          "link": "https://arxiv.org/abs/2108.05565v1"
+        },
+        "c": "https://github.com/henghuiding/Vision-Language-Transformer",
+        "n": "VLT (Darknet53)",
+        "d": "2021-08-12",
+        "m1": "52.99"
+      },
+      {
+        "p": {
+          "name": "Comprehensive Multi-Modal Interactions for Referring Image Segmentation",
+          "link": "https://arxiv.org/abs/2104.10412v4"
+        },
+        "c": "https://github.com/kanji95/SHNET",
+        "n": "SHNet",
+        "d": "2021-04-21",
+        "m1": "49.90"
+      },
+      {
+        "p": {
+          "name": "DeRIS: Decoupling Perception and Cognition for Enhanced Referring Image Segmentation through Loopback Synergy",
+          "link": "https://arxiv.org/abs/2507.01738v1"
+        },
+        "c": "https://github.com/Dmmm1997/DeRIS",
+        "n": "DeRIS-L",
+        "d": "2025-07-02",
+        "m2": "80.01"
+      },
+      {
+        "p": {
+          "name": "Vision-Aware Text Features in Referring Image Segmentation: From Object Understanding to Context Understanding",
+          "link": "https://arxiv.org/abs/2404.08590v2"
+        },
+        "c": "https://github.com/nero1342/VATEX",
+        "n": "VATEX",
+        "d": "2024-04-12",
+        "m3": "0.7554",
+        "m4": "69.73"
+      }
+    ]
+  }
+}

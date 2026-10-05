@@ -1,0 +1,88 @@
+{
+  "title": "unsupervised-semantic-segmentation-with-language-image-pre-training-on-coco-stuff-27",
+  "task-hierarchy": [
+    "Semantic Segmentation",
+    "Unsupervised Semantic Segmentation",
+    "Unsupervised Semantic Segmentation with Language-image Pre-training"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/nightrome/cocostuff",
+    "paper": "COCO-Stuff: Thing and Stuff Classes in Context"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mIoU",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "pixel accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "ReCo: Retrieve and Co-segment for Zero-shot Transfer",
+          "link": "https://arxiv.org/abs/2206.07045v1"
+        },
+        "c": "https://github.com/NoelShin/reco",
+        "n": "ReCo+",
+        "d": "2022-06-14",
+        "m1": "32.6",
+        "m2": "54.1"
+      },
+      {
+        "p": {
+          "name": "TagCLIP: A Local-to-Global Framework to Enhance Open-Vocabulary Multi-Label Classification of CLIP Without Training",
+          "link": "https://arxiv.org/abs/2312.12828v1"
+        },
+        "c": "https://github.com/linyq2117/tagclip",
+        "n": "CLS-SEG",
+        "d": "2023-12-20",
+        "m1": "31.0"
+      },
+      {
+        "p": {
+          "name": "ReCo: Retrieve and Co-segment for Zero-shot Transfer",
+          "link": "https://arxiv.org/abs/2206.07045v1"
+        },
+        "c": "https://github.com/NoelShin/reco",
+        "n": "ReCo",
+        "d": "2022-06-14",
+        "m1": "26.3",
+        "m2": "46.1"
+      },
+      {
+        "p": {
+          "name": "Extract Free Dense Labels from CLIP",
+          "link": "https://arxiv.org/abs/2112.01071v2"
+        },
+        "c": "https://github.com/chongzhou96/maskclip",
+        "n": "DenseCLIP",
+        "d": "2021-12-02",
+        "m1": "19.6",
+        "m2": "32.2"
+      }
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "title": "all-day-semantic-segmentation-on-all-day-cityscapes",
+  "task-hierarchy": [
+    "Semantic Segmentation",
+    "All-day Semantic Segmentation"
+  ],
+  "dataset-info": {
+    "link": "",
+    "paper": "Interactive Learning of Intrinsic and Extrinsic Properties for All-day Semantic Segmentation"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mIoU",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Interactive Learning of Intrinsic and Extrinsic Properties for All-day Semantic Segmentation",
+          "link": "https://ieeexplore.ieee.org/abstract/document/10176286"
+        },
+        "c": "https://github.com/BiQiWHU/All-day-CityScapes-segmentation",
+        "n": "AO-SegNet (Swin-Base)",
+        "d": "2023-07-07",
+        "m1": "78.6"
+      },
+      {
+        "p": {
+          "name": "Deep Dual-resolution Networks for Real-time and Accurate Semantic Segmentation of Road Scenes",
+          "link": "https://arxiv.org/abs/2101.06085v2"
+        },
+        "c": "https://github.com/Deci-AI/super-gradients",
+        "n": "DDR-Net",
+        "d": "2021-01-15",
+        "m1": "68.6"
+      },
+      {
+        "p": {
+          "name": "Two at Once: Enhancing Learning and Generalization Capacities via IBN-Net",
+          "link": "https://arxiv.org/abs/1807.09441v3"
+        },
+        "c": "https://github.com/layumi/Person_reID_baseline_pytorch",
+        "n": "IB-Net",
+        "d": "2018-07-25",
+        "m1": "64.5"
+      }
+    ]
+  }
+}

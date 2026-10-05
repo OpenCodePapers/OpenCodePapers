@@ -1,0 +1,121 @@
+{
+  "title": "gzsl-video-classification-on-vggsound-gzsl-main",
+  "task-hierarchy": [
+    "Zero-Shot Learning",
+    "GZSL Video Classification"
+  ],
+  "dataset-info": {
+    "link": "",
+    "paper": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "HM",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "ZSL",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Boosting Audio-visual Zero-shot Learning with Large Language Models",
+          "link": "https://arxiv.org/abs/2311.12268v2"
+        },
+        "c": "https://github.com/chenhaoxing/KDA",
+        "n": "KDA",
+        "d": "2023-11-21",
+        "m1": "10.45",
+        "m2": "8.43"
+      },
+      {
+        "p": {
+          "name": "Hyperbolic Audio-visual Zero-shot Learning",
+          "link": "https://arxiv.org/abs/2308.12558v2"
+        },
+        "c": "",
+        "n": "Hyper-multiple",
+        "d": "2023-08-24",
+        "m1": "9.32",
+        "m2": "7.97"
+      },
+      {
+        "p": {
+          "name": "Temporal and cross-modal attention for audio-visual zero-shot learning",
+          "link": "https://arxiv.org/abs/2207.09966v1"
+        },
+        "c": "https://github.com/explainableml/tcaf-gzsl",
+        "n": "TCaF",
+        "d": "2022-07-20",
+        "m1": "7.33",
+        "m2": "6.06"
+      },
+      {
+        "p": {
+          "name": "Audio-visual Generalised Zero-shot Learning with Cross-modal Attention and Language",
+          "link": "https://arxiv.org/abs/2203.03598v2"
+        },
+        "c": "https://github.com/explainableml/avca-gzsl",
+        "n": "AVCA",
+        "d": "2022-03-07",
+        "m1": "6.31",
+        "m2": "6.00"
+      },
+      {
+        "p": {
+          "name": "Coordinated Joint Multimodal Embeddings for Generalized Audio-Visual Zeroshot Classification and Retrieval of Videos",
+          "link": "https://arxiv.org/abs/1910.08732v1"
+        },
+        "c": "",
+        "n": "CJME",
+        "d": "2019-10-19",
+        "m1": "6.17",
+        "m2": "5.16"
+      },
+      {
+        "p": {
+          "name": "AVGZSLNet: Audio-Visual Generalized Zero-Shot Learning by Reconstructing Label Features from Multi-Modal Embeddings",
+          "link": "https://arxiv.org/abs/2005.13402v3"
+        },
+        "c": "",
+        "n": "AVGZSLNet",
+        "d": "2020-05-27",
+        "m1": "5.83",
+        "m2": "5.28"
+      },
+      {
+        "p": {
+          "name": "Attribute Prototype Network for Any-Shot Learning",
+          "link": "https://arxiv.org/abs/2204.01208v1"
+        },
+        "c": "",
+        "n": "APN",
+        "d": "2022-04-04",
+        "m1": "5.11",
+        "m2": "4.49"
+      }
+    ]
+  }
+}

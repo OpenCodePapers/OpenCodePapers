@@ -1,0 +1,186 @@
+{
+  "title": "generalized-referring-expression-segmentation-on-grefcoco",
+  "task-hierarchy": [
+    "Referring Expression Segmentation",
+    "Generalized Referring Expression Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://henghuiding.github.io/GRES/",
+    "paper": "GRES: Generalized Referring Expression Segmentation"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "gIoU",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "cIoU",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "DeRIS: Decoupling Perception and Cognition for Enhanced Referring Image Segmentation through Loopback Synergy",
+          "link": "https://arxiv.org/abs/2507.01738v1"
+        },
+        "c": "https://github.com/Dmmm1997/DeRIS",
+        "n": "DeRIS-L",
+        "d": "2025-07-02",
+        "m1": "77.67",
+        "m2": "72.00"
+      },
+      {
+        "p": {
+          "name": "GSVA: Generalized Segmentation via Multimodal Large Language Models",
+          "link": "https://arxiv.org/abs/2312.10103v3"
+        },
+        "c": "https://github.com/leaplabthu/gsva",
+        "n": "GSVA-Llama2-13B",
+        "d": "2023-12-15",
+        "m1": "70.04",
+        "m2": "66.38"
+      },
+      {
+        "p": {
+          "name": "Bring Adaptive Binding Prototypes to Generalized Referring Expression Segmentation",
+          "link": "https://arxiv.org/abs/2405.15169v2"
+        },
+        "c": "https://github.com/buptlwz/mabp",
+        "n": "MABP",
+        "d": "2024-05-24",
+        "m1": "68.79",
+        "m2": "65.69"
+      },
+      {
+        "p": {
+          "name": "CoHD: A Counting-Aware Hierarchical Decoding Framework for Generalized Referring Expression Segmentation",
+          "link": "https://arxiv.org/abs/2405.15658v2"
+        },
+        "c": "https://github.com/robertluo1/cohd",
+        "n": "HDC",
+        "d": "2024-05-24",
+        "m1": "68.28",
+        "m2": "65.42"
+      },
+      {
+        "p": {
+          "name": "GSVA: Generalized Segmentation via Multimodal Large Language Models",
+          "link": "https://arxiv.org/abs/2312.10103v3"
+        },
+        "c": "https://github.com/leaplabthu/gsva",
+        "n": "GSVA-Vicuna-13B-v1.1",
+        "d": "2023-12-15",
+        "m1": "68.01",
+        "m2": "64.05"
+      },
+      {
+        "p": {
+          "name": "GROUNDHOG: Grounding Large Language Models to Holistic Segmentation",
+          "link": "https://arxiv.org/abs/2402.16846v2"
+        },
+        "c": "",
+        "n": "GROUNDHOG",
+        "d": "2024-02-26",
+        "m1": "66.70"
+      },
+      {
+        "p": {
+          "name": "GSVA: Generalized Segmentation via Multimodal Large Language Models",
+          "link": "https://arxiv.org/abs/2312.10103v3"
+        },
+        "c": "https://github.com/leaplabthu/gsva",
+        "n": "GSVA-Vicuna-7B-v1.1",
+        "d": "2023-12-15",
+        "m1": "66.47",
+        "m2": "63.29"
+      },
+      {
+        "p": {
+          "name": "GRES: Generalized Referring Expression Segmentation",
+          "link": "https://arxiv.org/abs/2306.00968v1"
+        },
+        "c": "https://github.com/henghuiding/ReLA",
+        "n": "ReLA",
+        "d": "2023-06-01",
+        "m1": "63.60",
+        "m2": "62.42"
+      },
+      {
+        "p": {
+          "name": "LAVT: Language-Aware Vision Transformer for Referring Image Segmentation",
+          "link": "https://arxiv.org/abs/2112.02244v2"
+        },
+        "c": "https://github.com/yz93/lavt-ris",
+        "n": "LAVT",
+        "d": "2021-12-04",
+        "m1": "58.40",
+        "m2": "57.64"
+      },
+      {
+        "p": {
+          "name": "CRIS: CLIP-Driven Referring Image Segmentation",
+          "link": "https://arxiv.org/abs/2111.15174v2"
+        },
+        "c": "https://github.com/DerrickWang005/CRIS.pytorch",
+        "n": "CRIS",
+        "d": "2021-11-30",
+        "m1": "56.27",
+        "m2": "55.34"
+      },
+      {
+        "p": {
+          "name": "Locate then Segment: A Strong Pipeline for Referring Image Segmentation",
+          "link": "https://arxiv.org/abs/2103.16284v1"
+        },
+        "c": "",
+        "n": "LTS",
+        "d": "2021-03-30",
+        "m1": "52.70",
+        "m2": "52.30"
+      },
+      {
+        "p": {
+          "name": "Vision-Language Transformer and Query Generation for Referring Segmentation",
+          "link": "https://arxiv.org/abs/2108.05565v1"
+        },
+        "c": "https://github.com/henghuiding/Vision-Language-Transformer",
+        "n": "VLT",
+        "d": "2021-08-12",
+        "m1": "52.00",
+        "m2": "52.51"
+      },
+      {
+        "p": {
+          "name": "MAttNet: Modular Attention Network for Referring Expression Comprehension",
+          "link": "http://arxiv.org/abs/1801.08186v3"
+        },
+        "c": "https://github.com/lichengunc/MAttNet",
+        "n": "MattNet",
+        "d": "2018-01-24",
+        "m1": "48.24",
+        "m2": "47.51"
+      }
+    ]
+  }
+}

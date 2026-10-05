@@ -1,0 +1,149 @@
+{
+  "title": "aspect-sentiment-triplet-extraction-on-aste-data-v2",
+  "task-hierarchy": [
+    "Sentiment Analysis",
+    "Aspect Sentiment Triplet Extraction"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/xuuuluuu/SemEval-Triplet-data",
+    "paper": "Position-Aware Tagging for Aspect Sentiment Triplet Extraction"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "MiniConGTS: A Near Ultimate Minimalist Contrastive Grid Tagging Scheme for Aspect Sentiment Triplet Extraction",
+          "link": "https://arxiv.org/abs/2406.11234v2"
+        },
+        "c": "https://github.com/qiaosun22/MiniConGTS",
+        "n": "MiniConGTS",
+        "d": "2024-06-17",
+        "m1": "75.59"
+      },
+      {
+        "p": {
+          "name": "A Span-level Bidirectional Network for Aspect Sentiment Triplet Extraction",
+          "link": "https://arxiv.org/abs/2204.12674v2"
+        },
+        "c": "https://github.com/chen1310054465/SBN",
+        "n": "SBN",
+        "d": "2022-04-27",
+        "m1": "74.34"
+      },
+      {
+        "p": {
+          "name": "CONTRASTE: Supervised Contrastive Pre-training With Aspect-based Prompts For Aspect Sentiment Triplet Extraction",
+          "link": "https://arxiv.org/abs/2310.15577v1"
+        },
+        "c": "https://github.com/nitkannen/contraste",
+        "n": "CONTRASTE",
+        "d": "2023-10-24",
+        "m1": "74.1"
+      },
+      {
+        "p": {
+          "name": "Nonautoregressive Encoder-Decoder Neural Framework for End-to-End Aspect-Based Sentiment Triplet Extraction",
+          "link": "https://ieeexplore.ieee.org/document/9634849/authors#authors"
+        },
+        "c": "",
+        "n": "NAT",
+        "d": "2021-12-03",
+        "m1": "72.84"
+      },
+      {
+        "p": {
+          "name": "Towards Generative Aspect-Based Sentiment Analysis",
+          "link": "https://aclanthology.org/2021.acl-short.64/"
+        },
+        "c": "https://github.com/IsakZhang/Generative-ABSA",
+        "n": "GAS",
+        "d": "2021-08-01",
+        "m1": "72.16"
+      },
+      {
+        "p": {
+          "name": "Learning Span-Level Interactions for Aspect Sentiment Triplet Extraction",
+          "link": "https://arxiv.org/abs/2107.12214v1"
+        },
+        "c": "https://github.com/chiayewken/Span-ASTE",
+        "n": "SPAN-ASTE",
+        "d": "2021-07-26",
+        "m1": "71.85"
+      },
+      {
+        "p": {
+          "name": "Aspect Sentiment Triplet Extraction Using Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2108.06107v1"
+        },
+        "c": "https://github.com/declare-lab/aste-rl",
+        "n": "ASTE-RL",
+        "d": "2021-08-13",
+        "m1": "69.61"
+      },
+      {
+        "p": {
+          "name": "Grid Tagging Scheme for Aspect-oriented Fine-grained Opinion Extraction",
+          "link": "https://arxiv.org/abs/2010.04640v2"
+        },
+        "c": "https://github.com/NJUNLP/GTS",
+        "n": "GTS",
+        "d": "2020-10-09",
+        "m1": "68.17"
+      },
+      {
+        "p": {
+          "name": "First Target and Opinion then Polarity: Enhancing Target-opinion Correlation for Aspect Sentiment Triplet Extraction",
+          "link": "https://arxiv.org/abs/2102.08549v3"
+        },
+        "c": "",
+        "n": "TOP",
+        "d": "2021-02-17",
+        "m1": "68.16"
+      },
+      {
+        "p": {
+          "name": "A Unified Generative Framework for Aspect-Based Sentiment Analysis",
+          "link": "https://arxiv.org/abs/2106.04300v1"
+        },
+        "c": "https://github.com/yhcc/BARTABSA",
+        "n": "BARTABSA",
+        "d": "2021-06-08",
+        "m1": "67.62"
+      },
+      {
+        "p": {
+          "name": "Position-Aware Tagging for Aspect Sentiment Triplet Extraction",
+          "link": "https://arxiv.org/abs/2010.02609v3"
+        },
+        "c": "https://github.com/xuuuluuu/SemEval-Triplet-data",
+        "n": "JET",
+        "d": "2020-10-06",
+        "m1": "63.83"
+      }
+    ]
+  }
+}

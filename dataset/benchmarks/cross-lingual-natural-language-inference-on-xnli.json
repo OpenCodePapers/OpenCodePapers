@@ -1,0 +1,89 @@
+{
+  "title": "cross-lingual-natural-language-inference-on-xnli",
+  "task-hierarchy": [
+    "Natural Language Inference",
+    "Cross-Lingual Natural Language Inference"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/facebookresearch/XNLI",
+    "paper": "XNLI: Evaluating Cross-lingual Sentence Representations"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "ByT5: Towards a token-free future with pre-trained byte-to-byte models",
+          "link": "https://arxiv.org/abs/2105.13626v3"
+        },
+        "c": "https://github.com/huggingface/transformers/tree/master/src/transformers/models/byt5",
+        "n": "ByT5 XXL",
+        "d": "2021-05-28",
+        "m1": "83.7"
+      },
+      {
+        "p": {
+          "name": "Rethinking embedding coupling in pre-trained language models",
+          "link": "https://arxiv.org/abs/2010.12821v1"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleNLP/tree/develop/examples/language_model/rembert",
+        "n": "Decoupled",
+        "d": "2020-10-24",
+        "m1": "71.3"
+      },
+      {
+        "p": {
+          "name": "Rethinking embedding coupling in pre-trained language models",
+          "link": "https://arxiv.org/abs/2010.12821v1"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleNLP/tree/develop/examples/language_model/rembert",
+        "n": "Coupled",
+        "d": "2020-10-24",
+        "m1": "70.7"
+      },
+      {
+        "p": {
+          "name": "ByT5: Towards a token-free future with pre-trained byte-to-byte models",
+          "link": "https://arxiv.org/abs/2105.13626v3"
+        },
+        "c": "https://github.com/huggingface/transformers/tree/master/src/transformers/models/byt5",
+        "n": "ByT5 Small",
+        "d": "2021-05-28",
+        "m1": "69.1"
+      },
+      {
+        "p": {
+          "name": "mGPT: Few-Shot Learners Go Multilingual",
+          "link": "https://arxiv.org/abs/2204.07580v2"
+        },
+        "c": "https://github.com/ai-forever/mgpt",
+        "n": "mGPT",
+        "d": "2022-04-15",
+        "m1": "40.6"
+      }
+    ]
+  }
+}

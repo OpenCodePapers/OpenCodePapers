@@ -1,0 +1,132 @@
+{
+  "title": "self-supervised-scene-flow-estimation-on-argoverse-2",
+  "task-hierarchy": [
+    "Optical Flow Estimation",
+    "Scene Flow Estimation",
+    "Self-supervised Scene Flow Estimation"
+  ],
+  "dataset-info": {
+    "link": "https://www.argoverse.org/av2.html",
+    "paper": "Argoverse 2: Next Generation Datasets for Self-Driving Perception and Forecasting"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "EPE 3-Way",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "EPE Foreground Dynamic",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "EPE Foreground Static",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "EPE Background Static",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "SeFlow: A Self-Supervised Scene Flow Method in Autonomous Driving",
+          "link": "https://arxiv.org/abs/2407.01702v2"
+        },
+        "c": "https://github.com/kth-rpl/deflow",
+        "n": "SeFlow",
+        "d": "2024-07-01",
+        "m1": "0.048590",
+        "m2": "0.121375",
+        "m3": "0.018404",
+        "m4": "0.005990"
+      },
+      {
+        "p": {
+          "name": "ZeroFlow: Scalable Scene Flow via Distillation",
+          "link": "https://arxiv.org/abs/2305.10424v8"
+        },
+        "c": "https://github.com/kylevedder/zeroflow",
+        "n": "ZeroFlow 5x XL",
+        "d": "2023-05-17",
+        "m1": "0.049392",
+        "m2": "0.117688",
+        "m3": "0.017406",
+        "m4": "0.013082"
+      },
+      {
+        "p": {
+          "name": "Neural Scene Flow Prior",
+          "link": "https://arxiv.org/abs/2111.01253v1"
+        },
+        "c": "https://github.com/lilac-lee/neural_scene_flow_prior",
+        "n": "NSFP",
+        "d": "2021-11-01",
+        "m1": "0.060606",
+        "m2": "0.115796",
+        "m3": "0.031576",
+        "m4": "0.034445"
+      },
+      {
+        "p": {
+          "name": "ICP-Flow: LiDAR Scene Flow Estimation with ICP",
+          "link": "https://arxiv.org/abs/2402.17351v2"
+        },
+        "c": "https://github.com/yanconglin/icp-flow",
+        "n": "ICPFlow",
+        "d": "2024-02-27",
+        "m1": "0.065049",
+        "m2": "0.136922",
+        "m3": "0.033245",
+        "m4": "0.024981"
+      },
+      {
+        "p": {
+          "name": "ZeroFlow: Scalable Scene Flow via Distillation",
+          "link": "https://arxiv.org/abs/2305.10424v8"
+        },
+        "c": "https://github.com/kylevedder/zeroflow",
+        "n": "ZeroFlow",
+        "d": "2023-05-17",
+        "m1": "0.0814",
+        "m2": "0.2109",
+        "m3": "0.0254"
+      },
+      {
+        "p": {
+          "name": "Fast Neural Scene Flow",
+          "link": "https://arxiv.org/abs/2304.09121v3"
+        },
+        "c": "https://github.com/lilac-lee/fastnsf",
+        "n": "FastNSF",
+        "d": "2023-04-18",
+        "m1": "0.111820",
+        "m2": "0.115796",
+        "m3": "0.031576",
+        "m4": "0.090712"
+      }
+    ]
+  }
+}

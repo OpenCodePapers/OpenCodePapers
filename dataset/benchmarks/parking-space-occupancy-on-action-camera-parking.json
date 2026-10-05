@@ -1,0 +1,114 @@
+{
+  "title": "parking-space-occupancy-on-action-camera-parking",
+  "task-hierarchy": [
+    "Image Classification",
+    "Parking Space Occupancy"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/martin-marek/parking-space-occupancy",
+    "paper": "Image-Based Parking Space Occupancy Classification: Dataset and Baseline"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F1-score",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Revising deep learning methods in parking lot occupancy detection",
+          "link": "https://arxiv.org/abs/2306.04288v3"
+        },
+        "c": "https://github.com/eighonet/parking-research",
+        "n": "MobileNetV2",
+        "d": "2023-06-07",
+        "m1": "0.9343"
+      },
+      {
+        "p": {
+          "name": "Revising deep learning methods in parking lot occupancy detection",
+          "link": "https://arxiv.org/abs/2306.04288v3"
+        },
+        "c": "https://github.com/eighonet/parking-research",
+        "n": "VGG-19",
+        "d": "2023-06-07",
+        "m1": "0.9152"
+      },
+      {
+        "p": {
+          "name": "Revising deep learning methods in parking lot occupancy detection",
+          "link": "https://arxiv.org/abs/2306.04288v3"
+        },
+        "c": "https://github.com/eighonet/parking-research",
+        "n": "EfficientNet-P",
+        "d": "2023-06-07",
+        "m1": "0.9125"
+      },
+      {
+        "p": {
+          "name": "Revising deep learning methods in parking lot occupancy detection",
+          "link": "https://arxiv.org/abs/2306.04288v3"
+        },
+        "c": "https://github.com/eighonet/parking-research",
+        "n": "mAlexNet",
+        "d": "2023-06-07",
+        "m1": "0.8577"
+      },
+      {
+        "p": {
+          "name": "Revising deep learning methods in parking lot occupancy detection",
+          "link": "https://arxiv.org/abs/2306.04288v3"
+        },
+        "c": "https://github.com/eighonet/parking-research",
+        "n": "ResNet50",
+        "d": "2023-06-07",
+        "m1": "0.8377"
+      },
+      {
+        "p": {
+          "name": "Revising deep learning methods in parking lot occupancy detection",
+          "link": "https://arxiv.org/abs/2306.04288v3"
+        },
+        "c": "https://github.com/eighonet/parking-research",
+        "n": "CFEN",
+        "d": "2023-06-07",
+        "m1": "0.8302"
+      },
+      {
+        "p": {
+          "name": "Revising deep learning methods in parking lot occupancy detection",
+          "link": "https://arxiv.org/abs/2306.04288v3"
+        },
+        "c": "https://github.com/eighonet/parking-research",
+        "n": "ViT",
+        "d": "2023-06-07",
+        "m2": "0.8152"
+      }
+    ]
+  }
+}

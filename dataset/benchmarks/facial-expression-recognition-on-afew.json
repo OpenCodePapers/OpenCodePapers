@@ -1,0 +1,119 @@
+{
+  "title": "facial-expression-recognition-on-afew",
+  "task-hierarchy": [
+    "Face Analysis",
+    "Facial Expression Recognition (FER)"
+  ],
+  "dataset-info": {
+    "link": "https://cs.anu.edu.au/few/AFEW.html",
+    "paper": "Collecting Large, Richly Annotated Facial-Expression Databases from Movies"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy(on validation set)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Exploring Emotion Features and Fusion Strategies for Audio-Video Emotion Recognition",
+          "link": "https://arxiv.org/abs/2012.13912v1"
+        },
+        "c": "",
+        "n": "ResNet50",
+        "d": "2020-12-27",
+        "m1": "65.5%"
+      },
+      {
+        "p": {
+          "name": "Exploring Emotion Features and Fusion Strategies for Audio-Video Emotion Recognition",
+          "link": "https://arxiv.org/abs/2012.13912v1"
+        },
+        "c": "",
+        "n": "LResNet50E-IR (5 models with augmentation)",
+        "d": "2020-12-27",
+        "m1": "65.5%"
+      },
+      {
+        "p": {
+          "name": "Learn From All: Erasing Attention Consistency for Noisy Label Facial Expression Recognition",
+          "link": "https://arxiv.org/abs/2207.10299v2"
+        },
+        "c": "https://github.com/zyh-uaiaaaa/erasing-attention-consistency",
+        "n": "EAC",
+        "d": "2022-07-21",
+        "m1": "65.32%"
+      },
+      {
+        "p": {
+          "name": "Exploring Emotion Features and Fusion Strategies for Audio-Video Emotion Recognition",
+          "link": "https://arxiv.org/abs/2012.13912v1"
+        },
+        "c": "",
+        "n": "LResNet50E-IR (1 model with augmentation)",
+        "d": "2020-12-27",
+        "m1": "63.7%"
+      },
+      {
+        "p": {
+          "name": "Exploring Emotion Features and Fusion Strategies for Audio-Video Emotion Recognition",
+          "link": "https://arxiv.org/abs/2012.13912v1"
+        },
+        "c": "",
+        "n": "LResNet50E-IR (1 model)",
+        "d": "2020-12-27",
+        "m1": "61.1%"
+      },
+      {
+        "p": {
+          "name": "Facial expression and attributes recognition based on multi-task learning of lightweight neural networks",
+          "link": "https://arxiv.org/abs/2103.17107"
+        },
+        "c": "https://github.com/HSE-asavchenko/face-emotion-recognition",
+        "n": "Multi-task EfficientNet-B0",
+        "d": "2021-03-31",
+        "m1": "59.27"
+      },
+      {
+        "p": {
+          "name": "Noisy Student Training using Body Language Dataset Improves Facial Expression Recognition",
+          "link": "https://arxiv.org/abs/2008.02655v2"
+        },
+        "c": "",
+        "n": "resnet18_noisy",
+        "d": "2020-08-06",
+        "m1": "55.17%"
+      },
+      {
+        "p": {
+          "name": "Frame attention networks for facial expression recognition in videos",
+          "link": "https://arxiv.org/abs/1907.00193v2"
+        },
+        "c": "https://github.com/Open-Debin/Emotion-FAN",
+        "n": "resnet18",
+        "d": "2019-06-29",
+        "m1": "51.181%"
+      }
+    ]
+  }
+}

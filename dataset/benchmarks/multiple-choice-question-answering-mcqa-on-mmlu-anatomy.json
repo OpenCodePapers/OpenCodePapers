@@ -1,0 +1,69 @@
+{
+  "title": "multiple-choice-question-answering-mcqa-on-mmlu-anatomy",
+  "task-hierarchy": [
+    "Question Answering",
+    "Multiple Choice Question Answering (MCQA)"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/hendrycks/test",
+    "paper": "Measuring Massive Multitask Language Understanding"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Towards Expert-Level Medical Question Answering with Large Language Models",
+          "link": "https://arxiv.org/abs/2305.09617v1"
+        },
+        "c": "https://github.com/m42-health/med42",
+        "n": "Med-PaLM 2 (ER)",
+        "d": "2023-05-16",
+        "m1": "84.4"
+      },
+      {
+        "p": {
+          "name": "Towards Expert-Level Medical Question Answering with Large Language Models",
+          "link": "https://arxiv.org/abs/2305.09617v1"
+        },
+        "c": "https://github.com/m42-health/med42",
+        "n": "Med-PaLM 2 (CoT + SC)",
+        "d": "2023-05-16",
+        "m1": "80.0"
+      },
+      {
+        "p": {
+          "name": "Towards Expert-Level Medical Question Answering with Large Language Models",
+          "link": "https://arxiv.org/abs/2305.09617v1"
+        },
+        "c": "https://github.com/m42-health/med42",
+        "n": "Med-PaLM 2 (5-shot)",
+        "d": "2023-05-16",
+        "m1": "77.8"
+      }
+    ]
+  }
+}

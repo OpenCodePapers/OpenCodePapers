@@ -1,0 +1,178 @@
+{
+  "title": "node-classification-on-citeseer-0-5",
+  "task-hierarchy": [
+    "Node Classification"
+  ],
+  "dataset-info": {
+    "link": "https://linqs.soe.ucsc.edu/data",
+    "paper": "Collective Classification in Network Data"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Mutual Teaching for Graph Convolutional Networks",
+          "link": "https://arxiv.org/abs/2009.00952v1"
+        },
+        "c": "https://github.com/kunzhan/MTGCN",
+        "n": "MT-GCN",
+        "d": "2020-09-02",
+        "m1": "67.7%"
+      },
+      {
+        "p": {
+          "name": "View-Consistent Heterogeneous Network on Graphs With Few Labeled Nodes",
+          "link": "https://doi.org/10.1109/TCYB.2022.3157771"
+        },
+        "c": "https://github.com/kunzhan/VCHN",
+        "n": "VCHN",
+        "d": "2022-03-17",
+        "m1": "65.6%"
+      },
+      {
+        "p": {
+          "name": "Break the Ceiling: Stronger Multi-scale Deep Graph Convolutional Networks",
+          "link": "https://arxiv.org/abs/1906.02174v3"
+        },
+        "c": "https://github.com/PwnerHarry/Stronger_GCN",
+        "n": "Truncated Krylov",
+        "d": "2019-06-05",
+        "m1": "64.64%"
+      },
+      {
+        "p": {
+          "name": "Break the Ceiling: Stronger Multi-scale Deep Graph Convolutional Networks",
+          "link": "https://arxiv.org/abs/1906.02174v3"
+        },
+        "c": "https://github.com/PwnerHarry/Stronger_GCN",
+        "n": "Snowball (tanh)",
+        "d": "2019-06-05",
+        "m1": "62.05%"
+      },
+      {
+        "p": {
+          "name": "Break the Ceiling: Stronger Multi-scale Deep Graph Convolutional Networks",
+          "link": "https://arxiv.org/abs/1906.02174v3"
+        },
+        "c": "https://github.com/PwnerHarry/Stronger_GCN",
+        "n": "Snowball (linear + tanh)",
+        "d": "2019-06-05",
+        "m1": "61.99%"
+      },
+      {
+        "p": {
+          "name": "Break the Ceiling: Stronger Multi-scale Deep Graph Convolutional Networks",
+          "link": "https://arxiv.org/abs/1906.02174v3"
+        },
+        "c": "https://github.com/PwnerHarry/Stronger_GCN",
+        "n": "Snowball (linear)",
+        "d": "2019-06-05",
+        "m1": "59.41%"
+      },
+      {
+        "p": {
+          "name": "LanczosNet: Multi-Scale Deep Graph Convolutional Networks",
+          "link": "https://arxiv.org/abs/1901.01484v2"
+        },
+        "c": "https://github.com/lrjconan/LanczosNetwork",
+        "n": "AdaLanczosNet",
+        "d": "2019-01-06",
+        "m1": "53.8 ± 4.7"
+      },
+      {
+        "p": {
+          "name": "LanczosNet: Multi-Scale Deep Graph Convolutional Networks",
+          "link": "https://arxiv.org/abs/1901.01484v2"
+        },
+        "c": "https://github.com/lrjconan/LanczosNetwork",
+        "n": "LanczosNet",
+        "d": "2019-01-06",
+        "m1": "53.2 ± 4.0"
+      },
+      {
+        "p": {
+          "name": "Diffusion-Convolutional Neural Networks",
+          "link": "http://arxiv.org/abs/1511.02136v6"
+        },
+        "c": "https://github.com/jcatw/dcnn",
+        "n": "DCNN",
+        "d": "2015-11-06",
+        "m1": "53.1%"
+      },
+      {
+        "p": {
+          "name": "Convolutional Neural Networks on Graphs with Fast Localized Spectral Filtering",
+          "link": "http://arxiv.org/abs/1606.09375v3"
+        },
+        "c": "https://github.com/mdeff/cnn_graph",
+        "n": "ChebyNet",
+        "d": "2016-06-30",
+        "m1": "45.3%"
+      },
+      {
+        "p": {
+          "name": "Gated Graph Convolutional Recurrent Neural Networks",
+          "link": "https://arxiv.org/abs/1903.01888v3"
+        },
+        "c": "https://github.com/luanaruiz9/gated_gcrnns",
+        "n": "GGNN",
+        "d": "2019-03-05",
+        "m1": "44.3%"
+      },
+      {
+        "p": {
+          "name": "Convolutional Networks on Graphs for Learning Molecular Fingerprints",
+          "link": "http://arxiv.org/abs/1509.09292v2"
+        },
+        "c": "https://github.com/HIPS/neural-fingerprint",
+        "n": "GCN-FP",
+        "d": "2015-09-30",
+        "m1": "43.9%"
+      },
+      {
+        "p": {
+          "name": "Graph Attention Networks",
+          "link": "http://arxiv.org/abs/1710.10903v3"
+        },
+        "c": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
+        "n": "GAT",
+        "d": "2017-10-30",
+        "m1": "38.2%"
+      },
+      {
+        "p": {
+          "name": "Inductive Representation Learning on Large Graphs",
+          "link": "http://arxiv.org/abs/1706.02216v4"
+        },
+        "c": "https://github.com/pyg-team/pytorch_geometric/blob/master/torch_geometric/nn/models/basic_gnn.py",
+        "n": "GraphSAGE",
+        "d": "2017-06-07",
+        "m1": "33.8%"
+      }
+    ]
+  }
+}

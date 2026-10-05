@@ -1,0 +1,86 @@
+{
+  "title": "unsupervised-domain-adaptation-on-jester-gesture-recognition",
+  "task-hierarchy": [
+    "Domain Adaptation",
+    "Unsupervised Domain Adaptation"
+  ],
+  "dataset-info": {
+    "link": "https://developer.qualcomm.com/software/ai-datasets/jester",
+    "paper": "The Jester Dataset: A Large-Scale Video Dataset of Human Gestures"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "",
+        "c": "",
+        "n": "TranSVAE",
+        "d": "",
+        "m1": "66.1"
+      },
+      {
+        "p": {
+          "name": "Contrast and Mix: Temporal Contrastive Video Domain Adaptation with Background Mixing",
+          "link": "https://arxiv.org/abs/2110.15128v1"
+        },
+        "c": "",
+        "n": "CoMix",
+        "d": "2021-10-28",
+        "m1": "64.7"
+      },
+      {
+        "p": {
+          "name": "Temporal Attentive Alignment for Large-Scale Video Domain Adaptation",
+          "link": "https://arxiv.org/abs/1907.12743v6"
+        },
+        "c": "https://github.com/cmhungsteve/TA3N",
+        "n": "TA3N",
+        "d": "2019-07-30",
+        "m1": "55.5"
+      },
+      {
+        "p": {
+          "name": "Domain-Adversarial Training of Neural Networks",
+          "link": "http://arxiv.org/abs/1505.07818v4"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleSpeech",
+        "n": "DANN",
+        "d": "2015-05-28",
+        "m1": "55.4"
+      },
+      {
+        "p": {
+          "name": "Adversarial Discriminative Domain Adaptation",
+          "link": "http://arxiv.org/abs/1702.05464v1"
+        },
+        "c": "https://github.com/thuml/Transfer-Learning-Library",
+        "n": "ADDA",
+        "d": "2017-02-17",
+        "m1": "52.3"
+      }
+    ]
+  }
+}

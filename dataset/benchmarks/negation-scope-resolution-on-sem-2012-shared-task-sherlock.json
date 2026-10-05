@@ -1,0 +1,69 @@
+{
+  "title": "negation-scope-resolution-on-sem-2012-shared-task-sherlock",
+  "task-hierarchy": [
+    "Natural Language Understanding",
+    "Negation Scope Resolution"
+  ],
+  "dataset-info": {
+    "link": "https://aclanthology.org/S12-1035/",
+    "paper": "*SEM 2012 Shared Task: Resolving the Scope and Focus of Negation"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "No means ‘No’; a non-im-proper modeling approach, with embedded speculative context",
+          "link": "https://academic.oup.com/bioinformatics/advance-article-abstract/doi/10.1093/bioinformatics/btac593/6678982"
+        },
+        "c": "",
+        "n": "NegBioELECTRA",
+        "d": "2022-08-30",
+        "m1": "97.26"
+      },
+      {
+        "p": {
+          "name": "NegBERT: A Transfer Learning Approach for Negation Detection and Scope Resolution",
+          "link": "https://arxiv.org/abs/1911.04211v4"
+        },
+        "c": "https://github.com/adityak6798/Transformers-For-Negation-and-Speculation",
+        "n": "NegBERT",
+        "d": "2019-11-11",
+        "m1": "92.36"
+      },
+      {
+        "p": {
+          "name": "Resolving the Scope of Speculation and Negation using Transformer-Based Architectures",
+          "link": "https://arxiv.org/abs/2001.02885v1"
+        },
+        "c": "https://github.com/adityak6798/Transformers-For-Negation-and-Speculation",
+        "n": "RoBERTa",
+        "d": "2020-01-09",
+        "m1": "91.59"
+      }
+    ]
+  }
+}

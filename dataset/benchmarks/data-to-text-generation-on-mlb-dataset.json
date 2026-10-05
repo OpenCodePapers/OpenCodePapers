@@ -20,12 +20,7 @@
       },
       {
         "key": "m1",
-        "label": "Precision",
-        "sortable": "true"
-      },
-      {
-        "key": "m2",
-        "label": "count",
+        "label": "BLEU",
         "sortable": "true"
       },
       {
@@ -47,8 +42,7 @@
         "c": "https://github.com/ratishsp/data2text-seq-plan-py",
         "n": "SeqPlan",
         "d": "2022-02-28",
-        "m1": "95.9",
-        "m2": "28.9"
+        "m1": "14.29"
       },
       {
         "p": {
@@ -58,8 +52,17 @@
         "c": "https://github.com/ratishsp/data2text-macro-plan-py",
         "n": "Macro",
         "d": "2021-02-04",
-        "m1": "94.4",
-        "m2": "30.8"
+        "m1": "12.62"
+      },
+      {
+        "p": {
+          "name": "Data-to-text Generation with Entity Modeling",
+          "link": "https://arxiv.org/abs/1906.03221v1"
+        },
+        "c": "https://github.com/ratishsp/data2text-entity-py",
+        "n": "ENT",
+        "d": "2019-06-07",
+        "m1": "11.50"
       },
       {
         "p": {
@@ -69,19 +72,7 @@
         "c": "",
         "n": "Force-Copy",
         "d": "2021-12-20",
-        "m1": "84.50",
-        "m2": "21.05"
-      },
-      {
-        "p": {
-          "name": "Data-to-text Generation with Macro Planning",
-          "link": "https://arxiv.org/abs/2102.02723v1"
-        },
-        "c": "https://github.com/ratishsp/data2text-macro-plan-py",
-        "n": "ENT",
-        "d": "2021-02-04",
-        "m1": "81.1",
-        "m2": "23.8"
+        "m1": "10.5"
       }
     ]
   }

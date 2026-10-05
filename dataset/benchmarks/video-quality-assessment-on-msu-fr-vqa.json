@@ -1,0 +1,273 @@
+{
+  "title": "video-quality-assessment-on-msu-fr-vqa",
+  "task-hierarchy": [
+    "Quality Assessment",
+    "Video Quality Assessment"
+  ],
+  "dataset-info": {
+    "link": "https://videoprocessing.ai/benchmarks/video-quality-metrics.html",
+    "paper": "Video compression dataset and benchmark of learning-based video-quality metrics"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "SRCC",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "PLCC",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "KLCC",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Toward A Practical Perceptual Video Quality Metric",
+          "link": "https://netflixtechblog.com/toward-a-practical-perceptual-video-quality-metric-653f208b9652"
+        },
+        "c": "https://github.com/Netflix/vmaf",
+        "n": "VMAF Y (v061)",
+        "d": "2016-06-06",
+        "m1": "0.942",
+        "m2": "0.952",
+        "m3": "0.809"
+      },
+      {
+        "p": {
+          "name": "Toward A Practical Perceptual Video Quality Metric",
+          "link": "https://netflixtechblog.com/toward-a-practical-perceptual-video-quality-metric-653f208b9652"
+        },
+        "c": "https://github.com/Netflix/vmaf",
+        "n": "VMAF Y (v062)",
+        "d": "2016-06-06",
+        "m1": "0.942",
+        "m2": "0.950",
+        "m3": "0.809"
+      },
+      {
+        "p": {
+          "name": "Toward A Practical Perceptual Video Quality Metric",
+          "link": "https://netflixtechblog.com/toward-a-practical-perceptual-video-quality-metric-653f208b9652"
+        },
+        "c": "https://github.com/Netflix/vmaf",
+        "n": "VMAF Y (v063)",
+        "d": "2016-06-06",
+        "m1": "0.942",
+        "m2": "0.950",
+        "m3": "0.809"
+      },
+      {
+        "p": {
+          "name": "Attentions Help CNNs See Better: Attention-based Hybrid Image Quality Assessment Network",
+          "link": "https://arxiv.org/abs/2204.10485v1"
+        },
+        "c": "https://github.com/iigroup/maniqa",
+        "n": "AHIQ",
+        "d": "2022-04-22",
+        "m1": "0.937",
+        "m3": "0.8015"
+      },
+      {
+        "p": {
+          "name": "Toward A Practical Perceptual Video Quality Metric",
+          "link": "https://netflixtechblog.com/toward-a-practical-perceptual-video-quality-metric-653f208b9652"
+        },
+        "c": "https://github.com/Netflix/vmaf",
+        "n": "VMAF Y (v061_neg)",
+        "d": "2016-06-06",
+        "m1": "0.914",
+        "m2": "0.941",
+        "m3": "0.765"
+      },
+      {
+        "p": {
+          "name": "Image information and visual quality",
+          "link": "https://ieeexplore.ieee.org/document/1576816"
+        },
+        "c": "",
+        "n": "VIFp",
+        "d": "2006-02-01",
+        "m1": "0.9079",
+        "m3": "0.7558"
+      },
+      {
+        "p": {
+          "name": "VSI: A Visual Saliency-Induced Index for Perceptual Image Quality Assessment",
+          "link": "https://ieeexplore.ieee.org/document/6873260"
+        },
+        "c": "",
+        "n": "VSI",
+        "d": "2014-08-07",
+        "m1": "0.9053",
+        "m3": "0.7524"
+      },
+      {
+        "p": {
+          "name": "Multiscale structural similarity for image quality assessment",
+          "link": "https://ieeexplore.ieee.org/document/1292216"
+        },
+        "c": "https://github.com/VainF/pytorch-msssim",
+        "n": "MS-SSIM",
+        "d": "2004-05-04",
+        "m1": "0.9026",
+        "m2": "0.9375",
+        "m3": "0.7625"
+      },
+      {
+        "p": {
+          "name": "SR-SIM: A fast and high performance IQA index based on spectral residual",
+          "link": "https://www.semanticscholar.org/paper/SR-SIM%3A-A-fast-and-high-performance-IQA-index-based-Zhang-Li/9f962cbb9c51e5d2827e495cbb30abcf3c41ecc1"
+        },
+        "c": "",
+        "n": "SR-SIM",
+        "d": "2012-09-01",
+        "m1": "0.9014",
+        "m3": "0.7472"
+      },
+      {
+        "p": {
+          "name": "FSIM: A Feature Similarity Index for Image Quality Assessment",
+          "link": "https://ieeexplore.ieee.org/document/5705575"
+        },
+        "c": "",
+        "n": "FSIM",
+        "d": "2011-01-31",
+        "m1": "0.9000",
+        "m3": "0.7418"
+      },
+      {
+        "p": {
+          "name": "Image quality assessment: from error visibility to structural similarity",
+          "link": "https://ieeexplore.ieee.org/document/1284395"
+        },
+        "c": "",
+        "n": "SSIM",
+        "d": "2004-04-13",
+        "m1": "0.8999",
+        "m2": "0.9253",
+        "m3": "0.7615"
+      },
+      {
+        "p": {
+          "name": "A Haar Wavelet-Based Perceptual Similarity Index for Image Quality Assessment",
+          "link": "http://arxiv.org/abs/1607.06140v4"
+        },
+        "c": "",
+        "n": "HaarPSI",
+        "d": "2016-07-20",
+        "m1": "0.8982",
+        "m3": "0.7451"
+      },
+      {
+        "p": {
+          "name": "Mean Deviation Similarity Index: Efficient and Reliable Full-Reference Image Quality Evaluator",
+          "link": "http://arxiv.org/abs/1608.07433v4"
+        },
+        "c": "https://github.com/photosynthesis-team/piq",
+        "n": "MDSI",
+        "d": "2016-08-26",
+        "m1": "0.8971",
+        "m3": "0.7379"
+      },
+      {
+        "p": "",
+        "c": "",
+        "n": "AVQT",
+        "d": "",
+        "m1": "0.8920",
+        "m2": "0.9158",
+        "m3": "0.7499"
+      },
+      {
+        "p": "",
+        "c": "",
+        "n": "PSNR",
+        "d": "",
+        "m1": "0.8668",
+        "m2": "0.8725",
+        "m3": "0.7185"
+      },
+      {
+        "p": {
+          "name": "Deep Learning based Full-reference and No-reference Quality Assessment Models for Compressed UGC Videos",
+          "link": "https://arxiv.org/abs/2106.01111v1"
+        },
+        "c": "https://github.com/sunwei925/CompressedVQA",
+        "n": "FR GVSP-UGCVQA (single scale)",
+        "d": "2021-06-02",
+        "m1": "0.864",
+        "m2": "0.893",
+        "m3": "0.695"
+      },
+      {
+        "p": "",
+        "c": "",
+        "n": "DVQA",
+        "d": "",
+        "m1": "0.7810",
+        "m2": "0.7843",
+        "m3": "0.6106"
+      },
+      {
+        "p": {
+          "name": "ST-GREED: Space-Time Generalized Entropic Differences for Frame Rate Dependent Video Quality Prediction",
+          "link": "https://arxiv.org/abs/2010.13715v2"
+        },
+        "c": "https://github.com/pavancm/GREED",
+        "n": "ST-GREED",
+        "d": "2020-10-26",
+        "m1": "0.7547",
+        "m2": "0.8116",
+        "m3": "0.5905"
+      },
+      {
+        "p": {
+          "name": "The Unreasonable Effectiveness of Deep Features as a Perceptual Metric",
+          "link": "http://arxiv.org/abs/1801.03924v2"
+        },
+        "c": "https://github.com/bytedance/LatentSync",
+        "n": "LPIPS",
+        "d": "2018-01-11",
+        "m1": "0.7538",
+        "m2": "0.8128",
+        "m3": "0.5846"
+      },
+      {
+        "p": {
+          "name": "FovVideoVDP: A visible difference predictor for wide field-of-view video",
+          "link": "https://achapiro.github.io/Man21/mantiuk2021_VideoVDP.pdf"
+        },
+        "c": "https://github.com/gfxdisp/FovVideoVDP",
+        "n": "FovVideoVDP",
+        "d": "2021-04-01",
+        "m1": "0.537",
+        "m2": "0.607",
+        "m3": "0.382"
+      }
+    ]
+  }
+}

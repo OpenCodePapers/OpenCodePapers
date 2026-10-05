@@ -1,0 +1,458 @@
+{
+  "title": "temporal-action-localization-on-activitynet-1-3",
+  "task-hierarchy": [
+    "Action Localization",
+    "Temporal Action Localization"
+  ],
+  "dataset-info": {
+    "link": "http://activity-net.org/",
+    "paper": "ActivityNet: A Large-Scale Video Benchmark for Human Activity Understanding"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mAP",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "mAP IOU@0.5",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "mAP IOU@0.75",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "mAP IOU@0.95",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Enhancing Temporal Action Localization: Advanced S6 Modeling with Recurrent Mechanism",
+          "link": "https://arxiv.org/abs/2407.13078v1"
+        },
+        "c": "https://github.com/lsy0882/RDFA-S6",
+        "n": "RDFA-S6 (InternVideo2-6B)",
+        "d": "2024-07-18",
+        "m1": "42.9",
+        "m2": "64.1",
+        "m3": "44.0",
+        "m4": "10.6"
+      },
+      {
+        "p": {
+          "name": "Video Mamba Suite: State Space Model as a Versatile Alternative for Video Understanding",
+          "link": "https://arxiv.org/abs/2403.09626v1"
+        },
+        "c": "https://github.com/opengvlab/video-mamba-suite",
+        "n": "ActionMamba (InternVideo2-6B)",
+        "d": "2024-03-14",
+        "m1": "42.02",
+        "m2": "62.43",
+        "m3": "43.49",
+        "m4": "10.23"
+      },
+      {
+        "p": {
+          "name": "Proposal Relation Network for Temporal Action Detection",
+          "link": "https://arxiv.org/abs/2106.11812v1"
+        },
+        "c": "https://github.com/wangxiang1230/SSTAP",
+        "n": "PRN+BMN (ensemble)",
+        "d": "2021-06-20",
+        "m1": "42.0",
+        "m2": "59.7"
+      },
+      {
+        "p": {
+          "name": "End-to-End Temporal Action Detection with 1B Parameters Across 1000 Frames",
+          "link": "https://arxiv.org/abs/2311.17241v2"
+        },
+        "c": "https://github.com/sming256/OpenTAD",
+        "n": "AdaTAD (VideoMAEv2-giant)",
+        "d": "2023-11-28",
+        "m1": "41.93",
+        "m2": "61.72",
+        "m3": "43.35",
+        "m4": "10.85"
+      },
+      {
+        "p": {
+          "name": "InternVideo2: Scaling Foundation Models for Multimodal Video Understanding",
+          "link": "https://arxiv.org/abs/2403.15377v4"
+        },
+        "c": "https://github.com/opengvlab/internvideo",
+        "n": "InternVideo2-6B",
+        "d": "2024-03-22",
+        "m1": "41.2"
+      },
+      {
+        "p": {
+          "name": "InternVideo2: Scaling Foundation Models for Multimodal Video Understanding",
+          "link": "https://arxiv.org/abs/2403.15377v4"
+        },
+        "c": "https://github.com/opengvlab/internvideo",
+        "n": "InternVideo2-1B",
+        "d": "2024-03-22",
+        "m1": "40.4"
+      },
+      {
+        "p": {
+          "name": "UniMD: Towards Unifying Moment Retrieval and Temporal Action Detection",
+          "link": "https://arxiv.org/abs/2404.04933v2"
+        },
+        "c": "https://github.com/yingsen1/unimd",
+        "n": "UniMD+Sync.",
+        "d": "2024-04-07",
+        "m1": "39.83",
+        "m2": "60.29"
+      },
+      {
+        "p": {
+          "name": "Proposal Relation Network for Temporal Action Detection",
+          "link": "https://arxiv.org/abs/2106.11812v1"
+        },
+        "c": "https://github.com/wangxiang1230/SSTAP",
+        "n": "PRN (CSN)",
+        "d": "2021-06-20",
+        "m1": "39.4",
+        "m2": "57.9"
+      },
+      {
+        "p": {
+          "name": "InternVideo: General Video Foundation Models via Generative and Discriminative Learning",
+          "link": "https://arxiv.org/abs/2212.03191v2"
+        },
+        "c": "https://github.com/opengvlab/internvideo",
+        "n": "InternVideo",
+        "d": "2022-12-06",
+        "m1": "39.00"
+      },
+      {
+        "p": {
+          "name": "Temporal Context Aggregation Network for Temporal Action Proposal Refinement",
+          "link": "https://arxiv.org/abs/2103.13141v1"
+        },
+        "c": "https://github.com/qingzhiwu/Temporal-Context-Aggregation-Network-Pytorch",
+        "n": "TCANet (SlowFast R101)",
+        "d": "2021-03-24",
+        "m1": "37.56",
+        "m2": "54.33",
+        "m3": "39.13",
+        "m4": "8.41"
+      },
+      {
+        "p": {
+          "name": "Proposal Relation Network for Temporal Action Detection",
+          "link": "https://arxiv.org/abs/2106.11812v1"
+        },
+        "c": "https://github.com/wangxiang1230/SSTAP",
+        "n": "PRN (ViViT)",
+        "d": "2021-06-20",
+        "m1": "37.5",
+        "m2": "55.5"
+      },
+      {
+        "p": {
+          "name": "Hear Me Out: Fusional Approaches for Audio Augmented Temporal Action Localization",
+          "link": "https://arxiv.org/abs/2106.14118v4"
+        },
+        "c": "https://github.com/skelemoa/tal-hmo",
+        "n": "AVFusion",
+        "d": "2021-06-27",
+        "m1": "36.82",
+        "m2": "54.34",
+        "m3": "37.66",
+        "m4": "8.93"
+      },
+      {
+        "p": {
+          "name": "TriDet: Temporal Action Detection with Relative Boundary Modeling",
+          "link": "https://arxiv.org/abs/2303.07347v2"
+        },
+        "c": "https://github.com/dingfengshi/tridet",
+        "n": "TriDet (TSP features)",
+        "d": "2023-03-13",
+        "m1": "36.8",
+        "m2": "54.7",
+        "m3": "38.0",
+        "m4": "8.4"
+      },
+      {
+        "p": {
+          "name": "End-to-end Temporal Action Detection with Transformer",
+          "link": "https://arxiv.org/abs/2106.10271v4"
+        },
+        "c": "https://github.com/xlliu7/TadTR",
+        "n": "TadTR (TSP features)",
+        "d": "2021-06-18",
+        "m1": "36.75",
+        "m2": "53.62",
+        "m3": "37.52",
+        "m4": "10.56"
+      },
+      {
+        "p": {
+          "name": "ActionFormer: Localizing Moments of Actions with Transformers",
+          "link": "https://arxiv.org/abs/2202.07925v2"
+        },
+        "c": "https://github.com/happyharrycn/actionformer_release",
+        "n": "ActionFormer (TSP feautures)",
+        "d": "2022-02-16",
+        "m1": "36.6",
+        "m2": "54.7",
+        "m3": "37.8",
+        "m4": "8.4"
+      },
+      {
+        "p": {
+          "name": "Proposal-Free Temporal Action Detection via Global Segmentation Mask Learning",
+          "link": "https://arxiv.org/abs/2207.06580v2"
+        },
+        "c": "https://github.com/sauradip/stale",
+        "n": "TAGS (I3D)",
+        "d": "2022-07-14",
+        "m1": "36.5"
+      },
+      {
+        "p": {
+          "name": "Video Self-Stitching Graph Network for Temporal Action Localization",
+          "link": "https://arxiv.org/abs/2011.14598v4"
+        },
+        "c": "https://github.com/coolbay/VSGN",
+        "n": "VSGN (TSP features)",
+        "d": "2020-11-30",
+        "m1": "35.94",
+        "m2": "53.26",
+        "m3": "36.76",
+        "m4": "8.12"
+      },
+      {
+        "p": {
+          "name": "TSP: Temporally-Sensitive Pretraining of Video Encoders for Localization Tasks",
+          "link": "https://arxiv.org/abs/2011.11479v3"
+        },
+        "c": "https://github.com/HumamAlwassel/TSP",
+        "n": "TSP",
+        "d": "2020-11-23",
+        "m1": "35.81",
+        "m2": "51.26",
+        "m3": "37.12",
+        "m4": "9.29"
+      },
+      {
+        "p": {
+          "name": "Improve Temporal Action Proposals using Hierarchical Context",
+          "link": "https://www.sciencedirect.com/science/article/pii/S0031320323002601"
+        },
+        "c": "",
+        "n": "HCN(I3D features)",
+        "d": "2023-04-03",
+        "m1": "35.61",
+        "m2": "52.51",
+        "m3": "36.10",
+        "m4": "7.12"
+      },
+      {
+        "p": {
+          "name": "DCAN: Improving Temporal Action Detection via Dual Context Aggregation",
+          "link": "https://arxiv.org/abs/2112.03612v1"
+        },
+        "c": "https://github.com/cg1177/dcan",
+        "n": "DCAN (TSN features)",
+        "d": "2021-12-07",
+        "m1": "35.39",
+        "m2": "51.78",
+        "m3": "35.98",
+        "m4": "9.45"
+      },
+      {
+        "p": {
+          "name": "An Empirical Study of End-to-End Temporal Action Detection",
+          "link": "https://arxiv.org/abs/2204.02932v1"
+        },
+        "c": "https://github.com/xlliu7/E2E-TAD",
+        "n": "E2E-TAD (SlowFast R50+TadTR)",
+        "d": "2022-04-06",
+        "m1": "35.10",
+        "m2": "50.47",
+        "m3": "35.99",
+        "m4": "10.83"
+      },
+      {
+        "p": {
+          "name": "Low-Fidelity Video Encoder Optimization for Temporal Action Localization",
+          "link": "http://proceedings.neurips.cc/paper/2021/hash/522a9ae9a99880d39e5daec35375e999-Abstract.html"
+        },
+        "c": "",
+        "n": "LoFi+G-TAD",
+        "d": "2021-12-01",
+        "m1": "34.96",
+        "m2": "50.91",
+        "m3": "35.86",
+        "m4": "8.79"
+      },
+      {
+        "p": {
+          "name": "BSN++: Complementary Boundary Regressor with Scale-Balanced Relation Modeling for Temporal Action Proposal Generation",
+          "link": "https://arxiv.org/abs/2009.07641v5"
+        },
+        "c": "https://github.com/xxcheng0708/BSNPlusPlus-boundary-sensitive-network",
+        "n": "BSN++",
+        "d": "2020-09-15",
+        "m1": "34.88",
+        "m2": "51.27",
+        "m3": "35.70",
+        "m4": "8.33"
+      },
+      {
+        "p": {
+          "name": "Boundary-sensitive Pre-training for Temporal Localization in Videos",
+          "link": "https://arxiv.org/abs/2011.10830v3"
+        },
+        "c": "https://github.com/frostinassiky/bsp",
+        "n": "G-TAD+BSP",
+        "d": "2020-11-21",
+        "m1": "34.75",
+        "m2": "50.94",
+        "m3": "35.61",
+        "m4": "7.98"
+      },
+      {
+        "p": {
+          "name": "Self-Supervised Learning for Semi-Supervised Temporal Action Proposal",
+          "link": "https://arxiv.org/abs/2104.03214v1"
+        },
+        "c": "https://github.com/wangxiang1230/SSTAP",
+        "n": "SSTAP@100%+",
+        "d": "2021-04-07",
+        "m1": "34.48",
+        "m2": "50.72",
+        "m3": "35.28",
+        "m4": "7.87"
+      },
+      {
+        "p": {
+          "name": "Boundary Content Graph Neural Network for Temporal Action Proposal Generation",
+          "link": "https://arxiv.org/abs/2008.01432v1"
+        },
+        "c": "",
+        "n": "BC-GNN",
+        "d": "2020-08-04",
+        "m1": "34.26",
+        "m2": "50.56",
+        "m3": "34.75",
+        "m4": "9.37"
+      },
+      {
+        "p": {
+          "name": "Graph Convolutional Module for Temporal Action Localization in Videos",
+          "link": "https://arxiv.org/abs/2112.00302v1"
+        },
+        "c": "",
+        "n": "GCM",
+        "d": "2021-12-01",
+        "m1": "34.24",
+        "m2": "51.03",
+        "m3": "35.17",
+        "m4": "7.44"
+      },
+      {
+        "p": {
+          "name": "G-TAD: Sub-Graph Localization for Temporal Action Detection",
+          "link": "https://arxiv.org/abs/1911.11462v2"
+        },
+        "c": "https://github.com/Frostinassiky/gtad",
+        "n": "G-TAD",
+        "d": "2019-11-26",
+        "m1": "34.09",
+        "m2": "50.36",
+        "m3": "34.60",
+        "m4": "9.02"
+      },
+      {
+        "p": {
+          "name": "BMN: Boundary-Matching Network for Temporal Action Proposal Generation",
+          "link": "https://arxiv.org/abs/1907.09702v1"
+        },
+        "c": "https://github.com/PaddlePaddle/models/tree/develop/PaddleCV/video/models/bmn",
+        "n": "BMN",
+        "d": "2019-07-23",
+        "m1": "33.85",
+        "m2": "50.07",
+        "m3": "34.78",
+        "m4": "8.29"
+      },
+      {
+        "p": {
+          "name": "A Pursuit of Temporal Accuracy in General Activity Detection",
+          "link": "http://arxiv.org/abs/1703.02716v1"
+        },
+        "c": "https://github.com/yjxiong/action-detection",
+        "n": "SSN",
+        "d": "2017-03-08",
+        "m1": "32.26",
+        "m2": "39.12"
+      },
+      {
+        "p": {
+          "name": "Graph Convolutional Networks for Temporal Action Localization",
+          "link": "https://arxiv.org/abs/1909.03252v1"
+        },
+        "c": "https://github.com/Alvin-Zeng/PGCN",
+        "n": "P-GCN",
+        "d": "2019-09-07",
+        "m1": "31.11",
+        "m2": "48.26",
+        "m3": "33.16",
+        "m4": "3.27"
+      },
+      {
+        "p": {
+          "name": "BSN: Boundary Sensitive Network for Temporal Action Proposal Generation",
+          "link": "http://arxiv.org/abs/1806.02964v3"
+        },
+        "c": "https://github.com/PaddlePaddle/models/tree/develop/PaddleCV/video/models/bsn",
+        "n": "BSN",
+        "d": "2018-06-08",
+        "m1": "30.03",
+        "m2": "46.45",
+        "m3": "29.96",
+        "m4": "8.02"
+      },
+      {
+        "p": {
+          "name": "UnLoc: A Unified Framework for Video Localization Tasks",
+          "link": "https://arxiv.org/abs/2308.11062v1"
+        },
+        "c": "https://github.com/google-research/scenic",
+        "n": "UnLoc-L",
+        "d": "2023-08-21",
+        "m2": "59.3"
+      }
+    ]
+  }
+}

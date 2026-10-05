@@ -1,0 +1,68 @@
+{
+  "title": "common-sense-reasoning-on-big-bench-known-unknowns",
+  "task-hierarchy": [
+    "Common Sense Reasoning"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/google/BIG-bench",
+    "paper": "Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "PaLM: Scaling Language Modeling with Pathways",
+          "link": "https://arxiv.org/abs/2204.02311v5"
+        },
+        "c": "https://github.com/lucidrains/CoCa-pytorch",
+        "n": "PaLM-540B (few-shot, k=5)",
+        "d": "2022-04-05",
+        "m1": "73.9"
+      },
+      {
+        "p": {
+          "name": "Training Compute-Optimal Large Language Models",
+          "link": "https://arxiv.org/abs/2203.15556v1"
+        },
+        "c": "https://github.com/karpathy/llama2.c",
+        "n": "Chinchilla-70B (few-shot, k=5)",
+        "d": "2022-03-29",
+        "m1": "65.2"
+      },
+      {
+        "p": {
+          "name": "Scaling Language Models: Methods, Analysis & Insights from Training Gopher",
+          "link": "https://arxiv.org/abs/2112.11446v2"
+        },
+        "c": "https://github.com/allenai/dolma",
+        "n": "Gopher-280B (few-shot, k=5)",
+        "d": "2021-12-08",
+        "m1": "63.6"
+      }
+    ]
+  }
+}

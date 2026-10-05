@@ -1,0 +1,115 @@
+{
+  "title": "spatio-temporal-action-localization-on-ava-kinetics",
+  "task-hierarchy": [
+    "Action Localization",
+    "Spatio-Temporal Action Localization"
+  ],
+  "dataset-info": {
+    "link": "https://research.google.com/ava/",
+    "paper": "AVA: A Video Dataset of Spatio-temporally Localized Atomic Visual Actions"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "val mAP",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "test mAP",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "VideoMAE V2: Scaling Video Masked Autoencoders with Dual Masking",
+          "link": "https://arxiv.org/abs/2303.16727v2"
+        },
+        "c": "https://github.com/OpenGVLab/VideoMAEv2",
+        "n": "VideoMAE V2-g",
+        "d": "2023-03-29",
+        "m1": "42.6"
+      },
+      {
+        "p": {
+          "name": "End-to-End Spatio-Temporal Action Localisation with Video Transformers",
+          "link": "https://arxiv.org/abs/2304.12160v1"
+        },
+        "c": "",
+        "n": "STAR/L",
+        "d": "2023-04-24",
+        "m1": "41.7"
+      },
+      {
+        "p": {
+          "name": "InternVideo: General Video Foundation Models via Generative and Discriminative Learning",
+          "link": "https://arxiv.org/abs/2212.03191v2"
+        },
+        "c": "https://github.com/opengvlab/internvideo",
+        "n": "InternVideo",
+        "d": "2022-12-06",
+        "m1": "41.01"
+      },
+      {
+        "p": {
+          "name": "Relation Modeling in Spatio-Temporal Action Localization",
+          "link": "https://arxiv.org/abs/2106.08061v2"
+        },
+        "c": "",
+        "n": "RM  (multi-scale, ensemble)",
+        "d": "2021-06-15",
+        "m1": "40.52"
+      },
+      {
+        "p": {
+          "name": "Actor-Context-Actor Relation Network for Spatio-Temporal Action Localization",
+          "link": "https://arxiv.org/abs/2006.07976v3"
+        },
+        "c": "https://github.com/towhee-io/towhee",
+        "n": "ACAR (multi-scale, ensemble)",
+        "d": "2020-06-14",
+        "m1": "40.49",
+        "m2": "39.62"
+      },
+      {
+        "p": {
+          "name": "Relation Modeling in Spatio-Temporal Action Localization",
+          "link": "https://arxiv.org/abs/2106.08061v2"
+        },
+        "c": "",
+        "n": "RM (multi-scale, ir-CSN-152)",
+        "d": "2021-06-15",
+        "m1": "37.95"
+      },
+      {
+        "p": {
+          "name": "Actor-Context-Actor Relation Network for Spatio-Temporal Action Localization",
+          "link": "https://arxiv.org/abs/2006.07976v3"
+        },
+        "c": "https://github.com/towhee-io/towhee",
+        "n": "ACAR (multi-scale,  R-101, 8 × 8)",
+        "d": "2020-06-14",
+        "m1": "36.36"
+      }
+    ]
+  }
+}

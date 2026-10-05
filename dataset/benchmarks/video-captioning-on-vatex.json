@@ -1,0 +1,178 @@
+{
+  "title": "video-captioning-on-vatex",
+  "task-hierarchy": [
+    "Video Captioning"
+  ],
+  "dataset-info": {
+    "link": "https://eric-xw.github.io/vatex-website/index.html",
+    "paper": "VATEX: A Large-Scale, High-Quality Multilingual Dataset for Video-and-Language Research"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "BLEU-4",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "CIDEr",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "METEOR",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "ROUGE-L",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "VALOR: Vision-Audio-Language Omni-Perception Pretraining Model and Dataset",
+          "link": "https://arxiv.org/abs/2304.08345v2"
+        },
+        "c": "https://github.com/TXH-mercury/VALOR",
+        "n": "VALOR",
+        "d": "2023-04-17",
+        "m1": "45.6",
+        "m2": "95.8",
+        "m3": "29.4",
+        "m4": "57.4"
+      },
+      {
+        "p": {
+          "name": "VAST: A Vision-Audio-Subtitle-Text Omni-Modality Foundation Model and Dataset",
+          "link": "https://arxiv.org/abs/2305.18500v2"
+        },
+        "c": "https://github.com/TXH-mercury/VALOR",
+        "n": "VAST",
+        "d": "2023-05-29",
+        "m1": "45.0",
+        "m2": "99.5"
+      },
+      {
+        "p": {
+          "name": "COSA: Concatenated Sample Pretrained Vision-Language Foundation Model",
+          "link": "https://arxiv.org/abs/2306.09085v1"
+        },
+        "c": "https://github.com/txh-mercury/cosa",
+        "n": "COSA",
+        "d": "2023-06-15",
+        "m1": "43.7",
+        "m2": "96.5"
+      },
+      {
+        "p": {
+          "name": "VideoCoCa: Video-Text Modeling with Zero-Shot Transfer from Contrastive Captioners",
+          "link": "https://arxiv.org/abs/2212.04979v3"
+        },
+        "c": "",
+        "n": "VideoCoCa",
+        "d": "2022-12-09",
+        "m1": "39.7",
+        "m2": "77.8",
+        "m4": "54.5"
+      },
+      {
+        "p": {
+          "name": "IcoCap: Improving Video Captioning by Compounding Images",
+          "link": "https://ieeexplore.ieee.org/abstract/document/10272675"
+        },
+        "c": "",
+        "n": "IcoCap (ViT-B/16)",
+        "d": "2023-10-05",
+        "m1": "37.4",
+        "m2": "67.8",
+        "m3": "25.7",
+        "m4": "53.1"
+      },
+      {
+        "p": {
+          "name": "IcoCap: Improving Video Captioning by Compounding Images",
+          "link": "https://ieeexplore.ieee.org/abstract/document/10272675"
+        },
+        "c": "",
+        "n": "IcoCap (ViT-B/32)",
+        "d": "2023-10-05",
+        "m1": "36.9",
+        "m2": "63.4",
+        "m3": "24.6",
+        "m4": "52.5"
+      },
+      {
+        "p": {
+          "name": "Diverse Video Captioning by Adaptive Spatio-temporal Attention",
+          "link": "https://arxiv.org/abs/2208.09266v1"
+        },
+        "c": "https://github.com/zohrehghaderi/vasta",
+        "n": "VASTA (Kinetics-backbone)",
+        "d": "2022-08-19",
+        "m1": "36.25",
+        "m2": "65.07",
+        "m3": "25.32",
+        "m4": "51.88"
+      },
+      {
+        "p": {
+          "name": "Accurate and Fast Compressed Video Captioning",
+          "link": "https://arxiv.org/abs/2309.12867v2"
+        },
+        "c": "https://github.com/acherstyx/CoCap",
+        "n": "CoCap (ViT/L14)",
+        "d": "2023-09-22",
+        "m1": "35.8",
+        "m2": "64.8",
+        "m3": "25.3",
+        "m4": "52.0"
+      },
+      {
+        "p": {
+          "name": "Object Relational Graph with Teacher-Recommended Learning for Video Captioning",
+          "link": "https://arxiv.org/abs/2002.11566v1"
+        },
+        "c": "",
+        "n": "ORG-TRL",
+        "d": "2020-02-26",
+        "m1": "32.1",
+        "m2": "49.7",
+        "m3": "22.2",
+        "m4": "48.9"
+      },
+      {
+        "p": {
+          "name": "NITS-VC System for VATEX Video Captioning Challenge 2020",
+          "link": "https://arxiv.org/abs/2006.04058v2"
+        },
+        "c": "",
+        "n": "NITS-VC",
+        "d": "2020-06-07",
+        "m1": "20.0",
+        "m2": "24.0",
+        "m3": "18.0",
+        "m4": "42.0"
+      }
+    ]
+  }
+}

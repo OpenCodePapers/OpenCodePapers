@@ -1,0 +1,122 @@
+{
+  "title": "no-reference-image-quality-assessment-on-uhd-iqa",
+  "task-hierarchy": [
+    "Quality Assessment",
+    "Image Quality Assessment",
+    "No-Reference Image Quality Assessment"
+  ],
+  "dataset-info": {
+    "link": "https://database.mmsp-kn.de/uhd-iqa-benchmark-database.html",
+    "paper": "UHD-IQA Benchmark Database: Pushing the Boundaries of Blind Photo Quality Assessment"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "SRCC",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "PLCC",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "LAR-IQA: A Lightweight, Accurate, and Robust No-Reference Image Quality Assessment Model",
+          "link": "https://arxiv.org/abs/2408.17057v2"
+        },
+        "c": "https://github.com/nasimjamshidi/lar-iqa",
+        "n": "LAR-IQA (KAN head)",
+        "d": "2024-08-30",
+        "m1": "0.836",
+        "m2": "0.786"
+      },
+      {
+        "p": {
+          "name": "Quality-Aware Image-Text Alignment for Real-World Image Quality Assessment",
+          "link": "https://arxiv.org/abs/2403.11176v2"
+        },
+        "c": "https://github.com/miccunifi/qualiclip",
+        "n": "QualiCLIP",
+        "d": "2024-03-17",
+        "m1": "0.770",
+        "m2": "0.725"
+      },
+      {
+        "p": {
+          "name": "Exploring CLIP for Assessing the Look and Feel of Images",
+          "link": "https://arxiv.org/abs/2207.12396v2"
+        },
+        "c": "https://github.com/iceclear/clip-iqa",
+        "n": "CLIP-IQA+",
+        "d": "2022-07-25",
+        "m1": "0.747",
+        "m2": "0.709"
+      },
+      {
+        "p": {
+          "name": "ARNIQA: Learning Distortion Manifold for Image Quality Assessment",
+          "link": "https://arxiv.org/abs/2310.14918v2"
+        },
+        "c": "https://github.com/miccunifi/arniqa",
+        "n": "ARNIQA",
+        "d": "2023-10-20",
+        "m1": "0.739",
+        "m2": "0.694"
+      },
+      {
+        "p": {
+          "name": "Image Quality Assessment using Contrastive Learning",
+          "link": "https://arxiv.org/abs/2110.13266v1"
+        },
+        "c": "https://github.com/pavancm/contrique",
+        "n": "CONTRIQUE",
+        "d": "2021-10-25",
+        "m1": "0.732",
+        "m2": "0.678"
+      },
+      {
+        "p": {
+          "name": "KonX: Cross-Resolution Image Quality Assessment",
+          "link": "https://arxiv.org/abs/2212.05813v1"
+        },
+        "c": "",
+        "n": "Effnet-2C-MLSP",
+        "d": "2022-12-12",
+        "m1": "0.675",
+        "m2": "0.641"
+      },
+      {
+        "p": {
+          "name": "Blindly Assess Image Quality in the Wild Guided by a Self-Adaptive Hyper Network",
+          "link": "http://openaccess.thecvf.com/content_CVPR_2020/html/Su_Blindly_Assess_Image_Quality_in_the_Wild_Guided_by_a_CVPR_2020_paper.html"
+        },
+        "c": "https://github.com/SSL92/hyperIQA",
+        "n": "HyperIQA",
+        "d": "2020-06-01",
+        "m1": "0.553",
+        "m2": "0.103"
+      }
+    ]
+  }
+}

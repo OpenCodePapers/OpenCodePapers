@@ -1,0 +1,150 @@
+{
+  "title": "weakly-supervised-temporal-action-localization-on-thumos14",
+  "task-hierarchy": [
+    "Action Localization",
+    "Temporal Action Localization",
+    "Weakly-supervised Temporal Action Localization"
+  ],
+  "dataset-info": {
+    "link": "http://crcv.ucf.edu/THUMOS14/home.html",
+    "paper": "THUMOS challenge: Action recognition with a large number of classes"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mAP@AVG(0.1:0.9)",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "mAP IOU@0.1",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "mAP IOU@0.2",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "mAP IOU@0.3",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "mAP IOU@0.4",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "mAP IOU@0.5",
+        "sortable": "true"
+      },
+      {
+        "key": "m7",
+        "label": "mAP IOU@0.6",
+        "sortable": "true"
+      },
+      {
+        "key": "m8",
+        "label": "mAP IOU@0.7",
+        "sortable": "true"
+      },
+      {
+        "key": "m9",
+        "label": "mAP IOU@0.8",
+        "sortable": "true"
+      },
+      {
+        "key": "m10",
+        "label": "mAP IOU@0.9",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Cross-modal Consensus Network for Weakly Supervised Temporal Action Localization",
+          "link": "https://arxiv.org/abs/2107.12589v1"
+        },
+        "c": "https://github.com/harlanhong/MM2021-CO2-Net",
+        "n": "CO2-Net",
+        "d": "2021-07-27",
+        "m1": "35.7",
+        "m2": "70.1",
+        "m3": "63.6",
+        "m4": "54.5",
+        "m5": "45.7",
+        "m6": "38.3",
+        "m7": "26.4",
+        "m8": "13.4",
+        "m9": "6.9",
+        "m10": "2.0"
+      },
+      {
+        "p": {
+          "name": "Cross-modal Consensus Network forWeakly Supervised Temporal Action Localization",
+          "link": "https://arxiv.org/abs/2107.12589#:~:text=Cross%2Dmodal%20Consensus%20Network%20for%20Weakly%20Supervised%20Temporal%20Action%20Localization,-Fa%2DTing%20Hong&text=Weakly%20supervised%20temporal%20action%20localization%20(WS%2DTAL"
+        },
+        "c": "https://github.com/harlanhong/MM2021-CO2-Net",
+        "n": "CO2-Net",
+        "d": "2021-07-27",
+        "m1": "35.7",
+        "m6": "38.3"
+      },
+      {
+        "p": {
+          "name": "Adversarial Background-Aware Loss for Weakly-supervised Temporal Activity Localization",
+          "link": "https://arxiv.org/abs/2007.06643v1"
+        },
+        "c": "https://github.com/kylemin/A2CL-PT",
+        "n": "A2CL-PT",
+        "d": "2020-07-13",
+        "m1": "30.0",
+        "m2": "61.2",
+        "m3": "56.1",
+        "m4": "48.1",
+        "m5": "39.0",
+        "m6": "30.1",
+        "m7": "19.2",
+        "m8": "10.6",
+        "m9": "4.8",
+        "m10": "1.0"
+      },
+      {
+        "p": {
+          "name": "ASM-Loc: Action-aware Segment Modeling for Weakly-Supervised Temporal Action Localization",
+          "link": "https://arxiv.org/abs/2203.15187v1"
+        },
+        "c": "https://github.com/boheumd/asm-loc",
+        "n": "ASM-Loc",
+        "d": "2022-03-29",
+        "m2": "71.2",
+        "m3": "65.5",
+        "m4": "57.1",
+        "m5": "46.8",
+        "m6": "36.6",
+        "m7": "25.2",
+        "m8": "13.4"
+      }
+    ]
+  }
+}

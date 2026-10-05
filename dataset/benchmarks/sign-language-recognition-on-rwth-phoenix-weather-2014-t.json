@@ -1,0 +1,208 @@
+{
+  "title": "sign-language-recognition-on-rwth-phoenix-weather-2014-t",
+  "task-hierarchy": [
+    "Sign Language Recognition"
+  ],
+  "dataset-info": {
+    "link": "https://www-i6.informatik.rwth-aachen.de/~koller/RWTH-PHOENIX-2014-T/",
+    "paper": "Neural Sign Language Translation"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Word Error Rate (WER)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "DESign: Dynamic Context-Aware Convolution and Efficient Subnet Regularization for Continuous Sign Language Recognition",
+          "link": "https://arxiv.org/abs/2507.03339"
+        },
+        "c": "",
+        "n": "DESign",
+        "d": "2025-07-04",
+        "m1": "18.2"
+      },
+      {
+        "p": {
+          "name": "SlowFast Network for Continuous Sign Language Recognition",
+          "link": "https://arxiv.org/abs/2309.12304v1"
+        },
+        "c": "https://github.com/kaistmm/SlowFastSign",
+        "n": "SlowFastSign",
+        "d": "2023-09-21",
+        "m1": "18.7"
+      },
+      {
+        "p": {
+          "name": "Hierarchical Sub-action Tree for Continuous Sign Language Recognition",
+          "link": "https://arxiv.org/abs/2506.20947"
+        },
+        "c": "https://github.com/Federfallt/HST-CSLR.git",
+        "n": "HST",
+        "d": "2025-06-26",
+        "m1": "19.1"
+      },
+      {
+        "p": {
+          "name": "Two-Stream Network for Sign Language Recognition and Translation",
+          "link": "https://arxiv.org/abs/2211.01367v2"
+        },
+        "c": "https://github.com/FangyunWei/SLRT",
+        "n": "TwoStream-SLR",
+        "d": "2022-11-02",
+        "m1": "19.3"
+      },
+      {
+        "p": {
+          "name": "TCNet: Continuous Sign Language Recognition from Trajectories and Correlated Regions",
+          "link": "https://arxiv.org/abs/2403.11818v1"
+        },
+        "c": "https://github.com/hotfinda/tcnet",
+        "n": "TCNet",
+        "d": "2024-03-18",
+        "m1": "19.4"
+      },
+      {
+        "p": {
+          "name": "CLIP-SLA: Parameter-Efficient CLIP Adaptation for Continuous Sign Language Recognition",
+          "link": "https://arxiv.org/abs/2504.01666v1"
+        },
+        "c": "https://github.com/snalyami/CLIP-SLA",
+        "n": "SLA-LoRA",
+        "d": "2025-04-02",
+        "m1": "19.4"
+      },
+      {
+        "p": {
+          "name": "Swin-MSTP: Swin transformer with multi-scale temporal perception for continuous sign language recognition",
+          "link": "https://www.sciencedirect.com/science/article/abs/pii/S0925231224017867"
+        },
+        "c": "https://github.com/snalyami/Swin-MSTP",
+        "n": "Swin-MSTP",
+        "d": "2025-02-07",
+        "m1": "19.7"
+      },
+      {
+        "p": {
+          "name": "SignBERT+: Hand-model-aware Self-supervised Pre-training for Sign Language Understanding",
+          "link": "https://arxiv.org/abs/2305.04868v1"
+        },
+        "c": "",
+        "n": "SignBERT+",
+        "d": "2023-05-08",
+        "m1": "19.9"
+      },
+      {
+        "p": {
+          "name": "C2SLR: Consistency-Enhanced Continuous Sign Language Recognition",
+          "link": "http://openaccess.thecvf.com//content/CVPR2022/html/Zuo_C2SLR_Consistency-Enhanced_Continuous_Sign_Language_Recognition_CVPR_2022_paper.html"
+        },
+        "c": "https://github.com/2000zrl/lcsa_c2slr_srm",
+        "n": "C2SLR",
+        "d": "2022-01-01",
+        "m1": "20.4"
+      },
+      {
+        "p": {
+          "name": "Multi-Stream Keypoint Attention Network for Sign Language Recognition and Translation",
+          "link": "https://arxiv.org/abs/2405.05672v1"
+        },
+        "c": "https://github.com/sutwangyan/MSKA",
+        "n": "MSKA-SLR",
+        "d": "2024-05-09",
+        "m1": "20.5"
+      },
+      {
+        "p": {
+          "name": "Multimodal Locally Enhanced Transformer for Continuous Sign Language Recognition",
+          "link": "https://www.isca-archive.org/interspeech_2023/papadimitriou23_interspeech.html"
+        },
+        "c": "",
+        "n": "WRNN + LET",
+        "d": "2023-08-22",
+        "m1": "20.73"
+      },
+      {
+        "p": {
+          "name": "Spatial-Temporal Multi-Cue Network for Continuous Sign Language Recognition",
+          "link": "https://arxiv.org/abs/2002.03187v1"
+        },
+        "c": "",
+        "n": "STMC",
+        "d": "2020-02-08",
+        "m1": "21.0"
+      },
+      {
+        "p": {
+          "name": "Self-Mutual Distillation Learning for Continuous Sign Language Recognition",
+          "link": "http://openaccess.thecvf.com//content/ICCV2021/html/Hao_Self-Mutual_Distillation_Learning_for_Continuous_Sign_Language_Recognition_ICCV_2021_paper.html"
+        },
+        "c": "https://github.com/ycmin95/VAC_CSLR",
+        "n": "SMKD",
+        "d": "2021-01-01",
+        "m1": "22.4"
+      },
+      {
+        "p": {
+          "name": "A Simple Multi-Modality Transfer Learning Baseline for Sign Language Translation",
+          "link": "https://arxiv.org/abs/2203.04287v2"
+        },
+        "c": "https://github.com/FangyunWei/SLRT",
+        "n": "MMTLB",
+        "d": "2022-03-08",
+        "m1": "22.45"
+      },
+      {
+        "p": {
+          "name": "Improving Sign Language Translation with Monolingual Data by Sign Back-Translation",
+          "link": "https://arxiv.org/abs/2105.12397v1"
+        },
+        "c": "",
+        "n": "SignBT",
+        "d": "2021-05-26",
+        "m1": "23.9"
+      },
+      {
+        "p": {
+          "name": "Continuous Sign Language Recognition Through Cross-Modal Alignment of Video and Text Embeddings in a Joint-Latent Space",
+          "link": "https://ieeexplore.ieee.org/document/9090828"
+        },
+        "c": "",
+        "n": "CrossModal",
+        "d": "2020-05-11",
+        "m1": "24.3"
+      },
+      {
+        "p": {
+          "name": "Stochastic Fine-grained Labeling of Multi-state Sign Glosses for Continuous Sign Language Recognition",
+          "link": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/2527_ECCV_2020_paper.php"
+        },
+        "c": "https://github.com/zheniu/stochastic-cslr",
+        "n": "Stochastic CSLR",
+        "d": "",
+        "m1": "26.1"
+      }
+    ]
+  }
+}

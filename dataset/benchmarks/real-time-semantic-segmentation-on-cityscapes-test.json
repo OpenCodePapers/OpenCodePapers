@@ -1,0 +1,500 @@
+{
+  "title": "real-time-semantic-segmentation-on-cityscapes-test",
+  "task-hierarchy": [
+    "Semantic Segmentation",
+    "Real-Time Semantic Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://www.cityscapes-dataset.com/dataset-overview/",
+    "paper": "The Cityscapes Dataset for Semantic Urban Scene Understanding"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mIoU",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Frame (fps)",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Time (ms)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "PIDNet: A Real-time Semantic Segmentation Network Inspired by PID Controllers",
+          "link": "https://arxiv.org/abs/2206.02066v3"
+        },
+        "c": "https://github.com/XuJiacong/PIDNet",
+        "n": "PIDNet-L",
+        "d": "2022-06-04",
+        "m1": "80.6%",
+        "m2": "31.1(3090)",
+        "m3": "32.2"
+      },
+      {
+        "p": {
+          "name": "Semantic Flow for Fast and Accurate Scene Parsing",
+          "link": "https://arxiv.org/abs/2002.10120v3"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleSeg",
+        "n": "SFNet-R18",
+        "d": "2020-02-24",
+        "m1": "80.4%",
+        "m2": "25.7(1080Ti)",
+        "m3": "39.2"
+      },
+      {
+        "p": {
+          "name": "PIDNet: A Real-time Semantic Segmentation Network Inspired by PID Controllers",
+          "link": "https://arxiv.org/abs/2206.02066v3"
+        },
+        "c": "https://github.com/XuJiacong/PIDNet",
+        "n": "PIDNet-M",
+        "d": "2022-06-04",
+        "m1": "79.8%",
+        "m2": "42.2(3090)",
+        "m3": "23.7"
+      },
+      {
+        "p": {
+          "name": "PIDNet: A Real-time Semantic Segmentation Network Inspired by PID Controllers",
+          "link": "https://arxiv.org/abs/2206.02066v3"
+        },
+        "c": "https://github.com/XuJiacong/PIDNet",
+        "n": "PIDNet-S",
+        "d": "2022-06-04",
+        "m1": "78.6%",
+        "m2": "93.2(3090)",
+        "m3": "10.7"
+      },
+      {
+        "p": {
+          "name": "Rethinking Dilated Convolution for Real-time Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2111.09957v3"
+        },
+        "c": "https://github.com/Deci-AI/super-gradients",
+        "n": "RegSeg (no ImageNet pretraining)",
+        "d": "2021-11-18",
+        "m1": "78.3%",
+        "m2": "30",
+        "m3": "33"
+      },
+      {
+        "p": {
+          "name": "PP-LiteSeg: A Superior Real-Time Semantic Segmentation Model",
+          "link": "https://arxiv.org/abs/2204.02681v1"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleSeg",
+        "n": "PP-LiteSeg-B2",
+        "d": "2022-04-06",
+        "m1": "77.5%",
+        "m2": "102.6(1080Ti)"
+      },
+      {
+        "p": {
+          "name": "Deep Dual-resolution Networks for Real-time and Accurate Semantic Segmentation of Road Scenes",
+          "link": "https://arxiv.org/abs/2101.06085v2"
+        },
+        "c": "https://github.com/Deci-AI/super-gradients",
+        "n": "DDRNet-23-slim",
+        "d": "2021-01-15",
+        "m1": "77.4%",
+        "m2": "101.6(2080Ti)",
+        "m3": "9.8"
+      },
+      {
+        "p": {
+          "name": "Rethinking BiSeNet For Real-time Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2104.13188v1"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleSeg",
+        "n": "STDC2-75",
+        "d": "2021-04-27",
+        "m1": "76.8%",
+        "m2": "97.0(1080Ti)"
+      },
+      {
+        "p": {
+          "name": "SwinMTL: A Shared Architecture for Simultaneous Depth Estimation and Semantic Segmentation from Monocular Camera Images",
+          "link": "https://arxiv.org/abs/2403.10662v1"
+        },
+        "c": "https://github.com/pardistaghavi/swinmtl",
+        "n": "SwinMTL",
+        "d": "2024-03-15",
+        "m1": "76.41%"
+      },
+      {
+        "p": {
+          "name": "HarDNet: A Low Memory Traffic Network",
+          "link": "https://arxiv.org/abs/1909.00948v1"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleDetection",
+        "n": "U-HarDNet-70",
+        "d": "2019-09-03",
+        "m1": "75.9%",
+        "m2": "53\n(1080Ti)",
+        "m3": "18.8\n(1080Ti)"
+      },
+      {
+        "p": {
+          "name": "HyperSeg: Patch-wise Hypernetwork for Real-time Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2012.11582v2"
+        },
+        "c": "https://github.com/YuvalNirkin/hyperseg",
+        "n": "HyperSeg-M",
+        "d": "2020-12-21",
+        "m1": "75.8%",
+        "m2": "36.9",
+        "m3": "27.1"
+      },
+      {
+        "p": {
+          "name": "In Defense of Pre-trained ImageNet Architectures for Real-time Semantic Segmentation of Road-driving Images",
+          "link": "http://arxiv.org/abs/1903.08469v2"
+        },
+        "c": "https://github.com/XuJiacong/PIDNet",
+        "n": "SwiftNetRN-18",
+        "d": "2019-03-20",
+        "m1": "75.5%",
+        "m2": "39.9"
+      },
+      {
+        "p": {
+          "name": "BiSeNet V2: Bilateral Network with Guided Aggregation for Real-time Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2004.02147v1"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleSeg",
+        "n": "BiSeNet V2-Large",
+        "d": "2020-04-05",
+        "m1": "75.3%",
+        "m2": "47.3",
+        "m3": "21.1"
+      },
+      {
+        "p": {
+          "name": "Rethinking BiSeNet For Real-time Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2104.13188v1"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleSeg",
+        "n": "STDC1-75",
+        "d": "2021-04-27",
+        "m1": "75.3%",
+        "m2": "126.7"
+      },
+      {
+        "p": {
+          "name": "Temporally Distributed Networks for Fast Video Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2004.01800v2"
+        },
+        "c": "https://github.com/feinanshan/TDNet",
+        "n": "TD4-BISE18",
+        "d": "2020-04-03",
+        "m1": "74.9%",
+        "m2": "47.6 (Titan X)",
+        "m3": "21"
+      },
+      {
+        "p": {
+          "name": "PP-LiteSeg: A Superior Real-Time Semantic Segmentation Model",
+          "link": "https://arxiv.org/abs/2204.02681v1"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleSeg",
+        "n": "PP-LiteSeg-T2",
+        "d": "2022-04-06",
+        "m1": "74.9%",
+        "m2": "143.6(1080Ti)"
+      },
+      {
+        "p": {
+          "name": "ShelfNet for Fast Semantic Segmentation",
+          "link": "https://arxiv.org/abs/1811.11254v6"
+        },
+        "c": "https://github.com/Deci-AI/super-gradients",
+        "n": "ShelfNet18",
+        "d": "2018-11-27",
+        "m1": "74.8%",
+        "m2": "59.2",
+        "m3": "16.9"
+      },
+      {
+        "p": {
+          "name": "BiSeNet: Bilateral Segmentation Network for Real-time Semantic Segmentation",
+          "link": "http://arxiv.org/abs/1808.00897v1"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleSeg",
+        "n": "BiSeNet(ResNet-18)",
+        "d": "2018-08-02",
+        "m1": "74.7%",
+        "m2": "65.5",
+        "m3": "15.2"
+      },
+      {
+        "p": {
+          "name": "BiSeNet: Bilateral Segmentation Network for Real-time Semantic Segmentation",
+          "link": "http://arxiv.org/abs/1808.00897v1"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleSeg",
+        "n": "BiSeNet",
+        "d": "2018-08-02",
+        "m1": "74.7%",
+        "m2": "65.5"
+      },
+      {
+        "p": {
+          "name": "PP-LiteSeg: A Superior Real-Time Semantic Segmentation Model",
+          "link": "https://arxiv.org/abs/2204.02681v1"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleSeg",
+        "n": "PP-LiteSeg-B1",
+        "d": "2022-04-06",
+        "m1": "73.9%",
+        "m2": "195.3(1080Ti)"
+      },
+      {
+        "p": {
+          "name": "SegBlocks: Block-Based Dynamic Resolution Networks for Real-Time Segmentation",
+          "link": "https://arxiv.org/abs/2011.12025v2"
+        },
+        "c": "https://github.com/thomasverelst/segblocks-segmentation-pytorch",
+        "n": "SegBlocks-RN18 (t=0.4)",
+        "d": "2020-11-24",
+        "m1": "73.8%",
+        "m2": "48.6 (1080Ti)"
+      },
+      {
+        "p": {
+          "name": "Rethinking BiSeNet For Real-time Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2104.13188v1"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleSeg",
+        "n": "STDC2-50",
+        "d": "2021-04-27",
+        "m1": "73.4%",
+        "m2": "188.6"
+      },
+      {
+        "p": {
+          "name": "BiSeNet V2: Bilateral Network with Guided Aggregation for Real-time Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2004.02147v1"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleSeg",
+        "n": "BiSeNet V2",
+        "d": "2020-04-05",
+        "m1": "72.6%",
+        "m2": "156",
+        "m3": "6.4"
+      },
+      {
+        "p": {
+          "name": "PP-LiteSeg: A Superior Real-Time Semantic Segmentation Model",
+          "link": "https://arxiv.org/abs/2204.02681v1"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleSeg",
+        "n": "PP-LiteSeg-T1",
+        "d": "2022-04-06",
+        "m1": "72.0%",
+        "m2": "273.6(1080Ti)"
+      },
+      {
+        "p": {
+          "name": "Rethinking BiSeNet For Real-time Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2104.13188v1"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleSeg",
+        "n": "STDC1-50",
+        "d": "2021-04-27",
+        "m1": "71.9%",
+        "m2": "250.4(1080Ti)"
+      },
+      {
+        "p": {
+          "name": "Full-Resolution Residual Networks for Semantic Segmentation in Street Scenes",
+          "link": "http://arxiv.org/abs/1611.08323v2"
+        },
+        "c": "https://github.com/TobyPDE/FRRN",
+        "n": "FRRN",
+        "d": "2016-11-24",
+        "m1": "71.8%",
+        "m2": "2.1",
+        "m3": "469"
+      },
+      {
+        "p": "",
+        "c": "",
+        "n": "FasterSeg",
+        "d": "",
+        "m1": "71.5%",
+        "m2": "163.9",
+        "m3": "6.1"
+      },
+      {
+        "p": {
+          "name": "Incorporating Luminance, Depth and Color Information by a Fusion-based Network for Semantic Segmentation",
+          "link": "https://arxiv.org/abs/1809.09077v3"
+        },
+        "c": "https://github.com/shangweihung/LDFNet",
+        "n": "LDFNet",
+        "d": "2018-09-24",
+        "m1": "71.3%",
+        "m2": "18.4 (1080Ti)"
+      },
+      {
+        "p": {
+          "name": "ESNet: An Efficient Symmetric Network for Real-time Semantic Segmentation",
+          "link": "https://arxiv.org/abs/1906.09826v1"
+        },
+        "c": "https://github.com/osmr/imgclsmob",
+        "n": "ESNet",
+        "d": "2019-06-24",
+        "m1": "70.7%",
+        "m2": "63",
+        "m3": "16"
+      },
+      {
+        "p": {
+          "name": "ICNet for Real-Time Semantic Segmentation on High-Resolution Images",
+          "link": "http://arxiv.org/abs/1704.08545v2"
+        },
+        "c": "https://github.com/osmr/imgclsmob",
+        "n": "ICNet",
+        "d": "2017-04-27",
+        "m1": "70.6%",
+        "m2": "30.3",
+        "m3": "33"
+      },
+      {
+        "p": {
+          "name": "LEDNet: A Lightweight Encoder-Decoder Network for Real-Time Semantic Segmentation",
+          "link": "https://arxiv.org/abs/1905.02423v3"
+        },
+        "c": "https://github.com/osmr/imgclsmob",
+        "n": "LEDNet",
+        "d": "2019-05-07",
+        "m1": "70.6%",
+        "m2": "71",
+        "m3": "14"
+      },
+      {
+        "p": {
+          "name": "BiSeNet: Bilateral Segmentation Network for Real-time Semantic Segmentation",
+          "link": "http://arxiv.org/abs/1808.00897v1"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleSeg",
+        "n": "BiSeNet(Xception39)",
+        "d": "2018-08-02",
+        "m1": "68.4%",
+        "m2": "105.8",
+        "m3": "9.5"
+      },
+      {
+        "p": {
+          "name": "Template-Based Automatic Search of Compact Semantic Segmentation Architectures",
+          "link": "https://arxiv.org/abs/1904.02365v2"
+        },
+        "c": "https://github.com/drsleep/nas-segm-pytorch",
+        "n": "Template-Based-NAS-arch1",
+        "d": "2019-04-04",
+        "m1": "67.8%",
+        "m2": "10",
+        "m3": "97"
+      },
+      {
+        "p": {
+          "name": "Template-Based Automatic Search of Compact Semantic Segmentation Architectures",
+          "link": "https://arxiv.org/abs/1904.02365v2"
+        },
+        "c": "https://github.com/drsleep/nas-segm-pytorch",
+        "n": "Template-Based-NAS-arch0",
+        "d": "2019-04-04",
+        "m1": "67.7%",
+        "m2": "19",
+        "m3": "52"
+      },
+      {
+        "p": {
+          "name": "Efficient Dense Modules of Asymmetric Convolution for Real-Time Semantic Segmentation",
+          "link": "https://arxiv.org/abs/1809.06323v3"
+        },
+        "c": "https://github.com/osmr/imgclsmob",
+        "n": "EDANet",
+        "d": "2018-09-17",
+        "m1": "67.3",
+        "m2": "108.7 (1080Ti)",
+        "m3": "9.2"
+      },
+      {
+        "p": {
+          "name": "Semantic Image Segmentation with Deep Convolutional Nets and Fully Connected CRFs",
+          "link": "http://arxiv.org/abs/1412.7062v4"
+        },
+        "c": "https://github.com/tensorflow/models",
+        "n": "DeepLab",
+        "d": "2014-12-22",
+        "m1": "63.1%",
+        "m2": "0.25",
+        "m3": "4000"
+      },
+      {
+        "p": {
+          "name": "The Lovász-Softmax loss: A tractable surrogate for the optimization of the intersection-over-union measure in neural networks",
+          "link": "http://arxiv.org/abs/1705.08790v2"
+        },
+        "c": "https://github.com/CoinCheung/pytorch-loss",
+        "n": "ENet + Lovász-Softmax",
+        "d": "2017-05-24",
+        "m1": "63.1%",
+        "m2": "76.9",
+        "m3": "13"
+      },
+      {
+        "p": {
+          "name": "Conditional Random Fields as Recurrent Neural Networks",
+          "link": "http://arxiv.org/abs/1502.03240v3"
+        },
+        "c": "https://github.com/torrvision/crfasrnn",
+        "n": "CRF-RNN",
+        "d": "2015-02-11",
+        "m1": "62.5%",
+        "m2": "1.4",
+        "m3": "700"
+      },
+      {
+        "p": {
+          "name": "ENet: A Deep Neural Network Architecture for Real-Time Semantic Segmentation",
+          "link": "http://arxiv.org/abs/1606.02147v1"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleSeg",
+        "n": "ENet",
+        "d": "2016-06-07",
+        "m1": "58.3%",
+        "m2": "76.9",
+        "m3": "13"
+      }
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "title": "cancer-no-cancer-per-breast-classification-on-inbreast",
+  "task-hierarchy": [
+    "Medical Image Analysis",
+    "Medical Image Classification",
+    "Cancer-no cancer per breast classification"
+  ],
+  "dataset-info": {
+    "link": "",
+    "paper": "INbreast: toward a full-field digital mammographic database"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AUC",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Multi-View Hypercomplex Learning for Breast Cancer Screening",
+          "link": "https://arxiv.org/abs/2204.05798v3"
+        },
+        "c": "https://github.com/ispamm/phbreast",
+        "n": "PHYSEnet (n=2)",
+        "d": "2022-04-12",
+        "m1": "0.814"
+      },
+      {
+        "p": {
+          "name": "Multi-View Hypercomplex Learning for Breast Cancer Screening",
+          "link": "https://arxiv.org/abs/2204.05798v3"
+        },
+        "c": "https://github.com/ispamm/phbreast",
+        "n": "PHResNet18 (n=2)",
+        "d": "2022-04-12",
+        "m1": "0.793"
+      },
+      {
+        "p": {
+          "name": "Multi-View Hypercomplex Learning for Breast Cancer Screening",
+          "link": "https://arxiv.org/abs/2204.05798v3"
+        },
+        "c": "https://github.com/ispamm/phbreast",
+        "n": "PHYBOnet (n=4)",
+        "d": "2022-04-12",
+        "m1": "0.764"
+      }
+    ]
+  }
+}

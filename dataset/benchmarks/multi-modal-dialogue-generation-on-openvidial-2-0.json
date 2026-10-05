@@ -1,0 +1,115 @@
+{
+  "title": "multi-modal-dialogue-generation-on-openvidial-2-0",
+  "task-hierarchy": [
+    "Dialogue",
+    "Multi-modal Dialogue Generation"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/ShannonAI/OpenViDial",
+    "paper": "OpenViDial 2.0: A Larger-Scale, Open-Domain Dialogue Generation Dataset with Visual Contexts"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "BLEU",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Dis-1",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Dis-2",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Dis-3",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "Dis-4",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "OpenViDial 2.0: A Larger-Scale, Open-Domain Dialogue Generation Dataset with Visual Contexts",
+          "link": "https://arxiv.org/abs/2109.12761v2"
+        },
+        "c": "https://github.com/ShannonAI/OpenViDial",
+        "n": "FV (w/o MI)",
+        "d": "2021-09-27",
+        "m1": "1.99",
+        "m2": "0.0056",
+        "m3": "0.0431",
+        "m4": "0.125",
+        "m5": "0.2215"
+      },
+      {
+        "p": {
+          "name": "OpenViDial 2.0: A Larger-Scale, Open-Domain Dialogue Generation Dataset with Visual Contexts",
+          "link": "https://arxiv.org/abs/2109.12761v2"
+        },
+        "c": "https://github.com/ShannonAI/OpenViDial",
+        "n": "CV (w/o MI)",
+        "d": "2021-09-27",
+        "m1": "1.97",
+        "m2": "0.0041",
+        "m3": "0.0353",
+        "m4": "0.0999",
+        "m5": "0.1726"
+      },
+      {
+        "p": {
+          "name": "OpenViDial 2.0: A Larger-Scale, Open-Domain Dialogue Generation Dataset with Visual Contexts",
+          "link": "https://arxiv.org/abs/2109.12761v2"
+        },
+        "c": "https://github.com/ShannonAI/OpenViDial",
+        "n": "NV (w/ MI)",
+        "d": "2021-09-27",
+        "m1": "1.96",
+        "m2": "0.0039",
+        "m3": "0.0311",
+        "m4": "0.0953",
+        "m5": "0.163"
+      },
+      {
+        "p": {
+          "name": "OpenViDial 2.0: A Larger-Scale, Open-Domain Dialogue Generation Dataset with Visual Contexts",
+          "link": "https://arxiv.org/abs/2109.12761v2"
+        },
+        "c": "https://github.com/ShannonAI/OpenViDial",
+        "n": "NV (w/o MI)",
+        "d": "2021-09-27",
+        "m1": "1.95",
+        "m2": "0.0037",
+        "m3": "0.0302",
+        "m4": "0.0929",
+        "m5": "0.1711"
+      }
+    ]
+  }
+}

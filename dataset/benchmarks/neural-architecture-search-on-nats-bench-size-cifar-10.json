@@ -1,0 +1,120 @@
+{
+  "title": "neural-architecture-search-on-nats-bench-size-cifar-10",
+  "task-hierarchy": [
+    "Neural Architecture Search"
+  ],
+  "dataset-info": {
+    "link": "https://xuanyidong.com/assets/projects/NATS-Bench",
+    "paper": "NATS-Bench: Benchmarking NAS Algorithms for Architecture Topology and Size"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Kendall's Tau",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Spearman's Rho",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Pearson R",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Acc. (test)",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "Test Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "Validation Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "GreenMachine: Automatic Design of Zero-Cost Proxies for Energy-Efficient NAS",
+          "link": "https://arxiv.org/abs/2411.15290v1"
+        },
+        "c": "https://github.com/RodriguesGabriel/greenmachine",
+        "n": "GreenMachine-3",
+        "d": "2024-11-22",
+        "m1": "0.888",
+        "m2": "0.982"
+      },
+      {
+        "p": {
+          "name": "GreenMachine: Automatic Design of Zero-Cost Proxies for Energy-Efficient NAS",
+          "link": "https://arxiv.org/abs/2411.15290v1"
+        },
+        "c": "https://github.com/RodriguesGabriel/greenmachine",
+        "n": "GreenMachine-2",
+        "d": "2024-11-22",
+        "m1": "0.827",
+        "m2": "0.958"
+      },
+      {
+        "p": {
+          "name": "GreenMachine: Automatic Design of Zero-Cost Proxies for Energy-Efficient NAS",
+          "link": "https://arxiv.org/abs/2411.15290v1"
+        },
+        "c": "https://github.com/RodriguesGabriel/greenmachine",
+        "n": "GreenMachine-1",
+        "d": "2024-11-22",
+        "m1": "0.619",
+        "m2": "0.816"
+      },
+      {
+        "p": {
+          "name": "BossNAS: Exploring Hybrid CNN-transformers with Block-wisely Self-supervised Neural Architecture Search",
+          "link": "https://arxiv.org/abs/2103.12424v3"
+        },
+        "c": "https://github.com/changlin31/BossNAS",
+        "n": "BossNAS",
+        "d": "2021-03-23",
+        "m1": "0.53",
+        "m2": "0.73",
+        "m3": "0.72",
+        "m4": "93.29"
+      },
+      {
+        "p": {
+          "name": "LayerNAS: Neural Architecture Search in Polynomial Complexity",
+          "link": "https://arxiv.org/abs/2304.11517v1"
+        },
+        "c": "",
+        "n": "LayerNAS",
+        "d": "2023-04-23",
+        "m5": "93.2",
+        "m6": "0.844"
+      }
+    ]
+  }
+}

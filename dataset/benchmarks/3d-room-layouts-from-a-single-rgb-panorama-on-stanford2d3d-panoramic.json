@@ -1,0 +1,151 @@
+{
+  "title": "3d-room-layouts-from-a-single-rgb-panorama-on-stanford2d3d-panoramic",
+  "task-hierarchy": [
+    "3D Reconstruction",
+    "3D Room Layouts From A Single RGB Panorama"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/alexsax/2D-3D-Semantics",
+    "paper": "Joint 2D-3D-Semantic Data for Indoor Scene Understanding"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "3DIoU",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Corner Error",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Pixel Error",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "3D Room Layout Estimation from a Cubemap of Panorama Image via Deep Manhattan Hough Transform",
+          "link": "https://arxiv.org/abs/2207.09291v1"
+        },
+        "c": "https://github.com/starrah/dmh-net",
+        "n": "DMH-Net",
+        "d": "2022-07-19",
+        "m1": "84.93",
+        "m2": "0.67",
+        "m3": "1.93"
+      },
+      {
+        "p": {
+          "name": "SSLayout360: Semi-Supervised Indoor Layout Estimation from 360-Degree Panorama",
+          "link": "https://arxiv.org/abs/2103.13696v3"
+        },
+        "c": "https://github.com/flyreelai/sslayout360",
+        "n": "SSLayout360",
+        "d": "2021-03-25",
+        "m1": "84.66",
+        "m2": "0.60",
+        "m3": "1.97"
+      },
+      {
+        "p": {
+          "name": "LED2-Net: Monocular 360 Layout Estimation via Differentiable Depth Rendering",
+          "link": "https://arxiv.org/abs/2104.00568v2"
+        },
+        "c": "https://github.com/fuenwang/LED2-Net",
+        "n": "LED2-Net",
+        "d": "2021-04-01",
+        "m1": "83.77"
+      },
+      {
+        "p": {
+          "name": "AtlantaNet: Inferring the 3D Indoor Layout from a Single 360(∘) Image beyond the Manhattan World Assumption",
+          "link": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/604_ECCV_2020_paper.php"
+        },
+        "c": "https://github.com/crs4/AtlantaNet",
+        "n": "AtlantaNet",
+        "d": "",
+        "m1": "82.43",
+        "m2": "0.70",
+        "m3": "2.25"
+      },
+      {
+        "p": {
+          "name": "OmniLayout: Room Layout Reconstruction from Indoor Spherical Panoramas",
+          "link": "https://arxiv.org/abs/2104.09403v1"
+        },
+        "c": "",
+        "n": "OmniLayout",
+        "d": "2021-04-19",
+        "m1": "81.2",
+        "m2": "0.78",
+        "m3": "2.37"
+      },
+      {
+        "p": {
+          "name": "HoHoNet: 360 Indoor Holistic Understanding with Latent Horizontal Features",
+          "link": "https://arxiv.org/abs/2011.11498v3"
+        },
+        "c": "https://github.com/sunset1995/HoHoNet",
+        "n": "HoHoNet (ResNet-101)",
+        "d": "2020-11-23",
+        "m1": "79.88"
+      },
+      {
+        "p": {
+          "name": "HorizonNet: Learning Room Layout with 1D Representation and Pano Stretch Data Augmentation",
+          "link": "http://arxiv.org/abs/1901.03861v2"
+        },
+        "c": "https://github.com/sunset1995/HorizonNet",
+        "n": "HorizonNet",
+        "d": "2019-01-12",
+        "m1": "79.79",
+        "m2": "0.71",
+        "m3": "2.39"
+      },
+      {
+        "p": {
+          "name": "DuLa-Net: A Dual-Projection Network for Estimating Room Layouts from a Single RGB Panorama",
+          "link": "http://arxiv.org/abs/1811.11977v2"
+        },
+        "c": "https://github.com/SunDaDenny/DuLa-Net",
+        "n": "DuLa-Net",
+        "d": "2018-11-29",
+        "m1": "79.36"
+      },
+      {
+        "p": {
+          "name": "LayoutNet: Reconstructing the 3D Room Layout from a Single RGB Image",
+          "link": "http://arxiv.org/abs/1803.08999v1"
+        },
+        "c": "https://github.com/zouchuhang/LayoutNetv2",
+        "n": "LayoutNet",
+        "d": "2018-03-23",
+        "m1": "76.33",
+        "m2": "1.04",
+        "m3": "2.7"
+      }
+    ]
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "title": "semantic-parsing-on-wikisql",
+  "task-hierarchy": [
+    "Semantic Parsing"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/salesforce/WikiSQL",
+    "paper": "Seq2SQL: Generating Structured Queries from Natural Language using Reinforcement Learning"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Denotation accuracy (test)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Content Enhanced BERT-based Text-to-SQL Generation",
+          "link": "https://arxiv.org/abs/1910.07179v5"
+        },
+        "c": "https://github.com/guotong1988/NL2SQL-RULE",
+        "n": "NL2SQL-BERT",
+        "d": "2019-10-16",
+        "m1": "89"
+      },
+      {
+        "p": {
+          "name": "TAPEX: Table Pre-training via Learning a Neural SQL Executor",
+          "link": "https://arxiv.org/abs/2107.07653v3"
+        },
+        "c": "https://github.com/microsoft/Table-Pretraining",
+        "n": "TAPEX-Large (weak supervision)",
+        "d": "2021-07-16",
+        "m2": "89.5"
+      },
+      {
+        "p": {
+          "name": "CABINET: Content Relevance based Noise Reduction for Table Question Answering",
+          "link": "https://arxiv.org/abs/2402.01155v3"
+        },
+        "c": "https://github.com/sohanpatnaik106/cabinet_qa",
+        "n": "CABINET",
+        "d": "2024-02-02",
+        "m2": "89.5"
+      },
+      {
+        "p": {
+          "name": "ReasTAP: Injecting Table Reasoning Skills During Pre-training via Synthetic Reasoning Examples",
+          "link": "https://arxiv.org/abs/2210.12374v1"
+        },
+        "c": "https://github.com/yale-lily/reastap",
+        "n": "ReasTAP-Large (weak supervision)",
+        "d": "2022-10-22",
+        "m2": "89.2"
+      },
+      {
+        "p": {
+          "name": "TAPAS: Weakly Supervised Table Parsing via Pre-training",
+          "link": "https://arxiv.org/abs/2004.02349v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "TAPAS-Large (weak supervision)",
+        "d": "2020-04-05",
+        "m2": "83.6"
+      }
+    ]
+  }
+}

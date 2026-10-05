@@ -1,0 +1,170 @@
+{
+  "title": "conditional-text-to-image-synthesis-on-mimic-cxr",
+  "task-hierarchy": [
+    "Image Generation",
+    "Text-to-Image Generation",
+    "Conditional Text-to-Image Synthesis"
+  ],
+  "dataset-info": {
+    "link": "https://physionet.org/content/mimic-cxr/2.0.0/",
+    "paper": "MIMIC-CXR, a de-identified publicly available database of chest radiographs with free-text reports"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "FID (RadDino)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "CheXGenBench: A Unified Benchmark For Fidelity, Privacy and Utility of Synthetic Chest Radiographs",
+          "link": "https://arxiv.org/abs/2505.10496v1"
+        },
+        "c": "https://github.com/Raman1121/CheXGenBench",
+        "n": "Sana",
+        "d": "2025-05-15",
+        "m1": "54.22"
+      },
+      {
+        "p": {
+          "name": "CheXGenBench: A Unified Benchmark For Fidelity, Privacy and Utility of Synthetic Chest Radiographs",
+          "link": "https://arxiv.org/abs/2505.10496v1"
+        },
+        "c": "https://github.com/Raman1121/CheXGenBench",
+        "n": "Pixart Sigma",
+        "d": "2025-05-15",
+        "m1": "60.15"
+      },
+      {
+        "p": {
+          "name": "CheXGenBench: A Unified Benchmark For Fidelity, Privacy and Utility of Synthetic Chest Radiographs",
+          "link": "https://arxiv.org/abs/2505.10496v1"
+        },
+        "c": "https://github.com/Raman1121/CheXGenBench",
+        "n": "RadEdit",
+        "d": "2025-05-15",
+        "m1": "69.69"
+      },
+      {
+        "p": {
+          "name": "CheXGenBench: A Unified Benchmark For Fidelity, Privacy and Utility of Synthetic Chest Radiographs",
+          "link": "https://arxiv.org/abs/2505.10496v1"
+        },
+        "c": "https://github.com/Raman1121/CheXGenBench",
+        "n": "LLM-CXR",
+        "d": "2025-05-15",
+        "m1": "71.24"
+      },
+      {
+        "p": {
+          "name": "CheXGenBench: A Unified Benchmark For Fidelity, Privacy and Utility of Synthetic Chest Radiographs",
+          "link": "https://arxiv.org/abs/2505.10496v1"
+        },
+        "c": "https://github.com/Raman1121/CheXGenBench",
+        "n": "SD V3.5 Medium (LoRA r128)",
+        "d": "2025-05-15",
+        "m1": "74.58"
+      },
+      {
+        "p": {
+          "name": "CheXGenBench: A Unified Benchmark For Fidelity, Privacy and Utility of Synthetic Chest Radiographs",
+          "link": "https://arxiv.org/abs/2505.10496v1"
+        },
+        "c": "https://github.com/Raman1121/CheXGenBench",
+        "n": "Lumina 2.0 (LoRA r128)",
+        "d": "2025-05-15",
+        "m1": "88.28"
+      },
+      {
+        "p": {
+          "name": "CheXGenBench: A Unified Benchmark For Fidelity, Privacy and Utility of Synthetic Chest Radiographs",
+          "link": "https://arxiv.org/abs/2505.10496v1"
+        },
+        "c": "https://github.com/Raman1121/CheXGenBench",
+        "n": "SD V3.5 Medium (LoRA r32)",
+        "d": "2025-05-15",
+        "m1": "93.10"
+      },
+      {
+        "p": {
+          "name": "CheXGenBench: A Unified Benchmark For Fidelity, Privacy and Utility of Synthetic Chest Radiographs",
+          "link": "https://arxiv.org/abs/2505.10496v1"
+        },
+        "c": "https://github.com/Raman1121/CheXGenBench",
+        "n": "Lumina 2.0 (LoRA r32)",
+        "d": "2025-05-15",
+        "m1": "101.19"
+      },
+      {
+        "p": {
+          "name": "CheXGenBench: A Unified Benchmark For Fidelity, Privacy and Utility of Synthetic Chest Radiographs",
+          "link": "https://arxiv.org/abs/2505.10496v1"
+        },
+        "c": "https://github.com/Raman1121/CheXGenBench",
+        "n": "SD V1-5",
+        "d": "2025-05-15",
+        "m1": "118.93"
+      },
+      {
+        "p": {
+          "name": "CheXGenBench: A Unified Benchmark For Fidelity, Privacy and Utility of Synthetic Chest Radiographs",
+          "link": "https://arxiv.org/abs/2505.10496v1"
+        },
+        "c": "https://github.com/Raman1121/CheXGenBench",
+        "n": "Flux.1-Dev (LoRA r32)",
+        "d": "2025-05-15",
+        "m1": "122.40"
+      },
+      {
+        "p": {
+          "name": "CheXGenBench: A Unified Benchmark For Fidelity, Privacy and Utility of Synthetic Chest Radiographs",
+          "link": "https://arxiv.org/abs/2505.10496v1"
+        },
+        "c": "https://github.com/Raman1121/CheXGenBench",
+        "n": "SD V1-4",
+        "d": "2025-05-15",
+        "m1": "125.18"
+      },
+      {
+        "p": {
+          "name": "CheXGenBench: A Unified Benchmark For Fidelity, Privacy and Utility of Synthetic Chest Radiographs",
+          "link": "https://arxiv.org/abs/2505.10496v1"
+        },
+        "c": "https://github.com/Raman1121/CheXGenBench",
+        "n": "SD V2-1",
+        "d": "2025-05-15",
+        "m1": "186.53"
+      },
+      {
+        "p": {
+          "name": "CheXGenBench: A Unified Benchmark For Fidelity, Privacy and Utility of Synthetic Chest Radiographs",
+          "link": "https://arxiv.org/abs/2505.10496v1"
+        },
+        "c": "https://github.com/Raman1121/CheXGenBench",
+        "n": "SD V2",
+        "d": "2025-05-15",
+        "m1": "194.72"
+      }
+    ]
+  }
+}

@@ -1,0 +1,440 @@
+{
+  "title": "referring-expression-segmentation-on-refer-youtube-vos-2021-public-validation",
+  "task-hierarchy": [
+    "Referring Expression Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://youtube-vos.org/dataset/rvos/",
+    "paper": "URVOS: Unified Referring Video Object Segmentation Network with a Large-Scale Benchmark"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "J&F",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "J",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "F",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "MPG-SAM 2: Adapting SAM 2 with Mask Priors and Global Context for Referring Video Object Segmentation",
+          "link": "https://arxiv.org/abs/2501.13667v1"
+        },
+        "c": "https://github.com/rongfu-dsb/MPG-SAM2",
+        "n": "MPG-SAM 2",
+        "d": "2025-01-23",
+        "m1": "73.9",
+        "m2": "71.7",
+        "m3": "76.1"
+      },
+      {
+        "p": {
+          "name": "The Devil is in Temporal Token: High Quality Video Reasoning Segmentation",
+          "link": "https://arxiv.org/abs/2501.08549v1"
+        },
+        "c": "https://github.com/sitonggong/vrs-hq",
+        "n": "VRS-HQ (Chat-UniVi-13B)",
+        "d": "2025-01-15",
+        "m1": "71",
+        "m2": "69",
+        "m3": "73.1"
+      },
+      {
+        "p": {
+          "name": "General Object Foundation Model for Images and Videos at Scale",
+          "link": "https://arxiv.org/abs/2312.09158v1"
+        },
+        "c": "https://github.com/FoundationVision/GLEE",
+        "n": "GLEE-Pro",
+        "d": "2023-12-14",
+        "m1": "70.6",
+        "m2": "68.2",
+        "m3": "72.9"
+      },
+      {
+        "p": {
+          "name": "Universal Instance Perception as Object Discovery and Retrieval",
+          "link": "https://arxiv.org/abs/2303.06674v2"
+        },
+        "c": "https://github.com/MasterBin-IIAU/UNINEXT",
+        "n": "UNINEXT-H",
+        "d": "2023-03-12",
+        "m1": "70.1",
+        "m2": "67.6",
+        "m3": "72.7"
+      },
+      {
+        "p": {
+          "name": "ReferDINO: Referring Video Object Segmentation with Visual Grounding Foundations",
+          "link": "https://arxiv.org/abs/2501.14607v1"
+        },
+        "c": "",
+        "n": "ReferDINO (Swin-B)",
+        "d": "2025-01-24",
+        "m1": "69.3",
+        "m2": "67.0",
+        "m3": "71.5 "
+      },
+      {
+        "p": {
+          "name": "Referred by Multi-Modality: A Unified Temporal Transformer for Video Object Segmentation",
+          "link": "https://arxiv.org/abs/2305.16318v2"
+        },
+        "c": "https://github.com/opengvlab/mutr",
+        "n": "MUTR",
+        "d": "2023-05-25",
+        "m1": "68.4",
+        "m2": "66.4",
+        "m3": "70.4"
+      },
+      {
+        "p": {
+          "name": "Harnessing Vision-Language Pretrained Models with Temporal-Aware Adaptation for Referring Video Object Segmentation",
+          "link": "https://arxiv.org/abs/2405.10610v2"
+        },
+        "c": "",
+        "n": "VLP (VLMo-L)",
+        "d": "2024-05-17",
+        "m1": "67.6 ",
+        "m2": "65.3 ",
+        "m3": "69.8 "
+      },
+      {
+        "p": {
+          "name": "Segment Every Reference Object in Spatial and Temporal Spaces",
+          "link": "http://openaccess.thecvf.com//content/ICCV2023/html/Wu_Segment_Every_Reference_Object_in_Spatial_and_Temporal_Spaces_ICCV_2023_paper.html"
+        },
+        "c": "",
+        "n": "UniRef-L (Swin-L)",
+        "d": "2023-01-01",
+        "m1": "67.4",
+        "m2": "65.5",
+        "m3": "69.2"
+      },
+      {
+        "p": {
+          "name": "SOC: Semantic-Assisted Object Cluster for Referring Video Object Segmentation",
+          "link": "https://arxiv.org/abs/2305.17011v1"
+        },
+        "c": "https://github.com/RobertLuo1/NeurIPS2023_SOC",
+        "n": "SOC (Joint training, Video-Swin-B)",
+        "d": "2023-05-26",
+        "m1": "67.3±0.5",
+        "m2": "65.3",
+        "m3": "69.3"
+      },
+      {
+        "p": {
+          "name": "Temporally Consistent Referring Video Object Segmentation with Hybrid Memory",
+          "link": "https://arxiv.org/abs/2403.19407v2"
+        },
+        "c": "https://github.com/bo-miao/HTR",
+        "n": "HTR (Pre-training)",
+        "d": "2024-03-28",
+        "m1": "67.1",
+        "m2": "65.3",
+        "m3": "68.9"
+      },
+      {
+        "p": {
+          "name": "Decoupling Static and Hierarchical Motion Perception for Referring Video Segmentation",
+          "link": "https://arxiv.org/abs/2404.03645v1"
+        },
+        "c": "https://github.com/heshuting555/dshmp",
+        "n": "DsHmp (Video-Swin-Base)",
+        "d": "2024-04-04",
+        "m1": "67.1",
+        "m2": "65",
+        "m3": "69.1"
+      },
+      {
+        "p": {
+          "name": "UniRef++: Segment Every Reference Object in Spatial and Temporal Spaces",
+          "link": "https://arxiv.org/abs/2312.15715v1"
+        },
+        "c": "https://github.com/foundationvision/uniref",
+        "n": "UniRef++-L",
+        "d": "2023-12-25",
+        "m1": "66.9",
+        "m2": "64.8",
+        "m3": "69.0"
+      },
+      {
+        "p": {
+          "name": "ViLLa: Video Reasoning Segmentation with Large Language Model",
+          "link": "https://arxiv.org/abs/2407.14500v2"
+        },
+        "c": "https://github.com/rkzheng99/villa",
+        "n": "ViLLa",
+        "d": "2024-07-18",
+        "m1": "66.5",
+        "m2": "64.6",
+        "m3": "68.6"
+      },
+      {
+        "p": {
+          "name": "Tracking Anything with Decoupled Video Segmentation",
+          "link": "https://arxiv.org/abs/2309.03903v1"
+        },
+        "c": "https://github.com/hkchengrex/Tracking-Anything-with-DEVA",
+        "n": "DEVA (ReferFormer)",
+        "d": "2023-09-07",
+        "m1": "66.0"
+      },
+      {
+        "p": {
+          "name": "Spectrum-guided Multi-granularity Referring Video Object Segmentation",
+          "link": "https://arxiv.org/abs/2307.13537v1"
+        },
+        "c": "https://github.com/bo-miao/sgmg",
+        "n": "SgMg (Pre-training)",
+        "d": "2023-07-25",
+        "m1": "65.7",
+        "m2": "63.9",
+        "m3": "67.4"
+      },
+      {
+        "p": {
+          "name": "GroPrompt: Efficient Grounded Prompting and Adaptation for Referring Video Object Segmentation",
+          "link": "https://arxiv.org/abs/2406.12834v2"
+        },
+        "c": "",
+        "n": "GroPrompt",
+        "d": "2024-06-18",
+        "m1": "65.5",
+        "m2": "64.1",
+        "m3": "66.9"
+      },
+      {
+        "p": {
+          "name": "Expression Prompt Collaboration Transformer for Universal Referring Video Object Segmentation",
+          "link": "https://arxiv.org/abs/2308.04162v2"
+        },
+        "c": "",
+        "n": "EPCFormer (ViT-H)",
+        "d": "2023-08-08",
+        "m1": "65",
+        "m2": "62.9",
+        "m3": "67.2"
+      },
+      {
+        "p": {
+          "name": "Universal Segmentation at Arbitrary Granularity with Language Instruction",
+          "link": "https://arxiv.org/abs/2312.01623v4"
+        },
+        "c": "https://github.com/yongliu20/UniLSeg",
+        "n": "UniLSeg-100",
+        "d": "2023-12-04",
+        "m1": "64.9",
+        "m2": "62.8",
+        "m3": "67.0"
+      },
+      {
+        "p": {
+          "name": "LoSh: Long-Short Text Joint Prediction Network for Referring Video Object Segmentation",
+          "link": "https://arxiv.org/abs/2306.08736v3"
+        },
+        "c": "https://github.com/linfengyuan1997/losh",
+        "n": "LoSh-R",
+        "d": "2023-06-14",
+        "m1": "64.2",
+        "m2": "62.5",
+        "m3": "66.0"
+      },
+      {
+        "p": {
+          "name": "VLT: Vision-Language Transformer and Query Generation for Referring Segmentation",
+          "link": "https://arxiv.org/abs/2210.15871v1"
+        },
+        "c": "https://github.com/henghuiding/Vision-Language-Transformer",
+        "n": "VLT",
+        "d": "2022-10-28",
+        "m1": "63.8",
+        "m2": "61.9",
+        "m3": "65.6"
+      },
+      {
+        "p": {
+          "name": "OnlineRefer: A Simple Online Baseline for Referring Video Object Segmentation",
+          "link": "https://arxiv.org/abs/2307.09356v1"
+        },
+        "c": "https://github.com/wudongming97/onlinerefer",
+        "n": "OnlineRefer (Swin-L, online)",
+        "d": "2023-07-18",
+        "m1": "63.5",
+        "m2": "61.6",
+        "m3": "65.5"
+      },
+      {
+        "p": {
+          "name": "Towards Robust Referring Video Object Segmentation with Cyclic Relational Consensus",
+          "link": "https://arxiv.org/abs/2207.01203v3"
+        },
+        "c": "https://github.com/lxa9867/R2VOS",
+        "n": "R2VOS (Video-Swin-T)",
+        "d": "2022-07-04",
+        "m1": "61.3",
+        "m2": "59.6",
+        "m3": "63.1"
+      },
+      {
+        "p": {
+          "name": "SOC: Semantic-Assisted Object Cluster for Referring Video Object Segmentation",
+          "link": "https://arxiv.org/abs/2305.17011v1"
+        },
+        "c": "https://github.com/RobertLuo1/NeurIPS2023_SOC",
+        "n": "SOC (Video-Swin-T)",
+        "d": "2023-05-26",
+        "m1": "59.2",
+        "m2": "57.8",
+        "m3": "60.5"
+      },
+      {
+        "p": {
+          "name": "UniVS: Unified and Universal Video Segmentation with Prompts as Queries",
+          "link": "https://arxiv.org/abs/2402.18115v2"
+        },
+        "c": "https://github.com/minghanli/univs",
+        "n": "UniVS(Swin-L)",
+        "d": "2024-02-28",
+        "m1": "58.0",
+        "m2": "56.8",
+        "m3": "59.5"
+      },
+      {
+        "p": {
+          "name": "Language as Queries for Referring Video Object Segmentation",
+          "link": "https://arxiv.org/abs/2201.00487v2"
+        },
+        "c": "https://github.com/wjn922/referformer",
+        "n": "ReferFormer (ResNet-101)",
+        "d": "2022-01-03",
+        "m1": "57.3",
+        "m2": "56.1",
+        "m3": "58.4"
+      },
+      {
+        "p": {
+          "name": "Multi-Attention Network for Compressed Video Referring Object Segmentation",
+          "link": "https://arxiv.org/abs/2207.12622v1"
+        },
+        "c": "https://github.com/dexianghong/manet",
+        "n": "MANET",
+        "d": "2022-07-26",
+        "m1": "55.63",
+        "m2": "54.75",
+        "m3": "56.51"
+      },
+      {
+        "p": {
+          "name": "Language as Queries for Referring Video Object Segmentation",
+          "link": "https://arxiv.org/abs/2201.00487v2"
+        },
+        "c": "https://github.com/wjn922/referformer",
+        "n": "ReferFormer (ResNet-50)",
+        "d": "2022-01-03",
+        "m1": "55.6",
+        "m2": "54.8",
+        "m3": "56.6"
+      },
+      {
+        "p": {
+          "name": "End-to-End Referring Video Object Segmentation with Multimodal Transformers",
+          "link": "https://arxiv.org/abs/2111.14821v2"
+        },
+        "c": "https://github.com/mttr2021/MTTR",
+        "n": "MTTR (w=12)",
+        "d": "2021-11-29",
+        "m1": "55.32",
+        "m2": "54.00",
+        "m3": "56.64"
+      },
+      {
+        "p": {
+          "name": "Local-Global Context Aware Transformer for Language-Guided Video Segmentation",
+          "link": "https://arxiv.org/abs/2203.09773v2"
+        },
+        "c": "https://github.com/leonnnop/locater",
+        "n": "Locater",
+        "d": "2022-03-18",
+        "m1": "50",
+        "m2": "48.8",
+        "m3": "51.1"
+      },
+      {
+        "p": {
+          "name": "Multi-Level Representation Learning With Semantic Alignment for Referring Video Object Segmentation",
+          "link": "http://openaccess.thecvf.com//content/CVPR2022/html/Wu_Multi-Level_Representation_Learning_With_Semantic_Alignment_for_Referring_Video_Object_CVPR_2022_paper.html"
+        },
+        "c": "",
+        "n": "MLRLSA",
+        "d": "2022-01-01",
+        "m1": "49.70",
+        "m2": "50.96",
+        "m3": "48.43"
+      },
+      {
+        "p": {
+          "name": "Deeply Interleaved Two-Stream Encoder for Referring Video Segmentation",
+          "link": "https://arxiv.org/abs/2203.15969v1"
+        },
+        "c": "",
+        "n": "VLIDE",
+        "d": "2022-03-30",
+        "m1": "49.56",
+        "m2": "48.44",
+        "m3": "50.67"
+      },
+      {
+        "p": {
+          "name": "URVOS: Unified Referring Video Object Segmentation Network with a Large-Scale Benchmark",
+          "link": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/2327_ECCV_2020_paper.php"
+        },
+        "c": "https://github.com/skynbe/Refer-Youtube-VOS",
+        "n": "URVOS",
+        "d": "",
+        "m1": "48.9",
+        "m2": "47.0",
+        "m3": "50.8"
+      },
+      {
+        "p": {
+          "name": "InternVideo2.5: Empowering Video MLLMs with Long and Rich Context Modeling",
+          "link": "https://arxiv.org/abs/2501.12386v2"
+        },
+        "c": "https://github.com/opengvlab/internvideo",
+        "n": "InternVideo2.5",
+        "d": "2025-01-21",
+        "m1": "34.2"
+      }
+    ]
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "title": "multi-label-text-classification-on-reuters-21578",
+  "task-hierarchy": [
+    "Text Classification",
+    "Multi-Label Text Classification"
+  ],
+  "dataset-info": {
+    "link": "http://kdd.ics.uci.edu/databases/reuters21578/reuters21578.html",
+    "paper": "Reuters-21578"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Micro-F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Task-Informed Anti-Curriculum by Masking Improves Downstream Performance on Text",
+          "link": "https://arxiv.org/abs/2502.12953v1"
+        },
+        "c": "https://github.com/jarcaandrei/tiacbm",
+        "n": "TIACBM",
+        "d": "2025-02-18",
+        "m1": "91.2±0.20"
+      },
+      {
+        "p": {
+          "name": "Balancing Methods for Multi-label Text Classification with Long-Tailed Class Distribution",
+          "link": "https://arxiv.org/abs/2109.04712v2"
+        },
+        "c": "https://github.com/Roche/BalancedLossNLP",
+        "n": "CB-NTR",
+        "d": "2021-09-10",
+        "m1": "90.74"
+      },
+      {
+        "p": {
+          "name": "Balancing Methods for Multi-label Text Classification with Long-Tailed Class Distribution",
+          "link": "https://arxiv.org/abs/2109.04712v2"
+        },
+        "c": "https://github.com/Roche/BalancedLossNLP",
+        "n": "NTR-FL",
+        "d": "2021-09-10",
+        "m1": "90.70"
+      },
+      {
+        "p": {
+          "name": "Balancing Methods for Multi-label Text Classification with Long-Tailed Class Distribution",
+          "link": "https://arxiv.org/abs/2109.04712v2"
+        },
+        "c": "https://github.com/Roche/BalancedLossNLP",
+        "n": "DB",
+        "d": "2021-09-10",
+        "m1": "90.62"
+      },
+      {
+        "p": {
+          "name": "MAGNET: Multi-Label Text Classification using Attention-based Graph Neural Network",
+          "link": "https://www.scitepress.org/PublicationsDetail.aspx?ID=siCYSzSoEx0=&t=1"
+        },
+        "c": "https://github.com/adrinta/MAGNET",
+        "n": "MAGNET",
+        "d": "2020-02-24",
+        "m1": "89.9"
+      },
+      {
+        "p": {
+          "name": "Co-attention network with label embedding for text classification",
+          "link": "https://mqianliu.github.io/files/CNLE_Neurocomputing22.pdf"
+        },
+        "c": "https://github.com/lizhaoliu-Lec/CNLE",
+        "n": "CNLE",
+        "d": "2021-11-04",
+        "m1": "89.9"
+      },
+      {
+        "p": {
+          "name": "Vector of Locally-Aggregated Word Embeddings (VLAWE): A Novel Document-level Representation",
+          "link": "https://arxiv.org/abs/1902.08850v3"
+        },
+        "c": "https://github.com/raduionescu/vlawe-boswe",
+        "n": "VLAWE",
+        "d": "2019-02-23",
+        "m1": "89.3"
+      }
+    ]
+  }
+}

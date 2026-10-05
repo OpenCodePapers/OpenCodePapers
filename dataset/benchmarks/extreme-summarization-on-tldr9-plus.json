@@ -1,0 +1,97 @@
+{
+  "title": "extreme-summarization-on-tldr9-plus",
+  "task-hierarchy": [
+    "Text Summarization",
+    "Extreme Summarization"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/sajastu/reddit_collector",
+    "paper": "TLDR9+: A Large Scale Resource for Extreme Summarization of Social Media Posts"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "RG-1(%)",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "RG-2(%)",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "RG-L(%)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "TLDR9+: A Large Scale Resource for Extreme Summarization of Social Media Posts",
+          "link": "https://arxiv.org/abs/2110.01159v2"
+        },
+        "c": "https://github.com/sajastu/reddit_collector",
+        "n": "ORACLE-EXT",
+        "d": "2021-10-04",
+        "m1": "30.26",
+        "m2": "9.74",
+        "m3": "20.60"
+      },
+      {
+        "p": {
+          "name": "TLDR9+: A Large Scale Resource for Extreme Summarization of Social Media Posts",
+          "link": "https://arxiv.org/abs/2110.01159v2"
+        },
+        "c": "https://github.com/sajastu/reddit_collector",
+        "n": "BART",
+        "d": "2021-10-04",
+        "m1": "23.59",
+        "m2": "9.69",
+        "m3": "18.62"
+      },
+      {
+        "p": {
+          "name": "TLDR9+: A Large Scale Resource for Extreme Summarization of Social Media Posts",
+          "link": "https://arxiv.org/abs/2110.01159v2"
+        },
+        "c": "https://github.com/sajastu/reddit_collector",
+        "n": "BERTSUMABS",
+        "d": "2021-10-04",
+        "m1": "23.05",
+        "m2": "9.48",
+        "m3": "18.07"
+      },
+      {
+        "p": {
+          "name": "TLDR9+: A Large Scale Resource for Extreme Summarization of Social Media Posts",
+          "link": "https://arxiv.org/abs/2110.01159v2"
+        },
+        "c": "https://github.com/sajastu/reddit_collector",
+        "n": "BERTSUMEXT",
+        "d": "2021-10-04",
+        "m1": "20.94",
+        "m2": "4.98",
+        "m3": "14.48"
+      }
+    ]
+  }
+}

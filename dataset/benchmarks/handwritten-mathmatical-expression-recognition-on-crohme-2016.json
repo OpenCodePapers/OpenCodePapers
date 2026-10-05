@@ -1,0 +1,199 @@
+{
+  "title": "handwritten-mathmatical-expression-recognition-on-crohme-2016",
+  "task-hierarchy": [
+    "Optical Character Recognition (OCR)",
+    "Handwritten Mathematical Expression Recognition"
+  ],
+  "dataset-info": {
+    "link": "",
+    "paper": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "ExpRate",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Uni-MuMER: Unified Multi-Task Fine-Tuning of Vision-Language Model for Handwritten Mathematical Expression Recognition",
+          "link": "https://arxiv.org/abs/2505.23566v1"
+        },
+        "c": "https://github.com/bflameswift/uni-mumer",
+        "n": "Uni-MuMER",
+        "d": "2025-05-29",
+        "m1": "77.94"
+      },
+      {
+        "p": {
+          "name": "PosFormer: Recognizing Complex Handwritten Mathematical Expression with Position Forest Transformer",
+          "link": "https://arxiv.org/abs/2407.07764v1"
+        },
+        "c": "https://github.com/sjtu-deepvisionlab/posformer",
+        "n": "PosFormer",
+        "d": "2024-07-10",
+        "m1": "60.94"
+      },
+      {
+        "p": {
+          "name": "TAMER: Tree-Aware Transformer for Handwritten Mathematical Expression Recognition",
+          "link": "https://arxiv.org/abs/2408.08578v2"
+        },
+        "c": "https://github.com/qingzhenduyu/tamer",
+        "n": "TAMER",
+        "d": "2024-08-16",
+        "m1": "60.26"
+      },
+      {
+        "p": {
+          "name": "NAMER: Non-Autoregressive Modeling for Handwritten Mathematical Expression Recognition",
+          "link": "https://arxiv.org/abs/2407.11380v1"
+        },
+        "c": "",
+        "n": "NAMER",
+        "d": "2024-07-16",
+        "m1": "60.24"
+      },
+      {
+        "p": {
+          "name": "ICAL: Implicit Character-Aided Learning for Enhanced Handwritten Mathematical Expression Recognition",
+          "link": "https://arxiv.org/abs/2405.09032v4"
+        },
+        "c": "https://github.com/qingzhenduyu/ical",
+        "n": "ICAL",
+        "d": "2024-05-15",
+        "m1": "58.79"
+      },
+      {
+        "p": {
+          "name": "CoMER: Modeling Coverage for Transformer-based Handwritten Mathematical Expression Recognition",
+          "link": "https://arxiv.org/abs/2207.04410v2"
+        },
+        "c": "https://github.com/Green-Wood/CoMER",
+        "n": "CoMER",
+        "d": "2022-07-10",
+        "m1": "56.98"
+      },
+      {
+        "p": {
+          "name": "When Counting Meets HMER: Counting-Aware Network for Handwritten Mathematical Expression Recognition",
+          "link": "https://arxiv.org/abs/2207.11463v1"
+        },
+        "c": "https://github.com/lbh1024/can",
+        "n": "CAN-ABM",
+        "d": "2022-07-23",
+        "m1": "56.15"
+      },
+      {
+        "p": {
+          "name": "When Counting Meets HMER: Counting-Aware Network for Handwritten Mathematical Expression Recognition",
+          "link": "https://arxiv.org/abs/2207.11463v1"
+        },
+        "c": "https://github.com/lbh1024/can",
+        "n": "CAN-DWAP",
+        "d": "2022-07-23",
+        "m1": "56.06"
+      },
+      {
+        "p": {
+          "name": "TDv2: A Novel Tree-Structured Decoder for Offline Mathematical Expression Recognition",
+          "link": "https://ojs.aaai.org/index.php/AAAI/article/view/20172"
+        },
+        "c": "",
+        "n": "TDv2",
+        "d": "2022-06-28",
+        "m1": "55.18"
+      },
+      {
+        "p": {
+          "name": "Syntax-Aware Network for Handwritten Mathematical Expression Recognition",
+          "link": "https://arxiv.org/abs/2203.01601v4"
+        },
+        "c": "https://github.com/tal-tech/san",
+        "n": "SAN",
+        "d": "2022-03-03",
+        "m1": "53.6"
+      },
+      {
+        "p": {
+          "name": "Handwritten Mathematical Expression Recognition via Attention Aggregation based Bi-directional Mutual Learning",
+          "link": "https://arxiv.org/abs/2112.03603v3"
+        },
+        "c": "https://github.com/XH-B/ABM",
+        "n": "ABM",
+        "d": "2021-12-07",
+        "m1": "52.92"
+      },
+      {
+        "p": {
+          "name": "Handwritten Mathematical Expression Recognition with Bidirectionally Trained Transformer",
+          "link": "https://arxiv.org/abs/2105.02412v3"
+        },
+        "c": "https://github.com/Green-Wood/BTTR",
+        "n": "BTTR",
+        "d": "2021-05-06",
+        "m1": "52.31"
+      },
+      {
+        "p": {
+          "name": "Multi-Scale Dense Networks for Resource Efficient Image Classification",
+          "link": "http://arxiv.org/abs/1703.09844v5"
+        },
+        "c": "https://github.com/osmr/imgclsmob",
+        "n": "DenseWAP-MSA",
+        "d": "2017-03-29",
+        "m1": "50.1"
+      },
+      {
+        "p": {
+          "name": "A Tree-Structured Decoder for Image-to-Markup Generation",
+          "link": "https://proceedings.icml.cc/static/paper_files/icml/2020/3307-Paper.pdf"
+        },
+        "c": "https://github.com/JianshuZhang/TreeDecoder",
+        "n": "TD",
+        "d": "",
+        "m1": "48.5"
+      },
+      {
+        "p": {
+          "name": "Multi-Scale Dense Networks for Resource Efficient Image Classification",
+          "link": "http://arxiv.org/abs/1703.09844v5"
+        },
+        "c": "https://github.com/osmr/imgclsmob",
+        "n": "DenseWAP",
+        "d": "2017-03-29",
+        "m1": "47.5"
+      },
+      {
+        "p": {
+          "name": "Watch, attend and parse: An end-to-end neural network based approach to handwritten mathematical expression recognition",
+          "link": "https://www.sciencedirect.com/science/article/pii/S0031320317302376"
+        },
+        "c": "https://github.com/JianshuZhang/WAP",
+        "n": "WAP",
+        "d": "2017-07-01",
+        "m1": "44.55"
+      }
+    ]
+  }
+}

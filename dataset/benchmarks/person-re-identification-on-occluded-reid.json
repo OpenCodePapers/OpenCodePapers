@@ -1,0 +1,97 @@
+{
+  "title": "person-re-identification-on-occluded-reid",
+  "task-hierarchy": [
+    "Person Re-Identification"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/tinajia2012/ICME2018_Occluded-Person-Reidentification_datasets",
+    "paper": "Occluded Person Re-identification"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mAP",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Rank-1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "From Poses to Identity: Training-Free Person Re-Identification via Feature Centralization",
+          "link": "https://arxiv.org/abs/2503.00938v1"
+        },
+        "c": "https://github.com/yuanc3/Pose2ID",
+        "n": "KPR + Pose2ID (no RK)",
+        "d": "2025-03-02",
+        "m1": "89.34",
+        "m2": "91.00"
+      },
+      {
+        "p": {
+          "name": "From Poses to Identity: Training-Free Person Re-Identification via Feature Centralization",
+          "link": "https://arxiv.org/abs/2503.00938v1"
+        },
+        "c": "https://github.com/yuanc3/Pose2ID",
+        "n": "BPBreID + Pose2ID (no RK)",
+        "d": "2025-03-02",
+        "m1": "86.05",
+        "m2": "89.10"
+      },
+      {
+        "p": {
+          "name": "Keypoint Promptable Re-Identification",
+          "link": "https://arxiv.org/abs/2407.18112v1"
+        },
+        "c": "https://github.com/vlsomers/bpbreid",
+        "n": "KPR",
+        "d": "2024-07-25",
+        "m1": "79.1",
+        "m2": "85.42"
+      },
+      {
+        "p": {
+          "name": "Body Part-Based Representation Learning for Occluded Person Re-Identification",
+          "link": "https://arxiv.org/abs/2211.03679v1"
+        },
+        "c": "https://github.com/vlsomers/bpbreid",
+        "n": "BPBreID",
+        "d": "2022-11-07",
+        "m1": "75.2",
+        "m2": "82.9"
+      },
+      {
+        "p": {
+          "name": "Feature Erasing and Diffusion Network for Occluded Person Re-Identification",
+          "link": "https://arxiv.org/abs/2112.08740v2"
+        },
+        "c": "https://github.com/ZacharyWang-007/FED-Occluded-ReID",
+        "n": "FED",
+        "d": "2021-12-16",
+        "m2": "87.0"
+      }
+    ]
+  }
+}

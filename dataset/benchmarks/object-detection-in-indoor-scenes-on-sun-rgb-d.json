@@ -1,0 +1,109 @@
+{
+  "title": "object-detection-in-indoor-scenes-on-sun-rgb-d",
+  "task-hierarchy": [
+    "Object Detection",
+    "Object Detection In Indoor Scenes"
+  ],
+  "dataset-info": {
+    "link": "https://rgbd.cs.princeton.edu/",
+    "paper": "SUN RGB-D: A RGB-D Scene Understanding Benchmark Suite"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AP 0.5",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Unified Object Detector for Different Modalities based on Vision Transformers",
+          "link": "https://arxiv.org/abs/2207.01071v2"
+        },
+        "c": "https://github.com/liketheflower/uoddm",
+        "n": "YONOD + CPPM (RGB + Depth)",
+        "d": "2022-07-03",
+        "m1": "58.1"
+      },
+      {
+        "p": {
+          "name": "Frustum PointNets for 3D Object Detection from RGB-D Data",
+          "link": "http://arxiv.org/abs/1711.08488v2"
+        },
+        "c": "https://github.com/charlesq34/pointnet",
+        "n": "Frustum Pointnet (RGB)",
+        "d": "2017-11-22",
+        "m1": "56.8"
+      },
+      {
+        "p": {
+          "name": "simCrossTrans: A Simple Cross-Modality Transfer Learning for Object Detection with ConvNets or Vision Transformers",
+          "link": "https://arxiv.org/abs/2203.10456v1"
+        },
+        "c": "https://github.com/liketheflower/simcrosstrans",
+        "n": "simCrossTrans with Swin Transformer (Point Cloud only)",
+        "d": "2022-03-20",
+        "m1": "55.8"
+      },
+      {
+        "p": {
+          "name": "2D-Driven 3D Object Detection in RGB-D Images",
+          "link": "http://openaccess.thecvf.com/content_iccv_2017/html/Lahoud_2D-Driven_3D_Object_ICCV_2017_paper.html"
+        },
+        "c": "",
+        "n": "2D - Driven (RGB)",
+        "d": "2017-10-01",
+        "m1": "49.7"
+      },
+      {
+        "p": {
+          "name": "Frustum VoxNet for 3D object detection from RGB-D or Depth images",
+          "link": "https://arxiv.org/abs/1910.05483v3"
+        },
+        "c": "",
+        "n": "Frustum VoxNet (RGB)",
+        "d": "2019-10-12",
+        "m1": "47.9"
+      },
+      {
+        "p": {
+          "name": "Learning Rich Features from RGB-D Images for Object Detection and Segmentation",
+          "link": "http://arxiv.org/abs/1407.5736v1"
+        },
+        "c": "https://github.com/charlescxk/depth2hha-python",
+        "n": "RGB-D RCNN (RGB + Depth)",
+        "d": "2014-07-22",
+        "m1": "44.2"
+      },
+      {
+        "p": {
+          "name": "Frustum VoxNet for 3D object detection from RGB-D or Depth images",
+          "link": "https://arxiv.org/abs/1910.05483v3"
+        },
+        "c": "",
+        "n": "Frustum VoxNet (Depth only)",
+        "d": "2019-10-12",
+        "m1": "42.8"
+      }
+    ]
+  }
+}

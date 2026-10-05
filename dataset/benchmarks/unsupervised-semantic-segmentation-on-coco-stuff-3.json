@@ -1,0 +1,99 @@
+{
+  "title": "unsupervised-semantic-segmentation-on-coco-stuff-3",
+  "task-hierarchy": [
+    "Semantic Segmentation",
+    "Unsupervised Semantic Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/nightrome/cocostuff",
+    "paper": "COCO-Stuff: Thing and Stuff Classes in Context"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Pixel Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Rethinking Alignment and Uniformity in Unsupervised Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2211.14513v3"
+        },
+        "c": "",
+        "n": "SAN",
+        "d": "2022-11-26",
+        "m1": "80.3"
+      },
+      {
+        "p": {
+          "name": "Unsupervised Image Semantic Segmentation through Superpixels and Graph Neural Networks",
+          "link": "https://arxiv.org/abs/2210.11810v1"
+        },
+        "c": "",
+        "n": "SGSeg",
+        "d": "2022-10-21",
+        "m1": "74.6"
+      },
+      {
+        "p": {
+          "name": "InfoSeg: Unsupervised Semantic Image Segmentation with Mutual Information Maximization",
+          "link": "https://arxiv.org/abs/2110.03477v1"
+        },
+        "c": "",
+        "n": "InfoSeg",
+        "d": "2021-10-07",
+        "m1": "73.8"
+      },
+      {
+        "p": {
+          "name": "Unsupervised Image Segmentation by Mutual Information Maximization and Adversarial Regularization",
+          "link": "https://arxiv.org/abs/2107.00691v1"
+        },
+        "c": "",
+        "n": "InMARS",
+        "d": "2021-07-01",
+        "m1": "73.1"
+      },
+      {
+        "p": {
+          "name": "Autoregressive Unsupervised Image Segmentation",
+          "link": "https://arxiv.org/abs/2007.08247v1"
+        },
+        "c": "https://github.com/Max-Manning/autoregunsupseg",
+        "n": "AC",
+        "d": "2020-07-16",
+        "m1": "72.9"
+      },
+      {
+        "p": {
+          "name": "Invariant Information Clustering for Unsupervised Image Classification and Segmentation",
+          "link": "https://arxiv.org/abs/1807.06653v4"
+        },
+        "c": "https://github.com/xu-ji/IIC",
+        "n": "IIC",
+        "d": "2018-07-17",
+        "m1": "72.3"
+      }
+    ]
+  }
+}

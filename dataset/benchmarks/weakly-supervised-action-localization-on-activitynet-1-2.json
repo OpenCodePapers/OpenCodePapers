@@ -1,0 +1,248 @@
+{
+  "title": "weakly-supervised-action-localization-on-activitynet-1-2",
+  "task-hierarchy": [
+    "Action Localization",
+    "Temporal Action Localization",
+    "Weakly Supervised Action Localization"
+  ],
+  "dataset-info": {
+    "link": "http://activity-net.org/",
+    "paper": "ActivityNet: A Large-Scale Video Benchmark for Human Activity Understanding"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Mean mAP",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "mAP@0.5",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Multilevel semantic and adaptive actionness learning for weakly supervised temporal action localization",
+          "link": "https://www.sciencedirect.com/science/article/pii/S0893608024008347?dgcid=coauthor"
+        },
+        "c": "https://github.com/lizhilin-ustc/SAL",
+        "n": "SAL",
+        "d": "2024-11-24",
+        "m1": "30.8",
+        "m2": "48.5"
+      },
+      {
+        "p": {
+          "name": "Actionness Inconsistency-guided Contrastive Learning for Weakly-supervised Temporal Action Localization",
+          "link": "https://ojs.aaai.org/index.php/AAAI/article/view/25237"
+        },
+        "c": "https://github.com/lizhilin-ustc/AAAI2023-AICL",
+        "n": "AICL",
+        "d": "2023-06-26",
+        "m1": "29.9",
+        "m2": "49.6"
+      },
+      {
+        "p": {
+          "name": "Weakly supervised temporal action localization with actionness-guided false positive suppression",
+          "link": "https://www.sciencedirect.com/science/article/abs/pii/S0893608024002314"
+        },
+        "c": "https://github.com/lizhilin-ustc/AFPS",
+        "n": "AFPS",
+        "d": "2024-04-15",
+        "m1": "29.9",
+        "m2": "48.6"
+      },
+      {
+        "p": {
+          "name": "Revisiting Foreground and Background Separation in Weakly-supervised Temporal Action Localization: A Clustering-based Approach",
+          "link": "https://arxiv.org/abs/2312.14138v1"
+        },
+        "c": "https://github.com/qinying-liu/case",
+        "n": "CASE",
+        "d": "2023-12-21",
+        "m1": "27.9",
+        "m2": "43.8"
+      },
+      {
+        "p": {
+          "name": "Learning Action Completeness from Points for Weakly-supervised Temporal Action Localization",
+          "link": "https://arxiv.org/abs/2108.05029v1"
+        },
+        "c": "https://github.com/Pilhyeon/Learning-Action-Completeness-from-Points",
+        "n": "LACP",
+        "d": "2021-08-11",
+        "m1": "26.8",
+        "m2": "44"
+      },
+      {
+        "p": {
+          "name": "Proposal-Based Multiple Instance Learning for Weakly-Supervised Temporal Action Localization",
+          "link": "https://arxiv.org/abs/2305.17861v1"
+        },
+        "c": "https://github.com/RenHuan1999/CVPR2023_P-MIL",
+        "n": "P-MIL",
+        "d": "2023-05-29",
+        "m1": "26.5",
+        "m2": "44.2"
+      },
+      {
+        "p": {
+          "name": "CoLA: Weakly-Supervised Temporal Action Localization with Snippet Contrastive Learning",
+          "link": "https://arxiv.org/abs/2103.16392v2"
+        },
+        "c": "https://github.com/zhang-can/CoLA",
+        "n": "CoLA",
+        "d": "2021-03-30",
+        "m1": "26.1",
+        "m2": "42.7"
+      },
+      {
+        "p": {
+          "name": "D2-Net: Weakly-Supervised Action Localization via Discriminative Embeddings and Denoised Activations",
+          "link": "https://arxiv.org/abs/2012.06440v2"
+        },
+        "c": "https://github.com/naraysa/D2-Net",
+        "n": "D2-Net",
+        "d": "2020-12-11",
+        "m1": "26",
+        "m2": "42.3"
+      },
+      {
+        "p": {
+          "name": "Weakly-supervised Temporal Action Localization by Uncertainty Modeling",
+          "link": "https://arxiv.org/abs/2006.07006v3"
+        },
+        "c": "https://github.com/Pilhyeon/WTAL-Uncertainty-Modeling",
+        "n": "Lee et al.",
+        "d": "2020-06-12",
+        "m1": "25.9",
+        "m2": "41.2"
+      },
+      {
+        "p": {
+          "name": "Weakly Supervised Action Selection Learning in Video",
+          "link": "https://arxiv.org/abs/2105.02439v1"
+        },
+        "c": "https://github.com/layer6ai-labs/ASL",
+        "n": "ASL",
+        "d": "2021-05-06",
+        "m1": "25.8",
+        "m2": "40.2"
+      },
+      {
+        "p": {
+          "name": "Weakly-Supervised Action Localization by Generative Attention Modeling",
+          "link": "https://arxiv.org/abs/2003.12424v2"
+        },
+        "c": "https://github.com/bfshi/DGAM-Weakly-Supervised-Action-Localization",
+        "n": "DGAM",
+        "d": "2020-03-27",
+        "m1": "24.4",
+        "m2": "41.0"
+      },
+      {
+        "p": {
+          "name": "SF-Net: Single-Frame Supervision for Temporal Action Localization",
+          "link": "https://arxiv.org/abs/2003.06845v6"
+        },
+        "c": "https://github.com/Flowerfan/SF-Net",
+        "n": "SF-Net",
+        "d": "2020-03-15",
+        "m1": "22.8",
+        "m2": "37.8"
+      },
+      {
+        "p": {
+          "name": "3C-Net: Category Count and Center Loss for Weakly-Supervised Action Localization",
+          "link": "https://arxiv.org/abs/1908.08216v2"
+        },
+        "c": "https://github.com/naraysa/3c-net",
+        "n": "3C-Net",
+        "d": "2019-08-22",
+        "m1": "21.7",
+        "m2": "37.2"
+      },
+      {
+        "p": {
+          "name": "Background Suppression Network for Weakly-supervised Temporal Action Localization",
+          "link": "https://arxiv.org/abs/1911.09963v1"
+        },
+        "c": "https://github.com/Pilhyeon/BaSNet-pytorch",
+        "n": "BaS-Net",
+        "d": "2019-11-22",
+        "m2": "38.5"
+      },
+      {
+        "p": {
+          "name": "Weakly Supervised Temporal Action Localization Through Contrast Based Evaluation Networks",
+          "link": "http://openaccess.thecvf.com/content_ICCV_2019/html/Liu_Weakly_Supervised_Temporal_Action_Localization_Through_Contrast_Based_Evaluation_Networks_ICCV_2019_paper.html"
+        },
+        "c": "",
+        "n": "CleanNet",
+        "d": "2019-10-01",
+        "m2": "37.1"
+      },
+      {
+        "p": {
+          "name": "W-TALC: Weakly-supervised Temporal Activity Localization and Classification",
+          "link": "http://arxiv.org/abs/1807.10418v3"
+        },
+        "c": "https://github.com/sujoyp/wtalc-pytorch",
+        "n": "W-TALC",
+        "d": "2018-07-27",
+        "m2": "37.0"
+      },
+      {
+        "p": {
+          "name": "Completeness Modeling and Context Separation for Weakly Supervised Temporal Action Localization",
+          "link": "http://openaccess.thecvf.com/content_CVPR_2019/html/Liu_Completeness_Modeling_and_Context_Separation_for_Weakly_Supervised_Temporal_Action_CVPR_2019_paper.html"
+        },
+        "c": "https://github.com/Finspire13/CMCS-Temporal-Action-Localization",
+        "n": "CMCS",
+        "d": "2019-06-01",
+        "m2": "36.8"
+      },
+      {
+        "p": {
+          "name": "Temporal Structure Mining for Weakly Supervised Action Detection",
+          "link": "http://openaccess.thecvf.com/content_ICCV_2019/html/Yu_Temporal_Structure_Mining_for_Weakly_Supervised_Action_Detection_ICCV_2019_paper.html"
+        },
+        "c": "",
+        "n": "TSM",
+        "d": "2019-10-01",
+        "m2": "28.3"
+      },
+      {
+        "p": {
+          "name": "AutoLoc: Weakly-supervised Temporal Action Localization in Untrimmed Videos",
+          "link": "http://openaccess.thecvf.com/content_ECCV_2018/html/Zheng_Shou_AutoLoc_Weakly-supervised_Temporal_ECCV_2018_paper.html"
+        },
+        "c": "",
+        "n": "AutoLoc",
+        "d": "2018-09-01",
+        "m2": "27.3"
+      }
+    ]
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "title": "conditional-image-generation-on-imagenet-64x64",
+  "task-hierarchy": [
+    "Image Generation",
+    "Conditional Image Generation"
+  ],
+  "dataset-info": {
+    "link": "https://image-net.org/index.php",
+    "paper": "A Downsampled Variant of ImageNet as an Alternative to the CIFAR datasets"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "FID",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Inception score",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Instance-Conditioned GAN",
+          "link": "https://arxiv.org/abs/2109.05070v2"
+        },
+        "c": "https://github.com/facebookresearch/ic_gan",
+        "n": "IC-GAN + DA",
+        "d": "2021-09-10",
+        "m1": "6.7",
+        "m2": "45.9±0.3"
+      },
+      {
+        "p": {
+          "name": "Instance Selection for GANs",
+          "link": "https://arxiv.org/abs/2007.15255v2"
+        },
+        "c": "https://github.com/snap-research/3dgp",
+        "n": "SAGAN + instance selection",
+        "d": "2020-07-30",
+        "m1": "9.07",
+        "m2": "37.1"
+      },
+      {
+        "p": {
+          "name": "Feature Quantization Improves GAN Training",
+          "link": "https://arxiv.org/abs/2004.02088v2"
+        },
+        "c": "https://github.com/YangNaruto/FQ-GAN",
+        "n": "FQ-GAN",
+        "d": "2020-04-05",
+        "m1": "9.67",
+        "m2": "25.96"
+      },
+      {
+        "p": {
+          "name": "Instance-Conditioned GAN",
+          "link": "https://arxiv.org/abs/2109.05070v2"
+        },
+        "c": "https://github.com/facebookresearch/ic_gan",
+        "n": "BigGAN* [Brock et al.] +DA",
+        "d": "2021-09-10",
+        "m1": "10.2±0.1",
+        "m2": "30.1±0.1"
+      }
+    ]
+  }
+}

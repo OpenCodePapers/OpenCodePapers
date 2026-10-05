@@ -30,12 +30,12 @@
       },
       {
         "key": "m3",
-        "label": "mean E-measure",
+        "label": "IoU",
         "sortable": "true"
       },
       {
         "key": "m4",
-        "label": "weighted F-measure",
+        "label": "mean E-measure",
         "sortable": "true"
       },
       {
@@ -45,12 +45,7 @@
       },
       {
         "key": "m6",
-        "label": "Sensitivity",
-        "sortable": "true"
-      },
-      {
-        "key": "m7",
-        "label": "mean IoU",
+        "label": "weighted F-measure",
         "sortable": "true"
       },
       {
@@ -66,229 +61,47 @@
     "items": [
       {
         "p": {
-          "name": "Self-Prompting Polyp Segmentation in Colonoscopy using Hybrid Yolo-SAM 2 Model",
-          "link": "https://arxiv.org/abs/2409.09484v1"
-        },
-        "c": "https://github.com/sajjad-sh33/yolo_sam2",
-        "n": "YOLO-SAM 2",
-        "d": "2024-09-14",
-        "m1": "0.902",
-        "m2": "0.894",
-        "m3": "0.941",
-        "m5": "0.932",
-        "m6": "0.852"
-      },
-      {
-        "p": {
           "name": "LGRNet: Local-Global Reciprocal Network for Uterine Fibroid Segmentation in Ultrasound Videos",
           "link": "https://arxiv.org/abs/2407.05703v1"
         },
         "c": "https://github.com/bio-mlhui/lgrnet",
         "n": "LGRNet",
         "d": "2024-07-08",
-        "m1": "0.865",
-        "m7": "0.792"
+        "m1": "0.876",
+        "m3": "0.805"
       },
       {
         "p": {
-          "name": "SALI: Short-term Alignment and Long-term Interaction Network for Colonoscopy Video Polyp Segmentation",
-          "link": "https://arxiv.org/abs/2406.13532v1"
+          "name": "Rectifying Noisy Labels with Sequential Prior: Multi-Scale Temporal Feature Affinity Learning for Robust Video Segmentation",
+          "link": "https://arxiv.org/abs/2307.05898v1"
         },
-        "c": "https://github.com/Scatteredrain/SALI",
-        "n": "SALI",
-        "d": "2024-06-19",
-        "m1": "0.822",
-        "m2": "0.874",
-        "m3": "0.920",
-        "m4": "0.790",
-        "m5": "0.822",
-        "m6": "0.830"
+        "c": "https://github.com/beileicui/ms-tfal",
+        "n": "MS-TFAL",
+        "d": "2023-07-12",
+        "m1": "0.862",
+        "m3": "0.788"
       },
       {
         "p": {
-          "name": "AutoSAM: Adapting SAM to Medical Images by Overloading the Prompt Encoder",
-          "link": "https://arxiv.org/abs/2306.06370v1"
+          "name": "Shifting More Attention to Breast Lesion Segmentation in Ultrasound Videos",
+          "link": "https://arxiv.org/abs/2310.01861v1"
         },
-        "c": "",
-        "n": "AutoSAM",
-        "d": "2023-06-10",
-        "m1": "0.759",
-        "m2": "0.822",
-        "m3": "0.866",
-        "m4": "0.714",
-        "m5": "0.764",
-        "m6": "0.726"
+        "c": "https://github.com/jhl-det/fla-net",
+        "n": "FLA-Net",
+        "d": "2023-10-03",
+        "m1": "0.858",
+        "m3": "0.781"
       },
       {
         "p": {
-          "name": "Video Polyp Segmentation: A Deep Learning Perspective",
-          "link": "https://arxiv.org/abs/2203.14291v3"
+          "name": "WeakPolyp: You Only Look Bounding Box for Polyp Segmentation",
+          "link": "https://arxiv.org/abs/2307.10912v1"
         },
-        "c": "https://github.com/DengPingFan/PraNet",
-        "n": "PNS+",
-        "d": "2022-03-27",
-        "m1": "0.737",
-        "m2": "0.797",
-        "m3": "0.793",
-        "m4": "0.653",
-        "m5": "0.709",
-        "m6": "0.623"
-      },
-      {
-        "p": {
-          "name": "MATNet: Motion-Attentive Transition Network for Zero-Shot Video Object Segmentation",
-          "link": "https://www.researchgate.net/publication/343623463_MATNet_Motion-Attentive_Transition_Network_for_Zero-Shot_Video_Object_Segmentation"
-        },
-        "c": "https://github.com/tfzhou/MATNet",
-        "n": "MAT",
-        "d": "2020-08-20",
-        "m1": "0.712",
-        "m2": "0.785",
-        "m3": "0.755",
-        "m4": "0.578",
-        "m5": "0.645",
-        "m6": "0.579"
-      },
-      {
-        "p": "",
-        "c": "",
-        "n": "ACSNet",
-        "d": "",
-        "m1": "0.708",
-        "m2": "0.783",
-        "m3": "0.787",
-        "m4": "0.636",
-        "m5": "0.684",
-        "m6": "0.618"
-      },
-      {
-        "p": "",
-        "c": "",
-        "n": "2/3D",
-        "d": "",
-        "m1": "0.706",
-        "m2": "0.786",
-        "m3": "0.775",
-        "m4": "0.634",
-        "m5": "0.688",
-        "m6": "0.607"
-      },
-      {
-        "p": {
-          "name": "Full-Duplex Strategy for Video Object Segmentation",
-          "link": "https://arxiv.org/abs/2108.03151v3"
-        },
-        "c": "https://github.com/GewelsJI/FSNet",
-        "n": "FSNet",
-        "d": "2021-08-06",
-        "m1": "0.699",
-        "m2": "0.724",
-        "m3": "0.694",
-        "m4": "0.541",
-        "m5": "0.611",
-        "m6": "0.491"
-      },
-      {
-        "p": {
-          "name": "Progressively Normalized Self-Attention Network for Video Polyp Segmentation",
-          "link": "https://arxiv.org/abs/2105.08468v2"
-        },
-        "c": "https://github.com/gewelsji/vps",
-        "n": "PNSNet",
-        "d": "2021-05-18",
-        "m1": "0.675",
-        "m2": "0.767",
-        "m3": "0.755",
-        "m4": "0.609",
-        "m5": "0.656",
-        "m6": "0.579"
-      },
-      {
-        "p": {
-          "name": "See More, Know More: Unsupervised Video Object Segmentation with Co-Attention Siamese Networks",
-          "link": "https://arxiv.org/abs/2001.06810v1"
-        },
-        "c": "https://github.com/carrierlxk/COSNet",
-        "n": "COSNet",
-        "d": "2020-01-19",
-        "m1": "0.606",
-        "m2": "0.670",
-        "m3": "0.627",
-        "m4": "0.443",
-        "m5": "0.506",
-        "m6": "0.380"
-      },
-      {
-        "p": {
-          "name": "PraNet: Parallel Reverse Attention Network for Polyp Segmentation",
-          "link": "https://arxiv.org/abs/2006.11392v4"
-        },
-        "c": "https://github.com/DengPingFan/PraNet",
-        "n": "PraNet",
-        "d": "2020-06-13",
-        "m1": "0.598",
-        "m2": "0.717",
-        "m3": "0.735",
-        "m4": "0.544",
-        "m5": "0.607",
-        "m6": "0.512"
-      },
-      {
-        "p": {
-          "name": "Shallow Attention Network for Polyp Segmentation",
-          "link": "https://arxiv.org/abs/2108.00882v1"
-        },
-        "c": "https://github.com/weijun88/sanet",
-        "n": "SANet",
-        "d": "2021-08-02",
-        "m1": "0.598",
-        "m2": "0.706",
-        "m3": "0.743",
-        "m4": "0.526",
-        "m5": "0.580",
-        "m6": "0.505"
-      },
-      {
-        "p": "",
-        "c": "",
-        "n": "PCSA",
-        "d": "",
-        "m1": "0.584",
-        "m2": "0.682",
-        "m3": "0.660",
-        "m4": "0.443",
-        "m5": "0.510",
-        "m6": "0.415"
-      },
-      {
-        "p": {
-          "name": "Dynamic Context-Sensitive Filtering Network for Video Salient Object Detection",
-          "link": "http://openaccess.thecvf.com//content/ICCV2021/html/Zhang_Dynamic_Context-Sensitive_Filtering_Network_for_Video_Salient_Object_Detection_ICCV_2021_paper.html"
-        },
-        "c": "https://github.com/oiplab-dut/dcfnet",
-        "n": "DCF",
-        "d": "2021-01-01",
-        "m1": "0.317",
-        "m2": "0.514",
-        "m3": "0.522",
-        "m4": "0.263",
-        "m5": "0.303",
-        "m6": "0.364"
-      },
-      {
-        "p": {
-          "name": "The Emergence of Objectness: Learning Zero-Shot Segmentation from Videos",
-          "link": "https://arxiv.org/abs/2111.06394v1"
-        },
-        "c": "https://github.com/rt219/the-emergence-of-objectness",
-        "n": "AMD",
-        "d": "2021-11-11",
-        "m1": "0.252",
-        "m2": "0.472",
-        "m3": "0.527",
-        "m4": "0.128",
-        "m5": "0.141",
-        "m6": "0.213"
+        "c": "https://github.com/weijun88/weakpolyp",
+        "n": "WeakPolyP",
+        "d": "2023-07-20",
+        "m1": "0.854",
+        "m3": "0.777"
       },
       {
         "p": {
@@ -298,7 +111,11 @@
         "c": "https://github.com/qubvel/segmentation_models.pytorch",
         "n": "UNet++",
         "d": "2018-07-18",
-        "m6": "0.467"
+        "m1": "0.554",
+        "m2": "0.685",
+        "m4": "0.697",
+        "m5": "0.544",
+        "m6": "0.480"
       },
       {
         "p": {
@@ -308,7 +125,8 @@
         "c": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
         "n": "UNet",
         "d": "2015-05-18",
-        "m6": "0.429"
+        "m1": "0.542",
+        "m2": "0.670"
       }
     ]
   }

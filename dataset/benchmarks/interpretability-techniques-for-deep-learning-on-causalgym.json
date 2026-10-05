@@ -1,0 +1,109 @@
+{
+  "title": "interpretability-techniques-for-deep-learning-on-causalgym",
+  "task-hierarchy": [
+    "Interpretability",
+    "Interpretability Techniques for Deep Learning"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/aryamanarora/causalgym",
+    "paper": "CausalGym: Benchmarking causal interpretability methods on linguistic tasks"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Log odds-ratio (pythia-6.9b)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "CausalGym: Benchmarking causal interpretability methods on linguistic tasks",
+          "link": "https://arxiv.org/abs/2402.12560v1"
+        },
+        "c": "https://github.com/aryamanarora/causalgym",
+        "n": "DAS",
+        "d": "2024-02-19",
+        "m1": "9.95"
+      },
+      {
+        "p": {
+          "name": "CausalGym: Benchmarking causal interpretability methods on linguistic tasks",
+          "link": "https://arxiv.org/abs/2402.12560v1"
+        },
+        "c": "https://github.com/aryamanarora/causalgym",
+        "n": "Linear probe",
+        "d": "2024-02-19",
+        "m1": "3.42"
+      },
+      {
+        "p": {
+          "name": "CausalGym: Benchmarking causal interpretability methods on linguistic tasks",
+          "link": "https://arxiv.org/abs/2402.12560v1"
+        },
+        "c": "https://github.com/aryamanarora/causalgym",
+        "n": "Difference-in-means",
+        "d": "2024-02-19",
+        "m1": "2.91"
+      },
+      {
+        "p": {
+          "name": "CausalGym: Benchmarking causal interpretability methods on linguistic tasks",
+          "link": "https://arxiv.org/abs/2402.12560v1"
+        },
+        "c": "https://github.com/aryamanarora/causalgym",
+        "n": "k-means",
+        "d": "2024-02-19",
+        "m1": "1.87"
+      },
+      {
+        "p": {
+          "name": "CausalGym: Benchmarking causal interpretability methods on linguistic tasks",
+          "link": "https://arxiv.org/abs/2402.12560v1"
+        },
+        "c": "https://github.com/aryamanarora/causalgym",
+        "n": "PCA",
+        "d": "2024-02-19",
+        "m1": "1.81"
+      },
+      {
+        "p": {
+          "name": "CausalGym: Benchmarking causal interpretability methods on linguistic tasks",
+          "link": "https://arxiv.org/abs/2402.12560v1"
+        },
+        "c": "https://github.com/aryamanarora/causalgym",
+        "n": "LDA",
+        "d": "2024-02-19",
+        "m1": "0.27"
+      },
+      {
+        "p": {
+          "name": "CausalGym: Benchmarking causal interpretability methods on linguistic tasks",
+          "link": "https://arxiv.org/abs/2402.12560v1"
+        },
+        "c": "https://github.com/aryamanarora/causalgym",
+        "n": "Random",
+        "d": "2024-02-19",
+        "m1": "0.01"
+      }
+    ]
+  }
+}

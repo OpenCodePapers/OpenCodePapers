@@ -1,0 +1,132 @@
+{
+  "title": "visual-relationship-detection-on-vrd-relationship-detection",
+  "task-hierarchy": [
+    "Scene Understanding",
+    "Visual Relationship Detection"
+  ],
+  "dataset-info": {
+    "link": "https://cs.stanford.edu/people/ranjaykrishna/vrd/",
+    "paper": "Visual Relationship Detection with Language Priors"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "R@100",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "R@50",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Visual Relationship Detection with Internal and External Linguistic Knowledge Distillation",
+          "link": "http://arxiv.org/abs/1707.09423v2"
+        },
+        "c": "",
+        "n": "Yu et. al [[Yu et al.2017a]]",
+        "d": "2017-07-28",
+        "m1": "31.89",
+        "m2": "22.68"
+      },
+      {
+        "p": {
+          "name": "Visual relationship detection with deep structural ranking",
+          "link": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Visual+relationship+detection+with+deep+structural+ranking&btnG="
+        },
+        "c": "https://github.com/GriffinLiang/vrd-dsr",
+        "n": "vrd-dsr",
+        "d": "2018-04-27",
+        "m1": "23.29",
+        "m2": "19.03"
+      },
+      {
+        "p": {
+          "name": "BLOCK: Bilinear Superdiagonal Fusion for Visual Question Answering and Visual Relationship Detection",
+          "link": "http://arxiv.org/abs/1902.00038v2"
+        },
+        "c": "https://github.com/Cadene/block.bootstrap.pytorch",
+        "n": "BLOCK",
+        "d": "2019-01-31",
+        "m1": "20.96",
+        "m2": "19.06"
+      },
+      {
+        "p": {
+          "name": "Detecting Visual Relationships with Deep Relational Networks",
+          "link": "http://arxiv.org/abs/1704.03114v2"
+        },
+        "c": "https://github.com/doubledaibo/drnet",
+        "n": "Dai et. al [[Dai, Zhang, and Lin2017]]",
+        "d": "2017-04-11",
+        "m1": "20.88",
+        "m2": "17.73"
+      },
+      {
+        "p": {
+          "name": "Deep Variation-structured Reinforcement Learning for Visual Relationship and Attribute Detection",
+          "link": "http://arxiv.org/abs/1703.03054v1"
+        },
+        "c": "https://github.com/nexusapoorvacus/DeepVariationStructuredRL",
+        "n": "Liang et. al [[Liang, Lee, and Xing2017]]",
+        "d": "2017-03-08",
+        "m1": "20.79",
+        "m2": "18.19"
+      },
+      {
+        "p": {
+          "name": "Weakly-supervised learning of visual relations",
+          "link": "http://arxiv.org/abs/1707.09472v1"
+        },
+        "c": "",
+        "n": "Peyre et. al [[Peyre et al.2017]]",
+        "d": "2017-07-29",
+        "m1": "17.1",
+        "m2": "15.8"
+      },
+      {
+        "p": {
+          "name": "Visual Translation Embedding Network for Visual Relation Detection",
+          "link": "http://arxiv.org/abs/1702.08319v1"
+        },
+        "c": "https://github.com/yangxuntu/vrd",
+        "n": "Zhang et. al [[Hanwang Zhang2017]]",
+        "d": "2017-02-27",
+        "m1": "15.20",
+        "m2": "14.07"
+      },
+      {
+        "p": {
+          "name": "Visual Relationship Detection with Language Priors",
+          "link": "http://arxiv.org/abs/1608.00187v1"
+        },
+        "c": "",
+        "n": "Lu et. al [[Lu et al.2016]]",
+        "d": "2016-07-31",
+        "m1": "14.70",
+        "m2": "13.86"
+      }
+    ]
+  }
+}

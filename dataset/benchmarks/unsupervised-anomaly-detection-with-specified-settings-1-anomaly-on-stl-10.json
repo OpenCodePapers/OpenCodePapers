@@ -1,0 +1,99 @@
+{
+  "title": "unsupervised-anomaly-detection-with-specified-settings-1-anomaly-on-stl-10",
+  "task-hierarchy": [
+    "Anomaly Detection",
+    "Unsupervised Anomaly Detection"
+  ],
+  "dataset-info": {
+    "link": "https://cs.stanford.edu/~acoates/stl10/",
+    "paper": "An Analysis of Single-Layer Networks in Unsupervised Feature Learning"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AUC-ROC",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Locally varying distance transform for unsupervised visual anomaly detection",
+          "link": "https://link.springer.com/chapter/10.1007/978-3-031-20056-4_21"
+        },
+        "c": "https://github.com/wen-yan-lin/LVAD-Locally-Varying-Anomaly-Detection",
+        "n": "LVAD",
+        "d": "2022-10-23",
+        "m1": "0.993"
+      },
+      {
+        "p": {
+          "name": "Robust Subspace Recovery Layer for Unsupervised Anomaly Detection",
+          "link": "https://arxiv.org/abs/1904.00152v2"
+        },
+        "c": "https://github.com/dmzou/RSRAE",
+        "n": "RSRAE",
+        "d": "2019-03-30",
+        "m1": "0.992"
+      },
+      {
+        "p": {
+          "name": "Deep unsupervised anomaly detection",
+          "link": "https://openaccess.thecvf.com/content/WACV2021/papers/Li_Deep_Unsupervised_Anomaly_Detection_WACV_2021_paper.pdf"
+        },
+        "c": "",
+        "n": "Deep Unsup.",
+        "d": "2021-01-05",
+        "m1": "0.956"
+      },
+      {
+        "p": {
+          "name": "Isolation forest",
+          "link": "https://ieeexplore.ieee.org/abstract/document/4781136"
+        },
+        "c": "",
+        "n": "Isolation Forest",
+        "d": "2008-12-15",
+        "m1": "0.917"
+      },
+      {
+        "p": {
+          "name": "Shell Theory: A Statistical Model of Reality",
+          "link": "https://ieeexplore.ieee.org/document/9444188"
+        },
+        "c": "https://github.com/wen-yan-lin/shell-theory",
+        "n": "Shell-Renormalized",
+        "d": "2021-05-28",
+        "m1": "0.829"
+      },
+      {
+        "p": {
+          "name": "Deep Autoencoding Gaussian Mixture Model for Unsupervised Anomaly Detection",
+          "link": "https://openreview.net/forum?id=BJJLHbb0-"
+        },
+        "c": "https://github.com/danieltan07/dagmm",
+        "n": "DAGMM",
+        "d": "2018-01-01",
+        "m1": "0.477"
+      }
+    ]
+  }
+}

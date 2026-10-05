@@ -1,0 +1,83 @@
+{
+  "title": "image-classification-on-tiny-imagenet",
+  "task-hierarchy": [
+    "Image Classification"
+  ],
+  "dataset-info": {
+    "link": "https://www.kaggle.com/c/tiny-imagenet",
+    "paper": "Tiny imagenet visual recognition challenge"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Top 1 Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Top-1 Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "UPANets: Learning from the Universal Pixel Attention Networks",
+          "link": "https://arxiv.org/abs/2103.08640v2"
+        },
+        "c": "https://github.com/hanktseng131415go/UPANets",
+        "n": "UPANets",
+        "d": "2021-03-15",
+        "m1": "67.67"
+      },
+      {
+        "p": {
+          "name": "Puzzle Mix: Exploiting Saliency and Local Statistics for Optimal Mixup",
+          "link": "https://arxiv.org/abs/2009.06962v2"
+        },
+        "c": "https://github.com/snu-mllab/PuzzleMix",
+        "n": "PreActResNet18",
+        "d": "2020-09-15",
+        "m1": "63.48"
+      },
+      {
+        "p": {
+          "name": "DLME: Deep Local-flatness Manifold Embedding",
+          "link": "https://arxiv.org/abs/2207.03160v2"
+        },
+        "c": "https://github.com/Westlake-AI/openmixup",
+        "n": "DLME (ResNet-18, linear)",
+        "d": "2022-07-07",
+        "m1": "44.9"
+      },
+      {
+        "p": {
+          "name": "Multi-manifold Attention for Vision Transformers",
+          "link": "https://arxiv.org/abs/2207.08569v3"
+        },
+        "c": "",
+        "n": "MMA-CCT-7/3x2",
+        "d": "2022-07-18",
+        "m2": "64.41"
+      }
+    ]
+  }
+}

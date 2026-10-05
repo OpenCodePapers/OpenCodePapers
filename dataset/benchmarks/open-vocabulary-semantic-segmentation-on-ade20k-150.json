@@ -1,0 +1,266 @@
+{
+  "title": "open-vocabulary-semantic-segmentation-on-ade20k-150",
+  "task-hierarchy": [
+    "Semantic Segmentation",
+    "Open Vocabulary Semantic Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://groups.csail.mit.edu/vision/datasets/ADE20K/",
+    "paper": "Scene Parsing Through ADE20K Dataset"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mIoU",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "UMG-CLIP: A Unified Multi-Granularity Vision Generalist for Open-World Understanding",
+          "link": "https://arxiv.org/abs/2401.06397v3"
+        },
+        "c": "https://github.com/lygsbw/umg-clip",
+        "n": "UMG-CLIP-E/14",
+        "d": "2024-01-12",
+        "m1": "38.2"
+      },
+      {
+        "p": {
+          "name": "Mask-Adapter: The Devil is in the Masks for Open-Vocabulary Segmentation",
+          "link": "https://arxiv.org/abs/2412.04533v1"
+        },
+        "c": "https://github.com/hustvl/maskadapter",
+        "n": "Mask-Adapter",
+        "d": "2024-12-05",
+        "m1": "38.2"
+      },
+      {
+        "p": {
+          "name": "MaskCLIP++: A Mask-Based CLIP Fine-tuning Framework for Open-Vocabulary Image Segmentation",
+          "link": "https://arxiv.org/abs/2412.11464v2"
+        },
+        "c": "https://github.com/hvision-nku/maskclippp",
+        "n": "MaskCLIP++",
+        "d": "2024-12-16",
+        "m1": "38.2"
+      },
+      {
+        "p": {
+          "name": "CAT-Seg: Cost Aggregation for Open-Vocabulary Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2303.11797v2"
+        },
+        "c": "https://github.com/KU-CVLAB/CAT-Seg",
+        "n": "CAT-Seg",
+        "d": "2023-03-21",
+        "m1": "37.9"
+      },
+      {
+        "p": {
+          "name": "SILC: Improving Vision Language Pretraining with Self-Distillation",
+          "link": "https://arxiv.org/abs/2310.13355v2"
+        },
+        "c": "",
+        "n": "SILC",
+        "d": "2023-10-20",
+        "m1": "37.7"
+      },
+      {
+        "p": {
+          "name": "UMG-CLIP: A Unified Multi-Granularity Vision Generalist for Open-World Understanding",
+          "link": "https://arxiv.org/abs/2401.06397v3"
+        },
+        "c": "https://github.com/lygsbw/umg-clip",
+        "n": "UMG-CLIP-L/14",
+        "d": "2024-01-12",
+        "m1": "36.1"
+      },
+      {
+        "p": {
+          "name": "Collaborative Vision-Text Representation Optimizing for Open-Vocabulary Segmentation",
+          "link": "https://arxiv.org/abs/2408.00744v2"
+        },
+        "c": "https://github.com/jiaosiyu1999/MAFT-Plus",
+        "n": "MAFT+",
+        "d": "2024-08-01",
+        "m1": "36.1"
+      },
+      {
+        "p": {
+          "name": "OpenDAS: Open-Vocabulary Domain Adaptation for 2D and 3D Segmentation",
+          "link": "https://arxiv.org/abs/2405.20141v4"
+        },
+        "c": "",
+        "n": "OVSeg + OpenDAS",
+        "d": "2024-05-30",
+        "m1": "35.8"
+      },
+      {
+        "p": {
+          "name": "SED: A Simple Encoder-Decoder for Open-Vocabulary Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2311.15537v2"
+        },
+        "c": "https://github.com/xb534/sed",
+        "n": "SED",
+        "d": "2023-11-27",
+        "m1": "35.2"
+      },
+      {
+        "p": {
+          "name": "CLIPSelf: Vision Transformer Distills Itself for Open-Vocabulary Dense Prediction",
+          "link": "https://arxiv.org/abs/2310.01403v2"
+        },
+        "c": "https://github.com/wusize/clipself",
+        "n": "CLIPSelf",
+        "d": "2023-10-02",
+        "m1": "34.5"
+      },
+      {
+        "p": {
+          "name": "Convolutions Die Hard: Open-Vocabulary Segmentation with Single Frozen Convolutional CLIP",
+          "link": "https://arxiv.org/abs/2308.02487v2"
+        },
+        "c": "https://github.com/bytedance/fc-clip",
+        "n": "FC-CLIP",
+        "d": "2023-08-04",
+        "m1": "34.1"
+      },
+      {
+        "p": {
+          "name": "Open-Vocabulary Segmentation with Semantic-Assisted Calibration",
+          "link": "https://arxiv.org/abs/2312.04089v2"
+        },
+        "c": "https://github.com/yongliu20/SCAN",
+        "n": "SCAN",
+        "d": "2023-12-07",
+        "m1": "33.5"
+      },
+      {
+        "p": {
+          "name": "Open-Vocabulary Semantic Segmentation with Image Embedding Balancing",
+          "link": "https://arxiv.org/abs/2406.09829v1"
+        },
+        "c": "https://github.com/slonetime/ebseg",
+        "n": "EBSeg-L",
+        "d": "2024-06-14",
+        "m1": "32.8"
+      },
+      {
+        "p": {
+          "name": "Learning Mask-aware CLIP Representations for Zero-Shot Segmentation",
+          "link": "https://arxiv.org/abs/2310.00240v1"
+        },
+        "c": "https://github.com/jiaosiyu1999/maft",
+        "n": "MAFT-ViTL",
+        "d": "2023-09-30",
+        "m1": "32.0"
+      },
+      {
+        "p": {
+          "name": "Open Vocabulary Semantic Segmentation with Patch Aligned Contrastive Learning",
+          "link": "https://arxiv.org/abs/2212.04994v1"
+        },
+        "c": "https://github.com/paulcouairon/diffcut",
+        "n": "PACL",
+        "d": "2022-12-09",
+        "m1": "31.4"
+      },
+      {
+        "p": {
+          "name": "Open-Vocabulary Panoptic Segmentation with Text-to-Image Diffusion Models",
+          "link": "https://arxiv.org/abs/2303.04803v4"
+        },
+        "c": "https://github.com/nvlabs/odise",
+        "n": "ODISE",
+        "d": "2023-03-08",
+        "m1": "29.9"
+      },
+      {
+        "p": {
+          "name": "Open-Vocabulary Semantic Segmentation with Mask-adapted CLIP",
+          "link": "https://arxiv.org/abs/2210.04150v3"
+        },
+        "c": "https://github.com/facebookresearch/ov-seg",
+        "n": "OVSeg Swin-B",
+        "d": "2022-10-09",
+        "m1": "29.6"
+      },
+      {
+        "p": {
+          "name": "Open-Vocabulary Universal Image Segmentation with MaskCLIP",
+          "link": "https://arxiv.org/abs/2208.08984v2"
+        },
+        "c": "https://github.com/mlpc-ucsd/maskclip",
+        "n": "MaskCLIP",
+        "d": "2022-08-18",
+        "m1": "23.7"
+      },
+      {
+        "p": "",
+        "c": "",
+        "n": "POMP",
+        "d": "",
+        "m1": "20.7"
+      },
+      {
+        "p": {
+          "name": "A Simple Baseline for Open-Vocabulary Semantic Segmentation with Pre-trained Vision-language Model",
+          "link": "https://arxiv.org/abs/2112.14757v2"
+        },
+        "c": "https://github.com/mendelxu/zsseg.baseline",
+        "n": "SimSeg",
+        "d": "2021-12-29",
+        "m1": "20.5"
+      },
+      {
+        "p": {
+          "name": "TTD: Text-Tag Self-Distillation Enhancing Image-Text Alignment in CLIP to Alleviate Single Tag Bias",
+          "link": "https://arxiv.org/abs/2404.00384v2"
+        },
+        "c": "https://github.com/shjo-april/TTD",
+        "n": "TTD (TCL)",
+        "d": "2024-03-30",
+        "m1": "17.0"
+      },
+      {
+        "p": {
+          "name": "In Defense of Lazy Visual Grounding for Open-Vocabulary Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2408.04961v1"
+        },
+        "c": "https://github.com/dahyun-kang/lazygrounding",
+        "n": "LaVG",
+        "d": "2024-08-09",
+        "m1": "15.8"
+      },
+      {
+        "p": {
+          "name": "TTD: Text-Tag Self-Distillation Enhancing Image-Text Alignment in CLIP to Alleviate Single Tag Bias",
+          "link": "https://arxiv.org/abs/2404.00384v2"
+        },
+        "c": "https://github.com/shjo-april/TTD",
+        "n": "TTD (MaskCLIP)",
+        "d": "2024-03-30",
+        "m1": "12.7"
+      }
+    ]
+  }
+}

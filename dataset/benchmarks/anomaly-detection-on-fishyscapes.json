@@ -1,0 +1,131 @@
+{
+  "title": "anomaly-detection-on-fishyscapes",
+  "task-hierarchy": [
+    "Anomaly Detection"
+  ],
+  "dataset-info": {
+    "link": "https://fishyscapes.com/",
+    "paper": "The Fishyscapes Benchmark: Measuring Blind Spots in Semantic Segmentation"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AP",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "FPR95",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Residual Pattern Learning for Pixel-wise Out-of-Distribution Detection in Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2211.14512v3"
+        },
+        "c": "https://github.com/yyliu01/rpl",
+        "n": "RPL+CoroCL",
+        "d": "2022-11-26",
+        "m1": "95.96",
+        "m2": "0.52"
+      },
+      {
+        "p": {
+          "name": "Unmasking Anomalies in Road-Scene Segmentation",
+          "link": "https://arxiv.org/abs/2307.13316v1"
+        },
+        "c": "https://github.com/shyam671/mask2anomaly-unmasking-anomalies-in-road-scene-segmentation",
+        "n": "Mask2Anomaly",
+        "d": "2023-07-25",
+        "m1": "95.20",
+        "m2": "0.82"
+      },
+      {
+        "p": {
+          "name": "Pixel-wise Energy-biased Abstention Learning for Anomaly Segmentation on Complex Urban Driving Scenes",
+          "link": "https://arxiv.org/abs/2111.12264v6"
+        },
+        "c": "https://github.com/tianyu0207/pebal",
+        "n": "PEBAL",
+        "d": "2021-11-24",
+        "m1": "92.38",
+        "m2": "1.73"
+      },
+      {
+        "p": {
+          "name": "Pixel-wise Anomaly Detection in Complex Driving Scenes",
+          "link": "https://arxiv.org/abs/2103.05445v1"
+        },
+        "c": "https://github.com/giandbt/synboost",
+        "n": "Synboost",
+        "d": "2021-03-09",
+        "m1": "72.59",
+        "m2": "18.75"
+      },
+      {
+        "p": {
+          "name": "DenseHybrid: Hybrid Anomaly Detection for Dense Open-set Recognition",
+          "link": "https://arxiv.org/abs/2207.02606v1"
+        },
+        "c": "https://github.com/matejgrcic/DenseHybrid",
+        "n": "DenseHybrid",
+        "d": "2022-07-06",
+        "m1": "72.3",
+        "m2": "5.5"
+      },
+      {
+        "p": {
+          "name": "Concurrent Misclassification and Out-of-Distribution Detection for Semantic Segmentation via Energy-Based Normalizing Flow",
+          "link": "https://arxiv.org/abs/2305.09610v1"
+        },
+        "c": "https://github.com/gudovskiy/flowenedet",
+        "n": "FlowEneDet",
+        "d": "2023-05-16",
+        "m1": "67.8",
+        "m2": "21.58"
+      },
+      {
+        "p": {
+          "name": "Standardized Max Logits: A Simple yet Effective Approach for Identifying Unexpected Road Obstacles in Urban-Scene Segmentation",
+          "link": "https://arxiv.org/abs/2107.11264v4"
+        },
+        "c": "https://github.com/shjung13/standardized-max-logits",
+        "n": "SML",
+        "d": "2021-07-23",
+        "m1": "53.11",
+        "m2": "19.64"
+      },
+      {
+        "p": {
+          "name": "Evaluating Bayesian Deep Learning Methods for Semantic Segmentation",
+          "link": "http://arxiv.org/abs/1811.12709v2"
+        },
+        "c": "https://github.com/IntelLabs/AVUC",
+        "n": "Bayesian DeepLab",
+        "d": "2018-11-30",
+        "m1": "48.7",
+        "m2": "15.5"
+      }
+    ]
+  }
+}

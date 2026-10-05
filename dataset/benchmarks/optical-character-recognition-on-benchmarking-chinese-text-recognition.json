@@ -1,0 +1,108 @@
+{
+  "title": "optical-character-recognition-on-benchmarking-chinese-text-recognition",
+  "task-hierarchy": [
+    "Optical Character Recognition (OCR)"
+  ],
+  "dataset-info": {
+    "link": "",
+    "paper": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy (%)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "DTrOCR: Decoder-only Transformer for Optical Character Recognition",
+          "link": "https://arxiv.org/abs/2308.15996v1"
+        },
+        "c": "https://github.com/arvindrajan92/DTrOCR",
+        "n": "DTrOCR",
+        "d": "2023-08-30",
+        "m1": "89.6"
+      },
+      {
+        "p": {
+          "name": "DTrOCR: Decoder-only Transformer for Optical Character Recognition",
+          "link": "https://arxiv.org/abs/2308.15996v1"
+        },
+        "c": "https://github.com/arvindrajan92/DTrOCR",
+        "n": "DTrOCR 105M",
+        "d": "2023-08-30",
+        "m1": "89.6"
+      },
+      {
+        "p": {
+          "name": "MaskOCR: Text Recognition with Masked Encoder-Decoder Pretraining",
+          "link": "https://arxiv.org/abs/2206.00311v3"
+        },
+        "c": "",
+        "n": "MaskOCR-L",
+        "d": "2022-06-01",
+        "m1": "82.6"
+      },
+      {
+        "p": {
+          "name": "Scene Text Telescope: Text-Focused Scene Image Super-Resolution",
+          "link": "http://openaccess.thecvf.com//content/CVPR2021/html/Chen_Scene_Text_Telescope_Text-Focused_Scene_Image_Super-Resolution_CVPR_2021_paper.html"
+        },
+        "c": "https://github.com/FudanVI/FudanOCR/tree/main/scene-text-telescope",
+        "n": "TransOCR",
+        "d": "2021-06-19",
+        "m1": "72.8"
+      },
+      {
+        "p": {
+          "name": "Towards Accurate Scene Text Recognition with Semantic Reasoning Networks",
+          "link": "https://arxiv.org/abs/2003.12294v1"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleOCR",
+        "n": "SRN",
+        "d": "2020-03-27",
+        "m1": "65.0"
+      },
+      {
+        "p": {
+          "name": "A Multi-Object Rectified Attention Network for Scene Text Recognition",
+          "link": "http://arxiv.org/abs/1901.03003v1"
+        },
+        "c": "https://github.com/topdu/openocr",
+        "n": "MORAN",
+        "d": "2019-01-10",
+        "m1": "64.3"
+      },
+      {
+        "p": {
+          "name": "SEED: Semantics Enhanced Encoder-Decoder Framework for Scene Text Recognition",
+          "link": "https://arxiv.org/abs/2005.10977v1"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleOCR",
+        "n": "SEED",
+        "d": "2020-05-22",
+        "m1": "61.2"
+      }
+    ]
+  }
+}

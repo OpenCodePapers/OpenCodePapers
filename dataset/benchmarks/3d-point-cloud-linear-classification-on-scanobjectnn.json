@@ -1,0 +1,80 @@
+{
+  "title": "3d-point-cloud-linear-classification-on-scanobjectnn",
+  "task-hierarchy": [
+    "Point Cloud Analysis",
+    "3D Point Cloud Classification",
+    "3D Point Cloud Linear Classification"
+  ],
+  "dataset-info": {
+    "link": "https://hkust-vgd.github.io/scanobjectnn/",
+    "paper": "Revisiting Point Cloud Classification: A New Benchmark Dataset and Classification Model on Real-World Data"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Overall Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "CrossMoCo: Multi-modal Momentum Contrastive Learning for Point Cloud",
+          "link": "https://ieeexplore.ieee.org/abstract/document/10229841"
+        },
+        "c": "https://github.com/snehaputul/CrossMoCo",
+        "n": "CrossMoCo",
+        "d": "2023-06-08",
+        "m1": "86.06"
+      },
+      {
+        "p": {
+          "name": "AdaCrossNet: Adaptive Dynamic Loss Weighting for Cross-Modal Contrastive Point Cloud Learning",
+          "link": "https://inass.org/wp-content/uploads/2024/10/2025022911-2.pdf"
+        },
+        "c": "https://github.com/virgantara/AdaCrossNet",
+        "n": "AdaCrossNet",
+        "d": "2025-01-02",
+        "m1": "82.1"
+      },
+      {
+        "p": {
+          "name": "CrossPoint: Self-Supervised Cross-Modal Contrastive Learning for 3D Point Cloud Understanding",
+          "link": "https://arxiv.org/abs/2203.00680v3"
+        },
+        "c": "https://github.com/mohamedafham/crosspoint",
+        "n": "CrossPoint",
+        "d": "2022-03-01",
+        "m1": "81.7"
+      },
+      {
+        "p": {
+          "name": "Unsupervised Point Cloud Pre-Training via Occlusion Completion",
+          "link": "https://arxiv.org/abs/2010.01089v3"
+        },
+        "c": "https://github.com/hansen7/OcCo",
+        "n": "OcCo",
+        "d": "2020-10-02",
+        "m1": "78.3"
+      }
+    ]
+  }
+}

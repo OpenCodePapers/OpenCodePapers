@@ -1,0 +1,200 @@
+{
+  "title": "multi-hypotheses-3d-human-pose-estimation-on-ah36m",
+  "task-hierarchy": [
+    "Pose Estimation",
+    "3D Human Pose Estimation",
+    "Multi-Hypotheses 3D Human Pose Estimation"
+  ],
+  "dataset-info": {
+    "link": "https://sites.google.com/view/3dmb/home",
+    "paper": "3D Multi-bodies: Fitting Sets of Plausible 3D Human Models to Ambiguous Image Data"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Best-Hypothesis PMPJPE (n = 25)",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "H36M PMPJPE (n = 25)",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Best-Hypothesis MPJPE (n = 25)",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Most-Likely Hypothesis PMPJPE (n = 1)",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "H36M PMPJPE (n = 1)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "MHEntropy: Entropy Meets Multiple Hypotheses for Pose and Shape Recovery",
+          "link": "http://openaccess.thecvf.com//content/ICCV2023/html/Chen_MHEntropy_Entropy_Meets_Multiple_Hypotheses_for_Pose_and_Shape_Recovery_ICCV_2023_paper.html"
+        },
+        "c": "https://github.com/GloryyrolG/MHEntropy",
+        "n": "MHEntropy (3D)",
+        "d": "2023-01-01",
+        "m1": "50.6",
+        "m2": "36.8",
+        "m3": "",
+        "m4": "",
+        "m5": ""
+      },
+      {
+        "p": {
+          "name": "Probabilistic Modeling for Human Mesh Recovery",
+          "link": "https://arxiv.org/abs/2108.11944v1"
+        },
+        "c": "https://github.com/nkolot/ProHMR",
+        "n": "ProHMR",
+        "d": "2021-08-26",
+        "m1": "60.1",
+        "m2": "36.8",
+        "m3": "",
+        "m4": "67.3",
+        "m5": "41.2"
+      },
+      {
+        "p": {
+          "name": "3D Multi-bodies: Fitting Sets of Plausible 3D Human Models to Ambiguous Image Data",
+          "link": "https://arxiv.org/abs/2011.00980v1"
+        },
+        "c": "",
+        "n": "3D Multi-bodies",
+        "d": "2020-11-02",
+        "m1": "64.2",
+        "m2": "42.2",
+        "m3": "90.0",
+        "m4": "67.8",
+        "m5": "41.6"
+      },
+      {
+        "p": {
+          "name": "MHEntropy: Entropy Meets Multiple Hypotheses for Pose and Shape Recovery",
+          "link": "http://openaccess.thecvf.com//content/ICCV2023/html/Chen_MHEntropy_Entropy_Meets_Multiple_Hypotheses_for_Pose_and_Shape_Recovery_ICCV_2023_paper.html"
+        },
+        "c": "https://github.com/GloryyrolG/MHEntropy",
+        "n": "MHEntropy (2D Vis)",
+        "d": "2023-01-01",
+        "m1": "66.4",
+        "m2": "51.3",
+        "m3": "",
+        "m4": "",
+        "m5": ""
+      },
+      {
+        "p": {
+          "name": "Generating Multiple Hypotheses for 3D Human Pose Estimation with Mixture Density Network",
+          "link": "http://arxiv.org/abs/1904.05547v1"
+        },
+        "c": "https://github.com/chaneyddtt/Generating-Multiple-Hypotheses-for-3D-Human-Pose-Estimation-with-Mixture-Density-Network",
+        "n": "SMPL-MDN (by 3D Multi-bodies)",
+        "d": "2019-04-11",
+        "m1": "69.5",
+        "m2": "42.7",
+        "m3": "91.5",
+        "m4": "74.7",
+        "m5": "44.8"
+      },
+      {
+        "p": {
+          "name": "3D Multi-bodies: Fitting Sets of Plausible 3D Human Models to Ambiguous Image Data",
+          "link": "https://arxiv.org/abs/2011.00980v1"
+        },
+        "c": "",
+        "n": "SMPL-CVAE",
+        "d": "2020-11-02",
+        "m1": "75.1",
+        "m2": "46.2",
+        "m3": "109.7",
+        "m4": "76.5",
+        "m5": "46.7"
+      },
+      {
+        "p": {
+          "name": "Probabilistic Modeling for Human Mesh Recovery",
+          "link": "https://arxiv.org/abs/2108.11944v1"
+        },
+        "c": "https://github.com/nkolot/ProHMR",
+        "n": "ProHMR (2D Vis, by MHEntropy)",
+        "d": "2021-08-26",
+        "m1": "82.6",
+        "m2": "64.3",
+        "m3": "",
+        "m4": "",
+        "m5": ""
+      },
+      {
+        "p": {
+          "name": "End-to-end Recovery of Human Shape and Pose",
+          "link": "http://arxiv.org/abs/1712.06584v2"
+        },
+        "c": "https://github.com/open-mmlab/mmpose",
+        "n": "HMR (2D Vis, by MHEntropy)",
+        "d": "2017-12-18",
+        "m1": "85.2",
+        "m2": "67.4",
+        "m3": "",
+        "m4": "85.2",
+        "m5": "67.4"
+      },
+      {
+        "p": {
+          "name": "End-to-end Recovery of Human Shape and Pose",
+          "link": "http://arxiv.org/abs/1712.06584v2"
+        },
+        "c": "https://github.com/open-mmlab/mmpose",
+        "n": "HMR",
+        "d": "2017-12-18",
+        "m1": "",
+        "m2": "56.8",
+        "m3": "",
+        "m4": "",
+        "m5": "56.8"
+      },
+      {
+        "p": {
+          "name": "HuManiFlow: Ancestor-Conditioned Normalising Flows on SO(3) Manifolds for Human Pose and Shape Distribution Estimation",
+          "link": "https://arxiv.org/abs/2305.06968v1"
+        },
+        "c": "https://github.com/akashsengupta1997/humaniflow",
+        "n": "HuManiFlow",
+        "d": "2023-05-11",
+        "m1": "",
+        "m2": "",
+        "m3": "",
+        "m4": "",
+        "m5": ""
+      }
+    ]
+  }
+}

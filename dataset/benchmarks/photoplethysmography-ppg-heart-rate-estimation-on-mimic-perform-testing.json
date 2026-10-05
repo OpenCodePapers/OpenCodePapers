@@ -1,0 +1,190 @@
+{
+  "title": "photoplethysmography-ppg-heart-rate-estimation-on-mimic-perform-testing",
+  "task-hierarchy": [
+    "Physiological Signal Analysis",
+    "Photoplethysmography (PPG)",
+    "Photoplethysmography (PPG) heart rate estimation"
+  ],
+  "dataset-info": {
+    "link": "https://doi.org/10.5281/zenodo.6807402",
+    "paper": "Detecting beats in the photoplethysmogram: benchmarking open-source algorithms"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "MAPE",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Detecting beats in the photoplethysmogram: benchmarking open-source algorithms",
+          "link": "https://doi.org/10.1088/1361-6579/ac826d"
+        },
+        "c": "https://github.com/peterhcharlton/ppg-beats",
+        "n": "MSPTD: MultiScale Peak & Trough Detection",
+        "d": "2022-07-19",
+        "m1": "2.4"
+      },
+      {
+        "p": {
+          "name": "Detecting beats in the photoplethysmogram: benchmarking open-source algorithms",
+          "link": "https://doi.org/10.1088/1361-6579/ac826d"
+        },
+        "c": "https://github.com/peterhcharlton/ppg-beats",
+        "n": "AMPD: Automatic Multiscale Peak Detection",
+        "d": "2022-07-19",
+        "m1": "2.9"
+      },
+      {
+        "p": {
+          "name": "Detecting beats in the photoplethysmogram: benchmarking open-source algorithms",
+          "link": "https://doi.org/10.1088/1361-6579/ac826d"
+        },
+        "c": "https://github.com/peterhcharlton/ppg-beats",
+        "n": "ABD:  Automatic Beat Detection",
+        "d": "2022-07-19",
+        "m1": "3.3"
+      },
+      {
+        "p": {
+          "name": "Detecting beats in the photoplethysmogram: benchmarking open-source algorithms",
+          "link": "https://doi.org/10.1088/1361-6579/ac826d"
+        },
+        "c": "https://github.com/peterhcharlton/ppg-beats",
+        "n": "Pulses",
+        "d": "2022-07-19",
+        "m1": "3.3"
+      },
+      {
+        "p": {
+          "name": "Detecting beats in the photoplethysmogram: benchmarking open-source algorithms",
+          "link": "https://doi.org/10.1088/1361-6579/ac826d"
+        },
+        "c": "https://github.com/peterhcharlton/ppg-beats",
+        "n": "qppg: Adapted Onset Detector",
+        "d": "2022-07-19",
+        "m1": "3.5"
+      },
+      {
+        "p": {
+          "name": "Detecting beats in the photoplethysmogram: benchmarking open-source algorithms",
+          "link": "https://doi.org/10.1088/1361-6579/ac826d"
+        },
+        "c": "https://github.com/peterhcharlton/ppg-beats",
+        "n": "SPAR: Symmetric Projection Attractor Reconstruction",
+        "d": "2022-07-19",
+        "m1": "4.6"
+      },
+      {
+        "p": {
+          "name": "Detecting beats in the photoplethysmogram: benchmarking open-source algorithms",
+          "link": "https://doi.org/10.1088/1361-6579/ac826d"
+        },
+        "c": "https://github.com/peterhcharlton/ppg-beats",
+        "n": "HeartPy",
+        "d": "2022-07-19",
+        "m1": "4.9"
+      },
+      {
+        "p": {
+          "name": "Detecting beats in the photoplethysmogram: benchmarking open-source algorithms",
+          "link": "https://doi.org/10.1088/1361-6579/ac826d"
+        },
+        "c": "https://github.com/peterhcharlton/ppg-beats",
+        "n": "IMS: Incremental Merge Segmentation",
+        "d": "2022-07-19",
+        "m1": "7.7"
+      },
+      {
+        "p": {
+          "name": "Detecting beats in the photoplethysmogram: benchmarking open-source algorithms",
+          "link": "https://doi.org/10.1088/1361-6579/ac826d"
+        },
+        "c": "https://github.com/peterhcharlton/ppg-beats",
+        "n": "PDA: Peak Detection Algorithm",
+        "d": "2022-07-19",
+        "m1": "7.8"
+      },
+      {
+        "p": {
+          "name": "Detecting beats in the photoplethysmogram: benchmarking open-source algorithms",
+          "link": "https://doi.org/10.1088/1361-6579/ac826d"
+        },
+        "c": "https://github.com/peterhcharlton/ppg-beats",
+        "n": "ERMA: EventRelated Moving Averages",
+        "d": "2022-07-19",
+        "m1": "7.9"
+      },
+      {
+        "p": {
+          "name": "Detecting beats in the photoplethysmogram: benchmarking open-source algorithms",
+          "link": "https://doi.org/10.1088/1361-6579/ac826d"
+        },
+        "c": "https://github.com/peterhcharlton/ppg-beats",
+        "n": "PWD: Pulse Wave\nDelineator",
+        "d": "2022-07-19",
+        "m1": "8.4"
+      },
+      {
+        "p": {
+          "name": "Detecting beats in the photoplethysmogram: benchmarking open-source algorithms",
+          "link": "https://doi.org/10.1088/1361-6579/ac826d"
+        },
+        "c": "https://github.com/peterhcharlton/ppg-beats",
+        "n": "COppg: Percentile Peak Detector",
+        "d": "2022-07-19",
+        "m1": "9.6"
+      },
+      {
+        "p": {
+          "name": "Detecting beats in the photoplethysmogram: benchmarking open-source algorithms",
+          "link": "https://doi.org/10.1088/1361-6579/ac826d"
+        },
+        "c": "https://github.com/peterhcharlton/ppg-beats",
+        "n": "WFD: Wavelet Foot Delineation",
+        "d": "2022-07-19",
+        "m1": "17.5"
+      },
+      {
+        "p": {
+          "name": "Detecting beats in the photoplethysmogram: benchmarking open-source algorithms",
+          "link": "https://doi.org/10.1088/1361-6579/ac826d"
+        },
+        "c": "https://github.com/peterhcharlton/ppg-beats",
+        "n": "ATM: Adaptive Threshold Method",
+        "d": "2022-07-19",
+        "m1": "38.5"
+      },
+      {
+        "p": {
+          "name": "Detecting beats in the photoplethysmogram: benchmarking open-source algorithms",
+          "link": "https://doi.org/10.1088/1361-6579/ac826d"
+        },
+        "c": "https://github.com/peterhcharlton/ppg-beats",
+        "n": "SWT: Stationary Wavelet Transform",
+        "d": "2022-07-19",
+        "m1": "51.0"
+      }
+    ]
+  }
+}

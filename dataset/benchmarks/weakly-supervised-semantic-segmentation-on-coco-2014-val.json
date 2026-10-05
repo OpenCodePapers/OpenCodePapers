@@ -1,0 +1,429 @@
+{
+  "title": "weakly-supervised-semantic-segmentation-on-coco-2014-val",
+  "task-hierarchy": [
+    "Semantic Segmentation",
+    "Weakly-Supervised Semantic Segmentation"
+  ],
+  "dataset-info": {
+    "link": "",
+    "paper": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mIoU",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "DHR: Dual Features-Driven Hierarchical Rebalancing in Inter- and Intra-Class Regions for Weakly-Supervised Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2404.00380v2"
+        },
+        "c": "https://github.com/shjo-april/DHR",
+        "n": "DHR (Swin-L, Mask2Former)",
+        "d": "2024-03-30",
+        "m1": "56.8"
+      },
+      {
+        "p": {
+          "name": "Semantic Prompt Learning for Weakly-Supervised Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2401.11791v4"
+        },
+        "c": "https://github.com/nvlabs/semples",
+        "n": "SemPLeS (Swin-L)",
+        "d": "2024-01-22",
+        "m1": "56.1"
+      },
+      {
+        "p": {
+          "name": "An Alternative to WSSS? An Empirical Study of the Segment Anything Model (SAM) on Weakly-Supervised Semantic Segmentation Problems",
+          "link": "https://arxiv.org/abs/2305.01586v2"
+        },
+        "c": "https://github.com/weixuansun/wsss_sam",
+        "n": "WSSS-SAM(DeepLabV2-ResNet101)",
+        "d": "2023-05-02",
+        "m1": "55.6"
+      },
+      {
+        "p": {
+          "name": "Foundation Model Assisted Weakly Supervised Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2312.03585v2"
+        },
+        "c": "https://github.com/HAL-42/FMA-WSSS",
+        "n": "FMA-WSSS (Swin-L)",
+        "d": "2023-12-06",
+        "m1": "55.4"
+      },
+      {
+        "p": {
+          "name": "Weakly Supervised Co-training with Swapping Assignments for Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2402.17891v2"
+        },
+        "c": "https://github.com/youshyee/cosa",
+        "n": "CoSA (SWIN-B, multi-stage)",
+        "d": "2024-02-27",
+        "m1": "53.7"
+      },
+      {
+        "p": {
+          "name": "Weakly Supervised Co-training with Swapping Assignments for Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2402.17891v2"
+        },
+        "c": "https://github.com/youshyee/cosa",
+        "n": "CoSA (ViT-B, single-stage)",
+        "d": "2024-02-27",
+        "m1": "51.1"
+      },
+      {
+        "p": {
+          "name": "WeakTr: Exploring Plain Vision Transformer for Weakly-supervised Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2304.01184v2"
+        },
+        "c": "https://github.com/hustvl/weaktr",
+        "n": "WeakTr (ViT-S, multi-stage)",
+        "d": "2023-04-03",
+        "m1": "50.3"
+      },
+      {
+        "p": {
+          "name": "MARS: Model-agnostic Biased Object Removal without Additional Supervision for Weakly-Supervised Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2304.09913v1"
+        },
+        "c": "https://github.com/shjo-april/mars",
+        "n": "MARS (ResNet-101, multi-stage)",
+        "d": "2023-04-19",
+        "m1": "49.4"
+      },
+      {
+        "p": {
+          "name": "WeakTr: Exploring Plain Vision Transformer for Weakly-supervised Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2304.01184v2"
+        },
+        "c": "https://github.com/hustvl/weaktr",
+        "n": "WeakTr (DeiT-S, multi-stage)",
+        "d": "2023-04-03",
+        "m1": "46.9"
+      },
+      {
+        "p": {
+          "name": "RecurSeed and EdgePredictMix: Pseudo-Label Refinement Learning for Weakly Supervised Semantic Segmentation across Single- and Multi-Stage Frameworks",
+          "link": "https://arxiv.org/abs/2204.06754v4"
+        },
+        "c": "https://github.com/shjo-april/recurseed_and_edgepredictmix",
+        "n": "RS+EPM (ResNet-101, multi-stage)",
+        "d": "2022-04-14",
+        "m1": "46.4"
+      },
+      {
+        "p": {
+          "name": "From Text to Mask: Localizing Entities Using the Attention of Text-to-Image Diffusion Models",
+          "link": "https://arxiv.org/abs/2309.04109v2"
+        },
+        "c": "https://github.com/Big-Brother-Pikachu/Text2Mask",
+        "n": "T2MDiffusion(DeepLabV2-ResNet101)",
+        "d": "2023-09-08",
+        "m1": "45.7"
+      },
+      {
+        "p": {
+          "name": "Fine-grained Background Representation for Weakly Supervised Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2406.15755v1"
+        },
+        "c": "https://github.com/YininKorea/FBR",
+        "n": "FBR",
+        "d": "2024-06-22",
+        "m1": "45.6"
+      },
+      {
+        "p": {
+          "name": "CLIP is Also an Efficient Segmenter: A Text-Driven Approach for Weakly Supervised Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2212.09506v3"
+        },
+        "c": "https://github.com/linyq2117/clip-es",
+        "n": "CLIP-ES(DeepLabV2-ResNet101)",
+        "d": "2022-12-16",
+        "m1": "45.4"
+      },
+      {
+        "p": {
+          "name": "Weakly Supervised Semantic Segmentation via Adversarial Learning of Classifier and Reconstructor",
+          "link": "http://openaccess.thecvf.com//content/CVPR2023/html/Kweon_Weakly_Supervised_Semantic_Segmentation_via_Adversarial_Learning_of_Classifier_and_CVPR_2023_paper.html"
+        },
+        "c": "https://github.com/sangrockeg/acr",
+        "n": "ACR(DeeplabV1-ResNet38)",
+        "d": "2023-01-01",
+        "m1": "45.3"
+      },
+      {
+        "p": {
+          "name": "Boundary-Enhanced Co-Training for Weakly Supervised Semantic Segmentation",
+          "link": "http://openaccess.thecvf.com//content/CVPR2023/html/Rong_Boundary-Enhanced_Co-Training_for_Weakly_Supervised_Semantic_Segmentation_CVPR_2023_paper.html"
+        },
+        "c": "https://github.com/ShenghaiRong/BECO",
+        "n": "BECO(DeepLabV3Plus+R101)",
+        "d": "2023-01-01",
+        "m1": "45.1"
+      },
+      {
+        "p": {
+          "name": "Max Pooling with Vision Transformers reconciles class and shape in weakly supervised semantic segmentation",
+          "link": "https://arxiv.org/abs/2210.17400v1"
+        },
+        "c": "https://github.com/deepplants/vit-pcm",
+        "n": "ViT-PCM",
+        "d": "2022-10-31",
+        "m1": "45.0"
+      },
+      {
+        "p": {
+          "name": "All-pairs Consistency Learning for Weakly Supervised Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2308.04321v2"
+        },
+        "c": "https://github.com/opennlplab/acr_wsss",
+        "n": "ACR-WSSS(DeepLabV2-ResNet101)",
+        "d": "2023-08-08",
+        "m1": "45.0"
+      },
+      {
+        "p": {
+          "name": "Threshold Matters in WSSS: Manipulating the Activation for the Robust and Accurate Segmentation Model Against Thresholds",
+          "link": "https://arxiv.org/abs/2203.16045v1"
+        },
+        "c": "https://github.com/gaviotas/amn",
+        "n": "AMN (DeepLabV2-ResNet101)",
+        "d": "2022-03-30",
+        "m1": "44.7"
+      },
+      {
+        "p": {
+          "name": "L2G: A Simple Local-to-Global Knowledge Transfer Framework for Weakly Supervised Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2204.03206v1"
+        },
+        "c": "https://github.com/pengtaojiang/l2g",
+        "n": "L2G (DeepLabV2-ResNet101)",
+        "d": "2022-04-07",
+        "m1": "44.2"
+      },
+      {
+        "p": {
+          "name": "Reducing Information Bottleneck for Weakly Supervised Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2110.06530v1"
+        },
+        "c": "https://github.com/jbeomlee93/rib",
+        "n": "RIB (DeepLabV2-ResNet101, No Saliency)",
+        "d": "2021-10-13",
+        "m1": "43.8"
+      },
+      {
+        "p": {
+          "name": "Self-supervised Image-specific Prototype Exploration for Weakly Supervised Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2203.02909v1"
+        },
+        "c": "https://github.com/chenqi1126/sipe",
+        "n": "SIPE(ResNet-38, no saliency, no RW)",
+        "d": "2022-03-06",
+        "m1": "43.6"
+      },
+      {
+        "p": {
+          "name": "RecurSeed and EdgePredictMix: Pseudo-Label Refinement Learning for Weakly Supervised Semantic Segmentation across Single- and Multi-Stage Frameworks",
+          "link": "https://arxiv.org/abs/2204.06754v4"
+        },
+        "c": "https://github.com/shjo-april/recurseed_and_edgepredictmix",
+        "n": "RS+EPM (ResNet-50, single-stage)",
+        "d": "2022-04-14",
+        "m1": "42.2"
+      },
+      {
+        "p": {
+          "name": "Clustering-Guided Class Activation for Weakly Supervised Semantic Segmentation",
+          "link": "https://ieeexplore.ieee.org/abstract/document/10381698"
+        },
+        "c": "https://github.com/DCVL-WSSS/ClusterCAM",
+        "n": "ClusterCAM",
+        "d": "2024-01-05",
+        "m1": "41.8"
+      },
+      {
+        "p": {
+          "name": "Uncertainty Estimation via Response Scaling for Pseudo-mask Noise Mitigation in Weakly-supervised Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2112.07431v1"
+        },
+        "c": "https://github.com/xmed-lab/urn",
+        "n": "URN(Res2Net-101, no saliency, no RW)",
+        "d": "2021-12-14",
+        "m1": "41.5"
+      },
+      {
+        "p": {
+          "name": "Uncertainty Estimation via Response Scaling for Pseudo-mask Noise Mitigation in Weakly-supervised Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2112.07431v1"
+        },
+        "c": "https://github.com/xmed-lab/urn",
+        "n": "URN(ScaleNet-101, no saliency, no RW)",
+        "d": "2021-12-14",
+        "m1": "40.8"
+      },
+      {
+        "p": {
+          "name": "Uncertainty Estimation via Response Scaling for Pseudo-mask Noise Mitigation in Weakly-supervised Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2112.07431v1"
+        },
+        "c": "https://github.com/xmed-lab/urn",
+        "n": "URN(ResNet-101, no saliency, no RW)",
+        "d": "2021-12-14",
+        "m1": "40.7"
+      },
+      {
+        "p": {
+          "name": "Uncertainty Estimation via Response Scaling for Pseudo-mask Noise Mitigation in Weakly-supervised Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2112.07431v1"
+        },
+        "c": "https://github.com/xmed-lab/urn",
+        "n": "URN(ResNet-38, no saliency, no RW)",
+        "d": "2021-12-14",
+        "m1": "40.5"
+      },
+      {
+        "p": {
+          "name": "Pseudo-mask Matters in Weakly-supervised Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2108.12995v2"
+        },
+        "c": "https://github.com/eli-yili/pmm",
+        "n": "PMM(ScaleNet101, no saliency, no RW)",
+        "d": "2021-08-30",
+        "m1": "40.2"
+      },
+      {
+        "p": {
+          "name": "Learning Affinity from Attention: End-to-End Weakly-Supervised Semantic Segmentation with Transformers",
+          "link": "https://arxiv.org/abs/2203.02664v2"
+        },
+        "c": "https://github.com/rulixiang/afa",
+        "n": "AFA",
+        "d": "2022-03-05",
+        "m1": "38.9"
+      },
+      {
+        "p": {
+          "name": "Pseudo-mask Matters in Weakly-supervised Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2108.12995v2"
+        },
+        "c": "https://github.com/eli-yili/pmm",
+        "n": "PMM(ResNet38, no saliency, no RW)",
+        "d": "2021-08-30",
+        "m1": "36.7"
+      },
+      {
+        "p": {
+          "name": "Unlocking the Potential of Ordinary Classifier: Class-Specific Adversarial Erasing Framework for Weakly Supervised Semantic Segmentation",
+          "link": "http://openaccess.thecvf.com//content/ICCV2021/html/Kweon_Unlocking_the_Potential_of_Ordinary_Classifier_Class-Specific_Adversarial_Erasing_Framework_ICCV_2021_paper.html"
+        },
+        "c": "https://github.com/kaist-vilab/oc-cse",
+        "n": "OC-CSE(ResNet38, no saliency, no RW)",
+        "d": "2021-01-01",
+        "m1": "36.4"
+      },
+      {
+        "p": {
+          "name": "Weakly-Supervised Semantic Segmentation with Visual Words Learning and Hybrid Pooling",
+          "link": "https://arxiv.org/abs/2202.04812v1"
+        },
+        "c": "https://github.com/rulixiang/vwe/tree/master/v2",
+        "n": "VWL-L",
+        "d": "2022-02-10",
+        "m1": "36.2"
+      },
+      {
+        "p": {
+          "name": "Weakly-Supervised Semantic Segmentation with Visual Words Learning and Hybrid Pooling",
+          "link": "https://arxiv.org/abs/2202.04812v1"
+        },
+        "c": "https://github.com/rulixiang/vwe/tree/master/v2",
+        "n": "VWL-M",
+        "d": "2022-02-10",
+        "m1": "36.1"
+      },
+      {
+        "p": {
+          "name": "Railroad is not a Train: Saliency as Pseudo-pixel Supervision for Weakly Supervised Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2105.08965v1"
+        },
+        "c": "https://github.com/halbielee/EPS",
+        "n": "EPS",
+        "d": "2021-05-19",
+        "m1": "35.7"
+      },
+      {
+        "p": {
+          "name": "Learning Self-Supervised Low-Rank Network for Single-Stage Weakly and Semi-Supervised Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2203.10278v1"
+        },
+        "c": "https://github.com/DesertsP/SLRNet",
+        "n": "SLRNet",
+        "d": "2022-03-19",
+        "m1": "35.0"
+      },
+      {
+        "p": {
+          "name": "Saliency Guided Self-attention Network for Weakly and Semi-supervised Semantic Segmentation",
+          "link": "https://arxiv.org/abs/1910.05475v2"
+        },
+        "c": "https://github.com/yaoqi-zd/SGAN",
+        "n": "SGAN",
+        "d": "2019-10-12",
+        "m1": "33.6"
+      },
+      {
+        "p": {
+          "name": "Causal Intervention for Weakly-Supervised Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2009.12547v2"
+        },
+        "c": "",
+        "n": "IRNet+CONTA",
+        "d": "2020-09-26",
+        "m1": "33.4"
+      },
+      {
+        "p": {
+          "name": "Group-Wise Semantic Mining for Weakly Supervised Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2012.05007v1"
+        },
+        "c": "https://github.com/Lixy1997/Group-WSSS",
+        "n": "GroupWSSS",
+        "d": "2020-12-09",
+        "m1": "28.4"
+      },
+      {
+        "p": {
+          "name": "Weakly-Supervised Semantic Segmentation Network With Deep Seeded Region Growing",
+          "link": "http://openaccess.thecvf.com/content_cvpr_2018/html/Huang_Weakly-Supervised_Semantic_Segmentation_CVPR_2018_paper.html"
+        },
+        "c": "https://github.com/speedinghzl/DSRG",
+        "n": "DSRG",
+        "d": "2018-06-01",
+        "m1": "26.0"
+      }
+    ]
+  }
+}

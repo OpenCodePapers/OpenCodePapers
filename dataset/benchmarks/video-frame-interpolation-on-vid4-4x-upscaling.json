@@ -1,0 +1,114 @@
+{
+  "title": "video-frame-interpolation-on-vid4-4x-upscaling",
+  "task-hierarchy": [
+    "Video Frame Interpolation"
+  ],
+  "dataset-info": {
+    "link": "",
+    "paper": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "PSNR",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Parameters",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "SSIM",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "runtime (s)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "VRT: A Video Restoration Transformer",
+          "link": "https://arxiv.org/abs/2201.12288v2"
+        },
+        "c": "https://github.com/jingyunliang/vrt",
+        "n": "VRT",
+        "d": "2022-01-28",
+        "m1": "27.46",
+        "m2": "4450000",
+        "m3": "0.8392"
+      },
+      {
+        "p": {
+          "name": "RSTT: Real-time Spatial Temporal Transformer for Space-Time Video Super-Resolution",
+          "link": "https://arxiv.org/abs/2203.14186v1"
+        },
+        "c": "https://github.com/llmpass/RSTT",
+        "n": "RSTT-L",
+        "d": "2022-03-27",
+        "m1": "26.43",
+        "m2": "7670000",
+        "m3": "0.7994"
+      },
+      {
+        "p": {
+          "name": "RSTT: Real-time Spatial Temporal Transformer for Space-Time Video Super-Resolution",
+          "link": "https://arxiv.org/abs/2203.14186v1"
+        },
+        "c": "https://github.com/llmpass/RSTT",
+        "n": "RSTT-M",
+        "d": "2022-03-27",
+        "m1": "26.37",
+        "m2": "6080000",
+        "m3": "0.7978"
+      },
+      {
+        "p": {
+          "name": "Zooming Slow-Mo: Fast and Accurate One-Stage Space-Time Video Super-Resolution",
+          "link": "https://arxiv.org/abs/2002.11616v1"
+        },
+        "c": "https://github.com/Mukosame/Zooming-Slow-Mo-CVPR-2020",
+        "n": "Zooming Slow-Mo",
+        "d": "2020-02-26",
+        "m1": "26.31",
+        "m2": "11100000",
+        "m3": "0.7976",
+        "m4": "0.0606"
+      },
+      {
+        "p": {
+          "name": "RSTT: Real-time Spatial Temporal Transformer for Space-Time Video Super-Resolution",
+          "link": "https://arxiv.org/abs/2203.14186v1"
+        },
+        "c": "https://github.com/llmpass/RSTT",
+        "n": "RSTT-S",
+        "d": "2022-03-27",
+        "m1": "26.29",
+        "m2": "4490000",
+        "m3": "0.7941"
+      }
+    ]
+  }
+}

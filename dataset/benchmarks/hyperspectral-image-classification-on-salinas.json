@@ -20,6 +20,21 @@
       },
       {
         "key": "m1",
+        "label": "OA@200",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "AA@200",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Kappa@200",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
         "label": "Overall Accuracy",
         "sortable": "true"
       },
@@ -36,33 +51,35 @@
     "items": [
       {
         "p": {
-          "name": "HybridSN: Exploring 3D-2D CNN Feature Hierarchy for Hyperspectral Image Classification",
-          "link": "https://arxiv.org/abs/1902.06701v3"
+          "name": "FPGA: Fast Patch-Free Global Learning Framework for Fully End-to-End Hyperspectral Image Classification",
+          "link": "https://arxiv.org/abs/2011.05670v1"
         },
-        "c": "https://github.com/gokriznastic/HybridSN",
-        "n": "HybridSN",
-        "d": "2019-02-18",
-        "m1": "100%"
+        "c": "https://github.com/Z-Zheng/FreeNet",
+        "n": "FPGA",
+        "d": "2020-11-11",
+        "m1": "99.92",
+        "m2": "99.91",
+        "m3": "0.9991"
       },
       {
         "p": {
-          "name": "SpectralNET: Exploring Spatial-Spectral WaveletCNN for Hyperspectral Image Classification",
-          "link": "https://arxiv.org/abs/2104.00341v1"
+          "name": "JigsawHSI: a network for Hyperspectral Image classification",
+          "link": "https://arxiv.org/abs/2206.02327v3"
         },
-        "c": "https://github.com/tanmay-ty/SpectralNET",
-        "n": "SpectralNET",
-        "d": "2021-04-01",
-        "m1": "100%"
+        "c": "https://github.com/jmoraga-mines/jigsawhsi",
+        "n": "JigsawHSI",
+        "d": "2022-06-06",
+        "m1": "100.00"
       },
       {
         "p": {
-          "name": "Hyperspectral Image Classification Using Deep Matrix Capsules",
-          "link": "https://ieeexplore.ieee.org/document/10028853"
+          "name": "Faster hyperspectral image classification based on selective kernel mechanism using deep convolutional networks",
+          "link": "https://arxiv.org/abs/2202.06458v1"
         },
-        "c": "https://github.com/DeepMatrixCapsules/DeepMatrixCapsules",
-        "n": "Deep Matrix Capsules",
-        "d": "2023-02-02",
-        "m1": "100%"
+        "c": "https://github.com/leeguandong/fsknet-for-hsi",
+        "n": "FSKNet",
+        "d": "2022-02-14",
+        "m4": "99.98%"
       }
     ]
   }

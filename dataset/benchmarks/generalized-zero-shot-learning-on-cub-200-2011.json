@@ -1,0 +1,69 @@
+{
+  "title": "generalized-zero-shot-learning-on-cub-200-2011",
+  "task-hierarchy": [
+    "Zero-Shot Learning",
+    "Generalized Zero-Shot Learning"
+  ],
+  "dataset-info": {
+    "link": "https://www.vision.caltech.edu/datasets/cub_200_2011/",
+    "paper": "The Caltech-UCSD Birds-200-2011 Dataset"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Harmonic mean",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Exploring Data Efficiency in Zero-Shot Learning with Diffusion Models",
+          "link": "https://arxiv.org/abs/2406.02929v1"
+        },
+        "c": "",
+        "n": "ZeroDiff",
+        "d": "2024-06-05",
+        "m1": "81.6"
+      },
+      {
+        "p": {
+          "name": "Synthetic Sample Selection for Generalized Zero-Shot Learning",
+          "link": "https://arxiv.org/abs/2304.02846v1"
+        },
+        "c": "",
+        "n": "SPOT (DAA)",
+        "d": "2023-04-06",
+        "m1": "67.0"
+      },
+      {
+        "p": {
+          "name": "Latent Embedding Feedback and Discriminative Features for Zero-Shot Classification",
+          "link": "https://arxiv.org/abs/2003.07833v2"
+        },
+        "c": "https://github.com/akshitac8/tfvaegan",
+        "n": "GZSL_TF-VAEGAN",
+        "d": "2020-03-17",
+        "m1": "58.1"
+      }
+    ]
+  }
+}

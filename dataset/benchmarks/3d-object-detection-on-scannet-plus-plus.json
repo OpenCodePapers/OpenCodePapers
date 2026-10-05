@@ -1,0 +1,77 @@
+{
+  "title": "3d-object-detection-on-scannet-plus-plus",
+  "task-hierarchy": [
+    "Object Detection",
+    "3D Object Detection"
+  ],
+  "dataset-info": {
+    "link": "https://kaldir.vc.in.tum.de/scannetpp/",
+    "paper": "ScanNet++: A High-Fidelity Dataset of 3D Indoor Scenes"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mAP@0.25",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "mAP@0.5",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "UniDet3D: Multi-dataset Indoor 3D Object Detection",
+          "link": "https://arxiv.org/abs/2409.04234v1"
+        },
+        "c": "https://github.com/filapro/unidet3d",
+        "n": "UniDet3D",
+        "d": "2024-09-06",
+        "m1": "26.4",
+        "m2": "17.2"
+      },
+      {
+        "p": {
+          "name": "TR3D: Towards Real-Time Indoor 3D Object Detection",
+          "link": "https://arxiv.org/abs/2302.02858v3"
+        },
+        "c": "",
+        "n": "TR3D",
+        "d": "2023-02-06",
+        "m1": "26.2",
+        "m2": "14.5"
+      },
+      {
+        "p": {
+          "name": "FCAF3D: Fully Convolutional Anchor-Free 3D Object Detection",
+          "link": "https://arxiv.org/abs/2112.00322v2"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection3d",
+        "n": "FCAF3D",
+        "d": "2021-12-01",
+        "m1": "22.3",
+        "m2": "11.4"
+      }
+    ]
+  }
+}

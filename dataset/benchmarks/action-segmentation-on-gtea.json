@@ -1,0 +1,451 @@
+{
+  "title": "action-segmentation-on-gtea",
+  "task-hierarchy": [
+    "Action Localization",
+    "Action Segmentation"
+  ],
+  "dataset-info": {
+    "link": "http://cbs.ic.gatech.edu/fpv/",
+    "paper": "Learning to recognize objects in egocentric activities"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F1@50%",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "F1@25%",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "F1@10%",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Acc",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "Edit",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Semantic2Graph: Graph-based Multi-modal Feature Fusion for Action Segmentation in Videos",
+          "link": "https://arxiv.org/abs/2209.05653v5"
+        },
+        "c": "",
+        "n": "Semantic2Graph",
+        "d": "2022-09-13",
+        "m1": "91.3",
+        "m2": "94.2",
+        "m3": "95.7",
+        "m4": "89.8",
+        "m5": "92.0"
+      },
+      {
+        "p": {
+          "name": "FACT: Frame-Action Cross-Attention Temporal Modeling for Efficient Action Segmentation",
+          "link": "http://openaccess.thecvf.com//content/CVPR2024/html/Lu_FACT_Frame-Action_Cross-Attention_Temporal_Modeling_for_Efficient_Action_Segmentation_CVPR_2024_paper.html"
+        },
+        "c": "https://github.com/zijialewislu/cvpr2024-fact",
+        "n": "FACT",
+        "d": "2024-01-01",
+        "m1": "87.5",
+        "m2": "95.6",
+        "m3": "96.1",
+        "m4": "84.5",
+        "m5": "93.5"
+      },
+      {
+        "p": {
+          "name": "Diffusion Action Segmentation",
+          "link": "https://arxiv.org/abs/2303.17959v2"
+        },
+        "c": "https://github.com/finspire13/diffact",
+        "n": "DiffAct",
+        "d": "2023-03-31",
+        "m1": "84.7",
+        "m2": "91.5",
+        "m3": "92.5",
+        "m4": "82.2",
+        "m5": "89.6"
+      },
+      {
+        "p": {
+          "name": "Efficient Temporal Action Segmentation via Boundary-aware Query Voting",
+          "link": "https://arxiv.org/abs/2405.15995v1"
+        },
+        "c": "https://github.com/peiyao-w/baformer",
+        "n": "BaFormer",
+        "d": "2024-05-25",
+        "m1": "83.5",
+        "m2": "91.3",
+        "m3": "92.0",
+        "m4": "83.0",
+        "m5": "88.7"
+      },
+      {
+        "p": {
+          "name": "SF-TMN: SlowFast Temporal Modeling Network for Surgical Phase Recognition",
+          "link": "https://arxiv.org/abs/2306.08859v1"
+        },
+        "c": "",
+        "n": "SF-TMN(ASFormer)",
+        "d": "2023-06-15",
+        "m1": "83.1",
+        "m2": "90.7",
+        "m3": "91.9",
+        "m4": "83.0",
+        "m5": "88.9"
+      },
+      {
+        "p": {
+          "name": "Bridge-Prompt: Towards Ordinal Action Understanding in Instructional Videos",
+          "link": "https://arxiv.org/abs/2203.14104v1"
+        },
+        "c": "https://github.com/ttlmh/bridge-prompt",
+        "n": "Br-Prompt+ASFormer",
+        "d": "2022-03-26",
+        "m1": "83.0",
+        "m2": "92.0",
+        "m3": "94.1",
+        "m4": "81.2",
+        "m5": "91.6"
+      },
+      {
+        "p": {
+          "name": "Maximization and restoration: Action segmentation through dilation passing and temporal reconstruction",
+          "link": "https://www.sciencedirect.com/science/article/pii/S003132032200245X"
+        },
+        "c": "",
+        "n": "DPRN",
+        "d": "2022-05-02",
+        "m1": "82.9",
+        "m2": "92.0",
+        "m3": "92.9",
+        "m4": "82.0",
+        "m5": "90.9"
+      },
+      {
+        "p": {
+          "name": "BIT: Bi-Level Temporal Modeling for Efficient Supervised Action Segmentation",
+          "link": "https://arxiv.org/abs/2308.14900v2"
+        },
+        "c": "",
+        "n": "BIT",
+        "d": "2023-08-28",
+        "m1": "82.6",
+        "m2": "92.8",
+        "m3": "94.8",
+        "m4": "82.0",
+        "m5": "92.6"
+      },
+      {
+        "p": {
+          "name": "Cross-Enhancement Transformer for Action Segmentation",
+          "link": "https://arxiv.org/abs/2205.09445v1"
+        },
+        "c": "https://github.com/Wangjhdeveloper/CETNet",
+        "n": "CETNet",
+        "d": "2022-05-19",
+        "m1": "81.3",
+        "m2": "91.2",
+        "m3": "91.8",
+        "m4": "80.3",
+        "m5": "87.9"
+      },
+      {
+        "p": {
+          "name": "Unified Fully and Timestamp Supervised Temporal Action Segmentation via Sequence to Sequence Translation",
+          "link": "https://arxiv.org/abs/2209.00638v2"
+        },
+        "c": "https://github.com/boschresearch/uvast",
+        "n": "UVAST",
+        "d": "2022-09-01",
+        "m1": "81",
+        "m2": "91.3",
+        "m3": "92.7",
+        "m4": "80.2",
+        "m5": "92.1"
+      },
+      {
+        "p": {
+          "name": "Alleviating Over-segmentation Errors by Detecting Action Boundaries",
+          "link": "https://arxiv.org/abs/2007.06866v1"
+        },
+        "c": "https://github.com/yiskw713/asrf",
+        "n": "ASRF",
+        "d": "2020-07-14",
+        "m1": "79.8",
+        "m2": "87.8",
+        "m3": "89.4",
+        "m4": "77.3",
+        "m5": "83.7"
+      },
+      {
+        "p": {
+          "name": "ASFormer: Transformer for Action Segmentation",
+          "link": "https://arxiv.org/abs/2110.08568v1"
+        },
+        "c": "https://github.com/chinayi/asformer",
+        "n": "ASFormer",
+        "d": "2021-10-16",
+        "m1": "79.2",
+        "m2": "88.8",
+        "m3": "90.1",
+        "m4": "79.7",
+        "m5": "84.6"
+      },
+      {
+        "p": {
+          "name": "Action Segmentation with Joint Self-Supervised Temporal Domain Adaptation",
+          "link": "https://arxiv.org/abs/2003.02824v3"
+        },
+        "c": "https://github.com/cmhungsteve/SSTDA",
+        "n": "SSTDA",
+        "d": "2020-03-05",
+        "m1": "78.0",
+        "m2": "89.1",
+        "m3": "90.0",
+        "m4": "79.8",
+        "m5": "86.2"
+      },
+      {
+        "p": {
+          "name": "Efficient Two-Step Networks for Temporal Action Segmentation",
+          "link": "https://www.sciencedirect.com/science/article/pii/S0925231221006998"
+        },
+        "c": "https://github.com/lyhisme/ETSN",
+        "n": "ETSN",
+        "d": "2021-04-30",
+        "m1": "77.9",
+        "m2": "90.0",
+        "m3": "91.1",
+        "m4": "78.2",
+        "m5": "86.2"
+      },
+      {
+        "p": {
+          "name": "Coarse to Fine Multi-Resolution Temporal Convolutional Network",
+          "link": "https://arxiv.org/abs/2105.10859v1"
+        },
+        "c": "https://github.com/dipika-singhania/C2F-TCN",
+        "n": "C2F-TCN",
+        "d": "2021-05-23",
+        "m1": "77.7",
+        "m2": "88.8",
+        "m3": "90.3",
+        "m4": "80.8",
+        "m5": "86.4"
+      },
+      {
+        "p": {
+          "name": "Boundary-Aware Cascade Networks for Temporal Action Segmentation",
+          "link": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/4845_ECCV_2020_paper.php"
+        },
+        "c": "https://github.com/MCG-NJU/BCN",
+        "n": "BCN",
+        "d": "",
+        "m1": "77.3",
+        "m2": "87.1",
+        "m3": "88.5",
+        "m4": "79.8",
+        "m5": "84.4"
+      },
+      {
+        "p": {
+          "name": "Refining Action Segmentation With Hierarchical Video Representations",
+          "link": "http://openaccess.thecvf.com//content/ICCV2021/html/Ahn_Refining_Action_Segmentation_With_Hierarchical_Video_Representations_ICCV_2021_paper.html"
+        },
+        "c": "https://github.com/cotton-ahn/hasr_iccv2021",
+        "n": "SSTDA + HASR",
+        "d": "2021-01-01",
+        "m1": "76.4",
+        "m2": "88.6",
+        "m3": "90.9",
+        "m4": "78.7",
+        "m5": "87.5"
+      },
+      {
+        "p": {
+          "name": "Action Segmentation with Mixed Temporal Domain Adaptation",
+          "link": "https://arxiv.org/abs/2104.07461v2"
+        },
+        "c": "",
+        "n": "DA",
+        "d": "2021-04-15",
+        "m1": "76.2",
+        "m2": "88.4",
+        "m3": "90.5",
+        "m4": "80.0",
+        "m5": "85.8"
+      },
+      {
+        "p": {
+          "name": "MS-TCN++: Multi-Stage Temporal Convolutional Network for Action Segmentation",
+          "link": "https://arxiv.org/abs/2006.09220v2"
+        },
+        "c": "https://github.com/sj-li/MS-TCN2",
+        "n": "MS-TCN++",
+        "d": "2020-06-16",
+        "m1": "76.0",
+        "m2": "85.7",
+        "m3": "88.8",
+        "m4": "80.1",
+        "m5": "83.5"
+      },
+      {
+        "p": {
+          "name": "MS-TCN++: Multi-Stage Temporal Convolutional Network for Action Segmentation",
+          "link": "https://arxiv.org/abs/2006.09220v2"
+        },
+        "c": "https://github.com/sj-li/MS-TCN2",
+        "n": "MS-TCN++(sh)",
+        "d": "2020-06-16",
+        "m1": "75.9",
+        "m2": "86.2",
+        "m3": "88.2",
+        "m4": "79.7",
+        "m5": "83.0"
+      },
+      {
+        "p": {
+          "name": "Refining Action Segmentation With Hierarchical Video Representations",
+          "link": "http://openaccess.thecvf.com//content/ICCV2021/html/Ahn_Refining_Action_Segmentation_With_Hierarchical_Video_Representations_ICCV_2021_paper.html"
+        },
+        "c": "https://github.com/cotton-ahn/hasr_iccv2021",
+        "n": "ASRF + HASR",
+        "d": "2021-01-01",
+        "m1": "74.8",
+        "m2": "87.2",
+        "m3": "89.2",
+        "m4": "76.9",
+        "m5": "84.5"
+      },
+      {
+        "p": {
+          "name": "MS-TCN: Multi-Stage Temporal Convolutional Network for Action Segmentation",
+          "link": "http://arxiv.org/abs/1903.01945v2"
+        },
+        "c": "https://github.com/yabufarha/ms-tcn",
+        "n": "MS-TCN",
+        "d": "2019-03-05",
+        "m1": "74.6",
+        "m2": " 85.4",
+        "m3": "87.5",
+        "m4": "79.2",
+        "m5": "81.4"
+      },
+      {
+        "p": {
+          "name": "Do we really need temporal convolutions in action segmentation?",
+          "link": "https://arxiv.org/abs/2205.13425v2"
+        },
+        "c": "https://github.com/ddz16/TUT",
+        "n": "EUT",
+        "d": "2022-05-26",
+        "m1": "74",
+        "m2": "87.2",
+        "m3": "88.2",
+        "m4": "77",
+        "m5": "83.9"
+      },
+      {
+        "p": {
+          "name": "Depthwise Separable Temporal Convolutional Network for Action Segmentation",
+          "link": "https://ieeexplore.ieee.org/document/9320343"
+        },
+        "c": "",
+        "n": "DS-TCN",
+        "d": "2021-01-19",
+        "m1": "72.84",
+        "m2": "85.44",
+        "m3": "88.30",
+        "m4": "78.10",
+        "m5": "84.05"
+      },
+      {
+        "p": {
+          "name": "Is Weakly-supervised Action Segmentation Ready For Human-Robot Interaction? No, Let's Improve It With Action-union Learning",
+          "link": "https://www.researchgate.net/publication/372548891_Is_Weakly-supervised_Action_Segmentation_Ready_For_Human-Robot_Interaction_No_Let's_Improve_It_With_Action-union_Learning"
+        },
+        "c": "https://github.com/fandulu/DD-Net",
+        "n": "AUL",
+        "d": "2023-10-22",
+        "m1": "67.3",
+        "m2": "85.5",
+        "m3": "88.2",
+        "m4": "69.2",
+        "m5": "84.0"
+      },
+      {
+        "p": {
+          "name": "Temporal Deformable Residual Networks for Action Segmentation in Videos",
+          "link": "http://openaccess.thecvf.com/content_cvpr_2018/html/Lei_Temporal_Deformable_Residual_CVPR_2018_paper.html"
+        },
+        "c": "",
+        "n": "TDRN",
+        "d": "2018-06-01",
+        "m1": "62.7",
+        "m2": "74.4",
+        "m3": "79.2",
+        "m4": "70.1",
+        "m5": " 74.1"
+      },
+      {
+        "p": {
+          "name": "Temporal Convolutional Networks for Action Segmentation and Detection",
+          "link": "http://arxiv.org/abs/1611.05267v1"
+        },
+        "c": "https://github.com/colincsl/TemporalConvolutionalNetworks",
+        "n": "ED-TCN",
+        "d": "2016-11-16",
+        "m1": "56.0",
+        "m2": "69.3",
+        "m3": "72.2",
+        "m4": "64.0",
+        "m5": ""
+      },
+      {
+        "p": {
+          "name": "Segmental Spatiotemporal CNNs for Fine-grained Action Segmentation",
+          "link": "http://arxiv.org/abs/1602.02995v4"
+        },
+        "c": "",
+        "n": "ST-CNN",
+        "d": "2016-02-09",
+        "m1": "41.9",
+        "m2": "54.4",
+        "m3": "58.7",
+        "m4": "60.6",
+        "m5": ""
+      }
+    ]
+  }
+}

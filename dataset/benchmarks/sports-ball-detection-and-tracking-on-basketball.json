@@ -1,0 +1,145 @@
+{
+  "title": "sports-ball-detection-and-tracking-on-basketball",
+  "task-hierarchy": [
+    "Object Tracking",
+    "Sports Ball Detection and Tracking"
+  ],
+  "dataset-info": {
+    "link": "",
+    "paper": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F1 (%)",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Accuracy (%)",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Average Precision (%)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Widely Applicable Strong Baseline for Sports Ball Detection and Tracking",
+          "link": "https://arxiv.org/abs/2311.05237v2"
+        },
+        "c": "https://github.com/nttcom/wasb-sbdt",
+        "n": "WASB (Step=1)",
+        "d": "2023-11-09",
+        "m1": "82.6",
+        "m2": "73.4",
+        "m3": "77.1"
+      },
+      {
+        "p": {
+          "name": "MonoTrack: Shuttle trajectory reconstruction from monocular badminton video",
+          "link": "https://arxiv.org/abs/2204.01899v2"
+        },
+        "c": "https://github.com/nttcom/wasb-sbdt",
+        "n": "MonoTrack",
+        "d": "2022-04-04",
+        "m1": "80.8",
+        "m2": "71.3",
+        "m3": "65.3"
+      },
+      {
+        "p": {
+          "name": "Widely Applicable Strong Baseline for Sports Ball Detection and Tracking",
+          "link": "https://arxiv.org/abs/2311.05237v2"
+        },
+        "c": "https://github.com/nttcom/wasb-sbdt",
+        "n": "WASB (Step=3)",
+        "d": "2023-11-09",
+        "m1": "80.6",
+        "m2": "71.3",
+        "m3": "71.5"
+      },
+      {
+        "p": {
+          "name": "TrackNetV2: Efficient Shuttlecock Tracking Network",
+          "link": "https://ieeexplore.ieee.org/document/9302757"
+        },
+        "c": "https://github.com/nttcom/wasb-sbdt",
+        "n": "TrackNetV2",
+        "d": "2020-12-03",
+        "m1": "78.8",
+        "m2": "69.3",
+        "m3": "64.6"
+      },
+      {
+        "p": {
+          "name": "Widely Applicable Strong Baseline for Sports Ball Detection and Tracking",
+          "link": "https://arxiv.org/abs/2311.05237v2"
+        },
+        "c": "https://github.com/nttcom/wasb-sbdt",
+        "n": "ResTrackNetV2",
+        "d": "2023-11-09",
+        "m1": "77.9",
+        "m2": "68.2",
+        "m3": "66.0"
+      },
+      {
+        "p": {
+          "name": "Widely Applicable Strong Baseline for Sports Ball Detection and Tracking",
+          "link": "https://arxiv.org/abs/2311.05237v2"
+        },
+        "c": "https://github.com/nttcom/wasb-sbdt",
+        "n": "DeepBall-Large",
+        "d": "2023-11-09",
+        "m1": "57.2",
+        "m2": "47.5",
+        "m3": "36.6"
+      },
+      {
+        "p": {
+          "name": "Real-time CNN-based Segmentation Architecture for Ball Detection in a Single View Setup",
+          "link": "https://arxiv.org/abs/2007.11876v1"
+        },
+        "c": "https://github.com/nttcom/wasb-sbdt",
+        "n": "BallSeg",
+        "d": "2020-07-23",
+        "m1": "16.8",
+        "m2": "20.5",
+        "m3": "5.3"
+      },
+      {
+        "p": {
+          "name": "DeepBall: Deep Neural-Network Ball Detector",
+          "link": "http://arxiv.org/abs/1902.07304v1"
+        },
+        "c": "https://github.com/nttcom/wasb-sbdt",
+        "n": "DeepBall",
+        "d": "2019-02-19",
+        "m1": "0",
+        "m2": "12.9",
+        "m3": "0"
+      }
+    ]
+  }
+}

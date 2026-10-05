@@ -1,0 +1,69 @@
+{
+  "title": "hyperspectral-image-classification-on-salinas-scene",
+  "task-hierarchy": [
+    "Remote Sensing",
+    "Hyperspectral Image Classification"
+  ],
+  "dataset-info": {
+    "link": "http://www.ehu.eus/ccwintco/index.php/Hyperspectral_Remote_Sensing_Scenes",
+    "paper": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Overall Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "HybridSN: Exploring 3D-2D CNN Feature Hierarchy for Hyperspectral Image Classification",
+          "link": "https://arxiv.org/abs/1902.06701v3"
+        },
+        "c": "https://github.com/gokriznastic/HybridSN",
+        "n": "HybridSN",
+        "d": "2019-02-18",
+        "m1": "100%"
+      },
+      {
+        "p": {
+          "name": "SpectralNET: Exploring Spatial-Spectral WaveletCNN for Hyperspectral Image Classification",
+          "link": "https://arxiv.org/abs/2104.00341v1"
+        },
+        "c": "https://github.com/tanmay-ty/SpectralNET",
+        "n": "SpectralNET",
+        "d": "2021-04-01",
+        "m1": "100%"
+      },
+      {
+        "p": {
+          "name": "Hyperspectral Image Classification Using Deep Matrix Capsules",
+          "link": "https://ieeexplore.ieee.org/document/10028853"
+        },
+        "c": "https://github.com/DeepMatrixCapsules/DeepMatrixCapsules",
+        "n": "Deep Matrix Capsules",
+        "d": "2023-02-02",
+        "m1": "100%"
+      }
+    ]
+  }
+}

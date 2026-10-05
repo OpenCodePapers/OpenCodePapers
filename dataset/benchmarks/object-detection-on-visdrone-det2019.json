@@ -1,0 +1,136 @@
+{
+  "title": "object-detection-on-visdrone-det2019",
+  "task-hierarchy": [
+    "Object Detection"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/VisDrone/VisDrone-Dataset",
+    "paper": "Vision Meets Drones: A Challenge"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AP50",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "AP",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "APvt",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "APt",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "APs",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "AP75",
+        "sortable": "true"
+      },
+      {
+        "key": "m7",
+        "label": "FPS",
+        "sortable": "true"
+      },
+      {
+        "key": "m8",
+        "label": "APm",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Cascaded Zoom-in Detector for High Resolution Aerial Images",
+          "link": "https://arxiv.org/abs/2303.08747v1"
+        },
+        "c": "https://github.com/akhilpm/dronedetectron2",
+        "n": "CZ Det.",
+        "d": "2023-03-15",
+        "m1": "58.3",
+        "m2": "33.22",
+        "m6": "33.16",
+        "m7": "8.44"
+      },
+      {
+        "p": {
+          "name": "LEGNet: Lightweight Edge-Gaussian Driven Network for Low-Quality Remote Sensing Image Object Detection",
+          "link": "https://arxiv.org/abs/2503.14012v1"
+        },
+        "c": "https://github.com/lwcver/legnet",
+        "n": "LEGNet-S",
+        "d": "2025-03-18",
+        "m1": "55.0",
+        "m2": "32.2",
+        "m5": "24.5",
+        "m6": "32.8",
+        "m8": "42.5"
+      },
+      {
+        "p": {
+          "name": "RFLA: Gaussian Receptive Field based Label Assignment for Tiny Object Detection",
+          "link": "https://arxiv.org/abs/2208.08738v2"
+        },
+        "c": "https://github.com/chasel-tsui/mmdet-rfla",
+        "n": "DetectoRS w/ RFLA",
+        "d": "2022-08-18",
+        "m1": "45.3",
+        "m2": "27.4",
+        "m3": "4.5",
+        "m4": "12.9"
+      },
+      {
+        "p": {
+          "name": "A Normalized Gaussian Wasserstein Distance for Tiny Object Detection",
+          "link": "https://arxiv.org/abs/2110.13389v2"
+        },
+        "c": "https://github.com/jwwangchn/NWD",
+        "n": "Cascade R-CNN + NWD",
+        "d": "2021-10-26",
+        "m1": "40.3",
+        "m3": "2.9",
+        "m4": "11.1",
+        "m5": "22.2"
+      },
+      {
+        "p": {
+          "name": "Dynamic Coarse-to-Fine Learning for Oriented Tiny Object Detection",
+          "link": "https://arxiv.org/abs/2304.08876v1"
+        },
+        "c": "https://github.com/chasel-tsui/mmrotate-dcfl",
+        "n": "DCFL",
+        "d": "2023-04-18",
+        "m1": "32.1"
+      }
+    ]
+  }
+}

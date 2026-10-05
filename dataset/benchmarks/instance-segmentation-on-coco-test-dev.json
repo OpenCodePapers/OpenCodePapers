@@ -1,0 +1,1367 @@
+{
+  "title": "instance-segmentation-on-coco-test-dev",
+  "task-hierarchy": [
+    "Instance Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://cocodataset.org/",
+    "paper": "Microsoft COCO: Common Objects in Context"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mask AP",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "AP50",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "AP75",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "APS",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "APM",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "APL",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "DETRs with Collaborative Hybrid Assignments Training",
+          "link": "https://arxiv.org/abs/2211.12860v5"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
+        "n": "Co-DETR",
+        "d": "2022-11-22",
+        "m1": "57.1",
+        "m2": "80.2",
+        "m3": "63.4",
+        "m4": "41.6",
+        "m5": "60.1",
+        "m6": "72.0"
+      },
+      {
+        "p": {
+          "name": "CBNet: A Composite Backbone Network Architecture for Object Detection",
+          "link": "https://arxiv.org/abs/2107.00420v7"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleDetection",
+        "n": "CBNetV2 (EVA02, single-scale)",
+        "d": "2021-07-01",
+        "m1": "56.1",
+        "m2": "80.3",
+        "m3": "62.1",
+        "m4": "39.7",
+        "m5": "59.3",
+        "m6": "70.9"
+      },
+      {
+        "p": {
+          "name": "EVA: Exploring the Limits of Masked Visual Representation Learning at Scale",
+          "link": "https://arxiv.org/abs/2211.07636v2"
+        },
+        "c": "https://github.com/rwightman/pytorch-image-models",
+        "n": "EVA",
+        "d": "2022-11-14",
+        "m1": "55.5",
+        "m2": "80.0",
+        "m4": "36.3",
+        "m5": "58.0",
+        "m6": "72.4"
+      },
+      {
+        "p": {
+          "name": "Contrastive Learning Rivals Masked Image Modeling in Fine-tuning via Feature Distillation",
+          "link": "https://arxiv.org/abs/2205.14141v3"
+        },
+        "c": "https://github.com/SwinTransformer/Feature-Distillation",
+        "n": "FD-SwinV2-G",
+        "d": "2022-05-27",
+        "m1": "55.4"
+      },
+      {
+        "p": {
+          "name": "Mask Frozen-DETR: High Quality Instance Segmentation with One GPU",
+          "link": "https://arxiv.org/abs/2308.03747v1"
+        },
+        "c": "",
+        "n": "Mask Frozen-DETR",
+        "d": "2023-08-07",
+        "m1": "55.3",
+        "m2": "79.3",
+        "m3": "61.4",
+        "m4": "37.8",
+        "m5": "58.4",
+        "m6": "70.4"
+      },
+      {
+        "p": {
+          "name": "Image as a Foreign Language: BEiT Pretraining for All Vision and Vision-Language Tasks",
+          "link": "https://arxiv.org/abs/2208.10442v2"
+        },
+        "c": "https://github.com/microsoft/unilm/tree/master/beit",
+        "n": "BEiT-3",
+        "d": "2022-08-22",
+        "m1": "54.8"
+      },
+      {
+        "p": {
+          "name": "Mask DINO: Towards A Unified Transformer-based Framework for Object Detection and Segmentation",
+          "link": "https://arxiv.org/abs/2206.02777v3"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleDetection",
+        "n": "MasK DINO (SwinL, multi-scale)",
+        "d": "2022-06-06",
+        "m1": "54.7"
+      },
+      {
+        "p": {
+          "name": "Vision Transformer Adapter for Dense Predictions",
+          "link": "https://arxiv.org/abs/2205.08534v4"
+        },
+        "c": "https://github.com/czczup/vit-adapter",
+        "n": "ViT-Adapter-L (HTC++, BEiTv2, O365, multi-scale)",
+        "d": "2022-05-17",
+        "m1": "54.5"
+      },
+      {
+        "p": {
+          "name": "General Object Foundation Model for Images and Videos at Scale",
+          "link": "https://arxiv.org/abs/2312.09158v1"
+        },
+        "c": "https://github.com/FoundationVision/GLEE",
+        "n": "GLEE-Pro",
+        "d": "2023-12-14",
+        "m1": "54.5"
+      },
+      {
+        "p": {
+          "name": "Swin Transformer V2: Scaling Up Capacity and Resolution",
+          "link": "https://arxiv.org/abs/2111.09883v2"
+        },
+        "c": "https://github.com/rwightman/pytorch-image-models",
+        "n": "SwinV2-G (HTC++)",
+        "d": "2021-11-18",
+        "m1": "54.4"
+      },
+      {
+        "p": {
+          "name": "General Object Foundation Model for Images and Videos at Scale",
+          "link": "https://arxiv.org/abs/2312.09158v1"
+        },
+        "c": "https://github.com/FoundationVision/GLEE",
+        "n": "GLEE-Plus",
+        "d": "2023-12-14",
+        "m1": "53.3"
+      },
+      {
+        "p": {
+          "name": "End-to-End Semi-Supervised Object Detection with Soft Teacher",
+          "link": "https://arxiv.org/abs/2106.09018v3"
+        },
+        "c": "https://github.com/microsoft/SoftTeacher",
+        "n": "Soft Teacher + Swin-L (HTC++, multi-scale)",
+        "d": "2021-06-16",
+        "m1": "53.0"
+      },
+      {
+        "p": {
+          "name": "Vision Transformer Adapter for Dense Predictions",
+          "link": "https://arxiv.org/abs/2205.08534v4"
+        },
+        "c": "https://github.com/czczup/vit-adapter",
+        "n": "ViT-Adapter-L (HTC++, BEiTv2 pretrain, multi-scale)",
+        "d": "2022-05-17",
+        "m1": "53.0"
+      },
+      {
+        "p": {
+          "name": "Mask DINO: Towards A Unified Transformer-based Framework for Object Detection and Segmentation",
+          "link": "https://arxiv.org/abs/2206.02777v3"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleDetection",
+        "n": "Mask DINO (SwinL, single -scale)",
+        "d": "2022-06-06",
+        "m1": "52.8"
+      },
+      {
+        "p": {
+          "name": "Vision Transformer Adapter for Dense Predictions",
+          "link": "https://arxiv.org/abs/2205.08534v4"
+        },
+        "c": "https://github.com/czczup/vit-adapter",
+        "n": "ViT-Adapter-L (HTC++, BEiT pretrain, multi-scale)",
+        "d": "2022-05-17",
+        "m1": "52.5"
+      },
+      {
+        "p": {
+          "name": "CBNet: A Composite Backbone Network Architecture for Object Detection",
+          "link": "https://arxiv.org/abs/2107.00420v7"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleDetection",
+        "n": "CBNetV2 (Dual-Swin-L HTC, multi-scale)",
+        "d": "2021-07-01",
+        "m1": "52.3"
+      },
+      {
+        "p": {
+          "name": "Universal Instance Perception as Object Discovery and Retrieval",
+          "link": "https://arxiv.org/abs/2303.06674v2"
+        },
+        "c": "https://github.com/MasterBin-IIAU/UNINEXT",
+        "n": "UNINEXT-H",
+        "d": "2023-03-12",
+        "m1": "51.8",
+        "m2": "76.2",
+        "m3": "56.7",
+        "m4": "33.3",
+        "m5": "55.9",
+        "m6": "67.5"
+      },
+      {
+        "p": {
+          "name": "CBNet: A Composite Backbone Network Architecture for Object Detection",
+          "link": "https://arxiv.org/abs/2107.00420v7"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleDetection",
+        "n": "CBNetV2 (Dual-Swin-L HTC, single-scale)",
+        "d": "2021-07-01",
+        "m1": "51.6"
+      },
+      {
+        "p": {
+          "name": "Focal Self-attention for Local-Global Interactions in Vision Transformers",
+          "link": "https://arxiv.org/abs/2107.00641v1"
+        },
+        "c": "https://github.com/BR-IDL/PaddleViT/tree/develop/image_classification/Focal_Transformer",
+        "n": "Focal-L (HTC++, multi-scale)",
+        "d": "2021-07-01",
+        "m1": "51.3",
+        "m2": "75.4",
+        "m3": "56.5",
+        "m4": "35.6",
+        "m6": "64.2"
+      },
+      {
+        "p": {
+          "name": "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows",
+          "link": "https://arxiv.org/abs/2103.14030v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Swin-L (HTC++, multi scale)",
+        "d": "2021-03-25",
+        "m1": "51.1"
+      },
+      {
+        "p": {
+          "name": "Masked-attention Mask Transformer for Universal Image Segmentation",
+          "link": "https://arxiv.org/abs/2112.01527v3"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Mask2Former (Swin-L, single scale)",
+        "d": "2021-12-02",
+        "m1": "50.5",
+        "m2": "74.9",
+        "m3": "54.9",
+        "m4": "29.1",
+        "m5": "53.8",
+        "m6": "71.2"
+      },
+      {
+        "p": {
+          "name": "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows",
+          "link": "https://arxiv.org/abs/2103.14030v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Swin-L (HTC++, single scale)",
+        "d": "2021-03-25",
+        "m1": "50.2"
+      },
+      {
+        "p": {
+          "name": "ISTR: End-to-End Instance Segmentation with Transformers",
+          "link": "https://arxiv.org/abs/2105.00637v2"
+        },
+        "c": "https://github.com/hujiecpp/ISTR",
+        "n": "ISTR-SMT (Swin-L, single scale)",
+        "d": "2021-05-03",
+        "m1": "49.7"
+      },
+      {
+        "p": {
+          "name": "Simple Copy-Paste is a Strong Data Augmentation Method for Instance Segmentation",
+          "link": "https://arxiv.org/abs/2012.07177v2"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleOCR",
+        "n": "Cascade Eff-B7 NAS-FPN (1280, self-training Copy Paste, single-scale)",
+        "d": "2020-12-13",
+        "m1": "49.1"
+      },
+      {
+        "p": {
+          "name": "Instances as Queries",
+          "link": "https://arxiv.org/abs/2105.01928v3"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
+        "n": "QueryInst (single scale)",
+        "d": "2021-05-05",
+        "m1": "49.1",
+        "m2": "74.2",
+        "m3": "53.8",
+        "m4": "31.5",
+        "m5": "51.8",
+        "m6": "63.2"
+      },
+      {
+        "p": {
+          "name": "Exploring Target Representations for Masked Autoencoders",
+          "link": "https://arxiv.org/abs/2209.03917v3"
+        },
+        "c": "https://github.com/liuxingbin/dbot",
+        "n": "dBOT ViT-L (CLIP)",
+        "d": "2022-09-08",
+        "m1": "48.8"
+      },
+      {
+        "p": {
+          "name": "MogaNet: Multi-order Gated Aggregation Network",
+          "link": "https://arxiv.org/abs/2211.03295v3"
+        },
+        "c": "https://github.com/chengtan9907/OpenSTL",
+        "n": "MogaNet-XL (Cascade Mask R-CNN)",
+        "d": "2022-11-07",
+        "m1": "48.8"
+      },
+      {
+        "p": {
+          "name": "DetectoRS: Detecting Objects with Recursive Feature Pyramid and Switchable Atrous Convolution",
+          "link": "https://arxiv.org/abs/2006.02334v2"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
+        "n": "DetectoRS (ResNeXt-101-64x4d, multi-scale)",
+        "d": "2020-06-03",
+        "m1": "48.5",
+        "m2": "72.0",
+        "m3": "53.3",
+        "m4": "31.6",
+        "m5": "50.9",
+        "m6": "61.5"
+      },
+      {
+        "p": {
+          "name": "Exploring Target Representations for Masked Autoencoders",
+          "link": "https://arxiv.org/abs/2209.03917v3"
+        },
+        "c": "https://github.com/liuxingbin/dbot",
+        "n": "dBOT ViT-L",
+        "d": "2022-09-08",
+        "m1": "48.3"
+      },
+      {
+        "p": {
+          "name": "DiffusionInst: Diffusion Model for Instance Segmentation",
+          "link": "https://arxiv.org/abs/2212.02773v3"
+        },
+        "c": "https://github.com/chenhaoxing/DiffusionInst",
+        "n": "DiffusionInst-SwinL",
+        "d": "2022-12-06",
+        "m1": "48.3"
+      },
+      {
+        "p": {
+          "name": "General Object Foundation Model for Images and Videos at Scale",
+          "link": "https://arxiv.org/abs/2312.09158v1"
+        },
+        "c": "https://github.com/FoundationVision/GLEE",
+        "n": "GLEE-Lite",
+        "d": "2023-12-14",
+        "m1": "48.3"
+      },
+      {
+        "p": {
+          "name": "DiffusionInst: Diffusion Model for Instance Segmentation",
+          "link": "https://arxiv.org/abs/2212.02773v3"
+        },
+        "c": "https://github.com/chenhaoxing/DiffusionInst",
+        "n": "DiffusionInst-SwinB",
+        "d": "2022-12-06",
+        "m1": "47.6"
+      },
+      {
+        "p": {
+          "name": "DetectoRS: Detecting Objects with Recursive Feature Pyramid and Switchable Atrous Convolution",
+          "link": "https://arxiv.org/abs/2006.02334v2"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
+        "n": "DetectoRS (ResNeXt-101-32x4d, multi-scale)",
+        "d": "2020-06-03",
+        "m1": "47.1",
+        "m2": "71.1",
+        "m3": "51.6",
+        "m4": "30.3",
+        "m5": "49.5",
+        "m6": "59.6"
+      },
+      {
+        "p": {
+          "name": "Simple Copy-Paste is a Strong Data Augmentation Method for Instance Segmentation",
+          "link": "https://arxiv.org/abs/2012.07177v2"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleOCR",
+        "n": "Cascade Eff-B7 NAS-FPN (1280)",
+        "d": "2020-12-13",
+        "m1": "46.9"
+      },
+      {
+        "p": {
+          "name": "SOLQ: Segmenting Objects by Learning Queries",
+          "link": "https://arxiv.org/abs/2106.02351v3"
+        },
+        "c": "https://github.com/megvii-research/SOLQ",
+        "n": "SOLQ (Swin-L, single scale)",
+        "d": "2021-06-04",
+        "m1": "46.7"
+      },
+      {
+        "p": {
+          "name": "Exploring Target Representations for Masked Autoencoders",
+          "link": "https://arxiv.org/abs/2209.03917v3"
+        },
+        "c": "https://github.com/liuxingbin/dbot",
+        "n": "dBOT ViT-B",
+        "d": "2022-09-08",
+        "m1": "46.3"
+      },
+      {
+        "p": {
+          "name": "Exploring Target Representations for Masked Autoencoders",
+          "link": "https://arxiv.org/abs/2209.03917v3"
+        },
+        "c": "https://github.com/liuxingbin/dbot",
+        "n": "dBOT ViT-B (CLIP)",
+        "d": "2022-09-08",
+        "m1": "46.2"
+      },
+      {
+        "p": {
+          "name": "SpineNet: Learning Scale-Permuted Backbone for Recognition and Localization",
+          "link": "https://arxiv.org/abs/1912.05027v3"
+        },
+        "c": "https://github.com/tensorflow/models/tree/master/official/vision/beta/modeling/backbones",
+        "n": "Mask R-CNN (SpineNet-190, 1536x1536)",
+        "d": "2019-12-10",
+        "m1": "46.1"
+      },
+      {
+        "p": {
+          "name": "MogaNet: Multi-order Gated Aggregation Network",
+          "link": "https://arxiv.org/abs/2211.03295v3"
+        },
+        "c": "https://github.com/chengtan9907/OpenSTL",
+        "n": "MogaNet-L (Cascade Mask R-CNN)",
+        "d": "2022-11-07",
+        "m1": "46.1"
+      },
+      {
+        "p": {
+          "name": "MogaNet: Multi-order Gated Aggregation Network",
+          "link": "https://arxiv.org/abs/2211.03295v3"
+        },
+        "c": "https://github.com/chengtan9907/OpenSTL",
+        "n": "MogaNet-B (Cascade Mask R-CNN)",
+        "d": "2022-11-07",
+        "m1": "46"
+      },
+      {
+        "p": {
+          "name": "A Tri-Layer Plugin to Improve Occluded Detection",
+          "link": "https://arxiv.org/abs/2210.10046v1"
+        },
+        "c": "https://github.com/Championchess/Tri-Layer_Plugin_Occluded_Detection",
+        "n": "Swin-B + Cascade Mask R-CNN (tri-layer modelling)",
+        "d": "2022-10-18",
+        "m1": "45.9"
+      },
+      {
+        "p": {
+          "name": "Global Context Networks",
+          "link": "https://arxiv.org/abs/2012.13375v1"
+        },
+        "c": "https://github.com/rwightman/pytorch-image-models",
+        "n": "GCNet (ResNeXt-101 + DCN + cascade + GC r4)",
+        "d": "2020-12-24",
+        "m1": "45.4",
+        "m2": "68.9",
+        "m3": "49.6"
+      },
+      {
+        "p": {
+          "name": "MogaNet: Multi-order Gated Aggregation Network",
+          "link": "https://arxiv.org/abs/2211.03295v3"
+        },
+        "c": "https://github.com/chengtan9907/OpenSTL",
+        "n": "MogaNet-S (Cascade Mask R-CNN)",
+        "d": "2022-11-07",
+        "m1": "45.1"
+      },
+      {
+        "p": {
+          "name": "gSwin: Gated MLP Vision Model with Hierarchical Structure of Shifted Window",
+          "link": "https://arxiv.org/abs/2208.11718v1"
+        },
+        "c": "",
+        "n": "gSwin-S",
+        "d": "2022-08-24",
+        "m1": "45.03"
+      },
+      {
+        "p": {
+          "name": "iBOT: Image BERT Pre-Training with Online Tokenizer",
+          "link": "https://arxiv.org/abs/2111.07832v3"
+        },
+        "c": "https://github.com/bytedance/ibot",
+        "n": "iBOT (ViT-B/16)",
+        "d": "2021-11-15",
+        "m1": "44.2"
+      },
+      {
+        "p": {
+          "name": "gSwin: Gated MLP Vision Model with Hierarchical Structure of Shifted Window",
+          "link": "https://arxiv.org/abs/2208.11718v1"
+        },
+        "c": "",
+        "n": "gSwin-T",
+        "d": "2022-08-24",
+        "m1": "44.16"
+      },
+      {
+        "p": {
+          "name": "MogaNet: Multi-order Gated Aggregation Network",
+          "link": "https://arxiv.org/abs/2211.03295v3"
+        },
+        "c": "https://github.com/chengtan9907/OpenSTL",
+        "n": "MogaNet-L (Mask R-CNN 1x)",
+        "d": "2022-11-07",
+        "m1": "44.1"
+      },
+      {
+        "p": {
+          "name": "Architecture-Agnostic Masked Image Modeling -- From ViT back to CNN",
+          "link": "https://arxiv.org/abs/2205.13943v4"
+        },
+        "c": "https://github.com/open-mmlab/mmpretrain",
+        "n": "A2MIM (ViT-B)",
+        "d": "2022-05-27",
+        "m1": "43.5"
+      },
+      {
+        "p": {
+          "name": "CBNet: A Novel Composite Backbone Network Architecture for Object Detection",
+          "link": "https://arxiv.org/abs/1909.03625v1"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
+        "n": "Cascade Mask R-CNN (ResNeXt152, CBNet)",
+        "d": "2019-09-09",
+        "m1": "43.3"
+      },
+      {
+        "p": {
+          "name": "MogaNet: Multi-order Gated Aggregation Network",
+          "link": "https://arxiv.org/abs/2211.03295v3"
+        },
+        "c": "https://github.com/chengtan9907/OpenSTL",
+        "n": "MogaNet-B (Mask R-CNN 1x)",
+        "d": "2022-11-07",
+        "m1": "43.2"
+      },
+      {
+        "p": {
+          "name": "ResNeSt: Split-Attention Networks",
+          "link": "https://arxiv.org/abs/2004.08955v2"
+        },
+        "c": "https://github.com/rwightman/pytorch-image-models",
+        "n": "ResNeSt101",
+        "d": "2020-04-19",
+        "m1": "43%"
+      },
+      {
+        "p": {
+          "name": "gSwin: Gated MLP Vision Model with Hierarchical Structure of Shifted Window",
+          "link": "https://arxiv.org/abs/2208.11718v1"
+        },
+        "c": "",
+        "n": "gSwin-VT",
+        "d": "2022-08-24",
+        "m1": "42.87"
+      },
+      {
+        "p": {
+          "name": "iBOT: Image BERT Pre-Training with Online Tokenizer",
+          "link": "https://arxiv.org/abs/2111.07832v3"
+        },
+        "c": "https://github.com/bytedance/ibot",
+        "n": "iBOT (ViT-S/16)",
+        "d": "2021-11-15",
+        "m1": "42.6"
+      },
+      {
+        "p": {
+          "name": "Mask Transfiner for High-Quality Instance Segmentation",
+          "link": "https://arxiv.org/abs/2111.13673v1"
+        },
+        "c": "https://github.com/SysCV/transfiner",
+        "n": "Mask Transfiner(ResNet101-FPN)",
+        "d": "2021-11-26",
+        "m1": "42.2"
+      },
+      {
+        "p": {
+          "name": "MogaNet: Multi-order Gated Aggregation Network",
+          "link": "https://arxiv.org/abs/2211.03295v3"
+        },
+        "c": "https://github.com/chengtan9907/OpenSTL",
+        "n": "MogaNet-S (Mask R-CNN 1x)",
+        "d": "2022-11-07",
+        "m1": "42.2"
+      },
+      {
+        "p": {
+          "name": "Path Aggregation Network for Instance Segmentation",
+          "link": "http://arxiv.org/abs/1803.01534v4"
+        },
+        "c": "https://github.com/ultralytics/yolov5",
+        "n": "PANet",
+        "d": "2018-03-05",
+        "m1": "42.0"
+      },
+      {
+        "p": {
+          "name": "CenterMask : Real-Time Anchor-Free Instance Segmentation",
+          "link": "https://arxiv.org/abs/1911.06667v6"
+        },
+        "c": "https://github.com/youngwanLEE/centermask2",
+        "n": "CenterMask + VoVNet99",
+        "d": "2019-11-15",
+        "m1": "41.8",
+        "m4": "24.4",
+        "m5": "44.4",
+        "m6": "54.3"
+      },
+      {
+        "p": {
+          "name": "SOLOv2: Dynamic and Fast Instance Segmentation",
+          "link": "https://arxiv.org/abs/2003.10152v3"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
+        "n": "SOLOv2(Res-DCN-101-FPN)",
+        "d": "2020-03-23",
+        "m1": "41.7",
+        "m2": "63.2",
+        "m3": "45.1",
+        "m4": "18.0",
+        "m5": "45.0",
+        "m6": "61.6"
+      },
+      {
+        "p": {
+          "name": "Deep Occlusion-Aware Instance Segmentation with Overlapping BiLayers",
+          "link": "https://arxiv.org/abs/2103.12340v1"
+        },
+        "c": "https://github.com/lkeab/BCNet",
+        "n": "BCNet(ResNeXt-101  + FPN+ FCOS)",
+        "d": "2021-03-23",
+        "m1": "41.7"
+      },
+      {
+        "p": {
+          "name": "GCNet: Non-local Networks Meet Squeeze-Excitation Networks and Beyond",
+          "link": "http://arxiv.org/abs/1904.11492v1"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
+        "n": "GCNet (ResNeXt-101 + DCN + cascade + GC r16)",
+        "d": "2019-04-25",
+        "m1": "41.5%"
+      },
+      {
+        "p": {
+          "name": "DiffusionInst: Diffusion Model for Instance Segmentation",
+          "link": "https://arxiv.org/abs/2212.02773v3"
+        },
+        "c": "https://github.com/chenhaoxing/DiffusionInst",
+        "n": "DiffusionInst-ResNet101",
+        "d": "2022-12-06",
+        "m1": "41.5"
+      },
+      {
+        "p": {
+          "name": "BlendMask: Top-Down Meets Bottom-Up for Instance Segmentation",
+          "link": "https://arxiv.org/abs/2001.00309v3"
+        },
+        "c": "https://github.com/aim-uofa/AdelaiDet",
+        "n": "BlendMask (ResNet-101 + DCN interval=3)",
+        "d": "2020-01-02",
+        "m1": "41.3",
+        "m2": "63.1",
+        "m3": "44.6",
+        "m4": "22.7",
+        "m5": "44.1",
+        "m6": "54.5"
+      },
+      {
+        "p": {
+          "name": "Hybrid Task Cascade for Instance Segmentation",
+          "link": "http://arxiv.org/abs/1901.07518v2"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
+        "n": "HTC + ResNeXt-101-FPN + DCN",
+        "d": "2019-01-22",
+        "m1": "41.2"
+      },
+      {
+        "p": {
+          "name": "Hybrid Task Cascade for Instance Segmentation",
+          "link": "http://arxiv.org/abs/1901.07518v2"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
+        "n": "HTC + ResNeXt-101-FPN",
+        "d": "2019-01-22",
+        "m1": "41.2%"
+      },
+      {
+        "p": {
+          "name": "SOLQ: Segmenting Objects by Learning Queries",
+          "link": "https://arxiv.org/abs/2106.02351v3"
+        },
+        "c": "https://github.com/megvii-research/SOLQ",
+        "n": "SOLQ (ResNet101, single scale)",
+        "d": "2021-06-04",
+        "m1": "40.9"
+      },
+      {
+        "p": {
+          "name": "An Energy and GPU-Computation Efficient Backbone Network for Real-Time Object Detection",
+          "link": "http://arxiv.org/abs/1904.09730v1"
+        },
+        "c": "https://github.com/osmr/imgclsmob",
+        "n": "VoVNetV1-57",
+        "d": "2019-04-22",
+        "m1": "40.8%"
+      },
+      {
+        "p": {
+          "name": "CenterMask : Real-Time Anchor-Free Instance Segmentation",
+          "link": "https://arxiv.org/abs/1911.06667v6"
+        },
+        "c": "https://github.com/youngwanLEE/centermask2",
+        "n": "CenterMask + VoVNetV2-99 (single-scale)",
+        "d": "2019-11-15",
+        "m1": "40.6",
+        "m2": "62.3",
+        "m3": "44.1",
+        "m4": "20.1",
+        "m5": "42.8",
+        "m6": "57.0"
+      },
+      {
+        "p": {
+          "name": "K-Net: Towards Unified Image Segmentation",
+          "link": "https://arxiv.org/abs/2106.14855v2"
+        },
+        "c": "https://github.com/zwwwayne/k-net",
+        "n": "K-Net-N256 (ResNet-101)",
+        "d": "2021-06-28",
+        "m1": "40.6%",
+        "m2": "63.3",
+        "m4": "18.8",
+        "m5": "43.3",
+        "m6": "59"
+      },
+      {
+        "p": {
+          "name": "SOLO: Segmenting Objects by Locations",
+          "link": "https://arxiv.org/abs/1912.04488v3"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
+        "n": "SOLO(Res-DCN-101-FPN)",
+        "d": "2019-12-10",
+        "m1": "40.4",
+        "m2": "62.7",
+        "m3": "43.3",
+        "m4": "17.6",
+        "m5": "43.3",
+        "m6": "58.9"
+      },
+      {
+        "p": {
+          "name": "SOLO: Segmenting Objects by Locations",
+          "link": "https://arxiv.org/abs/1912.04488v3"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
+        "n": "SOLO (ResNet-DCN-101-FPN)",
+        "d": "2019-12-10",
+        "m1": "40.4%",
+        "m2": "62.7%",
+        "m3": "43.3%",
+        "m4": "17.6%",
+        "m5": "43.3%",
+        "m6": "58.9%"
+      },
+      {
+        "p": {
+          "name": "D2Det: Towards High Quality Object Detection and Instance Segmentation",
+          "link": "http://openaccess.thecvf.com/content_CVPR_2020/html/Cao_D2Det_Towards_High_Quality_Object_Detection_and_Instance_Segmentation_CVPR_2020_paper.html"
+        },
+        "c": "https://github.com/JialeCao001/D2Det",
+        "n": "D2Det (ResNet-101, single-scale test)",
+        "d": "2020-06-01",
+        "m1": "40.2",
+        "m2": "61.5",
+        "m3": "43.7",
+        "m4": "21.7",
+        "m5": "43.0",
+        "m6": "54.0"
+      },
+      {
+        "p": {
+          "name": "K-Net: Towards Unified Image Segmentation",
+          "link": "https://arxiv.org/abs/2106.14855v2"
+        },
+        "c": "https://github.com/zwwwayne/k-net",
+        "n": "K-Net (ResNet-101)",
+        "d": "2021-06-28",
+        "m1": "40.1%",
+        "m2": "62.8",
+        "m4": "18.7",
+        "m5": "42.7",
+        "m6": "58.8"
+      },
+      {
+        "p": {
+          "name": "ISTR: End-to-End Instance Segmentation with Transformers",
+          "link": "https://arxiv.org/abs/2105.00637v2"
+        },
+        "c": "https://github.com/hujiecpp/ISTR",
+        "n": "ISTR (ResNet101-FPN-3x, single-scale)",
+        "d": "2021-05-03",
+        "m1": "39.9%",
+        "m4": "22.8",
+        "m5": "41.9",
+        "m6": "52.3"
+      },
+      {
+        "p": {
+          "name": "Deep Occlusion-Aware Instance Segmentation with Overlapping BiLayers",
+          "link": "https://arxiv.org/abs/2103.12340v1"
+        },
+        "c": "https://github.com/lkeab/BCNet",
+        "n": "BCNet(ResNet-101-FPN + Faster RCNN)",
+        "d": "2021-03-23",
+        "m1": "39.8",
+        "m2": "61.5",
+        "m3": "43.1",
+        "m4": "22.7",
+        "m5": "42.4",
+        "m6": "51.1"
+      },
+      {
+        "p": {
+          "name": "An Energy and GPU-Computation Efficient Backbone Network for Real-Time Object Detection",
+          "link": "http://arxiv.org/abs/1904.09730v1"
+        },
+        "c": "https://github.com/osmr/imgclsmob",
+        "n": "VoVNetV1-39",
+        "d": "2019-04-22",
+        "m1": "39.7%"
+      },
+      {
+        "p": {
+          "name": "SOLQ: Segmenting Objects by Learning Queries",
+          "link": "https://arxiv.org/abs/2106.02351v3"
+        },
+        "c": "https://github.com/megvii-research/SOLQ",
+        "n": "SOLQ (ResNet50, single scale)",
+        "d": "2021-06-04",
+        "m1": "39.7"
+      },
+      {
+        "p": {
+          "name": "Mask Scoring R-CNN",
+          "link": "http://arxiv.org/abs/1903.00241v1"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
+        "n": "MS R-CNN + ResNet-101 DCN + FPN ",
+        "d": "2019-03-01",
+        "m1": "39.6%"
+      },
+      {
+        "p": {
+          "name": "CenterMask : Real-Time Anchor-Free Instance Segmentation",
+          "link": "https://arxiv.org/abs/1911.06667v6"
+        },
+        "c": "https://github.com/youngwanLEE/centermask2",
+        "n": "CenterMask + X101-32x8d (single-scale)",
+        "d": "2019-11-15",
+        "m1": "39.6",
+        "m2": "61.2",
+        "m3": "42.9",
+        "m4": "19.7"
+      },
+      {
+        "p": {
+          "name": "Deep Occlusion-Aware Instance Segmentation with Overlapping BiLayers",
+          "link": "https://arxiv.org/abs/2103.12340v1"
+        },
+        "c": "https://github.com/lkeab/BCNet",
+        "n": "BCNet(ResNet-101-FPN + FCOS)",
+        "d": "2021-03-23",
+        "m1": "39.6",
+        "m2": "61.2",
+        "m3": "42.7",
+        "m4": "22.3",
+        "m5": "42.3",
+        "m6": "51.0"
+      },
+      {
+        "p": {
+          "name": "InstaBoost: Boosting Instance Segmentation via Probability Map Guided Copy-Pasting",
+          "link": "https://arxiv.org/abs/1908.07801v1"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
+        "n": "Cascade R-CNN (ResNet-101-FPN, map-guided)",
+        "d": "2019-08-21",
+        "m1": "39.5%",
+        "m2": "61.4%",
+        "m3": "42.9%",
+        "m4": "21.2%",
+        "m5": "42.5%",
+        "m6": "52.1%"
+      },
+      {
+        "p": {
+          "name": "Commonality-Parsing Network across Shape and Appearance for Partially Supervised Instance Segmentation",
+          "link": "https://arxiv.org/abs/2007.12387v1"
+        },
+        "c": "https://github.com/fanq15/FewX",
+        "n": "CPMask",
+        "d": "2020-07-24",
+        "m1": "39.2",
+        "m2": "60.8",
+        "m3": "42.2",
+        "m4": "22.2",
+        "m5": "41.8",
+        "m6": "50.1"
+      },
+      {
+        "p": {
+          "name": "MogaNet: Multi-order Gated Aggregation Network",
+          "link": "https://arxiv.org/abs/2211.03295v3"
+        },
+        "c": "https://github.com/chengtan9907/OpenSTL",
+        "n": "MogaNet-T (Mask R-CNN 1x)",
+        "d": "2022-11-07",
+        "m1": "39.1"
+      },
+      {
+        "p": {
+          "name": "PolarMask++: Enhanced Polar Representation for Single-Shot Instance Segmentation and Beyond",
+          "link": "https://arxiv.org/abs/2105.02184v1"
+        },
+        "c": "https://github.com/xieenze/PolarMask",
+        "n": "PolarMask++ (ResNeXt-101-DCN)",
+        "d": "2021-05-05",
+        "m1": "38.7",
+        "m2": "64.1",
+        "m3": "40.0",
+        "m4": "22.2",
+        "m5": "40.2",
+        "m6": "52.0"
+      },
+      {
+        "p": {
+          "name": "ISDA: Position-Aware Instance Segmentation with Deformable Attention",
+          "link": "https://arxiv.org/abs/2202.12251v1"
+        },
+        "c": "https://github.com/yingkaining/isda",
+        "n": "ISDA (ours)",
+        "d": "2022-02-23",
+        "m1": "38.7",
+        "m2": "62",
+        "m3": "41.1",
+        "m4": "17",
+        "m5": "41.2"
+      },
+      {
+        "p": {
+          "name": "ISTR: End-to-End Instance Segmentation with Transformers",
+          "link": "https://arxiv.org/abs/2105.00637v2"
+        },
+        "c": "https://github.com/hujiecpp/ISTR",
+        "n": "ISTR (ResNet50-FPN-3x, single-scale)",
+        "d": "2021-05-03",
+        "m1": "38.6%",
+        "m4": "22.1",
+        "m5": "40.4",
+        "m6": "50.6"
+      },
+      {
+        "p": {
+          "name": "CenterMask : Real-Time Anchor-Free Instance Segmentation",
+          "link": "https://arxiv.org/abs/1911.06667v6"
+        },
+        "c": "https://github.com/youngwanLEE/centermask2",
+        "n": "CenterMask + ResNet-101-FPN",
+        "d": "2019-11-15",
+        "m1": "38.3"
+      },
+      {
+        "p": {
+          "name": "MaskLab: Instance Segmentation by Refining Object Detection with Semantic and Direction Features",
+          "link": "http://arxiv.org/abs/1712.04837v1"
+        },
+        "c": "",
+        "n": "MaskLab+ (ResNet-101, JFT)",
+        "d": "2017-12-13",
+        "m1": "38.1%"
+      },
+      {
+        "p": {
+          "name": "SipMask: Spatial Information Preservation for Fast Image and Video Instance Segmentation",
+          "link": "https://arxiv.org/abs/2007.14772v1"
+        },
+        "c": "https://github.com/JialeCao001/SipMask",
+        "n": "SipMask (ResNet-101, single-scale test)",
+        "d": "2020-07-29",
+        "m1": "38.1",
+        "m2": "60.2",
+        "m3": "40.8",
+        "m4": "17.8",
+        "m5": "40.8",
+        "m6": "54.3"
+      },
+      {
+        "p": {
+          "name": "EmbedMask: Embedding Coupling for One-stage Instance Segmentation",
+          "link": "https://arxiv.org/abs/1912.01954v2"
+        },
+        "c": "https://github.com/yinghdb/EmbedMask",
+        "n": "EmbedMask (ResNet-101-FPN)",
+        "d": "2019-12-04",
+        "m1": "37.7%",
+        "m2": "59.1%",
+        "m3": "40.3%",
+        "m4": "17.9%",
+        "m5": "40.4%",
+        "m6": "53%"
+      },
+      {
+        "p": {
+          "name": "EmbedMask: Embedding Coupling for One-stage Instance Segmentation",
+          "link": "https://arxiv.org/abs/1912.01954v2"
+        },
+        "c": "https://github.com/yinghdb/EmbedMask",
+        "n": "EmbedMask(R-101-FPN)",
+        "d": "2019-12-04",
+        "m1": "37.7",
+        "m2": "59.1",
+        "m3": "40.3",
+        "m4": "17.9",
+        "m5": "40.4"
+      },
+      {
+        "p": {
+          "name": "MogaNet: Multi-order Gated Aggregation Network",
+          "link": "https://arxiv.org/abs/2211.03295v3"
+        },
+        "c": "https://github.com/chengtan9907/OpenSTL",
+        "n": "MogaNet-XT",
+        "d": "2022-11-07",
+        "m1": "37.6"
+      },
+      {
+        "p": {
+          "name": "TensorMask: A Foundation for Dense Object Segmentation",
+          "link": "https://arxiv.org/abs/1903.12174v2"
+        },
+        "c": "https://github.com/facebookresearch/detectron2/tree/master/projects/TensorMask",
+        "n": "TensorMask (ResNet-101-FPN)",
+        "d": "2019-03-28",
+        "m1": "37.3%"
+      },
+      {
+        "p": {
+          "name": "Mask R-CNN",
+          "link": "http://arxiv.org/abs/1703.06870v3"
+        },
+        "c": "https://github.com/tensorflow/models/tree/master/official/vision",
+        "n": "Mask R-CNN (ResNeXt-101-FPN)",
+        "d": "2017-03-20",
+        "m1": "37.1",
+        "m2": "60.0",
+        "m3": "39.4",
+        "m4": "16.9",
+        "m5": "39.9",
+        "m6": "53.5"
+      },
+      {
+        "p": {
+          "name": "DiffusionInst: Diffusion Model for Instance Segmentation",
+          "link": "https://arxiv.org/abs/2212.02773v3"
+        },
+        "c": "https://github.com/chenhaoxing/DiffusionInst",
+        "n": "DiffusionInst-ResNet50",
+        "d": "2022-12-06",
+        "m1": "37.1"
+      },
+      {
+        "p": {
+          "name": "VirTex: Learning Visual Representations from Textual Annotations",
+          "link": "https://arxiv.org/abs/2006.06666v3"
+        },
+        "c": "https://github.com/kdexd/virtex",
+        "n": "VirTex Mask R-CNN (ResNet-50-FPN)",
+        "d": "2020-06-11",
+        "m1": "36.9",
+        "m2": "58.4",
+        "m3": "39.7"
+      },
+      {
+        "p": {
+          "name": "RDSNet: A New Deep Architecture for Reciprocal Object Detection and Instance Segmentation",
+          "link": "https://arxiv.org/abs/1912.05070v1"
+        },
+        "c": "https://github.com/wangsr126/RDSNet",
+        "n": "RDSNet (data aug)",
+        "d": "2019-12-11",
+        "m1": "36.4%",
+        "m2": "57.9%",
+        "m3": "39.0%",
+        "m4": "16.4%",
+        "m5": "39.5%",
+        "m6": "51.6%"
+      },
+      {
+        "p": {
+          "name": "MogaNet: Multi-order Gated Aggregation Network",
+          "link": "https://arxiv.org/abs/2211.03295v3"
+        },
+        "c": "https://github.com/chengtan9907/OpenSTL",
+        "n": "MogaNet-T",
+        "d": "2022-11-07",
+        "m1": "35.8"
+      },
+      {
+        "p": {
+          "name": "Architecture-Agnostic Masked Image Modeling -- From ViT back to CNN",
+          "link": "https://arxiv.org/abs/2205.13943v4"
+        },
+        "c": "https://github.com/open-mmlab/mmpretrain",
+        "n": "A2MIM (ResNet-50 2x)",
+        "d": "2022-05-27",
+        "m1": "34.9"
+      },
+      {
+        "p": {
+          "name": "E2EC: An End-to-End Contour-based Method for High-Quality High-Speed Instance Segmentation",
+          "link": "https://arxiv.org/abs/2203.04074v1"
+        },
+        "c": "https://github.com/zhang-tao-whu/e2ec",
+        "n": "E2EC DLA-34",
+        "d": "2022-03-08",
+        "m1": "33.8",
+        "m2": "52.9",
+        "m3": "35.9"
+      },
+      {
+        "p": {
+          "name": "Fully Convolutional Instance-aware Semantic Segmentation",
+          "link": "http://arxiv.org/abs/1611.07709v2"
+        },
+        "c": "https://github.com/divamgupta/image-segmentation-keras",
+        "n": "FCIS+++  +OHEM",
+        "d": "2016-11-23",
+        "m1": "33.6%",
+        "m2": "54.5%"
+      },
+      {
+        "p": {
+          "name": "torchdistill: A Modular, Configuration-Driven Framework for Knowledge Distillation",
+          "link": "https://arxiv.org/abs/2011.12913v2"
+        },
+        "c": "https://github.com/yoshitomo-matsubara/torchdistill",
+        "n": "Mask R-CNN (Bottleneck-injected ResNet-50, FPN)",
+        "d": "2020-11-25",
+        "m1": "33.6"
+      },
+      {
+        "p": {
+          "name": "PolarMask: Single Shot Instance Segmentation with Polar Representation",
+          "link": "https://arxiv.org/abs/1909.13226v4"
+        },
+        "c": "https://github.com/xieenze/PolarMask",
+        "n": "PolarMask (ResNeXt-101-FPN)",
+        "d": "2019-09-29",
+        "m1": "32.9%",
+        "m2": "55.4%",
+        "m3": "33.8%",
+        "m4": "15.5%",
+        "m5": "35.1%",
+        "m6": "46.3%"
+      },
+      {
+        "p": {
+          "name": "PolarMask: Single Shot Instance Segmentation with Polar Representation",
+          "link": "https://arxiv.org/abs/1909.13226v4"
+        },
+        "c": "https://github.com/xieenze/PolarMask",
+        "n": "PolarMask (ResNet-101-FPN)",
+        "d": "2019-09-29",
+        "m1": "30.4%",
+        "m2": "51.9%",
+        "m3": "31%",
+        "m4": "13.4%",
+        "m5": "32.4%",
+        "m6": "42.8%"
+      },
+      {
+        "p": {
+          "name": "YOLACT: Real-time Instance Segmentation",
+          "link": "https://arxiv.org/abs/1904.02689v2"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
+        "n": "YOLACT (ResNet-50-FPN)",
+        "d": "2019-04-04",
+        "m1": "29.8%"
+      },
+      {
+        "p": {
+          "name": "Fully Convolutional Instance-aware Semantic Segmentation",
+          "link": "http://arxiv.org/abs/1611.07709v2"
+        },
+        "c": "https://github.com/divamgupta/image-segmentation-keras",
+        "n": "FCIS  +OHEM",
+        "d": "2016-11-23",
+        "m1": "29.2%",
+        "m2": "49.5%",
+        "m4": "7.1%",
+        "m5": "31.3%",
+        "m6": "50.0%"
+      },
+      {
+        "p": {
+          "name": "A MultiPath Network for Object Detection",
+          "link": "http://arxiv.org/abs/1604.02135v2"
+        },
+        "c": "https://github.com/facebookresearch/multipathnet",
+        "n": "MultiPath Network",
+        "d": "2016-04-07",
+        "m1": "25.0%"
+      },
+      {
+        "p": {
+          "name": "InternImage: Exploring Large-Scale Vision Foundation Models with Deformable Convolutions",
+          "link": "https://arxiv.org/abs/2211.05778v4"
+        },
+        "c": "https://github.com/opengvlab/internimage",
+        "n": "InternImage-H",
+        "d": "2022-11-10",
+        "m2": "80.8",
+        "m3": "62.2",
+        "m4": "41.0",
+        "m5": "58.9",
+        "m6": "70.3"
+      },
+      {
+        "p": {
+          "name": "ResNeSt: Split-Attention Networks",
+          "link": "https://arxiv.org/abs/2004.08955v2"
+        },
+        "c": "https://github.com/rwightman/pytorch-image-models",
+        "n": "ResNeSt-200 (multi-scale)",
+        "d": "2020-04-19",
+        "m2": "70.2",
+        "m3": "51.5",
+        "m4": "30.0",
+        "m5": "49.6",
+        "m6": "60.6"
+      },
+      {
+        "p": {
+          "name": "CenterMask : Real-Time Anchor-Free Instance Segmentation",
+          "link": "https://arxiv.org/abs/1911.06667v6"
+        },
+        "c": "https://github.com/youngwanLEE/centermask2",
+        "n": "CenterMask + VoVNetV2-99 (multi-scale)",
+        "d": "2019-11-15",
+        "m2": "66.2",
+        "m3": "47.4",
+        "m4": "27.2"
+      },
+      {
+        "p": {
+          "name": "CenterMask : Real-Time Anchor-Free Instance Segmentation",
+          "link": "https://arxiv.org/abs/1911.06667v6"
+        },
+        "c": "https://github.com/youngwanLEE/centermask2",
+        "n": "CenterMask + VoVNetV2-57 (single-scale)",
+        "d": "2019-11-15",
+        "m2": "60.8",
+        "m4": "19.4",
+        "m5": "41.7"
+      },
+      {
+        "p": {
+          "name": "Instance-aware Semantic Segmentation via Multi-task Network Cascades",
+          "link": "http://arxiv.org/abs/1512.04412v1"
+        },
+        "c": "https://github.com/daijifeng001/MNC",
+        "n": "MNC",
+        "d": "2015-12-14",
+        "m2": "44.3%"
+      },
+      {
+        "p": {
+          "name": "ISDA: Position-Aware Instance Segmentation with Deformable Attention",
+          "link": "https://arxiv.org/abs/2202.12251v1"
+        },
+        "c": "https://github.com/yingkaining/isda",
+        "n": "ISDA (ResNet-50)",
+        "d": "2022-02-23",
+        "m6": "55.7"
+      }
+    ]
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "title": "visual-social-relationship-recognition-on-pipa",
+  "task-hierarchy": [
+    "Scene Understanding",
+    "Visual Social Relationship Recognition"
+  ],
+  "dataset-info": {
+    "link": "",
+    "paper": "A Domain Based Approach to Social Relation Recognition"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Accuracy (domain)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "SocialGPT: Prompting LLMs for Social Relation Reasoning via Greedy Segment Optimization",
+          "link": "https://arxiv.org/abs/2410.21411v1"
+        },
+        "c": "https://github.com/mengzibin/socialgpt",
+        "n": "SocialGPT",
+        "d": "2024-10-28",
+        "m1": "66.7"
+      },
+      {
+        "p": {
+          "name": "Graph-Based Social Relation Reasoning",
+          "link": "https://arxiv.org/abs/2007.07453v3"
+        },
+        "c": "https://github.com/Li-Wanhua/GR2N",
+        "n": "GR2N",
+        "d": "2020-07-15",
+        "m1": "64.3",
+        "m2": "72.3"
+      },
+      {
+        "p": {
+          "name": "Deep Reasoning with Knowledge Graph for Social Relationship Understanding",
+          "link": "http://arxiv.org/abs/1807.00504v1"
+        },
+        "c": "https://github.com/HCPLab-SYSU/SR",
+        "n": "GRM",
+        "d": "2018-07-02",
+        "m1": "62.3"
+      },
+      {
+        "p": {
+          "name": "Dual-Glance Model for Deciphering Social Relationships",
+          "link": "http://arxiv.org/abs/1708.00634v1"
+        },
+        "c": "https://github.com/HCPLab-SYSU/SR",
+        "n": "Dual-Glance",
+        "d": "2017-08-02",
+        "m1": "59.6"
+      },
+      {
+        "p": {
+          "name": "Dual-Glance Model for Deciphering Social Relationships",
+          "link": "http://arxiv.org/abs/1708.00634v1"
+        },
+        "c": "https://github.com/HCPLab-SYSU/SR",
+        "n": "Pair CNN",
+        "d": "2017-08-02",
+        "m1": "58.0",
+        "m2": "65.9"
+      },
+      {
+        "p": {
+          "name": "A Domain Based Approach to Social Relation Recognition",
+          "link": "http://arxiv.org/abs/1704.06456v1"
+        },
+        "c": "https://github.com/HCPLab-SYSU/SR",
+        "n": "All attributes + SVM",
+        "d": "2017-04-21",
+        "m1": "57.2",
+        "m2": "67.8"
+      }
+    ]
+  }
+}

@@ -1,0 +1,365 @@
+{
+  "title": "conversational-response-selection-on-ubuntu-dialogue-v1-ranking",
+  "task-hierarchy": [
+    "Dialogue",
+    "Conversational Response Selection"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/npow/ubottu",
+    "paper": "The Ubuntu Dialogue Corpus: A Large Dataset for Research in Unstructured Multi-Turn Dialogue Systems"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "R10@1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "R10@2",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "R10@5",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "R2@1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Dial-MAE: ConTextual Masked Auto-Encoder for Retrieval-based Dialogue Systems",
+          "link": "https://arxiv.org/abs/2306.04357v5"
+        },
+        "c": "https://github.com/suu990901/Dial-MAE",
+        "n": "Dial-MAE",
+        "d": "2023-06-07",
+        "m1": "0.918",
+        "m2": "0.964",
+        "m3": "0.993"
+      },
+      {
+        "p": {
+          "name": "Efficient Dynamic Hard Negative Sampling for Dialogue Selection",
+          "link": "https://aclanthology.org/2024.nlp4convai-1.6"
+        },
+        "c": "https://github.com/hanjanghoon/EDHNS",
+        "n": "BERT-FP+EDHNS",
+        "d": "2024-08-16",
+        "m1": "0.917",
+        "m2": "0.965",
+        "m3": "0.994"
+      },
+      {
+        "p": {
+          "name": "Uni-Encoder: A Fast and Accurate Response Selection Paradigm for Generation-Based Dialogue Systems",
+          "link": "https://arxiv.org/abs/2106.01263v5"
+        },
+        "c": "https://github.com/dll-wu/uni-encoder",
+        "n": "Uni-Enc+BERT-FP",
+        "d": "2021-06-02",
+        "m1": "0.916",
+        "m2": "0.965",
+        "m3": "0.994"
+      },
+      {
+        "p": {
+          "name": "Fine-grained Post-training for Improving Retrieval-based Dialogue Systems",
+          "link": "https://aclanthology.org/2021.naacl-main.122"
+        },
+        "c": "https://github.com/hanjanghoon/BERT_FP",
+        "n": "BERT-FP",
+        "d": "2021-05-24",
+        "m1": "0.911",
+        "m2": "0.962",
+        "m3": "0.994"
+      },
+      {
+        "p": {
+          "name": "Uni-Encoder: A Fast and Accurate Response Selection Paradigm for Generation-Based Dialogue Systems",
+          "link": "https://arxiv.org/abs/2106.01263v5"
+        },
+        "c": "https://github.com/dll-wu/uni-encoder",
+        "n": "Uni-Encoder",
+        "d": "2021-06-02",
+        "m1": "0.886",
+        "m2": "0.946",
+        "m3": "0.989"
+      },
+      {
+        "p": {
+          "name": "Small Changes Make Big Differences: Improving Multi-turn Response Selection in Dialogue Systems via Fine-Grained Contrastive Learning",
+          "link": "https://arxiv.org/abs/2111.10154v2"
+        },
+        "c": "",
+        "n": "BERT-UMS+FGC",
+        "d": "2021-11-19",
+        "m1": "0.886",
+        "m2": "0.948",
+        "m3": "0.990"
+      },
+      {
+        "p": {
+          "name": "Learning an Effective Context-Response Matching Model with Self-Supervised Tasks for Retrieval-based Dialogues",
+          "link": "https://arxiv.org/abs/2009.06265v1"
+        },
+        "c": "",
+        "n": "BERT-SL",
+        "d": "2020-09-14",
+        "m1": "0.884",
+        "m2": "0.946",
+        "m3": "0.990",
+        "m4": "0.975"
+      },
+      {
+        "p": {
+          "name": "Poly-encoders: Transformer Architectures and Pre-training Strategies for Fast and Accurate Multi-sentence Scoring",
+          "link": "https://arxiv.org/abs/1905.01969v4"
+        },
+        "c": "https://github.com/sfzhou5678/PolyEncoder",
+        "n": "Poly-encoder",
+        "d": "2019-04-22",
+        "m1": "0.882",
+        "m2": "0.949",
+        "m3": "0.990"
+      },
+      {
+        "p": {
+          "name": "Do Response Selection Models Really Know What's Next? Utterance Manipulation Strategies for Multi-turn Response Selection",
+          "link": "https://arxiv.org/abs/2009.04703v2"
+        },
+        "c": "https://github.com/taesunwhang/UMS-ResSel",
+        "n": "UMS_BERT+",
+        "d": "2020-09-10",
+        "m1": "0.875",
+        "m2": "0.942",
+        "m3": "0.988"
+      },
+      {
+        "p": {
+          "name": "An Effective Domain Adaptive Post-Training Method for BERT in Response Selection",
+          "link": "https://arxiv.org/abs/1908.04812v2"
+        },
+        "c": "https://github.com/taesunwhang/BERT-ResSel",
+        "n": "BERT-VFT",
+        "d": "2019-08-13",
+        "m1": "0.855",
+        "m2": "0.928",
+        "m3": "0.985"
+      },
+      {
+        "p": {
+          "name": "Speaker-Aware BERT for Multi-Turn Response Selection in Retrieval-Based Chatbots",
+          "link": "https://arxiv.org/abs/2004.03588v2"
+        },
+        "c": "https://github.com/JasonForJoy/BERT-for-Response-Selection",
+        "n": "SA-BERT",
+        "d": "2020-04-07",
+        "m1": "0.855",
+        "m2": "0.928",
+        "m3": "0.983",
+        "m4": "0.965"
+      },
+      {
+        "p": {
+          "name": "Response Ranking with Multi-types of Deep Interactive Representations in Retrieval-based Dialogues",
+          "link": "https://dl.acm.org/doi/abs/10.1145/3462207"
+        },
+        "c": "https://github.com/RayXu14/WDMN",
+        "n": "WDMN",
+        "d": "2021-08-17",
+        "m1": "0.821",
+        "m2": "0.911",
+        "m3": "0.981",
+        "m4": "0.957"
+      },
+      {
+        "p": {
+          "name": "Multi-hop Selector Network for Multi-turn Response Selection in Retrieval-based Chatbots",
+          "link": "https://aclanthology.org/D19-1011"
+        },
+        "c": "https://github.com/chunyuanY/Dialogue",
+        "n": "MSN",
+        "d": "2019-11-01",
+        "m1": "0.800",
+        "m2": "0.899",
+        "m3": "0.978"
+      },
+      {
+        "p": {
+          "name": "Sequential Attention-based Network for Noetic End-to-End Response Selection",
+          "link": "https://arxiv.org/abs/1901.02609v3"
+        },
+        "c": "https://github.com/alibaba/esim-response-selection",
+        "n": "ESIM",
+        "d": "2019-01-09",
+        "m1": "0.796",
+        "m2": "0.894",
+        "m3": "0.975"
+      },
+      {
+        "p": {
+          "name": "One Time of Interaction May Not Be Enough: Go Deep with an Interaction-over-Interaction Network for Response Selection in Dialogues",
+          "link": "https://aclanthology.org/P19-1001"
+        },
+        "c": "https://github.com/chongyangtao/IOI",
+        "n": "IoI-local",
+        "d": "2019-07-01",
+        "m1": "0.796",
+        "m2": "0.894",
+        "m3": "0.974",
+        "m4": "0.947"
+      },
+      {
+        "p": {
+          "name": "Interactive Matching Network for Multi-Turn Response Selection in Retrieval-Based Chatbots",
+          "link": "https://arxiv.org/abs/1901.01824v2"
+        },
+        "c": "https://github.com/JasonForJoy/IMN",
+        "n": "IMN",
+        "d": "2019-01-07",
+        "m1": "0.794",
+        "m2": "0.889",
+        "m3": "0.974",
+        "m4": "0.946"
+      },
+      {
+        "p": {
+          "name": "TripleNet: Triple Attention Network for Multi-Turn Response Selection in Retrieval-based Chatbots",
+          "link": "https://arxiv.org/abs/1909.10666v2"
+        },
+        "c": "",
+        "n": "TripleNet",
+        "d": "2019-09-24",
+        "m1": "0.790",
+        "m2": "0.885",
+        "m3": "0.970",
+        "m4": "0.943"
+      },
+      {
+        "p": {
+          "name": "Sampling Matters! An Empirical Study of Negative Sampling Strategies for Learning of Matching Models in Retrieval-based Dialogue Systems",
+          "link": "https://aclanthology.org/D19-1128"
+        },
+        "c": "",
+        "n": "DAM-Semi",
+        "d": "2019-11-01",
+        "m1": "0.785",
+        "m2": "0.883",
+        "m3": "0.974",
+        "m4": "0.944"
+      },
+      {
+        "p": {
+          "name": "Multi-Turn Response Selection for Chatbots with Deep Attention Matching Network",
+          "link": "https://aclanthology.org/P18-1103"
+        },
+        "c": "https://github.com/baidu/Dialogue",
+        "n": "DAM",
+        "d": "2018-07-01",
+        "m1": "0.767",
+        "m2": "0.874",
+        "m3": "0.969",
+        "m4": "0.938"
+      },
+      {
+        "p": {
+          "name": "Multi-Granularity Representations of Dialog",
+          "link": "https://arxiv.org/abs/1908.09890v1"
+        },
+        "c": "",
+        "n": "DAM-MG",
+        "d": "2019-08-26",
+        "m1": "0.753",
+        "m4": "0.935"
+      },
+      {
+        "p": {
+          "name": "Modeling Multi-turn Conversation with Deep Utterance Aggregation",
+          "link": "http://arxiv.org/abs/1806.09102v2"
+        },
+        "c": "https://github.com/cooelf/DeepUtteranceAggregation",
+        "n": "DUA",
+        "d": "2018-06-24",
+        "m1": "0.752",
+        "m2": "0.868",
+        "m3": "0.962"
+      },
+      {
+        "p": {
+          "name": "Sequential Matching Network: A New Architecture for Multi-turn Response Selection in Retrieval-based Chatbots",
+          "link": "http://arxiv.org/abs/1612.01627v2"
+        },
+        "c": "https://github.com/MarkWuNLP/MultiTurnResponseSelection",
+        "n": "SMN",
+        "d": "2016-12-06",
+        "m1": "0.726",
+        "m2": "0.822",
+        "m3": "0.960",
+        "m4": "0.926"
+      },
+      {
+        "p": {
+          "name": "Multi-view Response Selection for Human-Computer Conversation",
+          "link": "https://aclanthology.org/D16-1036"
+        },
+        "c": "",
+        "n": "Multi-View",
+        "d": "2016-11-01",
+        "m1": "0.662",
+        "m2": "0.801",
+        "m3": "0.951",
+        "m4": "0.908"
+      },
+      {
+        "p": {
+          "name": "Improved Deep Learning Baselines for Ubuntu Corpus Dialogs",
+          "link": "http://arxiv.org/abs/1510.03753v2"
+        },
+        "c": "",
+        "n": "Dual-BiLSTM",
+        "d": "2015-10-13",
+        "m1": "0.630",
+        "m2": "0.780",
+        "m3": "0.944",
+        "m4": "0.895"
+      },
+      {
+        "p": {
+          "name": "The Ubuntu Dialogue Corpus: A Large Dataset for Research in Unstructured Multi-Turn Dialogue Systems",
+          "link": "http://arxiv.org/abs/1506.08909v3"
+        },
+        "c": "https://github.com/facebookresearch/ParlAI",
+        "n": "Dual-LSTM",
+        "d": "2015-06-30",
+        "m1": "0.604",
+        "m2": "0.745",
+        "m3": "0.926",
+        "m4": "0.878"
+      }
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "title": "2d-human-pose-estimation-on-jhmdb-2d-poses-only",
+  "task-hierarchy": [
+    "Pose Estimation",
+    "2D Pose Estimation",
+    "2D Human Pose Estimation"
+  ],
+  "dataset-info": {
+    "link": "http://jhmdb.is.tue.mpg.de/",
+    "paper": "Towards Understanding Action Recognition"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "PCK",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "DeciWatch: A Simple Baseline for 10x Efficient 2D and 3D Pose Estimation",
+          "link": "https://arxiv.org/abs/2203.08713v2"
+        },
+        "c": "https://github.com/cure-lab/DeciWatch",
+        "n": "DeciWatch",
+        "d": "2022-03-16",
+        "m1": "98.8"
+      },
+      {
+        "p": {
+          "name": "Poseidon: A ViT-based Architecture for Multi-Frame Pose Estimation with Adaptive Frame Weighting and Multi-Scale Feature Fusion",
+          "link": "https://arxiv.org/abs/2501.08446v1"
+        },
+        "c": "https://github.com/CesareDavidePace/poseidon",
+        "n": "Poseidon",
+        "d": "2025-01-14",
+        "m1": "97.3"
+      },
+      {
+        "p": {
+          "name": "Simple Baselines for Human Pose Estimation and Tracking",
+          "link": "http://arxiv.org/abs/1804.06208v2"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleDetection",
+        "n": "SimplePose",
+        "d": "2018-04-17",
+        "m1": "94.4"
+      },
+      {
+        "p": {
+          "name": "Dynamic Kernel Distillation for Efficient Pose Estimation in Videos",
+          "link": "https://arxiv.org/abs/1908.09216v1"
+        },
+        "c": "",
+        "n": "DKD (ResNet50)",
+        "d": "2019-08-24",
+        "m1": "94.0"
+      },
+      {
+        "p": {
+          "name": "LSTM Pose Machines",
+          "link": "http://arxiv.org/abs/1712.06316v4"
+        },
+        "c": "https://github.com/lawy623/LSTM_Pose_Machines",
+        "n": "LSTM PM",
+        "d": "2017-12-18",
+        "m1": "93.6"
+      }
+    ]
+  }
+}

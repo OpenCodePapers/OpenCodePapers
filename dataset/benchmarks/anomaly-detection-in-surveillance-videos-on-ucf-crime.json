@@ -1,0 +1,285 @@
+{
+  "title": "anomaly-detection-in-surveillance-videos-on-ucf-crime",
+  "task-hierarchy": [
+    "Anomaly Detection",
+    "Video Anomaly Detection",
+    "Anomaly Detection In Surveillance Videos"
+  ],
+  "dataset-info": {
+    "link": "https://www.crcv.ucf.edu/research/real-world-anomaly-detection-in-surveillance-videos/",
+    "paper": "Real-world Anomaly Detection in Surveillance Videos"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "ROC AUC",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Decidability",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "EER",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "AUC",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "DAMS:Dual-Branch Adaptive Multiscale Spatiotemporal Framework for Video Anomaly Detection",
+          "link": "https://arxiv.org/abs/2507.20629"
+        },
+        "c": "",
+        "n": "DAMS",
+        "d": "2025-07-28",
+        "m1": "94.67"
+      },
+      {
+        "p": {
+          "name": "STEAD: Spatio-Temporal Efficient Anomaly Detection for Time and Compute Sensitive Applications",
+          "link": "https://arxiv.org/abs/2503.07942v1"
+        },
+        "c": "https://github.com/agao8/STEAD",
+        "n": "STEAD-Base",
+        "d": "2025-03-11",
+        "m1": "91.34"
+      },
+      {
+        "p": {
+          "name": "MTFL: Multi-Timescale Feature Learning for Weakly-Supervised Anomaly Detection in Surveillance Videos",
+          "link": "https://arxiv.org/abs/2410.05900v1"
+        },
+        "c": "https://github.com/erktkdg/MTFL",
+        "n": "MTFL (VST, finetuned on VADD)",
+        "d": "2024-10-08",
+        "m1": "89.78"
+      },
+      {
+        "p": {
+          "name": "STEAD: Spatio-Temporal Efficient Anomaly Detection for Time and Compute Sensitive Applications",
+          "link": "https://arxiv.org/abs/2503.07942v1"
+        },
+        "c": "https://github.com/agao8/STEAD",
+        "n": "STEAD-Fast",
+        "d": "2025-03-11",
+        "m1": "88.87"
+      },
+      {
+        "p": {
+          "name": "BatchNorm-based Weakly Supervised Video Anomaly Detection",
+          "link": "https://arxiv.org/abs/2311.15367v1"
+        },
+        "c": "https://github.com/cool-xuan/bn-wvad",
+        "n": "BN-WVAD",
+        "d": "2023-11-26",
+        "m1": "87.24"
+      },
+      {
+        "p": {
+          "name": "MTFL: Multi-Timescale Feature Learning for Weakly-Supervised Anomaly Detection in Surveillance Videos",
+          "link": "https://arxiv.org/abs/2410.05900v1"
+        },
+        "c": "https://github.com/erktkdg/MTFL",
+        "n": "MTFL (VST)",
+        "d": "2024-10-08",
+        "m1": "87.16"
+      },
+      {
+        "p": {
+          "name": "ProDisc-VAD: An Efficient System for Weakly-Supervised Anomaly Detection in Video Surveillance Applications",
+          "link": "https://arxiv.org/abs/2505.02179v1"
+        },
+        "c": "https://github.com/modadundun/ProDisc-VAD",
+        "n": "ProDisc-VAD",
+        "d": "2025-05-04",
+        "m1": "87.12"
+      },
+      {
+        "p": {
+          "name": "MGFN: Magnitude-Contrastive Glance-and-Focus Network for Weakly-Supervised Video Anomaly Detection",
+          "link": "https://arxiv.org/abs/2211.15098v1"
+        },
+        "c": "https://github.com/carolchenyx/mgfn",
+        "n": "MGFN",
+        "d": "2022-11-28",
+        "m1": "86.98"
+      },
+      {
+        "p": {
+          "name": "Learning Prompt-Enhanced Context Features for Weakly-Supervised Video Anomaly Detection",
+          "link": "https://arxiv.org/abs/2306.14451v2"
+        },
+        "c": "https://github.com/yujiangpu20/pel4vad",
+        "n": "PEL",
+        "d": "2023-06-26",
+        "m1": "86.76"
+      },
+      {
+        "p": {
+          "name": "Self-supervised Sparse Representation for Video Anomaly Detection",
+          "link": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136730727.pdf"
+        },
+        "c": "https://github.com/louisYen/S3R",
+        "n": "S3R",
+        "d": "2022-10-23",
+        "m1": "85.99"
+      },
+      {
+        "p": {
+          "name": "Localizing Anomalies from Weakly-Labeled Videos",
+          "link": "https://arxiv.org/abs/2008.08944v3"
+        },
+        "c": "https://github.com/ktr-hubrt/WSAL",
+        "n": "WSAL",
+        "d": "2020-08-20",
+        "m1": "85.38"
+      },
+      {
+        "p": {
+          "name": "Contrastive-Regularized U-Net for Video Anomaly Detection",
+          "link": "https://ieeexplore.ieee.org/abstract/document/10098744/"
+        },
+        "c": "",
+        "n": "CR-UNet",
+        "d": "2023-04-11",
+        "m1": "85.24"
+      },
+      {
+        "p": {
+          "name": "A multi-stream deep neural network with late fuzzy fusion for real-world anomaly detection",
+          "link": "https://doi.org/10.1016/j.eswa.2022.117030"
+        },
+        "c": "",
+        "n": "Multi-stream Network with Late Fuzzy Fusion",
+        "d": "2022-03-27",
+        "m1": "84.48"
+      },
+      {
+        "p": {
+          "name": "Weakly-supervised Video Anomaly Detection with Robust Temporal Feature Magnitude Learning",
+          "link": "https://arxiv.org/abs/2101.10030v3"
+        },
+        "c": "https://github.com/tianyu0207/RTFM",
+        "n": "RTFM",
+        "d": "2021-01-25",
+        "m1": "84.03"
+      },
+      {
+        "p": {
+          "name": "MIST: Multiple Instance Self-Training Framework for Video Anomaly Detection",
+          "link": "https://arxiv.org/abs/2104.01633v1"
+        },
+        "c": "https://github.com/fjchange/MIST_VAD",
+        "n": "MIST",
+        "d": "2021-04-04",
+        "m1": "82.30"
+      },
+      {
+        "p": {
+          "name": "Anomalous Event Recognition in Videos Based on Joint Learningof Motion and Appearance with Multiple Ranking Measures",
+          "link": "https://doi.org/10.3390/app11031344"
+        },
+        "c": "",
+        "n": "DMRMs",
+        "d": "2021-02-02",
+        "m1": "81.91",
+        "m2": "",
+        "m3": ""
+      },
+      {
+        "p": {
+          "name": "Multiple Instance-Based Video Anomaly Detection using Deep Temporal Encoding-Decoding",
+          "link": "https://arxiv.org/abs/2007.01548v2"
+        },
+        "c": "https://github.com/AmmarKamoona/Multiple-Instance-Based-Video-Anomaly-Detection-Using-Deep-Temporal-Encoding-Decoding",
+        "n": "Multiple-Instance-Based-Video-Anomaly-Detection-Using-Deep-Temporal-Encoding-Decoding",
+        "d": "2020-07-03",
+        "m1": "80.10",
+        "m2": "",
+        "m3": ""
+      },
+      {
+        "p": {
+          "name": "MULDE: Multiscale Log-Density Estimation via Denoising Score Matching for Video Anomaly Detection",
+          "link": "https://arxiv.org/abs/2403.14497v1"
+        },
+        "c": "https://github.com/jakubmicorek/MULDE-Multiscale-Log-Density-Estimation-via-Denoising-Score-Matching-for-Video-Anomaly-Detection",
+        "n": "MULDE-frame-centric-micro-one-class-classification",
+        "d": "2024-03-21",
+        "m1": "78.5%"
+      },
+      {
+        "p": {
+          "name": "3D ResNet with Ranking Loss Function for Abnormal Activity Detection in Videos",
+          "link": "https://arxiv.org/abs/2002.01132v1"
+        },
+        "c": "",
+        "n": "MILR",
+        "d": "2020-02-04",
+        "m1": "76.67",
+        "m2": "",
+        "m3": ""
+      },
+      {
+        "p": {
+          "name": "Weakly and Partially Supervised Learning Frameworks for Anomaly Detection",
+          "link": "https://www.researchgate.net/publication/350580836_Weakly_and_Partially_Supervised_Learning_Frameworks_for_Anomaly_Detection"
+        },
+        "c": "https://github.com/DegardinBruno/human_self_learning_anomaly",
+        "n": "GMM-based",
+        "d": "2020-07-23",
+        "m1": "75.90",
+        "m2": "0.885",
+        "m3": "0.302"
+      },
+      {
+        "p": {
+          "name": "Real-world Anomaly Detection in Surveillance Videos",
+          "link": "http://arxiv.org/abs/1801.04264v3"
+        },
+        "c": "https://github.com/WaqasSultani/AnomalyDetectionCVPR2018",
+        "n": "Sultani et al.",
+        "d": "2018-01-12",
+        "m1": "75.41",
+        "m2": "0.613",
+        "m3": "0.353"
+      },
+      {
+        "p": {
+          "name": "Distilling Aggregated Knowledge for Weakly-Supervised Video Anomaly Detection",
+          "link": "https://arxiv.org/abs/2406.02831v2"
+        },
+        "c": "",
+        "n": "DAKD (Weakly-supervised)",
+        "d": "2024-06-05",
+        "m4": "88.34"
+      }
+    ]
+  }
+}

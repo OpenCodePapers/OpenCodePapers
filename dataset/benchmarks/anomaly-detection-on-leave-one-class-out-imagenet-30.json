@@ -1,0 +1,98 @@
+{
+  "title": "anomaly-detection-on-leave-one-class-out-imagenet-30",
+  "task-hierarchy": [
+    "Anomaly Detection"
+  ],
+  "dataset-info": {
+    "link": "",
+    "paper": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AUROC",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Exposing Outlier Exposure: What Can Be Learned From Few, One, and Zero Outlier Images",
+          "link": "https://arxiv.org/abs/2205.11474v2"
+        },
+        "c": "https://github.com/liznerski/eoe",
+        "n": "BCE-CLIP (OE)",
+        "d": "2022-05-23",
+        "m1": "99.3"
+      },
+      {
+        "p": {
+          "name": "Exposing Outlier Exposure: What Can Be Learned From Few, One, and Zero Outlier Images",
+          "link": "https://arxiv.org/abs/2205.11474v2"
+        },
+        "c": "https://github.com/liznerski/eoe",
+        "n": "CLIP (zero shot)",
+        "d": "2022-05-23",
+        "m1": "97.8"
+      },
+      {
+        "p": {
+          "name": "Exposing Outlier Exposure: What Can Be Learned From Few, One, and Zero Outlier Images",
+          "link": "https://arxiv.org/abs/2205.11474v2"
+        },
+        "c": "https://github.com/liznerski/eoe",
+        "n": "DSAD",
+        "d": "2022-05-23",
+        "m1": "88.8"
+      },
+      {
+        "p": {
+          "name": "Exposing Outlier Exposure: What Can Be Learned From Few, One, and Zero Outlier Images",
+          "link": "https://arxiv.org/abs/2205.11474v2"
+        },
+        "c": "https://github.com/liznerski/eoe",
+        "n": "HSC (OE)",
+        "d": "2022-05-23",
+        "m1": "88.3"
+      },
+      {
+        "p": {
+          "name": "Exposing Outlier Exposure: What Can Be Learned From Few, One, and Zero Outlier Images",
+          "link": "https://arxiv.org/abs/2205.11474v2"
+        },
+        "c": "https://github.com/liznerski/eoe",
+        "n": "Binary Cross Entropy (OE)",
+        "d": "2022-05-23",
+        "m1": "88.2"
+      },
+      {
+        "p": {
+          "name": "Exposing Outlier Exposure: What Can Be Learned From Few, One, and Zero Outlier Images",
+          "link": "https://arxiv.org/abs/2205.11474v2"
+        },
+        "c": "https://github.com/liznerski/eoe",
+        "n": "DSVDD",
+        "d": "2022-05-23",
+        "m1": "49.7"
+      }
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "title": "image-classification-on-food-101n",
+  "task-hierarchy": [
+    "Image Classification"
+  ],
+  "dataset-info": {
+    "link": "https://kuanghuei.github.io/Food-101N/",
+    "paper": "CleanNet: Transfer Learning for Scalable Image Classifier Training with Label Noise"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Label-Retrieval-Augmented Diffusion Models for Learning from Noisy Labels",
+          "link": "https://arxiv.org/abs/2305.19518v2"
+        },
+        "c": "https://github.com/puar-playground/lra-diffusion",
+        "n": "LRA-diffusion (CLIP ViT)",
+        "d": "2023-05-31",
+        "m1": "93.42"
+      },
+      {
+        "p": {
+          "name": "CleanNet: Transfer Learning for Scalable Image Classifier Training with Label Noise",
+          "link": "http://arxiv.org/abs/1711.07131v2"
+        },
+        "c": "https://github.com/kuanghuei/clean-net",
+        "n": "CleanNet",
+        "d": "2017-11-20",
+        "m1": "90.39"
+      },
+      {
+        "p": {
+          "name": "SURE: SUrvey REcipes for building reliable and robust deep networks",
+          "link": "https://arxiv.org/abs/2403.00543v1"
+        },
+        "c": "https://github.com/YutingLi0606/SURE",
+        "n": "SURE(ResNet-50)",
+        "d": "2024-03-01",
+        "m1": "88.0"
+      },
+      {
+        "p": {
+          "name": "LongReMix: Robust Learning with High Confidence Samples in a Noisy Label Environment",
+          "link": "https://arxiv.org/abs/2103.04173v2"
+        },
+        "c": "https://github.com/filipe-research/LongReMix",
+        "n": "LongReMix",
+        "d": "2021-03-06",
+        "m1": "87.39%"
+      }
+    ]
+  }
+}

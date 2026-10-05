@@ -1,0 +1,88 @@
+{
+  "title": "domain-adaptation-on-panoptic-synthia-to-mapillary",
+  "task-hierarchy": [
+    "Domain Adaptation"
+  ],
+  "dataset-info": {
+    "link": "",
+    "paper": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mPQ",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "MC-PanDA: Mask Confidence for Panoptic Domain Adaptation",
+          "link": "https://arxiv.org/abs/2407.14110v1"
+        },
+        "c": "https://github.com/helen1c/mc-panda",
+        "n": "MC-PanDA",
+        "d": "2024-07-19",
+        "m1": "38.7"
+      },
+      {
+        "p": {
+          "name": "EDAPS: Enhanced Domain-Adaptive Panoptic Segmentation",
+          "link": "https://arxiv.org/abs/2304.14291v2"
+        },
+        "c": "https://github.com/susaha/edaps",
+        "n": "EDAPS",
+        "d": "2023-04-27",
+        "m1": "36.6"
+      },
+      {
+        "p": {
+          "name": "Cross-View Regularization for Domain Adaptive Panoptic Segmentation",
+          "link": "https://arxiv.org/abs/2103.02584v1"
+        },
+        "c": "https://github.com/jxhuang0508/CVRN",
+        "n": "CVRN",
+        "d": "2021-03-03",
+        "m1": "21.3"
+      },
+      {
+        "p": {
+          "name": "FDA: Fourier Domain Adaptation for Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2004.05498v1"
+        },
+        "c": "https://github.com/albumentations-team/albumentations",
+        "n": "FDA",
+        "d": "2020-04-11",
+        "m1": "19.1"
+      },
+      {
+        "p": {
+          "name": "ADVENT: Adversarial Entropy Minimization for Domain Adaptation in Semantic Segmentation",
+          "link": "http://arxiv.org/abs/1811.12833v2"
+        },
+        "c": "https://github.com/thuml/Transfer-Learning-Library",
+        "n": "ADVENT",
+        "d": "2018-11-30",
+        "m1": "18.3"
+      }
+    ]
+  }
+}

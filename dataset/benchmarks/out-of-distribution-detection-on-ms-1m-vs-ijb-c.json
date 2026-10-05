@@ -1,0 +1,78 @@
+{
+  "title": "out-of-distribution-detection-on-ms-1m-vs-ijb-c",
+  "task-hierarchy": [
+    "Out-of-Distribution Detection"
+  ],
+  "dataset-info": {
+    "link": "",
+    "paper": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AUROC",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Feature Space Singularity for Out-of-Distribution Detection",
+          "link": "https://arxiv.org/abs/2011.14654v2"
+        },
+        "c": "https://github.com/megvii-research/FSSD_OoD_Detection",
+        "n": "ResNeXt50 + FSSD",
+        "d": "2020-11-30",
+        "m1": "86.7"
+      },
+      {
+        "p": {
+          "name": "A Simple Unified Framework for Detecting Out-of-Distribution Samples and Adversarial Attacks",
+          "link": "http://arxiv.org/abs/1807.03888v2"
+        },
+        "c": "https://github.com/pokaxpoka/deep_Mahalanobis_detector",
+        "n": "ResNeXt 50 + Maha distance",
+        "d": "2018-07-10",
+        "m1": "82.5"
+      },
+      {
+        "p": {
+          "name": "Enhancing The Reliability of Out-of-distribution Image Detection in Neural Networks",
+          "link": "https://arxiv.org/abs/1706.02690v5"
+        },
+        "c": "https://github.com/facebookresearch/odin",
+        "n": "ResNeXt 50 + ODIN",
+        "d": "2017-06-08",
+        "m1": "61.3"
+      },
+      {
+        "p": {
+          "name": "Outlier Exposure with Confidence Control for Out-of-Distribution Detection",
+          "link": "https://arxiv.org/abs/1906.03509v4"
+        },
+        "c": "https://github.com/nazim1021/OOD-detection-using-OECC",
+        "n": "ResNeXt 50 + OE",
+        "d": "2019-06-08",
+        "m1": "52.6"
+      }
+    ]
+  }
+}

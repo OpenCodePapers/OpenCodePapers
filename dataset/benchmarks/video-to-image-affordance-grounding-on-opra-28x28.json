@@ -1,0 +1,97 @@
+{
+  "title": "video-to-image-affordance-grounding-on-opra-28x28",
+  "task-hierarchy": [
+    "Human-Object Interaction",
+    "Video-to-image Affordance Grounding"
+  ],
+  "dataset-info": {
+    "link": "https://sites.google.com/view/demo2vec/",
+    "paper": "Demo2Vec: Reasoning Object Affordances From Online Videos"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "KLD",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "SIM",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "AUC-J",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Affordance Grounding from Demonstration Video to Target Image",
+          "link": "https://arxiv.org/abs/2303.14644v1"
+        },
+        "c": "https://github.com/showlab/afformer",
+        "n": "Afformer",
+        "d": "2023-03-26",
+        "m1": "1.05",
+        "m2": "0.53",
+        "m3": "0.89"
+      },
+      {
+        "p": {
+          "name": "Demo2Vec: Reasoning Object Affordances From Online Videos",
+          "link": "http://openaccess.thecvf.com/content_cvpr_2018/html/Fang_Demo2Vec_Reasoning_Object_CVPR_2018_paper.html"
+        },
+        "c": "",
+        "n": "Demo2Vec",
+        "d": "2018-06-01",
+        "m1": "1.20",
+        "m2": "0.48",
+        "m3": "0.85"
+      },
+      {
+        "p": {
+          "name": "Learning Visual Affordance Grounding from Demonstration Videos",
+          "link": "https://arxiv.org/abs/2108.05675v1"
+        },
+        "c": "",
+        "n": "HAG-Net (+Hand Box)",
+        "d": "2021-08-12",
+        "m1": "1.41",
+        "m2": "0.37",
+        "m3": "0.81"
+      },
+      {
+        "p": {
+          "name": "Grounded Human-Object Interaction Hotspots from Video",
+          "link": "http://arxiv.org/abs/1812.04558v2"
+        },
+        "c": "https://github.com/Tushar-N/interaction-hotspots",
+        "n": "Hotspot",
+        "d": "2018-12-11",
+        "m1": "1.47",
+        "m2": "0.36",
+        "m3": "0.81"
+      }
+    ]
+  }
+}

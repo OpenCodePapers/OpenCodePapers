@@ -1,0 +1,134 @@
+{
+  "title": "personality-recognition-in-conversation-on-cped",
+  "task-hierarchy": [
+    "Text Classification",
+    "Personality Recognition",
+    "Personality Recognition in Conversation"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/scutcyr/CPED",
+    "paper": "CPED: A Large-Scale Chinese Personalized and Emotional Dialogue Dataset for Conversational AI"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy (%)",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Macro-F1",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Accuracy of Neurotism",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Accuracy of Extraversion",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "Accuracy of Openness",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "Accuracy of Agreeableness",
+        "sortable": "true"
+      },
+      {
+        "key": "m7",
+        "label": "Accuracy of Conscientiousness",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "CPED: A Large-Scale Chinese Personalized and Emotional Dialogue Dataset for Conversational AI",
+          "link": "https://arxiv.org/abs/2205.14727v1"
+        },
+        "c": "https://github.com/scutcyr/CPED",
+        "n": "BERT$_{ssenet}^{c}$",
+        "d": "2022-05-29",
+        "m1": "67.25",
+        "m2": "74.08",
+        "m3": "53.27",
+        "m4": "78.21",
+        "m5": "55.42",
+        "m6": "85.89",
+        "m7": "63.48"
+      },
+      {
+        "p": {
+          "name": "CPED: A Large-Scale Chinese Personalized and Emotional Dialogue Dataset for Conversational AI",
+          "link": "https://arxiv.org/abs/2205.14727v1"
+        },
+        "c": "https://github.com/scutcyr/CPED",
+        "n": "BERT$^{s}$",
+        "d": "2022-05-29",
+        "m1": "67.23",
+        "m2": "72.93",
+        "m3": "50.75",
+        "m4": "78.08",
+        "m5": "57.93",
+        "m6": "85.76",
+        "m7": "63.60"
+      },
+      {
+        "p": {
+          "name": "CPED: A Large-Scale Chinese Personalized and Emotional Dialogue Dataset for Conversational AI",
+          "link": "https://arxiv.org/abs/2205.14727v1"
+        },
+        "c": "https://github.com/scutcyr/CPED",
+        "n": "BERT$^{c}$",
+        "d": "2022-05-29",
+        "m1": "66.32",
+        "m2": "72.69",
+        "m3": "55.29",
+        "m4": "78.08",
+        "m5": "53.90",
+        "m6": "80.98",
+        "m7": "63.35"
+      },
+      {
+        "p": {
+          "name": "CPED: A Large-Scale Chinese Personalized and Emotional Dialogue Dataset for Conversational AI",
+          "link": "https://arxiv.org/abs/2205.14727v1"
+        },
+        "c": "https://github.com/scutcyr/CPED",
+        "n": "BERT$_{senet}^{c}$",
+        "d": "2022-05-29",
+        "m1": "66.02",
+        "m2": "71.89",
+        "m3": "53.4",
+        "m4": "77.71",
+        "m5": "55.42",
+        "m6": "81.99",
+        "m7": "61.59"
+      }
+    ]
+  }
+}

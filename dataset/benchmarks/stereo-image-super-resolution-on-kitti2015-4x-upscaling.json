@@ -1,0 +1,129 @@
+{
+  "title": "stereo-image-super-resolution-on-kitti2015-4x-upscaling",
+  "task-hierarchy": [
+    "Super-Resolution",
+    "Stereo Image Super-Resolution"
+  ],
+  "dataset-info": {
+    "link": "http://www.cvlibs.net/datasets/kitti/",
+    "paper": "Object Scene Flow for Autonomous Vehicles"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "PSNR",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "NAFSSR: Stereo Image Super-Resolution Using NAFNet",
+          "link": "https://arxiv.org/abs/2204.08714v2"
+        },
+        "c": "https://github.com/megvii-research/NAFNet",
+        "n": "NAFSSR-L",
+        "d": "2022-04-19",
+        "m1": "26.96"
+      },
+      {
+        "p": {
+          "name": "NAFSSR: Stereo Image Super-Resolution Using NAFNet",
+          "link": "https://arxiv.org/abs/2204.08714v2"
+        },
+        "c": "https://github.com/megvii-research/NAFNet",
+        "n": "NAFSSR-B",
+        "d": "2022-04-19",
+        "m1": "26.91"
+      },
+      {
+        "p": {
+          "name": "SwinFIR: Revisiting the SwinIR with Fast Fourier Convolution and Improved Training for Image Super-Resolution",
+          "link": "https://arxiv.org/abs/2208.11247v3"
+        },
+        "c": "https://github.com/Zdafeng/SwinFIR",
+        "n": "SwinFIRSSR",
+        "d": "2022-08-24",
+        "m1": "26.89"
+      },
+      {
+        "p": {
+          "name": "Learning Optimal Combination Patterns for Lightweight Stereo Image Super-Resolution",
+          "link": "https://dl.acm.org/doi/abs/10.1145/3664647.3680816"
+        },
+        "c": "",
+        "n": "LSSR",
+        "d": "2024-10-28",
+        "m1": "26.87"
+      },
+      {
+        "p": {
+          "name": "Learning Accurate and Enriched Features for Stereo Image Super-Resolution",
+          "link": "https://arxiv.org/abs/2406.16001v1"
+        },
+        "c": "https://github.com/Tombs98/MSSFNet",
+        "n": "MSSFNet",
+        "d": "2024-06-23",
+        "m1": "26.82"
+      },
+      {
+        "p": {
+          "name": "Feedback Network for Mutually Boosted Stereo Image Super-Resolution and Disparity Estimation",
+          "link": "https://arxiv.org/abs/2106.00985v1"
+        },
+        "c": "https://github.com/MIVRC/SSRDEFNet-PyTorch",
+        "n": "SSRDE-FNet",
+        "d": "2021-06-02",
+        "m1": "26.43"
+      },
+      {
+        "p": {
+          "name": "Symmetric Parallax Attention for Stereo Image Super-Resolution",
+          "link": "https://arxiv.org/abs/2011.03802v2"
+        },
+        "c": "https://github.com/YingqianWang/iPASSR",
+        "n": "iPASSR",
+        "d": "2020-11-07",
+        "m1": "26.32"
+      },
+      {
+        "p": {
+          "name": "Learning Parallax Attention for Stereo Image Super-Resolution",
+          "link": "http://arxiv.org/abs/1903.05784v3"
+        },
+        "c": "https://github.com/LongguangWang/PASSRnet",
+        "n": "PASSRnet",
+        "d": "2019-03-14",
+        "m1": "26.08"
+      },
+      {
+        "p": {
+          "name": "Enhancing the Spatial Resolution of Stereo Images Using a Parallax Prior",
+          "link": "http://openaccess.thecvf.com/content_cvpr_2018/html/Jeon_Enhancing_the_Spatial_CVPR_2018_paper.html"
+        },
+        "c": "",
+        "n": "StereoSR",
+        "d": "2018-06-01",
+        "m1": "24.21"
+      }
+    ]
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "title": "robot-navigation-on-habitat-2020-object-nav-test-std",
+  "task-hierarchy": [
+    "Robotics",
+    "Robot Navigation"
+  ],
+  "dataset-info": {
+    "link": "",
+    "paper": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "SPL",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "SOFT_SPL",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "DISTANCE_TO_GOAL",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "SUCCESS",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "",
+        "c": "",
+        "n": "THDA",
+        "d": "",
+        "m1": "0.08513",
+        "m2": "0.17955",
+        "m3": "9.00594",
+        "m4": "0.2018"
+      },
+      {
+        "p": {
+          "name": "Auxiliary Tasks and Exploration Enable ObjectNav",
+          "link": "https://arxiv.org/abs/2104.04112v2"
+        },
+        "c": "https://github.com/joel99/objectnav",
+        "n": "6-Act Tether",
+        "d": "2021-04-08",
+        "m1": "0.08378",
+        "m2": "0.1655",
+        "m3": "9.14796",
+        "m4": "0.21082"
+      },
+      {
+        "p": "",
+        "c": "",
+        "n": "SRCB-robot-sudoer",
+        "d": "",
+        "m1": "0.07489",
+        "m2": "0.168",
+        "m3": "9.57815",
+        "m4": "0.14423"
+      },
+      {
+        "p": {
+          "name": "Object Goal Navigation using Goal-Oriented Semantic Exploration",
+          "link": "https://arxiv.org/abs/2007.00643v2"
+        },
+        "c": "https://github.com/devendrachaplot/Object-Goal-Navigation",
+        "n": "SemExp",
+        "d": "2020-07-01",
+        "m1": "0.07073",
+        "m2": "0.14506",
+        "m3": "8.81774",
+        "m4": "0.17854"
+      },
+      {
+        "p": "",
+        "c": "",
+        "n": "Active Exploration (Pre-explore  )",
+        "d": "",
+        "m1": "0.04066",
+        "m2": "0.16988",
+        "m3": "9.46067",
+        "m4": "0.08869"
+      },
+      {
+        "p": {
+          "name": "DD-PPO: Learning Near-Perfect PointGoal Navigators from 2.5 Billion Frames",
+          "link": "https://arxiv.org/abs/1911.00357v2"
+        },
+        "c": "https://github.com/ray-project/ray/tree/master/rllib",
+        "n": "RGBD+DD-PPO",
+        "d": "2019-11-01",
+        "m1": "0.02119",
+        "m2": "0.14718",
+        "m3": "9.31617",
+        "m4": "0.06165"
+      },
+      {
+        "p": "",
+        "c": "",
+        "n": "RL_20_torch_18",
+        "d": "",
+        "m1": "0.02057",
+        "m2": "0.12975",
+        "m3": "9.27135",
+        "m4": "0.05001"
+      },
+      {
+        "p": "",
+        "c": "",
+        "n": "Blue Ox",
+        "d": "",
+        "m1": "0.01698",
+        "m2": "0.13565",
+        "m3": "8.90277",
+        "m4": "0.06048"
+      },
+      {
+        "p": "",
+        "c": "",
+        "n": "Forward_Only",
+        "d": "",
+        "m1": "0.0",
+        "m2": "0.04449",
+        "m3": "10.52278",
+        "m4": "0.0"
+      },
+      {
+        "p": "",
+        "c": "",
+        "n": "Black Sheep",
+        "d": "",
+        "m1": "0.0",
+        "m2": "0.02865",
+        "m3": "10.32282",
+        "m4": "0.0"
+      },
+      {
+        "p": "",
+        "c": "",
+        "n": "RandomAgent",
+        "d": "",
+        "m1": "0.0",
+        "m2": "0.00883",
+        "m3": "10.32975",
+        "m4": "0.0"
+      },
+      {
+        "p": "",
+        "c": "",
+        "n": "Objects In Mirror Are Closer Than They Appear",
+        "d": "",
+        "m1": "0.0",
+        "m2": "0.00841",
+        "m3": "10.3153",
+        "m4": "0.0"
+      },
+      {
+        "p": "",
+        "c": "",
+        "n": "Casa",
+        "d": "",
+        "m1": "0.0",
+        "m2": "9e-05",
+        "m3": "10.32131",
+        "m4": "0.0"
+      }
+    ]
+  }
+}

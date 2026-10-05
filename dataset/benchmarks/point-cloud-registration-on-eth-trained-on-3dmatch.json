@@ -1,0 +1,248 @@
+{
+  "title": "point-cloud-registration-on-eth-trained-on-3dmatch",
+  "task-hierarchy": [
+    "Point Cloud Analysis",
+    "Point Cloud Registration"
+  ],
+  "dataset-info": {
+    "link": "",
+    "paper": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Feature Matching Recall",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Recall (30cm, 5 degrees)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Learning general and distinctive 3D local deep descriptors for point cloud registration",
+          "link": "https://arxiv.org/abs/2105.10382v3"
+        },
+        "c": "https://github.com/fabiopoiesi/gedi",
+        "n": "GeDi",
+        "d": "2021-05-21",
+        "m1": "0.982",
+        "m2": "86.54"
+      },
+      {
+        "p": {
+          "name": "Distinctive 3D local deep descriptors",
+          "link": "https://arxiv.org/abs/2009.00258v2"
+        },
+        "c": "https://github.com/fabiopoiesi/gedi",
+        "n": "DIP",
+        "d": "2020-09-01",
+        "m1": "0.928",
+        "m2": "62.41"
+      },
+      {
+        "p": {
+          "name": "SpinNet: Learning a General Surface Descriptor for 3D Point Cloud Registration",
+          "link": "https://arxiv.org/abs/2011.12149v2"
+        },
+        "c": "https://github.com/QingyongHu/SpinNet",
+        "n": "SpinNet",
+        "d": "2020-11-24",
+        "m1": "0.928",
+        "m2": "73.07"
+      },
+      {
+        "p": {
+          "name": "The Perfect Match: 3D Point Cloud Matching with Smoothed Densities",
+          "link": "https://arxiv.org/abs/1811.06879v3"
+        },
+        "c": "https://github.com/zgojcic/3DSmoothNet",
+        "n": "PerfectMatch",
+        "d": "2018-11-16",
+        "m1": "0.790"
+      },
+      {
+        "p": {
+          "name": "Challenging the Universal Representation of Deep Models for 3D Point Cloud Registration",
+          "link": "https://arxiv.org/abs/2211.16301v1"
+        },
+        "c": "https://github.com/davidboja/greedy-grid-search",
+        "n": "Greedy Grid Search",
+        "d": "2022-11-29",
+        "m1": "0.784"
+      },
+      {
+        "p": {
+          "name": "End-to-End Learning Local Multi-view Descriptors for 3D Point Clouds",
+          "link": "https://arxiv.org/abs/2003.05855v2"
+        },
+        "c": "https://github.com/craigleili/3DLocalMultiViewDesc",
+        "n": "LMVD",
+        "d": "2020-03-12",
+        "m1": "0.616"
+      },
+      {
+        "p": {
+          "name": "D3Feat: Joint Learning of Dense Detection and Description of 3D Local Features",
+          "link": "https://arxiv.org/abs/2003.03164v1"
+        },
+        "c": "https://github.com/XuyangBai/D3Feat",
+        "n": "D3Feat-pred",
+        "d": "2020-03-06",
+        "m1": "0.563"
+      },
+      {
+        "p": {
+          "name": "Fast Point Feature Histograms (FPFH) for 3D Registration",
+          "link": "https://ieeexplore.ieee.org/document/5152473"
+        },
+        "c": "https://github.com/isl-org/Open3D/blob/main/cpp/open3d/pipelines/registration/Feature.h",
+        "n": "FPFH",
+        "d": "2009-05-12",
+        "m1": "0.221",
+        "m2": "66.34"
+      },
+      {
+        "p": {
+          "name": "Learning Compact Geometric Features",
+          "link": "http://arxiv.org/abs/1709.05056v1"
+        },
+        "c": "https://github.com/marckhoury/CGF",
+        "n": "CGF",
+        "d": "2017-09-15",
+        "m1": "0.202"
+      },
+      {
+        "p": {
+          "name": "3DMatch: Learning Local Geometric Descriptors from RGB-D Reconstructions",
+          "link": "http://arxiv.org/abs/1603.08182v3"
+        },
+        "c": "https://github.com/andyzeng/3dmatch-toolbox",
+        "n": "3DMatch",
+        "d": "2016-03-27",
+        "m1": "0.169"
+      },
+      {
+        "p": {
+          "name": "Fully Convolutional Geometric Features",
+          "link": "https://github.com/chrischoy/FCGF"
+        },
+        "c": "https://github.com/chrischoy/FCGF",
+        "n": "FCGF",
+        "d": "2019-10-27",
+        "m1": "0.161"
+      },
+      {
+        "p": {
+          "name": "Addressing the generalization of 3D registration methods with a featureless baseline and an unbiased benchmark",
+          "link": "https://link.springer.com/article/10.1007/s00138-024-01510-w"
+        },
+        "c": "https://github.com/DavidBoja/exhaustive-grid-search",
+        "n": "Exhaustive Grid Search",
+        "d": "2024-03-23",
+        "m2": "94.25"
+      },
+      {
+        "p": {
+          "name": "SC2-PCR: A Second Order Spatial Compatibility for Efficient and Robust Point Cloud Registration",
+          "link": "http://openaccess.thecvf.com//content/CVPR2022/html/Chen_SC2-PCR_A_Second_Order_Spatial_Compatibility_for_Efficient_and_Robust_CVPR_2022_paper.html"
+        },
+        "c": "",
+        "n": "FCGF+SC2-PCR",
+        "d": "2022-01-01",
+        "m2": "92.85"
+      },
+      {
+        "p": {
+          "name": "SC2-PCR: A Second Order Spatial Compatibility for Efficient and Robust Point Cloud Registration",
+          "link": "http://openaccess.thecvf.com//content/CVPR2022/html/Chen_SC2-PCR_A_Second_Order_Spatial_Compatibility_for_Efficient_and_Robust_CVPR_2022_paper.html"
+        },
+        "c": "",
+        "n": "FPFH+SC2-PCR",
+        "d": "2022-01-01",
+        "m2": "85.41"
+      },
+      {
+        "p": {
+          "name": "You Only Hypothesize Once: Point Cloud Registration with Rotation-equivariant Descriptors",
+          "link": "https://arxiv.org/abs/2109.00182v2"
+        },
+        "c": "https://github.com/HpWang-whu/YOHO",
+        "n": "YOHO-C",
+        "d": "2021-09-01",
+        "m2": "84.85"
+      },
+      {
+        "p": {
+          "name": "You Only Hypothesize Once: Point Cloud Registration with Rotation-equivariant Descriptors",
+          "link": "https://arxiv.org/abs/2109.00182v2"
+        },
+        "c": "https://github.com/HpWang-whu/YOHO",
+        "n": "YOHO-O",
+        "d": "2021-09-01",
+        "m2": "79.94"
+      },
+      {
+        "p": {
+          "name": "PointDSC: Robust Point Cloud Registration using Deep Spatial Consistency",
+          "link": "https://arxiv.org/abs/2103.05465v1"
+        },
+        "c": "https://github.com/XuyangBai/PointDSC",
+        "n": "FCGF+PointDSC",
+        "d": "2021-03-09",
+        "m2": "77.42"
+      },
+      {
+        "p": {
+          "name": "PointDSC: Robust Point Cloud Registration using Deep Spatial Consistency",
+          "link": "https://arxiv.org/abs/2103.05465v1"
+        },
+        "c": "https://github.com/XuyangBai/PointDSC",
+        "n": "FPFH+PointDSC",
+        "d": "2021-03-09",
+        "m2": "41.94"
+      },
+      {
+        "p": {
+          "name": "GeoTransformer: Fast and Robust Point Cloud Registration with Geometric Transformer",
+          "link": "https://arxiv.org/abs/2308.03768v1"
+        },
+        "c": "https://github.com/qinzheng93/geotransformer",
+        "n": "GeoTransformer",
+        "d": "2023-07-25",
+        "m2": "4.91"
+      },
+      {
+        "p": {
+          "name": "Go-ICP: A Globally Optimal Solution to 3D ICP Point-Set Registration",
+          "link": "http://arxiv.org/abs/1605.03344v1"
+        },
+        "c": "",
+        "n": "GO-ICP",
+        "d": "2016-05-11",
+        "m2": "1.54"
+      }
+    ]
+  }
+}

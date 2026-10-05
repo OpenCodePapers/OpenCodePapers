@@ -1,0 +1,108 @@
+{
+  "title": "optical-character-recognition-ocr-on-videodb-ocr-benchmark",
+  "task-hierarchy": [
+    "Optical Character Recognition (OCR)"
+  ],
+  "dataset-info": {
+    "link": "https://docs.videodb.io/public-collections-102",
+    "paper": "Benchmarking Vision-Language Models on Optical Character Recognition in Dynamic Video Environments"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Average Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Character Error Rate (CER)",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Word Error Rate (WER)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Benchmarking Vision-Language Models on Optical Character Recognition in Dynamic Video Environments",
+          "link": "https://arxiv.org/abs/2502.06445v1"
+        },
+        "c": "https://github.com/video-db/ocr-benchmark",
+        "n": "GPT-4o",
+        "d": "2025-02-10",
+        "m1": "76.22",
+        "m2": "0.2378",
+        "m3": "0.5117"
+      },
+      {
+        "p": {
+          "name": "Benchmarking Vision-Language Models on Optical Character Recognition in Dynamic Video Environments",
+          "link": "https://arxiv.org/abs/2502.06445v1"
+        },
+        "c": "https://github.com/video-db/ocr-benchmark",
+        "n": "Gemini-1.5 Pro",
+        "d": "2025-02-10",
+        "m1": "76.13",
+        "m2": "0.2387",
+        "m3": "0.2385"
+      },
+      {
+        "p": {
+          "name": "Benchmarking Vision-Language Models on Optical Character Recognition in Dynamic Video Environments",
+          "link": "https://arxiv.org/abs/2502.06445v1"
+        },
+        "c": "https://github.com/video-db/ocr-benchmark",
+        "n": "Claude-3 Sonnet",
+        "d": "2025-02-10",
+        "m1": "67.71",
+        "m2": "0.3229",
+        "m3": "0.4663"
+      },
+      {
+        "p": {
+          "name": "Benchmarking Vision-Language Models on Optical Character Recognition in Dynamic Video Environments",
+          "link": "https://arxiv.org/abs/2502.06445v1"
+        },
+        "c": "https://github.com/video-db/ocr-benchmark",
+        "n": "RapidOCR",
+        "d": "2025-02-10",
+        "m1": "56.98",
+        "m2": "0.7620",
+        "m3": "0.4302"
+      },
+      {
+        "p": {
+          "name": "Benchmarking Vision-Language Models on Optical Character Recognition in Dynamic Video Environments",
+          "link": "https://arxiv.org/abs/2502.06445v1"
+        },
+        "c": "https://github.com/video-db/ocr-benchmark",
+        "n": "EasyOCR",
+        "d": "2025-02-10",
+        "m1": "49.30",
+        "m2": "0.5070",
+        "m3": "0.8262"
+      }
+    ]
+  }
+}

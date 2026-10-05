@@ -1,0 +1,110 @@
+{
+  "title": "open-vocabulary-attribute-detection-on-ovad-box",
+  "task-hierarchy": [
+    "Object Detection",
+    "Open Vocabulary Object Detection",
+    "Open Vocabulary Attribute Detection"
+  ],
+  "dataset-info": {
+    "link": "https://ovad-benchmark.github.io/",
+    "paper": "Open-vocabulary Attribute Detection"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mean average precision",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Multi-Grained Vision Language Pre-Training: Aligning Texts with Visual Concepts",
+          "link": "https://arxiv.org/abs/2111.08276v3"
+        },
+        "c": "https://github.com/zengyan-97/x-vlm",
+        "n": "X-VLM",
+        "d": "2021-11-16",
+        "m1": "28.0"
+      },
+      {
+        "p": {
+          "name": "BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models",
+          "link": "https://arxiv.org/abs/2301.12597v3"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "BLIP 2 (pretrained)",
+        "d": "2023-01-30",
+        "m1": "25.5"
+      },
+      {
+        "p": {
+          "name": "BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation",
+          "link": "https://arxiv.org/abs/2201.12086v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "BLIP",
+        "d": "2022-01-28",
+        "m1": "24.3"
+      },
+      {
+        "p": {
+          "name": "Open-vocabulary Attribute Detection",
+          "link": "https://arxiv.org/abs/2211.12914v2"
+        },
+        "c": "https://github.com/OVAD-Benchmark/ovad-bechmark-code",
+        "n": "OVAD-Baseline-Box",
+        "d": "2022-11-23",
+        "m1": "21.4"
+      },
+      {
+        "p": {
+          "name": "Align before Fuse: Vision and Language Representation Learning with Momentum Distillation",
+          "link": "https://arxiv.org/abs/2107.07651v2"
+        },
+        "c": "https://github.com/salesforce/lavis",
+        "n": "ALBEF",
+        "d": "2021-07-16",
+        "m1": "21.0 "
+      },
+      {
+        "p": {
+          "name": "Reproducible scaling laws for contrastive language-image learning",
+          "link": "https://arxiv.org/abs/2212.07143v2"
+        },
+        "c": "https://github.com/mlfoundations/open_clip",
+        "n": "Open CLIP ViT-B32",
+        "d": "2022-12-14",
+        "m1": "17.0"
+      },
+      {
+        "p": {
+          "name": "Learning Transferable Visual Models From Natural Language Supervision",
+          "link": "https://arxiv.org/abs/2103.00020v1"
+        },
+        "c": "https://github.com/openai/CLIP",
+        "n": "CLIP VIT-B16",
+        "d": "2021-02-26",
+        "m1": "16.6"
+      }
+    ]
+  }
+}

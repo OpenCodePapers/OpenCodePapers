@@ -1,0 +1,79 @@
+{
+  "title": "aspect-sentiment-triplet-extraction-on-museaste",
+  "task-hierarchy": [
+    "Sentiment Analysis",
+    "Aspect Sentiment Triplet Extraction"
+  ],
+  "dataset-info": {
+    "link": "https://doi.org/10.1016/j.eswa.2024.125695",
+    "paper": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Bidirectional Machine Reading Comprehension for Aspect Sentiment Triplet Extraction",
+          "link": "https://arxiv.org/abs/2103.07665v1"
+        },
+        "c": "https://github.com/NKU-IIPLab/BMRC",
+        "n": "BMRC",
+        "d": "2021-03-13",
+        "m1": "0.568"
+      },
+      {
+        "p": {
+          "name": "A Unified Generative Framework for Aspect-Based Sentiment Analysis",
+          "link": "https://arxiv.org/abs/2106.04300v1"
+        },
+        "c": "https://github.com/yhcc/BARTABSA",
+        "n": "BARTABSA",
+        "d": "2021-06-08",
+        "m1": "0.249"
+      },
+      {
+        "p": {
+          "name": "Learning Span-Level Interactions for Aspect Sentiment Triplet Extraction",
+          "link": "https://arxiv.org/abs/2107.12214v1"
+        },
+        "c": "https://github.com/chiayewken/Span-ASTE",
+        "n": "Span-ASTE",
+        "d": "2021-07-26",
+        "m1": "0.241"
+      },
+      {
+        "p": {
+          "name": "Towards Generative Aspect-Based Sentiment Analysis",
+          "link": "https://aclanthology.org/2021.acl-short.64/"
+        },
+        "c": "https://github.com/IsakZhang/Generative-ABSA",
+        "n": "GAS",
+        "d": "2021-08-01",
+        "m1": "0.218"
+      }
+    ]
+  }
+}

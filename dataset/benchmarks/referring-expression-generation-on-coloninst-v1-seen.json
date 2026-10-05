@@ -1,0 +1,209 @@
+{
+  "title": "referring-expression-generation-on-coloninst-v1-seen",
+  "task-hierarchy": [
+    "Visual Grounding",
+    "Referring expression generation"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/ai4colonoscopy/IntelliScope",
+    "paper": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuray",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Frontiers in Intelligent Colonoscopy",
+          "link": "https://arxiv.org/abs/2410.17241v2"
+        },
+        "c": "https://github.com/ai4colonoscopy/intelliscope",
+        "n": "ColonGPT (w/ LoRA, w/o extra data)",
+        "d": "2024-10-22",
+        "m1": "99.96"
+      },
+      {
+        "p": {
+          "name": "Improved Baselines with Visual Instruction Tuning",
+          "link": "https://arxiv.org/abs/2310.03744v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "LLaVA-v1.5\n  (w/ LoRA, w/ extra data)",
+        "d": "2023-10-05",
+        "m1": "99.32"
+      },
+      {
+        "p": {
+          "name": "LLaVA-Med: Training a Large Language-and-Vision Assistant for Biomedicine in One Day",
+          "link": "https://arxiv.org/abs/2306.00890v1"
+        },
+        "c": "https://github.com/microsoft/LLaVA-Med",
+        "n": "LLaVA-Med-v1.5\n  (w/ LoRA, w/o extra data)",
+        "d": "2023-06-01",
+        "m1": "99.3"
+      },
+      {
+        "p": {
+          "name": "Mini-Gemini: Mining the Potential of Multi-modality Vision Language Models",
+          "link": "https://arxiv.org/abs/2403.18814v1"
+        },
+        "c": "https://github.com/dvlab-research/MGM",
+        "n": "MGM-2B\n  (w/o LoRA, w/ extra data)",
+        "d": "2024-03-27",
+        "m1": "98.75"
+      },
+      {
+        "p": {
+          "name": "Improved Baselines with Visual Instruction Tuning",
+          "link": "https://arxiv.org/abs/2310.03744v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "LLaVA-v1.5\n  (w/ LoRA, w/o extra data)",
+        "d": "2023-10-05",
+        "m1": "98.58"
+      },
+      {
+        "p": {
+          "name": "Mini-Gemini: Mining the Potential of Multi-modality Vision Language Models",
+          "link": "https://arxiv.org/abs/2403.18814v1"
+        },
+        "c": "https://github.com/dvlab-research/MGM",
+        "n": "MGM-2B\n  (w/o LoRA, w/o extra data)",
+        "d": "2024-03-27",
+        "m1": "98.17"
+      },
+      {
+        "p": {
+          "name": "MobileVLM : A Fast, Strong and Open Vision Language Assistant for Mobile Devices",
+          "link": "https://arxiv.org/abs/2312.16886v2"
+        },
+        "c": "https://github.com/meituan-automl/mobilevlm",
+        "n": "MobileVLM-1.7B\n  (w/ LoRA, w/ extra data)",
+        "d": "2023-12-28",
+        "m1": "97.87"
+      },
+      {
+        "p": {
+          "name": "MobileVLM : A Fast, Strong and Open Vision Language Assistant for Mobile Devices",
+          "link": "https://arxiv.org/abs/2312.16886v2"
+        },
+        "c": "https://github.com/meituan-automl/mobilevlm",
+        "n": "MobileVLM-1.7B\n  (w/o LoRA, w/ extra data)",
+        "d": "2023-12-28",
+        "m1": "97.78"
+      },
+      {
+        "p": {
+          "name": "LLaVA-Med: Training a Large Language-and-Vision Assistant for Biomedicine in One Day",
+          "link": "https://arxiv.org/abs/2306.00890v1"
+        },
+        "c": "https://github.com/microsoft/LLaVA-Med",
+        "n": "LLaVA-Med-v1.0\n  (w/o LoRA, w/o extra data)",
+        "d": "2023-06-01",
+        "m1": "97.74"
+      },
+      {
+        "p": {
+          "name": "LLaVA-Med: Training a Large Language-and-Vision Assistant for Biomedicine in One Day",
+          "link": "https://arxiv.org/abs/2306.00890v1"
+        },
+        "c": "https://github.com/microsoft/LLaVA-Med",
+        "n": "LLaVA-Med-v1.0\n  (w/o LoRA, w/ extra data)",
+        "d": "2023-06-01",
+        "m1": "97.35"
+      },
+      {
+        "p": {
+          "name": "Efficient Multimodal Learning from Data-centric Perspective",
+          "link": "https://arxiv.org/abs/2402.11530v3"
+        },
+        "c": "https://github.com/baai-dcai/bunny",
+        "n": "Bunny-v1.0-3B\n  (w/ LoRA, w/o extra data)",
+        "d": "2024-02-18",
+        "m1": "96.61"
+      },
+      {
+        "p": {
+          "name": "Efficient Multimodal Learning from Data-centric Perspective",
+          "link": "https://arxiv.org/abs/2402.11530v3"
+        },
+        "c": "https://github.com/baai-dcai/bunny",
+        "n": "Bunny-v1.0-3B\n  (w/ LoRA, w/ extra data)",
+        "d": "2024-02-18",
+        "m1": "96.02"
+      },
+      {
+        "p": {
+          "name": "MiniGPT-v2: large language model as a unified interface for vision-language multi-task learning",
+          "link": "https://arxiv.org/abs/2310.09478v3"
+        },
+        "c": "https://github.com/vision-cair/minigpt-4",
+        "n": "MiniGPT-v2\n  (w/ LoRA, w/o extra data)",
+        "d": "2023-10-14",
+        "m1": "94.69"
+      },
+      {
+        "p": {
+          "name": "LLaVA-Med: Training a Large Language-and-Vision Assistant for Biomedicine in One Day",
+          "link": "https://arxiv.org/abs/2306.00890v1"
+        },
+        "c": "https://github.com/microsoft/LLaVA-Med",
+        "n": "LLaVA-Med-v1.5\n  (w/ LoRA, w/ extra data)",
+        "d": "2023-06-01",
+        "m1": "90.4"
+      },
+      {
+        "p": {
+          "name": "MiniGPT-v2: large language model as a unified interface for vision-language multi-task learning",
+          "link": "https://arxiv.org/abs/2310.09478v3"
+        },
+        "c": "https://github.com/vision-cair/minigpt-4",
+        "n": "MiniGPT-v2\n  (w/ LoRA, w/ extra data)",
+        "d": "2023-10-14",
+        "m1": "87.65"
+      },
+      {
+        "p": {
+          "name": "Visual Instruction Tuning",
+          "link": "https://arxiv.org/abs/2304.08485v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "LLaVA-v1\n  (w/ LoRA, w/ extra data)",
+        "d": "2023-04-17",
+        "m1": "86.87"
+      },
+      {
+        "p": {
+          "name": "Visual Instruction Tuning",
+          "link": "https://arxiv.org/abs/2304.08485v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "LLaVA-v1\n  (w/ LoRA, w/o extra data)",
+        "d": "2023-04-17",
+        "m1": "84.55"
+      }
+    ]
+  }
+}

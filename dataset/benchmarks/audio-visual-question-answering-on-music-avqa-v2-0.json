@@ -1,0 +1,90 @@
+{
+  "title": "audio-visual-question-answering-on-music-avqa-v2-0",
+  "task-hierarchy": [
+    "Audio Question Answering",
+    "Audio-visual Question Answering",
+    "AUDIO-VISUAL QUESTION ANSWERING (MUSIC-AVQA-v2.0)"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/DragonLiu1995/MUSIC-AVQA-v2.0",
+    "paper": "Tackling Data Bias in MUSIC-AVQA: Crafting a Balanced Dataset for Unbiased Question-Answering"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Meerkat: Audio-Visual Large Language Model for Grounding in Space and Time",
+          "link": "https://arxiv.org/abs/2407.01851v2"
+        },
+        "c": "https://github.com/schowdhury671/meerkat",
+        "n": "Meerkat",
+        "d": "2024-07-01",
+        "m1": "79.15"
+      },
+      {
+        "p": {
+          "name": "Question-Aware Gaussian Experts for Audio-Visual Question Answering",
+          "link": "https://arxiv.org/abs/2503.04459v1"
+        },
+        "c": "https://github.com/AIM-SKKU/QA-TIGER",
+        "n": "QA-TIGER",
+        "d": "2025-03-06",
+        "m1": "76.43"
+      },
+      {
+        "p": {
+          "name": "Tackling Data Bias in MUSIC-AVQA: Crafting a Balanced Dataset for Unbiased Question-Answering",
+          "link": "https://arxiv.org/abs/2310.06238v1"
+        },
+        "c": "https://github.com/DragonLiu1995/MUSIC-AVQA-v2.0",
+        "n": "LAST-Att",
+        "d": "2023-10-10",
+        "m1": "75.44"
+      },
+      {
+        "p": {
+          "name": "Vision Transformers are Parameter-Efficient Audio-Visual Learners",
+          "link": "https://arxiv.org/abs/2212.07983v2"
+        },
+        "c": "https://github.com/GenjiB/LAVISH",
+        "n": "LAVISH",
+        "d": "2022-12-15",
+        "m1": "73.18"
+      },
+      {
+        "p": {
+          "name": "Learning to Answer Questions in Dynamic Audio-Visual Scenarios",
+          "link": "https://arxiv.org/abs/2203.14072v2"
+        },
+        "c": "https://github.com/GeWu-Lab/MUSIC-AVQA",
+        "n": "AVST",
+        "d": "2022-03-26",
+        "m1": "71.02"
+      }
+    ]
+  }
+}

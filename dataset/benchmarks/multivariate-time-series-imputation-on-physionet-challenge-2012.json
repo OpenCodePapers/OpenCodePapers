@@ -1,0 +1,134 @@
+{
+  "title": "multivariate-time-series-imputation-on-physionet-challenge-2012",
+  "task-hierarchy": [
+    "Time Series Analysis",
+    "Multivariate Time Series Imputation"
+  ],
+  "dataset-info": {
+    "link": "https://physionet.org/content/challenge-2012/1.0.0/",
+    "paper": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "MAE (10% of data as GT)",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "mse (10^-3)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "SAITS: Self-Attention-based Imputation for Time Series",
+          "link": "https://arxiv.org/abs/2202.08516v5"
+        },
+        "c": "https://github.com/WenjieDu/PyPOTS",
+        "n": "SAITS",
+        "d": "2022-02-17",
+        "m1": "0.186"
+      },
+      {
+        "p": {
+          "name": "BRITS: Bidirectional Recurrent Imputation for Time Series",
+          "link": "http://arxiv.org/abs/1805.10572v1"
+        },
+        "c": "https://github.com/WenjieDu/PyPOTS",
+        "n": "BRITS",
+        "d": "2018-05-27",
+        "m1": "0.281"
+      },
+      {
+        "p": {
+          "name": "imputeTS: Time Series Missing Value Imputation in R",
+          "link": "http://doi.org/10.32614/RJ-2017-009"
+        },
+        "c": "https://github.com/SteffenMoritz/imputeTS",
+        "n": "ImputeTS",
+        "d": "2017-06-01",
+        "m1": "0.390"
+      },
+      {
+        "p": {
+          "name": "Estimating Missing Data in Temporal Data Streams Using Multi-directional Recurrent Neural Networks",
+          "link": "http://arxiv.org/abs/1711.08742v1"
+        },
+        "c": "https://github.com/WenjieDu/PyPOTS",
+        "n": "M-RNN",
+        "d": "2017-11-23",
+        "m1": "0.451"
+      },
+      {
+        "p": {
+          "name": "Multiple imputation using chained equations: issues and guidance for practice",
+          "link": "https://doi.org/10.1002/sim.4067"
+        },
+        "c": "https://github.com/stefvanbuuren/mice",
+        "n": "MICE",
+        "d": "2010-11-30",
+        "m1": "0.634"
+      },
+      {
+        "p": {
+          "name": "Latent ODEs for Irregularly-Sampled Time Series",
+          "link": "https://arxiv.org/abs/1907.03907v1"
+        },
+        "c": "https://github.com/YuliaRubanova/latent_ode",
+        "n": "Latent ODE (ODE enc)",
+        "d": "2019-07-08",
+        "m2": "2.118"
+      },
+      {
+        "p": {
+          "name": "Latent ODEs for Irregularly-Sampled Time Series",
+          "link": "https://arxiv.org/abs/1907.03907v1"
+        },
+        "c": "https://github.com/YuliaRubanova/latent_ode",
+        "n": "Latent ODE + Poisson",
+        "d": "2019-07-08",
+        "m2": "2.789"
+      },
+      {
+        "p": {
+          "name": "Neural Ordinary Differential Equations",
+          "link": "https://arxiv.org/abs/1806.07366v5"
+        },
+        "c": "https://github.com/rtqichen/torchdiffeq",
+        "n": "Latent ODE (RNN enc.)",
+        "d": "2018-06-19",
+        "m2": "3.907"
+      },
+      {
+        "p": {
+          "name": "Neural Ordinary Differential Equations",
+          "link": "https://arxiv.org/abs/1806.07366v5"
+        },
+        "c": "https://github.com/rtqichen/torchdiffeq",
+        "n": "RNN-VAE",
+        "d": "2018-06-19",
+        "m2": "5.930"
+      }
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "title": "student-engagement-level-detection-four-class-video-classification-on-daisee",
+  "task-hierarchy": [
+    "Action Recognition",
+    "Student Engagement Level Detection (Four Class Video Classification)"
+  ],
+  "dataset-info": {
+    "link": "https://people.iith.ac.in/vineethnb/resources/daisee/index.html",
+    "paper": "DAiSEE: Towards User Engagement Recognition in the Wild"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "4-class test accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Students Engagement Level Detection in Online e-Learning Using Hybrid EfficientNetB7 Together With TCN, LSTM, and Bi-LSTM",
+          "link": "https://ieeexplore.ieee.org/document/9893134"
+        },
+        "c": "https://github.com/TasneemMohammed/Engagement-Detection-Using-Hybrid-EfficientNetB7-Together-With-TCN-LSTM-and-Bi-LSTM",
+        "n": "Hybrid EfficientNet B7 + Bi-LSTM",
+        "d": "2022-09-26",
+        "m1": "67.48%"
+      },
+      {
+        "p": {
+          "name": "Students Engagement Level Detection in Online e-Learning Using Hybrid EfficientNetB7 Together With TCN, LSTM, and Bi-LSTM",
+          "link": "https://ieeexplore.ieee.org/document/9893134"
+        },
+        "c": "https://github.com/TasneemMohammed/Engagement-Detection-Using-Hybrid-EfficientNetB7-Together-With-TCN-LSTM-and-Bi-LSTM",
+        "n": "Hybrid EfficientNet B7 + LSTM",
+        "d": "2022-09-26",
+        "m1": "66.39%"
+      },
+      {
+        "p": {
+          "name": "Students Engagement Level Detection in Online e-Learning Using Hybrid EfficientNetB7 Together With TCN, LSTM, and Bi-LSTM",
+          "link": "https://ieeexplore.ieee.org/document/9893134"
+        },
+        "c": "https://github.com/TasneemMohammed/Engagement-Detection-Using-Hybrid-EfficientNetB7-Together-With-TCN-LSTM-and-Bi-LSTM",
+        "n": "Hybrid EfficientNet B7 + TCN",
+        "d": "2022-09-26",
+        "m1": "64.67%"
+      }
+    ]
+  }
+}

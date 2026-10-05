@@ -1,0 +1,70 @@
+{
+  "title": "3d-object-detection-from-monocular-images-on-waymo-open",
+  "task-hierarchy": [
+    "Object Detection",
+    "3D Object Detection",
+    "3D Object Detection From Monocular Images"
+  ],
+  "dataset-info": {
+    "link": "https://waymo.com/open",
+    "paper": "Scalability in Perception for Autonomous Driving: Waymo Open Dataset"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "3D mAPH Vehicle (Front Camera Only)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "DEVIANT: Depth EquiVarIAnt NeTwork for Monocular 3D Object Detection",
+          "link": "https://arxiv.org/abs/2207.10758v1"
+        },
+        "c": "https://github.com/abhi1kumar/deviant",
+        "n": "DEVIANT",
+        "d": "2022-07-21",
+        "m1": "2.52"
+      },
+      {
+        "p": {
+          "name": "Geometry Uncertainty Projection Network for Monocular 3D Object Detection",
+          "link": "https://arxiv.org/abs/2107.13774v2"
+        },
+        "c": "https://github.com/supermhp/gupnet",
+        "n": "GUP Net",
+        "d": "2021-07-29",
+        "m1": "2.14"
+      },
+      {
+        "p": {
+          "name": "M3D-RPN: Monocular 3D Region Proposal Network for Object Detection",
+          "link": "https://arxiv.org/abs/1907.06038v2"
+        },
+        "c": "https://github.com/garrickbrazil/M3D-RPN",
+        "n": "M3D-RPN",
+        "d": "2019-07-13",
+        "m1": "0.65"
+      }
+    ]
+  }
+}

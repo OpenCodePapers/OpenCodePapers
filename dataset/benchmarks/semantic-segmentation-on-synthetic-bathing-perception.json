@@ -1,0 +1,88 @@
+{
+  "title": "semantic-segmentation-on-synthetic-bathing-perception",
+  "task-hierarchy": [
+    "Semantic Segmentation"
+  ],
+  "dataset-info": {
+    "link": "",
+    "paper": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mIoU",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "CMX: Cross-Modal Fusion for RGB-X Semantic Segmentation with Transformers",
+          "link": "https://arxiv.org/abs/2203.04838v5"
+        },
+        "c": "https://github.com/huaaaliu/rgbx_semantic_segmentation",
+        "n": "CMX-SRA",
+        "d": "2022-03-09",
+        "m1": "94.20"
+      },
+      {
+        "p": {
+          "name": "CMX: Cross-Modal Fusion for RGB-X Semantic Segmentation with Transformers",
+          "link": "https://arxiv.org/abs/2203.04838v5"
+        },
+        "c": "https://github.com/huaaaliu/rgbx_semantic_segmentation",
+        "n": "CMX",
+        "d": "2022-03-09",
+        "m1": "88.23"
+      },
+      {
+        "p": {
+          "name": "RTFNet: RGB-Thermal Fusion Network for Semantic Segmentation of Urban Scenes",
+          "link": "https://ieeexplore.ieee.org/abstract/document/8666745"
+        },
+        "c": "https://github.com/yuxiangsun/RTFNet",
+        "n": "RTFNet",
+        "d": "2019-03-13",
+        "m1": "87.49"
+      },
+      {
+        "p": {
+          "name": "MFNet: Towards real-time semantic segmentation for autonomous vehicles with multi-spectral scenes",
+          "link": "https://ieeexplore.ieee.org/abstract/document/8206396"
+        },
+        "c": "",
+        "n": "MFNet",
+        "d": "2017-12-14",
+        "m1": "87.25"
+      },
+      {
+        "p": {
+          "name": "SegFormer: Simple and Efficient Design for Semantic Segmentation with Transformers",
+          "link": "https://arxiv.org/abs/2105.15203v3"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "SegFormer",
+        "d": "2021-05-31",
+        "m1": "86.86"
+      }
+    ]
+  }
+}

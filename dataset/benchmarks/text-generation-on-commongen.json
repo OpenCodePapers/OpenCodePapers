@@ -1,0 +1,95 @@
+{
+  "title": "text-generation-on-commongen",
+  "task-hierarchy": [
+    "Text Generation"
+  ],
+  "dataset-info": {
+    "link": "https://inklab.usc.edu/CommonGen/",
+    "paper": "CommonGen: A Constrained Text Generation Challenge for Generative Commonsense Reasoning"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "CIDEr",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "METEOR",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "BLEU-4",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "SPICE",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "TextBox 2.0: A Text Generation Library with Pre-trained Language Models",
+          "link": "https://arxiv.org/abs/2212.13005v1"
+        },
+        "c": "https://github.com/RUCAIBox/TextBox",
+        "n": "BART (TextBox 2.0)",
+        "d": "2022-12-26",
+        "m1": "12.98",
+        "m3": "28.18",
+        "m4": "33"
+      },
+      {
+        "p": {
+          "name": "CommonGen: A Constrained Text Generation Challenge for Generative Commonsense Reasoning",
+          "link": "https://arxiv.org/abs/1911.03705v4"
+        },
+        "c": "https://github.com/INK-USC/CommonGen",
+        "n": "UniLM",
+        "d": "2019-11-09",
+        "m1": "14.92"
+      },
+      {
+        "p": {
+          "name": "The GEM Benchmark: Natural Language Generation, its Evaluation and Metrics",
+          "link": "https://arxiv.org/abs/2102.01672v3"
+        },
+        "c": "",
+        "n": "BART",
+        "d": "2021-02-02",
+        "m2": "0.301"
+      },
+      {
+        "p": {
+          "name": "The GEM Benchmark: Natural Language Generation, its Evaluation and Metrics",
+          "link": "https://arxiv.org/abs/2102.01672v3"
+        },
+        "c": "",
+        "n": "T5",
+        "d": "2021-02-02",
+        "m2": "0.291"
+      }
+    ]
+  }
+}

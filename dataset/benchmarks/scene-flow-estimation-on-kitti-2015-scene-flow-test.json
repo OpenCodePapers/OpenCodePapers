@@ -1,0 +1,111 @@
+{
+  "title": "scene-flow-estimation-on-kitti-2015-scene-flow-test",
+  "task-hierarchy": [
+    "Optical Flow Estimation",
+    "Scene Flow Estimation"
+  ],
+  "dataset-info": {
+    "link": "http://www.cvlibs.net/datasets/kitti/",
+    "paper": "Object Scene Flow for Autonomous Vehicles"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "SF-all",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Fl-all",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "D1-all",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "D2-all",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "Runtime (s)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Learning Optical Flow and Scene Flow with Bidirectional Camera-LiDAR Fusion",
+          "link": "https://arxiv.org/abs/2303.12017v2"
+        },
+        "c": "https://github.com/mcg-nju/camliflow",
+        "n": "CamLiRAFT",
+        "d": "2023-03-21",
+        "m1": "4.26"
+      },
+      {
+        "p": {
+          "name": "PWOC-3D: Deep Occlusion-Aware End-to-End Scene Flow Estimation",
+          "link": "http://arxiv.org/abs/1904.06116v1"
+        },
+        "c": "https://github.com/dfki-av/pwoc-3d",
+        "n": "PWOC-3D",
+        "d": "2019-04-12",
+        "m1": "15.69",
+        "m2": "12.96",
+        "m3": "5.13",
+        "m4": "8.46",
+        "m5": "0.13"
+      },
+      {
+        "p": {
+          "name": "Self-Supervised Multi-Frame Monocular Scene Flow",
+          "link": "https://arxiv.org/abs/2105.02216v1"
+        },
+        "c": "https://github.com/visinf/multi-mono-sf",
+        "n": "Multi-Mono-SF",
+        "d": "2021-05-05",
+        "m1": "44.04",
+        "m2": "19.54",
+        "m3": "30.78",
+        "m4": "34.41",
+        "m5": "0.063"
+      },
+      {
+        "p": {
+          "name": "Self-Supervised Monocular Scene Flow Estimation",
+          "link": "https://arxiv.org/abs/2004.04143v2"
+        },
+        "c": "https://github.com/visinf/self-mono-sf",
+        "n": "Self-Mono-SF",
+        "d": "2020-04-08",
+        "m1": "49.54",
+        "m2": "23.54",
+        "m3": "34.02",
+        "m4": "36.34",
+        "m5": "0.09"
+      }
+    ]
+  }
+}

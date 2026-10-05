@@ -1,0 +1,160 @@
+{
+  "title": "zero-shot-segmentation-on-segmentation-in-the-wild",
+  "task-hierarchy": [
+    "Semantic Segmentation",
+    "Zero-Shot Semantic Segmentation",
+    "Zero Shot Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://eval.ai/web/challenges/challenge-page/1931/overview",
+    "paper": "Generalized Decoding for Pixel, Image, and Language"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Mean AP",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Segment Anything in High Quality",
+          "link": "https://arxiv.org/abs/2306.01567v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Grounded HQ-SAM",
+        "d": "2023-06-02",
+        "m1": "49.6"
+      },
+      {
+        "p": {
+          "name": "Grounding DINO: Marrying DINO with Grounded Pre-Training for Open-Set Object Detection",
+          "link": "https://arxiv.org/abs/2303.05499v5"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Grounded-SAM",
+        "d": "2023-03-09",
+        "m1": "46.0"
+      },
+      {
+        "p": {
+          "name": "Universal Instance Perception as Object Discovery and Retrieval",
+          "link": "https://arxiv.org/abs/2303.06674v2"
+        },
+        "c": "https://github.com/MasterBin-IIAU/UNINEXT",
+        "n": "UNINEXT",
+        "d": "2023-03-12",
+        "m1": "42.1"
+      },
+      {
+        "p": {
+          "name": "Hierarchical Open-vocabulary Universal Image Segmentation",
+          "link": "https://arxiv.org/abs/2307.00764v2"
+        },
+        "c": "https://github.com/berkeley-hipie/hipie",
+        "n": "HIPIE",
+        "d": "2023-07-03",
+        "m1": "41.6"
+      },
+      {
+        "p": {
+          "name": "Side Adapter Network for Open-Vocabulary Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2302.12242v2"
+        },
+        "c": "https://github.com/mendelxu/san",
+        "n": "SAN",
+        "d": "2023-02-23",
+        "m1": "41.4"
+      },
+      {
+        "p": {
+          "name": "Open-Vocabulary Panoptic Segmentation with Text-to-Image Diffusion Models",
+          "link": "https://arxiv.org/abs/2303.04803v4"
+        },
+        "c": "https://github.com/nvlabs/odise",
+        "n": "odise",
+        "d": "2023-03-08",
+        "m1": "38.7"
+      },
+      {
+        "p": {
+          "name": "A Simple Framework for Open-Vocabulary Segmentation and Detection",
+          "link": "https://arxiv.org/abs/2303.08131v3"
+        },
+        "c": "https://github.com/microsoft/X-Decoder",
+        "n": "OpenSEED",
+        "d": "2023-03-14",
+        "m1": "36.1"
+      },
+      {
+        "p": {
+          "name": "OpenSD: Unified Open-Vocabulary Segmentation and Detection",
+          "link": "https://arxiv.org/abs/2312.06703v1"
+        },
+        "c": "",
+        "n": "OpenSD",
+        "d": "2023-12-10",
+        "m1": "35.8"
+      },
+      {
+        "p": {
+          "name": "Generalized Decoding for Pixel, Image, and Language",
+          "link": "https://arxiv.org/abs/2212.11270v1"
+        },
+        "c": "https://github.com/microsoft/X-Decoder",
+        "n": "SGinW_Team (X-Decoder-L)",
+        "d": "2022-12-21",
+        "m1": "32.2"
+      },
+      {
+        "p": {
+          "name": "Generalized Decoding for Pixel, Image, and Language",
+          "link": "https://arxiv.org/abs/2212.11270v1"
+        },
+        "c": "https://github.com/microsoft/X-Decoder",
+        "n": "SGinW_Team (X-Decoder-B)",
+        "d": "2022-12-21",
+        "m1": "27.7"
+      },
+      {
+        "p": {
+          "name": "Generalized Decoding for Pixel, Image, and Language",
+          "link": "https://arxiv.org/abs/2212.11270v1"
+        },
+        "c": "https://github.com/microsoft/X-Decoder",
+        "n": "SGinW_Team (X-Decoder-L-IN21K)",
+        "d": "2022-12-21",
+        "m1": "26.6"
+      },
+      {
+        "p": {
+          "name": "Generalized Decoding for Pixel, Image, and Language",
+          "link": "https://arxiv.org/abs/2212.11270v1"
+        },
+        "c": "https://github.com/microsoft/X-Decoder",
+        "n": "SGinW_Team (X-Decoder-T)",
+        "d": "2022-12-21",
+        "m1": "22.6"
+      }
+    ]
+  }
+}

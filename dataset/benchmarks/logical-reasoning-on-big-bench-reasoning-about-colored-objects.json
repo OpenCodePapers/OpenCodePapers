@@ -1,0 +1,128 @@
+{
+  "title": "logical-reasoning-on-big-bench-reasoning-about-colored-objects",
+  "task-hierarchy": [
+    "Logical Reasoning"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/google/BIG-bench",
+    "paper": "Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "PaLM 2 Technical Report",
+          "link": "https://arxiv.org/abs/2305.10403v3"
+        },
+        "c": "https://github.com/eternityyw/tram-benchmark",
+        "n": "PaLM 2 (few-shot, k=3, CoT)",
+        "d": "2023-05-17",
+        "m1": "91.2"
+      },
+      {
+        "p": {
+          "name": "PaLM 2 Technical Report",
+          "link": "https://arxiv.org/abs/2305.10403v3"
+        },
+        "c": "https://github.com/eternityyw/tram-benchmark",
+        "n": "PaLM 2 (few-shot, k=3, Direct)",
+        "d": "2023-05-17",
+        "m1": "61.2"
+      },
+      {
+        "p": {
+          "name": "Training Compute-Optimal Large Language Models",
+          "link": "https://arxiv.org/abs/2203.15556v1"
+        },
+        "c": "https://github.com/karpathy/llama2.c",
+        "n": "Chinchilla-70B (few-shot, k=5)",
+        "d": "2022-03-29",
+        "m1": "59.7"
+      },
+      {
+        "p": {
+          "name": "Scaling Language Models: Methods, Analysis & Insights from Training Gopher",
+          "link": "https://arxiv.org/abs/2112.11446v2"
+        },
+        "c": "https://github.com/allenai/dolma",
+        "n": "Gopher-280B (few-shot, k=5)",
+        "d": "2021-12-08",
+        "m1": "49.2"
+      },
+      {
+        "p": {
+          "name": "BloombergGPT: A Large Language Model for Finance",
+          "link": "https://arxiv.org/abs/2303.17564v3"
+        },
+        "c": "https://github.com/yangletliu/finlora",
+        "n": "PaLM 540B (few-shot, k=3)",
+        "d": "2023-03-30",
+        "m1": "38"
+      },
+      {
+        "p": {
+          "name": "BloombergGPT: A Large Language Model for Finance",
+          "link": "https://arxiv.org/abs/2303.17564v3"
+        },
+        "c": "https://github.com/yangletliu/finlora",
+        "n": "BLOOM 176B (few-shot, k=3)",
+        "d": "2023-03-30",
+        "m1": "36.8"
+      },
+      {
+        "p": {
+          "name": "BloombergGPT: A Large Language Model for Finance",
+          "link": "https://arxiv.org/abs/2303.17564v3"
+        },
+        "c": "https://github.com/yangletliu/finlora",
+        "n": "Bloomberg GPT (few-shot, k=3)",
+        "d": "2023-03-30",
+        "m1": "34.8"
+      },
+      {
+        "p": {
+          "name": "BloombergGPT: A Large Language Model for Finance",
+          "link": "https://arxiv.org/abs/2303.17564v3"
+        },
+        "c": "https://github.com/yangletliu/finlora",
+        "n": "OPT 66B (few-shot, k=3)",
+        "d": "2023-03-30",
+        "m1": "31.2"
+      },
+      {
+        "p": {
+          "name": "BloombergGPT: A Large Language Model for Finance",
+          "link": "https://arxiv.org/abs/2303.17564v3"
+        },
+        "c": "https://github.com/yangletliu/finlora",
+        "n": "GPT-NeoX (few-shot, k=3)",
+        "d": "2023-03-30",
+        "m1": "26"
+      }
+    ]
+  }
+}

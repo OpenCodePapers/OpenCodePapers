@@ -1,0 +1,266 @@
+{
+  "title": "semi-supervised-video-object-segmentation-on-mose",
+  "task-hierarchy": [
+    "Video Segmentation",
+    "Semi-Supervised Video Object Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://henghuiding.github.io/MOSE",
+    "paper": "MOSE: A New Dataset for Video Object Segmentation in Complex Scenes"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "J&F",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "J",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "F",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "FPS",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "SAM 2: Segment Anything in Images and Videos",
+          "link": "https://arxiv.org/abs/2408.00714v2"
+        },
+        "c": "https://github.com/facebookresearch/segment-anything",
+        "n": "SAM2",
+        "d": "2024-08-01",
+        "m1": "77.9"
+      },
+      {
+        "p": {
+          "name": "Putting the Object Back into Video Object Segmentation",
+          "link": "https://arxiv.org/abs/2310.12982v2"
+        },
+        "c": "https://github.com/hkchengrex/Cutie",
+        "n": "Cutie+ (base, MEGA)",
+        "d": "2023-10-19",
+        "m1": "71.7",
+        "m2": "67.6",
+        "m3": "75.8",
+        "m4": "17.9"
+      },
+      {
+        "p": {
+          "name": "Putting the Object Back into Video Object Segmentation",
+          "link": "https://arxiv.org/abs/2310.12982v2"
+        },
+        "c": "https://github.com/hkchengrex/Cutie",
+        "n": "Cutie+ (small, MEGA)",
+        "d": "2023-10-19",
+        "m1": "70.3",
+        "m2": "66.0",
+        "m3": "74.5",
+        "m4": "20.6"
+      },
+      {
+        "p": {
+          "name": "Putting the Object Back into Video Object Segmentation",
+          "link": "https://arxiv.org/abs/2310.12982v2"
+        },
+        "c": "https://github.com/hkchengrex/Cutie",
+        "n": "Cutie (base, MEGA)",
+        "d": "2023-10-19",
+        "m1": "69.9",
+        "m2": "65.8",
+        "m3": "74.1",
+        "m4": "36.4"
+      },
+      {
+        "p": {
+          "name": "Putting the Object Back into Video Object Segmentation",
+          "link": "https://arxiv.org/abs/2310.12982v2"
+        },
+        "c": "https://github.com/hkchengrex/Cutie",
+        "n": "Cutie (small, MEGA)",
+        "d": "2023-10-19",
+        "m1": "68.6",
+        "m2": "64.3",
+        "m3": "72.9",
+        "m4": "45.5"
+      },
+      {
+        "p": {
+          "name": "Putting the Object Back into Video Object Segmentation",
+          "link": "https://arxiv.org/abs/2310.12982v2"
+        },
+        "c": "https://github.com/hkchengrex/Cutie",
+        "n": "Cutie (base, with mose)",
+        "d": "2023-10-19",
+        "m1": "68.3",
+        "m2": "64.2",
+        "m3": "72.3",
+        "m4": "36.4"
+      },
+      {
+        "p": {
+          "name": "Putting the Object Back into Video Object Segmentation",
+          "link": "https://arxiv.org/abs/2310.12982v2"
+        },
+        "c": "https://github.com/hkchengrex/Cutie",
+        "n": "Cutie (small, with mose)",
+        "d": "2023-10-19",
+        "m1": "67.4",
+        "m2": "63.1",
+        "m3": "71.7",
+        "m4": "45.5"
+      },
+      {
+        "p": {
+          "name": "Tracking Anything with Decoupled Video Segmentation",
+          "link": "https://arxiv.org/abs/2309.03903v1"
+        },
+        "c": "https://github.com/hkchengrex/Tracking-Anything-with-DEVA",
+        "n": "DEVA (with OVIS)",
+        "d": "2023-09-07",
+        "m1": "66.5",
+        "m2": "62.3",
+        "m3": "70.8",
+        "m4": "25.3"
+      },
+      {
+        "p": {
+          "name": "Putting the Object Back into Video Object Segmentation",
+          "link": "https://arxiv.org/abs/2310.12982v2"
+        },
+        "c": "https://github.com/hkchengrex/Cutie",
+        "n": "Cutie (base)",
+        "d": "2023-10-19",
+        "m1": "64.0",
+        "m2": "60.0",
+        "m3": "67.9",
+        "m4": "36.4"
+      },
+      {
+        "p": {
+          "name": "Putting the Object Back into Video Object Segmentation",
+          "link": "https://arxiv.org/abs/2310.12982v2"
+        },
+        "c": "https://github.com/hkchengrex/Cutie",
+        "n": "Cutie (small)",
+        "d": "2023-10-19",
+        "m1": "62.2",
+        "m2": "58.2",
+        "m3": "66.2",
+        "m4": "45.5"
+      },
+      {
+        "p": {
+          "name": "Tracking Anything with Decoupled Video Segmentation",
+          "link": "https://arxiv.org/abs/2309.03903v1"
+        },
+        "c": "https://github.com/hkchengrex/Tracking-Anything-with-DEVA",
+        "n": "DEVA (no OVIS)",
+        "d": "2023-09-07",
+        "m1": "60.0",
+        "m2": "55.8",
+        "m3": "64.3",
+        "m4": "25.3"
+      },
+      {
+        "p": {
+          "name": "Decoupling Features in Hierarchical Propagation for Video Object Segmentation",
+          "link": "https://arxiv.org/abs/2210.09782v3"
+        },
+        "c": "https://github.com/yoxu515/aot-benchmark",
+        "n": "DeAOT",
+        "d": "2022-10-18",
+        "m1": "59.4",
+        "m2": "55.1",
+        "m3": "63.8"
+      },
+      {
+        "p": {
+          "name": "XMem: Long-Term Video Object Segmentation with an Atkinson-Shiffrin Memory Model",
+          "link": "https://arxiv.org/abs/2207.07115v2"
+        },
+        "c": "https://github.com/hkchengrex/XMem",
+        "n": "XMem",
+        "d": "2022-07-14",
+        "m1": "57.6",
+        "m2": "53.3",
+        "m3": "62.0"
+      },
+      {
+        "p": {
+          "name": "Associating Objects with Transformers for Video Object Segmentation",
+          "link": "https://arxiv.org/abs/2106.02638v3"
+        },
+        "c": "https://github.com/yoxu515/aot-benchmark",
+        "n": "AOT",
+        "d": "2021-06-04",
+        "m1": "57.2",
+        "m2": "53.1",
+        "m3": "61.3"
+      },
+      {
+        "p": {
+          "name": "SWEM: Towards Real-Time Video Object Segmentation with Sequential Weighted Expectation-Maximization",
+          "link": "https://arxiv.org/abs/2208.10128v1"
+        },
+        "c": "https://github.com/lmm077/SWEM",
+        "n": "SWEM",
+        "d": "2022-08-22",
+        "m1": "50.9",
+        "m2": "46.8",
+        "m3": "54.9"
+      },
+      {
+        "p": {
+          "name": "Rethinking Space-Time Networks with Improved Memory Coverage for Efficient Video Object Segmentation",
+          "link": "https://arxiv.org/abs/2106.05210v2"
+        },
+        "c": "https://github.com/hkchengrex/STCN",
+        "n": "STCN",
+        "d": "2021-06-09",
+        "m1": "50.8",
+        "m2": "46.6",
+        "m3": "55.0"
+      },
+      {
+        "p": {
+          "name": "Recurrent Dynamic Embedding for Video Object Segmentation",
+          "link": "https://arxiv.org/abs/2205.03761v1"
+        },
+        "c": "https://github.com/limingxing00/rde-vos-cvpr2022",
+        "n": "RDE",
+        "d": "2022-05-08",
+        "m1": "48.8",
+        "m2": "44.6",
+        "m3": "52.9"
+      }
+    ]
+  }
+}

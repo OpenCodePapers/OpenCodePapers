@@ -1,0 +1,79 @@
+{
+  "title": "multibehavior-recommendation-on-multi-behavior-taobao",
+  "task-hierarchy": [
+    "Recommendation Systems",
+    "Multibehavior Recommendation"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/akaxlh/MB-GMN/tree/main/Datasets",
+    "paper": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "HR@10",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "HMAR: Hierarchical Masked Attention for Multi-Behaviour Recommendation",
+          "link": "https://arxiv.org/abs/2405.09638v1"
+        },
+        "c": "https://github.com/shereen-elsayed/hmar",
+        "n": "HMAR",
+        "d": "2024-04-29",
+        "m1": "0.8515"
+      },
+      {
+        "p": {
+          "name": "Multi-Behavioral Sequential Recommendation",
+          "link": "https://dl.acm.org/doi/abs/10.1145/3640457.3688166"
+        },
+        "c": "https://github.com/Shereen-Elsayed/MBSRec",
+        "n": "MBSRec",
+        "d": "2024-10-08",
+        "m1": "0.841"
+      },
+      {
+        "p": {
+          "name": "HMAR: Hierarchical Masked Attention for Multi-Behaviour Recommendation",
+          "link": "https://arxiv.org/abs/2405.09638v1"
+        },
+        "c": "https://github.com/shereen-elsayed/hmar",
+        "n": "MB-STR",
+        "d": "2024-04-29",
+        "m1": "0.768"
+      },
+      {
+        "p": {
+          "name": "HMAR: Hierarchical Masked Attention for Multi-Behaviour Recommendation",
+          "link": "https://arxiv.org/abs/2405.09638v1"
+        },
+        "c": "https://github.com/shereen-elsayed/hmar",
+        "n": "MBHT",
+        "d": "2024-04-29",
+        "m1": "0.745"
+      }
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "title": "object-proposal-generation-on-pascal-voc-2012-60-proposals-per-image",
+  "task-hierarchy": [
+    "Object Detection",
+    "Object Proposal Generation"
+  ],
+  "dataset-info": {
+    "link": "http://host.robots.ox.ac.uk/pascal/VOC/voc2012/",
+    "paper": "The Pascal Visual Object Classes (VOC) Challenge"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Average Recall",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Class-agnostic Object Detection with Multi-modal Transformer",
+          "link": "https://arxiv.org/abs/2111.11430v6"
+        },
+        "c": "https://github.com/mmaaz60/mvits_for_class_agnostic_od",
+        "n": "MDef-DETR",
+        "d": "2021-11-22",
+        "m1": "0.9126"
+      },
+      {
+        "p": {
+          "name": "Recurrent Pixel Embedding for Instance Grouping",
+          "link": "http://arxiv.org/abs/1712.08273v1"
+        },
+        "c": "https://github.com/aimerykong/Recurrent-Pixel-Embedding-for-Instance-Grouping",
+        "n": "Recurrent Pixel Embedding",
+        "d": "2017-12-22",
+        "m1": "0.814"
+      },
+      {
+        "p": {
+          "name": "Semantic Instance Segmentation via Deep Metric Learning",
+          "link": "http://arxiv.org/abs/1703.10277v1"
+        },
+        "c": "https://github.com/alicranck/instance-seg",
+        "n": "inst-DML",
+        "d": "2017-03-30",
+        "m1": "0.667"
+      }
+    ]
+  }
+}

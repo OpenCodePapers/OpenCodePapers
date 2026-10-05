@@ -1,0 +1,89 @@
+{
+  "title": "scene-recognition-on-yup-plus-plus",
+  "task-hierarchy": [
+    "Image Classification",
+    "Scene Recognition"
+  ],
+  "dataset-info": {
+    "link": "http://vision.eecs.yorku.ca/research/dynamic-scenes/",
+    "paper": "Temporal Residual Networks for Dynamic Scene Recognition"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy (%)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Self-supervising Action Recognition by Statistical Moment and Subspace Descriptors",
+          "link": "https://arxiv.org/abs/2001.04627v2"
+        },
+        "c": "",
+        "n": "DEEP-HAL with ODF+SDF (I3D)",
+        "d": "2020-01-14",
+        "m1": "94.4"
+      },
+      {
+        "p": {
+          "name": "High-order Tensor Pooling with Attention for Action Recognition",
+          "link": "https://arxiv.org/abs/2110.05216v4"
+        },
+        "c": "",
+        "n": "TO+MaxExp+IDT",
+        "d": "2021-10-11",
+        "m1": "93.1"
+      },
+      {
+        "p": {
+          "name": "Hallucinating IDT Descriptors and I3D Optical Flow Features for Action Recognition with CNNs",
+          "link": "https://arxiv.org/abs/1906.05910v2"
+        },
+        "c": "",
+        "n": "HAF+BoW/FV halluc.",
+        "d": "2019-06-13",
+        "m1": "92.6"
+      },
+      {
+        "p": {
+          "name": "High-order Tensor Pooling with Attention for Action Recognition",
+          "link": "https://arxiv.org/abs/2110.05216v4"
+        },
+        "c": "",
+        "n": "SO+MaxExp+IDT",
+        "d": "2021-10-11",
+        "m1": "92.5"
+      },
+      {
+        "p": {
+          "name": "HalluciNet-ing Spatiotemporal Representations Using a 2D-CNN",
+          "link": "https://arxiv.org/abs/1912.04430v3"
+        },
+        "c": "https://github.com/ParitoshParmar/HalluciNet",
+        "n": "HalluciNet (ResNet-50)",
+        "d": "2019-12-10",
+        "m1": "84.44"
+      }
+    ]
+  }
+}

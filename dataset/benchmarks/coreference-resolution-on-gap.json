@@ -1,0 +1,114 @@
+{
+  "title": "coreference-resolution-on-gap",
+  "task-hierarchy": [
+    "Coreference Resolution"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/google-research-datasets/gap-coreference",
+    "paper": "Mind the GAP: A Balanced Corpus of Gendered Ambiguous Pronouns"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Overall F1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Masculine F1 (M)",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Feminine F1 (F)",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Bias (F/M)",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": "",
+        "c": "",
+        "n": "Coref-MTL",
+        "d": "",
+        "m1": "92.72",
+        "m2": "92.65",
+        "m3": "92.45",
+        "m4": "0.99"
+      },
+      {
+        "p": {
+          "name": "Gendered Ambiguous Pronouns Shared Task: Boosting Model Confidence by Evidence Pooling",
+          "link": "https://aclanthology.org/W19-3820"
+        },
+        "c": "https://github.com/sattree/gap",
+        "n": "ProBERT",
+        "d": "2019-08-01",
+        "m1": "92.5",
+        "m2": "94.0",
+        "m3": "91.1",
+        "m4": "0.97"
+      },
+      {
+        "p": {
+          "name": "Maverick: Efficient and Accurate Coreference Resolution Defying Recent Trends",
+          "link": "https://arxiv.org/abs/2407.21489v1"
+        },
+        "c": "https://github.com/sapienzanlp/maverick-coref",
+        "n": "Maverick_incr",
+        "d": "2024-07-31",
+        "m1": "91.2"
+      },
+      {
+        "p": {
+          "name": "Gendered Pronoun Resolution using BERT and an extractive question answering formulation",
+          "link": "https://arxiv.org/abs/1906.03695v1"
+        },
+        "c": "https://github.com/rakeshchada/corefqa",
+        "n": "Full Ensemble",
+        "d": "2019-06-09",
+        "m1": "90.2",
+        "m2": "90.9",
+        "m3": "89.5",
+        "m4": "0.98"
+      },
+      {
+        "p": {
+          "name": "PeTra: A Sparsely Supervised Memory Model for People Tracking",
+          "link": "https://arxiv.org/abs/2005.02990v1"
+        },
+        "c": "https://github.com/shtoshni92/petra",
+        "n": "PeTra",
+        "d": "2020-05-06",
+        "m5": "85.3"
+      }
+    ]
+  }
+}

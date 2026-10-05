@@ -1,0 +1,110 @@
+{
+  "title": "handwritten-text-recognition-on-lam-line-level",
+  "task-hierarchy": [
+    "Optical Character Recognition (OCR)",
+    "Handwritten Text Recognition"
+  ],
+  "dataset-info": {
+    "link": "https://arxiv.org/pdf/2208.07682",
+    "paper": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Test CER",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Test WER",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "HTR-VT: Handwritten Text Recognition with Vision Transformer",
+          "link": "https://arxiv.org/abs/2409.08573v1"
+        },
+        "c": "https://github.com/yutingli0606/htr-vt",
+        "n": "HTR-VT",
+        "d": "2024-09-13",
+        "m1": "2.8",
+        "m2": "7.4"
+      },
+      {
+        "p": {
+          "name": "OrigamiNet: Weakly-Supervised, Segmentation-Free, One-Step, Full Page Text Recognition by learning to unfold",
+          "link": "https://arxiv.org/abs/2006.07491v1"
+        },
+        "c": "https://github.com/mindspore-ai/models/tree/master/official/cv/essay-recogination",
+        "n": "OrigamiNet-24",
+        "d": "2020-06-12",
+        "m1": "3.0",
+        "m2": "11.0"
+      },
+      {
+        "p": {
+          "name": "OrigamiNet: Weakly-Supervised, Segmentation-Free, One-Step, Full Page Text Recognition by learning to unfold",
+          "link": "https://arxiv.org/abs/2006.07491v1"
+        },
+        "c": "https://github.com/mindspore-ai/models/tree/master/official/cv/essay-recogination",
+        "n": "OrigamiNet-18",
+        "d": "2020-06-12",
+        "m1": "3.1",
+        "m2": "11.1"
+      },
+      {
+        "p": {
+          "name": "OrigamiNet: Weakly-Supervised, Segmentation-Free, One-Step, Full Page Text Recognition by learning to unfold",
+          "link": "https://arxiv.org/abs/2006.07491v1"
+        },
+        "c": "https://github.com/mindspore-ai/models/tree/master/official/cv/essay-recogination",
+        "n": "OrigamiNet-12",
+        "d": "2020-06-12",
+        "m1": "3.1",
+        "m2": "11.2"
+      },
+      {
+        "p": {
+          "name": "TrOCR: Transformer-based Optical Character Recognition with Pre-trained Models",
+          "link": "https://arxiv.org/abs/2109.10282v5"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "TrOCR",
+        "d": "2021-09-21",
+        "m1": "3.6",
+        "m2": "11.6"
+      },
+      {
+        "p": {
+          "name": "Recurrence-free unconstrained handwritten text recognition using gated fully convolutional network",
+          "link": "https://arxiv.org/abs/2012.04961v1"
+        },
+        "c": "https://github.com/FactoDeepLearning/LinePytorchOCR",
+        "n": "GFCN",
+        "d": "2020-12-09",
+        "m1": "5.2",
+        "m2": "18.5"
+      }
+    ]
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "title": "gzsl-video-classification-on-vggsound-gzsl-cls",
+  "task-hierarchy": [
+    "Zero-Shot Learning",
+    "GZSL Video Classification"
+  ],
+  "dataset-info": {
+    "link": "",
+    "paper": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "HM",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "ZSL",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Boosting Audio-visual Zero-shot Learning with Large Language Models",
+          "link": "https://arxiv.org/abs/2311.12268v2"
+        },
+        "c": "https://github.com/chenhaoxing/KDA",
+        "n": "KDA",
+        "d": "2023-11-21",
+        "m1": "9.78",
+        "m2": "8.32"
+      },
+      {
+        "p": {
+          "name": "Temporal and cross-modal attention for audio-visual zero-shot learning",
+          "link": "https://arxiv.org/abs/2207.09966v1"
+        },
+        "c": "https://github.com/explainableml/tcaf-gzsl",
+        "n": "TCaF",
+        "d": "2022-07-20",
+        "m1": "8.77",
+        "m2": "7.41"
+      },
+      {
+        "p": {
+          "name": "Hyperbolic Audio-visual Zero-shot Learning",
+          "link": "https://arxiv.org/abs/2308.12558v2"
+        },
+        "c": "",
+        "n": "Hyper-multiple",
+        "d": "2023-08-24",
+        "m1": "8.67",
+        "m2": "7.31"
+      },
+      {
+        "p": {
+          "name": "Audio-visual Generalised Zero-shot Learning with Cross-modal Attention and Language",
+          "link": "https://arxiv.org/abs/2203.03598v2"
+        },
+        "c": "https://github.com/explainableml/avca-gzsl",
+        "n": "AVCA",
+        "d": "2022-03-07",
+        "m1": "8.31",
+        "m2": "6.91"
+      }
+    ]
+  }
+}

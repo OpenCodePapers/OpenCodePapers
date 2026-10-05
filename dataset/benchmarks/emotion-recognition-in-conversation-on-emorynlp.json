@@ -1,0 +1,330 @@
+{
+  "title": "emotion-recognition-in-conversation-on-emorynlp",
+  "task-hierarchy": [
+    "Emotion Recognition",
+    "Emotion Recognition in Conversation"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/emorynlp/character-mining",
+    "paper": "Emotion Detection on TV Show Transcripts with Sequence-based Convolutional Neural Networks"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Weighted-F1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Micro-F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "CKERC : Joint Large Language Models with Commonsense Knowledge for Emotion Recognition in Conversation",
+          "link": "https://arxiv.org/abs/2403.07260v1"
+        },
+        "c": "",
+        "n": "CKERC",
+        "d": "2024-03-12",
+        "m1": "42.08"
+      },
+      {
+        "p": {
+          "name": "BiosERC: Integrating Biography Speakers Supported by LLMs for ERC Tasks",
+          "link": "https://arxiv.org/abs/2407.04279v1"
+        },
+        "c": "https://github.com/yingjie7/BiosERC",
+        "n": "BiosERC",
+        "d": "2024-07-05",
+        "m1": "41.68"
+      },
+      {
+        "p": {
+          "name": "InstructERC: Reforming Emotion Recognition in Conversation with Multi-task Retrieval-Augmented Large Language Models",
+          "link": "https://arxiv.org/abs/2309.11911v6"
+        },
+        "c": "https://github.com/LIN-SHANG/InstructERC",
+        "n": "InstructERC",
+        "d": "2023-09-21",
+        "m1": "41.39"
+      },
+      {
+        "p": {
+          "name": "Supervised Prototypical Contrastive Learning for Emotion Recognition in Conversation",
+          "link": "https://arxiv.org/abs/2210.08713v2"
+        },
+        "c": "https://github.com/caskcsg/spcl",
+        "n": "SPCL-CL-ERC",
+        "d": "2022-10-17",
+        "m1": "40.94"
+      },
+      {
+        "p": {
+          "name": "Supervised Adversarial Contrastive Learning for Emotion Recognition in Conversations",
+          "link": "https://arxiv.org/abs/2306.01505v2"
+        },
+        "c": "https://github.com/zerohd4869/sacl",
+        "n": "SACL-LSTM (one seed)",
+        "d": "2023-06-02",
+        "m1": "40.47",
+        "m2": "43.19"
+      },
+      {
+        "p": {
+          "name": "EmotionIC: emotional inertia and contagion-driven dependency modeling for emotion recognition in conversation",
+          "link": "https://arxiv.org/abs/2303.11117v5"
+        },
+        "c": "https://github.com/lijfrank-open/EmotionIC",
+        "n": "EmotionIC",
+        "d": "2023-03-20",
+        "m1": "40.25",
+        "m2": "44.31"
+      },
+      {
+        "p": {
+          "name": "Emotion-Anchored Contrastive Learning Framework for Emotion Recognition in Conversation",
+          "link": "https://arxiv.org/abs/2403.20289v1"
+        },
+        "c": "https://github.com/yu-fangxu/eacl",
+        "n": "EACL",
+        "d": "2024-03-29",
+        "m1": "40.24"
+      },
+      {
+        "p": {
+          "name": "GRASP: Guiding model with RelAtional Semantics using Prompt for Dialogue Relation Extraction",
+          "link": "https://arxiv.org/abs/2208.12494v4"
+        },
+        "c": "https://github.com/rgop13/GRASP",
+        "n": "GRASP_Large",
+        "d": "2022-08-26",
+        "m1": "40"
+      },
+      {
+        "p": {
+          "name": "Supervised Adversarial Contrastive Learning for Emotion Recognition in Conversations",
+          "link": "https://arxiv.org/abs/2306.01505v2"
+        },
+        "c": "https://github.com/zerohd4869/sacl",
+        "n": "SACL-LSTM",
+        "d": "2023-06-02",
+        "m1": "39.65",
+        "m2": "42.21"
+      },
+      {
+        "p": {
+          "name": "Accumulating Word Representations in Multi-level Context Integration for ERC Task",
+          "link": "https://ieeexplore.ieee.org/document/10299463"
+        },
+        "c": "https://github.com/yingjie7/per_erc",
+        "n": "AccumWR",
+        "d": "2023-11-06",
+        "m1": "39.33"
+      },
+      {
+        "p": {
+          "name": "Graph Based Network with Contextualized Representations of Turns in Dialogue",
+          "link": "https://arxiv.org/abs/2109.04008v1"
+        },
+        "c": "https://github.com/blacknoodle/tucore-gcn",
+        "n": "TUCORE-GCN_RoBERTa",
+        "d": "2021-09-09",
+        "m1": "39.24"
+      },
+      {
+        "p": {
+          "name": "S+PAGE: A Speaker and Position-Aware Graph Neural Network Model for Emotion Recognition in Conversation",
+          "link": "https://arxiv.org/abs/2112.12389v1"
+        },
+        "c": "",
+        "n": "S+PAGE",
+        "d": "2021-12-23",
+        "m1": "39.14"
+      },
+      {
+        "p": {
+          "name": "Contrast and Generation Make BART a Good Dialogue Emotion Recognizer",
+          "link": "https://arxiv.org/abs/2112.11202v2"
+        },
+        "c": "https://github.com/whatissimondoing/cog-bart",
+        "n": "CoG-BART",
+        "d": "2021-12-21",
+        "m1": "39.04",
+        "m2": "42.58"
+      },
+      {
+        "p": {
+          "name": "Directed Acyclic Graph Network for Conversational Emotion Recognition",
+          "link": "https://arxiv.org/abs/2105.12907v2"
+        },
+        "c": "https://github.com/shenwzh3/DAG-ERC",
+        "n": "DAG-ERC",
+        "d": "2021-05-27",
+        "m1": "39.02"
+      },
+      {
+        "p": {
+          "name": "Past, Present, and Future: Conversational Emotion Recognition through Structural Modeling of Psychological Knowledge",
+          "link": "https://aclanthology.org/2021.findings-emnlp.104"
+        },
+        "c": "https://github.com/leqsnan/skaig-erc",
+        "n": "SKAIG-ERC",
+        "d": "",
+        "m1": "38.88"
+      },
+      {
+        "p": {
+          "name": "DialogueCRN: Contextual Reasoning Networks for Emotion Recognition in Conversations",
+          "link": "https://arxiv.org/abs/2106.01978v2"
+        },
+        "c": "https://github.com/zerohd4869/mm-dfn",
+        "n": "DialogueCRN+RoBERTa",
+        "d": "2021-06-03",
+        "m1": "38.79",
+        "m2": "41.04"
+      },
+      {
+        "p": {
+          "name": "Topic-Driven and Knowledge-Aware Transformer for Dialogue Emotion Detection",
+          "link": "https://arxiv.org/abs/2106.01071v1"
+        },
+        "c": "",
+        "n": "TODKAT",
+        "d": "2021-06-02",
+        "m1": "38.69",
+        "m2": "42.38"
+      },
+      {
+        "p": {
+          "name": "COSMIC: COmmonSense knowledge for eMotion Identification in Conversations",
+          "link": "https://arxiv.org/abs/2010.02795v1"
+        },
+        "c": "https://github.com/declare-lab/conv-emotion",
+        "n": "COSMIC",
+        "d": "2020-10-06",
+        "m1": "38.11"
+      },
+      {
+        "p": {
+          "name": "The Emotion is Not One-hot Encoding: Learning with Grayscale Label for Emotion Recognition in Conversation",
+          "link": "https://arxiv.org/abs/2206.07359v2"
+        },
+        "c": "https://github.com/rungjoo/Emotion_not_One",
+        "n": "EmoOne-RoBERTa",
+        "d": "2022-06-15",
+        "m1": "38"
+      },
+      {
+        "p": {
+          "name": "CoMPM: Context Modeling with Speaker's Pre-trained Memory Tracking for Emotion Recognition in Conversation",
+          "link": "https://arxiv.org/abs/2108.11626v3"
+        },
+        "c": "https://github.com/rungjoo/compm",
+        "n": "CoMPM",
+        "d": "2021-08-26",
+        "m1": "37.37"
+      },
+      {
+        "p": {
+          "name": "HiTrans: A Transformer-Based Context- and Speaker-Sensitive Model for Emotion Detection in Conversations",
+          "link": "https://aclanthology.org/2020.coling-main.370"
+        },
+        "c": "",
+        "n": "HiTrans",
+        "d": "2020-12-01",
+        "m1": "36.75"
+      },
+      {
+        "p": {
+          "name": "A Discourse-Aware Graph Neural Network for Emotion Recognition in Multi-Party Conversation",
+          "link": "https://aclanthology.org/2021.findings-emnlp.252"
+        },
+        "c": "",
+        "n": "ERMC-DisGCN",
+        "d": "",
+        "m1": "36.38"
+      },
+      {
+        "p": {
+          "name": "Graph Based Network with Contextualized Representations of Turns in Dialogue",
+          "link": "https://arxiv.org/abs/2109.04008v1"
+        },
+        "c": "https://github.com/blacknoodle/tucore-gcn",
+        "n": "TUCORE-GCN_BERT",
+        "d": "2021-09-09",
+        "m1": "36.01"
+      },
+      {
+        "p": {
+          "name": "Multi-Task Learning with Auxiliary Speaker Identification for Conversational Emotion Recognition",
+          "link": "https://arxiv.org/abs/2003.01478v2"
+        },
+        "c": "",
+        "n": "BERT+MTL",
+        "d": "2020-03-03",
+        "m1": "35.92"
+      },
+      {
+        "p": {
+          "name": "DialogXL: All-in-One XLNet for Multi-Party Conversation Emotion Recognition",
+          "link": "https://arxiv.org/abs/2012.08695v1"
+        },
+        "c": "https://github.com/shenwzh3/DialogXL",
+        "n": "DialogXL",
+        "d": "2020-12-16",
+        "m1": "34.73"
+      },
+      {
+        "p": {
+          "name": "Multi-Task Learning with Auxiliary Speaker Identification for Conversational Emotion Recognition",
+          "link": "https://arxiv.org/abs/2003.01478v2"
+        },
+        "c": "",
+        "n": "GloVE+MTL",
+        "d": "2020-03-03",
+        "m1": "34.54"
+      },
+      {
+        "p": {
+          "name": "Relation-aware Graph Attention Networks with Relational Position Encodings for Emotion Recognition in Conversations",
+          "link": "https://aclanthology.org/2020.emnlp-main.597"
+        },
+        "c": "https://github.com/KomorebiLHX/Emotion-Recognition-in-Conversations",
+        "n": "RGAT-ERC",
+        "d": "",
+        "m1": "34.42"
+      },
+      {
+        "p": {
+          "name": "Knowledge-Enriched Transformer for Emotion Detection in Textual Conversations",
+          "link": "https://arxiv.org/abs/1909.10681v2"
+        },
+        "c": "https://github.com/zhongpeixiang/KET",
+        "n": "KET",
+        "d": "2019-09-24",
+        "m1": "34.39"
+      }
+    ]
+  }
+}

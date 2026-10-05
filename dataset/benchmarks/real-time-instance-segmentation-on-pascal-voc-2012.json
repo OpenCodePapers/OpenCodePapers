@@ -1,0 +1,109 @@
+{
+  "title": "real-time-instance-segmentation-on-pascal-voc-2012",
+  "task-hierarchy": [
+    "Instance Segmentation",
+    "Real-time Instance Segmentation"
+  ],
+  "dataset-info": {
+    "link": "http://host.robots.ox.ac.uk/pascal/VOC/",
+    "paper": "The Pascal Visual Object Classes (VOC) Challenge"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "avgAP (mask AP + box AP)",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "boxAP",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "maskAP",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "FLOPs (G)",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "Size (M)",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "Frame (fps)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Real-time Automatic M-mode Echocardiography Measurement with Panel Attention from Local-to-Global Pixels",
+          "link": "https://arxiv.org/abs/2308.07717v1"
+        },
+        "c": "https://github.com/hanktseng131415go/ramem",
+        "n": "RAMEM UPANet80 V2",
+        "d": "2023-08-15",
+        "m1": "42.69",
+        "m2": "42.96",
+        "m3": "42.42",
+        "m4": "100.85",
+        "m5": "40.32",
+        "m6": "60.93"
+      },
+      {
+        "p": {
+          "name": "Real-time Automatic M-mode Echocardiography Measurement with Panel Attention from Local-to-Global Pixels",
+          "link": "https://arxiv.org/abs/2308.07717v1"
+        },
+        "c": "https://github.com/hanktseng131415go/ramem",
+        "n": "maYOLACT ResNet50",
+        "d": "2023-08-15",
+        "m1": "37.39",
+        "m2": "37.50",
+        "m3": "37.27",
+        "m4": "48.26",
+        "m5": "30.41",
+        "m6": "81.27"
+      },
+      {
+        "p": {
+          "name": "Real-time Automatic M-mode Echocardiography Measurement with Panel Attention from Local-to-Global Pixels",
+          "link": "https://arxiv.org/abs/2308.07717v1"
+        },
+        "c": "https://github.com/hanktseng131415go/ramem",
+        "n": "YOLACT ResNet50",
+        "d": "2023-08-15",
+        "m1": "35.73",
+        "m2": "36.65",
+        "m3": "35.12",
+        "m4": "48.26",
+        "m5": "30.41",
+        "m6": "81.11"
+      }
+    ]
+  }
+}

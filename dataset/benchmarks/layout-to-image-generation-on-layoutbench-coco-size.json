@@ -1,0 +1,79 @@
+{
+  "title": "layout-to-image-generation-on-layoutbench-coco-size",
+  "task-hierarchy": [
+    "Image Generation",
+    "Layout-to-Image Generation"
+  ],
+  "dataset-info": {
+    "link": "https://layoutbench.github.io/",
+    "paper": "Diagnostic Benchmark and Iterative Inpainting for Layout-Guided Image Generation"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AP",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Diagnostic Benchmark and Iterative Inpainting for Layout-Guided Image Generation",
+          "link": "https://arxiv.org/abs/2304.06671v3"
+        },
+        "c": "https://github.com/j-min/IterInpaint",
+        "n": "IterInpaint",
+        "d": "2023-04-13",
+        "m1": "33.5"
+      },
+      {
+        "p": {
+          "name": "GLIGEN: Open-Set Grounded Text-to-Image Generation",
+          "link": "https://arxiv.org/abs/2301.07093v2"
+        },
+        "c": "https://github.com/gligen/GLIGEN",
+        "n": "GLIGEN",
+        "d": "2023-01-17",
+        "m1": "33.3"
+      },
+      {
+        "p": {
+          "name": "ReCo: Region-Controlled Text-to-Image Generation",
+          "link": "https://arxiv.org/abs/2211.15518v1"
+        },
+        "c": "",
+        "n": "ReCo",
+        "d": "2022-11-23",
+        "m1": "24.1"
+      },
+      {
+        "p": {
+          "name": "Adding Conditional Control to Text-to-Image Diffusion Models",
+          "link": "https://arxiv.org/abs/2302.05543v3"
+        },
+        "c": "https://github.com/microsoft/visual-chatgpt",
+        "n": "ControlNet",
+        "d": "2023-02-10",
+        "m1": "10.8"
+      }
+    ]
+  }
+}

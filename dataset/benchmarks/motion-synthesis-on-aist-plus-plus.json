@@ -1,0 +1,174 @@
+{
+  "title": "motion-synthesis-on-aist-plus-plus",
+  "task-hierarchy": [
+    "Human Motion Modelling",
+    "Motion Synthesis"
+  ],
+  "dataset-info": {
+    "link": "https://google.github.io/aistplusplus_dataset/",
+    "paper": "AI Choreographer: Music Conditioned 3D Dance Generation with AIST++"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "FID",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Beat alignment score",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Motion Anything: Any to Motion Generation",
+          "link": "https://arxiv.org/abs/2503.06955v1"
+        },
+        "c": "https://github.com/steve-zeyu-zhang/MotionAnything",
+        "n": "Motion Anything",
+        "d": "2025-03-10",
+        "m1": "17.22",
+        "m2": "0.2757"
+      },
+      {
+        "p": {
+          "name": "UDE: A Unified Driving Engine for Human Motion Generation",
+          "link": "https://arxiv.org/abs/2211.16016v1"
+        },
+        "c": "https://github.com/zixiangzhou916/ude",
+        "n": "UDE",
+        "d": "2022-11-29",
+        "m1": "17.25",
+        "m2": "0.2311"
+      },
+      {
+        "p": {
+          "name": "TM2D: Bimodality Driven 3D Dance Generation via Music-Text Integration",
+          "link": "https://arxiv.org/abs/2304.02419v2"
+        },
+        "c": "https://github.com/Garfield-kh/TM2D",
+        "n": "TM2D",
+        "d": "2023-04-05",
+        "m1": "19.01",
+        "m2": "0.2049"
+      },
+      {
+        "p": {
+          "name": "TM2D: Bimodality Driven 3D Dance Generation via Music-Text Integration",
+          "link": "https://arxiv.org/abs/2304.02419v2"
+        },
+        "c": "https://github.com/Garfield-kh/TM2D",
+        "n": "TM2D (only motion data)",
+        "d": "2023-04-05",
+        "m1": "23.94",
+        "m2": "0.2127"
+      },
+      {
+        "p": {
+          "name": "Bailando: 3D Dance Generation by Actor-Critic GPT with Choreographic Memory",
+          "link": "https://arxiv.org/abs/2203.13055v2"
+        },
+        "c": "https://github.com/lisiyao21/bailando",
+        "n": "Bailando",
+        "d": "2022-03-24",
+        "m1": "28.16",
+        "m2": "0.233"
+      },
+      {
+        "p": {
+          "name": "AI Choreographer: Music Conditioned 3D Dance Generation with AIST++",
+          "link": "https://arxiv.org/abs/2101.08779v3"
+        },
+        "c": "https://github.com/google-research/mint",
+        "n": "AI Choreographer",
+        "d": "2021-01-21",
+        "m1": "35.35",
+        "m2": "0.221"
+      },
+      {
+        "p": {
+          "name": "Lodge: A Coarse to Fine Diffusion Network for Long Dance Generation Guided by the Characteristic Dance Primitives",
+          "link": "https://arxiv.org/abs/2403.10518v3"
+        },
+        "c": "https://github.com/li-ronghui/LODGE",
+        "n": "Lodge (DDPM)",
+        "d": "2024-03-15",
+        "m1": "37.09",
+        "m2": "0.24"
+      },
+      {
+        "p": {
+          "name": "MoFusion: A Framework for Denoising-Diffusion-based Motion Synthesis",
+          "link": "https://arxiv.org/abs/2212.04495v2"
+        },
+        "c": "",
+        "n": "MoFusion",
+        "d": "2022-12-08",
+        "m1": "50.31",
+        "m2": "0.253"
+      },
+      {
+        "p": {
+          "name": "Music2Dance: DanceNet for Music-driven Dance Generation",
+          "link": "https://arxiv.org/abs/2002.03761v2"
+        },
+        "c": "",
+        "n": "DanceNet",
+        "d": "2020-02-02",
+        "m1": "69.13",
+        "m2": "0.143"
+      },
+      {
+        "p": {
+          "name": "Dance Revolution: Long-Term Dance Generation with Music via Curriculum Learning",
+          "link": "https://arxiv.org/abs/2006.06119v8"
+        },
+        "c": "",
+        "n": "Dance Revolution",
+        "d": "2020-06-11",
+        "m1": "73.42",
+        "m2": "0.195"
+      },
+      {
+        "p": {
+          "name": "EDGE: Editable Dance Generation From Music",
+          "link": "https://arxiv.org/abs/2211.10658v2"
+        },
+        "c": "https://github.com/Stanford-TML/EDGE",
+        "n": "EDGE (w=1)",
+        "d": "2022-11-19",
+        "m2": "0.27"
+      },
+      {
+        "p": {
+          "name": "EDGE: Editable Dance Generation From Music",
+          "link": "https://arxiv.org/abs/2211.10658v2"
+        },
+        "c": "https://github.com/Stanford-TML/EDGE",
+        "n": "EDGE (w=2)",
+        "d": "2022-11-19",
+        "m2": "0.26"
+      }
+    ]
+  }
+}

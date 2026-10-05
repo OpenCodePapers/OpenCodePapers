@@ -1,0 +1,69 @@
+{
+  "title": "human-object-interaction-concept-discovery-on-hico-det",
+  "task-hierarchy": [
+    "Human-Object Interaction",
+    "Human-Object Interaction Concept Discovery"
+  ],
+  "dataset-info": {
+    "link": "https://umich-ywchao-hico.github.io/",
+    "paper": "Learning to Detect Human-Object Interactions"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Unknown (AP)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Discovering Human-Object Interaction Concepts via Self-Compositional Learning",
+          "link": "https://arxiv.org/abs/2203.14272v2"
+        },
+        "c": "https://github.com/zhihou7/HOI-CL",
+        "n": "SCL",
+        "d": "2022-03-27",
+        "m1": "33.58"
+      },
+      {
+        "p": {
+          "name": "QPIC: Query-Based Pairwise Human-Object Interaction Detection with Image-Wide Contextual Information",
+          "link": "https://arxiv.org/abs/2103.05399v1"
+        },
+        "c": "https://github.com/hitachi-rd-cv/qpic",
+        "n": "Qpic",
+        "d": "2021-03-09",
+        "m1": "27.42"
+      },
+      {
+        "p": {
+          "name": "Affordance Transfer Learning for Human-Object Interaction Detection",
+          "link": "https://arxiv.org/abs/2104.02867v2"
+        },
+        "c": "https://github.com/zhihou7/HOI-CL",
+        "n": "Affordance Transfer",
+        "d": "2021-04-07",
+        "m1": "24.38"
+      }
+    ]
+  }
+}

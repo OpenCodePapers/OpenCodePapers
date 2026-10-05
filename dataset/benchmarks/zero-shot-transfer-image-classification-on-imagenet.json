@@ -1,0 +1,274 @@
+{
+  "title": "zero-shot-transfer-image-classification-on-imagenet",
+  "task-hierarchy": [
+    "Image Classification",
+    "Zero-Shot Image Classification",
+    "Zero-Shot Transfer Image Classification"
+  ],
+  "dataset-info": {
+    "link": "https://image-net.org/index.php",
+    "paper": "ImageNet: A large-scale hierarchical image database"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Param",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Accuracy (Private)",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Accuracy (Public)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "M2-Encoder: Advancing Bilingual Image-Text Understanding by Large-scale Efficient Pretraining",
+          "link": "https://arxiv.org/abs/2401.15896v2"
+        },
+        "c": "https://github.com/alipay/Ant-Multi-Modal-Framework/tree/main/prj/M2_Encoder",
+        "n": "M2-Encoder",
+        "d": "2024-01-29",
+        "m1": "10B",
+        "m2": "88.5"
+      },
+      {
+        "p": "",
+        "c": "",
+        "n": "BASIC (Lion)",
+        "d": "",
+        "m2": "88.3"
+      },
+      {
+        "p": {
+          "name": "CoCa: Contrastive Captioners are Image-Text Foundation Models",
+          "link": "https://arxiv.org/abs/2205.01917v2"
+        },
+        "c": "https://github.com/mlfoundations/open_clip",
+        "n": "CoCa",
+        "d": "2022-05-04",
+        "m2": "86.3"
+      },
+      {
+        "p": {
+          "name": "Scaling Vision Transformers to 22 Billion Parameters",
+          "link": "https://arxiv.org/abs/2302.05442v1"
+        },
+        "c": "https://github.com/lucidrains/flash-cosine-sim-attention",
+        "n": "LiT-22B",
+        "d": "2023-02-10",
+        "m2": "85.9"
+      },
+      {
+        "p": {
+          "name": "Combined Scaling for Zero-shot Transfer Learning",
+          "link": "https://arxiv.org/abs/2111.10050v3"
+        },
+        "c": "",
+        "n": "BASIC",
+        "d": "2021-11-19",
+        "m2": "85.7"
+      },
+      {
+        "p": {
+          "name": "PaLI: A Jointly-Scaled Multilingual Language-Image Model",
+          "link": "https://arxiv.org/abs/2209.06794v4"
+        },
+        "c": "https://github.com/google-research/big_vision",
+        "n": "LiT ViT-e",
+        "d": "2022-09-14",
+        "m2": "85.4"
+      },
+      {
+        "p": {
+          "name": "LiT: Zero-Shot Transfer with Locked-image text Tuning",
+          "link": "https://arxiv.org/abs/2111.07991v3"
+        },
+        "c": "https://github.com/mlfoundations/open_clip",
+        "n": "LiT-tuning",
+        "d": "2021-11-15",
+        "m2": "84.5",
+        "m3": "75.7"
+      },
+      {
+        "p": {
+          "name": "Alternating Gradient Descent and Mixture-of-Experts for Integrated Multimodal Perception",
+          "link": "https://arxiv.org/abs/2305.06324v2"
+        },
+        "c": "",
+        "n": "IMP-MoE-L",
+        "d": "2023-05-10",
+        "m2": "83.9"
+      },
+      {
+        "p": {
+          "name": "EVA-CLIP-18B: Scaling CLIP to 18 Billion Parameters",
+          "link": "https://arxiv.org/abs/2402.04252v1"
+        },
+        "c": "https://github.com/baaivision/EVA/tree/master/EVA-CLIP-18B",
+        "n": "EVA-CLIP-18B",
+        "d": "2024-02-06",
+        "m2": "83.8"
+      },
+      {
+        "p": {
+          "name": "InternVL: Scaling up Vision Foundation Models and Aligning for Generic Visual-Linguistic Tasks",
+          "link": "https://arxiv.org/abs/2312.14238v3"
+        },
+        "c": "https://github.com/opengvlab/internvl",
+        "n": "InternVL-C",
+        "d": "2023-12-21",
+        "m2": "83.2"
+      },
+      {
+        "p": {
+          "name": "The effectiveness of MAE pre-pretraining for billion-scale pretraining",
+          "link": "https://arxiv.org/abs/2303.13496v3"
+        },
+        "c": "https://github.com/facebookresearch/maws",
+        "n": "MAWS (ViT-2B)",
+        "d": "2023-03-23",
+        "m2": "82.1"
+      },
+      {
+        "p": {
+          "name": "EVA-CLIP: Improved Training Techniques for CLIP at Scale",
+          "link": "https://arxiv.org/abs/2303.15389v1"
+        },
+        "c": "https://github.com/baaivision/eva",
+        "n": "EVA-CLIP-E/14+",
+        "d": "2023-03-27",
+        "m2": "82"
+      },
+      {
+        "p": "",
+        "c": "",
+        "n": "CLIPA (ViT-H/14-336px)",
+        "d": "",
+        "m2": "81.8"
+      },
+      {
+        "p": {
+          "name": "The effectiveness of MAE pre-pretraining for billion-scale pretraining",
+          "link": "https://arxiv.org/abs/2303.13496v3"
+        },
+        "c": "https://github.com/facebookresearch/maws",
+        "n": "MAWS (ViT-H)",
+        "d": "2023-03-23",
+        "m2": "81.1"
+      },
+      {
+        "p": {
+          "name": "Learning Customized Visual Models with Retrieval-Augmented Knowledge",
+          "link": "https://arxiv.org/abs/2301.07094v1"
+        },
+        "c": "https://github.com/microsoft/react",
+        "n": "REACT",
+        "d": "2023-01-17",
+        "m2": "78.5"
+      },
+      {
+        "p": {
+          "name": "Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision",
+          "link": "https://arxiv.org/abs/2102.05918v2"
+        },
+        "c": "https://github.com/facebookresearch/metaclip",
+        "n": "ALIGN",
+        "d": "2021-02-11",
+        "m2": "76.4",
+        "m3": ""
+      },
+      {
+        "p": {
+          "name": "Learning Transferable Visual Models From Natural Language Supervision",
+          "link": "https://arxiv.org/abs/2103.00020v1"
+        },
+        "c": "https://github.com/openai/CLIP",
+        "n": "CLIP（ViT-L/14-336px）",
+        "d": "2021-02-26",
+        "m2": "76.2"
+      },
+      {
+        "p": {
+          "name": "AltCLIP: Altering the Language Encoder in CLIP for Extended Language Capabilities",
+          "link": "https://arxiv.org/abs/2211.06679v2"
+        },
+        "c": "https://github.com/flagai-open/flagai",
+        "n": "AltCLIP",
+        "d": "2022-11-12",
+        "m2": "74.5"
+      },
+      {
+        "p": {
+          "name": "PaLI: A Jointly-Scaled Multilingual Language-Image Model",
+          "link": "https://arxiv.org/abs/2209.06794v4"
+        },
+        "c": "https://github.com/google-research/big_vision",
+        "n": "PaLI",
+        "d": "2022-09-14",
+        "m2": "72.11"
+      },
+      {
+        "p": {
+          "name": "Your Diffusion Model is Secretly a Zero-Shot Classifier",
+          "link": "https://arxiv.org/abs/2303.16203v3"
+        },
+        "c": "https://github.com/diffusion-classifier/diffusion-classifier",
+        "n": "Diffusion Classifier (zero-shot)",
+        "d": "2023-03-28",
+        "m2": "61.4"
+      },
+      {
+        "p": {
+          "name": "Learning Transferable Visual Models From Natural Language Supervision",
+          "link": "https://arxiv.org/abs/2103.00020v1"
+        },
+        "c": "https://github.com/openai/CLIP",
+        "n": "CLIP (ResNet50)",
+        "d": "2021-02-26",
+        "m2": "59.6"
+      },
+      {
+        "p": "",
+        "c": "",
+        "n": "CWCL",
+        "d": "",
+        "m3": "76.5"
+      },
+      {
+        "p": {
+          "name": "Learning Transferable Visual Models From Natural Language Supervision",
+          "link": "https://arxiv.org/abs/2103.00020v1"
+        },
+        "c": "https://github.com/openai/CLIP",
+        "n": "CLIP",
+        "d": "2021-02-26",
+        "m3": " 31.3"
+      }
+    ]
+  }
+}

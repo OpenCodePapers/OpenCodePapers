@@ -1,0 +1,145 @@
+{
+  "title": "video-salient-object-detection-on-davsod-normal25",
+  "task-hierarchy": [
+    "Salient Object Detection",
+    "Video Salient Object Detection"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/DengPingFan/DAVSOD",
+    "paper": "Shifting More Attention to Video Salient Object Detection"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "S-Measure",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "max E-measure",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Average MAE",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Shifting More Attention to Video Salient Object Detection",
+          "link": "http://openaccess.thecvf.com/content_CVPR_2019/html/Fan_Shifting_More_Attention_to_Video_Salient_Object_Detection_CVPR_2019_paper.html"
+        },
+        "c": "https://github.com/DengPingFan/DAVSOD",
+        "n": "SSAV",
+        "d": "2019-06-01",
+        "m1": "0.661",
+        "m2": "0.723",
+        "m3": "0.117"
+      },
+      {
+        "p": {
+          "name": "Pyramid Dilated Deeper ConvLSTM for Video Salient Object Detection",
+          "link": "http://openaccess.thecvf.com/content_ECCV_2018/html/Hongmei_Song_Pseudo_Pyramid_Deeper_ECCV_2018_paper.html"
+        },
+        "c": "",
+        "n": "PDB",
+        "d": "2018-09-01",
+        "m1": "0.649",
+        "m2": "0.698",
+        "m3": "0.132"
+      },
+      {
+        "p": {
+          "name": "Flow Guided Recurrent Neural Encoder for Video Salient Object Detection",
+          "link": "http://openaccess.thecvf.com/content_cvpr_2018/html/Li_Flow_Guided_Recurrent_CVPR_2018_paper.html"
+        },
+        "c": "",
+        "n": "FGRN",
+        "d": "2018-06-01",
+        "m1": "0.638",
+        "m2": "0.700",
+        "m3": "0.126"
+      },
+      {
+        "p": {
+          "name": "Unsupervised Video Object Segmentation with Motion-based Bilateral Networks",
+          "link": "http://openaccess.thecvf.com/content_ECCV_2018/html/Siyang_Li_Unsupervised_Video_Object_ECCV_2018_paper.html"
+        },
+        "c": "",
+        "n": "MBNM",
+        "d": "2018-09-01",
+        "m1": "0.597",
+        "m2": "0.665",
+        "m3": "0.127"
+      },
+      {
+        "p": {
+          "name": "Saliency-Aware Geodesic Video Object Segmentation",
+          "link": "http://openaccess.thecvf.com/content_cvpr_2015/html/Wang_Saliency-Aware_Geodesic_Video_2015_CVPR_paper.html"
+        },
+        "c": "",
+        "n": "SAGM",
+        "d": "2015-06-01",
+        "m1": "0.543",
+        "m2": "0.616",
+        "m3": "0.198"
+      },
+      {
+        "p": {
+          "name": "Minimum Barrier Salient Object Detection at 80 FPS",
+          "link": "http://openaccess.thecvf.com/content_iccv_2015/html/Zhang_Minimum_Barrier_Salient_ICCV_2015_paper.html"
+        },
+        "c": "",
+        "n": "MB+M",
+        "d": "2015-12-01",
+        "m1": "0.506",
+        "m2": "0.552",
+        "m3": "0.261"
+      },
+      {
+        "p": {
+          "name": "Time-Mapping Using Space-Time Saliency",
+          "link": "http://openaccess.thecvf.com/content_cvpr_2014/html/Zhou_Time-Mapping_Using_Space-Time_2014_CVPR_paper.html"
+        },
+        "c": "",
+        "n": "TIMP",
+        "d": "2014-06-01",
+        "m1": "0.503",
+        "m2": "0.616",
+        "m3": "0.245"
+      },
+      {
+        "p": {
+          "name": "Real-Time Salient Object Detection With a Minimum Spanning Tree",
+          "link": "http://openaccess.thecvf.com/content_cvpr_2016/html/Tu_Real-Time_Salient_Object_CVPR_2016_paper.html"
+        },
+        "c": "https://github.com/cj4L/MST-python",
+        "n": "MSTM",
+        "d": "2016-06-01",
+        "m1": "0.496",
+        "m2": "0.573",
+        "m3": "0.251"
+      }
+    ]
+  }
+}

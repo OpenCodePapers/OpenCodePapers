@@ -1,0 +1,116 @@
+{
+  "title": "medical-image-segmentation-on-cvc-videoclinicdb",
+  "task-hierarchy": [
+    "Medical Image Segmentation"
+  ],
+  "dataset-info": {
+    "link": "",
+    "paper": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Dice",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "mIoU",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Recall",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "precision",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "A Comprehensive Study on Colorectal Polyp Segmentation with ResUNet++, Conditional Random Field and Test-Time Augmentation",
+          "link": "https://arxiv.org/abs/2107.12435v1"
+        },
+        "c": "https://github.com/DebeshJha/ResUNet-with-CRF-and-TTA",
+        "n": "ResUNet++ + TTA",
+        "d": "2021-07-26",
+        "m1": "0.8125",
+        "m2": "0.8467",
+        "m3": "0.6896",
+        "m4": "0.6421"
+      },
+      {
+        "p": {
+          "name": "A Comprehensive Study on Colorectal Polyp Segmentation with ResUNet++, Conditional Random Field and Test-Time Augmentation",
+          "link": "https://arxiv.org/abs/2107.12435v1"
+        },
+        "c": "https://github.com/DebeshJha/ResUNet-with-CRF-and-TTA",
+        "n": "ResUNet++ + TTA + CRF",
+        "d": "2021-07-26",
+        "m1": "0.8130",
+        "m2": "0.8477",
+        "m3": "0.6875",
+        "m4": "0.6276"
+      },
+      {
+        "p": {
+          "name": "ResUNet++: An Advanced Architecture for Medical Image Segmentation",
+          "link": "https://arxiv.org/abs/1911.07067v1"
+        },
+        "c": "https://github.com/rishikksh20/ResUnet",
+        "n": "ResUNet++",
+        "d": "2019-11-16",
+        "m1": "0.8798",
+        "m2": "0.8730",
+        "m3": "0.7749",
+        "m4": "0.6702"
+      },
+      {
+        "p": {
+          "name": "A Comprehensive Study on Colorectal Polyp Segmentation with ResUNet++, Conditional Random Field and Test-Time Augmentation",
+          "link": "https://arxiv.org/abs/2107.12435v1"
+        },
+        "c": "https://github.com/DebeshJha/ResUNet-with-CRF-and-TTA",
+        "n": "ResUNet++ + CRF",
+        "d": "2021-07-26",
+        "m1": "0.8811",
+        "m2": "0.8739",
+        "m3": "0.7743",
+        "m4": "0.6706"
+      },
+      {
+        "p": {
+          "name": "Meta-Polyp: a baseline for efficient Polyp segmentation",
+          "link": "https://arxiv.org/abs/2305.07848v3"
+        },
+        "c": "https://github.com/huyquoctrinh/metapolyp-cbms2023",
+        "n": "Meta-Polyp",
+        "d": "2023-05-13",
+        "m1": "0.926",
+        "m2": "0.862"
+      }
+    ]
+  }
+}

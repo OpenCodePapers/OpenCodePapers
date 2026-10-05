@@ -1,0 +1,110 @@
+{
+  "title": "weakly-supervised-object-detection-on-clipart1k",
+  "task-hierarchy": [
+    "Object Detection",
+    "Semi- and Weakly-Supervised Object Detection",
+    "Weakly Supervised Object Detection"
+  ],
+  "dataset-info": {
+    "link": "",
+    "paper": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "MAP",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "H2FA R-CNN: Holistic and Hierarchical Feature Alignment for Cross-Domain Weakly Supervised Object Detection",
+          "link": "http://openaccess.thecvf.com//content/CVPR2022/html/Xu_H2FA_R-CNN_Holistic_and_Hierarchical_Feature_Alignment_for_Cross-Domain_Weakly_CVPR_2022_paper.html"
+        },
+        "c": "https://github.com/xuyunqiu/h2fa_r-cnn",
+        "n": "H2FA R-CNN (clipart_all)",
+        "d": "2022-01-01",
+        "m1": "69.8"
+      },
+      {
+        "p": {
+          "name": "Domain-Adaptive Self-Supervised Pre-Training for Face & Body Detection in Drawings",
+          "link": "https://arxiv.org/abs/2211.10641v2"
+        },
+        "c": "https://github.com/barisbatuhan/dass_det_inference",
+        "n": "DASS-Detector (YOLOX Tiny)",
+        "d": "2022-11-19",
+        "m1": "64.25"
+      },
+      {
+        "p": {
+          "name": "H2FA R-CNN: Holistic and Hierarchical Feature Alignment for Cross-Domain Weakly Supervised Object Detection",
+          "link": "http://openaccess.thecvf.com//content/CVPR2022/html/Xu_H2FA_R-CNN_Holistic_and_Hierarchical_Feature_Alignment_for_Cross-Domain_Weakly_CVPR_2022_paper.html"
+        },
+        "c": "https://github.com/xuyunqiu/h2fa_r-cnn",
+        "n": "H2FA R-CNN (clipart_test)",
+        "d": "2022-01-01",
+        "m1": "55.3"
+      },
+      {
+        "p": {
+          "name": "Informative and Consistent Correspondence Mining for Cross-Domain Weakly Supervised Object Detection",
+          "link": "http://openaccess.thecvf.com//content/CVPR2021/html/Hou_Informative_and_Consistent_Correspondence_Mining_for_Cross-Domain_Weakly_Supervised_Object_CVPR_2021_paper.html"
+        },
+        "c": "",
+        "n": "ICCM",
+        "d": "2021-06-19",
+        "m1": "46.7"
+      },
+      {
+        "p": {
+          "name": "Cross-Domain Weakly-Supervised Object Detection through Progressive Domain Adaptation",
+          "link": "http://arxiv.org/abs/1803.11365v1"
+        },
+        "c": "https://github.com/naoto0804/cross-domain-detection",
+        "n": "DT+PL",
+        "d": "2018-03-30",
+        "m1": "46.0"
+      },
+      {
+        "p": {
+          "name": "Domain-Adaptive Object Detection via Uncertainty-Aware Distribution Alignment",
+          "link": "https://dl.acm.org/doi/10.1145/3394171.3413553"
+        },
+        "c": "https://github.com/basiclab/DA-OD-MEAA-PyTorch",
+        "n": "MEAA",
+        "d": "2020-10-31",
+        "m1": "41.1"
+      },
+      {
+        "p": {
+          "name": "Multiple instance learning on deep features for weakly supervised object detection with extreme domain shifts",
+          "link": "https://arxiv.org/abs/2008.01178v5"
+        },
+        "c": "https://github.com/ngonthier/Mi_max",
+        "n": "MI-max",
+        "d": "2020-08-03",
+        "m1": "38.4"
+      }
+    ]
+  }
+}

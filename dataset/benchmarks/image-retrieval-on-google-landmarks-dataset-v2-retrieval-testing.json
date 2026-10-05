@@ -1,0 +1,78 @@
+{
+  "title": "image-retrieval-on-google-landmarks-dataset-v2-retrieval-testing",
+  "task-hierarchy": [
+    "Image Retrieval"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/cvdfoundation/google-landmark",
+    "paper": "Google Landmarks Dataset v2 -- A Large-Scale Benchmark for Instance-Level Recognition and Retrieval"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mAP@100",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "AMES: Asymmetric and Memory-Efficient Similarity Estimation for Instance-level Retrieval",
+          "link": "https://arxiv.org/abs/2408.03282v1"
+        },
+        "c": "https://github.com/pavelsuma/ames",
+        "n": "AMES",
+        "d": "2024-08-06",
+        "m1": "37.8"
+      },
+      {
+        "p": {
+          "name": "Unicom: Universal and Compact Representation Learning for Image Retrieval",
+          "link": "https://arxiv.org/abs/2304.05884v1"
+        },
+        "c": "https://github.com/OML-Team/open-metric-learning",
+        "n": "UNICOM-ViT-L-14-512px",
+        "d": "2023-04-12",
+        "m1": "36.4"
+      },
+      {
+        "p": {
+          "name": "Unicom: Universal and Compact Representation Learning for Image Retrieval",
+          "link": "https://arxiv.org/abs/2304.05884v1"
+        },
+        "c": "https://github.com/OML-Team/open-metric-learning",
+        "n": "UNICOM-ViT-B-16-512px",
+        "d": "2023-04-12",
+        "m1": "35.7"
+      },
+      {
+        "p": {
+          "name": "Google Landmarks Dataset v2 -- A Large-Scale Benchmark for Instance-Level Recognition and Retrieval",
+          "link": "https://arxiv.org/abs/2004.01804v2"
+        },
+        "c": "https://github.com/tensorflow/models/tree/master/research/delf",
+        "n": "ResNet101+ArcFace GLDv2-train-clean",
+        "d": "2020-04-03",
+        "m1": "24.15"
+      }
+    ]
+  }
+}

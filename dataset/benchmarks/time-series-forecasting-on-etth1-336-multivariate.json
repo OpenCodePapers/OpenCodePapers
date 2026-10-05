@@ -1,0 +1,825 @@
+{
+  "title": "time-series-forecasting-on-etth1-336-multivariate",
+  "task-hierarchy": [
+    "Time Series Forecasting"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/zhouhaoyi/ETDataset",
+    "paper": "Informer: Beyond Efficient Transformer for Long Sequence Time-Series Forecasting"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "MSE",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "MAE",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "D-PAD: Deep-Shallow Multi-Frequency Patterns Disentangling for Time Series Forecasting",
+          "link": "https://arxiv.org/abs/2403.17814v1"
+        },
+        "c": "https://github.com/xybbo5/d-pad",
+        "n": "D-PAD",
+        "d": "2024-03-26",
+        "m1": "0.374",
+        "m2": "0.406"
+      },
+      {
+        "p": {
+          "name": "xPatch: Dual-Stream Time Series Forecasting with Exponential Seasonal-Trend Decomposition",
+          "link": "https://arxiv.org/abs/2412.17323v2"
+        },
+        "c": "https://github.com/stitsyuk/xpatch",
+        "n": "xPatch",
+        "d": "2024-12-23",
+        "m1": "0.391",
+        "m2": "0.415"
+      },
+      {
+        "p": {
+          "name": "PatchMixer: A Patch-Mixing Architecture for Long-Term Time Series Forecasting",
+          "link": "https://arxiv.org/abs/2310.00655v2"
+        },
+        "c": "https://github.com/Zeying-Gong/PatchMixer",
+        "n": "PatchMixer",
+        "d": "2023-10-01",
+        "m1": "0.392",
+        "m2": "0.414"
+      },
+      {
+        "p": {
+          "name": "Fredformer: Frequency Debiased Transformer for Time Series Forecasting",
+          "link": "https://arxiv.org/abs/2406.09009v4"
+        },
+        "c": "https://github.com/chenzrg/fredformer",
+        "n": "Fredformer",
+        "d": "2024-06-13",
+        "m1": "0.395",
+        "m2": "0.403"
+      },
+      {
+        "p": {
+          "name": "UniTime: A Language-Empowered Unified Model for Cross-Domain Time Series Forecasting",
+          "link": "https://arxiv.org/abs/2310.09751v3"
+        },
+        "c": "https://github.com/liuxu77/unitime",
+        "n": "UniTime",
+        "d": "2023-10-15",
+        "m1": "0.398",
+        "m2": "0.407"
+      },
+      {
+        "p": {
+          "name": "SegRNN: Segment Recurrent Neural Network for Long-Term Time Series Forecasting",
+          "link": "https://arxiv.org/abs/2308.11200v1"
+        },
+        "c": "https://github.com/thuml/Time-Series-Library",
+        "n": "SegRNN",
+        "d": "2023-08-22",
+        "m1": "0.401",
+        "m2": "0.417"
+      },
+      {
+        "p": {
+          "name": "AutoTimes: Autoregressive Time Series Forecasters via Large Language Models",
+          "link": "https://arxiv.org/abs/2402.02370v4"
+        },
+        "c": "https://github.com/thuml/AutoTimes",
+        "n": "AutoTimes",
+        "d": "2024-02-04",
+        "m1": "0.401",
+        "m2": "0.429"
+      },
+      {
+        "p": {
+          "name": "TimeCMA: Towards LLM-Empowered Multivariate Time Series Forecasting via Cross-Modality Alignment",
+          "link": "https://arxiv.org/abs/2406.01638v5"
+        },
+        "c": "https://github.com/ChenxiLiu-HNU/ST-LLM",
+        "n": "TimeCMA",
+        "d": "2024-06-03",
+        "m1": "0.403",
+        "m2": "0.405"
+      },
+      {
+        "p": {
+          "name": "UniTS: A Unified Multi-Task Time Series Model",
+          "link": "https://arxiv.org/abs/2403.00131v3"
+        },
+        "c": "https://github.com/mims-harvard/UniTS",
+        "n": "UniTS-ST",
+        "d": "2024-02-29",
+        "m1": "0.405",
+        "m2": "0.422"
+      },
+      {
+        "p": {
+          "name": "ConvTimeNet: A Deep Hierarchical Fully Convolutional Model for Multivariate Time Series Analysis",
+          "link": "https://arxiv.org/abs/2403.01493v2"
+        },
+        "c": "https://github.com/mingyue-cheng/timemae",
+        "n": "ConvTimeNet",
+        "d": "2024-03-03",
+        "m1": "0.405",
+        "m2": "0.420"
+      },
+      {
+        "p": {
+          "name": "ROSE: Register Assisted General Time Series Forecasting with Decomposed Frequency Learning",
+          "link": "https://arxiv.org/abs/2405.17478v2"
+        },
+        "c": "",
+        "n": "ROSE",
+        "d": "2024-05-24",
+        "m1": "0.406",
+        "m2": "0.422"
+      },
+      {
+        "p": {
+          "name": "TEMPO: Prompt-based Generative Pre-trained Transformer for Time Series Forecasting",
+          "link": "https://arxiv.org/abs/2310.04948v3"
+        },
+        "c": "https://github.com/dc-research/tempo",
+        "n": "TEMPO",
+        "d": "2023-10-08",
+        "m1": "0.408",
+        "m2": "0.425"
+      },
+      {
+        "p": {
+          "name": "Unified Training of Universal Time Series Forecasting Transformers",
+          "link": "https://arxiv.org/abs/2402.02592v2"
+        },
+        "c": "https://github.com/SalesforceAIResearch/uni2ts",
+        "n": "MOIRAISmall",
+        "d": "2024-02-04",
+        "m1": "0.412",
+        "m2": "0.429"
+      },
+      {
+        "p": {
+          "name": "Adaptive Multi-Scale Decomposition Framework for Time Series Forecasting",
+          "link": "https://arxiv.org/abs/2406.03751v1"
+        },
+        "c": "https://github.com/troubadour000/amd",
+        "n": "AMD",
+        "d": "2024-06-06",
+        "m1": "0.418",
+        "m2": "0.427"
+      },
+      {
+        "p": {
+          "name": "WinNet: Make Only One Convolutional Layer Effective for Time Series Forecasting",
+          "link": "https://arxiv.org/abs/2311.00214v2"
+        },
+        "c": "https://github.com/ouwen18/WinNet",
+        "n": "WinNet",
+        "d": "2023-11-01",
+        "m1": "0.419",
+        "m2": "0.426"
+      },
+      {
+        "p": {
+          "name": "Revisiting Long-term Time Series Forecasting: An Investigation on Linear Mapping",
+          "link": "https://arxiv.org/abs/2305.10721v1"
+        },
+        "c": "https://github.com/plumprc/rtsf",
+        "n": "RLinear",
+        "d": "2023-05-18",
+        "m1": "0.42",
+        "m2": "0.423"
+      },
+      {
+        "p": {
+          "name": "TSMixer: Lightweight MLP-Mixer Model for Multivariate Time Series Forecasting",
+          "link": "https://arxiv.org/abs/2306.09364v4"
+        },
+        "c": "https://github.com/ibm/tsfm",
+        "n": "TSMixer",
+        "d": "2023-06-14",
+        "m1": "0.421",
+        "m2": "0.436"
+      },
+      {
+        "p": {
+          "name": "A Time Series is Worth 64 Words: Long-term Forecasting with Transformers",
+          "link": "https://arxiv.org/abs/2211.14730v2"
+        },
+        "c": "https://github.com/timeseriesAI/tsai",
+        "n": "PatchTST/64",
+        "d": "2022-11-27",
+        "m1": "0.422",
+        "m2": "0.44"
+      },
+      {
+        "p": {
+          "name": "HiMTM: Hierarchical Multi-Scale Masked Time Series Modeling for Long-Term Forecasting",
+          "link": "https://arxiv.org/abs/2401.05012v1"
+        },
+        "c": "",
+        "n": "HiMTM",
+        "d": "2024-01-10",
+        "m1": "0.422",
+        "m2": "0.430"
+      },
+      {
+        "p": {
+          "name": "SAMformer: Unlocking the Potential of Transformers in Time Series Forecasting with Sharpness-Aware Minimization and Channel-Wise Attention",
+          "link": "https://arxiv.org/abs/2402.10198v3"
+        },
+        "c": "https://github.com/romilbert/samformer",
+        "n": "SAMformer",
+        "d": "2024-02-15",
+        "m1": "0.423",
+        "m2": "0.425"
+      },
+      {
+        "p": {
+          "name": "CATS: Enhancing Multivariate Time Series Forecasting by Constructing Auxiliary Time Series as Exogenous Variables",
+          "link": "https://arxiv.org/abs/2403.01673v1"
+        },
+        "c": "https://github.com/LJC-FVNR/CATS",
+        "n": "CATS",
+        "d": "2024-03-04",
+        "m1": "0.423",
+        "m2": "0.437"
+      },
+      {
+        "p": {
+          "name": "Only the Curve Shape Matters: Training Foundation Models for Zero-Shot Multivariate Time Series Forecasting through Next Curve Shape Prediction",
+          "link": "https://arxiv.org/abs/2402.07570v2"
+        },
+        "c": "",
+        "n": "GTT-Large",
+        "d": "2024-02-12",
+        "m1": "0.424",
+        "m2": "0.419"
+      },
+      {
+        "p": {
+          "name": "LTBoost: Boosted Hybrids of Ensemble Linear and Gradient Algorithms for the Long-term Time Series Forecasting",
+          "link": "https://dl.acm.org/doi/10.1145/3627673.3679527"
+        },
+        "c": "https://github.com/hubtru/LTBoost",
+        "n": "LTBoost (drop_last=false)",
+        "d": "2024-10-21",
+        "m1": "0.424",
+        "m2": "0.423"
+      },
+      {
+        "p": {
+          "name": "Disentangled Interpretable Representation for Efficient Long-term Time Series Forecasting",
+          "link": "https://arxiv.org/abs/2411.17257v1"
+        },
+        "c": "https://github.com/wintertee/dipe-linear",
+        "n": "DiPE-Linear",
+        "d": "2024-11-26",
+        "m1": "0.424"
+      },
+      {
+        "p": {
+          "name": "FITS: Modeling Time Series with $10k$ Parameters",
+          "link": "https://arxiv.org/abs/2307.03756v3"
+        },
+        "c": "https://github.com/WenjieDu/PyPOTS",
+        "n": "FITS",
+        "d": "2023-07-06",
+        "m1": "0.427"
+      },
+      {
+        "p": {
+          "name": "PRformer: Pyramidal Recurrent Transformer for Multivariate Time Series Forecasting",
+          "link": "https://arxiv.org/abs/2408.10483v1"
+        },
+        "c": "https://github.com/usualheart/prformer",
+        "n": "PRformer",
+        "d": "2024-08-20",
+        "m1": "0.427"
+      },
+      {
+        "p": {
+          "name": "Are Transformers Effective for Time Series Forecasting?",
+          "link": "https://arxiv.org/abs/2205.13504v3"
+        },
+        "c": "https://github.com/cure-lab/DLinear",
+        "n": "NLinear",
+        "d": "2022-05-26",
+        "m1": "0.429",
+        "m2": "0.427"
+      },
+      {
+        "p": {
+          "name": "TimeMachine: A Time Series is Worth 4 Mambas for Long-term Forecasting",
+          "link": "https://arxiv.org/abs/2403.09898v2"
+        },
+        "c": "https://github.com/atik-ahamed/timemachine",
+        "n": "TimeMachine",
+        "d": "2024-03-14",
+        "m1": "0.429",
+        "m2": "0.421"
+      },
+      {
+        "p": {
+          "name": "Mixture-of-Linear-Experts for Long-term Time Series Forecasting",
+          "link": "https://arxiv.org/abs/2312.06786v3"
+        },
+        "c": "https://github.com/rogerni/mole",
+        "n": "MoLE-RLinear",
+        "d": "2023-12-11",
+        "m1": "0.43"
+      },
+      {
+        "p": {
+          "name": "Generative Pretrained Hierarchical Transformer for Time Series Forecasting",
+          "link": "https://arxiv.org/abs/2402.16516v2"
+        },
+        "c": "https://github.com/icantnamemyself/gpht",
+        "n": "GPHT",
+        "d": "2024-02-26",
+        "m1": "0.430",
+        "m2": "0.423"
+      },
+      {
+        "p": {
+          "name": "Rethinking Channel Dependence for Multivariate Time Series Forecasting: Learning from Leading Indicators",
+          "link": "https://arxiv.org/abs/2401.17548v6"
+        },
+        "c": "https://github.com/sjtu-dmtai/lift",
+        "n": "PatchTST + LIFT",
+        "d": "2024-01-31",
+        "m1": "0.433",
+        "m2": "0.435"
+      },
+      {
+        "p": {
+          "name": "Only the Curve Shape Matters: Training Foundation Models for Zero-Shot Multivariate Time Series Forecasting through Next Curve Shape Prediction",
+          "link": "https://arxiv.org/abs/2402.07570v2"
+        },
+        "c": "",
+        "n": "GTT-Large(Fine-tune)",
+        "d": "2024-02-12",
+        "m1": "0.433",
+        "m2": "0.418"
+      },
+      {
+        "p": {
+          "name": "SparseTSF: Modeling Long-term Time Series Forecasting with 1k Parameters",
+          "link": "https://arxiv.org/abs/2405.00946v2"
+        },
+        "c": "https://github.com/lss-1138/SparseTSF",
+        "n": "SparseTSF",
+        "d": "2024-05-02",
+        "m1": "0.434"
+      },
+      {
+        "p": {
+          "name": "Long-term Forecasting with TiDE: Time-series Dense Encoder",
+          "link": "https://arxiv.org/abs/2304.08424v5"
+        },
+        "c": "https://github.com/google-research/google-research/tree/master/tide",
+        "n": "TiDE",
+        "d": "2023-04-17",
+        "m1": "0.435",
+        "m2": "0.433"
+      },
+      {
+        "p": {
+          "name": "Leveraging 2D Information for Long-term Time Series Forecasting with Vanilla Transformers",
+          "link": "https://arxiv.org/abs/2405.13810v1"
+        },
+        "c": "https://github.com/Hannibal046/GridTST",
+        "n": "GridTST",
+        "d": "2024-05-22",
+        "m1": "0.436",
+        "m2": "0.440"
+      },
+      {
+        "p": {
+          "name": "Are Transformers Effective for Time Series Forecasting?",
+          "link": "https://arxiv.org/abs/2205.13504v3"
+        },
+        "c": "https://github.com/cure-lab/DLinear",
+        "n": "DLinear",
+        "d": "2022-05-26",
+        "m1": "0.439",
+        "m2": "0.443"
+      },
+      {
+        "p": {
+          "name": "FiLM: Frequency improved Legendre Memory Model for Long-term Time Series Forecasting",
+          "link": "https://arxiv.org/abs/2205.08897v4"
+        },
+        "c": "https://github.com/WenjieDu/PyPOTS",
+        "n": "FiLM",
+        "d": "2022-05-18",
+        "m1": "0.442",
+        "m2": "0.445"
+      },
+      {
+        "p": {
+          "name": "An Analysis of Linear Time Series Forecasting Models",
+          "link": "https://arxiv.org/abs/2403.14587v2"
+        },
+        "c": "https://github.com/levi-ackman/lino",
+        "n": "OLS",
+        "d": "2024-03-21",
+        "m1": "0.448"
+      },
+      {
+        "p": {
+          "name": "Rethinking Channel Dependence for Multivariate Time Series Forecasting: Learning from Leading Indicators",
+          "link": "https://arxiv.org/abs/2401.17548v6"
+        },
+        "c": "https://github.com/sjtu-dmtai/lift",
+        "n": "DLinear + LIFT",
+        "d": "2024-01-31",
+        "m1": "0.453",
+        "m2": "0.453"
+      },
+      {
+        "p": {
+          "name": "Pathformer: Multi-scale Transformers with Adaptive Pathways for Time Series Forecasting",
+          "link": "https://arxiv.org/abs/2402.05956v5"
+        },
+        "c": "https://github.com/decisionintelligence/pathformer",
+        "n": "Pathformer",
+        "d": "2024-02-04",
+        "m1": "0.454",
+        "m2": "0.432"
+      },
+      {
+        "p": {
+          "name": "Bi-Mamba+: Bidirectional Mamba for Time Series Forecasting",
+          "link": "https://arxiv.org/abs/2404.15772v3"
+        },
+        "c": "",
+        "n": "Bi-Mamba4TS",
+        "d": "2024-04-24",
+        "m1": "0.455",
+        "m2": "0.445"
+      },
+      {
+        "p": {
+          "name": "Taming Pre-trained Language Models with N-gram Representations for Low-Resource Domain Adaptation",
+          "link": "https://aclanthology.org/2021.acl-long.259"
+        },
+        "c": "https://github.com/shizhediao/t-dna",
+        "n": "LLaTA",
+        "d": "2021-08-01",
+        "m1": "0.456",
+        "m2": "0.436"
+      },
+      {
+        "p": {
+          "name": "Unified Training of Universal Time Series Forecasting Transformers",
+          "link": "https://arxiv.org/abs/2402.02592v2"
+        },
+        "c": "https://github.com/SalesforceAIResearch/uni2ts",
+        "n": "MOIRAIBase",
+        "d": "2024-02-04",
+        "m1": "0.456",
+        "m2": "0.450"
+      },
+      {
+        "p": {
+          "name": "Generative Pretrained Hierarchical Transformer for Time Series Forecasting",
+          "link": "https://arxiv.org/abs/2402.16516v2"
+        },
+        "c": "https://github.com/icantnamemyself/gpht",
+        "n": "GPHT*",
+        "d": "2024-02-26",
+        "m1": "0.456",
+        "m2": "0.432"
+      },
+      {
+        "p": {
+          "name": "CALF: Aligning LLMs for Time Series Forecasting via Cross-modal Fine-Tuning",
+          "link": "https://arxiv.org/abs/2403.07300v2"
+        },
+        "c": "https://github.com/hank0626/llata",
+        "n": "CALF",
+        "d": "2024-03-12",
+        "m1": "0.456",
+        "m2": "0.436"
+      },
+      {
+        "p": {
+          "name": "Only the Curve Shape Matters: Training Foundation Models for Zero-Shot Multivariate Time Series Forecasting through Next Curve Shape Prediction",
+          "link": "https://arxiv.org/abs/2402.07570v2"
+        },
+        "c": "",
+        "n": "GTT-Smal",
+        "d": "2024-02-12",
+        "m1": "0.459",
+        "m2": "0.427"
+      },
+      {
+        "p": {
+          "name": "Minusformer: Improving Time Series Forecasting by Progressively Learning Residuals",
+          "link": "https://arxiv.org/abs/2402.02332v3"
+        },
+        "c": "https://github.com/anoise/minusformer",
+        "n": "Minusformer-96",
+        "d": "2024-02-04",
+        "m1": "0.465",
+        "m2": "0.446"
+      },
+      {
+        "p": {
+          "name": "Only the Curve Shape Matters: Training Foundation Models for Zero-Shot Multivariate Time Series Forecasting through Next Curve Shape Prediction",
+          "link": "https://arxiv.org/abs/2402.07570v2"
+        },
+        "c": "",
+        "n": "GTT-Tiny",
+        "d": "2024-02-12",
+        "m1": "0.466",
+        "m2": "0.436"
+      },
+      {
+        "p": {
+          "name": "Only the Curve Shape Matters: Training Foundation Models for Zero-Shot Multivariate Time Series Forecasting through Next Curve Shape Prediction",
+          "link": "https://arxiv.org/abs/2402.07570v2"
+        },
+        "c": "",
+        "n": "GTT-Large(100M traing samples)",
+        "d": "2024-02-12",
+        "m1": "0.468",
+        "m2": "0.432"
+      },
+      {
+        "p": {
+          "name": "Mixture-of-Linear-Experts for Long-term Time Series Forecasting",
+          "link": "https://arxiv.org/abs/2312.06786v3"
+        },
+        "c": "https://github.com/rogerni/mole",
+        "n": "MoLE-DLinear",
+        "d": "2023-12-11",
+        "m1": "0.469"
+      },
+      {
+        "p": {
+          "name": "ForecastGrapher: Redefining Multivariate Time Series Forecasting with Graph Neural Networks",
+          "link": "https://arxiv.org/abs/2405.18036v1"
+        },
+        "c": "",
+        "n": "ForecastGrapher",
+        "d": "2024-05-28",
+        "m1": "0.472",
+        "m2": "0.448"
+      },
+      {
+        "p": {
+          "name": "BasisFormer: Attention-based Time Series Forecasting with Learnable and Interpretable Basis",
+          "link": "https://arxiv.org/abs/2310.20496v2"
+        },
+        "c": "https://github.com/nzl5116190/basisformer",
+        "n": "Basisformer",
+        "d": "2023-10-31",
+        "m1": "0.473",
+        "m2": "0.451"
+      },
+      {
+        "p": {
+          "name": "Mamba-360: Survey of State Space Models as Transformer Alternative for Long Sequence Modelling: Methods, Applications, and Challenges",
+          "link": "https://arxiv.org/abs/2404.16112v1"
+        },
+        "c": "https://github.com/badripatro/mamba360",
+        "n": "Simba",
+        "d": "2024-04-24",
+        "m1": "0.473",
+        "m2": "0.443"
+      },
+      {
+        "p": {
+          "name": "VCformer: Variable Correlation Transformer with Inherent Lagged Correlation for Multivariate Time Series Forecasting",
+          "link": "https://arxiv.org/abs/2405.11470v1"
+        },
+        "c": "https://github.com/csyyn/vcformer",
+        "n": "VCformer",
+        "d": "2024-05-19",
+        "m1": "0.473",
+        "m2": "0.449"
+      },
+      {
+        "p": {
+          "name": "Only the Curve Shape Matters: Training Foundation Models for Zero-Shot Multivariate Time Series Forecasting through Next Curve Shape Prediction",
+          "link": "https://arxiv.org/abs/2402.07570v2"
+        },
+        "c": "",
+        "n": "GTT-Large(50M traing samples)",
+        "d": "2024-02-12",
+        "m1": "0.475",
+        "m2": "0.444"
+      },
+      {
+        "p": {
+          "name": "Time Evidence Fusion Network: Multi-source View in Long-Term Time Series Forecasting",
+          "link": "https://arxiv.org/abs/2405.06419v3"
+        },
+        "c": "https://github.com/WenjieDu/PyPOTS",
+        "n": "TEFN",
+        "d": "2024-05-10",
+        "m1": "0.475",
+        "m2": "0.441"
+      },
+      {
+        "p": {
+          "name": "Boosting MLPs with a Coarsening Strategy for Long-Term Time Series Forecasting",
+          "link": "https://arxiv.org/abs/2405.03199v2"
+        },
+        "c": "https://github.com/nannanbian/cpnet",
+        "n": "CPNet",
+        "d": "2024-05-06",
+        "m1": "0.479",
+        "m2": "0.450"
+      },
+      {
+        "p": {
+          "name": "SOFTS: Efficient Multivariate Time Series Forecasting with Series-Core Fusion",
+          "link": "https://arxiv.org/abs/2404.14197v3"
+        },
+        "c": "https://github.com/secilia-cxy/softs",
+        "n": "SOFTS",
+        "d": "2024-04-22",
+        "m1": "0.480",
+        "m2": "0.452"
+      },
+      {
+        "p": {
+          "name": "iTransformer: Inverted Transformers Are Effective for Time Series Forecasting",
+          "link": "https://arxiv.org/abs/2310.06625v4"
+        },
+        "c": "https://github.com/thuml/Time-Series-Library",
+        "n": "iTransformer",
+        "d": "2023-10-10",
+        "m1": "0.487",
+        "m2": "0.458"
+      },
+      {
+        "p": {
+          "name": "Is Mamba Effective for Time Series Forecasting?",
+          "link": "https://arxiv.org/abs/2403.11144v3"
+        },
+        "c": "https://github.com/wzhwzhwzh0921/s-d-mamba",
+        "n": "S-Mamba",
+        "d": "2024-03-17",
+        "m1": "0.489",
+        "m2": "0.468"
+      },
+      {
+        "p": {
+          "name": "SCINet: Time Series Modeling and Forecasting with Sample Convolution and Interaction",
+          "link": "https://arxiv.org/abs/2106.09305v3"
+        },
+        "c": "https://github.com/WenjieDu/PyPOTS",
+        "n": "SCINet",
+        "d": "2021-06-17",
+        "m1": "0.504",
+        "m2": "0.495"
+      },
+      {
+        "p": {
+          "name": "Autoformer: Decomposition Transformers with Auto-Correlation for Long-Term Series Forecasting",
+          "link": "https://arxiv.org/abs/2106.13008v5"
+        },
+        "c": "https://github.com/thuml/autoformer",
+        "n": "Autoformer",
+        "d": "2021-06-24",
+        "m1": "0.505",
+        "m2": "0.484"
+      },
+      {
+        "p": {
+          "name": "Unified Training of Universal Time Series Forecasting Transformers",
+          "link": "https://arxiv.org/abs/2402.02592v2"
+        },
+        "c": "https://github.com/SalesforceAIResearch/uni2ts",
+        "n": "MOIRAILarge",
+        "d": "2024-02-04",
+        "m1": "0.514",
+        "m2": "0.474"
+      },
+      {
+        "p": {
+          "name": "ATFNet: Adaptive Time-Frequency Ensembled Network for Long-term Time Series Forecasting",
+          "link": "https://arxiv.org/abs/2404.05192v1"
+        },
+        "c": "https://github.com/yhyhyhyhyhy/atfnet",
+        "n": "ATFNet",
+        "d": "2024-04-08",
+        "m1": "0.514",
+        "m2": "0.521"
+      },
+      {
+        "p": {
+          "name": "RPMixer: Shaking Up Time Series Forecasting with Random Projections for Large Spatial-Temporal Data",
+          "link": "https://arxiv.org/abs/2402.10487v4"
+        },
+        "c": "",
+        "n": "RPMixer",
+        "d": "2024-02-16",
+        "m1": "0.521",
+        "m2": "0.498"
+      },
+      {
+        "p": {
+          "name": "Attention as an RNN",
+          "link": "https://arxiv.org/abs/2405.13956v2"
+        },
+        "c": "https://github.com/claCase/Attention-as-RNN",
+        "n": "Aaren",
+        "d": "2024-05-22",
+        "m1": "0.65",
+        "m2": "0.55"
+      },
+      {
+        "p": {
+          "name": "Long-term series forecasting with Query Selector -- efficient model of sparse attention",
+          "link": "https://arxiv.org/abs/2107.08687v2"
+        },
+        "c": "https://github.com/moraieu/query-selector",
+        "n": "Transformer",
+        "d": "2021-07-19",
+        "m1": "0.8321",
+        "m2": "0.7041"
+      },
+      {
+        "p": {
+          "name": "Long-term series forecasting with Query Selector -- efficient model of sparse attention",
+          "link": "https://arxiv.org/abs/2107.08687v2"
+        },
+        "c": "https://github.com/moraieu/query-selector",
+        "n": "QuerySelector",
+        "d": "2021-07-19",
+        "m1": "0.8503",
+        "m2": "0.7039"
+      },
+      {
+        "p": {
+          "name": "Informer: Beyond Efficient Transformer for Long Sequence Time-Series Forecasting",
+          "link": "https://arxiv.org/abs/2012.07436v3"
+        },
+        "c": "https://github.com/zhouhaoyi/Informer2020",
+        "n": "Informer",
+        "d": "2020-12-14",
+        "m1": "0.884",
+        "m2": "0.753"
+      },
+      {
+        "p": {
+          "name": "A decoder-only foundation model for time-series forecasting",
+          "link": "https://arxiv.org/abs/2310.10688v4"
+        },
+        "c": "https://github.com/google-research/timesfm",
+        "n": "TimesFM",
+        "d": "2023-10-14",
+        "m2": "0.436"
+      },
+      {
+        "p": {
+          "name": "TSMixer: An All-MLP Architecture for Time Series Forecasting",
+          "link": "https://arxiv.org/abs/2303.06053v5"
+        },
+        "c": "https://github.com/google-research/google-research",
+        "n": "TSMixer",
+        "d": "2023-03-10",
+        "m2": "0.431"
+      },
+      {
+        "p": {
+          "name": "DeformTime: Capturing Variable Dependencies with Deformable Attention for Time Series Forecasting",
+          "link": "https://arxiv.org/abs/2406.07438v2"
+        },
+        "c": "https://github.com/ClaudiaShu/DeformTime",
+        "n": "DeformTime",
+        "d": "2024-06-11",
+        "m2": "0.2158"
+      }
+    ]
+  }
+}

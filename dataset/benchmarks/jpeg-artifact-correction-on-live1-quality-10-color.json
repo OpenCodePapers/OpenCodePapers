@@ -1,0 +1,156 @@
+{
+  "title": "jpeg-artifact-correction-on-live1-quality-10-color",
+  "task-hierarchy": [
+    "Image Restoration",
+    "JPEG Artifact Correction"
+  ],
+  "dataset-info": {
+    "link": "https://live.ece.utexas.edu/research/quality/subjective.htm",
+    "paper": "A statistical evaluation of recent full reference image quality assessment algorithms"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "PSNR",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "PSNR-B",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "SSIM",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Hierarchical Information Flow for Generalized Efficient Image Restoration",
+          "link": "https://arxiv.org/abs/2411.18588v1"
+        },
+        "c": "",
+        "n": "Hi-IR",
+        "d": "2024-11-27",
+        "m1": "28.36",
+        "m3": "0.818"
+      },
+      {
+        "p": {
+          "name": "Towards Flexible Blind JPEG Artifacts Removal",
+          "link": "https://arxiv.org/abs/2109.14573v1"
+        },
+        "c": "https://github.com/jiaxi-jiang/fbcnn",
+        "n": "FBCNN",
+        "d": "2021-09-29",
+        "m1": "27.77",
+        "m2": "27.51",
+        "m3": "0.803"
+      },
+      {
+        "p": {
+          "name": "Quantization Guided JPEG Artifact Correction",
+          "link": "https://arxiv.org/abs/2004.09320v2"
+        },
+        "c": "https://gitlab.com/Queuecumber/quantization-guided-ac",
+        "n": "QGAC",
+        "d": "2020-04-17",
+        "m1": "27.65",
+        "m2": "27.40",
+        "m3": "0.819"
+      },
+      {
+        "p": {
+          "name": "Implicit Dual-domain Convolutional Network for Robust Color Image Compression Artifact Reduction",
+          "link": "https://arxiv.org/abs/1810.08042v3"
+        },
+        "c": "",
+        "n": "IDCN",
+        "d": "2018-10-18",
+        "m1": "27.63",
+        "m2": "27.63",
+        "m3": "0.816"
+      },
+      {
+        "p": {
+          "name": "Multi-level Wavelet-CNN for Image Restoration",
+          "link": "http://arxiv.org/abs/1805.07071v2"
+        },
+        "c": "https://github.com/lpj0/MWCNN",
+        "n": "MWCNN",
+        "d": "2018-05-18",
+        "m1": "27.45",
+        "m2": "27.44",
+        "m3": "0.808"
+      },
+      {
+        "p": {
+          "name": "S-Net: A Scalable Convolutional Neural Network for JPEG Compression Artifact Reduction",
+          "link": "http://arxiv.org/abs/1810.07960v1"
+        },
+        "c": "",
+        "n": "S-Net",
+        "d": "2018-10-18",
+        "m1": "27.35",
+        "m2": "27.36",
+        "m3": "0.809"
+      },
+      {
+        "p": {
+          "name": "MemNet: A Persistent Memory Network for Image Restoration",
+          "link": "http://arxiv.org/abs/1708.02209v1"
+        },
+        "c": "https://github.com/tyshiwo/MemNet",
+        "n": "MemNet",
+        "d": "2017-08-07",
+        "m1": "27.33",
+        "m2": "27.34",
+        "m3": "0.810"
+      },
+      {
+        "p": {
+          "name": "DPW-SDNet: Dual Pixel-Wavelet Domain Deep CNNs for Soft Decoding of JPEG-Compressed Images",
+          "link": "http://arxiv.org/abs/1805.10558v1"
+        },
+        "c": "",
+        "n": "DPW-SDNet",
+        "d": "2018-05-27",
+        "m1": "27.26",
+        "m2": "27.28",
+        "m3": "0.803"
+      },
+      {
+        "p": {
+          "name": "Compression Artifacts Reduction by a Deep Convolutional Network",
+          "link": "http://arxiv.org/abs/1504.06993v1"
+        },
+        "c": "https://github.com/ryanxingql/powerqe",
+        "n": "ARCNN",
+        "d": "2015-04-27",
+        "m1": "26.91",
+        "m2": "26.92",
+        "m3": "0.795"
+      }
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "title": "optical-flow-estimation-on-kitti-2015-unsupervised",
+  "task-hierarchy": [
+    "Optical Flow Estimation"
+  ],
+  "dataset-info": {
+    "link": "http://www.cvlibs.net/datasets/kitti/",
+    "paper": "Object Scene Flow for Autonomous Vehicles"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Fl-all",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "MDFlow: Unsupervised Optical Flow Learning by Reliable Mutual Knowledge Distillation",
+          "link": "https://arxiv.org/abs/2211.06018v1"
+        },
+        "c": "https://github.com/ltkong218/mdflow",
+        "n": "MDFlow",
+        "d": "2022-11-11",
+        "m1": "8.91"
+      },
+      {
+        "p": {
+          "name": "UPFlow: Upsampling Pyramid for Unsupervised Optical Flow Learning",
+          "link": "https://arxiv.org/abs/2012.00212v2"
+        },
+        "c": "https://github.com/twhui/LiteFlowNet3",
+        "n": "UpFlow",
+        "d": "2020-12-01",
+        "m1": "9.38"
+      },
+      {
+        "p": {
+          "name": "MDFlow: Unsupervised Optical Flow Learning by Reliable Mutual Knowledge Distillation",
+          "link": "https://arxiv.org/abs/2211.06018v1"
+        },
+        "c": "https://github.com/ltkong218/mdflow",
+        "n": "MDFlow-Fast",
+        "d": "2022-11-11",
+        "m1": "11.43"
+      },
+      {
+        "p": {
+          "name": "Learning by Analogy: Reliable Supervision from Transformations for Unsupervised Optical Flow Estimation",
+          "link": "https://arxiv.org/abs/2003.13045v2"
+        },
+        "c": "https://github.com/lliuz/ARFlow",
+        "n": "ARFlow-MV",
+        "d": "2020-03-29",
+        "m1": "11.79"
+      }
+    ]
+  }
+}

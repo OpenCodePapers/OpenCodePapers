@@ -1,0 +1,89 @@
+{
+  "title": "unsupervised-extractive-summarization-on-facetsum",
+  "task-hierarchy": [
+    "Text Summarization",
+    "Unsupervised Extractive Summarization"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/hfthair/emerald_crawler",
+    "paper": "Bringing Structure into Summaries: a Faceted Summarization Dataset for Long Scientific Documents"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "ROUGE-L",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Bringing Structure into Summaries: a Faceted Summarization Dataset for Long Scientific Documents",
+          "link": "https://arxiv.org/abs/2106.00130v2"
+        },
+        "c": "https://github.com/hfthair/emerald_crawler",
+        "n": "HipoRank",
+        "d": "2021-05-31",
+        "m1": "42.89"
+      },
+      {
+        "p": {
+          "name": "Bringing Structure into Summaries: a Faceted Summarization Dataset for Long Scientific Documents",
+          "link": "https://arxiv.org/abs/2106.00130v2"
+        },
+        "c": "https://github.com/hfthair/emerald_crawler",
+        "n": "LexRank",
+        "d": "2021-05-31",
+        "m1": "42.18"
+      },
+      {
+        "p": {
+          "name": "Bringing Structure into Summaries: a Faceted Summarization Dataset for Long Scientific Documents",
+          "link": "https://arxiv.org/abs/2106.00130v2"
+        },
+        "c": "https://github.com/hfthair/emerald_crawler",
+        "n": "TextRank",
+        "d": "2021-05-31",
+        "m1": "41.87"
+      },
+      {
+        "p": {
+          "name": "Bringing Structure into Summaries: a Faceted Summarization Dataset for Long Scientific Documents",
+          "link": "https://arxiv.org/abs/2106.00130v2"
+        },
+        "c": "https://github.com/hfthair/emerald_crawler",
+        "n": "SumBasic",
+        "d": "2021-05-31",
+        "m1": "38.71"
+      },
+      {
+        "p": {
+          "name": "Bringing Structure into Summaries: a Faceted Summarization Dataset for Long Scientific Documents",
+          "link": "https://arxiv.org/abs/2106.00130v2"
+        },
+        "c": "https://github.com/hfthair/emerald_crawler",
+        "n": "LSA",
+        "d": "2021-05-31",
+        "m1": "35.98"
+      }
+    ]
+  }
+}

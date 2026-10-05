@@ -1,0 +1,88 @@
+{
+  "title": "unsupervised-semantic-segmentation-on-coco-stuff-171",
+  "task-hierarchy": [
+    "Semantic Segmentation",
+    "Unsupervised Semantic Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/nightrome/cocostuff",
+    "paper": "COCO-Stuff: Thing and Stuff Classes in Context"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mIoU",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Pixel Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Causal Unsupervised Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2310.07379v1"
+        },
+        "c": "https://github.com/ByungKwanLee/Causal-Unsupervised-Segmentation",
+        "n": "CAUSE-TR (ViT-S/8)",
+        "d": "2023-10-11",
+        "m1": "15.2",
+        "m2": "46.6"
+      },
+      {
+        "p": {
+          "name": "TransFGU: A Top-down Approach to Fine-Grained Unsupervised Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2112.01515v2"
+        },
+        "c": "https://github.com/damo-cv/transfgu",
+        "n": "TransFGU (ViT-S/8)",
+        "d": "2021-12-02",
+        "m1": "11.93",
+        "m2": "34.32"
+      },
+      {
+        "p": {
+          "name": "PiCIE: Unsupervised Semantic Segmentation using Invariance and Equivariance in Clustering",
+          "link": "https://arxiv.org/abs/2103.17070v1"
+        },
+        "c": "https://github.com/janghyuncho/PiCIE",
+        "n": "PiCIE (ResNet-50)",
+        "d": "2021-03-30",
+        "m1": "5.6",
+        "m2": "29.8"
+      },
+      {
+        "p": {
+          "name": "Invariant Information Clustering for Unsupervised Image Classification and Segmentation",
+          "link": "https://arxiv.org/abs/1807.06653v4"
+        },
+        "c": "https://github.com/xu-ji/IIC",
+        "n": "IIC (ResNet-50)",
+        "d": "2018-07-17",
+        "m1": "2.2",
+        "m2": "15.7"
+      }
+    ]
+  }
+}

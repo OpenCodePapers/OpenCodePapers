@@ -1,0 +1,83 @@
+{
+  "title": "fine-grained-urban-flow-inference-on-taxibj-p2",
+  "task-hierarchy": [
+    "Time Series Forecasting",
+    "Fine-Grained Urban Flow Inference"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/TolicWang/DeepST/tree/master/data/TaxiBJ",
+    "paper": "Deep Spatio-Temporal Residual Networks for Citywide Crowd Flows Prediction"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "MSE ",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "MAE",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "MAPE",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Spatial-Temporal Contrasting for Fine-Grained Urban Flow Inference",
+          "link": "https://ieeexplore.ieee.org/abstract/document/10254322"
+        },
+        "c": "https://github.com/Xovee/stcf",
+        "n": "STCF",
+        "d": "2023-12-01",
+        "m1": "18.2566"
+      },
+      {
+        "p": {
+          "name": "UrbanFM: Inferring Fine-Grained Urban Flows",
+          "link": "http://arxiv.org/abs/1902.05377v1"
+        },
+        "c": "https://github.com/yoshall/UrbanFM",
+        "n": "UrbanFM",
+        "d": "2019-02-06",
+        "m1": "18.7402",
+        "m2": "2.224",
+        "m3": "0.313"
+      },
+      {
+        "p": {
+          "name": "UrbanFM: Inferring Fine-Grained Urban Flows",
+          "link": "http://arxiv.org/abs/1902.05377v1"
+        },
+        "c": "https://github.com/yoshall/UrbanFM",
+        "n": "UrbanFM-ne",
+        "d": "2019-02-06",
+        "m1": "19.2369",
+        "m2": "2.258",
+        "m3": "0.320"
+      }
+    ]
+  }
+}

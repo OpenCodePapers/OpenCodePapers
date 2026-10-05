@@ -1,0 +1,230 @@
+{
+  "title": "video-based-generative-performance-benchmarking-detail-orientation-on-videoinstruct",
+  "task-hierarchy": [
+    "Video Question Answering",
+    "Video-based Generative Performance Benchmarking",
+    "Video-based Generative Performance Benchmarking (Detail Orientation)"
+  ],
+  "dataset-info": {
+    "link": "https://mbzuai-oryx.github.io/Video-ChatGPT",
+    "paper": "Video-ChatGPT: Towards Detailed Video Understanding via Large Vision and Language Models"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "gpt-score",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "PPLLaVA: Varied Video Sequence Understanding With Prompt Guidance",
+          "link": "https://arxiv.org/abs/2411.02327v2"
+        },
+        "c": "https://github.com/farewellthree/ppllava",
+        "n": "PPLLaVA-7B",
+        "d": "2024-11-04",
+        "m1": "3.56"
+      },
+      {
+        "p": {
+          "name": "PLLaVA : Parameter-free LLaVA Extension from Images to Videos for Video Dense Captioning",
+          "link": "https://arxiv.org/abs/2404.16994v2"
+        },
+        "c": "https://github.com/magic-research/PLLaVA",
+        "n": "PLLaVA-34B",
+        "d": "2024-04-25",
+        "m1": "3.20"
+      },
+      {
+        "p": {
+          "name": "VideoGPT+: Integrating Image and Video Encoders for Enhanced Video Understanding",
+          "link": "https://arxiv.org/abs/2406.09418v1"
+        },
+        "c": "https://github.com/mbzuai-oryx/videogpt-plus",
+        "n": "VideoGPT+",
+        "d": "2024-06-13",
+        "m1": "3.18"
+      },
+      {
+        "p": {
+          "name": "VTimeLLM: Empower LLM to Grasp Video Moments",
+          "link": "https://arxiv.org/abs/2311.18445v1"
+        },
+        "c": "https://github.com/huangb23/vtimellm",
+        "n": "VTimeLLM",
+        "d": "2023-11-30",
+        "m1": "3.10"
+      },
+      {
+        "p": {
+          "name": "ST-LLM: Large Language Models Are Effective Temporal Learners",
+          "link": "https://arxiv.org/abs/2404.00308v1"
+        },
+        "c": "https://github.com/TencentARC/ST-LLM",
+        "n": "ST-LLM",
+        "d": "2024-03-30",
+        "m1": "3.05"
+      },
+      {
+        "p": {
+          "name": "TS-LLaVA: Constructing Visual Tokens through Thumbnail-and-Sampling for Training-Free Video Large Language Models",
+          "link": "https://arxiv.org/abs/2411.11066v1"
+        },
+        "c": "https://github.com/tingyu215/ts-llava",
+        "n": "TS-LLaVA-34B",
+        "d": "2024-11-17",
+        "m1": "3.03"
+      },
+      {
+        "p": {
+          "name": "MiniGPT4-Video: Advancing Multimodal LLMs for Video Understanding with Interleaved Visual-Textual Tokens",
+          "link": "https://arxiv.org/abs/2404.03413v1"
+        },
+        "c": "https://github.com/Vision-CAIR/MiniGPT4-video",
+        "n": "MiniGPT4-video-7B",
+        "d": "2024-04-04",
+        "m1": "3.02"
+      },
+      {
+        "p": {
+          "name": "DynImg: Key Frames with Visual Prompts are Good Representation for Multi-Modal Video Understanding",
+          "link": "https://arxiv.org/abs/2507.15569"
+        },
+        "c": "",
+        "n": "DynImg",
+        "d": "2025-07-21",
+        "m1": "3.02"
+      },
+      {
+        "p": {
+          "name": "SlowFast-LLaVA: A Strong Training-Free Baseline for Video Large Language Models",
+          "link": "https://arxiv.org/abs/2407.15841v2"
+        },
+        "c": "https://github.com/apple/ml-slowfast-llava",
+        "n": "SlowFast-LLaVA-34B",
+        "d": "2024-07-22",
+        "m1": "2.96"
+      },
+      {
+        "p": {
+          "name": "MovieChat: From Dense Token to Sparse Memory for Long Video Understanding",
+          "link": "https://arxiv.org/abs/2307.16449v4"
+        },
+        "c": "https://github.com/rese1f/MovieChat",
+        "n": "MovieChat",
+        "d": "2023-07-31",
+        "m1": "2.93"
+      },
+      {
+        "p": {
+          "name": "Chat-UniVi: Unified Visual Representation Empowers Large Language Models with Image and Video Understanding",
+          "link": "https://arxiv.org/abs/2311.08046v3"
+        },
+        "c": "https://github.com/pku-yuangroup/chat-univi",
+        "n": "Chat-UniVi",
+        "d": "2023-11-14",
+        "m1": "2.91"
+      },
+      {
+        "p": {
+          "name": "MVBench: A Comprehensive Multi-modal Video Understanding Benchmark",
+          "link": "https://arxiv.org/abs/2311.17005v4"
+        },
+        "c": "https://github.com/opengvlab/ask-anything",
+        "n": "VideoChat2",
+        "d": "2023-11-28",
+        "m1": "2.88"
+      },
+      {
+        "p": {
+          "name": "MVBench: A Comprehensive Multi-modal Video Understanding Benchmark",
+          "link": "https://arxiv.org/abs/2311.17005v4"
+        },
+        "c": "https://github.com/opengvlab/ask-anything",
+        "n": "VideoChat2_HD_mistral",
+        "d": "2023-11-28",
+        "m1": "2.86"
+      },
+      {
+        "p": {
+          "name": "BT-Adapter: Video Conversation is Feasible Without Video Instruction Tuning",
+          "link": "https://arxiv.org/abs/2309.15785v2"
+        },
+        "c": "https://github.com/farewellthree/BT-Adapter",
+        "n": "BT-Adapter",
+        "d": "2023-09-27",
+        "m1": "2.69"
+      },
+      {
+        "p": {
+          "name": "Video-ChatGPT: Towards Detailed Video Understanding via Large Vision and Language Models",
+          "link": "https://arxiv.org/abs/2306.05424v2"
+        },
+        "c": "https://github.com/mbzuai-oryx/video-chatgpt",
+        "n": "Video-ChatGPT",
+        "d": "2023-06-08",
+        "m1": "2.52"
+      },
+      {
+        "p": {
+          "name": "VideoChat: Chat-Centric Video Understanding",
+          "link": "https://arxiv.org/abs/2305.06355v2"
+        },
+        "c": "https://github.com/opengvlab/ask-anything",
+        "n": "Video Chat",
+        "d": "2023-05-10",
+        "m1": "2.50"
+      },
+      {
+        "p": {
+          "name": "BT-Adapter: Video Conversation is Feasible Without Video Instruction Tuning",
+          "link": "https://arxiv.org/abs/2309.15785v2"
+        },
+        "c": "https://github.com/farewellthree/BT-Adapter",
+        "n": "BT-Adapter (zero-shot)",
+        "d": "2023-09-27",
+        "m1": "2.46"
+      },
+      {
+        "p": {
+          "name": "LLaMA-Adapter V2: Parameter-Efficient Visual Instruction Model",
+          "link": "https://arxiv.org/abs/2304.15010v1"
+        },
+        "c": "https://github.com/opengvlab/llama-adapter",
+        "n": "LLaMA Adapter",
+        "d": "2023-04-28",
+        "m1": "2.32"
+      },
+      {
+        "p": {
+          "name": "Video-LLaMA: An Instruction-tuned Audio-Visual Language Model for Video Understanding",
+          "link": "https://arxiv.org/abs/2306.02858v4"
+        },
+        "c": "https://github.com/damo-nlp-sg/video-llama",
+        "n": "Video LLaMA",
+        "d": "2023-06-05",
+        "m1": "2.18"
+      }
+    ]
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "title": "3d-object-captioning-on-objaverse",
+  "task-hierarchy": [
+    "Image Captioning",
+    "3D Captioning",
+    "3D Object Captioning"
+  ],
+  "dataset-info": {
+    "link": "https://objaverse.allenai.org/",
+    "paper": "Objaverse: A Universe of Annotated 3D Objects"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "GPT-4",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": " Sentence-BERT",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "SimCSE",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Precision",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "Correctness",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "Hallucination",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "MiniGPT-3D: Efficiently Aligning 3D Point Clouds with Large Language Models using 2D Priors",
+          "link": "https://arxiv.org/abs/2405.01413v1"
+        },
+        "c": "https://github.com/tangyuan96/minigpt-3d",
+        "n": "MiniGPT-3D",
+        "d": "2024-05-02",
+        "m1": "57.06",
+        "m2": "49.54",
+        "m3": "51.39",
+        "m4": "83.14",
+        "m5": "3.50",
+        "m6": "0.71"
+      },
+      {
+        "p": {
+          "name": "ShapeLLM: Universal 3D Object Understanding for Embodied Interaction",
+          "link": "https://arxiv.org/abs/2402.17766v3"
+        },
+        "c": "https://github.com/qizekun/ShapeLLM",
+        "n": "ShapeLLM-13B",
+        "d": "2024-02-27",
+        "m1": "48.94",
+        "m2": "48.52",
+        "m3": "49.98"
+      },
+      {
+        "p": {
+          "name": "PointLLM: Empowering Large Language Models to Understand Point Clouds",
+          "link": "https://arxiv.org/abs/2308.16911v3"
+        },
+        "c": "https://github.com/openrobotlab/pointllm",
+        "n": "PointLLM-13B V1.2",
+        "d": "2023-08-31",
+        "m1": "48.15",
+        "m2": "47.91",
+        "m3": "49.12",
+        "m4": "78.75",
+        "m5": "3.10",
+        "m6": "0.84"
+      },
+      {
+        "p": {
+          "name": "ShapeLLM: Universal 3D Object Understanding for Embodied Interaction",
+          "link": "https://arxiv.org/abs/2402.17766v3"
+        },
+        "c": "https://github.com/qizekun/ShapeLLM",
+        "n": "ShapeLLM-7B",
+        "d": "2024-02-27",
+        "m1": "46.92",
+        "m2": "48.20",
+        "m3": "49.23"
+      },
+      {
+        "p": {
+          "name": "PointLLM: Empowering Large Language Models to Understand Point Clouds",
+          "link": "https://arxiv.org/abs/2308.16911v3"
+        },
+        "c": "https://github.com/openrobotlab/pointllm",
+        "n": "PointLLM-7B V1.2",
+        "d": "2023-08-31",
+        "m1": "44.85",
+        "m2": "47.47",
+        "m3": "48.55",
+        "m4": "82.14",
+        "m5": "3.04",
+        "m6": "0.66"
+      },
+      {
+        "p": {
+          "name": "3D-LLM: Injecting the 3D World into Large Language Models",
+          "link": "https://arxiv.org/abs/2307.12981v1"
+        },
+        "c": "https://github.com/umass-foundation-model/3d-llm",
+        "n": "3D-LLM",
+        "d": "2023-07-24",
+        "m1": "33.42",
+        "m2": "44.48",
+        "m3": "43.68",
+        "m4": "60.39",
+        "m5": "1.77",
+        "m6": "1.16"
+      }
+    ]
+  }
+}

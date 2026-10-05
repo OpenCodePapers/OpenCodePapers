@@ -1,0 +1,145 @@
+{
+  "title": "image-retrieval-with-multi-modal-query-on-fashion200k",
+  "task-hierarchy": [
+    "Image Retrieval",
+    "Image Retrieval with Multi-Modal Query"
+  ],
+  "dataset-info": {
+    "link": "",
+    "paper": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Recall@1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Recall@10",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Recall@50",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Collaborative Group: Composed Image Retrieval via Consensus Learning from Noisy Annotations",
+          "link": "https://arxiv.org/abs/2306.02092v2"
+        },
+        "c": "",
+        "n": "Css-Net",
+        "d": "2023-06-03",
+        "m1": "23.4",
+        "m2": "52.0",
+        "m3": "72.0"
+      },
+      {
+        "p": {
+          "name": "Compositional Learning of Image-Text Query for Image Retrieval",
+          "link": "https://arxiv.org/abs/2006.11149v3"
+        },
+        "c": "https://github.com/ecom-research/ComposeAE",
+        "n": "ComposeAE",
+        "d": "2020-06-19",
+        "m1": "22.8",
+        "m2": "55.3",
+        "m3": "73.4"
+      },
+      {
+        "p": {
+          "name": "Composed Image Retrieval with Text Feedback via Multi-grained Uncertainty Regularization",
+          "link": "https://arxiv.org/abs/2211.07394v6"
+        },
+        "c": "https://github.com/Monoxide-Chen/uncertainty_retrieval",
+        "n": "Multi-grained Uncertainty Regularization(MUR)",
+        "d": "2022-11-14",
+        "m1": "21.8",
+        "m2": "52.1",
+        "m3": "70.2"
+      },
+      {
+        "p": {
+          "name": "Composing Text and Image for Image Retrieval - An Empirical Odyssey",
+          "link": "http://arxiv.org/abs/1812.07119v1"
+        },
+        "c": "https://github.com/google/tirg",
+        "n": "TIRG",
+        "d": "2018-12-18",
+        "m1": "14.1",
+        "m2": "42.5",
+        "m3": "63.8"
+      },
+      {
+        "p": {
+          "name": "A simple neural network module for relational reasoning",
+          "link": "http://arxiv.org/abs/1706.01427v1"
+        },
+        "c": "https://github.com/kimhc6028/relational-networks",
+        "n": "Relationship",
+        "d": "2017-06-05",
+        "m1": "13",
+        "m2": "40.5",
+        "m3": "62.4"
+      },
+      {
+        "p": {
+          "name": "Show and Tell: A Neural Image Caption Generator",
+          "link": "http://arxiv.org/abs/1411.4555v2"
+        },
+        "c": "https://github.com/yashk2810/Image-Captioning",
+        "n": "Show and Tell",
+        "d": "2014-11-17",
+        "m1": "12.3",
+        "m2": "40.2",
+        "m3": "61.8"
+      },
+      {
+        "p": {
+          "name": "Image Question Answering using Convolutional Neural Network with Dynamic Parameter Prediction",
+          "link": "http://arxiv.org/abs/1511.05756v1"
+        },
+        "c": "https://github.com/HyeonwooNoh/DPPnet",
+        "n": "Param Hashing",
+        "d": "2015-11-18",
+        "m1": "12.2",
+        "m2": "40",
+        "m3": "61.7"
+      },
+      {
+        "p": {
+          "name": "Automatic Spatially-aware Fashion Concept Discovery",
+          "link": "http://arxiv.org/abs/1708.01311v1"
+        },
+        "c": "https://github.com/naver/artemis",
+        "n": "FashionConcept",
+        "d": "2017-08-03",
+        "m1": "6.3",
+        "m2": "19.9",
+        "m3": "38.3"
+      }
+    ]
+  }
+}

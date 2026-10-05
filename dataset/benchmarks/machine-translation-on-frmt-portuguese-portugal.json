@@ -1,0 +1,68 @@
+{
+  "title": "machine-translation-on-frmt-portuguese-portugal",
+  "task-hierarchy": [
+    "Machine Translation"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/google-research/google-research/tree/master/frmt",
+    "paper": "FRMT: A Benchmark for Few-Shot Region-Aware Machine Translation"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "BLEURT",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "PaLM 2 Technical Report",
+          "link": "https://arxiv.org/abs/2305.10403v3"
+        },
+        "c": "https://github.com/eternityyw/tram-benchmark",
+        "n": "PaLM 2",
+        "d": "2023-05-17",
+        "m1": "78.3"
+      },
+      {
+        "p": {
+          "name": "PaLM 2 Technical Report",
+          "link": "https://arxiv.org/abs/2305.10403v3"
+        },
+        "c": "https://github.com/eternityyw/tram-benchmark",
+        "n": "PaLM",
+        "d": "2023-05-17",
+        "m1": "76.1"
+      },
+      {
+        "p": {
+          "name": "PaLM 2 Technical Report",
+          "link": "https://arxiv.org/abs/2305.10403v3"
+        },
+        "c": "https://github.com/eternityyw/tram-benchmark",
+        "n": "Google Translate",
+        "d": "2023-05-17",
+        "m1": "75.3"
+      }
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "title": "few-shot-audio-classification-on-speech-accent-archive",
+  "task-hierarchy": [
+    "Audio Classification",
+    "Few-Shot Audio Classification"
+  ],
+  "dataset-info": {
+    "link": "https://accent.gmu.edu/",
+    "paper": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Top-1 Accuracy(5-Way-1-Shot)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "MT-SLVR: Multi-Task Self-Supervised Learning for Transformation In(Variant) Representations",
+          "link": "https://arxiv.org/abs/2305.17191v2"
+        },
+        "c": "https://github.com/cheggan/mt-slvr",
+        "n": "MT-SLVR (SimCLR + MLAP) w/ Parallel Adapters (FSD50K, RN18)",
+        "d": "2023-05-29",
+        "m1": "28.92±0.37"
+      },
+      {
+        "p": {
+          "name": "MT-SLVR: Multi-Task Self-Supervised Learning for Transformation In(Variant) Representations",
+          "link": "https://arxiv.org/abs/2305.17191v2"
+        },
+        "c": "https://github.com/cheggan/mt-slvr",
+        "n": "SimCLR (FSD50K, RN18)",
+        "d": "2023-05-29",
+        "m1": "26.16±0.34"
+      },
+      {
+        "p": {
+          "name": "MT-SLVR: Multi-Task Self-Supervised Learning for Transformation In(Variant) Representations",
+          "link": "https://arxiv.org/abs/2305.17191v2"
+        },
+        "c": "https://github.com/cheggan/mt-slvr",
+        "n": "Multi-Label Augmentation Prediction (FSD50K, RN18)",
+        "d": "2023-05-29",
+        "m1": "23.08±0.34"
+      }
+    ]
+  }
+}

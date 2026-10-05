@@ -1,0 +1,176 @@
+{
+  "title": "weakly-supervised-action-localization-on-thumos14",
+  "task-hierarchy": [
+    "Action Localization",
+    "Temporal Action Localization",
+    "Weakly Supervised Action Localization"
+  ],
+  "dataset-info": {
+    "link": "http://crcv.ucf.edu/THUMOS14/home.html",
+    "paper": "THUMOS challenge: Action recognition with a large number of classes"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mAP@0.5",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "avg-mAP (0.1-0.5)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Learning Action Completeness from Points for Weakly-supervised Temporal Action Localization",
+          "link": "https://arxiv.org/abs/2108.05029v1"
+        },
+        "c": "https://github.com/Pilhyeon/Learning-Action-Completeness-from-Points",
+        "n": "LACP",
+        "d": "2021-08-11",
+        "m1": "45.3"
+      },
+      {
+        "p": {
+          "name": "Weakly-Supervised Temporal Action Localization by Progressive Complementary Learning",
+          "link": "https://arxiv.org/abs/2206.11011v2"
+        },
+        "c": "https://github.com/Run542968/ProCL",
+        "n": "ProCL",
+        "d": "2022-06-22",
+        "m1": "40.5",
+        "m2": "58.2"
+      },
+      {
+        "p": {
+          "name": "Proposal-Based Multiple Instance Learning for Weakly-Supervised Temporal Action Localization",
+          "link": "https://arxiv.org/abs/2305.17861v1"
+        },
+        "c": "https://github.com/RenHuan1999/CVPR2023_P-MIL",
+        "n": "P-MIL",
+        "d": "2023-05-29",
+        "m1": "40.0"
+      },
+      {
+        "p": {
+          "name": "D2-Net: Weakly-Supervised Action Localization via Discriminative Embeddings and Denoised Activations",
+          "link": "https://arxiv.org/abs/2012.06440v2"
+        },
+        "c": "https://github.com/naraysa/D2-Net",
+        "n": "D2-Net",
+        "d": "2020-12-11",
+        "m1": "35.9"
+      },
+      {
+        "p": {
+          "name": "Point-Level Temporal Action Localization: Bridging Fully-supervised Proposals to Weakly-supervised Losses",
+          "link": "https://arxiv.org/abs/2012.08236v1"
+        },
+        "c": "",
+        "n": "Ju et al.",
+        "d": "2020-12-15",
+        "m1": "35.9"
+      },
+      {
+        "p": {
+          "name": "ACM-Net: Action Context Modeling Network for Weakly-Supervised Temporal Action Localization",
+          "link": "https://arxiv.org/abs/2104.02967v1"
+        },
+        "c": "https://github.com/ispc-lab/ACM-Net",
+        "n": "ACM-Net",
+        "d": "2021-04-07",
+        "m1": "34.6"
+      },
+      {
+        "p": {
+          "name": "Weakly-supervised Temporal Action Localization by Uncertainty Modeling",
+          "link": "https://arxiv.org/abs/2006.07006v3"
+        },
+        "c": "https://github.com/Pilhyeon/WTAL-Uncertainty-Modeling",
+        "n": "Lee et al.",
+        "d": "2020-06-12",
+        "m1": "33.7"
+      },
+      {
+        "p": {
+          "name": "ACSNet: Action-Context Separation Network for Weakly Supervised Temporal Action Localization",
+          "link": "https://arxiv.org/abs/2103.15088v1"
+        },
+        "c": "",
+        "n": "ACS-Net",
+        "d": "2021-03-28",
+        "m1": "32.4"
+      },
+      {
+        "p": {
+          "name": "CoLA: Weakly-Supervised Temporal Action Localization with Snippet Contrastive Learning",
+          "link": "https://arxiv.org/abs/2103.16392v2"
+        },
+        "c": "https://github.com/zhang-can/CoLA",
+        "n": "CoLA",
+        "d": "2021-03-30",
+        "m1": "32.2"
+      },
+      {
+        "p": {
+          "name": "Weakly-Supervised Action Localization with Expectation-Maximization Multi-Instance Learning",
+          "link": "https://arxiv.org/abs/2004.00163v2"
+        },
+        "c": "https://github.com/airmachine/EM-MIL-WeaklyActionDetection",
+        "n": "EM-MIL",
+        "d": "2020-03-31",
+        "m1": "30.5"
+      },
+      {
+        "p": {
+          "name": "Adversarial Background-Aware Loss for Weakly-supervised Temporal Activity Localization",
+          "link": "https://arxiv.org/abs/2007.06643v1"
+        },
+        "c": "https://github.com/kylemin/A2CL-PT",
+        "n": "A2CL-PT",
+        "d": "2020-07-13",
+        "m1": "30.1"
+      },
+      {
+        "p": {
+          "name": "Background Suppression Network for Weakly-supervised Temporal Action Localization",
+          "link": "https://arxiv.org/abs/1911.09963v1"
+        },
+        "c": "https://github.com/Pilhyeon/BaSNet-pytorch",
+        "n": "BasNet",
+        "d": "2019-11-22",
+        "m1": "27.0"
+      },
+      {
+        "p": {
+          "name": "3C-Net: Category Count and Center Loss for Weakly-Supervised Action Localization",
+          "link": "https://arxiv.org/abs/1908.08216v2"
+        },
+        "c": "https://github.com/naraysa/3c-net",
+        "n": "3C-Net",
+        "d": "2019-08-22",
+        "m1": "26.6"
+      }
+    ]
+  }
+}

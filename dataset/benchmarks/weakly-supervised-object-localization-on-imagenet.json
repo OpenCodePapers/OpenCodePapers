@@ -1,0 +1,114 @@
+{
+  "title": "weakly-supervised-object-localization-on-imagenet",
+  "task-hierarchy": [
+    "Object Localization",
+    "Weakly-Supervised Object Localization"
+  ],
+  "dataset-info": {
+    "link": "https://image-net.org/index.php",
+    "paper": "ImageNet: A large-scale hierarchical image database"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "GT-known localization accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Top-1 Localization Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "average top-1 classification accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Generative Prompt Model for Weakly Supervised Object Localization",
+          "link": "https://arxiv.org/abs/2307.09756v1"
+        },
+        "c": "https://github.com/callsys/genpromp",
+        "n": "Stable diffusion",
+        "d": "2023-07-19",
+        "m1": "75.0",
+        "m2": "65.2"
+      },
+      {
+        "p": {
+          "name": "Weakly Supervised Object Localization via Transformer with Implicit Spatial Calibration",
+          "link": "https://arxiv.org/abs/2207.10447v2"
+        },
+        "c": "https://github.com/164140757/scm",
+        "n": "Deit-S",
+        "d": "2022-07-21",
+        "m1": "68.8",
+        "m2": "56.1",
+        "m3": "76.7"
+      },
+      {
+        "p": {
+          "name": "Causal Explanation of Convolutional Neural Networks",
+          "link": "https://2021.ecmlpkdd.org/wp-content/uploads/2021/07/sub_287.pdf"
+        },
+        "c": "https://github.com/HichemDebbi/CexCNN",
+        "n": "CexCNN",
+        "d": "2021-09-13",
+        "m1": "67.65"
+      },
+      {
+        "p": {
+          "name": "Self-Supervised Transformers for Unsupervised Object Discovery using Normalized Cut",
+          "link": "https://arxiv.org/abs/2202.11539v2"
+        },
+        "c": "https://github.com/YangtaoWANG95/TokenCut",
+        "n": "TokenCut",
+        "d": "2022-02-23",
+        "m1": "65.4",
+        "m2": "52.3"
+      },
+      {
+        "p": {
+          "name": "Exploring Foveation and Saccade for Improved Weakly-Supervised Localization",
+          "link": "https://proceedings.mlr.press/v226/ibrayev24a.html"
+        },
+        "c": "https://github.com/TimurIbrayev/FALcon",
+        "n": "FALcon",
+        "d": "2023-12-16",
+        "m1": "62.45",
+        "m2": "49.39"
+      },
+      {
+        "p": {
+          "name": "Expeditious Saliency-guided Mix-up through Random Gradient Thresholding",
+          "link": "https://arxiv.org/abs/2212.04875v3"
+        },
+        "c": "https://github.com/minhlong94/random-mixup",
+        "n": "R-Mix (ResNet-50)",
+        "d": "2022-12-09",
+        "m2": "55.58"
+      }
+    ]
+  }
+}
