@@ -36,6 +36,36 @@
     "items": [
       {
         "p": {
+          "name": "SemPT: Semantic Prompt Tuning for Vision-Language Models",
+          "link": "https://arxiv.org/abs/2508.10645"
+        },
+        "c": "",
+        "n": "PromptKD w/ SemPT",
+        "d": "2025-08-14",
+        "m1": "70.83"
+      },
+      {
+        "p": {
+          "name": "Decouple before Align: Visual Disentanglement Enhances Prompt Tuning",
+          "link": "https://arxiv.org/abs/2508.00395"
+        },
+        "c": "https://github.com/Ferenas/DAPT",
+        "n": "DAPT + PromptKD",
+        "d": "2025-08-01",
+        "m1": "69.73"
+      },
+      {
+        "p": {
+          "name": "AttriPrompt: Dynamic Prompt Composition Learning for CLIP",
+          "link": "https://arxiv.org/abs/2509.05949"
+        },
+        "c": "",
+        "n": "AttriPrompt",
+        "d": "2025-09-07",
+        "m1": "52.07"
+      },
+      {
+        "p": {
           "name": "Prompt Pre-Training with Twenty-Thousand Classes for Open-Vocabulary Visual Recognition",
           "link": "https://arxiv.org/abs/2304.04704v2"
         },
@@ -43,6 +73,16 @@
         "n": "POMP",
         "d": "2023-04-10",
         "m1": "51.6"
+      },
+      {
+        "p": {
+          "name": "Decouple before Align: Visual Disentanglement Enhances Prompt Tuning",
+          "link": "https://arxiv.org/abs/2508.00395"
+        },
+        "c": "https://github.com/Ferenas/DAPT",
+        "n": "DAPT + PromptSRC",
+        "d": "2025-08-01",
+        "m1": "51.32"
       },
       {
         "p": {
@@ -136,6 +176,16 @@
       },
       {
         "p": {
+          "name": "Robust Prompt Tuning for Vision-Language Models with Mild Semantic Noise",
+          "link": "https://arxiv.org/abs/2508.04677"
+        },
+        "c": "",
+        "n": "ANPrompt",
+        "d": "2025-08-06",
+        "m1": "50.37"
+      },
+      {
+        "p": {
           "name": "Integrated Structural Prompt Learning for Vision-Language Models",
           "link": "https://arxiv.org/abs/2507.05677"
         },
@@ -143,6 +193,26 @@
         "n": "ISP",
         "d": "2025-07-08",
         "m1": "49.90"
+      },
+      {
+        "p": {
+          "name": "Decouple before Align: Visual Disentanglement Enhances Prompt Tuning",
+          "link": "https://arxiv.org/abs/2508.00395"
+        },
+        "c": "https://github.com/Ferenas/DAPT",
+        "n": "DAPT-S",
+        "d": "2025-08-01",
+        "m1": "49.41"
+      },
+      {
+        "p": {
+          "name": "Decouple before Align: Visual Disentanglement Enhances Prompt Tuning",
+          "link": "https://arxiv.org/abs/2508.00395"
+        },
+        "c": "https://github.com/Ferenas/DAPT",
+        "n": "DAPT-G",
+        "d": "2025-08-01",
+        "m1": "47.97"
       },
       {
         "p": {
