@@ -152,7 +152,7 @@
       },
       {
         "p": {
-          "name": "Flow-Anchored Consistency Models",
+          "name": "FACM: Flow-Anchored Consistency Models",
           "link": "https://arxiv.org/abs/2507.03738v1"
         },
         "c": "https://github.com/ali-vilab/FACM",
@@ -204,12 +204,32 @@
       },
       {
         "p": {
+          "name": "Rethinking Discrete Tokens: Treating Them as Conditions for Continuous Autoregressive Image Synthesis",
+          "link": "https://arxiv.org/abs/2507.01756"
+        },
+        "c": "",
+        "n": "DisCon-L",
+        "d": "2025-07-02",
+        "m1": "1.38"
+      },
+      {
+        "p": {
           "name": "U-REPA: Aligning Diffusion U-Nets to ViTs",
           "link": "https://arxiv.org/abs/2503.18414v1"
         },
         "c": "https://github.com/yuchuantian/u-repa",
         "n": "SiT↓-XL/2+U-REPA (with the guidance interval)",
         "d": "2025-03-24",
+        "m1": "1.41"
+      },
+      {
+        "p": {
+          "name": "Rethinking Discrete Tokens: Treating Them as Conditions for Continuous Autoregressive Image Synthesis",
+          "link": "https://arxiv.org/abs/2507.01756"
+        },
+        "c": "",
+        "n": "DisCon-B",
+        "d": "2025-07-02",
         "m1": "1.41"
       },
       {
@@ -395,7 +415,7 @@
       },
       {
         "p": {
-          "name": "Flow-Anchored Consistency Models",
+          "name": "FACM: Flow-Anchored Consistency Models",
           "link": "https://arxiv.org/abs/2507.03738v1"
         },
         "c": "https://github.com/ali-vilab/FACM",
@@ -536,6 +556,16 @@
       },
       {
         "p": {
+          "name": "Locality-aware Parallel Decoding for Efficient Autoregressive Image Generation",
+          "link": "https://arxiv.org/abs/2507.01957"
+        },
+        "c": "https://github.com/mit-han-lab/lpd",
+        "n": "LPD-XXL",
+        "d": "2025-07-02",
+        "m1": "2.00"
+      },
+      {
+        "p": {
           "name": "FasterDiT: Towards Faster Diffusion Transformers Training without Architecture Modification",
           "link": "https://arxiv.org/abs/2410.10356v2"
         },
@@ -554,6 +584,16 @@
         "d": "2023-10-10",
         "m1": "2.05",
         "m2": "338.08"
+      },
+      {
+        "p": {
+          "name": "Vision Foundation Models as Effective Visual Tokenizers for Autoregressive Image Generation",
+          "link": "https://arxiv.org/abs/2507.08441"
+        },
+        "c": "https://github.com/CVMI-Lab/VFMTok",
+        "n": "VFMTok-3B",
+        "d": "2025-07-11",
+        "m1": "2.07"
       },
       {
         "p": {
@@ -577,6 +617,36 @@
       },
       {
         "p": {
+          "name": "PixNerd: Pixel Neural Field Diffusion",
+          "link": "https://arxiv.org/abs/2507.23268"
+        },
+        "c": "https://github.com/MCG-NJU/PixNerd",
+        "n": "PixNerd-XL/16 (Euler-100)",
+        "d": "2025-07-31",
+        "m1": "2.15"
+      },
+      {
+        "p": {
+          "name": "Vision Foundation Models as Effective Visual Tokenizers for Autoregressive Image Generation",
+          "link": "https://arxiv.org/abs/2507.08441"
+        },
+        "c": "https://github.com/CVMI-Lab/VFMTok",
+        "n": "VFMTok-XXL(SigLIP2)",
+        "d": "2025-07-11",
+        "m1": "2.16"
+      },
+      {
+        "p": {
+          "name": "PixNerd: Pixel Neural Field Diffusion",
+          "link": "https://arxiv.org/abs/2507.23268"
+        },
+        "c": "https://github.com/MCG-NJU/PixNerd",
+        "n": "PixNerd-XL/16 (Adam2-50)",
+        "d": "2025-07-31",
+        "m1": "2.16"
+      },
+      {
+        "p": {
           "name": "Autoregressive Model Beats Diffusion: Llama for Scalable Image Generation",
           "link": "https://arxiv.org/abs/2406.06525v1"
         },
@@ -584,6 +654,16 @@
         "n": "LlamaGen",
         "d": "2024-06-10",
         "m1": "2.18"
+      },
+      {
+        "p": {
+          "name": "Vision Foundation Models as Effective Visual Tokenizers for Autoregressive Image Generation",
+          "link": "https://arxiv.org/abs/2507.08441"
+        },
+        "c": "https://github.com/CVMI-Lab/VFMTok",
+        "n": "VFMTok-XXL",
+        "d": "2025-07-11",
+        "m1": "2.19"
       },
       {
         "p": {
@@ -597,12 +677,32 @@
       },
       {
         "p": {
+          "name": "PixNerd: Pixel Neural Field Diffusion",
+          "link": "https://arxiv.org/abs/2507.23268"
+        },
+        "c": "https://github.com/MCG-NJU/PixNerd",
+        "n": "PixNerd-XL/16 (Euler-50)",
+        "d": "2025-07-31",
+        "m1": "2.29"
+      },
+      {
+        "p": {
           "name": "StyleGAN-XL: Scaling StyleGAN to Large Diverse Datasets",
           "link": "https://arxiv.org/abs/2202.00273v2"
         },
         "c": "https://github.com/autonomousvision/stylegan-xl",
         "n": "StyleGAN-XL",
         "d": "2022-02-01",
+        "m1": "2.30"
+      },
+      {
+        "p": {
+          "name": "Iwin Transformer: Hierarchical Vision Transformer using Interleaved Windows",
+          "link": "https://arxiv.org/abs/2507.18405"
+        },
+        "c": "https://github.com/cominder/Iwin-Transformer",
+        "n": "FlashDiT(win8)",
+        "d": "2025-07-24",
         "m1": "2.30"
       },
       {
@@ -657,6 +757,16 @@
       },
       {
         "p": {
+          "name": "Make It Efficient: Dynamic Sparse Attention for Autoregressive Image Generation",
+          "link": "https://arxiv.org/abs/2506.18226"
+        },
+        "c": "",
+        "n": "ADSA-384",
+        "d": "2025-06-23",
+        "m1": "2.58"
+      },
+      {
+        "p": {
           "name": "GIVT: Generative Infinite-Vocabulary Transformers",
           "link": "https://arxiv.org/abs/2312.02116v4"
         },
@@ -666,11 +776,61 @@
         "m1": "2.59"
       },
       {
+        "p": {
+          "name": "Hita: Holistic Tokenizer for Autoregressive Image Generation",
+          "link": "https://arxiv.org/abs/2507.02358"
+        },
+        "c": "https://github.com/CVMI-Lab/Hita",
+        "n": "Hita-2B",
+        "d": "2025-07-03",
+        "m1": "2.59"
+      },
+      {
+        "p": {
+          "name": "Make It Efficient: Dynamic Sparse Attention for Autoregressive Image Generation",
+          "link": "https://arxiv.org/abs/2506.18226"
+        },
+        "c": "",
+        "n": "ADSA-256",
+        "d": "2025-06-23",
+        "m1": "2.64"
+      },
+      {
+        "p": {
+          "name": "PixNerd: Pixel Neural Field Diffusion",
+          "link": "https://arxiv.org/abs/2507.23268"
+        },
+        "c": "https://github.com/MCG-NJU/PixNerd",
+        "n": "PixNerd-L/16 (Euler-50)",
+        "d": "2025-07-31",
+        "m1": "2.64"
+      },
+      {
+        "p": {
+          "name": "Hita: Holistic Tokenizer for Autoregressive Image Generation",
+          "link": "https://arxiv.org/abs/2507.02358"
+        },
+        "c": "https://github.com/CVMI-Lab/Hita",
+        "n": "Hita-XXL",
+        "d": "2025-07-03",
+        "m1": "2.70"
+      },
+      {
         "p": "",
         "c": "",
         "n": "Patch Diffusion",
         "d": "",
         "m1": "2.74"
+      },
+      {
+        "p": {
+          "name": "Vision Foundation Models as Effective Visual Tokenizers for Autoregressive Image Generation",
+          "link": "https://arxiv.org/abs/2507.08441"
+        },
+        "c": "https://github.com/CVMI-Lab/VFMTok",
+        "n": "VFMTok-L",
+        "d": "2025-07-11",
+        "m1": "2.75"
       },
       {
         "p": {
@@ -701,6 +861,26 @@
         "n": "Poly-INR",
         "d": "2023-03-20",
         "m1": "2.86"
+      },
+      {
+        "p": {
+          "name": "Iwin Transformer: Hierarchical Vision Transformer using Interleaved Windows",
+          "link": "https://arxiv.org/abs/2507.18405"
+        },
+        "c": "https://github.com/cominder/Iwin-Transformer",
+        "n": "FlashDiT(win4)",
+        "d": "2025-07-24",
+        "m1": "2.90"
+      },
+      {
+        "p": {
+          "name": "Hita: Holistic Tokenizer for Autoregressive Image Generation",
+          "link": "https://arxiv.org/abs/2507.02358"
+        },
+        "c": "https://github.com/CVMI-Lab/Hita",
+        "n": "Hita-XL",
+        "d": "2025-07-03",
+        "m1": "2.98"
       },
       {
         "p": {
@@ -743,6 +923,16 @@
         "n": "Contextual RQ-Transformer",
         "d": "2022-06-09",
         "m1": "3.41"
+      },
+      {
+        "p": {
+          "name": "Vision Foundation Models as Effective Visual Tokenizers for Autoregressive Image Generation",
+          "link": "https://arxiv.org/abs/2507.08441"
+        },
+        "c": "https://github.com/CVMI-Lab/VFMTok",
+        "n": "VFMTok-B",
+        "d": "2025-07-11",
+        "m1": "3.43"
       },
       {
         "p": {
