@@ -56,6 +56,30 @@
     "items": [
       {
         "p": {
+          "name": "Self-Enhanced Image Clustering with Cross-Modal Semantic Consistency",
+          "link": "https://arxiv.org/abs/2508.01254"
+        },
+        "c": "",
+        "n": "SEIC (CLIP ViT-B/16)",
+        "d": "2025-08-02",
+        "m1": "0.992",
+        "m2": "0.997",
+        "m3": "0.994"
+      },
+      {
+        "p": {
+          "name": "Self-Enhanced Image Clustering with Cross-Modal Semantic Consistency",
+          "link": "https://arxiv.org/abs/2508.01254"
+        },
+        "c": "",
+        "n": "SEIC (CLIP ViT-B/32)",
+        "d": "2025-08-02",
+        "m1": "0.988",
+        "m2": "0.996",
+        "m3": "0.991"
+      },
+      {
+        "p": {
           "name": "Image Clustering with External Guidance",
           "link": "https://arxiv.org/abs/2310.11989v3"
         },
@@ -90,6 +114,18 @@
         "m2": "0.97",
         "m3": "0.935",
         "m4": "ResNet-34"
+      },
+      {
+        "p": {
+          "name": "Bootstrap Deep Spectral Clustering with Optimal Transport",
+          "link": "https://arxiv.org/abs/2508.04200"
+        },
+        "c": "https://github.com/spdj2271/BootSC",
+        "n": "BootSC",
+        "d": "2025-08-06",
+        "m1": "0.913",
+        "m2": "0.962",
+        "m3": "0.918"
       },
       {
         "p": {
