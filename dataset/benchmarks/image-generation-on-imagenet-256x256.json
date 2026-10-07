@@ -132,6 +132,16 @@
       },
       {
         "p": {
+          "name": "SoftCFG: Uncertainty-guided Stable Guidance for Visual Autoregressive Model",
+          "link": "https://arxiv.org/abs/2510.00996"
+        },
+        "c": "",
+        "n": "Alitok-XL + SoftCFG",
+        "d": "2025-10-01",
+        "m1": "1.27"
+      },
+      {
+        "p": {
           "name": "Beyond Next-Token: Next-X Prediction for Autoregressive Visual Generation",
           "link": "https://arxiv.org/abs/2502.20388v1"
         },
@@ -139,6 +149,16 @@
         "n": "xAR-L",
         "d": "2025-02-27",
         "m1": "1.28"
+      },
+      {
+        "p": {
+          "name": "VFM-VAE: Vision Foundation Models Can Be Good Tokenizers for Latent Diffusion Models",
+          "link": "https://arxiv.org/abs/2510.18457"
+        },
+        "c": "",
+        "n": "VFM-VAE",
+        "d": "2025-10-21",
+        "m1": "1.31"
       },
       {
         "p": {
@@ -221,6 +241,26 @@
         "n": "DisCon-L",
         "d": "2025-07-02",
         "m1": "1.38"
+      },
+      {
+        "p": {
+          "name": "SoftCFG: Uncertainty-guided Stable Guidance for Visual Autoregressive Model",
+          "link": "https://arxiv.org/abs/2510.00996"
+        },
+        "c": "",
+        "n": "Alitok-L + SoftCFG",
+        "d": "2025-10-01",
+        "m1": "1.39"
+      },
+      {
+        "p": {
+          "name": "SoftCFG: Uncertainty-guided Stable Guidance for Visual Autoregressive Model",
+          "link": "https://arxiv.org/abs/2510.00996"
+        },
+        "c": "",
+        "n": "Alitok-B + SoftCFG",
+        "d": "2025-10-01",
+        "m1": "1.40"
       },
       {
         "p": {
@@ -536,6 +576,16 @@
       },
       {
         "p": {
+          "name": "REAR: Rethinking Visual Autoregressive Models via Generator-Tokenizer Consistency Regularization",
+          "link": "https://arxiv.org/abs/2510.04450"
+        },
+        "c": "",
+        "n": "reAR-B",
+        "d": "2025-10-06",
+        "m1": "1.91"
+      },
+      {
+        "p": {
           "name": "Hyperspherical Latents Improve Continuous-Token Autoregressive Generation",
           "link": "https://arxiv.org/abs/2509.24335"
         },
@@ -606,6 +656,16 @@
       },
       {
         "p": {
+          "name": "REAR: Rethinking Visual Autoregressive Models via Generator-Tokenizer Consistency Regularization",
+          "link": "https://arxiv.org/abs/2510.04450"
+        },
+        "c": "",
+        "n": "reAR-S",
+        "d": "2025-10-06",
+        "m1": "2.00"
+      },
+      {
+        "p": {
           "name": "FasterDiT: Towards Faster Diffusion Transformers Training without Architecture Modification",
           "link": "https://arxiv.org/abs/2410.10356v2"
         },
@@ -654,6 +714,16 @@
         "n": "ARPG-XL",
         "d": "2025-03-13",
         "m1": "2.1"
+      },
+      {
+        "p": {
+          "name": "IAR2: Improving Autoregressive Visual Generation with Semantic-Detail Associated Token Prediction",
+          "link": "https://arxiv.org/abs/2510.06928"
+        },
+        "c": "https://github.com/sjtuplayer/IAR2",
+        "n": "IAR2-XL",
+        "d": "2025-10-08",
+        "m1": "2.10"
       },
       {
         "p": {
@@ -717,6 +787,16 @@
       },
       {
         "p": {
+          "name": "Nested AutoRegressive Models",
+          "link": "https://arxiv.org/abs/2510.23028"
+        },
+        "c": "",
+        "n": "NestAR-H",
+        "d": "2025-10-27",
+        "m1": "2.22"
+      },
+      {
+        "p": {
           "name": "Scalable Diffusion Models with Transformers",
           "link": "https://arxiv.org/abs/2212.09748v2"
         },
@@ -733,6 +813,16 @@
         "c": "https://github.com/MCG-NJU/PixNerd",
         "n": "PixNerd-XL/16 (Euler-50)",
         "d": "2025-07-31",
+        "m1": "2.29"
+      },
+      {
+        "p": {
+          "name": "Nested AutoRegressive Models",
+          "link": "https://arxiv.org/abs/2510.23028"
+        },
+        "c": "",
+        "n": "NestAR-L",
+        "d": "2025-10-27",
         "m1": "2.29"
       },
       {
@@ -814,6 +904,16 @@
         "n": "TiTok-B-64",
         "d": "2024-06-11",
         "m1": "2.48"
+      },
+      {
+        "p": {
+          "name": "IAR2: Improving Autoregressive Visual Generation with Semantic-Detail Associated Token Prediction",
+          "link": "https://arxiv.org/abs/2510.06928"
+        },
+        "c": "https://github.com/sjtuplayer/IAR2",
+        "n": "IAR2-L",
+        "d": "2025-10-08",
+        "m1": "2.57"
       },
       {
         "p": {
@@ -920,6 +1020,16 @@
         "c": "https://github.com/rajhans0/poly_inr",
         "n": "Poly-INR",
         "d": "2023-03-20",
+        "m1": "2.86"
+      },
+      {
+        "p": {
+          "name": "Nested AutoRegressive Models",
+          "link": "https://arxiv.org/abs/2510.23028"
+        },
+        "c": "",
+        "n": "NestAR-B",
+        "d": "2025-10-27",
         "m1": "2.86"
       },
       {
@@ -1113,6 +1223,16 @@
         "n": "MaskGIT (a=0.05)",
         "d": "2022-02-08",
         "m1": "4.02"
+      },
+      {
+        "p": {
+          "name": "IAR2: Improving Autoregressive Visual Generation with Semantic-Detail Associated Token Prediction",
+          "link": "https://arxiv.org/abs/2510.06928"
+        },
+        "c": "https://github.com/sjtuplayer/IAR2",
+        "n": "IAR2-B",
+        "d": "2025-10-08",
+        "m1": "4.06"
       },
       {
         "p": {
