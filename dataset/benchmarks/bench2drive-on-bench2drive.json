@@ -36,6 +36,16 @@
     "items": [
       {
         "p": {
+          "name": "DiffRefiner: Coarse to Fine Trajectory Planning via Diffusion Refinement with Semantic Interaction for End to End Autonomous Driving",
+          "link": "https://arxiv.org/abs/2511.17150"
+        },
+        "c": "",
+        "n": "DiffRefiner",
+        "d": "2025-11-21",
+        "m1": "87.1"
+      },
+      {
+        "p": {
           "name": "HiP-AD: Hierarchical and Multi-Granularity Planning with Deformable Attention for Autonomous Driving in a Single Decoder",
           "link": "https://arxiv.org/abs/2503.08612v1"
         },
@@ -73,6 +83,36 @@
       },
       {
         "p": {
+          "name": "CoT4AD: A Vision-Language-Action Model with Explicit Chain-of-Thought Reasoning for Autonomous Driving",
+          "link": "https://arxiv.org/abs/2511.22532"
+        },
+        "c": "",
+        "n": "Cot4AD-CoT",
+        "d": "2025-11-27",
+        "m1": "81.22"
+      },
+      {
+        "p": {
+          "name": "MindDrive: A Vision-Language-Action Model for Autonomous Driving via Online Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2512.13636"
+        },
+        "c": "",
+        "n": "MindDrive-L (Online RL)",
+        "d": "2025-12-15",
+        "m1": "80.59"
+      },
+      {
+        "p": {
+          "name": "CoT4AD: A Vision-Language-Action Model with Explicit Chain-of-Thought Reasoning for Autonomous Driving",
+          "link": "https://arxiv.org/abs/2511.22532"
+        },
+        "c": "",
+        "n": "Cot4AD",
+        "d": "2025-11-27",
+        "m1": "80.24"
+      },
+      {
+        "p": {
           "name": "GaussianFusion: Gaussian-Based Multi-Sensor Fusion for End-to-End Autonomous Driving",
           "link": "https://arxiv.org/abs/2506.00034v1"
         },
@@ -103,6 +143,36 @@
       },
       {
         "p": {
+          "name": "Prioritizing Perception-Guided Self-Supervision: A New Paradigm for Causal Modeling in End-to-End Autonomous Driving",
+          "link": "https://arxiv.org/abs/2511.08214"
+        },
+        "c": "https://github.com/YiHuang001/PGS",
+        "n": "PGS",
+        "d": "2025-11-11",
+        "m1": "78.08"
+      },
+      {
+        "p": {
+          "name": "MindDrive: A Vision-Language-Action Model for Autonomous Driving via Online Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2512.13636"
+        },
+        "c": "",
+        "n": "MindDrive (Online RL)",
+        "d": "2025-12-15",
+        "m1": "78.04"
+      },
+      {
+        "p": {
+          "name": "SpaceDrive: Infusing Spatial Awareness into VLM-based Autonomous Driving",
+          "link": "https://arxiv.org/abs/2512.10719"
+        },
+        "c": "",
+        "n": "SpaceDrive+",
+        "d": "2025-12-11",
+        "m1": "78.02"
+      },
+      {
+        "p": {
           "name": "ORION: A Holistic End-to-End Autonomous Driving Framework by Vision-Language Instructed Action Generation",
           "link": "https://arxiv.org/abs/2503.19755v1"
         },
@@ -110,6 +180,26 @@
         "n": "ORION",
         "d": "2025-03-25",
         "m1": "77.7"
+      },
+      {
+        "p": {
+          "name": "MindDrive: A Vision-Language-Action Model for Autonomous Driving via Online Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2512.13636"
+        },
+        "c": "",
+        "n": "MindDrive (IL)",
+        "d": "2025-12-15",
+        "m1": "75.85"
+      },
+      {
+        "p": {
+          "name": "MindDrive: A Vision-Language-Action Model for Autonomous Driving via Online Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2512.13636"
+        },
+        "c": "",
+        "n": "MindDrive-L (IL)",
+        "d": "2025-12-15",
+        "m1": "75.78"
       },
       {
         "p": {
@@ -159,6 +249,16 @@
         "m1": "73.29"
       },
       {
+        "p": {
+          "name": "TakeAD: Preference-based Post-optimization for End-to-end Autonomous Driving with Expert Takeover Data",
+          "link": "https://arxiv.org/abs/2512.17370"
+        },
+        "c": "",
+        "n": "TakeAD",
+        "d": "2025-12-19",
+        "m1": "71.39"
+      },
+      {
         "p": "",
         "c": "",
         "n": "DRIVER",
@@ -191,6 +291,16 @@
         "n": "GEMINUS",
         "d": "2025-07-19",
         "m1": "65.39"
+      },
+      {
+        "p": {
+          "name": "LADY: Linear Attention for Autonomous Driving Efficiency without Transformers",
+          "link": "https://arxiv.org/abs/2512.15038"
+        },
+        "c": "",
+        "n": "LADY (Infinite frames)",
+        "d": "2025-12-17",
+        "m1": "65.12"
       },
       {
         "p": {
@@ -284,6 +394,16 @@
       },
       {
         "p": {
+          "name": "LADY: Linear Attention for Autonomous Driving Efficiency without Transformers",
+          "link": "https://arxiv.org/abs/2512.15038"
+        },
+        "c": "",
+        "n": "LADY (10 frames)",
+        "d": "2025-12-17",
+        "m1": "57.52"
+      },
+      {
+        "p": {
           "name": "DiFSD: Ego-Centric Fully Sparse Paradigm with Uncertainty Denoising and Iterative Refinement for Efficient End-to-End Self-Driving",
           "link": "https://arxiv.org/abs/2409.09777v4"
         },
@@ -301,6 +421,16 @@
         "n": "X-Driver",
         "d": "2025-05-08",
         "m1": "51.70"
+      },
+      {
+        "p": {
+          "name": "LADY: Linear Attention for Autonomous Driving Efficiency without Transformers",
+          "link": "https://arxiv.org/abs/2512.15038"
+        },
+        "c": "",
+        "n": "LADY (1 frame)",
+        "d": "2025-12-17",
+        "m1": "50.06"
       },
       {
         "p": {

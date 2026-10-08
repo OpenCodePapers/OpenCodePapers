@@ -56,6 +56,26 @@
       },
       {
         "p": {
+          "name": "MixFlow Training: Alleviating Exposure Bias with Slowed Interpolation Mixture",
+          "link": "https://arxiv.org/abs/2512.19311"
+        },
+        "c": "",
+        "n": "MixFlow + RAE",
+        "d": "2025-12-22",
+        "m1": "1.10"
+      },
+      {
+        "p": {
+          "name": "Towards Scalable Pre-training of Visual Tokenizers for Generation",
+          "link": "https://arxiv.org/abs/2512.13687"
+        },
+        "c": "https://github.com/MiniMax-AI/VTP",
+        "n": "VTP",
+        "d": "2025-12-15",
+        "m1": "1.11"
+      },
+      {
+        "p": {
           "name": "Direct Discriminative Optimization: Your Likelihood-Based Visual Generative Model is Secretly a GAN Discriminator",
           "link": "https://arxiv.org/abs/2503.01103v2"
         },
@@ -100,6 +120,16 @@
       },
       {
         "p": {
+          "name": "MixFlow Training: Alleviating Exposure Bias with Slowed Interpolation Mixture",
+          "link": "https://arxiv.org/abs/2512.19311"
+        },
+        "c": "",
+        "n": "MixFlow + REPA",
+        "d": "2025-12-22",
+        "m1": "1.22"
+      },
+      {
+        "p": {
           "name": "Beyond Next-Token: Next-X Prediction for Autoregressive Visual Generation",
           "link": "https://arxiv.org/abs/2502.20388v1"
         },
@@ -132,6 +162,16 @@
       },
       {
         "p": {
+          "name": "SoftCFG: Uncertainty-guided Stable Guidance for Visual Autoregressive Model",
+          "link": "https://arxiv.org/abs/2510.00996"
+        },
+        "c": "",
+        "n": "Alitok-XL + SoftCFG",
+        "d": "2025-10-01",
+        "m1": "1.27"
+      },
+      {
+        "p": {
           "name": "Beyond Next-Token: Next-X Prediction for Autoregressive Visual Generation",
           "link": "https://arxiv.org/abs/2502.20388v1"
         },
@@ -139,6 +179,16 @@
         "n": "xAR-L",
         "d": "2025-02-27",
         "m1": "1.28"
+      },
+      {
+        "p": {
+          "name": "VFM-VAE: Vision Foundation Models Can Be Good Tokenizers for Latent Diffusion Models",
+          "link": "https://arxiv.org/abs/2510.18457"
+        },
+        "c": "",
+        "n": "VFM-VAE",
+        "d": "2025-10-21",
+        "m1": "1.31"
       },
       {
         "p": {
@@ -221,6 +271,26 @@
         "n": "DisCon-L",
         "d": "2025-07-02",
         "m1": "1.38"
+      },
+      {
+        "p": {
+          "name": "SoftCFG: Uncertainty-guided Stable Guidance for Visual Autoregressive Model",
+          "link": "https://arxiv.org/abs/2510.00996"
+        },
+        "c": "",
+        "n": "Alitok-L + SoftCFG",
+        "d": "2025-10-01",
+        "m1": "1.39"
+      },
+      {
+        "p": {
+          "name": "SoftCFG: Uncertainty-guided Stable Guidance for Visual Autoregressive Model",
+          "link": "https://arxiv.org/abs/2510.00996"
+        },
+        "c": "",
+        "n": "Alitok-B + SoftCFG",
+        "d": "2025-10-01",
+        "m1": "1.40"
       },
       {
         "p": {
@@ -536,6 +606,16 @@
       },
       {
         "p": {
+          "name": "REAR: Rethinking Visual Autoregressive Models via Generator-Tokenizer Consistency Regularization",
+          "link": "https://arxiv.org/abs/2510.04450"
+        },
+        "c": "",
+        "n": "reAR-B",
+        "d": "2025-10-06",
+        "m1": "1.91"
+      },
+      {
+        "p": {
           "name": "Hyperspherical Latents Improve Continuous-Token Autoregressive Generation",
           "link": "https://arxiv.org/abs/2509.24335"
         },
@@ -576,6 +656,16 @@
       },
       {
         "p": {
+          "name": "MixFlow Training: Alleviating Exposure Bias with Slowed Interpolation Mixture",
+          "link": "https://arxiv.org/abs/2512.19311"
+        },
+        "c": "",
+        "n": "MixFlow + SiT-XL",
+        "d": "2025-12-22",
+        "m1": "1.97"
+      },
+      {
+        "p": {
           "name": "PixelFlow: Pixel-Space Generative Models with Flow",
           "link": "https://arxiv.org/abs/2504.07963v1"
         },
@@ -602,6 +692,16 @@
         "c": "https://github.com/mit-han-lab/lpd",
         "n": "LPD-XXL",
         "d": "2025-07-02",
+        "m1": "2.00"
+      },
+      {
+        "p": {
+          "name": "REAR: Rethinking Visual Autoregressive Models via Generator-Tokenizer Consistency Regularization",
+          "link": "https://arxiv.org/abs/2510.04450"
+        },
+        "c": "",
+        "n": "reAR-S",
+        "d": "2025-10-06",
         "m1": "2.00"
       },
       {
@@ -654,6 +754,16 @@
         "n": "ARPG-XL",
         "d": "2025-03-13",
         "m1": "2.1"
+      },
+      {
+        "p": {
+          "name": "IAR2: Improving Autoregressive Visual Generation with Semantic-Detail Associated Token Prediction",
+          "link": "https://arxiv.org/abs/2510.06928"
+        },
+        "c": "https://github.com/sjtuplayer/IAR2",
+        "n": "IAR2-XL",
+        "d": "2025-10-08",
+        "m1": "2.10"
       },
       {
         "p": {
@@ -717,6 +827,16 @@
       },
       {
         "p": {
+          "name": "Nested AutoRegressive Models",
+          "link": "https://arxiv.org/abs/2510.23028"
+        },
+        "c": "",
+        "n": "NestAR-H",
+        "d": "2025-10-27",
+        "m1": "2.22"
+      },
+      {
+        "p": {
           "name": "Scalable Diffusion Models with Transformers",
           "link": "https://arxiv.org/abs/2212.09748v2"
         },
@@ -733,6 +853,16 @@
         "c": "https://github.com/MCG-NJU/PixNerd",
         "n": "PixNerd-XL/16 (Euler-50)",
         "d": "2025-07-31",
+        "m1": "2.29"
+      },
+      {
+        "p": {
+          "name": "Nested AutoRegressive Models",
+          "link": "https://arxiv.org/abs/2510.23028"
+        },
+        "c": "",
+        "n": "NestAR-L",
+        "d": "2025-10-27",
         "m1": "2.29"
       },
       {
@@ -807,6 +937,16 @@
       },
       {
         "p": {
+          "name": "Improved Masked Image Generation with Knowledge-Augmented Token Representations",
+          "link": "https://arxiv.org/abs/2511.12032"
+        },
+        "c": "",
+        "n": "AutoNAT-KA",
+        "d": "2025-11-15",
+        "m1": "2.45"
+      },
+      {
+        "p": {
           "name": "An Image is Worth 32 Tokens for Reconstruction and Generation",
           "link": "https://arxiv.org/abs/2406.07550v1"
         },
@@ -814,6 +954,16 @@
         "n": "TiTok-B-64",
         "d": "2024-06-11",
         "m1": "2.48"
+      },
+      {
+        "p": {
+          "name": "IAR2: Improving Autoregressive Visual Generation with Semantic-Detail Associated Token Prediction",
+          "link": "https://arxiv.org/abs/2510.06928"
+        },
+        "c": "https://github.com/sjtuplayer/IAR2",
+        "n": "IAR2-L",
+        "d": "2025-10-08",
+        "m1": "2.57"
       },
       {
         "p": {
@@ -924,6 +1074,16 @@
       },
       {
         "p": {
+          "name": "Nested AutoRegressive Models",
+          "link": "https://arxiv.org/abs/2510.23028"
+        },
+        "c": "",
+        "n": "NestAR-B",
+        "d": "2025-10-27",
+        "m1": "2.86"
+      },
+      {
+        "p": {
           "name": "Iwin Transformer: Hierarchical Vision Transformer using Interleaved Windows",
           "link": "https://arxiv.org/abs/2507.18405"
         },
@@ -972,6 +1132,16 @@
         "n": "ADM-G++ (FID)",
         "d": "2022-11-28",
         "m1": "3.18"
+      },
+      {
+        "p": {
+          "name": "Diffusion As Self-Distillation: End-to-End Latent Diffusion In One Model",
+          "link": "https://arxiv.org/abs/2511.14716"
+        },
+        "c": "",
+        "n": "DSD-B",
+        "d": "2025-11-18",
+        "m1": "3.35"
       },
       {
         "p": {
@@ -1116,6 +1286,16 @@
       },
       {
         "p": {
+          "name": "IAR2: Improving Autoregressive Visual Generation with Semantic-Detail Associated Token Prediction",
+          "link": "https://arxiv.org/abs/2510.06928"
+        },
+        "c": "https://github.com/sjtuplayer/IAR2",
+        "n": "IAR2-B",
+        "d": "2025-10-08",
+        "m1": "4.06"
+      },
+      {
+        "p": {
           "name": "Entropy-driven Sampling and Training Scheme for Conditional Diffusion Generation",
           "link": "https://arxiv.org/abs/2206.11474v5"
         },
@@ -1130,6 +1310,16 @@
         "n": "LDM",
         "d": "",
         "m1": "4.29"
+      },
+      {
+        "p": {
+          "name": "Diffusion As Self-Distillation: End-to-End Latent Diffusion In One Model",
+          "link": "https://arxiv.org/abs/2511.14716"
+        },
+        "c": "",
+        "n": "DSD-M",
+        "d": "2025-11-18",
+        "m1": "4.38"
       },
       {
         "p": {
@@ -1203,6 +1393,16 @@
       },
       {
         "p": {
+          "name": "FGM-HD: Boosting Generation Diversity of Fractal Generative Models through Hausdorff Dimension Induction",
+          "link": "https://arxiv.org/abs/2511.08945"
+        },
+        "c": "",
+        "n": "FGM-HD",
+        "d": "2025-11-12",
+        "m1": "6.21"
+      },
+      {
+        "p": {
           "name": "Taming Transformers for High-Resolution Image Synthesis",
           "link": "https://arxiv.org/abs/2012.09841v3"
         },
@@ -1220,6 +1420,16 @@
         "n": "Polarity-BigGAN",
         "d": "2022-03-03",
         "m1": "6.82"
+      },
+      {
+        "p": {
+          "name": "Diffusion As Self-Distillation: End-to-End Latent Diffusion In One Model",
+          "link": "https://arxiv.org/abs/2511.14716"
+        },
+        "c": "",
+        "n": "DSD-S",
+        "d": "2025-11-18",
+        "m1": "7.89"
       },
       {
         "p": {

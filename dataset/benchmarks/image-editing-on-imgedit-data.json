@@ -81,6 +81,120 @@
     "items": [
       {
         "p": {
+          "name": "LongCat-Image Technical Report",
+          "link": "https://arxiv.org/abs/2512.07584"
+        },
+        "c": "https://huggingface.co/meituan-longcat/LongCat-Image",
+        "n": "LongCat-Image-Edit",
+        "d": "2025-12-08",
+        "m1": "4.50",
+        "m2": "4.51",
+        "m3": "4.57",
+        "m4": "3.93",
+        "m5": "4.76",
+        "m6": "4.60",
+        "m7": "4.49",
+        "m8": "4.85",
+        "m9": "4.01",
+        "m10": "4.74"
+      },
+      {
+        "p": {
+          "name": "Uniworld-V2: Reinforce Image Editing with Diffusion Negative-aware Finetuning and MLLM Implicit Feedback",
+          "link": "https://arxiv.org/abs/2510.16888"
+        },
+        "c": "https://github.com/PKU-YuanGroup/Uniworld",
+        "n": "UniWorld-V2",
+        "d": "2025-10-19",
+        "m1": "4.49",
+        "m2": "4.29",
+        "m3": "4.44",
+        "m4": "4.32",
+        "m5": "4.69",
+        "m6": "4.72",
+        "m7": "4.41",
+        "m8": "4.91",
+        "m9": "3.83",
+        "m10": "4.83"
+      },
+      {
+        "p": {
+          "name": "ChronoEdit: Towards Temporal Reasoning for Image Editing and World Simulation",
+          "link": "https://arxiv.org/abs/2510.04290"
+        },
+        "c": "",
+        "n": "ChronoEdit-14B",
+        "d": "2025-10-05",
+        "m1": "4.42",
+        "m2": "4.48",
+        "m3": "4.39",
+        "m4": "3.49",
+        "m5": "4.66",
+        "m6": "4.57",
+        "m7": "4.67",
+        "m8": "4.83",
+        "m9": "3.82",
+        "m10": "4.91"
+      },
+      {
+        "p": {
+          "name": "Emu3.5: Native Multimodal Models are World Learners",
+          "link": "https://arxiv.org/abs/2510.26583"
+        },
+        "c": "https://github.com/baaivision/Emu3.5",
+        "n": "Emu3.5",
+        "d": "2025-10-30",
+        "m1": "4.41",
+        "m2": "4.61",
+        "m3": "4.32",
+        "m4": "3.96",
+        "m5": "4.84",
+        "m6": "4.58",
+        "m7": "4.35",
+        "m8": "4.79",
+        "m9": "3.69",
+        "m10": "4.57"
+      },
+      {
+        "p": {
+          "name": "VisionDirector: Vision-Language Guided Closed-Loop Refinement for Generative Image Synthesis",
+          "link": "https://arxiv.org/abs/2512.19243"
+        },
+        "c": "",
+        "n": "VisionDirector",
+        "d": "2025-12-22",
+        "m1": "4.35",
+        "m2": "4.55",
+        "m3": "4.32",
+        "m4": "3.72",
+        "m5": "4.83",
+        "m6": "4.41",
+        "m7": "4.52",
+        "m8": "4.92",
+        "m9": "4.05",
+        "m10": "4.72"
+      },
+      {
+        "p": {
+          "name": "STAR: STacked AutoRegressive Scheme for Unified Multimodal Learning",
+          "link": "https://arxiv.org/abs/2512.13752"
+        },
+        "c": "",
+        "n": "STAR-7B",
+        "d": "2025-12-15",
+        "m1": "4.34",
+        "m2": "4.33",
+        "m3": "4.19",
+        "m4": "4.19",
+        "m5": "4.59",
+        "m6": "4.58",
+        "m7": "4.36",
+        "m8": "4.59",
+        "m9": "3.67",
+        "m10": "4.60"
+      },
+      {
+        "p": {
           "name": "Qwen-Image Technical Report",
           "link": "https://arxiv.org/abs/2508.02324"
         },
@@ -97,6 +211,63 @@
         "m8": "4.81",
         "m9": "3.82",
         "m10": "4.69"
+      },
+      {
+        "p": {
+          "name": "STAR: STacked AutoRegressive Scheme for Unified Multimodal Learning",
+          "link": "https://arxiv.org/abs/2512.13752"
+        },
+        "c": "",
+        "n": "STAR-3B",
+        "d": "2025-12-15",
+        "m1": "4.14",
+        "m2": "4.26",
+        "m3": "4.06",
+        "m4": "3.78",
+        "m5": "4.46",
+        "m6": "4.34",
+        "m7": "4.19",
+        "m8": "4.53",
+        "m9": "3.29",
+        "m10": "4.38"
+      },
+      {
+        "p": {
+          "name": "ChronoEdit: Towards Temporal Reasoning for Image Editing and World Simulation",
+          "link": "https://arxiv.org/abs/2510.04290"
+        },
+        "c": "",
+        "n": "ChronoEdit-2B",
+        "d": "2025-10-05",
+        "m1": "4.13",
+        "m2": "4.30",
+        "m3": "4.29",
+        "m4": "2.87",
+        "m5": "4.23",
+        "m6": "4.50",
+        "m7": "4.40",
+        "m8": "4.60",
+        "m9": "3.20",
+        "m10": "4.81"
+      },
+      {
+        "p": {
+          "name": "ChronoEdit: Towards Temporal Reasoning for Image Editing and World Simulation",
+          "link": "https://arxiv.org/abs/2510.04290"
+        },
+        "c": "",
+        "n": "ChronoEdit-14B-Turbo (8 steps)",
+        "d": "2025-10-05",
+        "m1": "4.13",
+        "m2": "4.36",
+        "m3": "4.38",
+        "m4": "3.28",
+        "m5": "4.11",
+        "m6": "4.00",
+        "m7": "4.31",
+        "m8": "4.31",
+        "m9": "3.67",
+        "m10": "4.78"
       },
       {
         "p": {
@@ -151,6 +322,44 @@
       },
       {
         "p": {
+          "name": "Sparse-LaViDa: Sparse Multimodal Discrete Diffusion Language Models",
+          "link": "https://arxiv.org/abs/2512.14008"
+        },
+        "c": "",
+        "n": "Sparse-LaViDa",
+        "d": "2025-12-16",
+        "m1": "3.79",
+        "m2": "4.08",
+        "m3": "3.73",
+        "m4": "2.10",
+        "m5": "4.29",
+        "m6": "3.98",
+        "m7": "4.06",
+        "m8": "4.84",
+        "m9": "3.30",
+        "m10": "3.76"
+      },
+      {
+        "p": {
+          "name": "OpenSubject: Leveraging Video-Derived Identity and Diversity Priors for Subject-driven Image Generation and Manipulation",
+          "link": "https://arxiv.org/abs/2512.08294"
+        },
+        "c": "https://github.com/LAW1223/OpenSubject",
+        "n": "OpenSubject",
+        "d": "2025-12-09",
+        "m1": "3.72",
+        "m2": "4.28",
+        "m3": "3.27",
+        "m4": "2.61",
+        "m5": "3.97",
+        "m6": "3.43",
+        "m7": "4.13",
+        "m8": "4.66",
+        "m9": "3.28",
+        "m10": "4.45"
+      },
+      {
+        "p": {
           "name": "Lavida-O: Elastic Large Masked Diffusion Models for Unified Multimodal Understanding and Generation",
           "link": "https://arxiv.org/abs/2509.19244"
         },
@@ -196,6 +405,25 @@
         "m8": "4.92",
         "m9": "2.85",
         "m10": "4.08"
+      },
+      {
+        "p": {
+          "name": "HBridge: H-Shape Bridging of Heterogeneous Experts for Unified Multimodal Understanding and Generation",
+          "link": "https://arxiv.org/abs/2511.20520"
+        },
+        "c": "",
+        "n": "HBridge",
+        "d": "2025-11-25",
+        "m1": "3.54",
+        "m2": "3.91",
+        "m3": "3.23",
+        "m4": "2.13",
+        "m5": "3.79",
+        "m6": "3.21",
+        "m7": "3.50",
+        "m8": "4.31",
+        "m9": "3.44",
+        "m10": "4.32"
       },
       {
         "p": {
@@ -253,6 +481,30 @@
         "m8": "4.3",
         "m9": "2.94",
         "m10": "3.95"
+      },
+      {
+        "p": {
+          "name": "WeMMU: Enhanced Bridging of Vision-Language Models and Diffusion Models via Noisy Query Tokens",
+          "link": "https://arxiv.org/abs/2512.02536"
+        },
+        "c": "",
+        "n": "WeMMU (Stage 3)",
+        "d": "2025-12-02",
+        "m1": "3.31",
+        "m9": "2.82",
+        "m10": "3.15"
+      },
+      {
+        "p": {
+          "name": "WeMMU: Enhanced Bridging of Vision-Language Models and Diffusion Models via Noisy Query Tokens",
+          "link": "https://arxiv.org/abs/2512.02536"
+        },
+        "c": "",
+        "n": "WeMMU (Stage 4)",
+        "d": "2025-12-02",
+        "m1": "3.30",
+        "m9": "2.78",
+        "m10": "3.17"
       },
       {
         "p": {
@@ -386,6 +638,25 @@
         "m8": "2.85",
         "m9": "1.56",
         "m10": "2.65"
+      },
+      {
+        "p": {
+          "name": "Are Image-to-Video Models Good Zero-Shot Image Editors?",
+          "link": "https://arxiv.org/abs/2511.19435"
+        },
+        "c": "",
+        "n": "IF-Edit",
+        "d": "2025-11-24",
+        "m1": "2.19",
+        "m2": "2.94",
+        "m3": "2.02",
+        "m4": "1.71",
+        "m5": "2.18",
+        "m6": "1.50",
+        "m7": "1.71",
+        "m8": "2.53",
+        "m9": "2.06",
+        "m10": "3.10"
       },
       {
         "p": {

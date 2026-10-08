@@ -51,6 +51,17 @@
     "items": [
       {
         "p": {
+          "name": "Generative Human-Object Interaction Detection via Differentiable Cognitive Steering of Multi-modal LLMs",
+          "link": "https://arxiv.org/abs/2512.17640"
+        },
+        "c": "",
+        "n": "GRASP-HOI",
+        "d": "2025-12-19",
+        "m1": "72.5",
+        "m2": "76.2"
+      },
+      {
+        "p": {
           "name": "RLIPv2: Fast Scaling of Relational Language-Image Pre-training",
           "link": "https://arxiv.org/abs/2308.09351v1"
         },
@@ -70,6 +81,28 @@
         "d": "2023-04-11",
         "m1": "68.8",
         "m2": "71.0"
+      },
+      {
+        "p": {
+          "name": "Learning Human-Object Interaction as Groups",
+          "link": "https://arxiv.org/abs/2510.18357"
+        },
+        "c": "https://github.com/JiajunHong1/GroupHOI",
+        "n": "GroupHOI (R50+CLIP/L14)",
+        "d": "2025-10-21",
+        "m1": "66.4",
+        "m2": "67.3"
+      },
+      {
+        "p": {
+          "name": "Learning Human-Object Interaction as Groups",
+          "link": "https://arxiv.org/abs/2510.18357"
+        },
+        "c": "https://github.com/JiajunHong1/GroupHOI",
+        "n": "GroupHOI (R50+BLIP2)",
+        "d": "2025-10-21",
+        "m1": "66.4",
+        "m2": "67.8"
       },
       {
         "p": {
@@ -104,6 +137,17 @@
         "d": "2022-02-01",
         "m1": "65.3",
         "m2": "67.1"
+      },
+      {
+        "p": {
+          "name": "Learning Human-Object Interaction as Groups",
+          "link": "https://arxiv.org/abs/2510.18357"
+        },
+        "c": "https://github.com/JiajunHong1/GroupHOI",
+        "n": "GroupHOI (R50+CLIP/B16)",
+        "d": "2025-10-21",
+        "m1": "65.0",
+        "m2": "66.0"
       },
       {
         "p": {

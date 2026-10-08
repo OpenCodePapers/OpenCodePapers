@@ -68,6 +68,42 @@
       },
       {
         "p": {
+          "name": "Unsupervised Image Classification with Adaptive Nearest Neighbor Selection and Cluster Ensembles",
+          "link": "https://arxiv.org/abs/2511.16213"
+        },
+        "c": "",
+        "n": "ICCE Ensemble",
+        "d": "2025-11-20",
+        "m1": "0.996",
+        "m2": "0.9898",
+        "m3": "0.9912"
+      },
+      {
+        "p": {
+          "name": "Unsupervised Image Classification with Adaptive Nearest Neighbor Selection and Cluster Ensembles",
+          "link": "https://arxiv.org/abs/2511.16213"
+        },
+        "c": "",
+        "n": "ICCE Ensemble + Self-Training",
+        "d": "2025-11-20",
+        "m1": "0.9958",
+        "m2": "0.9906",
+        "m3": "0.9888"
+      },
+      {
+        "p": {
+          "name": "Unsupervised Image Classification with Adaptive Nearest Neighbor Selection and Cluster Ensembles",
+          "link": "https://arxiv.org/abs/2511.16213"
+        },
+        "c": "",
+        "n": "ICCE stage-1",
+        "d": "2025-11-20",
+        "m1": "0.9957",
+        "m2": "0.989",
+        "m3": "0.9905"
+      },
+      {
+        "p": {
           "name": "Self-Enhanced Image Clustering with Cross-Modal Semantic Consistency",
           "link": "https://arxiv.org/abs/2508.01254"
         },
@@ -103,6 +139,17 @@
         "m3": "0.968",
         "m4": "Train",
         "m5": "ViT-B"
+      },
+      {
+        "p": {
+          "name": "On the Provable Importance of Gradients for Language-Assisted Image Clustering",
+          "link": "https://arxiv.org/abs/2510.16335"
+        },
+        "c": "https://github.com/60pen9/On-the-Provable-Importance-of-Gradients-for-Language-Assisted-Image-Clustering",
+        "n": "GradNorm",
+        "d": "2025-10-18",
+        "m1": "0.983",
+        "m2": "0.956"
       },
       {
         "p": {
