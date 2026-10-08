@@ -36,6 +36,16 @@
     "items": [
       {
         "p": {
+          "name": "DiffRefiner: Coarse to Fine Trajectory Planning via Diffusion Refinement with Semantic Interaction for End to End Autonomous Driving",
+          "link": "https://arxiv.org/abs/2511.17150"
+        },
+        "c": "",
+        "n": "DiffRefiner",
+        "d": "2025-11-21",
+        "m1": "87.1"
+      },
+      {
+        "p": {
           "name": "HiP-AD: Hierarchical and Multi-Granularity Planning with Deformable Attention for Autonomous Driving in a Single Decoder",
           "link": "https://arxiv.org/abs/2503.08612v1"
         },
@@ -73,6 +83,26 @@
       },
       {
         "p": {
+          "name": "CoT4AD: A Vision-Language-Action Model with Explicit Chain-of-Thought Reasoning for Autonomous Driving",
+          "link": "https://arxiv.org/abs/2511.22532"
+        },
+        "c": "",
+        "n": "Cot4AD-CoT",
+        "d": "2025-11-27",
+        "m1": "81.22"
+      },
+      {
+        "p": {
+          "name": "CoT4AD: A Vision-Language-Action Model with Explicit Chain-of-Thought Reasoning for Autonomous Driving",
+          "link": "https://arxiv.org/abs/2511.22532"
+        },
+        "c": "",
+        "n": "Cot4AD",
+        "d": "2025-11-27",
+        "m1": "80.24"
+      },
+      {
+        "p": {
           "name": "GaussianFusion: Gaussian-Based Multi-Sensor Fusion for End-to-End Autonomous Driving",
           "link": "https://arxiv.org/abs/2506.00034v1"
         },
@@ -100,6 +130,16 @@
         "n": "CogDriver",
         "d": "2025-08-31",
         "m1": "78.21"
+      },
+      {
+        "p": {
+          "name": "Prioritizing Perception-Guided Self-Supervision: A New Paradigm for Causal Modeling in End-to-End Autonomous Driving",
+          "link": "https://arxiv.org/abs/2511.08214"
+        },
+        "c": "https://github.com/YiHuang001/PGS",
+        "n": "PGS",
+        "d": "2025-11-11",
+        "m1": "78.08"
       },
       {
         "p": {
