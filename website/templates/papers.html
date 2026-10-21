@@ -149,7 +149,7 @@
 
         // Rendering all papers would mean thousands of nodes for a list nobody
         // scrolls through, so only the matches of a query are built
-        const MAX_RESULTS = 200;
+        const MAX_RESULTS = 100;
         // Papers shown as a starting point, before anything was searched
         const SAMPLE_SIZE = MAX_RESULTS;
 
@@ -161,7 +161,7 @@
         const start = sample();
 
         function count(n) {
-          return n.toLocaleString("en-US");
+          return String(n);
         }
 
         // Random papers as a starting point, other ones on every page load

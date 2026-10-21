@@ -173,9 +173,20 @@ def render_metrics(metrics: List[tuple]) -> str:
 def render_rows(entries: List[dict]) -> str:
     """Render one table row per benchmark result of the paper."""
 
+    # Benchmarks where the paper ranks best come first, unranked ones last
+    best = {}
+    for entry in entries:
+        rank = entry["rank"] or float("inf")
+        best[entry["benchmark"]] = min(rank, best.get(entry["benchmark"], rank))
+
     def sort_key(entry: dict):
         # Group by benchmark, best rank first, unranked results last
-        return (entry["benchmark"], entry["rank"] or float("inf"), entry["model"])
+        return (
+            best[entry["benchmark"]],
+            entry["benchmark"],
+            entry["rank"] or float("inf"),
+            entry["model"],
+        )
 
     rows = []
     for entry in sorted(entries, key=sort_key):
