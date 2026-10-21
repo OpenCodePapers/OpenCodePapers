@@ -1871,6 +1871,17 @@
       },
       {
         "p": {
+          "name": "Advancing Vision Transformer with Enhanced Spatial Priors",
+          "link": "https://arxiv.org/abs/2604.18549"
+        },
+        "c": "",
+        "n": "EVT-XL",
+        "d": "2026-04-20",
+        "m1": "86.3%",
+        "m3": "36.4"
+      },
+      {
+        "p": {
           "name": "Tiny Models are the Computational Saver for Large Models",
           "link": "https://arxiv.org/abs/2403.17726v4"
         },
@@ -2291,6 +2302,17 @@
         "m1": "85.8%",
         "m2": "186M",
         "m3": "34.7"
+      },
+      {
+        "p": {
+          "name": "Advancing Vision Transformer with Enhanced Spatial Priors",
+          "link": "https://arxiv.org/abs/2604.18549"
+        },
+        "c": "",
+        "n": "EVT-L",
+        "d": "2026-04-20",
+        "m1": "85.8%",
+        "m3": "18.2"
       },
       {
         "p": {
@@ -2760,6 +2782,17 @@
         "d": "2023-06-20",
         "m1": "85.3%",
         "m2": "304M"
+      },
+      {
+        "p": {
+          "name": "Advancing Vision Transformer with Enhanced Spatial Priors",
+          "link": "https://arxiv.org/abs/2604.18549"
+        },
+        "c": "",
+        "n": "EVT-B",
+        "d": "2026-04-20",
+        "m1": "85.3%",
+        "m3": "9.8"
       },
       {
         "p": {
@@ -3712,6 +3745,17 @@
       },
       {
         "p": {
+          "name": "Advancing Vision Transformer with Enhanced Spatial Priors",
+          "link": "https://arxiv.org/abs/2604.18549"
+        },
+        "c": "",
+        "n": "EVT-S",
+        "d": "2026-04-20",
+        "m1": "84.4%",
+        "m3": "4.6"
+      },
+      {
+        "p": {
           "name": "ColorNet: Investigating the importance of color spaces for image classification",
           "link": "http://arxiv.org/abs/1902.00267v1"
         },
@@ -4640,6 +4684,16 @@
       },
       {
         "p": {
+          "name": "ReGLA: Efficient Receptive-Field Modeling with Gated Linear Attention Network",
+          "link": "https://arxiv.org/abs/2602.05262"
+        },
+        "c": "",
+        "n": "ReGLA-X",
+        "d": "2026-02-05",
+        "m1": "83.7%"
+      },
+      {
+        "p": {
           "name": "TransBoost: Improving the Best ImageNet Performance using Deep Transduction",
           "link": "https://arxiv.org/abs/2205.13331v4"
         },
@@ -4836,6 +4890,16 @@
         "d": "2025-08-07",
         "m1": "83.6%",
         "m3": "4.1"
+      },
+      {
+        "p": {
+          "name": "Beyond MACs: Hardware Efficient Architecture Design for Vision Backbones",
+          "link": "https://arxiv.org/abs/2603.26551"
+        },
+        "c": "",
+        "n": "LowFormer-B3",
+        "d": "2026-03-27",
+        "m1": "83.6%"
       },
       {
         "p": {
@@ -5425,6 +5489,16 @@
       },
       {
         "p": {
+          "name": "CPUBone: Efficient Vision Backbone Design for Devices with Low Parallelization Capabilities",
+          "link": "https://arxiv.org/abs/2603.26425"
+        },
+        "c": "https://github.com/altair199797/CPUBone",
+        "n": "CPUBone-B3",
+        "d": "2026-03-27",
+        "m1": "83.1%"
+      },
+      {
+        "p": {
           "name": "Which Transformer to Favor: A Comparative Analysis of Efficiency in Vision Transformers",
           "link": "https://arxiv.org/abs/2308.09372v3"
         },
@@ -5572,6 +5646,17 @@
       },
       {
         "p": {
+          "name": "Advancing Vision Transformer with Enhanced Spatial Priors",
+          "link": "https://arxiv.org/abs/2604.18549"
+        },
+        "c": "",
+        "n": "EVT-T",
+        "d": "2026-04-20",
+        "m1": "83.0%",
+        "m3": "2.5"
+      },
+      {
+        "p": {
           "name": "Progressive Neural Architecture Search",
           "link": "http://arxiv.org/abs/1712.00559v3"
         },
@@ -5664,6 +5749,16 @@
         "c": "https://github.com/tensorflow/models/blob/master/official/vision/modeling/backbones/mobilenet.py",
         "n": "MNv4-Conv-L",
         "d": "2024-04-16",
+        "m1": "82.9%"
+      },
+      {
+        "p": {
+          "name": "ReGLA: Efficient Receptive-Field Modeling with Gated Linear Attention Network",
+          "link": "https://arxiv.org/abs/2602.05262"
+        },
+        "c": "",
+        "n": "ReGLA-L",
+        "d": "2026-02-05",
         "m1": "82.9%"
       },
       {
@@ -5990,6 +6085,16 @@
         "d": "2025-08-13",
         "m1": "82.7%",
         "m3": "2.7"
+      },
+      {
+        "p": {
+          "name": "Beyond MACs: Hardware Efficient Architecture Design for Vision Backbones",
+          "link": "https://arxiv.org/abs/2603.26551"
+        },
+        "c": "",
+        "n": "LowFormer-B3 r192",
+        "d": "2026-03-27",
+        "m1": "82.7%"
       },
       {
         "p": {
@@ -7275,6 +7380,16 @@
       },
       {
         "p": {
+          "name": "Beyond MACs: Hardware Efficient Architecture Design for Vision Backbones",
+          "link": "https://arxiv.org/abs/2603.26551"
+        },
+        "c": "",
+        "n": "LowFormer-B2",
+        "d": "2026-03-27",
+        "m1": "81.6%"
+      },
+      {
+        "p": {
           "name": "Self-training with Noisy Student improves ImageNet classification",
           "link": "https://arxiv.org/abs/1911.04252v4"
         },
@@ -7384,6 +7499,17 @@
         "d": "2025-09-04",
         "m1": "81.5%",
         "m3": "2.3"
+      },
+      {
+        "p": {
+          "name": "Efficiency Follows Global-Local Decoupling",
+          "link": "https://arxiv.org/abs/2603.19567"
+        },
+        "c": "https://github.com/NUST-Machine-Intelligence-Laboratory/ConvNeur",
+        "n": "ConvNeur-M4",
+        "d": "2026-03-20",
+        "m1": "81.5%",
+        "m3": "3.1"
       },
       {
         "p": {
@@ -7577,6 +7703,16 @@
         "c": "https://github.com/fistyee/mixpro",
         "n": "PVT-S (+MixPro)",
         "d": "2023-04-24",
+        "m1": "81.2%"
+      },
+      {
+        "p": {
+          "name": "Beyond MACs: Hardware Efficient Architecture Design for Vision Backbones",
+          "link": "https://arxiv.org/abs/2603.26551"
+        },
+        "c": "",
+        "n": "LowFormer-B1.5",
+        "d": "2026-03-27",
         "m1": "81.2%"
       },
       {
@@ -7815,6 +7951,16 @@
         "m1": "80.9%",
         "m2": "22M",
         "m3": "9.318"
+      },
+      {
+        "p": {
+          "name": "ReGLA: Efficient Receptive-Field Modeling with Gated Linear Attention Network",
+          "link": "https://arxiv.org/abs/2602.05262"
+        },
+        "c": "",
+        "n": "ReGLA-M",
+        "d": "2026-02-05",
+        "m1": "80.85%"
       },
       {
         "p": {
@@ -8177,6 +8323,16 @@
         "m3": "0.491"
       },
       {
+        "p": {
+          "name": "CPUBone: Efficient Vision Backbone Design for Devices with Low Parallelization Capabilities",
+          "link": "https://arxiv.org/abs/2603.26425"
+        },
+        "c": "https://github.com/altair199797/CPUBone",
+        "n": "CPUBone-B2",
+        "d": "2026-03-27",
+        "m1": "80.3%"
+      },
+      {
         "p": "",
         "c": "",
         "n": "DeiT-S (PuzzleMix+DM)",
@@ -8372,6 +8528,17 @@
         "m1": "80%",
         "m2": "5.2M",
         "m3": "1.44"
+      },
+      {
+        "p": {
+          "name": "Efficiency Follows Global-Local Decoupling",
+          "link": "https://arxiv.org/abs/2603.19567"
+        },
+        "c": "https://github.com/NUST-Machine-Intelligence-Laboratory/ConvNeur",
+        "n": "ConvNeur-M3",
+        "d": "2026-03-20",
+        "m1": "80.0%",
+        "m3": "1.8"
       },
       {
         "p": {
@@ -9018,6 +9185,16 @@
       },
       {
         "p": {
+          "name": "Human-inspired Global-to-Parallel Multi-scale Encoding for Lightweight Vision Models",
+          "link": "https://arxiv.org/abs/2601.08190"
+        },
+        "c": "",
+        "n": "H-GPE-S",
+        "d": "2026-01-13",
+        "m1": "79.1%"
+      },
+      {
+        "p": {
           "name": "Unsupervised Data Augmentation for Consistency Training",
           "link": "https://arxiv.org/abs/1904.12848v6"
         },
@@ -9185,6 +9362,16 @@
       },
       {
         "p": {
+          "name": "ReGLA: Efficient Receptive-Field Modeling with Gated Linear Attention Network",
+          "link": "https://arxiv.org/abs/2602.05262"
+        },
+        "c": "",
+        "n": "ReGLA-S",
+        "d": "2026-02-05",
+        "m1": "78.9%"
+      },
+      {
+        "p": {
           "name": "EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks",
           "link": "https://arxiv.org/abs/1905.11946v5"
         },
@@ -9346,6 +9533,16 @@
         "d": "2025-09-04",
         "m1": "78.7%",
         "m3": "1.1"
+      },
+      {
+        "p": {
+          "name": "CPUBone: Efficient Vision Backbone Design for Devices with Low Parallelization Capabilities",
+          "link": "https://arxiv.org/abs/2603.26425"
+        },
+        "c": "https://github.com/altair199797/CPUBone",
+        "n": "CPUBone-B1",
+        "d": "2026-03-27",
+        "m1": "78.7%"
       },
       {
         "p": {
@@ -9620,6 +9817,16 @@
         "d": "2021-11-19",
         "m1": "78.4%",
         "m3": "0.280"
+      },
+      {
+        "p": {
+          "name": "Beyond MACs: Hardware Efficient Architecture Design for Vision Backbones",
+          "link": "https://arxiv.org/abs/2603.26551"
+        },
+        "c": "",
+        "n": "LowFormer-B0",
+        "d": "2026-03-27",
+        "m1": "78.4%"
       },
       {
         "p": "",
@@ -9932,6 +10139,16 @@
       },
       {
         "p": {
+          "name": "A Multi-objective Evolutionary Algorithm Based on Bi-population with Uniform Sampling for Neural Architecture Search",
+          "link": "https://arxiv.org/abs/2602.08513"
+        },
+        "c": "https://github.com/pcjiang1998/MOEA-BUS",
+        "n": "MOEA-BUS-S",
+        "d": "2026-02-09",
+        "m1": "77.67%"
+      },
+      {
+        "p": {
           "name": "Fast AutoAugment",
           "link": "https://arxiv.org/abs/1905.00397v2"
         },
@@ -9963,6 +10180,27 @@
         "m1": "77.6%",
         "m2": "4.8M",
         "m3": "1.1"
+      },
+      {
+        "p": {
+          "name": "Efficiency Follows Global-Local Decoupling",
+          "link": "https://arxiv.org/abs/2603.19567"
+        },
+        "c": "https://github.com/NUST-Machine-Intelligence-Laboratory/ConvNeur",
+        "n": "ConvNeur-M2",
+        "d": "2026-03-20",
+        "m1": "77.6%",
+        "m3": "1.0"
+      },
+      {
+        "p": {
+          "name": "CPUBone: Efficient Vision Backbone Design for Devices with Low Parallelization Capabilities",
+          "link": "https://arxiv.org/abs/2603.26425"
+        },
+        "c": "https://github.com/altair199797/CPUBone",
+        "n": "CPUBone-B0",
+        "d": "2026-03-27",
+        "m1": "77.6%"
       },
       {
         "p": {
@@ -10431,6 +10669,16 @@
       },
       {
         "p": {
+          "name": "Human-inspired Global-to-Parallel Multi-scale Encoding for Lightweight Vision Models",
+          "link": "https://arxiv.org/abs/2601.08190"
+        },
+        "c": "",
+        "n": "H-GPE-T",
+        "d": "2026-01-13",
+        "m1": "76.6%"
+      },
+      {
+        "p": {
           "name": "MobileViTv3: Mobile-Friendly Vision Transformer with Simple and Effective Fusion of Local, Global and Input Features",
           "link": "https://arxiv.org/abs/2209.15159v2"
         },
@@ -10473,6 +10721,16 @@
         "m1": "76.4%",
         "m2": "6.4M",
         "m3": "1.2"
+      },
+      {
+        "p": {
+          "name": "ReGLA: Efficient Receptive-Field Modeling with Gated Linear Attention Network",
+          "link": "https://arxiv.org/abs/2602.05262"
+        },
+        "c": "",
+        "n": "ReGLA-T",
+        "d": "2026-02-05",
+        "m1": "76.4%"
       },
       {
         "p": {
@@ -10887,6 +11145,17 @@
       },
       {
         "p": {
+          "name": "Efficiency Follows Global-Local Decoupling",
+          "link": "https://arxiv.org/abs/2603.19567"
+        },
+        "c": "https://github.com/NUST-Machine-Intelligence-Laboratory/ConvNeur",
+        "n": "ConvNeur-M1",
+        "d": "2026-03-20",
+        "m1": "75.4%",
+        "m3": "0.7"
+      },
+      {
+        "p": {
           "name": "FairNAS: Rethinking Evaluation Fairness of Weight Sharing Neural Architecture Search",
           "link": "https://arxiv.org/abs/1907.01845v5"
         },
@@ -11285,6 +11554,16 @@
         "m1": "73.7%",
         "m2": "6M",
         "m3": "2.568"
+      },
+      {
+        "p": {
+          "name": "Human-inspired Global-to-Parallel Multi-scale Encoding for Lightweight Vision Models",
+          "link": "https://arxiv.org/abs/2601.08190"
+        },
+        "c": "",
+        "n": "H-GPE-N",
+        "d": "2026-01-13",
+        "m1": "73.7%"
       },
       {
         "p": {

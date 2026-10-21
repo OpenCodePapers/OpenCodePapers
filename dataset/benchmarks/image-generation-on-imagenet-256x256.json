@@ -274,6 +274,26 @@
       },
       {
         "p": {
+          "name": "UniWeTok: An Unified Binary Tokenizer with Codebook Size $\\mathit{2^{128}}$ for Unified Multimodal Large Language Model",
+          "link": "https://arxiv.org/abs/2602.14178"
+        },
+        "c": "https://github.com/shallowdream204/BitDance",
+        "n": "UniWeTok-H",
+        "d": "2026-02-15",
+        "m1": "1.38"
+      },
+      {
+        "p": {
+          "name": "Frequency-Aware Flow Matching for High-Quality Image Generation",
+          "link": "https://arxiv.org/abs/2604.15521"
+        },
+        "c": "https://github.com/OliverRensu/FreqFlow",
+        "n": "FreqFlow-H",
+        "d": "2026-04-16",
+        "m1": "1.38"
+      },
+      {
+        "p": {
           "name": "SoftCFG: Uncertainty-guided Stable Guidance for Visual Autoregressive Model",
           "link": "https://arxiv.org/abs/2510.00996"
         },
@@ -395,6 +415,16 @@
       },
       {
         "p": {
+          "name": "Frequency-Aware Flow Matching for High-Quality Image Generation",
+          "link": "https://arxiv.org/abs/2604.15521"
+        },
+        "c": "https://github.com/OliverRensu/FreqFlow",
+        "n": "FreqFlow-L",
+        "d": "2026-04-16",
+        "m1": "1.54"
+      },
+      {
+        "p": {
           "name": "Autoregressive Image Generation without Vector Quantization",
           "link": "https://arxiv.org/abs/2406.11838v3"
         },
@@ -475,6 +505,26 @@
       },
       {
         "p": {
+          "name": "SSG: Scaled Spatial Guidance for Multi-Scale Visual Autoregressive Generation",
+          "link": "https://arxiv.org/abs/2602.05534"
+        },
+        "c": "https://github.com/Youngwoo-git/SSG",
+        "n": "VAR-d30 + SSG",
+        "d": "2026-02-05",
+        "m1": "1.68"
+      },
+      {
+        "p": {
+          "name": "UniWeTok: An Unified Binary Tokenizer with Codebook Size $\\mathit{2^{128}}$ for Unified Multimodal Large Language Model",
+          "link": "https://arxiv.org/abs/2602.14178"
+        },
+        "c": "https://github.com/shallowdream204/BitDance",
+        "n": "UniWeTok-L",
+        "d": "2026-02-15",
+        "m1": "1.68"
+      },
+      {
+        "p": {
           "name": "CADS: Unleashing the Diversity of Diffusion Models through Condition-Annealed Sampling",
           "link": "https://arxiv.org/abs/2310.17347v4"
         },
@@ -536,6 +586,26 @@
       },
       {
         "p": {
+          "name": "End-to-End Training for Unified Tokenization and Latent Denoising",
+          "link": "https://arxiv.org/abs/2603.22283"
+        },
+        "c": "https://github.com/ShivamDuggal4/UNITE-tokenization-generation",
+        "n": "UNITE-L",
+        "d": "2026-03-23",
+        "m1": "1.73"
+      },
+      {
+        "p": {
+          "name": "End-to-End Training for Unified Tokenization and Latent Denoising",
+          "link": "https://arxiv.org/abs/2603.22283"
+        },
+        "c": "https://github.com/ShivamDuggal4/UNITE-tokenization-generation",
+        "n": "UNITE-XL",
+        "d": "2026-03-23",
+        "m1": "1.75"
+      },
+      {
+        "p": {
           "name": "Language Model Beats Diffusion -- Tokenizer is Key to Visual Generation",
           "link": "https://arxiv.org/abs/2310.05737v3"
         },
@@ -572,6 +642,16 @@
         "c": "",
         "n": "HieraTok",
         "d": "2025-09-28",
+        "m1": "1.82"
+      },
+      {
+        "p": {
+          "name": "Improving Reconstruction of Representation Autoencoder",
+          "link": "https://arxiv.org/abs/2602.08620"
+        },
+        "c": "https://github.com/modyu-liu/LVRAE",
+        "n": "LV-RAE (DiT DH-XL)",
+        "d": "2026-02-09",
         "m1": "1.82"
       },
       {
@@ -767,6 +847,16 @@
       },
       {
         "p": {
+          "name": "End-to-End Training for Unified Tokenization and Latent Denoising",
+          "link": "https://arxiv.org/abs/2603.22283"
+        },
+        "c": "https://github.com/ShivamDuggal4/UNITE-tokenization-generation",
+        "n": "UNITE-B",
+        "d": "2026-03-23",
+        "m1": "2.12"
+      },
+      {
+        "p": {
           "name": "SAN: Inducing Metrizability of GAN with Discriminative Normalized Linear Layer",
           "link": "https://arxiv.org/abs/2301.12811v4"
         },
@@ -813,6 +903,16 @@
         "c": "https://github.com/foundationvision/llamagen",
         "n": "LlamaGen",
         "d": "2024-06-10",
+        "m1": "2.18"
+      },
+      {
+        "p": {
+          "name": "LINA: Linear Autoregressive Image Generative Models with Continuous Tokens",
+          "link": "https://arxiv.org/abs/2601.22630"
+        },
+        "c": "https://github.com/techmonsterwang/LINA",
+        "n": "LINA-H (cfg=2.4)",
+        "d": "2026-01-30",
         "m1": "2.18"
       },
       {
@@ -907,6 +1007,36 @@
       },
       {
         "p": {
+          "name": "ResTok: Learning Hierarchical Residuals in 1D Visual Tokenizers for Autoregressive Image Generation",
+          "link": "https://arxiv.org/abs/2601.03955"
+        },
+        "c": "https://github.com/Kwai-Kolors/ResTok",
+        "n": "ResTok",
+        "d": "2026-01-07",
+        "m1": "2.34"
+      },
+      {
+        "p": {
+          "name": "Semantic One-Dimensional Tokenizer for Image Reconstruction and Generation",
+          "link": "https://arxiv.org/abs/2603.16373"
+        },
+        "c": "",
+        "n": "SemTok-AR-XXL",
+        "d": "2026-03-17",
+        "m1": "2.34"
+      },
+      {
+        "p": {
+          "name": "UniWeTok: An Unified Binary Tokenizer with Codebook Size $\\mathit{2^{128}}$ for Unified Multimodal Large Language Model",
+          "link": "https://arxiv.org/abs/2602.14178"
+        },
+        "c": "https://github.com/shallowdream204/BitDance",
+        "n": "UniWeTok-B",
+        "d": "2026-02-15",
+        "m1": "2.35"
+      },
+      {
+        "p": {
           "name": "ACDiT: Interpolating Autoregressive Conditional Modeling and Diffusion Transformer",
           "link": "https://arxiv.org/abs/2412.07720v1"
         },
@@ -954,6 +1084,16 @@
         "n": "TiTok-B-64",
         "d": "2024-06-11",
         "m1": "2.48"
+      },
+      {
+        "p": {
+          "name": "Semantic One-Dimensional Tokenizer for Image Reconstruction and Generation",
+          "link": "https://arxiv.org/abs/2603.16373"
+        },
+        "c": "",
+        "n": "SemTok-AR-XL",
+        "d": "2026-03-17",
+        "m1": "2.54"
       },
       {
         "p": {
@@ -1050,6 +1190,16 @@
         "c": "https://github.com/bytedance/1d-tokenizer",
         "n": "TiTok-B-32",
         "d": "2024-06-11",
+        "m1": "2.77"
+      },
+      {
+        "p": {
+          "name": "Semantic One-Dimensional Tokenizer for Image Reconstruction and Generation",
+          "link": "https://arxiv.org/abs/2603.16373"
+        },
+        "c": "",
+        "n": "SemTok-AR-L",
+        "d": "2026-03-17",
         "m1": "2.77"
       },
       {
@@ -1286,6 +1436,16 @@
       },
       {
         "p": {
+          "name": "Image Generation with a Sphere Encoder",
+          "link": "https://arxiv.org/abs/2602.15030"
+        },
+        "c": "",
+        "n": "sphere-xl",
+        "d": "2026-02-16",
+        "m1": "4.02"
+      },
+      {
+        "p": {
           "name": "IAR2: Improving Autoregressive Visual Generation with Semantic-Detail Associated Token Prediction",
           "link": "https://arxiv.org/abs/2510.06928"
         },
@@ -1343,6 +1503,16 @@
       },
       {
         "p": {
+          "name": "LINA: Linear Autoregressive Image Generative Models with Continuous Tokens",
+          "link": "https://arxiv.org/abs/2601.22630"
+        },
+        "c": "https://github.com/techmonsterwang/LINA",
+        "n": "LINA-H (cfg=1.0)",
+        "d": "2026-01-30",
+        "m1": "4.49"
+      },
+      {
+        "p": {
           "name": "Scalable Adaptive Computation for Iterative Generation",
           "link": "https://arxiv.org/abs/2212.11972v2"
         },
@@ -1360,6 +1530,16 @@
         "n": "ADM-G",
         "d": "2021-05-11",
         "m1": "4.59"
+      },
+      {
+        "p": {
+          "name": "Image Generation with a Sphere Encoder",
+          "link": "https://arxiv.org/abs/2602.15030"
+        },
+        "c": "",
+        "n": "sphere-l",
+        "d": "2026-02-16",
+        "m1": "4.76"
       },
       {
         "p": {

@@ -45,6 +45,36 @@
         "m1": "94.9"
       },
       {
+        "p": {
+          "name": "Driving on Registers",
+          "link": "https://arxiv.org/abs/2601.05083"
+        },
+        "c": "",
+        "n": "DrivoR (+134k SimScale data)",
+        "d": "2026-01-08",
+        "m1": "94.6"
+      },
+      {
+        "p": {
+          "name": "Driving on Registers",
+          "link": "https://arxiv.org/abs/2601.05083"
+        },
+        "c": "",
+        "n": "DrivoR (+65k SimScale data)",
+        "d": "2026-01-08",
+        "m1": "94.0"
+      },
+      {
+        "p": {
+          "name": "Driving on Registers",
+          "link": "https://arxiv.org/abs/2601.05083"
+        },
+        "c": "",
+        "n": "DrivoR (trainval)",
+        "d": "2026-01-08",
+        "m1": "93.7"
+      },
+      {
         "p": "",
         "c": "",
         "n": "DriveSuprim",
@@ -60,6 +90,16 @@
         "n": "EvaDrive (Cons)",
         "d": "2025-08-05",
         "m1": "93.5"
+      },
+      {
+        "p": {
+          "name": "Driving on Registers",
+          "link": "https://arxiv.org/abs/2601.05083"
+        },
+        "c": "",
+        "n": "DrivoR (train)",
+        "d": "2026-01-08",
+        "m1": "93.1"
       },
       {
         "p": {
@@ -100,6 +140,26 @@
       },
       {
         "p": {
+          "name": "From Representational Complementarity to Dual Systems: Synergizing VLM and Vision-Only Backbones for End-to-End Driving",
+          "link": "https://arxiv.org/abs/2602.10719"
+        },
+        "c": "https://github.com/WilliamXuanYu/HybridDriveVLA",
+        "n": "HybridDriveVLA",
+        "d": "2026-02-11",
+        "m1": "92.1"
+      },
+      {
+        "p": {
+          "name": "SparseDriveV2: Scoring is All You Need for End-to-End Autonomous Driving",
+          "link": "https://arxiv.org/abs/2603.29163"
+        },
+        "c": "https://github.com/swc-17/SparseDriveV2",
+        "n": "SparseDriveV2",
+        "d": "2026-03-31",
+        "m1": "92.0"
+      },
+      {
+        "p": {
           "name": "iPad: Iterative Proposal-centric End-to-End Autonomous Driving",
           "link": "https://arxiv.org/abs/2505.15111v1"
         },
@@ -119,11 +179,61 @@
         "m1": "91.7"
       },
       {
+        "p": {
+          "name": "DynVLA: Learning World Dynamics for Action Reasoning in Autonomous Driving",
+          "link": "https://arxiv.org/abs/2603.11041"
+        },
+        "c": "",
+        "n": "DynVLA",
+        "d": "2026-03-11",
+        "m1": "91.7"
+      },
+      {
         "p": "",
         "c": "",
         "n": "R2SE",
         "d": "",
         "m1": "91.6"
+      },
+      {
+        "p": {
+          "name": "SafeDrive: Fine-Grained Safety Reasoning for End-to-End Driving in a Sparse World",
+          "link": "https://arxiv.org/abs/2602.18887"
+        },
+        "c": "",
+        "n": "SafeDrive",
+        "d": "2026-02-21",
+        "m1": "91.6"
+      },
+      {
+        "p": {
+          "name": "DriveWorld-VLA: Unified Latent-Space World Modeling with Vision-Language-Action for Autonomous Driving",
+          "link": "https://arxiv.org/abs/2602.06521"
+        },
+        "c": "https://github.com/liulin815/DriveWorld-VLA.git",
+        "n": "DriveWorld-VLA",
+        "d": "2026-02-06",
+        "m1": "91.3"
+      },
+      {
+        "p": {
+          "name": "LaST-VLA: Thinking in Latent Spatio-Temporal Space for Vision-Language-Action in Autonomous Driving",
+          "link": "https://arxiv.org/abs/2603.01928"
+        },
+        "c": "https://github.com/luo-yc17/LaST-VLA",
+        "n": "LaST-VLA-8B (RL)",
+        "d": "2026-03-02",
+        "m1": "91.3"
+      },
+      {
+        "p": {
+          "name": "LaST-VLA: Thinking in Latent Spatio-Temporal Space for Vision-Language-Action in Autonomous Driving",
+          "link": "https://arxiv.org/abs/2603.01928"
+        },
+        "c": "https://github.com/luo-yc17/LaST-VLA",
+        "n": "LaST-VLA-2B (RL)",
+        "d": "2026-03-02",
+        "m1": "91.1"
       },
       {
         "p": {
@@ -157,12 +267,32 @@
       },
       {
         "p": {
+          "name": "Unleashing VLA Potentials in Autonomous Driving via Explicit Learning from Failures",
+          "link": "https://arxiv.org/abs/2603.01063"
+        },
+        "c": "",
+        "n": "ELF-VLA-8B",
+        "d": "2026-03-01",
+        "m1": "91.0"
+      },
+      {
+        "p": {
           "name": "KnowVal: A Knowledge-Augmented and Value-Guided Autonomous Driving System",
           "link": "https://arxiv.org/abs/2512.20299"
         },
         "c": "",
         "n": "KnowVal-DiffusionDrive",
         "d": "2025-12-23",
+        "m1": "90.9"
+      },
+      {
+        "p": {
+          "name": "DriveVA: Video Action Models are Zero-Shot Drivers",
+          "link": "https://arxiv.org/abs/2604.04198"
+        },
+        "c": "",
+        "n": "DriveVA",
+        "d": "2026-04-05",
         "m1": "90.9"
       },
       {
@@ -227,6 +357,16 @@
       },
       {
         "p": {
+          "name": "HAD: Combining Hierarchical Diffusion with Metric-Decoupled RL for End-to-End Driving",
+          "link": "https://arxiv.org/abs/2604.03581"
+        },
+        "c": "",
+        "n": "HAD",
+        "d": "2026-04-04",
+        "m1": "90.2"
+      },
+      {
+        "p": {
           "name": "FutureX: Enhance End-to-End Autonomous Driving via Latent Chain-of-Thought World Model",
           "link": "https://arxiv.org/abs/2512.11226"
         },
@@ -257,6 +397,16 @@
       },
       {
         "p": {
+          "name": "HAD: Combining Hierarchical Diffusion with Metric-Decoupled RL for End-to-End Driving",
+          "link": "https://arxiv.org/abs/2604.03581"
+        },
+        "c": "",
+        "n": "HAD-L",
+        "d": "2026-04-04",
+        "m1": "89.9"
+      },
+      {
+        "p": {
           "name": "Dichotomous Diffusion Policy Optimization",
           "link": "https://arxiv.org/abs/2601.00898"
         },
@@ -274,6 +424,16 @@
         "n": "ReCogDrive",
         "d": "2025-06-09",
         "m1": "89.6"
+      },
+      {
+        "p": {
+          "name": "Uni-World VLA: Interleaved World Modeling and Planning for Autonomous Driving",
+          "link": "https://arxiv.org/abs/2603.27287"
+        },
+        "c": "",
+        "n": "Uni-World VLA",
+        "d": "2026-03-28",
+        "m1": "89.4"
       },
       {
         "p": {
@@ -297,6 +457,16 @@
       },
       {
         "p": {
+          "name": "DriveDreamer-Policy: A Geometry-Grounded World-Action Model for Unified Generation and Planning",
+          "link": "https://arxiv.org/abs/2604.01765"
+        },
+        "c": "",
+        "n": "DriveDreamer-Policy",
+        "d": "2026-04-02",
+        "m1": "89.2"
+      },
+      {
+        "p": {
           "name": "DriveLaW:Unifying Planning and Video Generation in a Latent Driving World",
           "link": "https://arxiv.org/abs/2512.23421"
         },
@@ -304,6 +474,16 @@
         "n": "DriveLaW",
         "d": "2025-12-29",
         "m1": "89.1"
+      },
+      {
+        "p": {
+          "name": "MeanFuser: Fast One-Step Multi-Modal Trajectory Generation and Adaptive Reconstruction via MeanFlow for End-to-End Autonomous Driving",
+          "link": "https://arxiv.org/abs/2602.20060"
+        },
+        "c": "",
+        "n": "MeanFuser",
+        "d": "2026-02-23",
+        "m1": "89.0"
       },
       {
         "p": {
@@ -344,6 +524,26 @@
         "n": "ResAD (Resnet-34)",
         "d": "2025-10-09",
         "m1": "88.8"
+      },
+      {
+        "p": {
+          "name": "DynFlowDrive: Flow-Based Dynamic World Modeling for Autonomous Driving",
+          "link": "https://arxiv.org/abs/2603.19675"
+        },
+        "c": "https://github.com/xiaolul2/DynFlowDrive",
+        "n": "DynFlowDrive",
+        "d": "2026-03-20",
+        "m1": "88.7"
+      },
+      {
+        "p": {
+          "name": "FeaXDrive: Feasibility-aware Trajectory-Centric Diffusion Planning for End-to-End Autonomous Driving",
+          "link": "https://arxiv.org/abs/2604.12656"
+        },
+        "c": "",
+        "n": "FeaXDrive-IL",
+        "d": "2026-04-14",
+        "m1": "88.7"
       },
       {
         "p": {
@@ -436,10 +636,40 @@
         "m1": "87.4"
       },
       {
+        "p": {
+          "name": "SGDrive: Scene-to-Goal Hierarchical World Cognition for Autonomous Driving",
+          "link": "https://arxiv.org/abs/2601.05640"
+        },
+        "c": "https://github.com/LogosRoboticsGroup/SGDrive",
+        "n": "SGDrive-2B",
+        "d": "2026-01-09",
+        "m1": "87.4"
+      },
+      {
+        "p": {
+          "name": "LaST-VLA: Thinking in Latent Spatio-Temporal Space for Vision-Language-Action in Autonomous Driving",
+          "link": "https://arxiv.org/abs/2603.01928"
+        },
+        "c": "https://github.com/luo-yc17/LaST-VLA",
+        "n": "LaST-VLA-8B (SFT)",
+        "d": "2026-03-02",
+        "m1": "87.3"
+      },
+      {
         "p": "",
         "c": "",
         "n": "ARTEMIS",
         "d": "",
+        "m1": "87.0"
+      },
+      {
+        "p": {
+          "name": "LaST-VLA: Thinking in Latent Spatio-Temporal Space for Vision-Language-Action in Autonomous Driving",
+          "link": "https://arxiv.org/abs/2603.01928"
+        },
+        "c": "https://github.com/luo-yc17/LaST-VLA",
+        "n": "LaST-VLA-2B (SFT)",
+        "d": "2026-03-02",
         "m1": "87.0"
       },
       {
@@ -460,6 +690,16 @@
         "c": "",
         "n": "ReSim",
         "d": "2025-06-11",
+        "m1": "86.6"
+      },
+      {
+        "p": {
+          "name": "ProDrive: Proactive Planning for Autonomous Driving via Ego-Environment Co-Evolution",
+          "link": "https://arxiv.org/abs/2604.25329"
+        },
+        "c": "",
+        "n": "ProDrive",
+        "d": "2026-04-28",
         "m1": "86.6"
       },
       {
@@ -490,11 +730,31 @@
         "m1": "86.0"
       },
       {
+        "p": {
+          "name": "NoRD: A Data-Efficient Vision-Language-Action Model that Drives without Reasoning",
+          "link": "https://arxiv.org/abs/2602.21172"
+        },
+        "c": "",
+        "n": "NoRD",
+        "d": "2026-02-24",
+        "m1": "85.6"
+      },
+      {
         "p": "",
         "c": "",
         "n": "DRAMA",
         "d": "",
         "m1": "85.5"
+      },
+      {
+        "p": {
+          "name": "EvoDriveVLA: Evolving Driving VLA Models via Collaborative Perception-Planning Distillation",
+          "link": "https://arxiv.org/abs/2603.09465"
+        },
+        "c": "https://github.com/hey-cjj/EvoDriveVLA",
+        "n": "EvoDriveVLA",
+        "d": "2026-03-10",
+        "m1": "85.3"
       },
       {
         "p": {

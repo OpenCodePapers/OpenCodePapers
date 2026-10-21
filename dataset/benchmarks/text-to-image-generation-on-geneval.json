@@ -106,6 +106,26 @@
       },
       {
         "p": {
+          "name": "LVRPO: Language-Visual Alignment with GRPO for Multimodal Understanding and Generation",
+          "link": "https://arxiv.org/abs/2603.27693"
+        },
+        "c": "",
+        "n": "LVRPO",
+        "d": "2026-03-29",
+        "m1": "0.91"
+      },
+      {
+        "p": {
+          "name": "Refinement via Regeneration: Enlarging Modification Space Boosts Image Refinement in Unified Multimodal Models",
+          "link": "https://arxiv.org/abs/2604.25636"
+        },
+        "c": "https://github.com/LeapLabTHU/RvR",
+        "n": "BAGEL-RvR",
+        "d": "2026-04-28",
+        "m1": "0.91"
+      },
+      {
+        "p": {
           "name": "UniLiP: Adapting CLIP for Unified Multimodal Understanding, Generation and Editing",
           "link": "https://arxiv.org/abs/2507.23278"
         },
@@ -133,6 +153,40 @@
         "n": "Tuna (7B)",
         "d": "2025-12-01",
         "m1": "0.90"
+      },
+      {
+        "p": {
+          "name": "UniReason 1.0: A Unified Reasoning Framework for World Knowledge Aligned Image Generation and Editing",
+          "link": "https://arxiv.org/abs/2602.02437"
+        },
+        "c": "",
+        "n": "UniReason 1.0",
+        "d": "2026-02-02",
+        "m1": "0.90",
+        "m3": "0.96",
+        "m4": "0.82",
+        "m6": "0.82",
+        "m7": "0.88"
+      },
+      {
+        "p": {
+          "name": "Rethinking UMM Visual Generation: Masked Modeling for Efficient Image-Only Pre-training",
+          "link": "https://arxiv.org/abs/2603.16139"
+        },
+        "c": "https://github.com/LINs-lab/IOMM",
+        "n": "IOMM-B 512",
+        "d": "2026-03-17",
+        "m1": "0.89"
+      },
+      {
+        "p": {
+          "name": "Self-Adversarial One Step Generation via Condition Shifting",
+          "link": "https://arxiv.org/abs/2604.12322"
+        },
+        "c": "https://github.com/LINs-lab/APEX",
+        "n": "APEX 20B (LoRA, r=64)",
+        "d": "2026-04-14",
+        "m1": "0.89"
       },
       {
         "p": {
@@ -166,6 +220,66 @@
       },
       {
         "p": {
+          "name": "Self-Adversarial One Step Generation via Condition Shifting",
+          "link": "https://arxiv.org/abs/2604.12322"
+        },
+        "c": "https://github.com/LINs-lab/APEX",
+        "n": "APEX 20B (LoRA, r=32)",
+        "d": "2026-04-14",
+        "m1": "0.88"
+      },
+      {
+        "p": {
+          "name": "Dynin-Omni: Omnimodal Unified Large Diffusion Language Model",
+          "link": "https://arxiv.org/abs/2604.00007"
+        },
+        "c": "https://github.com/AIDASLab/Dynin-Omni",
+        "n": "Dynin-Omni",
+        "d": "2026-03-09",
+        "m1": "0.87"
+      },
+      {
+        "p": {
+          "name": "Rethinking UMM Visual Generation: Masked Modeling for Efficient Image-Only Pre-training",
+          "link": "https://arxiv.org/abs/2603.16139"
+        },
+        "c": "https://github.com/LINs-lab/IOMM",
+        "n": "IOMM-B 1024",
+        "d": "2026-03-17",
+        "m1": "0.87"
+      },
+      {
+        "p": {
+          "name": "Rethinking UMM Visual Generation: Masked Modeling for Efficient Image-Only Pre-training",
+          "link": "https://arxiv.org/abs/2603.16139"
+        },
+        "c": "https://github.com/LINs-lab/IOMM",
+        "n": "IOMM-L 512",
+        "d": "2026-03-17",
+        "m1": "0.87"
+      },
+      {
+        "p": {
+          "name": "LatentUM: Unleashing the Potential of Interleaved Cross-Modal Reasoning via a Latent-Space Unified Model",
+          "link": "https://arxiv.org/abs/2604.02097"
+        },
+        "c": "",
+        "n": "LatentUM Vis-Gen",
+        "d": "2026-04-02",
+        "m1": "0.87"
+      },
+      {
+        "p": {
+          "name": "Nucleus-Image: Sparse MoE for Image Generation",
+          "link": "https://arxiv.org/abs/2604.12163"
+        },
+        "c": "https://github.com/WithNucleusAI/Nucleus-Image",
+        "n": "Nucleus-Image",
+        "d": "2026-04-14",
+        "m1": "0.87"
+      },
+      {
+        "p": {
           "name": "STAR: STacked AutoRegressive Scheme for Unified Multimodal Learning",
           "link": "https://arxiv.org/abs/2512.13752"
         },
@@ -196,6 +310,36 @@
       },
       {
         "p": {
+          "name": "ChatUMM: Robust Context Tracking for Conversational Interleaved Generation",
+          "link": "https://arxiv.org/abs/2602.06442"
+        },
+        "c": "",
+        "n": "ChatUMM",
+        "d": "2026-02-06",
+        "m1": "0.85"
+      },
+      {
+        "p": {
+          "name": "Rethinking UMM Visual Generation: Masked Modeling for Efficient Image-Only Pre-training",
+          "link": "https://arxiv.org/abs/2603.16139"
+        },
+        "c": "https://github.com/LINs-lab/IOMM",
+        "n": "IOMM-L 1024",
+        "d": "2026-03-17",
+        "m1": "0.85"
+      },
+      {
+        "p": {
+          "name": "LatentUM: Unleashing the Potential of Interleaved Cross-Modal Reasoning via a Latent-Space Unified Model",
+          "link": "https://arxiv.org/abs/2604.02097"
+        },
+        "c": "",
+        "n": "LatentUM Base",
+        "d": "2026-04-02",
+        "m1": "0.85"
+      },
+      {
+        "p": {
           "name": "UniWorld-V1: High-Resolution Semantic Encoders for Unified Visual Understanding and Generation",
           "link": "https://arxiv.org/abs/2506.03147v3"
         },
@@ -218,6 +362,16 @@
         "c": "",
         "n": "Visual-Aware CoT",
         "d": "2025-12-22",
+        "m1": "0.84"
+      },
+      {
+        "p": {
+          "name": "LongCat-Next: Lexicalizing Modalities as Discrete Tokens",
+          "link": "https://arxiv.org/abs/2603.27538"
+        },
+        "c": "https://github.com/meituan-longcat/LongCat-Next",
+        "n": "LongCat-Next",
+        "d": "2026-03-29",
         "m1": "0.84"
       },
       {
@@ -354,6 +508,16 @@
       },
       {
         "p": {
+          "name": "Cheers: Decoupling Patch Details from Semantic Representations Enables Unified Multimodal Comprehension and Generation",
+          "link": "https://arxiv.org/abs/2603.12793"
+        },
+        "c": "https://huggingface.co/ai9stars/Cheers",
+        "n": "Cheers",
+        "d": "2026-03-13",
+        "m1": "0.78"
+      },
+      {
+        "p": {
           "name": "Can We Generate Images with CoT? Let's Verify and Reinforce Image Generation Step by Step",
           "link": "https://arxiv.org/abs/2501.13926v1"
         },
@@ -391,6 +555,16 @@
         "n": "Show-o [xie2024show] Ft. ORM It. DPO Ft. ORM",
         "d": "2025-01-23",
         "m1": "0.75"
+      },
+      {
+        "p": {
+          "name": "Mobile-O: Unified Multimodal Understanding and Generation on Mobile Device",
+          "link": "https://arxiv.org/abs/2602.20161"
+        },
+        "c": "https://github.com/Amshaker/Mobile-O",
+        "n": "Mobile-O-0.5B",
+        "d": "2026-02-23",
+        "m1": "0.74"
       },
       {
         "p": {

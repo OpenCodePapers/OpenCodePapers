@@ -36,6 +36,86 @@
     "items": [
       {
         "p": {
+          "name": "Unifying Language-Action Understanding and Generation for Autonomous Driving",
+          "link": "https://arxiv.org/abs/2603.01441"
+        },
+        "c": "",
+        "n": "LinkVLA",
+        "d": "2026-03-02",
+        "m1": "91.01"
+      },
+      {
+        "p": {
+          "name": "Learning from Mistakes: Post-Training for Driving VLA with Takeover Data",
+          "link": "https://arxiv.org/abs/2603.14972"
+        },
+        "c": "",
+        "n": "TakeVLA",
+        "d": "2026-03-16",
+        "m1": "89.72"
+      },
+      {
+        "p": {
+          "name": "AutoMoT: A Unified Vision-Language-Action Model with Asynchronous Mixture-of-Transformers for End-to-End Autonomous Driving",
+          "link": "https://arxiv.org/abs/2603.14851"
+        },
+        "c": "",
+        "n": "AutoMoT+",
+        "d": "2026-03-16",
+        "m1": "89.42"
+      },
+      {
+        "p": {
+          "name": "AlignDrive: Aligned Lateral-Longitudinal Planning for End-to-End Autonomous Driving",
+          "link": "https://arxiv.org/abs/2601.01762"
+        },
+        "c": "",
+        "n": "AlignDrive",
+        "d": "2026-01-05",
+        "m1": "89.07"
+      },
+      {
+        "p": {
+          "name": "DynVLA: Learning World Dynamics for Action Reasoning in Autonomous Driving",
+          "link": "https://arxiv.org/abs/2603.11041"
+        },
+        "c": "",
+        "n": "DynVLA",
+        "d": "2026-03-11",
+        "m1": "88.34"
+      },
+      {
+        "p": {
+          "name": "Risk-Aware World Model Predictive Control for Generalizable End-to-End Autonomous Driving",
+          "link": "https://arxiv.org/abs/2602.23259"
+        },
+        "c": "",
+        "n": "RaWMPC",
+        "d": "2026-02-26",
+        "m1": "88.31"
+      },
+      {
+        "p": {
+          "name": "Judge, Then Drive: A Critic-Centric Vision Language Action Framework for Autonomous Driving",
+          "link": "https://arxiv.org/abs/2604.27366"
+        },
+        "c": "",
+        "n": "CriticVLA",
+        "d": "2026-04-30",
+        "m1": "88.02"
+      },
+      {
+        "p": {
+          "name": "AutoMoT: A Unified Vision-Language-Action Model with Asynchronous Mixture-of-Transformers for End-to-End Autonomous Driving",
+          "link": "https://arxiv.org/abs/2603.14851"
+        },
+        "c": "",
+        "n": "AutoMoT",
+        "d": "2026-03-16",
+        "m1": "87.34"
+      },
+      {
+        "p": {
           "name": "DiffRefiner: Coarse to Fine Trajectory Planning via Diffusion Refinement with Semantic Interaction for End to End Autonomous Driving",
           "link": "https://arxiv.org/abs/2511.17150"
         },
@@ -43,6 +123,16 @@
         "n": "DiffRefiner",
         "d": "2025-11-21",
         "m1": "87.1"
+      },
+      {
+        "p": {
+          "name": "Deconfounded Lifelong Learning for Autonomous Driving via Dynamic Knowledge Spaces",
+          "link": "https://arxiv.org/abs/2603.14354"
+        },
+        "c": "",
+        "n": "DeLL",
+        "d": "2026-03-15",
+        "m1": "86.86"
       },
       {
         "p": {
@@ -83,6 +173,16 @@
       },
       {
         "p": {
+          "name": "Generative Scenario Rollouts for End-to-End Autonomous Driving",
+          "link": "https://arxiv.org/abs/2601.11475"
+        },
+        "c": "",
+        "n": "GeRo (ORION)",
+        "d": "2026-01-16",
+        "m1": "81.90"
+      },
+      {
+        "p": {
           "name": "CoT4AD: A Vision-Language-Action Model with Explicit Chain-of-Thought Reasoning for Autonomous Driving",
           "link": "https://arxiv.org/abs/2511.22532"
         },
@@ -113,6 +213,16 @@
       },
       {
         "p": {
+          "name": "Generative Scenario Rollouts for End-to-End Autonomous Driving",
+          "link": "https://arxiv.org/abs/2601.11475"
+        },
+        "c": "",
+        "n": "GeRo (Qwen2.5VL)",
+        "d": "2026-01-16",
+        "m1": "79.60"
+      },
+      {
+        "p": {
           "name": "GaussianFusion: Gaussian-Based Multi-Sensor Fusion for End-to-End Autonomous Driving",
           "link": "https://arxiv.org/abs/2506.00034v1"
         },
@@ -123,6 +233,26 @@
       },
       {
         "p": {
+          "name": "UniDrive-WM: Unified Understanding, Planning and Generation World Model for Autonomous Driving",
+          "link": "https://arxiv.org/abs/2601.04453"
+        },
+        "c": "",
+        "n": "UniDrive-WM (AR+Diffusion)",
+        "d": "2026-01-07",
+        "m1": "79.31"
+      },
+      {
+        "p": {
+          "name": "UniDrive-WM: Unified Understanding, Planning and Generation World Model for Autonomous Driving",
+          "link": "https://arxiv.org/abs/2601.04453"
+        },
+        "c": "",
+        "n": "UniDrive-WM (AR)",
+        "d": "2026-01-07",
+        "m1": "79.22"
+      },
+      {
+        "p": {
           "name": "AutoVLA: A Vision-Language-Action Model for End-to-End Autonomous Driving with Adaptive Reasoning and Reinforcement Fine-Tuning",
           "link": "https://arxiv.org/abs/2506.13757"
         },
@@ -130,6 +260,26 @@
         "n": "AutoVLA",
         "d": "2025-06-16",
         "m1": "78.84"
+      },
+      {
+        "p": {
+          "name": "PerlAD: Towards Enhanced Closed-loop End-to-end Autonomous Driving with Pseudo-simulation-based Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2603.14908"
+        },
+        "c": "",
+        "n": "PerlAD",
+        "d": "2026-03-16",
+        "m1": "78.70"
+      },
+      {
+        "p": {
+          "name": "UniDriveVLA: Unifying Understanding, Perception, and Action Planning for Autonomous Driving",
+          "link": "https://arxiv.org/abs/2604.02190"
+        },
+        "c": "",
+        "n": "UniDriveVLA",
+        "d": "2026-04-02",
+        "m1": "78.37"
       },
       {
         "p": {
@@ -284,6 +434,56 @@
       },
       {
         "p": {
+          "name": "Unveiling the Surprising Efficacy of Navigation Understanding in End-to-End Autonomous Driving",
+          "link": "https://arxiv.org/abs/2604.12208"
+        },
+        "c": "",
+        "n": "SNG-VLA",
+        "d": "2026-04-14",
+        "m1": "67.17"
+      },
+      {
+        "p": {
+          "name": "DriveMamba: Task-Centric Scalable State Space Model for Efficient End-to-End Autonomous Driving",
+          "link": "https://arxiv.org/abs/2602.13301"
+        },
+        "c": "",
+        "n": "DriveMamba-Large",
+        "d": "2026-02-09",
+        "m1": "66.82"
+      },
+      {
+        "p": {
+          "name": "SafeDrive: Fine-Grained Safety Reasoning for End-to-End Driving in a Sparse World",
+          "link": "https://arxiv.org/abs/2602.18887"
+        },
+        "c": "",
+        "n": "SafeDrive",
+        "d": "2026-02-21",
+        "m1": "66.77"
+      },
+      {
+        "p": {
+          "name": "DriveMamba: Task-Centric Scalable State Space Model for Efficient End-to-End Autonomous Driving",
+          "link": "https://arxiv.org/abs/2602.13301"
+        },
+        "c": "",
+        "n": "DriveMamba-Base",
+        "d": "2026-02-09",
+        "m1": "65.50"
+      },
+      {
+        "p": {
+          "name": "MindDriver: Introducing Progressive Multimodal Reasoning for Autonomous Driving",
+          "link": "https://arxiv.org/abs/2602.21952"
+        },
+        "c": "https://github.com/hotdogcheesewhite/MindDriver",
+        "n": "MindDriver",
+        "d": "2026-02-25",
+        "m1": "65.48"
+      },
+      {
+        "p": {
           "name": "GEMINUS: Dual-aware Global and Scene-Adaptive Mixture-of-Experts for End-to-End Autonomous Driving",
           "link": "https://arxiv.org/abs/2507.14456"
         },
@@ -321,6 +521,16 @@
         "n": "EvaDrive(Aggres.)",
         "d": "2025-08-05",
         "m1": "64.96"
+      },
+      {
+        "p": {
+          "name": "Drive-JEPA: Video JEPA Meets Multimodal Trajectory Distillation for End-to-End Driving",
+          "link": "https://arxiv.org/abs/2601.22032"
+        },
+        "c": "https://github.com/linhanwang/Drive-JEPA",
+        "n": "Drive-JEPA",
+        "d": "2026-01-29",
+        "m1": "64.52"
       },
       {
         "p": {
@@ -384,6 +594,16 @@
       },
       {
         "p": {
+          "name": "DriveMamba: Task-Centric Scalable State Space Model for Efficient End-to-End Autonomous Driving",
+          "link": "https://arxiv.org/abs/2602.13301"
+        },
+        "c": "",
+        "n": "DriveMamba-Small",
+        "d": "2026-02-09",
+        "m1": "60.78"
+      },
+      {
+        "p": {
           "name": "Trajectory-guided Control Prediction for End-to-end Autonomous Driving: A Simple yet Strong Baseline",
           "link": "https://arxiv.org/abs/2206.08129v2"
         },
@@ -404,6 +624,16 @@
       },
       {
         "p": {
+          "name": "DriveMamba: Task-Centric Scalable State Space Model for Efficient End-to-End Autonomous Driving",
+          "link": "https://arxiv.org/abs/2602.13301"
+        },
+        "c": "",
+        "n": "DriveMamba-Tiny",
+        "d": "2026-02-09",
+        "m1": "53.54"
+      },
+      {
+        "p": {
           "name": "DiFSD: Ego-Centric Fully Sparse Paradigm with Uncertainty Denoising and Iterative Refinement for Efficient End-to-End Self-Driving",
           "link": "https://arxiv.org/abs/2409.09777v4"
         },
@@ -411,6 +641,16 @@
         "n": "DiFSD",
         "d": "2024-09-15",
         "m1": "52.02"
+      },
+      {
+        "p": {
+          "name": "FlowAD: Ego-Scene Interactive Modeling for Autonomous Driving",
+          "link": "https://arxiv.org/abs/2603.13399"
+        },
+        "c": "https://github.com/AutoLab-SAI-SJTU/FlowAD",
+        "n": "FlowAD",
+        "d": "2026-03-11",
+        "m1": "51.77"
       },
       {
         "p": {
@@ -441,6 +681,16 @@
         "n": "TCP-traj w/o distillation",
         "d": "2022-06-16",
         "m1": "49.30"
+      },
+      {
+        "p": {
+          "name": "Not All Agents Matter: From Global Attention Dilution to Risk-Prioritized Game Planning",
+          "link": "https://arxiv.org/abs/2604.05449"
+        },
+        "c": "",
+        "n": "GameAD",
+        "d": "2026-04-07",
+        "m1": "48.35"
       },
       {
         "p": {

@@ -66,6 +66,22 @@
     "items": [
       {
         "p": {
+          "name": "UniReason 1.0: A Unified Reasoning Framework for World Knowledge Aligned Image Generation and Editing",
+          "link": "https://arxiv.org/abs/2602.02437"
+        },
+        "c": "",
+        "n": "UniReason 1.0",
+        "d": "2026-02-02",
+        "m1": "0.78",
+        "m2": "0.80",
+        "m3": "0.68",
+        "m4": "0.79",
+        "m5": "0.77",
+        "m6": "0.83",
+        "m7": "0.81"
+      },
+      {
+        "p": {
           "name": "Interleaving Reasoning for Better Text-to-Image Generation",
           "link": "https://arxiv.org/abs/2509.06945"
         },
@@ -79,6 +95,54 @@
         "m5": "0.81",
         "m6": "0.82",
         "m7": "0.78"
+      },
+      {
+        "p": {
+          "name": "Unify-Agent: A Unified Multimodal Agent for World-Grounded Image Synthesis",
+          "link": "https://arxiv.org/abs/2603.29620"
+        },
+        "c": "",
+        "n": "Unify-Agent",
+        "d": "2026-03-31",
+        "m1": "0.77",
+        "m2": "0.82",
+        "m3": "0.75",
+        "m4": "0.74",
+        "m5": "0.72",
+        "m6": "0.73",
+        "m7": "0.70"
+      },
+      {
+        "p": {
+          "name": "DeepGen 1.0: A Lightweight Unified Multimodal Model for Advancing Image Generation and Editing",
+          "link": "https://arxiv.org/abs/2602.12205"
+        },
+        "c": "",
+        "n": "DeepGen 1.0 (RL)",
+        "d": "2026-02-12",
+        "m1": "0.73",
+        "m2": "0.72",
+        "m3": "0.81",
+        "m4": "0.70",
+        "m5": "0.67",
+        "m6": "0.82",
+        "m7": "0.66"
+      },
+      {
+        "p": {
+          "name": "DeepGen 1.0: A Lightweight Unified Multimodal Model for Advancing Image Generation and Editing",
+          "link": "https://arxiv.org/abs/2602.12205"
+        },
+        "c": "",
+        "n": "DeepGen 1.0 (SFT)",
+        "d": "2026-02-12",
+        "m1": "0.72",
+        "m2": "0.70",
+        "m3": "0.71",
+        "m4": "0.82",
+        "m5": "0.62",
+        "m6": "0.79",
+        "m7": "0.65"
       },
       {
         "p": {
@@ -98,6 +162,22 @@
       },
       {
         "p": {
+          "name": "LLaDA2.0-Uni: Unifying Multimodal Understanding and Generation with Diffusion Large Language Model",
+          "link": "https://arxiv.org/abs/2604.20796"
+        },
+        "c": "https://github.com/inclusionAI/LLaDA2.0-Uni",
+        "n": "LLaDA2.0-Uni",
+        "d": "2026-04-22",
+        "m1": "0.68",
+        "m2": "0.54",
+        "m3": "0.77",
+        "m4": "0.82",
+        "m5": "0.79",
+        "m6": "0.87",
+        "m7": "0.60"
+      },
+      {
+        "p": {
           "name": "LongCat-Image Technical Report",
           "link": "https://arxiv.org/abs/2512.07584"
         },
@@ -114,6 +194,22 @@
       },
       {
         "p": {
+          "name": "EruDiff: Refactoring Knowledge in Diffusion Models for Advanced Text-to-Image Synthesis",
+          "link": "https://arxiv.org/abs/2603.20828"
+        },
+        "c": "https://github.com/xiefan-guo/erudiff",
+        "n": "FLUX.1-dev + EruDiff",
+        "d": "2026-03-21",
+        "m1": "0.64",
+        "m2": "0.66",
+        "m3": "0.65",
+        "m4": "0.72",
+        "m5": "0.54",
+        "m6": "0.64",
+        "m7": "0.49"
+      },
+      {
+        "p": {
           "name": "UniLiP: Adapting CLIP for Unified Multimodal Understanding, Generation and Editing",
           "link": "https://arxiv.org/abs/2507.23278"
         },
@@ -123,6 +219,54 @@
         "m1": "0.63",
         "m2": "0.66",
         "m5": "0.60"
+      },
+      {
+        "p": {
+          "name": "NextFlow: Unified Sequential Modeling Activates Multimodal Understanding and Generation",
+          "link": "https://arxiv.org/abs/2601.02204"
+        },
+        "c": "",
+        "n": "NextFlow-RL",
+        "d": "2026-01-05",
+        "m1": "0.62",
+        "m2": "0.63",
+        "m3": "0.63",
+        "m4": "0.77",
+        "m5": "0.58",
+        "m6": "0.67",
+        "m7": "0.39"
+      },
+      {
+        "p": {
+          "name": "NextFlow: Unified Sequential Modeling Activates Multimodal Understanding and Generation",
+          "link": "https://arxiv.org/abs/2601.02204"
+        },
+        "c": "",
+        "n": "NextFlow",
+        "d": "2026-01-05",
+        "m1": "0.59",
+        "m2": "0.62",
+        "m3": "0.60",
+        "m4": "0.70",
+        "m5": "0.54",
+        "m6": "0.58",
+        "m7": "0.38"
+      },
+      {
+        "p": {
+          "name": "From \"What\" to \"How\": Constrained Reasoning for Autoregressive Image Generation",
+          "link": "https://arxiv.org/abs/2603.02712"
+        },
+        "c": "",
+        "n": "CoR-Painter",
+        "d": "2026-03-03",
+        "m1": "0.58",
+        "m2": "0.61",
+        "m3": "0.56",
+        "m4": "0.66",
+        "m5": "0.55",
+        "m6": "0.64",
+        "m7": "0.33"
       },
       {
         "p": {
@@ -170,6 +314,26 @@
       },
       {
         "p": {
+          "name": "Rethinking UMM Visual Generation: Masked Modeling for Efficient Image-Only Pre-training",
+          "link": "https://arxiv.org/abs/2603.16139"
+        },
+        "c": "https://github.com/LINs-lab/IOMM",
+        "n": "IOMM-B 512",
+        "d": "2026-03-17",
+        "m1": "0.55"
+      },
+      {
+        "p": {
+          "name": "Rethinking UMM Visual Generation: Masked Modeling for Efficient Image-Only Pre-training",
+          "link": "https://arxiv.org/abs/2603.16139"
+        },
+        "c": "https://github.com/LINs-lab/IOMM",
+        "n": "IOMM-L 512",
+        "d": "2026-03-17",
+        "m1": "0.53"
+      },
+      {
+        "p": {
           "name": "Emerging Properties in Unified Multimodal Pretraining",
           "link": "https://arxiv.org/abs/2505.14683v1"
         },
@@ -186,6 +350,16 @@
       },
       {
         "p": {
+          "name": "Rethinking UMM Visual Generation: Masked Modeling for Efficient Image-Only Pre-training",
+          "link": "https://arxiv.org/abs/2603.16139"
+        },
+        "c": "https://github.com/LINs-lab/IOMM",
+        "n": "IOMM-B 1024",
+        "d": "2026-03-17",
+        "m1": "0.50"
+      },
+      {
+        "p": {
           "name": "Playground v2.5: Three Insights towards Enhancing Aesthetic Quality in Text-to-Image Generation",
           "link": "https://arxiv.org/abs/2402.17245v1"
         },
@@ -199,6 +373,16 @@
         "m5": "0.43",
         "m6": "0.48",
         "m7": "0.33"
+      },
+      {
+        "p": {
+          "name": "Rethinking UMM Visual Generation: Masked Modeling for Efficient Image-Only Pre-training",
+          "link": "https://arxiv.org/abs/2603.16139"
+        },
+        "c": "https://github.com/LINs-lab/IOMM",
+        "n": "IOMM-L 1024",
+        "d": "2026-03-17",
+        "m1": "0.48"
       },
       {
         "p": {
