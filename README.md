@@ -26,6 +26,7 @@ See [WEBSITE](https://opencodepapers-b7572d.gitlab.io/) for the main overview.
 ## Contributing
 
 The initial data was taken from the now discontinued [PapersWithCode](https://github.com/paperswithcode) project. \
+Further results were added by hand, automatically scraped from [arXiv](https://arxiv.org) publication lists, imported from the [Papers with Code by Hugging Face](https://paperswithcode.co/tasks) site (see [extras/hf-pwc/](./extras/hf-pwc/)), and automatically scraped from various sources by AI-agents. \
 To keep the results up to date, help from the community is required. \
 See [CONTRIBUTING](./CONTRIBUTING.md) for more info.
 
