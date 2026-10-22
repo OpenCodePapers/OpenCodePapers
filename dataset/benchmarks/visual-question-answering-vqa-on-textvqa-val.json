@@ -1,0 +1,278 @@
+{
+  "title": "visual-question-answering-vqa-on-textvqa-val",
+  "task-hierarchy": [
+    "Visual Question Answering (VQA)"
+  ],
+  "dataset-info": {
+    "link": "https://textvqa.org/",
+    "paper": "Towards VQA Models That Can Read"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Ovis2.5 Technical Report",
+          "link": "https://arxiv.org/abs/2508.11737"
+        },
+        "c": "https://github.com/AIDC-AI/Ovis",
+        "n": "Ovis2.5-9B",
+        "d": "2025-08-15",
+        "m1": "91.2"
+      },
+      {
+        "p": {
+          "name": "PerceptionLM: Open-Access Data and Models for Detailed Visual Understanding",
+          "link": "https://arxiv.org/abs/2504.13180v1"
+        },
+        "c": "https://github.com/facebookresearch/perception_models",
+        "n": "PLM-8B",
+        "d": "2025-04-17",
+        "m1": "86.5"
+      },
+      {
+        "p": {
+          "name": "Molmo2: Open Weights and Data for Vision-Language Models with Video Understanding and Grounding",
+          "link": "https://arxiv.org/abs/2601.10611"
+        },
+        "c": "https://github.com/allenai/molmo2",
+        "n": "Molmo2-8B",
+        "d": "2026-01-15",
+        "m1": "85.7"
+      },
+      {
+        "p": {
+          "name": "NVIDIA Nemotron Nano V2 VL",
+          "link": "https://arxiv.org/abs/2511.03929"
+        },
+        "c": "https://github.com/NVIDIA-NeMo/Curator",
+        "n": "Nemotron Nano V2 VL (Reasoning off) (extra data)",
+        "d": "2025-11-06",
+        "m1": "85.4"
+      },
+      {
+        "p": {
+          "name": "Nemotron 3 Nano Omni: Efficient and Open Multimodal Intelligence",
+          "link": "https://arxiv.org/abs/2604.24954"
+        },
+        "c": "https://github.com/nvidia-nemo/megatron-bridge",
+        "n": "Nemotron 3 Nano Omni",
+        "d": "2026-04-27",
+        "m1": "85.1"
+      },
+      {
+        "p": {
+          "name": "Qwen2.5-VL Technical Report",
+          "link": "https://arxiv.org/abs/2502.13923v1"
+        },
+        "c": "https://github.com/qwenlm/qwen2-vl",
+        "n": "Qwen2.5-VL-7B",
+        "d": "2025-02-19",
+        "m1": "84.9"
+      },
+      {
+        "p": {
+          "name": "The Llama 3 Herd of Models",
+          "link": "https://arxiv.org/abs/2407.21783v3"
+        },
+        "c": "https://github.com/zhuzilin/ring-flash-attention",
+        "n": "Llama 3-V (405B)",
+        "d": "2024-07-31",
+        "m1": "84.8"
+      },
+      {
+        "p": {
+          "name": "Qwen2.5-Omni Technical Report",
+          "link": "https://arxiv.org/abs/2503.20215"
+        },
+        "c": "https://github.com/QwenLM/Qwen2.5-Omni",
+        "n": "Qwen2.5-Omni-7B",
+        "d": "2025-03-26",
+        "m1": "84.4"
+      },
+      {
+        "p": {
+          "name": "InternVL3: Exploring Advanced Training and Test-Time Recipes for Open-Source Multimodal Models",
+          "link": "https://arxiv.org/abs/2504.10479"
+        },
+        "c": "https://github.com/OpenGVLab/InternVL",
+        "n": "InternVL3-78B",
+        "d": "2025-04-14",
+        "m1": "84.3"
+      },
+      {
+        "p": {
+          "name": "Qwen2.5-VL Technical Report",
+          "link": "https://arxiv.org/abs/2502.13923v1"
+        },
+        "c": "https://github.com/qwenlm/qwen2-vl",
+        "n": "Qwen2.5-VL-72B",
+        "d": "2025-02-19",
+        "m1": "83.5"
+      },
+      {
+        "p": {
+          "name": "Molmo and PixMo: Open Weights and Open Data for State-of-the-Art Vision-Language Models",
+          "link": "https://arxiv.org/abs/2409.17146"
+        },
+        "c": "https://github.com/allenai/molmo",
+        "n": "Molmo 72B",
+        "d": "2024-09-25",
+        "m1": "83.1"
+      },
+      {
+        "p": {
+          "name": "Gemini: A Family of Highly Capable Multimodal Models",
+          "link": "https://arxiv.org/abs/2312.11805v5"
+        },
+        "c": "https://github.com/valdecy/pybibx",
+        "n": "Gemini Ultra",
+        "d": "2023-12-19",
+        "m1": "82.3"
+      },
+      {
+        "p": {
+          "name": "Aria: An Open Multimodal Native Mixture-of-Experts Model",
+          "link": "https://arxiv.org/abs/2410.05993v4"
+        },
+        "c": "https://github.com/rhymes-ai/aria",
+        "n": "Aria",
+        "d": "2024-10-08",
+        "m1": "81.1"
+      },
+      {
+        "p": {
+          "name": "Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context",
+          "link": "https://arxiv.org/abs/2403.05530v5"
+        },
+        "c": "https://github.com/dlvuldet/primevul",
+        "n": "Gemini 1.5 Pro",
+        "d": "2024-03-08",
+        "m1": "78.7"
+      },
+      {
+        "p": {
+          "name": "InfiniteVL: Synergizing Linear and Sparse Attention for Highly-Efficient, Unlimited-Input Vision-Language Models",
+          "link": "https://arxiv.org/abs/2512.08829"
+        },
+        "c": "https://github.com/hustvl/InfiniteVL",
+        "n": "InfiniteVL-Base (extra data)",
+        "d": "2025-12-09",
+        "m1": "78.5"
+      },
+      {
+        "p": {
+          "name": "GPT-4 Technical Report",
+          "link": "https://arxiv.org/abs/2303.08774v5"
+        },
+        "c": "https://github.com/openai/evals",
+        "n": "GPT-4 (vision, 0-shot)",
+        "d": "2023-03-15",
+        "m1": "78.0"
+      },
+      {
+        "p": {
+          "name": "MiniCPM-V: A GPT-4V Level MLLM on Your Phone",
+          "link": "https://arxiv.org/abs/2408.01800v1"
+        },
+        "c": "https://github.com/openbmb/minicpm-v",
+        "n": "MiniCPM-Llama3-V 2.5",
+        "d": "2024-08-03",
+        "m1": "76.6"
+      },
+      {
+        "p": {
+          "name": "PaliGemma 2: A Family of Versatile VLMs for Transfer",
+          "link": "https://arxiv.org/abs/2412.03555"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "PaliGemma 2 10B",
+        "d": "2024-12-04",
+        "m1": "76.6"
+      },
+      {
+        "p": {
+          "name": "Mini-Monkey: Alleviating the Semantic Sawtooth Effect for Lightweight MLLMs via Complementary Image Pyramid",
+          "link": "https://arxiv.org/abs/2408.02034"
+        },
+        "c": "https://github.com/yuliang-liu/monkey",
+        "n": "Mini-Monkey (extra data)",
+        "d": "2024-08-04",
+        "m1": "76.0"
+      },
+      {
+        "p": {
+          "name": "Building and better understanding vision-language models: insights and future directions",
+          "link": "https://arxiv.org/abs/2408.12637"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Idefics3-8B",
+        "d": "2024-08-22",
+        "m1": "74.9"
+      },
+      {
+        "p": {
+          "name": "ZAYA1-VL-8B Technical Report",
+          "link": "https://www.zyphra.com/zaya1-vl-8b-technical-report"
+        },
+        "c": "https://github.com/Zyphra/transformers/tree/zaya1-vl",
+        "n": "ZAYA1-VL-8B",
+        "d": "2026-05-08",
+        "m1": "74.4"
+      },
+      {
+        "p": {
+          "name": "What matters when building vision-language models?",
+          "link": "https://arxiv.org/abs/2405.02246v1"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Idefics2 (w/ image split)",
+        "d": "2024-05-03",
+        "m1": "73.0"
+      },
+      {
+        "p": {
+          "name": "Multimodal Autoregressive Pre-training of Large Vision Encoders",
+          "link": "https://arxiv.org/abs/2411.14402v1"
+        },
+        "c": "https://github.com/apple/ml-aim",
+        "n": "AIMv2 ViT-3B/14 + Llama 3.0 8B",
+        "d": "2024-11-21",
+        "m1": "58.2"
+      },
+      {
+        "p": {
+          "name": "Video-LLaVA: Learning United Visual Representation by Alignment Before Projection",
+          "link": "https://arxiv.org/abs/2311.10122v3"
+        },
+        "c": "https://github.com/PKU-YuanGroup/Video-LLaVA",
+        "n": "Video-LLaVA-7B",
+        "d": "2023-11-16",
+        "m1": "51.8"
+      }
+    ]
+  }
+}

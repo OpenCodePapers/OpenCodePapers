@@ -63,9 +63,9 @@
         "n": "Crane (CLIP ViT-L/14@336, zero-shot) (extra data)",
         "d": "2025-04-15",
         "m1": "81.4",
+        "m2": "97.0",
         "m3": "84.8",
         "m4": "81.6",
-        "m2": "97.0",
         "m5": "38.2"
       },
       {
@@ -76,9 +76,9 @@
         "c": "",
         "n": "DAPO",
         "d": "2026-09-08",
-        "m3": "83.6",
         "m1": "81.2",
-        "m2": "95.1"
+        "m2": "95.1",
+        "m3": "83.6"
       },
       {
         "p": {
@@ -88,11 +88,11 @@
         "c": "https://github.com/alireza99salehi/crane",
         "n": "Crane+ (CLIP ViT-L/14@336 + DINOv2-B14, zero-shot) (extra data)",
         "d": "2025-04-15",
-        "m4": "83.0",
-        "m2": "97.6",
-        "m5": "42.0",
         "m1": "81.0",
-        "m3": "84.1"
+        "m2": "97.6",
+        "m3": "84.1",
+        "m4": "83.0",
+        "m5": "42.0"
       },
       {
         "p": {
@@ -107,16 +107,26 @@
       },
       {
         "p": {
+          "name": "AA-CLIP: Enhancing Zero-Shot Anomaly Detection via Anomaly-Aware CLIP",
+          "link": "https://arxiv.org/abs/2503.06661"
+        },
+        "c": "https://github.com/mwxinnn/aa-clip",
+        "n": "AA-CLIP",
+        "d": "2025-03-09",
+        "m1": "75.1"
+      },
+      {
+        "p": {
           "name": "TIPS Over Tricks: Simple Prompts for Effective Zero-shot Anomaly Detection",
           "link": "https://arxiv.org/abs/2602.03594"
         },
         "c": "https://github.com/alirezasalehy/tipsomaly",
         "n": "Tipsomaly (TIPS-L/14 HR, Zero-shot) (extra data)",
         "d": "2026-02-03",
-        "m3": "76.8",
         "m1": "74.7",
-        "m4": "79.7",
         "m2": "95.9",
+        "m3": "76.8",
+        "m4": "79.7",
         "m5": "36.1"
       },
       {

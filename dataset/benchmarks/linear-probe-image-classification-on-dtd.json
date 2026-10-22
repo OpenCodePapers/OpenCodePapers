@@ -1,0 +1,89 @@
+{
+  "title": "linear-probe-image-classification-on-dtd",
+  "task-hierarchy": [
+    "Image Classification",
+    "Linear Probe Image Classification"
+  ],
+  "dataset-info": {
+    "link": "https://openaccess.thecvf.com/content_cvpr_2014/papers/Cimpoi_Describing_Textures_in_2014_CVPR_paper.pdf",
+    "paper": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Multi-label Cluster Discrimination for Visual Representation Learning",
+          "link": "https://arxiv.org/abs/2407.17331v2"
+        },
+        "c": "https://github.com/deepglint/unicom",
+        "n": "MLCD ViT-L/14 (linear probe)",
+        "d": "2024-07-24",
+        "m1": "84.6"
+      },
+      {
+        "p": {
+          "name": "DINOv2: Learning Robust Visual Features without Supervision",
+          "link": "https://arxiv.org/abs/2304.07193v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "DINOv2 (ViT-g/14)",
+        "d": "2023-04-14",
+        "m1": "84.5"
+      },
+      {
+        "p": {
+          "name": "FLAVA: A Foundational Language And Vision Alignment Model",
+          "link": "https://arxiv.org/abs/2112.04482v3"
+        },
+        "c": "https://github.com/facebookresearch/multimodal",
+        "n": "FLAVA",
+        "d": "2021-12-08",
+        "m1": "77.29"
+      },
+      {
+        "p": {
+          "name": "$λ$-JEPA Spectral Anti-Collapse Regularization for Self-Supervised Learning",
+          "link": "https://arxiv.org/abs/2609.35288"
+        },
+        "c": "https://github.com/berkerdemirel/lambda-jepa",
+        "n": "λ-JEPA ViT-B/16 (linear probe)",
+        "d": "2026-09-28",
+        "m1": "73.2"
+      },
+      {
+        "p": {
+          "name": "PolyViT: Co-training Vision Transformers on Images, Videos and Audio",
+          "link": "https://arxiv.org/abs/2111.12993"
+        },
+        "c": "",
+        "n": "PolyViT-Base (image tasks) linear probe",
+        "d": "2021-11-25",
+        "m1": "72.5"
+      }
+    ]
+  }
+}

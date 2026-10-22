@@ -106,6 +106,16 @@
       },
       {
         "p": {
+          "name": "TIPS: Text-Image Pretraining with Spatial Awareness",
+          "link": "https://arxiv.org/abs/2410.16512"
+        },
+        "c": "https://github.com/google-deepmind/tips",
+        "n": "TIPS-SO/14 HR",
+        "d": "2024-10-21",
+        "m1": "94.2"
+      },
+      {
+        "p": {
           "name": "COSMOS: Cross-Modality Self-Distillation for Vision Language Pre-training",
           "link": "https://arxiv.org/abs/2412.01814v2"
         },
@@ -133,6 +143,16 @@
         "m4": "80.4",
         "m5": "95.7",
         "m6": "97.7"
+      },
+      {
+        "p": {
+          "name": "MobileCLIP: Fast Image-Text Models through Multi-Modal Reinforced Training",
+          "link": "https://arxiv.org/abs/2311.17049"
+        },
+        "c": "https://github.com/rwightman/pytorch-image-models",
+        "n": "MobileCLIP-B (LT)",
+        "d": "2023-11-28",
+        "m1": "92.3"
       },
       {
         "p": {
@@ -286,6 +306,16 @@
       },
       {
         "p": {
+          "name": "FFF: Fixing Flawed Foundations in Contrastive Pre-Training Results in Very Strong Vision-Language Models",
+          "link": "https://arxiv.org/abs/2405.10286"
+        },
+        "c": "",
+        "n": "FFF-ViT-B/32 (Open30M) (extra data)",
+        "d": "2024-05-16",
+        "m1": "87.9"
+      },
+      {
+        "p": {
           "name": "Position-guided Text Prompt for Vision-Language Pre-training",
           "link": "https://arxiv.org/abs/2212.09737v2"
         },
@@ -383,6 +413,56 @@
         "n": "VAST",
         "d": "2023-05-29",
         "m4": "90.4"
+      },
+      {
+        "p": {
+          "name": "TIPS: Text-Image Pretraining with Spatial Awareness",
+          "link": "https://arxiv.org/abs/2410.16512"
+        },
+        "c": "https://github.com/google-deepmind/tips",
+        "n": "TIPS-g/14 HR",
+        "d": "2024-10-21",
+        "m4": "84.5"
+      },
+      {
+        "p": {
+          "name": "TIPSv2: Advancing Vision-Language Pretraining with Enhanced Patch-Text Alignment",
+          "link": "https://arxiv.org/abs/2604.12012"
+        },
+        "c": "https://github.com/google-deepmind/tips",
+        "n": "TIPSv2 g/14",
+        "d": "2026-04-13",
+        "m4": "85.9"
+      },
+      {
+        "p": {
+          "name": "MobileCLIP: Fast Image-Text Models through Multi-Modal Reinforced Training",
+          "link": "https://arxiv.org/abs/2311.17049"
+        },
+        "c": "https://github.com/rwightman/pytorch-image-models",
+        "n": "MobileCLIP-B",
+        "d": "2023-11-28",
+        "m4": "77.3"
+      },
+      {
+        "p": {
+          "name": "FFF: Fixing Flawed Foundations in Contrastive Pre-Training Results in Very Strong Vision-Language Models",
+          "link": "https://arxiv.org/abs/2405.10286"
+        },
+        "c": "",
+        "n": "FFF-ViT-B/32 (Open70M) (extra data)",
+        "d": "2024-05-16",
+        "m4": "72.9"
+      },
+      {
+        "p": {
+          "name": "Efficient Vision-Language Pre-training by Cluster Masking",
+          "link": "https://arxiv.org/abs/2405.08815"
+        },
+        "c": "",
+        "n": "Ours-Embedding",
+        "d": "2024-05-14",
+        "m4": "57.0"
       }
     ]
   }

@@ -41,6 +41,17 @@
     "items": [
       {
         "p": {
+          "name": "Learning Where to Look and How to Judge: Resolution-agnostic Image Quality Assessment with Quality-aware Saliency",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Gedik_Learning_Where_to_Look_and_How_to_Judge_Resolution-agnostic_Image_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "ReLIQS",
+        "d": "2026-06-03",
+        "m1": "0.949",
+        "m2": "0.958"
+      },
+      {
+        "p": {
           "name": "Next Token Is Enough: Realistic Image Quality and Aesthetic Scoring with Multimodal Large Language Model",
           "link": "https://arxiv.org/abs/2503.06141v1"
         },
@@ -63,6 +74,50 @@
       },
       {
         "p": {
+          "name": "BWAFDA: Block-wise Weighted Attention Fusion with Detail-aware for No-Reference Image Quality Assessment",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/4196"
+        },
+        "c": "",
+        "n": "BWAFDA (23M)",
+        "d": "2026-09-08",
+        "m1": "0.94",
+        "m2": "0.949"
+      },
+      {
+        "p": {
+          "name": "Distilling Spatially-Heterogeneous Distortion Perception for Blind Image Quality Assessment",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Li_Distilling_Spatially-Heterogeneous_Distortion_Perception_for_Blind_Image_Quality_Assessment_CVPR_2025_paper.html"
+        },
+        "c": "",
+        "n": "SHDIQA",
+        "d": "2025-06-11",
+        "m1": "0.937",
+        "m2": "0.948"
+      },
+      {
+        "p": {
+          "name": "Life-IQA: Boosting Blind Image Quality Assessment through GCN-enhanced Layer Interaction and MoE-based Feature Decoupling",
+          "link": "https://arxiv.org/abs/2511.19024"
+        },
+        "c": "",
+        "n": "Life-IQA",
+        "d": "2025-11-24",
+        "m1": "0.937",
+        "m2": "0.948"
+      },
+      {
+        "p": {
+          "name": "Blind Image Quality Assessment Based on Geometric Order Learning",
+          "link": "https://openaccess.thecvf.com/content/CVPR2024/html/Shin_Blind_Image_Quality_Assessment_Based_on_Geometric_Order_Learning_CVPR_2024_paper.html"
+        },
+        "c": "https://github.com/nhshin-mcl/qcn",
+        "n": "QCN",
+        "d": "2024-06-17",
+        "m1": "0.934",
+        "m2": "0.945"
+      },
+      {
+        "p": {
           "name": "You Only Train Once: A Unified Framework for Both Full-Reference and No-Reference Image Quality Assessment",
           "link": "https://arxiv.org/abs/2310.09560v2"
         },
@@ -71,6 +126,17 @@
         "d": "2023-10-14",
         "m1": "0.926",
         "m2": "0.938"
+      },
+      {
+        "p": {
+          "name": "IQA-T1: Tool-based Visual Evidence Reasoning for Image Quality Assessment",
+          "link": "https://arxiv.org/abs/2607.12375"
+        },
+        "c": "https://github.com/zibuyu-02/iqa-t1",
+        "n": "IQA-T1 (extra data)",
+        "d": "2026-07-14",
+        "m1": "0.925",
+        "m2": "0.942"
       },
       {
         "p": {

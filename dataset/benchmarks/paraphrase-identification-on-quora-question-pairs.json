@@ -118,6 +118,16 @@
       },
       {
         "p": {
+          "name": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+          "link": "https://arxiv.org/abs/1910.10683v4"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "T5-11B",
+        "d": "2019-10-23",
+        "m1": "75.1"
+      },
+      {
+        "p": {
           "name": "StructBERT: Incorporating Language Structures into Pre-training for Deep Language Understanding",
           "link": "https://arxiv.org/abs/1908.04577v3"
         },
@@ -383,6 +393,76 @@
         "n": "SplitEE-S",
         "d": "2023-09-17",
         "m6": "71.1"
+      },
+      {
+        "p": {
+          "name": "MobileBERT: a Compact Task-Agnostic BERT for Resource-Limited Devices",
+          "link": "https://arxiv.org/abs/2004.02984v2"
+        },
+        "c": "https://github.com/tensorflow/models/tree/master/official/nlp/projects/mobilebert",
+        "n": "MobileBERT w/o OPT",
+        "d": "2020-04-06",
+        "m1": "70.5"
+      },
+      {
+        "p": {
+          "name": "Improving Language Understanding by Generative Pre-Training",
+          "link": "https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "GPT-1",
+        "d": "2018-06-11",
+        "m1": "70.3"
+      },
+      {
+        "p": {
+          "name": "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+          "link": "https://arxiv.org/abs/1907.11692v1"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "RoBERTa",
+        "d": "2019-07-26",
+        "m2": "90.2"
+      },
+      {
+        "p": {
+          "name": "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+          "link": "https://arxiv.org/abs/1909.11942v6"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "ALBERT",
+        "d": "2019-09-26",
+        "m2": "90.5"
+      },
+      {
+        "p": {
+          "name": "ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators",
+          "link": "https://arxiv.org/abs/2003.10555v1"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "ELECTRA-1.75M",
+        "d": "2020-03-23",
+        "m2": "90.8"
+      },
+      {
+        "p": {
+          "name": "Funnel-Transformer: Filtering out Sequential Redundancy for Efficient Language Processing",
+          "link": "https://arxiv.org/abs/2006.03236v1"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Funnel-Transformer Large",
+        "d": "2020-06-05",
+        "m2": "90.7"
+      },
+      {
+        "p": {
+          "name": "MPNet: Masked and Permuted Pre-training for Language Understanding",
+          "link": "https://arxiv.org/abs/2004.09297v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "MPNet Base",
+        "d": "2020-04-20",
+        "m2": "89.9"
       }
     ]
   }

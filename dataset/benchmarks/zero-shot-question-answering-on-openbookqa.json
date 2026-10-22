@@ -1,0 +1,329 @@
+{
+  "title": "zero-shot-question-answering-on-openbookqa",
+  "task-hierarchy": [
+    "Question Answering",
+    "Zero-Shot Question Answering"
+  ],
+  "dataset-info": {
+    "link": "https://arxiv.org/abs/1809.02789",
+    "paper": "Can a Suit of Armor Conduct Electricity? A New Dataset for Open Book Question Answering"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "LLaMA: Open and Efficient Foundation Language Models",
+          "link": "https://arxiv.org/abs/2302.13971v1"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "LLaMA-65B",
+        "d": "2023-02-27",
+        "m1": "60.2"
+      },
+      {
+        "p": {
+          "name": "OPT: Open Pre-trained Transformer Language Models",
+          "link": "https://arxiv.org/abs/2205.01068v4"
+        },
+        "c": "https://github.com/facebookresearch/metaseq",
+        "n": "OPT-175B",
+        "d": "2022-05-02",
+        "m1": "58.6"
+      },
+      {
+        "p": {
+          "name": "Language Models are Few-Shot Learners",
+          "link": "https://arxiv.org/abs/2005.14165v4"
+        },
+        "c": "https://github.com/ggml-org/llama.cpp",
+        "n": "GPT-3 175B (zero-shot)",
+        "d": "2020-05-28",
+        "m1": "57.6"
+      },
+      {
+        "p": {
+          "name": "Language Models are Few-Shot Learners",
+          "link": "https://arxiv.org/abs/2005.14165v4"
+        },
+        "c": "https://github.com/ggml-org/llama.cpp",
+        "n": "GPT-3 13B (zero-shot)",
+        "d": "2020-05-28",
+        "m1": "55.6"
+      },
+      {
+        "p": {
+          "name": "Chameleon: Mixed-Modal Early-Fusion Foundation Models",
+          "link": "https://arxiv.org/abs/2405.09818"
+        },
+        "c": "https://github.com/facebookresearch/chameleon",
+        "n": "Chameleon 34B",
+        "d": "2024-05-16",
+        "m1": "54.0"
+      },
+      {
+        "p": {
+          "name": "Moshi: a speech-text foundation model for real-time dialogue",
+          "link": "https://arxiv.org/abs/2410.00037"
+        },
+        "c": "https://github.com/kyutai-labs/moshi",
+        "n": "Helium",
+        "d": "2024-09-17",
+        "m1": "53.6"
+      },
+      {
+        "p": {
+          "name": "Language Models are Few-Shot Learners",
+          "link": "https://arxiv.org/abs/2005.14165v4"
+        },
+        "c": "https://github.com/ggml-org/llama.cpp",
+        "n": "GPT-3 6.7B (zero-shot)",
+        "d": "2020-05-28",
+        "m1": "50.4"
+      },
+      {
+        "p": {
+          "name": "OLMo: Accelerating the Science of Language Models",
+          "link": "https://arxiv.org/abs/2402.00838"
+        },
+        "c": "https://github.com/allenai/olmo",
+        "n": "OLMo 7B",
+        "d": "2024-02-01",
+        "m1": "50.4"
+      },
+      {
+        "p": {
+          "name": "Nemotron-H: A Family of Accurate and Efficient Hybrid Mamba-Transformer Models",
+          "link": "https://arxiv.org/abs/2504.03624"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Nemotron-H-47B-Base",
+        "d": "2025-04-04",
+        "m1": "48.8"
+      },
+      {
+        "p": {
+          "name": "The Zamba2 Suite: Technical Report",
+          "link": "https://arxiv.org/abs/2411.15242"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Zamba2-7B",
+        "d": "2024-11-22",
+        "m1": "48.2"
+      },
+      {
+        "p": {
+          "name": "Nemotron-H: A Family of Accurate and Efficient Hybrid Mamba-Transformer Models",
+          "link": "https://arxiv.org/abs/2504.03624"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Nemotron-H-8B-Base",
+        "d": "2025-04-04",
+        "m1": "47.2"
+      },
+      {
+        "p": {
+          "name": "Language Models are Few-Shot Learners",
+          "link": "https://arxiv.org/abs/2005.14165v4"
+        },
+        "c": "https://github.com/ggml-org/llama.cpp",
+        "n": "GPT-3 XL (zero-shot)",
+        "d": "2020-05-28",
+        "m1": "46.8"
+      },
+      {
+        "p": {
+          "name": "OLMo: Accelerating the Science of Language Models",
+          "link": "https://arxiv.org/abs/2402.00838"
+        },
+        "c": "https://github.com/allenai/olmo",
+        "n": "OLMo 1B",
+        "d": "2024-02-01",
+        "m1": "46.4"
+      },
+      {
+        "p": {
+          "name": "Zamba: A Compact 7B SSM Hybrid Model",
+          "link": "https://arxiv.org/abs/2405.16712"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Zamba 7B",
+        "d": "2024-05-26",
+        "m1": "44.6"
+      },
+      {
+        "p": {
+          "name": "Parcae: Scaling Laws For Stable Looped Language Models",
+          "link": "https://arxiv.org/abs/2604.12946"
+        },
+        "c": "https://github.com/sandyresearch/parcae",
+        "n": "Parcae-770M (T=8, 0-shot)",
+        "d": "2026-04-14",
+        "m1": "40.666669"
+      },
+      {
+        "p": {
+          "name": "SmolLM3: smol, multilingual, long-context reasoner",
+          "link": "https://huggingface.co/blog/smollm3"
+        },
+        "c": "https://github.com/huggingface/smollm",
+        "n": "SmolLM3 3B Base",
+        "d": "2025-07-08",
+        "m1": "40.6"
+      },
+      {
+        "p": {
+          "name": "Transformers are SSMs: Generalized Models and Efficient Algorithms Through Structured State Space Duality",
+          "link": "https://arxiv.org/abs/2405.21060"
+        },
+        "c": "https://github.com/state-spaces/mamba",
+        "n": "Mamba-2-2.7B",
+        "d": "2024-05-31",
+        "m1": "38.8"
+      },
+      {
+        "p": {
+          "name": "Disentangling Representation Evolution in Transformers through Directional Decomposition",
+          "link": "https://arxiv.org/abs/2609.15975"
+        },
+        "c": "https://github.com/Shwai-He/Transformer-Geometry",
+        "n": "Transformer Geometry 2.7B V-Para (zero-shot)",
+        "d": "2026-09-14",
+        "m1": "38.2"
+      },
+      {
+        "p": {
+          "name": "Language Models are Few-Shot Learners",
+          "link": "https://arxiv.org/abs/2005.14165v4"
+        },
+        "c": "https://github.com/ggml-org/llama.cpp",
+        "n": "GPT-3 Small (zero-shot)",
+        "d": "2020-05-28",
+        "m1": "35.6"
+      },
+      {
+        "p": {
+          "name": "Full-bandwidth transformer",
+          "link": "https://arxiv.org/abs/2608.08888"
+        },
+        "c": "",
+        "n": "Full-bandwidth transformer 1B (200B, 1 feedback pass)",
+        "d": "2026-08-09",
+        "m1": "35.0"
+      },
+      {
+        "p": {
+          "name": "Looping Beyond Twice: A Scalable Recipe for Looped Mixture-of-Experts",
+          "link": "https://arxiv.org/abs/2610.01153"
+        },
+        "c": "https://github.com/hed-ucas/LOOM",
+        "n": "LOOM (1.7B, 12 loops)",
+        "d": "2026-10-01",
+        "m1": "34.8"
+      },
+      {
+        "p": {
+          "name": "Grouped Value Attention: Efficient KV Caching via On-Demand Key Reconstruction",
+          "link": "https://arxiv.org/abs/2609.13285"
+        },
+        "c": "",
+        "n": "GVA + DRoPE d_r=16",
+        "d": "2026-09-08",
+        "m1": "33.6"
+      },
+      {
+        "p": {
+          "name": "Fast Weight Attention for Continual Learning",
+          "link": "https://arxiv.org/abs/2608.27763"
+        },
+        "c": "https://github.com/yifanzhang-pro/fast-weight-attention",
+        "n": "Falcon-1A.2130M",
+        "d": "2026-08-27",
+        "m1": "33.2"
+      },
+      {
+        "p": {
+          "name": "Gated Recurrent Transformers: Expressive Depth through Recurrent Modulation",
+          "link": "https://arxiv.org/abs/2608.15062"
+        },
+        "c": "https://github.com/Amr-Hegazy1/gated-recurrent-transformer",
+        "n": "GRT Large (isoParams, zero-shot)",
+        "d": "2026-08-15",
+        "m1": "30.2"
+      },
+      {
+        "p": {
+          "name": "Differential Transformer",
+          "link": "https://arxiv.org/abs/2410.05258"
+        },
+        "c": "https://github.com/microsoft/unilm",
+        "n": "Diff-3B",
+        "d": "2024-10-07",
+        "m1": "29.0"
+      },
+      {
+        "p": {
+          "name": "GPT-SW3: An Autoregressive Language Model for the Nordic Languages",
+          "link": "https://arxiv.org/abs/2305.12987"
+        },
+        "c": "",
+        "n": "GPT-SW3 40B",
+        "d": "2023-05-22",
+        "m1": "27.4"
+      },
+      {
+        "p": {
+          "name": "LoopFormer: Elastic-Depth Looped Transformers for Latent Reasoning via Shortcut Modulation",
+          "link": "https://arxiv.org/abs/2602.11451"
+        },
+        "c": "https://github.com/armenjeddi/loopformer",
+        "n": "LoopFormer (3x8)",
+        "d": "2026-02-11",
+        "m1": "26.8"
+      },
+      {
+        "p": {
+          "name": "ModuleFormer: Modularity Emerges from Mixture-of-Experts",
+          "link": "https://arxiv.org/abs/2306.04640"
+        },
+        "c": "https://github.com/ibm/moduleformer",
+        "n": "MoLM-8B-K2 (0-shot)",
+        "d": "2023-06-07",
+        "m1": "23.8"
+      },
+      {
+        "p": {
+          "name": "What Makes Recurrence Effective in Looped Language Models?",
+          "link": "https://arxiv.org/abs/2609.36636"
+        },
+        "c": "",
+        "n": "BaseLoop (Llama3.1-1B, 3x4, Muon)",
+        "d": "2026-09-29",
+        "m1": "20.8"
+      }
+    ]
+  }
+}

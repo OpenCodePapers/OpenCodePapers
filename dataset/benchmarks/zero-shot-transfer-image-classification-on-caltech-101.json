@@ -1,0 +1,90 @@
+{
+  "title": "zero-shot-transfer-image-classification-on-caltech-101",
+  "task-hierarchy": [
+    "Image Classification",
+    "Zero-Shot Image Classification",
+    "Zero-Shot Transfer Image Classification"
+  ],
+  "dataset-info": {
+    "link": "https://data.caltech.edu/records/mzrjq-6wc02",
+    "paper": "Learning Generative Visual Models from Few Training Examples: An Incremental Bayesian Approach Tested on 101 Object Categories"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Leveraging Cross-Modal Neighbor Representation for Improved CLIP Classification",
+          "link": "https://arxiv.org/abs/2404.17753"
+        },
+        "c": "https://github.com/ycaigogogo/cvpr24-coder",
+        "n": "CODER* (CLIP ViT-L/14@336px)",
+        "d": "2024-04-27",
+        "m1": "96.37"
+      },
+      {
+        "p": {
+          "name": "Demystifying CLIP Data",
+          "link": "https://arxiv.org/abs/2309.16671"
+        },
+        "c": "https://github.com/facebookresearch/MetaCLIP",
+        "n": "MetaCLIP ViT-bigG/14",
+        "d": "2023-09-28",
+        "m1": "95.7"
+      },
+      {
+        "p": {
+          "name": "Multi-label Cluster Discrimination for Visual Representation Learning",
+          "link": "https://arxiv.org/abs/2407.17331v2"
+        },
+        "c": "https://github.com/deepglint/unicom",
+        "n": "MLCD ViT-L/14",
+        "d": "2024-07-24",
+        "m1": "93.9"
+      },
+      {
+        "p": {
+          "name": "FFF: Fixing Flawed Foundations in Contrastive Pre-Training Results in Very Strong Vision-Language Models",
+          "link": "https://arxiv.org/abs/2405.10286"
+        },
+        "c": "",
+        "n": "FFF-ViT-B/32 (Open70M) (extra data)",
+        "d": "2024-05-16",
+        "m1": "86.5"
+      },
+      {
+        "p": {
+          "name": "FairDeDup: Detecting and Mitigating Vision-Language Fairness Disparities in Semantic Dataset Deduplication",
+          "link": "https://arxiv.org/abs/2404.16123"
+        },
+        "c": "",
+        "n": "FairDeDup (50%)",
+        "d": "2024-04-24",
+        "m1": "83.09"
+      }
+    ]
+  }
+}

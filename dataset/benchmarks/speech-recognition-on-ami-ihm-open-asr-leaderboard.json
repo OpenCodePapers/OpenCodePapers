@@ -1,0 +1,498 @@
+{
+  "title": "speech-recognition-on-ami-ihm-open-asr-leaderboard",
+  "task-hierarchy": [
+    "Speech Recognition"
+  ],
+  "dataset-info": {
+    "link": "https://link.springer.com/chapter/10.1007/11677482_3",
+    "paper": "Open ASR Leaderboard: Towards Reproducible and Transparent Multilingual and Long-Form Speech Recognition Evaluation"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "WER",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "https://github.com/ibm-granite/granite-speech-models",
+        "n": "Granite-speech-4.1-2b",
+        "d": "2025-06-19",
+        "m1": "8.09"
+      },
+      {
+        "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "",
+        "n": "Cohere-transcribe-03-2026",
+        "d": "2026-03-24",
+        "m1": "8.13"
+      },
+      {
+        "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "https://github.com/ibm-granite/granite-speech-models",
+        "n": "Granite-4.0-1b-speech",
+        "d": "2025-06-19",
+        "m1": "8.44"
+      },
+      {
+        "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "https://github.com/ibm-granite/granite-speech-models",
+        "n": "Granite-speech-3.3-2b",
+        "d": "2025-06-19",
+        "m1": "8.9"
+      },
+      {
+        "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "",
+        "n": "SYMPHONY-ASR",
+        "d": "2026-01-12",
+        "m1": "9.56"
+      },
+      {
+        "p": {
+          "name": "Data-Efficient On-Policy Distillation for Automatic Speech Recognition",
+          "link": "https://arxiv.org/abs/2605.28139"
+        },
+        "c": "https://github.com/AutoArk/open-audio-opd",
+        "n": "Ark-ASR",
+        "d": "2026-06-22",
+        "m1": "10.02"
+      },
+      {
+        "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "https://github.com/NVIDIA/NeMo",
+        "n": "Canary-qwen-2.5b",
+        "d": "2025-03-07",
+        "m1": "10.19"
+      },
+      {
+        "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "https://github.com/QwenLM/Qwen3-ASR",
+        "n": "Qwen3-ASR-1.7B",
+        "d": "2026-01-28",
+        "m1": "10.56"
+      },
+      {
+        "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "",
+        "n": "Moonshine-streaming-medium",
+        "d": "2026-01-06",
+        "m1": "10.68"
+      },
+      {
+        "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "https://github.com/moonshine-ai/moonshine",
+        "n": "Moonshine v2 Medium",
+        "d": "2026-02-12",
+        "m1": "10.68"
+      },
+      {
+        "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "",
+        "n": "SYMPHONY",
+        "d": "2025-10-27",
+        "m1": "10.7"
+      },
+      {
+        "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Phi-4-multimodal-instruct",
+        "d": "2025-02-24",
+        "m1": "11.09"
+      },
+      {
+        "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "https://github.com/NVIDIA/NeMo",
+        "n": "Parakeet-tdt-0.6b-v3",
+        "d": "2025-05-01",
+        "m1": "11.39"
+      },
+      {
+        "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "https://github.com/kyutai-labs/delayed-streams-modeling",
+        "n": "DSM-ASR",
+        "d": "2025-06-06",
+        "m1": "12.2"
+      },
+      {
+        "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "",
+        "n": "Moonshine-streaming-small",
+        "d": "2026-01-06",
+        "m1": "12.53"
+      },
+      {
+        "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "https://github.com/espnet/espnet/tree/master/egs2/owsm_ctc_v4/s2t1",
+        "n": "Owsm_ctc_v4_1B",
+        "d": "2025-01-16",
+        "m1": "13.1"
+      },
+      {
+        "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "https://github.com/NVIDIA/NeMo",
+        "n": "Canary-1b-flash",
+        "d": "2025-03-07",
+        "m1": "13.11"
+      },
+      {
+        "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "",
+        "n": "Canary-1b",
+        "d": "2024-02-07",
+        "m1": "13.9"
+      },
+      {
+        "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "https://github.com/huggingface/distil-whisper",
+        "n": "Distil-large-v3.5",
+        "d": "2024-12-05",
+        "m1": "14.63"
+      },
+      {
+        "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "https://github.com/huggingface/distil-whisper",
+        "n": "Distil-large-v2",
+        "d": "2024-12-05",
+        "m1": "14.67"
+      },
+      {
+        "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "https://github.com/NVIDIA/NeMo",
+        "n": "Canary-180m-flash",
+        "d": "2025-03-07",
+        "m1": "14.86"
+      },
+      {
+        "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "https://github.com/huggingface/distil-whisper",
+        "n": "Distil-large-v3",
+        "d": "2024-12-05",
+        "m1": "15.16"
+      },
+      {
+        "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "https://github.com/mistralai/mistral-common",
+        "n": "Voxtral-Small-24B-2507",
+        "d": "2025-07-15",
+        "m1": "15.27"
+      },
+      {
+        "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "https://github.com/espnet/espnet",
+        "n": "Owsm_ctc_v3.1_1B",
+        "d": "2024-01-30",
+        "m1": "15.61"
+      },
+      {
+        "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "https://github.com/NVIDIA/NeMo",
+        "n": "Parakeet-ctc-1.1b",
+        "d": "2023-12-28",
+        "m1": "15.67"
+      },
+      {
+        "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "https://github.com/NVIDIA/NeMo",
+        "n": "Parakeet-tdt_ctc-110m",
+        "d": "2025-05-01",
+        "m1": "15.89"
+      },
+      {
+        "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "https://github.com/NVIDIA/NeMo",
+        "n": "Stt_en_conformer_ctc_large",
+        "d": "2022-04-09",
+        "m1": "15.95"
+      },
+      {
+        "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "https://github.com/k2-fsa/icefall",
+        "n": "Zipformer-transducer-XL-290M",
+        "d": "2026-05-12",
+        "m1": "15.97"
+      },
+      {
+        "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "",
+        "n": "Canary-1b-v2",
+        "d": "2025-08-04",
+        "m1": "16.01"
+      },
+      {
+        "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "https://github.com/openai/whisper",
+        "n": "Whisper-large-v3-turbo",
+        "d": "2023-11-06",
+        "m1": "16.13"
+      },
+      {
+        "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "https://github.com/zai-org/GLM-ASR",
+        "n": "GLM-ASR-Nano-2512",
+        "d": "2025-12-09",
+        "m1": "16.15"
+      },
+      {
+        "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "https://github.com/mistralai/mistral-common",
+        "n": "Voxtral-Mini-3B-2507",
+        "d": "2025-07-15",
+        "m1": "16.3"
+      },
+      {
+        "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "https://github.com/NVIDIA/NeMo",
+        "n": "Parakeet-ctc-0.6b",
+        "d": "2023-12-28",
+        "m1": "16.46"
+      },
+      {
+        "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "https://github.com/openai/whisper",
+        "n": "Whisper-medium.en",
+        "d": "2023-11-06",
+        "m1": "16.68"
+      },
+      {
+        "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "https://github.com/openai/whisper",
+        "n": "Whisper-large",
+        "d": "2023-11-06",
+        "m1": "16.73"
+      },
+      {
+        "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "https://github.com/microsoft/VibeVoice",
+        "n": "VibeVoice-ASR-HF",
+        "d": "2026-03-02",
+        "m1": "17.2"
+      },
+      {
+        "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "https://github.com/openai/whisper",
+        "n": "Whisper-small.en",
+        "d": "2023-11-06",
+        "m1": "17.93"
+      },
+      {
+        "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "",
+        "n": "Moonshine-streaming-tiny",
+        "d": "2026-01-06",
+        "m1": "19.02"
+      },
+      {
+        "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "https://github.com/NVIDIA/NeMo",
+        "n": "Stt_en_conformer_ctc_small",
+        "d": "2022-04-09",
+        "m1": "20.43"
+      },
+      {
+        "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "https://github.com/speechbrain/speechbrain",
+        "n": "Asr-wav2vec2-librispeech",
+        "d": "2022-06-05",
+        "m1": "32.05"
+      },
+      {
+        "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "https://github.com/facebookresearch/fairseq/tree/main/examples/wav2vec",
+        "n": "Wav2vec2-large-960h-lv60-self",
+        "d": "2020-06-20",
+        "m1": "36.77"
+      },
+      {
+        "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "https://github.com/facebookresearch/fairseq/tree/main/examples/wav2vec",
+        "n": "Wav2vec2-large-robust-ft-libri-960h",
+        "d": "2021-04-02",
+        "m1": "37.75"
+      },
+      {
+        "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "https://github.com/facebookresearch/fairseq/tree/main/examples/data2vec",
+        "n": "Data2vec-audio-large-960h",
+        "d": "2022-04-02",
+        "m1": "40.51"
+      },
+      {
+        "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "https://github.com/pytorch/fairseq/tree/master/examples/wav2vec#wav2vec-20",
+        "n": "Wav2vec2-conformer-rope-large-960h-ft",
+        "d": "2022-04-18",
+        "m1": "42.47"
+      },
+      {
+        "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "https://github.com/facebookresearch/fairseq/tree/main/examples/wav2vec",
+        "n": "Wav2vec2-large-960h",
+        "d": "2020-06-20",
+        "m1": "42.66"
+      },
+      {
+        "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "https://github.com/facebookresearch/fairseq/tree/main/examples/wav2vec",
+        "n": "Wav2vec2-base-960h",
+        "d": "2020-06-20",
+        "m1": "45.56"
+      }
+    ]
+  }
+}

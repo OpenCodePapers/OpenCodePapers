@@ -36,6 +36,16 @@
     "items": [
       {
         "p": {
+          "name": "Molmo2: Open Weights and Data for Vision-Language Models with Video Understanding and Grounding",
+          "link": "https://arxiv.org/abs/2601.10611"
+        },
+        "c": "https://github.com/allenai/molmo2",
+        "n": "Molmo2-4B",
+        "d": "2026-01-15",
+        "m1": "68.0"
+      },
+      {
+        "p": {
           "name": "Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context",
           "link": "https://arxiv.org/abs/2403.05530v5"
         },
@@ -43,6 +53,16 @@
         "n": "Gemini 1.5 Pro",
         "d": "2024-03-08",
         "m1": "66.7"
+      },
+      {
+        "p": {
+          "name": "InternVL3: Exploring Advanced Training and Test-Time Recipes for Open-Source Multimodal Models",
+          "link": "https://arxiv.org/abs/2504.10479"
+        },
+        "c": "https://github.com/OpenGVLab/InternVL",
+        "n": "InternVL3-78B",
+        "d": "2025-04-14",
+        "m1": "65.7"
       },
       {
         "p": {
@@ -66,6 +86,16 @@
       },
       {
         "p": {
+          "name": "MiniCPM-V 4.5: Cooking Efficient MLLMs via Architecture, Data, and Training Recipe",
+          "link": "https://arxiv.org/abs/2509.18154"
+        },
+        "c": "https://github.com/OpenBMB/MiniCPM-V",
+        "n": "MiniCPM-V 4.5",
+        "d": "2025-09-16",
+        "m1": "63.9"
+      },
+      {
+        "p": {
           "name": "Video Instruction Tuning With Synthetic Data",
           "link": "https://arxiv.org/abs/2410.02713v2"
         },
@@ -73,6 +103,36 @@
         "n": "LLaVA-Video",
         "d": "2024-10-03",
         "m1": "61.9"
+      },
+      {
+        "p": {
+          "name": "LLaVA-OneVision: Easy Visual Task Transfer",
+          "link": "https://arxiv.org/abs/2408.03326v3"
+        },
+        "c": "https://github.com/evolvinglmms-lab/lmms-eval",
+        "n": "LLaVA-OneVision-72B",
+        "d": "2024-08-06",
+        "m1": "61.3"
+      },
+      {
+        "p": {
+          "name": "Qwen2.5-VL Technical Report",
+          "link": "https://arxiv.org/abs/2502.13923v1"
+        },
+        "c": "https://github.com/qwenlm/qwen2-vl",
+        "n": "Qwen2.5-VL-72B",
+        "d": "2025-02-19",
+        "m1": "60.7"
+      },
+      {
+        "p": {
+          "name": "TimeViper: A Hybrid Mamba-Transformer Vision-Language Model for Efficient Long Video Understanding",
+          "link": "https://arxiv.org/abs/2511.16595"
+        },
+        "c": "https://github.com/xiaomi-research/timeviper",
+        "n": "TimeViper",
+        "d": "2025-11-20",
+        "m1": "54.1"
       }
     ]
   }

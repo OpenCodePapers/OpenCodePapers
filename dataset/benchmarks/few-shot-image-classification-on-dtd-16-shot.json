@@ -1,0 +1,99 @@
+{
+  "title": "few-shot-image-classification-on-dtd-16-shot",
+  "task-hierarchy": [
+    "Image Classification",
+    "Few-Shot Image Classification"
+  ],
+  "dataset-info": {
+    "link": "https://openaccess.thecvf.com/content_cvpr_2014/papers/Cimpoi_Describing_Textures_in_2014_CVPR_paper.pdf",
+    "paper": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Adaptive Parameter Selection for Tuning Vision-Language Models",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhang_Adaptive_Parameter_Selection_for_Tuning_Vision-Language_Models_CVPR_2025_paper.html"
+        },
+        "c": "",
+        "n": "CLIP-AST (ViT-L/14)",
+        "d": "2025-06-11",
+        "m1": "78.6"
+      },
+      {
+        "p": {
+          "name": "ImagineFSL: Self-Supervised Pretraining Matters on Imagined Base Set for VLM-based Few-shot Learning",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Yang_ImagineFSL_Self-Supervised_Pretraining_Matters_on_Imagined_Base_Set_for_VLM-based_CVPR_2025_paper.html"
+        },
+        "c": "https://github.com/haoyuanyang-2023/imaginefsl",
+        "n": "ImagineFSL LoRA (16-shot)",
+        "d": "2025-06-11",
+        "m1": "78"
+      },
+      {
+        "p": {
+          "name": "Training-free Discriminative Patch Mining for Robust Few-Shot Recognition with CLIP",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/5508"
+        },
+        "c": "",
+        "n": "CDPS (OpenCLIP ViT-B/16, 16-shot)",
+        "d": "2026-09-08",
+        "m1": "77.42"
+      },
+      {
+        "p": {
+          "name": "LP++: A Surprisingly Strong Linear Probe for Few-Shot CLIP",
+          "link": "https://arxiv.org/abs/2404.02285"
+        },
+        "c": "https://github.com/fereshteshakeri/fewshot-clip-strong-baseline",
+        "n": "LP++ (16-shot)",
+        "d": "2024-04-02",
+        "m1": "66.4"
+      },
+      {
+        "p": {
+          "name": "BioMedVR: Confusion-Aware Mixture-of-Prompt Experts for Biomedical Visual Reprogramming",
+          "link": "https://arxiv.org/abs/2606.24740"
+        },
+        "c": "",
+        "n": "BioMedVR",
+        "d": "2026-06-23",
+        "m1": "66.0"
+      },
+      {
+        "p": {
+          "name": "AdaBoosting Text Prompts for Vision-Language Models",
+          "link": "https://arxiv.org/abs/2607.00684"
+        },
+        "c": "https://github.com/ml-postech/tpb",
+        "n": "TPB (16-shot, OpenAI CLIP RN50)",
+        "d": "2026-07-01",
+        "m1": "62.8"
+      }
+    ]
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "title": "question-answering-on-drop-3-shot",
+  "task-hierarchy": [
+    "Question Answering"
+  ],
+  "dataset-info": {
+    "link": "https://aclanthology.org/N19-1246.pdf",
+    "paper": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2501.12948v1"
+        },
+        "c": "https://github.com/deepseek-ai/deepseek-r1",
+        "n": "DeepSeek-R1 (3-shot)",
+        "d": "2025-01-22",
+        "m1": "92.2"
+      },
+      {
+        "p": {
+          "name": "DeepSeek-V3 Technical Report",
+          "link": "https://arxiv.org/abs/2412.19437"
+        },
+        "c": "https://github.com/deepseek-ai/DeepSeek-V3",
+        "n": "DeepSeek-V3",
+        "d": "2024-12-27",
+        "m1": "91.6"
+      },
+      {
+        "p": {
+          "name": "Youtu-LLM: Unlocking the Native Agentic Potential for Lightweight Large Language Models",
+          "link": "https://arxiv.org/abs/2512.24618"
+        },
+        "c": "https://huggingface.co/tencent/Youtu-LLM-2B",
+        "n": "Youtu-LLM 2B (3-shot)",
+        "d": "2025-12-31",
+        "m1": "86.7"
+      },
+      {
+        "p": {
+          "name": "Encoder-Decoder Gemma: Improving the Quality-Efficiency Trade-Off via Adaptation",
+          "link": "https://arxiv.org/abs/2504.06225"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "T5Gemma 9B-9B PrefixLM",
+        "d": "2025-04-08",
+        "m1": "75.7"
+      },
+      {
+        "p": {
+          "name": "Gemma 2: Improving Open Language Models at a Practical Size",
+          "link": "https://arxiv.org/abs/2408.00118"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Gemma 2 27B (3-shot)",
+        "d": "2024-07-31",
+        "m1": "74.2"
+      }
+    ]
+  }
+}

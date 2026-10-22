@@ -67,6 +67,16 @@
       },
       {
         "p": {
+          "name": "DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model",
+          "link": "https://arxiv.org/abs/2405.04434"
+        },
+        "c": "https://github.com/deepseek-ai/DeepSeek-V2",
+        "n": "DeepSeek-V2 Chat (RL) (5-shot)",
+        "d": "2024-05-07",
+        "m1": "86.7"
+      },
+      {
+        "p": {
           "name": "RankRAG: Unifying Context Ranking with Retrieval-Augmented Generation in LLMs",
           "link": "https://arxiv.org/abs/2407.02485v1"
         },
@@ -114,6 +124,16 @@
         "n": "GPT-4-0613 (Zero-shot)",
         "d": "2023-03-15",
         "m1": "84.8"
+      },
+      {
+        "p": {
+          "name": "Gemma 2: Improving Open Language Models at a Practical Size",
+          "link": "https://arxiv.org/abs/2408.00118"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Gemma 2 27B (5-shot)",
+        "d": "2024-07-31",
+        "m1": "83.7"
       },
       {
         "p": {
@@ -257,6 +277,26 @@
       },
       {
         "p": {
+          "name": "Encoder-Decoder Gemma: Improving the Quality-Efficiency Trade-Off via Adaptation",
+          "link": "https://arxiv.org/abs/2504.06225"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "T5Gemma 9B-9B PrefixLM",
+        "d": "2025-04-08",
+        "m1": "75.2"
+      },
+      {
+        "p": {
+          "name": "Phi-3 Technical Report: A Highly Capable Language Model Locally on Your Phone",
+          "link": "https://arxiv.org/abs/2404.14219v4"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Phi-3-Medium (5-shot)",
+        "d": "2024-04-22",
+        "m1": "73.9"
+      },
+      {
+        "p": {
           "name": "LLaMA: Open and Efficient Foundation Language Models",
           "link": "https://arxiv.org/abs/2302.13971v1"
         },
@@ -317,6 +357,16 @@
       },
       {
         "p": {
+          "name": "Mixtral of Experts",
+          "link": "https://arxiv.org/abs/2401.04088v1"
+        },
+        "c": "https://github.com/jingyaogong/minimind",
+        "n": "Mixtral 8x7B (5-shot)",
+        "d": "2024-01-08",
+        "m1": "71.5"
+      },
+      {
+        "p": {
           "name": "End-to-End Training of Multi-Document Reader and Retriever for Open-Domain Question Answering",
           "link": "https://arxiv.org/abs/2106.05346v2"
         },
@@ -344,6 +394,16 @@
         "n": "GPT-3 175B (Few-Shot)",
         "d": "2020-05-28",
         "m1": "71.2"
+      },
+      {
+        "p": {
+          "name": "RecurrentGemma: Moving Past Transformers for Efficient Open Language Models",
+          "link": "https://arxiv.org/abs/2404.07839"
+        },
+        "c": "https://github.com/google-deepmind/recurrentgemma",
+        "n": "RecurrentGemma-9B (5-shot)",
+        "d": "2024-04-11",
+        "m1": "70.5"
       },
       {
         "p": {
@@ -419,6 +479,16 @@
       },
       {
         "p": {
+          "name": "Gemma: Open Models Based on Gemini Research and Technology",
+          "link": "https://arxiv.org/abs/2403.08295"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Gemma 7B (5-shot)",
+        "d": "2024-03-13",
+        "m1": "63.4"
+      },
+      {
+        "p": {
           "name": "SHAKTI: A 2.5 Billion Parameter Small Language Model Optimized for Edge AI and Low-Resource Environments",
           "link": "https://arxiv.org/abs/2410.11331v1"
         },
@@ -466,6 +536,16 @@
         "n": "RAG",
         "d": "2020-05-22",
         "m1": "56.1"
+      },
+      {
+        "p": {
+          "name": "RecurrentGemma: Moving Past Transformers for Efficient Open Language Models",
+          "link": "https://arxiv.org/abs/2404.07839"
+        },
+        "c": "https://github.com/google-deepmind/recurrentgemma",
+        "n": "RecurrentGemma-2B (5-shot)",
+        "d": "2024-04-11",
+        "m1": "52.5"
       },
       {
         "p": {
@@ -599,6 +679,16 @@
         "n": "ReasonBERTB",
         "d": "2021-09-10",
         "m2": "37.2"
+      },
+      {
+        "p": {
+          "name": "BitNet b1.58 2B4T Technical Report",
+          "link": "https://arxiv.org/abs/2504.12285"
+        },
+        "c": "https://github.com/microsoft/bitnet",
+        "n": "BitNet b1.58 2B4T",
+        "d": "2025-04-16",
+        "m1": "33.57"
       }
     ]
   }

@@ -56,6 +56,46 @@
     "items": [
       {
         "p": {
+          "name": "Latest Object Memory Management for Temporally Consistent Video Instance Segmentation",
+          "link": "https://arxiv.org/abs/2507.19754"
+        },
+        "c": "https://github.com/seung-hun-lee/lomm",
+        "n": "LOMM ViT-L (offline) (extra data)",
+        "d": "2025-07-26",
+        "m1": "70.1"
+      },
+      {
+        "p": {
+          "name": "LVMT: Video Mask Transformer for Long-term Video Segmentation",
+          "link": "https://arxiv.org/abs/2609.34895"
+        },
+        "c": "https://github.com/tue-mps/lvmt",
+        "n": "LVMT ViT-L (DINOv2)",
+        "d": "2026-09-29",
+        "m1": "70.1"
+      },
+      {
+        "p": {
+          "name": "DVIS-DAQ: Improving Video Segmentation via Dynamic Anchor Queries",
+          "link": "https://arxiv.org/abs/2404.00086v5"
+        },
+        "c": "https://github.com/zhang-tao-whu/DVIS",
+        "n": "DVIS-DAQ ViT-L + Temporal Refiner (extra data)",
+        "d": "2024-03-29",
+        "m1": "69.2"
+      },
+      {
+        "p": {
+          "name": "PMT: Plain Mask Transformer for Image and Video Segmentation with Frozen Vision Encoders",
+          "link": "https://arxiv.org/abs/2603.25398"
+        },
+        "c": "https://github.com/tue-mps/pmt",
+        "n": "PMT-L (DINOv3-L frozen, online VIS) (extra data)",
+        "d": "2026-03-26",
+        "m1": "69.2"
+      },
+      {
+        "p": {
           "name": "Context-Aware Video Instance Segmentation",
           "link": "https://arxiv.org/abs/2407.03010v1"
         },
@@ -93,6 +133,16 @@
         "m3": "75.3",
         "m4": "57.9",
         "m5": "73.7"
+      },
+      {
+        "p": {
+          "name": "MiNQVIS: Mitigating Noisy Queries for Robust Online Video Instance Segmentation",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/3617"
+        },
+        "c": "",
+        "n": "MiNQVIS (Swin-L)",
+        "d": "2026-09-08",
+        "m1": "66.2"
       },
       {
         "p": {

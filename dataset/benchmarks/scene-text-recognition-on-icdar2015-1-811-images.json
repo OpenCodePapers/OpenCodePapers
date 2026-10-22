@@ -1,0 +1,239 @@
+{
+  "title": "scene-text-recognition-on-icdar2015-1-811-images",
+  "task-hierarchy": [
+    "Optical Character Recognition (OCR)",
+    "Scene Text Recognition"
+  ],
+  "dataset-info": {
+    "link": "https://rrc.cvc.uab.es/?ch=4",
+    "paper": "ICDAR 2015 Competition on Robust Reading"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "CLIP4STR: A Simple Baseline for Scene Text Recognition with Pre-trained Vision-Language Model",
+          "link": "https://arxiv.org/abs/2305.14014v4"
+        },
+        "c": "https://github.com/VamosC/CLIP4STR",
+        "n": "CLIP4STR-L (DataComp-1B, RBU 6.5M)",
+        "d": "2023-05-23",
+        "m1": "91.9"
+      },
+      {
+        "p": {
+          "name": "Decoder Pre-Training with only Text for Scene Text Recognition",
+          "link": "https://arxiv.org/abs/2408.05706"
+        },
+        "c": "https://github.com/topdu/openocr",
+        "n": "PARSeq + DPTR (real-data training) (extra data)",
+        "d": "2024-08-11",
+        "m1": "91.8"
+      },
+      {
+        "p": {
+          "name": "SVTRv2: CTC Beats Encoder-Decoder Models in Scene Text Recognition",
+          "link": "https://arxiv.org/abs/2411.15858"
+        },
+        "c": "https://github.com/topdu/openocr",
+        "n": "SVTRv2-B",
+        "d": "2024-11-24",
+        "m1": "91.1"
+      },
+      {
+        "p": {
+          "name": "Scene Text Recognition with Permuted Autoregressive Sequence Models",
+          "link": "https://arxiv.org/abs/2207.06966v1"
+        },
+        "c": "https://github.com/topdu/openocr",
+        "n": "PARSeq-S A (real data, 36-char)",
+        "d": "2022-07-14",
+        "m1": "90.7"
+      },
+      {
+        "p": {
+          "name": "Platypus: A Generalized Specialist Model for Reading Text in Various Forms",
+          "link": "https://arxiv.org/abs/2408.14805"
+        },
+        "c": "https://github.com/alibabaresearch/advancedliteratemachinery",
+        "n": "Platypus (extra data)",
+        "d": "2024-08-27",
+        "m1": "90.7"
+      },
+      {
+        "p": {
+          "name": "Out of Length Text Recognition with Sub-String Matching",
+          "link": "https://arxiv.org/abs/2407.12317"
+        },
+        "c": "https://github.com/topdu/openocr",
+        "n": "SMTR (Union14M-L training)",
+        "d": "2024-07-17",
+        "m1": "90.1"
+      },
+      {
+        "p": {
+          "name": "Context Perception Parallel Decoder for Scene Text Recognition",
+          "link": "https://arxiv.org/abs/2307.12270v2"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleOCR",
+        "n": "NRTR-CPPD",
+        "d": "2023-07-23",
+        "m1": "88.8"
+      },
+      {
+        "p": {
+          "name": "TrOCR: Transformer-based Optical Character Recognition with Pre-trained Models",
+          "link": "https://arxiv.org/abs/2109.10282v5"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "TrOCR Large (Syn+Benchmark) (extra data)",
+        "d": "2021-09-21",
+        "m1": "88.1"
+      },
+      {
+        "p": {
+          "name": "Class-Aware Mask-Guided Feature Refinement for Scene Text Recognition",
+          "link": "https://arxiv.org/abs/2402.13643"
+        },
+        "c": "https://github.com/melosy/cam",
+        "n": "CAM-Base",
+        "d": "2024-02-21",
+        "m1": "87.8"
+      },
+      {
+        "p": {
+          "name": "IterVM: Iterative Vision Modeling Module for Scene Text Recognition",
+          "link": "https://arxiv.org/abs/2204.02630"
+        },
+        "c": "https://github.com/VDIGPKU/IterNet",
+        "n": "IterNet (3× IterVM, 3× IterLM) (extra data)",
+        "d": "2022-04-06",
+        "m1": "87.7"
+      },
+      {
+        "p": {
+          "name": "Linguistic More: Taking a Further Step toward Efficient and Accurate Scene Text Recognition",
+          "link": "https://arxiv.org/abs/2305.05140"
+        },
+        "c": "https://github.com/cyrilsterling/lpv",
+        "n": "LPV-Base (extra data)",
+        "d": "2023-05-09",
+        "m1": "87.5"
+      },
+      {
+        "p": {
+          "name": "LISTER: Neighbor Decoding for Length-Insensitive Scene Text Recognition",
+          "link": "https://arxiv.org/abs/2308.12774"
+        },
+        "c": "https://github.com/alibabaresearch/advancedliteratemachinery",
+        "n": "LISTER-B (3-scale ensemble)",
+        "d": "2023-08-24",
+        "m1": "87.5"
+      },
+      {
+        "p": {
+          "name": "Multi-Granularity Prediction for Scene Text Recognition",
+          "link": "https://arxiv.org/abs/2209.03592v2"
+        },
+        "c": "https://github.com/alibabaresearch/advancedliteratemachinery",
+        "n": "MGP-STR Fuse Base (cumprod)",
+        "d": "2022-09-08",
+        "m1": "87.24"
+      },
+      {
+        "p": {
+          "name": "SVTR: Scene Text Recognition with a Single Visual Model",
+          "link": "https://arxiv.org/abs/2205.00159v2"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleOCR",
+        "n": "SVTR-L (Large) (extra data)",
+        "d": "2022-04-30",
+        "m1": "86.6"
+      },
+      {
+        "p": {
+          "name": "CDistNet: Perceiving Multi-Domain Character Distance for Robust Text Recognition",
+          "link": "https://arxiv.org/abs/2111.11011v5"
+        },
+        "c": "https://github.com/topdu/openocr",
+        "n": "CDistNet (extra data)",
+        "d": "2021-11-22",
+        "m1": "86.0"
+      },
+      {
+        "p": {
+          "name": "Towards Accurate Scene Text Recognition with Semantic Reasoning Networks",
+          "link": "https://arxiv.org/abs/2003.12294v1"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleOCR",
+        "n": "SRN (extra data)",
+        "d": "2020-03-27",
+        "m1": "82.7"
+      },
+      {
+        "p": {
+          "name": "SEED: Semantics Enhanced Encoder-Decoder Framework for Scene Text Recognition",
+          "link": "https://arxiv.org/abs/2005.10977v1"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleOCR",
+        "n": "SE-ASTER (extra data)",
+        "d": "2020-05-22",
+        "m1": "80.0"
+      },
+      {
+        "p": {
+          "name": "Data Augmentation for Scene Text Recognition",
+          "link": "https://arxiv.org/abs/2108.06949"
+        },
+        "c": "https://github.com/roatienza/straug",
+        "n": "TRBA + STRAug (extra data)",
+        "d": "2021-08-16",
+        "m1": "78.67"
+      },
+      {
+        "p": {
+          "name": "Vision Transformer for Fast and Efficient Scene Text Recognition",
+          "link": "https://arxiv.org/abs/2105.08582v1"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleOCR",
+        "n": "ViTSTR-Base + RandAugment (extra data)",
+        "d": "2021-05-18",
+        "m1": "78.5"
+      },
+      {
+        "p": {
+          "name": "What Is Wrong With Scene Text Recognition Model Comparisons? Dataset and Model Analysis",
+          "link": "https://arxiv.org/abs/1904.01906v4"
+        },
+        "c": "https://github.com/clovaai/deep-text-recognition-benchmark",
+        "n": "TRBA (TPS-ResNet-BiLSTM-Attn)",
+        "d": "2019-04-03",
+        "m1": "77.6"
+      }
+    ]
+  }
+}

@@ -304,6 +304,18 @@
       },
       {
         "p": {
+          "name": "Learning Sample-wise Rank-Aware Interpolation Weights for Composed Visual Data Retrieval",
+          "link": "https://arxiv.org/abs/2608.22500"
+        },
+        "c": "",
+        "n": "SRAIN",
+        "d": "2026-08-23",
+        "m1": "27.34",
+        "m2": "26.16",
+        "m4": "29.94"
+      },
+      {
+        "p": {
           "name": "Semantic Editing Increment Benefits Zero-Shot Composed Image Retrieval",
           "link": "https://dl.acm.org/doi/10.1145/3664647.3681649"
         },
@@ -374,6 +386,18 @@
       },
       {
         "p": {
+          "name": "Generative Zero-Shot Composed Image Retrieval",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Wang_Generative_Zero-Shot_Composed_Image_Retrieval_CVPR_2025_paper.html"
+        },
+        "c": "https://github.com/lan-lw/composedimagegen",
+        "n": "LinCIR + CIG-XL (ViT-G/14)",
+        "d": "2025-06-11",
+        "m1": "21.9",
+        "m2": "20.64",
+        "m4": "24.04"
+      },
+      {
+        "p": {
           "name": "Language-only Efficient Training of Zero-shot Composed Image Retrieval",
           "link": "https://arxiv.org/abs/2312.01998v2"
         },
@@ -415,6 +439,18 @@
         "n": "CIReVL + SoFT (ViT-B/32)",
         "d": "2025-12-23",
         "m1": "20.04"
+      },
+      {
+        "p": {
+          "name": "Self-guided Semantic Inspection for Zero-Shot Composed Image Retrieval",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_Self-guided_Semantic_Inspection_for_Zero-Shot_Composed_Image_Retrieval_CVPR_2026_paper.html"
+        },
+        "c": "https://github.com/orange1999/diffcomp",
+        "n": "DiffComp (BLIP ViT-L/16)",
+        "d": "2026-06-03",
+        "m1": "19.61",
+        "m2": "18.35",
+        "m4": "20.7"
       },
       {
         "p": {
@@ -475,6 +511,18 @@
         "n": "SEARLE + SoFT (ViT-L/14)",
         "d": "2025-12-23",
         "m1": "16.45"
+      },
+      {
+        "p": {
+          "name": "FlowCIR: Semantic Transport via Flow Matching for Zero-Shot Composed Image Retrieval",
+          "link": "https://arxiv.org/abs/2607.02284"
+        },
+        "c": "",
+        "n": "FlowCIR (CLIP ViT-L/14) (extra data)",
+        "d": "2026-07-02",
+        "m1": "15.7",
+        "m2": "14.9",
+        "m4": "17.3"
       },
       {
         "p": {

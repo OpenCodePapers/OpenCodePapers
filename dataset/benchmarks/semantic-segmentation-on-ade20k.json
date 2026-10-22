@@ -127,6 +127,16 @@
       },
       {
         "p": {
+          "name": "EVA-02: A Visual Representation for Neon Genesis",
+          "link": "https://arxiv.org/abs/2303.11331"
+        },
+        "c": "https://github.com/baaivision/eva",
+        "n": "EVA-02-L + Mask2Former",
+        "d": "2023-03-20",
+        "m1": "62.0"
+      },
+      {
+        "p": {
           "name": "The Missing Point in Vision Transformers for Universal Image Segmentation",
           "link": "https://arxiv.org/abs/2505.19795v1"
         },
@@ -235,6 +245,16 @@
       },
       {
         "p": {
+          "name": "Depth Anything: Unleashing the Power of Large-Scale Unlabeled Data",
+          "link": "https://arxiv.org/abs/2401.10891v2"
+        },
+        "c": "https://github.com/LiheYoung/Depth-Anything",
+        "n": "Depth Anything (ViT-L) + Mask2Former",
+        "d": "2024-01-19",
+        "m1": "59.4"
+      },
+      {
+        "p": {
           "name": "SERNet-Former: Semantic Segmentation by Efficient Residual Network with Attention-Boosting Gates and Attention-Fusion Networks",
           "link": "https://arxiv.org/abs/2401.15741v7"
         },
@@ -242,6 +262,16 @@
         "n": "SERNet-Former",
         "d": "2024-01-28",
         "m1": "59.35"
+      },
+      {
+        "p": {
+          "name": "Depth Anything V2",
+          "link": "https://arxiv.org/abs/2406.09414"
+        },
+        "c": "https://github.com/DepthAnything/Depth-Anything-V2",
+        "n": "Depth Anything V2 Large + Mask2Former",
+        "d": "2024-06-13",
+        "m1": "58.6"
       },
       {
         "p": {
@@ -626,6 +656,16 @@
       },
       {
         "p": {
+          "name": "Florence-2: Advancing a Unified Representation for a Variety of Vision Tasks",
+          "link": "https://arxiv.org/abs/2311.06242v1"
+        },
+        "c": "https://github.com/retkowsky/florence-2",
+        "n": "DaViT-B + UperNet (Florence-2 pretrain)",
+        "d": "2023-11-10",
+        "m1": "54.9"
+      },
+      {
+        "p": {
           "name": "Context Autoencoder for Self-Supervised Representation Learning",
           "link": "https://arxiv.org/abs/2202.03026v3"
         },
@@ -823,6 +863,16 @@
         "c": "https://github.com/ailab-cvc/unireplknet",
         "n": "UniRepLKNet-B++",
         "d": "2023-11-27",
+        "m1": "53.9"
+      },
+      {
+        "p": {
+          "name": "GLID: Pre-training a Generalist Encoder-Decoder Vision Model",
+          "link": "https://arxiv.org/abs/2404.07603"
+        },
+        "c": "",
+        "n": "GLID Swin-L",
+        "d": "2024-04-11",
         "m1": "53.9"
       },
       {
@@ -1079,12 +1129,32 @@
       },
       {
         "p": {
+          "name": "VisionHOPE: Visual Backbones as Self-Modifying Learning Systems",
+          "link": "https://arxiv.org/abs/2609.33325v1"
+        },
+        "c": "https://github.com/PSRben/VisionHOPE",
+        "n": "VisionHOPE-B + UPerNet",
+        "d": "2026-09-27",
+        "m1": "51.8"
+      },
+      {
+        "p": {
           "name": "BiFormer: Vision Transformer with Bi-Level Routing Attention",
           "link": "https://arxiv.org/abs/2303.08810v1"
         },
         "c": "https://github.com/rayleizhu/biformer",
         "n": "BiFormer-B (IN1k pretrain, Upernet 160k)",
         "d": "2023-03-15",
+        "m1": "51.7"
+      },
+      {
+        "p": {
+          "name": "ViT$^3$: Unlocking Test-Time Training in Vision",
+          "link": "https://arxiv.org/abs/2512.01643"
+        },
+        "c": "https://github.com/leaplabthu/vittt",
+        "n": "H-ViT³-B + UperNet",
+        "d": "2025-12-01",
         "m1": "51.7"
       },
       {
@@ -1268,6 +1338,16 @@
         "n": "Upernet-BiFormer-S (IN1k pretrain, Upernet 160k)",
         "d": "2023-03-15",
         "m1": "50.8"
+      },
+      {
+        "p": {
+          "name": "PeLK: Parameter-efficient Large Kernel ConvNets with Peripheral Convolution",
+          "link": "https://arxiv.org/abs/2403.07589v2"
+        },
+        "c": "",
+        "n": "PeLK-B-101",
+        "d": "2024-03-12",
+        "m1": "50.6"
       },
       {
         "p": {
@@ -1505,6 +1585,16 @@
       },
       {
         "p": {
+          "name": "Vision-TTT: Efficient and Expressive Visual Representation Learning with Test-Time Training",
+          "link": "https://arxiv.org/abs/2603.00518"
+        },
+        "c": "https://github.com/imkqv/vittt",
+        "n": "Vittt-B",
+        "d": "2026-02-28",
+        "m1": "49.4"
+      },
+      {
+        "p": {
           "name": "Vision Transformer with Deformable Attention",
           "link": "https://arxiv.org/abs/2201.00520v3"
         },
@@ -1563,6 +1653,26 @@
         "c": "https://github.com/ailab-cvc/unireplknet",
         "n": "UniRepLKNet-T",
         "d": "2023-11-27",
+        "m1": "49.1"
+      },
+      {
+        "p": {
+          "name": "Mamba-Reg: Vision Mamba Also Needs Registers",
+          "link": "https://arxiv.org/abs/2405.14858"
+        },
+        "c": "https://github.com/wangf3014/mamba-reg",
+        "n": "Mamba-Reg-L",
+        "d": "2024-05-23",
+        "m1": "49.1"
+      },
+      {
+        "p": {
+          "name": "MambaVision: A Hybrid Mamba-Transformer Vision Backbone",
+          "link": "https://arxiv.org/abs/2407.08083v2"
+        },
+        "c": "https://github.com/nvlabs/mambavision",
+        "n": "MambaVision-B + UperNet",
+        "d": "2024-07-10",
         "m1": "49.1"
       },
       {
@@ -1638,6 +1748,16 @@
         "m1": "48.76",
         "m3": "20.8",
         "m4": "28.0"
+      },
+      {
+        "p": {
+          "name": "PVT v2: Improved Baselines with Pyramid Vision Transformer",
+          "link": "https://arxiv.org/abs/2106.13797v7"
+        },
+        "c": "https://github.com/rwightman/pytorch-image-models",
+        "n": "PVTv2-B5 + Semantic FPN",
+        "d": "2021-06-25",
+        "m1": "48.7"
       },
       {
         "p": {
@@ -1749,6 +1869,16 @@
       },
       {
         "p": {
+          "name": "ViTAEv2: Vision Transformer Advanced by Exploring Inductive Bias for Image Recognition and Beyond",
+          "link": "https://arxiv.org/abs/2202.10108v2"
+        },
+        "c": "https://github.com/ViTAE-Transformer/ViTDet",
+        "n": "ViTAEv2-S + UperNet (multi-scale)",
+        "d": "2022-02-21",
+        "m1": "48.0"
+      },
+      {
+        "p": {
           "name": "Segmentation Transformer: Object-Contextual Representations for Semantic Segmentation",
           "link": "https://arxiv.org/abs/1909.11065v6"
         },
@@ -1766,6 +1896,16 @@
         "n": "Shift-B",
         "d": "2022-01-26",
         "m1": "47.9"
+      },
+      {
+        "p": {
+          "name": "ViTAE: Vision Transformer Advanced by Exploring Intrinsic Inductive Bias",
+          "link": "https://arxiv.org/abs/2106.03348v4"
+        },
+        "c": "https://github.com/ViTAE-Transformer/ViTAE-Transformer",
+        "n": "ViTAE-S-Stage + UPerNet",
+        "d": "2021-06-07",
+        "m1": "47.8"
       },
       {
         "p": {
@@ -1858,6 +1998,16 @@
         "c": "https://github.com/huggingface/transformers",
         "n": "DiNAT-Mini (UperNet)",
         "d": "2022-09-29",
+        "m1": "47.2"
+      },
+      {
+        "p": {
+          "name": "You Only Need Less Attention at Each Stage in Vision Transformers",
+          "link": "https://arxiv.org/abs/2406.00427"
+        },
+        "c": "",
+        "n": "LaViT-S",
+        "d": "2024-06-01",
         "m1": "47.2"
       },
       {
@@ -2227,6 +2377,16 @@
       },
       {
         "p": {
+          "name": "Pyramid Vision Transformer: A Versatile Backbone for Dense Prediction without Convolutions",
+          "link": "https://arxiv.org/abs/2102.12122v2"
+        },
+        "c": "https://github.com/whai362/PVT",
+        "n": "PVT-Large + Semantic FPN",
+        "d": "2021-02-24",
+        "m1": "44.8"
+      },
+      {
+        "p": {
           "name": "Context Encoding for Semantic Segmentation",
           "link": "http://arxiv.org/abs/1803.08904v1"
         },
@@ -2280,6 +2440,16 @@
       },
       {
         "p": {
+          "name": "Contextrast: Contextual Contrastive Learning for Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2404.10633"
+        },
+        "c": "",
+        "n": "Contextrast (DeepLabV3 D-ResNet-101)",
+        "d": "2024-04-16",
+        "m1": "44.12"
+      },
+      {
+        "p": {
           "name": "Auto-DeepLab: Hierarchical Neural Architecture Search for Semantic Image Segmentation",
           "link": "http://arxiv.org/abs/1901.02985v2"
         },
@@ -2287,6 +2457,16 @@
         "n": "Auto-DeepLab-L",
         "d": "2019-01-10",
         "m1": "43.98"
+      },
+      {
+        "p": {
+          "name": "SwiftFormer: Efficient Additive Attention for Transformer-based Real-time Mobile Vision Applications",
+          "link": "https://arxiv.org/abs/2303.15446"
+        },
+        "c": "https://github.com/amshaker/swiftformer",
+        "n": "SwiftFormer-L3 + Semantic FPN",
+        "d": "2023-03-27",
+        "m1": "43.9"
       },
       {
         "p": {
@@ -2393,6 +2573,16 @@
       },
       {
         "p": {
+          "name": "SwiftFormer: Efficient Additive Attention for Transformer-based Real-time Mobile Vision Applications",
+          "link": "https://arxiv.org/abs/2303.15446"
+        },
+        "c": "https://github.com/amshaker/swiftformer",
+        "n": "SwiftFormer-L1 + Semantic FPN",
+        "d": "2023-03-27",
+        "m1": "41.4"
+      },
+      {
+        "p": {
           "name": "MOAT: Alternating Mobile Convolution and Attention Brings Strong Vision Models",
           "link": "https://arxiv.org/abs/2210.01820v2"
         },
@@ -2404,6 +2594,16 @@
       },
       {
         "p": {
+          "name": "Separable Self-attention for Mobile Vision Transformers",
+          "link": "https://arxiv.org/abs/2206.02680v1"
+        },
+        "c": "https://github.com/rwightman/pytorch-image-models",
+        "n": "MobileViTv2-2.0 + DeepLabv3",
+        "d": "2022-06-06",
+        "m1": "40.9"
+      },
+      {
+        "p": {
           "name": "RefineNet: Multi-Path Refinement Networks for High-Resolution Semantic Segmentation",
           "link": "http://arxiv.org/abs/1611.06612v3"
         },
@@ -2411,6 +2611,16 @@
         "n": "RefineNet",
         "d": "2016-11-20",
         "m1": "40.7"
+      },
+      {
+        "p": {
+          "name": "Neural Clustering based Visual Representation Learning",
+          "link": "https://arxiv.org/abs/2403.17409"
+        },
+        "c": "https://github.com/guikunchen/fec",
+        "n": "FEC-Large",
+        "d": "2024-03-26",
+        "m1": "40.5"
       },
       {
         "p": {

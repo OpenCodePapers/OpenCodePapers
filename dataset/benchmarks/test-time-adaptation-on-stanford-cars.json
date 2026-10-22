@@ -1,0 +1,89 @@
+{
+  "title": "test-time-adaptation-on-stanford-cars",
+  "task-hierarchy": [
+    "Image Classification",
+    "Test-Time Adaptation"
+  ],
+  "dataset-info": {
+    "link": "https://ai.stanford.edu/~jkrause/papers/fgvc13.pdf",
+    "paper": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Hierarchical Knowledge Prompt Tuning for Multi-task Test-Time Adaptation",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhang_Hierarchical_Knowledge_Prompt_Tuning_for_Multi-task_Test-Time_Adaptation_CVPR_2025_paper.html"
+        },
+        "c": "",
+        "n": "HKPT",
+        "d": "2025-06-11",
+        "m1": "73.5"
+      },
+      {
+        "p": {
+          "name": "Dynamic Logits Adjustment and Exploration for Test-Time Adaptation in Vision Language Models",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Wu_Dynamic_Logits_Adjustment_and_Exploration_for_Test-Time_Adaptation_in_Vision_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "DLAE (CLIP ViT-B/16)",
+        "d": "2026-06-03",
+        "m1": "69.99"
+      },
+      {
+        "p": {
+          "name": "Free on the Fly: Enhancing Flexibility in Test-Time Adaptation with Online EM",
+          "link": "https://arxiv.org/abs/2507.06973"
+        },
+        "c": "",
+        "n": "FreeTTA (CLIP ViT-B/16)",
+        "d": "2025-07-09",
+        "m1": "67.34"
+      },
+      {
+        "p": {
+          "name": "Efficient Test-Time Adaptation of Vision-Language Models",
+          "link": "https://arxiv.org/abs/2403.18293"
+        },
+        "c": "https://github.com/kdiaaa/tda",
+        "n": "TDA (ViT-B/16)",
+        "d": "2024-03-27",
+        "m1": "67.28"
+      },
+      {
+        "p": {
+          "name": "O-TPT: Orthogonality Constraints for Calibrating Test-time Prompt Tuning in Vision-Language Models",
+          "link": "https://arxiv.org/abs/2503.12096"
+        },
+        "c": "https://github.com/ashshaksharifdeen/o-tpt",
+        "n": "O-TPT",
+        "d": "2025-03-15",
+        "m1": "64.53"
+      }
+    ]
+  }
+}

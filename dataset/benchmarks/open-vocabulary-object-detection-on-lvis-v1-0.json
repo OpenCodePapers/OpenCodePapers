@@ -51,6 +51,16 @@
       },
       {
         "p": {
+          "name": "Explicit Semantic–Spatial Alignment for Open-Vocabulary Object Detection",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/3568"
+        },
+        "c": "",
+        "n": "ESSA-OVD (CLIP ViT-L/14)",
+        "d": "2026-09-08",
+        "m1": "41.3"
+      },
+      {
+        "p": {
           "name": "Region-centric Image-Language Pretraining for Open-Vocabulary Detection",
           "link": "https://arxiv.org/abs/2310.00161v2"
         },
@@ -59,6 +69,16 @@
         "d": "2023-09-29",
         "m1": "40.4",
         "m2": "45.8"
+      },
+      {
+        "p": {
+          "name": "Reconstructing CLIP for Open-Vocabulary Dense Perception",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Liu_Reconstructing_CLIP_for_Open-Vocabulary_Dense_Perception_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "DenseRC (ViT-L/14)",
+        "d": "2026-06-03",
+        "m1": "39.6"
       },
       {
         "p": {
@@ -122,6 +142,16 @@
       },
       {
         "p": {
+          "name": "Exploring Region-Word Alignment in Built-in Detector for Open-Vocabulary Object Detection",
+          "link": "https://openaccess.thecvf.com/content/CVPR2024/html/Zhang_Exploring_Region-Word_Alignment_in_Built-in_Detector_for_Open-Vocabulary_Object_Detection_CVPR_2024_paper.html"
+        },
+        "c": "",
+        "n": "BIND (ViT-L/16)",
+        "d": "2024-06-17",
+        "m1": "32.5"
+      },
+      {
+        "p": {
           "name": "CLIM: Contrastive Language-Image Mosaic for Region Representation",
           "link": "https://arxiv.org/abs/2312.11376v2"
         },
@@ -139,6 +169,16 @@
         "n": "RO-ViT",
         "d": "2023-05-11",
         "m1": "32.1"
+      },
+      {
+        "p": {
+          "name": "Open-World Objectness Modeling Unifies Novel Object Detection",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhang_Open-World_Objectness_Modeling_Unifies_Novel_Object_Detection_CVPR_2025_paper.html"
+        },
+        "c": "https://github.com/ai4math-shanzhang/owobj",
+        "n": "CORA+OWOBJ (extra data)",
+        "d": "2025-06-11",
+        "m1": "31.7"
       },
       {
         "p": {
@@ -169,6 +209,16 @@
         "n": "OV-DQUO(ViT-B/16)",
         "d": "2024-05-28",
         "m1": "29.7"
+      },
+      {
+        "p": {
+          "name": "Taming Self-Training for Open-Vocabulary Object Detection",
+          "link": "https://arxiv.org/abs/2308.06412"
+        },
+        "c": "https://github.com/xiaofeng94/sas-det",
+        "n": "SAS-Det",
+        "d": "2023-08-11",
+        "m1": "29.0"
       },
       {
         "p": {
@@ -211,6 +261,16 @@
         "n": "MSPL",
         "d": "2025-10-16",
         "m1": "24.8"
+      },
+      {
+        "p": {
+          "name": "Learning Background Prompts to Discover Implicit Knowledge for Open Vocabulary Object Detection",
+          "link": "https://arxiv.org/abs/2406.00510"
+        },
+        "c": "",
+        "n": "LBP (ours)",
+        "d": "2024-06-01",
+        "m1": "24.1"
       },
       {
         "p": {

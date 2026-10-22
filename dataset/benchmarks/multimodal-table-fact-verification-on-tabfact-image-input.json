@@ -1,0 +1,100 @@
+{
+  "title": "multimodal-table-fact-verification-on-tabfact-image-input",
+  "task-hierarchy": [
+    "Fact Checking",
+    "Table-based Fact Verification",
+    "Multimodal Table Fact Verification"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/wenhuchen/Table-Fact-Checking",
+    "paper": "TabFact: A Large-scale Dataset for Table-based Fact Verification"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "DoCoG: Mask-based Multi-Type Grounded Chain-of-Thought for Document QA",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/3695"
+        },
+        "c": "",
+        "n": "DoCoG (Ours)",
+        "d": "2026-09-08",
+        "m1": "89.4"
+      },
+      {
+        "p": {
+          "name": "TableMix: Enhancing Multimodal Table Reasoning in MLLMs from a Data-Centric Perspective",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Liu_TableMix_Enhancing_Multimodal_Table_Reasoning_in_MLLMs_from_a_Data-Centric_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "TableMix (extra data)",
+        "d": "2026-06-03",
+        "m1": "88.96"
+      },
+      {
+        "p": {
+          "name": "mPLUG-DocOwl 1.5: Unified Structure Learning for OCR-free Document Understanding",
+          "link": "https://arxiv.org/abs/2403.12895"
+        },
+        "c": "https://github.com/x-plug/mplug-docowl",
+        "n": "DocOwl 1.5 (extra data)",
+        "d": "2024-03-19",
+        "m1": "80.4"
+      },
+      {
+        "p": {
+          "name": "mPLUG-DocOwl2: High-resolution Compressing for OCR-free Multi-page Document Understanding",
+          "link": "https://arxiv.org/abs/2409.03420"
+        },
+        "c": "https://github.com/x-plug/mplug-docowl",
+        "n": "DocOwl2 (extra data)",
+        "d": "2024-09-05",
+        "m1": "78.2"
+      },
+      {
+        "p": {
+          "name": "M3Grounder: Mask-Based Multi-Span and Multi-Granular Grounding for Document QA",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Venna_M3Grounder_Mask-Based_Multi-Span_and_Multi-Granular_Grounding_for_Document_QA_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "M3Grounder-Q",
+        "d": "2026-06-03",
+        "m1": "60.4"
+      },
+      {
+        "p": {
+          "name": "mPLUG-DocOwl: Modularized Multimodal Large Language Model for Document Understanding",
+          "link": "https://arxiv.org/abs/2307.02499"
+        },
+        "c": "https://github.com/x-plug/mplug-docowl",
+        "n": "mPLUG-DocOwl (extra data)",
+        "d": "2023-07-04",
+        "m1": "60.2"
+      }
+    ]
+  }
+}

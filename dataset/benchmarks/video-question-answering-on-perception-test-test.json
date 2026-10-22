@@ -1,0 +1,88 @@
+{
+  "title": "video-question-answering-on-perception-test-test",
+  "task-hierarchy": [
+    "Video Question Answering"
+  ],
+  "dataset-info": {
+    "link": "https://arxiv.org/abs/2305.13786",
+    "paper": "Perception Test: A Diagnostic Benchmark for Multimodal Video Models"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "PerceptionLM: Open-Access Data and Models for Detailed Visual Understanding",
+          "link": "https://arxiv.org/abs/2504.13180v1"
+        },
+        "c": "https://github.com/facebookresearch/perception_models",
+        "n": "PLM-8B",
+        "d": "2025-04-17",
+        "m1": "82.7"
+      },
+      {
+        "p": {
+          "name": "Molmo2: Open Weights and Data for Vision-Language Models with Video Understanding and Grounding",
+          "link": "https://arxiv.org/abs/2601.10611"
+        },
+        "c": "https://github.com/allenai/molmo2",
+        "n": "Molmo2-8B",
+        "d": "2026-01-15",
+        "m1": "82.1"
+      },
+      {
+        "p": {
+          "name": "VideoLLaMA 3: Frontier Multimodal Foundation Models for Image and Video Understanding",
+          "link": "https://arxiv.org/abs/2501.13106v3"
+        },
+        "c": "https://github.com/damo-nlp-sg/videollama3",
+        "n": "VideoLLaMA3 7B",
+        "d": "2025-01-22",
+        "m1": "72.8"
+      },
+      {
+        "p": {
+          "name": "The Llama 3 Herd of Models",
+          "link": "https://arxiv.org/abs/2407.21783v3"
+        },
+        "c": "https://github.com/zhuzilin/ring-flash-attention",
+        "n": "Llama 3-V (70B)",
+        "d": "2024-07-31",
+        "m1": "60.8"
+      },
+      {
+        "p": {
+          "name": "Gemini: A Family of Highly Capable Multimodal Models",
+          "link": "https://arxiv.org/abs/2312.11805v5"
+        },
+        "c": "https://github.com/valdecy/pybibx",
+        "n": "Gemini Ultra",
+        "d": "2023-12-19",
+        "m1": "54.7"
+      }
+    ]
+  }
+}

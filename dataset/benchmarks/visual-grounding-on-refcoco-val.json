@@ -1,0 +1,118 @@
+{
+  "title": "visual-grounding-on-refcoco-val",
+  "task-hierarchy": [
+    "Visual Grounding"
+  ],
+  "dataset-info": {
+    "link": "https://cocodataset.org",
+    "paper": "Modeling Context in Referring Expressions"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "OpenVLThinkerV2: A Generalist Multimodal Reasoning Model for Multi-domain Visual Tasks",
+          "link": "https://arxiv.org/abs/2604.08539"
+        },
+        "c": "https://github.com/uclanlp/OpenVLThinker",
+        "n": "OpenVLThinkerV2 (Ours)",
+        "d": "2026-04-09",
+        "m1": "93.4"
+      },
+      {
+        "p": {
+          "name": "CoME-VL: Scaling Complementary Multi-Encoder Vision-Language Learning",
+          "link": "https://arxiv.org/abs/2604.03231"
+        },
+        "c": "https://github.com/mbzuai-oryx/CoME-VL",
+        "n": "CoME-VL",
+        "d": "2026-04-03",
+        "m1": "92.57"
+      },
+      {
+        "p": {
+          "name": "Unified-IO 2: Scaling Autoregressive Multimodal Models with Vision, Language, Audio, and Action",
+          "link": "https://arxiv.org/abs/2312.17172"
+        },
+        "c": "https://github.com/allenai/unified-io-2",
+        "n": "Unified-IO 2 XXL",
+        "d": "2023-12-28",
+        "m1": "90.7"
+      },
+      {
+        "p": {
+          "name": "Grounding DINO: Marrying DINO with Grounded Pre-Training for Open-Set Object Detection",
+          "link": "https://arxiv.org/abs/2303.05499v5"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Grounding DINO L (Swin-L, fine-tuned)",
+        "d": "2023-03-09",
+        "m1": "90.56"
+      },
+      {
+        "p": {
+          "name": "Qwen-VL: A Versatile Vision-Language Model for Understanding, Localization, Text Reading, and Beyond",
+          "link": "https://arxiv.org/abs/2308.12966v3"
+        },
+        "c": "https://github.com/qwenlm/qwen-vl",
+        "n": "Qwen-VL",
+        "d": "2023-08-24",
+        "m1": "89.36"
+      },
+      {
+        "p": {
+          "name": "SigLIP 2: Multilingual Vision-Language Encoders with Improved Semantic Understanding, Localization, and Dense Features",
+          "link": "https://arxiv.org/abs/2502.14786"
+        },
+        "c": "https://github.com/google-research/big_vision",
+        "n": "SigLIP 2 (g/16) + decoder",
+        "d": "2025-02-20",
+        "m1": "88.45"
+      },
+      {
+        "p": {
+          "name": "PaliGemma 2: A Family of Versatile VLMs for Transfer",
+          "link": "https://arxiv.org/abs/2412.03555"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "PaliGemma 2 10B",
+        "d": "2024-12-04",
+        "m1": "78.2"
+      },
+      {
+        "p": {
+          "name": "Artemis: Structured Visual Reasoning for Perception Policy Learning",
+          "link": "https://arxiv.org/abs/2512.01988"
+        },
+        "c": "https://github.com/WayneTomas/Artemis",
+        "n": "Artemis",
+        "d": "2025-12-01",
+        "m1": "71.7"
+      }
+    ]
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "title": "few-shot-domain-generalization-on-imagenet-sketch",
+  "task-hierarchy": [
+    "Domain Generalization",
+    "Few-Shot Domain Generalization"
+  ],
+  "dataset-info": {
+    "link": "https://arxiv.org/abs/1905.13549",
+    "paper": "Learning Robust Global Representations by Penalizing Local Predictive Power"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Task-Aware Clustering for Prompting Vision-Language Models",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Hao_Task-Aware_Clustering_for_Prompting_Vision-Language_Models_CVPR_2025_paper.html"
+        },
+        "c": "https://github.com/fushenghao/tac",
+        "n": "TAC",
+        "d": "2025-06-11",
+        "m1": "50.3"
+      },
+      {
+        "p": {
+          "name": "HeBA: Heterogeneous Bottleneck Adapters for Robust Vision-Language Models",
+          "link": "https://arxiv.org/abs/2603.16653"
+        },
+        "c": "https://github.com/Jahid12012021/VLM-HeBA",
+        "n": "HeBA",
+        "d": "2026-03-17",
+        "m1": "49.57"
+      },
+      {
+        "p": {
+          "name": "Prompt Learning via Meta-Regularization",
+          "link": "https://arxiv.org/abs/2404.00851v1"
+        },
+        "c": "https://github.com/mlvlab/prometar",
+        "n": "ProMetaR",
+        "d": "2024-04-01",
+        "m1": "49.55"
+      },
+      {
+        "p": {
+          "name": "SDSA: Shallow-Deep Squeezing Adapter for Vision-Language Models",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/4475"
+        },
+        "c": "",
+        "n": "SDSA (ViT-B/16)",
+        "d": "2026-09-08",
+        "m1": "49.37"
+      },
+      {
+        "p": {
+          "name": "MMA: Multi-Modal Adapter for Vision-Language Models",
+          "link": "https://openaccess.thecvf.com/content/CVPR2024/html/Yang_MMA_Multi-Modal_Adapter_for_Vision-Language_Models_CVPR_2024_paper.html"
+        },
+        "c": "https://github.com/zjjconan/multi-modal-adapter",
+        "n": "MMA",
+        "d": "2024-06-17",
+        "m1": "49.13"
+      },
+      {
+        "p": {
+          "name": "MMLoP: Multi-Modal Low-Rank Prompting for Efficient Vision-Language Adaptation",
+          "link": "https://arxiv.org/abs/2602.21397"
+        },
+        "c": "https://github.com/sajjad-ucsb/MMLoP",
+        "n": "MMLoP",
+        "d": "2026-02-24",
+        "m1": "49.07"
+      }
+    ]
+  }
+}

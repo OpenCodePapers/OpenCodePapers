@@ -1,0 +1,145 @@
+{
+  "title": "speech-editing-on-speecheditbench",
+  "task-hierarchy": [
+    "Speech Synthesis",
+    "Speech Editing"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/daxintan-cuhk/SpeechEditBench",
+    "paper": "SpeechEditBench: A Bilingual Multi-Attribute Benchmark for Instruction-Guided Speech Editing"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Content",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Emotion",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Prosody",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Paralinguistic",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "Acoustic",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "Style",
+        "sortable": "true"
+      },
+      {
+        "key": "m7",
+        "label": "Compositional",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "dots.tts.edit: Precisely Controlled Speech Editing with a Continuous Autoregressive Model",
+          "link": "https://arxiv.org/abs/2608.02673"
+        },
+        "c": "https://github.com/studio-dots-ai/dots.tts",
+        "n": "dots.tts.edit",
+        "d": "2026-08-02",
+        "m1": "94.5",
+        "m2": "3.29",
+        "m3": "89.33",
+        "m4": "9.0",
+        "m5": "32.4",
+        "m6": "40.67",
+        "m7": "6.5"
+      },
+      {
+        "p": {
+          "name": "AuK Technical Report: An Open-Source Foundational Model for Speech Generation and Editing",
+          "link": "https://arxiv.org/abs/2609.08936"
+        },
+        "c": "https://github.com/Tencent-Hunyuan/AuK",
+        "n": "AuK",
+        "d": "2026-09-08",
+        "m1": "91.83",
+        "m2": "9.94",
+        "m3": "71.33",
+        "m4": "38.5",
+        "m5": "37.07"
+      },
+      {
+        "p": {
+          "name": "AuK Technical Report: An Open-Source Foundational Model for Speech Generation and Editing",
+          "link": "https://arxiv.org/abs/2609.08936"
+        },
+        "c": "https://github.com/Tencent-Hunyuan/AuK",
+        "n": "AuK-Flash",
+        "d": "2026-09-08",
+        "m1": "87.5",
+        "m2": "6.29",
+        "m3": "70.0",
+        "m4": "39.25",
+        "m5": "30.26"
+      },
+      {
+        "p": {
+          "name": "SpeechEditBench: A Bilingual Multi-Attribute Benchmark for Instruction-Guided Speech Editing",
+          "link": "https://arxiv.org/abs/2606.01804"
+        },
+        "c": "https://github.com/daxintan-cuhk/SpeechEditBench",
+        "n": "Ming-UniAudio",
+        "d": "2026-06-03",
+        "m1": "76.46",
+        "m2": "3.43",
+        "m3": "26.5",
+        "m4": "11.25",
+        "m5": "25.85",
+        "m6": "22.17",
+        "m7": "1.76"
+      },
+      {
+        "p": {
+          "name": "SpeechEditBench: A Bilingual Multi-Attribute Benchmark for Instruction-Guided Speech Editing",
+          "link": "https://arxiv.org/abs/2606.01804"
+        },
+        "c": "https://github.com/daxintan-cuhk/SpeechEditBench",
+        "n": "Step-Audio-EditX",
+        "d": "2026-06-03",
+        "m1": "16.5",
+        "m2": "7.71",
+        "m3": "20.13",
+        "m4": "31.25",
+        "m5": "22.89",
+        "m6": "49.67",
+        "m7": "2.01"
+      }
+    ]
+  }
+}

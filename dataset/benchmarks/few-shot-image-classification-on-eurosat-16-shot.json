@@ -1,0 +1,109 @@
+{
+  "title": "few-shot-image-classification-on-eurosat-16-shot",
+  "task-hierarchy": [
+    "Image Classification",
+    "Few-Shot Image Classification"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/phelber/EuroSAT",
+    "paper": "EuroSAT: A Novel Dataset and Deep Learning Benchmark for Land Use and Land Cover Classification"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "ImagineFSL: Self-Supervised Pretraining Matters on Imagined Base Set for VLM-based Few-shot Learning",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Yang_ImagineFSL_Self-Supervised_Pretraining_Matters_on_Imagined_Base_Set_for_VLM-based_CVPR_2025_paper.html"
+        },
+        "c": "https://github.com/haoyuanyang-2023/imaginefsl",
+        "n": "ImagineFSL LoRA (16-shot)",
+        "d": "2025-06-11",
+        "m1": "95"
+      },
+      {
+        "p": {
+          "name": "Adaptive Parameter Selection for Tuning Vision-Language Models",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhang_Adaptive_Parameter_Selection_for_Tuning_Vision-Language_Models_CVPR_2025_paper.html"
+        },
+        "c": "",
+        "n": "CLIP-AST (ViT-L/14)",
+        "d": "2025-06-11",
+        "m1": "94.45"
+      },
+      {
+        "p": {
+          "name": "BioMedVR: Confusion-Aware Mixture-of-Prompt Experts for Biomedical Visual Reprogramming",
+          "link": "https://arxiv.org/abs/2606.24740"
+        },
+        "c": "",
+        "n": "BioMedVR",
+        "d": "2026-06-23",
+        "m1": "93.9"
+      },
+      {
+        "p": {
+          "name": "Training-free Discriminative Patch Mining for Robust Few-Shot Recognition with CLIP",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/5508"
+        },
+        "c": "",
+        "n": "CDPS (OpenCLIP ViT-B/16, 16-shot)",
+        "d": "2026-09-08",
+        "m1": "87.14"
+      },
+      {
+        "p": {
+          "name": "BiCLIP: Domain Canonicalization via Structured Geometric Transformation",
+          "link": "https://arxiv.org/abs/2603.08942"
+        },
+        "c": "https://github.com/QuantitativeImagingLaboratory/BilinearCLIP",
+        "n": "BiCLIP (16-shot)",
+        "d": "2026-03-09",
+        "m1": "85.13"
+      },
+      {
+        "p": {
+          "name": "LP++: A Surprisingly Strong Linear Probe for Few-Shot CLIP",
+          "link": "https://arxiv.org/abs/2404.02285"
+        },
+        "c": "https://github.com/fereshteshakeri/fewshot-clip-strong-baseline",
+        "n": "LP++ (16-shot)",
+        "d": "2024-04-02",
+        "m1": "80.53"
+      },
+      {
+        "p": {
+          "name": "AdaBoosting Text Prompts for Vision-Language Models",
+          "link": "https://arxiv.org/abs/2607.00684"
+        },
+        "c": "https://github.com/ml-postech/tpb",
+        "n": "TPB (16-shot, OpenAI CLIP RN50)",
+        "d": "2026-07-01",
+        "m1": "66.9"
+      }
+    ]
+  }
+}

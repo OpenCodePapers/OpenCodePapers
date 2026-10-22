@@ -1,0 +1,89 @@
+{
+  "title": "3d-object-detection-on-kitti-cars-moderate",
+  "task-hierarchy": [
+    "Object Detection",
+    "3D Object Detection"
+  ],
+  "dataset-info": {
+    "link": "http://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d",
+    "paper": "Are we ready for autonomous driving? The KITTI vision benchmark suite"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AP",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Focal Sparse Convolutional Networks for 3D Object Detection",
+          "link": "https://arxiv.org/abs/2204.12463"
+        },
+        "c": "https://github.com/dvlab-research/focalsconv",
+        "n": "Focals Conv-F",
+        "d": "2022-04-26",
+        "m1": "82.28"
+      },
+      {
+        "p": {
+          "name": "PG-RCNN: Semantic Surface Point Generation for 3D Object Detection",
+          "link": "https://arxiv.org/abs/2307.12637"
+        },
+        "c": "https://github.com/quotation2520/pg-rcnn",
+        "n": "PG-RCNN",
+        "d": "2023-07-24",
+        "m1": "82.13"
+      },
+      {
+        "p": {
+          "name": "PV-RCNN++: Point-Voxel Feature Set Abstraction With Local Vector Representation for 3D Object Detection",
+          "link": "https://arxiv.org/abs/2102.00463v3"
+        },
+        "c": "https://github.com/open-mmlab/OpenPCDet",
+        "n": "PV-RCNN++",
+        "d": "2021-01-31",
+        "m1": "81.88"
+      },
+      {
+        "p": {
+          "name": "M3DeTR: Multi-representation, Multi-scale, Mutual-relation 3D Object Detection with Transformers",
+          "link": "https://arxiv.org/abs/2104.11896v3"
+        },
+        "c": "https://github.com/rayguan97/M3DeTR",
+        "n": "M3DeTR",
+        "d": "2021-04-24",
+        "m1": "81.73"
+      },
+      {
+        "p": {
+          "name": "CenterNet3D: An Anchor Free Object Detector for Point Cloud",
+          "link": "https://arxiv.org/abs/2007.07214"
+        },
+        "c": "https://github.com/wangguojun2018/CenterNet3d",
+        "n": "CenterNet3D Split",
+        "d": "2020-07-13",
+        "m1": "79.23"
+      }
+    ]
+  }
+}

@@ -56,6 +56,16 @@
       },
       {
         "p": {
+          "name": "Reconstructing CLIP for Open-Vocabulary Dense Perception",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Liu_Reconstructing_CLIP_for_Open-Vocabulary_Dense_Perception_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "DenseRC (ViT-L/14)",
+        "d": "2026-06-03",
+        "m1": "41.5"
+      },
+      {
+        "p": {
           "name": "DiSa: Saliency-Aware Foreground-Background Disentangled Framework for Open-Vocabulary Semantic Segmentation",
           "link": "https://arxiv.org/abs/2601.20064"
         },
@@ -63,6 +73,16 @@
         "n": "DiSa (CLIP ViT-L/14)",
         "d": "2026-01-27",
         "m1": "38.9"
+      },
+      {
+        "p": {
+          "name": "SigLIP 2: Multilingual Vision-Language Encoders with Improved Semantic Understanding, Localization, and Dense Features",
+          "link": "https://arxiv.org/abs/2502.14786"
+        },
+        "c": "https://github.com/google-research/big_vision",
+        "n": "SigLIP 2 (L/16) + Cat-Seg",
+        "d": "2025-02-20",
+        "m1": "38.8"
       },
       {
         "p": {
@@ -102,6 +122,16 @@
         "c": "https://github.com/hvision-nku/maskclippp",
         "n": "MaskCLIP++",
         "d": "2024-12-16",
+        "m1": "38.2"
+      },
+      {
+        "p": {
+          "name": "Understanding Fine-tuning CLIP for Open-vocabulary Semantic Segmentation in Hyperbolic Space",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Peng_Understanding_Fine-tuning_CLIP_for_Open-vocabulary_Semantic_Segmentation_in_Hyperbolic_Space_CVPR_2025_paper.html"
+        },
+        "c": "https://github.com/sjtu-deepvisionlab/hyperclip",
+        "n": "HyperCLIP (ViT-L/14)",
+        "d": "2025-06-11",
         "m1": "38.2"
       },
       {

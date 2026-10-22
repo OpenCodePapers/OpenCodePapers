@@ -46,6 +46,16 @@
       },
       {
         "p": {
+          "name": "ABot-M0.5: Unified Mobility-and-Manipulation World Action Model",
+          "link": "https://arxiv.org/abs/2607.00678"
+        },
+        "c": "",
+        "n": "ABot-M0.5 (RoboTwin 2.0 Randomized)",
+        "d": "2026-07-01",
+        "m1": "94.2"
+      },
+      {
+        "p": {
           "name": "Long-WAM: Scaling the Context of World-Action Models",
           "link": "https://arxiv.org/abs/2610.10528"
         },
@@ -53,6 +63,16 @@
         "n": "Long-WAM (IDM)",
         "d": "2026-10-07",
         "m1": "94.2"
+      },
+      {
+        "p": {
+          "name": "Qwen-RobotManip Technical Report: Alignment Unlocks Scale for Robotic Manipulation Foundation Models",
+          "link": "https://arxiv.org/abs/2606.17846"
+        },
+        "c": "https://github.com/qwenlm/qwen-robotmanip",
+        "n": "Qwen-RobotManip-Context (RoboTwin Hard)",
+        "d": "2026-06-17",
+        "m1": "94.0"
       },
       {
         "p": {
@@ -103,6 +123,16 @@
         "n": "UNITAS",
         "d": "2026-10-08",
         "m1": "93.04"
+      },
+      {
+        "p": {
+          "name": "InternVLA-A1.5: Unifying Understanding, Latent Foresight, and Action for Compositional Generalization",
+          "link": "https://arxiv.org/abs/2607.04988"
+        },
+        "c": "https://github.com/internrobotics/internvla-a-series",
+        "n": "InternVLA-A1.5-RoboTwin (Randomized)",
+        "d": "2026-07-06",
+        "m1": "93.0"
       },
       {
         "p": {
@@ -236,6 +266,16 @@
       },
       {
         "p": {
+          "name": "InternVLA-A1: Unifying Understanding, Generation and Action for Robotic Manipulation",
+          "link": "https://arxiv.org/abs/2601.02456"
+        },
+        "c": "https://github.com/InternRobotics/InternVLA-A1",
+        "n": "InternVLA-A1 (3B, RoboTwin Hard)",
+        "d": "2026-01-05",
+        "m1": "89.6"
+      },
+      {
+        "p": {
           "name": "StarVLA: A Lego-like Codebase for Vision-Language-Action Model Developing",
           "link": "https://arxiv.org/abs/2604.05014"
         },
@@ -273,6 +313,36 @@
         "n": "Dream4ACT",
         "d": "2026-09-30",
         "m1": "87.46"
+      },
+      {
+        "p": {
+          "name": "Qwen-VLA: Unifying Vision-Language-Action Modeling across Tasks, Environments, and Robot Embodiments",
+          "link": "https://arxiv.org/abs/2605.30280"
+        },
+        "c": "https://github.com/qwenlm/qwen-vla",
+        "n": "Qwen-VLA-Instruct (RoboTwin Hard)",
+        "d": "2026-05-28",
+        "m1": "87.2"
+      },
+      {
+        "p": {
+          "name": "Motus: A Unified Latent Action World Model",
+          "link": "https://arxiv.org/abs/2512.13030"
+        },
+        "c": "",
+        "n": "Motus (RoboTwin 2.0 Randomized)",
+        "d": "2025-12-15",
+        "m1": "87.02"
+      },
+      {
+        "p": {
+          "name": "A Pragmatic VLA Foundation Model",
+          "link": "https://arxiv.org/abs/2601.18692"
+        },
+        "c": "https://github.com/robbyant/lingbot-vla",
+        "n": "LingBot-VLA (RoboTwin 2.0 Randomized) (extra data)",
+        "d": "2026-01-26",
+        "m1": "86.68"
       },
       {
         "p": {
@@ -316,6 +386,16 @@
       },
       {
         "p": {
+          "name": "EventVLA: Event-Driven Visual Evidence Memory for Long-Horizon Vision-Language-Action Policies",
+          "link": "https://arxiv.org/abs/2606.20092"
+        },
+        "c": "https://github.com/InternRobotics/EventVLA",
+        "n": "EventVLA (RoboTwin 2.0 Hard)",
+        "d": "2026-06-18",
+        "m1": "81.6"
+      },
+      {
+        "p": {
           "name": "Native Action-Prior Learning from Videos for World Action Models",
           "link": "https://arxiv.org/abs/2610.03391"
         },
@@ -343,6 +423,16 @@
         "n": "ViGAR",
         "d": "2026-10-01",
         "m1": "67.02"
+      },
+      {
+        "p": {
+          "name": "X-VLA: Soft-Prompted Transformer as Scalable Cross-Embodiment Vision-Language-Action Model",
+          "link": "https://arxiv.org/abs/2510.10274"
+        },
+        "c": "https://github.com/2toinf/x-vla",
+        "n": "X-VLA-0.9B (RoboTwin-2.0 Hard)",
+        "d": "2025-10-11",
+        "m1": "39.0"
       }
     ]
   }

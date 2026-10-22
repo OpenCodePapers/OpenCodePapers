@@ -56,6 +56,27 @@
     "items": [
       {
         "p": {
+          "name": "MAP: Unleashing Hybrid Mamba-Transformer Vision Backbone's Potential with Masked Autoregressive Pretraining",
+          "link": "https://arxiv.org/abs/2410.00871"
+        },
+        "c": "",
+        "n": "HybridMT3D+MAP (extra data)",
+        "d": "2024-10-01",
+        "m1": "95.9"
+      },
+      {
+        "p": {
+          "name": "Test-Time Augmentation for 3D Point Cloud Classification and Segmentation",
+          "link": "https://arxiv.org/abs/2311.13152"
+        },
+        "c": "",
+        "n": "Ours",
+        "d": "2023-11-22",
+        "m1": "95.48",
+        "m2": "92.96"
+      },
+      {
+        "p": {
           "name": "Parameter-Efficient Fine-Tuning in Spectral Domain for Point Cloud Learning",
           "link": "https://arxiv.org/abs/2410.08114v1"
         },
@@ -84,6 +105,16 @@
         "c": "https://github.com/qizekun/ShapeLLM",
         "n": "ReCon++",
         "d": "2024-02-27",
+        "m1": "95.0"
+      },
+      {
+        "p": {
+          "name": "Point Ladder Tuning: Parameter-Efficient Hierarchical Adaptation for 3D Point Cloud Understanding",
+          "link": "https://arxiv.org/abs/2607.19171"
+        },
+        "c": "https://github.com/junlinchang/eccv2026-plt",
+        "n": "PointGPT-L + PLT (extra data)",
+        "d": "2026-07-21",
         "m1": "95.0"
       },
       {
@@ -315,6 +346,17 @@
       },
       {
         "p": {
+          "name": "Point Clouds Meets Physics: Dynamic Acoustic Field Fitting Network for Point Cloud Understanding",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Wang_Point_Clouds_Meets_Physics_Dynamic_Acoustic_Field_Fitting_Network_for_CVPR_2025_paper.html"
+        },
+        "c": "",
+        "n": "DAFNet (w/ voting)",
+        "d": "2025-06-11",
+        "m1": "94.1",
+        "m2": "92.2"
+      },
+      {
+        "p": {
           "name": "MKConv: Multidimensional Feature Representation for Point Cloud Analysis",
           "link": "https://arxiv.org/abs/2107.12655v3"
         },
@@ -441,6 +483,17 @@
         "n": "SimpleView-DGCNN",
         "d": "2021-06-09",
         "m1": "93.9"
+      },
+      {
+        "p": {
+          "name": "Pix4Point: Image Pretrained Standard Transformers for 3D Point Cloud Understanding",
+          "link": "https://arxiv.org/abs/2208.12259"
+        },
+        "c": "https://github.com/guochengqian/pointnext",
+        "n": "Pix4Point (pretrained) (extra data)",
+        "d": "2022-08-25",
+        "m1": "93.9",
+        "m2": "90.1"
       },
       {
         "p": {
@@ -637,6 +690,17 @@
       },
       {
         "p": {
+          "name": "CamPoint: Boosting Point Cloud Segmentation with Virtual Camera",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhang_CamPoint_Boosting_Point_Cloud_Segmentation_with_Virtual_Camera_CVPR_2025_paper.html"
+        },
+        "c": "",
+        "n": "CamPoint",
+        "d": "2025-06-11",
+        "m1": "93.6",
+        "m2": "91.3"
+      },
+      {
+        "p": {
           "name": "PointCubeNet: 3D Part-level Reasoning with 3x3x3 Point Cloud Blocks",
           "link": "https://arxiv.org/abs/2511.06744"
         },
@@ -695,6 +759,16 @@
         "c": "https://github.com/yahuiliu99/pointcont",
         "n": "PointConT",
         "d": "2023-03-08",
+        "m1": "93.5"
+      },
+      {
+        "p": {
+          "name": "Dynamic Adapter Meets Prompt Tuning: Parameter-Efficient Transfer Learning for Point Cloud Analysis",
+          "link": "https://arxiv.org/abs/2403.01439"
+        },
+        "c": "https://github.com/lmd0311/dapt",
+        "n": "DAPT (Point-MAE backbone)",
+        "d": "2024-03-03",
         "m1": "93.5"
       },
       {
@@ -782,6 +856,26 @@
         "c": "https://github.com/mlvlab/SageMix",
         "n": "PointNet++ + SageMix",
         "d": "2022-10-13",
+        "m1": "93.3"
+      },
+      {
+        "p": {
+          "name": "A Cross Branch Fusion-Based Contrastive Learning Framework for Point Cloud Self-supervised Learning",
+          "link": "https://arxiv.org/abs/2505.24641"
+        },
+        "c": "",
+        "n": "PoCCA (Transformer backbone)",
+        "d": "2025-05-30",
+        "m1": "93.3"
+      },
+      {
+        "p": {
+          "name": "A Unified Approach to Interpreting Self-supervised Pre-training Methods for 3D Point Clouds via Interactions",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Li_A_Unified_Approach_to_Interpreting_Self-supervised_Pre-training_Methods_for_3D_CVPR_2025_paper.html"
+        },
+        "c": "",
+        "n": "DGCNN + Linteraction",
+        "d": "2025-06-11",
         "m1": "93.3"
       },
       {

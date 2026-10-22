@@ -58,8 +58,8 @@
         "c": "",
         "n": "STCDiT-tiny (extra data)",
         "d": "2025-11-24",
-        "m2": "0.8451",
-        "m1": "28.59"
+        "m1": "28.59",
+        "m2": "0.8451"
       },
       {
         "p": {
@@ -69,8 +69,30 @@
         "c": "",
         "n": "DAM-VSR (ResShift ISR) (extra data)",
         "d": "2025-07-01",
-        "m2": "0.776",
-        "m1": "27.011"
+        "m1": "27.011",
+        "m2": "0.776"
+      },
+      {
+        "p": {
+          "name": "SparkVSR: Interactive Video Super-Resolution via Sparse Keyframe Propagation",
+          "link": "https://arxiv.org/abs/2603.16864"
+        },
+        "c": "https://github.com/taco-group/SparkVSR",
+        "n": "SparkVSR (no reference)",
+        "d": "2026-03-17",
+        "m1": "26.62",
+        "m2": "0.7756"
+      },
+      {
+        "p": {
+          "name": "DOVE: Efficient One-Step Diffusion Model for Real-World Video Super-Resolution",
+          "link": "https://arxiv.org/abs/2505.16239"
+        },
+        "c": "https://github.com/zhengchen1999/dove",
+        "n": "DOVE",
+        "d": "2025-05-22",
+        "m1": "26.48",
+        "m2": "0.7827"
       },
       {
         "p": {
@@ -80,8 +102,19 @@
         "c": "https://github.com/yuehan717/realviformer",
         "n": "RealViformer",
         "d": "2024-07-19",
-        "m2": "0.7609",
-        "m1": "26.42"
+        "m1": "26.42",
+        "m2": "0.7609"
+      },
+      {
+        "p": {
+          "name": "SeedVR2: One-Step Video Restoration via Diffusion Adversarial Post-Training",
+          "link": "https://arxiv.org/abs/2506.05301"
+        },
+        "c": "https://github.com/bytedance-seed/seedvr",
+        "n": "SeedVR2-7B",
+        "d": "2025-06-05",
+        "m1": "26.26",
+        "m2": "0.798"
       },
       {
         "p": {
@@ -91,8 +124,8 @@
         "c": "https://github.com/ianyeung/mgld-vsr",
         "n": "MGLD-VSR",
         "d": "2023-12-01",
-        "m2": "0.7548",
-        "m1": "25.99"
+        "m1": "25.99",
+        "m2": "0.7548"
       },
       {
         "p": {
@@ -107,14 +140,25 @@
       },
       {
         "p": {
+          "name": "SwiftVR: Real-Time One-Step Generative Video Restoration",
+          "link": "https://arxiv.org/abs/2606.09516"
+        },
+        "c": "https://github.com/H-oliday/SwiftVR",
+        "n": "SwiftVR",
+        "d": "2026-06-08",
+        "m1": "25.58",
+        "m2": "0.7659"
+      },
+      {
+        "p": {
           "name": "DUO-VSR: Dual-Stream Distillation for One-Step Video Super-Resolution",
           "link": "https://arxiv.org/abs/2603.22271"
         },
         "c": "",
         "n": "DUO-VSR (extra data)",
         "d": "2026-03-23",
-        "m2": "0.726",
-        "m1": "24.94"
+        "m1": "24.94",
+        "m2": "0.726"
       },
       {
         "p": {
@@ -135,8 +179,8 @@
         "c": "",
         "n": "FastVSR (f8 encoder / f16 decoder) (extra data)",
         "d": "2025-09-29",
-        "m2": "0.7184",
-        "m1": "24.36"
+        "m1": "24.36",
+        "m2": "0.7184"
       },
       {
         "p": {
@@ -146,8 +190,8 @@
         "c": "",
         "n": "LSGQuant W4A4 (extra data)",
         "d": "2026-02-03",
-        "m2": "0.7130",
-        "m1": "23.80"
+        "m1": "23.80",
+        "m2": "0.7130"
       },
       {
         "p": {

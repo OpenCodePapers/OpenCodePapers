@@ -465,6 +465,68 @@
         "n": "Arc+DDLN (R100)",
         "d": "2026-09-08",
         "m3": "96.96%"
+      },
+      {
+        "p": {
+          "name": "Partial FC: Training 10 Million Identities on a Single Machine",
+          "link": "https://arxiv.org/abs/2010.05222v2"
+        },
+        "c": "https://github.com/deepinsight/insightface",
+        "n": "Partial FC ResNet100 + CosFace (Glint360K, r=1.0)",
+        "d": "2020-10-11",
+        "m3": "97.3%"
+      },
+      {
+        "p": {
+          "name": "SwinFace: A Multi-task Transformer for Face Recognition, Expression Recognition, Age Estimation and Attribute Estimation",
+          "link": "https://arxiv.org/abs/2308.11509"
+        },
+        "c": "https://github.com/lxq1000/swinface",
+        "n": "SwinFace",
+        "d": "2023-08-22",
+        "m3": "96.73%"
+      },
+      {
+        "p": {
+          "name": "TransFace: Calibrating Transformer Training for Face Recognition from a Data-Centric Perspective",
+          "link": "https://arxiv.org/abs/2308.10133"
+        },
+        "c": "https://github.com/danjun6737/transface",
+        "n": "TransFace-L (WebFace42M)",
+        "d": "2023-08-20",
+        "m3": "98.16%"
+      },
+      {
+        "p": {
+          "name": "KeyPoint Relative Position Encoding for Face Recognition",
+          "link": "https://arxiv.org/abs/2403.14852"
+        },
+        "c": "https://github.com/mk-minchul/kprpe",
+        "n": "AdaFace ViT Base KP-RPE (WebFace12M)",
+        "d": "2024-03-21",
+        "m3": "97.82%"
+      },
+      {
+        "p": {
+          "name": "ARoFace: Alignment Robustness to Improve Low-Quality Face Recognition",
+          "link": "https://arxiv.org/abs/2407.14972"
+        },
+        "c": "https://github.com/msed-ebrahimi/aroface",
+        "n": "AdaFace+ARoFace (WebFace12M)",
+        "d": "2024-07-20",
+        "m3": "97.6%",
+        "m8": "97.61",
+        "m9": "98.57"
+      },
+      {
+        "p": {
+          "name": "SFace: Sigmoid-Constrained Hypersphere Loss for Robust Face Recognition",
+          "link": "https://arxiv.org/abs/2205.12010"
+        },
+        "c": "https://github.com/zhongyy/SFace",
+        "n": "SFace (MS1MV2, ResNet100)",
+        "d": "2022-05-24",
+        "m3": "96.11%"
       }
     ]
   }

@@ -76,6 +76,36 @@
     "items": [
       {
         "p": {
+          "name": "SAM 3: Segment Anything with Concepts",
+          "link": "https://arxiv.org/abs/2511.16719"
+        },
+        "c": "https://github.com/facebookresearch/sam3",
+        "n": "SAM 3 (zero-shot)",
+        "d": "2025-11-20",
+        "m1": "92.2"
+      },
+      {
+        "p": {
+          "name": "Efficient Video Object Segmentation and Tracking with Recurrent Dynamic Submodel",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Tang_Efficient_Video_Object_Segmentation_and_Tracking_with_Recurrent_Dynamic_Submodel_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "SAM2 + RDS 0.9",
+        "d": "2026-06-03",
+        "m1": "92.0"
+      },
+      {
+        "p": {
+          "name": "SeC: Advancing Complex Video Object Segmentation via Progressive Concept Construction",
+          "link": "https://arxiv.org/abs/2507.15852"
+        },
+        "c": "https://github.com/OpenIXCLab/SeC",
+        "n": "SeC-4B (extra data)",
+        "d": "2025-07-21",
+        "m1": "91.3"
+      },
+      {
+        "p": {
           "name": "SAM 2: Segment Anything in Images and Videos",
           "link": "https://arxiv.org/abs/2408.00714v2"
         },
@@ -100,6 +130,16 @@
       },
       {
         "p": {
+          "name": "SAM2Long: Enhancing SAM 2 for Long Video Segmentation with a Training-Free Memory Tree",
+          "link": "https://arxiv.org/abs/2410.16268v2"
+        },
+        "c": "https://github.com/mark12ding/sam2long",
+        "n": "SAM2.1Long-L (extra data)",
+        "d": "2024-10-21",
+        "m1": "90.2"
+      },
+      {
+        "p": {
           "name": "Look Before You Match: Instance Understanding Matters in Video Object Segmentation",
           "link": "https://arxiv.org/abs/2212.06826v1"
         },
@@ -121,6 +161,16 @@
         "m1": "89.5",
         "m2": "86.3",
         "m5": "92.6"
+      },
+      {
+        "p": {
+          "name": "Efficient Track Anything",
+          "link": "https://arxiv.org/abs/2411.18933"
+        },
+        "c": "https://github.com/yformer/efficienttam",
+        "n": "EfficientTAM-S (extra data)",
+        "d": "2024-11-28",
+        "m1": "89.2"
       },
       {
         "p": {
@@ -208,6 +258,16 @@
         "m2": "84.0",
         "m5": "91.4",
         "m8": "22.6"
+      },
+      {
+        "p": {
+          "name": "EdgeTAM: On-Device Track Anything Model",
+          "link": "https://arxiv.org/abs/2501.07256"
+        },
+        "c": "https://github.com/facebookresearch/edgetam",
+        "n": "EdgeTAM",
+        "d": "2025-01-13",
+        "m1": "87.7"
       },
       {
         "p": {
@@ -473,6 +533,16 @@
       },
       {
         "p": {
+          "name": "UniRef++: Segment Every Reference Object in Spatial and Temporal Spaces",
+          "link": "https://arxiv.org/abs/2312.15715v1"
+        },
+        "c": "https://github.com/foundationvision/uniref",
+        "n": "UniRef++-L (joint multi-task, mask propagation) (extra data)",
+        "d": "2023-12-25",
+        "m1": "83.9"
+      },
+      {
+        "p": {
           "name": "Associating Objects with Transformers for Video Object Segmentation",
           "link": "https://arxiv.org/abs/2106.02638v3"
         },
@@ -684,6 +754,16 @@
         "m5": "82.3",
         "m8": "51.4",
         "m9": "5.7"
+      },
+      {
+        "p": {
+          "name": "Segment Anything Meets Point Tracking",
+          "link": "https://arxiv.org/abs/2307.01197"
+        },
+        "c": "https://github.com/syscv/sam-pt",
+        "n": "SAM-PT (CoTracker) (extra data)",
+        "d": "2023-07-03",
+        "m1": "79.4"
       },
       {
         "p": {

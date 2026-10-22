@@ -296,6 +296,46 @@
         "n": "ElasticFace-Cos+ (MS1MV2)",
         "d": "2021-09-20",
         "m3": "95.43"
+      },
+      {
+        "p": {
+          "name": "ArcFace: Additive Angular Margin Loss for Deep Face Recognition",
+          "link": "https://arxiv.org/abs/1801.07698v4"
+        },
+        "c": "https://github.com/deepinsight/insightface",
+        "n": "IBUG-500K, R100, ArcFace",
+        "d": "2018-01-23",
+        "m3": "96.02"
+      },
+      {
+        "p": {
+          "name": "Sparsity-Inducing Divergence Losses for Biometric Verification",
+          "link": "https://arxiv.org/abs/2606.31664"
+        },
+        "c": "",
+        "n": "Q-Margin",
+        "d": "2026-06-30",
+        "m3": "96.44"
+      },
+      {
+        "p": {
+          "name": "Learning to Attract and Repel: Dual Quality Margin Learning for Face Recognition (DQM-Face)",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/5862"
+        },
+        "c": "",
+        "n": "DQM-Face α=0.4",
+        "d": "2026-09-08",
+        "m3": "95.38"
+      },
+      {
+        "p": {
+          "name": "Noise-Robust Face Recognition via Non-target Similarity Distribution Guided Sample Selection",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/5198"
+        },
+        "c": "",
+        "n": "Arc+DDLN (R100)",
+        "d": "2026-09-08",
+        "m3": "95.68"
       }
     ]
   }

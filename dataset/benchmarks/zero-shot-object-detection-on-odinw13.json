@@ -1,0 +1,90 @@
+{
+  "title": "zero-shot-object-detection-on-odinw13",
+  "task-hierarchy": [
+    "Object Detection",
+    "Open Vocabulary Object Detection",
+    "Zero-Shot Object Detection"
+  ],
+  "dataset-info": {
+    "link": "https://eval.ai/web/challenges/challenge-page/1839/overview",
+    "paper": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mAP",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Grounding DINO 1.5: Advance the \"Edge\" of Open-Set Object Detection",
+          "link": "https://arxiv.org/abs/2405.10300v2"
+        },
+        "c": "https://github.com/mit-han-lab/efficientvit",
+        "n": "Grounding DINO 1.5 Pro (zero-shot)",
+        "d": "2024-05-16",
+        "m1": "58.7"
+      },
+      {
+        "p": {
+          "name": "An Open and Comprehensive Pipeline for Unified Object Grounding and Detection",
+          "link": "https://arxiv.org/abs/2401.02361v2"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection",
+        "n": "MM-Grounding-DINO-T (zero-shot)",
+        "d": "2024-01-04",
+        "m1": "53.3"
+      },
+      {
+        "p": {
+          "name": "Scaling Open-Vocabulary Object Detection",
+          "link": "https://arxiv.org/abs/2306.09683v3"
+        },
+        "c": "https://github.com/google-research/scenic/tree/main/scenic/projects/owl_vit",
+        "n": "OWL-ST (CLIP L/14, zero-shot)",
+        "d": "2023-06-16",
+        "m1": "53.0"
+      },
+      {
+        "p": {
+          "name": "Qwen3-VL Technical Report",
+          "link": "https://arxiv.org/abs/2511.21631"
+        },
+        "c": "https://github.com/QwenLM/Qwen3-VL",
+        "n": "Qwen3-VL-235B-A22B-Instruct (zero-shot)",
+        "d": "2025-11-26",
+        "m1": "48.6"
+      },
+      {
+        "p": {
+          "name": "Qwen3.5: Towards Native Multimodal Agents",
+          "link": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Qwen3.5-397B-A17B (zero-shot)",
+        "d": "2026-02-16",
+        "m1": "47.0"
+      }
+    ]
+  }
+}

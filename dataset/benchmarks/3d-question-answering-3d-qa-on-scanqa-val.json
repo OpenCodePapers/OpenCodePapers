@@ -1,0 +1,99 @@
+{
+  "title": "3d-question-answering-3d-qa-on-scanqa-val",
+  "task-hierarchy": [
+    "Visual Question Answering (VQA)",
+    "3D Question Answering (3D-QA)"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/atr-dbi/scanqa",
+    "paper": "ScanQA: 3D Question Answering for Spatial Scene Understanding"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "CIDEr",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "GPT4Scene: Understand 3D Scenes from Videos with Vision-Language Models",
+          "link": "https://arxiv.org/abs/2501.01428"
+        },
+        "c": "https://github.com/Qi-Zhangyang/GPT4Scene",
+        "n": "Qwen2-VL-7B (GPT4Scene)-HDM",
+        "d": "2025-01-02",
+        "m1": "96.3"
+      },
+      {
+        "p": {
+          "name": "GenSplat: Bridging the Generalization Gap in 3DGS Language Comprehension",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Liu_GenSplat_Bridging_the_Generalization_Gap_in_3DGS_Language_Comprehension_CVPR_2026_paper.html"
+        },
+        "c": "https://github.com/fawnliu/gensplat",
+        "n": "GenSplat (extra data)",
+        "d": "2026-06-03",
+        "m1": "95.1"
+      },
+      {
+        "p": {
+          "name": "3D-LLaVA: Towards Generalist 3D LMMs with Omni Superpoint Transformer",
+          "link": "https://arxiv.org/abs/2501.01163"
+        },
+        "c": "https://github.com/djiajunustc/3d-llava",
+        "n": "3D-LLaVA",
+        "d": "2025-01-02",
+        "m1": "92.6"
+      },
+      {
+        "p": {
+          "name": "Unifying 2D and 3D Vision-Language Understanding",
+          "link": "https://arxiv.org/abs/2503.10745"
+        },
+        "c": "https://github.com/facebookresearch/univlg",
+        "n": "UniVLG",
+        "d": "2025-03-13",
+        "m1": "78.5"
+      },
+      {
+        "p": {
+          "name": "Lexicon3D: Probing Visual Foundation Models for Complex 3D Scene Understanding",
+          "link": "https://arxiv.org/abs/2409.03757v3"
+        },
+        "c": "https://github.com/yunzeman/lexicon3d",
+        "n": "Lexicon3D (DINOv2)",
+        "d": "2024-09-05",
+        "m1": "73.2"
+      },
+      {
+        "p": {
+          "name": "Situational Awareness Matters in 3D Vision Language Reasoning",
+          "link": "https://arxiv.org/abs/2406.07544v2"
+        },
+        "c": "https://github.com/YunzeMan/Situation3D",
+        "n": "Situation3D",
+        "d": "2024-06-11",
+        "m1": "68.8"
+      }
+    ]
+  }
+}

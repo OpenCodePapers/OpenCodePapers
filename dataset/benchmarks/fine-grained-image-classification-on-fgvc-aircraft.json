@@ -529,6 +529,16 @@
       },
       {
         "p": {
+          "name": "Enhance Image Classification via Inter-Class Image Mixup with Diffusion Model",
+          "link": "https://arxiv.org/abs/2403.19600"
+        },
+        "c": "https://github.com/zhicaiwww/diff-mix",
+        "n": "Diff-Mix (ResNet50@448) (extra data)",
+        "d": "2024-03-28",
+        "m1": "90.25%"
+      },
+      {
+        "p": {
           "name": "Neural Architecture Transfer",
           "link": "https://arxiv.org/abs/2005.05859v2"
         },
@@ -538,6 +548,16 @@
         "m1": "90.1%",
         "m3": "388M",
         "m4": "5.1M"
+      },
+      {
+        "p": {
+          "name": "Tuning Stable Rank Shrinkage: Aiming at the Overlooked Structural Risk in Fine-tuning",
+          "link": "https://openaccess.thecvf.com/content/CVPR2024/html/Shen_Tuning_Stable_Rank_Shrinkage_Aiming_at_the_Overlooked_Structural_Risk_CVPR_2024_paper.html"
+        },
+        "c": "https://github.com/witgotflg/tsrs",
+        "n": "DELTA + TSRS (ViT-B)",
+        "d": "2024-06-17",
+        "m1": "89.96%"
       },
       {
         "p": {
@@ -563,6 +583,16 @@
       },
       {
         "p": {
+          "name": "FedLAS: Feature-Modulated Bidirectional Label Smoothing for Neural Network Calibration",
+          "link": "https://arxiv.org/abs/2606.28654"
+        },
+        "c": "https://github.com/nadarasarbahavan/fedlas",
+        "n": "FeDLaS-MbLS (ResNet-101) (extra data)",
+        "d": "2026-06-26",
+        "m1": "88.71%"
+      },
+      {
+        "p": {
           "name": "Exploring Localization for Self-supervised Fine-grained Contrastive Learning",
           "link": "https://arxiv.org/abs/2106.15788v4"
         },
@@ -582,6 +612,16 @@
         "m1": "87.0%",
         "m3": "175M",
         "m4": "3.2M"
+      },
+      {
+        "p": {
+          "name": "ECC: Encoder-Centric Corruption for Fine-Grained Vision in VLMs",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/5759"
+        },
+        "c": "https://github.com/doihye/ecc",
+        "n": "ECC (ViT-B)",
+        "d": "2026-09-08",
+        "m1": "84.42%"
       },
       {
         "p": {

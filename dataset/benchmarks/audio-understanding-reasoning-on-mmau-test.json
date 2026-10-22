@@ -1,0 +1,119 @@
+{
+  "title": "audio-understanding-reasoning-on-mmau-test",
+  "task-hierarchy": [
+    "Audio Question Answering",
+    "Audio Understanding Reasoning"
+  ],
+  "dataset-info": {
+    "link": "https://mmaubench.github.io/",
+    "paper": "MMAU: A Massive Multi-Task Audio Understanding and Reasoning Benchmark"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Audio Flamingo Next: Next-Generation Open Audio-Language Models for Speech, Sound, and Music",
+          "link": "https://arxiv.org/abs/2604.10905"
+        },
+        "c": "",
+        "n": "AF-Next-Captioner + GPT-5.2",
+        "d": "2026-04-13",
+        "m1": "75.76"
+      },
+      {
+        "p": {
+          "name": "Audio Flamingo 3: Advancing Audio Intelligence with Fully Open Large Audio Language Models",
+          "link": "https://www.arxiv.org/abs/2507.08128"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Audio Flamingo 3 (+Think)",
+        "d": "2025-07-10",
+        "m1": "73.16"
+      },
+      {
+        "p": {
+          "name": "AHA: Aligning Large Audio-Language Models for Reasoning Hallucinations via Counterfactual Hard Negatives",
+          "link": "https://arxiv.org/abs/2512.24052"
+        },
+        "c": "https://github.com/LLM-VLM-GSL/AHA",
+        "n": "Qwen-Audio-AHA",
+        "d": "2025-12-30",
+        "m1": "72.5"
+      },
+      {
+        "p": {
+          "name": "Covo-Audio Technical Report",
+          "link": "https://arxiv.org/abs/2602.09823"
+        },
+        "c": "",
+        "n": "Covo-Audio",
+        "d": "2026-02-10",
+        "m1": "71.89"
+      },
+      {
+        "p": {
+          "name": "DIFFA-2: A Practical Diffusion Large Language Model for General Audio Understanding",
+          "link": "https://arxiv.org/abs/2601.23161"
+        },
+        "c": "",
+        "n": "DIFFA-2 (8B)",
+        "d": "2026-01-30",
+        "m1": "67.0"
+      },
+      {
+        "p": {
+          "name": "AudSemThinker: Enhancing Audio-Language Models through Reasoning over Semantics of Sound",
+          "link": "https://arxiv.org/abs/2505.14142"
+        },
+        "c": "https://github.com/gljs/audsemthinker",
+        "n": "AudSemThinker-QA GRPO",
+        "d": "2025-05-20",
+        "m1": "66.03"
+      },
+      {
+        "p": {
+          "name": "Mellow: a small audio language model for reasoning",
+          "link": "https://arxiv.org/abs/2503.08540"
+        },
+        "c": "https://github.com/soham97/mellow",
+        "n": "Mellow",
+        "d": "2025-03-11",
+        "m1": "52.11"
+      },
+      {
+        "p": {
+          "name": "MATS: An Audio Language Model under Text-only Supervision",
+          "link": "https://arxiv.org/abs/2502.13433"
+        },
+        "c": "https://github.com/wangwen-banban/mats",
+        "n": "MATS-LLaMA",
+        "d": "2025-02-19",
+        "m1": "44.5"
+      }
+    ]
+  }
+}

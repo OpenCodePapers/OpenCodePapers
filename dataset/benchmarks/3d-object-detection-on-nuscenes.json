@@ -107,6 +107,17 @@
         "m7": "0.13"
       },
       {
+        "p": {
+          "name": "DeepInteraction: 3D Object Detection via Modality Interaction",
+          "link": "https://arxiv.org/abs/2208.11112"
+        },
+        "c": "https://github.com/fudan-zvg/deepinteraction",
+        "n": "DeepInteraction-e (extra data)",
+        "d": "2022-08-23",
+        "m1": "0.763",
+        "m2": "0.756"
+      },
+      {
         "p": "",
         "c": "",
         "n": "DeepInteraction-e",
@@ -260,6 +271,28 @@
       },
       {
         "p": {
+          "name": "DeepInteraction++: Multi-Modality Interaction for Autonomous Driving",
+          "link": "https://arxiv.org/abs/2408.05075"
+        },
+        "c": "https://github.com/fudan-zvg/deepinteraction",
+        "n": "DeepInteraction++ (Swin-Tiny) (extra data)",
+        "d": "2024-08-09",
+        "m1": "0.744",
+        "m2": "0.720"
+      },
+      {
+        "p": {
+          "name": "Cross Modal Transformer: Towards Fast and Robust 3D Object Detection",
+          "link": "https://arxiv.org/abs/2301.01283"
+        },
+        "c": "https://github.com/junjie18/cmt",
+        "n": "CMT",
+        "d": "2023-01-03",
+        "m1": "0.741",
+        "m2": "0.720"
+      },
+      {
+        "p": {
           "name": "Robust Multimodal 3D Object Detection via Modality-Agnostic Decoding and Proximity-based Modality Ensemble",
           "link": "https://arxiv.org/abs/2407.19156v2"
         },
@@ -406,6 +439,50 @@
         "m5": "0.31",
         "m6": "0.24",
         "m7": "0.13"
+      },
+      {
+        "p": {
+          "name": "UniMamba: Unified Spatial-Channel Representation Learning with Group-Efficient Mamba for LiDAR-based 3D Object Detection",
+          "link": "https://arxiv.org/abs/2503.12009"
+        },
+        "c": "",
+        "n": "UniMamba",
+        "d": "2025-03-15",
+        "m1": "0.740",
+        "m2": "0.702"
+      },
+      {
+        "p": {
+          "name": "LION: Linear Group RNN for 3D Object Detection in Point Clouds",
+          "link": "https://arxiv.org/abs/2407.18232v1"
+        },
+        "c": "https://github.com/happinesslz/LION",
+        "n": "LION-Mamba",
+        "d": "2024-07-25",
+        "m1": "0.739",
+        "m2": "0.698"
+      },
+      {
+        "p": {
+          "name": "SparseFusion: Fusing Multi-Modal Sparse Representations for Multi-Sensor 3D Object Detection",
+          "link": "https://arxiv.org/abs/2304.14340"
+        },
+        "c": "https://github.com/yichen928/sparsefusion",
+        "n": "SparseFusion (extra data)",
+        "d": "2023-04-27",
+        "m1": "0.738",
+        "m2": "0.720"
+      },
+      {
+        "p": {
+          "name": "Focal Sparse Convolutional Networks for 3D Object Detection",
+          "link": "https://arxiv.org/abs/2204.12463"
+        },
+        "c": "https://github.com/dvlab-research/focalsconv",
+        "n": "Focals Conv-F (flip+rotation TTA) (extra data)",
+        "d": "2022-04-26",
+        "m1": "0.736",
+        "m2": "0.701"
       },
       {
         "p": "",
@@ -911,6 +988,28 @@
         "m7": "0.13"
       },
       {
+        "p": {
+          "name": "TransFusion: Robust LiDAR-Camera Fusion for 3D Object Detection with Transformers",
+          "link": "https://arxiv.org/abs/2203.11496v1"
+        },
+        "c": "https://github.com/xuyangbai/transfusion",
+        "n": "TransFusion",
+        "d": "2022-03-22",
+        "m1": "0.7168",
+        "m2": "0.6890"
+      },
+      {
+        "p": {
+          "name": "VoxelNeXt: Fully Sparse VoxelNet for 3D Object Detection and Tracking",
+          "link": "https://arxiv.org/abs/2303.11301"
+        },
+        "c": "https://github.com/dvlab-research/VoxelNeXt",
+        "n": "VoxelNeXt (double-flip)",
+        "d": "2023-03-20",
+        "m1": "0.714",
+        "m2": "0.662"
+      },
+      {
         "p": "",
         "c": "",
         "n": "yangfan",
@@ -1203,6 +1302,17 @@
         "m7": "0.12"
       },
       {
+        "p": {
+          "name": "UniDistill: A Universal Cross-Modality Knowledge Distillation Framework for 3D Object Detection in Bird's-Eye View",
+          "link": "https://arxiv.org/abs/2303.15083"
+        },
+        "c": "https://github.com/megvii-research/cvpr2023-unidistill",
+        "n": "UniDistill (LiDAR student, LiDAR+camera teacher)",
+        "d": "2023-03-27",
+        "m1": "0.701",
+        "m2": "0.639"
+      },
+      {
         "p": "",
         "c": "",
         "n": "TransFusion-L",
@@ -1474,6 +1584,17 @@
         "m7": "0.13"
       },
       {
+        "p": {
+          "name": "Temporal Enhanced Training of Multi-view 3D Object Detector via Historical Object Prediction",
+          "link": "https://arxiv.org/abs/2304.00967v1"
+        },
+        "c": "https://github.com/sense-x/hop",
+        "n": "HoP-BEVDet4D-Depth (ViT-L) (extra data)",
+        "d": "2023-04-03",
+        "m1": "0.685",
+        "m2": "0.624"
+      },
+      {
         "p": "",
         "c": "",
         "n": "AFDetV2",
@@ -1537,6 +1658,28 @@
         "m5": "0.36",
         "m6": "0.28",
         "m7": "0.13"
+      },
+      {
+        "p": {
+          "name": "Exploring Object-Centric Temporal Modeling for Efficient Multi-View 3D Object Detection",
+          "link": "https://arxiv.org/abs/2303.11926v2"
+        },
+        "c": "https://github.com/exiawsh/streampetr",
+        "n": "StreamPETR (ViT-L) (extra data)",
+        "d": "2023-03-21",
+        "m1": "0.676",
+        "m2": "0.620"
+      },
+      {
+        "p": {
+          "name": "SparseBEV: High-Performance Sparse 3D Object Detection from Multi-Camera Videos",
+          "link": "https://arxiv.org/abs/2308.09244v2"
+        },
+        "c": "https://github.com/mcg-nju/sparsebev",
+        "n": "SparseBEV (V2-99, future frames) (extra data)",
+        "d": "2023-08-18",
+        "m1": "0.675",
+        "m2": "0.603"
       },
       {
         "p": {
@@ -1885,6 +2028,39 @@
         "m7": "0.13"
       },
       {
+        "p": {
+          "name": "Ray Denoising: Depth-aware Hard Negative Sampling for Multi-view 3D Object Detection",
+          "link": "https://arxiv.org/abs/2402.03634v2"
+        },
+        "c": "https://github.com/liewfeng/beam",
+        "n": "RayDN (V2-99) (extra data)",
+        "d": "2024-02-06",
+        "m1": "0.645",
+        "m2": "0.565"
+      },
+      {
+        "p": {
+          "name": "GeoMIM: Towards Better 3D Knowledge Transfer via Masked Image Modeling for Multi-view 3D Understanding",
+          "link": "https://arxiv.org/abs/2303.11325"
+        },
+        "c": "https://github.com/sense-x/geomim",
+        "n": "GeoMIM (Swin-B)",
+        "d": "2023-03-20",
+        "m1": "0.644",
+        "m2": "0.561"
+      },
+      {
+        "p": {
+          "name": "OPEN: Object-wise Position Embedding for Multi-view 3D Object Detection",
+          "link": "https://arxiv.org/abs/2407.10753"
+        },
+        "c": "https://github.com/AlmoonYsl/OPEN",
+        "n": "OPEN (V2-99) (extra data)",
+        "d": "2024-07-15",
+        "m1": "0.644",
+        "m2": "0.567"
+      },
+      {
         "p": "",
         "c": "",
         "n": "qichuangeng",
@@ -1962,6 +2138,17 @@
         "d": "2019-08-26",
         "m1": "0.633",
         "m2": "0.528"
+      },
+      {
+        "p": {
+          "name": "Leveraging Vision-Centric Multi-Modal Expertise for 3D Object Detection",
+          "link": "https://arxiv.org/abs/2310.15670v1"
+        },
+        "c": "https://github.com/opendrivelab/birds-eye-view-perception",
+        "n": "VCD-A (ConvNeXt-B)",
+        "d": "2023-10-24",
+        "m1": "0.631",
+        "m2": "0.548"
       },
       {
         "p": "",
@@ -2106,6 +2293,17 @@
       },
       {
         "p": {
+          "name": "Make Your ViT-based Multi-view 3D Detectors Faster via Token Compression",
+          "link": "https://arxiv.org/abs/2409.00633"
+        },
+        "c": "https://github.com/dyzhang09/toc3d",
+        "n": "StreamPETR + ToC3D-Faster (ViT-L) (extra data)",
+        "d": "2024-09-01",
+        "m1": "0.626",
+        "m2": "0.542"
+      },
+      {
+        "p": {
           "name": "CRN: Camera Radar Net for Accurate, Robust, Efficient 3D Perception",
           "link": "https://arxiv.org/abs/2304.00670v3"
         },
@@ -2114,6 +2312,28 @@
         "d": "2023-04-03",
         "m1": "0.624",
         "m2": "0.575"
+      },
+      {
+        "p": {
+          "name": "SA-BEV: Generating Semantic-Aware Bird's-Eye-View Feature for Multi-view 3D Object Detection",
+          "link": "https://arxiv.org/abs/2307.11477v1"
+        },
+        "c": "https://github.com/mengtan00/sa-bev",
+        "n": "SA-BEV (V2-99)",
+        "d": "2023-07-21",
+        "m1": "0.624",
+        "m2": "0.533"
+      },
+      {
+        "p": {
+          "name": "FB-BEV: BEV Representation from Forward-Backward View Transformations",
+          "link": "https://arxiv.org/abs/2308.02236"
+        },
+        "c": "https://github.com/nvlabs/fb-bev",
+        "n": "FB-BEV (V2-99) (extra data)",
+        "d": "2023-08-04",
+        "m1": "0.624",
+        "m2": "0.537"
       },
       {
         "p": "",
@@ -2468,6 +2688,50 @@
         "m5": "0.44",
         "m6": "0.39",
         "m7": "0.13"
+      },
+      {
+        "p": {
+          "name": "SeaBird: Segmentation in Bird's View with Dice Loss Improves Monocular 3D Detection of Large Objects",
+          "link": "https://arxiv.org/abs/2403.20318v1"
+        },
+        "c": "https://github.com/abhi1kumar/seabird",
+        "n": "HoP+SeaBird (V2-99) (extra data)",
+        "d": "2024-03-29",
+        "m1": "0.597",
+        "m2": "0.511"
+      },
+      {
+        "p": {
+          "name": "Object as Query: Lifting any 2D Object Detector to 3D Detection",
+          "link": "https://arxiv.org/abs/2301.02364"
+        },
+        "c": "https://github.com/tusen-ai/mv2d",
+        "n": "MV2D-T (V2-99) (extra data)",
+        "d": "2023-01-06",
+        "m1": "0.596",
+        "m2": "0.511"
+      },
+      {
+        "p": {
+          "name": "Collaborative Perceiver: Elevating Vision-based 3D Object Detection via Local Density-Aware Spatial Occupancy",
+          "link": "https://arxiv.org/abs/2507.21358"
+        },
+        "c": "https://github.com/jichengyuan/Collaborative-Perceiver",
+        "n": "CoP Large (ResNet-101) (extra data)",
+        "d": "2025-07-28",
+        "m1": "0.592",
+        "m2": "0.495"
+      },
+      {
+        "p": {
+          "name": "PETRv2: A Unified Framework for 3D Perception from Multi-Camera Images",
+          "link": "https://arxiv.org/abs/2206.01256v3"
+        },
+        "c": "https://github.com/megvii-research/petr",
+        "n": "PETRv2 (V2-99, multi-scale) (extra data)",
+        "d": "2022-06-02",
+        "m1": "0.591",
+        "m2": "0.508"
       },
       {
         "p": "",
@@ -2913,6 +3177,17 @@
         "m5": "0.43",
         "m6": "0.33",
         "m7": "0.13"
+      },
+      {
+        "p": {
+          "name": "Geometric-aware Pretraining for Vision-centric 3D Object Detection",
+          "link": "https://arxiv.org/abs/2304.03105"
+        },
+        "c": "https://github.com/opendrivelab/bevperception-survey-recipe",
+        "n": "GAPretrain (BEVFormer VoVNet-99) (extra data)",
+        "d": "2023-04-06",
+        "m1": "0.578",
+        "m2": "0.491"
       },
       {
         "p": "",
@@ -3392,6 +3667,17 @@
         "m7": "0.12"
       },
       {
+        "p": {
+          "name": "BEVerse: Unified Perception and Prediction in Birds-Eye-View for Vision-Centric Autonomous Driving",
+          "link": "https://arxiv.org/abs/2205.09743"
+        },
+        "c": "https://github.com/zhangyp15/beverse",
+        "n": "BEVerse (extra data)",
+        "d": "2022-05-19",
+        "m1": "0.531",
+        "m2": "0.393"
+      },
+      {
         "p": "",
         "c": "",
         "n": "AutoD",
@@ -3548,6 +3834,17 @@
         "m7": "0.11"
       },
       {
+        "p": {
+          "name": "3DPPE: 3D Point Positional Encoding for Multi-Camera 3D Object Detection Transformers",
+          "link": "https://arxiv.org/abs/2211.14710"
+        },
+        "c": "https://github.com/drilistbox/3dppe",
+        "n": "3DPPE (V2-99) (extra data)",
+        "d": "2022-11-27",
+        "m1": "0.514",
+        "m2": "0.460"
+      },
+      {
         "p": "",
         "c": "",
         "n": "yunzhu",
@@ -3611,6 +3908,17 @@
         "m5": "0.49",
         "m6": "0.31",
         "m7": "0.14"
+      },
+      {
+        "p": {
+          "name": "PETR: Position Embedding Transformation for Multi-View 3D Object Detection",
+          "link": "https://arxiv.org/abs/2203.05625v3"
+        },
+        "c": "https://github.com/megvii-research/petr",
+        "n": "PETR (V2-99) (extra data)",
+        "d": "2022-03-10",
+        "m1": "0.504",
+        "m2": "0.441"
       },
       {
         "p": "",
@@ -3824,6 +4132,17 @@
         "m7": "0.14"
       },
       {
+        "p": {
+          "name": "BEVDet: High-performance Multi-camera 3D Object Detection in Bird-Eye-View",
+          "link": "https://arxiv.org/abs/2112.11790"
+        },
+        "c": "",
+        "n": "BEVDet-Base",
+        "d": "2021-12-22",
+        "m1": "0.482",
+        "m2": "0.422"
+      },
+      {
         "p": "",
         "c": "",
         "n": "DD3D",
@@ -3887,6 +4206,17 @@
         "m5": "0.76",
         "m6": "0.27",
         "m7": "0.09"
+      },
+      {
+        "p": {
+          "name": "DETR3D: 3D Object Detection from Multi-view Images via 3D-to-2D Queries",
+          "link": "https://arxiv.org/abs/2110.06922"
+        },
+        "c": "https://github.com/wangyueft/detr3d",
+        "n": "DETR3D (VoVNet, trainval) (extra data)",
+        "d": "2021-10-13",
+        "m1": "0.479",
+        "m2": "0.412"
       },
       {
         "p": "",
