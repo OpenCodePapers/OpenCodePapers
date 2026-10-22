@@ -169,7 +169,19 @@ def make_entry(
 ) -> Tuple[dict, str]:
     """Benchmark entry of an evaluation (with its raw metrics), or the reason to skip it."""
     ref = utils.reporting_paper_ref(e)
-    if ref:
+    leaderboard = utils.leaderboard_source(e)
+    if leaderboard:
+        # credited to the leaderboard, dated by the model's release (else the evaluation)
+        model_paper = known.get(e["paper_title"], e.get("paper_arxiv_id")) or {}
+        title, arxiv = leaderboard[0], None
+        date = (
+            model_paper.get("date")
+            or e["paper_published_date"]
+            or e.get("evaluated_on")
+        )
+        code = model_paper.get("code") or e.get("code_url") or ""
+        det = {"url_abs": leaderboard[1]}
+    elif ref:
         det = details.get(ref) or {}
         if not det.get("title"):
             return {}, "reporting paper unknown"
@@ -184,6 +196,7 @@ def make_entry(
         )
         code = e.get("code_url") or ""
     links = [
+        det.get("url_abs") if leaderboard else "",
         arxiv_abs(arxiv),
         det.get("url_abs"),
         det.get("conference_url_abs"),
@@ -191,7 +204,7 @@ def make_entry(
         f"https://paperswithcode.co/paper/{det.get('id') or e['paper_id']}",
     ]
 
-    paper = known.get(title, arxiv)
+    paper = None if leaderboard else known.get(title, arxiv)
     name = paper["name"] if paper else clean_text(title)
     link = paper["link"] if paper else next((lk for lk in links if valid_link(lk)), "")
     code = (paper or {}).get("code") or (code if valid_link(code) else "")
@@ -207,6 +220,7 @@ def make_entry(
         "metrics": {},
         "ids": [e["id"]],
         "evaluated_paper": utils.normalize_title(e["paper_title"]),
+        "website": leaderboard[0] if leaderboard else "",
         "methodology": clean_text(e.get("methodology"))[:160],
     }
     if not entry["n"]:
@@ -246,7 +260,23 @@ def combine(entries: List[dict], skipped: list) -> List[dict]:
                 )
             continue
         result.append(merged)
-    return result
+
+    # a model's result from its own paper is preferred over a leaderboard's one
+    by_paper = {
+        (e["evaluated_paper"], utils.normalize_title(e["n"]))
+        for e in result
+        if not e["website"]
+    }
+    kept = []
+    for e in result:
+        if (
+            e["website"]
+            and (e["evaluated_paper"], utils.normalize_title(e["n"])) in by_paper
+        ):
+            skipped.append(skip_info(e, "model already reported by its paper"))
+            continue
+        kept.append(e)
+    return kept
 
 
 def skip_info(entry: dict, reason: str, target: str = "") -> dict:
@@ -410,7 +440,11 @@ def build_new(entries: List[dict], info: dict) -> Tuple[Optional[dict], str]:
             rows.append((item_of(e, values), e))
 
     with_primary = [it for it, _ in rows if "m1" in it]
-    papers = {utils.normalize_title(it["p"]["name"]) for it in with_primary}
+    papers = {
+        e["evaluated_paper"] if e["website"] else utils.normalize_title(it["p"]["name"])
+        for it, e in rows
+        if "m1" in it
+    }
     if len(with_primary) < utils.MIN_ENTRIES or len(papers) < utils.MIN_PAPERS:
         return None, f"too small ({len(with_primary)} entries, {len(papers)} papers)"
     if not any(it["c"] for it, _ in rows):

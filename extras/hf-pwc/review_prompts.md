@@ -51,6 +51,9 @@ one first, proposed task hierarchy, entries with ids and methodology notes). Ref
 
 Output: `{"leaderboard", "decision", "task_hierarchy" (keep), "exclude": [ids], "reason"}`
 
+Entries whose "paper" is a leaderboard (like "Open ASR Leaderboard") are snapshots of
+that website. Check them like the others, they may use another harness than the papers.
+
 ## entries\_\*.json
 
 Each element is a benchmark (title, task hierarchy, metric columns, sample entries) with

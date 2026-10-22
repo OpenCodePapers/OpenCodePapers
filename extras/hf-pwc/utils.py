@@ -26,6 +26,124 @@ PAPER_SOURCE_RE = re.compile(
 )
 ARXIV_ID_RE = re.compile(r"arxiv\.org/(?:abs|pdf)/(\d{4}\.\d{4,5})")
 
+# Official test servers of datasets: their results are submissions of the evaluated
+# methods, credited to the method's paper
+TEST_SERVER_RE = re.compile(
+    r"kaldir\.vc\.in\.tum\.de/scannet_benchmark|scannetpp\.mlsg\.cit\.tum\.de|"
+    r"cvlibs\.net/datasets/kitti|sintel\.is\.tue\.mpg\.de|spring-benchmark\.org|"
+    r"dsec\.ifi\.uzh\.ch|eth3d\.net|cvlab-unibo\.github\.io/booster-web"
+)
+
+# Benchmark leaderboards with mostly stable results (source url part -> name, link).
+# Their results are credited to the leaderboard, as a snapshot. Not included are
+# aggregators with their own changing harness (Artificial Analysis, Vals AI), Elo arenas,
+# and vendor reports of other models.
+LEADERBOARD_SOURCES = {
+    "paperswithcode.co/benchmark/open-asr-leaderboard": (
+        "Open ASR Leaderboard",
+        "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard",
+    ),
+    "huggingface.co/spaces/hf-audio/open_asr_leaderboard": (
+        "Open ASR Leaderboard",
+        "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard",
+    ),
+    "huggingface.co/spaces/hf-audio/open_tts_leaderboard": (
+        "Open TTS Leaderboard",
+        "https://huggingface.co/spaces/hf-audio/open_tts_leaderboard",
+    ),
+    "mteb-leaderboard-backend.hf.space": (
+        "MTEB Leaderboard",
+        "https://huggingface.co/spaces/mteb/leaderboard",
+    ),
+    "huggingface.co/datasets/mteb/results": (
+        "MTEB Leaderboard",
+        "https://huggingface.co/spaces/mteb/leaderboard",
+    ),
+    "github.com/embeddings-benchmark/results": (
+        "MTEB Leaderboard",
+        "https://huggingface.co/spaces/mteb/leaderboard",
+    ),
+    "huggingface.co/spaces/TIGER-Lab/MMEB-Leaderboard": (
+        "MMEB Leaderboard",
+        "https://huggingface.co/spaces/TIGER-Lab/MMEB-Leaderboard",
+    ),
+    "huggingface.co/spaces/Datadog/BOOM": (
+        "BOOM Leaderboard",
+        "https://huggingface.co/spaces/Datadog/BOOM",
+    ),
+    "huggingface.co/spaces/Salesforce/GIFT-Eval": (
+        "GIFT-Eval Leaderboard",
+        "https://huggingface.co/spaces/Salesforce/GIFT-Eval",
+    ),
+    "github.com/SalesforceAIResearch/gift-eval": (
+        "GIFT-Eval Leaderboard",
+        "https://huggingface.co/spaces/Salesforce/GIFT-Eval",
+    ),
+    "huggingface.co/spaces/autogluon/fev-bench": (
+        "fev-bench Leaderboard",
+        "https://huggingface.co/spaces/autogluon/fev-bench",
+    ),
+    "huggingface.co/datasets/PaddlePaddle/Real5-OmniDocBench": (
+        "Real5-OmniDocBench Leaderboard",
+        "https://huggingface.co/datasets/PaddlePaddle/Real5-OmniDocBench",
+    ),
+    "huggingface.co/datasets/benchflow/skillsbench-leaderboard": (
+        "SkillsBench Leaderboard",
+        "https://huggingface.co/datasets/benchflow/skillsbench-leaderboard",
+    ),
+    "huggingface.co/datasets/likaixin/ScreenSpot-Pro": (
+        "ScreenSpot-Pro Leaderboard",
+        "https://huggingface.co/datasets/likaixin/ScreenSpot-Pro",
+    ),
+    "parsebench.ai": ("ParseBench Leaderboard", "https://parsebench.ai"),
+    "cognition.com/frontiercode": (
+        "FrontierCode Leaderboard",
+        "https://cognition.com/frontiercode",
+    ),
+    "arcprize.org": ("ARC Prize Leaderboard", "https://arcprize.org/leaderboard"),
+    "github.com/run-llama/ExtractBench": (
+        "ExtractBench Leaderboard",
+        "https://github.com/run-llama/ExtractBench",
+    ),
+    "surgehq.ai/benchmarks/chartography": (
+        "Chartography Leaderboard",
+        "https://surgehq.ai/benchmarks/chartography",
+    ),
+    "deepswe.datacurve.ai": ("DeepSWE Leaderboard", "https://deepswe.datacurve.ai"),
+    "swe-marathon.org": ("SWE-Marathon Leaderboard", "https://www.swe-marathon.org"),
+    "job-bench.github.io": ("JobBench Leaderboard", "https://job-bench.github.io"),
+    "claw-eval.github.io": ("Claw-Eval Leaderboard", "https://claw-eval.github.io"),
+    "crashlab.in/radle": (
+        "RadLE Leaderboard",
+        "https://crashlab.in/radle/2/leaderboard",
+    ),
+    "frontierswe.com": ("FrontierSWE Leaderboard", "https://www.frontierswe.com"),
+    "posttrainbench.com": ("PostTrainBench Leaderboard", "https://posttrainbench.com"),
+    "lliar-liar.github.io/Daily-Omni": (
+        "Daily-Omni Leaderboard",
+        "https://lliar-liar.github.io/Daily-Omni",
+    ),
+    "programbench.com": ("ProgramBench Leaderboard", "https://programbench.com"),
+    "tbench.ai/leaderboard": (
+        "Terminal-Bench Leaderboard",
+        "https://www.tbench.ai/leaderboard",
+    ),
+    "hub.harborframework.com/datasets/terminal-bench": (
+        "Terminal-Bench Leaderboard",
+        "https://www.tbench.ai/leaderboard",
+    ),
+    "osworld-v2.xlang.ai": ("OSWorld Leaderboard", "https://osworld-v2.xlang.ai"),
+    "leaderboard.carla.org": ("CARLA Leaderboard", "https://leaderboard.carla.org"),
+    "behavior.stanford.edu/challenge": (
+        "BEHAVIOR Challenge Leaderboard",
+        "https://behavior.stanford.edu/challenge/archive/2025/leaderboard.html",
+    ),
+    "referit3d.github.io": (
+        "ReferIt3D Leaderboard",
+        "https://referit3d.github.io/benchmarks.html",
+    ),
+}
+
 # ==================================================================================================
 
 
@@ -122,10 +240,26 @@ def task_chain(tasks: Dict[str, dict], task_id: str) -> List[str]:
 
 
 def is_importable(evaluation: dict) -> bool:
-    """Results of the evaluated paper or of another paper on the site, not of websites."""
+    """Results of papers, official test servers and listed benchmark leaderboards."""
     if not evaluation.get("external"):
         return True
-    return bool(PAPER_SOURCE_RE.match(evaluation.get("source_url") or ""))
+    source = evaluation.get("source_url") or ""
+    return bool(
+        PAPER_SOURCE_RE.match(source)
+        or TEST_SERVER_RE.search(source)
+        or leaderboard_source(evaluation)
+    )
+
+
+def leaderboard_source(evaluation: dict) -> Optional[tuple]:
+    """Name and link of the benchmark leaderboard an external result was taken from."""
+    if not evaluation.get("external"):
+        return None
+    source = re.sub(r"^https?://(www\.)?", "", evaluation.get("source_url") or "")
+    for part, name_link in LEADERBOARD_SOURCES.items():
+        if source.startswith(part):
+            return name_link
+    return None
 
 
 def reporting_paper_ref(evaluation: dict) -> str:
@@ -147,6 +281,9 @@ def clean_value(raw) -> str:
         text = repr(raw)
         if "e" in text or "E" in text:
             text = format(Decimal(text), "f")
+        if len(text.partition(".")[2]) > 6:
+            # computed values like 0.1172566371681416
+            text = f"{raw:.4f}"
         return text
     text = str(raw).strip()
     if re.fullmatch(r"[-+]?\d+,\d+", text):

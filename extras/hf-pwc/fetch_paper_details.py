@@ -27,7 +27,7 @@ def needed_papers(evaluations: list, matches: dict) -> set:
         match = matches.get(utils.leaderboard_key(e), {})
         if match.get("status") not in ("merge", "new", "review"):
             continue
-        if not utils.is_importable(e):
+        if not utils.is_importable(e) or utils.leaderboard_source(e):
             continue
         reporting = utils.reporting_paper_ref(e)
         if reporting:

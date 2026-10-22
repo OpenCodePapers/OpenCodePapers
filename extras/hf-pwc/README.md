@@ -18,8 +18,10 @@ python3 update_benchmarks.py        # --dry-run to only print the changes
 
 Rules:
 
-- Only results reported in papers are imported, credited to the evaluated model's paper
-  or to the paper that reports them. Results of leaderboard websites are dropped.
+- Results are credited to the evaluated model's paper, or to the paper that reports them.
+  Results of official test servers count as the method's own. Results of the benchmark
+  leaderboards listed in `utils.py` are credited to the leaderboard (as a snapshot), other
+  websites (aggregators, arenas, vendor reports) are dropped.
 - A leaderboard is merged into an existing benchmark if both list the same results for
   several papers. Weaker matches are reviewed, to avoid duplicate benchmarks.
 - New benchmarks need at least 5 entries from 3 papers and a code link.
@@ -37,10 +39,11 @@ instructions of [review_prompts.md](./review_prompts.md)), who writes the decisi
 `data/reviewed_evaluations.json`, so reruns only review new data (entries already in the
 dataset are skipped anyway). New metric columns are decided by hand in `data/overrides.json`.
 
-In Oct 2026, 153 of 2018 leaderboards were matched automatically and 610 reviewed. Many
+In Oct 2026, 153 of 2027 leaderboards were matched automatically and 636 reviewed. Many
 leaderboards of the site mix protocols (zero-shot and fine-tuned results, validation and
-test splits), these were dropped. 4637 entries were added to 273 existing benchmarks, and
-384 new benchmarks were created with 7675 entries.
+test splits), these were dropped. 4720 entries were added to 274 existing benchmarks, and
+404 new benchmarks were created with 8563 entries. 907 entries come from benchmark
+leaderboard websites.
 
 <br>
 
