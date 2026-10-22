@@ -1,0 +1,88 @@
+{
+  "title": "bench2drive-on-bench2drive-v0-0-3-privileged",
+  "task-hierarchy": [
+    "Autonomous Driving",
+    "Bench2Drive"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/autonomousvision/Bench2Drive-Leaderboard",
+    "paper": "Bench2Drive: Towards Multi-Ability Benchmarking of Closed-Loop End-To-End Autonomous Driving"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Driving Score",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Success Rate",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "DriveLM: Driving with Graph Visual Question Answering",
+          "link": "https://arxiv.org/abs/2312.14150"
+        },
+        "c": "https://github.com/opendrivelab/drivelm",
+        "n": "PDM-Lite",
+        "d": "2023-12-21",
+        "m1": "97.02",
+        "m2": "92.27"
+      },
+      {
+        "p": {
+          "name": "LEAD: Minimizing Learner-Expert Asymmetry in End-to-End Driving",
+          "link": "https://arxiv.org/abs/2512.20563"
+        },
+        "c": "https://github.com/autonomousvision/lead",
+        "n": "LEAD",
+        "d": "2025-12-23",
+        "m1": "96.78",
+        "m2": "96.59"
+      },
+      {
+        "p": {
+          "name": "Think2Drive: Efficient Reinforcement Learning by Thinking in Latent World Model for Quasi-Realistic Autonomous Driving (in CARLA-v2)",
+          "link": "https://arxiv.org/abs/2402.16720"
+        },
+        "c": "",
+        "n": "Think2Drive",
+        "d": "2024-02-26",
+        "m1": "91.85",
+        "m2": "85.41"
+      },
+      {
+        "p": {
+          "name": "Validity Learning on Failures: Mitigating the Distribution Shift in Autonomous Vehicle Planning",
+          "link": "https://arxiv.org/abs/2406.01544v2"
+        },
+        "c": "",
+        "n": "VL (on failure)",
+        "d": "2024-06-03",
+        "m1": "77.3",
+        "m2": "72.25"
+      }
+    ]
+  }
+}

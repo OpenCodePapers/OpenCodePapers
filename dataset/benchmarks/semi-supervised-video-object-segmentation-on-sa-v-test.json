@@ -1,0 +1,119 @@
+{
+  "title": "semi-supervised-video-object-segmentation-on-sa-v-test",
+  "task-hierarchy": [
+    "Video Segmentation",
+    "Semi-Supervised Video Object Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://arxiv.org/abs/2408.00714",
+    "paper": "SAM 2: Segment Anything in Images and Videos"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "J&F",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "SAM 3: Segment Anything with Concepts",
+          "link": "https://arxiv.org/abs/2511.16719"
+        },
+        "c": "https://github.com/facebookresearch/sam3",
+        "n": "SAM 3 (zero-shot) (extra data)",
+        "d": "2025-11-20",
+        "m1": "84.4"
+      },
+      {
+        "p": {
+          "name": "SAM2Long: Enhancing SAM 2 for Long Video Segmentation with a Training-Free Memory Tree",
+          "link": "https://arxiv.org/abs/2410.16268v2"
+        },
+        "c": "https://github.com/mark12ding/sam2long",
+        "n": "SAM2.1Long-L (extra data)",
+        "d": "2024-10-21",
+        "m1": "81.2"
+      },
+      {
+        "p": {
+          "name": "SAM 2: Segment Anything in Images and Videos",
+          "link": "https://arxiv.org/abs/2408.00714v2"
+        },
+        "c": "https://github.com/facebookresearch/segment-anything",
+        "n": "SAM 2 (Hiera-L) (extra data)",
+        "d": "2024-08-01",
+        "m1": "78.4"
+      },
+      {
+        "p": {
+          "name": "Efficient Track Anything",
+          "link": "https://arxiv.org/abs/2411.18933"
+        },
+        "c": "https://github.com/yformer/efficienttam",
+        "n": "EfficientTAM-S (extra data)",
+        "d": "2024-11-28",
+        "m1": "74.5"
+      },
+      {
+        "p": {
+          "name": "EdgeTAM: On-Device Track Anything Model",
+          "link": "https://arxiv.org/abs/2501.07256"
+        },
+        "c": "https://github.com/facebookresearch/edgetam",
+        "n": "EdgeTAM (extra data)",
+        "d": "2025-01-13",
+        "m1": "71.7"
+      },
+      {
+        "p": {
+          "name": "SAM-I2V++: Efficiently Upgrading SAM for Promptable Video Segmentation",
+          "link": "https://ieeexplore.ieee.org/document/11316399"
+        },
+        "c": "https://github.com/showlab/sam-i2vpp",
+        "n": "SAM-I2V++",
+        "d": "2025-12-26",
+        "m1": "67.8"
+      },
+      {
+        "p": {
+          "name": "MobileSAM2: Lightweight Segment Anything in Images and Videos via Hypergraphical Knowledge Distillation",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/5947"
+        },
+        "c": "",
+        "n": "MobileSAM2-23M",
+        "d": "2026-09-08",
+        "m1": "67.8"
+      },
+      {
+        "p": {
+          "name": "SAM-I2V: Upgrading SAM to Support Promptable Video Segmentation with Less than 0.2% Training Cost",
+          "link": "https://arxiv.org/abs/2506.01304"
+        },
+        "c": "https://github.com/showlab/sam-i2v",
+        "n": "TinySAM + SAM-I2V (32-GPU scaling run) (extra data)",
+        "d": "2025-06-02",
+        "m1": "65.2"
+      }
+    ]
+  }
+}

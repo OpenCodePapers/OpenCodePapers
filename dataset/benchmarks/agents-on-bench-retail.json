@@ -1,0 +1,178 @@
+{
+  "title": "agents-on-bench-retail",
+  "task-hierarchy": [
+    "Agents"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/sierra-research/tau2-bench",
+    "paper": "$τ^2$-Bench: Evaluating Conversational Agents in a Dual-Control Environment"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Trajectory-Level Speculation with Semantic Verification for Tool-Using Agents",
+          "link": "https://arxiv.org/abs/2610.21463"
+        },
+        "c": "https://github.com/LARK-AI-Lab/SpecAgent",
+        "n": "SpecAgent",
+        "d": "2026-10-15",
+        "m1": "87.7"
+      },
+      {
+        "p": {
+          "name": "Progressive Agent Skill Generation via Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2608.01678"
+        },
+        "c": "https://github.com/ejhshen/skill-alpha",
+        "n": "Claude Sonnet 4.5 + Skill-α",
+        "d": "2026-08-03",
+        "m1": "86.0"
+      },
+      {
+        "p": {
+          "name": "Rufus-Air: An Open LLM Post-Training Recipe",
+          "link": "https://arxiv.org/abs/2609.29421"
+        },
+        "c": "",
+        "n": "Rufus-Air",
+        "d": "2026-09-24",
+        "m1": "85.3"
+      },
+      {
+        "p": {
+          "name": "PolicyGuide: From Guarding One Action to Guiding the Whole Workflow for Policy-Compliant LLM Agents",
+          "link": "https://arxiv.org/abs/2608.19861"
+        },
+        "c": "https://github.com/erjui/PolicyGuide",
+        "n": "PolicyGuide (GPT-5.4)",
+        "d": "2026-08-20",
+        "m1": "80.9"
+      },
+      {
+        "p": {
+          "name": "Kimi K2: Open Agentic Intelligence",
+          "link": "https://arxiv.org/abs/2507.20534"
+        },
+        "c": "https://github.com/MoonshotAI/Kimi-K2",
+        "n": "Kimi K2 Instruct",
+        "d": "2025-07-28",
+        "m1": "70.6"
+      },
+      {
+        "p": {
+          "name": "Towards General Agentic Intelligence via Environment Scaling",
+          "link": "https://arxiv.org/abs/2509.13311"
+        },
+        "c": "https://github.com/alibaba-nlp/deepresearch",
+        "n": "AgentScaler-30B-A3B",
+        "d": "2025-09-16",
+        "m1": "70.2"
+      },
+      {
+        "p": {
+          "name": "Kolibri: A Sovereign European Model on the Pareto Frontier",
+          "link": "https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model/"
+        },
+        "c": "https://github.com/aleph-alpha/aleph-alpha-inference",
+        "n": "Kolibri",
+        "d": "2026-10-03",
+        "m1": "69.9"
+      },
+      {
+        "p": {
+          "name": "MUA-RL: Multi-turn User-interacting Agent Reinforcement Learning for agentic tool use",
+          "link": "https://arxiv.org/abs/2508.18669"
+        },
+        "c": "",
+        "n": "MUA-RL-32B",
+        "d": "2025-08-26",
+        "m1": "67.3"
+      },
+      {
+        "p": {
+          "name": "Unlocking Lossless Speedups in LLMs via Discrete Diffusion",
+          "link": "https://arxiv.org/abs/2609.04010"
+        },
+        "c": "https://github.com/ifm-ai/uno",
+        "n": "Uno (K2-Horizon-7B-Uno)",
+        "d": "2026-09-03",
+        "m1": "67.1"
+      },
+      {
+        "p": {
+          "name": "NVIDIA Nemotron 3: Efficient and Open Intelligence",
+          "link": "https://arxiv.org/abs/2512.20856"
+        },
+        "c": "https://github.com/nvidia-nemo/nemotron",
+        "n": "Nemotron 3 Super",
+        "d": "2025-12-24",
+        "m1": "62.83"
+      },
+      {
+        "p": {
+          "name": "CoVe: Training Interactive Tool-Use Agents via Constraint-Guided Verification",
+          "link": "https://arxiv.org/abs/2603.01940"
+        },
+        "c": "",
+        "n": "CoVe-4B",
+        "d": "2026-03-02",
+        "m1": "59.4"
+      },
+      {
+        "p": {
+          "name": "Predicting Privileged Information Effectiveness for On-Policy Self-Distillation",
+          "link": "https://arxiv.org/abs/2610.22512"
+        },
+        "c": "https://github.com/zkjzou/PI-OPSD",
+        "n": "PI-OPSD (Qwen3-4B-Instruct-2507)",
+        "d": "2026-10-15",
+        "m1": "55.04"
+      },
+      {
+        "p": {
+          "name": "LFM2.5-350M: No Size Left Behind",
+          "link": "https://www.liquid.ai/blog/lfm2-5-350m-no-size-left-behind"
+        },
+        "c": "",
+        "n": "LFM2.5-350M",
+        "d": "2026-03-31",
+        "m1": "17.84"
+      },
+      {
+        "p": {
+          "name": "LFM2.5-230M: Built to Run Anywhere",
+          "link": "https://www.liquid.ai/blog/lfm2-5-230m"
+        },
+        "c": "",
+        "n": "LFM2.5-230M",
+        "d": "2026-06-25",
+        "m1": "13.68"
+      }
+    ]
+  }
+}

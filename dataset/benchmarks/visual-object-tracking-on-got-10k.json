@@ -46,6 +46,28 @@
     "items": [
       {
         "p": {
+          "name": "SENTRY: SAM2-Enhanced Neighbor-Aware and Temporally Reasoned Memory for Visual Tracking",
+          "link": "https://arxiv.org/abs/2606.24449"
+        },
+        "c": "https://github.com/hamadya/sentry",
+        "n": "SENTRY-D4S-L",
+        "d": "2026-06-23",
+        "m1": "82.1"
+      },
+      {
+        "p": {
+          "name": "TGTrack: Temporal Generative Learning for Unified Single Object Tracking",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Geng_TGTrack_Temporal_Generative_Learning_for_Unified_Single_Object_Tracking_CVPR_2026_paper.html"
+        },
+        "c": "https://github.com/wtg1/tgtrack",
+        "n": "TGTrack-L384 (extra data)",
+        "d": "2026-06-03",
+        "m1": "81.8",
+        "m2": "91.1",
+        "m3": "83.8"
+      },
+      {
+        "p": {
           "name": "SAMURAI: Adapting Segment Anything Model for Zero-Shot Visual Tracking with Motion-Aware Memory",
           "link": "https://arxiv.org/abs/2411.11922v2"
         },
@@ -55,6 +77,28 @@
         "m1": "81.7",
         "m2": "92.2",
         "m3": "76.9"
+      },
+      {
+        "p": {
+          "name": "ODONet: Online Dynamic Offset Network for Visual Object Tracking",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/4749"
+        },
+        "c": "https://github.com/whitebutterflies/odonet",
+        "n": "ODONet-B384",
+        "d": "2026-09-08",
+        "m1": "81.4"
+      },
+      {
+        "p": {
+          "name": "TR-MoE: Temporal Reliability-Aware Mixture-of-Experts for Robust Tracking",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/4745"
+        },
+        "c": "https://github.com/avant1v/tr-moe",
+        "n": "TR-MoE",
+        "d": "2026-09-08",
+        "m1": "81.4",
+        "m2": "91.9",
+        "m3": "78.8"
       },
       {
         "p": {
@@ -278,6 +322,18 @@
       },
       {
         "p": {
+          "name": "Autoregressive Queries for Adaptive Tracking with Spatio-TemporalTransformers",
+          "link": "https://arxiv.org/abs/2403.10574v1"
+        },
+        "c": "",
+        "n": "AQATrack-384",
+        "d": "2024-03-15",
+        "m1": "76.0",
+        "m2": "85.2",
+        "m3": "74.9"
+      },
+      {
+        "p": {
           "name": "DropMAE: Masked Autoencoders with Spatial-Attention Dropout for Tracking Tasks",
           "link": "https://arxiv.org/abs/2304.00571v2"
         },
@@ -326,6 +382,18 @@
       },
       {
         "p": {
+          "name": "DiffusionTrack: Point Set Diffusion Model for Visual Object Tracking",
+          "link": "http://openaccess.thecvf.com//content/CVPR2024/html/Xie_DiffusionTrack_Point_Set_Diffusion_Model_for_Visual_Object_Tracking_CVPR_2024_paper.html"
+        },
+        "c": "https://github.com/vision-sjtu/diffusiontrack",
+        "n": "DiffusionTrack-B256 (2)",
+        "d": "2024-01-01",
+        "m1": "75.2",
+        "m2": "85.9",
+        "m3": "72.0"
+      },
+      {
+        "p": {
           "name": "Unified Sequence-to-Sequence Learning for Single- and Multi-Modal Visual Object Tracking",
           "link": "https://arxiv.org/abs/2304.14394v3"
         },
@@ -335,6 +403,18 @@
         "m1": "74.8",
         "m2": "81.9",
         "m3": "72.2"
+      },
+      {
+        "p": {
+          "name": "Adaptive Capacity Autoregressive Visual Tracking",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Lin_Adaptive_Capacity_Autoregressive_Visual_Tracking_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "ARTrack-AC_seq",
+        "d": "2026-06-03",
+        "m1": "74.3",
+        "m2": "84.8",
+        "m3": "70.2"
       },
       {
         "p": {
@@ -418,6 +498,18 @@
       },
       {
         "p": {
+          "name": "Motion-aware Sparse Pipeline for Lightweight Object Tracking",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/5707"
+        },
+        "c": "",
+        "n": "MaST-small",
+        "d": "2026-09-08",
+        "m1": "70.0",
+        "m2": "80.4",
+        "m3": "67.0"
+      },
+      {
+        "p": {
           "name": "AiATrack: Attention in Attention for Transformer Visual Tracking",
           "link": "https://arxiv.org/abs/2207.09603v2"
         },
@@ -474,6 +566,18 @@
         "m1": "67.5",
         "m2": "76.8",
         "m3": "60.3"
+      },
+      {
+        "p": {
+          "name": "Transformer Tracking",
+          "link": "https://arxiv.org/abs/2103.15436v1"
+        },
+        "c": "https://github.com/chenxin-dlut/TransT",
+        "n": "TransT-GOT",
+        "d": "2021-03-29",
+        "m1": "67.1",
+        "m2": "76.8",
+        "m3": "60.9"
       },
       {
         "p": {

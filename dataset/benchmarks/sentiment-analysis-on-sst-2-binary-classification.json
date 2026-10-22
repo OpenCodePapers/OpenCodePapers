@@ -65,6 +65,16 @@
       },
       {
         "p": {
+          "name": "Funnel-Transformer: Filtering out Sequential Redundancy for Efficient Language Processing",
+          "link": "https://arxiv.org/abs/2006.03236v1"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Funnel-Transformer Large",
+        "d": "2020-06-05",
+        "m1": "97.5"
+      },
+      {
+        "p": {
           "name": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
           "link": "https://arxiv.org/abs/1910.10683v4"
         },
@@ -242,6 +252,16 @@
         "n": "PSQ (Chen et al., 2020)",
         "d": "2020-10-27",
         "m1": "96.2"
+      },
+      {
+        "p": {
+          "name": "MPNet: Masked and Permuted Pre-training for Language Understanding",
+          "link": "https://arxiv.org/abs/2004.09297v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "MPNet Base",
+        "d": "2020-04-20",
+        "m1": "96.0"
       },
       {
         "p": {
@@ -495,6 +515,16 @@
       },
       {
         "p": {
+          "name": "MobileBERT: a Compact Task-Agnostic BERT for Resource-Limited Devices",
+          "link": "https://arxiv.org/abs/2004.02984v2"
+        },
+        "c": "https://github.com/tensorflow/models/tree/master/official/nlp/projects/mobilebert",
+        "n": "MobileBERT",
+        "d": "2020-04-06",
+        "m1": "92.8"
+      },
+      {
+        "p": {
           "name": "TinyBERT: Distilling BERT for Natural Language Understanding",
           "link": "https://arxiv.org/abs/1909.10351v5"
         },
@@ -572,6 +602,16 @@
         "n": "Nyströmformer",
         "d": "2021-02-07",
         "m1": "91.4"
+      },
+      {
+        "p": {
+          "name": "Improving Language Understanding by Generative Pre-Training",
+          "link": "https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "GPT-1",
+        "d": "2018-06-11",
+        "m1": "91.3"
       },
       {
         "p": {
@@ -912,6 +952,106 @@
         "n": "Word+ES (Scratch)",
         "d": "2022-10-18",
         "m3": "100"
+      },
+      {
+        "p": {
+          "name": "ERNIE-Gram: Pre-Training with Explicitly N-Gram Masked Language Modeling for Natural Language Understanding",
+          "link": "https://arxiv.org/abs/2010.12148"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleNLP/blob/develop/paddlenlp/transformers/ernie_gram/modeling.py",
+        "n": "ERNIE-Gram",
+        "d": "2020-10-23",
+        "m2": "95.6"
+      },
+      {
+        "p": {
+          "name": "FLAVA: A Foundational Language And Vision Alignment Model",
+          "link": "https://arxiv.org/abs/2112.04482v3"
+        },
+        "c": "https://github.com/facebookresearch/multimodal",
+        "n": "FLAVA",
+        "d": "2021-12-08",
+        "m2": "90.9"
+      },
+      {
+        "p": {
+          "name": "MVP: Multi-task Supervised Pre-training for Natural Language Generation",
+          "link": "https://arxiv.org/abs/2206.12131"
+        },
+        "c": "https://github.com/rucaibox/mvp",
+        "n": "MVP",
+        "d": "2022-06-24",
+        "m2": "96.43"
+      },
+      {
+        "p": {
+          "name": "RoFormer: Enhanced Transformer with Rotary Position Embedding",
+          "link": "https://arxiv.org/abs/2104.09864"
+        },
+        "c": "https://github.com/ZhuiyiTechnology/roformer",
+        "n": "RoFormer",
+        "d": "2021-04-20",
+        "m2": "90.7"
+      },
+      {
+        "p": {
+          "name": "Model soups: averaging weights of multiple fine-tuned models improves accuracy without increasing inference time",
+          "link": "https://arxiv.org/abs/2203.05482v3"
+        },
+        "c": "https://github.com/mlfoundations/model-soups",
+        "n": "T5-large (Greedy soup)",
+        "d": "2022-03-10",
+        "m2": "96.3"
+      },
+      {
+        "p": {
+          "name": "GLU Variants Improve Transformer",
+          "link": "https://arxiv.org/abs/2002.05202"
+        },
+        "c": "https://github.com/code-implementation1/Code4",
+        "n": "FFN ReGLU",
+        "d": "2020-02-12",
+        "m2": "94.38"
+      },
+      {
+        "p": {
+          "name": "Unsupervised Cross-lingual Representation Learning at Scale",
+          "link": "https://arxiv.org/abs/1911.02116"
+        },
+        "c": "https://github.com/facebookresearch/XLM",
+        "n": "XLM-R",
+        "d": "2019-11-05",
+        "m2": "95.0"
+      },
+      {
+        "p": {
+          "name": "Larger-Scale Transformers for Multilingual Masked Language Modeling",
+          "link": "https://arxiv.org/abs/2105.00572"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "XLM-R XXL",
+        "d": "2021-05-02",
+        "m2": "96.7"
+      },
+      {
+        "p": {
+          "name": "You Only Sample (Almost) Once: Linear Cost Self-Attention Via Bernoulli Sampling",
+          "link": "https://arxiv.org/abs/2111.09714"
+        },
+        "c": "https://github.com/mlpen/yoso",
+        "n": "YOSO-E",
+        "d": "2021-11-18",
+        "m2": "92.3"
+      },
+      {
+        "p": {
+          "name": "LFM2.5-Encoders: Fast at Long Context, Even on CPU",
+          "link": "https://www.liquid.ai/blog/lfm2-5-encoders"
+        },
+        "c": "https://github.com/liquid4all/cookbook",
+        "n": "LFM2.5-Encoder-350M",
+        "d": "2026-07-28",
+        "m2": "95.11"
       }
     ]
   }

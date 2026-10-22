@@ -1,0 +1,117 @@
+{
+  "title": "3d-visual-grounding-on-scanrefer-val",
+  "task-hierarchy": [
+    "Visual Grounding",
+    "3D Visual Grounding"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/daveredrum/ScanRefer",
+    "paper": "ScanRefer: 3D Object Localization in RGB-D Scans using Natural Language"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Acc@0.25",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Acc@0.5",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Unifying 2D and 3D Vision-Language Understanding",
+          "link": "https://arxiv.org/abs/2503.10745"
+        },
+        "c": "https://github.com/facebookresearch/univlg",
+        "n": "UniVLG",
+        "d": "2025-03-13",
+        "m1": "63.5",
+        "m2": "56.4"
+      },
+      {
+        "p": {
+          "name": "Qwen-3D: A Generalist 3D Vision-Language Model for Spatial Understanding",
+          "link": "https://arxiv.org/abs/2608.02980"
+        },
+        "c": "https://github.com/ll220/qwen3d",
+        "n": "Qwen-3D-7B",
+        "d": "2026-08-04",
+        "m1": "62.8"
+      },
+      {
+        "p": {
+          "name": "GPT4Scene: Understand 3D Scenes from Videos with Vision-Language Models",
+          "link": "https://arxiv.org/abs/2501.01428"
+        },
+        "c": "https://github.com/Qi-Zhangyang/GPT4Scene",
+        "n": "Qwen2-VL-7B (GPT4Scene)-HDM",
+        "d": "2025-01-02",
+        "m1": "62.6"
+      },
+      {
+        "p": {
+          "name": "G^3-LQ: Marrying Hyperbolic Alignment with Explicit Semantic-Geometric Modeling for 3D Visual Grounding",
+          "link": "https://openaccess.thecvf.com/content/CVPR2024/html/Wang_G3-LQ_Marrying_Hyperbolic_Alignment_with_Explicit_Semantic-Geometric_Modeling_for_3D_CVPR_2024_paper.html"
+        },
+        "c": "",
+        "n": "G3-LQ (Two-Stage)",
+        "d": "2024-06-17",
+        "m1": "56.9",
+        "m2": "45.58"
+      },
+      {
+        "p": {
+          "name": "Viewpoint-Aware Visual Grounding in 3D Scenes",
+          "link": "https://openaccess.thecvf.com/content/CVPR2024/html/Shi_Viewpoint-Aware_Visual_Grounding_in_3D_Scenes_CVPR_2024_paper.html"
+        },
+        "c": "",
+        "n": "VPP-Net (extra data)",
+        "d": "2024-06-17",
+        "m1": "55.65",
+        "m2": "43.29"
+      },
+      {
+        "p": {
+          "name": "3D-LLM: Injecting the 3D World into Large Language Models",
+          "link": "https://arxiv.org/abs/2307.12981v1"
+        },
+        "c": "https://github.com/umass-foundation-model/3d-llm",
+        "n": "3D-LLM (BLIP2-flant5)",
+        "d": "2023-07-24",
+        "m1": "30.3"
+      },
+      {
+        "p": {
+          "name": "Qwen-3D: A Generalist 3D Vision-Language Model for Spatial Understanding",
+          "link": "https://arxiv.org/abs/2608.02980"
+        },
+        "c": "https://github.com/ll220/qwen3d",
+        "n": "Qwen-3D-3B",
+        "d": "2026-08-04",
+        "m2": "55.3"
+      }
+    ]
+  }
+}

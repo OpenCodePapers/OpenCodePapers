@@ -1,0 +1,321 @@
+{
+  "title": "deepfake-detection-on-lav-df-temporal-localization",
+  "task-hierarchy": [
+    "Image Manipulation Detection",
+    "DeepFake Detection"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/ControlNet/LAV-DF",
+    "paper": "Do You Really Mean That? Content Driven Audio-Visual Deepfake Dataset and Multimodal Method for Temporal Forgery Localization"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AP@0.5",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "AR@100",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "AP@0.95",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "AR@10",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "AR@20",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "AR@50",
+        "sortable": "true"
+      },
+      {
+        "key": "m7",
+        "label": "AP@0.75",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Inconsistency-aware Multimodal Schrodinger Bridge for Deepfake Localization",
+          "link": "https://arxiv.org/abs/2605.23113"
+        },
+        "c": "",
+        "n": "IaMSB",
+        "d": "2026-05-22",
+        "m1": "99.33",
+        "m2": "95.52",
+        "m3": "55.92",
+        "m4": "94.68",
+        "m5": "95.41",
+        "m6": "95.5",
+        "m7": "95.62"
+      },
+      {
+        "p": {
+          "name": "MG-RWKV: Multi-Grained Context-Aware RWKV for Temporal Forgery Localization",
+          "link": "https://arxiv.org/abs/2607.00902"
+        },
+        "c": "",
+        "n": "MG-RWKV (multimodal; full set)",
+        "d": "2026-07-01",
+        "m1": "98.92",
+        "m2": "93.41",
+        "m3": "38.47"
+      },
+      {
+        "p": {
+          "name": "Glitch in the Matrix: A Large Scale Benchmark for Content Driven Audio-Visual Forgery Detection and Localization",
+          "link": "https://arxiv.org/abs/2305.01979"
+        },
+        "c": "https://github.com/ControlNet/LAV-DF",
+        "n": "BA-TFD+ (audio-visual)",
+        "d": "2023-05-03",
+        "m1": "96.3",
+        "m2": "81.62",
+        "m3": "4.44",
+        "m4": "78.75",
+        "m5": "79.4",
+        "m6": "80.48",
+        "m7": "84.96"
+      },
+      {
+        "p": {
+          "name": "Glitch in the Matrix: A Large Scale Benchmark for Content Driven Audio-Visual Forgery Detection and Localization",
+          "link": "https://arxiv.org/abs/2305.01979"
+        },
+        "c": "https://github.com/ControlNet/LAV-DF",
+        "n": "TriDet",
+        "d": "2023-05-03",
+        "m1": "86.33",
+        "m2": "74.47",
+        "m3": "3.05",
+        "m4": "74.45",
+        "m5": "74.46",
+        "m6": "74.47",
+        "m7": "70.23"
+      },
+      {
+        "p": {
+          "name": "Glitch in the Matrix: A Large Scale Benchmark for Content Driven Audio-Visual Forgery Detection and Localization",
+          "link": "https://arxiv.org/abs/2305.01979"
+        },
+        "c": "https://github.com/ControlNet/LAV-DF",
+        "n": "ActionFormer",
+        "d": "2023-05-03",
+        "m1": "85.23",
+        "m2": "77.23",
+        "m3": "0.93",
+        "m4": "76.93",
+        "m5": "77.19",
+        "m6": "77.23",
+        "m7": "59.05"
+      },
+      {
+        "p": {
+          "name": "Glitch in the Matrix: A Large Scale Benchmark for Content Driven Audio-Visual Forgery Detection and Localization",
+          "link": "https://arxiv.org/abs/2305.01979"
+        },
+        "c": "https://github.com/ControlNet/LAV-DF",
+        "n": "TadTR",
+        "d": "2023-05-03",
+        "m1": "80.22",
+        "m2": "72.5",
+        "m3": "5.22",
+        "m4": "69.18",
+        "m5": "70.56",
+        "m6": "72.5",
+        "m7": "61.04"
+      },
+      {
+        "p": {
+          "name": "Glitch in the Matrix: A Large Scale Benchmark for Content Driven Audio-Visual Forgery Detection and Localization",
+          "link": "https://arxiv.org/abs/2305.01979"
+        },
+        "c": "https://github.com/ControlNet/LAV-DF",
+        "n": "BA-TFD",
+        "d": "2023-05-03",
+        "m1": "79.15",
+        "m2": "67.03",
+        "m3": "0.24",
+        "m4": "58.51",
+        "m5": "60.89",
+        "m6": "64.18",
+        "m7": "38.57"
+      },
+      {
+        "p": {
+          "name": "Do You Really Mean That? Content Driven Audio-Visual Deepfake Dataset and Multimodal Method for Temporal Forgery Localization",
+          "link": "https://arxiv.org/abs/2204.06228"
+        },
+        "c": "https://github.com/ControlNet/LAV-DF",
+        "n": "BA-TFD (multimodal; full set)",
+        "d": "2022-04-13",
+        "m1": "76.90",
+        "m2": "66.90",
+        "m3": "0.25",
+        "m4": "58.42",
+        "m5": "60.77",
+        "m6": "64.08",
+        "m7": "38.50"
+      },
+      {
+        "p": {
+          "name": "Glitch in the Matrix: A Large Scale Benchmark for Content Driven Audio-Visual Forgery Detection and Localization",
+          "link": "https://arxiv.org/abs/2305.01979"
+        },
+        "c": "https://github.com/ControlNet/LAV-DF",
+        "n": "AVFusion",
+        "d": "2023-05-03",
+        "m1": "65.38",
+        "m2": "62.98",
+        "m3": "0.11",
+        "m4": "52.11",
+        "m5": "54.8",
+        "m6": "59.26",
+        "m7": "23.89"
+      },
+      {
+        "p": {
+          "name": "Glitch in the Matrix: A Large Scale Benchmark for Content Driven Audio-Visual Forgery Detection and Localization",
+          "link": "https://arxiv.org/abs/2305.01979"
+        },
+        "c": "https://github.com/ControlNet/LAV-DF",
+        "n": "BA-TFD+ (visual-only)",
+        "d": "2023-05-03",
+        "m1": "64.78",
+        "m2": "64.0",
+        "m3": "2.53",
+        "m4": "54.38",
+        "m5": "55.94",
+        "m6": "59.33",
+        "m7": "54.85"
+      },
+      {
+        "p": {
+          "name": "Do You Really Mean That? Content Driven Audio-Visual Deepfake Dataset and Multimodal Method for Temporal Forgery Localization",
+          "link": "https://arxiv.org/abs/2204.06228"
+        },
+        "c": "https://github.com/ControlNet/LAV-DF",
+        "n": "BA-TFD (visual-only; full set)",
+        "d": "2022-04-13",
+        "m1": "58.55",
+        "m2": "62.49",
+        "m3": "0.16",
+        "m4": "50.29",
+        "m5": "53.86",
+        "m6": "58.77",
+        "m7": "28.60"
+      },
+      {
+        "p": {
+          "name": "Glitch in the Matrix: A Large Scale Benchmark for Content Driven Audio-Visual Forgery Detection and Localization",
+          "link": "https://arxiv.org/abs/2305.01979"
+        },
+        "c": "https://github.com/ControlNet/LAV-DF",
+        "n": "BSN++",
+        "d": "2023-05-03",
+        "m1": "56.41",
+        "m2": "74.93",
+        "m3": "0.21",
+        "m4": "59.29",
+        "m5": "64.98",
+        "m6": "71.11",
+        "m7": "32.57"
+      },
+      {
+        "p": {
+          "name": "Glitch in the Matrix: A Large Scale Benchmark for Content Driven Audio-Visual Forgery Detection and Localization",
+          "link": "https://arxiv.org/abs/2305.01979"
+        },
+        "c": "https://github.com/ControlNet/LAV-DF",
+        "n": "BMN (E2E)",
+        "d": "2023-05-03",
+        "m1": "24.01",
+        "m2": "53.26",
+        "m3": "0.07",
+        "m4": "26.93",
+        "m5": "31.6",
+        "m6": "41.24",
+        "m7": "7.61"
+      },
+      {
+        "p": {
+          "name": "Glitch in the Matrix: A Large Scale Benchmark for Content Driven Audio-Visual Forgery Detection and Localization",
+          "link": "https://arxiv.org/abs/2305.01979"
+        },
+        "c": "https://github.com/ControlNet/LAV-DF",
+        "n": "AGT",
+        "d": "2023-05-03",
+        "m1": "17.85",
+        "m2": "43.15",
+        "m3": "0.11",
+        "m4": "16.71",
+        "m5": "24.59",
+        "m6": "34.23",
+        "m7": "9.42"
+      },
+      {
+        "p": {
+          "name": "Glitch in the Matrix: A Large Scale Benchmark for Content Driven Audio-Visual Forgery Detection and Localization",
+          "link": "https://arxiv.org/abs/2305.01979"
+        },
+        "c": "https://github.com/ControlNet/LAV-DF",
+        "n": "MDS",
+        "d": "2023-05-03",
+        "m1": "12.78",
+        "m2": "37.88",
+        "m3": "0.0",
+        "m4": "32.15",
+        "m5": "34.39",
+        "m6": "36.71",
+        "m7": "1.62"
+      },
+      {
+        "p": {
+          "name": "Glitch in the Matrix: A Large Scale Benchmark for Content Driven Audio-Visual Forgery Detection and Localization",
+          "link": "https://arxiv.org/abs/2305.01979"
+        },
+        "c": "https://github.com/ControlNet/LAV-DF",
+        "n": "BMN",
+        "d": "2023-05-03",
+        "m1": "10.56",
+        "m2": "48.49",
+        "m3": "0.0",
+        "m4": "31.55",
+        "m5": "37.13",
+        "m6": "44.39",
+        "m7": "1.66"
+      }
+    ]
+  }
+}

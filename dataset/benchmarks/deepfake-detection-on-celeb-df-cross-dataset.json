@@ -1,0 +1,89 @@
+{
+  "title": "deepfake-detection-on-celeb-df-cross-dataset",
+  "task-hierarchy": [
+    "Image Manipulation Detection",
+    "DeepFake Detection"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/danmohaha/celeb-deepfakeforensics",
+    "paper": "Celeb-DF: A Large-scale Challenging Dataset for DeepFake Forensics"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AUC",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "DFD-HR: Generalizable Deepfake Detection via Hierarchical Routing Learning",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Sun_DFD-HR_Generalizable_Deepfake_Detection_via_Hierarchical_Routing_Learning_CVPR_2026_paper.html"
+        },
+        "c": "https://github.com/disguiser15/dfd-hr",
+        "n": "DFD-HR",
+        "d": "2026-06-03",
+        "m1": "0.91"
+      },
+      {
+        "p": {
+          "name": "FSFM: A Generalizable Face Security Foundation Model via Self-Supervised Facial Representation Learning",
+          "link": "https://arxiv.org/abs/2412.12032"
+        },
+        "c": "https://github.com/wolo-wolo/FSFM",
+        "n": "FSFM ViT-B",
+        "d": "2024-12-16",
+        "m1": "0.8505"
+      },
+      {
+        "p": {
+          "name": "GM-DF: Generalized Multi-Scenario Deepfake Detection",
+          "link": "https://arxiv.org/abs/2406.20078"
+        },
+        "c": "https://github.com/laiyingxin2/gm-df",
+        "n": "GM-DF",
+        "d": "2024-06-28",
+        "m1": "0.8316"
+      },
+      {
+        "p": {
+          "name": "Transcending Forgery Specificity with Latent Space Augmentation for Generalizable Deepfake Detection",
+          "link": "https://arxiv.org/abs/2311.11278"
+        },
+        "c": "https://github.com/sclbd/deepfakebench",
+        "n": "EFNB4 + LSDA (extra data)",
+        "d": "2023-11-19",
+        "m1": "0.830"
+      },
+      {
+        "p": {
+          "name": "UCF: Uncovering Common Features for Generalizable Deepfake Detection",
+          "link": "https://arxiv.org/abs/2304.13949"
+        },
+        "c": "https://github.com/sclbd/deepfakebench",
+        "n": "UCF (extra data)",
+        "d": "2023-04-27",
+        "m1": "0.824"
+      }
+    ]
+  }
+}

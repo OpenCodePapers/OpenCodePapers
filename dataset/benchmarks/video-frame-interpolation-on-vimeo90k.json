@@ -72,6 +72,40 @@
       },
       {
         "p": {
+          "name": "VFIMamba: Video Frame Interpolation with State Space Models",
+          "link": "https://arxiv.org/abs/2407.02315v2"
+        },
+        "c": "https://github.com/mcg-nju/vfimamba",
+        "n": "VFIMamba (extra data)",
+        "d": "2024-07-02",
+        "m1": "36.64",
+        "m2": "0.9819"
+      },
+      {
+        "p": {
+          "name": "Aligning Anything: Hierarchical Motion Estimation for Video Frame Interpolation",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/5280"
+        },
+        "c": "",
+        "n": "Aligning Anything (AMT-G)",
+        "d": "2026-09-08",
+        "m1": "36.62",
+        "m2": "0.982",
+        "m3": "0.0168"
+      },
+      {
+        "p": {
+          "name": "IQ-VFI: Implicit Quadratic Motion Estimation for Video Frame Interpolation",
+          "link": "https://openaccess.thecvf.com/content/CVPR2024/html/Hu_IQ-VFI_Implicit_Quadratic_Motion_Estimation_for_Video_Frame_Interpolation_CVPR_2024_paper.html"
+        },
+        "c": "",
+        "n": "IQ-VFI (Ours)",
+        "d": "2024-06-17",
+        "m1": "36.6",
+        "m2": "0.982"
+      },
+      {
+        "p": {
           "name": "Video Frame Interpolation with Densely Queried Bilateral Correlation",
           "link": "https://arxiv.org/abs/2304.13596v1"
         },
@@ -80,6 +114,50 @@
         "d": "2023-04-26",
         "m1": "36.57",
         "m2": "0.9817"
+      },
+      {
+        "p": {
+          "name": "AMT: All-Pairs Multi-Field Transforms for Efficient Frame Interpolation",
+          "link": "https://arxiv.org/abs/2304.09790"
+        },
+        "c": "https://github.com/mcg-nku/amt",
+        "n": "AMT-G",
+        "d": "2023-04-19",
+        "m1": "36.53",
+        "m2": "0.982"
+      },
+      {
+        "p": {
+          "name": "LC-Mamba: Local and Continuous Mamba with Shifted Windows for Frame Interpolation",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Jeong_LC-Mamba_Local_and_Continuous_Mamba_with_Shifted_Windows_for_Frame_CVPR_2025_paper.html"
+        },
+        "c": "https://github.com/miinuuu/lc-mamba",
+        "n": "LC-Mamba (Ours-P)",
+        "d": "2025-06-11",
+        "m1": "36.53",
+        "m2": "0.9816"
+      },
+      {
+        "p": {
+          "name": "MASS: Motion-Aligned Selective Scan for Flow-Based Video Frame Interpolation",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/3303"
+        },
+        "c": "",
+        "n": "MASS",
+        "d": "2026-09-08",
+        "m1": "36.53",
+        "m2": "0.9816"
+      },
+      {
+        "p": {
+          "name": "Video Frame Interpolation with Transformer",
+          "link": "https://arxiv.org/abs/2205.07230v1"
+        },
+        "c": "https://github.com/dvlab-research/vfiformer",
+        "n": "VFIformer",
+        "d": "2022-05-15",
+        "m1": "36.5",
+        "m2": "0.9816"
       },
       {
         "p": {
@@ -94,6 +172,28 @@
       },
       {
         "p": {
+          "name": "AMT: All-Pairs Multi-Field Transforms for Efficient Frame Interpolation",
+          "link": "https://arxiv.org/abs/2304.09790"
+        },
+        "c": "https://github.com/mcg-nku/amt",
+        "n": "AMT-L",
+        "d": "2023-04-19",
+        "m1": "36.35",
+        "m2": "0.982"
+      },
+      {
+        "p": {
+          "name": "FLAVR: Flow-Agnostic Video Representations for Fast Frame Interpolation",
+          "link": "https://arxiv.org/abs/2012.08512"
+        },
+        "c": "",
+        "n": "FLAVR",
+        "d": "2020-12-15",
+        "m1": "36.25",
+        "m2": "0.975"
+      },
+      {
+        "p": {
           "name": "IFRNet: Intermediate Feature Refine Network for Efficient Frame Interpolation",
           "link": "https://arxiv.org/abs/2205.14620v1"
         },
@@ -103,6 +203,17 @@
         "m1": "36.20",
         "m2": "0.9808",
         "m4": "16 (Tesla V100)"
+      },
+      {
+        "p": {
+          "name": "RIFE: Real-Time Intermediate Flow Estimation for Video Frame Interpolation",
+          "link": "https://arxiv.org/abs/2011.06294v11"
+        },
+        "c": "https://github.com/hzwer/eccv2022-rife",
+        "n": "RIFE-Large",
+        "d": "2020-11-12",
+        "m1": "36.19",
+        "m2": "0.981"
       },
       {
         "p": {
@@ -150,6 +261,17 @@
       },
       {
         "p": {
+          "name": "AMT: All-Pairs Multi-Field Transforms for Efficient Frame Interpolation",
+          "link": "https://arxiv.org/abs/2304.09790"
+        },
+        "c": "https://github.com/mcg-nku/amt",
+        "n": "AMT-S",
+        "d": "2023-04-19",
+        "m1": "35.97",
+        "m2": "0.983"
+      },
+      {
+        "p": {
           "name": "Neighbor Correspondence Matching for Flow-based Video Frame Synthesis",
           "link": "https://arxiv.org/abs/2207.06763v1"
         },
@@ -169,6 +291,28 @@
         "d": "2022-02-28",
         "m1": "35.73",
         "m2": "0.9789"
+      },
+      {
+        "p": {
+          "name": "RIFE: Real-Time Intermediate Flow Estimation for Video Frame Interpolation",
+          "link": "https://arxiv.org/abs/2011.06294v11"
+        },
+        "c": "https://github.com/hzwer/eccv2022-rife",
+        "n": "RIFE",
+        "d": "2020-11-12",
+        "m1": "35.61",
+        "m2": "0.978"
+      },
+      {
+        "p": {
+          "name": "RIFE: Real-Time Intermediate Flow Estimation for Video Frame Interpolation",
+          "link": "https://arxiv.org/abs/2011.06294v11"
+        },
+        "c": "https://github.com/hzwer/eccv2022-rife",
+        "n": "RIFE m",
+        "d": "2020-11-12",
+        "m1": "35.46",
+        "m2": "0.978"
       },
       {
         "p": {
@@ -239,6 +383,18 @@
       },
       {
         "p": {
+          "name": "Disentangled Motion Modeling for Video Frame Interpolation",
+          "link": "https://arxiv.org/abs/2406.17256"
+        },
+        "c": "https://github.com/jhlew/momo",
+        "n": "MoMo",
+        "d": "2024-06-25",
+        "m1": "34.94",
+        "m2": "0.9756",
+        "m3": "0.0136"
+      },
+      {
+        "p": {
           "name": "Depth-Aware Video Frame Interpolation",
           "link": "http://arxiv.org/abs/1904.00830v1"
         },
@@ -294,6 +450,26 @@
         "n": "ToFlow",
         "d": "2017-11-24",
         "m1": "33.73"
+      },
+      {
+        "p": {
+          "name": "Hierarchical Flow Diffusion for Efficient Frame Interpolation",
+          "link": "https://arxiv.org/abs/2504.00380"
+        },
+        "c": "",
+        "n": "Hierarchical Flow Diffusion",
+        "d": "2025-04-01",
+        "m3": "0.012"
+      },
+      {
+        "p": {
+          "name": "Perception-Oriented Video Frame Interpolation via Asymmetric Blending",
+          "link": "https://arxiv.org/abs/2404.06692"
+        },
+        "c": "https://github.com/mulns/pervfi",
+        "n": "PerVFI",
+        "d": "2024-04-10",
+        "m3": "0.018"
       }
     ]
   }

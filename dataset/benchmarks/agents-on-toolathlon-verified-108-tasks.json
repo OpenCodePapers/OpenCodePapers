@@ -1,0 +1,168 @@
+{
+  "title": "agents-on-toolathlon-verified-108-tasks",
+  "task-hierarchy": [
+    "Agents"
+  ],
+  "dataset-info": {
+    "link": "https://toolathlon.xyz",
+    "paper": "The Tool Decathlon: Benchmarking Language Agents for Diverse, Realistic, and Long-Horizon Task Execution"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Pass@1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Introducing Claude Opus 5",
+          "link": "https://www.anthropic.com/news/claude-opus-5"
+        },
+        "c": "https://github.com/anthropics/claude-code",
+        "n": "Claude Opus 5",
+        "d": "2026-07-24",
+        "m1": "0.806"
+      },
+      {
+        "p": {
+          "name": "GLM-5.3-Flash: Frontier Intelligence, Flash Cost",
+          "link": "https://z.ai/blog/glm-5.3-flash"
+        },
+        "c": "https://github.com/zai-org/glm-5",
+        "n": "GLM-5.3-Flash",
+        "d": "2026-08-26",
+        "m1": "0.784"
+      },
+      {
+        "p": {
+          "name": "Introducing Claude Opus 5.5",
+          "link": "https://www.anthropic.com/claude-opus-5-5"
+        },
+        "c": "https://github.com/anthropics/claude-code",
+        "n": "Claude Opus 5.5",
+        "d": "2026-09-22",
+        "m1": "0.778"
+      },
+      {
+        "p": {
+          "name": "Introducing Claude Sonnet 5.5",
+          "link": "https://www.anthropic.com/claude-sonnet-5-5"
+        },
+        "c": "https://github.com/anthropics/claude-code",
+        "n": "Claude Sonnet 5.5",
+        "d": "2026-09-28",
+        "m1": "0.778"
+      },
+      {
+        "p": {
+          "name": "MiMo-V2.6: Scaling Reinforcement Learning Towards Self-Improvement",
+          "link": "https://arxiv.org/abs/2610.11959"
+        },
+        "c": "https://github.com/vllm-project/vllm",
+        "n": "MiMo-V2.6-Pro-RL",
+        "d": "2026-10-08",
+        "m1": "0.769"
+      },
+      {
+        "p": {
+          "name": "Kimi K3: Open Frontier Intelligence",
+          "link": "https://arxiv.org/abs/2607.24653"
+        },
+        "c": "https://github.com/moonshotai/kimi-k3",
+        "n": "Kimi K3 Max",
+        "d": "2026-07-27",
+        "m1": "0.765"
+      },
+      {
+        "p": {
+          "name": "Introducing Muse Spark 1.1",
+          "link": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/"
+        },
+        "c": "https://github.com/meta-models/meta-model-cookbook",
+        "n": "Muse Spark 1.1",
+        "d": "2026-07-09",
+        "m1": "0.756"
+      },
+      {
+        "p": {
+          "name": "Qwen3.8-Flash-Next",
+          "link": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next"
+        },
+        "c": "https://github.com/qwenlm/qwen3.8-flash-next",
+        "n": "Qwen3.8-Flash-Next",
+        "d": "2026-08-24",
+        "m1": "0.735"
+      },
+      {
+        "p": {
+          "name": "GLM-5.3: Frontier Coding with Emergent Cyber Capabilities",
+          "link": "https://z.ai/blog/glm-5.3"
+        },
+        "c": "https://github.com/zai-org/glm-5",
+        "n": "GLM-5.3",
+        "d": "2026-08-14",
+        "m1": "0.73"
+      },
+      {
+        "p": {
+          "name": "Introducing K2 Horizon: Frontier Performance, Radically Open",
+          "link": "https://ifm.ai/blog/k2/"
+        },
+        "c": "https://github.com/ifm-ai/xllm",
+        "n": "K2-Horizon-375B-A23B",
+        "d": "2026-09-03",
+        "m1": "0.653"
+      },
+      {
+        "p": {
+          "name": "Inkling-Small",
+          "link": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        "c": "https://github.com/thinking-machines-lab/tinker-cookbook",
+        "n": "Inkling-Small",
+        "d": "2026-07-27",
+        "m1": "0.544"
+      },
+      {
+        "p": {
+          "name": "WEFT: Scaling Tool-Use Post-Training for General-Purpose Agents",
+          "link": "https://arxiv.org/abs/2609.36887"
+        },
+        "c": "",
+        "n": "WEFT-35B-A3B",
+        "d": "2026-09-29",
+        "m1": "0.4599"
+      },
+      {
+        "p": {
+          "name": "ProgAgent: Learning Tool Orchestration through Programmatic Training",
+          "link": "https://arxiv.org/abs/2610.14774"
+        },
+        "c": "https://github.com/hkust-nlp/ProgAgent",
+        "n": "ProgAgent-14B",
+        "d": "2026-10-10",
+        "m1": "0.171"
+      }
+    ]
+  }
+}

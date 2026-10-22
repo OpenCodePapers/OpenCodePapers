@@ -81,6 +81,18 @@
       },
       {
         "p": {
+          "name": "Self-guided Semantic Inspection for Zero-Shot Composed Image Retrieval",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_Self-guided_Semantic_Inspection_for_Zero-Shot_Composed_Image_Retrieval_CVPR_2026_paper.html"
+        },
+        "c": "https://github.com/orange1999/diffcomp",
+        "n": "DiffComp (BLIP ViT-L/16)",
+        "d": "2026-06-03",
+        "m1": "39.72",
+        "m2": "68.64",
+        "m3": "79.42"
+      },
+      {
+        "p": {
           "name": "ImageScope: Unifying Language-Guided Image Retrieval via Large Multimodal Model Collective Reasoning",
           "link": "https://arxiv.org/abs/2503.10166v1"
         },
@@ -165,6 +177,18 @@
         "m2": "64.34",
         "m3": "74.48",
         "m4": "93.42"
+      },
+      {
+        "p": {
+          "name": "Generative Zero-Shot Composed Image Retrieval",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Wang_Generative_Zero-Shot_Composed_Image_Retrieval_CVPR_2025_paper.html"
+        },
+        "c": "https://github.com/lan-lw/composedimagegen",
+        "n": "LinCIR + CIG (ViT-G/14) (extra data)",
+        "d": "2025-06-11",
+        "m1": "36.05",
+        "m2": "66.31",
+        "m3": "76.96"
       },
       {
         "p": {
@@ -355,6 +379,18 @@
         "d": "2024-09-07",
         "m1": "26.31",
         "m2": "57.69"
+      },
+      {
+        "p": {
+          "name": "FlowCIR: Semantic Transport via Flow Matching for Zero-Shot Composed Image Retrieval",
+          "link": "https://arxiv.org/abs/2607.02284"
+        },
+        "c": "",
+        "n": "FlowCIR (CLIP ViT-L/14) (extra data)",
+        "d": "2026-07-02",
+        "m1": "26.2",
+        "m2": "56.1",
+        "m3": "68.6"
       },
       {
         "p": {
@@ -640,6 +676,17 @@
         "n": "PALAVRA",
         "d": "2022-04-04",
         "m2": "43.49"
+      },
+      {
+        "p": {
+          "name": "Generative Zero-Shot Composed Image Retrieval",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Wang_Generative_Zero-Shot_Composed_Image_Retrieval_CVPR_2025_paper.html"
+        },
+        "c": "https://github.com/lan-lw/composedimagegen",
+        "n": "LinCIR + CIG (ViT-G/14)",
+        "d": "2025-06-11",
+        "m2": "66.31",
+        "m3": "76.96"
       }
     ]
   }

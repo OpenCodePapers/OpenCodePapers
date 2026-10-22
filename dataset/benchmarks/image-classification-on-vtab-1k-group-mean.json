@@ -1,0 +1,128 @@
+{
+  "title": "image-classification-on-vtab-1k-group-mean",
+  "task-hierarchy": [
+    "Image Classification"
+  ],
+  "dataset-info": {
+    "link": "https://google-research.github.io/task_adaptation/",
+    "paper": "A Large-scale Study of Representation Learning with the Visual Task Adaptation Benchmark"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "One-for-All: Generalized LoRA for Parameter-Efficient Fine-tuning",
+          "link": "https://arxiv.org/abs/2306.07967"
+        },
+        "c": "https://github.com/arnav0400/vit-slim",
+        "n": "GLoRA (0.86M)",
+        "d": "2023-06-13",
+        "m1": "78.0"
+      },
+      {
+        "p": {
+          "name": "Adapters Strike Back",
+          "link": "https://arxiv.org/abs/2406.06820"
+        },
+        "c": "https://github.com/visinf/adapter_plus",
+        "n": "Adapter+ (rank selected per task, 1-32)",
+        "d": "2024-06-10",
+        "m1": "77.9"
+      },
+      {
+        "p": {
+          "name": "Structured Hyperedge Adaptation for Parameter-Efficient Fine-Tuning of Vision Transformers",
+          "link": "https://arxiv.org/abs/2606.22383"
+        },
+        "c": "",
+        "n": "HyperAdapter",
+        "d": "2026-06-21",
+        "m1": "77.6"
+      },
+      {
+        "p": {
+          "name": "Auto-Prompting: Layer-Specific Prompt Fusion Discovery via Differentiable Search",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/4112"
+        },
+        "c": "",
+        "n": "Auto-Prompting",
+        "d": "2026-09-08",
+        "m1": "77.01"
+      },
+      {
+        "p": {
+          "name": "Minimal Interaction Seperated Tuning: A New Paradigm for Visual Adaptation",
+          "link": "https://arxiv.org/abs/2406.17559"
+        },
+        "c": "",
+        "n": "MIST",
+        "d": "2024-06-25",
+        "m1": "76.7"
+      },
+      {
+        "p": {
+          "name": "Sensitivity-Aware Visual Parameter-Efficient Fine-Tuning",
+          "link": "https://arxiv.org/abs/2303.08566"
+        },
+        "c": "https://github.com/ziplab/spt",
+        "n": "SPT-Adapter",
+        "d": "2023-03-15",
+        "m1": "76.4"
+      },
+      {
+        "p": {
+          "name": "DA-VPT: Semantic-Guided Visual Prompt Tuning for Vision Transformers",
+          "link": "https://arxiv.org/abs/2505.23694"
+        },
+        "c": "https://github.com/noahsark/da-vpt",
+        "n": "DA-VPT+ (ViT-B/16, supervised ImageNet-21K)",
+        "d": "2025-05-29",
+        "m1": "76.14"
+      },
+      {
+        "p": {
+          "name": "Neural Prompt Search",
+          "link": "https://arxiv.org/abs/2206.04673v2"
+        },
+        "c": "https://github.com/ZhangYuanhan-AI/NOAH",
+        "n": "NOAH",
+        "d": "2022-06-09",
+        "m1": "75.5"
+      },
+      {
+        "p": {
+          "name": "Visual Prompt Tuning",
+          "link": "https://arxiv.org/abs/2203.12119v2"
+        },
+        "c": "https://github.com/KMnP/vpt",
+        "n": "VPT-Deep",
+        "d": "2022-03-23",
+        "m1": "71.96"
+      }
+    ]
+  }
+}

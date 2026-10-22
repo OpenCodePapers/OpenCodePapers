@@ -1,0 +1,145 @@
+{
+  "title": "point-tracking-on-tap-vid-rgb-stacking-query-first-256-256",
+  "task-hierarchy": [
+    "Object Tracking",
+    "Point Tracking"
+  ],
+  "dataset-info": {
+    "link": "https://tapvid.github.io/",
+    "paper": "TAP-Vid: A Benchmark for Tracking Any Point in a Video"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AJ",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "OA",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "delta_avg",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Dense Optical Tracking: Connecting the Dots",
+          "link": "https://arxiv.org/abs/2312.00786"
+        },
+        "c": "https://github.com/16lemoing/dot",
+        "n": "DOT (CoTracker + RAFT)",
+        "d": "2023-12-01",
+        "m1": "0.772",
+        "m2": "0.933",
+        "m3": "0.877"
+      },
+      {
+        "p": {
+          "name": "Probing and Leveraging Video Diffusion Transformer Features for Robust Point Tracking",
+          "link": "https://arxiv.org/abs/2512.20606"
+        },
+        "c": "https://github.com/cvlab-kaist/ditracker",
+        "n": "DiTracker (CoTracker3) (extra data)",
+        "d": "2025-12-23",
+        "m1": "0.748",
+        "m2": "0.909",
+        "m3": "0.852"
+      },
+      {
+        "p": {
+          "name": "TAPNext++: What's Next for Tracking Any Point (TAP)?",
+          "link": "https://arxiv.org/abs/2604.10582"
+        },
+        "c": "https://github.com/google-deepmind/tapnet",
+        "n": "TAPNext++ (extra data)",
+        "d": "2026-04-12",
+        "m1": "0.734",
+        "m2": "0.951",
+        "m3": "0.848"
+      },
+      {
+        "p": {
+          "name": "Online Dense Point Tracking with Streaming Memory",
+          "link": "https://arxiv.org/abs/2503.06471"
+        },
+        "c": "https://github.com/dqiaole/spot",
+        "n": "SPOT",
+        "d": "2025-03-09",
+        "m1": "0.733",
+        "m2": "0.903",
+        "m3": "0.864"
+      },
+      {
+        "p": {
+          "name": "TAPTRv3: Spatial and Temporal Context Foster Robust Tracking of Any Point in Long Video",
+          "link": "https://arxiv.org/abs/2411.18671"
+        },
+        "c": "https://github.com/IDEA-Research/TAPTR",
+        "n": "TAPTRv3 (online, ResNet-18)",
+        "d": "2024-11-27",
+        "m1": "0.723",
+        "m2": "0.908",
+        "m3": "0.841"
+      },
+      {
+        "p": {
+          "name": "Track-On: Transformer-based Online Point Tracking with Memory",
+          "link": "https://arxiv.org/abs/2501.18487"
+        },
+        "c": "https://github.com/gorkaydemir/track_on",
+        "n": "Track-On",
+        "d": "2025-01-30",
+        "m1": "0.714",
+        "m2": "0.917",
+        "m3": "0.852"
+      },
+      {
+        "p": {
+          "name": "TAPTR: Tracking Any Point with Transformers as Detection",
+          "link": "https://arxiv.org/abs/2403.13042"
+        },
+        "c": "https://github.com/IDEA-Research/TAPTR",
+        "n": "TAPTR",
+        "d": "2024-03-19",
+        "m1": "0.608",
+        "m2": "0.87",
+        "m3": "0.762"
+      },
+      {
+        "p": {
+          "name": "TAPIR: Tracking Any Point with per-frame Initialization and temporal Refinement",
+          "link": "https://arxiv.org/abs/2306.08637"
+        },
+        "c": "https://github.com/deepmind/tapnet",
+        "n": "TAPIR (MOVi-E)",
+        "d": "2023-06-14",
+        "m1": "0.562",
+        "m2": "0.893",
+        "m3": "0.7"
+      }
+    ]
+  }
+}

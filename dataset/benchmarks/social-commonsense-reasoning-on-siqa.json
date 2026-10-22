@@ -1,0 +1,219 @@
+{
+  "title": "social-commonsense-reasoning-on-siqa",
+  "task-hierarchy": [
+    "Common Sense Reasoning",
+    "Social Commonsense Reasoning"
+  ],
+  "dataset-info": {
+    "link": "https://arxiv.org/abs/1904.09728",
+    "paper": "SocialIQA: Commonsense Reasoning about Social Interactions"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Nemotron-4 15B Technical Report",
+          "link": "https://arxiv.org/abs/2402.16819"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Nemotron-4 15B",
+        "d": "2024-02-26",
+        "m1": "60.9"
+      },
+      {
+        "p": {
+          "name": "Gemma 2: Improving Open Language Models at a Practical Size",
+          "link": "https://arxiv.org/abs/2408.00118"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Gemma 2 27B",
+        "d": "2024-07-31",
+        "m1": "53.7"
+      },
+      {
+        "p": {
+          "name": "MobileMoE: Scaling On-Device Mixture of Experts",
+          "link": "https://arxiv.org/abs/2605.27358"
+        },
+        "c": "",
+        "n": "MobileMoE-L (922M)",
+        "d": "2026-05-26",
+        "m1": "53.4"
+      },
+      {
+        "p": {
+          "name": "LLaMA: Open and Efficient Foundation Language Models",
+          "link": "https://arxiv.org/abs/2302.13971v1"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "LLaMA-65B",
+        "d": "2023-02-27",
+        "m1": "52.3"
+      },
+      {
+        "p": {
+          "name": "RecurrentGemma: Moving Past Transformers for Efficient Open Language Models",
+          "link": "https://arxiv.org/abs/2404.07839"
+        },
+        "c": "https://github.com/google-deepmind/recurrentgemma",
+        "n": "RecurrentGemma-9B",
+        "d": "2024-04-11",
+        "m1": "52.3"
+      },
+      {
+        "p": {
+          "name": "Gemma: Open Models Based on Gemini Research and Technology",
+          "link": "https://arxiv.org/abs/2403.08295"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Gemma 7B",
+        "d": "2024-03-13",
+        "m1": "51.8"
+      },
+      {
+        "p": {
+          "name": "RecurrentGemma: Moving Past Transformers for Efficient Open Language Models",
+          "link": "https://arxiv.org/abs/2404.07839"
+        },
+        "c": "https://github.com/google-deepmind/recurrentgemma",
+        "n": "RecurrentGemma-2B",
+        "d": "2024-04-11",
+        "m1": "51.8"
+      },
+      {
+        "p": {
+          "name": "Encoder-Decoder Gemma: Improving the Quality-Efficiency Trade-Off via Adaptation",
+          "link": "https://arxiv.org/abs/2504.06225"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "T5Gemma 9B-9B PrefixLM",
+        "d": "2025-04-08",
+        "m1": "50.5"
+      },
+      {
+        "p": {
+          "name": "Data Science and Technology Towards AGI Part I: Tiered Data Management",
+          "link": "https://arxiv.org/abs/2602.09003"
+        },
+        "c": "https://github.com/UltraData-OpenBMB/UltraData-Math",
+        "n": "MiniCPM-1.2B (Math-L3)",
+        "d": "2026-02-09",
+        "m1": "43.35"
+      },
+      {
+        "p": {
+          "name": "PLDR-LLMs Reason At Self-Organized Criticality",
+          "link": "https://arxiv.org/abs/2603.23539"
+        },
+        "c": "https://github.com/burcgokden/PLDR-LLM-Self-Organized-Criticality",
+        "n": "PLDRv51-SOC-110M-5",
+        "d": "2026-03-12",
+        "m1": "43.09"
+      },
+      {
+        "p": {
+          "name": "Maglev: Sliding Recurrent Memory",
+          "link": "https://arxiv.org/abs/2608.02870"
+        },
+        "c": "",
+        "n": "Maglev (separate parameters, lambda=0.1)",
+        "d": "2026-08-05",
+        "m1": "42.7"
+      },
+      {
+        "p": {
+          "name": "Memory Caching: RNNs with Growing Memory",
+          "link": "https://arxiv.org/abs/2602.24281"
+        },
+        "c": "",
+        "n": "Titans + GRM",
+        "d": "2026-02-27",
+        "m1": "42.6"
+      },
+      {
+        "p": {
+          "name": "Modular TTT: Rethinking Test-Time Training as Composable Modules",
+          "link": "https://arxiv.org/abs/2608.07110"
+        },
+        "c": "https://github.com/bytedance-seed/modular-ttt",
+        "n": "Modular TTT 1.45B (inner-product M-SiLU)",
+        "d": "2026-08-07",
+        "m1": "42.32"
+      },
+      {
+        "p": {
+          "name": "SonicMoE: Accelerating MoE with IO and Tile-aware Optimizations",
+          "link": "https://arxiv.org/abs/2512.14080"
+        },
+        "c": "https://github.com/dao-ailab/sonic-moe",
+        "n": "Token Rounding (1.8B MoE)",
+        "d": "2025-12-16",
+        "m1": "42.1"
+      },
+      {
+        "p": {
+          "name": "MDM-Prime-v2: Binary Encoding and Index Shuffling Enable Scaling of Diffusion Language Models",
+          "link": "https://arxiv.org/abs/2603.16077"
+        },
+        "c": "https://github.com/chen-hao-chao/mdm-prime-v2",
+        "n": "MDM-Prime-v2 (1.1B)",
+        "d": "2026-03-17",
+        "m1": "42.02"
+      },
+      {
+        "p": {
+          "name": "Gated Delta Networks: Improving Mamba2 with Delta Rule",
+          "link": "https://arxiv.org/abs/2412.06464"
+        },
+        "c": "https://github.com/nvlabs/gateddeltanet",
+        "n": "Gated DeltaNet-H2",
+        "d": "2024-12-09",
+        "m1": "41.91"
+      },
+      {
+        "p": {
+          "name": "Gated DeltaNet-2: Decoupling Erase and Write in Linear Attention",
+          "link": "https://arxiv.org/abs/2605.22791"
+        },
+        "c": "https://github.com/nvlabs/gateddeltanet-2",
+        "n": "Gated DeltaNet-2 (1.3B)",
+        "d": "2026-05-21",
+        "m1": "41.5"
+      },
+      {
+        "p": {
+          "name": "Looping Beyond Twice: A Scalable Recipe for Looped Mixture-of-Experts",
+          "link": "https://arxiv.org/abs/2610.01153"
+        },
+        "c": "https://github.com/hed-ucas/LOOM",
+        "n": "LOOM (1.7B, 12 loops)",
+        "d": "2026-10-01",
+        "m1": "40.0"
+      }
+    ]
+  }
+}

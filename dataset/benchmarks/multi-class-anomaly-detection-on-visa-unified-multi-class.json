@@ -1,0 +1,136 @@
+{
+  "title": "multi-class-anomaly-detection-on-visa-unified-multi-class",
+  "task-hierarchy": [
+    "Anomaly Detection",
+    "Multi-class Anomaly Detection"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/amazon-research/spot-diff",
+    "paper": "SPot-the-Difference Self-Supervised Pre-training for Anomaly Detection and Segmentation"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Detection AUROC",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Segmentation AUROC",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Detection F1-max",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Segmentation F1-max",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Dinomaly2: A Unified Framework for Unsupervised Image Anomaly Detection",
+          "link": "https://arxiv.org/abs/2510.17611"
+        },
+        "c": "https://github.com/guojiajeremy/dinomaly2",
+        "n": "Dinomaly2-L",
+        "d": "2025-10-20",
+        "m1": "99.3",
+        "m2": "99.2",
+        "m3": "97.2",
+        "m4": "57.1"
+      },
+      {
+        "p": {
+          "name": "HLRAD: High-dimensional Latent Representation for Unified Anomaly Detection",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/5190"
+        },
+        "c": "",
+        "n": "HLRAD",
+        "d": "2026-09-08",
+        "m1": "99.0",
+        "m3": "96.6",
+        "m4": "57.5"
+      },
+      {
+        "p": {
+          "name": "Dinomaly: The Less Is More Philosophy in Multi-Class Unsupervised Anomaly Detection",
+          "link": "https://arxiv.org/abs/2405.14325v4"
+        },
+        "c": "https://github.com/guojiajeremy/dinomaly",
+        "n": "Dinomaly ViT-Base (20k iterations)",
+        "d": "2024-05-23",
+        "m1": "98.9",
+        "m3": "96.4"
+      },
+      {
+        "p": {
+          "name": "ReFP-AD: Rectified Flow Preconditioning for Energy-Based Anomaly Detection",
+          "link": "https://arxiv.org/abs/2608.01793"
+        },
+        "c": "https://github.com/clendering/refp-ad",
+        "n": "ReFP-AD",
+        "d": "2026-08-03",
+        "m1": "97.3",
+        "m2": "99.0"
+      },
+      {
+        "p": {
+          "name": "MambaAD: Exploring State Space Models for Multi-class Unsupervised Anomaly Detection",
+          "link": "https://arxiv.org/abs/2404.06564v3"
+        },
+        "c": "https://github.com/zhangzjn/ader",
+        "n": "MambaAD",
+        "d": "2024-04-09",
+        "m1": "94.3",
+        "m2": "98.5",
+        "m3": "89.4",
+        "m4": "44.0"
+      },
+      {
+        "p": {
+          "name": "A Unified Latent Schrodinger Bridge Diffusion Model for Unsupervised Anomaly Detection and Localization",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Akshay_A_Unified_Latent_Schrodinger_Bridge_Diffusion_Model_for_Unsupervised_Anomaly_CVPR_2025_paper.html"
+        },
+        "c": "https://github.com/akshay-shilhora-as/lasb",
+        "n": "LASB",
+        "d": "2025-06-11",
+        "m1": "94.2",
+        "m2": "98.18"
+      },
+      {
+        "p": {
+          "name": "Dinomaly: The Less Is More Philosophy in Multi-Class Unsupervised Anomaly Detection",
+          "link": "https://arxiv.org/abs/2405.14325v4"
+        },
+        "c": "https://github.com/guojiajeremy/dinomaly",
+        "n": "Dinomaly ViT-Large",
+        "d": "2024-05-23",
+        "m2": "99.10",
+        "m4": "57.33"
+      }
+    ]
+  }
+}

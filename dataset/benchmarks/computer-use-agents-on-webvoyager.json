@@ -1,0 +1,149 @@
+{
+  "title": "computer-use-agents-on-webvoyager",
+  "task-hierarchy": [
+    "Agents",
+    "Computer Use Agents"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/MinorJerry/WebVoyager",
+    "paper": "WebVoyager: Building an End-to-End Web Agent with Large Multimodal Models"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Success Rate",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Fara-1.5: Scalable Learning Environments for Computer Use Agents",
+          "link": "https://arxiv.org/abs/2606.20785"
+        },
+        "c": "https://github.com/microsoft/fara",
+        "n": "Fara1.5-27B",
+        "d": "2026-06-18",
+        "m1": "89.3"
+      },
+      {
+        "p": {
+          "name": "GLM-5V-Turbo: Toward a Native Foundation Model for Multimodal Agents",
+          "link": "https://arxiv.org/abs/2604.26752"
+        },
+        "c": "https://github.com/zai-org/GLM-V",
+        "n": "GLM-5V-Turbo",
+        "d": "2026-04-29",
+        "m1": "88.5"
+      },
+      {
+        "p": {
+          "name": "Seed1.5-VL Technical Report",
+          "link": "https://arxiv.org/abs/2505.07062v1"
+        },
+        "c": "https://github.com/bytedance-seed/seed1.5-vl",
+        "n": "Seed1.5-VL (thinking)",
+        "d": "2025-05-11",
+        "m1": "87.2"
+      },
+      {
+        "p": {
+          "name": "UI-TARS: Pioneering Automated GUI Interaction with Native Agents",
+          "link": "https://arxiv.org/abs/2501.12326"
+        },
+        "c": "https://github.com/bytedance/ui-tars",
+        "n": "UI-TARS-1.5 (early access)",
+        "d": "2025-01-21",
+        "m1": "84.8"
+      },
+      {
+        "p": {
+          "name": "Introducing Gemini 2.0: our new AI model for the agentic era",
+          "link": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/google-gemini-ai-update-december-2024/"
+        },
+        "c": "",
+        "n": "Project Mariner",
+        "d": "2024-12-11",
+        "m1": "83.5"
+      },
+      {
+        "p": {
+          "name": "Holo2: Foundational Models for Navigation and Computer Use Agents",
+          "link": "https://huggingface.co/Hcompany/Holo2-235B-A22B"
+        },
+        "c": "",
+        "n": "Holo2-30B-A3B",
+        "d": "2026-02-03",
+        "m1": "83.0"
+      },
+      {
+        "p": {
+          "name": "Mobile-Agent-v3.5: Multi-platform Fundamental GUI Agents",
+          "link": "https://arxiv.org/abs/2602.16855"
+        },
+        "c": "https://github.com/x-plug/mobileagent",
+        "n": "GUI-Owl-1.5-32B-Thinking",
+        "d": "2026-02-15",
+        "m1": "82.1"
+      },
+      {
+        "p": {
+          "name": "MolmoWeb: Open Visual Web Agent and Open Data for the Open Web",
+          "link": "https://arxiv.org/abs/2604.08516"
+        },
+        "c": "https://github.com/allenai/molmoweb",
+        "n": "MolmoWeb-8B",
+        "d": "2026-04-09",
+        "m1": "78.2"
+      },
+      {
+        "p": {
+          "name": "OpenWebRL: Demystifying Online Multi-turn Reinforcement Learning for Visual Web Agents",
+          "link": "https://arxiv.org/abs/2606.02031"
+        },
+        "c": "https://github.com/OpenWebRL/OpenWebRL",
+        "n": "OpenWebRL-8B",
+        "d": "2026-06-01",
+        "m1": "74.6"
+      },
+      {
+        "p": {
+          "name": "Orchard: An Open-Source Agentic Modeling Framework",
+          "link": "https://arxiv.org/abs/2605.15040"
+        },
+        "c": "https://github.com/microsoft/Orchard",
+        "n": "Orchard-GUI-4B (SFT + RL)",
+        "d": "2026-05-14",
+        "m1": "74.1"
+      },
+      {
+        "p": {
+          "name": "LLaDA-UI: Bringing Block-wise Diffusion to Vision-Language GUI Agents",
+          "link": "https://arxiv.org/abs/2609.13287"
+        },
+        "c": "https://github.com/inclusionai/llada-ui",
+        "n": "LLaDA-UI",
+        "d": "2026-09-09",
+        "m1": "56.9"
+      }
+    ]
+  }
+}

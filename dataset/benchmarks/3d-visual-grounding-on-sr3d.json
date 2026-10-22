@@ -1,0 +1,89 @@
+{
+  "title": "3d-visual-grounding-on-sr3d",
+  "task-hierarchy": [
+    "Visual Grounding",
+    "3D Visual Grounding"
+  ],
+  "dataset-info": {
+    "link": "",
+    "paper": "ReferIt3D: Neural Listeners for Fine-Grained 3D Object Identification in Real-World Scenes"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "MiKASA: Multi-Key-Anchor & Scene-Aware Transformer for 3D Visual Grounding",
+          "link": "https://arxiv.org/abs/2403.03077"
+        },
+        "c": "https://github.com/birdy666/mikasa-3dvg",
+        "n": "MiKASA",
+        "d": "2024-03-05",
+        "m1": "75.2"
+      },
+      {
+        "p": {
+          "name": "EG-3DVG: Expression and Geometry Aware Grounding Decoder for 3D Visual Grounding",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Park_EG-3DVG_Expression_and_Geometry_Aware_Grounding_Decoder_for_3D_Visual_CVPR_2026_paper.html"
+        },
+        "c": "https://github.com/gwan9wook/eg3dvg",
+        "n": "EG-3DVG",
+        "d": "2026-06-03",
+        "m1": "75.2"
+      },
+      {
+        "p": {
+          "name": "Multi-Attribute Interactions Matter for 3D Visual Grounding",
+          "link": "https://openaccess.thecvf.com/content/CVPR2024/html/Xu_Multi-Attribute_Interactions_Matter_for_3D_Visual_Grounding_CVPR_2024_paper.html"
+        },
+        "c": "",
+        "n": "MA2TransVG",
+        "d": "2024-06-17",
+        "m1": "73.9"
+      },
+      {
+        "p": {
+          "name": "PV-Ground: Text-Guided Point-Voxel Interaction for 3D Visual Grounding",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Shang_PV-Ground_Text-Guided_Point-Voxel_Interaction_for_3D_Visual_Grounding_CVPR_2026_paper.html"
+        },
+        "c": "https://github.com/aannwwtt/pv-ground",
+        "n": "PV-Ground",
+        "d": "2026-06-03",
+        "m1": "68.9"
+      },
+      {
+        "p": {
+          "name": "ReferIt3D Leaderboard",
+          "link": "https://referit3d.github.io/benchmarks.html"
+        },
+        "c": "",
+        "n": "ReferIt3DNet",
+        "d": "2020-01-01",
+        "m1": "40.8"
+      }
+    ]
+  }
+}

@@ -1,0 +1,619 @@
+{
+  "title": "computer-use-agents-on-screenspot-pro",
+  "task-hierarchy": [
+    "Agents",
+    "Computer Use Agents"
+  ],
+  "dataset-info": {
+    "link": "https://arxiv.org/abs/2504.07981",
+    "paper": "ScreenSpot-Pro: GUI Grounding for Professional High-Resolution Computer Use"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "GPT-6 Astra: A new generation of intelligence",
+          "link": "https://openai.com/index/gpt-6-astra/"
+        },
+        "c": "https://github.com/openai/codex",
+        "n": "GPT-6 Astra (no tools)",
+        "d": "2026-09-03",
+        "m1": "92.7"
+      },
+      {
+        "p": {
+          "name": "Qwen3.8-Max: A New Bar for Coding and Cowork",
+          "link": "https://qwen.ai/blog?id=qwen3.8"
+        },
+        "c": "https://github.com/vllm-project/vllm",
+        "n": "Qwen3.8-Max",
+        "d": "2026-08-03",
+        "m1": "84.5"
+      },
+      {
+        "p": {
+          "name": "GroundAnything: Reconciling Parallel Decoding with Precise Visual Grounding at Flash Speed",
+          "link": "https://arxiv.org/abs/2609.39600"
+        },
+        "c": "https://github.com/groundingpi/GroundAnything",
+        "n": "GroundAnything",
+        "d": "2026-09-30",
+        "m1": "75.96"
+      },
+      {
+        "p": {
+          "name": "UI-Venus-2 Technical Report",
+          "link": "https://arxiv.org/abs/2609.00028"
+        },
+        "c": "https://github.com/inclusionai/ui-venus",
+        "n": "UI-Venus-2-27B",
+        "d": "2026-08-27",
+        "m1": "74.1"
+      },
+      {
+        "p": {
+          "name": "Holo3.1: Fast & Local Computer Use Agents",
+          "link": "https://hcompany.ai/holo3.1"
+        },
+        "c": "",
+        "n": "Holo3.1-35B-A3B",
+        "d": "2026-06-01",
+        "m1": "71.5"
+      },
+      {
+        "p": {
+          "name": "ScreenSpot-Pro Leaderboard",
+          "link": "https://huggingface.co/datasets/likaixin/ScreenSpot-Pro"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Qwen3.5-122B-A10B",
+        "d": "2026-02-16",
+        "m1": "70.4"
+      },
+      {
+        "p": {
+          "name": "UI-Venus-1.5 Technical Report",
+          "link": "https://arxiv.org/abs/2602.09082"
+        },
+        "c": "https://github.com/inclusionai/ui-venus",
+        "n": "UI-Venus-1.5-30B-A3B",
+        "d": "2026-02-09",
+        "m1": "69.6"
+      },
+      {
+        "p": {
+          "name": "Introducing Gemini 3 Flash",
+          "link": "https://blog.google/products-and-platforms/products/gemini/gemini-3-flash/"
+        },
+        "c": "",
+        "n": "Google Gemini 3 Flash (Thinking)",
+        "d": "2025-12-17",
+        "m1": "69.1"
+      },
+      {
+        "p": {
+          "name": "GroundingPI: A Grounding Foundation Model towards Physical Intelligence with Visual Primitives",
+          "link": "https://arxiv.org/abs/2609.39601"
+        },
+        "c": "https://github.com/groundingpi/GroundingPI",
+        "n": "GroundingPI",
+        "d": "2026-09-30",
+        "m1": "65.78"
+      },
+      {
+        "p": {
+          "name": "GroundGUI: GUI Grounding by High-Quality Data and Distillation-to-Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2610.19100"
+        },
+        "c": "https://github.com/PrentisAI/GroundGUI",
+        "n": "GroundGUI-8B",
+        "d": "2026-10-13",
+        "m1": "63.9"
+      },
+      {
+        "p": {
+          "name": "GTA1: GUI Test-time Scaling Agent",
+          "link": "https://arxiv.org/abs/2507.05791"
+        },
+        "c": "https://github.com/Yan98/GTA1",
+        "n": "GTA1-32B",
+        "d": "2025-07-08",
+        "m1": "63.6"
+      },
+      {
+        "p": {
+          "name": "EvoCUA: Evolving Computer Use Agents via Learning from Scalable Synthetic Experience",
+          "link": "https://arxiv.org/abs/2601.15876"
+        },
+        "c": "https://github.com/meituan/EvoCUA",
+        "n": "EvoCUA-OpenCUA-72B",
+        "d": "2026-01-22",
+        "m1": "63.24"
+      },
+      {
+        "p": {
+          "name": "Step-GUI Technical Report",
+          "link": "https://arxiv.org/abs/2512.15431"
+        },
+        "c": "https://github.com/stepfun-ai/gelab-zero",
+        "n": "Step-GUI-8B",
+        "d": "2025-12-17",
+        "m1": "62.6"
+      },
+      {
+        "p": {
+          "name": "Qwen3-VL Technical Report",
+          "link": "https://arxiv.org/abs/2511.21631"
+        },
+        "c": "https://github.com/QwenLM/Qwen3-VL",
+        "n": "Qwen3-VL-235B-A22B-Instruct",
+        "d": "2025-11-26",
+        "m1": "62.0"
+      },
+      {
+        "p": {
+          "name": "ScreenSpot-Pro Leaderboard",
+          "link": "https://huggingface.co/datasets/likaixin/ScreenSpot-Pro"
+        },
+        "c": "https://github.com/inclusionai/ui-venus",
+        "n": "UI-Venus-Ground-72B",
+        "d": "2025-08-14",
+        "m1": "61.9"
+      },
+      {
+        "p": {
+          "name": "UI-TARS: Pioneering Automated GUI Interaction with Native Agents",
+          "link": "https://arxiv.org/abs/2501.12326"
+        },
+        "c": "https://github.com/bytedance/ui-tars",
+        "n": "UI-TARS-1.5 (early access)",
+        "d": "2025-01-21",
+        "m1": "61.6"
+      },
+      {
+        "p": {
+          "name": "GUI-Libra: Training Native GUI Agents to Reason and Act with Action-aware Supervision and Partially Verifiable RL",
+          "link": "https://arxiv.org/abs/2602.22190"
+        },
+        "c": "https://github.com/GUI-Libra/GUI-Libra",
+        "n": "GUI-Libra-4B + Mix Grounding 20K (extra data)",
+        "d": "2026-02-25",
+        "m1": "61.4"
+      },
+      {
+        "p": {
+          "name": "Vero: An Open RL Recipe for General Visual Reasoning",
+          "link": "https://arxiv.org/abs/2604.04917"
+        },
+        "c": "https://github.com/zlab-princeton/vero",
+        "n": "Vero-Qwen3I-8B",
+        "d": "2026-04-06",
+        "m1": "61.4"
+      },
+      {
+        "p": {
+          "name": "MolmoPoint: Better Pointing for VLMs with Grounding Tokens",
+          "link": "https://arxiv.org/abs/2603.28069"
+        },
+        "c": "https://github.com/allenai/molmopoint-guisyn",
+        "n": "MolmoPoint-GUI-8B",
+        "d": "2026-03-30",
+        "m1": "61.1"
+      },
+      {
+        "p": {
+          "name": "Seed1.5-VL Technical Report",
+          "link": "https://arxiv.org/abs/2505.07062v1"
+        },
+        "c": "https://github.com/bytedance-seed/seed1.5-vl",
+        "n": "Seed1.5-VL (thinking)",
+        "d": "2025-05-11",
+        "m1": "60.9"
+      },
+      {
+        "p": {
+          "name": "OpenCUA: Open Foundations for Computer-Use Agents",
+          "link": "https://arxiv.org/abs/2508.09123"
+        },
+        "c": "https://github.com/xlang-ai/OpenCUA",
+        "n": "OpenCUA-72B",
+        "d": "2025-08-12",
+        "m1": "60.8"
+      },
+      {
+        "p": {
+          "name": "LocateAnything: Fast and High-Quality Vision-Language Grounding with Parallel Box Decoding",
+          "link": "https://arxiv.org/abs/2605.27365"
+        },
+        "c": "https://github.com/nvlabs/eagle",
+        "n": "LocateAnything-3B",
+        "d": "2026-05-26",
+        "m1": "60.3"
+      },
+      {
+        "p": {
+          "name": "POINTS-GUI-G: GUI-Grounding Journey",
+          "link": "https://arxiv.org/abs/2602.06391"
+        },
+        "c": "https://github.com/Tencent/POINTS-GUI",
+        "n": "POINTS-GUI-G-8B",
+        "d": "2026-02-06",
+        "m1": "59.9"
+      },
+      {
+        "p": {
+          "name": "Nemotron 3 Nano Omni: Efficient and Open Multimodal Intelligence",
+          "link": "https://arxiv.org/abs/2604.24954"
+        },
+        "c": "https://github.com/nvidia-nemo/megatron-bridge",
+        "n": "Nemotron 3 Nano Omni",
+        "d": "2026-04-27",
+        "m1": "59.3"
+      },
+      {
+        "p": {
+          "name": "ScaleCUA: Scaling Open-Source Computer Use Agents with Cross-Platform Data",
+          "link": "https://arxiv.org/abs/2509.15221"
+        },
+        "c": "https://github.com/OpenGVLab/ScaleCUA",
+        "n": "ScaleCUA-32B",
+        "d": "2025-09-18",
+        "m1": "59.2"
+      },
+      {
+        "p": {
+          "name": "Mobile-Agent-v3: Fundamental Agents for GUI Automation",
+          "link": "https://arxiv.org/abs/2508.15144"
+        },
+        "c": "https://github.com/X-PLUG/MobileAgent/tree/main/Mobile-Agent-v3",
+        "n": "GUI-Owl-32B",
+        "d": "2025-08-21",
+        "m1": "58.0"
+      },
+      {
+        "p": {
+          "name": "VIVAS: Vitalizing Visual Perception in VLM Pre-training via Vision-language Unified Autoregressive Supervision",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/4767"
+        },
+        "c": "",
+        "n": "VIVAS",
+        "d": "2026-09-08",
+        "m1": "57.1"
+      },
+      {
+        "p": {
+          "name": "Video2GUI: Synthesizing Large-Scale Interaction Trajectories for Generalized GUI Agent Pretraining",
+          "link": "https://arxiv.org/abs/2605.14747"
+        },
+        "c": "https://github.com/WeiminXiong/Video2GUI",
+        "n": "Mimo-VL-7B + WildGUI",
+        "d": "2026-05-14",
+        "m1": "56.9"
+      },
+      {
+        "p": {
+          "name": "OmegaUse: Building a General-Purpose GUI Agent for Autonomous Task Execution",
+          "link": "https://arxiv.org/abs/2601.20380"
+        },
+        "c": "",
+        "n": "OmegaUse-G",
+        "d": "2026-01-28",
+        "m1": "55.47"
+      },
+      {
+        "p": {
+          "name": "ScreenSpot-Pro Leaderboard",
+          "link": "https://huggingface.co/datasets/likaixin/ScreenSpot-Pro"
+        },
+        "c": "https://github.com/qwenlm/qwen2-vl",
+        "n": "Qwen2.5-VL-72B-Instruct",
+        "d": "2025-02-19",
+        "m1": "53.3"
+      },
+      {
+        "p": {
+          "name": "Grounding Computer Use Agents on Human Demonstrations",
+          "link": "https://arxiv.org/abs/2511.07332"
+        },
+        "c": "https://github.com/ServiceNow/GroundCUA/",
+        "n": "GroundNext-7B (RL)",
+        "d": "2025-11-10",
+        "m1": "52.9"
+      },
+      {
+        "p": {
+          "name": "LLaDA-UI: Bringing Block-wise Diffusion to Vision-Language GUI Agents",
+          "link": "https://arxiv.org/abs/2609.13287"
+        },
+        "c": "https://github.com/inclusionai/llada-ui",
+        "n": "LLaDA-UI",
+        "d": "2026-09-09",
+        "m1": "52.9"
+      },
+      {
+        "p": {
+          "name": "Kimi-VL Technical Report",
+          "link": "https://arxiv.org/abs/2504.07491"
+        },
+        "c": "https://github.com/moonshotai/kimi-vl",
+        "n": "Kimi-VL-A3B-Thinking-2506",
+        "d": "2025-04-10",
+        "m1": "52.8"
+      },
+      {
+        "p": {
+          "name": "InfiGUI-G1: Advancing GUI Grounding with Adaptive Exploration Policy Optimization",
+          "link": "https://arxiv.org/abs/2508.05731"
+        },
+        "c": "https://github.com/InfiXAI/InfiGUI-G1",
+        "n": "InfiGUI-G1-7B (extra data)",
+        "d": "2025-08-07",
+        "m1": "51.9"
+      },
+      {
+        "p": {
+          "name": "STEP3-VL-10B Technical Report",
+          "link": "https://arxiv.org/abs/2601.09668"
+        },
+        "c": "https://github.com/stepfun-ai/Step3-VL-10B",
+        "n": "Step3-VL-10B",
+        "d": "2026-01-14",
+        "m1": "51.55"
+      },
+      {
+        "p": {
+          "name": "FocusUI: Efficient UI Grounding via Position-Preserving Visual Token Selection",
+          "link": "https://arxiv.org/abs/2601.03928"
+        },
+        "c": "https://github.com/showlab/focusui",
+        "n": "FocusUI-7B (r=100%)",
+        "d": "2026-01-07",
+        "m1": "48.3"
+      },
+      {
+        "p": {
+          "name": "PixelPrune: Pixel-Level Adaptive Visual Token Reduction via Predictive Coding",
+          "link": "https://arxiv.org/abs/2604.00886"
+        },
+        "c": "https://github.com/OPPO-Mente-Lab/PixelPrune",
+        "n": "Qwen3-VL (2B) with PixelPrune (+KD)",
+        "d": "2026-04-01",
+        "m1": "47.6"
+      },
+      {
+        "p": {
+          "name": "GUI-G$^2$: Gaussian Reward Modeling for GUI Grounding",
+          "link": "https://arxiv.org/abs/2507.15846"
+        },
+        "c": "https://github.com/zju-real/GUI-G2",
+        "n": "GUI-G²-7B",
+        "d": "2025-07-21",
+        "m1": "47.5"
+      },
+      {
+        "p": {
+          "name": "Enhancing Visual Grounding for GUI Agents via Self-Evolutionary Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2505.12370"
+        },
+        "c": "https://github.com/yxb-nku/se-gui",
+        "n": "SE-GUI-7B (extra data)",
+        "d": "2025-05-18",
+        "m1": "47.3"
+      },
+      {
+        "p": {
+          "name": "ScreenSpot-Pro Leaderboard",
+          "link": "https://huggingface.co/datasets/likaixin/ScreenSpot-Pro"
+        },
+        "c": "https://github.com/KDEGroup/UI-AGILE",
+        "n": "UI-AGILE-3B",
+        "d": "2025-07-29",
+        "m1": "45.0"
+      },
+      {
+        "p": {
+          "name": "UI-MOPD: Multi-Platform On-Policy Distillation for Continual GUI Agent Learning",
+          "link": "https://arxiv.org/abs/2607.04425"
+        },
+        "c": "https://github.com/elispectre/ui-mopd",
+        "n": "UI-MOPD",
+        "d": "2026-07-05",
+        "m1": "43.14"
+      },
+      {
+        "p": {
+          "name": "MiMo-VL Technical Report",
+          "link": "https://arxiv.org/abs/2506.03569"
+        },
+        "c": "https://github.com/xiaomimimo/mimo-vl",
+        "n": "MiMo-VL-7B-RL",
+        "d": "2025-06-04",
+        "m1": "41.9"
+      },
+      {
+        "p": {
+          "name": "DeskForge: Dense Supervision from Desktop Environments for Computer-Use Agents",
+          "link": "https://arxiv.org/abs/2610.02320"
+        },
+        "c": "https://github.com/Saidgurbuz/deskforge",
+        "n": "DeskForge-Qwen3.5-4B",
+        "d": "2026-10-01",
+        "m1": "41.68"
+      },
+      {
+        "p": {
+          "name": "Covering Human Action Space for Computer Use: Data Synthesis and Benchmark",
+          "link": "https://arxiv.org/abs/2605.12501"
+        },
+        "c": "https://github.com/microsoft/Phi-Ground",
+        "n": "Phi-Ground-Any-4B + APP Data",
+        "d": "2026-05-12",
+        "m1": "41.5"
+      },
+      {
+        "p": {
+          "name": "Scaling Computer-Use Grounding via User Interface Decomposition and Synthesis",
+          "link": "https://arxiv.org/abs/2505.13227"
+        },
+        "c": "https://github.com/xlang-ai/osworld-g",
+        "n": "Jedi-7B",
+        "d": "2025-05-19",
+        "m1": "39.5"
+      },
+      {
+        "p": {
+          "name": "Detect Anything via Next Point Prediction",
+          "link": "https://arxiv.org/abs/2510.12798"
+        },
+        "c": "https://github.com/idea-research/rex-omni",
+        "n": "Rex-Omni",
+        "d": "2025-10-14",
+        "m1": "36.8"
+      },
+      {
+        "p": {
+          "name": "InfiGUI-R1: Advancing Multimodal GUI Agents from Reactive Actors to Deliberative Reasoners",
+          "link": "https://arxiv.org/abs/2504.14239"
+        },
+        "c": "https://github.com/reallm-labs/infigui-r1",
+        "n": "InfiGUI-R1-3B (extra data)",
+        "d": "2025-04-19",
+        "m1": "35.7"
+      },
+      {
+        "p": {
+          "name": "BTL-UI: Blink-Think-Link Reasoning Model for GUI Agent",
+          "link": "https://arxiv.org/abs/2509.15566"
+        },
+        "c": "https://github.com/xiaomi-research/btl-ui",
+        "n": "BTL-UI 7B",
+        "d": "2025-09-19",
+        "m1": "33.7"
+      },
+      {
+        "p": {
+          "name": "UI-R1: Enhancing Efficient Action Prediction of GUI Agents by Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2503.21620"
+        },
+        "c": "https://github.com/lll6gg/ui-r1",
+        "n": "UI-R1-E-3B",
+        "d": "2025-03-27",
+        "m1": "33.5"
+      },
+      {
+        "p": {
+          "name": "UI-Copilot: Advancing Long-Horizon GUI Automation via Tool-Integrated Policy Optimization",
+          "link": "https://arxiv.org/abs/2604.13822"
+        },
+        "c": "https://github.com/ZJU-REAL/UI-Copilot",
+        "n": "UI-Copilot-7B",
+        "d": "2026-04-15",
+        "m1": "31.6"
+      },
+      {
+        "p": {
+          "name": "AutoWebWorld: Synthesizing Infinite Verifiable Web Environments via Finite State Machines",
+          "link": "https://arxiv.org/abs/2602.14296"
+        },
+        "c": "https://github.com/evanwu1125/autowebworld",
+        "n": "AutoWebWorld 7B",
+        "d": "2026-02-15",
+        "m1": "27.5"
+      },
+      {
+        "p": {
+          "name": "ScreenSpot-Pro Leaderboard",
+          "link": "https://huggingface.co/datasets/likaixin/ScreenSpot-Pro"
+        },
+        "c": "https://github.com/xlang-ai/aguvis",
+        "n": "Aguvis-7B-720P",
+        "d": "2024-12-05",
+        "m1": "22.9"
+      },
+      {
+        "p": {
+          "name": "VisionFoundry: Teaching VLMs Visual Perception with Synthetic Images",
+          "link": "https://arxiv.org/abs/2604.09531"
+        },
+        "c": "https://github.com/zlab-princeton/visionfoundry",
+        "n": "Qwen2.5-VL-3B-Instruct + VisionFoundry-10K",
+        "d": "2026-04-10",
+        "m1": "20.2"
+      },
+      {
+        "p": {
+          "name": "ScreenSpot-Pro Leaderboard",
+          "link": "https://huggingface.co/datasets/likaixin/ScreenSpot-Pro"
+        },
+        "c": "https://github.com/njucckevin/seeclick",
+        "n": "OS-Atlas-Pro-7B",
+        "d": "2024-10-30",
+        "m1": "18.9"
+      },
+      {
+        "p": {
+          "name": "ScreenSpot-Pro Leaderboard",
+          "link": "https://huggingface.co/datasets/likaixin/ScreenSpot-Pro"
+        },
+        "c": "https://github.com/showlab/showui",
+        "n": "ShowUI-2B",
+        "d": "2024-11-26",
+        "m1": "7.7"
+      },
+      {
+        "p": {
+          "name": "ScreenSpot-Pro Leaderboard",
+          "link": "https://huggingface.co/datasets/likaixin/ScreenSpot-Pro"
+        },
+        "c": "https://github.com/openbmb/minicpm-v",
+        "n": "MiniCPM-V-2.6",
+        "d": "2024-08-03",
+        "m1": "3.0"
+      },
+      {
+        "p": {
+          "name": "ScreenSpot-Pro Leaderboard",
+          "link": "https://huggingface.co/datasets/likaixin/ScreenSpot-Pro"
+        },
+        "c": "https://github.com/qwenlm/qwen2-vl",
+        "n": "Qwen2-VL-72B-Instruct",
+        "d": "2024-09-18",
+        "m1": "1.0"
+      },
+      {
+        "p": {
+          "name": "ScreenSpot-Pro Leaderboard",
+          "link": "https://huggingface.co/datasets/likaixin/ScreenSpot-Pro"
+        },
+        "c": "https://github.com/qwenlm/qwen-vl",
+        "n": "Qwen-VL-7B",
+        "d": "2023-08-24",
+        "m1": "0.1"
+      }
+    ]
+  }
+}

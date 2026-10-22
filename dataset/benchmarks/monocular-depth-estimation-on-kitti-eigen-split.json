@@ -1135,6 +1135,86 @@
         "n": "VDA",
         "d": "2019-03-26",
         "m1": "0.193"
+      },
+      {
+        "p": {
+          "name": "Depth Anything V2",
+          "link": "https://arxiv.org/abs/2406.09414"
+        },
+        "c": "https://github.com/DepthAnything/Depth-Anything-V2",
+        "n": "Depth Anything V2 (ViT-L) (fine-tuned)",
+        "d": "2024-06-13",
+        "m5": "0.983"
+      },
+      {
+        "p": {
+          "name": "In Pursuit of Pixel Supervision for Visual Pre-training",
+          "link": "https://arxiv.org/abs/2512.15715"
+        },
+        "c": "https://github.com/facebookresearch/pixio",
+        "n": "Pixio-H + DPT",
+        "d": "2025-12-17",
+        "m5": "0.967"
+      },
+      {
+        "p": {
+          "name": "DepthART: Scaling Foundation Monocular Depth to Tiny Models",
+          "link": "https://arxiv.org/abs/2607.17099"
+        },
+        "c": "https://github.com/xuefeng-cvr/depthart",
+        "n": "DepthART-L (fine-tuned)",
+        "d": "2026-07-19",
+        "m5": "0.956"
+      },
+      {
+        "p": {
+          "name": "WorDepth: Variational Language Prior for Monocular Depth Estimation",
+          "link": "https://arxiv.org/abs/2404.03635"
+        },
+        "c": "https://github.com/adonis-galaxy/wordepth",
+        "n": "WorDepth",
+        "d": "2024-04-04",
+        "m5": "0.979"
+      },
+      {
+        "p": {
+          "name": "Boosting Self-Supervision for Single-View Scene Completion via Knowledge Distillation",
+          "link": "https://arxiv.org/abs/2404.07933"
+        },
+        "c": "https://github.com/keonhee-han/kdbts",
+        "n": "KDBTS",
+        "d": "2024-04-11",
+        "m5": "0.873"
+      },
+      {
+        "p": {
+          "name": "Gamma-from-Mono: Road-Relative, Metric, Self-Supervised Monocular Geometry for Vehicular Applications",
+          "link": "https://arxiv.org/abs/2512.04303"
+        },
+        "c": "",
+        "n": "Gamma-from-Mono (GfM)",
+        "d": "2025-12-03",
+        "m5": "0.916"
+      },
+      {
+        "p": {
+          "name": "Last-Layer-Centric Feature Recombination: Unleashing 3D Geometric Knowledge in DINOv3 for Monocular Depth Estimation",
+          "link": "https://arxiv.org/abs/2604.26454"
+        },
+        "c": "",
+        "n": "DINOv3-L+LFR",
+        "d": "2026-04-29",
+        "m5": "0.988"
+      },
+      {
+        "p": {
+          "name": "MD2E: Modeling Depth-to-Edge Cues for Monocular Metric Depth Estimation",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Ning_MD2E_Modeling_Depth-to-Edge_Cues_for_Monocular_Metric_Depth_Estimation_CVPR_2026_paper.html"
+        },
+        "c": "https://github.com/2j472no/mde",
+        "n": "MD2E (extra data)",
+        "d": "2026-06-03",
+        "m5": "0.99"
       }
     ]
   }

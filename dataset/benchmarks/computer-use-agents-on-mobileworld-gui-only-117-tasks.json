@@ -1,0 +1,79 @@
+{
+  "title": "computer-use-agents-on-mobileworld-gui-only-117-tasks",
+  "task-hierarchy": [
+    "Agents",
+    "Computer Use Agents"
+  ],
+  "dataset-info": {
+    "link": "https://tongyi-mai.github.io/MobileWorld/",
+    "paper": "MobileWorld: Benchmarking Autonomous Mobile Agents in Agent-User Interactive, and MCP-Augmented Environments"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Success Rate",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "UI-Venus-2 Technical Report",
+          "link": "https://arxiv.org/abs/2609.00028"
+        },
+        "c": "https://github.com/inclusionai/ui-venus",
+        "n": "UI-Venus-2-27B",
+        "d": "2026-08-27",
+        "m1": "76.1"
+      },
+      {
+        "p": {
+          "name": "MemGUI-Agent: An End-to-End Long-Horizon Mobile GUI Agent with Proactive Context Management",
+          "link": "https://arxiv.org/abs/2606.19926"
+        },
+        "c": "https://github.com/kwai/MemGUI-Agent",
+        "n": "MemGUI-Agent-235B (zero-shot ConAct)",
+        "d": "2026-06-18",
+        "m1": "29.1"
+      },
+      {
+        "p": {
+          "name": "ClawGUI: A Unified Framework for Training, Evaluating, and Deploying GUI Agents",
+          "link": "https://arxiv.org/abs/2604.11784"
+        },
+        "c": "https://github.com/ZJU-REAL/ClawGUI",
+        "n": "ClawGUI-2B",
+        "d": "2026-04-13",
+        "m1": "17.1"
+      },
+      {
+        "p": {
+          "name": "UI-MOPD: Multi-Platform On-Policy Distillation for Continual GUI Agent Learning",
+          "link": "https://arxiv.org/abs/2607.04425"
+        },
+        "c": "https://github.com/elispectre/ui-mopd",
+        "n": "UI-MOPD",
+        "d": "2026-07-05",
+        "m1": "12.0"
+      }
+    ]
+  }
+}

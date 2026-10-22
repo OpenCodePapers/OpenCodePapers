@@ -34,6 +34,16 @@
     ],
     "items": [
       {
+        "p": {
+          "name": "TGRL: Temperature-Grouped Reinforcement Learning for Efficient Exploration in LLMs",
+          "link": "https://arxiv.org/abs/2609.33589"
+        },
+        "c": "https://github.com/1229095296/TGRL",
+        "n": "TGRL (Qwen3-14B) (extra data)",
+        "d": "2026-09-27",
+        "m1": "92.7"
+      },
+      {
         "p": "",
         "c": "",
         "n": "QWQ-32B-preview",
@@ -52,6 +62,36 @@
       },
       {
         "p": {
+          "name": "Recovering Reliable Supervision via Critique-Guided On-Policy Distillation",
+          "link": "https://arxiv.org/abs/2610.20572"
+        },
+        "c": "https://github.com/kzhao5/CriticOPD",
+        "n": "CriticOPD (Olmo-3-7B-Instruct-SFT)",
+        "d": "2026-10-14",
+        "m1": "74.7"
+      },
+      {
+        "p": {
+          "name": "Understanding Evolution Strategies for LLM Reasoning: Broader Reasoning Coverage than GRPO",
+          "link": "https://arxiv.org/abs/2608.27351"
+        },
+        "c": "",
+        "n": "DeepSeek-R1-Distill-Qwen-1.5B (ES to GRPO)",
+        "d": "2026-08-27",
+        "m1": "72.3"
+      },
+      {
+        "p": {
+          "name": "KV4-RL: Unlocking Faster Asynchronous Rollouts for RLVR with INT4 KV Cache Quantization",
+          "link": "https://arxiv.org/abs/2610.14448"
+        },
+        "c": "",
+        "n": "KV4-RL (Qwen3-8B-Base)",
+        "d": "2026-10-10",
+        "m1": "68.9"
+      },
+      {
+        "p": {
           "name": "Qwen2.5-Math Technical Report: Toward Mathematical Expert Model via Self-Improvement",
           "link": "https://arxiv.org/abs/2409.12122v1"
         },
@@ -59,6 +99,16 @@
         "n": "Qwen2.5-Math-7B-instruct",
         "d": "2024-09-18",
         "m1": "62.5"
+      },
+      {
+        "p": {
+          "name": "OPMD: On-Policy Mechanism Distillation Beyond Output Supervision",
+          "link": "https://arxiv.org/abs/2610.14022"
+        },
+        "c": "",
+        "n": "OPMD (RL-Math -> Qwen3-1.7B-Base)",
+        "d": "2026-09-29",
+        "m1": "40.16"
       }
     ]
   }

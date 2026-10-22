@@ -1,0 +1,388 @@
+{
+  "title": "visual-question-answering-vqa-on-seed-seedbench",
+  "task-hierarchy": [
+    "Visual Question Answering (VQA)"
+  ],
+  "dataset-info": {
+    "link": "https://huggingface.co/datasets/AILab-CVC/SEED-Bench",
+    "paper": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Lumina-DiMOO: An Omni Diffusion Large Language Model for Multi-Modal Generation and Understanding",
+          "link": "https://arxiv.org/abs/2510.06308"
+        },
+        "c": "https://github.com/Alpha-VLLM/Lumina-DiMOO",
+        "n": "Lumina-DiMOO",
+        "d": "2025-10-07",
+        "m1": "83.1"
+      },
+      {
+        "p": {
+          "name": "LLaDA-V: Large Language Diffusion Models with Visual Instruction Tuning",
+          "link": "https://arxiv.org/abs/2505.16933"
+        },
+        "c": "https://github.com/ml-gsai/llada-v",
+        "n": "LLaDA-V",
+        "d": "2025-05-22",
+        "m1": "82.9"
+      },
+      {
+        "p": {
+          "name": "Reinforcement Learning for Multimodal Diffusion Language Models via Bidimensional Trajectory and Thought Optimization",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/4295"
+        },
+        "c": "",
+        "n": "LLaDA-V + Bi-VRL (ours)",
+        "d": "2026-09-08",
+        "m1": "81.1"
+      },
+      {
+        "p": {
+          "name": "PerceptionLM: Open-Access Data and Models for Detailed Visual Understanding",
+          "link": "https://arxiv.org/abs/2504.13180v1"
+        },
+        "c": "https://github.com/facebookresearch/perception_models",
+        "n": "PLM-8B",
+        "d": "2025-04-17",
+        "m1": "79.3"
+      },
+      {
+        "p": {
+          "name": "PerceptionDLM: Parallel Region Perception with Multimodal Diffusion Language Models",
+          "link": "https://arxiv.org/abs/2606.19534"
+        },
+        "c": "https://github.com/MSALab-PKU/PerceptionDLM",
+        "n": "PerceptionDLM-Base (8B)",
+        "d": "2026-06-17",
+        "m1": "78.9"
+      },
+      {
+        "p": {
+          "name": "LLaVA-OneVision: Easy Visual Task Transfer",
+          "link": "https://arxiv.org/abs/2408.03326v3"
+        },
+        "c": "https://github.com/evolvinglmms-lab/lmms-eval",
+        "n": "LLaVA-OneVision-72B",
+        "d": "2024-08-06",
+        "m1": "78.0"
+      },
+      {
+        "p": {
+          "name": "MetaphorStar: Image Metaphor Understanding and Reasoning with End-to-End Visual Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2602.10575"
+        },
+        "c": "https://github.com/MING-ZCH/MetaphorStar",
+        "n": "MetaphorStar-32B",
+        "d": "2026-02-11",
+        "m1": "77.6"
+      },
+      {
+        "p": {
+          "name": "BLIP3-o: A Family of Fully Open Unified Multimodal Models-Architecture, Training and Dataset",
+          "link": "https://arxiv.org/abs/2505.09568"
+        },
+        "c": "https://github.com/jiuhaichen/blip3o",
+        "n": "BLIP3-o (8B)",
+        "d": "2025-05-14",
+        "m1": "77.5"
+      },
+      {
+        "p": {
+          "name": "CoLT: Teaching Multi-Modal Models to Think with Chain of Latent Thoughts",
+          "link": "https://arxiv.org/abs/2606.31986"
+        },
+        "c": "https://github.com/hulianyuyy/colt",
+        "n": "CoLT",
+        "d": "2026-06-30",
+        "m1": "77.5"
+      },
+      {
+        "p": {
+          "name": "From Pixels to Words -- Towards Native One-Vision Models at Scale",
+          "link": "https://arxiv.org/abs/2605.28820"
+        },
+        "c": "https://github.com/EvolvingLMMs-Lab/NEO",
+        "n": "NEO-ov 9B",
+        "d": "2026-05-27",
+        "m1": "76.6"
+      },
+      {
+        "p": {
+          "name": "LFM2 Technical Report",
+          "link": "https://arxiv.org/abs/2511.23404"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "LFM2-VL-3B",
+        "d": "2025-11-28",
+        "m1": "76.55"
+      },
+      {
+        "p": {
+          "name": "Dream-VL & Dream-VLA: Open Vision-Language and Vision-Language-Action Models with Diffusion Language Model Backbone",
+          "link": "https://arxiv.org/abs/2512.22615"
+        },
+        "c": "https://github.com/DreamLM/Dream-VLX",
+        "n": "Dream-VL",
+        "d": "2025-12-27",
+        "m1": "76.4"
+      },
+      {
+        "p": {
+          "name": "LatentUM: Unleashing the Potential of Interleaved Cross-Modal Reasoning via a Latent-Space Unified Model",
+          "link": "https://arxiv.org/abs/2604.02097"
+        },
+        "c": "https://github.com/SJTU-DENG-Lab/LatentUM",
+        "n": "LatentUM (Base)",
+        "d": "2026-04-02",
+        "m1": "76.3"
+      },
+      {
+        "p": {
+          "name": "LLaVA-NeXT: Improved reasoning, OCR, and world knowledge",
+          "link": "https://llava-vl.github.io/blog/2024-01-30-llava-next/"
+        },
+        "c": "https://github.com/haotian-liu/llava",
+        "n": "LLaVA-NeXT-34B",
+        "d": "2024-01-30",
+        "m1": "75.9"
+      },
+      {
+        "p": {
+          "name": "Perceptio: Perception Enhanced Vision Language Models via Spatial Token Generation",
+          "link": "https://arxiv.org/abs/2603.18795"
+        },
+        "c": "",
+        "n": "Perceptio (8B)",
+        "d": "2026-03-19",
+        "m1": "75.7"
+      },
+      {
+        "p": {
+          "name": "FastVLM: Efficient Vision Encoding for Vision Language Models",
+          "link": "https://arxiv.org/abs/2412.13303"
+        },
+        "c": "https://github.com/apple/ml-fastvlm",
+        "n": "FastVLM-7B",
+        "d": "2024-12-17",
+        "m1": "75.4"
+      },
+      {
+        "p": {
+          "name": "Innovator-VL: A Multimodal Large Language Model for Scientific Discovery",
+          "link": "https://arxiv.org/abs/2601.19325"
+        },
+        "c": "https://github.com/InnovatorLM/Innovator-VL",
+        "n": "Innovator-VL (8B-Instruct)",
+        "d": "2026-01-27",
+        "m1": "73.84"
+      },
+      {
+        "p": {
+          "name": "ARM: An AutoRegressive Large Multimodal Model with Unified Discrete Representations",
+          "link": "https://arxiv.org/abs/2606.11188"
+        },
+        "c": "https://github.com/wdrink/ARM",
+        "n": "ARM-7B",
+        "d": "2026-06-09",
+        "m1": "73.1"
+      },
+      {
+        "p": {
+          "name": "Multimodal Autoregressive Pre-training of Large Vision Encoders",
+          "link": "https://arxiv.org/abs/2411.14402v1"
+        },
+        "c": "https://github.com/apple/ml-aim",
+        "n": "AIMv2 ViT-3B/14 + Llama 3.0 8B",
+        "d": "2024-11-21",
+        "m1": "72.9"
+      },
+      {
+        "p": {
+          "name": "ZAYA1-VL-8B Technical Report",
+          "link": "https://www.zyphra.com/zaya1-vl-8b-technical-report"
+        },
+        "c": "https://github.com/Zyphra/transformers/tree/zaya1-vl",
+        "n": "ZAYA1-VL-8B",
+        "d": "2026-05-08",
+        "m1": "72.7"
+      },
+      {
+        "p": {
+          "name": "Program-Verified Self-Evolution for Vision-Language Models",
+          "link": "https://arxiv.org/abs/2609.33855"
+        },
+        "c": "https://github.com/ahmedheakl/VQS",
+        "n": "VQS-2B (Qwen3-VL-2B-Instruct)",
+        "d": "2026-09-27",
+        "m1": "72.61"
+      },
+      {
+        "p": {
+          "name": "Falcon2-11B Technical Report",
+          "link": "https://arxiv.org/abs/2407.14885"
+        },
+        "c": "",
+        "n": "Falcon2-11B VLM",
+        "d": "2024-07-20",
+        "m1": "72.3"
+      },
+      {
+        "p": {
+          "name": "Janus-Pro: Unified Multimodal Understanding and Generation with Data and Model Scaling",
+          "link": "https://arxiv.org/abs/2501.17811v1"
+        },
+        "c": "https://github.com/deepseek-ai/janus",
+        "n": "Janus-Pro-7B",
+        "d": "2025-01-29",
+        "m1": "72.1"
+      },
+      {
+        "p": {
+          "name": "Cheers: Decoupling Patch Details from Semantic Representations Enables Unified Multimodal Comprehension and Generation",
+          "link": "https://arxiv.org/abs/2603.12793"
+        },
+        "c": "https://huggingface.co/ai9stars/Cheers",
+        "n": "Cheers (1.5B)",
+        "d": "2026-03-13",
+        "m1": "71.7"
+      },
+      {
+        "p": {
+          "name": "DeepSeek-VL: Towards Real-World Vision-Language Understanding",
+          "link": "https://arxiv.org/abs/2403.05525v2"
+        },
+        "c": "https://github.com/deepseek-ai/deepseek-vl",
+        "n": "DeepSeek-VL 7B Chat",
+        "d": "2024-03-08",
+        "m1": "70.4"
+      },
+      {
+        "p": {
+          "name": "Conical Visual Concentration for Efficient Large Vision-Language Models",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Xing_Conical_Visual_Concentration_for_Efficient_Large_Vision-Language_Models_CVPR_2025_paper.html"
+        },
+        "c": "",
+        "n": "PyramidDrop (LLaVA-NeXT-7B, 9 patches, trained)",
+        "d": "2025-06-11",
+        "m1": "70.3"
+      },
+      {
+        "p": {
+          "name": "VisionTrim: Unified Vision Token Compression for Training-Free MLLM Acceleration",
+          "link": "https://arxiv.org/abs/2601.22674"
+        },
+        "c": "https://github.com/hanxunyu/VisionTrim",
+        "n": "VisionTrim (Qwen2.5-VL-7B)",
+        "d": "2026-01-30",
+        "m1": "70.2"
+      },
+      {
+        "p": {
+          "name": "Scaling Text-to-Image Diffusion Transformers with Representation Autoencoders",
+          "link": "https://arxiv.org/abs/2601.16208"
+        },
+        "c": "https://github.com/ZitengWangNYU/Scale-RAE",
+        "n": "RAE (SigLIP-2)",
+        "d": "2026-01-22",
+        "m1": "69.8"
+      },
+      {
+        "p": {
+          "name": "Mobile-O: Unified Multimodal Understanding and Generation on Mobile Device",
+          "link": "https://arxiv.org/abs/2602.20161"
+        },
+        "c": "https://github.com/Amshaker/Mobile-O",
+        "n": "Mobile-O-0.5B",
+        "d": "2026-02-23",
+        "m1": "69.4"
+      },
+      {
+        "p": {
+          "name": "Emu3: Next-Token Prediction is All You Need",
+          "link": "https://arxiv.org/abs/2409.18869v1"
+        },
+        "c": "https://github.com/baaivision/emu3",
+        "n": "Emu3",
+        "d": "2024-09-27",
+        "m1": "68.2"
+      },
+      {
+        "p": {
+          "name": "OpenVision 3: A Family of Unified Visual Encoder for Both Understanding and Generation",
+          "link": "https://arxiv.org/abs/2601.15369"
+        },
+        "c": "",
+        "n": "OpenVision 3 (VAE + L/2)",
+        "d": "2026-01-21",
+        "m1": "66.0"
+      },
+      {
+        "p": {
+          "name": "Accelerating Multimodal Large Language Models with Prior-Corrected Token Reduction",
+          "link": "https://arxiv.org/abs/2606.24156"
+        },
+        "c": "https://github.com/codechildczj/priortr",
+        "n": "PriorTR (LLaVA-1.5-7B, 192 tokens)",
+        "d": "2026-06-23",
+        "m1": "64.8"
+      },
+      {
+        "p": {
+          "name": "Janus: Decoupling Visual Encoding for Unified Multimodal Understanding and Generation",
+          "link": "https://arxiv.org/abs/2410.13848v1"
+        },
+        "c": "https://github.com/deepseek-ai/janus",
+        "n": "Janus",
+        "d": "2024-10-17",
+        "m1": "63.7"
+      },
+      {
+        "p": {
+          "name": "ViP-LLaVA: Making Large Multimodal Models Understand Arbitrary Visual Prompts",
+          "link": "https://arxiv.org/abs/2312.00784"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "ViP-LLaVA-13B",
+        "d": "2023-12-01",
+        "m1": "62.9"
+      },
+      {
+        "p": {
+          "name": "Low-Rank Approximation for Sparse Attention in Multi-Modal LLMs",
+          "link": "https://openaccess.thecvf.com/content/CVPR2024/html/Song_Low-Rank_Approximation_for_Sparse_Attention_in_Multi-Modal_LLMs_CVPR_2024_paper.html"
+        },
+        "c": "",
+        "n": "LoRA-Sparse (Vicuna-7B) (extra data)",
+        "d": "2024-06-17",
+        "m1": "58.8"
+      }
+    ]
+  }
+}

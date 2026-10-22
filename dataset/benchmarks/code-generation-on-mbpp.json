@@ -56,6 +56,56 @@
       },
       {
         "p": {
+          "name": "ThinkRouter: Efficient Reasoning via Routing Thinking between Latent and Discrete Spaces",
+          "link": "https://arxiv.org/abs/2602.11683"
+        },
+        "c": "",
+        "n": "ThinkRouter (Qwen3-32B)",
+        "d": "2026-02-12",
+        "m1": "96.49"
+      },
+      {
+        "p": {
+          "name": "SePO: Self-Evolving Prompt Agent for System Prompt Optimization",
+          "link": "https://arxiv.org/abs/2606.04465"
+        },
+        "c": "",
+        "n": "SePO-Generalist",
+        "d": "2026-06-03",
+        "m1": "96.2"
+      },
+      {
+        "p": {
+          "name": "AgentConductor: Topology Evolution for Multi-Agent Competition-Level Code Generation",
+          "link": "https://arxiv.org/abs/2602.17100"
+        },
+        "c": "",
+        "n": "AgentConductor (3B)",
+        "d": "2026-02-19",
+        "m1": "95.1"
+      },
+      {
+        "p": {
+          "name": "Introspective Diffusion Language Models",
+          "link": "https://arxiv.org/abs/2604.11035"
+        },
+        "c": "https://github.com/Introspective-Diffusion/I-DLM",
+        "n": "I-DLM (32B)",
+        "d": "2026-04-13",
+        "m1": "94.6"
+      },
+      {
+        "p": {
+          "name": "CopT: Contrastive On-Policy Thinking with Continuous Spaces for General and Agentic Reasoning",
+          "link": "https://arxiv.org/abs/2605.20075"
+        },
+        "c": "https://github.com/sdc17/CopT",
+        "n": "CopT (Qwen3-8B)",
+        "d": "2026-05-19",
+        "m1": "94.55"
+      },
+      {
+        "p": {
           "name": "QualityFlow: An Agentic Workflow for Program Synthesis Controlled by LLM Quality Checks",
           "link": "https://arxiv.org/abs/2501.17167v2"
         },
@@ -123,6 +173,16 @@
       },
       {
         "p": {
+          "name": "Scalable Prompt Routing via Fine-Grained Latent Task Discovery",
+          "link": "https://arxiv.org/abs/2603.19415"
+        },
+        "c": "",
+        "n": "FineRouter",
+        "d": "2026-03-19",
+        "m1": "90"
+      },
+      {
+        "p": {
           "name": "AgentCoder: Multi-Agent-based Code Generation with Iterative Testing and Optimisation",
           "link": "https://arxiv.org/abs/2312.13010v3"
         },
@@ -140,6 +200,76 @@
         "n": "MapCoder (GPT-4o)",
         "d": "2024-05-18",
         "m1": "89.7"
+      },
+      {
+        "p": {
+          "name": "UCoder: Unsupervised Code Generation by Internal Probing of Large Language Models",
+          "link": "https://arxiv.org/abs/2512.17385"
+        },
+        "c": "",
+        "n": "UCoder",
+        "d": "2025-12-19",
+        "m1": "89.7"
+      },
+      {
+        "p": {
+          "name": "Loop the Loopies!",
+          "link": "https://arxiv.org/abs/2607.16051"
+        },
+        "c": "",
+        "n": "Loopie-20B-A2B (Thinking)",
+        "d": "2026-07-17",
+        "m1": "89.49"
+      },
+      {
+        "p": {
+          "name": "LLaDA2.0: Scaling Up Diffusion Language Models to 100B",
+          "link": "https://arxiv.org/abs/2512.15745"
+        },
+        "c": "https://github.com/inclusionAI/LLaDA2.0",
+        "n": "LLaDA2.0-flash",
+        "d": "2025-12-10",
+        "m1": "88.29"
+      },
+      {
+        "p": {
+          "name": "Qwen2.5 Technical Report",
+          "link": "https://arxiv.org/abs/2412.15115v2"
+        },
+        "c": "https://github.com/qwenlm/qwen1.5",
+        "n": "Qwen2.5-72B-Instruct",
+        "d": "2024-12-19",
+        "m1": "88.2"
+      },
+      {
+        "p": {
+          "name": "Recursive Think-Answer Process for LLMs and VLMs",
+          "link": "https://arxiv.org/abs/2603.02099"
+        },
+        "c": "",
+        "n": "Qwen-2.5-32B-R-TAP",
+        "d": "2026-03-02",
+        "m1": "87.9"
+      },
+      {
+        "p": {
+          "name": "From Next-Token to Next-Block: A Principled Adaptation Path for Diffusion LLMs",
+          "link": "https://arxiv.org/abs/2512.06776"
+        },
+        "c": "https://github.com/yuchuantian/nbdiff",
+        "n": "NBDiff-7B (Instruct)",
+        "d": "2025-12-07",
+        "m1": "87.6"
+      },
+      {
+        "p": {
+          "name": "HyperCLOVA X THINK Technical Report",
+          "link": "https://arxiv.org/abs/2506.22403"
+        },
+        "c": "https://huggingface.co/naver-hyperclovax/HyperCLOVAX-SEED-Think-14B",
+        "n": "HyperCLOVA X SEED 14B Think",
+        "d": "2025-06-27",
+        "m1": "87.59"
       },
       {
         "p": {
@@ -163,6 +293,46 @@
       },
       {
         "p": {
+          "name": "Stable-DiffCoder: Pushing the Frontier of Code Diffusion Large Language Model",
+          "link": "https://arxiv.org/abs/2601.15892"
+        },
+        "c": "https://github.com/ByteDance-Seed/Stable-DiffCoder",
+        "n": "Stable-DiffCoder-8B-Instruct",
+        "d": "2026-01-22",
+        "m1": "85.7"
+      },
+      {
+        "p": {
+          "name": "Nemotron-Labs-Diffusion: A Tri-Mode Language Model Unifying Autoregressive, Diffusion, and Self-Speculation Decoding",
+          "link": "https://arxiv.org/abs/2607.05722"
+        },
+        "c": "",
+        "n": "Nemotron-Labs-Diffusion-14B (Quad. SS)",
+        "d": "2026-07-07",
+        "m1": "85.45"
+      },
+      {
+        "p": {
+          "name": "Latent Reasoning with Normalizing Flows",
+          "link": "https://arxiv.org/abs/2606.06447"
+        },
+        "c": "",
+        "n": "NF-CoT (Unified) + RL",
+        "d": "2026-06-04",
+        "m1": "85.4"
+      },
+      {
+        "p": {
+          "name": "Youtu-LLM: Unlocking the Native Agentic Potential for Lightweight Large Language Models",
+          "link": "https://arxiv.org/abs/2512.24618"
+        },
+        "c": "https://huggingface.co/tencent/Youtu-LLM-2B",
+        "n": "Youtu-LLM 2B",
+        "d": "2025-12-31",
+        "m1": "85"
+      },
+      {
+        "p": {
           "name": "Planning-Driven Programming: A Large Language Model Programming Workflow",
           "link": "https://arxiv.org/abs/2411.14503v3"
         },
@@ -173,6 +343,36 @@
       },
       {
         "p": {
+          "name": "Motif 3: Technical Report",
+          "link": "https://arxiv.org/abs/2608.09119"
+        },
+        "c": "https://github.com/motiftechnologies/motif3-training-example",
+        "n": "Motif 3 Base (3-shot)",
+        "d": "2026-08-10",
+        "m1": "84.6"
+      },
+      {
+        "p": {
+          "name": "RAAS: LLM Agentic System Architecture Search with GRPO",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Yang_RAAS_LLM_Agentic_System_Architecture_Search_with_GRPO_CVPR_2026_paper.html"
+        },
+        "c": "https://github.com/ridlog/raas",
+        "n": "RAAS",
+        "d": "2026-06-03",
+        "m1": "84.18"
+      },
+      {
+        "p": {
+          "name": "Falcon-H1: A Family of Hybrid-Head Language Models Redefining Efficiency and Performance",
+          "link": "https://arxiv.org/abs/2507.22448"
+        },
+        "c": "https://huggingface.co/tiiuae/Falcon-H1-34B-Instruct",
+        "n": "Falcon-H1-34B-Instruct",
+        "d": "2025-07-30",
+        "m1": "83.86"
+      },
+      {
+        "p": {
           "name": "SOEN-101: Code Generation by Emulating Software Process Models Using Large Language Model Agents",
           "link": "https://arxiv.org/abs/2403.15852v2"
         },
@@ -180,6 +380,16 @@
         "n": "GPT-3.5 Turbo + FlowGenScrum + Test",
         "d": "2024-03-23",
         "m1": "83.8±0.6"
+      },
+      {
+        "p": {
+          "name": "Atlas: Orchestrating Heterogeneous Models and Tools for Multi-Domain Complex Reasoning",
+          "link": "https://arxiv.org/abs/2601.03872"
+        },
+        "c": "",
+        "n": "Atlas (cluster)",
+        "d": "2026-01-07",
+        "m1": "83.6"
       },
       {
         "p": {
@@ -223,6 +433,16 @@
       },
       {
         "p": {
+          "name": "Think Anywhere in Code Generation",
+          "link": "https://arxiv.org/abs/2603.29957"
+        },
+        "c": "https://github.com/jiangxxxue/Think-Anywhere",
+        "n": "Think-Anywhere (Qwen2.5-Coder-7B-Instruct)",
+        "d": "2026-03-31",
+        "m1": "82.9"
+      },
+      {
+        "p": {
           "name": "Language Agent Tree Search Unifies Reasoning Acting and Planning in Language Models",
           "link": "https://arxiv.org/abs/2310.04406v3"
         },
@@ -243,6 +463,26 @@
       },
       {
         "p": {
+          "name": "ReflexiCoder: Teaching Large Language Models to Self-Reflect on Generated Code and Self-Correct It via Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2603.05863"
+        },
+        "c": "https://github.com/juyongjiang/ReflexiCoder",
+        "n": "ReflexiCoder-8B (Single)",
+        "d": "2026-03-06",
+        "m1": "81.8"
+      },
+      {
+        "p": {
+          "name": "Qwen3 Technical Report",
+          "link": "https://arxiv.org/abs/2505.09388"
+        },
+        "c": "https://github.com/QwenLM/Qwen3",
+        "n": "Qwen3-235B-A22B (Base)",
+        "d": "2025-05-14",
+        "m1": "81.4"
+      },
+      {
+        "p": {
           "name": "Language Agent Tree Search Unifies Reasoning Acting and Planning in Language Models",
           "link": "https://arxiv.org/abs/2310.04406v3"
         },
@@ -250,6 +490,36 @@
         "n": "GPT-3.5 Turbo + Language Agent Tree Search",
         "d": "2023-10-06",
         "m1": "81.1"
+      },
+      {
+        "p": {
+          "name": "LLaDA MoE v2: Scaling Mixture-of-Experts Diffusion Language Models",
+          "link": "https://arxiv.org/abs/2608.03457"
+        },
+        "c": "",
+        "n": "LLaDA MoE v2 Instruct",
+        "d": "2026-08-04",
+        "m1": "81.03"
+      },
+      {
+        "p": {
+          "name": "BatCoder: Self-Supervised Bidirectional Code-Documentation Learning via Back-Translation",
+          "link": "https://arxiv.org/abs/2602.02554"
+        },
+        "c": "",
+        "n": "BatCoder (7B)",
+        "d": "2026-01-30",
+        "m1": "81"
+      },
+      {
+        "p": {
+          "name": "Phi-3 Technical Report: A Highly Capable Language Model Locally on Your Phone",
+          "link": "https://arxiv.org/abs/2404.14219v4"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Phi-3.5-MoE (3-shot)",
+        "d": "2024-04-22",
+        "m1": "80.8"
       },
       {
         "p": {
@@ -283,6 +553,16 @@
       },
       {
         "p": {
+          "name": "Qwen2 Technical Report",
+          "link": "https://arxiv.org/abs/2407.10671v4"
+        },
+        "c": "https://github.com/qwenlm/qwen1.5",
+        "n": "Qwen2-72B-Instruct",
+        "d": "2024-07-15",
+        "m1": "80.2"
+      },
+      {
+        "p": {
           "name": "DeepSeek-Coder: When the Large Language Model Meets Programming -- The Rise of Code Intelligence",
           "link": "https://arxiv.org/abs/2401.14196v2"
         },
@@ -290,6 +570,16 @@
         "n": "GPT-4 (few-shot)",
         "d": "2024-01-25",
         "m1": "80"
+      },
+      {
+        "p": {
+          "name": "FlowEvo: Self-Evolving Agents through the Co-Evolution of Workflows and Executable Skills",
+          "link": "https://arxiv.org/abs/2607.21596"
+        },
+        "c": "https://github.com/DEFENSE-SEU/FlowEvo",
+        "n": "FlowEvo",
+        "d": "2026-08-20",
+        "m1": "79.6"
       },
       {
         "p": {
@@ -303,6 +593,96 @@
       },
       {
         "p": {
+          "name": "Step 3.5 Flash: Open Frontier-Level Intelligence with 11B Active Parameters",
+          "link": "https://arxiv.org/abs/2602.10604"
+        },
+        "c": "https://huggingface.co/stepfun-ai/Step-3.5-Flash-Base",
+        "n": "Step-3.5-Flash Base",
+        "d": "2026-02-11",
+        "m1": "79.4"
+      },
+      {
+        "p": {
+          "name": "Safin-1: Safety from Within through Memory-Native State Evolution",
+          "link": "https://arxiv.org/abs/2609.00092"
+        },
+        "c": "https://github.com/AI45Lab/Safin-1",
+        "n": "Safin-1-35B-A3B-SFT",
+        "d": "2026-08-31",
+        "m1": "78.6"
+      },
+      {
+        "p": {
+          "name": "Nemotron-H: A Family of Accurate and Efficient Hybrid Mamba-Transformer Models",
+          "link": "https://arxiv.org/abs/2504.03624"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Nemotron-H-56B-Base (3-shot)",
+        "d": "2025-04-04",
+        "m1": "77.8"
+      },
+      {
+        "p": {
+          "name": "Locally Confident, Globally Stuck: The Quality-Exploration Dilemma in Diffusion Language Models",
+          "link": "https://arxiv.org/abs/2604.00375"
+        },
+        "c": "",
+        "n": "IMH (WeDLM-8B)",
+        "d": "2026-04-01",
+        "m1": "77.6"
+      },
+      {
+        "p": {
+          "name": "LoopRPT: Reinforcement Pre-Training for Looped Language Models",
+          "link": "https://arxiv.org/abs/2603.19714"
+        },
+        "c": "",
+        "n": "Ouro (2.6B) LoopRPT",
+        "d": "2026-03-20",
+        "m1": "77.24"
+      },
+      {
+        "p": {
+          "name": "Qwen2 Technical Report",
+          "link": "https://arxiv.org/abs/2407.10671v4"
+        },
+        "c": "https://github.com/qwenlm/qwen1.5",
+        "n": "Qwen2-72B",
+        "d": "2024-07-15",
+        "m1": "76.9"
+      },
+      {
+        "p": {
+          "name": "InternVL3: Exploring Advanced Training and Test-Time Recipes for Open-Source Multimodal Models",
+          "link": "https://arxiv.org/abs/2504.10479"
+        },
+        "c": "https://github.com/OpenGVLab/InternVL",
+        "n": "InternVL3-78B",
+        "d": "2025-04-14",
+        "m1": "76.7"
+      },
+      {
+        "p": {
+          "name": "MiniCPM-o 4.5: Towards Real-Time Full-Duplex Omni-Modal Interaction",
+          "link": "https://arxiv.org/abs/2604.27393"
+        },
+        "c": "https://github.com/OpenBMB/MiniCPM-o",
+        "n": "MiniCPM-o 4.5-Instruct",
+        "d": "2026-04-30",
+        "m1": "76.7"
+      },
+      {
+        "p": {
+          "name": "Geometry Conflict: Explaining and Controlling Forgetting in LLM Continual Post-Training",
+          "link": "https://arxiv.org/abs/2605.09608"
+        },
+        "c": "https://github.com/wyy-code/GCWM",
+        "n": "Qwen3-14B with GCWM",
+        "d": "2026-05-10",
+        "m1": "76.7"
+      },
+      {
+        "p": {
           "name": "How Does Naming Affect LLMs on Code Analysis Tasks?",
           "link": "https://arxiv.org/abs/2307.12488v5"
         },
@@ -310,6 +690,76 @@
         "n": "Bard (PaLM 2/chat-bison-001)",
         "d": "2023-07-24",
         "m1": "76.2"
+      },
+      {
+        "p": {
+          "name": "Nemotron-4 340B Technical Report",
+          "link": "https://arxiv.org/abs/2406.11704"
+        },
+        "c": "https://github.com/nvidia/nemo-aligner",
+        "n": "Nemotron-4-340B-Instruct",
+        "d": "2024-06-17",
+        "m1": "75.4"
+      },
+      {
+        "p": {
+          "name": "Hybrid Policy Distillation for LLMs",
+          "link": "https://arxiv.org/abs/2604.20244"
+        },
+        "c": "https://github.com/zwhong714/Hybrid-Policy-Distillation",
+        "n": "HPD (Qwen2.5-Coder, 1.5B)",
+        "d": "2026-04-22",
+        "m1": "75.4"
+      },
+      {
+        "p": {
+          "name": "Understanding Evolution Strategies for LLM Reasoning: Broader Reasoning Coverage than GRPO",
+          "link": "https://arxiv.org/abs/2608.27351"
+        },
+        "c": "",
+        "n": "Qwen2.5-7B-Instruct (ES to GRPO)",
+        "d": "2026-08-27",
+        "m1": "75.2"
+      },
+      {
+        "p": {
+          "name": "UniSD: Towards a Unified Self-Distillation Framework for Large Language Models",
+          "link": "https://arxiv.org/abs/2605.06597"
+        },
+        "c": "https://github.com/ahren09/unisd",
+        "n": "UniSD*",
+        "d": "2026-05-07",
+        "m1": "74.7"
+      },
+      {
+        "p": {
+          "name": "Gemma 3 Technical Report",
+          "link": "https://arxiv.org/abs/2503.19786"
+        },
+        "c": "https://github.com/google-deepmind/gemma",
+        "n": "Gemma 3 (27B, IT) (3-shot)",
+        "d": "2025-03-25",
+        "m1": "74.4"
+      },
+      {
+        "p": {
+          "name": "Attention Residuals",
+          "link": "https://arxiv.org/abs/2603.15031"
+        },
+        "c": "https://github.com/MoonshotAI/Attention-Residuals",
+        "n": "Kimi Linear (48B) with Block AttnRes",
+        "d": "2026-03-16",
+        "m1": "73.9"
+      },
+      {
+        "p": {
+          "name": "Qwen2.5-Omni Technical Report",
+          "link": "https://arxiv.org/abs/2503.20215"
+        },
+        "c": "https://github.com/QwenLM/Qwen2.5-Omni",
+        "n": "Qwen2.5-Omni-7B",
+        "d": "2025-03-26",
+        "m1": "73.2"
       },
       {
         "p": {
@@ -323,6 +773,66 @@
       },
       {
         "p": {
+          "name": "OptiMer: Optimal Distribution Vector Merging Is Better than Data Mixing for Continual Pre-Training",
+          "link": "https://arxiv.org/abs/2603.28858"
+        },
+        "c": "https://github.com/shyyhs/optimer",
+        "n": "OptiMer",
+        "d": "2026-03-30",
+        "m1": "72.6"
+      },
+      {
+        "p": {
+          "name": "ACES: Who Tests the Tests? Leave-One-Out AUC Consistency for Code Generation",
+          "link": "https://arxiv.org/abs/2604.03922"
+        },
+        "c": "",
+        "n": "ACES-O",
+        "d": "2026-04-05",
+        "m1": "72.37"
+      },
+      {
+        "p": {
+          "name": "DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model",
+          "link": "https://arxiv.org/abs/2405.04434"
+        },
+        "c": "https://github.com/deepseek-ai/DeepSeek-V2",
+        "n": "DeepSeek-V2 Chat (RL) (3-shot)",
+        "d": "2024-05-07",
+        "m1": "72"
+      },
+      {
+        "p": {
+          "name": "Qwen2 Technical Report",
+          "link": "https://arxiv.org/abs/2407.10671v4"
+        },
+        "c": "https://github.com/qwenlm/qwen1.5",
+        "n": "Qwen2-57B-A14B",
+        "d": "2024-07-15",
+        "m1": "71.9"
+      },
+      {
+        "p": {
+          "name": "Group Sequence Policy Optimization",
+          "link": "https://arxiv.org/abs/2507.18071"
+        },
+        "c": "",
+        "n": "AliceAI-T5-35B-A0.6B-Base",
+        "d": "2025-07-24",
+        "m1": "71.9"
+      },
+      {
+        "p": {
+          "name": "Ministral 3",
+          "link": "https://arxiv.org/abs/2601.08584"
+        },
+        "c": "",
+        "n": "Ministral 3 (14B)",
+        "d": "2026-01-13",
+        "m1": "71.6"
+      },
+      {
+        "p": {
           "name": "How Does Naming Affect LLMs on Code Analysis Tasks?",
           "link": "https://arxiv.org/abs/2307.12488v5"
         },
@@ -330,6 +840,16 @@
         "n": "Claude",
         "d": "2023-07-24",
         "m1": "71.4"
+      },
+      {
+        "p": {
+          "name": "Qwen2 Technical Report",
+          "link": "https://arxiv.org/abs/2407.10671v4"
+        },
+        "c": "https://github.com/qwenlm/qwen1.5",
+        "n": "Qwen2-57B-A14B-Instruct",
+        "d": "2024-07-15",
+        "m1": "70.9"
       },
       {
         "p": {
@@ -353,6 +873,26 @@
       },
       {
         "p": {
+          "name": "Fast and Accurate Causal Parallel Decoding using Jacobi Forcing",
+          "link": "https://arxiv.org/abs/2512.14681"
+        },
+        "c": "https://github.com/hao-ai-lab/JacobiForcing",
+        "n": "Jacobi Forcing Model (MR)",
+        "d": "2025-12-16",
+        "m1": "70.4"
+      },
+      {
+        "p": {
+          "name": "A Sovereign, Open-Source Foundation Model for German and English",
+          "link": "https://arxiv.org/abs/2607.09424"
+        },
+        "c": "https://github.com/soofi-project/soofi-pretraining",
+        "n": "Soofi S 30B-A3B Base",
+        "d": "2026-07-10",
+        "m1": "70.2"
+      },
+      {
+        "p": {
           "name": "DeepSeek-Coder: When the Large Language Model Meets Programming -- The Rise of Code Intelligence",
           "link": "https://arxiv.org/abs/2401.14196v2"
         },
@@ -373,6 +913,16 @@
       },
       {
         "p": {
+          "name": "FineRMoE: Dimension Expansion for Finer-Grained Expert with Its Upcycling Approach",
+          "link": "https://arxiv.org/abs/2603.13364"
+        },
+        "c": "https://github.com/liaoning97/FineRMoE",
+        "n": "FineRMoE (Qwen2.5-7B)",
+        "d": "2026-03-09",
+        "m1": "69.4"
+      },
+      {
+        "p": {
           "name": "LEVER: Learning to Verify Language-to-Code Generation with Execution",
           "link": "https://arxiv.org/abs/2302.08468v3"
         },
@@ -380,6 +930,26 @@
         "n": "code-davinci-002 175B + LEVER",
         "d": "2023-02-16",
         "m1": "68.9"
+      },
+      {
+        "p": {
+          "name": "S2D2: Fast Decoding for Diffusion LLMs via Training-Free Self-Speculation",
+          "link": "https://arxiv.org/abs/2603.25702"
+        },
+        "c": "https://github.com/phymhan/S2D2",
+        "n": "S2D2 (LLaDA2.1-Mini)",
+        "d": "2026-03-26",
+        "m1": "68.8"
+      },
+      {
+        "p": {
+          "name": "ReFusion: A Diffusion Large Language Model with Parallel Autoregressive Decoding",
+          "link": "https://arxiv.org/abs/2512.13586"
+        },
+        "c": "https://github.com/ML-GSAI/ReFusion",
+        "n": "ReFusion",
+        "d": "2025-12-15",
+        "m1": "68.2"
       },
       {
         "p": {
@@ -413,12 +983,52 @@
       },
       {
         "p": {
+          "name": "T5Gemma 2: Seeing, Reading, and Understanding Longer",
+          "link": "https://arxiv.org/abs/2512.14856"
+        },
+        "c": "",
+        "n": "T5Gemma 2 4B-4B (post-trained)",
+        "d": "2025-12-16",
+        "m1": "66.8"
+      },
+      {
+        "p": {
+          "name": "NeuPAT: Neuron-aware Plasticity Allocation Tuning for Language-Preserving MLLMs",
+          "link": "https://arxiv.org/abs/2608.08107"
+        },
+        "c": "",
+        "n": "NeuPAT (Qwen2.5-14B-Instruct) (extra data)",
+        "d": "2026-08-08",
+        "m1": "66.8"
+      },
+      {
+        "p": {
+          "name": "CharacterFlywheel: Scaling Iterative Improvement of Engaging and Steerable LLMs in Production",
+          "link": "https://arxiv.org/abs/2603.01973"
+        },
+        "c": "",
+        "n": "CharacterFlywheel V7 (Llama 3.1 70B)",
+        "d": "2026-03-02",
+        "m1": "66.6"
+      },
+      {
+        "p": {
           "name": "Coder Reviewer Reranking for Code Generation",
           "link": "https://arxiv.org/abs/2211.16490v1"
         },
         "c": "https://github.com/facebookresearch/coder_reviewer_reranking",
         "n": "code-davinci-002 175B + Coder-Reviewer",
         "d": "2022-11-29",
+        "m1": "66.4"
+      },
+      {
+        "p": {
+          "name": "Grammar-Constrained Decoding Can Jailbreak LLMs into Generating Malicious Code",
+          "link": "https://arxiv.org/abs/2606.11817"
+        },
+        "c": "https://github.com/TsinghuaISE/CodeSpear-CodeShield",
+        "n": "CodeShield (Qwen2.5-Coder-7B)",
+        "d": "2026-06-10",
         "m1": "66.4"
       },
       {
@@ -443,6 +1053,16 @@
       },
       {
         "p": {
+          "name": "Co-RL: Unsupervised Reasoning Emerges from Diverse Cohort in Multi-agent RL",
+          "link": "https://arxiv.org/abs/2608.17253"
+        },
+        "c": "https://github.com/DrStranded/Co-RL",
+        "n": "Co-RL (Qwen2.5-7B, Different family)",
+        "d": "2026-08-19",
+        "m1": "65.6"
+      },
+      {
+        "p": {
           "name": "Code Llama: Open Foundation Models for Code",
           "link": "https://arxiv.org/abs/2308.12950v3"
         },
@@ -463,6 +1083,56 @@
       },
       {
         "p": {
+          "name": "Nemotron-H: A Family of Accurate and Efficient Hybrid Mamba-Transformer Models",
+          "link": "https://arxiv.org/abs/2504.03624"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Nemotron-H-8B-Base (3-shot)",
+        "d": "2025-04-04",
+        "m1": "65.4"
+      },
+      {
+        "p": {
+          "name": "Phi-4-Mini Technical Report: Compact yet Powerful Multimodal Language Models via Mixture-of-LoRAs",
+          "link": "https://arxiv.org/abs/2503.01743"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Phi-4-Mini (3-shot)",
+        "d": "2025-02-24",
+        "m1": "65.3"
+      },
+      {
+        "p": {
+          "name": "On the Off-Policy Teacher in On-Policy Distillation",
+          "link": "https://arxiv.org/abs/2609.38360"
+        },
+        "c": "",
+        "n": "SCOUT",
+        "d": "2026-09-29",
+        "m1": "65.2"
+      },
+      {
+        "p": {
+          "name": "Encoder-Decoder Gemma: Improving the Quality-Efficiency Trade-Off via Adaptation",
+          "link": "https://arxiv.org/abs/2504.06225"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "T5Gemma 9B-9B PrefixLM IT",
+        "d": "2025-04-08",
+        "m1": "64.8"
+      },
+      {
+        "p": {
+          "name": "Self-Execution Simulation Improves Coding Models",
+          "link": "https://arxiv.org/abs/2604.03253"
+        },
+        "c": "",
+        "n": "Qwen2.5-7B + NLEX",
+        "d": "2026-03-11",
+        "m1": "63.2"
+      },
+      {
+        "p": {
           "name": "Coder Reviewer Reranking for Code Generation",
           "link": "https://arxiv.org/abs/2211.16490v1"
         },
@@ -473,12 +1143,32 @@
       },
       {
         "p": {
+          "name": "Gemma 2: Improving Open Language Models at a Practical Size",
+          "link": "https://arxiv.org/abs/2408.00118"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Gemma 2 27B (3-shot)",
+        "d": "2024-07-31",
+        "m1": "62.6"
+      },
+      {
+        "p": {
           "name": "Code Llama: Open Foundation Models for Code",
           "link": "https://arxiv.org/abs/2308.12950v3"
         },
         "c": "https://github.com/facebookresearch/codellama",
         "n": "Code Llama 70B (3-shot)",
         "d": "2023-08-24",
+        "m1": "62.4"
+      },
+      {
+        "p": {
+          "name": "Mellum2 Technical Report",
+          "link": "https://arxiv.org/abs/2605.31268"
+        },
+        "c": "https://github.com/jetbrains/mellum",
+        "n": "Mellum 2 (base)",
+        "d": "2026-05-29",
         "m1": "62.4"
       },
       {
@@ -513,6 +1203,16 @@
       },
       {
         "p": {
+          "name": "DeepSeek LLM: Scaling Open-Source Language Models with Longtermism",
+          "link": "https://arxiv.org/abs/2401.02954"
+        },
+        "c": "https://github.com/deepseek-ai/deepseek-llm",
+        "n": "DeepSeek LLM 67B Chat",
+        "d": "2024-01-05",
+        "m1": "61.4"
+      },
+      {
+        "p": {
           "name": "Code Llama: Open Foundation Models for Code",
           "link": "https://arxiv.org/abs/2308.12950v3"
         },
@@ -543,6 +1243,26 @@
       },
       {
         "p": {
+          "name": "CERA-MoA: Co-Evolving Routing Mechanisms with Continually Learning LLM Agents",
+          "link": "https://arxiv.org/abs/2609.18779"
+        },
+        "c": "https://github.com/michaeljiang0530/CERA-MoA",
+        "n": "CERA-MoA (Qwen3-4B)",
+        "d": "2026-09-16",
+        "m1": "60.3"
+      },
+      {
+        "p": {
+          "name": "dOPSD: On-Policy Self-Distillation for Diffusion Language Models",
+          "link": "https://arxiv.org/abs/2607.04428"
+        },
+        "c": "https://github.com/tuandattt/dOPSD",
+        "n": "Dream-7B-Instruct (dOPSD)",
+        "d": "2026-07-05",
+        "m1": "58.49"
+      },
+      {
+        "p": {
           "name": "Natural Language to Code Translation with Execution",
           "link": "https://arxiv.org/abs/2204.11454v2"
         },
@@ -550,6 +1270,26 @@
         "n": "code-davinci-001 175B + MBR-Exec",
         "d": "2022-04-25",
         "m1": "58.2"
+      },
+      {
+        "p": {
+          "name": "Improved Large Language Diffusion Models",
+          "link": "https://arxiv.org/abs/2606.25331"
+        },
+        "c": "https://github.com/ml-gsai/llada",
+        "n": "iLLaDA 8B Instruct",
+        "d": "2026-06-24",
+        "m1": "58"
+      },
+      {
+        "p": {
+          "name": "Improved Large Language Diffusion Models",
+          "link": "https://arxiv.org/abs/2606.25331"
+        },
+        "c": "https://github.com/ml-gsai/llada",
+        "n": "iLLaDA 8B Base",
+        "d": "2026-06-24",
+        "m1": "57.8"
       },
       {
         "p": {
@@ -563,6 +1303,16 @@
       },
       {
         "p": {
+          "name": "Every Token Counts: Generalizing 16M Ultra-Long Context in Large Language Models",
+          "link": "https://arxiv.org/abs/2511.23319"
+        },
+        "c": "https://github.com/ant-research/long-context-modeling",
+        "n": "HSA-UltraLong-Inst",
+        "d": "2025-11-28",
+        "m1": "57"
+      },
+      {
+        "p": {
           "name": "Code Llama: Open Foundation Models for Code",
           "link": "https://arxiv.org/abs/2308.12950v3"
         },
@@ -570,6 +1320,26 @@
         "n": "Code Llama - Python 34B (3-shot)",
         "d": "2023-08-24",
         "m1": "56.2"
+      },
+      {
+        "p": {
+          "name": "Encoder-Decoder Gemma: Improving the Quality-Efficiency Trade-Off via Adaptation",
+          "link": "https://arxiv.org/abs/2504.06225"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "T5Gemma 9B-9B PrefixLM",
+        "d": "2025-04-08",
+        "m1": "55.6"
+      },
+      {
+        "p": {
+          "name": "Textbooks Are All You Need",
+          "link": "https://arxiv.org/abs/2306.11644"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Phi-1",
+        "d": "2023-06-20",
+        "m1": "55.5"
       },
       {
         "p": {
@@ -613,6 +1383,26 @@
       },
       {
         "p": {
+          "name": "The Flexibility Trap: Why Arbitrary Order Limits Reasoning Potential in Diffusion Language Models",
+          "link": "https://arxiv.org/abs/2601.15165"
+        },
+        "c": "https://github.com/LeapLabTHU/JustGRPO",
+        "n": "JustGRPO (LLaDA 8B Instruct)",
+        "d": "2026-01-21",
+        "m1": "52.4"
+      },
+      {
+        "p": {
+          "name": "MobileMoE: Scaling On-Device Mixture of Experts",
+          "link": "https://arxiv.org/abs/2605.27358"
+        },
+        "c": "",
+        "n": "MobileMoE-L (922M)",
+        "d": "2026-05-26",
+        "m1": "52.4"
+      },
+      {
+        "p": {
           "name": "Code Llama: Open Foundation Models for Code",
           "link": "https://arxiv.org/abs/2308.12950v3"
         },
@@ -630,6 +1420,16 @@
         "n": "WizardCoder 15B",
         "d": "2023-06-14",
         "m1": "51.8"
+      },
+      {
+        "p": {
+          "name": "Introducing LFM-7B: Setting New Standards for Efficient Language Models",
+          "link": "https://www.liquid.ai/blog/introducing-lfm-7b-setting-new-standards-for-efficient-language-models"
+        },
+        "c": "",
+        "n": "LFM-7B",
+        "d": "2025-01-20",
+        "m1": "51.6"
       },
       {
         "p": {
@@ -689,6 +1489,16 @@
         "c": "https://github.com/facebookresearch/codellama",
         "n": "Code Llama - Python 13B (3-shot)",
         "d": "2023-08-24",
+        "m1": "49"
+      },
+      {
+        "p": {
+          "name": "daVinci-LLM:Towards the Science of Pretraining",
+          "link": "https://arxiv.org/abs/2603.27164"
+        },
+        "c": "https://github.com/GAIR-NLP/daVinci-LLM",
+        "n": "daVinci-LLM-3B",
+        "d": "2026-03-28",
         "m1": "49"
       },
       {
@@ -773,6 +1583,16 @@
       },
       {
         "p": {
+          "name": "Apertus: Democratizing Open and Compliant LLMs for Global Language Environments",
+          "link": "https://arxiv.org/abs/2509.14233"
+        },
+        "c": "https://github.com/swiss-ai/apertus-tech-report",
+        "n": "Apertus-70B-Instruct",
+        "d": "2025-09-17",
+        "m1": "47"
+      },
+      {
+        "p": {
           "name": "Coder Reviewer Reranking for Code Generation",
           "link": "https://arxiv.org/abs/2211.16490v1"
         },
@@ -790,6 +1610,26 @@
         "n": "DeepSeek-Coder-Base 1.3B (few-shot)",
         "d": "2024-01-25",
         "m1": "46.2"
+      },
+      {
+        "p": {
+          "name": "EpiCaR: Knowing What You Don't Know Matters for Better Reasoning in LLMs",
+          "link": "https://arxiv.org/abs/2601.06786"
+        },
+        "c": "",
+        "n": "EpiCaR (Qwen-3, 8B)",
+        "d": "2026-01-11",
+        "m1": "45.91"
+      },
+      {
+        "p": {
+          "name": "dLLM: Simple Diffusion Language Modeling",
+          "link": "https://arxiv.org/abs/2602.22661"
+        },
+        "c": "https://github.com/ZHZisZZ/dllm",
+        "n": "Dream-Instruct (reasoning SFT)",
+        "d": "2026-02-26",
+        "m1": "45.53"
       },
       {
         "p": {
@@ -819,6 +1659,16 @@
         "c": "https://github.com/facebookresearch/codellama",
         "n": "Code Llama - Instruct 7B (3-shot)",
         "d": "2023-08-24",
+        "m1": "44.4"
+      },
+      {
+        "p": {
+          "name": "Gemma: Open Models Based on Gemini Research and Technology",
+          "link": "https://arxiv.org/abs/2403.08295"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Gemma 7B (3-shot)",
+        "d": "2024-03-13",
         "m1": "44.4"
       },
       {
@@ -853,6 +1703,36 @@
       },
       {
         "p": {
+          "name": "Stop the Flip-Flop: Context-Preserving Verification for Fast Revocable Diffusion Decoding",
+          "link": "https://arxiv.org/abs/2602.06161"
+        },
+        "c": "",
+        "n": "COVER (LLaDA-Base-8B)",
+        "d": "2026-02-05",
+        "m1": "42.4"
+      },
+      {
+        "p": {
+          "name": "RecurrentGemma: Moving Past Transformers for Efficient Open Language Models",
+          "link": "https://arxiv.org/abs/2404.07839"
+        },
+        "c": "https://github.com/google-deepmind/recurrentgemma",
+        "n": "RecurrentGemma-9B (3-shot)",
+        "d": "2024-04-11",
+        "m1": "42"
+      },
+      {
+        "p": {
+          "name": "Byte Latent Transformer: Patches Scale Better Than Tokens",
+          "link": "https://arxiv.org/abs/2412.09871"
+        },
+        "c": "https://github.com/facebookresearch/blt",
+        "n": "BLT-Entropy 8B (3-shot)",
+        "d": "2024-12-13",
+        "m1": "41.8"
+      },
+      {
+        "p": {
           "name": "Code Llama: Open Foundation Models for Code",
           "link": "https://arxiv.org/abs/2308.12950v3"
         },
@@ -870,6 +1750,26 @@
         "n": "Camelidae-8×34B (4-shot)",
         "d": "2024-01-05",
         "m1": "41.4"
+      },
+      {
+        "p": {
+          "name": "Dystruct: Dynamically Structured Diffusion Language Model Decoding via Bayesian Inference",
+          "link": "https://arxiv.org/abs/2605.09820"
+        },
+        "c": "",
+        "n": "DyStruct (LLaDA-8B-Base)",
+        "d": "2026-05-10",
+        "m1": "41.4"
+      },
+      {
+        "p": {
+          "name": "Nemotron-4 15B Technical Report",
+          "link": "https://arxiv.org/abs/2402.16819"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Nemotron-4 15B (3-shot)",
+        "d": "2024-02-26",
+        "m1": "40.6"
       },
       {
         "p": {
@@ -893,6 +1793,26 @@
       },
       {
         "p": {
+          "name": "Turning the TIDE: Cross-Architecture Distillation for Diffusion Large Language Models",
+          "link": "https://arxiv.org/abs/2604.26951"
+        },
+        "c": "https://github.com/PKU-YuanGroup/TIDE",
+        "n": "Qwen3-0.6B-BD3LM (Tide-Shared)",
+        "d": "2026-04-29",
+        "m1": "38.6"
+      },
+      {
+        "p": {
+          "name": "Prism: Efficient Test-Time Scaling via Hierarchical Search and Self-Verification for Discrete Diffusion Language Models",
+          "link": "https://arxiv.org/abs/2602.01842"
+        },
+        "c": "https://github.com/viiika/Prism",
+        "n": "Prism (LLaDA-8B-Instruct, K=8)",
+        "d": "2026-02-02",
+        "m1": "38.2"
+      },
+      {
+        "p": {
           "name": "LLaMA: Open and Efficient Foundation Language Models",
           "link": "https://arxiv.org/abs/2302.13971v1"
         },
@@ -913,6 +1833,46 @@
       },
       {
         "p": {
+          "name": "Token-Level LLM Collaboration via FusionRoute",
+          "link": "https://arxiv.org/abs/2601.05106"
+        },
+        "c": "",
+        "n": "FusionRoute (Llama-3.1-8B)",
+        "d": "2026-01-08",
+        "m1": "36"
+      },
+      {
+        "p": {
+          "name": "DeepSeek-VL: Towards Real-World Vision-Language Understanding",
+          "link": "https://arxiv.org/abs/2403.05525v2"
+        },
+        "c": "https://github.com/deepseek-ai/deepseek-vl",
+        "n": "DeepSeek-VL 7B Chat",
+        "d": "2024-03-08",
+        "m1": "35.2"
+      },
+      {
+        "p": {
+          "name": "Compact Language Models via Pruning and Knowledge Distillation",
+          "link": "https://arxiv.org/abs/2407.14679"
+        },
+        "c": "https://github.com/nvlabs/minitron",
+        "n": "Minitron 8B",
+        "d": "2024-07-19",
+        "m1": "35.2"
+      },
+      {
+        "p": {
+          "name": "SantaCoder: don't reach for the stars!",
+          "link": "https://arxiv.org/abs/2301.03988"
+        },
+        "c": "https://github.com/bigcode-project/starcoder",
+        "n": "SantaCoder",
+        "d": "2023-01-09",
+        "m1": "35"
+      },
+      {
+        "p": {
           "name": "StarCoder: may the source be with you!",
           "link": "https://arxiv.org/abs/2305.06161v2"
         },
@@ -930,6 +1890,16 @@
         "n": "InCoder 6.7B + CodeT",
         "d": "2022-07-21",
         "m1": "34.4"
+      },
+      {
+        "p": {
+          "name": "Power Scheduler: A Batch Size and Token Number Agnostic Learning Rate Scheduler",
+          "link": "https://arxiv.org/abs/2408.13359"
+        },
+        "c": "https://github.com/ibm/dolomite-engine",
+        "n": "PowerLM-3B",
+        "d": "2024-08-23",
+        "m1": "33.6"
       },
       {
         "p": {
@@ -963,6 +1933,26 @@
       },
       {
         "p": {
+          "name": "RecurrentGemma: Moving Past Transformers for Efficient Open Language Models",
+          "link": "https://arxiv.org/abs/2404.07839"
+        },
+        "c": "https://github.com/google-deepmind/recurrentgemma",
+        "n": "RecurrentGemma-2B (3-shot)",
+        "d": "2024-04-11",
+        "m1": "28.8"
+      },
+      {
+        "p": {
+          "name": "Compact Language Models via Pruning and Knowledge Distillation",
+          "link": "https://arxiv.org/abs/2407.14679"
+        },
+        "c": "https://github.com/nvlabs/minitron",
+        "n": "Minitron 4B",
+        "d": "2024-07-19",
+        "m1": "28.2"
+      },
+      {
+        "p": {
           "name": "Coder Reviewer Reranking for Code Generation",
           "link": "https://arxiv.org/abs/2211.16490v1"
         },
@@ -970,6 +1960,16 @@
         "n": "InCoder 6.7B + MBR-Exec",
         "d": "2022-11-29",
         "m1": "26.7"
+      },
+      {
+        "p": {
+          "name": "Sumi: Open Uniform Diffusion Language Model from Scratch",
+          "link": "https://arxiv.org/abs/2606.19005"
+        },
+        "c": "https://github.com/tohoku-nlp/sumi",
+        "n": "Sumi-7B (3-shot)",
+        "d": "2026-06-17",
+        "m1": "26.6"
       },
       {
         "p": {
@@ -1023,6 +2023,16 @@
       },
       {
         "p": {
+          "name": "Copy-Paste Language Models",
+          "link": "https://arxiv.org/abs/2610.19247"
+        },
+        "c": "https://github.com/kellerjordan/modded-nanogpt",
+        "n": "Copy-Paste Language Model (1.7B, SW-256)",
+        "d": "2026-10-13",
+        "m1": "20.8"
+      },
+      {
+        "p": {
           "name": "InCoder: A Generative Model for Code Infilling and Synthesis",
           "link": "https://arxiv.org/abs/2204.05999v3"
         },
@@ -1040,6 +2050,16 @@
         "n": "LLaMA 7B (0-shot)",
         "d": "2023-02-27",
         "m1": "17.7"
+      },
+      {
+        "p": {
+          "name": "Scaling Inherently Interpretable Language Models",
+          "link": "https://arxiv.org/abs/2608.07594"
+        },
+        "c": "https://github.com/guidelabs/steerling",
+        "n": "Steerling-8B",
+        "d": "2026-08-06",
+        "m1": "11"
       }
     ]
   }

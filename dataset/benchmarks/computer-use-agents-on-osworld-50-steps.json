@@ -1,0 +1,109 @@
+{
+  "title": "computer-use-agents-on-osworld-50-steps",
+  "task-hierarchy": [
+    "Agents",
+    "Computer Use Agents"
+  ],
+  "dataset-info": {
+    "link": "https://os-world.github.io/",
+    "paper": "OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Success Rate",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "SCALECUA: Scaling Computer Use Agents with Verifiable Task Synthesis and Efficient Online RL",
+          "link": "https://arxiv.org/abs/2607.11185"
+        },
+        "c": "https://github.com/thudm/scale-cua",
+        "n": "ScaleCUA-Qwen3.5-9B (extra data)",
+        "d": "2026-07-13",
+        "m1": "68.7"
+      },
+      {
+        "p": {
+          "name": "HybridCUA: Learning to Orchestrate GUI and CLI for Computer-Use Agents",
+          "link": "https://arxiv.org/abs/2609.38008"
+        },
+        "c": "https://github.com/ZJU-REAL/HybridCUA",
+        "n": "HybridCUA-9B",
+        "d": "2026-09-29",
+        "m1": "53.6"
+      },
+      {
+        "p": {
+          "name": "GTA1: GUI Test-time Scaling Agent",
+          "link": "https://arxiv.org/abs/2507.05791"
+        },
+        "c": "https://github.com/Yan98/GTA1",
+        "n": "GTA1-7B-2507 + o3 planner/judge",
+        "d": "2025-07-08",
+        "m1": "43.4"
+      },
+      {
+        "p": {
+          "name": "Agent S2: A Compositional Generalist-Specialist Framework for Computer Use Agents",
+          "link": "https://arxiv.org/abs/2504.00906"
+        },
+        "c": "https://github.com/simular-ai/agent-s",
+        "n": "Agent S2 w/ Claude-3.7-Sonnet",
+        "d": "2025-04-01",
+        "m1": "34.5"
+      },
+      {
+        "p": {
+          "name": "UI-TARS: Pioneering Automated GUI Interaction with Native Agents",
+          "link": "https://arxiv.org/abs/2501.12326"
+        },
+        "c": "https://github.com/bytedance/ui-tars",
+        "n": "UI-TARS-72B-DPO",
+        "d": "2025-01-21",
+        "m1": "24.6"
+      },
+      {
+        "p": {
+          "name": "ScaleCUA: Scaling Open-Source Computer Use Agents with Cross-Platform Data",
+          "link": "https://arxiv.org/abs/2509.15221"
+        },
+        "c": "https://github.com/OpenGVLab/ScaleCUA",
+        "n": "ScaleCUA-32B",
+        "d": "2025-09-18",
+        "m1": "17.7"
+      },
+      {
+        "p": {
+          "name": "LiteCUA: Computer as MCP Server for Computer-Use Agent on AIOS",
+          "link": "https://arxiv.org/abs/2505.18829"
+        },
+        "c": "https://github.com/agiresearch/aios",
+        "n": "LiteCUA w/ GPT-4o",
+        "d": "2025-05-24",
+        "m1": "14.66"
+      }
+    ]
+  }
+}

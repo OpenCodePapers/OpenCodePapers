@@ -1,0 +1,89 @@
+{
+  "title": "mitigating-contextual-bias-on-waterbirds",
+  "task-hierarchy": [
+    "Image Classification",
+    "Mitigating Contextual Bias"
+  ],
+  "dataset-info": {
+    "link": "https://arxiv.org/abs/1911.08731",
+    "paper": "Distributionally Robust Neural Networks for Group Shifts: On the Importance of Regularization for Worst-Case Generalization"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Worst-group Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "HSFM: Hard-Set-Guided Feature-Space Meta-Learning for Robust Classification under Spurious Correlations",
+          "link": "https://arxiv.org/abs/2603.29313"
+        },
+        "c": "https://github.com/arianyp/hsfm",
+        "n": "HSFM",
+        "d": "2026-03-31",
+        "m1": "93.1"
+      },
+      {
+        "p": {
+          "name": "Decompose-and-Compose: A Compositional Approach to Mitigating Spurious Correlation",
+          "link": "https://arxiv.org/abs/2402.18919"
+        },
+        "c": "https://github.com/fhn98/dac",
+        "n": "DaC-C",
+        "d": "2024-02-29",
+        "m1": "92.6"
+      },
+      {
+        "p": {
+          "name": "Let Samples Speak: Mitigating Spurious Correlation by Exploiting the Clusterness of Samples",
+          "link": "https://arxiv.org/abs/2512.22874"
+        },
+        "c": "https://github.com/davelee-uestc/nsf_debiasing",
+        "n": "NSF (ResNet-50)",
+        "d": "2025-12-28",
+        "m1": "91.12"
+      },
+      {
+        "p": {
+          "name": "Project-Probe-Aggregate: Efficient Fine-Tuning for Group Robustness",
+          "link": "https://arxiv.org/abs/2503.09487"
+        },
+        "c": "",
+        "n": "CoOp + PPA (CLIP ViT-L/14)",
+        "d": "2025-03-12",
+        "m1": "87.4"
+      },
+      {
+        "p": {
+          "name": "Rank-Guided Pseudo-Bias Learning for Robust Black-Box Adaptation",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Dwivedi_Rank-Guided_Pseudo-Bias_Learning_for_Robust_Black-Box_Adaptation_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "PLD-Debias (CLIP ResNet-50)",
+        "d": "2026-06-03",
+        "m1": "84.92"
+      }
+    ]
+  }
+}

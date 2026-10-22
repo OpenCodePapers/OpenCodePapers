@@ -36,6 +36,76 @@
     "items": [
       {
         "p": {
+          "name": "Kimi-VL Technical Report",
+          "link": "https://arxiv.org/abs/2504.07491"
+        },
+        "c": "https://github.com/moonshotai/kimi-vl",
+        "n": "Kimi-VL-A3B-Instruct",
+        "d": "2025-04-10",
+        "m1": "78.5"
+      },
+      {
+        "p": {
+          "name": "Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution",
+          "link": "https://arxiv.org/abs/2409.12191v2"
+        },
+        "c": "https://github.com/qwenlm/qwen2-vl",
+        "n": "Qwen2-VL-72B",
+        "d": "2024-09-18",
+        "m1": "77.9"
+      },
+      {
+        "p": {
+          "name": "InternVideo3: Agentify Foundation Models with Multimodal Contextual Reasoning",
+          "link": "https://arxiv.org/abs/2606.12195"
+        },
+        "c": "https://github.com/opengvlab/internvideo",
+        "n": "InternVideo3-8B",
+        "d": "2026-06-10",
+        "m1": "76.6"
+      },
+      {
+        "p": {
+          "name": "Qwen2.5-VL Technical Report",
+          "link": "https://arxiv.org/abs/2502.13923v1"
+        },
+        "c": "https://github.com/qwenlm/qwen2-vl",
+        "n": "Qwen2.5-VL-72B",
+        "d": "2025-02-19",
+        "m1": "76.2"
+      },
+      {
+        "p": {
+          "name": "Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context",
+          "link": "https://arxiv.org/abs/2403.05530v5"
+        },
+        "c": "https://github.com/dlvuldet/primevul",
+        "n": "Gemini 1.5 Pro",
+        "d": "2024-03-08",
+        "m1": "72.2"
+      },
+      {
+        "p": {
+          "name": "Hello GPT-4o",
+          "link": "https://openai.com/index/hello-gpt-4o/"
+        },
+        "c": "",
+        "n": "GPT-4o",
+        "d": "2024-05-13",
+        "m1": "72.2"
+      },
+      {
+        "p": {
+          "name": "Introducing Gemini 2.0: our new AI model for the agentic era",
+          "link": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/google-gemini-ai-update-december-2024/"
+        },
+        "c": "",
+        "n": "Gemini 2.0 Flash Experimental",
+        "d": "2024-12-11",
+        "m1": "71.5"
+      },
+      {
+        "p": {
           "name": "BIMBA: Selective-Scan Compression for Long-Range Video Question Answering",
           "link": "https://arxiv.org/abs/2503.09590v1"
         },
@@ -43,6 +113,16 @@
         "n": "BIMBA-LLaVA-Qwen2-7B",
         "d": "2025-03-12",
         "m1": "71.14"
+      },
+      {
+        "p": {
+          "name": "Penguin-VL: Exploring the Efficiency Limits of VLM with LLM-based Vision Encoders",
+          "link": "https://arxiv.org/abs/2603.06569"
+        },
+        "c": "https://github.com/tencent-ailab/Penguin-VL",
+        "n": "Penguin-VL 8B",
+        "d": "2026-03-06",
+        "m1": "70.2"
       },
       {
         "p": {
@@ -66,6 +146,16 @@
       },
       {
         "p": {
+          "name": "PerceptionLM: Open-Access Data and Models for Detailed Visual Understanding",
+          "link": "https://arxiv.org/abs/2504.13180v1"
+        },
+        "c": "https://github.com/facebookresearch/perception_models",
+        "n": "PLM-8B",
+        "d": "2025-04-17",
+        "m1": "68.8"
+      },
+      {
+        "p": {
           "name": "Qwen2.5-Omni Technical Report",
           "link": "https://arxiv.org/abs/2503.20215v1"
         },
@@ -86,6 +176,36 @@
       },
       {
         "p": {
+          "name": "Attend Before Attention: Efficient and Scalable Video Understanding via Autoregressive Gazing",
+          "link": "https://arxiv.org/abs/2603.12254"
+        },
+        "c": "https://github.com/nvlabs/autogaze",
+        "n": "NVILA-8B-HD-Video",
+        "d": "2026-03-12",
+        "m1": "66.9"
+      },
+      {
+        "p": {
+          "name": "Aria: An Open Multimodal Native Mixture-of-Experts Model",
+          "link": "https://arxiv.org/abs/2410.05993v4"
+        },
+        "c": "https://github.com/rhymes-ai/aria",
+        "n": "Aria",
+        "d": "2024-10-08",
+        "m1": "66.8"
+      },
+      {
+        "p": {
+          "name": "Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution",
+          "link": "https://arxiv.org/abs/2409.12191v2"
+        },
+        "c": "https://github.com/qwenlm/qwen2-vl",
+        "n": "Qwen2-VL-7B",
+        "d": "2024-09-18",
+        "m1": "66.7"
+      },
+      {
+        "p": {
           "name": "Video-RAG: Visually-aligned Retrieval-Augmented Long Video Comprehension",
           "link": "https://arxiv.org/abs/2411.13093v3"
         },
@@ -93,6 +213,16 @@
         "n": "Video-RAG (Based on LLaVA-Video)",
         "d": "2024-11-20",
         "m1": "66.7"
+      },
+      {
+        "p": {
+          "name": "LENS: Adaptive Spatio-Temporal Zooming for Keyframe Sampling in Long-Form Videos",
+          "link": "https://arxiv.org/abs/2607.25125"
+        },
+        "c": "https://github.com/zhangce01/lens",
+        "n": "LENS (Qwen2.5-VL 7B, 32 frames)",
+        "d": "2026-07-27",
+        "m1": "66.1"
       },
       {
         "p": {
@@ -106,6 +236,16 @@
       },
       {
         "p": {
+          "name": "CurveStream: Boosting Streaming Video Understanding in MLLMs via Curvature-Aware Hierarchical Visual Memory Management",
+          "link": "https://arxiv.org/abs/2603.19571"
+        },
+        "c": "https://github.com/streamingvideos/CurveStream",
+        "n": "Qwen2.5-VL-7B (with CurveStream)",
+        "d": "2026-03-20",
+        "m1": "64.29"
+      },
+      {
+        "p": {
           "name": "VideoLLaMA 2: Advancing Spatial-Temporal Modeling and Audio Understanding in Video-LLMs",
           "link": "https://arxiv.org/abs/2406.07476v3"
         },
@@ -116,6 +256,66 @@
       },
       {
         "p": {
+          "name": "VideoLLaMA 3: Frontier Multimodal Foundation Models for Image and Video Understanding",
+          "link": "https://arxiv.org/abs/2501.13106v3"
+        },
+        "c": "https://github.com/damo-nlp-sg/videollama3",
+        "n": "VideoLLaMA3 7B",
+        "d": "2025-01-22",
+        "m1": "63.3"
+      },
+      {
+        "p": {
+          "name": "MeToM: Metadata-Guided Token Merging for Efficient Video LLMs",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Wu_MeToM_Metadata-Guided_Token_Merging_for_Efficient_Video_LLMs_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "LLaVA-OneVision-7B + MeToM",
+        "d": "2026-06-03",
+        "m1": "62.4"
+      },
+      {
+        "p": {
+          "name": "H2SVC: Head-aware Heterogeneous Streaming Video Cache for Online Video Understanding",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/5230"
+        },
+        "c": "",
+        "n": "LLaVA-OV-7B + H2SVC",
+        "d": "2026-09-08",
+        "m1": "62.1"
+      },
+      {
+        "p": {
+          "name": "LLaVA-OneVision: Easy Visual Task Transfer",
+          "link": "https://arxiv.org/abs/2408.03326v3"
+        },
+        "c": "https://github.com/evolvinglmms-lab/lmms-eval",
+        "n": "LLaVA-OneVision-72B",
+        "d": "2024-08-06",
+        "m1": "62.0"
+      },
+      {
+        "p": {
+          "name": "Perception Encoder: The best visual embeddings are not at the output of the network",
+          "link": "https://arxiv.org/abs/2504.13181v1"
+        },
+        "c": "https://github.com/facebookresearch/perception_models",
+        "n": "PE-Lang G",
+        "d": "2025-04-17",
+        "m1": "62.0"
+      },
+      {
+        "p": {
+          "name": "Molmo2: Open Weights and Data for Vision-Language Models with Video Understanding and Grounding",
+          "link": "https://arxiv.org/abs/2601.10611"
+        },
+        "c": "https://github.com/allenai/molmo2",
+        "n": "Molmo2-8B",
+        "d": "2026-01-15",
+        "m1": "62.0"
+      },
+      {
+        "p": {
           "name": "Tarsier: Recipes for Training and Evaluating Large Video Description Models",
           "link": "https://arxiv.org/abs/2407.00634v2"
         },
@@ -123,6 +323,26 @@
         "n": "Tarsier (34B)",
         "d": "2024-06-30",
         "m1": "61.7"
+      },
+      {
+        "p": {
+          "name": "Token Reduction via Local and Global Contexts Optimization for Efficient Video Large Language Models",
+          "link": "https://arxiv.org/abs/2603.01400"
+        },
+        "c": "https://github.com/tyroneli/aot",
+        "n": "AOT (LLaVA-OneVision-7B)",
+        "d": "2026-03-02",
+        "m1": "61.7"
+      },
+      {
+        "p": {
+          "name": "S3-Prune: Stability-Aware Token Budgeting for Long-Form Video-Language Models",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/5149"
+        },
+        "c": "",
+        "n": "S3-prune (LLaVA-OV-7B, 25% vision-token retention)",
+        "d": "2026-09-08",
+        "m1": "61.11"
       },
       {
         "p": {
@@ -143,6 +363,46 @@
         "n": "LVNet",
         "d": "2024-06-13",
         "m1": "61.1"
+      },
+      {
+        "p": {
+          "name": "OmniStream: Mastering Perception, Reconstruction and Action in Continuous Streams",
+          "link": "https://arxiv.org/abs/2603.12265"
+        },
+        "c": "https://github.com/Go2Heart/OmniStream",
+        "n": "OmniStream-7B",
+        "d": "2026-03-12",
+        "m1": "60.9"
+      },
+      {
+        "p": {
+          "name": "Accelerating Streaming Video Large Language Models via Hierarchical Token Compression",
+          "link": "https://arxiv.org/abs/2512.00891"
+        },
+        "c": "https://github.com/lern-to-write/stc",
+        "n": "ReKV with STC-Pruner",
+        "d": "2025-11-30",
+        "m1": "60.8"
+      },
+      {
+        "p": {
+          "name": "EarlyTom: Early Token Compression Completes Fast Video Understanding",
+          "link": "https://arxiv.org/abs/2605.30010"
+        },
+        "c": "https://github.com/viridisGreen/EarlyTom",
+        "n": "EarlyTom (LLaVA-OneVision-7B)",
+        "d": "2026-05-28",
+        "m1": "60.6"
+      },
+      {
+        "p": {
+          "name": "HERMES: KV Cache as Hierarchical Memory for Efficient Streaming Video Understanding",
+          "link": "https://arxiv.org/abs/2601.14724"
+        },
+        "c": "https://github.com/haowei-freesky/HERMES",
+        "n": "HERMES (LLaVA-OV-7B, 4K tokens)",
+        "d": "2026-01-21",
+        "m1": "60.29"
       },
       {
         "p": {
@@ -183,6 +443,36 @@
         "n": "VideoChat2_HD_mistral",
         "d": "2023-11-28",
         "m1": "55.8"
+      },
+      {
+        "p": {
+          "name": "Penguin-VL: Exploring the Efficiency Limits of VLM with LLM-based Vision Encoders",
+          "link": "https://arxiv.org/abs/2603.06569"
+        },
+        "c": "https://github.com/tencent-ailab/Penguin-VL",
+        "n": "Penguin-VL 2B",
+        "d": "2026-03-06",
+        "m1": "55.7"
+      },
+      {
+        "p": {
+          "name": "Flexible Frame Selection for Efficient Video Reasoning",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Buch_Flexible_Frame_Selection_for_Efficient_Video_Reasoning_CVPR_2025_paper.html"
+        },
+        "c": "",
+        "n": "OpenLLoVi (Gemma) + FFS (Ours; @16.8→[4,32])",
+        "d": "2025-06-11",
+        "m1": "55.6"
+      },
+      {
+        "p": {
+          "name": "Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution",
+          "link": "https://arxiv.org/abs/2409.12191v2"
+        },
+        "c": "https://github.com/qwenlm/qwen2-vl",
+        "n": "Qwen2-VL-2B",
+        "d": "2024-09-18",
+        "m1": "54.9"
       },
       {
         "p": {
@@ -253,6 +543,16 @@
         "n": "LangRepo (12B)",
         "d": "2024-03-21",
         "m1": "41.2"
+      },
+      {
+        "p": {
+          "name": "Video Mamba Suite: State Space Model as a Versatile Alternative for Video Understanding",
+          "link": "https://arxiv.org/abs/2403.09626v1"
+        },
+        "c": "https://github.com/opengvlab/video-mamba-suite",
+        "n": "TimeMamba",
+        "d": "2024-03-14",
+        "m1": "38.70"
       },
       {
         "p": {

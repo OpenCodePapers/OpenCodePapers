@@ -1,0 +1,102 @@
+{
+  "title": "image-super-resolution-on-realset65",
+  "task-hierarchy": [
+    "Super-Resolution",
+    "Image Super-Resolution"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/zsyOAOA/ResShift/tree/master/testdata/RealSet65",
+    "paper": "ResShift: Efficient Diffusion Model for Image Super-resolution by Residual Shifting"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "CLIP-IQA",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "MUSIQ",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "MANIQA",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "NIQE",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "SinSR: Diffusion-Based Image Super-Resolution in a Single Step",
+          "link": "https://arxiv.org/abs/2311.14760"
+        },
+        "c": "https://github.com/wyf0912/sinsr",
+        "n": "SinSR-1",
+        "d": "2023-11-23",
+        "m1": "0.7150",
+        "m2": "62.169"
+      },
+      {
+        "p": {
+          "name": "Consistency Trajectory Matching for One-Step Generative Super-Resolution",
+          "link": "https://arxiv.org/abs/2503.20349"
+        },
+        "c": "",
+        "n": "CTMSR-1",
+        "d": "2025-03-26",
+        "m1": "0.6893",
+        "m2": "67.173",
+        "m3": "0.4360",
+        "m4": "4.51"
+      },
+      {
+        "p": {
+          "name": "ResShift: Efficient Diffusion Model for Image Super-resolution by Residual Shifting",
+          "link": "https://arxiv.org/abs/2307.12348"
+        },
+        "c": "https://github.com/zsyoaoa/resshift",
+        "n": "ResShift",
+        "d": "2023-07-23",
+        "m1": "0.6537",
+        "m2": "61.330"
+      },
+      {
+        "p": {
+          "name": "Uncertainty-guided Perturbation for Image Super-Resolution Diffusion Model",
+          "link": "https://arxiv.org/abs/2503.18512"
+        },
+        "c": "https://github.com/labshuhanggu/upsr",
+        "n": "UPSR-5",
+        "d": "2025-03-24",
+        "m1": "0.6392",
+        "m2": "63.519",
+        "m3": "0.3931",
+        "m4": "4.23"
+      }
+    ]
+  }
+}

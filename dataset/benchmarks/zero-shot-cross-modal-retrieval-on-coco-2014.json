@@ -61,6 +61,36 @@
     "items": [
       {
         "p": {
+          "name": "TIPSv2: Advancing Vision-Language Pretraining with Enhanced Patch-Text Alignment",
+          "link": "https://arxiv.org/abs/2604.12012"
+        },
+        "c": "https://github.com/google-deepmind/tips",
+        "n": "TIPSv2 g/14",
+        "d": "2026-04-13",
+        "m1": "75.7"
+      },
+      {
+        "p": {
+          "name": "Lenses: Toward Polysemous Vision-Language Understanding",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Alomari_Lenses_Toward_Polysemous_Vision-Language_Understanding_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "Lenses - Literal",
+        "d": "2026-06-03",
+        "m1": "75.5"
+      },
+      {
+        "p": {
+          "name": "Perception Encoder: The best visual embeddings are not at the output of the network",
+          "link": "https://arxiv.org/abs/2504.13181v1"
+        },
+        "c": "https://github.com/facebookresearch/perception_models",
+        "n": "PE-Core G",
+        "d": "2025-04-17",
+        "m1": "75.4"
+      },
+      {
+        "p": {
           "name": "InternVL: Scaling up Vision Foundation Models and Aligning for Generic Visual-Linguistic Tasks",
           "link": "https://arxiv.org/abs/2312.14238v3"
         },
@@ -73,6 +103,36 @@
         "m4": "58.6",
         "m5": "81.3",
         "m6": "88.0"
+      },
+      {
+        "p": {
+          "name": "TIPS: Text-Image Pretraining with Spatial Awareness",
+          "link": "https://arxiv.org/abs/2410.16512"
+        },
+        "c": "https://github.com/google-deepmind/tips",
+        "n": "TIPS-g/14 HR",
+        "d": "2024-10-21",
+        "m1": "74.0"
+      },
+      {
+        "p": {
+          "name": "ReasonCLIP-58M: Visually Grounded Commonsense Reasoning Supervision for CLIP",
+          "link": "https://arxiv.org/abs/2606.26794"
+        },
+        "c": "https://github.com/risys-lab/reasonclip",
+        "n": "RISys-Lab/ReasonSigLIP-So14-384-S2 (extra data)",
+        "d": "2026-06-25",
+        "m1": "73.7"
+      },
+      {
+        "p": {
+          "name": "Incorporating Dense Knowledge Alignment into Unified Multimodal Representation Models",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Cui_Incorporating_Dense_Knowledge_Alignment_into_Unified_Multimodal_Representation_Models_CVPR_2025_paper.html"
+        },
+        "c": "",
+        "n": "DeKR-7B (zero-shot)",
+        "d": "2025-06-11",
+        "m1": "73.3"
       },
       {
         "p": {
@@ -121,6 +181,16 @@
       },
       {
         "p": {
+          "name": "Sigmoid Loss for Language Image Pre-Training",
+          "link": "https://arxiv.org/abs/2303.15343"
+        },
+        "c": "https://github.com/google-research/big_vision",
+        "n": "SigLIP SO",
+        "d": "2023-03-27",
+        "m1": "70.2"
+      },
+      {
+        "p": {
           "name": "Position-guided Text Prompt for Vision-Language Pre-training",
           "link": "https://arxiv.org/abs/2212.09737v2"
         },
@@ -136,6 +206,16 @@
       },
       {
         "p": {
+          "name": "MobileCLIP2: Improving Multi-Modal Reinforced Training",
+          "link": "https://arxiv.org/abs/2508.20691"
+        },
+        "c": "https://github.com/apple/ml-mobileclip",
+        "n": "MobileCLIP2-S4",
+        "d": "2025-08-28",
+        "m1": "69.3"
+      },
+      {
+        "p": {
           "name": "Region-Aware Pretraining for Open-Vocabulary Object Detection with Vision Transformers",
           "link": "https://arxiv.org/abs/2305.07011v4"
         },
@@ -148,6 +228,16 @@
         "m4": "51.8",
         "m5": "75.0",
         "m6": "83.0"
+      },
+      {
+        "p": {
+          "name": "MobileCLIP: Fast Image-Text Models through Multi-Modal Reinforced Training",
+          "link": "https://arxiv.org/abs/2311.17049"
+        },
+        "c": "https://github.com/rwightman/pytorch-image-models",
+        "n": "MobileCLIP-B",
+        "d": "2023-11-28",
+        "m1": "68.8"
       },
       {
         "p": {
@@ -254,6 +344,16 @@
       },
       {
         "p": {
+          "name": "Multi-label Cluster Discrimination for Visual Representation Learning",
+          "link": "https://arxiv.org/abs/2407.17331v2"
+        },
+        "c": "https://github.com/deepglint/unicom",
+        "n": "MLCD ViT-L/14",
+        "d": "2024-07-24",
+        "m1": "60.8"
+      },
+      {
+        "p": {
           "name": "Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision",
           "link": "https://arxiv.org/abs/2102.05918v2"
         },
@@ -269,6 +369,16 @@
       },
       {
         "p": {
+          "name": "AltCLIP: Altering the Language Encoder in CLIP for Extended Language Capabilities",
+          "link": "https://arxiv.org/abs/2211.06679v2"
+        },
+        "c": "https://github.com/flagai-open/flagai",
+        "n": "AltCLIP",
+        "d": "2022-11-12",
+        "m1": "58.6"
+      },
+      {
+        "p": {
           "name": "Learning Transferable Visual Models From Natural Language Supervision",
           "link": "https://arxiv.org/abs/2103.00020v1"
         },
@@ -281,6 +391,16 @@
         "m4": "37.8",
         "m5": "62.4",
         "m6": "72.2"
+      },
+      {
+        "p": {
+          "name": "SaCo Loss: Sample-wise Affinity Consistency for Vision-Language Pre-training",
+          "link": "https://openaccess.thecvf.com/content/CVPR2024/html/Wu_SaCo_Loss_Sample-wise_Affinity_Consistency_for_Vision-Language_Pre-training_CVPR_2024_paper.html"
+        },
+        "c": "",
+        "n": "CLIP + Ours ViT-B/16",
+        "d": "2024-06-17",
+        "m1": "57.8"
       },
       {
         "p": {
@@ -313,6 +433,16 @@
         "m6": "70.2"
       },
       {
+        "p": {
+          "name": "Efficient Vision-Language Pre-training by Cluster Masking",
+          "link": "https://arxiv.org/abs/2405.08815"
+        },
+        "c": "",
+        "n": "Ours-Embedding",
+        "d": "2024-05-14",
+        "m1": "23.77"
+      },
+      {
         "p": "",
         "c": "",
         "n": "dfdf",
@@ -323,6 +453,16 @@
         "m4": "0",
         "m5": "0",
         "m6": "0"
+      },
+      {
+        "p": {
+          "name": "MoE-ViE: Mixture of Experts Vision Encoder for Efficient Image and Video Understanding",
+          "link": "https://arxiv.org/abs/2608.17402"
+        },
+        "c": "https://github.com/facebookresearch/moe_vie",
+        "n": "MoE-ViE-L/16",
+        "d": "2026-08-18",
+        "m4": "57.2"
       }
     ]
   }

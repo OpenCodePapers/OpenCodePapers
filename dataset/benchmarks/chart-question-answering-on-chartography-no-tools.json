@@ -1,0 +1,429 @@
+{
+  "title": "chart-question-answering-on-chartography-no-tools",
+  "task-hierarchy": [
+    "Visual Question Answering (VQA)",
+    "Chart Question Answering"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/surge-ai/chartography",
+    "paper": "Chartography: A Benchmark for Professional Chart Understanding"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Pass@1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Gemini 4 Argon: our next era of frontier intelligence",
+          "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+        },
+        "c": "https://github.com/google-gemini/gemini-cli",
+        "n": "Gemini 4 Argon (no tools)",
+        "d": "2026-09-30",
+        "m1": "0.716"
+      },
+      {
+        "p": {
+          "name": "Chartography Leaderboard",
+          "link": "https://surgehq.ai/benchmarks/chartography"
+        },
+        "c": "",
+        "n": "GPT-6 Sol (no tools)",
+        "d": "2026-09-22",
+        "m1": "0.536"
+      },
+      {
+        "p": {
+          "name": "Introducing Claude Haiku 5.5",
+          "link": "https://www.anthropic.com/claude-haiku-5-5"
+        },
+        "c": "",
+        "n": "Claude Haiku 5.5 (max effort)",
+        "d": "2026-10-07",
+        "m1": "0.464"
+      },
+      {
+        "p": {
+          "name": "Chartography Leaderboard",
+          "link": "https://surgehq.ai/benchmarks/chartography"
+        },
+        "c": "https://github.com/openai/codex",
+        "n": "GPT-5.6 Sol (no tools)",
+        "d": "2026-07-09",
+        "m1": "0.45"
+      },
+      {
+        "p": {
+          "name": "Chartography Leaderboard",
+          "link": "https://surgehq.ai/benchmarks/chartography"
+        },
+        "c": "https://github.com/google-gemini/gemini-cli",
+        "n": "Gemini 3.8 Flash (no tools)",
+        "d": "2026-09-02",
+        "m1": "0.409"
+      },
+      {
+        "p": {
+          "name": "Chartography Leaderboard",
+          "link": "https://surgehq.ai/benchmarks/chartography"
+        },
+        "c": "https://github.com/google-antigravity/antigravity-cli",
+        "n": "Gemini 3.7 Flash (no tools)",
+        "d": "2026-08-13",
+        "m1": "0.404"
+      },
+      {
+        "p": {
+          "name": "Chartography Leaderboard",
+          "link": "https://surgehq.ai/benchmarks/chartography"
+        },
+        "c": "https://github.com/anthropics/claude-code",
+        "n": "Claude Fable 5 (no tools)",
+        "d": "2026-06-09",
+        "m1": "0.348"
+      },
+      {
+        "p": {
+          "name": "Chartography Leaderboard",
+          "link": "https://surgehq.ai/benchmarks/chartography"
+        },
+        "c": "https://github.com/openai/codex",
+        "n": "GPT-5.6 Terra (no tools)",
+        "d": "2026-07-09",
+        "m1": "0.34"
+      },
+      {
+        "p": {
+          "name": "Chartography Leaderboard",
+          "link": "https://surgehq.ai/benchmarks/chartography"
+        },
+        "c": "",
+        "n": "Gemini 3.6 Flash (no tools)",
+        "d": "2026-07-21",
+        "m1": "0.34"
+      },
+      {
+        "p": {
+          "name": "Chartography Leaderboard",
+          "link": "https://surgehq.ai/benchmarks/chartography"
+        },
+        "c": "",
+        "n": "Muse Spark 1.2 (no tools)",
+        "d": "2026-08-05",
+        "m1": "0.321"
+      },
+      {
+        "p": {
+          "name": "Chartography Leaderboard",
+          "link": "https://surgehq.ai/benchmarks/chartography"
+        },
+        "c": "https://github.com/openai/codex",
+        "n": "GPT-5.6 Luna (no tools)",
+        "d": "2026-07-09",
+        "m1": "0.314"
+      },
+      {
+        "p": {
+          "name": "Chartography Leaderboard",
+          "link": "https://surgehq.ai/benchmarks/chartography"
+        },
+        "c": "",
+        "n": "GPT-5.5 (no tools)",
+        "d": "2026-04-23",
+        "m1": "0.31"
+      },
+      {
+        "p": {
+          "name": "Chartography Leaderboard",
+          "link": "https://surgehq.ai/benchmarks/chartography"
+        },
+        "c": "",
+        "n": "GPT-5.4 (no tools)",
+        "d": "2026-03-05",
+        "m1": "0.296"
+      },
+      {
+        "p": {
+          "name": "Chartography Leaderboard",
+          "link": "https://surgehq.ai/benchmarks/chartography"
+        },
+        "c": "https://github.com/vllm-project/vllm",
+        "n": "Qwen3.8-Max (no tools)",
+        "d": "2026-08-03",
+        "m1": "0.291"
+      },
+      {
+        "p": {
+          "name": "Chartography Leaderboard",
+          "link": "https://surgehq.ai/benchmarks/chartography"
+        },
+        "c": "",
+        "n": "GPT-6 Luna (no tools)",
+        "d": "2026-09-22",
+        "m1": "0.291"
+      },
+      {
+        "p": {
+          "name": "Chartography Leaderboard",
+          "link": "https://surgehq.ai/benchmarks/chartography"
+        },
+        "c": "",
+        "n": "Muse Spark 1.3 (no tools)",
+        "d": "2026-09-02",
+        "m1": "0.276"
+      },
+      {
+        "p": {
+          "name": "Chartography Leaderboard",
+          "link": "https://surgehq.ai/benchmarks/chartography"
+        },
+        "c": "https://github.com/anthropics/claude-code",
+        "n": "Claude Opus 5 (no tools)",
+        "d": "2026-07-24",
+        "m1": "0.273"
+      },
+      {
+        "p": {
+          "name": "Chartography Leaderboard",
+          "link": "https://surgehq.ai/benchmarks/chartography"
+        },
+        "c": "https://github.com/moonshotai/kimi-k3",
+        "n": "Kimi K3 (no tools)",
+        "d": "2026-07-27",
+        "m1": "0.266"
+      },
+      {
+        "p": {
+          "name": "Chartography Leaderboard",
+          "link": "https://surgehq.ai/benchmarks/chartography"
+        },
+        "c": "",
+        "n": "Gemini 3.1 Pro (no tools)",
+        "d": "2026-02-19",
+        "m1": "0.261"
+      },
+      {
+        "p": {
+          "name": "Chartography Leaderboard",
+          "link": "https://surgehq.ai/benchmarks/chartography"
+        },
+        "c": "https://github.com/meta-models/meta-model-cookbook",
+        "n": "Muse Spark 1.1 (no tools)",
+        "d": "2026-07-09",
+        "m1": "0.244"
+      },
+      {
+        "p": {
+          "name": "Chartography Leaderboard",
+          "link": "https://surgehq.ai/benchmarks/chartography"
+        },
+        "c": "",
+        "n": "Grok 4.6 (no tools)",
+        "d": "2026-08-12",
+        "m1": "0.205"
+      },
+      {
+        "p": {
+          "name": "Chartography Leaderboard",
+          "link": "https://surgehq.ai/benchmarks/chartography"
+        },
+        "c": "https://github.com/qwenlm/qwen3.8-flash-next",
+        "n": "Qwen3.8-Flash (no tools)",
+        "d": "2026-08-24",
+        "m1": "0.174"
+      },
+      {
+        "p": {
+          "name": "Chartography Leaderboard",
+          "link": "https://surgehq.ai/benchmarks/chartography"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Muse Glimmer-30B (no tools)",
+        "d": "2026-10-17",
+        "m1": "0.172"
+      },
+      {
+        "p": {
+          "name": "Chartography Leaderboard",
+          "link": "https://surgehq.ai/benchmarks/chartography"
+        },
+        "c": "",
+        "n": "Grok 4.5 (no tools)",
+        "d": "2026-07-08",
+        "m1": "0.17"
+      },
+      {
+        "p": {
+          "name": "Chartography Leaderboard",
+          "link": "https://surgehq.ai/benchmarks/chartography"
+        },
+        "c": "",
+        "n": "Claude Sonnet 5 (no tools)",
+        "d": "2026-06-30",
+        "m1": "0.166"
+      },
+      {
+        "p": {
+          "name": "Chartography Leaderboard",
+          "link": "https://surgehq.ai/benchmarks/chartography"
+        },
+        "c": "",
+        "n": "Claude Opus 4.7 (no tools)",
+        "d": "2026-04-16",
+        "m1": "0.165"
+      },
+      {
+        "p": {
+          "name": "Chartography Leaderboard",
+          "link": "https://surgehq.ai/benchmarks/chartography"
+        },
+        "c": "https://github.com/zai-org/glm-5",
+        "n": "GLM-5.3-Flash (no tools)",
+        "d": "2026-08-26",
+        "m1": "0.163"
+      },
+      {
+        "p": {
+          "name": "Chartography Leaderboard",
+          "link": "https://surgehq.ai/benchmarks/chartography"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Qwen3.5-Plus (no tools)",
+        "d": "2026-02-16",
+        "m1": "0.159"
+      },
+      {
+        "p": {
+          "name": "Chartography Leaderboard",
+          "link": "https://surgehq.ai/benchmarks/chartography"
+        },
+        "c": "",
+        "n": "Claude Opus 4.8 (no tools)",
+        "d": "2026-05-28",
+        "m1": "0.159"
+      },
+      {
+        "p": {
+          "name": "Chartography Leaderboard",
+          "link": "https://surgehq.ai/benchmarks/chartography"
+        },
+        "c": "",
+        "n": "Qwen3.7-Plus (no tools)",
+        "d": "2026-06-02",
+        "m1": "0.158"
+      },
+      {
+        "p": {
+          "name": "Chartography Leaderboard",
+          "link": "https://surgehq.ai/benchmarks/chartography"
+        },
+        "c": "",
+        "n": "Grok 4.7 (no tools)",
+        "d": "2026-09-21",
+        "m1": "0.147"
+      },
+      {
+        "p": {
+          "name": "Chartography Leaderboard",
+          "link": "https://surgehq.ai/benchmarks/chartography"
+        },
+        "c": "",
+        "n": "Grok 4.3 (no tools)",
+        "d": "2026-04-30",
+        "m1": "0.129"
+      },
+      {
+        "p": {
+          "name": "Chartography Leaderboard",
+          "link": "https://surgehq.ai/benchmarks/chartography"
+        },
+        "c": "https://github.com/MoonshotAI/Kimi-K2.5",
+        "n": "Kimi K2.5 (no tools)",
+        "d": "2026-02-02",
+        "m1": "0.126"
+      },
+      {
+        "p": {
+          "name": "Chartography Leaderboard",
+          "link": "https://surgehq.ai/benchmarks/chartography"
+        },
+        "c": "https://huggingface.co/moonshotai/Kimi-K2.6",
+        "n": "Kimi K2.6 (no tools)",
+        "d": "2026-04-20",
+        "m1": "0.122"
+      },
+      {
+        "p": {
+          "name": "Chartography Leaderboard",
+          "link": "https://surgehq.ai/benchmarks/chartography"
+        },
+        "c": "https://github.com/deepseek-ai/deepseek-recipe",
+        "n": "DeepSeek-V4.1-Flash (no tools)",
+        "d": "2026-09-17",
+        "m1": "0.116"
+      },
+      {
+        "p": {
+          "name": "Chartography Leaderboard",
+          "link": "https://surgehq.ai/benchmarks/chartography"
+        },
+        "c": "",
+        "n": "Gemini 3.5 Flash-Lite (no tools)",
+        "d": "2026-07-21",
+        "m1": "0.102"
+      },
+      {
+        "p": {
+          "name": "Chartography Leaderboard",
+          "link": "https://surgehq.ai/benchmarks/chartography"
+        },
+        "c": "https://huggingface.co/thinkingmachines/Inkling",
+        "n": "Inkling (no tools)",
+        "d": "2026-07-15",
+        "m1": "0.1"
+      },
+      {
+        "p": {
+          "name": "Chartography Leaderboard",
+          "link": "https://surgehq.ai/benchmarks/chartography"
+        },
+        "c": "https://github.com/thinking-machines-lab/tinker-cookbook",
+        "n": "Inkling-Small (no tools)",
+        "d": "2026-07-27",
+        "m1": "0.091"
+      },
+      {
+        "p": {
+          "name": "Chartography Leaderboard",
+          "link": "https://surgehq.ai/benchmarks/chartography"
+        },
+        "c": "https://huggingface.co/mistralai/Mistral-Large-3-675B-Instruct-2512",
+        "n": "Mistral Large 3 (no tools)",
+        "d": "2025-11-28",
+        "m1": "0.09"
+      }
+    ]
+  }
+}

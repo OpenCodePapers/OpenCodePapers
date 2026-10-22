@@ -1,0 +1,99 @@
+{
+  "title": "linear-probe-image-classification-on-sun397",
+  "task-hierarchy": [
+    "Image Classification",
+    "Linear Probe Image Classification"
+  ],
+  "dataset-info": {
+    "link": "https://3dvision.princeton.edu/projects/2010/SUN/",
+    "paper": "SUN Database: Large-Scale Scene Recognition from Abbey to Zoo"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "FLAVA: A Foundational Language And Vision Alignment Model",
+          "link": "https://arxiv.org/abs/2112.04482v3"
+        },
+        "c": "https://github.com/facebookresearch/multimodal",
+        "n": "FLAVA",
+        "d": "2021-12-08",
+        "m1": "82.17"
+      },
+      {
+        "p": {
+          "name": "Multi-label Cluster Discrimination for Visual Representation Learning",
+          "link": "https://arxiv.org/abs/2407.17331v2"
+        },
+        "c": "https://github.com/deepglint/unicom",
+        "n": "MLCD ViT-L/14 (linear probe)",
+        "d": "2024-07-24",
+        "m1": "82.1"
+      },
+      {
+        "p": {
+          "name": "DINOv3",
+          "link": "https://arxiv.org/abs/2508.10104v1"
+        },
+        "c": "https://github.com/facebookresearch/dinov3",
+        "n": "DINOv3 (7B)",
+        "d": "2025-08-13",
+        "m1": "81.1"
+      },
+      {
+        "p": {
+          "name": "PolyViT: Co-training Vision Transformers on Images, Videos and Audio",
+          "link": "https://arxiv.org/abs/2111.12993"
+        },
+        "c": "",
+        "n": "PolyViT-Base (image tasks) linear probe",
+        "d": "2021-11-25",
+        "m1": "80.0"
+      },
+      {
+        "p": {
+          "name": "Vision Models Are More Robust And Fair When Pretrained On Uncurated Images Without Supervision",
+          "link": "https://arxiv.org/abs/2202.08360v2"
+        },
+        "c": "https://github.com/facebookresearch/vissl",
+        "n": "SEER (RegNet10B - linear eval)",
+        "d": "2022-02-16",
+        "m1": "80.0"
+      },
+      {
+        "p": {
+          "name": "DINOv2: Learning Robust Visual Features without Supervision",
+          "link": "https://arxiv.org/abs/2304.07193v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "DINOv2 (ViT-g/14)",
+        "d": "2023-04-14",
+        "m1": "78.7"
+      }
+    ]
+  }
+}

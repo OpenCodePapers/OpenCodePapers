@@ -66,6 +66,16 @@
       },
       {
         "p": {
+          "name": "Mitigating Pose–Scale Discrepancy Bias and Reforming Multi-Support Reasoning for Few-Shot Semantic Segmentation",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/5584"
+        },
+        "c": "",
+        "n": "DMNet-SAM",
+        "d": "2026-09-08",
+        "m1": "79.8"
+      },
+      {
+        "p": {
           "name": "Visual and Textual Prior Guided Mask Assemble for Few-Shot Segmentation and Beyond",
           "link": "https://arxiv.org/abs/2308.07539v1"
         },
@@ -84,6 +94,26 @@
         "n": "FPTrans (DeiT-B/16)",
         "d": "2022-10-13",
         "m1": "78"
+      },
+      {
+        "p": {
+          "name": "Rethinking Prior Information Generation with CLIP for Few-Shot Segmentation",
+          "link": "https://arxiv.org/abs/2405.08458"
+        },
+        "c": "https://github.com/vangjin/pi-clip",
+        "n": "PI-CLIP (HDMNet)",
+        "d": "2024-05-14",
+        "m1": "77.2"
+      },
+      {
+        "p": {
+          "name": "Bayesian Decomposition and Semantic Completion for Few-shot Semantic Segmentation",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Shi_Bayesian_Decomposition_and_Semantic_Completion_for_Few-shot_Semantic_Segmentation_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "BPNet",
+        "d": "2026-06-03",
+        "m1": "77.1"
       },
       {
         "p": {
@@ -116,6 +146,16 @@
         "d": "2025-07-25",
         "m1": "75.3",
         "m2": "85.2"
+      },
+      {
+        "p": {
+          "name": "DSV-LFS: Unifying LLM-Driven Semantic Cues with Visual Features for Robust Few-Shot Segmentation",
+          "link": "https://arxiv.org/abs/2503.04006"
+        },
+        "c": "https://github.com/aminpdik/dsv-lfs",
+        "n": "DSV-LFS (extra data)",
+        "d": "2025-03-06",
+        "m1": "75.21"
       },
       {
         "p": {

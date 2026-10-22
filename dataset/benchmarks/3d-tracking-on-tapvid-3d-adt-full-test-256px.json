@@ -1,0 +1,98 @@
+{
+  "title": "3d-tracking-on-tapvid-3d-adt-full-test-256px",
+  "task-hierarchy": [
+    "Object Tracking",
+    "Point Tracking",
+    "3D Tracking"
+  ],
+  "dataset-info": {
+    "link": "https://tapvid3d.github.io",
+    "paper": "TAPVid-3D: A Benchmark for Tracking Any Point in 3D"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AJ",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "OA",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "APD3D",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "SpatialTrackerV2: 3D Point Tracking Made Easy",
+          "link": "https://arxiv.org/abs/2507.12462"
+        },
+        "c": "https://github.com/henry123-boy/SpaTrackerV2",
+        "n": "SpatialTrackerV2",
+        "d": "2025-07-16",
+        "m1": "0.246",
+        "m2": "0.936",
+        "m3": "0.347"
+      },
+      {
+        "p": {
+          "name": "TAPIP3D: Tracking Any Point in Persistent 3D Geometry",
+          "link": "https://arxiv.org/abs/2504.14717"
+        },
+        "c": "https://github.com/zbw001/tapip3d",
+        "n": "TAPIP3D-World + MegaSaM",
+        "d": "2025-04-20",
+        "m1": "0.235",
+        "m2": "0.912",
+        "m3": "0.328"
+      },
+      {
+        "p": {
+          "name": "DELTAv2: Accelerating Dense 3D Tracking",
+          "link": "https://arxiv.org/abs/2508.01170"
+        },
+        "c": "https://github.com/snap-research/densetrack3dv2",
+        "n": "DELTAv2 + UniDepth",
+        "d": "2025-08-02",
+        "m1": "0.170",
+        "m2": "0.872",
+        "m3": "0.247"
+      },
+      {
+        "p": {
+          "name": "DELTA: Dense Efficient Long-range 3D Tracking for any video",
+          "link": "https://arxiv.org/abs/2410.24211"
+        },
+        "c": "",
+        "n": "DELTA + UniDepth",
+        "d": "2024-10-31",
+        "m1": "0.166",
+        "m2": "0.868",
+        "m3": "0.244"
+      }
+    ]
+  }
+}

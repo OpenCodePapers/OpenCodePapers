@@ -1,0 +1,109 @@
+{
+  "title": "physics-question-answering-on-critpt",
+  "task-hierarchy": [
+    "Question Answering",
+    "Physics Question Answering"
+  ],
+  "dataset-info": {
+    "link": "https://critpt.com/",
+    "paper": "Probing the Critical Point (CritPt) of AI Reasoning: a Frontier Physics Research Benchmark"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Kimi K3: Open Frontier Intelligence",
+          "link": "https://arxiv.org/abs/2607.24653"
+        },
+        "c": "https://github.com/moonshotai/kimi-k3",
+        "n": "Kimi K3 Max",
+        "d": "2026-07-27",
+        "m1": "23.4"
+      },
+      {
+        "p": {
+          "name": "Sage-A1.5: From Long-Horizon Execution to Scientific Exploration with Capability Composition",
+          "link": "https://arxiv.org/abs/2610.28578"
+        },
+        "c": "https://github.com/InternScience/Agents-A1",
+        "n": "Sage-A1.5",
+        "d": "2026-10-20",
+        "m1": "20.0"
+      },
+      {
+        "p": {
+          "name": "Hy4 preview",
+          "link": "https://github.com/Tencent-Hunyuan/Hy4-preview/blob/1296fab2674cb5a645ccfe53e9a8dc225dbe69f2/README.md"
+        },
+        "c": "https://github.com/tencent-hunyuan/hy4-preview",
+        "n": "Hy4 preview",
+        "d": "2026-08-28",
+        "m1": "16.9"
+      },
+      {
+        "p": {
+          "name": "Introducing Beam: Reflection's 501B open-weight model",
+          "link": "https://reflection.ai/blog/introducing-beam"
+        },
+        "c": "",
+        "n": "Beam",
+        "d": "2026-10-05",
+        "m1": "16.3"
+      },
+      {
+        "p": {
+          "name": "Magenta: Closing the Loop Between Mathematical Reasoning and Lean Verification",
+          "link": "https://arxiv.org/abs/2609.11319"
+        },
+        "c": "",
+        "n": "K2-Horizon-375B-A23B",
+        "d": "2026-09-10",
+        "m1": "8.6"
+      },
+      {
+        "p": {
+          "name": "Inkling-Small",
+          "link": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        "c": "https://github.com/thinking-machines-lab/tinker-cookbook",
+        "n": "Inkling-Small",
+        "d": "2026-07-27",
+        "m1": "8.3"
+      },
+      {
+        "p": {
+          "name": "Motif 3: Technical Report",
+          "link": "https://arxiv.org/abs/2608.09119"
+        },
+        "c": "https://github.com/motiftechnologies/motif3-training-example",
+        "n": "Motif 3",
+        "d": "2026-08-10",
+        "m1": "6.6"
+      }
+    ]
+  }
+}

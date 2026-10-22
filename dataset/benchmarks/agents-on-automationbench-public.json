@@ -1,0 +1,228 @@
+{
+  "title": "agents-on-automationbench-public",
+  "task-hierarchy": [
+    "Agents"
+  ],
+  "dataset-info": {
+    "link": "https://zapier.com/benchmarks",
+    "paper": "AutomationBench"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Success Rate",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression",
+          "link": "https://arxiv.org/abs/2609.19969"
+        },
+        "c": "https://github.com/deepseek-ai/deepseek-recipe",
+        "n": "DeepSeek-V4.1-Flash-1017",
+        "d": "2026-09-17",
+        "m1": "60.5"
+      },
+      {
+        "p": {
+          "name": "DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression",
+          "link": "https://arxiv.org/abs/2609.19969"
+        },
+        "c": "https://github.com/deepseek-ai/deepseek-recipe",
+        "n": "DeepSeek-V4.1-Flash Max",
+        "d": "2026-09-17",
+        "m1": "54.8"
+      },
+      {
+        "p": {
+          "name": "Atria Dawn: The Dawn of Agentic Superintelligence",
+          "link": "https://arxiv.org/abs/2609.15818"
+        },
+        "c": "https://github.com/atria-asi/Atria-Dawn-Preview",
+        "n": "Atria Dawn Preview",
+        "d": "2026-09-14",
+        "m1": "53.8"
+      },
+      {
+        "p": {
+          "name": "MiMo-V2.6: Scaling Reinforcement Learning Towards Self-Improvement",
+          "link": "https://arxiv.org/abs/2610.11959"
+        },
+        "c": "https://github.com/vllm-project/vllm",
+        "n": "MiMo-V2.6-Pro-RL",
+        "d": "2026-10-08",
+        "m1": "53.1"
+      },
+      {
+        "p": {
+          "name": "GLM-5.3-Flash: Frontier Intelligence, Flash Cost",
+          "link": "https://z.ai/blog/glm-5.3-flash"
+        },
+        "c": "https://github.com/zai-org/glm-5",
+        "n": "GLM-5.3-Flash",
+        "d": "2026-08-26",
+        "m1": "48.8"
+      },
+      {
+        "p": {
+          "name": "GLM-5.3: Frontier Coding with Emergent Cyber Capabilities",
+          "link": "https://z.ai/blog/glm-5.3"
+        },
+        "c": "https://github.com/zai-org/glm-5",
+        "n": "GLM-5.3",
+        "d": "2026-08-14",
+        "m1": "48.2"
+      },
+      {
+        "p": {
+          "name": "REMORY: Learning Residual Memory for Context Compaction",
+          "link": "https://arxiv.org/abs/2610.11287"
+        },
+        "c": "https://github.com/1ring2rta/Remory",
+        "n": "Qwen3.8-27B + REMORY",
+        "d": "2026-10-08",
+        "m1": "45.3"
+      },
+      {
+        "p": {
+          "name": "Introducing Beam: Reflection's 501B open-weight model",
+          "link": "https://reflection.ai/blog/introducing-beam"
+        },
+        "c": "",
+        "n": "Beam",
+        "d": "2026-10-05",
+        "m1": "37.0"
+      },
+      {
+        "p": {
+          "name": "CompoWorld: Compositional Environment Scaling for General Agents",
+          "link": "https://arxiv.org/abs/2609.33665"
+        },
+        "c": "https://github.com/AllSpark-Research/CompoWorld",
+        "n": "CompoWorld",
+        "d": "2026-09-27",
+        "m1": "32.33"
+      },
+      {
+        "p": {
+          "name": "Hy4 preview",
+          "link": "https://github.com/Tencent-Hunyuan/Hy4-preview/blob/1296fab2674cb5a645ccfe53e9a8dc225dbe69f2/README.md"
+        },
+        "c": "https://github.com/tencent-hunyuan/hy4-preview",
+        "n": "Hy4 preview",
+        "d": "2026-08-28",
+        "m1": "32.1"
+      },
+      {
+        "p": {
+          "name": "DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence",
+          "link": "https://arxiv.org/abs/2606.19348"
+        },
+        "c": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+        "n": "DeepSeek-V4-Pro-0813 (Max)",
+        "d": "2026-04-26",
+        "m1": "31.8"
+      },
+      {
+        "p": {
+          "name": "WorkRover: Scaling Long-Horizon Cowork Agent Training Via Recursive Environment Evolution",
+          "link": "https://arxiv.org/abs/2610.18067"
+        },
+        "c": "",
+        "n": "WorkRover-35B-A3B",
+        "d": "2026-10-13",
+        "m1": "28.67"
+      },
+      {
+        "p": {
+          "name": "LFM2.5-24B-A2B: Built for Fast On-Device Agents",
+          "link": "https://www.liquid.ai/blog/lfm2-5-24b-a2b"
+        },
+        "c": "",
+        "n": "LFM2.5-24B-A2B",
+        "d": "2026-10-13",
+        "m1": "27.69"
+      },
+      {
+        "p": {
+          "name": "Occamy-1.0: Open Pareto-frontier 35B Intelligence for Co-work",
+          "link": "https://arxiv.org/abs/2609.11977"
+        },
+        "c": "https://github.com/accio-lab/dressage",
+        "n": "Occamy-1.0",
+        "d": "2026-09-04",
+        "m1": "27.6"
+      },
+      {
+        "p": {
+          "name": "Introducing K2 Horizon: Frontier Performance, Radically Open",
+          "link": "https://ifm.ai/blog/k2/"
+        },
+        "c": "https://github.com/ifm-ai/xllm",
+        "n": "K2-Horizon-375B-A23B",
+        "d": "2026-09-03",
+        "m1": "25.3"
+      },
+      {
+        "p": {
+          "name": "DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence",
+          "link": "https://arxiv.org/abs/2606.19348"
+        },
+        "c": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+        "n": "DeepSeek-V4-Flash-0731 (Max)",
+        "d": "2026-04-26",
+        "m1": "25.1"
+      },
+      {
+        "p": {
+          "name": "Interlock: From Local Correctness to Task Completion in Long-Horizon Agents",
+          "link": "https://arxiv.org/abs/2610.19686"
+        },
+        "c": "",
+        "n": "Qwen3.6-27B (Interlock-RFT)",
+        "d": "2026-10-14",
+        "m1": "18.33"
+      },
+      {
+        "p": {
+          "name": "Skill2Env: Capability-Oriented Environment Synthesis from Skills for General Agents",
+          "link": "https://arxiv.org/abs/2609.33772"
+        },
+        "c": "",
+        "n": "Skill2Env (ours / 35B-A3B)",
+        "d": "2026-09-27",
+        "m1": "17.7"
+      },
+      {
+        "p": {
+          "name": "Trajectory-Level Speculation with Semantic Verification for Tool-Using Agents",
+          "link": "https://arxiv.org/abs/2610.21463"
+        },
+        "c": "https://github.com/LARK-AI-Lab/SpecAgent",
+        "n": "SpecAgent",
+        "d": "2026-10-15",
+        "m1": "10.5"
+      }
+    ]
+  }
+}

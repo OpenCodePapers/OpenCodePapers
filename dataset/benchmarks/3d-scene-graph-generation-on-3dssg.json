@@ -1,0 +1,130 @@
+{
+  "title": "3d-scene-graph-generation-on-3dssg",
+  "task-hierarchy": [
+    "Scene Understanding",
+    "Scene Graph Generation",
+    "3D Scene Graph Generation"
+  ],
+  "dataset-info": {
+    "link": "https://3dssg.github.io/",
+    "paper": "Learning 3D Semantic Scene Graphs from 3D Indoor Reconstructions"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Relationship Recall",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Object Recall",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Object mRecall",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Predicate Recall",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "Predicate mRecall",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "NoPA: Non-Parametric Online 3D Scene Graph Generation",
+          "link": "https://arxiv.org/abs/2607.00529"
+        },
+        "c": "",
+        "n": "NoPA (n=256)",
+        "d": "2026-07-01",
+        "m1": "53.2",
+        "m2": "69.0",
+        "m3": "66.4",
+        "m4": "61.4",
+        "m5": "29.4"
+      },
+      {
+        "p": {
+          "name": "DeWorldSG: Depth-Aware 3D Semantic Scene Graph Generation via World-Model Priors",
+          "link": "https://arxiv.org/abs/2607.00889"
+        },
+        "c": "",
+        "n": "DeWorldSG",
+        "d": "2026-07-01",
+        "m1": "50.2",
+        "m2": "75.0",
+        "m3": "70.6",
+        "m4": "57.3",
+        "m5": "36.0"
+      },
+      {
+        "p": {
+          "name": "PUF: Plug-and-Play Uncertainty-Aware Fusion for Online 3D Scene Graph Generation",
+          "link": "https://arxiv.org/abs/2607.07170"
+        },
+        "c": "",
+        "n": "PUF-Gaussian",
+        "d": "2026-07-08",
+        "m1": "46.0",
+        "m2": "69.7",
+        "m3": "65.8",
+        "m4": "51.4",
+        "m5": "28.2"
+      },
+      {
+        "p": {
+          "name": "PUF: Plug-and-Play Uncertainty-Aware Fusion for Online 3D Scene Graph Generation",
+          "link": "https://arxiv.org/abs/2607.07170"
+        },
+        "c": "",
+        "n": "PUF-Voxel",
+        "d": "2026-07-08",
+        "m1": "40.3",
+        "m2": "65.5",
+        "m3": "64.1",
+        "m4": "46.1",
+        "m5": "21.8"
+      },
+      {
+        "p": {
+          "name": "FROSS: Faster-than-Real-Time Online 3D Semantic Scene Graph Generation from RGB-D Images",
+          "link": "https://arxiv.org/abs/2507.19993"
+        },
+        "c": "https://github.com/Howardkhh/FROSS",
+        "n": "FROSS",
+        "d": "2025-07-26",
+        "m1": "27.9",
+        "m2": "62.4",
+        "m3": "63.8",
+        "m4": "33.0",
+        "m5": "18.0"
+      }
+    ]
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "title": "paraphrase-identification-on-mrpc-glue-dev",
+  "task-hierarchy": [
+    "Semantic Textual Similarity",
+    "Paraphrase Identification"
+  ],
+  "dataset-info": {
+    "link": "https://gluebenchmark.com/tasks",
+    "paper": "GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "F1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "GLU Variants Improve Transformer",
+          "link": "https://arxiv.org/abs/2002.05202"
+        },
+        "c": "https://github.com/code-implementation1/Code4",
+        "n": "FFN GEGLU",
+        "d": "2020-02-12",
+        "m1": "92.68"
+      },
+      {
+        "p": {
+          "name": "MVP: Multi-task Supervised Pre-training for Natural Language Generation",
+          "link": "https://arxiv.org/abs/2206.12131"
+        },
+        "c": "https://github.com/rucaibox/mvp",
+        "n": "MVP",
+        "d": "2022-06-24",
+        "m1": "92.07"
+      },
+      {
+        "p": {
+          "name": "MPNet: Masked and Permuted Pre-training for Language Understanding",
+          "link": "https://arxiv.org/abs/2004.09297v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "MPNet Large",
+        "d": "2020-04-20",
+        "m1": "91.4"
+      },
+      {
+        "p": {
+          "name": "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+          "link": "https://arxiv.org/abs/1907.11692v1"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "RoBERTa",
+        "d": "2019-07-26",
+        "m1": "90.9"
+      },
+      {
+        "p": {
+          "name": "ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators",
+          "link": "https://arxiv.org/abs/2003.10555v1"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "ELECTRA-1.75M",
+        "d": "2020-03-23",
+        "m1": "90.8"
+      },
+      {
+        "p": {
+          "name": "Larger-Scale Transformers for Multilingual Masked Language Modeling",
+          "link": "https://arxiv.org/abs/2105.00572"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "XLM-R XXL",
+        "d": "2021-05-02",
+        "m1": "90.7"
+      },
+      {
+        "p": {
+          "name": "Unsupervised Cross-lingual Representation Learning at Scale",
+          "link": "https://arxiv.org/abs/1911.02116"
+        },
+        "c": "https://github.com/facebookresearch/XLM",
+        "n": "XLM-R",
+        "d": "2019-11-05",
+        "m1": "89.5"
+      },
+      {
+        "p": {
+          "name": "RoFormer: Enhanced Transformer with Rotary Position Embedding",
+          "link": "https://arxiv.org/abs/2104.09864"
+        },
+        "c": "https://github.com/ZhuiyiTechnology/roformer",
+        "n": "RoFormer",
+        "d": "2021-04-20",
+        "m1": "89.5"
+      },
+      {
+        "p": {
+          "name": "You Only Sample (Almost) Once: Linear Cost Self-Attention Via Bernoulli Sampling",
+          "link": "https://arxiv.org/abs/2111.09714"
+        },
+        "c": "https://github.com/mlpen/yoso",
+        "n": "YOSO-E",
+        "d": "2021-11-18",
+        "m1": "88.1"
+      },
+      {
+        "p": {
+          "name": "DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter",
+          "link": "https://arxiv.org/abs/1910.01108v4"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "DistilBERT",
+        "d": "2019-10-02",
+        "m1": "87.5"
+      },
+      {
+        "p": {
+          "name": "FLAVA: A Foundational Language And Vision Alignment Model",
+          "link": "https://arxiv.org/abs/2112.04482v3"
+        },
+        "c": "https://github.com/facebookresearch/multimodal",
+        "n": "FLAVA",
+        "d": "2021-12-08",
+        "m1": "86.9"
+      },
+      {
+        "p": {
+          "name": "Resource-Efficient Transformer Pruning for Finetuning of Large Models",
+          "link": "https://openaccess.thecvf.com/content/CVPR2024/html/Ilhan_Resource-Efficient_Transformer_Pruning_for_Finetuning_of_Large_Models_CVPR_2024_paper.html"
+        },
+        "c": "https://github.com/git-disl/recap",
+        "n": "RECAP (BERT-base, 50% pruning)",
+        "d": "2024-06-17",
+        "m1": "86.55"
+      }
+    ]
+  }
+}

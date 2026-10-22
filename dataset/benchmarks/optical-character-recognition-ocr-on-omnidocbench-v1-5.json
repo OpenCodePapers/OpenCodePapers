@@ -1,0 +1,268 @@
+{
+  "title": "optical-character-recognition-ocr-on-omnidocbench-v1-5",
+  "task-hierarchy": [
+    "Optical Character Recognition (OCR)"
+  ],
+  "dataset-info": {
+    "link": "https://arxiv.org/abs/2412.07626",
+    "paper": "OmniDocBench: Benchmarking Diverse PDF Document Parsing with Comprehensive Annotations"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "GLM-OCR Technical Report",
+          "link": "https://arxiv.org/abs/2603.10910"
+        },
+        "c": "https://github.com/zai-org/glm-ocr",
+        "n": "GLM-OCR",
+        "d": "2026-03-11",
+        "m1": "94.62"
+      },
+      {
+        "p": {
+          "name": "PaddleOCR-VL-1.5: Towards a Multi-Task 0.9B VLM for Robust In-the-Wild Document Parsing",
+          "link": "https://arxiv.org/abs/2601.21957"
+        },
+        "c": "https://github.com/paddlepaddle/paddleocr",
+        "n": "PaddleOCR-VL-1.5",
+        "d": "2026-01-29",
+        "m1": "94.5"
+      },
+      {
+        "p": {
+          "name": "RT-DocLayout: Real-Time End-to-End Document Layout Analysis with Reading Order in the Wild",
+          "link": "https://arxiv.org/abs/2606.23344"
+        },
+        "c": "https://github.com/paddlepaddle/paddleocr",
+        "n": "RT-DocLayout + PaddleOCR-VL-1.5-0.9B",
+        "d": "2026-06-22",
+        "m1": "94.50"
+      },
+      {
+        "p": {
+          "name": "HunyuanOCR Technical Report",
+          "link": "https://arxiv.org/abs/2511.19575"
+        },
+        "c": "https://github.com/tencent-hunyuan/hunyuanocr",
+        "n": "HunyuanOCR",
+        "d": "2025-11-24",
+        "m1": "94.10"
+      },
+      {
+        "p": {
+          "name": "Unlimited OCR Works",
+          "link": "https://arxiv.org/abs/2606.23050"
+        },
+        "c": "https://github.com/baidu/Unlimited-OCR",
+        "n": "Unlimited-OCR",
+        "d": "2026-06-22",
+        "m1": "93.23"
+      },
+      {
+        "p": {
+          "name": "Qianfan-OCR: A Unified End-to-End Model for Document Intelligence",
+          "link": "https://arxiv.org/abs/2603.13398"
+        },
+        "c": "https://github.com/baidubce/Qianfan-VL",
+        "n": "Qianfan-OCR",
+        "d": "2026-03-11",
+        "m1": "93.12"
+      },
+      {
+        "p": {
+          "name": "FireRed-OCR Technical Report",
+          "link": "https://arxiv.org/abs/2603.01840"
+        },
+        "c": "https://github.com/FireRedTeam/FireRed-OCR",
+        "n": "FireRed-OCR-2B",
+        "d": "2026-03-02",
+        "m1": "92.94"
+      },
+      {
+        "p": {
+          "name": "Boosting Document Parsing Efficiency and Performance with Coarse-to-Fine Visual Processing",
+          "link": "https://arxiv.org/abs/2603.24326"
+        },
+        "c": "https://github.com/paddlepaddle/paddleocr",
+        "n": "PaddleOCR-VL-L",
+        "d": "2026-03-25",
+        "m1": "92.62"
+      },
+      {
+        "p": {
+          "name": "Qwen3.8-Max: A New Bar for Coding and Cowork",
+          "link": "https://qwen.ai/blog?id=qwen3.8"
+        },
+        "c": "https://github.com/vllm-project/vllm",
+        "n": "Qwen3.8-Max",
+        "d": "2026-08-03",
+        "m1": "92.1"
+      },
+      {
+        "p": {
+          "name": "MiniMax M3: Frontier Coding, 1M Context, Native Multimodality — All in One Model",
+          "link": "https://www.minimax.io/blog/minimax-m3"
+        },
+        "c": "https://github.com/MiniMax-AI/MiniMax-M3",
+        "n": "MiniMax M3",
+        "d": "2026-05-31",
+        "m1": "91.6"
+      },
+      {
+        "p": {
+          "name": "Qwen3.8-27B",
+          "link": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        "c": "https://github.com/vllm-project/vllm",
+        "n": "Qwen3.8-27B",
+        "d": "2026-08-05",
+        "m1": "91.1"
+      },
+      {
+        "p": {
+          "name": "Qwen3.5: Towards Native Multimodal Agents",
+          "link": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Qwen3.5-397B-A17B",
+        "d": "2026-02-16",
+        "m1": "90.8"
+      },
+      {
+        "p": {
+          "name": "MinerU2.5: A Decoupled Vision-Language Model for Efficient High-Resolution Document Parsing",
+          "link": "https://arxiv.org/abs/2509.22186"
+        },
+        "c": "https://github.com/opendatalab/mineru",
+        "n": "MinerU2.5",
+        "d": "2025-09-26",
+        "m1": "90.67"
+      },
+      {
+        "p": {
+          "name": "Qwen3.5: Towards Native Multimodal Agents",
+          "link": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Qwen3.5-122B-A10B",
+        "d": "2026-02-16",
+        "m1": "89.8"
+      },
+      {
+        "p": {
+          "name": "Qwen3.5: Towards Native Multimodal Agents",
+          "link": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Qwen3.5-35B-A3B",
+        "d": "2026-02-16",
+        "m1": "89.3"
+      },
+      {
+        "p": {
+          "name": "MinerU-Diffusion: Rethinking Document OCR as Inverse Rendering via Diffusion Decoding",
+          "link": "https://arxiv.org/abs/2603.22458"
+        },
+        "c": "https://github.com/opendatalab/MinerU-Diffusion",
+        "n": "MinerU-Diffusion",
+        "d": "2026-03-23",
+        "m1": "88.94"
+      },
+      {
+        "p": {
+          "name": "Qwen3.5: Towards Native Multimodal Agents",
+          "link": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Qwen3.5-27B",
+        "d": "2026-02-16",
+        "m1": "88.9"
+      },
+      {
+        "p": {
+          "name": "Qwen3.5: Towards Native Multimodal Agents",
+          "link": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Qwen3.5-9B",
+        "d": "2026-02-16",
+        "m1": "87.7"
+      },
+      {
+        "p": {
+          "name": "DARL: Efficient Document-to-Markup Generation via Look-Ahead Diffusion Trajectory Sampling",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/5755"
+        },
+        "c": "",
+        "n": "DARL (extra data)",
+        "d": "2026-09-08",
+        "m1": "87.69"
+      },
+      {
+        "p": {
+          "name": "Kwai Keye-VL-2.0 Technical Report",
+          "link": "https://arxiv.org/abs/2606.10651"
+        },
+        "c": "https://github.com/kwai-keye/keye",
+        "n": "Keye-VL-2.0-30B-A3B",
+        "d": "2026-06-09",
+        "m1": "84.7"
+      },
+      {
+        "p": {
+          "name": "A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone",
+          "link": "https://huggingface.co/openbmb/MiniCPM-V-4.6"
+        },
+        "c": "",
+        "n": "MiniCPM-V 4.6 (Instruct, 4x)",
+        "d": "2026-05-13",
+        "m1": "84.6"
+      },
+      {
+        "p": {
+          "name": "FastOCR: Dynamic Visual Fixation via KV Cache Pruning for Efficient Document Parsing",
+          "link": "https://arxiv.org/abs/2605.17447"
+        },
+        "c": "",
+        "n": "FastOCR + dots.ocr (tau=0.25)",
+        "d": "2026-05-17",
+        "m1": "84.31"
+      },
+      {
+        "p": {
+          "name": "EXAONE 4.5 Technical Report",
+          "link": "https://arxiv.org/abs/2604.08644"
+        },
+        "c": "https://github.com/LG-AI-EXAONE/EXAONE-4.5",
+        "n": "EXAONE 4.5 (Reasoning)",
+        "d": "2026-04-09",
+        "m1": "81.2"
+      }
+    ]
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "title": "computer-use-agents-on-ui-v-ui-vision",
+  "task-hierarchy": [
+    "Agents",
+    "Computer Use Agents"
+  ],
+  "dataset-info": {
+    "link": "https://arxiv.org/abs/2503.15661",
+    "paper": "UI-Vision: A Desktop-centric GUI Benchmark for Visual Perception and Interaction"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "UI-Venus-2 Technical Report",
+          "link": "https://arxiv.org/abs/2609.00028"
+        },
+        "c": "https://github.com/inclusionai/ui-venus",
+        "n": "UI-Venus-2-27B",
+        "d": "2026-08-27",
+        "m1": "66.9"
+      },
+      {
+        "p": {
+          "name": "Grounding Computer Use Agents on Human Demonstrations",
+          "link": "https://arxiv.org/abs/2511.07332"
+        },
+        "c": "https://github.com/ServiceNow/GroundCUA/",
+        "n": "GroundNext-3B (RL)",
+        "d": "2025-11-10",
+        "m1": "62.1"
+      },
+      {
+        "p": {
+          "name": "UI-Venus-1.5 Technical Report",
+          "link": "https://arxiv.org/abs/2602.09082"
+        },
+        "c": "https://github.com/inclusionai/ui-venus",
+        "n": "UI-Venus-1.5-30B-A3B",
+        "d": "2026-02-09",
+        "m1": "54.7"
+      },
+      {
+        "p": {
+          "name": "POINTS-GUI-G: GUI-Grounding Journey",
+          "link": "https://arxiv.org/abs/2602.06391"
+        },
+        "c": "https://github.com/Tencent/POINTS-GUI",
+        "n": "POINTS-GUI-G-8B",
+        "d": "2026-02-06",
+        "m1": "49.9"
+      },
+      {
+        "p": {
+          "name": "GroundGUI: GUI Grounding by High-Quality Data and Distillation-to-Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2610.19100"
+        },
+        "c": "https://github.com/PrentisAI/GroundGUI",
+        "n": "GroundGUI-8B",
+        "d": "2026-10-13",
+        "m1": "38.3"
+      },
+      {
+        "p": {
+          "name": "OpenCUA: Open Foundations for Computer-Use Agents",
+          "link": "https://arxiv.org/abs/2508.09123"
+        },
+        "c": "https://github.com/xlang-ai/OpenCUA",
+        "n": "OpenCUA-72B",
+        "d": "2025-08-12",
+        "m1": "37.3"
+      },
+      {
+        "p": {
+          "name": "Covering Human Action Space for Computer Use: Data Synthesis and Benchmark",
+          "link": "https://arxiv.org/abs/2605.12501"
+        },
+        "c": "https://github.com/microsoft/Phi-Ground",
+        "n": "Phi-Ground-Any-4B + APP Data",
+        "d": "2026-05-12",
+        "m1": "29.7"
+      },
+      {
+        "p": {
+          "name": "DeskForge: Dense Supervision from Desktop Environments for Computer-Use Agents",
+          "link": "https://arxiv.org/abs/2610.02320"
+        },
+        "c": "https://github.com/Saidgurbuz/deskforge",
+        "n": "DeskForge-Qwen3.5-4B",
+        "d": "2026-10-01",
+        "m1": "28.77"
+      },
+      {
+        "p": {
+          "name": "InfiGUI-G1: Advancing GUI Grounding with Adaptive Exploration Policy Optimization",
+          "link": "https://arxiv.org/abs/2508.05731"
+        },
+        "c": "https://github.com/InfiXAI/InfiGUI-G1",
+        "n": "InfiGUI-G1-7B (extra data)",
+        "d": "2025-08-07",
+        "m1": "26.1"
+      },
+      {
+        "p": {
+          "name": "Scaling Computer-Use Grounding via User Interface Decomposition and Synthesis",
+          "link": "https://arxiv.org/abs/2505.13227"
+        },
+        "c": "https://github.com/xlang-ai/osworld-g",
+        "n": "Jedi-7B",
+        "d": "2025-05-19",
+        "m1": "24.8"
+      }
+    ]
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "title": "chart-question-answering-on-charxiv-dq",
+  "task-hierarchy": [
+    "Visual Question Answering (VQA)",
+    "Chart Question Answering"
+  ],
+  "dataset-info": {
+    "link": "https://charxiv.github.io/",
+    "paper": "CharXiv: Charting Gaps in Realistic Chart Understanding in Multimodal LLMs"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Qianfan-OCR: A Unified End-to-End Model for Document Intelligence",
+          "link": "https://arxiv.org/abs/2603.13398"
+        },
+        "c": "https://github.com/baidubce/Qianfan-VL",
+        "n": "Qianfan-OCR",
+        "d": "2026-03-11",
+        "m1": "94.0"
+      },
+      {
+        "p": {
+          "name": "Qwen3-VL Technical Report",
+          "link": "https://arxiv.org/abs/2511.21631"
+        },
+        "c": "https://github.com/QwenLM/Qwen3-VL",
+        "n": "Qwen3-VL-235B-A22B-Thinking",
+        "d": "2025-11-26",
+        "m1": "90.5"
+      },
+      {
+        "p": {
+          "name": "LongCat-Next: Lexicalizing Modalities as Discrete Tokens",
+          "link": "https://arxiv.org/abs/2603.27538"
+        },
+        "c": "https://github.com/meituan-longcat/LongCat-Next",
+        "n": "LongCat-Next (A3B, 68.5B)",
+        "d": "2026-03-29",
+        "m1": "89.9"
+      },
+      {
+        "p": {
+          "name": "Nemotron 3 Nano Omni: Efficient and Open Multimodal Intelligence",
+          "link": "https://arxiv.org/abs/2604.24954"
+        },
+        "c": "https://github.com/nvidia-nemo/megatron-bridge",
+        "n": "Nemotron 3 Nano Omni (Reasoning)",
+        "d": "2026-04-27",
+        "m1": "88.9"
+      },
+      {
+        "p": {
+          "name": "Qwen2.5-VL Technical Report",
+          "link": "https://arxiv.org/abs/2502.13923v1"
+        },
+        "c": "https://github.com/qwenlm/qwen2-vl",
+        "n": "Qwen2.5-VL-72B",
+        "d": "2025-02-19",
+        "m1": "87.4"
+      },
+      {
+        "p": {
+          "name": "Step-GUI Technical Report",
+          "link": "https://arxiv.org/abs/2512.15431"
+        },
+        "c": "https://github.com/stepfun-ai/gelab-zero",
+        "n": "Step-GUI-8B",
+        "d": "2025-12-17",
+        "m1": "86.3"
+      },
+      {
+        "p": {
+          "name": "Intern Lumina U2: A Multi-Codebook Diffusion Large Language Model for Omni-Visual Understanding and Image Generation",
+          "link": "https://arxiv.org/abs/2610.20818"
+        },
+        "c": "https://github.com/InternLM/InternLumina-U2",
+        "n": "Intern Lumina U2 (Ascend)",
+        "d": "2026-10-14",
+        "m1": "85.9"
+      },
+      {
+        "p": {
+          "name": "InternVL3: Exploring Advanced Training and Test-Time Recipes for Open-Source Multimodal Models",
+          "link": "https://arxiv.org/abs/2504.10479"
+        },
+        "c": "https://github.com/OpenGVLab/InternVL",
+        "n": "InternVL3-78B",
+        "d": "2025-04-14",
+        "m1": "85.1"
+      },
+      {
+        "p": {
+          "name": "Twin-T & TwintVQA: A Reliable Structure-Detail Separating VLM and a Comprehensive Benchmark for Chart and Table Tasks",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Bao_Twin-T__TwintVQA_A_Reliable_Structure-Detail_Separating_VLM_and_a_CVPR_2026_paper.html"
+        },
+        "c": "https://github.com/samsara-1999/twin-t-twintvqa",
+        "n": "Twin-T-7B",
+        "d": "2026-06-03",
+        "m1": "84.88"
+      },
+      {
+        "p": {
+          "name": "Act Wisely: Cultivating Meta-Cognitive Tool Use in Agentic Multimodal Models",
+          "link": "https://arxiv.org/abs/2604.08545"
+        },
+        "c": "https://github.com/Accio-Lab/Metis",
+        "n": "Metis",
+        "d": "2026-04-09",
+        "m1": "83.4"
+      },
+      {
+        "p": {
+          "name": "Penguin-VL: Exploring the Efficiency Limits of VLM with LLM-based Vision Encoders",
+          "link": "https://arxiv.org/abs/2603.06569"
+        },
+        "c": "https://github.com/tencent-ailab/Penguin-VL",
+        "n": "Penguin-VL 8B",
+        "d": "2026-03-06",
+        "m1": "83.0"
+      },
+      {
+        "p": {
+          "name": "Youtu-VL: Unleashing Visual Potential via Unified Vision-Language Supervision",
+          "link": "https://arxiv.org/abs/2601.19798"
+        },
+        "c": "https://github.com/TencentCloudADP/youtu-vl",
+        "n": "Youtu-VL (4B)",
+        "d": "2026-01-27",
+        "m1": "79.0"
+      },
+      {
+        "p": {
+          "name": "Generation as Auxiliary Supervision: Enhancing Visual Understanding at Zero Inference Overhead via Decoupled Embedding Prediction",
+          "link": "https://arxiv.org/abs/2608.12209"
+        },
+        "c": "",
+        "n": "GAS (4B)",
+        "d": "2026-08-12",
+        "m1": "78.4"
+      },
+      {
+        "p": {
+          "name": "Kwai Keye-VL Technical Report",
+          "link": "https://arxiv.org/abs/2507.01949"
+        },
+        "c": "https://github.com/kwai-keye/keye",
+        "n": "Keye-VL-8B",
+        "d": "2025-07-02",
+        "m1": "77.7"
+      },
+      {
+        "p": {
+          "name": "Learning Consistency in Reward Modeling for Multi-Modal Reasoning",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/5859"
+        },
+        "c": "",
+        "n": "Qwen2.5-VL-7B (CRM RL, after RL)",
+        "d": "2026-09-08",
+        "m1": "77.3"
+      },
+      {
+        "p": {
+          "name": "Language-guided Frequency Modulation for Large Vision-Language Models",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Ouyang_Language-guided_Frequency_Modulation_for_Large_Vision-Language_Models_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "LFM (w/ Qwen2.5-VL)",
+        "d": "2026-06-03",
+        "m1": "75.8"
+      },
+      {
+        "p": {
+          "name": "LLaDA-UI: Bringing Block-wise Diffusion to Vision-Language GUI Agents",
+          "link": "https://arxiv.org/abs/2609.13287"
+        },
+        "c": "https://github.com/inclusionai/llada-ui",
+        "n": "LLaDA-UI (pre-training)",
+        "d": "2026-09-09",
+        "m1": "72.2"
+      },
+      {
+        "p": {
+          "name": "LLaDA2.0-Uni: Unifying Multimodal Understanding and Generation with Diffusion Large Language Model",
+          "link": "https://arxiv.org/abs/2604.20796"
+        },
+        "c": "https://github.com/inclusionAI/LLaDA2.0-Uni",
+        "n": "LLaDA2.0-Uni (16B)",
+        "d": "2026-04-22",
+        "m1": "68.4"
+      },
+      {
+        "p": {
+          "name": "Penguin-VL: Exploring the Efficiency Limits of VLM with LLM-based Vision Encoders",
+          "link": "https://arxiv.org/abs/2603.06569"
+        },
+        "c": "https://github.com/tencent-ailab/Penguin-VL",
+        "n": "Penguin-VL 2B",
+        "d": "2026-03-06",
+        "m1": "62.3"
+      }
+    ]
+  }
+}

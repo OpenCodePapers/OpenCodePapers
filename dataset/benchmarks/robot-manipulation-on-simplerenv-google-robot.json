@@ -1,0 +1,239 @@
+{
+  "title": "robot-manipulation-on-simplerenv-google-robot",
+  "task-hierarchy": [
+    "Robotics",
+    "Robot Manipulation"
+  ],
+  "dataset-info": {
+    "link": "https://simpler-env.github.io/",
+    "paper": "Evaluating Real-World Robot Manipulation Policies in Simulation"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Success Rate",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Xiaomi-Robotics-0: An Open-Sourced Vision-Language-Action Model with Real-Time Execution",
+          "link": "https://arxiv.org/abs/2602.12684"
+        },
+        "c": "https://github.com/XiaomiRobotics/Xiaomi-Robotics-0",
+        "n": "Xiaomi-Robotics-0 (Visual Matching)",
+        "d": "2026-02-13",
+        "m1": "85.5"
+      },
+      {
+        "p": {
+          "name": "NORA-1.5: A Vision-Language-Action Model Trained using World Model- and Action-based Preference Rewards",
+          "link": "https://arxiv.org/abs/2511.14659"
+        },
+        "c": "https://github.com/declare-lab/nora-1.5",
+        "n": "NORA-1.5 (DPO, Visual Matching)",
+        "d": "2025-11-18",
+        "m1": "82.8"
+      },
+      {
+        "p": {
+          "name": "RLDX-1 Technical Report",
+          "link": "https://arxiv.org/abs/2605.03269"
+        },
+        "c": "https://github.com/RLWRLD/RLDX-1",
+        "n": "RLDX-1 (extra data)",
+        "d": "2026-05-05",
+        "m1": "81.5"
+      },
+      {
+        "p": {
+          "name": "X-VLA: Soft-Prompted Transformer as Scalable Cross-Embodiment Vision-Language-Action Model",
+          "link": "https://arxiv.org/abs/2510.10274"
+        },
+        "c": "https://github.com/2toinf/x-vla",
+        "n": "X-VLA-0.9B (Google Robot Visual Matching)",
+        "d": "2025-10-11",
+        "m1": "80.4"
+      },
+      {
+        "p": {
+          "name": "E-TTS: A New Embodied Test-Time Scaling Framework for Robotic Manipulation",
+          "link": "https://arxiv.org/abs/2606.27268"
+        },
+        "c": "",
+        "n": "MolmoAct + E-TTS",
+        "d": "2026-06-25",
+        "m1": "80.0"
+      },
+      {
+        "p": {
+          "name": "Hume: Introducing System-2 Thinking in Visual-Language-Action Model",
+          "link": "https://arxiv.org/abs/2505.21432"
+        },
+        "c": "https://github.com/hume-vla/hume",
+        "n": "Hume (Google Robot Visual Matching)",
+        "d": "2025-05-27",
+        "m1": "78.7"
+      },
+      {
+        "p": {
+          "name": "MemoryVLA: Perceptual-Cognitive Memory in Vision-Language-Action Models for Robotic Manipulation",
+          "link": "https://arxiv.org/abs/2508.19236"
+        },
+        "c": "",
+        "n": "MemoryVLA (Google Robot Visual Matching)",
+        "d": "2025-08-26",
+        "m1": "77.7"
+      },
+      {
+        "p": {
+          "name": "FM-Steer: Enhance Generalist Policies with Value-Guided Cascaded Denoising",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Song_FM-Steer_Enhance_Generalist_Policies_with_Value-Guided_Cascaded_Denoising_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "FM-Steer (π0)",
+        "d": "2026-06-03",
+        "m1": "76.6"
+      },
+      {
+        "p": {
+          "name": "EfficientVLA: Training-Free Acceleration and Compression for Vision-Language-Action Models",
+          "link": "https://arxiv.org/abs/2506.10100"
+        },
+        "c": "",
+        "n": "EfficientVLA (L=28, T=112, Google Robot Visual Matching)",
+        "d": "2025-06-11",
+        "m1": "76.4"
+      },
+      {
+        "p": {
+          "name": "Vlaser: Vision-Language-Action Model with Synergistic Embodied Reasoning",
+          "link": "https://arxiv.org/abs/2510.11027"
+        },
+        "c": "https://github.com/OpenGVLab/Vlaser/",
+        "n": "Vlaser-All (visual matching)",
+        "d": "2025-10-13",
+        "m1": "76.2"
+      },
+      {
+        "p": {
+          "name": "StarVLA: A Lego-like Codebase for Vision-Language-Action Model Developing",
+          "link": "https://arxiv.org/abs/2604.05014"
+        },
+        "c": "https://github.com/starvla/starvla",
+        "n": "StarVLA-OFT (Google Robot Visual Matching)",
+        "d": "2026-04-06",
+        "m1": "76.0"
+      },
+      {
+        "p": {
+          "name": "Less is More: Reducing Complexity in Vision-Language-Action Systems",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/3351"
+        },
+        "c": "https://github.com/starvla/starvla-alpha",
+        "n": "StarVLA-α (Specialist)",
+        "d": "2026-09-08",
+        "m1": "76.0"
+      },
+      {
+        "p": {
+          "name": "SP-VLA: A Joint Model Scheduling and Token Pruning Approach for VLA Model Acceleration",
+          "link": "https://arxiv.org/abs/2506.12723"
+        },
+        "c": "",
+        "n": "SP-VLA (Google Robot Visual Matching)",
+        "d": "2025-06-15",
+        "m1": "75.05"
+      },
+      {
+        "p": {
+          "name": "CogACT: A Foundational Vision-Language-Action Model for Synergizing Cognition and Action in Robotic Manipulation",
+          "link": "https://arxiv.org/abs/2411.19650"
+        },
+        "c": "",
+        "n": "CogACT (Google Robot Visual Matching)",
+        "d": "2024-11-29",
+        "m1": "74.8"
+      },
+      {
+        "p": {
+          "name": "SAFE-Pruner: Semantic Attention–Guided Future-Aware Token Pruning for Efficient Vision-Language-Action Manipulation",
+          "link": "https://arxiv.org/abs/2605.29662"
+        },
+        "c": "https://github.com/msssl/safe-pruner",
+        "n": "SAFE-Pruner (CogACT)",
+        "d": "2026-05-28",
+        "m1": "74.5"
+      },
+      {
+        "p": {
+          "name": "VideoVLA: Video Generators Can Be Generalizable Robot Manipulators",
+          "link": "https://arxiv.org/abs/2512.06963"
+        },
+        "c": "",
+        "n": "VideoVLA (Google Robot Visual Matching)",
+        "d": "2025-12-07",
+        "m1": "73.1"
+      },
+      {
+        "p": {
+          "name": "Discrete Diffusion VLA: Bringing Discrete Diffusion to Action Decoding in Vision-Language-Action Policies",
+          "link": "https://arxiv.org/abs/2508.20072"
+        },
+        "c": "https://github.com/Liang-ZX/DiscreteDiffusionVLA",
+        "n": "Discrete Diffusion VLA (Google Robot Visual Matching)",
+        "d": "2025-08-27",
+        "m1": "71.2"
+      },
+      {
+        "p": {
+          "name": "Dita: Scaling Diffusion Transformer for Generalist Vision-Language-Action Policy",
+          "link": "https://arxiv.org/abs/2503.19757v1"
+        },
+        "c": "https://github.com/RoboDita/Dita",
+        "n": "Dita (Google Robot Visual Matching)",
+        "d": "2025-03-25",
+        "m1": "68.7"
+      },
+      {
+        "p": {
+          "name": "VLA-JEPA: Enhancing Vision-Language-Action Model with Latent World Model",
+          "link": "https://arxiv.org/abs/2602.10098"
+        },
+        "c": "https://github.com/ginwind/VLA-JEPA",
+        "n": "VLA-JEPA",
+        "d": "2026-02-10",
+        "m1": "65.2"
+      },
+      {
+        "p": {
+          "name": "Diffusion Transformer Policy",
+          "link": "https://arxiv.org/abs/2410.15959"
+        },
+        "c": "https://github.com/robodita/dita",
+        "n": "DiT Policy (Google Robot Visual Matching)",
+        "d": "2024-10-21",
+        "m1": "58.6"
+      }
+    ]
+  }
+}

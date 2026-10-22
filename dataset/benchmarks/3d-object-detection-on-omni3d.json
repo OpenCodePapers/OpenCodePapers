@@ -1,0 +1,89 @@
+{
+  "title": "3d-object-detection-on-omni3d",
+  "task-hierarchy": [
+    "Object Detection",
+    "3D Object Detection"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/facebookresearch/omni3d",
+    "paper": "Omni3D: A Large Benchmark and Model for 3D Object Detection in the Wild"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AP3D",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "WildDet3D: Scaling Promptable 3D Detection in the Wild",
+          "link": "https://arxiv.org/abs/2604.08626"
+        },
+        "c": "https://github.com/allenai/WildDet3D",
+        "n": "WildDet3D (text prompt) (extra data)",
+        "d": "2026-04-09",
+        "m1": "34.2"
+      },
+      {
+        "p": {
+          "name": "3D-MOOD: Lifting 2D to 3D for Monocular Open-Set Object Detection",
+          "link": "https://arxiv.org/abs/2507.23567"
+        },
+        "c": "https://github.com/cvg/3D-MOOD",
+        "n": "3D-MOOD (Swin-B) (extra data)",
+        "d": "2025-07-31",
+        "m1": "30.0"
+      },
+      {
+        "p": {
+          "name": "UniMODE: Unified Monocular 3D Object Detection",
+          "link": "https://arxiv.org/abs/2402.18573"
+        },
+        "c": "",
+        "n": "UniMODE*",
+        "d": "2024-02-28",
+        "m1": "28.2"
+      },
+      {
+        "p": {
+          "name": "Grounded 3D-Aware Spatial Vision-Language Modeling",
+          "link": "https://arxiv.org/abs/2605.30307"
+        },
+        "c": "",
+        "n": "GR3D-8B",
+        "d": "2026-05-28",
+        "m1": "25.4"
+      },
+      {
+        "p": {
+          "name": "Omni3D: A Large Benchmark and Model for 3D Object Detection in the Wild",
+          "link": "https://arxiv.org/abs/2207.10660v2"
+        },
+        "c": "https://github.com/facebookresearch/omni3d",
+        "n": "Cube R-CNN (DLA34) (extra data)",
+        "d": "2022-07-21",
+        "m1": "23.3"
+      }
+    ]
+  }
+}

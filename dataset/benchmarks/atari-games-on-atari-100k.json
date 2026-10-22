@@ -1,0 +1,240 @@
+{
+  "title": "atari-games-on-atari-100k",
+  "task-hierarchy": [
+    "Atari Games"
+  ],
+  "dataset-info": {
+    "link": "https://arxiv.org/abs/1903.00374",
+    "paper": "Model-Based Reinforcement Learning for Atari"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Median Human Normalized Score",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Mean Human Normalized Score",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "EfficientZero V2: Mastering Discrete and Continuous Control with Limited Data",
+          "link": "https://arxiv.org/abs/2403.00564"
+        },
+        "c": "https://github.com/shengjiewang-jason/efficientzerov2",
+        "n": "EfficientZero V2",
+        "d": "2024-03-01",
+        "m1": "128.6",
+        "m2": "242.8"
+      },
+      {
+        "p": {
+          "name": "Mastering Atari Games with Limited Data",
+          "link": "https://arxiv.org/abs/2111.00210"
+        },
+        "c": "https://github.com/yewr/efficientzero",
+        "n": "EfficientZero",
+        "d": "2021-10-30",
+        "m1": "109.0",
+        "m2": "194.3"
+      },
+      {
+        "p": {
+          "name": "Uncovering Untapped Potential in Sample-Efficient World Model Agents",
+          "link": "https://arxiv.org/abs/2502.11537"
+        },
+        "c": "https://github.com/leor-c/simulus",
+        "n": "Simulus",
+        "d": "2025-02-17",
+        "m1": "98.2",
+        "m2": "164.5"
+      },
+      {
+        "p": {
+          "name": "Bigger, Better, Faster: Human-level Atari with human-level efficiency",
+          "link": "https://arxiv.org/abs/2305.19452"
+        },
+        "c": "https://github.com/google-research/google-research/tree/master/bigger_better_faster",
+        "n": "BBF",
+        "d": "2023-05-30",
+        "m1": "91.7",
+        "m2": "224.7"
+      },
+      {
+        "p": {
+          "name": "EDELINE: Enhancing Memory in Diffusion-based World Models via Linear-Time Sequence Modeling",
+          "link": "https://arxiv.org/abs/2502.00466"
+        },
+        "c": "",
+        "n": "EDELINE",
+        "d": "2025-02-01",
+        "m1": "82",
+        "m2": "187"
+      },
+      {
+        "p": {
+          "name": "Learning to Play Atari in a World of Tokens",
+          "link": "https://arxiv.org/abs/2406.01361"
+        },
+        "c": "https://github.com/pranaval/dart",
+        "n": "DART",
+        "d": "2024-06-03",
+        "m1": "79.0",
+        "m2": "102.2"
+      },
+      {
+        "p": {
+          "name": "From Observations to Events: Event-Aware World Models for Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2601.19336"
+        },
+        "c": "https://github.com/marquisdarwin/eawm",
+        "n": "EASimulus",
+        "d": "2026-01-27",
+        "m1": "77.3",
+        "m2": "181.8"
+      },
+      {
+        "p": {
+          "name": "Learning Transformer-based World Models with Contrastive Predictive Coding",
+          "link": "https://arxiv.org/abs/2503.04416"
+        },
+        "c": "https://github.com/burchim/twister",
+        "n": "TWISTER",
+        "d": "2025-03-06",
+        "m1": "77",
+        "m2": "162"
+      },
+      {
+        "p": {
+          "name": "GLAM: Global-Local Variation Awareness in Mamba-based World Model",
+          "link": "https://arxiv.org/abs/2501.11949"
+        },
+        "c": "https://github.com/glam2025/glam",
+        "n": "GLAM",
+        "d": "2025-01-21",
+        "m1": "61.8",
+        "m2": "130.6"
+      },
+      {
+        "p": {
+          "name": "STORM: Efficient Stochastic Transformer based World Models for Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2310.09615"
+        },
+        "c": "",
+        "n": "STORM",
+        "d": "2023-10-14",
+        "m1": "58.4",
+        "m2": "126.7"
+      },
+      {
+        "p": {
+          "name": "Transformer-based World Models Are Happy With 100k Interactions",
+          "link": "https://arxiv.org/abs/2303.07109"
+        },
+        "c": "https://github.com/jrobine/twm",
+        "n": "TWM",
+        "d": "2023-03-13",
+        "m1": "50.5",
+        "m2": "95.6"
+      },
+      {
+        "p": {
+          "name": "Objects matter: object-centric world models improve reinforcement learning in visually complex environments",
+          "link": "https://arxiv.org/abs/2501.16443"
+        },
+        "c": "https://github.com/weipu-zhang/oc-storm",
+        "n": "OC-STORM",
+        "d": "2025-01-27",
+        "m1": "43.8",
+        "m2": "134.8"
+      },
+      {
+        "p": {
+          "name": "Data-Efficient Reinforcement Learning with Self-Predictive Representations",
+          "link": "https://arxiv.org/abs/2007.05929"
+        },
+        "c": "https://github.com/mila-iqia/spr",
+        "n": "SPR",
+        "d": "2020-07-12",
+        "m1": "41.5",
+        "m2": "70.4"
+      },
+      {
+        "p": {
+          "name": "Diffusion for World Modeling: Visual Details Matter in Atari",
+          "link": "https://arxiv.org/abs/2405.12399"
+        },
+        "c": "https://github.com/eloialonso/diamond",
+        "n": "DIAMOND",
+        "d": "2024-05-20",
+        "m1": "37.3",
+        "m2": "145.9"
+      },
+      {
+        "p": {
+          "name": "Transformers are Sample-Efficient World Models",
+          "link": "https://arxiv.org/abs/2209.00588"
+        },
+        "c": "https://github.com/eloialonso/iris",
+        "n": "IRIS",
+        "d": "2023-03-01",
+        "m1": "28.9",
+        "m2": "104.6"
+      },
+      {
+        "p": {
+          "name": "Improving Token-Based World Models with Parallel Observation Prediction",
+          "link": "https://arxiv.org/abs/2402.05643"
+        },
+        "c": "https://github.com/leor-c/rem",
+        "n": "REM",
+        "d": "2024-02-08",
+        "m1": "28.0",
+        "m2": "122.2"
+      },
+      {
+        "p": {
+          "name": "Image Augmentation Is All You Need: Regularizing Deep Reinforcement Learning from Pixels",
+          "link": "https://arxiv.org/abs/2004.13649"
+        },
+        "c": "https://github.com/denisyarats/drq",
+        "n": "Efficient DQN + DrQ",
+        "d": "2020-04-28",
+        "m1": "26.8"
+      },
+      {
+        "p": {
+          "name": "CURL: Contrastive Unsupervised Representations for Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2004.04136v4"
+        },
+        "c": "https://github.com/opendilab/DI-engine",
+        "n": "CURL",
+        "d": "2020-04-08",
+        "m1": "17.5",
+        "m2": "38.1"
+      }
+    ]
+  }
+}

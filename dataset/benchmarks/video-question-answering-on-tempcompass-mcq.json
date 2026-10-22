@@ -1,0 +1,108 @@
+{
+  "title": "video-question-answering-on-tempcompass-mcq",
+  "task-hierarchy": [
+    "Video Question Answering"
+  ],
+  "dataset-info": {
+    "link": "https://aclanthology.org/2024.findings-acl.517.pdf",
+    "paper": "TempCompass: Do Video LLMs Really Understand Videos?"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
+          "link": "https://arxiv.org/abs/2506.09985v1"
+        },
+        "c": "https://github.com/facebookresearch/vjepa2",
+        "n": "V-JEPA 2 ViT-g (1B, 384px) + Llama 3.1 (8B)",
+        "d": "2025-06-11",
+        "m1": "76.9"
+      },
+      {
+        "p": {
+          "name": "VideoChat3: Fully Open Video MLLM for Efficient and Generalist Video Understanding",
+          "link": "https://arxiv.org/abs/2607.14935"
+        },
+        "c": "https://github.com/MCG-NJU/VideoChat3",
+        "n": "VideoChat3-4B",
+        "d": "2026-07-16",
+        "m1": "75.6"
+      },
+      {
+        "p": {
+          "name": "LLaVA-OneVision-2: Towards Next-Generation Perceptual Intelligence",
+          "link": "https://arxiv.org/abs/2605.25979"
+        },
+        "c": "https://github.com/evolvinglmms-lab/llava-onevision-2",
+        "n": "LLaVA-OneVision-2-8B",
+        "d": "2026-05-25",
+        "m1": "74.5"
+      },
+      {
+        "p": {
+          "name": "Before It Fades: Reinforcing Temporal Representations at Inference Time in VideoLLMs",
+          "link": "https://arxiv.org/abs/2610.01595"
+        },
+        "c": "https://github.com/Youngwoo-git/Before-It-Fades",
+        "n": "Qwen3-VL-8B + TAI",
+        "d": "2026-10-01",
+        "m1": "74.0"
+      },
+      {
+        "p": {
+          "name": "Molmo2: Open Weights and Data for Vision-Language Models with Video Understanding and Grounding",
+          "link": "https://arxiv.org/abs/2601.10611"
+        },
+        "c": "https://github.com/allenai/molmo2",
+        "n": "Molmo2-8B",
+        "d": "2026-01-15",
+        "m1": "73.4"
+      },
+      {
+        "p": {
+          "name": "PerceptionLM: Open-Access Data and Models for Detailed Visual Understanding",
+          "link": "https://arxiv.org/abs/2504.13180v1"
+        },
+        "c": "https://github.com/facebookresearch/perception_models",
+        "n": "PLM-8B",
+        "d": "2025-04-17",
+        "m1": "72.7"
+      },
+      {
+        "p": {
+          "name": "CoPE-VideoLM: Codec Primitives For Efficient Video Language Models",
+          "link": "https://arxiv.org/abs/2602.13191"
+        },
+        "c": "",
+        "n": "CoPE 7B",
+        "d": "2026-02-13",
+        "m1": "68.9"
+      }
+    ]
+  }
+}

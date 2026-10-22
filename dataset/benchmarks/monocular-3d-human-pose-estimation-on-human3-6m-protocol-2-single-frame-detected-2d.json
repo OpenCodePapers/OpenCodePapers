@@ -1,0 +1,80 @@
+{
+  "title": "monocular-3d-human-pose-estimation-on-human3-6m-protocol-2-single-frame-detected-2d",
+  "task-hierarchy": [
+    "Pose Estimation",
+    "3D Human Pose Estimation",
+    "Monocular 3D Human Pose Estimation"
+  ],
+  "dataset-info": {
+    "link": "http://vision.imar.ro/human3.6m/description.php",
+    "paper": "Human3.6M: Large Scale Datasets and Predictive Methods for 3D Human Sensing in Natural Environments"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "P-MPJPE",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Adaptive graph Kolmogorov-Arnold network for 3D human pose estimation",
+          "link": "https://arxiv.org/abs/2511.08809"
+        },
+        "c": "https://github.com/shahjahan0275/posekan",
+        "n": "PoseKAN",
+        "d": "2025-11-11",
+        "m1": "38.3"
+      },
+      {
+        "p": {
+          "name": "FMPose3D: monocular 3D pose estimation via flow matching",
+          "link": "https://arxiv.org/abs/2602.05755"
+        },
+        "c": "https://github.com/AdaptiveMotorControlLab/FMPose3D",
+        "n": "FMPose3D (N=40)",
+        "d": "2026-02-05",
+        "m1": "38.3"
+      },
+      {
+        "p": {
+          "name": "Uncertainty-Aware Testing-Time Optimization for 3D Human Pose Estimation",
+          "link": "https://arxiv.org/abs/2402.02339"
+        },
+        "c": "https://github.com/xiu-cs/UAO-Pose3D",
+        "n": "GUMLP + UAO (CPN, T=1)",
+        "d": "2024-02-04",
+        "m1": "39.0"
+      },
+      {
+        "p": {
+          "name": "A simple yet effective baseline for 3d human pose estimation",
+          "link": "http://arxiv.org/abs/1705.03098v2"
+        },
+        "c": "https://github.com/open-mmlab/mmpose",
+        "n": "Martinez Baseline",
+        "d": "2017-05-08",
+        "m1": "47.7"
+      }
+    ]
+  }
+}

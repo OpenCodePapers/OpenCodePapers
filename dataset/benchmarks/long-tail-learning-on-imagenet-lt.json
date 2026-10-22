@@ -65,6 +65,26 @@
       },
       {
         "p": {
+          "name": "RetFormer: Multimodal Retrieval for Enhancing Image Recognition",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Yu_RetFormer_Multimodal_Retrieval_for_Enhancing_Image_Recognition_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "RetFormer (ViT-B/16) (extra data)",
+        "d": "2026-06-03",
+        "m1": "81.9"
+      },
+      {
+        "p": {
+          "name": "LTGC: Long-tail Recognition via Leveraging LLMs-driven Generated Content",
+          "link": "https://arxiv.org/abs/2403.05854"
+        },
+        "c": "https://github.com/dialogueeeeee/ltgc",
+        "n": "LTGC (extra data)",
+        "d": "2024-03-09",
+        "m1": "80.6"
+      },
+      {
+        "p": {
           "name": "Long-Tail Learning with Foundation Model: Heavy Fine-Tuning Hurts",
           "link": "https://arxiv.org/abs/2309.10019v3"
         },
@@ -142,6 +162,26 @@
         "n": "GPaCo (2-ResNeXt101-32x4d)",
         "d": "2022-09-26",
         "m1": "63.2"
+      },
+      {
+        "p": {
+          "name": "Trust-calibrated Collaborative Learning for Long-Tailed Visual Recognition",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhou_Trust-calibrated_Collaborative_Learning_for_Long-Tailed_Visual_Recognition_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "TCL",
+        "d": "2026-06-03",
+        "m1": "63.0"
+      },
+      {
+        "p": {
+          "name": "VICAL: Vicinal Consistency Alignment for Long-Tailed Visual Recognition",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/5153"
+        },
+        "c": "",
+        "n": "VICAL",
+        "d": "2026-09-08",
+        "m1": "62.9"
       },
       {
         "p": {
@@ -291,6 +331,16 @@
         "c": "https://github.com/google-research/google-research",
         "n": "CBD-ENS (ResNet-152)",
         "d": "2021-04-12",
+        "m1": "57.7"
+      },
+      {
+        "p": {
+          "name": "Why Not Hyperparameter-Friendly Optimisation? A Monotonic Adaptive Norm Rescaling Approach For Long-Tailed Recognition",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_Why_Not_Hyperparameter-Friendly_Optimisation_A_Monotonic_Adaptive_Norm_Rescaling_Approach_CVPR_2026_paper.html"
+        },
+        "c": "https://github.com/zhangshuojackpot/samn",
+        "n": "GLMC + SAMN (Ours)",
+        "d": "2026-06-03",
         "m1": "57.7"
       },
       {

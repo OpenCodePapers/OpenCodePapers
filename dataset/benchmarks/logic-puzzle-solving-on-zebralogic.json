@@ -1,0 +1,199 @@
+{
+  "title": "logic-puzzle-solving-on-zebralogic",
+  "task-hierarchy": [
+    "Logical Reasoning",
+    "Logic Puzzle Solving"
+  ],
+  "dataset-info": {
+    "link": "https://visulogic-benchmark.github.io/VisuLogic/",
+    "paper": "ZebraLogic: On the Scaling Limits of LLMs for Logical Reasoning"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "ERNIE 5.0 Technical Report",
+          "link": "https://arxiv.org/abs/2602.04705"
+        },
+        "c": "",
+        "n": "ERNIE 5.0",
+        "d": "2026-02-04",
+        "m1": "96.5"
+      },
+      {
+        "p": {
+          "name": "VERGE: Formal Refinement and Guidance Engine for Verifiable LLM Reasoning",
+          "link": "https://arxiv.org/abs/2601.20055"
+        },
+        "c": "",
+        "n": "VERGE (GPT-OSS-120B)",
+        "d": "2026-01-27",
+        "m1": "91.0"
+      },
+      {
+        "p": {
+          "name": "LongCat-Flash Technical Report",
+          "link": "https://arxiv.org/abs/2509.01322"
+        },
+        "c": "https://github.com/meituan-longcat/LongCat-Flash-Chat",
+        "n": "LongCat-Flash",
+        "d": "2025-09-01",
+        "m1": "89.30"
+      },
+      {
+        "p": {
+          "name": "Kimi K2: Open Agentic Intelligence",
+          "link": "https://arxiv.org/abs/2507.20534"
+        },
+        "c": "https://github.com/MoonshotAI/Kimi-K2",
+        "n": "Kimi K2",
+        "d": "2025-07-28",
+        "m1": "89.0"
+      },
+      {
+        "p": {
+          "name": "LLaDA2.1: Speeding Up Text Diffusion via Token Editing",
+          "link": "https://arxiv.org/abs/2602.08676"
+        },
+        "c": "https://github.com/inclusionAI/LLaDA2.X",
+        "n": "LLaDA2.1-flash (100B)",
+        "d": "2026-02-09",
+        "m1": "88.9"
+      },
+      {
+        "p": {
+          "name": "JudgeRLVR: Judge First, Generate Second for Efficient Reasoning",
+          "link": "https://arxiv.org/abs/2601.08468"
+        },
+        "c": "",
+        "n": "Mixed Strategy (Qwen3-30B-A3B)",
+        "d": "2026-01-13",
+        "m1": "87.4"
+      },
+      {
+        "p": {
+          "name": "Hunyuan Dense V1",
+          "link": "https://huggingface.co/tencent/Hunyuan-7B-Instruct"
+        },
+        "c": "https://github.com/tencent-hunyuan/hunyuan-1.8b",
+        "n": "Hunyuan-7B-Instruct",
+        "d": "2025-07-30",
+        "m1": "85.1"
+      },
+      {
+        "p": {
+          "name": "LLaDA2.0: Scaling Up Diffusion Language Models to 100B",
+          "link": "https://arxiv.org/abs/2512.15745"
+        },
+        "c": "https://github.com/inclusionAI/LLaDA2.0",
+        "n": "LLaDA2.0-flash",
+        "d": "2025-12-10",
+        "m1": "82.3"
+      },
+      {
+        "p": {
+          "name": "Native Parallel Reasoner: Reasoning in Parallelism via Self-Distilled Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2512.07461"
+        },
+        "c": "https://github.com/bigai-nlco/Native-Parallel-Reasoner",
+        "n": "NPR (Qwen3-4B-Instruct-2507)",
+        "d": "2025-12-08",
+        "m1": "81.7"
+      },
+      {
+        "p": {
+          "name": "Qwen3 Technical Report",
+          "link": "https://arxiv.org/abs/2505.09388"
+        },
+        "c": "https://github.com/QwenLM/Qwen3",
+        "n": "Qwen3-235B-A22B (Thinking)",
+        "d": "2025-05-14",
+        "m1": "80.3"
+      },
+      {
+        "p": {
+          "name": "Olmo 3",
+          "link": "https://arxiv.org/abs/2512.13961"
+        },
+        "c": "https://github.com/allenai/open-instruct",
+        "n": "Olmo 3.1 Think 32B",
+        "d": "2025-12-15",
+        "m1": "80.1"
+      },
+      {
+        "p": {
+          "name": "Qwen3-Omni Technical Report",
+          "link": "https://arxiv.org/abs/2509.17765"
+        },
+        "c": "https://github.com/QwenLM/Qwen3-Omni",
+        "n": "Qwen3-Omni-Flash-Instruct",
+        "d": "2025-09-22",
+        "m1": "76.1"
+      },
+      {
+        "p": {
+          "name": "ERNIE 4.5 Technical Report",
+          "link": "https://ernie.baidu.com/blog/publication/ERNIE_Technical_Report.pdf"
+        },
+        "c": "https://huggingface.co/baidu/ERNIE-4.5-300B-A47B-PT",
+        "n": "ERNIE-4.5-300B-A47B",
+        "d": "2025-06-30",
+        "m1": "58.1"
+      },
+      {
+        "p": {
+          "name": "Qwen3 Technical Report",
+          "link": "https://arxiv.org/abs/2505.09388"
+        },
+        "c": "https://github.com/QwenLM/Qwen3",
+        "n": "Qwen3-235B-A22B (Non-thinking)",
+        "d": "2025-05-14",
+        "m1": "37.7"
+      },
+      {
+        "p": {
+          "name": "TEMPO: Scaling Test-time Training for Large Reasoning Models",
+          "link": "https://arxiv.org/abs/2604.19295"
+        },
+        "c": "https://github.com/QingyangZhang/TEMPO",
+        "n": "OLMO3-7B-Base (TEMPO)",
+        "d": "2026-04-21",
+        "m1": "35.1"
+      },
+      {
+        "p": {
+          "name": "Generation as Auxiliary Supervision: Enhancing Visual Understanding at Zero Inference Overhead via Decoupled Embedding Prediction",
+          "link": "https://arxiv.org/abs/2608.12209"
+        },
+        "c": "",
+        "n": "GAS (2B)",
+        "d": "2026-08-12",
+        "m1": "20.8"
+      }
+    ]
+  }
+}

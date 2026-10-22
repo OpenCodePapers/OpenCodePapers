@@ -1,0 +1,165 @@
+{
+  "title": "text-to-speech-synthesis-on-librispeech-pc-test-clean",
+  "task-hierarchy": [
+    "Speech Synthesis",
+    "Text-To-Speech Synthesis"
+  ],
+  "dataset-info": {
+    "link": "https://arxiv.org/abs/2410.06885",
+    "paper": "F5-TTS: A Fairytaler that Fakes Fluent and Faithful Speech with Flow Matching"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "WER",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "UTMOS",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Speaker Similarity",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "ZipVoice: Fast and High-Quality Zero-Shot Text-to-Speech with Flow Matching",
+          "link": "https://arxiv.org/abs/2506.13053"
+        },
+        "c": "https://github.com/k2-fsa/ZipVoice",
+        "n": "ZipVoice-Distill (4 NFE)",
+        "d": "2025-06-16",
+        "m1": "1.51",
+        "m2": "4.05",
+        "m3": "0.657"
+      },
+      {
+        "p": {
+          "name": "OmniVoice: Towards Omnilingual Zero-Shot Text-to-Speech with Diffusion Language Models",
+          "link": "https://arxiv.org/abs/2604.00688"
+        },
+        "c": "https://github.com/k2-fsa/omnivoice",
+        "n": "CosyVoice3",
+        "d": "2026-04-01",
+        "m1": "1.59",
+        "m2": "4.28",
+        "m3": "0.694"
+      },
+      {
+        "p": {
+          "name": "OmniVoice: Towards Omnilingual Zero-Shot Text-to-Speech with Diffusion Language Models",
+          "link": "https://arxiv.org/abs/2604.00688"
+        },
+        "c": "https://github.com/k2-fsa/omnivoice",
+        "n": "Qwen3-TTS",
+        "d": "2026-04-01",
+        "m1": "1.6",
+        "m2": "4.41",
+        "m3": "0.704"
+      },
+      {
+        "p": {
+          "name": "ZipVoice: Fast and High-Quality Zero-Shot Text-to-Speech with Flow Matching",
+          "link": "https://arxiv.org/abs/2506.13053"
+        },
+        "c": "https://github.com/k2-fsa/ZipVoice",
+        "n": "ZipVoice",
+        "d": "2025-06-16",
+        "m1": "1.64",
+        "m2": "3.98",
+        "m3": "0.668"
+      },
+      {
+        "p": {
+          "name": "OmniVoice: Towards Omnilingual Zero-Shot Text-to-Speech with Diffusion Language Models",
+          "link": "https://arxiv.org/abs/2604.00688"
+        },
+        "c": "https://github.com/k2-fsa/omnivoice",
+        "n": "VoxCPM",
+        "d": "2026-04-01",
+        "m1": "1.74",
+        "m2": "4.18",
+        "m3": "0.717"
+      },
+      {
+        "p": {
+          "name": "Fish Audio Drama 3 Technical Report",
+          "link": "https://arxiv.org/abs/2610.18010"
+        },
+        "c": "https://github.com/fishaudio/fish-speech",
+        "n": "Fish Audio Drama 3",
+        "d": "2026-10-13",
+        "m1": "1.85",
+        "m2": "4.31"
+      },
+      {
+        "p": {
+          "name": "VoXtream2: Full-stream TTS with dynamic speaking rate control",
+          "link": "https://arxiv.org/abs/2603.13518"
+        },
+        "c": "https://github.com/herimor/voxtream",
+        "n": "VoXtream2 (462M)",
+        "d": "2026-03-13",
+        "m1": "2.12"
+      },
+      {
+        "p": {
+          "name": "OmniVoice: Towards Omnilingual Zero-Shot Text-to-Speech with Diffusion Language Models",
+          "link": "https://arxiv.org/abs/2604.00688"
+        },
+        "c": "https://github.com/k2-fsa/omnivoice",
+        "n": "IndexTTS2",
+        "d": "2026-04-01",
+        "m1": "2.35",
+        "m2": "4.06",
+        "m3": "0.700"
+      },
+      {
+        "p": {
+          "name": "F5-TTS: A Fairytaler that Fakes Fluent and Faithful Speech with Flow Matching",
+          "link": "https://arxiv.org/abs/2410.06885"
+        },
+        "c": "https://github.com/swivid/f5-tts",
+        "n": "F5-TTS (32 NFE)",
+        "d": "2024-10-09",
+        "m1": "2.42",
+        "m2": "3.9",
+        "m3": "0.66"
+      },
+      {
+        "p": {
+          "name": "MaskGCT: Zero-Shot Text-to-Speech with Masked Generative Codec Transformer",
+          "link": "https://arxiv.org/abs/2409.00750"
+        },
+        "c": "https://github.com/open-mmlab/amphion",
+        "n": "MaskGCT",
+        "d": "2024-09-01",
+        "m1": "2.634",
+        "m3": "0.687"
+      }
+    ]
+  }
+}

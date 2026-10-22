@@ -35,6 +35,16 @@
     "items": [
       {
         "p": {
+          "name": "EVA-02: A Visual Representation for Neon Genesis",
+          "link": "https://arxiv.org/abs/2303.11331"
+        },
+        "c": "https://github.com/baaivision/eva",
+        "n": "EVA-02-L + Mask2Former",
+        "d": "2023-03-20",
+        "m1": "53.7%"
+      },
+      {
+        "p": {
           "name": "VPNeXt -- Rethinking Dense Decoding for Plain Vision Transformer",
           "link": "https://arxiv.org/abs/2502.16654v1"
         },
@@ -102,6 +112,16 @@
         "n": "SenFormer (Swin-L)",
         "d": "2021-11-26",
         "m1": "50.1%"
+      },
+      {
+        "p": {
+          "name": "ALGM: Adaptive Local-then-Global Token Merging for Efficient Semantic Segmentation with Plain Vision Transformers",
+          "link": "https://arxiv.org/abs/2406.09936"
+        },
+        "c": "https://github.com/tue-mps/algm-segmenter",
+        "n": "Segmenter ViT-L/16 + ALGM",
+        "d": "2024-06-14",
+        "m1": "47.4%"
       },
       {
         "p": {

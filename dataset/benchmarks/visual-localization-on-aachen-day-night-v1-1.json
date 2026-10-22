@@ -45,6 +45,41 @@
     "items": [
       {
         "p": {
+          "name": "Learning to Produce Semi-dense Correspondences for Visual Localization",
+          "link": "https://arxiv.org/abs/2402.08359"
+        },
+        "c": "https://github.com/truongkhang/deviloc",
+        "n": "DeViLoc",
+        "d": "2024-02-13",
+        "m1": "87.8",
+        "m2": "93.9",
+        "m3": "100.0"
+      },
+      {
+        "p": {
+          "name": "SemLight: Distilled Semantic–Geometric Fusion for Efficient Local Feature Matching",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/5382"
+        },
+        "c": "",
+        "n": "SemLight",
+        "d": "2026-09-08",
+        "m1": "81.7",
+        "m2": "88.5"
+      },
+      {
+        "p": {
+          "name": "TextFM: Robust Semi-dense Feature Matching with Language Guidance",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Zheng_TextFM_Robust_Semi-dense_Feature_Matching_with_Language_Guidance_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "TextFM",
+        "d": "2026-06-03",
+        "m1": "79.8",
+        "m2": "92.0",
+        "m3": "99.5"
+      },
+      {
+        "p": {
           "name": "GIM: Learning Generalizable Image Matcher From Internet Videos",
           "link": "https://arxiv.org/abs/2402.11095v1"
         },
@@ -117,6 +152,28 @@
       },
       {
         "p": {
+          "name": "Absolute Pose from One or Two Scaled and Oriented Features",
+          "link": "https://openaccess.thecvf.com/content/CVPR2024/html/Ventura_Absolute_Pose_from_One_or_Two_Scaled_and_Oriented_Features_CVPR_2024_paper.html"
+        },
+        "c": "https://github.com/danini/absolute-pose-from-oriented-and-scaled-features",
+        "n": "P2ORI",
+        "d": "2024-06-17",
+        "m1": "71.7"
+      },
+      {
+        "p": {
+          "name": "XFeat Revisited: Reproducibility and Evaluation of a Lightweight Image Matcher",
+          "link": "https://arxiv.org/abs/2608.09519"
+        },
+        "c": "https://github.com/galaxyghz/xfeat-revisited",
+        "n": "XFeat Reproduced",
+        "d": "2026-08-10",
+        "m1": "70.40",
+        "m2": "82.40",
+        "m3": "90.32"
+      },
+      {
+        "p": {
           "name": "DKM: Dense Kernelized Feature Matching for Geometry Estimation",
           "link": "https://arxiv.org/abs/2202.00667v3"
         },
@@ -125,6 +182,39 @@
         "d": "2022-02-01",
         "m1": "70.2",
         "m2": "90.1",
+        "m3": "97.4"
+      },
+      {
+        "p": {
+          "name": "Absolute Pose from One or Two Scaled and Oriented Features",
+          "link": "https://openaccess.thecvf.com/content/CVPR2024/html/Ventura_Absolute_Pose_from_One_or_Two_Scaled_and_Oriented_Features_CVPR_2024_paper.html"
+        },
+        "c": "https://github.com/danini/absolute-pose-from-oriented-and-scaled-features",
+        "n": "UP1SIFT",
+        "d": "2024-06-17",
+        "m2": "88.0"
+      },
+      {
+        "p": {
+          "name": "CoLoR: The Devil is in Scene Coordinate Regression for Large-Scale Visual Localization",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Mao_CoLoR_The_Devil_is_in_Scene_Coordinate_Regression_for_Large-Scale_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "CoLoR",
+        "d": "2026-06-03",
+        "m1": "67.3",
+        "m2": "88.8"
+      },
+      {
+        "p": {
+          "name": "Gravity-aware partially calibrated absolute pose estimation from affine- or rotation-covariant features",
+          "link": "https://arxiv.org/abs/2608.20056"
+        },
+        "c": "",
+        "n": "UP1PfAC",
+        "d": "2026-08-20",
+        "m1": "60.2",
+        "m2": "80.1",
         "m3": "97.4"
       }
     ]

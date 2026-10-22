@@ -1,0 +1,89 @@
+{
+  "title": "video-classification-on-finegym-gym99",
+  "task-hierarchy": [
+    "Action Recognition",
+    "Video Classification"
+  ],
+  "dataset-info": {
+    "link": "https://sdolivia.github.io/FineGym/",
+    "paper": "FineGym: A Hierarchical Video Dataset for Fine-grained Action Understanding"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Top-1 Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "PeVL: Pose-Enhanced Vision-Language Model for Fine-Grained Human Action Recognition",
+          "link": "https://openaccess.thecvf.com/content/CVPR2024/html/Zhang_PeVL_Pose-Enhanced_Vision-Language_Model_for_Fine-Grained_Human_Action_Recognition_CVPR_2024_paper.html"
+        },
+        "c": "",
+        "n": "PeVL ViT-L/14",
+        "d": "2024-06-17",
+        "m1": "97.0"
+      },
+      {
+        "p": {
+          "name": "SkeletonAgent: An Agentic Interaction Framework for Skeleton-based Action Recognition",
+          "link": "https://arxiv.org/abs/2511.22433"
+        },
+        "c": "https://github.com/firework8/SkeletonAgent",
+        "n": "SkeletonAgent",
+        "d": "2025-11-27",
+        "m1": "96.5"
+      },
+      {
+        "p": {
+          "name": "Revealing Key Details to See Differences: A Novel Prototypical Perspective for Skeleton-based Action Recognition",
+          "link": "https://arxiv.org/abs/2411.18941v1"
+        },
+        "c": "https://github.com/firework8/ProtoGCN",
+        "n": "ProtoGCN",
+        "d": "2024-11-28",
+        "m1": "95.9"
+      },
+      {
+        "p": {
+          "name": "PYSKL: Towards Good Practices for Skeleton Action Recognition",
+          "link": "https://arxiv.org/abs/2205.09443v1"
+        },
+        "c": "https://github.com/kennymckormick/pyskl",
+        "n": "PYSKL",
+        "d": "2022-05-19",
+        "m1": "94.1"
+      },
+      {
+        "p": {
+          "name": "VA-AR: Learning Velocity-Aware Action Representations with Mixture of Window Attention",
+          "link": "https://arxiv.org/abs/2503.11004"
+        },
+        "c": "https://github.com/trinityneo99/va-ar_official",
+        "n": "VA-AR",
+        "d": "2025-03-14",
+        "m1": "92.8"
+      }
+    ]
+  }
+}

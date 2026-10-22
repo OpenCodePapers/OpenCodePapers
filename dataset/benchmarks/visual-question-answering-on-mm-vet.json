@@ -39,6 +39,26 @@
     ],
     "items": [
       {
+        "p": {
+          "name": "Masking Teacher and Reinforcing Student for Distilling Vision-Language Models",
+          "link": "https://arxiv.org/abs/2512.22238"
+        },
+        "c": "",
+        "n": "InternVL3.5 - Masters",
+        "d": "2025-12-23",
+        "m1": "85.6"
+      },
+      {
+        "p": {
+          "name": "InternVL3: Exploring Advanced Training and Test-Time Recipes for Open-Source Multimodal Models",
+          "link": "https://arxiv.org/abs/2504.10479"
+        },
+        "c": "https://github.com/OpenGVLab/InternVL",
+        "n": "InternVL3-78B",
+        "d": "2025-04-14",
+        "m1": "81.3"
+      },
+      {
         "p": "",
         "c": "",
         "n": "gemini-2.0-flash-exp",
@@ -84,6 +104,26 @@
       },
       {
         "p": {
+          "name": "Kimi-VL Technical Report",
+          "link": "https://arxiv.org/abs/2504.07491"
+        },
+        "c": "https://github.com/moonshotai/kimi-vl",
+        "n": "Kimi-VL-A3B-Thinking-2506",
+        "d": "2025-04-10",
+        "m1": "78.1"
+      },
+      {
+        "p": {
+          "name": "Zone of Proximal Policy Optimization: Teacher in Prompts, Not Gradients",
+          "link": "https://arxiv.org/abs/2606.18216"
+        },
+        "c": "",
+        "n": "ZPPO (Qwen3.5-2B)",
+        "d": "2026-06-16",
+        "m1": "77.1"
+      },
+      {
+        "p": {
           "name": "Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context",
           "link": "https://arxiv.org/abs/2403.05530v5"
         },
@@ -91,6 +131,16 @@
         "n": "Gemini 1.5 Pro (gemini-1.5-pro-002)",
         "d": "2024-03-08",
         "m1": "76.9±0.1"
+      },
+      {
+        "p": {
+          "name": "MiniCPM-V 4.5: Cooking Efficient MLLMs via Architecture, Data, and Training Recipe",
+          "link": "https://arxiv.org/abs/2509.18154"
+        },
+        "c": "https://github.com/OpenBMB/MiniCPM-V",
+        "n": "MiniCPM-V 4.5",
+        "d": "2025-09-16",
+        "m1": "75.5"
       },
       {
         "p": {
@@ -277,6 +327,36 @@
       },
       {
         "p": {
+          "name": "LatentUMM: Dual Latent Alignment for Unified Multimodal Models",
+          "link": "https://arxiv.org/abs/2605.17766"
+        },
+        "c": "https://github.com/AIFrontierLab/TorchUMM",
+        "n": "Bagel (14B) + LatentUMM",
+        "d": "2026-05-18",
+        "m1": "67.2"
+      },
+      {
+        "p": {
+          "name": "Qwen2.5-Omni Technical Report",
+          "link": "https://arxiv.org/abs/2503.20215"
+        },
+        "c": "https://github.com/QwenLM/Qwen2.5-Omni",
+        "n": "Qwen2.5-Omni-7B",
+        "d": "2025-03-26",
+        "m1": "66.8"
+      },
+      {
+        "p": {
+          "name": "Kimi-VL Technical Report",
+          "link": "https://arxiv.org/abs/2504.07491"
+        },
+        "c": "https://github.com/moonshotai/kimi-vl",
+        "n": "Kimi-VL-A3B-Instruct",
+        "d": "2025-04-10",
+        "m1": "66.7"
+      },
+      {
+        "p": {
           "name": "Qwen-VL: A Versatile Vision-Language Model for Understanding, Localization, Text Reading, and Beyond",
           "link": "https://arxiv.org/abs/2308.12966v3"
         },
@@ -284,6 +364,16 @@
         "n": "Qwen-VL-Max",
         "d": "2023-08-24",
         "m1": "66.6±0.5"
+      },
+      {
+        "p": {
+          "name": "BLIP3-o: A Family of Fully Open Unified Multimodal Models-Architecture, Training and Dataset",
+          "link": "https://arxiv.org/abs/2505.09568"
+        },
+        "c": "https://github.com/jiuhaichen/blip3o",
+        "n": "BLIP3-o (8B)",
+        "d": "2025-05-14",
+        "m1": "66.6"
       },
       {
         "p": {
@@ -338,6 +428,16 @@
       },
       {
         "p": {
+          "name": "COOPER: A Unified Model for Cooperative Perception and Reasoning in Spatial Intelligence",
+          "link": "https://arxiv.org/abs/2512.04563"
+        },
+        "c": "https://github.com/zhangzef/COOPER",
+        "n": "COOPER",
+        "d": "2025-12-04",
+        "m1": "65.41"
+      },
+      {
+        "p": {
           "name": "Baichuan-Omni Technical Report",
           "link": "https://arxiv.org/abs/2410.08565v4"
         },
@@ -366,6 +466,16 @@
         "n": "Qwen2-VL-7B (finetuned on GAP-VQA train)",
         "d": "2024-10-05",
         "m1": "64.954"
+      },
+      {
+        "p": {
+          "name": "AdaptVision: Efficient Vision-Language Models via Adaptive Visual Acquisition",
+          "link": "https://arxiv.org/abs/2512.03794"
+        },
+        "c": "https://github.com/adaptvision/adaptvision",
+        "n": "AdaptVision (Qwen2.5-VL-7B-Instruct)",
+        "d": "2025-12-03",
+        "m1": "64.8"
       },
       {
         "p": "",
@@ -499,11 +609,31 @@
         "m1": "62.0"
       },
       {
+        "p": {
+          "name": "VideoAuto-R1: Video Auto Reasoning via Thinking Once, Answering Twice",
+          "link": "https://arxiv.org/abs/2601.05175"
+        },
+        "c": "https://github.com/ivul-kaust/videoauto-r1",
+        "n": "VideoAuto-R1 (Qwen2.5-VL-7B)",
+        "d": "2026-01-08",
+        "m1": "61.9"
+      },
+      {
         "p": "",
         "c": "",
         "n": "InternVL2-40B",
         "d": "",
         "m1": "61.8"
+      },
+      {
+        "p": {
+          "name": "Artemis: Structured Visual Reasoning for Perception Policy Learning",
+          "link": "https://arxiv.org/abs/2512.01988"
+        },
+        "c": "https://github.com/WayneTomas/Artemis",
+        "n": "Artemis",
+        "d": "2025-12-01",
+        "m1": "61.4"
       },
       {
         "p": {
@@ -514,6 +644,16 @@
         "n": "Qwen-VL-Plus",
         "d": "2023-08-24",
         "m1": "61.1±0.2"
+      },
+      {
+        "p": {
+          "name": "IF-Prune: Information-Flow Guided Token Pruning for Efficient Vision-Language Models",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Sun_IF-Prune_Information-Flow_Guided_Token_Pruning_for_Efficient_Vision-Language_Models_CVPR_2026_paper.html"
+        },
+        "c": "https://github.com/snap-research/evlm-if-prune",
+        "n": "IF-Prune (InternVL2-26B, K=20%, L=9)",
+        "d": "2026-06-03",
+        "m1": "61.01"
       },
       {
         "p": {
@@ -588,6 +728,16 @@
         "m1": "59.3"
       },
       {
+        "p": {
+          "name": "HyperVL: An Efficient and Dynamic Multimodal Large Language Model for Edge Devices",
+          "link": "https://arxiv.org/abs/2512.14052"
+        },
+        "c": "",
+        "n": "HyperVL ViTL",
+        "d": "2025-12-16",
+        "m1": "59.0"
+      },
+      {
         "p": "",
         "c": "",
         "n": "Claude 3 Opus (claude-3-opus-20240229)",
@@ -621,6 +771,16 @@
         "d": "",
         "m1": "57.4",
         "m2": "34B"
+      },
+      {
+        "p": {
+          "name": "LLaVA-NeXT: Improved reasoning, OCR, and world knowledge",
+          "link": "https://llava-vl.github.io/blog/2024-01-30-llava-next/"
+        },
+        "c": "https://github.com/haotian-liu/llava",
+        "n": "LLaVA-NeXT-34B",
+        "d": "2024-01-30",
+        "m1": "57.4"
       },
       {
         "p": {
@@ -899,6 +1059,16 @@
       },
       {
         "p": {
+          "name": "Attention Misses Visual Risk: Risk-Adaptive Steering for Multimodal Safety Alignment",
+          "link": "https://arxiv.org/abs/2510.13698"
+        },
+        "c": "",
+        "n": "RAS (InternLM-XComposer-2.5)",
+        "d": "2025-10-15",
+        "m1": "50.0"
+      },
+      {
+        "p": {
           "name": "Silkie: Preference Distillation for Large Visual Language Models",
           "link": "https://arxiv.org/abs/2312.10665v1"
         },
@@ -917,6 +1087,16 @@
         "n": "Silkie (Qwen-VL-Chat + DPO w/ VLFeedback)",
         "d": "2024-10-12",
         "m1": "49.9"
+      },
+      {
+        "p": {
+          "name": "AIA: Rethinking Architecture Decoupling Strategy In Unified Multimodal Model",
+          "link": "https://arxiv.org/abs/2511.22663"
+        },
+        "c": "https://github.com/zhengdian1/AIA",
+        "n": "Janus-Pro + AIA",
+        "d": "2025-11-27",
+        "m1": "49.8"
       },
       {
         "p": {
@@ -1022,6 +1202,16 @@
         "n": "MG-LLaVA(34B)",
         "d": "2024-06-25",
         "m1": "48.5"
+      },
+      {
+        "p": {
+          "name": "LFM2 Technical Report",
+          "link": "https://arxiv.org/abs/2511.23404"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "LFM2-VL-1.6B",
+        "d": "2025-11-28",
+        "m1": "48.07"
       },
       {
         "p": {
@@ -1162,6 +1352,16 @@
         "c": "",
         "n": "LLaVA-Next-Vicuna-7b (+ DPO w/ VLFeedback)",
         "d": "2024-10-12",
+        "m1": "44.1"
+      },
+      {
+        "p": {
+          "name": "GeMoE: Gating Entropy is All You Need for Uncertainty-aware Adaptive Routing in MoE-based Large Vision-Language Models",
+          "link": "https://arxiv.org/abs/2606.26287"
+        },
+        "c": "https://github.com/caichaoxiang/gemoe",
+        "n": "GeMoE (extra data)",
+        "d": "2026-06-24",
         "m1": "44.1"
       },
       {
@@ -1321,6 +1521,16 @@
       },
       {
         "p": {
+          "name": "LFM2.5-VL-450M: Structured Visual Intelligence, Edge to Cloud",
+          "link": "https://www.liquid.ai/blog/lfm2-5-vl-450m"
+        },
+        "c": "",
+        "n": "LFM2.5-VL-450M",
+        "d": "2026-04-08",
+        "m1": "41.10"
+      },
+      {
+        "p": {
           "name": "Self-Supervised Visual Preference Alignment",
           "link": "https://arxiv.org/abs/2404.10501v2"
         },
@@ -1404,6 +1614,16 @@
       },
       {
         "p": {
+          "name": "ESC: Emotional Self-Correction for Reliable Vision-Language Models",
+          "link": "https://arxiv.org/abs/2607.02089"
+        },
+        "c": "https://github.com/minhnhat2001vt/esc",
+        "n": "ESC + Qwen2-VL-7B",
+        "d": "2026-07-01",
+        "m1": "40.05"
+      },
+      {
+        "p": {
           "name": "Looking Beyond Text: Reducing Language bias in Large Vision-Language Models via Multimodal Dual-Attention and Soft-Image Guidance",
           "link": "https://arxiv.org/abs/2411.14279v1"
         },
@@ -1472,6 +1692,16 @@
         "n": "DeepStack-L-HD (Vicuna-13B)",
         "d": "2024-06-06",
         "m1": "39.3"
+      },
+      {
+        "p": {
+          "name": "Decentralized Instruction Tuning: Conflict-Aware Splitting and Weight Merging",
+          "link": "https://arxiv.org/abs/2606.01717"
+        },
+        "c": "https://github.com/naver-ai/merit",
+        "n": "MERIT (Proposed, 2D split, Scaled base VLM 7B)",
+        "d": "2026-06-01",
+        "m1": "39.1"
       },
       {
         "p": {
@@ -1679,6 +1909,16 @@
       },
       {
         "p": {
+          "name": "AnchorPrune: Relevance-Anchored Contextual Expansion for Visual Token Pruning",
+          "link": "https://arxiv.org/abs/2607.07033"
+        },
+        "c": "https://github.com/multi-cau/anchorprune",
+        "n": "LLaVA-NeXT-7B (AnchorPrune, 320 tokens)",
+        "d": "2026-07-08",
+        "m1": "37.2"
+      },
+      {
+        "p": {
           "name": "MM-Instruct: Generated Visual Instructions for Large Multimodal Model Alignment",
           "link": "https://arxiv.org/abs/2406.19736v1"
         },
@@ -1789,6 +2029,16 @@
         "c": "https://github.com/icoz69/stablellava",
         "n": "StableLLaVA",
         "d": "2023-08-20",
+        "m1": "36.1"
+      },
+      {
+        "p": {
+          "name": "An AI4AI Framework for Visual Token Pruning",
+          "link": "https://arxiv.org/abs/2608.07193"
+        },
+        "c": "",
+        "n": "AutoPrune (LLaVA-NeXT-7B, 640 visual tokens)",
+        "d": "2026-08-07",
         "m1": "36.1"
       },
       {
@@ -1957,12 +2207,52 @@
       },
       {
         "p": {
+          "name": "Online Self-Calibration Against Hallucination in Vision-Language Models",
+          "link": "https://arxiv.org/abs/2605.00323"
+        },
+        "c": "",
+        "n": "LLaVA-1.5-7B (OSCAR)",
+        "d": "2026-05-01",
+        "m1": "34.6"
+      },
+      {
+        "p": {
+          "name": "WinTok: A Win-Win Hybrid Tokenizer via Decomposing Visual Understanding and Generation with Transferable Tokens",
+          "link": "https://arxiv.org/abs/2605.18115"
+        },
+        "c": "https://github.com/markywg/wintok",
+        "n": "WinTok",
+        "d": "2026-05-18",
+        "m1": "34.6"
+      },
+      {
+        "p": {
+          "name": "ViP-LLaVA: Making Large Multimodal Models Understand Arbitrary Visual Prompts",
+          "link": "https://arxiv.org/abs/2312.00784"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "ViP-LLaVA-13B",
+        "d": "2023-12-01",
+        "m1": "34.5"
+      },
+      {
+        "p": {
           "name": "INF-LLaVA: Dual-perspective Perception for High-Resolution Multimodal Large Language Model",
           "link": "https://arxiv.org/abs/2407.16198v1"
         },
         "c": "https://github.com/weihuanglin/inf-llava",
         "n": "INF-LLaVA",
         "d": "2024-07-23",
+        "m1": "34.5"
+      },
+      {
+        "p": {
+          "name": "TrustCLIP: Learning Private Visual Features via Adversarial Reconstruction",
+          "link": "https://arxiv.org/abs/2607.04484"
+        },
+        "c": "",
+        "n": "TrustLLaVA",
+        "d": "2026-07-05",
         "m1": "34.5"
       },
       {
@@ -2015,6 +2305,16 @@
         "d": "2024-05-23",
         "m1": "33.9",
         "m2": "7B"
+      },
+      {
+        "p": {
+          "name": "SCoRe: Salience-Coverage Reduction for Vision Token Pruning in Vision-Language Models",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Xu_SCoRe_Salience-Coverage_Reduction_for_Vision_Token_Pruning_in_Vision-Language_Models_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "SCoRe (LLaVA-1.5-7B, 128 tokens)",
+        "d": "2026-06-03",
+        "m1": "33.7"
       },
       {
         "p": {
@@ -2131,6 +2431,16 @@
       },
       {
         "p": {
+          "name": "DIEM: Decomposition-Integration Enhancing Multimodal Insights",
+          "link": "https://openaccess.thecvf.com/content/CVPR2024/html/Jiang_DIEM_Decomposition-Integration_Enhancing_Multimodal_Insights_CVPR_2024_paper.html"
+        },
+        "c": "",
+        "n": "DIEM (SQ+SI, k=4)",
+        "d": "2024-06-17",
+        "m1": "32.4"
+      },
+      {
+        "p": {
           "name": "Deciphering Cross-Modal Alignment in Large Vision-Language Models with Modality Integration Rate",
           "link": "https://arxiv.org/abs/2410.07167v2"
         },
@@ -2151,6 +2461,16 @@
       },
       {
         "p": {
+          "name": "Stop Learning it all to Mitigate Visual Hallucination, Focus on the Hallucination Target.",
+          "link": "https://arxiv.org/abs/2506.11417"
+        },
+        "c": "",
+        "n": "TL-DPO (LLaVA-1.5-7B)",
+        "d": "2025-06-13",
+        "m1": "32.2"
+      },
+      {
+        "p": {
           "name": "Mipha: A Comprehensive Overhaul of Multimodal Assistant with Small Language Models",
           "link": "https://arxiv.org/abs/2403.06199v4"
         },
@@ -2159,6 +2479,16 @@
         "d": "2024-03-10",
         "m1": "32.1",
         "m2": "3B"
+      },
+      {
+        "p": {
+          "name": "VisNec: Measuring and Leveraging Visual Necessity for Multimodal Instruction Tuning",
+          "link": "https://arxiv.org/abs/2603.01195"
+        },
+        "c": "https://github.com/dmk041218/visnec",
+        "n": "VisNec (LLaVA-v1.5-7B, LLaVA-665K 15%)",
+        "d": "2026-03-01",
+        "m1": "32.1"
       },
       {
         "p": {
@@ -2212,6 +2542,16 @@
         "d": "2023-06-26",
         "m1": "31.7±0.1",
         "m2": "7B"
+      },
+      {
+        "p": {
+          "name": "Learning by Correction: Efficient Tuning Task for Zero-Shot Generative Vision-Language Reasoning",
+          "link": "https://arxiv.org/abs/2404.00909"
+        },
+        "c": "https://github.com/shtuplus/iccc_cvpr2024",
+        "n": "Vicuna-7B w/ ICCC",
+        "d": "2024-04-01",
+        "m1": "31.7"
       },
       {
         "p": {
@@ -2354,6 +2694,16 @@
         "c": "",
         "n": "LLaVA-AlignedVQ",
         "d": "2024-11-08",
+        "m1": "30.7"
+      },
+      {
+        "p": {
+          "name": "SpatialCLIP: Learning 3D-aware Image Representations from Spatially Discriminative Language",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Wang_SpatialCLIP_Learning_3D-aware_Image_Representations_from_Spatially_Discriminative_Language_CVPR_2025_paper.html"
+        },
+        "c": "",
+        "n": "Spatial-LLaVA-7B (extra data)",
+        "d": "2025-06-11",
         "m1": "30.7"
       },
       {
@@ -2598,6 +2948,16 @@
         "d": "2023-04-20",
         "m1": "22.1±0.1",
         "m2": "8B"
+      },
+      {
+        "p": {
+          "name": "Omni-R1: Towards the Unified Generative Paradigm for Multimodal Reasoning",
+          "link": "https://arxiv.org/abs/2601.09536"
+        },
+        "c": "https://github.com/ModalityDance/Omni-R1",
+        "n": "Omni-R1-Zero-S",
+        "d": "2026-01-14",
+        "m1": "22.02"
       },
       {
         "p": {

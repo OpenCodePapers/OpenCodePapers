@@ -1,0 +1,178 @@
+{
+  "title": "natural-language-understanding-on-glue-dev",
+  "task-hierarchy": [
+    "Natural Language Understanding"
+  ],
+  "dataset-info": {
+    "link": "https://gluebenchmark.com/",
+    "paper": "GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "GLUE (dev)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "UltraBERT: Beyond the Limit of BERT Pre-Training",
+          "link": "https://arxiv.org/abs/2610.15028"
+        },
+        "c": "",
+        "n": "UltraBERT 380M",
+        "d": "2026-10-10",
+        "m1": "91.0"
+      },
+      {
+        "p": {
+          "name": "Smarter, Better, Faster, Longer: A Modern Bidirectional Encoder for Fast, Memory Efficient, and Long Context Finetuning and Inference",
+          "link": "https://arxiv.org/abs/2412.13663"
+        },
+        "c": "https://github.com/answerdotai/modernbert",
+        "n": "ModernBERT Large",
+        "d": "2024-12-18",
+        "m1": "90.4"
+      },
+      {
+        "p": {
+          "name": "ByT5: Towards a token-free future with pre-trained byte-to-byte models",
+          "link": "https://arxiv.org/abs/2105.13626v3"
+        },
+        "c": "https://github.com/huggingface/transformers/tree/master/src/transformers/models/byt5",
+        "n": "ByT5 XXL",
+        "d": "2021-05-28",
+        "m1": "90.1"
+      },
+      {
+        "p": {
+          "name": "DeBERTa: Decoding-enhanced BERT with Disentangled Attention",
+          "link": "https://arxiv.org/abs/2006.03654v6"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "DeBERTa Large",
+        "d": "2020-06-05",
+        "m1": "90.00"
+      },
+      {
+        "p": {
+          "name": "ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators",
+          "link": "https://arxiv.org/abs/2003.10555v1"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "ELECTRA-1.75M",
+        "d": "2020-03-23",
+        "m1": "89.5"
+      },
+      {
+        "p": {
+          "name": "I-BERT: Integer-only BERT Quantization",
+          "link": "https://arxiv.org/abs/2101.01321"
+        },
+        "c": "https://github.com/huggingface/transformers/tree/master/src/transformers/models/ibert",
+        "n": "I-BERT RoBERTa-Large",
+        "d": "2021-01-05",
+        "m1": "89.5"
+      },
+      {
+        "p": {
+          "name": "MPNet: Masked and Permuted Pre-training for Language Understanding",
+          "link": "https://arxiv.org/abs/2004.09297v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "MPNet Large",
+        "d": "2020-04-20",
+        "m1": "89.4"
+      },
+      {
+        "p": {
+          "name": "Smarter, Better, Faster, Longer: A Modern Bidirectional Encoder for Fast, Memory Efficient, and Long Context Finetuning and Inference",
+          "link": "https://arxiv.org/abs/2412.13663"
+        },
+        "c": "https://github.com/answerdotai/modernbert",
+        "n": "ModernBERT Base",
+        "d": "2024-12-18",
+        "m1": "88.4"
+      },
+      {
+        "p": {
+          "name": "ERNIE-Gram: Pre-Training with Explicitly N-Gram Masked Language Modeling for Natural Language Understanding",
+          "link": "https://arxiv.org/abs/2010.12148"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleNLP/blob/develop/paddlenlp/transformers/ernie_gram/modeling.py",
+        "n": "ERNIE-Gram",
+        "d": "2020-10-23",
+        "m1": "88.1"
+      },
+      {
+        "p": {
+          "name": "MVP: Multi-task Supervised Pre-training for Natural Language Generation",
+          "link": "https://arxiv.org/abs/2206.12131"
+        },
+        "c": "https://github.com/rucaibox/mvp",
+        "n": "MVP",
+        "d": "2022-06-24",
+        "m1": "85.88"
+      },
+      {
+        "p": {
+          "name": "GLU Variants Improve Transformer",
+          "link": "https://arxiv.org/abs/2002.05202"
+        },
+        "c": "https://github.com/code-implementation1/Code4",
+        "n": "FFN ReGLU",
+        "d": "2020-02-12",
+        "m1": "84.67"
+      },
+      {
+        "p": {
+          "name": "FNet: Mixing Tokens with Fourier Transforms",
+          "link": "https://arxiv.org/abs/2105.03824v4"
+        },
+        "c": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
+        "n": "FNet-Hybrid-Large",
+        "d": "2021-05-09",
+        "m1": "83.6"
+      },
+      {
+        "p": {
+          "name": "Perceiver IO: A General Architecture for Structured Inputs & Outputs",
+          "link": "https://arxiv.org/abs/2107.14795v3"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Perceiver IO++",
+        "d": "2021-07-30",
+        "m1": "81.8"
+      },
+      {
+        "p": {
+          "name": "DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter",
+          "link": "https://arxiv.org/abs/1910.01108v4"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "DistilBERT",
+        "d": "2019-10-02",
+        "m1": "77.0"
+      }
+    ]
+  }
+}

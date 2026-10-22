@@ -271,6 +271,16 @@
       },
       {
         "p": {
+          "name": "From Isolated Islands to Pangea: Unifying Semantic Space for Human Action Understanding",
+          "link": "https://arxiv.org/abs/2304.00553"
+        },
+        "c": "",
+        "n": "P2S + EVL",
+        "d": "2023-04-02",
+        "m1": "89.05"
+      },
+      {
+        "p": {
           "name": "CoCa: Contrastive Captioners are Image-Text Foundation Models",
           "link": "https://arxiv.org/abs/2205.01917v2"
         },
@@ -278,6 +288,16 @@
         "n": "CoCa (finetuned)",
         "d": "2022-05-04",
         "m1": "88.9"
+      },
+      {
+        "p": {
+          "name": "Enhanced Motion-Text Alignment for Image-to-Video Transfer Learning",
+          "link": "https://openaccess.thecvf.com/content/CVPR2024/html/Zhang_Enhanced_Motion-Text_Alignment_for_Image-to-Video_Transfer_Learning_CVPR_2024_paper.html"
+        },
+        "c": "",
+        "n": "MoTED (ViT-L/14, 32 frames)",
+        "d": "2024-06-17",
+        "m1": "88.8"
       },
       {
         "p": {
@@ -327,6 +347,16 @@
       },
       {
         "p": {
+          "name": "VidPrism: Heterogeneous Mixture of Experts for Image-to-Video Transfer",
+          "link": "https://arxiv.org/abs/2605.28229"
+        },
+        "c": "https://github.com/lrrrr549/vidprism",
+        "n": "VidPrism-L/14 (extra data)",
+        "d": "2026-05-27",
+        "m1": "88.6"
+      },
+      {
+        "p": {
           "name": "VideoMAE V2: Scaling Video Masked Autoencoders with Dual Masking",
           "link": "https://arxiv.org/abs/2303.16727v2"
         },
@@ -338,6 +368,16 @@
       },
       {
         "p": {
+          "name": "InternVideo-Next: Towards General Video Foundation Models without Video-Text Supervision",
+          "link": "https://arxiv.org/abs/2512.01342"
+        },
+        "c": "",
+        "n": "InternVideo-Next (s2 Large)",
+        "d": "2025-12-01",
+        "m1": "88.4"
+      },
+      {
+        "p": {
           "name": "ONE-PEACE: Exploring One General Representation Model Toward Unlimited Modalities",
           "link": "https://arxiv.org/abs/2305.11172v1"
         },
@@ -346,6 +386,16 @@
         "d": "2023-05-18",
         "m1": "88.1",
         "m2": "97.8"
+      },
+      {
+        "p": {
+          "name": "Align Before Adapt: Leveraging Entity-to-Region Alignments for Generalizable Video Action Recognition",
+          "link": "https://arxiv.org/abs/2311.15619"
+        },
+        "c": "",
+        "n": "ALT-L/14",
+        "d": "2023-11-27",
+        "m1": "88.1"
       },
       {
         "p": {
@@ -378,6 +428,16 @@
         "m1": "88.0",
         "m3": "154x3x4",
         "m5": "24"
+      },
+      {
+        "p": {
+          "name": "Action Detail Matters: Refining Video Recognition with Local Action Queries",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Wang_Action_Detail_Matters_Refining_Video_Recognition_with_Local_Action_Queries_CVPR_2025_paper.html"
+        },
+        "c": "",
+        "n": "FocusVideo-L/14",
+        "d": "2025-06-11",
+        "m1": "88.0"
       },
       {
         "p": {
@@ -594,6 +654,26 @@
         "d": "2021-12-14",
         "m1": "86.3",
         "m2": "97.2"
+      },
+      {
+        "p": {
+          "name": "Progressive Mask Distillation for Self-supervised Video Representation",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Wu_Progressive_Mask_Distillation_for_Self-supervised_Video_Representation_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "PMD 400e (ViT-L)",
+        "d": "2026-06-03",
+        "m1": "86.3"
+      },
+      {
+        "p": {
+          "name": "Time- Memory- and Parameter-Efficient Visual Adaptation",
+          "link": "https://arxiv.org/abs/2402.02887"
+        },
+        "c": "",
+        "n": "LoSA (ViViT-e)",
+        "d": "2024-02-05",
+        "m1": "86.2"
       },
       {
         "p": {
@@ -924,6 +1004,16 @@
         "n": "TPS",
         "d": "2022-07-27",
         "m1": "82.5"
+      },
+      {
+        "p": {
+          "name": "PolyViT: Co-training Vision Transformers on Images, Videos and Audio",
+          "link": "https://arxiv.org/abs/2111.12993"
+        },
+        "c": "",
+        "n": "PolyViT-L/16x2",
+        "d": "2021-11-25",
+        "m1": "82.4"
       },
       {
         "p": {
@@ -1263,6 +1353,26 @@
       },
       {
         "p": {
+          "name": "Video Mamba Suite: State Space Model as a Versatile Alternative for Video Understanding",
+          "link": "https://arxiv.org/abs/2403.09626v1"
+        },
+        "c": "https://github.com/opengvlab/video-mamba-suite",
+        "n": "ViViM-S (extra data)",
+        "d": "2024-03-14",
+        "m1": "80.1"
+      },
+      {
+        "p": {
+          "name": "LoKi: Low-dimensional KAN for Efficient Fine-tuning Image Models",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Cai_LoKi_Low-dimensional_KAN_for_Efficient_Fine-tuning_Image_Models_CVPR_2025_paper.html"
+        },
+        "c": "",
+        "n": "LoKi(ViT)",
+        "d": "2025-06-11",
+        "m1": "80.0"
+      },
+      {
+        "p": {
           "name": "Iwin Transformer: Hierarchical Vision Transformer using Interleaved Windows",
           "link": "https://arxiv.org/abs/2507.18405"
         },
@@ -1323,6 +1433,16 @@
         "d": "2021-04-23",
         "m1": "79.7",
         "m2": "94.2"
+      },
+      {
+        "p": {
+          "name": "Region-Based Representations Revisited",
+          "link": "https://arxiv.org/abs/2402.02352"
+        },
+        "c": "",
+        "n": "Region features Transformer",
+        "d": "2024-02-04",
+        "m1": "79.5"
       },
       {
         "p": {
@@ -1554,6 +1674,16 @@
       },
       {
         "p": {
+          "name": "Revisiting ResNets: Improved Training and Scaling Strategies",
+          "link": "https://arxiv.org/abs/2103.07579v1"
+        },
+        "c": "https://github.com/rwightman/pytorch-image-models",
+        "n": "3D ResNet-RS-50",
+        "d": "2021-03-13",
+        "m1": "78.2"
+      },
+      {
+        "p": {
           "name": "MoViNets: Mobile Video Networks for Efficient Video Recognition",
           "link": "https://arxiv.org/abs/2103.11511v2"
         },
@@ -1585,6 +1715,16 @@
         "d": "2025-07-24",
         "m1": "78.2",
         "m2": "93.8"
+      },
+      {
+        "p": {
+          "name": "A Multigrid Method for Efficiently Training Video Models",
+          "link": "https://arxiv.org/abs/1912.00998v2"
+        },
+        "c": "https://github.com/facebookresearch/SlowFast",
+        "n": "Multigrid R50-SlowFast 64-frame (3-crop 224)",
+        "d": "2019-12-02",
+        "m1": "78.1"
       },
       {
         "p": {
@@ -1986,6 +2126,16 @@
         "d": "2017-11-30",
         "m1": "73.9",
         "m2": "90.9"
+      },
+      {
+        "p": {
+          "name": "Unified-IO 2: Scaling Autoregressive Multimodal Models with Vision, Language, Audio, and Action",
+          "link": "https://arxiv.org/abs/2312.17172"
+        },
+        "c": "https://github.com/allenai/unified-io-2",
+        "n": "Unified-IO 2 XXL",
+        "d": "2023-12-28",
+        "m1": "73.8"
       },
       {
         "p": {

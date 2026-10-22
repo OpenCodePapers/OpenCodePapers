@@ -71,6 +71,26 @@
     "items": [
       {
         "p": {
+          "name": "CompetitorFormer: Mitigating Query Conflicts for 3D Instance Segmentation via Competitive Strategy",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Wang_CompetitorFormer_Mitigating_Query_Conflicts_for_3D_Instance_Segmentation_via_Competitive_CVPR_2026_paper.html"
+        },
+        "c": "https://github.com/duanchuwang/competitorformer",
+        "n": "CompetitorFormer",
+        "d": "2026-06-03",
+        "m1": "77.7"
+      },
+      {
+        "p": {
+          "name": "Insightful Instance Features for 3D Instance Segmentation",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Roh_Insightful_Instance_Features_for_3D_Instance_Segmentation_CVPR_2025_paper.html"
+        },
+        "c": "",
+        "n": "IKNE (Ours)",
+        "d": "2025-06-11",
+        "m1": "76.9"
+      },
+      {
+        "p": {
           "name": "OneFormer3D: One Transformer for Unified Point Cloud Segmentation",
           "link": "https://arxiv.org/abs/2311.14405v1"
         },
@@ -92,6 +112,16 @@
         "d": "2022-10-06",
         "m1": "75.5",
         "m2": "64.5"
+      },
+      {
+        "p": {
+          "name": "Relation3D: Enhancing Relation Modeling for Point Cloud Instance Segmentation",
+          "link": "https://arxiv.org/abs/2506.17891"
+        },
+        "c": "https://github.com/Howard-coder191/Relation3D",
+        "n": "Relation3D",
+        "d": "2025-06-22",
+        "m1": "72.5"
       },
       {
         "p": {
@@ -168,6 +198,16 @@
       },
       {
         "p": {
+          "name": "Mask-Attention-Free Transformer for 3D Instance Segmentation",
+          "link": "https://arxiv.org/abs/2309.01692v1"
+        },
+        "c": "https://github.com/dvlab-research/mask-attention-free-transformer",
+        "n": "MAFT",
+        "d": "2023-09-04",
+        "m1": "69.1"
+      },
+      {
+        "p": {
           "name": "SoftGroup for 3D Instance Segmentation on Point Clouds",
           "link": "https://arxiv.org/abs/2203.01509v1"
         },
@@ -193,6 +233,16 @@
         "m2": "54.1",
         "m3": "73.5",
         "m4": "73.4"
+      },
+      {
+        "p": {
+          "name": "BSNet: Box-Supervised Simulation-assisted Mean Teacher for 3D Instance Segmentation",
+          "link": "https://arxiv.org/abs/2403.15019"
+        },
+        "c": "https://github.com/peoplelu/bsnet",
+        "n": "BSNet (Ours + ISBNNet)",
+        "d": "2024-03-22",
+        "m1": "64.3"
       },
       {
         "p": {
@@ -324,6 +374,16 @@
         "d": "2018-01-23",
         "m5": "65.39%",
         "m6": "75.61"
+      },
+      {
+        "p": {
+          "name": "GroupContrast: Semantic-aware Self-supervised Representation Learning for 3D Understanding",
+          "link": "https://arxiv.org/abs/2403.09639"
+        },
+        "c": "https://github.com/dvlab-research/groupcontrast",
+        "n": "GroupContrast",
+        "d": "2024-03-14",
+        "m1": "63.5"
       }
     ]
   }

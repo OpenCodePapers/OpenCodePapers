@@ -1,0 +1,448 @@
+{
+  "title": "video-question-answering-on-mmvu",
+  "task-hierarchy": [
+    "Video Question Answering"
+  ],
+  "dataset-info": {
+    "link": "https://raw.githubusercontent.com/yale-nlp/MMVU/refs/heads/main/README.md",
+    "paper": "MMVU: Measuring Expert-Level Multi-Discipline Video Understanding"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Qwen3.8-Max: A New Bar for Coding and Cowork",
+          "link": "https://qwen.ai/blog?id=qwen3.8"
+        },
+        "c": "https://github.com/vllm-project/vllm",
+        "n": "Qwen3.8-Max",
+        "d": "2026-08-03",
+        "m1": "82.4"
+      },
+      {
+        "p": {
+          "name": "Kimi K3: Open Frontier Intelligence",
+          "link": "https://arxiv.org/abs/2607.24653"
+        },
+        "c": "https://github.com/moonshotai/kimi-k3",
+        "n": "Kimi K3 Max",
+        "d": "2026-07-27",
+        "m1": "82.1"
+      },
+      {
+        "p": {
+          "name": "GLM-5.3-Flash: Frontier Intelligence, Flash Cost",
+          "link": "https://z.ai/blog/glm-5.3-flash"
+        },
+        "c": "https://github.com/zai-org/glm-5",
+        "n": "GLM-5.3-Flash",
+        "d": "2026-08-26",
+        "m1": "80.5"
+      },
+      {
+        "p": {
+          "name": "Kimi K2.5: Visual Agentic Intelligence",
+          "link": "https://arxiv.org/abs/2602.02276"
+        },
+        "c": "https://github.com/MoonshotAI/Kimi-K2.5",
+        "n": "Kimi K2.5",
+        "d": "2026-02-02",
+        "m1": "80.4"
+      },
+      {
+        "p": {
+          "name": "dots3-note Preview: A Small but Mighty Step Toward Long-Horizon Agency in Real Life",
+          "link": "https://studio.dots.ai/dots/dots3-en.html"
+        },
+        "c": "https://github.com/studio-dots-ai/dots3-note-prev",
+        "n": "dots3-note Preview",
+        "d": "2026-08-13",
+        "m1": "79.9"
+      },
+      {
+        "p": {
+          "name": "Seed2.0 Model Card: Towards Intelligence Frontier for Real-World Complexity",
+          "link": "https://arxiv.org/abs/2607.00248"
+        },
+        "c": "",
+        "n": "Seed2.0 Pro",
+        "d": "2026-06-30",
+        "m1": "78.2"
+      },
+      {
+        "p": {
+          "name": "Annotations as Rollouts: Efficient and Scalable Reinforcement Learning for Video MLLMs",
+          "link": "https://arxiv.org/abs/2608.20492"
+        },
+        "c": "https://github.com/HVision-NKU/OraRL",
+        "n": "Video-ORA-9B",
+        "d": "2026-08-20",
+        "m1": "77.0"
+      },
+      {
+        "p": {
+          "name": "Qwen3.5: Towards Native Multimodal Agents",
+          "link": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Qwen3.5-397B-A17B",
+        "d": "2026-02-16",
+        "m1": "75.4"
+      },
+      {
+        "p": {
+          "name": "Qwen3.5: Towards Native Multimodal Agents",
+          "link": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Qwen3.5-122B-A10B",
+        "d": "2026-02-16",
+        "m1": "74.7"
+      },
+      {
+        "p": {
+          "name": "Qwen3.5: Towards Native Multimodal Agents",
+          "link": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Qwen3.5-27B",
+        "d": "2026-02-16",
+        "m1": "73.3"
+      },
+      {
+        "p": {
+          "name": "Qwen3.5: Towards Native Multimodal Agents",
+          "link": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Qwen3.5-35B-A3B",
+        "d": "2026-02-16",
+        "m1": "72.3"
+      },
+      {
+        "p": {
+          "name": "ERNIE 5.0 Technical Report",
+          "link": "https://arxiv.org/abs/2602.04705"
+        },
+        "c": "",
+        "n": "ERNIE 5.0",
+        "d": "2026-02-04",
+        "m1": "72.24"
+      },
+      {
+        "p": {
+          "name": "Qwen3-VL Technical Report",
+          "link": "https://arxiv.org/abs/2511.21631"
+        },
+        "c": "https://github.com/QwenLM/Qwen3-VL",
+        "n": "Qwen3-VL-235B-A22B-Thinking",
+        "d": "2025-11-26",
+        "m1": "71.1"
+      },
+      {
+        "p": {
+          "name": "VideoAuto-R1: Video Auto Reasoning via Thinking Once, Answering Twice",
+          "link": "https://arxiv.org/abs/2601.05175"
+        },
+        "c": "https://github.com/ivul-kaust/videoauto-r1",
+        "n": "VideoAuto-R1 (Qwen3-VL-8B)",
+        "d": "2026-01-08",
+        "m1": "71.1"
+      },
+      {
+        "p": {
+          "name": "Less from More: Reinforcing Sparse Video Reasoning from Dense References",
+          "link": "https://arxiv.org/abs/2610.10893"
+        },
+        "c": "https://github.com/lmsdss/SAVER",
+        "n": "SAVER-4B (extra data)",
+        "d": "2026-10-07",
+        "m1": "70.9"
+      },
+      {
+        "p": {
+          "name": "HopChain: Multi-Hop Data Synthesis for Generalizable Vision-Language Reasoning",
+          "link": "https://arxiv.org/abs/2603.17024"
+        },
+        "c": "",
+        "n": "Qwen3.5-397B-A17B (RLVR w/ Multi-Hop)",
+        "d": "2026-03-17",
+        "m1": "68.9"
+      },
+      {
+        "p": {
+          "name": "ParaVT: Taming the Tool Prior Paradox for Parallel Tool Use in Agentic Video Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2605.20342"
+        },
+        "c": "https://github.com/EvolvingLMMs-Lab/ParaVT",
+        "n": "ParaVT (Qwen3-VL-8B)",
+        "d": "2026-05-19",
+        "m1": "68.6"
+      },
+      {
+        "p": {
+          "name": "GLM-4.1V-Thinking: Towards Versatile Multimodal Reasoning with Scalable Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2507.01006"
+        },
+        "c": "https://github.com/THUDM/GLM-4.1V-Thinking",
+        "n": "GLM-4.6V",
+        "d": "2025-07-01",
+        "m1": "68.4"
+      },
+      {
+        "p": {
+          "name": "Kwai Keye-VL 1.5 Technical Report",
+          "link": "https://arxiv.org/abs/2509.01563"
+        },
+        "c": "https://github.com/kwai-keye/keye",
+        "n": "Keye-VL-1.5-8B",
+        "d": "2025-09-01",
+        "m1": "68.3"
+      },
+      {
+        "p": {
+          "name": "SiLVR: A Simple Language-based Video Reasoning Framework",
+          "link": "https://arxiv.org/abs/2505.24869"
+        },
+        "c": "https://github.com/ceezh/silvr",
+        "n": "SiLVR",
+        "d": "2025-05-30",
+        "m1": "68.2"
+      },
+      {
+        "p": {
+          "name": "Incentivizing Versatile Video Reasoning in MLLMs via Data-Efficient Reinforcement Learning",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Wang_Incentivizing_Versatile_Video_Reasoning_in_MLLMs_via_Data-Efficient_Reinforcement_Learning_CVPR_2026_paper.html"
+        },
+        "c": "https://github.com/wang-xiaodong1899/videoreasoner",
+        "n": "VideoReasoner (Qwen2.5-VL-7B-Instruct + RL)",
+        "d": "2026-06-03",
+        "m1": "68.0"
+      },
+      {
+        "p": {
+          "name": "Qwen3.5: Towards Native Multimodal Agents",
+          "link": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Qwen3.5-9B",
+        "d": "2026-02-16",
+        "m1": "67.8"
+      },
+      {
+        "p": {
+          "name": "Qwen3.5-Omni Technical Report",
+          "link": "https://arxiv.org/pdf/2604.15804"
+        },
+        "c": "",
+        "n": "Qwen3.5-Omni-Plus",
+        "d": "2026-04-21",
+        "m1": "67.5"
+      },
+      {
+        "p": {
+          "name": "Let VLMs Grade Their Own Thoughts: A Self-Quantification Approach to Reasoning-Aware Reward Modeling",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Xi_Let_VLMs_Grade_Their_Own_Thoughts_A_Self-Quantification_Approach_to_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "Video-RAISE-7B",
+        "d": "2026-06-03",
+        "m1": "66.9"
+      },
+      {
+        "p": {
+          "name": "Kwai Keye-VL Technical Report",
+          "link": "https://arxiv.org/abs/2507.01949"
+        },
+        "c": "https://github.com/kwai-keye/keye",
+        "n": "Keye-VL-8B",
+        "d": "2025-07-02",
+        "m1": "66.1"
+      },
+      {
+        "p": {
+          "name": "PointThinker: Point-Incentivized Parallel Thinking for Multimodal Large Language Model",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Hu_PointThinker_Point-Incentivized_Parallel_Thinking_for_Multimodal_Large_Language_Model_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "PointThinker-7B (extra data)",
+        "d": "2026-06-03",
+        "m1": "66.1"
+      },
+      {
+        "p": {
+          "name": "Watch Before You Answer: Learning from Visually Grounded Post-Training",
+          "link": "https://arxiv.org/abs/2604.05117"
+        },
+        "c": "https://github.com/reacher-z/vidground",
+        "n": "VidGround (32 frames)",
+        "d": "2026-04-06",
+        "m1": "65.8"
+      },
+      {
+        "p": {
+          "name": "Insight-V++: Towards Advanced Long-Chain Visual Reasoning with Multimodal Large Language Models",
+          "link": "https://arxiv.org/abs/2603.18118"
+        },
+        "c": "",
+        "n": "Insight-V++",
+        "d": "2026-03-18",
+        "m1": "65.0"
+      },
+      {
+        "p": {
+          "name": "VideoKR: Towards Knowledge- and Reasoning-Intensive Video Understanding",
+          "link": "https://arxiv.org/abs/2606.05259"
+        },
+        "c": "https://github.com/Fu-Fu-Fu-Fu/VideoKR",
+        "n": "VideoKR (SFT + RL) on Qwen3-VL-8B-Instruct (Frames=128)",
+        "d": "2026-06-03",
+        "m1": "64.8"
+      },
+      {
+        "p": {
+          "name": "Rethinking Chain-of-Thought Reasoning for Videos",
+          "link": "https://arxiv.org/abs/2512.09616"
+        },
+        "c": "https://github.com/LaVi-Lab/Rethink_CoT_Video",
+        "n": "Qwen2.5-VL-7B (GRPO, concise reason, trained with token compression & 6x frames)",
+        "d": "2025-12-10",
+        "m1": "63.6"
+      },
+      {
+        "p": {
+          "name": "Qwen2.5-VL Technical Report",
+          "link": "https://arxiv.org/abs/2502.13923v1"
+        },
+        "c": "https://github.com/qwenlm/qwen2-vl",
+        "n": "Qwen2.5-VL-72B",
+        "d": "2025-02-19",
+        "m1": "62.9"
+      },
+      {
+        "p": {
+          "name": "CogniRoute: Learning to Route Social Evidence in Omni-Modal Models",
+          "link": "https://arxiv.org/abs/2606.20970"
+        },
+        "c": "",
+        "n": "CogniRoute",
+        "d": "2026-06-18",
+        "m1": "60.7"
+      },
+      {
+        "p": {
+          "name": "Zone of Proximal Policy Optimization: Teacher in Prompts, Not Gradients",
+          "link": "https://arxiv.org/abs/2606.18216"
+        },
+        "c": "",
+        "n": "ZPPO (Qwen3.5-2B)",
+        "d": "2026-06-16",
+        "m1": "59.0"
+      },
+      {
+        "p": {
+          "name": "Penguin-VL: Exploring the Efficiency Limits of VLM with LLM-based Vision Encoders",
+          "link": "https://arxiv.org/abs/2603.06569"
+        },
+        "c": "https://github.com/tencent-ailab/Penguin-VL",
+        "n": "Penguin-VL 8B",
+        "d": "2026-03-06",
+        "m1": "58.7"
+      },
+      {
+        "p": {
+          "name": "Kimi-VL Technical Report",
+          "link": "https://arxiv.org/abs/2504.07491"
+        },
+        "c": "https://github.com/moonshotai/kimi-vl",
+        "n": "Kimi-VL-A3B-Thinking-2506",
+        "d": "2025-04-10",
+        "m1": "57.5"
+      },
+      {
+        "p": {
+          "name": "VideoChat3: Fully Open Video MLLM for Efficient and Generalist Video Understanding",
+          "link": "https://arxiv.org/abs/2607.14935"
+        },
+        "c": "https://github.com/MCG-NJU/VideoChat3",
+        "n": "VideoChat3-4B",
+        "d": "2026-07-16",
+        "m1": "56.4"
+      },
+      {
+        "p": {
+          "name": "ResAdapt: Adaptive Resolution for Efficient Multimodal Reasoning",
+          "link": "https://arxiv.org/abs/2603.28610"
+        },
+        "c": "https://github.com/Xnhyacinth/ResAdapt",
+        "n": "Qwen3-VL-8B + ResAdapt (128 frames, 22.9% retention)",
+        "d": "2026-03-30",
+        "m1": "56.3"
+      },
+      {
+        "p": {
+          "name": "LLaVA-OneVision-2: Towards Next-Generation Perceptual Intelligence",
+          "link": "https://arxiv.org/abs/2605.25979"
+        },
+        "c": "https://github.com/evolvinglmms-lab/llava-onevision-2",
+        "n": "LLaVA-OneVision-2-8B",
+        "d": "2026-05-25",
+        "m1": "56.2"
+      },
+      {
+        "p": {
+          "name": "Kimi-VL Technical Report",
+          "link": "https://arxiv.org/abs/2504.07491"
+        },
+        "c": "https://github.com/moonshotai/kimi-vl",
+        "n": "Kimi-VL-A3B-Instruct",
+        "d": "2025-04-10",
+        "m1": "52.2"
+      },
+      {
+        "p": {
+          "name": "VideoLLaMA 3: Frontier Multimodal Foundation Models for Image and Video Understanding",
+          "link": "https://arxiv.org/abs/2501.13106v3"
+        },
+        "c": "https://github.com/damo-nlp-sg/videollama3",
+        "n": "VideoLLaMA3 7B",
+        "d": "2025-01-22",
+        "m1": "44.1"
+      },
+      {
+        "p": {
+          "name": "Penguin-VL: Exploring the Efficiency Limits of VLM with LLM-based Vision Encoders",
+          "link": "https://arxiv.org/abs/2603.06569"
+        },
+        "c": "https://github.com/tencent-ailab/Penguin-VL",
+        "n": "Penguin-VL 2B",
+        "d": "2026-03-06",
+        "m1": "41.7"
+      }
+    ]
+  }
+}

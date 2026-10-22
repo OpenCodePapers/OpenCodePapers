@@ -1,0 +1,318 @@
+{
+  "title": "agents-on-jobbench-main-65-tasks",
+  "task-hierarchy": [
+    "Agents"
+  ],
+  "dataset-info": {
+    "link": "https://job-bench.github.io/",
+    "paper": "JobBench: Aligning Agent Work With Human Will"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Score",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "JobBench Leaderboard",
+          "link": "https://job-bench.github.io"
+        },
+        "c": "https://github.com/anthropics/claude-code",
+        "n": "Claude Opus 5.5 (OpenCode)",
+        "d": "2026-09-22",
+        "m1": "75.4"
+      },
+      {
+        "p": {
+          "name": "Muse Wonder: A Frontier Model For Personal & Professional AI Agents",
+          "link": "https://research.meta.ai/blog/muse-wonder"
+        },
+        "c": "",
+        "n": "Muse Wonder Full (max) (OpenCode)",
+        "d": "2026-10-12",
+        "m1": "75.3"
+      },
+      {
+        "p": {
+          "name": "JobBench Leaderboard",
+          "link": "https://job-bench.github.io"
+        },
+        "c": "",
+        "n": "Claude Fable 5.1 (OpenCode)",
+        "d": "2026-09-01",
+        "m1": "73.1"
+      },
+      {
+        "p": {
+          "name": "Muse Wonder: A Frontier Model For Personal & Professional AI Agents",
+          "link": "https://research.meta.ai/blog/muse-wonder"
+        },
+        "c": "",
+        "n": "Muse Wonder (max) (OpenCode)",
+        "d": "2026-10-12",
+        "m1": "70.5"
+      },
+      {
+        "p": {
+          "name": "JobBench Leaderboard",
+          "link": "https://job-bench.github.io"
+        },
+        "c": "https://github.com/openai/codex",
+        "n": "GPT-6 Astra (OpenCode)",
+        "d": "2026-09-03",
+        "m1": "66.1"
+      },
+      {
+        "p": {
+          "name": "JobBench Leaderboard",
+          "link": "https://job-bench.github.io"
+        },
+        "c": "https://github.com/anthropics/claude-code",
+        "n": "Claude Opus 5 (OpenCode)",
+        "d": "2026-07-24",
+        "m1": "65.7"
+      },
+      {
+        "p": {
+          "name": "JobBench Leaderboard",
+          "link": "https://job-bench.github.io"
+        },
+        "c": "",
+        "n": "Muse Spark 1.3 (OpenCode)",
+        "d": "2026-09-02",
+        "m1": "64.9"
+      },
+      {
+        "p": {
+          "name": "Introducing Muse Spark Open, The Most Capable US Open-Weight Model to Date",
+          "link": "https://research.meta.ai/blog/muse-spark-open"
+        },
+        "c": "https://github.com/meta-models/meta-model-cookbook",
+        "n": "Muse Spark Open",
+        "d": "2026-10-15",
+        "m1": "61.8"
+      },
+      {
+        "p": {
+          "name": "JobBench Leaderboard",
+          "link": "https://job-bench.github.io"
+        },
+        "c": "",
+        "n": "Muse Spark 1.2 (OpenCode)",
+        "d": "2026-08-05",
+        "m1": "61.6"
+      },
+      {
+        "p": {
+          "name": "JobBench Leaderboard",
+          "link": "https://job-bench.github.io"
+        },
+        "c": "https://github.com/zai-org/glm-5",
+        "n": "GLM-5.3 (OpenCode)",
+        "d": "2026-08-14",
+        "m1": "61.4"
+      },
+      {
+        "p": {
+          "name": "JobBench Leaderboard",
+          "link": "https://job-bench.github.io"
+        },
+        "c": "https://github.com/anthropics/claude-code",
+        "n": "Claude Fable 5 (with fallbacks) (OpenCode)",
+        "d": "2026-06-09",
+        "m1": "57.4"
+      },
+      {
+        "p": {
+          "name": "Qwen3.8-Flash-Next",
+          "link": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next"
+        },
+        "c": "https://github.com/qwenlm/qwen3.8-flash-next",
+        "n": "Qwen3.8-Flash-Next",
+        "d": "2026-08-24",
+        "m1": "55.7"
+      },
+      {
+        "p": {
+          "name": "JobBench Leaderboard",
+          "link": "https://job-bench.github.io"
+        },
+        "c": "https://github.com/meta-models/meta-model-cookbook",
+        "n": "Muse Spark 1.1 (OpenCode)",
+        "d": "2026-07-09",
+        "m1": "54.7"
+      },
+      {
+        "p": {
+          "name": "JobBench Leaderboard",
+          "link": "https://job-bench.github.io"
+        },
+        "c": "https://github.com/moonshotai/kimi-k3",
+        "n": "Kimi K3 (OpenCode)",
+        "d": "2026-07-27",
+        "m1": "54.3"
+      },
+      {
+        "p": {
+          "name": "JobBench Leaderboard",
+          "link": "https://job-bench.github.io"
+        },
+        "c": "https://github.com/vllm-project/vllm",
+        "n": "Qwen3.8-Max (OpenCode)",
+        "d": "2026-08-03",
+        "m1": "52.7"
+      },
+      {
+        "p": {
+          "name": "JobBench Leaderboard",
+          "link": "https://job-bench.github.io"
+        },
+        "c": "",
+        "n": "Claude Opus 4.8 (OpenCode)",
+        "d": "2026-05-28",
+        "m1": "48.4"
+      },
+      {
+        "p": {
+          "name": "JobBench Leaderboard",
+          "link": "https://job-bench.github.io"
+        },
+        "c": "https://github.com/openai/codex",
+        "n": "GPT-5.6 Sol (OpenCode)",
+        "d": "2026-07-09",
+        "m1": "45.4"
+      },
+      {
+        "p": {
+          "name": "JobBench Leaderboard",
+          "link": "https://job-bench.github.io"
+        },
+        "c": "",
+        "n": "Claude Opus 4.7 (OpenCode)",
+        "d": "2026-04-16",
+        "m1": "44.5"
+      },
+      {
+        "p": {
+          "name": "JobBench Leaderboard",
+          "link": "https://job-bench.github.io"
+        },
+        "c": "https://github.com/zai-org/GLM-5",
+        "n": "GLM-5.2 (OpenCode)",
+        "d": "2026-06-16",
+        "m1": "43.4"
+      },
+      {
+        "p": {
+          "name": "JobBench Leaderboard",
+          "link": "https://job-bench.github.io"
+        },
+        "c": "",
+        "n": "GPT-5.5 (OpenCode)",
+        "d": "2026-04-23",
+        "m1": "38.3"
+      },
+      {
+        "p": {
+          "name": "JobBench Leaderboard",
+          "link": "https://job-bench.github.io"
+        },
+        "c": "",
+        "n": "Claude Sonnet 4.6 (OpenCode)",
+        "d": "2026-02-17",
+        "m1": "36.6"
+      },
+      {
+        "p": {
+          "name": "JobBench Leaderboard",
+          "link": "https://job-bench.github.io"
+        },
+        "c": "",
+        "n": "GPT-5.4 (OpenCode)",
+        "d": "2026-03-05",
+        "m1": "32.2"
+      },
+      {
+        "p": {
+          "name": "JobBench Leaderboard",
+          "link": "https://job-bench.github.io"
+        },
+        "c": "",
+        "n": "Gemini 3.5 Flash (OpenCode)",
+        "d": "2026-05-19",
+        "m1": "31.5"
+      },
+      {
+        "p": {
+          "name": "JobBench Leaderboard",
+          "link": "https://job-bench.github.io"
+        },
+        "c": "https://huggingface.co/thinkingmachines/Inkling",
+        "n": "Inkling (OpenCode)",
+        "d": "2026-07-15",
+        "m1": "31.1"
+      },
+      {
+        "p": {
+          "name": "JobBench Leaderboard",
+          "link": "https://job-bench.github.io"
+        },
+        "c": "https://github.com/NVIDIA-NeMo/Nemotron",
+        "n": "Nemotron 3 Ultra (OpenCode)",
+        "d": "2026-06-03",
+        "m1": "27.2"
+      },
+      {
+        "p": {
+          "name": "JobBench Leaderboard",
+          "link": "https://job-bench.github.io"
+        },
+        "c": "",
+        "n": "GPT-5.2 (OpenCode)",
+        "d": "2025-12-11",
+        "m1": "26.6"
+      },
+      {
+        "p": {
+          "name": "JobBench Leaderboard",
+          "link": "https://job-bench.github.io"
+        },
+        "c": "",
+        "n": "Claude Sonnet 4.5 (OpenCode)",
+        "d": "2025-09-29",
+        "m1": "20.7"
+      },
+      {
+        "p": {
+          "name": "JobBench Leaderboard",
+          "link": "https://job-bench.github.io"
+        },
+        "c": "",
+        "n": "Gemini 3.1 Pro (OpenCode)",
+        "d": "2026-02-19",
+        "m1": "15.9"
+      }
+    ]
+  }
+}

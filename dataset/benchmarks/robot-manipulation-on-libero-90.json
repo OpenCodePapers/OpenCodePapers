@@ -1,0 +1,169 @@
+{
+  "title": "robot-manipulation-on-libero-90",
+  "task-hierarchy": [
+    "Robotics",
+    "Robot Manipulation"
+  ],
+  "dataset-info": {
+    "link": "https://libero-project.github.io/",
+    "paper": "LIBERO: Benchmarking Knowledge Transfer for Lifelong Robot Learning"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Success Rate",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Mimic Intent, Not Just Trajectories",
+          "link": "https://arxiv.org/abs/2602.08602"
+        },
+        "c": "https://github.com/RenMing-Huang/MINT",
+        "n": "MINT-4B",
+        "d": "2026-03-28",
+        "m1": "98.7"
+      },
+      {
+        "p": {
+          "name": "GeoVLA: Empowering 3D Representations in Vision-Language-Action Models",
+          "link": "https://arxiv.org/abs/2508.09071"
+        },
+        "c": "",
+        "n": "GeoVLA",
+        "d": "2025-08-12",
+        "m1": "97.7"
+      },
+      {
+        "p": {
+          "name": "Dual Latent Memory in Vision-Language-Action Models for Robotic Manipulation",
+          "link": "https://arxiv.org/abs/2607.07608"
+        },
+        "c": "https://github.com/quhongyu/LaMem-VLA",
+        "n": "LaMem-VLA",
+        "d": "2026-07-08",
+        "m1": "97.0"
+      },
+      {
+        "p": {
+          "name": "Knowledge Insulating Vision-Language-Action Models: Train Fast, Run Fast, Generalize Better",
+          "link": "https://arxiv.org/abs/2505.23705"
+        },
+        "c": "",
+        "n": "Knowledge-Insulated VLA (from generalist model)",
+        "d": "2025-05-29",
+        "m1": "96.0"
+      },
+      {
+        "p": {
+          "name": "MemoryVLA: Perceptual-Cognitive Memory in Vision-Language-Action Models for Robotic Manipulation",
+          "link": "https://arxiv.org/abs/2508.19236"
+        },
+        "c": "",
+        "n": "MemoryVLA",
+        "d": "2025-08-26",
+        "m1": "95.6"
+      },
+      {
+        "p": {
+          "name": "Efficient Diffusion Transformer Policies with Mixture of Expert Denoisers for Multitask Learning",
+          "link": "https://arxiv.org/abs/2412.12953v1"
+        },
+        "c": "https://github.com/intuitive-robots/MoDE_Diffusion_Policy",
+        "n": "MoDE (extra data)",
+        "d": "2024-12-17",
+        "m1": "95.0"
+      },
+      {
+        "p": {
+          "name": "TRM-VLA: Temporal-Aware Chain-of-Thought Reasoning and Memorization for Vision-Language-Action Models",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Li_TRM-VLA_Temporal-Aware_Chain-of-Thought_Reasoning_and_Memorization_for_Vision-Language-Action_Models_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "TRM-VLA",
+        "d": "2026-06-03",
+        "m1": "94.8"
+      },
+      {
+        "p": {
+          "name": "Interactive Post-Training for Vision-Language-Action Models",
+          "link": "https://arxiv.org/abs/2505.17016"
+        },
+        "c": "https://github.com/ariostgx/ript-vla",
+        "n": "QueST + RIPT",
+        "d": "2025-05-22",
+        "m1": "94.3"
+      },
+      {
+        "p": {
+          "name": "DiffuView: Multi-View Diffusion Pretraining for 3D Aware Robotic Manipulation",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_DiffuView_Multi-View_Diffusion_Pretraining_for_3D_Aware_Robotic_Manipulation_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "DiffuView",
+        "d": "2026-06-03",
+        "m1": "92.5"
+      },
+      {
+        "p": {
+          "name": "Understanding the Impact of Geometric Foundation Models on Vision-Language-Action Models",
+          "link": "https://arxiv.org/abs/2605.24642"
+        },
+        "c": "",
+        "n": "Late Fusion",
+        "d": "2026-05-23",
+        "m1": "91.1"
+      },
+      {
+        "p": {
+          "name": "Training Strategies for Efficient Embodied Reasoning",
+          "link": "https://arxiv.org/abs/2505.08243"
+        },
+        "c": "",
+        "n": "Full ECoT",
+        "d": "2025-05-13",
+        "m1": "90.8"
+      },
+      {
+        "p": {
+          "name": "VQ-VLA: Improving Vision-Language-Action Models via Scaling Vector-Quantized Action Tokenizers",
+          "link": "https://arxiv.org/abs/2507.01016"
+        },
+        "c": "https://github.com/xiaoxiao0406/VQ-VLA",
+        "n": "VQ-VLA (VQO+L+M)",
+        "d": "2025-07-01",
+        "m1": "86.61"
+      },
+      {
+        "p": {
+          "name": "DynaFLIP: Rethinking Robotics Perception via Tri-Modal-Dynamics Guided Representation",
+          "link": "https://arxiv.org/abs/2605.30350"
+        },
+        "c": "",
+        "n": "DynaFLIP (LoRA fine-tuned diffusion policy)",
+        "d": "2026-05-28",
+        "m1": "78.1"
+      }
+    ]
+  }
+}

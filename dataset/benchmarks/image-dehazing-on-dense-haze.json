@@ -52,6 +52,16 @@
       },
       {
         "p": {
+          "name": "HNDiff: Haze-Noise Diffusion for Image Dehazing",
+          "link": "https://arxiv.org/abs/2608.10995"
+        },
+        "c": "https://github.com/jin-ting-he/hndiff",
+        "n": "FocalNet+HNDiff",
+        "d": "2026-08-11",
+        "m1": "17.29"
+      },
+      {
+        "p": {
           "name": "SAD-Net: a full spectral self-attention detail enhancement network for single image dehazing",
           "link": "https://www.nature.com/articles/s41598-025-92061-1"
         },
@@ -60,6 +70,28 @@
         "d": "2025-04-07",
         "m1": "17.16",
         "m2": "0.55"
+      },
+      {
+        "p": {
+          "name": "HazeFlow: Revisit Haze Physical Model as ODE and Non-Homogeneous Haze Generation for Real-World Dehazing",
+          "link": "https://arxiv.org/abs/2509.18190"
+        },
+        "c": "https://github.com/cloor/hazeflow",
+        "n": "HazeFlow (paired-trained) (extra data)",
+        "d": "2025-09-19",
+        "m1": "17.14",
+        "m2": "0.6158"
+      },
+      {
+        "p": {
+          "name": "Fast and Accurate Image Restoration with Rank Enhanced Linear Attention",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/5618"
+        },
+        "c": "https://github.com/shallowdream204/laformer",
+        "n": "LAformer-T",
+        "d": "2026-09-08",
+        "m1": "17.14",
+        "m2": "0.565"
       },
       {
         "p": {

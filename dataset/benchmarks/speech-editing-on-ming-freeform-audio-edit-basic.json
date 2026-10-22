@@ -1,0 +1,176 @@
+{
+  "title": "speech-editing-on-ming-freeform-audio-edit-basic",
+  "task-hierarchy": [
+    "Speech Synthesis",
+    "Speech Editing"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/inclusionAI/Ming-Freeform-Audio-Edit",
+    "paper": "Ming-UniAudio: Speech LLM for Joint Understanding, Generation and Editing with Unified Representation"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "ZH Deletion WER",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "EN Insertion WER",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "EN Deletion SIM",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "EN Deletion WER",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "ZH Insertion SIM",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "ZH Insertion WER",
+        "sortable": "true"
+      },
+      {
+        "key": "m7",
+        "label": "EN Substitution WER",
+        "sortable": "true"
+      },
+      {
+        "key": "m8",
+        "label": "EN Insertion SIM",
+        "sortable": "true"
+      },
+      {
+        "key": "m9",
+        "label": "ZH Deletion SIM",
+        "sortable": "true"
+      },
+      {
+        "key": "m10",
+        "label": "EN Substitution SIM",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Fish Audio Drama 3 Technical Report",
+          "link": "https://arxiv.org/abs/2610.18010"
+        },
+        "c": "https://github.com/fishaudio/fish-speech",
+        "n": "Fish Audio Drama 3",
+        "d": "2026-10-13",
+        "m1": "7.82",
+        "m2": "3.03",
+        "m3": "0.838",
+        "m4": "5.79",
+        "m5": "0.909",
+        "m6": "2.15",
+        "m7": "2.08",
+        "m8": "0.905",
+        "m9": "0.827",
+        "m10": "0.866"
+      },
+      {
+        "p": {
+          "name": "AuK Technical Report: An Open-Source Foundational Model for Speech Generation and Editing",
+          "link": "https://arxiv.org/abs/2609.08936"
+        },
+        "c": "https://github.com/Tencent-Hunyuan/AuK",
+        "n": "AuK",
+        "d": "2026-09-08",
+        "m1": "9.61",
+        "m2": "3.47",
+        "m3": "0.83",
+        "m4": "5.91",
+        "m5": "0.92",
+        "m6": "3.03",
+        "m7": "2.18",
+        "m8": "0.92",
+        "m9": "0.8",
+        "m10": "0.89"
+      },
+      {
+        "p": {
+          "name": "AuK Technical Report: An Open-Source Foundational Model for Speech Generation and Editing",
+          "link": "https://arxiv.org/abs/2609.08936"
+        },
+        "c": "https://github.com/Tencent-Hunyuan/AuK",
+        "n": "AuK-Flash",
+        "d": "2026-09-08",
+        "m1": "9.85",
+        "m2": "4.26",
+        "m3": "0.84",
+        "m4": "7.38",
+        "m5": "0.93",
+        "m6": "3.6",
+        "m7": "2.48",
+        "m9": "0.8"
+      },
+      {
+        "p": {
+          "name": "FireRedAudio: A General-Purpose Audio Language Model with Decoupled Continuous Representations for Understanding and Generation",
+          "link": "https://arxiv.org/abs/2608.24168"
+        },
+        "c": "https://github.com/fireredteam/fireredaudio",
+        "n": "FireRedAudio",
+        "d": "2026-08-25",
+        "m1": "10.82",
+        "m2": "4.98",
+        "m3": "0.79",
+        "m4": "12.78",
+        "m5": "0.83",
+        "m6": "3.28",
+        "m7": "4.46",
+        "m8": "0.84",
+        "m10": "0.81"
+      },
+      {
+        "p": {
+          "name": "Ming-UniAudio: Speech LLM for Joint Understanding, Generation and Editing with Unified Representation",
+          "link": "https://arxiv.org/abs/2511.05516"
+        },
+        "c": "https://github.com/inclusionAI/Ming-UniAudio",
+        "n": "Ming-UniAudio",
+        "d": "2025-10-26",
+        "m1": "11.89",
+        "m2": "6.63",
+        "m3": "0.76",
+        "m4": "14.85",
+        "m5": "0.83",
+        "m6": "3.42",
+        "m7": "8.99",
+        "m8": "0.79",
+        "m9": "0.78",
+        "m10": "0.78"
+      }
+    ]
+  }
+}

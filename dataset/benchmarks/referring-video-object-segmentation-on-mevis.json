@@ -46,6 +46,16 @@
     "items": [
       {
         "p": {
+          "name": "Think Visually Across Space and Time: Grounded Reasoning for Video Segmentation",
+          "link": "https://arxiv.org/abs/2610.25090"
+        },
+        "c": "https://github.com/victor-wjw/tcovp",
+        "n": "TCoVP-M-4B (extra data)",
+        "d": "2026-10-18",
+        "m1": "65.2"
+      },
+      {
+        "p": {
           "name": "VIRST: Video-Instructed Reasoning Assistant for SpatioTemporal Segmentation",
           "link": "https://arxiv.org/abs/2603.27060"
         },
@@ -58,6 +68,26 @@
       },
       {
         "p": {
+          "name": "Annotations as Rollouts: Efficient and Scalable Reinforcement Learning for Video MLLMs",
+          "link": "https://arxiv.org/abs/2608.20492"
+        },
+        "c": "https://github.com/HVision-NKU/OraRL",
+        "n": "Video-ORA-9B",
+        "d": "2026-08-20",
+        "m1": "61.3"
+      },
+      {
+        "p": {
+          "name": "ReferEverything: Towards Segmenting Everything We Can Speak of in Videos",
+          "link": "https://arxiv.org/abs/2410.23287"
+        },
+        "c": "",
+        "n": "REM Wan-14B",
+        "d": "2024-10-30",
+        "m1": "60.3"
+      },
+      {
+        "p": {
           "name": "ReVSeg: Incentivizing the Reasoning Chain for Video Segmentation with Reinforcement Learning",
           "link": "https://arxiv.org/abs/2512.02835"
         },
@@ -67,6 +97,26 @@
         "m1": "59.8",
         "m2": "56.1",
         "m3": "63.4"
+      },
+      {
+        "p": {
+          "name": "MomentSeg: Moment-Centric Sampling for Enhanced Referring Video Object Segmentation",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/3213"
+        },
+        "c": "",
+        "n": "MomentSeg-7B",
+        "d": "2026-09-08",
+        "m1": "57.1"
+      },
+      {
+        "p": {
+          "name": "DeRVOS: Decoupling Consistent Trajectory Generation and Multimodal Understanding for Referring Video Object Segmentation",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Cheng_DeRVOS_Decoupling_Consistent_Trajectory_Generation_and_Multimodal_Understanding_for_Referring_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "DeRVOS",
+        "d": "2026-06-03",
+        "m1": "56.0"
       },
       {
         "p": {
@@ -118,6 +168,16 @@
       },
       {
         "p": {
+          "name": "VoCap: Video Object Captioning and Segmentation from Any Prompt",
+          "link": "https://arxiv.org/abs/2508.21809"
+        },
+        "c": "",
+        "n": "VoCap + FindTrack",
+        "d": "2025-08-29",
+        "m1": "53.0"
+      },
+      {
+        "p": {
           "name": "Mitigating Query Selection Bias in Referring Video Object Segmentation",
           "link": "https://arxiv.org/abs/2509.13722"
         },
@@ -127,6 +187,16 @@
         "m1": "52.8",
         "m2": "49.4",
         "m3": "56.1"
+      },
+      {
+        "p": {
+          "name": "OneThinker: All-in-one Reasoning Model for Image and Video",
+          "link": "https://arxiv.org/abs/2512.03043"
+        },
+        "c": "https://github.com/tulerfeng/onethinker",
+        "n": "OneThinker-8B",
+        "d": "2025-12-02",
+        "m1": "52.7"
       },
       {
         "p": {
@@ -154,6 +224,16 @@
       },
       {
         "p": {
+          "name": "VideoLoom: A Video Large Language Model for Joint Spatial-Temporal Understanding",
+          "link": "https://arxiv.org/abs/2601.07290"
+        },
+        "c": "https://github.com/JPShi12/VideoLoom",
+        "n": "VideoLoom-8B (extra data)",
+        "d": "2026-01-12",
+        "m1": "51.7"
+      },
+      {
+        "p": {
           "name": "GLUS: Global-Local Reasoning Unified into A Single Large Language Model for Video Segmentation",
           "link": "https://arxiv.org/abs/2504.07962v1"
         },
@@ -178,6 +258,26 @@
       },
       {
         "p": {
+          "name": "SPOT: Spatiotemporal Prompt Optimization for Motion-Stabilized MLLM-Guided Video Segmentation",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Fan_SPOT_Spatiotemporal_Prompt_Optimization_for_Motion-Stabilized_MLLM-Guided_Video_Segmentation_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "SPOT-13B",
+        "d": "2026-06-03",
+        "m1": "51.2"
+      },
+      {
+        "p": {
+          "name": "Deforming Videos to Masks: Flow Matching for Referring Video Segmentation",
+          "link": "https://arxiv.org/abs/2510.06139"
+        },
+        "c": "https://github.com/xmz111/FlowRVS",
+        "n": "FlowRVS (Wan 2.1 T2V 1.3B DiT, MeViS-only) (extra data)",
+        "d": "2025-10-07",
+        "m1": "51.1"
+      },
+      {
+        "p": {
           "name": "The Devil is in Temporal Token: High Quality Video Reasoning Segmentation",
           "link": "https://arxiv.org/abs/2501.08549v1"
         },
@@ -187,6 +287,16 @@
         "m1": "50.9",
         "m2": "48",
         "m3": "53.7"
+      },
+      {
+        "p": {
+          "name": "Towards Streaming Referring Video Segmentation via Large Language Model",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_Towards_Streaming_Referring_Video_Segmentation_via_Large_Language_Model_CVPR_2026_paper.html"
+        },
+        "c": "https://github.com/wkzhang636/streamingrvos",
+        "n": "StreamingRVOS-4B",
+        "d": "2026-06-03",
+        "m1": "50.9"
       },
       {
         "p": {
@@ -202,6 +312,46 @@
       },
       {
         "p": {
+          "name": "Boosting Text-Driven Video Segmentation via Geometry-Aware Distillation",
+          "link": "https://arxiv.org/abs/2606.24464"
+        },
+        "c": "https://github.com/tony1882880/geolav",
+        "n": "GeoLaV",
+        "d": "2026-06-23",
+        "m1": "50.0"
+      },
+      {
+        "p": {
+          "name": "STAC: Selective Spatiotemporal Aggregation and Compression for Video Reasoning Segmentation",
+          "link": "https://arxiv.org/abs/2607.02922"
+        },
+        "c": "https://github.com/mcg-nku/nku-video",
+        "n": "STAC",
+        "d": "2026-07-03",
+        "m1": "49.9"
+      },
+      {
+        "p": {
+          "name": "FeVOS: Foresight Expression Video Object Segmentation",
+          "link": "https://arxiv.org/abs/2606.25585"
+        },
+        "c": "https://github.com/fudancvl/fevos",
+        "n": "FeVOS-R1",
+        "d": "2026-06-24",
+        "m1": "49.5"
+      },
+      {
+        "p": {
+          "name": "ViLLa: Video Reasoning Segmentation with Large Language Model",
+          "link": "https://arxiv.org/abs/2407.14500v2"
+        },
+        "c": "https://github.com/rkzheng99/villa",
+        "n": "ViLLa (InternVideo2-6B) (extra data)",
+        "d": "2024-07-18",
+        "m1": "49.4"
+      },
+      {
+        "p": {
           "name": "ReferDINO: Referring Video Object Segmentation with Visual Grounding Foundations",
           "link": "https://arxiv.org/abs/2501.14607v1"
         },
@@ -211,6 +361,46 @@
         "m1": "49.3",
         "m2": "44.7",
         "m3": "53.9"
+      },
+      {
+        "p": {
+          "name": "InterRVOS: Interaction-aware Referring Video Object Segmentation",
+          "link": "https://arxiv.org/abs/2506.02356"
+        },
+        "c": "https://github.com/cvlab-kaist/interrvos",
+        "n": "ReVIOSa-4B (standard RVOS, AML-only) (extra data)",
+        "d": "2025-06-03",
+        "m1": "49.3"
+      },
+      {
+        "p": {
+          "name": "Semantic and Sequential Alignment for Referring Video Object Segmentation",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Pan_Semantic_and_Sequential_Alignment_for_Referring_Video_Object_Segmentation_CVPR_2025_paper.html"
+        },
+        "c": "",
+        "n": "SSA (extra data)",
+        "d": "2025-06-11",
+        "m1": "48.9"
+      },
+      {
+        "p": {
+          "name": "DTOS: Dynamic Time Object Sensing with Large Multimodal Model",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Tian_DTOS_Dynamic_Time_Object_Sensing_with_Large_Multimodal_Model_CVPR_2025_paper.html"
+        },
+        "c": "https://github.com/maulog/open-dtos-lmm",
+        "n": "DTOS-9B",
+        "d": "2025-06-11",
+        "m1": "48.86"
+      },
+      {
+        "p": {
+          "name": "Decoupled Motion Expression Video Segmentation",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Fang_Decoupled_Motion_Expression_Video_Segmentation_CVPR_2025_paper.html"
+        },
+        "c": "",
+        "n": "DMVS",
+        "d": "2025-06-11",
+        "m1": "48.6"
       },
       {
         "p": {
@@ -250,6 +440,16 @@
       },
       {
         "p": {
+          "name": "Sa2VA: Marrying SAM2 with LLaVA for Dense Grounded Understanding of Images and Videos",
+          "link": "https://arxiv.org/abs/2501.04001"
+        },
+        "c": "https://github.com/magic-research/sa2va",
+        "n": "Sa2VA-8B (extra data)",
+        "d": "2025-01-07",
+        "m1": "46.9"
+      },
+      {
+        "p": {
           "name": "Decoupling Static and Hierarchical Motion Perception for Referring Video Segmentation",
           "link": "https://arxiv.org/abs/2404.03645v1"
         },
@@ -274,6 +474,16 @@
       },
       {
         "p": {
+          "name": "VideoGLaMM: A Large Multimodal Model for Pixel-Level Visual Grounding in Videos",
+          "link": "https://arxiv.org/abs/2411.04923"
+        },
+        "c": "https://github.com/mbzuai-oryx/VideoGLaMM",
+        "n": "VideoGLaMM (Phi-3 Mini 3.8B, RVOS fine-tuned) (extra data)",
+        "d": "2024-11-07",
+        "m1": "45.15"
+      },
+      {
+        "p": {
           "name": "GREx: Generalized Referring Expression Segmentation, Comprehension, and Generation",
           "link": "https://arxiv.org/abs/2601.05244"
         },
@@ -283,6 +493,36 @@
         "m1": "44.6",
         "m2": "41.7",
         "m3": "47.5"
+      },
+      {
+        "p": {
+          "name": "VISA: Reasoning Video Object Segmentation via Large Language Models",
+          "link": "https://arxiv.org/abs/2407.11325v1"
+        },
+        "c": "https://github.com/cilinyan/VISA",
+        "n": "VISA Chat-UniVi-13B (extra data)",
+        "d": "2024-07-16",
+        "m1": "44.5"
+      },
+      {
+        "p": {
+          "name": "One Token to Seg Them All: Language Instructed Reasoning Segmentation in Videos",
+          "link": "https://arxiv.org/abs/2409.19603v1"
+        },
+        "c": "https://github.com/showlab/videolisa",
+        "n": "VideoLISA-3.8B (Post-optimization) (extra data)",
+        "d": "2024-09-29",
+        "m1": "44.4"
+      },
+      {
+        "p": {
+          "name": "Decomposed Attention Fusion in MLLMs for Training-Free Video Reasoning Segmentation",
+          "link": "https://arxiv.org/abs/2510.19592"
+        },
+        "c": "https://github.com/HYUNJS/DecAF",
+        "n": "DecAF (training-free, Qwen2.5-VL-7B + SAM2) (extra data)",
+        "d": "2025-10-22",
+        "m1": "43.5"
       },
       {
         "p": {

@@ -1,0 +1,229 @@
+{
+  "title": "code-generation-on-terminal-bench-4-0",
+  "task-hierarchy": [
+    "Code Intelligence",
+    "Code Generation"
+  ],
+  "dataset-info": {
+    "link": "https://hub.harborframework.com/datasets/terminal-bench/terminal-bench/4",
+    "paper": "Terminal-Bench: Benchmarking Agents on Hard, Realistic Tasks in Command Line Interfaces"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Introducing Claude Sonnet 5.5",
+          "link": "https://www.anthropic.com/claude-sonnet-5-5"
+        },
+        "c": "https://github.com/anthropics/claude-code",
+        "n": "Claude Sonnet 5.5 (Claude Code)",
+        "d": "2026-09-28",
+        "m1": "70.6"
+      },
+      {
+        "p": {
+          "name": "Introducing Claude Opus 5.5",
+          "link": "https://www.anthropic.com/claude-opus-5-5"
+        },
+        "c": "https://github.com/anthropics/claude-code",
+        "n": "Claude Opus 5.5 (Claude Code)",
+        "d": "2026-09-22",
+        "m1": "66.36"
+      },
+      {
+        "p": {
+          "name": "Introducing Claude Fable 5.1 and Claude Mythos 5.1",
+          "link": "https://www.anthropic.com/claude-fable-and-mythos-5-1"
+        },
+        "c": "",
+        "n": "Claude Mythos 5.1 (max) (Claude Code --bare)",
+        "d": "2026-09-01",
+        "m1": "60.9"
+      },
+      {
+        "p": {
+          "name": "GPT-6 Astra: A new generation of intelligence",
+          "link": "https://openai.com/index/gpt-6-astra/"
+        },
+        "c": "https://github.com/openai/codex",
+        "n": "GPT-6 Astra",
+        "d": "2026-09-03",
+        "m1": "57.9"
+      },
+      {
+        "p": {
+          "name": "Gemini 4 Argon: our next era of frontier intelligence",
+          "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+        },
+        "c": "https://github.com/google-gemini/gemini-cli",
+        "n": "Gemini 4 Argon",
+        "d": "2026-09-30",
+        "m1": "57.4"
+      },
+      {
+        "p": {
+          "name": "Muse Wonder: A Frontier Model For Personal & Professional AI Agents",
+          "link": "https://research.meta.ai/blog/muse-wonder"
+        },
+        "c": "",
+        "n": "Muse Wonder Full (max)",
+        "d": "2026-10-12",
+        "m1": "57.1"
+      },
+      {
+        "p": {
+          "name": "Every FLOP Counts: Scaling a 300B Mixture-of-Experts LING LLM without Premium GPUs",
+          "link": "https://arxiv.org/abs/2503.05139"
+        },
+        "c": "https://github.com/inclusionai/vllm-ling-v3",
+        "n": "Ling-3.1-flash (LingCode)",
+        "d": "2025-03-07",
+        "m1": "46.03"
+      },
+      {
+        "p": {
+          "name": "DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression",
+          "link": "https://arxiv.org/abs/2609.19969"
+        },
+        "c": "https://github.com/deepseek-ai/deepseek-recipe",
+        "n": "DeepSeek-V4.1-Flash-1017 (Claude Code)",
+        "d": "2026-09-17",
+        "m1": "42.3"
+      },
+      {
+        "p": {
+          "name": "Introducing Claude Haiku 5.5",
+          "link": "https://www.anthropic.com/claude-haiku-5-5"
+        },
+        "c": "",
+        "n": "Claude Haiku 5.5 (max effort) (Claude Code)",
+        "d": "2026-10-07",
+        "m1": "39.2"
+      },
+      {
+        "p": {
+          "name": "Introducing Grok 4.7",
+          "link": "https://x.ai/news/grok-4-7"
+        },
+        "c": "",
+        "n": "Grok 4.7 (xhigh)",
+        "d": "2026-09-21",
+        "m1": "37.6"
+      },
+      {
+        "p": {
+          "name": "MiMo-V2.6: Scaling Reinforcement Learning Towards Self-Improvement",
+          "link": "https://arxiv.org/abs/2610.11959"
+        },
+        "c": "https://github.com/vllm-project/vllm",
+        "n": "MiMo-V2.6-Pro-RL",
+        "d": "2026-10-08",
+        "m1": "34.9"
+      },
+      {
+        "p": {
+          "name": "Step 5 Preview",
+          "link": "https://huggingface.co/stepfun-ai/Step-5-Preview"
+        },
+        "c": "",
+        "n": "Step 5 Preview (High)",
+        "d": "2026-09-20",
+        "m1": "33.3"
+      },
+      {
+        "p": {
+          "name": "DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression",
+          "link": "https://arxiv.org/abs/2609.19969"
+        },
+        "c": "https://github.com/deepseek-ai/deepseek-recipe",
+        "n": "DeepSeek-V4.1-Flash Max (DeepSeek Harness (Minimal))",
+        "d": "2026-09-17",
+        "m1": "31.2"
+      },
+      {
+        "p": {
+          "name": "Mistral Large 4",
+          "link": "https://mistral.ai/news/mistral-large-4/"
+        },
+        "c": "",
+        "n": "Mistral Large 4 Preview",
+        "d": "2026-10-06",
+        "m1": "28.3"
+      },
+      {
+        "p": {
+          "name": "Introducing SWE-2: Pushing the Pareto Frontier",
+          "link": "https://cognition.com/blog/swe-2"
+        },
+        "c": "",
+        "n": "SWE-2",
+        "d": "2026-09-10",
+        "m1": "27.3"
+      },
+      {
+        "p": {
+          "name": "Terminal-RSI: Recursive Self-Improving Terminal Agents via Recursive Self-Rewrite and Policy-Refine",
+          "link": "https://arxiv.org/abs/2610.22192"
+        },
+        "c": "",
+        "n": "Terminal-RSI-27B",
+        "d": "2026-10-15",
+        "m1": "19.84"
+      },
+      {
+        "p": {
+          "name": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
+          "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/"
+        },
+        "c": "https://github.com/google-gemini/gemini-cli",
+        "n": "Gemini 3.8 Flash",
+        "d": "2026-09-02",
+        "m1": "19.1"
+      },
+      {
+        "p": {
+          "name": "Scaling Trajectories for Complex Tasks through Recursive Self-Rewrite",
+          "link": "https://arxiv.org/abs/2610.02826"
+        },
+        "c": "",
+        "n": "Recursive Self-Rewrite (Qwen-3.8-27B) (general harness)",
+        "d": "2026-10-02",
+        "m1": "6.1"
+      },
+      {
+        "p": {
+          "name": "Self-Supervised Scaling of Terminal Environments for Scientific Domains",
+          "link": "https://arxiv.org/abs/2610.02710"
+        },
+        "c": "",
+        "n": "Qwen3.8-27B (SWR SFT-3000)",
+        "d": "2026-10-02",
+        "m1": "3.54"
+      }
+    ]
+  }
+}

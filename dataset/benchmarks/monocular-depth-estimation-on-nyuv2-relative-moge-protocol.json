@@ -1,0 +1,110 @@
+{
+  "title": "monocular-depth-estimation-on-nyuv2-relative-moge-protocol",
+  "task-hierarchy": [
+    "Depth Estimation",
+    "Monocular Depth Estimation"
+  ],
+  "dataset-info": {
+    "link": "https://cs.nyu.edu/~fergus/datasets/nyu_depth_v2.html",
+    "paper": "Indoor Segmentation and Support Inference from RGBD Images"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AbsRel",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "delta1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Modality Forcing for Scalable Spatial Generation",
+          "link": "https://arxiv.org/abs/2606.13676"
+        },
+        "c": "https://github.com/duisterhof/modality-forcing",
+        "n": "Modality Forcing (FLUX.2-klein-9B)",
+        "d": "2026-06-11",
+        "m1": "0.0252",
+        "m2": "0.989"
+      },
+      {
+        "p": {
+          "name": "MoGe-3: Fine-Detail Monocular Geometry Estimation with Self-Guided Sparse Volumetric Refinement",
+          "link": "https://arxiv.org/abs/2607.17967"
+        },
+        "c": "https://github.com/microsoft/moge",
+        "n": "MoGe-3 (ViT-G)",
+        "d": "2026-07-20",
+        "m1": "0.0262",
+        "m2": "0.987"
+      },
+      {
+        "p": {
+          "name": "PointDiT: Pixel-Space Diffusion for Monocular Geometry Estimation",
+          "link": "https://arxiv.org/abs/2607.02515"
+        },
+        "c": "",
+        "n": "PointDiT-H",
+        "d": "2026-07-02",
+        "m1": "0.0275",
+        "m2": "0.9861"
+      },
+      {
+        "p": {
+          "name": "MoGe-2: Accurate Monocular Geometry with Metric Scale and Sharp Details",
+          "link": "https://arxiv.org/abs/2507.02546"
+        },
+        "c": "https://github.com/microsoft/moge",
+        "n": "MoGe-2",
+        "d": "2025-07-03",
+        "m1": "0.0289",
+        "m2": "0.986"
+      },
+      {
+        "p": {
+          "name": "MoGe: Unlocking Accurate Monocular Geometry Estimation for Open-Domain Images with Optimal Training Supervision",
+          "link": "https://arxiv.org/abs/2410.19115"
+        },
+        "c": "",
+        "n": "MoGe (zero-shot)",
+        "d": "2024-10-24",
+        "m1": "0.0297",
+        "m2": "0.9860"
+      },
+      {
+        "p": {
+          "name": "FoundationGeo: Learning Spatial Pixel-Wise Fields for Monocular Metric Geometry",
+          "link": "https://arxiv.org/abs/2607.11588"
+        },
+        "c": "https://github.com/mx-liu6/foundationgeo",
+        "n": "FoundationGeo-Base (extra data)",
+        "d": "2026-07-13",
+        "m1": "0.0297",
+        "m2": "0.987"
+      }
+    ]
+  }
+}

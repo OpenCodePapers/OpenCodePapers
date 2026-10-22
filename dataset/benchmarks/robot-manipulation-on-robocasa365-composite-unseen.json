@@ -1,0 +1,79 @@
+{
+  "title": "robot-manipulation-on-robocasa365-composite-unseen",
+  "task-hierarchy": [
+    "Robotics",
+    "Robot Manipulation"
+  ],
+  "dataset-info": {
+    "link": "https://arxiv.org/abs/2603.04356",
+    "paper": "RoboCasa365: A Large-Scale Simulation Framework for Training and Benchmarking Generalist Robots"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Success Rate",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Self-Evolving Coding Agents: From Digital Programs to Physical-World Intelligence",
+          "link": "https://arxiv.org/abs/2609.35432"
+        },
+        "c": "https://github.com/HexaFuture/PhysicalCoding",
+        "n": "HexaModel v0.1",
+        "d": "2026-09-28",
+        "m1": "39.5"
+      },
+      {
+        "p": {
+          "name": "ZimaBlue: Evolving Generalizable World Action Models through Scalable Video Pre-training",
+          "link": "https://arxiv.org/abs/2609.00188"
+        },
+        "c": "https://github.com/ZimaBlue-WAM/ZimaBlue",
+        "n": "ZimaBlue (Slow System)",
+        "d": "2026-08-31",
+        "m1": "16.5"
+      },
+      {
+        "p": {
+          "name": "Can World and Action Modeling Benefit Each Other under Unified Causal Training?",
+          "link": "https://arxiv.org/abs/2610.21095"
+        },
+        "c": "https://github.com/Interactive-Active-AI/OneWM",
+        "n": "OneWM",
+        "d": "2026-10-15",
+        "m1": "7.0"
+      },
+      {
+        "p": {
+          "name": "RLDX-1 Technical Report",
+          "link": "https://arxiv.org/abs/2605.03269"
+        },
+        "c": "https://github.com/RLWRLD/RLDX-1",
+        "n": "RLDX-1",
+        "d": "2026-05-05",
+        "m1": "5.6"
+      }
+    ]
+  }
+}

@@ -634,6 +634,106 @@
         "n": "BiDAF + Self Attention + ELMo",
         "d": "2018-02-15",
         "m2": "85.6"
+      },
+      {
+        "p": {
+          "name": "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+          "link": "https://arxiv.org/abs/1909.11942v6"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "ALBERT ensemble",
+        "d": "2019-09-26",
+        "m2": "95.5"
+      },
+      {
+        "p": {
+          "name": "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+          "link": "https://arxiv.org/abs/1907.11692v1"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "RoBERTa",
+        "d": "2019-07-26",
+        "m2": "94.6"
+      },
+      {
+        "p": {
+          "name": "DeBERTa: Decoding-enhanced BERT with Disentangled Attention",
+          "link": "https://arxiv.org/abs/2006.03654v6"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "DeBERTa Large",
+        "d": "2020-06-05",
+        "m2": "95.5"
+      },
+      {
+        "p": {
+          "name": "ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators",
+          "link": "https://arxiv.org/abs/2003.10555v1"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "ELECTRA-1.75M",
+        "d": "2020-03-23",
+        "m2": "94.9"
+      },
+      {
+        "p": {
+          "name": "ERNIE-Gram: Pre-Training with Explicitly N-Gram Masked Language Modeling for Natural Language Understanding",
+          "link": "https://arxiv.org/abs/2010.12148"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleNLP/blob/develop/paddlenlp/transformers/ernie_gram/modeling.py",
+        "n": "ERNIE-Gram",
+        "d": "2020-10-23",
+        "m2": "93.2"
+      },
+      {
+        "p": {
+          "name": "Funnel-Transformer: Filtering out Sequential Redundancy for Efficient Language Processing",
+          "link": "https://arxiv.org/abs/2006.03236v1"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Funnel-Transformer Large",
+        "d": "2020-06-05",
+        "m2": "94.7"
+      },
+      {
+        "p": {
+          "name": "Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism",
+          "link": "https://arxiv.org/abs/1909.08053v4"
+        },
+        "c": "https://github.com/NVIDIA/Megatron-LM",
+        "n": "Megatron-3.9B",
+        "d": "2019-09-17",
+        "m2": "95.5"
+      },
+      {
+        "p": {
+          "name": "MobileBERT: a Compact Task-Agnostic BERT for Resource-Limited Devices",
+          "link": "https://arxiv.org/abs/2004.02984v2"
+        },
+        "c": "https://github.com/tensorflow/models/tree/master/official/nlp/projects/mobilebert",
+        "n": "MobileBERT w/o OPT",
+        "d": "2020-04-06",
+        "m2": "90.3"
+      },
+      {
+        "p": {
+          "name": "MPNet: Masked and Permuted Pre-training for Language Understanding",
+          "link": "https://arxiv.org/abs/2004.09297v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "MPNet Base",
+        "d": "2020-04-20",
+        "m2": "92.7"
+      },
+      {
+        "p": {
+          "name": "GLU Variants Improve Transformer",
+          "link": "https://arxiv.org/abs/2002.05202"
+        },
+        "c": "https://github.com/code-implementation1/Code4",
+        "n": "FFN ReGLU",
+        "d": "2020-02-12",
+        "m2": "91.18"
       }
     ]
   }

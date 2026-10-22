@@ -1,0 +1,109 @@
+{
+  "title": "monocular-depth-estimation-on-ibims-1-metric",
+  "task-hierarchy": [
+    "Depth Estimation",
+    "Monocular Depth Estimation"
+  ],
+  "dataset-info": {
+    "link": "https://openaccess.thecvf.com/content_ECCVW_2018/papers/11131/Koch_Evaluation_of_CNN-based_Single-Image_Depth_Estimation_Methods_ECCVW_2018_paper.pdf",
+    "paper": "Evaluation of CNN-based Single-Image Depth Estimation Methods"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AbsRel",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "UniDepthV2: Universal Monocular Metric Depth Estimation Made Simpler",
+          "link": "https://arxiv.org/abs/2502.20110v1"
+        },
+        "c": "https://github.com/lpiccinelli-eth/unidepth",
+        "n": "UniDepthV2 Large (zero-shot)",
+        "d": "2025-02-27",
+        "m1": "0.078"
+      },
+      {
+        "p": {
+          "name": "MD2E: Modeling Depth-to-Edge Cues for Monocular Metric Depth Estimation",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Ning_MD2E_Modeling_Depth-to-Edge_Cues_for_Monocular_Metric_Depth_Estimation_CVPR_2026_paper.html"
+        },
+        "c": "https://github.com/2j472no/mde",
+        "n": "MD2E (zero-shot) (extra data)",
+        "d": "2026-06-03",
+        "m1": "0.087"
+      },
+      {
+        "p": {
+          "name": "FoundationGeo: Learning Spatial Pixel-Wise Fields for Monocular Metric Geometry",
+          "link": "https://arxiv.org/abs/2607.11588"
+        },
+        "c": "https://github.com/mx-liu6/foundationgeo",
+        "n": "FoundationGeo (extra data)",
+        "d": "2026-07-13",
+        "m1": "0.104"
+      },
+      {
+        "p": {
+          "name": "MoGe-3: Fine-Detail Monocular Geometry Estimation with Self-Guided Sparse Volumetric Refinement",
+          "link": "https://arxiv.org/abs/2607.17967"
+        },
+        "c": "https://github.com/microsoft/moge",
+        "n": "MoGe-3 (ViT-G)",
+        "d": "2026-07-20",
+        "m1": "0.11"
+      },
+      {
+        "p": {
+          "name": "MetricAnything: Scaling Metric Depth Pretraining with Noisy Heterogeneous Sources",
+          "link": "https://arxiv.org/abs/2601.22054"
+        },
+        "c": "https://github.com/metric-anything/metric-anything",
+        "n": "MetricAnything Student-PointMap",
+        "d": "2026-01-29",
+        "m1": "0.113"
+      },
+      {
+        "p": {
+          "name": "MoGe-2: Accurate Monocular Geometry with Metric Scale and Sharp Details",
+          "link": "https://arxiv.org/abs/2507.02546"
+        },
+        "c": "https://github.com/microsoft/moge",
+        "n": "MoGe-2 (zero-shot)",
+        "d": "2025-07-03",
+        "m1": "0.136"
+      },
+      {
+        "p": {
+          "name": "Metric3Dv2: A Versatile Monocular Geometric Foundation Model for Zero-shot Metric Depth and Surface Normal Estimation",
+          "link": "https://arxiv.org/abs/2404.15506v4"
+        },
+        "c": "https://github.com/yvanyin/metric3d",
+        "n": "Metric3Dv2 ConvNeXt-L CSTM_image (zero-shot)",
+        "d": "2024-03-22",
+        "m1": "0.144"
+      }
+    ]
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "title": "zero-shot-anomaly-detection-on-dagm-zero-shot-cross-domain",
+  "task-hierarchy": [
+    "Anomaly Detection",
+    "Zero-Shot Anomaly Detection"
+  ],
+  "dataset-info": {
+    "link": "https://zenodo.org/records/12750201",
+    "paper": "Weakly Supervised Learning for Industrial Optical Inspection"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Detection AUROC",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Segmentation AUROC",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "TIPS Over Tricks: Simple Prompts for Effective Zero-shot Anomaly Detection",
+          "link": "https://arxiv.org/abs/2602.03594"
+        },
+        "c": "https://github.com/alirezasalehy/tipsomaly",
+        "n": "Tipsomaly (TIPS-L/14 HR, Zero-shot)",
+        "d": "2026-02-03",
+        "m1": "99.7",
+        "m2": "97.2"
+      },
+      {
+        "p": {
+          "name": "DLVP-CLIP: Enhancing Fine-Grained Zero-Shot Anomaly Detection via Dynamic Local Visual Prompting",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_DLVP-CLIP_Enhancing_Fine-Grained_Zero-Shot_Anomaly_Detection_via_Dynamic_Local_Visual_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "DLVP-CLIP",
+        "d": "2026-06-03",
+        "m1": "99.3",
+        "m2": "96.8"
+      },
+      {
+        "p": {
+          "name": "Crane: Context-Guided Prompt Learning and Attention Refinement for Zero-Shot Anomaly Detections",
+          "link": "https://arxiv.org/abs/2504.11055"
+        },
+        "c": "https://github.com/alireza99salehi/crane",
+        "n": "Crane (CLIP ViT-L/14@336, zero-shot)",
+        "d": "2025-04-15",
+        "m1": "99.2",
+        "m2": "96.3"
+      },
+      {
+        "p": {
+          "name": "From Attraction to Equilibrium: Physics-Inspired Semantic Gravitons for Zero-Shot Anomaly Detection",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Pan_From_Attraction_to_Equilibrium_Physics-Inspired_Semantic_Gravitons_for_Zero-Shot_Anomaly_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "SGNet",
+        "d": "2026-06-03",
+        "m1": "99.2",
+        "m2": "99.5"
+      },
+      {
+        "p": {
+          "name": "AdaCLIP: Adapting CLIP with Hybrid Learnable Prompts for Zero-Shot Anomaly Detection",
+          "link": "https://arxiv.org/abs/2407.15795v1"
+        },
+        "c": "https://github.com/caoyunkang/adaclip",
+        "n": "AdaCLIP (zero-shot)",
+        "d": "2024-07-22",
+        "m1": "99.1",
+        "m2": "91.5"
+      },
+      {
+        "p": {
+          "name": "Bayesian Prompt Flow Learning for Zero-Shot Anomaly Detection",
+          "link": "https://arxiv.org/abs/2503.10080"
+        },
+        "c": "https://github.com/xiaozhen228/bayes-pfl",
+        "n": "Bayes-PFL (ViT-L/14@336, 518px, cross-domain zero-shot)",
+        "d": "2025-03-13",
+        "m1": "97.7"
+      },
+      {
+        "p": {
+          "name": "VarProtoAD: Variational Prototype-Conditioned Prompting for Zero-Shot Anomaly Detection",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/3553"
+        },
+        "c": "",
+        "n": "VarProtoAD",
+        "d": "2026-09-08",
+        "m1": "97.7"
+      }
+    ]
+  }
+}

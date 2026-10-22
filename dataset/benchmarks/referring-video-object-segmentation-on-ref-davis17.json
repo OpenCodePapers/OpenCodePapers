@@ -46,6 +46,16 @@
     "items": [
       {
         "p": {
+          "name": "Sa2VA: Marrying SAM2 with LLaVA for Dense Grounded Understanding of Images and Videos",
+          "link": "https://arxiv.org/abs/2501.04001"
+        },
+        "c": "https://github.com/magic-research/sa2va",
+        "n": "Sa2VA-Qwen2.5VL-7B (extra data)",
+        "d": "2025-01-07",
+        "m1": "79.4"
+      },
+      {
+        "p": {
           "name": "Training-Free Spatio-temporal Decoupled Reasoning Video Segmentation with Adaptive Object Memory",
           "link": "https://arxiv.org/abs/2603.01545"
         },
@@ -55,6 +65,26 @@
         "m1": "76.0",
         "m2": "73.2",
         "m3": "78.8"
+      },
+      {
+        "p": {
+          "name": "Decomposed Attention Fusion in MLLMs for Training-Free Video Reasoning Segmentation",
+          "link": "https://arxiv.org/abs/2510.19592"
+        },
+        "c": "https://github.com/HYUNJS/DecAF",
+        "n": "DecAF (training-free, Qwen2.5-VL-7B + SAM2) (extra data)",
+        "d": "2025-10-22",
+        "m1": "75.2"
+      },
+      {
+        "p": {
+          "name": "ViLLa: Video Reasoning Segmentation with Large Language Model",
+          "link": "https://arxiv.org/abs/2407.14500v2"
+        },
+        "c": "https://github.com/rkzheng99/villa",
+        "n": "ViLLa (InternVideo2-6B) (extra data)",
+        "d": "2024-07-18",
+        "m1": "74.3"
       },
       {
         "p": {
@@ -70,6 +100,26 @@
       },
       {
         "p": {
+          "name": "Deforming Videos to Masks: Flow Matching for Referring Video Segmentation",
+          "link": "https://arxiv.org/abs/2510.06139"
+        },
+        "c": "https://github.com/xmz111/FlowRVS",
+        "n": "FlowRVS (Wan 2.1 T2V 1.3B DiT, zero-shot) (extra data)",
+        "d": "2025-10-07",
+        "m1": "73.3"
+      },
+      {
+        "p": {
+          "name": "InterRVOS: Interaction-aware Referring Video Object Segmentation",
+          "link": "https://arxiv.org/abs/2506.02356"
+        },
+        "c": "https://github.com/cvlab-kaist/interrvos",
+        "n": "ReVIOSa-4B (standard RVOS, AML-only) (extra data)",
+        "d": "2025-06-03",
+        "m1": "71.6"
+      },
+      {
+        "p": {
           "name": "Temporal-Conditional Referring Video Object Segmentation with Noise-Free Text-to-Video Diffusion Model",
           "link": "https://arxiv.org/abs/2508.13584"
         },
@@ -79,6 +129,46 @@
         "m1": "71.2",
         "m2": "67.5",
         "m3": "75.0"
+      },
+      {
+        "p": {
+          "name": "InstructSeg: Unifying Instructed Visual Segmentation with Multi-modal Large Language Models",
+          "link": "https://arxiv.org/abs/2412.14006"
+        },
+        "c": "https://github.com/congvvc/instructseg",
+        "n": "InstructSeg (Mipha-3B) (extra data)",
+        "d": "2024-12-18",
+        "m1": "71.1"
+      },
+      {
+        "p": {
+          "name": "SAMWISE: Infusing Wisdom in SAM2 for Text-Driven Video Segmentation",
+          "link": "https://arxiv.org/abs/2411.17646v2"
+        },
+        "c": "https://github.com/claudiacuttano/samwise",
+        "n": "SAMWISE (Hiera-B + RoBERTa) (extra data)",
+        "d": "2024-11-26",
+        "m1": "70.6"
+      },
+      {
+        "p": {
+          "name": "VISA: Reasoning Video Object Segmentation via Large Language Models",
+          "link": "https://arxiv.org/abs/2407.11325v1"
+        },
+        "c": "https://github.com/cilinyan/VISA",
+        "n": "VISA Chat-UniVi-13B (extra data)",
+        "d": "2024-07-16",
+        "m1": "70.4"
+      },
+      {
+        "p": {
+          "name": "VideoGLaMM: A Large Multimodal Model for Pixel-Level Visual Grounding in Videos",
+          "link": "https://arxiv.org/abs/2411.04923"
+        },
+        "c": "https://github.com/mbzuai-oryx/VideoGLaMM",
+        "n": "VideoGLaMM (Phi-3 Mini 3.8B, RVOS fine-tuned) (extra data)",
+        "d": "2024-11-07",
+        "m1": "69.5"
       },
       {
         "p": {
@@ -94,6 +184,16 @@
       },
       {
         "p": {
+          "name": "One Token to Seg Them All: Language Instructed Reasoning Segmentation in Videos",
+          "link": "https://arxiv.org/abs/2409.19603v1"
+        },
+        "c": "https://github.com/showlab/videolisa",
+        "n": "VideoLISA-3.8B (Post-optimization) (extra data)",
+        "d": "2024-09-29",
+        "m1": "68.8"
+      },
+      {
+        "p": {
           "name": "Referred by Multi-Modality: A Unified Temporal Transformer for Video Object Segmentation",
           "link": "https://arxiv.org/abs/2305.16318v2"
         },
@@ -103,6 +203,26 @@
         "m1": "68.0",
         "m2": "64.8",
         "m3": "71.3"
+      },
+      {
+        "p": {
+          "name": "UniRef++: Segment Every Reference Object in Spatial and Temporal Spaces",
+          "link": "https://arxiv.org/abs/2312.15715v1"
+        },
+        "c": "https://github.com/foundationvision/uniref",
+        "n": "UniRef++-L (joint multi-task, language-only) (extra data)",
+        "d": "2023-12-25",
+        "m1": "67.2"
+      },
+      {
+        "p": {
+          "name": "Tracking Anything with Decoupled Video Segmentation",
+          "link": "https://arxiv.org/abs/2309.03903v1"
+        },
+        "c": "https://github.com/hkchengrex/Tracking-Anything-with-DEVA",
+        "n": "DEVA + ReferFormer Swin-L (offline) (extra data)",
+        "d": "2023-09-07",
+        "m1": "66.3"
       },
       {
         "p": {
@@ -139,6 +259,16 @@
         "m1": "64.9",
         "m2": "61.7",
         "m3": "68.1"
+      },
+      {
+        "p": {
+          "name": "OnlineRefer: A Simple Online Baseline for Referring Video Object Segmentation",
+          "link": "https://arxiv.org/abs/2307.09356v1"
+        },
+        "c": "https://github.com/wudongming97/onlinerefer",
+        "n": "OnlineRefer Swin-L (online) (extra data)",
+        "d": "2023-07-18",
+        "m1": "64.8"
       },
       {
         "p": {
@@ -187,6 +317,16 @@
         "m1": "61.1",
         "m2": "58.1",
         "m3": "64.1"
+      },
+      {
+        "p": {
+          "name": "Towards Robust Referring Video Object Segmentation with Cyclic Relational Consensus",
+          "link": "https://arxiv.org/abs/2207.01203v3"
+        },
+        "c": "https://github.com/lxa9867/R2VOS",
+        "n": "R²-VOS (ResNet-50, zero-shot) (extra data)",
+        "d": "2022-07-04",
+        "m1": "59.7"
       },
       {
         "p": {

@@ -1,0 +1,269 @@
+{
+  "title": "multi-task-language-understanding-on-mmmlu",
+  "task-hierarchy": [
+    "Natural Language Understanding",
+    "Multi-task Language Understanding"
+  ],
+  "dataset-info": {
+    "link": "https://arxiv.org/abs/2009.03300",
+    "paper": "Measuring Massive Multitask Language Understanding"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Gemini 3.1 Pro: A smarter model for your most complex tasks",
+          "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/"
+        },
+        "c": "",
+        "n": "Gemini 3.1 Pro",
+        "d": "2026-02-19",
+        "m1": "92.6"
+      },
+      {
+        "p": {
+          "name": "Introducing GPT-5.2",
+          "link": "https://openai.com/index/introducing-gpt-5-2/"
+        },
+        "c": "",
+        "n": "GPT-5.2",
+        "d": "2025-12-11",
+        "m1": "89.6"
+      },
+      {
+        "p": {
+          "name": "Claude Opus 4.1",
+          "link": "https://www.anthropic.com/news/claude-opus-4-1"
+        },
+        "c": "",
+        "n": "Claude Opus 4.1",
+        "d": "2025-08-05",
+        "m1": "89.5"
+      },
+      {
+        "p": {
+          "name": "Qwen3.5: Towards Native Multimodal Agents",
+          "link": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Qwen3.5-397B-A17B",
+        "d": "2026-02-16",
+        "m1": "88.5"
+      },
+      {
+        "p": {
+          "name": "Gemma 4 Technical Report",
+          "link": "https://arxiv.org/abs/2607.02770"
+        },
+        "c": "https://github.com/google-deepmind/gemma",
+        "n": "Gemma 4 31B",
+        "d": "2026-07-02",
+        "m1": "88.4"
+      },
+      {
+        "p": {
+          "name": "Introducing Claude 4",
+          "link": "https://www.anthropic.com/news/claude-4"
+        },
+        "c": "",
+        "n": "Claude Opus 4",
+        "d": "2025-05-22",
+        "m1": "87.4"
+      },
+      {
+        "p": {
+          "name": "Qwen3 Technical Report",
+          "link": "https://arxiv.org/abs/2505.09388"
+        },
+        "c": "https://github.com/QwenLM/Qwen3",
+        "n": "Qwen3-235B-A22B (Base)",
+        "d": "2025-05-14",
+        "m1": "86.70"
+      },
+      {
+        "p": {
+          "name": "Qwen3.5: Towards Native Multimodal Agents",
+          "link": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Qwen3.5-122B-A10B",
+        "d": "2026-02-16",
+        "m1": "86.7"
+      },
+      {
+        "p": {
+          "name": "Qwen3.5: Towards Native Multimodal Agents",
+          "link": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Qwen3.5-27B",
+        "d": "2026-02-16",
+        "m1": "85.9"
+      },
+      {
+        "p": {
+          "name": "Introducing Claude 4",
+          "link": "https://www.anthropic.com/news/claude-4"
+        },
+        "c": "",
+        "n": "Claude Sonnet 4",
+        "d": "2025-05-22",
+        "m1": "85.4"
+      },
+      {
+        "p": {
+          "name": "Qwen3.5: Towards Native Multimodal Agents",
+          "link": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Qwen3.5-35B-A3B",
+        "d": "2026-02-16",
+        "m1": "85.2"
+      },
+      {
+        "p": {
+          "name": "On the Design of Qwen3.8-Next Architecture: Evaluation, Efficiency, and Training Stability",
+          "link": "https://arxiv.org/abs/2608.30320"
+        },
+        "c": "https://github.com/qwenlm/flashqla",
+        "n": "Qwen3.8-Flash-Next-Base",
+        "d": "2026-08-31",
+        "m1": "84.86"
+      },
+      {
+        "p": {
+          "name": "Qwen3 Technical Report",
+          "link": "https://arxiv.org/abs/2505.09388"
+        },
+        "c": "https://github.com/QwenLM/Qwen3",
+        "n": "Qwen3-235B-A22B (Thinking)",
+        "d": "2025-05-14",
+        "m1": "84.3"
+      },
+      {
+        "p": {
+          "name": "Gemma 4 Technical Report",
+          "link": "https://arxiv.org/abs/2607.02770"
+        },
+        "c": "https://github.com/google-deepmind/gemma",
+        "n": "Gemma 4 12B Unified",
+        "d": "2026-07-02",
+        "m1": "83.4"
+      },
+      {
+        "p": {
+          "name": "Claude 3.7 Sonnet and Claude Code",
+          "link": "https://www.anthropic.com/news/claude-3-7-sonnet"
+        },
+        "c": "",
+        "n": "Claude 3.7 Sonnet",
+        "d": "2025-02-24",
+        "m1": "83.2"
+      },
+      {
+        "p": {
+          "name": "DiffusionGemma Technical Report",
+          "link": "https://arxiv.org/abs/2608.00146"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "DiffusionGemma 26B A4B",
+        "d": "2026-07-31",
+        "m1": "81.5"
+      },
+      {
+        "p": {
+          "name": "gpt-oss-120b & gpt-oss-20b Model Card",
+          "link": "https://arxiv.org/abs/2508.10925"
+        },
+        "c": "",
+        "n": "gpt-oss-120b",
+        "d": "2025-08-08",
+        "m1": "81.3"
+      },
+      {
+        "p": {
+          "name": "Qwen3.5: Towards Native Multimodal Agents",
+          "link": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Qwen3.5-9B",
+        "d": "2026-02-16",
+        "m1": "81.2"
+      },
+      {
+        "p": {
+          "name": "Qwen3 Technical Report",
+          "link": "https://arxiv.org/abs/2505.09388"
+        },
+        "c": "https://github.com/QwenLM/Qwen3",
+        "n": "Qwen3-235B-A22B (Non-thinking)",
+        "d": "2025-05-14",
+        "m1": "79.8"
+      },
+      {
+        "p": {
+          "name": "ERNIE 5.0 Technical Report",
+          "link": "https://arxiv.org/abs/2602.04705"
+        },
+        "c": "",
+        "n": "ERNIE 5.0-Base",
+        "d": "2026-02-04",
+        "m1": "78.94"
+      },
+      {
+        "p": {
+          "name": "ChatGLM: A Family of Large Language Models from GLM-130B to GLM-4 All Tools",
+          "link": "https://arxiv.org/abs/2406.12793"
+        },
+        "c": "https://github.com/zai-org/GLM-4",
+        "n": "GLM-4-9B-Chat",
+        "d": "2024-06-18",
+        "m1": "56.6"
+      },
+      {
+        "p": {
+          "name": "LFM2 Technical Report",
+          "link": "https://arxiv.org/abs/2511.23404"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "LFM2-8B-A1B (0-shot)",
+        "d": "2025-11-28",
+        "m1": "55.26"
+      },
+      {
+        "p": {
+          "name": "Phi-4-Mini Technical Report: Compact yet Powerful Multimodal Language Models via Mixture-of-LoRAs",
+          "link": "https://arxiv.org/abs/2503.01743"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Phi-4-Mini (5-shot)",
+        "d": "2025-02-24",
+        "m1": "49.3"
+      }
+    ]
+  }
+}

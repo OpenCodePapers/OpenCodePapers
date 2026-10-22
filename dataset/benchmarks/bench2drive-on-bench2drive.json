@@ -24,6 +24,11 @@
         "sortable": "true"
       },
       {
+        "key": "m2",
+        "label": "Success Rate",
+        "sortable": "true"
+      },
+      {
         "key": "n",
         "label": "ModelName"
       },
@@ -36,6 +41,28 @@
     "items": [
       {
         "p": {
+          "name": "BridgeDrive: Diffusion Bridge Policy for Closed-Loop Trajectory Planning in Autonomous Driving",
+          "link": "https://arxiv.org/abs/2509.23589"
+        },
+        "c": "https://github.com/shuliu-ethz/bridgedrive",
+        "n": "BridgeDrive (LEAD-trained)",
+        "d": "2025-09-28",
+        "m1": "96.34",
+        "m2": "89.25"
+      },
+      {
+        "p": {
+          "name": "LEAD: Minimizing Learner-Expert Asymmetry in End-to-End Driving",
+          "link": "https://arxiv.org/abs/2512.20563"
+        },
+        "c": "https://github.com/autonomousvision/lead",
+        "n": "TFv6 RegNetY-032 (140° FOV, LiDAR + Radar) (extra data)",
+        "d": "2025-12-23",
+        "m1": "95.2",
+        "m2": "86.8"
+      },
+      {
+        "p": {
           "name": "Unifying Language-Action Understanding and Generation for Autonomous Driving",
           "link": "https://arxiv.org/abs/2603.01441"
         },
@@ -43,6 +70,39 @@
         "n": "LinkVLA",
         "d": "2026-03-02",
         "m1": "91.01"
+      },
+      {
+        "p": {
+          "name": "SteerVLA: Steering Vision-Language-Action Models in Long-Tail Driving Scenarios",
+          "link": "https://arxiv.org/abs/2602.08440"
+        },
+        "c": "",
+        "n": "SteerVLA",
+        "d": "2026-02-13",
+        "m1": "90.71",
+        "m2": "73.64"
+      },
+      {
+        "p": {
+          "name": "BLUE: Toward Better Language Use in Efficient Vision-Language-Action Models for Autonomous Driving",
+          "link": "https://arxiv.org/abs/2606.08684"
+        },
+        "c": "https://github.com/george-ling3/blue",
+        "n": "BLUE",
+        "d": "2026-06-07",
+        "m1": "90.58",
+        "m2": "76.18"
+      },
+      {
+        "p": {
+          "name": "RoG-DAgger: Rollout-Guided Post-Training for End-to-End Driving",
+          "link": "https://arxiv.org/abs/2608.24525"
+        },
+        "c": "",
+        "n": "RoG-DAgger",
+        "d": "2026-08-25",
+        "m1": "90.34",
+        "m2": "73.51"
       },
       {
         "p": {
@@ -66,6 +126,28 @@
       },
       {
         "p": {
+          "name": "SparseDriveV2: Scoring is All You Need for End-to-End Autonomous Driving",
+          "link": "https://arxiv.org/abs/2603.29163"
+        },
+        "c": "https://github.com/swc-17/SparseDriveV2",
+        "n": "SparseDriveV2",
+        "d": "2026-03-31",
+        "m1": "89.15",
+        "m2": "70"
+      },
+      {
+        "p": {
+          "name": "VLADriver-RAG: Retrieval-Augmented Vision-Language-Action Models for Autonomous Driving",
+          "link": "https://arxiv.org/abs/2605.08133"
+        },
+        "c": "https://github.com/infinidrive/vladriver-rag",
+        "n": "VLADriver-RAG",
+        "d": "2026-05-01",
+        "m1": "89.12",
+        "m2": "70.42"
+      },
+      {
+        "p": {
           "name": "AlignDrive: Aligned Lateral-Longitudinal Planning for End-to-End Autonomous Driving",
           "link": "https://arxiv.org/abs/2601.01762"
         },
@@ -73,6 +155,50 @@
         "n": "AlignDrive",
         "d": "2026-01-05",
         "m1": "89.07"
+      },
+      {
+        "p": {
+          "name": "PersonaDrive: Human-Style Retrieval-Augmented VLA Agents for Closed-Loop Driving Simulation",
+          "link": "https://arxiv.org/abs/2606.12616"
+        },
+        "c": "",
+        "n": "PersonaDrive",
+        "d": "2026-06-10",
+        "m1": "88.95",
+        "m2": "72.29"
+      },
+      {
+        "p": {
+          "name": "VECTOR-Drive: Tightly Coupled Vision-Language and Trajectory Expert Routing for End-to-End Autonomous Driving",
+          "link": "https://arxiv.org/abs/2605.08830"
+        },
+        "c": "",
+        "n": "VECTOR-DRIVE",
+        "d": "2026-05-09",
+        "m1": "88.91",
+        "m2": "71.82"
+      },
+      {
+        "p": {
+          "name": "GraphPilot: Grounded Scene Graph Conditioning for Language-Based Autonomous Driving",
+          "link": "https://arxiv.org/abs/2511.11266"
+        },
+        "c": "https://github.com/iis-esslingen/graphpilot",
+        "n": "GraphPilot (SimLingo, SG10 JSON V2)",
+        "d": "2025-11-14",
+        "m1": "88.89",
+        "m2": "72.73"
+      },
+      {
+        "p": {
+          "name": "KnowVal: A Knowledge-Augmented and Value-Guided Autonomous Driving System",
+          "link": "https://arxiv.org/abs/2512.20299"
+        },
+        "c": "",
+        "n": "KnowVal-SimLingo",
+        "d": "2025-12-23",
+        "m1": "88.42",
+        "m2": "69.03"
       },
       {
         "p": {
@@ -96,6 +222,39 @@
       },
       {
         "p": {
+          "name": "MAPLE: Latent Multi-Agent Play for End-to-End Autonomous Driving",
+          "link": "https://arxiv.org/abs/2605.14201"
+        },
+        "c": "",
+        "n": "MAPLE (PDM-Lite-trained)",
+        "d": "2026-05-13",
+        "m1": "88.3",
+        "m2": "70.5"
+      },
+      {
+        "p": {
+          "name": "SafeDriveVLA: Navigation-Conditioned World Model Dreaming for Conflict-Aware End-to-End Autonomous Driving",
+          "link": "https://arxiv.org/abs/2610.20609"
+        },
+        "c": "https://github.com/ASGuard-UCI/safedrive-vla",
+        "n": "SafeDriveVLA",
+        "d": "2026-10-14",
+        "m1": "88.16",
+        "m2": "68.64"
+      },
+      {
+        "p": {
+          "name": "What Matters for Scalable and Robust Learning in End-to-End Driving Planners?",
+          "link": "https://arxiv.org/abs/2603.15185"
+        },
+        "c": "https://github.com/dmholtz/bevad",
+        "n": "BevAD-M",
+        "d": "2026-03-16",
+        "m1": "88.11",
+        "m2": "72.73"
+      },
+      {
+        "p": {
           "name": "Judge, Then Drive: A Critic-Centric Vision Language Action Framework for Autonomous Driving",
           "link": "https://arxiv.org/abs/2604.27366"
         },
@@ -106,6 +265,17 @@
       },
       {
         "p": {
+          "name": "Causality-Aware End-to-End Autonomous Driving via Ego-Centric Joint Scene Modeling",
+          "link": "https://arxiv.org/abs/2605.13646"
+        },
+        "c": "",
+        "n": "CaAD",
+        "d": "2026-05-13",
+        "m1": "87.53",
+        "m2": "71.81"
+      },
+      {
+        "p": {
           "name": "AutoMoT: A Unified Vision-Language-Action Model with Asynchronous Mixture-of-Transformers for End-to-End Autonomous Driving",
           "link": "https://arxiv.org/abs/2603.14851"
         },
@@ -113,6 +283,28 @@
         "n": "AutoMoT",
         "d": "2026-03-16",
         "m1": "87.34"
+      },
+      {
+        "p": {
+          "name": "UniTeD: Unified Temporal Diffusion for Joint Perception and Planning in Autonomous Driving",
+          "link": "https://arxiv.org/abs/2606.25736"
+        },
+        "c": "",
+        "n": "UniTeD",
+        "d": "2026-06-24",
+        "m1": "87.3",
+        "m2": "70.0"
+      },
+      {
+        "p": {
+          "name": "Latent-Centroid Steering: Single-Pass Classifier-Free Guidance for Command-Aligned Autonomous Driving",
+          "link": "https://arxiv.org/abs/2608.00237"
+        },
+        "c": "",
+        "n": "LCS",
+        "d": "2026-07-31",
+        "m1": "87.18",
+        "m2": "71.16"
       },
       {
         "p": {
@@ -153,6 +345,17 @@
       },
       {
         "p": {
+          "name": "Reinforced Refinement with Self-Aware Expansion for End-to-End Autonomous Driving",
+          "link": "https://arxiv.org/abs/2506.09800"
+        },
+        "c": "",
+        "n": "R2SE",
+        "d": "2025-06-11",
+        "m1": "86.28",
+        "m2": "69.54"
+      },
+      {
+        "p": {
           "name": "CarLLaVA: Vision language models for camera-only closed-loop driving",
           "link": "https://arxiv.org/abs/2406.10165v1"
         },
@@ -163,6 +366,17 @@
       },
       {
         "p": {
+          "name": "SimLingo: Vision-Only Closed-Loop Autonomous Driving with Language-Action Alignment",
+          "link": "https://arxiv.org/abs/2503.09594"
+        },
+        "c": "https://github.com/RenzKa/simlingo",
+        "n": "SimLingo",
+        "d": "2025-03-12",
+        "m1": "85.07",
+        "m2": "67.27"
+      },
+      {
+        "p": {
           "name": "Hidden Biases of End-to-End Driving Models",
           "link": "https://arxiv.org/abs/2306.07957v2"
         },
@@ -170,6 +384,39 @@
         "n": "TransFuser++",
         "d": "2023-06-13",
         "m1": "84.21"
+      },
+      {
+        "p": {
+          "name": "Hidden Biases of End-to-End Driving Datasets",
+          "link": "https://arxiv.org/abs/2412.09602"
+        },
+        "c": "https://github.com/autonomousvision/carla_garage",
+        "n": "TF++ (Big + Pre + Ens) (extra data)",
+        "d": "2024-12-12",
+        "m1": "84.21",
+        "m2": "67.27"
+      },
+      {
+        "p": {
+          "name": "Selective Temporal Fusion using Recurrent Attention for End-to-End Autonomous Driving",
+          "link": "https://doi.org/10.5324/zpjv0r03"
+        },
+        "c": "",
+        "n": "TF++ w/ TFM+void",
+        "d": "2025-11-24",
+        "m1": "83.69",
+        "m2": "64.85"
+      },
+      {
+        "p": {
+          "name": "Drive My Way: Preference Alignment of Vision-Language-Action Model for Personalized Driving",
+          "link": "https://arxiv.org/abs/2603.25740"
+        },
+        "c": "",
+        "n": "DMW (Conservative)",
+        "d": "2026-03-26",
+        "m1": "82.72",
+        "m2": "71.56"
       },
       {
         "p": {
@@ -203,6 +450,17 @@
       },
       {
         "p": {
+          "name": "Orion-Lite: Distilling LLM Reasoning into Efficient Vision-Only Driving Models",
+          "link": "https://arxiv.org/abs/2604.08266"
+        },
+        "c": "https://github.com/tue-mps/orion-lite",
+        "n": "Orion-Lite",
+        "d": "2026-04-09",
+        "m1": "80.57",
+        "m2": "55.45"
+      },
+      {
+        "p": {
           "name": "CoT4AD: A Vision-Language-Action Model with Explicit Chain-of-Thought Reasoning for Autonomous Driving",
           "link": "https://arxiv.org/abs/2511.22532"
         },
@@ -220,6 +478,17 @@
         "n": "GeRo (Qwen2.5VL)",
         "d": "2026-01-16",
         "m1": "79.60"
+      },
+      {
+        "p": {
+          "name": "DriveStack-VLA: Render-Teacher Alignment for BEV-Based DeepStack Vision-Language-Action Model",
+          "link": "https://arxiv.org/abs/2606.24051"
+        },
+        "c": "",
+        "n": "DriveStack-VLA",
+        "d": "2026-06-23",
+        "m1": "79.49",
+        "m2": "56.36"
       },
       {
         "p": {
@@ -253,6 +522,17 @@
       },
       {
         "p": {
+          "name": "VLGA: Vision-Language-Geometry-Action Models for Autonomous Driving",
+          "link": "https://arxiv.org/abs/2606.12396"
+        },
+        "c": "https://github.com/yaojin17/vlga",
+        "n": "VLGA",
+        "d": "2026-06-10",
+        "m1": "79.08",
+        "m2": "52.73"
+      },
+      {
+        "p": {
           "name": "AutoVLA: A Vision-Language-Action Model for End-to-End Autonomous Driving with Adaptive Reasoning and Reinforcement Fine-Tuning",
           "link": "https://arxiv.org/abs/2506.13757"
         },
@@ -260,6 +540,17 @@
         "n": "AutoVLA",
         "d": "2025-06-16",
         "m1": "78.84"
+      },
+      {
+        "p": {
+          "name": "MomADv2: Reliable Temporal Memory for End-to-End Autonomous Driving",
+          "link": "https://arxiv.org/abs/2608.23405"
+        },
+        "c": "",
+        "n": "MomADv2",
+        "d": "2026-08-24",
+        "m1": "78.82",
+        "m2": "46.5"
       },
       {
         "p": {
@@ -290,6 +581,17 @@
         "n": "CogDriver",
         "d": "2025-08-31",
         "m1": "78.21"
+      },
+      {
+        "p": {
+          "name": "ExpertAD: Enhancing Autonomous Driving Systems with Mixture of Experts",
+          "link": "https://arxiv.org/abs/2511.11740"
+        },
+        "c": "",
+        "n": "Expert-VADv2",
+        "d": "2025-11-13",
+        "m1": "78.18",
+        "m2": "58.34"
       },
       {
         "p": {
@@ -333,6 +635,17 @@
       },
       {
         "p": {
+          "name": "VADv2: End-to-End Vectorized Autonomous Driving via Probabilistic Planning",
+          "link": "https://arxiv.org/abs/2402.13243v1"
+        },
+        "c": "https://github.com/hustvl/vad",
+        "n": "VADv2",
+        "d": "2024-02-20",
+        "m1": "76.15",
+        "m2": "50.46"
+      },
+      {
+        "p": {
           "name": "MindDrive: A Vision-Language-Action Model for Autonomous Driving via Online Reinforcement Learning",
           "link": "https://arxiv.org/abs/2512.13636"
         },
@@ -353,6 +666,17 @@
       },
       {
         "p": {
+          "name": "GuideFlow: Constraint-Guided Flow Matching for Planning in End-to-End Autonomous Driving",
+          "link": "https://arxiv.org/abs/2511.18729"
+        },
+        "c": "https://github.com/adept-thu/guideflow",
+        "n": "GuideFlow",
+        "d": "2025-11-24",
+        "m1": "75.21",
+        "m2": "51.36"
+      },
+      {
+        "p": {
           "name": "Raw2Drive: Reinforcement Learning with Aligned World Models for End-to-End Autonomous Driving (in CARLA v2)",
           "link": "https://arxiv.org/abs/2505.16394v1"
         },
@@ -367,6 +691,17 @@
         "n": "ETA",
         "d": "",
         "m1": "74.33"
+      },
+      {
+        "p": {
+          "name": "ETA: Efficiency through Thinking Ahead, A Dual Approach to Self-Driving with Large Models",
+          "link": "https://arxiv.org/abs/2506.07725"
+        },
+        "c": "",
+        "n": "ETA Base Model",
+        "d": "2025-06-09",
+        "m1": "74.33",
+        "m2": "48.33"
       },
       {
         "p": {
@@ -409,11 +744,66 @@
         "m1": "71.39"
       },
       {
+        "p": {
+          "name": "ReCogDrive: A Reinforced Cognitive Framework for End-to-End Autonomous Driving",
+          "link": "https://arxiv.org/abs/2506.08052v1"
+        },
+        "c": "https://github.com/xiaomi-research/recogdrive",
+        "n": "ReCogDrive (extra data)",
+        "d": "2025-06-09",
+        "m1": "71.36",
+        "m2": "45.45"
+      },
+      {
+        "p": {
+          "name": "Large Language Model-assisted Autonomous Vehicle Recovery from Immobilization",
+          "link": "https://arxiv.org/abs/2510.26023"
+        },
+        "c": "",
+        "n": "Behavior Agent + StuckSolver†",
+        "d": "2025-10-29",
+        "m1": "70.89",
+        "m2": "50.01"
+      },
+      {
+        "p": {
+          "name": "SoAD: Safety-Oriented Value Estimation for Enhanced Closed-Loop End-to-End Autonomous Driving",
+          "link": "https://ieeexplore.ieee.org/abstract/document/11516327"
+        },
+        "c": "",
+        "n": "SoAD",
+        "d": "2026-08-01",
+        "m1": "70.47",
+        "m2": "41.36"
+      },
+      {
         "p": "",
         "c": "",
         "n": "DRIVER",
         "d": "",
         "m1": "68.90"
+      },
+      {
+        "p": {
+          "name": "DIVER: Reinforced Diffusion Breaks Imitation Bottlenecks in End-to-End Autonomous Driving",
+          "link": "https://arxiv.org/abs/2507.04049"
+        },
+        "c": "https://github.com/adept-thu/diver",
+        "n": "DIVER",
+        "d": "2025-07-05",
+        "m1": "68.9",
+        "m2": "36.75"
+      },
+      {
+        "p": {
+          "name": "Occlusion-Aware Interactive End-to-End Autonomous Driving for Right-of-Way Conflicts",
+          "link": "https://www.mdpi.com/2075-1702/13/10/965"
+        },
+        "c": "",
+        "n": "OAIAD",
+        "d": "2025-10-20",
+        "m1": "68.73",
+        "m2": "48.86"
       },
       {
         "p": {
@@ -424,6 +814,17 @@
         "n": "DiffAD",
         "d": "2025-03-15",
         "m1": "67.92"
+      },
+      {
+        "p": {
+          "name": "Kinematic priors guide generative trajectory planning for autonomous vehicles",
+          "link": "https://www.sciencedirect.com/science/article/pii/S0031320326000245"
+        },
+        "c": "",
+        "n": "Diffusion-Phy",
+        "d": "2026-07-31",
+        "m1": "67.49",
+        "m2": "36.51"
       },
       {
         "p": "",
@@ -464,6 +865,39 @@
       },
       {
         "p": {
+          "name": "CAPS: Context-Aware Priority Sampling for Enhanced Imitation Learning in Autonomous Driving",
+          "link": "https://arxiv.org/abs/2503.01650"
+        },
+        "c": "",
+        "n": "CAPS",
+        "d": "2025-03-03",
+        "m1": "66.76",
+        "m2": "52.87"
+      },
+      {
+        "p": {
+          "name": "RAP: 3D Rasterization Augmented End-to-End Planning",
+          "link": "https://arxiv.org/abs/2510.04333"
+        },
+        "c": "https://github.com/vita-epfl/RAP",
+        "n": "RAP-ResNet",
+        "d": "2025-10-05",
+        "m1": "66.42",
+        "m2": "37.27"
+      },
+      {
+        "p": {
+          "name": "VDRive: Leveraging Reinforced VLA and Diffusion Policy for End-to-end Autonomous Driving",
+          "link": "https://arxiv.org/abs/2510.15446"
+        },
+        "c": "",
+        "n": "VDRive",
+        "d": "2025-10-17",
+        "m1": "66.25",
+        "m2": "50.51"
+      },
+      {
+        "p": {
           "name": "DriveMamba: Task-Centric Scalable State Space Model for Efficient End-to-End Autonomous Driving",
           "link": "https://arxiv.org/abs/2602.13301"
         },
@@ -471,6 +905,17 @@
         "n": "DriveMamba-Base",
         "d": "2026-02-09",
         "m1": "65.50"
+      },
+      {
+        "p": {
+          "name": "HiPro-AD: Sparse Trajectory Transformer for End-to-End Autonomous Driving with Hybrid Spatiotemporal Attention",
+          "link": "https://www.mdpi.com/1424-8220/26/1/185"
+        },
+        "c": "",
+        "n": "HiPro-AD",
+        "d": "2025-12-26",
+        "m1": "65.48",
+        "m2": "37.31"
       },
       {
         "p": {
@@ -594,6 +1039,17 @@
       },
       {
         "p": {
+          "name": "End-to-End Driving with Online Trajectory Evaluation via BEV World Model",
+          "link": "https://arxiv.org/abs/2504.01941v1"
+        },
+        "c": "https://github.com/liyingyanucas/wote",
+        "n": "WoTE",
+        "d": "2025-04-02",
+        "m1": "61.71",
+        "m2": "31.36"
+      },
+      {
+        "p": {
           "name": "DriveMamba: Task-Centric Scalable State Space Model for Efficient End-to-End Autonomous Driving",
           "link": "https://arxiv.org/abs/2602.13301"
         },
@@ -614,6 +1070,17 @@
       },
       {
         "p": {
+          "name": "Future-Aware End-to-End Driving: Bidirectional Modeling of Trajectory Planning and Scene Evolution",
+          "link": "https://arxiv.org/abs/2510.11092"
+        },
+        "c": "",
+        "n": "SeerDrive",
+        "d": "2025-10-13",
+        "m1": "58.32",
+        "m2": "30.17"
+      },
+      {
+        "p": {
           "name": "LADY: Linear Attention for Autonomous Driving Efficiency without Transformers",
           "link": "https://arxiv.org/abs/2512.15038"
         },
@@ -621,6 +1088,17 @@
         "n": "LADY (10 frames)",
         "d": "2025-12-17",
         "m1": "57.52"
+      },
+      {
+        "p": {
+          "name": "IRL-VLA: Training an Vision-Language-Action Policy via Reward World Model",
+          "link": "https://arxiv.org/abs/2508.06571"
+        },
+        "c": "",
+        "n": "IRL-VLA-RL",
+        "d": "2025-08-07",
+        "m1": "55.36",
+        "m2": "28.24"
       },
       {
         "p": {
@@ -664,6 +1142,28 @@
       },
       {
         "p": {
+          "name": "Embodied Cognition Augmented End2End Autonomous Driving",
+          "link": "https://arxiv.org/abs/2511.01334"
+        },
+        "c": "https://github.com/air-discover/e-cubed-ad",
+        "n": "E³AD (UniAD-Base)",
+        "d": "2025-11-03",
+        "m1": "50.07",
+        "m2": "20.12"
+      },
+      {
+        "p": {
+          "name": "Bridging Past and Future: End-to-End Autonomous Driving with Historical Prediction and Planning",
+          "link": "https://arxiv.org/abs/2503.14182"
+        },
+        "c": "https://github.com/fudan-zvg/bridgead",
+        "n": "BridgeAD",
+        "d": "2025-03-18",
+        "m1": "50.06",
+        "m2": "22.73"
+      },
+      {
+        "p": {
           "name": "LADY: Linear Attention for Autonomous Driving Efficiency without Transformers",
           "link": "https://arxiv.org/abs/2512.15038"
         },
@@ -671,6 +1171,28 @@
         "n": "LADY (1 frame)",
         "d": "2025-12-17",
         "m1": "50.06"
+      },
+      {
+        "p": {
+          "name": "CausalVAD: De-confounding End-to-End Autonomous Driving via Causal Intervention",
+          "link": "https://arxiv.org/abs/2603.18561"
+        },
+        "c": "",
+        "n": "CausalVAD",
+        "d": "2026-03-19",
+        "m1": "49.83",
+        "m2": "19.42"
+      },
+      {
+        "p": {
+          "name": "Decoupling Scene Perception and Ego Status: A Multi-Context Fusion Approach for Enhanced Generalization in End-to-End Autonomous Driving",
+          "link": "https://arxiv.org/abs/2511.13079"
+        },
+        "c": "",
+        "n": "AdaptiveAD",
+        "d": "2025-11-17",
+        "m1": "49.47",
+        "m2": "19.23"
       },
       {
         "p": {
@@ -711,6 +1233,17 @@
       },
       {
         "p": {
+          "name": "Don't Shake the Wheel: Momentum-Aware Planning in End-to-End Autonomous Driving",
+          "link": "https://arxiv.org/abs/2503.03125"
+        },
+        "c": "https://github.com/adept-thu/momad",
+        "n": "MomAD",
+        "d": "2025-03-05",
+        "m1": "47.91",
+        "m2": "18.11"
+      },
+      {
+        "p": {
           "name": "Planning-oriented Autonomous Driving",
           "link": "https://arxiv.org/abs/2212.10156v2"
         },
@@ -718,6 +1251,28 @@
         "n": "UniAD-Base",
         "d": "2022-12-20",
         "m1": "45.81"
+      },
+      {
+        "p": {
+          "name": "FocalAD: Local Motion Planning for End-to-End Autonomous Driving",
+          "link": "https://arxiv.org/abs/2506.11419"
+        },
+        "c": "",
+        "n": "FocalAD",
+        "d": "2025-06-13",
+        "m1": "45.77",
+        "m2": "17.3"
+      },
+      {
+        "p": {
+          "name": "Dual-AEB: Synergizing Rule-Based and Multimodal Large Language Models for Effective Emergency Braking",
+          "link": "https://arxiv.org/abs/2410.08616"
+        },
+        "c": "https://github.com/chipsicu/dual-aeb",
+        "n": "VAD + Dual-AEB",
+        "d": "2024-10-11",
+        "m1": "45.23",
+        "m2": "10.0"
       },
       {
         "p": {
@@ -758,6 +1313,17 @@
         "n": "VAD",
         "d": "2023-03-21",
         "m1": "42.35"
+      },
+      {
+        "p": {
+          "name": "ReAL-AD: Towards Human-Like Reasoning in End-to-End Autonomous Driving",
+          "link": "https://arxiv.org/abs/2507.12499"
+        },
+        "c": "",
+        "n": "ReAL-AD (VAD + MiniCPM-V)",
+        "d": "2025-07-16",
+        "m1": "41.17",
+        "m2": "11.36"
       },
       {
         "p": {

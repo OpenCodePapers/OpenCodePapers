@@ -76,6 +76,16 @@
       },
       {
         "p": {
+          "name": "Decoder Pre-Training with only Text for Scene Text Recognition",
+          "link": "https://arxiv.org/abs/2408.05706"
+        },
+        "c": "https://github.com/topdu/openocr",
+        "n": "PARSeq + DPTR (real-data training) (extra data)",
+        "d": "2024-08-11",
+        "m1": "85.0"
+      },
+      {
+        "p": {
           "name": "Scene Text Recognition with Permuted Autoregressive Sequence Models",
           "link": "https://arxiv.org/abs/2207.06966v1"
         },
@@ -83,6 +93,36 @@
         "n": "PARSeq",
         "d": "2022-07-14",
         "m1": "84.5±0.1"
+      },
+      {
+        "p": {
+          "name": "LISTER: Neighbor Decoding for Length-Insensitive Scene Text Recognition",
+          "link": "https://arxiv.org/abs/2308.12774"
+        },
+        "c": "https://github.com/alibabaresearch/advancedliteratemachinery",
+        "n": "LISTER-Bh",
+        "d": "2023-08-24",
+        "m1": "82.8"
+      },
+      {
+        "p": {
+          "name": "Focus on the Whole Character: Discriminative Character Modeling for Scene Text Recognition",
+          "link": "https://arxiv.org/abs/2407.05562"
+        },
+        "c": "https://github.com/bang123-box/cfe",
+        "n": "CFE-Base (synthetic training) (extra data)",
+        "d": "2024-07-08",
+        "m1": "72.8"
+      },
+      {
+        "p": {
+          "name": "CDistNet: Perceiving Multi-Domain Character Distance for Robust Text Recognition",
+          "link": "https://arxiv.org/abs/2111.11011v5"
+        },
+        "c": "https://github.com/topdu/openocr",
+        "n": "CDistNet (extra data)",
+        "d": "2021-11-22",
+        "m1": "58.82"
       }
     ]
   }

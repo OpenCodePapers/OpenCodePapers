@@ -1,0 +1,208 @@
+{
+  "title": "video-question-answering-on-videoholmes",
+  "task-hierarchy": [
+    "Video Question Answering"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/TencentARC/Video-Holmes",
+    "paper": "Video-Holmes: Can MLLM Think Like Holmes for Complex Video Reasoning?"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "OmniSeek: Native Tool Integration for Multi-turn Audio-Visual Reasoning",
+          "link": "https://arxiv.org/abs/2610.02181"
+        },
+        "c": "",
+        "n": "OmniSeek (ours)",
+        "d": "2026-10-01",
+        "m1": "74.6"
+      },
+      {
+        "p": {
+          "name": "Annotations as Rollouts: Efficient and Scalable Reinforcement Learning for Video MLLMs",
+          "link": "https://arxiv.org/abs/2608.20492"
+        },
+        "c": "https://github.com/HVision-NKU/OraRL",
+        "n": "Video-ORA-9B",
+        "d": "2026-08-20",
+        "m1": "65.5"
+      },
+      {
+        "p": {
+          "name": "MiniCPM-o 4.5: Towards Real-Time Full-Duplex Omni-Modal Interaction",
+          "link": "https://arxiv.org/abs/2604.27393"
+        },
+        "c": "https://github.com/OpenBMB/MiniCPM-o",
+        "n": "MiniCPM-o 4.5-Instruct",
+        "d": "2026-04-30",
+        "m1": "64.3"
+      },
+      {
+        "p": {
+          "name": "Omni-Streaming Thinking",
+          "link": "https://arxiv.org/abs/2609.15128"
+        },
+        "c": "https://github.com/enjundu/ost",
+        "n": "OST",
+        "d": "2026-09-14",
+        "m1": "60.0"
+      },
+      {
+        "p": {
+          "name": "EventLens: Event-Structure Reinforcement Learning for Video Understanding",
+          "link": "https://arxiv.org/abs/2610.16172"
+        },
+        "c": "https://github.com/lostgreen/eventlens",
+        "n": "EventLens-8B",
+        "d": "2026-10-12",
+        "m1": "59.44"
+      },
+      {
+        "p": {
+          "name": "Training-Free Speech-Centric Omni Understanding with Frozen VLMs",
+          "link": "https://arxiv.org/abs/2609.04242"
+        },
+        "c": "https://github.com/mbzuai-oryx/OmniEvalKit",
+        "n": "MiniCPM4.5-V-TFO-9B",
+        "d": "2026-08-07",
+        "m1": "59.3"
+      },
+      {
+        "p": {
+          "name": "AdaTooler-V: Adaptive Tool-Use for Images and Videos",
+          "link": "https://arxiv.org/abs/2512.16918"
+        },
+        "c": "https://github.com/CYWang735/AdaTooler-V",
+        "n": "AdaTooler-V-7B",
+        "d": "2025-12-18",
+        "m1": "58.3"
+      },
+      {
+        "p": {
+          "name": "Qwen3-Omni Technical Report",
+          "link": "https://arxiv.org/abs/2509.17765"
+        },
+        "c": "https://github.com/QwenLM/Qwen3-Omni",
+        "n": "Qwen3-Omni-Flash-Thinking",
+        "d": "2025-09-22",
+        "m1": "57.3"
+      },
+      {
+        "p": {
+          "name": "OmniJigsaw: Enhancing Omni-Modal Reasoning via Modality-Orchestrated Reordering",
+          "link": "https://arxiv.org/abs/2604.08209"
+        },
+        "c": "https://github.com/aim-uofa/OmniJigsaw",
+        "n": "OmniJigsaw (CMM)",
+        "d": "2026-04-09",
+        "m1": "52.53"
+      },
+      {
+        "p": {
+          "name": "OneThinker: All-in-one Reasoning Model for Image and Video",
+          "link": "https://arxiv.org/abs/2512.03043"
+        },
+        "c": "https://github.com/tulerfeng/onethinker",
+        "n": "OneThinker-8B",
+        "d": "2025-12-02",
+        "m1": "48.7"
+      },
+      {
+        "p": {
+          "name": "Open-o3-Video-v2: Seek, Ground, and Reason with Verifiable Spatio-Temporal Evidence",
+          "link": "https://arxiv.org/abs/2610.17656"
+        },
+        "c": "https://github.com/Multimedia-Semantic-Analytics-Lab/Open-o3-Video-v2",
+        "n": "Open-o3-Video-v2-4B",
+        "d": "2026-10-13",
+        "m1": "48.0"
+      },
+      {
+        "p": {
+          "name": "Boosting Omni-Modal Language Models: Staged Post-Training with Visually Debiased Evaluation",
+          "link": "https://arxiv.org/abs/2605.12034"
+        },
+        "c": "",
+        "n": "Qwen2.5-Omni-3B (Stage 2: Mixed-Modality RLVR)",
+        "d": "2026-05-13",
+        "m1": "47.07"
+      },
+      {
+        "p": {
+          "name": "VAST: Video Ability-Stratified Taxonomy for Data-Efficient Video Reasoning",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Wang_VAST_Video_Ability-Stratified_Taxonomy_for_Data-Efficient_Video_Reasoning_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "VideoVAST-7B (extra data)",
+        "d": "2026-06-03",
+        "m1": "42.5"
+      },
+      {
+        "p": {
+          "name": "Video Streaming Thinking: VideoLLMs Can Watch and Think Simultaneously",
+          "link": "https://arxiv.org/abs/2603.12262"
+        },
+        "c": "https://github.com/1ranGuan/VST",
+        "n": "VST-7B",
+        "d": "2026-03-12",
+        "m1": "41.9"
+      },
+      {
+        "p": {
+          "name": "Rethinking Chain-of-Thought Reasoning for Videos",
+          "link": "https://arxiv.org/abs/2512.09616"
+        },
+        "c": "https://github.com/LaVi-Lab/Rethink_CoT_Video",
+        "n": "Qwen2.5-VL-7B (GRPO, concise reason, trained with token compression & 6x frames)",
+        "d": "2025-12-10",
+        "m1": "41.6"
+      },
+      {
+        "p": {
+          "name": "Insight-V++: Towards Advanced Long-Chain Visual Reasoning with Multimodal Large Language Models",
+          "link": "https://arxiv.org/abs/2603.18118"
+        },
+        "c": "",
+        "n": "Insight-V++",
+        "d": "2026-03-18",
+        "m1": "40.2"
+      },
+      {
+        "p": {
+          "name": "EVA: Efficient Reinforcement Learning for End-to-End Video Agent",
+          "link": "https://arxiv.org/abs/2603.22918"
+        },
+        "c": "https://github.com/wangruohui/efficientvideoagent",
+        "n": "EVA (GRPO)",
+        "d": "2026-03-24",
+        "m1": "36.7"
+      }
+    ]
+  }
+}

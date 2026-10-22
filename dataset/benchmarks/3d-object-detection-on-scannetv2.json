@@ -126,6 +126,17 @@
       },
       {
         "p": {
+          "name": "H^2A^2: Homogeneity-Aware and Heterogeneity-Aware Feature Perception for Unified Indoor 3D Object Detection",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Xie_H2A2_Homogeneity-Aware_and_Heterogeneity-Aware_Feature_Perception_for_Unified_Indoor_3D_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "H2A2",
+        "d": "2026-06-03",
+        "m1": "63.8",
+        "m2": "77.5"
+      },
+      {
+        "p": {
           "name": "Swin3D: A Pretrained Transformer Backbone for 3D Indoor Scene Understanding",
           "link": "https://arxiv.org/abs/2304.06906v3"
         },
@@ -167,6 +178,17 @@
         "d": "2025-12-02",
         "m1": "60.8",
         "m2": "75.1"
+      },
+      {
+        "p": {
+          "name": "TUN3D: Towards Real-World Scene Understanding from Unposed Images",
+          "link": "https://arxiv.org/abs/2509.21388"
+        },
+        "c": "https://github.com/col14m/TUN3D",
+        "n": "TUN3D (GT point clouds) (extra data)",
+        "d": "2025-09-23",
+        "m1": "60.2",
+        "m2": "72.7"
       },
       {
         "p": {
@@ -258,6 +280,17 @@
       },
       {
         "p": {
+          "name": "DQS3D: Densely-matched Quantization-aware Semi-supervised 3D Detection",
+          "link": "https://arxiv.org/abs/2304.13031"
+        },
+        "c": "https://github.com/air-discover/dqs3d",
+        "n": "DQS3D (100% labels)",
+        "d": "2023-04-25",
+        "m1": "56.3",
+        "m2": "71.9"
+      },
+      {
+        "p": {
           "name": "RBGNet: Ray-based Grouping for 3D Object Detection",
           "link": "https://arxiv.org/abs/2204.02251v1"
         },
@@ -313,6 +346,16 @@
       },
       {
         "p": {
+          "name": "Memory-based Adapters for Online 3D Scene Perception",
+          "link": "https://arxiv.org/abs/2403.06974"
+        },
+        "c": "",
+        "n": "FCAF3D-SV+Ours",
+        "d": "2024-03-11",
+        "m1": "49.9"
+      },
+      {
+        "p": {
           "name": "3D-MPA: Multi Proposal Aggregation for 3D Semantic Instance Segmentation",
           "link": "https://arxiv.org/abs/2003.13867v1"
         },
@@ -346,6 +389,27 @@
       },
       {
         "p": {
+          "name": "Gaussian2Scene: 3D Scene Representation Learning via Self-supervised Learning with 3D Gaussian Splatting",
+          "link": "https://arxiv.org/abs/2506.08777"
+        },
+        "c": "",
+        "n": "Gaussian2Scene + 3DETR (extra data)",
+        "d": "2025-06-10",
+        "m1": "43.3",
+        "m2": "62.9"
+      },
+      {
+        "p": {
+          "name": "GroupContrast: Semantic-aware Self-supervised Representation Learning for 3D Understanding",
+          "link": "https://arxiv.org/abs/2403.09639"
+        },
+        "c": "https://github.com/dvlab-research/groupcontrast",
+        "n": "GroupContrast",
+        "d": "2024-03-14",
+        "m1": "41.1"
+      },
+      {
+        "p": {
           "name": "Point Cloud Pre-Training With Natural 3D Structures",
           "link": "http://openaccess.thecvf.com//content/CVPR2022/html/Yamada_Point_Cloud_Pre-Training_With_Natural_3D_Structures_CVPR_2022_paper.html"
         },
@@ -354,6 +418,28 @@
         "d": "2022-01-01",
         "m1": "39.9",
         "m2": "63.4"
+      },
+      {
+        "p": {
+          "name": "3DGS-DET: Empower 3D Gaussian Splatting with Boundary Guidance and Box-Focused Sampling for 3D Object Detection",
+          "link": "https://arxiv.org/abs/2410.01647"
+        },
+        "c": "https://github.com/yangcaoai/3dgs-det",
+        "n": "3DGS-DET (extra data)",
+        "d": "2024-10-02",
+        "m1": "37.8",
+        "m2": "59.9"
+      },
+      {
+        "p": {
+          "name": "Boosting Multi-View Indoor 3D Object Detection via Adaptive 3D Volume Construction",
+          "link": "https://arxiv.org/abs/2507.18331"
+        },
+        "c": "https://github.com/rm-zhang/sgcdet",
+        "n": "SGCDet (depth supervision) (extra data)",
+        "d": "2025-07-24",
+        "m1": "37.1",
+        "m2": "62.2"
       },
       {
         "p": {
@@ -379,6 +465,17 @@
       },
       {
         "p": {
+          "name": "GO-N3RDet: Geometry Optimized NeRF-enhanced 3D Object Detector",
+          "link": "https://arxiv.org/abs/2503.15211"
+        },
+        "c": "https://github.com/zechuanli/go-n3rdet",
+        "n": "GO-N3RDet-R101*",
+        "d": "2025-03-19",
+        "m1": "33.7",
+        "m2": "58.6"
+      },
+      {
+        "p": {
           "name": "Deep Hough Voting for 3D Object Detection in Point Clouds",
           "link": "https://arxiv.org/abs/1904.09664v2"
         },
@@ -387,6 +484,16 @@
         "d": "2019-04-21",
         "m1": "33.5",
         "m2": "58.6"
+      },
+      {
+        "p": {
+          "name": "NeRF-Det: Learning Geometry-Aware Volumetric Representation for Multi-View 3D Object Detection",
+          "link": "https://arxiv.org/abs/2307.14620"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection3d",
+        "n": "NeRF-Det R101-2x (low-res, depth supervision) (extra data)",
+        "d": "2023-07-27",
+        "m1": "29.8"
       },
       {
         "p": {
@@ -441,6 +548,16 @@
         "n": "SGPN",
         "d": "2017-11-23",
         "m2": "20.7"
+      },
+      {
+        "p": {
+          "name": "NeRF-Det: Learning Geometry-Aware Volumetric Representation for Multi-View 3D Object Detection",
+          "link": "https://arxiv.org/abs/2307.14620"
+        },
+        "c": "https://github.com/open-mmlab/mmdetection3d",
+        "n": "NeRF-Det R101-2x (high-res, depth supervision) (extra data)",
+        "d": "2023-07-27",
+        "m2": "53.3"
       }
     ]
   }

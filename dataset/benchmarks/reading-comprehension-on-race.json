@@ -68,6 +68,16 @@
       },
       {
         "p": {
+          "name": "UL2: Unifying Language Learning Paradigms",
+          "link": "https://arxiv.org/abs/2205.05131v3"
+        },
+        "c": "https://github.com/google-research/google-research",
+        "n": "UL2 20B",
+        "d": "2022-05-10",
+        "m1": "90.9"
+      },
+      {
+        "p": {
           "name": "DUMA: Reading Comprehension with Transposition Thinking",
           "link": "https://arxiv.org/abs/2001.09415v5"
         },
@@ -89,6 +99,26 @@
         "m1": "89.5",
         "m2": "91.8",
         "m3": "88.6"
+      },
+      {
+        "p": {
+          "name": "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+          "link": "https://arxiv.org/abs/1909.11942v6"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "ALBERT ensemble",
+        "d": "2019-09-26",
+        "m1": "89.4"
+      },
+      {
+        "p": {
+          "name": "Nemotron 3 Nano: Open, Efficient Mixture-of-Experts Hybrid Mamba-Transformer Model for Agentic Reasoning",
+          "link": "https://arxiv.org/abs/2512.20848"
+        },
+        "c": "https://github.com/nvidia-nemo/nemotron",
+        "n": "Nemotron 3 Nano 30B-A3B Base",
+        "d": "2025-12-23",
+        "m1": "88.04"
       },
       {
         "p": {
@@ -114,6 +144,16 @@
       },
       {
         "p": {
+          "name": "Reinforcement Learning from Meta-Evaluation: Aligning Language Models Without Ground-Truth Labels",
+          "link": "https://arxiv.org/abs/2601.21268"
+        },
+        "c": "",
+        "n": "Qwen3-4B-Base (RLVR+RLME)",
+        "d": "2026-01-29",
+        "m1": "84.5"
+      },
+      {
+        "p": {
           "name": "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
           "link": "https://arxiv.org/abs/1907.11692v1"
         },
@@ -123,6 +163,16 @@
         "m1": "83.2",
         "m2": "86.5",
         "m3": "81.3"
+      },
+      {
+        "p": {
+          "name": "Darwin Family: MRI-Trust-Weighted Evolutionary Merging for Training-Free Scaling of Language-Model Reasoning",
+          "link": "https://arxiv.org/abs/2605.14386"
+        },
+        "c": "",
+        "n": "Darwin-27B-Opus",
+        "d": "2026-05-14",
+        "m1": "83.1"
       },
       {
         "p": {
@@ -143,6 +193,26 @@
         "n": "Orca 2-7B",
         "d": "2023-11-18",
         "m1": "80.79"
+      },
+      {
+        "p": {
+          "name": "ERNIE-Gram: Pre-Training with Explicitly N-Gram Masked Language Modeling for Natural Language Understanding",
+          "link": "https://arxiv.org/abs/2010.12148"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleNLP/blob/develop/paddlenlp/transformers/ernie_gram/modeling.py",
+        "n": "ERNIE-Gram",
+        "d": "2020-10-23",
+        "m1": "77.7"
+      },
+      {
+        "p": {
+          "name": "MPNet: Masked and Permuted Pre-training for Language Understanding",
+          "link": "https://arxiv.org/abs/2004.09297v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "MPNet Base",
+        "d": "2020-04-20",
+        "m1": "76.1"
       },
       {
         "p": {
@@ -305,6 +375,146 @@
         "n": "GPT-3 175B (zero-shot)",
         "d": "2020-05-28",
         "m3": "45.5"
+      },
+      {
+        "p": {
+          "name": "Queryable LoRA: Instruction-Regularized Routing Over Shared Low-Rank Update Atoms",
+          "link": "https://arxiv.org/abs/2605.08423"
+        },
+        "c": "",
+        "n": "Instruction-Queryable LoRA",
+        "d": "2026-05-08",
+        "m1": "59.9"
+      },
+      {
+        "p": {
+          "name": "Improving Language Understanding by Generative Pre-Training",
+          "link": "https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "GPT-1",
+        "d": "2018-06-11",
+        "m1": "59.0"
+      },
+      {
+        "p": {
+          "name": "The Curse and Blessing of Mean Bias in FP4-Quantized LLM Training",
+          "link": "https://arxiv.org/abs/2603.10444"
+        },
+        "c": "",
+        "n": "Qwen3-0.6B (Averis FP4)",
+        "d": "2026-03-11",
+        "m1": "50.3600"
+      },
+      {
+        "p": {
+          "name": "Triplet-Block Diffusion RWKV",
+          "link": "https://arxiv.org/abs/2605.25969"
+        },
+        "c": "https://github.com/leonardodalinky/B3D-RWKV",
+        "n": "B3D-RWKV-7.2B",
+        "d": "2026-05-25",
+        "m1": "49.7"
+      },
+      {
+        "p": {
+          "name": "Low-Rank Approximation for Sparse Attention in Multi-Modal LLMs",
+          "link": "https://openaccess.thecvf.com/content/CVPR2024/html/Song_Low-Rank_Approximation_for_Sparse_Attention_in_Multi-Modal_LLMs_CVPR_2024_paper.html"
+        },
+        "c": "",
+        "n": "LoRA-Sparse (LLaMA-7B) (extra data)",
+        "d": "2024-06-17",
+        "m1": "42.5"
+      },
+      {
+        "p": {
+          "name": "Sumi: Open Uniform Diffusion Language Model from Scratch",
+          "link": "https://arxiv.org/abs/2606.19005"
+        },
+        "c": "https://github.com/tohoku-nlp/sumi",
+        "n": "Sumi-7B",
+        "d": "2026-06-17",
+        "m1": "41.4"
+      },
+      {
+        "p": {
+          "name": "GeoPair: Geometry-Preserving Cross-Layer Factorization for Training-Free Transformer Compression",
+          "link": "https://arxiv.org/abs/2609.25963"
+        },
+        "c": "",
+        "n": "GeoPair (Llama3 8B, CR=0.2)",
+        "d": "2026-09-22",
+        "m1": "40.77"
+      },
+      {
+        "p": {
+          "name": "Circuit Hypernetworks for Quantum-Augmented Diffusion Language Models",
+          "link": "https://arxiv.org/abs/2609.24657"
+        },
+        "c": "",
+        "n": "HyperQ, 64 q",
+        "d": "2026-09-21",
+        "m1": "40.3"
+      },
+      {
+        "p": {
+          "name": "daVinci-LLM:Towards the Science of Pretraining",
+          "link": "https://arxiv.org/abs/2603.27164"
+        },
+        "c": "https://github.com/GAIR-NLP/daVinci-LLM",
+        "n": "daVinci-LLM (3B)",
+        "d": "2026-03-28",
+        "m1": "38.56"
+      },
+      {
+        "p": {
+          "name": "Synthetic Pre-pretraining Survives Scale, but Not as a Grammatical Prior",
+          "link": "https://arxiv.org/abs/2609.39827"
+        },
+        "c": "https://github.com/gucci-j/verify-ppt-at-scale",
+        "n": "PPT (k-Shuffle Dyck), 3B, C4, 100B PT tokens",
+        "d": "2026-09-30",
+        "m1": "37.2"
+      },
+      {
+        "p": {
+          "name": "Variable-Width Transformers",
+          "link": "https://arxiv.org/abs/2606.18246"
+        },
+        "c": "https://github.com/ZhaofengWu/variable-width-transformers",
+        "n": "3B/1B MoE > <former",
+        "d": "2026-06-16",
+        "m1": "34.3"
+      },
+      {
+        "p": {
+          "name": "SpectralShift: Effective Context Window Extension of Gated DeltaNet via Spectral Reparameterization",
+          "link": "https://arxiv.org/abs/2609.14320"
+        },
+        "c": "https://github.com/RUCAIBox/GDN-SpectralShift",
+        "n": "SpectralShift (1.5B-A0.6B GDN-MoE, 32K extension, 10B CPT)",
+        "d": "2026-09-13",
+        "m1": "34.2"
+      },
+      {
+        "p": {
+          "name": "What Makes Recurrence Effective in Looped Language Models?",
+          "link": "https://arxiv.org/abs/2609.36636"
+        },
+        "c": "",
+        "n": "BaseLoop (Llama3.1-1B, 3x4, Muon)",
+        "d": "2026-09-29",
+        "m1": "30.62"
+      },
+      {
+        "p": {
+          "name": "UniPool: A Globally Shared Expert Pool for Mixture-of-Experts",
+          "link": "https://arxiv.org/abs/2605.06665"
+        },
+        "c": "https://github.com/Centaurus-Alpha/UniPool",
+        "n": "UniPool (978M)",
+        "d": "2026-05-07",
+        "m1": "29.38"
       }
     ]
   }

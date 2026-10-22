@@ -1,0 +1,219 @@
+{
+  "title": "stereo-depth-estimation-on-middlebury-2014-stereo-zero-shot-half-nonocc",
+  "task-hierarchy": [
+    "Depth Estimation",
+    "Stereo Depth Estimation"
+  ],
+  "dataset-info": {
+    "link": "https://vision.middlebury.edu/stereo/data/scenes2014/",
+    "paper": "High-Resolution Stereo Datasets with Subpixel-Accurate Ground Truth"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "BP-2",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "FoundationStereo: Zero-Shot Stereo Matching",
+          "link": "https://arxiv.org/abs/2501.09898"
+        },
+        "c": "https://github.com/NVlabs/FoundationStereo",
+        "n": "FoundationStereo (zero-shot) (extra data)",
+        "d": "2025-01-17",
+        "m1": "1.1"
+      },
+      {
+        "p": {
+          "name": "MatchAttention: Embedding Explicit Matching Constraints into Attention for Efficient Stereo Matching",
+          "link": "https://arxiv.org/abs/2510.14260"
+        },
+        "c": "https://github.com/TingmanYan/MatchAttention",
+        "n": "MatchAttentionXL (extra data)",
+        "d": "2025-10-16",
+        "m1": "1.89"
+      },
+      {
+        "p": {
+          "name": "Fast-FoundationStereo: Real-Time Zero-Shot Stereo Matching",
+          "link": "https://arxiv.org/abs/2512.11130"
+        },
+        "c": "https://github.com/nvlabs/fast-foundationstereo",
+        "n": "Fast-FoundationStereo (zero-shot) (extra data)",
+        "d": "2025-12-11",
+        "m1": "2.2"
+      },
+      {
+        "p": {
+          "name": "PromptStereo: Zero-Shot Stereo Matching via Structure and Motion Prompts",
+          "link": "https://arxiv.org/abs/2603.01650"
+        },
+        "c": "",
+        "n": "PromptStereo (unlimited, zero-shot) (extra data)",
+        "d": "2026-03-02",
+        "m1": "2.21"
+      },
+      {
+        "p": {
+          "name": "MonSter: Marry Monodepth to Stereo Unleashes Power",
+          "link": "https://arxiv.org/abs/2501.08643"
+        },
+        "c": "",
+        "n": "MonSter++ (Scene Flow, zero-shot)",
+        "d": "2025-01-15",
+        "m1": "2.6"
+      },
+      {
+        "p": {
+          "name": "Stereo Anything: Unifying Stereo Matching with Large-Scale Mixed Data",
+          "link": "https://arxiv.org/abs/2411.14053"
+        },
+        "c": "https://github.com/xiandaguo/openstereo",
+        "n": "StereoAnything (FoundationStereo, zero-shot) (extra data)",
+        "d": "2024-11-21",
+        "m1": "2.69"
+      },
+      {
+        "p": {
+          "name": "Lite Any Stereo V2: Faster and Stronger Efficient Zero-Shot Stereo Matching",
+          "link": "https://arxiv.org/abs/2606.24457"
+        },
+        "c": "https://github.com/TomTomTommi/LiteAnyStereo",
+        "n": "LAS2-H (zero-shot) (extra data)",
+        "d": "2026-06-23",
+        "m1": "3.71"
+      },
+      {
+        "p": {
+          "name": "Stereo Anywhere: Robust Zero-Shot Deep Stereo Matching Even Where Either Stereo or Mono Fail",
+          "link": "https://arxiv.org/abs/2412.04472"
+        },
+        "c": "",
+        "n": "Stereo Anywhere (Depth Anything v2 Large, zero-shot) (extra data)",
+        "d": "2024-12-05",
+        "m1": "4.75"
+      },
+      {
+        "p": {
+          "name": "Rectified Iterative Disparity for Stereo Matching",
+          "link": "https://arxiv.org/abs/2406.10943"
+        },
+        "c": "",
+        "n": "DR-Stereo (zero-shot)",
+        "d": "2024-06-16",
+        "m1": "5.5"
+      },
+      {
+        "p": {
+          "name": "Diving into the Fusion of Monocular Priors for Generalized Stereo Matching",
+          "link": "https://arxiv.org/abs/2505.14414"
+        },
+        "c": "https://github.com/YaoChengTang/Diving-into-the-Fusion-of-Monocular-Priors-for-Generalized-Stereo-Matching",
+        "n": "Monocular Prior Fusion Stereo (zero-shot)",
+        "d": "2025-05-20",
+        "m1": "5.67"
+      },
+      {
+        "p": {
+          "name": "MoCha-Stereo: Motif Channel Attention Network for Stereo Matching",
+          "link": "https://arxiv.org/abs/2404.06842"
+        },
+        "c": "https://github.com/zyangchen/mocha-stereo",
+        "n": "MoCha-Stereo",
+        "d": "2024-04-10",
+        "m1": "6.2"
+      },
+      {
+        "p": {
+          "name": "Consistency-aware Self-Training for Iterative-based Stereo Matching",
+          "link": "https://arxiv.org/abs/2503.23747"
+        },
+        "c": "",
+        "n": "CST-Selective-IGEV (zero-shot) (extra data)",
+        "d": "2025-03-31",
+        "m1": "6.47"
+      },
+      {
+        "p": {
+          "name": "Iterative Geometry Encoding Volume for Stereo Matching",
+          "link": "https://arxiv.org/abs/2303.06615v2"
+        },
+        "c": "https://github.com/gangweix/igev",
+        "n": "IGEV-Stereo (zero-shot)",
+        "d": "2023-03-12",
+        "m1": "7.1"
+      },
+      {
+        "p": {
+          "name": "Lite Any Stereo: Efficient Zero-Shot Stereo Matching",
+          "link": "https://arxiv.org/abs/2511.16555"
+        },
+        "c": "",
+        "n": "Lite Any Stereo (million-scale, zero-shot) (extra data)",
+        "d": "2025-11-20",
+        "m1": "7.51"
+      },
+      {
+        "p": {
+          "name": "IGEV++: Iterative Multi-range Geometry Encoding Volumes for Stereo Matching",
+          "link": "https://arxiv.org/abs/2409.00638"
+        },
+        "c": "https://github.com/gangweix/igev-plusplus",
+        "n": "IGEV++ (Scene Flow only, zero-shot)",
+        "d": "2024-09-01",
+        "m1": "7.8"
+      },
+      {
+        "p": {
+          "name": "Adaptive Multi-Modal Cross-Entropy Loss for Stereo Matching",
+          "link": "https://arxiv.org/abs/2306.15612"
+        },
+        "c": "https://github.com/xxxupeng/adl",
+        "n": "GANet+Ours",
+        "d": "2023-06-27",
+        "m1": "8.49"
+      },
+      {
+        "p": {
+          "name": "OpenStereo: A Comprehensive Benchmark for Stereo Matching and Strong Baseline",
+          "link": "https://arxiv.org/abs/2312.00343"
+        },
+        "c": "https://github.com/xiandaguo/openstereo",
+        "n": "StereoBase (zero-shot)",
+        "d": "2023-12-01",
+        "m1": "9.76"
+      },
+      {
+        "p": {
+          "name": "LightStereo: Channel Boost Is All You Need for Efficient 2D Cost Aggregation",
+          "link": "https://arxiv.org/abs/2406.19833"
+        },
+        "c": "",
+        "n": "LightStereo-H (SceneFlow-only, zero-shot)",
+        "d": "2024-06-28",
+        "m1": "14.27"
+      }
+    ]
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "title": "multi-class-anomaly-detection-on-real-iad-unified-multi-class",
+  "task-hierarchy": [
+    "Anomaly Detection",
+    "Multi-class Anomaly Detection"
+  ],
+  "dataset-info": {
+    "link": "https://realiad4ad.github.io/Real-IAD/",
+    "paper": "Real-IAD: A Real-World Multi-View Dataset for Benchmarking Versatile Industrial Anomaly Detection"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Detection AUROC",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Segmentation AP",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Detection F1-max",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Segmentation AUROC",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "Segmentation F1-max",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "Segmentation AUPRO@30% FPR",
+        "sortable": "true"
+      },
+      {
+        "key": "m7",
+        "label": "Detection AP",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Dinomaly2: A Unified Framework for Unsupervised Image Anomaly Detection",
+          "link": "https://arxiv.org/abs/2510.17611"
+        },
+        "c": "https://github.com/guojiajeremy/dinomaly2",
+        "n": "Dinomaly2-L",
+        "d": "2025-10-20",
+        "m1": "92.1",
+        "m2": "48.4",
+        "m3": "83.4",
+        "m4": "99.2",
+        "m5": "51.8",
+        "m6": "96.2",
+        "m7": "90.2"
+      },
+      {
+        "p": {
+          "name": "MATCH: Flow Matching for Multi-View Anomaly Detection",
+          "link": "https://arxiv.org/abs/2606.24375"
+        },
+        "c": "https://github.com/m-kruse98/match",
+        "n": "MATCH",
+        "d": "2026-06-23",
+        "m1": "91.17",
+        "m4": "99.24",
+        "m6": "94.76"
+      },
+      {
+        "p": {
+          "name": "HLRAD: High-dimensional Latent Representation for Unified Anomaly Detection",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/5190"
+        },
+        "c": "",
+        "n": "HLRAD",
+        "d": "2026-09-08",
+        "m1": "90.1",
+        "m2": "47.7",
+        "m3": "81.1",
+        "m5": "50.5"
+      },
+      {
+        "p": {
+          "name": "Dinomaly: The Less Is More Philosophy in Multi-Class Unsupervised Anomaly Detection",
+          "link": "https://arxiv.org/abs/2405.14325v4"
+        },
+        "c": "https://github.com/guojiajeremy/dinomaly",
+        "n": "Dinomaly (DINOv2-R ViT-Large/14) (extra data)",
+        "d": "2024-05-23",
+        "m1": "90.07",
+        "m2": "44.29",
+        "m3": "80.90",
+        "m4": "99.02",
+        "m5": "48.36",
+        "m6": "94.37",
+        "m7": "87.57"
+      },
+      {
+        "p": {
+          "name": "Dinomaly: The Less Is More Philosophy in Multi-Class Unsupervised Anomaly Detection",
+          "link": "https://arxiv.org/abs/2405.14325v4"
+        },
+        "c": "https://github.com/guojiajeremy/dinomaly",
+        "n": "Dinomaly ViT-Large",
+        "d": "2024-05-23",
+        "m1": "90.07",
+        "m2": "44.29",
+        "m3": "80.90",
+        "m4": "99.02",
+        "m5": "48.36",
+        "m6": "94.37",
+        "m7": "87.57"
+      },
+      {
+        "p": {
+          "name": "IMMoE: Incomplete Multi-View Anomaly Detection via Mixture of View Experts Fusion",
+          "link": "https://arxiv.org/abs/2607.19032"
+        },
+        "c": "https://github.com/hulei7/immoe",
+        "n": "IMMoE",
+        "d": "2026-07-21",
+        "m1": "89.7",
+        "m2": "44.3"
+      },
+      {
+        "p": {
+          "name": "MambaAD: Exploring State Space Models for Multi-class Unsupervised Anomaly Detection",
+          "link": "https://arxiv.org/abs/2404.06564v3"
+        },
+        "c": "https://github.com/zhangzjn/ader",
+        "n": "MambaAD (ResNet34 + Mamba [3,4,6,3]) (extra data)",
+        "d": "2024-04-09",
+        "m1": "86.3",
+        "m2": "33.0",
+        "m3": "77.0",
+        "m4": "98.5",
+        "m5": "38.7",
+        "m6": "90.5",
+        "m7": "84.6"
+      },
+      {
+        "p": {
+          "name": "MambaAD: Exploring State Space Models for Multi-class Unsupervised Anomaly Detection",
+          "link": "https://arxiv.org/abs/2404.06564v3"
+        },
+        "c": "https://github.com/zhangzjn/ader",
+        "n": "MambaAD",
+        "d": "2024-04-09",
+        "m1": "86.3",
+        "m2": "33.0",
+        "m3": "77.0",
+        "m4": "98.5",
+        "m5": "38.7",
+        "m6": "90.5",
+        "m7": "84.6"
+      }
+    ]
+  }
+}

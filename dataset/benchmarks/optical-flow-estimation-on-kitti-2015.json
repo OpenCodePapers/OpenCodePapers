@@ -66,6 +66,16 @@
       },
       {
         "p": {
+          "name": "FreeFlow: A Bias-free Hierarchical Transformer for Optical Flow Estimation",
+          "link": "https://arxiv.org/abs/2609.11486"
+        },
+        "c": "https://github.com/msu-video-group/freeflow",
+        "n": "FreeFlow-L",
+        "d": "2026-09-10",
+        "m1": "3.23"
+      },
+      {
+        "p": {
           "name": "WAFT: Warping-Alone Field Transforms for Optical Flow",
           "link": "https://arxiv.org/abs/2506.21526"
         },
@@ -139,6 +149,26 @@
       },
       {
         "p": {
+          "name": "VideoFlow: Exploiting Temporal Cues for Multi-frame Optical Flow Estimation",
+          "link": "https://arxiv.org/abs/2303.08340"
+        },
+        "c": "https://github.com/XiaoyuShi97/VideoFlow",
+        "n": "VideoFlow (5 frames) (extra data)",
+        "d": "2023-03-15",
+        "m1": "3.65"
+      },
+      {
+        "p": {
+          "name": "Optical Flow Matching: Reframing Optical Flow as Continuous Transport Dynamics",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Luo_Optical_Flow_Matching_Reframing_Optical_Flow_as_Continuous_Transport_Dynamics_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "OFM",
+        "d": "2026-06-03",
+        "m1": "3.78"
+      },
+      {
+        "p": {
           "name": "FlowIt: Global Matching via Hierarchical Transformers and Optimal Transport for Optical Flow",
           "link": "https://arxiv.org/abs/2603.28759"
         },
@@ -150,6 +180,16 @@
       },
       {
         "p": {
+          "name": "MemFlow: Optical Flow Estimation and Prediction with Memory",
+          "link": "https://arxiv.org/abs/2404.04808"
+        },
+        "c": "https://github.com/dqiaole/memflow",
+        "n": "MemFlow-T",
+        "d": "2024-04-07",
+        "m1": "3.88"
+      },
+      {
+        "p": {
           "name": "MegaFlow: Zero-Shot Large Displacement Optical Flow",
           "link": "https://arxiv.org/abs/2603.25739"
         },
@@ -157,6 +197,46 @@
         "n": "MegaFlow",
         "d": "2026-03-26",
         "m1": "3.94"
+      },
+      {
+        "p": {
+          "name": "FlowDiffuser: Advancing Optical Flow Estimation with Diffusion Models",
+          "link": "https://openaccess.thecvf.com/content/CVPR2024/html/Luo_FlowDiffuser_Advancing_Optical_Flow_Estimation_with_Diffusion_Models_CVPR_2024_paper.html"
+        },
+        "c": "https://github.com/la30/flowdiffuser",
+        "n": "FlowDiffuser",
+        "d": "2024-06-17",
+        "m1": "4.17"
+      },
+      {
+        "p": {
+          "name": "StreamFlow: Streamlined Multi-Frame Optical Flow Estimation for Video Sequences",
+          "link": "https://arxiv.org/abs/2311.17099"
+        },
+        "c": "https://github.com/littlespray/streamflow",
+        "n": "StreamFlow (4 frames, KITTI fine-tuned) (extra data)",
+        "d": "2023-11-28",
+        "m1": "4.24"
+      },
+      {
+        "p": {
+          "name": "SEA-RAFT: Simple, Efficient, Accurate RAFT for Optical Flow",
+          "link": "https://arxiv.org/abs/2405.14793"
+        },
+        "c": "https://github.com/princeton-vl/sea-raft",
+        "n": "SEA-RAFT(L) (extra data)",
+        "d": "2024-05-23",
+        "m1": "4.30"
+      },
+      {
+        "p": {
+          "name": "ProMotion: Prototypes As Motion Learners",
+          "link": "https://arxiv.org/abs/2406.04999"
+        },
+        "c": "",
+        "n": "ProMotion",
+        "d": "2024-06-07",
+        "m1": "4.3"
       },
       {
         "p": {
@@ -182,6 +262,26 @@
       },
       {
         "p": {
+          "name": "FlowFormer++: Masked Cost Volume Autoencoding for Pretraining Optical Flow Estimation",
+          "link": "https://arxiv.org/abs/2303.01237"
+        },
+        "c": "",
+        "n": "FlowFormer++ (tile) (extra data)",
+        "d": "2023-03-02",
+        "m1": "4.52"
+      },
+      {
+        "p": {
+          "name": "SplatFlow: Learning Multi-frame Optical Flow via Splatting",
+          "link": "https://arxiv.org/abs/2306.08887"
+        },
+        "c": "https://github.com/wwsource/splatflow",
+        "n": "SplatFlow-GMA (KITTI fine-tuned, 3-frame) (extra data)",
+        "d": "2023-06-15",
+        "m1": "4.61"
+      },
+      {
+        "p": {
           "name": "Recurrent Partial Kernel Network for Efficient Optical Flow Estimation",
           "link": "https://hmorimitsu.com/publication/2024-aaai-rpknet/"
         },
@@ -193,6 +293,16 @@
       },
       {
         "p": {
+          "name": "FlowFormer: A Transformer Architecture for Optical Flow",
+          "link": "https://arxiv.org/abs/2203.16194v4"
+        },
+        "c": "https://github.com/drinkingcoder/FlowFormer-Official",
+        "n": "FlowFormer (KITTI fine-tuned, tiled) (extra data)",
+        "d": "2022-03-30",
+        "m1": "4.68"
+      },
+      {
+        "p": {
           "name": "Global Matching with Overlapping Attention for Optical Flow Estimation",
           "link": "https://arxiv.org/abs/2203.11335v1"
         },
@@ -201,6 +311,36 @@
         "d": "2022-03-21",
         "m1": "4.79",
         "m3": "6.84"
+      },
+      {
+        "p": {
+          "name": "SKFlow: Learning Optical Flow with Super Kernels",
+          "link": "https://arxiv.org/abs/2205.14623"
+        },
+        "c": "https://github.com/littlespray/SKFlow",
+        "n": "SKFlow (extra data)",
+        "d": "2022-05-29",
+        "m1": "4.84"
+      },
+      {
+        "p": {
+          "name": "RAFT: Recurrent All-Pairs Field Transforms for Optical Flow",
+          "link": "https://arxiv.org/abs/2003.12039v3"
+        },
+        "c": "https://github.com/pytorch/vision",
+        "n": "RAFT (extra data)",
+        "d": "2020-03-26",
+        "m1": "5.10"
+      },
+      {
+        "p": {
+          "name": "Learning to Estimate Hidden Motions with Global Motion Aggregation",
+          "link": "https://arxiv.org/abs/2104.02409v3"
+        },
+        "c": "https://github.com/open-mmlab/mmflow",
+        "n": "GMA (extra data)",
+        "d": "2021-04-06",
+        "m1": "5.15"
       },
       {
         "p": {
@@ -287,6 +427,16 @@
       },
       {
         "p": {
+          "name": "GMFlow: Learning Optical Flow via Global Matching",
+          "link": "https://arxiv.org/abs/2111.13680v4"
+        },
+        "c": "https://github.com/autonomousvision/unimatch",
+        "n": "GMFlow (extra data)",
+        "d": "2021-11-26",
+        "m1": "9.32"
+      },
+      {
+        "p": {
           "name": "LiteFlowNet: A Lightweight Convolutional Neural Network for Optical Flow Estimation",
           "link": "http://arxiv.org/abs/1805.07036v1"
         },
@@ -294,6 +444,16 @@
         "n": "LiteFlowNet-ft",
         "d": "2018-05-18",
         "m1": "9.38"
+      },
+      {
+        "p": {
+          "name": "PWC-Net: CNNs for Optical Flow Using Pyramid, Warping, and Cost Volume",
+          "link": "http://arxiv.org/abs/1709.02371v3"
+        },
+        "c": "https://github.com/NVlabs/PWC-Net",
+        "n": "PWC-Net-ft (extra data)",
+        "d": "2017-09-07",
+        "m1": "9.6"
       },
       {
         "p": {
@@ -324,6 +484,16 @@
         "n": "Perceiver IO",
         "d": "2021-07-30",
         "m2": "4.98"
+      },
+      {
+        "p": {
+          "name": "FlowNet 2.0: Evolution of Optical Flow Estimation with Deep Networks",
+          "link": "http://arxiv.org/abs/1612.01925v1"
+        },
+        "c": "https://github.com/NVIDIA/flownet2-pytorch",
+        "n": "FlowNet2-ft-kitti (extra data)",
+        "d": "2016-12-06",
+        "m1": "11.48"
       }
     ]
   }

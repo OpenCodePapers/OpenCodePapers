@@ -1,0 +1,357 @@
+{
+  "title": "visual-document-retrieval-on-vidore-v3",
+  "task-hierarchy": [
+    "Document Understanding",
+    "Visual Document Retrieval"
+  ],
+  "dataset-info": {
+    "link": "https://huggingface.co/vidore",
+    "paper": "ViDoRe V3: A Comprehensive Evaluation of Retrieval Augmented Generation in Complex Real-World Scenarios"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "NDCG@10",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "NDCG@5",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "EVIE: High-Performance Multilingual Visual Document Retrieval with Matryoshka Embeddings and Token Compression",
+          "link": "https://github.com/Tencent/EVIE"
+        },
+        "c": "https://github.com/tencent/evie",
+        "n": "EVIE-8B",
+        "d": "2026-09-07",
+        "m1": "66.75",
+        "m2": "64.16"
+      },
+      {
+        "p": {
+          "name": "Nemotron ColEmbed V2: Top-Performing Late Interaction embedding models for Visual Document Retrieval",
+          "link": "https://arxiv.org/abs/2602.03992"
+        },
+        "c": "",
+        "n": "Nemotron ColEmbed VL 8B V2",
+        "d": "2026-02-03",
+        "m1": "63.53"
+      },
+      {
+        "p": {
+          "name": "MTEB Leaderboard",
+          "link": "https://huggingface.co/spaces/mteb/leaderboard"
+        },
+        "c": "",
+        "n": "ColNomic 7B",
+        "d": "2025-04-02",
+        "m1": "57.64"
+      },
+      {
+        "p": {
+          "name": "MTEB Leaderboard",
+          "link": "https://huggingface.co/spaces/mteb/leaderboard"
+        },
+        "c": "https://github.com/huggingface/sentence-transformers",
+        "n": "jina-embeddings-v4",
+        "d": "2025-06-23",
+        "m1": "57.54"
+      },
+      {
+        "p": {
+          "name": "Nemotron ColEmbed V2: Top-Performing Late Interaction embedding models for Visual Document Retrieval",
+          "link": "https://arxiv.org/abs/2602.03992"
+        },
+        "c": "",
+        "n": "Llama NemoRetriever ColEmbed 3B v1",
+        "d": "2026-02-03",
+        "m1": "57.07"
+      },
+      {
+        "p": {
+          "name": "MTEB Leaderboard",
+          "link": "https://huggingface.co/spaces/mteb/leaderboard"
+        },
+        "c": "",
+        "n": "ColNomic 3B",
+        "d": "2025-04-02",
+        "m1": "56.4"
+      },
+      {
+        "p": {
+          "name": "NeoMME: A Single-Tower Multimodal-Native Multilingual Foundation Encoder for Efficient Fine-Tuning and Inference",
+          "link": "https://arxiv.org/abs/2609.01657"
+        },
+        "c": "",
+        "n": "NeoMME-800M-Retriever (late interaction)",
+        "d": "2026-08-31",
+        "m1": "55.6",
+        "m2": "53.29"
+      },
+      {
+        "p": {
+          "name": "Nemotron ColEmbed V2: Top-Performing Late Interaction embedding models for Visual Document Retrieval",
+          "link": "https://arxiv.org/abs/2602.03992"
+        },
+        "c": "",
+        "n": "Llama NemoRetriever ColEmbed 1B v1",
+        "d": "2026-02-03",
+        "m1": "55.48"
+      },
+      {
+        "p": {
+          "name": "MTEB Leaderboard",
+          "link": "https://huggingface.co/spaces/mteb/leaderboard"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "ColQwen2.5 v0.2",
+        "d": "2024-06-27",
+        "m1": "52.44"
+      },
+      {
+        "p": {
+          "name": "MINER: Mining Multimodal Internal Representation for Efficient Retrieval",
+          "link": "https://arxiv.org/abs/2605.06460"
+        },
+        "c": "",
+        "n": "MINER-Jina",
+        "d": "2026-05-07",
+        "m1": "49.7"
+      },
+      {
+        "p": {
+          "name": "jina-embeddings-v5-omni: Text-Geometry-Preserving Multimodal Embeddings via Frozen-Tower Composition",
+          "link": "https://arxiv.org/abs/2605.08384"
+        },
+        "c": "https://github.com/huggingface/sentence-transformers",
+        "n": "jina-embeddings-v5-omni-small",
+        "d": "2026-05-08",
+        "m1": "45.71"
+      },
+      {
+        "p": {
+          "name": "CausalEmbed: Auto-Regressive Multi-Vector Generation in Latent Space for Visual Document Embedding",
+          "link": "https://arxiv.org/abs/2601.21262"
+        },
+        "c": "https://github.com/Z1zs/Causal-Embed",
+        "n": "CausalQwen",
+        "d": "2026-01-29",
+        "m1": "45.55",
+        "m2": "42.6"
+      },
+      {
+        "p": {
+          "name": "NanoVDR: Distilling a 2B Vision-Language Retriever into a 70M Text-Only Encoder for Visual Document Retrieval",
+          "link": "https://arxiv.org/abs/2603.12824"
+        },
+        "c": "",
+        "n": "NanoVDR-S-Multi",
+        "d": "2026-03-13",
+        "m2": "46.5"
+      },
+      {
+        "p": {
+          "name": "Hydra: Unifying Document Retrieval and Generation in a Single Vision-Language Model",
+          "link": "https://arxiv.org/abs/2603.28554"
+        },
+        "c": "",
+        "n": "Hydra-4B",
+        "d": "2026-03-30",
+        "m2": "56.39"
+      },
+      {
+        "p": {
+          "name": "DistilVDR: A Compact End-to-End Visual Document Retriever via Dual-Student Distillation",
+          "link": "https://arxiv.org/abs/2608.10636"
+        },
+        "c": "https://github.com/Ryenhails/NanoVDR",
+        "n": "DistilVDR-HiRes",
+        "d": "2026-08-11",
+        "m2": "47.07"
+      },
+      {
+        "p": {
+          "name": "ColNanoVDR: Document-Free Query Distillation for Multi-Vector Visual Document Retrieval via Optimal Transport",
+          "link": "https://arxiv.org/abs/2609.34899"
+        },
+        "c": "https://github.com/Ryenhails/NanoVDR",
+        "n": "ColNanoVDR (from ColVec1.1-8b)",
+        "d": "2026-09-28",
+        "m2": "60.1"
+      },
+      {
+        "p": {
+          "name": "MTEB Leaderboard",
+          "link": "https://huggingface.co/spaces/mteb/leaderboard"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "ColQwen2 v1.0",
+        "d": "2024-06-27",
+        "m1": "44.18"
+      },
+      {
+        "p": {
+          "name": "MTEB Leaderboard",
+          "link": "https://huggingface.co/spaces/mteb/leaderboard"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "ColPali v1.3",
+        "d": "2024-06-27",
+        "m1": "42.95"
+      },
+      {
+        "p": {
+          "name": "MTEB Leaderboard",
+          "link": "https://huggingface.co/spaces/mteb/leaderboard"
+        },
+        "c": "https://github.com/illuin-tech/modernvbert",
+        "n": "ColModernVBERT",
+        "d": "2025-10-01",
+        "m1": "26.12"
+      },
+      {
+        "p": {
+          "name": "MTEB Leaderboard",
+          "link": "https://huggingface.co/spaces/mteb/leaderboard"
+        },
+        "c": "https://github.com/google-research/big_vision",
+        "n": "SigLIP Large Patch16 384",
+        "d": "2023-03-27",
+        "m1": "17.68135417"
+      },
+      {
+        "p": {
+          "name": "MTEB Leaderboard",
+          "link": "https://huggingface.co/spaces/mteb/leaderboard"
+        },
+        "c": "https://github.com/google-research/big_vision",
+        "n": "SigLIP SO400M Patch14 384",
+        "d": "2023-03-27",
+        "m1": "17.2255"
+      },
+      {
+        "p": {
+          "name": "MTEB Leaderboard",
+          "link": "https://huggingface.co/spaces/mteb/leaderboard"
+        },
+        "c": "https://github.com/illuin-tech/modernvbert",
+        "n": "BiModernVBERT",
+        "d": "2025-10-01",
+        "m1": "15.41"
+      },
+      {
+        "p": {
+          "name": "MTEB Leaderboard",
+          "link": "https://huggingface.co/spaces/mteb/leaderboard"
+        },
+        "c": "https://github.com/google-research/big_vision",
+        "n": "SigLIP Base Patch16 512",
+        "d": "2023-03-27",
+        "m1": "15.17822917"
+      },
+      {
+        "p": {
+          "name": "MTEB Leaderboard",
+          "link": "https://huggingface.co/spaces/mteb/leaderboard"
+        },
+        "c": "https://github.com/illuin-tech/modernvbert",
+        "n": "ModernVBERT-embed",
+        "d": "2025-10-01",
+        "m1": "14.96"
+      },
+      {
+        "p": {
+          "name": "MTEB Leaderboard",
+          "link": "https://huggingface.co/spaces/mteb/leaderboard"
+        },
+        "c": "https://github.com/google-research/big_vision",
+        "n": "SigLIP Base Patch16 384",
+        "d": "2023-03-27",
+        "m1": "12.3615625"
+      },
+      {
+        "p": {
+          "name": "MTEB Leaderboard",
+          "link": "https://huggingface.co/spaces/mteb/leaderboard"
+        },
+        "c": "https://github.com/openai/CLIP",
+        "n": "CLIP ViT-L/14",
+        "d": "2021-02-26",
+        "m1": "9.02"
+      },
+      {
+        "p": {
+          "name": "MTEB Leaderboard",
+          "link": "https://huggingface.co/spaces/mteb/leaderboard"
+        },
+        "c": "https://github.com/google-research/big_vision",
+        "n": "SigLIP Base Patch16 256",
+        "d": "2023-03-27",
+        "m1": "7.7263125"
+      },
+      {
+        "p": {
+          "name": "MTEB Leaderboard",
+          "link": "https://huggingface.co/spaces/mteb/leaderboard"
+        },
+        "c": "https://github.com/google-research/big_vision",
+        "n": "SigLIP Base Patch16 256 Multilingual",
+        "d": "2023-03-27",
+        "m1": "7.236"
+      },
+      {
+        "p": {
+          "name": "MTEB Leaderboard",
+          "link": "https://huggingface.co/spaces/mteb/leaderboard"
+        },
+        "c": "https://github.com/google-research/big_vision",
+        "n": "SigLIP Base Patch16 224",
+        "d": "2023-03-27",
+        "m1": "6.31527083"
+      },
+      {
+        "p": {
+          "name": "MTEB Leaderboard",
+          "link": "https://huggingface.co/spaces/mteb/leaderboard"
+        },
+        "c": "https://github.com/openai/CLIP",
+        "n": "CLIP ViT-B/16",
+        "d": "2021-02-26",
+        "m1": "5.25"
+      },
+      {
+        "p": {
+          "name": "MTEB Leaderboard",
+          "link": "https://huggingface.co/spaces/mteb/leaderboard"
+        },
+        "c": "https://github.com/openai/CLIP",
+        "n": "CLIP ViT-B/32",
+        "d": "2021-02-26",
+        "m1": "2.68"
+      }
+    ]
+  }
+}

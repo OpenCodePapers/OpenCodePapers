@@ -62,6 +62,27 @@
       },
       {
         "p": {
+          "name": "DeepLA-Net: Very Deep Local Aggregation Networks for Point Cloud Analysis",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Zeng_DeepLA-Net_Very_Deep_Local_Aggregation_Networks_for_Point_Cloud_Analysis_CVPR_2025_paper.html"
+        },
+        "c": "",
+        "n": "DeepLA-24",
+        "d": "2025-06-11",
+        "m1": "88.0",
+        "m2": "86.5"
+      },
+      {
+        "p": {
+          "name": "Generative Hard Example Augmentation for Semantic Point Cloud Segmentation",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhang_Generative_Hard_Example_Augmentation_for_Semantic_Point_Cloud_Segmentation_CVPR_2025_paper.html"
+        },
+        "c": "",
+        "n": "DeLA w/ GHEA",
+        "d": "2025-06-11",
+        "m1": "88.0"
+      },
+      {
+        "p": {
           "name": "AVS-Net: Point Sampling with Adaptive Voxel Size for 3D Scene Understanding",
           "link": "https://arxiv.org/abs/2402.17521v3"
         },
@@ -81,6 +102,17 @@
         "d": "2023-03-29",
         "m1": "87.2",
         "m2": "85.4"
+      },
+      {
+        "p": {
+          "name": "CamPoint: Boosting Point Cloud Segmentation with Virtual Camera",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhang_CamPoint_Boosting_Point_Cloud_Segmentation_with_Virtual_Camera_CVPR_2025_paper.html"
+        },
+        "c": "",
+        "n": "CamPoint",
+        "d": "2025-06-11",
+        "m1": "87.2",
+        "m2": "85.3"
       },
       {
         "p": {
@@ -212,6 +244,17 @@
       },
       {
         "p": {
+          "name": "Point Clouds Meets Physics: Dynamic Acoustic Field Fitting Network for Point Cloud Understanding",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Wang_Point_Clouds_Meets_Physics_Dynamic_Acoustic_Field_Fitting_Network_for_CVPR_2025_paper.html"
+        },
+        "c": "",
+        "n": "DAFNet",
+        "d": "2025-06-11",
+        "m1": "86.8",
+        "m2": "85.2"
+      },
+      {
+        "p": {
           "name": "Efficient Point Cloud Processing with High-Dimensional Positional Encoding and Non-Local MLPs",
           "link": "https://arxiv.org/abs/2603.04099"
         },
@@ -325,6 +368,17 @@
       },
       {
         "p": {
+          "name": "Pix4Point: Image Pretrained Standard Transformers for 3D Point Cloud Understanding",
+          "link": "https://arxiv.org/abs/2208.12259"
+        },
+        "c": "https://github.com/guochengqian/pointnext",
+        "n": "Pix4Point (pretrained) (extra data)",
+        "d": "2022-08-25",
+        "m1": "86.5",
+        "m2": "84.5"
+      },
+      {
+        "p": {
           "name": "PointDico: Contrastive 3D Representation Learning Guided by Diffusion Models",
           "link": "https://arxiv.org/abs/2512.08330"
         },
@@ -411,6 +465,17 @@
       },
       {
         "p": {
+          "name": "MAP: Unleashing Hybrid Mamba-Transformer Vision Backbone's Potential with Masked Autoregressive Pretraining",
+          "link": "https://arxiv.org/abs/2410.00871"
+        },
+        "c": "",
+        "n": "Mamba3d+MAP (extra data)",
+        "d": "2024-10-01",
+        "m1": "86.3",
+        "m2": "84.7"
+      },
+      {
+        "p": {
           "name": "Relation-Shape Convolutional Neural Network for Point Cloud Analysis",
           "link": "https://arxiv.org/abs/1904.07601v3"
         },
@@ -441,6 +506,17 @@
       },
       {
         "p": {
+          "name": "Point Ladder Tuning: Parameter-Efficient Hierarchical Adaptation for 3D Point Cloud Understanding",
+          "link": "https://arxiv.org/abs/2607.19171"
+        },
+        "c": "https://github.com/junlinchang/eccv2026-plt",
+        "n": "PointGPT-L + PLT (extra data)",
+        "d": "2026-07-21",
+        "m1": "86.2",
+        "m2": "84.07"
+      },
+      {
+        "p": {
           "name": "PointCNN: Convolution On $\\mathcal{X}$-Transformed Points",
           "link": "http://arxiv.org/abs/1801.07791v5"
         },
@@ -459,6 +535,17 @@
         "n": "ASSANet",
         "d": "2021-10-20",
         "m1": "86.1"
+      },
+      {
+        "p": {
+          "name": "A Cross Branch Fusion-Based Contrastive Learning Framework for Point Cloud Self-supervised Learning",
+          "link": "https://arxiv.org/abs/2505.24641"
+        },
+        "c": "",
+        "n": "PoCCA (Transformer backbone)",
+        "d": "2025-05-30",
+        "m1": "86.1",
+        "m2": "84.7"
       },
       {
         "p": {
@@ -536,6 +623,17 @@
       },
       {
         "p": {
+          "name": "General Point Model Pretraining with Autoencoding and Autoregressive",
+          "link": "https://openaccess.thecvf.com/content/CVPR2024/html/Li_General_Point_Model_Pretraining_with_Autoencoding_and_Autoregressive_CVPR_2024_paper.html"
+        },
+        "c": "https://github.com/gentlefress/gpm",
+        "n": "GPM",
+        "d": "2024-06-17",
+        "m1": "85.8",
+        "m2": "84.2"
+      },
+      {
+        "p": {
           "name": "PointConv: Deep Convolutional Networks on 3D Point Clouds",
           "link": "https://arxiv.org/abs/1811.07246v3"
         },
@@ -554,6 +652,17 @@
         "n": "PointNet++ + SageMix",
         "d": "2022-10-13",
         "m1": "85.7"
+      },
+      {
+        "p": {
+          "name": "Dynamic Adapter Meets Prompt Tuning: Parameter-Efficient Transfer Learning for Point Cloud Analysis",
+          "link": "https://arxiv.org/abs/2403.01439"
+        },
+        "c": "https://github.com/lmd0311/dapt",
+        "n": "DAPT (Point-MAE backbone)",
+        "d": "2024-03-03",
+        "m1": "85.7",
+        "m2": "84.01"
       },
       {
         "p": {

@@ -1,0 +1,308 @@
+{
+  "title": "object-counting-on-countbench",
+  "task-hierarchy": [
+    "Object Counting"
+  ],
+  "dataset-info": {
+    "link": "https://teaching-clip-to-count.github.io/",
+    "paper": "Teaching CLIP to Count to Ten"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Unlocking Dense Metric Depth Estimation in VLMs",
+          "link": "https://arxiv.org/abs/2605.15876"
+        },
+        "c": "https://github.com/hanxunyu/DepthVLM",
+        "n": "DepthVLM-8B",
+        "d": "2026-05-15",
+        "m1": "98.2"
+      },
+      {
+        "p": {
+          "name": "Qwen3.5: Towards Native Multimodal Agents",
+          "link": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Qwen3.5-27B",
+        "d": "2026-02-16",
+        "m1": "97.8"
+      },
+      {
+        "p": {
+          "name": "Qwen3.5: Towards Native Multimodal Agents",
+          "link": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Qwen3.5-35B-A3B",
+        "d": "2026-02-16",
+        "m1": "97.8"
+      },
+      {
+        "p": {
+          "name": "Qwen3.6",
+          "link": "https://huggingface.co/collections/Qwen/qwen36"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Qwen3.6-27B",
+        "d": "2026-04-21",
+        "m1": "97.8"
+      },
+      {
+        "p": {
+          "name": "Qwen3.5: Towards Native Multimodal Agents",
+          "link": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Qwen3.5-397B-A17B",
+        "d": "2026-02-16",
+        "m1": "97.2"
+      },
+      {
+        "p": {
+          "name": "Qwen3.5: Towards Native Multimodal Agents",
+          "link": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Qwen3.5-9B",
+        "d": "2026-02-16",
+        "m1": "97.2"
+      },
+      {
+        "p": {
+          "name": "Qwen3.5: Towards Native Multimodal Agents",
+          "link": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Qwen3.5-122B-A10B",
+        "d": "2026-02-16",
+        "m1": "97.0"
+      },
+      {
+        "p": {
+          "name": "Qwen3.6",
+          "link": "https://huggingface.co/collections/Qwen/qwen36"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Qwen3.6-35B-A3B",
+        "d": "2026-04-21",
+        "m1": "96.1"
+      },
+      {
+        "p": {
+          "name": "Evidence-RL: Towards Evidence-intensive Visual Reasoning",
+          "link": "https://arxiv.org/abs/2608.08021"
+        },
+        "c": "",
+        "n": "Evidence-RL (Qwen3-VL-8B)",
+        "d": "2026-08-08",
+        "m1": "95.92"
+      },
+      {
+        "p": {
+          "name": "Molmo2: Open Weights and Data for Vision-Language Models with Video Understanding and Grounding",
+          "link": "https://arxiv.org/abs/2601.10611"
+        },
+        "c": "https://github.com/allenai/molmo2",
+        "n": "Molmo2-O-7B",
+        "d": "2026-01-15",
+        "m1": "95.1"
+      },
+      {
+        "p": {
+          "name": "Qwen3.5-Omni Technical Report",
+          "link": "https://arxiv.org/pdf/2604.15804"
+        },
+        "c": "",
+        "n": "Qwen3.5-Omni-Plus",
+        "d": "2026-04-21",
+        "m1": "95.1"
+      },
+      {
+        "p": {
+          "name": "SAM 3: Segment Anything with Concepts",
+          "link": "https://arxiv.org/abs/2511.16719"
+        },
+        "c": "https://github.com/facebookresearch/sam3",
+        "n": "SAM 3 (zero-shot)",
+        "d": "2025-11-20",
+        "m1": "93.8"
+      },
+      {
+        "p": {
+          "name": "Qwen3-VL Technical Report",
+          "link": "https://arxiv.org/abs/2511.21631"
+        },
+        "c": "https://github.com/QwenLM/Qwen3-VL",
+        "n": "Qwen3-VL-235B-A22B-Thinking",
+        "d": "2025-11-26",
+        "m1": "93.7"
+      },
+      {
+        "p": {
+          "name": "Qwen2.5-VL Technical Report",
+          "link": "https://arxiv.org/abs/2502.13923v1"
+        },
+        "c": "https://github.com/qwenlm/qwen2-vl",
+        "n": "Qwen2.5-VL-72B",
+        "d": "2025-02-19",
+        "m1": "93.6"
+      },
+      {
+        "p": {
+          "name": "Qwen3-Omni Technical Report",
+          "link": "https://arxiv.org/abs/2509.17765"
+        },
+        "c": "https://github.com/QwenLM/Qwen3-Omni",
+        "n": "Qwen3-Omni-Flash-Thinking",
+        "d": "2025-09-22",
+        "m1": "92.5"
+      },
+      {
+        "p": {
+          "name": "LongCat-Flash-Omni Technical Report",
+          "link": "https://arxiv.org/abs/2511.00279"
+        },
+        "c": "https://github.com/meituan-longcat/LongCat-Flash-Omni",
+        "n": "LongCat-Flash-Omni",
+        "d": "2025-10-31",
+        "m1": "92.4"
+      },
+      {
+        "p": {
+          "name": "Metric-Bench: Exploring In-context Spatial Metric Reasoning in VLMs for Indoor Scenes",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/4398"
+        },
+        "c": "",
+        "n": "MetricReasoner",
+        "d": "2026-09-08",
+        "m1": "92.0"
+      },
+      {
+        "p": {
+          "name": "Cosmos 3: Omnimodal World Models for Physical AI",
+          "link": "https://arxiv.org/abs/2606.02800"
+        },
+        "c": "https://github.com/nvidia/cosmos",
+        "n": "Cosmos3-Super",
+        "d": "2026-06-01",
+        "m1": "89.1"
+      },
+      {
+        "p": {
+          "name": "ERNIE 4.5 Technical Report",
+          "link": "https://ernie.baidu.com/blog/publication/ERNIE_Technical_Report.pdf"
+        },
+        "c": "https://huggingface.co/baidu/ERNIE-4.5-300B-A47B-PT",
+        "n": "ERNIE-4.5-VL-424B-A47B",
+        "d": "2025-06-30",
+        "m1": "89.0"
+      },
+      {
+        "p": {
+          "name": "LLaVA-OneVision-2: Towards Next-Generation Perceptual Intelligence",
+          "link": "https://arxiv.org/abs/2605.25979"
+        },
+        "c": "https://github.com/evolvinglmms-lab/llava-onevision-2",
+        "n": "LLaVA-OneVision-2-8B",
+        "d": "2026-05-25",
+        "m1": "89.0"
+      },
+      {
+        "p": {
+          "name": "STEP3-VL-10B Technical Report",
+          "link": "https://arxiv.org/abs/2601.09668"
+        },
+        "c": "https://github.com/stepfun-ai/Step3-VL-10B",
+        "n": "Step3-VL-10B (PaCoRe)",
+        "d": "2026-01-14",
+        "m1": "88.8"
+      },
+      {
+        "p": {
+          "name": "Youtu-VL: Unleashing Visual Potential via Unified Vision-Language Supervision",
+          "link": "https://arxiv.org/abs/2601.19798"
+        },
+        "c": "https://github.com/TencentCloudADP/youtu-vl",
+        "n": "Youtu-VL (4B)",
+        "d": "2026-01-27",
+        "m1": "88.6"
+      },
+      {
+        "p": {
+          "name": "LLaDA-UI: Bringing Block-wise Diffusion to Vision-Language GUI Agents",
+          "link": "https://arxiv.org/abs/2609.13287"
+        },
+        "c": "https://github.com/inclusionai/llada-ui",
+        "n": "LLaDA-UI (pre-training)",
+        "d": "2026-09-09",
+        "m1": "86.2"
+      },
+      {
+        "p": {
+          "name": "LLaDA2.0-Uni: Unifying Multimodal Understanding and Generation with Diffusion Large Language Model",
+          "link": "https://arxiv.org/abs/2604.20796"
+        },
+        "c": "https://github.com/inclusionAI/LLaDA2.0-Uni",
+        "n": "LLaDA2.0-Uni (16B)",
+        "d": "2026-04-22",
+        "m1": "86.0"
+      },
+      {
+        "p": {
+          "name": "MOSS-VL Technical Report",
+          "link": "https://arxiv.org/abs/2608.15045"
+        },
+        "c": "https://github.com/OpenMOSS/MOSS-VL",
+        "n": "MOSS-VL-Instruct-0708",
+        "d": "2026-08-15",
+        "m1": "85.9"
+      },
+      {
+        "p": {
+          "name": "LongCat-Next: Lexicalizing Modalities as Discrete Tokens",
+          "link": "https://arxiv.org/abs/2603.27538"
+        },
+        "c": "https://github.com/meituan-longcat/LongCat-Next",
+        "n": "LongCat-Next (A3B, 68.5B)",
+        "d": "2026-03-29",
+        "m1": "82.1"
+      },
+      {
+        "p": {
+          "name": "LFM2.5-VL-450M: Structured Visual Intelligence, Edge to Cloud",
+          "link": "https://www.liquid.ai/blog/lfm2-5-vl-450m"
+        },
+        "c": "",
+        "n": "LFM2.5-VL-450M",
+        "d": "2026-04-08",
+        "m1": "73.31"
+      }
+    ]
+  }
+}

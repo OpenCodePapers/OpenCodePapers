@@ -1,0 +1,128 @@
+{
+  "title": "agents-on-agents-last-exam-ale-cli",
+  "task-hierarchy": [
+    "Agents"
+  ],
+  "dataset-info": {
+    "link": "https://agents-last-exam.org/leaderboard",
+    "paper": "Agents' Last Exam"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Pass Rate",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression",
+          "link": "https://arxiv.org/abs/2609.19969"
+        },
+        "c": "https://github.com/deepseek-ai/deepseek-recipe",
+        "n": "DeepSeek-V4.1-Flash-1017",
+        "d": "2026-09-17",
+        "m1": "35.4"
+      },
+      {
+        "p": {
+          "name": "DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression",
+          "link": "https://arxiv.org/abs/2609.19969"
+        },
+        "c": "https://github.com/deepseek-ai/deepseek-recipe",
+        "n": "DeepSeek-V4.1-Flash Max",
+        "d": "2026-09-17",
+        "m1": "31.8"
+      },
+      {
+        "p": {
+          "name": "Step 5 Preview",
+          "link": "https://huggingface.co/stepfun-ai/Step-5-Preview"
+        },
+        "c": "",
+        "n": "Step 5 Preview (High)",
+        "d": "2026-09-20",
+        "m1": "29.5"
+      },
+      {
+        "p": {
+          "name": "GLM-5.3: Frontier Coding with Emergent Cyber Capabilities",
+          "link": "https://z.ai/blog/glm-5.3"
+        },
+        "c": "https://github.com/zai-org/glm-5",
+        "n": "GLM-5.3 (Claude Code)",
+        "d": "2026-08-14",
+        "m1": "28.5"
+      },
+      {
+        "p": {
+          "name": "Qwen3.8-Max: A New Bar for Coding and Cowork",
+          "link": "https://qwen.ai/blog?id=qwen3.8"
+        },
+        "c": "https://github.com/vllm-project/vllm",
+        "n": "Qwen3.8-Max",
+        "d": "2026-08-03",
+        "m1": "27.0"
+      },
+      {
+        "p": {
+          "name": "GLM-5.3-Flash: Frontier Intelligence, Flash Cost",
+          "link": "https://z.ai/blog/glm-5.3-flash"
+        },
+        "c": "https://github.com/zai-org/glm-5",
+        "n": "GLM-5.3-Flash (Claude Code)",
+        "d": "2026-08-26",
+        "m1": "26.3"
+      },
+      {
+        "p": {
+          "name": "DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence",
+          "link": "https://arxiv.org/abs/2606.19348"
+        },
+        "c": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+        "n": "DeepSeek-V4-Pro-0813 (Max)",
+        "d": "2026-04-26",
+        "m1": "25.7"
+      },
+      {
+        "p": {
+          "name": "DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence",
+          "link": "https://arxiv.org/abs/2606.19348"
+        },
+        "c": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+        "n": "DeepSeek-V4-Flash-0731 (Max)",
+        "d": "2026-04-26",
+        "m1": "25.2"
+      },
+      {
+        "p": {
+          "name": "Hy4 preview",
+          "link": "https://github.com/Tencent-Hunyuan/Hy4-preview/blob/1296fab2674cb5a645ccfe53e9a8dc225dbe69f2/README.md"
+        },
+        "c": "https://github.com/tencent-hunyuan/hy4-preview",
+        "n": "Hy4 preview (Claude Code)",
+        "d": "2026-08-28",
+        "m1": "22.8"
+      }
+    ]
+  }
+}

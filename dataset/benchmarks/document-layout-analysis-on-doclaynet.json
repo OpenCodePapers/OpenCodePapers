@@ -1,0 +1,89 @@
+{
+  "title": "document-layout-analysis-on-doclaynet",
+  "task-hierarchy": [
+    "Document Understanding",
+    "Document Layout Analysis"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/DS4SD/DocLayNet",
+    "paper": "DocLayNet: A Large Human-Annotated Dataset for Document-Layout Analysis"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mAP",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "UniHDSA: A Unified Relation Prediction Approach for Hierarchical Document Structure Analysis",
+          "link": "https://arxiv.org/abs/2503.15893"
+        },
+        "c": "https://github.com/microsoft/comphrdoc",
+        "n": "UniHDSA-R50",
+        "d": "2025-03-20",
+        "m1": "87.0"
+      },
+      {
+        "p": {
+          "name": "DLAFormer: An End-to-End Transformer For Document Layout Analysis",
+          "link": "https://arxiv.org/abs/2405.11757"
+        },
+        "c": "",
+        "n": "DLAFormer",
+        "d": "2024-05-20",
+        "m1": "83.8"
+      },
+      {
+        "p": {
+          "name": "A Hybrid Approach for Document Layout Analysis in Document images",
+          "link": "https://arxiv.org/abs/2404.17888"
+        },
+        "c": "",
+        "n": "Hybrid DINO",
+        "d": "2024-04-27",
+        "m1": "81.6"
+      },
+      {
+        "p": {
+          "name": "Detect-Order-Construct: A Tree Construction based Approach for Hierarchical Document Structure Analysis",
+          "link": "https://arxiv.org/abs/2401.11874"
+        },
+        "c": "https://github.com/microsoft/comphrdoc",
+        "n": "DOC",
+        "d": "2024-01-22",
+        "m1": "81.0"
+      },
+      {
+        "p": {
+          "name": "A Graphical Approach to Document Layout Analysis",
+          "link": "https://arxiv.org/abs/2308.02051v1"
+        },
+        "c": "https://github.com/ivanstepanovftw/glam",
+        "n": "GLAM",
+        "d": "2023-08-03",
+        "m1": "72.4"
+      }
+    ]
+  }
+}

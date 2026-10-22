@@ -1,0 +1,128 @@
+{
+  "title": "surface-normals-estimation-on-sintel",
+  "task-hierarchy": [
+    "Surface Normals Estimation"
+  ],
+  "dataset-info": {
+    "link": "http://sintel.is.tue.mpg.de/",
+    "paper": "A Naturalistic Open Source Movie for Optical Flow Evaluation"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mAE",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Marigold V2: Revisiting Diffusion Transformers for Monocular Depth Estimation",
+          "link": "https://arxiv.org/abs/2609.08084"
+        },
+        "c": "https://github.com/huawei-bayerlab/marigold-v2",
+        "n": "Marigold V2 (normals)",
+        "d": "2026-09-08",
+        "m1": "28.7"
+      },
+      {
+        "p": {
+          "name": "TransNormal-2: Geometry-Grounded Rectified Flow with Edge-Aware Decoding for Precise Normal Estimation",
+          "link": "https://arxiv.org/abs/2609.06665"
+        },
+        "c": "https://github.com/longxiang-ai/TransNormal-2",
+        "n": "TransNormal-2",
+        "d": "2026-09-06",
+        "m1": "29.2"
+      },
+      {
+        "p": {
+          "name": "Video Generation Models are General-Purpose Vision Learners",
+          "link": "https://arxiv.org/abs/2607.09024"
+        },
+        "c": "",
+        "n": "GenCeption Generalist-L",
+        "d": "2026-07-10",
+        "m1": "29.3"
+      },
+      {
+        "p": {
+          "name": "Lotus-2: Advancing Geometric Dense Prediction with Powerful Image Generative Model",
+          "link": "https://arxiv.org/abs/2512.01030"
+        },
+        "c": "https://github.com/EnVision-Research/Lotus-2",
+        "n": "Lotus-2 (zero-shot)",
+        "d": "2025-11-30",
+        "m1": "30.3"
+      },
+      {
+        "p": {
+          "name": "NormalCrafter: Learning Temporally Consistent Normals from Video Diffusion Priors",
+          "link": "https://arxiv.org/abs/2504.11427"
+        },
+        "c": "https://github.com/binyr/normalcrafter",
+        "n": "NormalCrafter",
+        "d": "2025-04-15",
+        "m1": "30.7"
+      },
+      {
+        "p": {
+          "name": "Lotus: Diffusion-based Visual Foundation Model for High-quality Dense Prediction",
+          "link": "https://arxiv.org/abs/2409.18124"
+        },
+        "c": "https://github.com/envision-research/lotus",
+        "n": "Lotus-D (zero-shot)",
+        "d": "2024-09-26",
+        "m1": "32.3"
+      },
+      {
+        "p": {
+          "name": "Video Generative Models as Geometry Learner",
+          "link": "https://arxiv.org/abs/2608.28549"
+        },
+        "c": "https://github.com/creative-intelligence-studio/geonext",
+        "n": "GeoNeXt",
+        "d": "2026-08-28",
+        "m1": "33.0"
+      },
+      {
+        "p": {
+          "name": "Fine-Tuning Image-Conditional Diffusion Models is Easier than You Think",
+          "link": "https://arxiv.org/abs/2409.11355v1"
+        },
+        "c": "https://github.com/VisualComputingInstitute/diffusion-e2e-ft",
+        "n": "GeoWizard + E2E FT (zero-shot)",
+        "d": "2024-09-17",
+        "m1": "33.4"
+      },
+      {
+        "p": {
+          "name": "Rethinking Inductive Biases for Surface Normal Estimation",
+          "link": "https://arxiv.org/abs/2403.00712"
+        },
+        "c": "https://github.com/baegwangbin/dsine",
+        "n": "DSINE (zero-shot)",
+        "d": "2024-03-01",
+        "m1": "34.9"
+      }
+    ]
+  }
+}

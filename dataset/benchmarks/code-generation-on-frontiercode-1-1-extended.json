@@ -1,0 +1,550 @@
+{
+  "title": "code-generation-on-frontiercode-1-1-extended",
+  "task-hierarchy": [
+    "Code Intelligence",
+    "Code Generation"
+  ],
+  "dataset-info": {
+    "link": "https://cognition.com/frontiercode",
+    "paper": "Introducing FrontierCode"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Score",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Pass Rate",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "FrontierCode Leaderboard",
+          "link": "https://cognition.com/frontiercode"
+        },
+        "c": "https://github.com/anthropics/claude-code",
+        "n": "Claude Opus 5.5 (Claude Code)",
+        "d": "2026-09-22",
+        "m1": "65.27",
+        "m2": "70.8"
+      },
+      {
+        "p": {
+          "name": "FrontierCode Leaderboard",
+          "link": "https://cognition.com/frontiercode"
+        },
+        "c": "https://github.com/anthropics/claude-code",
+        "n": "Claude Fable 5 (Claude Code)",
+        "d": "2026-06-09",
+        "m1": "64.94",
+        "m2": "70.86"
+      },
+      {
+        "p": {
+          "name": "FrontierCode Leaderboard",
+          "link": "https://cognition.com/frontiercode"
+        },
+        "c": "https://github.com/openai/codex",
+        "n": "GPT-6 Astra (Codex)",
+        "d": "2026-09-03",
+        "m1": "64.48",
+        "m2": "70.63"
+      },
+      {
+        "p": {
+          "name": "FrontierCode Leaderboard",
+          "link": "https://cognition.com/frontiercode"
+        },
+        "c": "https://github.com/anthropics/claude-code",
+        "n": "Claude Sonnet 5.5 (Claude Code)",
+        "d": "2026-09-28",
+        "m1": "64.43",
+        "m2": "69.87"
+      },
+      {
+        "p": {
+          "name": "FrontierCode Leaderboard",
+          "link": "https://cognition.com/frontiercode"
+        },
+        "c": "https://github.com/anthropics/claude-code",
+        "n": "Claude Opus 5 (Claude Code)",
+        "d": "2026-07-24",
+        "m1": "63.63",
+        "m2": "69.63"
+      },
+      {
+        "p": {
+          "name": "FrontierCode Leaderboard",
+          "link": "https://cognition.com/frontiercode"
+        },
+        "c": "",
+        "n": "Claude Fable 5.1 (Claude Code)",
+        "d": "2026-09-01",
+        "m1": "63.6",
+        "m2": "68.8"
+      },
+      {
+        "p": {
+          "name": "FrontierCode Leaderboard",
+          "link": "https://cognition.com/frontiercode"
+        },
+        "c": "",
+        "n": "SWE-2 (devin)",
+        "d": "2026-09-10",
+        "m1": "62.46",
+        "m2": "68.44"
+      },
+      {
+        "p": {
+          "name": "FrontierCode Leaderboard",
+          "link": "https://cognition.com/frontiercode"
+        },
+        "c": "",
+        "n": "Grok 4.6 (Grok Build)",
+        "d": "2026-08-12",
+        "m1": "61.31",
+        "m2": "67.05"
+      },
+      {
+        "p": {
+          "name": "FrontierCode Leaderboard",
+          "link": "https://cognition.com/frontiercode"
+        },
+        "c": "",
+        "n": "GPT-6 Sol (Codex)",
+        "d": "2026-09-22",
+        "m1": "60.69",
+        "m2": "66.33"
+      },
+      {
+        "p": {
+          "name": "FrontierCode Leaderboard",
+          "link": "https://cognition.com/frontiercode"
+        },
+        "c": "https://github.com/google-gemini/gemini-cli",
+        "n": "Gemini 4 Argon (Chisel)",
+        "d": "2026-09-30",
+        "m1": "60.58",
+        "m2": "66.0"
+      },
+      {
+        "p": {
+          "name": "FrontierCode Leaderboard",
+          "link": "https://cognition.com/frontiercode"
+        },
+        "c": "https://github.com/openai/codex",
+        "n": "GPT-5.6 Sol (Codex)",
+        "d": "2026-07-09",
+        "m1": "60.55",
+        "m2": "66.61"
+      },
+      {
+        "p": {
+          "name": "FrontierCode Leaderboard",
+          "link": "https://cognition.com/frontiercode"
+        },
+        "c": "",
+        "n": "GPT-6.1 Sol (Codex)",
+        "d": "2026-09-29",
+        "m1": "60.4",
+        "m2": "66.53"
+      },
+      {
+        "p": {
+          "name": "FrontierCode Leaderboard",
+          "link": "https://cognition.com/frontiercode"
+        },
+        "c": "",
+        "n": "Claude Opus 4.8 (Claude Code)",
+        "d": "2026-05-28",
+        "m1": "59.6",
+        "m2": "65.49"
+      },
+      {
+        "p": {
+          "name": "FrontierCode Leaderboard",
+          "link": "https://cognition.com/frontiercode"
+        },
+        "c": "",
+        "n": "Grok 4.7 (Grok Build)",
+        "d": "2026-09-21",
+        "m1": "59.35",
+        "m2": "65.23"
+      },
+      {
+        "p": {
+          "name": "FrontierCode Leaderboard",
+          "link": "https://cognition.com/frontiercode"
+        },
+        "c": "",
+        "n": "Claude Haiku 5.5 (Claude Code)",
+        "d": "2026-10-07",
+        "m1": "58.43",
+        "m2": "64.7"
+      },
+      {
+        "p": {
+          "name": "FrontierCode Leaderboard",
+          "link": "https://cognition.com/frontiercode"
+        },
+        "c": "https://github.com/moonshotai/kimi-k3",
+        "n": "Kimi K3 (MiniSWE-Agent)",
+        "d": "2026-07-27",
+        "m1": "58.19",
+        "m2": "63.58"
+      },
+      {
+        "p": {
+          "name": "FrontierCode Leaderboard",
+          "link": "https://cognition.com/frontiercode"
+        },
+        "c": "",
+        "n": "GPT-5.5 (Codex)",
+        "d": "2026-04-23",
+        "m1": "56.66",
+        "m2": "62.76"
+      },
+      {
+        "p": {
+          "name": "FrontierCode Leaderboard",
+          "link": "https://cognition.com/frontiercode"
+        },
+        "c": "https://github.com/deepseek-ai/deepseek-recipe",
+        "n": "DeepSeek V4.1 Flash (Chisel)",
+        "d": "2026-09-17",
+        "m1": "56.62",
+        "m2": "62.03"
+      },
+      {
+        "p": {
+          "name": "FrontierCode Leaderboard",
+          "link": "https://cognition.com/frontiercode"
+        },
+        "c": "",
+        "n": "Grok 4.5 (Grok Build)",
+        "d": "2026-07-08",
+        "m1": "56.55",
+        "m2": "62.27"
+      },
+      {
+        "p": {
+          "name": "FrontierCode Leaderboard",
+          "link": "https://cognition.com/frontiercode"
+        },
+        "c": "https://github.com/google-antigravity/antigravity-cli",
+        "n": "Gemini 3.7 Flash (Chisel)",
+        "d": "2026-08-13",
+        "m1": "56.27",
+        "m2": "62.33"
+      },
+      {
+        "p": {
+          "name": "FrontierCode Leaderboard",
+          "link": "https://cognition.com/frontiercode"
+        },
+        "c": "",
+        "n": "Claude Sonnet 5 (Claude Code)",
+        "d": "2026-06-30",
+        "m1": "56.18",
+        "m2": "61.66"
+      },
+      {
+        "p": {
+          "name": "FrontierCode Leaderboard",
+          "link": "https://cognition.com/frontiercode"
+        },
+        "c": "",
+        "n": "GPT-6 Luna (Codex)",
+        "d": "2026-09-22",
+        "m1": "56.1",
+        "m2": "62.27"
+      },
+      {
+        "p": {
+          "name": "FrontierCode Leaderboard",
+          "link": "https://cognition.com/frontiercode"
+        },
+        "c": "https://github.com/openai/codex",
+        "n": "GPT-5.6 Terra (Codex)",
+        "d": "2026-07-09",
+        "m1": "55.84",
+        "m2": "61.75"
+      },
+      {
+        "p": {
+          "name": "FrontierCode Leaderboard",
+          "link": "https://cognition.com/frontiercode"
+        },
+        "c": "https://github.com/openai/codex",
+        "n": "GPT-5.6 Luna (Codex)",
+        "d": "2026-07-09",
+        "m1": "55.06",
+        "m2": "60.89"
+      },
+      {
+        "p": {
+          "name": "FrontierCode Leaderboard",
+          "link": "https://cognition.com/frontiercode"
+        },
+        "c": "",
+        "n": "SWE-1.7 (Chisel)",
+        "d": "2026-07-08",
+        "m1": "54.26",
+        "m2": "60.33"
+      },
+      {
+        "p": {
+          "name": "FrontierCode Leaderboard",
+          "link": "https://cognition.com/frontiercode"
+        },
+        "c": "",
+        "n": "Claude Opus 4.7 (Claude Code)",
+        "d": "2026-04-16",
+        "m1": "53.93",
+        "m2": "59.09"
+      },
+      {
+        "p": {
+          "name": "FrontierCode Leaderboard",
+          "link": "https://cognition.com/frontiercode"
+        },
+        "c": "https://github.com/google-gemini/gemini-cli",
+        "n": "Gemini 3.8 Flash (Chisel)",
+        "d": "2026-09-02",
+        "m1": "53.45",
+        "m2": "59.62"
+      },
+      {
+        "p": {
+          "name": "FrontierCode Leaderboard",
+          "link": "https://cognition.com/frontiercode"
+        },
+        "c": "",
+        "n": "Mistral Large 4 (Preview) (Chisel)",
+        "d": "2026-10-06",
+        "m1": "53.21",
+        "m2": "58.07"
+      },
+      {
+        "p": {
+          "name": "FrontierCode Leaderboard",
+          "link": "https://cognition.com/frontiercode"
+        },
+        "c": "https://github.com/zai-org/glm-5",
+        "n": "GLM 5.3 (Chisel)",
+        "d": "2026-08-14",
+        "m1": "52.63",
+        "m2": "57.73"
+      },
+      {
+        "p": {
+          "name": "FrontierCode Leaderboard",
+          "link": "https://cognition.com/frontiercode"
+        },
+        "c": "",
+        "n": "Gemini 3.6 Flash (Chisel)",
+        "d": "2026-07-21",
+        "m1": "48.02",
+        "m2": "53.27"
+      },
+      {
+        "p": {
+          "name": "FrontierCode Leaderboard",
+          "link": "https://cognition.com/frontiercode"
+        },
+        "c": "https://github.com/zai-org/glm-5",
+        "n": "GLM 5.3 Flash (Chisel)",
+        "d": "2026-08-26",
+        "m1": "46.21",
+        "m2": "51.08"
+      },
+      {
+        "p": {
+          "name": "FrontierCode Leaderboard",
+          "link": "https://cognition.com/frontiercode"
+        },
+        "c": "",
+        "n": "Kimi K2.7 (MiniSWE-Agent)",
+        "d": "2026-06-11",
+        "m1": "45.38",
+        "m2": "50.0"
+      },
+      {
+        "p": {
+          "name": "FrontierCode Leaderboard",
+          "link": "https://cognition.com/frontiercode"
+        },
+        "c": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+        "n": "DeepSeek V4 Pro 0813 (Chisel)",
+        "d": "2026-04-26",
+        "m1": "44.45",
+        "m2": "48.93"
+      },
+      {
+        "p": {
+          "name": "FrontierCode Leaderboard",
+          "link": "https://cognition.com/frontiercode"
+        },
+        "c": "",
+        "n": "Claude Opus 4.6 (Claude Code)",
+        "d": "2026-02-05",
+        "m1": "43.67",
+        "m2": "48.0"
+      },
+      {
+        "p": {
+          "name": "FrontierCode Leaderboard",
+          "link": "https://cognition.com/frontiercode"
+        },
+        "c": "",
+        "n": "GPT-5.4-mini (Codex)",
+        "d": "2026-03-17",
+        "m1": "43.01",
+        "m2": "47.94"
+      },
+      {
+        "p": {
+          "name": "FrontierCode Leaderboard",
+          "link": "https://cognition.com/frontiercode"
+        },
+        "c": "",
+        "n": "Composer 2.5 (Cursor CLI)",
+        "d": "2026-03-25",
+        "m1": "40.75",
+        "m2": "45.13"
+      },
+      {
+        "p": {
+          "name": "FrontierCode Leaderboard",
+          "link": "https://cognition.com/frontiercode"
+        },
+        "c": "https://github.com/zai-org/GLM-5",
+        "n": "GLM 5.2 (MiniSWE-Agent)",
+        "d": "2026-06-16",
+        "m1": "40.05",
+        "m2": "44.13"
+      },
+      {
+        "p": {
+          "name": "FrontierCode Leaderboard",
+          "link": "https://cognition.com/frontiercode"
+        },
+        "c": "",
+        "n": "Claude Sonnet 4.6 (Claude Code)",
+        "d": "2026-02-17",
+        "m1": "40.0",
+        "m2": "44.4"
+      },
+      {
+        "p": {
+          "name": "FrontierCode Leaderboard",
+          "link": "https://cognition.com/frontiercode"
+        },
+        "c": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+        "n": "DeepSeek V4 Flash 0731 (Chisel)",
+        "d": "2026-04-26",
+        "m1": "31.7",
+        "m2": "34.96"
+      },
+      {
+        "p": {
+          "name": "FrontierCode Leaderboard",
+          "link": "https://cognition.com/frontiercode"
+        },
+        "c": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+        "n": "DeepSeek V4 Pro (MiniSWE-Agent)",
+        "d": "2026-04-26",
+        "m1": "31.01",
+        "m2": "34.49"
+      },
+      {
+        "p": {
+          "name": "FrontierCode Leaderboard",
+          "link": "https://cognition.com/frontiercode"
+        },
+        "c": "https://github.com/MiniMax-AI/MiniMax-M3",
+        "n": "MiniMax M3 (MiniSWE-Agent)",
+        "d": "2026-05-31",
+        "m1": "28.54",
+        "m2": "31.46"
+      },
+      {
+        "p": {
+          "name": "FrontierCode Leaderboard",
+          "link": "https://cognition.com/frontiercode"
+        },
+        "c": "https://github.com/NVIDIA-NeMo/Nemotron",
+        "n": "Nemotron 3 Ultra (Chisel)",
+        "d": "2026-06-03",
+        "m1": "27.21",
+        "m2": "30.27"
+      },
+      {
+        "p": {
+          "name": "FrontierCode Leaderboard",
+          "link": "https://cognition.com/frontiercode"
+        },
+        "c": "https://huggingface.co/thinkingmachines/Inkling",
+        "n": "Inkling (MiniSWE-Agent)",
+        "d": "2026-07-15",
+        "m1": "24.8",
+        "m2": "27.8"
+      },
+      {
+        "p": {
+          "name": "FrontierCode Leaderboard",
+          "link": "https://cognition.com/frontiercode"
+        },
+        "c": "",
+        "n": "Qwen 3.7 Plus (MiniSWE-Agent)",
+        "d": "2026-06-02",
+        "m1": "21.78",
+        "m2": "24.13"
+      },
+      {
+        "p": {
+          "name": "FrontierCode Leaderboard",
+          "link": "https://cognition.com/frontiercode"
+        },
+        "c": "",
+        "n": "SWE-1.6 (Chisel)",
+        "d": "2026-04-07",
+        "m1": "20.5",
+        "m2": "22.67"
+      },
+      {
+        "p": {
+          "name": "FrontierCode Leaderboard",
+          "link": "https://cognition.com/frontiercode"
+        },
+        "c": "",
+        "n": "Mistral 3.5 Medium (Chisel)",
+        "d": "2026-04-28",
+        "m1": "18.66",
+        "m2": "20.6"
+      }
+    ]
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "title": "instruction-following-on-arena-hard-auto-v2",
+  "task-hierarchy": [
+    "Natural Language Understanding",
+    "Instruction Following"
+  ],
+  "dataset-info": {
+    "link": "https://openreview.net/forum?id=KfTf9vFvSn",
+    "paper": "From Crowdsourced Data to High-Quality Benchmarks: Arena-Hard and BenchBuilder Pipeline"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "LongCat-Flash Technical Report",
+          "link": "https://arxiv.org/abs/2509.01322"
+        },
+        "c": "https://github.com/meituan-longcat/LongCat-Flash-Chat",
+        "n": "LongCat-Flash",
+        "d": "2025-09-01",
+        "m1": "86.50"
+      },
+      {
+        "p": {
+          "name": "Qwen3-Next",
+          "link": "https://qwenlm.github.io/blog/qwen3_next/"
+        },
+        "c": "",
+        "n": "Qwen3-Next-80B-A3B-Instruct",
+        "d": "2025-09-09",
+        "m1": "82.7"
+      },
+      {
+        "p": {
+          "name": "Unified Audio Intelligence Without Regressing on Text Intelligence",
+          "link": "https://arxiv.org/abs/2607.05196"
+        },
+        "c": "",
+        "n": "Audex 30B-A3B",
+        "d": "2026-07-06",
+        "m1": "81.6"
+      },
+      {
+        "p": {
+          "name": "Qwen3-VL Technical Report",
+          "link": "https://arxiv.org/abs/2511.21631"
+        },
+        "c": "https://github.com/QwenLM/Qwen3-VL",
+        "n": "Qwen3-VL-235B-A22B-Instruct",
+        "d": "2025-11-26",
+        "m1": "77.4"
+      },
+      {
+        "p": {
+          "name": "Nanbeige4.1-3B: A Small General Model that Reasons, Aligns, and Acts",
+          "link": "https://arxiv.org/abs/2602.13367"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Nanbeige4.1-3B",
+        "d": "2026-02-13",
+        "m1": "73.2"
+      },
+      {
+        "p": {
+          "name": "Nanbeige4-3B Technical Report: Exploring the Frontier of Small Language Models",
+          "link": "https://arxiv.org/abs/2512.06266"
+        },
+        "c": "https://github.com/vllm-project/vllm",
+        "n": "Nanbeige4-3B-Thinking-2511",
+        "d": "2025-12-06",
+        "m1": "60.0"
+      }
+    ]
+  }
+}

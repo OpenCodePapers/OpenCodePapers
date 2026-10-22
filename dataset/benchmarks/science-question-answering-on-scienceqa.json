@@ -76,6 +76,26 @@
     "items": [
       {
         "p": {
+          "name": "MG2-RAG: Multi-Granularity Graph for Multimodal Retrieval-Augmented Generation",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/3411"
+        },
+        "c": "https://github.com/daboolu/mg2-rag",
+        "n": "MG2-RAG (Qwen3.5-27B)",
+        "d": "2026-09-08",
+        "m1": "97.85"
+      },
+      {
+        "p": {
+          "name": "Phi-4-Mini Technical Report: Compact yet Powerful Multimodal Language Models via Mixture-of-LoRAs",
+          "link": "https://arxiv.org/abs/2503.01743"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Phi-4-Multimodal",
+        "d": "2025-02-24",
+        "m1": "97.5"
+      },
+      {
+        "p": {
           "name": "Boosting the Power of Small Multimodal Reasoning Models to Match Larger Models with Self-Consistency Training",
           "link": "https://arxiv.org/abs/2311.14109v2"
         },
@@ -137,6 +157,26 @@
       },
       {
         "p": {
+          "name": "Phi-3 Technical Report: A Highly Capable Language Model Locally on Your Phone",
+          "link": "https://arxiv.org/abs/2404.14219v4"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Phi-3.5-Vision",
+        "d": "2024-04-22",
+        "m1": "91.3"
+      },
+      {
+        "p": {
+          "name": "UVU: Improving Multimodal Understanding via Vision-Language Unified Autoregressive Paradigm",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Kan_UVU_Improving_Multimodal_Understanding_via_Vision-Language_Unified_Autoregressive_Paradigm_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "UVU 3B",
+        "d": "2026-06-03",
+        "m1": "91.3"
+      },
+      {
+        "p": {
           "name": "Chat-UniVi: Unified Visual Representation Empowers Large Language Models with Image and Video Understanding",
           "link": "https://arxiv.org/abs/2311.08046v3"
         },
@@ -152,6 +192,26 @@
         "m7": "90.94",
         "m8": "91.19",
         "m9": "90.64"
+      },
+      {
+        "p": {
+          "name": "Unified-IO 2: Scaling Autoregressive Multimodal Models with Vision, Language, Audio, and Action",
+          "link": "https://arxiv.org/abs/2312.17172"
+        },
+        "c": "https://github.com/allenai/unified-io-2",
+        "n": "Unified-IO 2 XL",
+        "d": "2023-12-28",
+        "m1": "88.8"
+      },
+      {
+        "p": {
+          "name": "LLaMA-Excitor: General Instruction Tuning via Indirect Feature Interaction",
+          "link": "https://arxiv.org/abs/2404.00913"
+        },
+        "c": "",
+        "n": "LLaMA-Excitor@336px + LoRA",
+        "d": "2024-04-01",
+        "m1": "88.39"
       },
       {
         "p": {

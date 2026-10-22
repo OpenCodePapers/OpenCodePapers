@@ -1,0 +1,209 @@
+{
+  "title": "instruction-following-on-multi-if",
+  "task-hierarchy": [
+    "Natural Language Understanding",
+    "Instruction Following"
+  ],
+  "dataset-info": {
+    "link": "https://huggingface.co/datasets/facebook/Multi-IF",
+    "paper": "Multi-IF: Benchmarking LLMs on Multi-Turn and Multilingual Instructions Following"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "ERNIE 5.0 Technical Report",
+          "link": "https://arxiv.org/abs/2602.04705"
+        },
+        "c": "",
+        "n": "ERNIE 5.0",
+        "d": "2026-02-04",
+        "m1": "85.56"
+      },
+      {
+        "p": {
+          "name": "LFM2.5-24B-A2B: Built for Fast On-Device Agents",
+          "link": "https://www.liquid.ai/blog/lfm2-5-24b-a2b"
+        },
+        "c": "",
+        "n": "LFM2.5-24B-A2B",
+        "d": "2026-10-13",
+        "m1": "84.38"
+      },
+      {
+        "p": {
+          "name": "LFM2.5-2.6B: Deploy Agents Everywhere",
+          "link": "https://www.liquid.ai/blog/lfm2-5-2-6b"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "LFM2.5-2.6B",
+        "d": "2026-08-04",
+        "m1": "80.07"
+      },
+      {
+        "p": {
+          "name": "LFM2.5-8B-A1B: an Even Better on-Device Mixture-of-Experts",
+          "link": "https://www.liquid.ai/blog/lfm2-5-8b-a1b"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "LFM2.5-8B-A1B",
+        "d": "2026-05-28",
+        "m1": "79.93"
+      },
+      {
+        "p": {
+          "name": "Qwen3-VL Technical Report",
+          "link": "https://arxiv.org/abs/2511.21631"
+        },
+        "c": "https://github.com/QwenLM/Qwen3-VL",
+        "n": "Qwen3-VL (235B-A22B, Thinking)",
+        "d": "2025-11-26",
+        "m1": "79.1"
+      },
+      {
+        "p": {
+          "name": "ERNIE 4.5 Technical Report",
+          "link": "https://ernie.baidu.com/blog/publication/ERNIE_Technical_Report.pdf"
+        },
+        "c": "https://huggingface.co/baidu/ERNIE-4.5-300B-A47B-PT",
+        "n": "ERNIE-4.5-300B-A47B",
+        "d": "2025-06-30",
+        "m1": "76.6"
+      },
+      {
+        "p": {
+          "name": "Qwen3 Technical Report",
+          "link": "https://arxiv.org/abs/2505.09388"
+        },
+        "c": "https://github.com/QwenLM/Qwen3",
+        "n": "Qwen3-235B-A22B (Thinking)",
+        "d": "2025-05-14",
+        "m1": "71.9"
+      },
+      {
+        "p": {
+          "name": "Data Science and Technology Towards AGI Part I: Tiered Data Management",
+          "link": "https://arxiv.org/abs/2602.09003"
+        },
+        "c": "https://github.com/UltraData-OpenBMB/UltraData-Math",
+        "n": "MiniCPM5-2B",
+        "d": "2026-02-09",
+        "m1": "71.8"
+      },
+      {
+        "p": {
+          "name": "Qwen3 Technical Report",
+          "link": "https://arxiv.org/abs/2505.09388"
+        },
+        "c": "https://github.com/QwenLM/Qwen3",
+        "n": "Qwen3-235B-A22B (Non-thinking)",
+        "d": "2025-05-14",
+        "m1": "70.2"
+      },
+      {
+        "p": {
+          "name": "LFM2.5-1.2B-Thinking: On-Device Reasoning Under 1GB",
+          "link": "https://www.liquid.ai/blog/lfm2-5-1-2b-thinking-on-device-reasoning-under-1gb"
+        },
+        "c": "",
+        "n": "LFM2.5-1.2B-Thinking",
+        "d": "2026-01-20",
+        "m1": "69.33"
+      },
+      {
+        "p": {
+          "name": "SEIF: Self-Evolving Reinforcement Learning for Instruction Following",
+          "link": "https://arxiv.org/abs/2605.07465"
+        },
+        "c": "https://github.com/Rainier-rq1/SEIF",
+        "n": "SEIF (Llama-3.1-8B-Instruct)",
+        "d": "2026-05-08",
+        "m1": "62.4"
+      },
+      {
+        "p": {
+          "name": "Introducing LFM2.5: The Next Generation of On-Device AI",
+          "link": "https://www.liquid.ai/blog/introducing-lfm2-5-the-next-generation-of-on-device-ai"
+        },
+        "c": "",
+        "n": "LFM2.5-1.2B-Instruct",
+        "d": "2026-01-05",
+        "m1": "60.98"
+      },
+      {
+        "p": {
+          "name": "LFM2 Technical Report",
+          "link": "https://arxiv.org/abs/2511.23404"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "LFM2-8B-A1B",
+        "d": "2025-11-28",
+        "m1": "58.19"
+      },
+      {
+        "p": {
+          "name": "LFM2.5-350M: No Size Left Behind",
+          "link": "https://www.liquid.ai/blog/lfm2-5-350m-no-size-left-behind"
+        },
+        "c": "",
+        "n": "LFM2.5-350M",
+        "d": "2026-03-31",
+        "m1": "44.92"
+      },
+      {
+        "p": {
+          "name": "MiniCPM5-1B",
+          "link": "https://huggingface.co/openbmb/MiniCPM5-1B"
+        },
+        "c": "https://github.com/openbmb/minicpm",
+        "n": "MiniCPM5-1B (Thinking)",
+        "d": "2026-05-25",
+        "m1": "43.54"
+      },
+      {
+        "p": {
+          "name": "LFM2.5-230M: Built to Run Anywhere",
+          "link": "https://www.liquid.ai/blog/lfm2-5-230m"
+        },
+        "c": "",
+        "n": "LFM2.5-230M",
+        "d": "2026-06-25",
+        "m1": "37.70"
+      },
+      {
+        "p": {
+          "name": "LFM2.5-VL-450M: Structured Visual Intelligence, Edge to Cloud",
+          "link": "https://www.liquid.ai/blog/lfm2-5-vl-450m"
+        },
+        "c": "",
+        "n": "LFM2.5-VL-450M",
+        "d": "2026-04-08",
+        "m1": "34.63"
+      }
+    ]
+  }
+}

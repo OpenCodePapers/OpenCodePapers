@@ -46,6 +46,29 @@
     "items": [
       {
         "p": {
+          "name": "UniPR-3D: Towards Universal Visual Place Recognition with Visual Geometry Grounded Transformer",
+          "link": "https://arxiv.org/abs/2512.21078"
+        },
+        "c": "https://github.com/dtc111111/UniPR-3D",
+        "n": "UniPR-3D* (MegaLoc training setting, single frame)",
+        "d": "2025-12-24",
+        "m1": "96.3",
+        "m2": "98.5"
+      },
+      {
+        "p": {
+          "name": "SAGE: Spatial-visual Adaptive Graph Exploration for Efficient Visual Place Recognition",
+          "link": "https://arxiv.org/abs/2509.25723"
+        },
+        "c": "https://github.com/chenshunpeng/sage",
+        "n": "SAGE ViT-L (without cross-image encoder)",
+        "d": "2025-09-30",
+        "m1": "95.7",
+        "m2": "97.7",
+        "m3": "97.4"
+      },
+      {
+        "p": {
           "name": "EffoVPR: Effective Foundation Model Utilization for Visual Place Recognition",
           "link": "https://arxiv.org/abs/2405.18065v2"
         },
@@ -57,6 +80,37 @@
       },
       {
         "p": {
+          "name": "Lost in the Tail: Addressing Geographic Imbalance in Urban Visual Place Recognition",
+          "link": "https://arxiv.org/abs/2607.00090"
+        },
+        "c": "",
+        "n": "MegaLoc + LB loss",
+        "d": "2026-06-30",
+        "m1": "95.4"
+      },
+      {
+        "p": {
+          "name": "MegaLoc: One Retrieval to Place Them All",
+          "link": "https://arxiv.org/abs/2502.17237"
+        },
+        "c": "https://github.com/gmberton/megaloc",
+        "n": "MegaLoc (8448D)",
+        "d": "2025-02-24",
+        "m1": "95.3",
+        "m2": "98"
+      },
+      {
+        "p": {
+          "name": "Focus on Local: Finding Reliable Discriminative Regions for Visual Place Recognition",
+          "link": "https://arxiv.org/abs/2504.09881v1"
+        },
+        "c": "https://github.com/chenshunpeng/FoL",
+        "n": "FoL-reranking (ViT-L, 504x504)",
+        "d": "2025-04-14",
+        "m1": "95"
+      },
+      {
+        "p": {
           "name": "Query-Based Adaptive Aggregation for Multi-Dataset Joint Training Toward Universal Visual Place Recognition",
           "link": "https://arxiv.org/abs/2507.03831v1"
         },
@@ -64,6 +118,48 @@
         "n": "QAA-DINOv2-B-8192",
         "d": "2025-07-04",
         "m1": "94.4"
+      },
+      {
+        "p": {
+          "name": "AdaptVPR: Route-Aware Hard Positive Generation for Robust Visual Place Recognition",
+          "link": "https://arxiv.org/abs/2609.04369"
+        },
+        "c": "https://github.com/chenshunpeng/AdaptVPR",
+        "n": "EDTformer + AdaptVPR",
+        "d": "2026-09-03",
+        "m1": "93.9",
+        "m2": "97.4",
+        "m3": "97"
+      },
+      {
+        "p": {
+          "name": "SuperPlace: The Renaissance of Classical Feature Aggregation for Visual Place Recognition in the Era of Foundation Models",
+          "link": "https://arxiv.org/abs/2506.13073"
+        },
+        "c": "https://github.com/binuxliu/superplace",
+        "n": "SuperPlace SP-NVL-FT2 (DINOv2-B, GPMS, 8192D, 322px)",
+        "d": "2025-06-16",
+        "m1": "90.9"
+      },
+      {
+        "p": {
+          "name": "A^2GC: Asymmetric Aggregation with Geometric Constraints for Locally Aggregated Descriptors",
+          "link": "https://arxiv.org/abs/2511.14109"
+        },
+        "c": "https://github.com/cv4ra/a2gc",
+        "n": "A²GC (DINOv2-B, 8448-D)",
+        "d": "2025-11-18",
+        "m1": "89.5"
+      },
+      {
+        "p": {
+          "name": "Optimal Transport Aggregation for Visual Place Recognition",
+          "link": "https://arxiv.org/abs/2311.15937v2"
+        },
+        "c": "https://github.com/serizba/salad",
+        "n": "DINOv2 SALAD (8448D)",
+        "d": "2023-11-27",
+        "m1": "88.6"
       },
       {
         "p": {
@@ -97,6 +193,17 @@
         "m1": "64.7",
         "m2": "76.6",
         "m3": "73.3"
+      },
+      {
+        "p": {
+          "name": "Lost in the Tail: Addressing Geographic Imbalance in Urban Visual Place Recognition",
+          "link": "https://arxiv.org/abs/2607.00090"
+        },
+        "c": "",
+        "n": "DAPR-M (DINOv2, LB loss + CFD)",
+        "d": "2026-06-30",
+        "m2": "92.5",
+        "m3": "92.4"
       }
     ]
   }

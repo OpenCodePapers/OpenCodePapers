@@ -46,6 +46,17 @@
     "items": [
       {
         "p": {
+          "name": "MR-VNet: Media Restoration using Volterra Networks",
+          "link": "http://openaccess.thecvf.com//content/CVPR2024/html/Roheda_MR-VNet_Media_Restoration_using_Volterra_Networks_CVPR_2024_paper.html"
+        },
+        "c": "",
+        "n": "MR-VNet-LLA",
+        "d": "2024-01-01",
+        "m1": "40.58",
+        "m2": "0.963"
+      },
+      {
+        "p": {
           "name": "Teacher-Guided Causal Interventions for Image Denoising: Orthogonal Content-Noise Disentanglement in Vision Transformers",
           "link": "https://arxiv.org/abs/2603.01140"
         },
@@ -89,6 +100,17 @@
       },
       {
         "p": {
+          "name": "Improving Image Restoration through Removing Degradations in Textual Representations",
+          "link": "https://arxiv.org/abs/2312.17334"
+        },
+        "c": "https://github.com/mrluin/textualdegremoval",
+        "n": "TextualDegRemoval + Restormer (SIDD) (extra data)",
+        "d": "2023-12-28",
+        "m1": "40.09",
+        "m2": "0.960"
+      },
+      {
+        "p": {
           "name": "Single Stage Adaptive Multi-Attention Network for Image Restoration",
           "link": "https://ieeexplore.ieee.org/abstract/document/10495777"
         },
@@ -108,6 +130,17 @@
         "d": "2022-04-06",
         "m1": "40.07",
         "m2": "0.960"
+      },
+      {
+        "p": {
+          "name": "Cross Aggregation Transformer for Image Restoration",
+          "link": "https://arxiv.org/abs/2211.13654"
+        },
+        "c": "https://github.com/zhengchen1999/cat",
+        "n": "CAT+",
+        "d": "2022-11-24",
+        "m1": "40.05",
+        "m2": "0.9602"
       },
       {
         "p": {
@@ -144,12 +177,34 @@
       },
       {
         "p": {
+          "name": "MaIR: A Locality- and Continuity-Preserving Mamba for Image Restoration",
+          "link": "https://arxiv.org/abs/2412.20066v1"
+        },
+        "c": "https://github.com/XLearning-SCU/2025-CVPR-MaIR",
+        "n": "MaIR (real denoising)",
+        "d": "2024-12-28",
+        "m1": "39.92",
+        "m2": "0.960"
+      },
+      {
+        "p": {
           "name": "Uformer: A General U-Shaped Transformer for Image Restoration",
           "link": "https://arxiv.org/abs/2106.03106v2"
         },
         "c": "https://github.com/ZhendongWang6/Uformer",
         "n": "Uformer-B",
         "d": "2021-06-06",
+        "m1": "39.89",
+        "m2": "0.960"
+      },
+      {
+        "p": {
+          "name": "MambaIR: A Simple Baseline for Image Restoration with State-Space Model",
+          "link": "https://arxiv.org/abs/2402.15648v3"
+        },
+        "c": "https://github.com/csguoh/mambair",
+        "n": "MambaIR (real denoising)",
+        "d": "2024-02-23",
         "m1": "39.89",
         "m2": "0.960"
       },
@@ -265,6 +320,16 @@
       },
       {
         "p": {
+          "name": "All-Optical Nonlinear Diffractive Deep Network for Ultrafast Image Denoising",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhou_All-Optical_Nonlinear_Diffractive_Deep_Network_for_Ultrafast_Image_Denoising_CVPR_2025_paper.html"
+        },
+        "c": "",
+        "n": "N3DNet",
+        "d": "2025-06-11",
+        "m1": "38.97"
+      },
+      {
+        "p": {
           "name": "Transfer Learning from Synthetic to Real-Noise Denoising with Adaptive Instance Normalization",
           "link": "https://arxiv.org/abs/2002.11244v2"
         },
@@ -284,6 +349,27 @@
         "d": "2019-04-16",
         "m1": "38.71",
         "m2": "0.951"
+      },
+      {
+        "p": {
+          "name": "Robust Image Denoising through Adversarial Frequency Mixup",
+          "link": "https://openaccess.thecvf.com/content/CVPR2024/html/Ryou_Robust_Image_Denoising_through_Adversarial_Frequency_Mixup_CVPR_2024_paper.html"
+        },
+        "c": "https://github.com/dhryougit/afm",
+        "n": "DnCNN-Ours",
+        "d": "2024-06-17",
+        "m1": "38.35",
+        "m2": "0.9478"
+      },
+      {
+        "p": {
+          "name": "Real-World Mobile Image Denoising Dataset with Efficient Baselines",
+          "link": "https://openaccess.thecvf.com/content/CVPR2024/html/Flepp_Real-World_Mobile_Image_Denoising_Dataset_with_Efficient_Baselines_CVPR_2024_paper.html"
+        },
+        "c": "https://github.com/rflepp/splitternet-efficient-mobile-denoising-models-cvpr2024",
+        "n": "SplitterNet",
+        "d": "2024-06-17",
+        "m1": "36.77"
       },
       {
         "p": {

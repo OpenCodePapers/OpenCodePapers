@@ -56,6 +56,16 @@
       },
       {
         "p": {
+          "name": "Unifying Vision, Text, and Layout for Universal Document Processing",
+          "link": "https://arxiv.org/abs/2212.02623v3"
+        },
+        "c": "https://github.com/microsoft/i-code",
+        "n": "UDOP",
+        "d": "2022-12-05",
+        "m1": "97.58"
+      },
+      {
+        "p": {
           "name": "LayoutLMv3: Pre-training for Document AI with Unified Text and Image Masking",
           "link": "https://arxiv.org/abs/2204.08387v3"
         },
@@ -66,6 +76,26 @@
       },
       {
         "p": {
+          "name": "BROS: A Pre-trained Language Model Focusing on Text and Layout for Better Key Information Extraction from Documents",
+          "link": "https://arxiv.org/abs/2108.04539v5"
+        },
+        "c": "https://github.com/clovaai/bros",
+        "n": "BROS Large",
+        "d": "2021-08-10",
+        "m1": "97.28"
+      },
+      {
+        "p": {
+          "name": "ERNIE-Layout: Layout Knowledge Enhanced Pre-training for Visually-rich Document Understanding",
+          "link": "https://arxiv.org/abs/2210.06155v2"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleNLP/tree/develop/model_zoo/ernie-layout",
+        "n": "ERNIE-Layout Large",
+        "d": "2022-10-12",
+        "m1": "97.21"
+      },
+      {
+        "p": {
           "name": "LayoutMask: Enhance Text-Layout Interaction in Multi-modal Pre-training for Document Understanding",
           "link": "https://arxiv.org/abs/2305.18721v2"
         },
@@ -73,6 +103,16 @@
         "n": "LayoutMask (large)",
         "d": "2023-05-30",
         "m1": "97.19"
+      },
+      {
+        "p": {
+          "name": "DocFormer: End-to-End Transformer for Document Understanding",
+          "link": "https://arxiv.org/abs/2106.11539v2"
+        },
+        "c": "https://github.com/shabie/docformer",
+        "n": "DocFormer Large (I+T+S)",
+        "d": "2021-06-22",
+        "m1": "96.99"
       },
       {
         "p": {

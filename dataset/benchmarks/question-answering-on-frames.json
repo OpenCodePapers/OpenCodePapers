@@ -1,0 +1,98 @@
+{
+  "title": "question-answering-on-frames",
+  "task-hierarchy": [
+    "Question Answering"
+  ],
+  "dataset-info": {
+    "link": "https://huggingface.co/datasets/google/frames-benchmark",
+    "paper": "Fact, Fetch, and Reason: A Unified Evaluation of Retrieval-Augmented Generation"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2501.12948v1"
+        },
+        "c": "https://github.com/deepseek-ai/deepseek-r1",
+        "n": "DeepSeek-R1",
+        "d": "2025-01-22",
+        "m1": "82.5"
+      },
+      {
+        "p": {
+          "name": "Hunyuan Dense V1",
+          "link": "https://huggingface.co/tencent/Hunyuan-7B-Instruct"
+        },
+        "c": "https://github.com/tencent-hunyuan/hunyuan-1.8b",
+        "n": "Hunyuan-7B-Instruct",
+        "d": "2025-07-30",
+        "m1": "78.6"
+      },
+      {
+        "p": {
+          "name": "Kimi K2: Open Agentic Intelligence",
+          "link": "https://arxiv.org/abs/2507.20534"
+        },
+        "c": "https://github.com/MoonshotAI/Kimi-K2",
+        "n": "Kimi K2",
+        "d": "2025-07-28",
+        "m1": "77.1"
+      },
+      {
+        "p": {
+          "name": "QwenLong-L1.5: Post-Training Recipe for Long-Context Reasoning and Memory Management",
+          "link": "https://arxiv.org/abs/2512.12967"
+        },
+        "c": "https://github.com/Tongyi-Zhiwen/Qwen-Doc",
+        "n": "QwenLong-L1.5-30B-A3B",
+        "d": "2025-12-15",
+        "m1": "74.76"
+      },
+      {
+        "p": {
+          "name": "GoLongRL: Capability-Oriented Long Context Reinforcement Learning with Multitask Alignment",
+          "link": "https://arxiv.org/abs/2605.19577"
+        },
+        "c": "https://github.com/xiaoxuanNLP/GoLongRL",
+        "n": "GoLongRL-30B-A3B (w. GRPO)",
+        "d": "2026-05-19",
+        "m1": "74.5"
+      },
+      {
+        "p": {
+          "name": "DeepSeek-V3 Technical Report",
+          "link": "https://arxiv.org/abs/2412.19437"
+        },
+        "c": "https://github.com/deepseek-ai/DeepSeek-V3",
+        "n": "DeepSeek-V3",
+        "d": "2024-12-27",
+        "m1": "73.3"
+      }
+    ]
+  }
+}

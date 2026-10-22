@@ -36,6 +36,16 @@
     "items": [
       {
         "p": {
+          "name": "SelaVPR++: Towards Seamless Adaptation of Foundation Models for Efficient Place Recognition",
+          "link": "https://arxiv.org/abs/2502.16601"
+        },
+        "c": "https://github.com/Lu-Feng/SelaVPRplusplus",
+        "n": "SelaVPR++ (DINOv2-L, binary512D + float4096D, rerank100)",
+        "d": "2025-02-23",
+        "m1": "99"
+      },
+      {
+        "p": {
           "name": "Query-Based Adaptive Aggregation for Multi-Dataset Joint Training Toward Universal Visual Place Recognition",
           "link": "https://arxiv.org/abs/2507.03831v1"
         },
@@ -53,6 +63,16 @@
         "n": "FoL",
         "d": "2025-04-14",
         "m1": "98.2"
+      },
+      {
+        "p": {
+          "name": "TeTRA-VPR: A Ternary Transformer Approach for Compact Visual Place Recognition",
+          "link": "https://arxiv.org/abs/2503.02511"
+        },
+        "c": "https://github.com/olivergrainge/tetra-vpr",
+        "n": "TeTRA-BoQ (ternary ViT, binary descriptor)",
+        "d": "2025-03-04",
+        "m1": "96.7"
       },
       {
         "p": {

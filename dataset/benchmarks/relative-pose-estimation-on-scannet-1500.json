@@ -1,0 +1,153 @@
+{
+  "title": "relative-pose-estimation-on-scannet-1500",
+  "task-hierarchy": [
+    "Image Matching",
+    "Relative Pose Estimation"
+  ],
+  "dataset-info": {
+    "link": "https://arxiv.org/abs/1702.04405",
+    "paper": "ScanNet: Richly-annotated 3D Reconstructions of Indoor Scenes"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AUC@5",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "AUC@10",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "AUC@20",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Marginalized Bundle Adjustment: Multi-View Camera Pose from Monocular Depth Estimates",
+          "link": "https://arxiv.org/abs/2602.18906"
+        },
+        "c": "https://github.com/shngjz/marginalized-bundle-adjustment",
+        "n": "RoMa + MBA",
+        "d": "2026-02-21",
+        "m1": "32.4",
+        "m2": "54.1",
+        "m3": "71.0"
+      },
+      {
+        "p": {
+          "name": "RoMa: Robust Dense Feature Matching",
+          "link": "https://arxiv.org/abs/2305.15404v2"
+        },
+        "c": "https://github.com/parskatt/roma",
+        "n": "RoMa",
+        "d": "2023-05-24",
+        "m1": "31.8",
+        "m2": "53.4",
+        "m3": "70.9"
+      },
+      {
+        "p": {
+          "name": "Multi-Session SLAM with Differentiable Wide-Baseline Pose Optimization",
+          "link": "https://arxiv.org/abs/2404.15263"
+        },
+        "c": "https://github.com/princeton-vl/multislam_diffpose",
+        "n": "MultiSlam-DiffPose",
+        "d": "2024-04-23",
+        "m1": "30.5",
+        "m2": "50.9",
+        "m3": "67.5"
+      },
+      {
+        "p": {
+          "name": "LoFTR: Detector-Free Local Feature Matching with Transformers",
+          "link": "https://arxiv.org/abs/2104.00680v1"
+        },
+        "c": "https://github.com/kornia/kornia",
+        "n": "LoFTR-DS",
+        "d": "2021-04-01",
+        "m1": "22.06",
+        "m2": "40.8"
+      },
+      {
+        "p": {
+          "name": "XFeat Revisited: Reproducibility and Evaluation of a Lightweight Image Matcher",
+          "link": "https://arxiv.org/abs/2608.09519"
+        },
+        "c": "https://github.com/galaxyghz/xfeat-revisited",
+        "n": "XFeat* Reproduced",
+        "d": "2026-08-10",
+        "m1": "19.9",
+        "m2": "37.1",
+        "m3": "53.2"
+      },
+      {
+        "p": {
+          "name": "Fast Relative Pose Estimation using Relative Depth",
+          "link": "https://doi.org/10.1109/3DV62453.2024.00053"
+        },
+        "c": "",
+        "n": "3 pt. + RelScaleNet",
+        "d": "2024-03-18",
+        "m1": "18.39",
+        "m2": "35.46",
+        "m3": "52.24"
+      },
+      {
+        "p": {
+          "name": "SuperGlue: Learning Feature Matching with Graph Neural Networks",
+          "link": "https://arxiv.org/abs/1911.11763v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "SuperPoint + SuperGlue",
+        "d": "2019-11-26",
+        "m1": "16.16",
+        "m2": "33.81",
+        "m3": "51.84"
+      },
+      {
+        "p": {
+          "name": "VGGT: Visual Geometry Grounded Transformer",
+          "link": "https://arxiv.org/abs/2503.11651"
+        },
+        "c": "https://github.com/facebookresearch/vggt",
+        "n": "VGGT",
+        "d": "2025-03-14",
+        "m2": "55.2",
+        "m3": "73.4"
+      },
+      {
+        "p": {
+          "name": "DINOv3",
+          "link": "https://arxiv.org/abs/2508.10104v1"
+        },
+        "c": "https://github.com/facebookresearch/dinov3",
+        "n": "DINOv3 + VGGT",
+        "d": "2025-08-13",
+        "m2": "56.1"
+      }
+    ]
+  }
+}

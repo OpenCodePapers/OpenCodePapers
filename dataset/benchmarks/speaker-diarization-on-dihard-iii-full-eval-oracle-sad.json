@@ -1,0 +1,79 @@
+{
+  "title": "speaker-diarization-on-dihard-iii-full-eval-oracle-sad",
+  "task-hierarchy": [
+    "Speaker Recognition",
+    "Speaker Diarization"
+  ],
+  "dataset-info": {
+    "link": "https://dihardchallenge.github.io/dihard3/",
+    "paper": "The Third DIHARD Diarization Challenge"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "DER",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Speaker Diarization with Overlapping Community Detection Using Graph Attention Networks and Label Propagation Algorithm",
+          "link": "https://arxiv.org/abs/2506.02610"
+        },
+        "c": "",
+        "n": "OCDGALP (ResNet + GAT + LPA-OCD) (extra data)",
+        "d": "2025-06-03",
+        "m1": "11.07"
+      },
+      {
+        "p": {
+          "name": "Speaker Embeddings With Weakly Supervised Voice Activity Detection For Efficient Speaker Diarization",
+          "link": "https://arxiv.org/abs/2405.09142"
+        },
+        "c": "",
+        "n": "ECAPA2 + Spectral Clustering (extra data)",
+        "d": "2024-05-15",
+        "m1": "14.1"
+      },
+      {
+        "p": {
+          "name": "Encoder-Decoder Based Attractors for End-to-End Neural Diarization",
+          "link": "https://arxiv.org/abs/2106.10654"
+        },
+        "c": "https://github.com/hitachi-speech/eend",
+        "n": "EEND-EDA (iterative inference+, oracle SAD)",
+        "d": "2021-06-20",
+        "m1": "14.42"
+      },
+      {
+        "p": {
+          "name": "The Third DIHARD Diarization Challenge",
+          "link": "https://arxiv.org/abs/2012.01477"
+        },
+        "c": "https://github.com/dihardchallenge/dihard3_baseline",
+        "n": "DIHARD III Baseline (x-vector + VB-HMM) (extra data)",
+        "d": "2020-12-02",
+        "m1": "19.25"
+      }
+    ]
+  }
+}

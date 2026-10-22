@@ -1,0 +1,89 @@
+{
+  "title": "chart-question-answering-on-chartography",
+  "task-hierarchy": [
+    "Visual Question Answering (VQA)",
+    "Chart Question Answering"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/surge-ai/chartography",
+    "paper": "Chartography: A Benchmark for Professional Chart Understanding"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Pass@1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Introducing Claude Sonnet 5.5",
+          "link": "https://www.anthropic.com/claude-sonnet-5-5"
+        },
+        "c": "https://github.com/anthropics/claude-code",
+        "n": "Claude Sonnet 5.5 (with tools, max effort)",
+        "d": "2026-09-28",
+        "m1": "0.902"
+      },
+      {
+        "p": {
+          "name": "Introducing Claude Opus 5.5",
+          "link": "https://www.anthropic.com/claude-opus-5-5"
+        },
+        "c": "https://github.com/anthropics/claude-code",
+        "n": "Claude Opus 5.5 (with tools, max effort)",
+        "d": "2026-09-22",
+        "m1": "0.89"
+      },
+      {
+        "p": {
+          "name": "Introducing Claude Haiku 5.5",
+          "link": "https://www.anthropic.com/claude-haiku-5-5"
+        },
+        "c": "",
+        "n": "Claude Haiku 5.5 (with tools, max effort)",
+        "d": "2026-10-07",
+        "m1": "0.862"
+      },
+      {
+        "p": {
+          "name": "DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression",
+          "link": "https://arxiv.org/abs/2609.19969"
+        },
+        "c": "https://github.com/deepseek-ai/deepseek-recipe",
+        "n": "DeepSeek-V4.1-Flash-1017 (w/ tools)",
+        "d": "2026-09-17",
+        "m1": "0.83"
+      },
+      {
+        "p": {
+          "name": "DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression",
+          "link": "https://arxiv.org/abs/2609.19969"
+        },
+        "c": "https://github.com/deepseek-ai/deepseek-recipe",
+        "n": "DeepSeek-V4.1-Flash (with tools, max effort)",
+        "d": "2026-09-17",
+        "m1": "0.789"
+      }
+    ]
+  }
+}

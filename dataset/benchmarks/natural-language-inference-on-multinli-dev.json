@@ -40,6 +40,126 @@
     "items": [
       {
         "p": {
+          "name": "Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism",
+          "link": "https://arxiv.org/abs/1909.08053v4"
+        },
+        "c": "https://github.com/NVIDIA/Megatron-LM",
+        "n": "Megatron-3.9B",
+        "d": "2019-09-17",
+        "m1": "91.4"
+      },
+      {
+        "p": {
+          "name": "DeBERTa: Decoding-enhanced BERT with Disentangled Attention",
+          "link": "https://arxiv.org/abs/2006.03654v6"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "DeBERTa Large",
+        "d": "2020-06-05",
+        "m1": "91.1"
+      },
+      {
+        "p": {
+          "name": "ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators",
+          "link": "https://arxiv.org/abs/2003.10555v1"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "ELECTRA-1.75M",
+        "d": "2020-03-23",
+        "m1": "90.9"
+      },
+      {
+        "p": {
+          "name": "Larger-Scale Transformers for Multilingual Masked Language Modeling",
+          "link": "https://arxiv.org/abs/2105.00572"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "XLM-R XXL",
+        "d": "2021-05-02",
+        "m1": "90.9"
+      },
+      {
+        "p": {
+          "name": "MPNet: Masked and Permuted Pre-training for Language Understanding",
+          "link": "https://arxiv.org/abs/2004.09297v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "MPNet Large",
+        "d": "2020-04-20",
+        "m1": "90.5"
+      },
+      {
+        "p": {
+          "name": "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+          "link": "https://arxiv.org/abs/1907.11692v1"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "RoBERTa",
+        "d": "2019-07-26",
+        "m1": "90.2"
+      },
+      {
+        "p": {
+          "name": "MVP: Multi-task Supervised Pre-training for Natural Language Generation",
+          "link": "https://arxiv.org/abs/2206.12131"
+        },
+        "c": "https://github.com/rucaibox/mvp",
+        "n": "MVP",
+        "d": "2022-06-24",
+        "m1": "89.70"
+      },
+      {
+        "p": {
+          "name": "ERNIE-Gram: Pre-Training with Explicitly N-Gram Masked Language Modeling for Natural Language Understanding",
+          "link": "https://arxiv.org/abs/2010.12148"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleNLP/blob/develop/paddlenlp/transformers/ernie_gram/modeling.py",
+        "n": "ERNIE-Gram",
+        "d": "2020-10-23",
+        "m1": "89.1"
+      },
+      {
+        "p": {
+          "name": "LFM2.5-Encoders: Fast at Long Context, Even on CPU",
+          "link": "https://www.liquid.ai/blog/lfm2-5-encoders"
+        },
+        "c": "https://github.com/liquid4all/cookbook",
+        "n": "LFM2.5-Encoder-350M",
+        "d": "2026-07-28",
+        "m1": "89.03"
+      },
+      {
+        "p": {
+          "name": "Unsupervised Cross-lingual Representation Learning at Scale",
+          "link": "https://arxiv.org/abs/1911.02116"
+        },
+        "c": "https://github.com/facebookresearch/XLM",
+        "n": "XLM-R",
+        "d": "2019-11-05",
+        "m1": "88.9"
+      },
+      {
+        "p": {
+          "name": "Multi Resolution Analysis (MRA) for Approximate Self-Attention",
+          "link": "https://arxiv.org/abs/2207.10284"
+        },
+        "c": "https://github.com/mlpen/mra-attention",
+        "n": "MRA-2-s",
+        "d": "2022-07-21",
+        "m1": "87.4"
+      },
+      {
+        "p": {
+          "name": "GLU Variants Improve Transformer",
+          "link": "https://arxiv.org/abs/2002.05202"
+        },
+        "c": "https://github.com/code-implementation1/Code4",
+        "n": "FFN Bilinear",
+        "d": "2020-02-12",
+        "m1": "86.90"
+      },
+      {
+        "p": {
           "name": "TinyBERT: Distilling BERT for Natural Language Understanding",
           "link": "https://arxiv.org/abs/1909.10351v5"
         },
@@ -81,6 +201,26 @@
         "d": "2021-11-10",
         "m1": "82.71",
         "m2": "83.67"
+      },
+      {
+        "p": {
+          "name": "DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter",
+          "link": "https://arxiv.org/abs/1910.01108v4"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "DistilBERT",
+        "d": "2019-10-02",
+        "m1": "82.2"
+      },
+      {
+        "p": {
+          "name": "You Only Sample (Almost) Once: Linear Cost Self-Attention Via Bernoulli Sampling",
+          "link": "https://arxiv.org/abs/2111.09714"
+        },
+        "c": "https://github.com/mlpen/yoso",
+        "n": "YOSO-E (MNLI-m)",
+        "d": "2021-11-18",
+        "m1": "82.2"
       },
       {
         "p": {

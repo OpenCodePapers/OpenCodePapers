@@ -1,0 +1,109 @@
+{
+  "title": "document-question-answering-on-mmlongbench-doc",
+  "task-hierarchy": [
+    "Document Understanding",
+    "Document Question Answering"
+  ],
+  "dataset-info": {
+    "link": "https://mayubo2333.github.io/MMLongBench-Doc/",
+    "paper": "MMLongBench-Doc: Benchmarking Long-context Document Understanding with Visualizations"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Priming Base Models for Agentic Post-Training: An Open Midtraining Recipe",
+          "link": "https://arxiv.org/abs/2610.22019"
+        },
+        "c": "",
+        "n": "NVIDIA Nemotron 3.5 Super VL 120B-A12B BF16",
+        "d": "2026-10-15",
+        "m1": "62.82"
+      },
+      {
+        "p": {
+          "name": "InSight-doc: Agentic Visual Perception for Long-Document Understanding",
+          "link": "https://arxiv.org/abs/2608.10628"
+        },
+        "c": "https://github.com/m-Just/InSight-doc",
+        "n": "InSight-doc-8B (SFT+RL, r=0.7) (extra data)",
+        "d": "2026-08-11",
+        "m1": "57.9"
+      },
+      {
+        "p": {
+          "name": "Nemotron 3 Nano Omni: Efficient and Open Multimodal Intelligence",
+          "link": "https://arxiv.org/abs/2604.24954"
+        },
+        "c": "https://github.com/nvidia-nemo/megatron-bridge",
+        "n": "Nemotron 3 Nano Omni (30B-A3B, reasoning on)",
+        "d": "2026-04-27",
+        "m1": "57.5"
+      },
+      {
+        "p": {
+          "name": "DocDancer: Towards Agentic Document-Grounded Information Seeking",
+          "link": "https://arxiv.org/abs/2601.05163"
+        },
+        "c": "",
+        "n": "DocDancer (GPT-5.2)",
+        "d": "2026-01-08",
+        "m1": "57.0"
+      },
+      {
+        "p": {
+          "name": "DocPrune: Efficient Document Question Answering via Background, Question, and Comprehension-aware Token Pruning",
+          "link": "https://arxiv.org/abs/2604.22281"
+        },
+        "c": "",
+        "n": "DocPrune (Qwen2.5-VL 7B)",
+        "d": "2026-04-24",
+        "m1": "32.2"
+      },
+      {
+        "p": {
+          "name": "NVIDIA Nemotron Nano V2 VL",
+          "link": "https://arxiv.org/abs/2511.03929"
+        },
+        "c": "https://github.com/NVIDIA-NeMo/Curator",
+        "n": "Nemotron Nano V2 VL (Reasoning off) (extra data)",
+        "d": "2025-11-06",
+        "m1": "32.1"
+      },
+      {
+        "p": {
+          "name": "LoMo: Local Modality Substitution for Deeper Vision-Language Fusion",
+          "link": "https://arxiv.org/abs/2605.30265"
+        },
+        "c": "https://github.com/Maplebb/LoMo",
+        "n": "LoMo (LLaVA-OneVision-1.5-8B)",
+        "d": "2026-05-28",
+        "m1": "18.06"
+      }
+    ]
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "title": "speaker-diarization-on-callhome-part2-two-speaker",
+  "task-hierarchy": [
+    "Speaker Recognition",
+    "Speaker Diarization"
+  ],
+  "dataset-info": {
+    "link": "https://catalog.ldc.upenn.edu/LDC2001S97",
+    "paper": "2000 NIST Speaker Recognition Evaluation"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "DER",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "TOLD: A Novel Two-Stage Overlap-Aware Framework for Speaker Diarization",
+          "link": "https://arxiv.org/abs/2303.05397v2"
+        },
+        "c": "https://github.com/alibaba-damo-academy/FunASR",
+        "n": "TOLD (EEND-OLA + SOAP)",
+        "d": "2023-03-08",
+        "m1": "5.73"
+      },
+      {
+        "p": {
+          "name": "Sortformer: Seamless Integration of Speaker Diarization and ASR by Bridging Timestamps and Tokens",
+          "link": "https://arxiv.org/abs/2409.06656"
+        },
+        "c": "https://github.com/nvidia/nemo",
+        "n": "Sortformer-Hybrid-Loss (123M, post-processing)",
+        "d": "2024-09-10",
+        "m1": "5.87"
+      },
+      {
+        "p": {
+          "name": "From Simulated Mixtures to Simulated Conversations as Training Data for End-to-End Neural Diarization",
+          "link": "https://arxiv.org/abs/2204.00890"
+        },
+        "c": "https://github.com/butspeechfit/eend",
+        "n": "EEND-EDA (SC2 training + fine-tuning)",
+        "d": "2022-04-02",
+        "m1": "7.28"
+      },
+      {
+        "p": {
+          "name": "DiaPer: End-to-End Neural Diarization with Perceiver-Based Attractors",
+          "link": "https://arxiv.org/abs/2312.04324"
+        },
+        "c": "https://github.com/butspeechfit/diaper",
+        "n": "DiaPer 10-attractor + CALLHOME 2-speaker FT",
+        "d": "2023-12-07",
+        "m1": "7.51"
+      },
+      {
+        "p": {
+          "name": "End-to-End Speaker Diarization for an Unknown Number of Speakers with Encoder-Decoder Based Attractors",
+          "link": "https://arxiv.org/abs/2005.09921"
+        },
+        "c": "https://github.com/hitachi-speech/eend",
+        "n": "SA-EEND + EDA (shuffled, two-speaker training)",
+        "d": "2020-05-20",
+        "m1": "8.07"
+      },
+      {
+        "p": {
+          "name": "End-to-End Neural Speaker Diarization with Self-attention",
+          "link": "https://arxiv.org/abs/1909.06247v1"
+        },
+        "c": "https://github.com/hitachi-speech/EEND",
+        "n": "SA-EEND (real training, domain-adapted)",
+        "d": "2019-09-13",
+        "m1": "10.76"
+      },
+      {
+        "p": {
+          "name": "End-to-End Neural Speaker Diarization with Permutation-Free Objectives",
+          "link": "https://arxiv.org/abs/1909.05952v1"
+        },
+        "c": "https://github.com/hitachi-speech/EEND",
+        "n": "BLSTM-EEND (real training, domain-adapted)",
+        "d": "2019-09-12",
+        "m1": "23.07"
+      }
+    ]
+  }
+}

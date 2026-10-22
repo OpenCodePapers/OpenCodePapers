@@ -195,6 +195,26 @@
       },
       {
         "p": {
+          "name": "Funnel-Transformer: Filtering out Sequential Redundancy for Efficient Language Processing",
+          "link": "https://arxiv.org/abs/2006.03236v1"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Funnel-Transformer Large",
+        "d": "2020-06-05",
+        "m1": "90.0%"
+      },
+      {
+        "p": {
+          "name": "ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators",
+          "link": "https://arxiv.org/abs/2003.10555v1"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "ELECTRA-1.75M",
+        "d": "2020-03-23",
+        "m1": "89.8%"
+      },
+      {
+        "p": {
           "name": "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
           "link": "https://arxiv.org/abs/1909.11942v6"
         },
@@ -369,6 +389,16 @@
         "n": "PaLM 2-M (1-shot)",
         "d": "2023-05-17",
         "m1": "81.9%"
+      },
+      {
+        "p": {
+          "name": "MPNet: Masked and Permuted Pre-training for Language Understanding",
+          "link": "https://arxiv.org/abs/2004.09297v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "MPNet Base",
+        "d": "2020-04-20",
+        "m1": "81.0%"
       },
       {
         "p": {
@@ -559,6 +589,16 @@
         "n": "Flipped-3B",
         "d": "2022-10-06",
         "m1": "71.05"
+      },
+      {
+        "p": {
+          "name": "MobileBERT: a Compact Task-Agnostic BERT for Resource-Limited Devices",
+          "link": "https://arxiv.org/abs/2004.02984v2"
+        },
+        "c": "https://github.com/tensorflow/models/tree/master/official/nlp/projects/mobilebert",
+        "n": "MobileBERT w/o OPT",
+        "d": "2020-04-06",
+        "m1": "70.4%"
       },
       {
         "p": {
@@ -849,6 +889,16 @@
         "n": "LaMini-T5 738M",
         "d": "2023-04-27",
         "m1": "57%"
+      },
+      {
+        "p": {
+          "name": "Improving Language Understanding by Generative Pre-Training",
+          "link": "https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "GPT-1",
+        "d": "2018-06-11",
+        "m1": "56.0%"
       },
       {
         "p": {

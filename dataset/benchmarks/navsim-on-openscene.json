@@ -36,6 +36,26 @@
     "items": [
       {
         "p": {
+          "name": "DriveZero: End-to-End Driving Beyond Human Demonstrations",
+          "link": "https://arxiv.org/abs/2609.06055"
+        },
+        "c": "https://github.com/XiaomiAutoL3/DriveZero",
+        "n": "DriveZero-Scale",
+        "d": "2026-09-05",
+        "m1": "95.3"
+      },
+      {
+        "p": {
+          "name": "Plug-and-Play Traffic Element Awareness for End-to-End Autonomous Driving",
+          "link": "https://arxiv.org/abs/2608.18035"
+        },
+        "c": "https://github.com/zzongzheng0918/te-aware-e2e-ad",
+        "n": "DrivoR (+SimScale) + Ours",
+        "d": "2026-08-18",
+        "m1": "95.1"
+      },
+      {
+        "p": {
           "name": "EvaDrive: Evolutionary Adversarial Policy Optimization for End-to-End Autonomous Driving",
           "link": "https://arxiv.org/abs/2508.09158"
         },
@@ -43,6 +63,26 @@
         "n": "EvaDrive (Aggres.)",
         "d": "2025-08-05",
         "m1": "94.9"
+      },
+      {
+        "p": {
+          "name": "HybridDriveVLA: Vision-Language-Action Model with Visual CoT reasoning and ToT Evaluation for Autonomous Driving",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Bassole_HybridDriveVLA_Vision-Language-Action_Model_with_Visual_CoT_reasoning_and_ToT_Evaluation_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "HybridDriveVLA (Safety)",
+        "d": "2026-06-03",
+        "m1": "94.89"
+      },
+      {
+        "p": {
+          "name": "AUGUstus: Autonomous Driving VLA Model with Unified Generation and Understanding",
+          "link": "https://arxiv.org/abs/2610.16985"
+        },
+        "c": "https://github.com/haha-yuki-haha/AUGUstus",
+        "n": "AUGUstus (3-step denoising)",
+        "d": "2026-10-12",
+        "m1": "94.64"
       },
       {
         "p": {
@@ -75,10 +115,30 @@
         "m1": "93.7"
       },
       {
+        "p": {
+          "name": "Drive-JEPA: Video JEPA Meets Multimodal Trajectory Distillation for End-to-End Driving",
+          "link": "https://arxiv.org/abs/2601.22032"
+        },
+        "c": "https://github.com/linhanwang/Drive-JEPA",
+        "n": "Drive-JEPA (ViT/L) (extra data)",
+        "d": "2026-01-29",
+        "m1": "93.7"
+      },
+      {
         "p": "",
         "c": "",
         "n": "DriveSuprim",
         "d": "",
+        "m1": "93.5"
+      },
+      {
+        "p": {
+          "name": "DriveSuprim: Towards Precise Trajectory Selection for End-to-End Planning",
+          "link": "https://arxiv.org/abs/2506.06659"
+        },
+        "c": "",
+        "n": "DriveSuprim (ViT-L)",
+        "d": "2025-06-07",
         "m1": "93.5"
       },
       {
@@ -122,10 +182,30 @@
         "m1": "92.9"
       },
       {
+        "p": {
+          "name": "FlowR2A: Learning Reward-to-Action Distribution for Multimodal Driving Planning",
+          "link": "https://arxiv.org/abs/2606.24231"
+        },
+        "c": "https://github.com/lixirui142/FlowR2A",
+        "n": "FlowR2A (64 proposals, ResNet-34)",
+        "d": "2026-06-23",
+        "m1": "92.9"
+      },
+      {
         "p": "",
         "c": "",
         "n": "DiffE2E",
         "d": "",
+        "m1": "92.7"
+      },
+      {
+        "p": {
+          "name": "DiffE2E: Rethinking End-to-End Driving with a Hybrid Action Diffusion and Supervised Policy",
+          "link": "https://arxiv.org/abs/2505.19516"
+        },
+        "c": "",
+        "n": "DiffE2E",
+        "d": "2025-05-26",
         "m1": "92.7"
       },
       {
@@ -137,6 +217,26 @@
         "n": "Centaur",
         "d": "2025-03-14",
         "m1": "92.6"
+      },
+      {
+        "p": {
+          "name": "HiPro-AD: Sparse Trajectory Transformer for End-to-End Autonomous Driving with Hybrid Spatiotemporal Attention",
+          "link": "https://www.mdpi.com/1424-8220/26/1/185"
+        },
+        "c": "",
+        "n": "HiPro-AD",
+        "d": "2025-12-26",
+        "m1": "92.6"
+      },
+      {
+        "p": {
+          "name": "Discrete-WAM: Unified Discrete Vision-Action Token Editing for World-Policy Learning",
+          "link": "https://arxiv.org/abs/2606.05645"
+        },
+        "c": "",
+        "n": "Discrete-WAM",
+        "d": "2026-06-04",
+        "m1": "92.2"
       },
       {
         "p": {
@@ -157,6 +257,16 @@
         "n": "SparseDriveV2",
         "d": "2026-03-31",
         "m1": "92.0"
+      },
+      {
+        "p": {
+          "name": "DriveFine: Refining-Augmented Masked Diffusion VLA for Accurate and Robust Driving",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/3791"
+        },
+        "c": "",
+        "n": "DriveFine (score-based RFT)",
+        "d": "2026-09-08",
+        "m1": "91.8"
       },
       {
         "p": {
@@ -197,6 +307,16 @@
       },
       {
         "p": {
+          "name": "Reinforced Refinement with Self-Aware Expansion for End-to-End Autonomous Driving",
+          "link": "https://arxiv.org/abs/2506.09800"
+        },
+        "c": "",
+        "n": "R2SE",
+        "d": "2025-06-11",
+        "m1": "91.6"
+      },
+      {
+        "p": {
           "name": "SafeDrive: Fine-Grained Safety Reasoning for End-to-End Driving in a Sparse World",
           "link": "https://arxiv.org/abs/2602.18887"
         },
@@ -204,6 +324,46 @@
         "n": "SafeDrive",
         "d": "2026-02-21",
         "m1": "91.6"
+      },
+      {
+        "p": {
+          "name": "DriveStack-VLA: Render-Teacher Alignment for BEV-Based DeepStack Vision-Language-Action Model",
+          "link": "https://arxiv.org/abs/2606.24051"
+        },
+        "c": "",
+        "n": "DriveStack-VLA",
+        "d": "2026-06-23",
+        "m1": "91.6"
+      },
+      {
+        "p": {
+          "name": "SimWAM: A Simple World Action Model for End-to-End Autonomous Driving",
+          "link": "https://arxiv.org/abs/2608.07468"
+        },
+        "c": "https://github.com/H-EmbodVis/SimWAM",
+        "n": "SimWAM",
+        "d": "2026-08-07",
+        "m1": "91.5"
+      },
+      {
+        "p": {
+          "name": "RISE: Adaptive Imagination for World Action Models",
+          "link": "https://arxiv.org/abs/2608.20430"
+        },
+        "c": "https://github.com/COOWAI/RISE",
+        "n": "RISE (extra data)",
+        "d": "2026-08-20",
+        "m1": "91.5"
+      },
+      {
+        "p": {
+          "name": "ASSCG: Just-Right Gating over Chattering for Fast–Slow LLM Planning in Autonomous Driving",
+          "link": "https://arxiv.org/abs/2606.25509"
+        },
+        "c": "https://github.com/williamxuanyu/asscg",
+        "n": "RecogDrive-ASSCG",
+        "d": "2026-06-24",
+        "m1": "91.4"
       },
       {
         "p": {
@@ -227,12 +387,42 @@
       },
       {
         "p": {
+          "name": "SimVTA: Simulation-Grounded Video-Trajectory Alignment for Driving World Action Models",
+          "link": "https://arxiv.org/abs/2610.13781"
+        },
+        "c": "https://github.com/OpenDriveLab/SimVTA",
+        "n": "SimVTA (extra data)",
+        "d": "2026-10-09",
+        "m1": "91.3"
+      },
+      {
+        "p": {
+          "name": "Discrete Diffusion for Reflective Vision-Language-Action Models in Autonomous Driving",
+          "link": "https://arxiv.org/abs/2509.20109"
+        },
+        "c": "https://github.com/pixeli99/ReflectDrive",
+        "n": "ReflectDrive (extra data)",
+        "d": "2025-09-24",
+        "m1": "91.1"
+      },
+      {
+        "p": {
           "name": "LaST-VLA: Thinking in Latent Spatio-Temporal Space for Vision-Language-Action in Autonomous Driving",
           "link": "https://arxiv.org/abs/2603.01928"
         },
         "c": "https://github.com/luo-yc17/LaST-VLA",
         "n": "LaST-VLA-2B (RL)",
         "d": "2026-03-02",
+        "m1": "91.1"
+      },
+      {
+        "p": {
+          "name": "Causality-Aware End-to-End Autonomous Driving via Ego-Centric Joint Scene Modeling",
+          "link": "https://arxiv.org/abs/2605.13646"
+        },
+        "c": "",
+        "n": "CaAD",
+        "d": "2026-05-13",
         "m1": "91.1"
       },
       {
@@ -253,6 +443,16 @@
         "c": "https://github.com/nvlabs/hydra-mdp",
         "n": "Hydra-MDP++",
         "d": "2024-06-11",
+        "m1": "91.0"
+      },
+      {
+        "p": {
+          "name": "Hydra-MDP++: Advancing End-to-End Driving via Expert-Guided Hydra-Distillation",
+          "link": "https://arxiv.org/abs/2503.12820"
+        },
+        "c": "",
+        "n": "Hydra-MDP++ (V2-99)",
+        "d": "2025-03-17",
         "m1": "91.0"
       },
       {
@@ -297,6 +497,26 @@
       },
       {
         "p": {
+          "name": "VITAL: From Visual Motion to Precise Action",
+          "link": "https://arxiv.org/abs/2610.20604"
+        },
+        "c": "https://github.com/worldbench/VITAL",
+        "n": "VITAL",
+        "d": "2026-10-14",
+        "m1": "90.8326"
+      },
+      {
+        "p": {
+          "name": "Qwen-Drive-1.0: An Initial Step towards a Vision-Language Foundation Model for Autonomous Driving",
+          "link": "https://arxiv.org/abs/2609.00111"
+        },
+        "c": "https://github.com/qwenlm/qwen-drive-1.0",
+        "n": "Qwen-Drive-1.0-RL",
+        "d": "2026-08-31",
+        "m1": "90.7"
+      },
+      {
+        "p": {
           "name": "ResAD: Normalized Residual Trajectory Modeling for End-to-End Autonomous Driving",
           "link": "https://arxiv.org/abs/2510.08562"
         },
@@ -314,6 +534,16 @@
         "n": "FutureX-All (C & L)",
         "d": "2025-12-12",
         "m1": "90.6"
+      },
+      {
+        "p": {
+          "name": "Teaching Vision-Language-Action Models What to See and Where to Look",
+          "link": "https://arxiv.org/abs/2607.01658"
+        },
+        "c": "https://github.com/shivateam/driveteach-vla",
+        "n": "DriveTeach-VLA",
+        "d": "2026-07-02",
+        "m1": "90.4"
       },
       {
         "p": {
@@ -367,6 +597,16 @@
       },
       {
         "p": {
+          "name": "UniTeD: Unified Temporal Diffusion for Joint Perception and Planning in Autonomous Driving",
+          "link": "https://arxiv.org/abs/2606.25736"
+        },
+        "c": "",
+        "n": "UniTeD",
+        "d": "2026-06-24",
+        "m1": "90.2"
+      },
+      {
+        "p": {
           "name": "FutureX: Enhance End-to-End Autonomous Driving via Latent Chain-of-Thought World Model",
           "link": "https://arxiv.org/abs/2512.11226"
         },
@@ -407,12 +647,32 @@
       },
       {
         "p": {
+          "name": "MomADv2: Reliable Temporal Memory for End-to-End Autonomous Driving",
+          "link": "https://arxiv.org/abs/2608.23405"
+        },
+        "c": "",
+        "n": "MomADv2",
+        "d": "2026-08-24",
+        "m1": "89.9"
+      },
+      {
+        "p": {
           "name": "Dichotomous Diffusion Policy Optimization",
           "link": "https://arxiv.org/abs/2601.00898"
         },
         "c": "",
         "n": "DP-VLA w/ DIPOLE",
         "d": "2025-12-31",
+        "m1": "89.7"
+      },
+      {
+        "p": {
+          "name": "Beyond Imitation: Learning Safe End-to-End Autonomous Driving from Hard Negatives",
+          "link": "https://arxiv.org/abs/2605.19771"
+        },
+        "c": "https://github.com/wjl2244/beyonddrive",
+        "n": "LTFv7",
+        "d": "2026-05-19",
         "m1": "89.7"
       },
       {
@@ -477,6 +737,16 @@
       },
       {
         "p": {
+          "name": "The DAWN of World-Action Interactive Models",
+          "link": "https://arxiv.org/abs/2605.11550"
+        },
+        "c": "https://github.com/COOWAI/DAWN",
+        "n": "DAWN",
+        "d": "2026-05-12",
+        "m1": "89.1"
+      },
+      {
+        "p": {
           "name": "MeanFuser: Fast One-Step Multi-Modal Trajectory Generation and Adaptive Reconstruction via MeanFlow for End-to-End Autonomous Driving",
           "link": "https://arxiv.org/abs/2602.20060"
         },
@@ -507,6 +777,16 @@
       },
       {
         "p": {
+          "name": "MOJITO: Modal Joint Learning for Unified End-to-End Autonomous Driving",
+          "link": "https://arxiv.org/abs/2607.23511"
+        },
+        "c": "https://github.com/mumucc01/mojito",
+        "n": "MOJITO",
+        "d": "2026-07-26",
+        "m1": "88.9"
+      },
+      {
+        "p": {
           "name": "GaussianFusion: Gaussian-Based Multi-Sensor Fusion for End-to-End Autonomous Driving",
           "link": "https://arxiv.org/abs/2506.00034v1"
         },
@@ -533,6 +813,16 @@
         "c": "https://github.com/xiaolul2/DynFlowDrive",
         "n": "DynFlowDrive",
         "d": "2026-03-20",
+        "m1": "88.7"
+      },
+      {
+        "p": {
+          "name": "DreamerAD: Efficient Reinforcement Learning via Latent World Model for Autonomous Driving",
+          "link": "https://arxiv.org/abs/2603.24587"
+        },
+        "c": "",
+        "n": "DreamerAD",
+        "d": "2026-03-25",
         "m1": "88.7"
       },
       {
@@ -617,6 +907,16 @@
       },
       {
         "p": {
+          "name": "Two Tasks, One Goal: Uniting Motion and Planning for Excellent End To End Autonomous Driving Performance",
+          "link": "https://arxiv.org/abs/2504.12667v1"
+        },
+        "c": "",
+        "n": "FUMP",
+        "d": "2025-04-17",
+        "m1": "87.8"
+      },
+      {
+        "p": {
           "name": "WorldRFT: Latent World Model Planning with Reinforcement Fine-Tuning for Autonomous Driving",
           "link": "https://arxiv.org/abs/2512.19133"
         },
@@ -660,6 +960,16 @@
         "c": "",
         "n": "ARTEMIS",
         "d": "",
+        "m1": "87.0"
+      },
+      {
+        "p": {
+          "name": "ARTEMIS: Autoregressive End-To-End Trajectory Planning with Mixture of Experts for Autonomous Driving",
+          "link": "https://arxiv.org/abs/2504.19580"
+        },
+        "c": "",
+        "n": "ARTEMIS",
+        "d": "2025-04-28",
         "m1": "87.0"
       },
       {
@@ -713,10 +1023,30 @@
         "m1": "86.4"
       },
       {
+        "p": {
+          "name": "LEAD: Minimizing Learner-Expert Asymmetry in End-to-End Driving",
+          "link": "https://arxiv.org/abs/2512.20563"
+        },
+        "c": "https://github.com/autonomousvision/lead",
+        "n": "LTFv6 + LEAD (extra data)",
+        "d": "2025-12-23",
+        "m1": "86.4"
+      },
+      {
         "p": "",
         "c": "",
         "n": "Epona",
         "d": "",
+        "m1": "86.2"
+      },
+      {
+        "p": {
+          "name": "Epona: Autoregressive Diffusion World Model for Autonomous Driving",
+          "link": "https://arxiv.org/abs/2506.24113"
+        },
+        "c": "https://github.com/kevin-thu/epona",
+        "n": "Epona",
+        "d": "2025-06-30",
         "m1": "86.2"
       },
       {
@@ -744,6 +1074,16 @@
         "c": "",
         "n": "DRAMA",
         "d": "",
+        "m1": "85.5"
+      },
+      {
+        "p": {
+          "name": "DRAMA: An Efficient End-to-end Motion Planner for Autonomous Driving with Mamba",
+          "link": "https://arxiv.org/abs/2408.03601"
+        },
+        "c": "https://github.com/chengran-yuan/drama",
+        "n": "DRAMA",
+        "d": "2024-08-07",
         "m1": "85.5"
       },
       {

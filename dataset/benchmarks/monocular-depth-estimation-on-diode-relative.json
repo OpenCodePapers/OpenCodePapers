@@ -1,0 +1,132 @@
+{
+  "title": "monocular-depth-estimation-on-diode-relative",
+  "task-hierarchy": [
+    "Depth Estimation",
+    "Monocular Depth Estimation"
+  ],
+  "dataset-info": {
+    "link": "https://diode-dataset.org",
+    "paper": "DIODE: A Dense Indoor and Outdoor DEpth Dataset"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AbsRel",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "delta1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Vision as Unified Multimodal Generation",
+          "link": "https://arxiv.org/abs/2607.06560"
+        },
+        "c": "https://github.com/OpenSenseNova/SenseNova-Vision",
+        "n": "SenseNova-Vision",
+        "d": "2026-07-07",
+        "m1": "0.206",
+        "m2": "0.764"
+      },
+      {
+        "p": {
+          "name": "DepthART: Scaling Foundation Monocular Depth to Tiny Models",
+          "link": "https://arxiv.org/abs/2607.17099"
+        },
+        "c": "https://github.com/xuefeng-cvr/depthart",
+        "n": "DepthART-L (zero-shot)",
+        "d": "2026-07-19",
+        "m1": "0.208",
+        "m2": "0.754"
+      },
+      {
+        "p": {
+          "name": "DepthART: Scaling Foundation Monocular Depth to Tiny Models",
+          "link": "https://arxiv.org/abs/2607.17099"
+        },
+        "c": "https://github.com/xuefeng-cvr/depthart",
+        "n": "DepthART-S (zero-shot)",
+        "d": "2026-07-19",
+        "m1": "0.214",
+        "m2": "0.745"
+      },
+      {
+        "p": {
+          "name": "Lotus-2: Advancing Geometric Dense Prediction with Powerful Image Generative Model",
+          "link": "https://arxiv.org/abs/2512.01030"
+        },
+        "c": "https://github.com/EnVision-Research/Lotus-2",
+        "n": "Lotus-2 (zero-shot)",
+        "d": "2025-11-30",
+        "m1": "0.221",
+        "m2": "0.752"
+      },
+      {
+        "p": {
+          "name": "AnyDepth: Depth Estimation Made Easy",
+          "link": "https://arxiv.org/abs/2601.02760"
+        },
+        "c": "https://github.com/AIGeeksGroup/AnyDepth",
+        "n": "AnyDepth ViT-L",
+        "d": "2026-01-06",
+        "m1": "0.226",
+        "m2": "0.736"
+      },
+      {
+        "p": {
+          "name": "ZipDepth: Bringing Lightweight Zero-Shot Monocular Depth Anywhere, on Any Device",
+          "link": "https://arxiv.org/abs/2607.08771"
+        },
+        "c": "https://github.com/fabiotosi92/zipdepth",
+        "n": "ZipDepth",
+        "d": "2026-07-09",
+        "m1": "0.226",
+        "m2": "0.739"
+      },
+      {
+        "p": {
+          "name": "Video Generative Models as Geometry Learner",
+          "link": "https://arxiv.org/abs/2608.28549"
+        },
+        "c": "https://github.com/creative-intelligence-studio/geonext",
+        "n": "GeoNeXt",
+        "d": "2026-08-28",
+        "m1": "0.226",
+        "m2": "0.743"
+      },
+      {
+        "p": {
+          "name": "Lotus: Diffusion-based Visual Foundation Model for High-quality Dense Prediction",
+          "link": "https://arxiv.org/abs/2409.18124"
+        },
+        "c": "https://github.com/envision-research/lotus",
+        "n": "Lotus-D (zero-shot)",
+        "d": "2024-09-26",
+        "m1": "0.228",
+        "m2": "0.738"
+      }
+    ]
+  }
+}

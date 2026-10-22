@@ -1,0 +1,205 @@
+{
+  "title": "zero-shot-anomaly-detection-on-btad-zero-shot-cross-domain",
+  "task-hierarchy": [
+    "Anomaly Detection",
+    "Zero-Shot Anomaly Detection"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/pankajmishra000/VT-ADL",
+    "paper": "VT-ADL: A Vision Transformer Network for Image Anomaly Detection and Localization"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Detection AUROC",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Segmentation AUROC",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Detection F1-max",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Detection AP",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "Segmentation AUPRO@30% FPR",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "Segmentation F1-max",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Crane: Context-Guided Prompt Learning and Attention Refinement for Zero-Shot Anomaly Detections",
+          "link": "https://arxiv.org/abs/2504.11055"
+        },
+        "c": "https://github.com/alireza99salehi/crane",
+        "n": "Crane+ (CLIP ViT-L/14@336 + DINOv2-B14, zero-shot) (extra data)",
+        "d": "2025-04-15",
+        "m1": "96.3",
+        "m2": "96.7",
+        "m3": "93.7",
+        "m4": "97.0",
+        "m5": "86.8",
+        "m6": "61.1"
+      },
+      {
+        "p": {
+          "name": "TIPS Over Tricks: Simple Prompts for Effective Zero-shot Anomaly Detection",
+          "link": "https://arxiv.org/abs/2602.03594"
+        },
+        "c": "https://github.com/alirezasalehy/tipsomaly",
+        "n": "Tipsomaly (TIPS-L/14 HR, Zero-shot) (extra data)",
+        "d": "2026-02-03",
+        "m1": "95.0",
+        "m2": "96.7",
+        "m3": "91.4",
+        "m4": "95.5",
+        "m5": "84.7",
+        "m6": "56.2"
+      },
+      {
+        "p": {
+          "name": "VisualAD: Language-Free Zero-Shot Anomaly Detection via Vision Transformer",
+          "link": "https://arxiv.org/abs/2603.07952"
+        },
+        "c": "https://github.com/7hhhhh/visualad",
+        "n": "VisualAD CLIP (zero-shot) (extra data)",
+        "d": "2026-03-09",
+        "m1": "94.9",
+        "m3": "93.9",
+        "m4": "97.0",
+        "m5": "80.4",
+        "m6": "49.8"
+      },
+      {
+        "p": {
+          "name": "AA-CLIP: Enhancing Zero-Shot Anomaly Detection via Anomaly-Aware CLIP",
+          "link": "https://arxiv.org/abs/2503.06661"
+        },
+        "c": "https://github.com/mwxinnn/aa-clip",
+        "n": "AA-CLIP",
+        "d": "2025-03-09",
+        "m1": "94.8"
+      },
+      {
+        "p": {
+          "name": "Crane: Context-Guided Prompt Learning and Attention Refinement for Zero-Shot Anomaly Detections",
+          "link": "https://arxiv.org/abs/2504.11055"
+        },
+        "c": "https://github.com/alireza99salehi/crane",
+        "n": "Crane (CLIP ViT-L/14@336, zero-shot) (extra data)",
+        "d": "2025-04-15",
+        "m1": "94.4",
+        "m2": "96.6",
+        "m3": "91.7",
+        "m4": "95.9",
+        "m5": "81.3",
+        "m6": "56.9"
+      },
+      {
+        "p": {
+          "name": "Bayesian Prompt Flow Learning for Zero-Shot Anomaly Detection",
+          "link": "https://arxiv.org/abs/2503.10080"
+        },
+        "c": "https://github.com/xiaozhen228/bayes-pfl",
+        "n": "Bayes-PFL (ViT-L/14@336, 518px, cross-domain zero-shot) (extra data)",
+        "d": "2025-03-13",
+        "m1": "93.2",
+        "m2": "93.9",
+        "m3": "91.9",
+        "m4": "96.5",
+        "m5": "76.6"
+      },
+      {
+        "p": {
+          "name": "From Attraction to Equilibrium: Physics-Inspired Semantic Gravitons for Zero-Shot Anomaly Detection",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Pan_From_Attraction_to_Equilibrium_Physics-Inspired_Semantic_Gravitons_for_Zero-Shot_Anomaly_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "SGNet",
+        "d": "2026-06-03",
+        "m1": "92.9",
+        "m2": "97.2"
+      },
+      {
+        "p": {
+          "name": "DLVP-CLIP: Enhancing Fine-Grained Zero-Shot Anomaly Detection via Dynamic Local Visual Prompting",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_DLVP-CLIP_Enhancing_Fine-Grained_Zero-Shot_Anomaly_Detection_via_Dynamic_Local_Visual_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "DLVP-CLIP",
+        "d": "2026-06-03",
+        "m1": "92.6",
+        "m2": "93.4"
+      },
+      {
+        "p": {
+          "name": "Proximity-CLIP: Text-Guided Semantic Proximity Learning for Zero-Shot Anomaly Detection",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/4954"
+        },
+        "c": "",
+        "n": "Proximity-CLIP (extra data)",
+        "d": "2026-09-08",
+        "m1": "92.3",
+        "m2": "97.0"
+      },
+      {
+        "p": {
+          "name": "Robust Zero-shot Anomaly Detection under Limited Auxiliary Anomaly Priors",
+          "link": "https://arxiv.org/abs/2606.29428"
+        },
+        "c": "https://github.com/zhouf-ecnu/dive",
+        "n": "DIVE (extra data)",
+        "d": "2026-06-28",
+        "m1": "92.0",
+        "m2": "94.3",
+        "m4": "90.4"
+      },
+      {
+        "p": {
+          "name": "AdaCLIP: Adapting CLIP with Hybrid Learnable Prompts for Zero-Shot Anomaly Detection",
+          "link": "https://arxiv.org/abs/2407.15795v1"
+        },
+        "c": "https://github.com/caoyunkang/adaclip",
+        "n": "AdaCLIP (zero-shot) (extra data)",
+        "d": "2024-07-22",
+        "m1": "88.6",
+        "m2": "92.1",
+        "m3": "88.2",
+        "m6": "51.7"
+      }
+    ]
+  }
+}

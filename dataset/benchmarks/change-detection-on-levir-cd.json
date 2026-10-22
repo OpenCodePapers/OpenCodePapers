@@ -90,6 +90,16 @@
       },
       {
         "p": {
+          "name": "Changen2: Multi-Temporal Remote Sensing Generative Change Foundation Model",
+          "link": "https://arxiv.org/abs/2406.17998"
+        },
+        "c": "https://github.com/Z-Zheng/pytorch-change-models",
+        "n": "ChangeStar (1x256) ViT-B + Changen2-S1-15k (extra data)",
+        "d": "2024-06-26",
+        "m1": "92.5"
+      },
+      {
+        "p": {
           "name": "SChanger: Change Detection from a Semantic Change and Spatial Consistency Perspective",
           "link": "https://arxiv.org/abs/2503.20734v1"
         },
@@ -275,6 +285,16 @@
       },
       {
         "p": {
+          "name": "FSG-Net: Frequency-Spatial Synergistic Gated Network for High-Resolution Remote Sensing Change Detection",
+          "link": "https://arxiv.org/abs/2509.06482"
+        },
+        "c": "https://github.com/zxXie-Air/FSG-Net",
+        "n": "FSG-Net (extra data)",
+        "d": "2025-09-08",
+        "m1": "91.27"
+      },
+      {
+        "p": {
           "name": "Change is Everywhere: Single-Temporal Supervised Object Change Detection in Remote Sensing Imagery",
           "link": "https://arxiv.org/abs/2108.07002v3"
         },
@@ -284,6 +304,26 @@
         "m1": "91.25",
         "m2": "83.92",
         "m3": ""
+      },
+      {
+        "p": {
+          "name": "Single-Temporal Supervised Learning for Universal Remote Sensing Change Detection",
+          "link": "https://arxiv.org/abs/2406.15694"
+        },
+        "c": "https://github.com/Z-Zheng/pytorch-change-models",
+        "n": "ChangeStar2 Swin-L (bitemporal supervised) (extra data)",
+        "d": "2024-06-22",
+        "m1": "91.1"
+      },
+      {
+        "p": {
+          "name": "RemoteVAR: Autoregressive Visual Modeling for Remote Sensing Change Detection",
+          "link": "https://arxiv.org/abs/2601.11898"
+        },
+        "c": "https://github.com/yilmazkorkmaz1/RemoteVAR",
+        "n": "RemoteVAR",
+        "d": "2026-01-17",
+        "m1": "91.0"
       },
       {
         "p": {

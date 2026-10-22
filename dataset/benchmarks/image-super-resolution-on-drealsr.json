@@ -1,0 +1,516 @@
+{
+  "title": "image-super-resolution-on-drealsr",
+  "task-hierarchy": [
+    "Super-Resolution",
+    "Image Super-Resolution"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/xiezw5/Component-Divide-and-Conquer-for-Real-World-Image-Super-Resolution",
+    "paper": "Component Divide-and-Conquer for Real-World Image Super-Resolution"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "PSNR",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "MUSIQ",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "LPIPS",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "MANIQA",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "SSIM",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "IFCSR: Inference-Free Fidelity-Realism Control for One-Step Diffusion-based Real-World Image Super-Resolution",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Back_IFCSR_Inference-Free_Fidelity-Realism_Control_for_One-Step_Diffusion-based_Real-World_Image_Super-Resolution_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "IFCSR",
+        "d": "2026-06-03",
+        "m1": "30.86",
+        "m2": "42.32",
+        "m3": "0.3179",
+        "m4": "0.338",
+        "m5": "0.8472"
+      },
+      {
+        "p": {
+          "name": "GuideSR: Rethinking Guidance for One-Step High-Fidelity Diffusion-Based Super-Resolution",
+          "link": "https://arxiv.org/abs/2505.00687"
+        },
+        "c": "",
+        "n": "GuideSR",
+        "d": "2025-05-01",
+        "m1": "29.85",
+        "m2": "57.14",
+        "m3": "0.2640",
+        "m4": "0.5230",
+        "m5": "0.8078"
+      },
+      {
+        "p": {
+          "name": "DACESR: Degradation-Aware Conditional Embedding for Real-World Image Super-Resolution",
+          "link": "https://arxiv.org/abs/2602.23890"
+        },
+        "c": "https://github.com/nathan66666/dacesr",
+        "n": "DACESR",
+        "d": "2026-02-27",
+        "m1": "29.74",
+        "m3": "0.2803"
+      },
+      {
+        "p": {
+          "name": "Pixel-Aware Stable Diffusion for Realistic Image Super-resolution and Personalized Stylization",
+          "link": "https://arxiv.org/abs/2308.14469"
+        },
+        "c": "https://github.com/yangxy/pasd",
+        "n": "PASD",
+        "d": "2023-08-28",
+        "m1": "29.0948",
+        "m2": "34.6331",
+        "m3": "0.2893",
+        "m5": "0.7937"
+      },
+      {
+        "p": {
+          "name": "FiDeSR: High-Fidelity and Detail-Preserving One-Step Diffusion Super-Resolution",
+          "link": "https://arxiv.org/abs/2603.02692"
+        },
+        "c": "https://github.com/ar0kim/fidesr",
+        "n": "FiDeSR-1s",
+        "d": "2026-03-03",
+        "m1": "28.90",
+        "m2": "65.7820",
+        "m3": "0.2836",
+        "m4": "0.6239",
+        "m5": "0.7907"
+      },
+      {
+        "p": {
+          "name": "Adversarial Score Distillation for Stable One-Step Diffusion in Real-World Image Super-Resolution",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/4022"
+        },
+        "c": "",
+        "n": "ASDSR",
+        "d": "2026-09-08",
+        "m1": "28.77",
+        "m2": "64.83",
+        "m3": "0.2896",
+        "m4": "0.6043",
+        "m5": "0.7973"
+      },
+      {
+        "p": {
+          "name": "AlignVAR: Towards Globally Consistent Visual Autoregression for Image Super-Resolution",
+          "link": "https://arxiv.org/abs/2603.00589"
+        },
+        "c": "",
+        "n": "AlignVAR",
+        "d": "2026-02-28",
+        "m1": "28.54",
+        "m2": "63.83",
+        "m3": "0.3184",
+        "m4": "0.4685",
+        "m5": "0.7682"
+      },
+      {
+        "p": {
+          "name": "TEASR: Training-Efficient Any-Step Diffusion Transformer for Real-World Image Super-Resolution",
+          "link": "https://arxiv.org/abs/2606.16188"
+        },
+        "c": "",
+        "n": "TEASR (extra data)",
+        "d": "2026-06-15",
+        "m1": "28.54",
+        "m2": "62.7",
+        "m3": "0.2722",
+        "m4": "0.5582",
+        "m5": "0.7876"
+      },
+      {
+        "p": {
+          "name": "Pixel-level and Semantic-level Adjustable Super-resolution: A Dual-LoRA Approach",
+          "link": "https://arxiv.org/abs/2412.03017"
+        },
+        "c": "https://github.com/csslc/pisa-sr",
+        "n": "PiSA-SR-S1",
+        "d": "2024-12-04",
+        "m1": "28.31",
+        "m2": "66.11",
+        "m3": "0.2960",
+        "m4": "0.6156",
+        "m5": "0.7804"
+      },
+      {
+        "p": {
+          "name": "AdaBridge-SR: Adaptive Bridge Matching for Real-World Image Super-Resolution",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/5676"
+        },
+        "c": "https://github.com/w-jg/adabridge-sr",
+        "n": "AdaBridge-SR-S1",
+        "d": "2026-09-08",
+        "m1": "28.2226",
+        "m3": "0.2969",
+        "m5": "0.7845"
+      },
+      {
+        "p": {
+          "name": "SeeSR: Towards Semantics-Aware Real-World Image Super-Resolution",
+          "link": "https://arxiv.org/abs/2311.16518"
+        },
+        "c": "https://github.com/cswry/seesr",
+        "n": "SeeSR",
+        "d": "2023-11-27",
+        "m1": "28.17",
+        "m2": "64.93",
+        "m3": "0.3189",
+        "m4": "0.6042",
+        "m5": "0.7691"
+      },
+      {
+        "p": {
+          "name": "Visual Autoregressive Modeling for Image Super-Resolution",
+          "link": "https://arxiv.org/abs/2501.18993"
+        },
+        "c": "https://github.com/quyp2000/varsr",
+        "n": "VARSR",
+        "d": "2025-01-31",
+        "m1": "28.16",
+        "m2": "68.15",
+        "m3": "0.3541",
+        "m4": "0.5362",
+        "m5": "0.7652"
+      },
+      {
+        "p": {
+          "name": "DNF-SR: Dual-Input and Negative-Aware Feature Fine-Tuning for Real-World Image Super-Resolution",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Han_DNF-SR_Dual-Input_and_Negative-Aware_Feature_Fine-Tuning_for_Real-World_Image_Super-Resolution_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "DNF-SR",
+        "d": "2026-06-03",
+        "m1": "28.141",
+        "m2": "68.732",
+        "m3": "0.3531",
+        "m4": "0.6515"
+      },
+      {
+        "p": {
+          "name": "One-Step Diffusion Transformer for Controllable Real-World Image Super-Resolution",
+          "link": "https://arxiv.org/abs/2511.17138"
+        },
+        "c": "https://github.com/redmediatech/odtsr",
+        "n": "ODTSR",
+        "d": "2025-11-21",
+        "m1": "28.14",
+        "m2": "62.86",
+        "m3": "0.2592",
+        "m4": "0.6227",
+        "m5": "0.7736"
+      },
+      {
+        "p": {
+          "name": "Exploiting Diffusion Prior for Real-World Image Super-Resolution",
+          "link": "https://arxiv.org/abs/2305.07015"
+        },
+        "c": "https://github.com/IceClear/StableSR",
+        "n": "StableSR",
+        "d": "2023-05-11",
+        "m1": "28.03",
+        "m2": "58.51",
+        "m3": "0.3284",
+        "m5": "0.7536"
+      },
+      {
+        "p": {
+          "name": "One-Step Effective Diffusion Network for Real-World Image Super-Resolution",
+          "link": "https://arxiv.org/abs/2406.08177"
+        },
+        "c": "",
+        "n": "OSEDiff-s1",
+        "d": "2024-10-24",
+        "m1": "27.92",
+        "m2": "64.65",
+        "m3": "0.2968",
+        "m4": "0.5899",
+        "m5": "0.7835"
+      },
+      {
+        "p": {
+          "name": "TSD-SR: One-Step Diffusion with Target Score Distillation for Real-World Image Super-Resolution",
+          "link": "https://arxiv.org/abs/2411.18263"
+        },
+        "c": "https://github.com/microtreei/tsd-sr",
+        "n": "TSD-SR",
+        "d": "2024-11-27",
+        "m1": "27.77",
+        "m2": "66.62",
+        "m3": "0.2967",
+        "m4": "0.5874",
+        "m5": "0.7559"
+      },
+      {
+        "p": {
+          "name": "Adaptive Dropout: Unleashing Dropout across Layers for Generalizable Image Super-Resolution",
+          "link": "https://arxiv.org/abs/2506.12738"
+        },
+        "c": "",
+        "n": "RRDB + Implicit Adaptive Dropout",
+        "d": "2025-06-15",
+        "m1": "27.53"
+      },
+      {
+        "p": {
+          "name": "TinySR: Pruning Diffusion for Real-World Image Super-Resolution",
+          "link": "https://arxiv.org/abs/2508.17434"
+        },
+        "c": "",
+        "n": "TinySR",
+        "d": "2025-08-24",
+        "m1": "27.48",
+        "m2": "65.36",
+        "m3": "0.3116",
+        "m4": "0.5804",
+        "m5": "0.7459"
+      },
+      {
+        "p": {
+          "name": "XPSR: Cross-modal Priors for Diffusion-based Image Super-Resolution",
+          "link": "https://arxiv.org/abs/2403.05049"
+        },
+        "c": "https://github.com/qyp2000/xpsr",
+        "n": "XPSR",
+        "d": "2024-03-08",
+        "m1": "26.62",
+        "m2": "67.84",
+        "m3": "0.3864",
+        "m4": "0.5713",
+        "m5": "0.7220"
+      },
+      {
+        "p": {
+          "name": "AddSR: Accelerating Diffusion-based Blind Super-Resolution with Adversarial Diffusion Distillation",
+          "link": "https://arxiv.org/abs/2404.01717"
+        },
+        "c": "https://github.com/NJU-PCALab/AddSR",
+        "n": "AddSR",
+        "d": "2024-04-02",
+        "m1": "26.09",
+        "m2": "68.16",
+        "m4": "0.6034",
+        "m5": "0.7036"
+      },
+      {
+        "p": {
+          "name": "One Diffusion Step to Real-World Super-Resolution via Flow Trajectory Distillation",
+          "link": "https://arxiv.org/abs/2502.01993"
+        },
+        "c": "https://github.com/jianzeli-114/fluxsr",
+        "n": "FluxSR-s1",
+        "d": "2025-02-04",
+        "m1": "25.92",
+        "m2": "37.82",
+        "m3": "0.3418",
+        "m4": "0.5310",
+        "m5": "0.7592"
+      },
+      {
+        "p": {
+          "name": "Disentangled Textual Priors for Diffusion-based Image Super-Resolution",
+          "link": "https://arxiv.org/abs/2603.07430"
+        },
+        "c": "https://github.com/jl6666jl/dtpsr",
+        "n": "DTPSR",
+        "d": "2026-03-08",
+        "m1": "25.83",
+        "m2": "69.24",
+        "m3": "0.3953",
+        "m4": "0.6011",
+        "m5": "0.7005"
+      },
+      {
+        "p": {
+          "name": "Coloring the Noise: Adversarial Sobolev Alignment for Faithful Image Super Resolution",
+          "link": "https://arxiv.org/abs/2605.23264"
+        },
+        "c": "https://github.com/wafer-bob/ASASR",
+        "n": "ASASR",
+        "d": "2026-05-22",
+        "m1": "25.77",
+        "m2": "68.36",
+        "m3": "0.2874",
+        "m4": "0.6067",
+        "m5": "0.7356"
+      },
+      {
+        "p": {
+          "name": "DiffBIR: Towards Blind Image Restoration with Generative Diffusion Prior",
+          "link": "https://arxiv.org/abs/2308.15070v3"
+        },
+        "c": "https://github.com/xpixelgroup/diffbir",
+        "n": "DiffBIR",
+        "d": "2023-08-29",
+        "m1": "25.6238",
+        "m2": "69.8821",
+        "m3": "0.2350",
+        "m4": "0.3530",
+        "m5": "0.6544"
+      },
+      {
+        "p": {
+          "name": "LinearSR: Unlocking Linear Attention for Stable and Efficient Image Super-Resolution",
+          "link": "https://arxiv.org/abs/2510.08771"
+        },
+        "c": "",
+        "n": "LinearSR",
+        "d": "2025-10-09",
+        "m1": "25.235",
+        "m2": "69.073",
+        "m3": "0.359",
+        "m4": "0.510",
+        "m5": "0.719"
+      },
+      {
+        "p": {
+          "name": "Learning to Corrupt for Better Restoration",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/3767"
+        },
+        "c": "",
+        "n": "IAC-IR",
+        "d": "2026-09-08",
+        "m1": "24.605",
+        "m2": "65.676",
+        "m4": "0.547",
+        "m5": "0.724"
+      },
+      {
+        "p": {
+          "name": "VARestorer: One-Step VAR Distillation for Real-World Image Super-Resolution",
+          "link": "https://arxiv.org/abs/2604.21450"
+        },
+        "c": "",
+        "n": "VARestorer-1",
+        "d": "2026-04-23",
+        "m1": "24.31",
+        "m2": "69.49",
+        "m3": "0.3584",
+        "m4": "0.5638",
+        "m5": "0.6894"
+      },
+      {
+        "p": {
+          "name": "Edge-SD-SR: Low Latency and Parameter Efficient On-device Super-Resolution with Stable Diffusion via Bidirectional Conditioning",
+          "link": "https://arxiv.org/abs/2412.06978"
+        },
+        "c": "",
+        "n": "Edge-SD-SR",
+        "d": "2024-12-09",
+        "m2": "55.66",
+        "m3": "0.292"
+      },
+      {
+        "p": {
+          "name": "DiT4SR: Taming Diffusion Transformer for Real-World Image Super-Resolution",
+          "link": "https://arxiv.org/abs/2503.23580"
+        },
+        "c": "https://github.com/adam-duan/dit4sr",
+        "n": "DiT4SR",
+        "d": "2025-03-30",
+        "m2": "64.950",
+        "m3": "0.365",
+        "m4": "0.627"
+      },
+      {
+        "p": {
+          "name": "Tuning Real-World Image Restoration at Inference: A Test-Time Scaling Paradigm for Flow Matching Models",
+          "link": "https://arxiv.org/abs/2603.22027"
+        },
+        "c": "",
+        "n": "ResFlow-Tuner",
+        "d": "2026-03-23",
+        "m2": "71.82",
+        "m4": "0.6492"
+      },
+      {
+        "p": {
+          "name": "Resolving Endpoint Underfitting in Diffusion Bridges via Noise Alignment",
+          "link": "https://arxiv.org/abs/2605.28962"
+        },
+        "c": "https://github.com/gyr02/nadb",
+        "n": "NADB",
+        "d": "2026-05-27",
+        "m2": "71.48",
+        "m3": "0.315",
+        "m4": "0.483"
+      },
+      {
+        "p": {
+          "name": "TUDSR: Twice Upsampling-Diffusion for Higher Super-Resolution",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Wu_TUDSR_Twice_Upsampling-Diffusion_for_Higher_Super-Resolution_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "TUDSR-S",
+        "d": "2026-06-03",
+        "m2": "66.365",
+        "m3": "0.3372",
+        "m4": "0.6312"
+      },
+      {
+        "p": {
+          "name": "OracleZoom: On-Policy Self-Distillation Inspired Reference-Constrained Recursive Image Super Resolution",
+          "link": "https://arxiv.org/abs/2609.06490"
+        },
+        "c": "https://github.com/dipta007/OracleZoom",
+        "n": "OracleZoom",
+        "d": "2026-09-06",
+        "m3": "0.182"
+      },
+      {
+        "p": {
+          "name": "AdaBridge-SR: Adaptive Bridge Matching for Real-World Image Super-Resolution",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/5676"
+        },
+        "c": "https://github.com/w-jg/adabridge-sr",
+        "n": "AdaBridge-SR-S2",
+        "d": "2026-09-08",
+        "m2": "65.3485",
+        "m4": "0.6436"
+      }
+    ]
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "title": "linear-probe-semantic-segmentation-on-ade20k",
+  "task-hierarchy": [
+    "Semantic Segmentation",
+    "Linear Probe Semantic Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://groups.csail.mit.edu/vision/datasets/ADE20K/",
+    "paper": "Semantic Understanding of Scenes through the ADE20K Dataset"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mIoU",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "DINOv3",
+          "link": "https://arxiv.org/abs/2508.10104v1"
+        },
+        "c": "https://github.com/facebookresearch/dinov3",
+        "n": "DINOv3 + linear probe",
+        "d": "2025-08-13",
+        "m1": "55.9"
+      },
+      {
+        "p": {
+          "name": "Vision Pretraining for Dense Spatial Perception",
+          "link": "https://arxiv.org/abs/2607.05247"
+        },
+        "c": "https://github.com/Robbyant/lingbot-vision",
+        "n": "LingBot-Vision ViT-g + linear probe",
+        "d": "2026-07-06",
+        "m1": "53.5"
+      },
+      {
+        "p": {
+          "name": "Vision Pretraining for Dense Spatial Perception",
+          "link": "https://arxiv.org/abs/2607.05247"
+        },
+        "c": "https://github.com/Robbyant/lingbot-vision",
+        "n": "LingBot-Vision ViT-L + linear probe",
+        "d": "2026-07-06",
+        "m1": "52.75"
+      },
+      {
+        "p": {
+          "name": "Vision Pretraining for Dense Spatial Perception",
+          "link": "https://arxiv.org/abs/2607.05247"
+        },
+        "c": "https://github.com/Robbyant/lingbot-vision",
+        "n": "LingBot-Vision ViT-B + linear probe",
+        "d": "2026-07-06",
+        "m1": "51.44"
+      },
+      {
+        "p": {
+          "name": "Aggregating Cross-Domain Knowledge via Learnable Tokens for Multi-Teacher Distillation",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/5104"
+        },
+        "c": "https://github.com/vision-sjtu/actok",
+        "n": "ACTok (ViT-L/16)",
+        "d": "2026-09-08",
+        "m1": "50.3"
+      },
+      {
+        "p": {
+          "name": "TIPS: Text-Image Pretraining with Spatial Awareness",
+          "link": "https://arxiv.org/abs/2410.16512"
+        },
+        "c": "https://github.com/google-deepmind/tips",
+        "n": "TIPS-SO/14 HR + Linear Probe",
+        "d": "2024-10-21",
+        "m1": "49.7"
+      },
+      {
+        "p": {
+          "name": "Perception Encoder: The best visual embeddings are not at the output of the network",
+          "link": "https://arxiv.org/abs/2504.13181v1"
+        },
+        "c": "https://github.com/facebookresearch/perception_models",
+        "n": "PE-Spatial G",
+        "d": "2025-04-17",
+        "m1": "48.9"
+      },
+      {
+        "p": {
+          "name": "Vision Transformers Need Registers",
+          "link": "https://arxiv.org/abs/2309.16588v2"
+        },
+        "c": "https://github.com/rwightman/pytorch-image-models",
+        "n": "DINOv2 with Registers (ViT-L/14) + Linear Probe",
+        "d": "2023-09-28",
+        "m1": "47.9"
+      },
+      {
+        "p": {
+          "name": "Vision Pretraining for Dense Spatial Perception",
+          "link": "https://arxiv.org/abs/2607.05247"
+        },
+        "c": "https://github.com/Robbyant/lingbot-vision",
+        "n": "LingBot-Vision ViT-S + linear probe",
+        "d": "2026-07-06",
+        "m1": "47.01"
+      },
+      {
+        "p": {
+          "name": "SigLIP 2: Multilingual Vision-Language Encoders with Improved Semantic Understanding, Localization, and Dense Features",
+          "link": "https://arxiv.org/abs/2502.14786"
+        },
+        "c": "https://github.com/google-research/big_vision",
+        "n": "SigLIP 2 (So/14, 384px) + linear",
+        "d": "2025-02-20",
+        "m1": "45.4"
+      },
+      {
+        "p": {
+          "name": "ViT-Up: Faithful Feature Upsampling for Vision Transformers",
+          "link": "https://arxiv.org/abs/2606.14024"
+        },
+        "c": "https://github.com/krispinwandel/vit-up",
+        "n": "ViT-Up + DINOv3-S+",
+        "d": "2026-06-12",
+        "m1": "44.73"
+      },
+      {
+        "p": {
+          "name": "MuM: Multi-View Masked Image Modeling for 3D Vision",
+          "link": "https://arxiv.org/abs/2511.17309"
+        },
+        "c": "https://github.com/davnords/mum",
+        "n": "MuM",
+        "d": "2025-11-21",
+        "m1": "30.2"
+      },
+      {
+        "p": {
+          "name": "LeVLJEPA: End-to-End Vision-Language Pretraining Without Negatives",
+          "link": "https://arxiv.org/abs/2607.00784"
+        },
+        "c": "https://github.com/mlo-lab/levljepa",
+        "n": "LeVLJEPA ViT-B/16 (linear segmentation head)",
+        "d": "2026-07-01",
+        "m1": "23.15"
+      }
+    ]
+  }
+}

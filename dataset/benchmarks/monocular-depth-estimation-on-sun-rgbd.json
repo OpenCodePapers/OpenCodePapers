@@ -100,6 +100,58 @@
         "m4": "0.397",
         "m5": "0.128",
         "m6": "0.056"
+      },
+      {
+        "p": {
+          "name": "DINOv2: Learning Robust Visual Features without Supervision",
+          "link": "https://arxiv.org/abs/2304.07193v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "DINOv2 ViT-g/14 + DPT",
+        "d": "2023-04-14",
+        "m4": "0.338"
+      },
+      {
+        "p": {
+          "name": "Global-Local Path Networks for Monocular Depth Estimation with Vertical CutDepth",
+          "link": "https://arxiv.org/abs/2201.07436v3"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "GLPN",
+        "d": "2022-01-19",
+        "m4": "0.418",
+        "m5": "0.144"
+      },
+      {
+        "p": {
+          "name": "ZoeDepth: Zero-shot Transfer by Combining Relative and Metric Depth",
+          "link": "https://arxiv.org/abs/2302.12288v1"
+        },
+        "c": "https://github.com/isl-org/MiDaS",
+        "n": "ZoeD-M12-N (zero-shot)",
+        "d": "2023-02-23",
+        "m4": "0.346",
+        "m5": "0.119"
+      },
+      {
+        "p": {
+          "name": "DepthART: Scaling Foundation Monocular Depth to Tiny Models",
+          "link": "https://arxiv.org/abs/2607.17099"
+        },
+        "c": "https://github.com/xuefeng-cvr/depthart",
+        "n": "DepthART-L (NYUD v2 fine-tuned, zero-shot)",
+        "d": "2026-07-19",
+        "m4": "0.326"
+      },
+      {
+        "p": {
+          "name": "WorDepth: Variational Language Prior for Monocular Depth Estimation",
+          "link": "https://arxiv.org/abs/2404.03635"
+        },
+        "c": "https://github.com/adonis-galaxy/wordepth",
+        "n": "WorDepth",
+        "d": "2024-04-04",
+        "m5": "0.123"
       }
     ]
   }

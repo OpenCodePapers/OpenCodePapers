@@ -1,0 +1,89 @@
+{
+  "title": "video-anomaly-detection-on-shanghaitech-video-anomaly-detection-standard-frame-level",
+  "task-hierarchy": [
+    "Anomaly Detection",
+    "Video Anomaly Detection"
+  ],
+  "dataset-info": {
+    "link": "https://svip-lab.github.io/dataset/campus_dataset.html",
+    "paper": "A Revisit of Sparse Coding Based Anomaly Detection in Stacked RNN Framework"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Frame AUC",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Bounding-Box Trajectories Matter for Video Anomaly Detection",
+          "link": "https://arxiv.org/abs/2605.21957"
+        },
+        "c": "https://github.com/songinpyo/trajvad-eccv2026",
+        "n": "TrajVAD-P",
+        "d": "2026-05-21",
+        "m1": "88.6"
+      },
+      {
+        "p": {
+          "name": "MULDE: Multiscale Log-Density Estimation via Denoising Score Matching for Video Anomaly Detection",
+          "link": "https://arxiv.org/abs/2403.14497v1"
+        },
+        "c": "https://github.com/jakubmicorek/MULDE-Multiscale-Log-Density-Estimation-via-Denoising-Score-Matching-for-Video-Anomaly-Detection",
+        "n": "MULDE",
+        "d": "2024-03-21",
+        "m1": "86.7"
+      },
+      {
+        "p": {
+          "name": "Noise-Resistant Video Anomaly Detection via RGB Error-Guided Multiscale Predictive Coding and Dynamic Memory",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Hu_Noise-Resistant_Video_Anomaly_Detection_via_RGB_Error-Guided_Multiscale_Predictive_Coding_CVPR_2025_paper.html"
+        },
+        "c": "",
+        "n": "Noise-Resistant Video Anomaly Detection (object level)",
+        "d": "2025-06-11",
+        "m1": "86.0"
+      },
+      {
+        "p": {
+          "name": "Making Reconstruction-based Method Great Again for Video Anomaly Detection",
+          "link": "https://arxiv.org/abs/2301.12048"
+        },
+        "c": "https://github.com/wyzjack/mrmga4vad",
+        "n": "STATE (w/ input perturbation) (extra data)",
+        "d": "2023-01-28",
+        "m1": "77.8"
+      },
+      {
+        "p": {
+          "name": "Self-Distilled Masked Auto-Encoders are Efficient Video Anomaly Detectors",
+          "link": "https://arxiv.org/abs/2306.12041v2"
+        },
+        "c": "https://github.com/ristea/aed-mae",
+        "n": "Self-Distilled Masked Auto-Encoder",
+        "d": "2023-06-21",
+        "m1": "77.3"
+      }
+    ]
+  }
+}

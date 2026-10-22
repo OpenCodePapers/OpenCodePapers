@@ -97,6 +97,16 @@
       },
       {
         "p": {
+          "name": "LVMT: Video Mask Transformer for Long-term Video Segmentation",
+          "link": "https://arxiv.org/abs/2609.34895"
+        },
+        "c": "https://github.com/tue-mps/lvmt",
+        "n": "LVMT ViT-L (DINOv3)",
+        "d": "2026-09-29",
+        "m1": "56.7"
+      },
+      {
+        "p": {
           "name": "DVIS++: Improved Decoupled Framework for Universal Video Segmentation",
           "link": "https://arxiv.org/abs/2312.13305v1"
         },
@@ -106,6 +116,36 @@
         "m1": "53.4",
         "m2": "78.9",
         "m3": "58.5"
+      },
+      {
+        "p": {
+          "name": "Latest Object Memory Management for Temporally Consistent Video Instance Segmentation",
+          "link": "https://arxiv.org/abs/2507.19754"
+        },
+        "c": "https://github.com/seung-hun-lee/lomm",
+        "n": "LOMM ViT-H (online) (extra data)",
+        "d": "2025-07-26",
+        "m1": "52.9"
+      },
+      {
+        "p": {
+          "name": "VidEoMT: Your ViT is Secretly Also a Video Segmentation Model",
+          "link": "https://arxiv.org/abs/2602.17807"
+        },
+        "c": "https://github.com/tue-mps/videomt",
+        "n": "VidEoMT",
+        "d": "2026-02-19",
+        "m1": "52.5"
+      },
+      {
+        "p": {
+          "name": "PMT: Plain Mask Transformer for Image and Video Segmentation with Frozen Vision Encoders",
+          "link": "https://arxiv.org/abs/2603.25398"
+        },
+        "c": "https://github.com/tue-mps/pmt",
+        "n": "PMT-L (DINOv3-L frozen, online VIS) (extra data)",
+        "d": "2026-03-26",
+        "m1": "52.0"
       },
       {
         "p": {
@@ -148,6 +188,16 @@
         "m6": "20.8",
         "m7": "69.9",
         "m8": "54.6"
+      },
+      {
+        "p": {
+          "name": "MiNQVIS: Mitigating Noisy Queries for Robust Online Video Instance Segmentation",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/3617"
+        },
+        "c": "",
+        "n": "MiNQVIS (Swin-L)",
+        "d": "2026-09-08",
+        "m1": "49.1"
       },
       {
         "p": {
@@ -611,6 +661,16 @@
         "m6": "8.4",
         "m7": "11.1",
         "m8": "23.1"
+      },
+      {
+        "p": {
+          "name": "Segmenting, Fast and Slow: Real-Time Open-Vocabulary Video Instance Segmentation with Dual-Path Processing",
+          "link": "https://arxiv.org/abs/2607.00124"
+        },
+        "c": "",
+        "n": "SegFS (MOBIUS-Mini-L, MNv4-CL)",
+        "d": "2026-06-30",
+        "m1": "17.3"
       },
       {
         "p": {

@@ -1,0 +1,89 @@
+{
+  "title": "zero-shot-question-answering-on-truthfulqa-mc2-0-shot",
+  "task-hierarchy": [
+    "Question Answering",
+    "Zero-Shot Question Answering"
+  ],
+  "dataset-info": {
+    "link": "https://arxiv.org/abs/2109.07958",
+    "paper": "TruthfulQA: Measuring How Models Mimic Human Falsehoods"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "MC2Acc",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Introducing LFM-7B: Setting New Standards for Efficient Language Models",
+          "link": "https://www.liquid.ai/blog/introducing-lfm-7b-setting-new-standards-for-efficient-language-models"
+        },
+        "c": "",
+        "n": "LFM-7B (0-shot)",
+        "d": "2025-01-20",
+        "m1": "63.89"
+      },
+      {
+        "p": {
+          "name": "Qwen2 Technical Report",
+          "link": "https://arxiv.org/abs/2407.10671v4"
+        },
+        "c": "https://github.com/qwenlm/qwen1.5",
+        "n": "Qwen2-57B-A14B",
+        "d": "2024-07-15",
+        "m1": "57.7"
+      },
+      {
+        "p": {
+          "name": "Qwen2 Technical Report",
+          "link": "https://arxiv.org/abs/2407.10671v4"
+        },
+        "c": "https://github.com/qwenlm/qwen1.5",
+        "n": "Qwen2-72B",
+        "d": "2024-07-15",
+        "m1": "54.8"
+      },
+      {
+        "p": {
+          "name": "Sumi: Open Uniform Diffusion Language Model from Scratch",
+          "link": "https://arxiv.org/abs/2606.19005"
+        },
+        "c": "https://github.com/tohoku-nlp/sumi",
+        "n": "Sumi-7B",
+        "d": "2026-06-17",
+        "m1": "46.6"
+      },
+      {
+        "p": {
+          "name": "Jamba: A Hybrid Transformer-Mamba Language Model",
+          "link": "https://arxiv.org/abs/2403.19887"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Jamba (0-shot)",
+        "d": "2024-03-28",
+        "m1": "46.4"
+      }
+    ]
+  }
+}

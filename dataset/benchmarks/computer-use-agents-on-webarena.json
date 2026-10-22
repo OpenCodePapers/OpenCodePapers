@@ -1,0 +1,169 @@
+{
+  "title": "computer-use-agents-on-webarena",
+  "task-hierarchy": [
+    "Agents",
+    "Computer Use Agents"
+  ],
+  "dataset-info": {
+    "link": "https://webarena.dev/",
+    "paper": "WebArena: A Realistic Web Environment for Building Autonomous Agents"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Success Rate",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Qwen-UI-Agent Technical Report: Toward Next-Generation Real-World Centric Foundation GUI Agents",
+          "link": "https://arxiv.org/abs/2607.28227"
+        },
+        "c": "",
+        "n": "Qwen-UI-Agent (27B)",
+        "d": "2026-07-30",
+        "m1": "73.6"
+      },
+      {
+        "p": {
+          "name": "Holo3: Foundational Models for Navigation and Computer Use Agents",
+          "link": "https://huggingface.co/Hcompany/Holo3-35B-A3B"
+        },
+        "c": "",
+        "n": "Holo3-35B-A3B",
+        "d": "2026-04-01",
+        "m1": "64.8"
+      },
+      {
+        "p": {
+          "name": "Qwen-CUA: Native Computer Use for (almost) Everything",
+          "link": "https://github.com/xlang-ai/Qwen-CUA/blob/main/paper/Qwen-CUA.pdf"
+        },
+        "c": "https://github.com/xlang-ai/qwen-cua",
+        "n": "Qwen-CUA",
+        "d": "2026-08-02",
+        "m1": "64.16"
+      },
+      {
+        "p": {
+          "name": "WebChallenger: A Reliable and Efficient Generalist Web Agent",
+          "link": "https://arxiv.org/abs/2606.10423"
+        },
+        "c": "https://github.com/jayoohwang1/webchallenger",
+        "n": "WebChallenger (GLM-4-32B)",
+        "d": "2026-06-09",
+        "m1": "56.3"
+      },
+      {
+        "p": {
+          "name": "CUA-Gym: Scaling Verifiable Training Environments and Tasks for Computer-Use Agents",
+          "link": "https://arxiv.org/abs/2605.25624"
+        },
+        "c": "https://github.com/xlang-ai/CUA-Gym",
+        "n": "CUA-GYM-A17B",
+        "d": "2026-05-25",
+        "m1": "56.0"
+      },
+      {
+        "p": {
+          "name": "Holo2: Foundational Models for Navigation and Computer Use Agents",
+          "link": "https://huggingface.co/Hcompany/Holo2-235B-A22B"
+        },
+        "c": "",
+        "n": "Holo2-30B-A3B",
+        "d": "2026-02-03",
+        "m1": "46.3"
+      },
+      {
+        "p": {
+          "name": "Mem-π: Adaptive Memory through Learning When and What to Generate",
+          "link": "https://arxiv.org/abs/2605.21463"
+        },
+        "c": "",
+        "n": "Mem-π (Qwen2.5-7B base)",
+        "d": "2026-05-20",
+        "m1": "46.1"
+      },
+      {
+        "p": {
+          "name": "Holo2: Foundational Models for Navigation and Computer Use Agents",
+          "link": "https://huggingface.co/Hcompany/Holo2-235B-A22B"
+        },
+        "c": "",
+        "n": "Holo2-8B",
+        "d": "2026-02-03",
+        "m1": "42.2"
+      },
+      {
+        "p": {
+          "name": "Structured Distillation of Web Agent Capabilities Enables Generalization",
+          "link": "https://arxiv.org/abs/2604.07776"
+        },
+        "c": "https://github.com/McGill-NLP/agent-as-annotators",
+        "n": "A3-Qwen3.5-9B",
+        "d": "2026-04-09",
+        "m1": "41.5"
+      },
+      {
+        "p": {
+          "name": "Holo2: Foundational Models for Navigation and Computer Use Agents",
+          "link": "https://huggingface.co/Hcompany/Holo2-235B-A22B"
+        },
+        "c": "",
+        "n": "Holo2-4B",
+        "d": "2026-02-03",
+        "m1": "41.0"
+      },
+      {
+        "p": {
+          "name": "Online Skill Learning for Web Agents via State-Grounded Dynamic Retrieval",
+          "link": "https://arxiv.org/abs/2606.04391"
+        },
+        "c": "https://github.com/plusnli/skill-dynamic-retrieval",
+        "n": "SGDR (GPT-4.1)",
+        "d": "2026-06-03",
+        "m1": "37.5"
+      },
+      {
+        "p": {
+          "name": "AgentDevel: Reframing Self-Evolving LLM Agents as Release Engineering",
+          "link": "https://arxiv.org/abs/2601.04620"
+        },
+        "c": "",
+        "n": "AgentDevel (final)",
+        "d": "2026-01-08",
+        "m1": "35.5"
+      },
+      {
+        "p": {
+          "name": "WebWorld: A Large-Scale World Model for Web Agent Training",
+          "link": "https://arxiv.org/abs/2602.14721"
+        },
+        "c": "",
+        "n": "Qwen3-14B + WebWorld",
+        "d": "2026-02-16",
+        "m1": "24.3"
+      }
+    ]
+  }
+}

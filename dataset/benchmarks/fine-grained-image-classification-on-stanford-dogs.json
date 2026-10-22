@@ -146,6 +146,16 @@
       },
       {
         "p": {
+          "name": "Enhance Image Classification via Inter-Class Image Mixup with Diffusion Model",
+          "link": "https://arxiv.org/abs/2403.19600"
+        },
+        "c": "https://github.com/zhicaiwww/diff-mix",
+        "n": "Diff-Mix (ViT-B/16@384) (extra data)",
+        "d": "2024-03-28",
+        "m1": "91.99%"
+      },
+      {
+        "p": {
           "name": "Fine-Grained Visual Classification via Internal Ensemble Learning Transformer",
           "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10042971"
         },
@@ -226,6 +236,26 @@
       },
       {
         "p": {
+          "name": "Sensitivity-Aware Efficient Fine-Tuning via Compact Dynamic-Rank Adaptation",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Chen_Sensitivity-Aware_Efficient_Fine-Tuning_via_Compact_Dynamic-Rank_Adaptation_CVPR_2025_paper.html"
+        },
+        "c": "",
+        "n": "CDRA-SPT",
+        "d": "2025-06-11",
+        "m1": "89.8%"
+      },
+      {
+        "p": {
+          "name": "Efficient Stitchable Task Adaptation",
+          "link": "https://arxiv.org/abs/2311.17352"
+        },
+        "c": "https://github.com/ziplab/stitched_llama",
+        "n": "ESTA",
+        "d": "2023-11-29",
+        "m1": "89.13%"
+      },
+      {
+        "p": {
           "name": "Learning Semantically Enhanced Feature for Fine-Grained Image Classification",
           "link": "https://arxiv.org/abs/2006.13457v3"
         },
@@ -263,6 +293,16 @@
         "n": "PC-DenseNet-161",
         "d": "2017-05-22",
         "m1": "83.75%"
+      },
+      {
+        "p": {
+          "name": "MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications",
+          "link": "http://arxiv.org/abs/1704.04861v1"
+        },
+        "c": "https://github.com/tensorflow/tensorflow/blob/v2.4.1/tensorflow/python/keras/applications/mobilenet.py",
+        "n": "1.0 MobileNet-224",
+        "d": "2017-04-17",
+        "m1": "83.3%"
       },
       {
         "p": {

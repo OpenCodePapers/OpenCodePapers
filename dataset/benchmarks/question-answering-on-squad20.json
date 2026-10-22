@@ -2403,6 +2403,36 @@
         "n": "gMLP-large",
         "d": "2021-05-17",
         "m2": "78.3"
+      },
+      {
+        "p": {
+          "name": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+          "link": "https://arxiv.org/abs/1810.04805v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "BERT Large",
+        "d": "2018-10-11",
+        "m2": "83.1"
+      },
+      {
+        "p": {
+          "name": "ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators",
+          "link": "https://arxiv.org/abs/2003.10555v1"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "ELECTRA-1.75M",
+        "d": "2020-03-23",
+        "m2": "91.4"
+      },
+      {
+        "p": {
+          "name": "MPNet: Masked and Permuted Pre-training for Language Understanding",
+          "link": "https://arxiv.org/abs/2004.09297v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "MPNet Base",
+        "d": "2020-04-20",
+        "m2": "85.8"
       }
     ]
   }

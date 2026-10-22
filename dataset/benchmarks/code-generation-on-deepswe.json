@@ -1,0 +1,599 @@
+{
+  "title": "code-generation-on-deepswe",
+  "task-hierarchy": [
+    "Code Intelligence",
+    "Code Generation"
+  ],
+  "dataset-info": {
+    "link": "https://deepswe.datacurve.ai/",
+    "paper": "DeepSWE"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Pass@1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Muse Wonder: A Frontier Model For Personal & Professional AI Agents",
+          "link": "https://research.meta.ai/blog/muse-wonder"
+        },
+        "c": "",
+        "n": "Muse Wonder Full (max) (MiniSWE-Agent)",
+        "d": "2026-10-12",
+        "m1": "0.79"
+      },
+      {
+        "p": {
+          "name": "Muse Wonder: A Frontier Model For Personal & Professional AI Agents",
+          "link": "https://research.meta.ai/blog/muse-wonder"
+        },
+        "c": "",
+        "n": "Muse Wonder (max) (MiniSWE-Agent)",
+        "d": "2026-10-12",
+        "m1": "0.788"
+      },
+      {
+        "p": {
+          "name": "Gemini 4 Argon: our next era of frontier intelligence",
+          "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+        },
+        "c": "https://github.com/google-gemini/gemini-cli",
+        "n": "Gemini 4 Argon (mini-swe-agent)",
+        "d": "2026-09-30",
+        "m1": "0.779"
+      },
+      {
+        "p": {
+          "name": "DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression",
+          "link": "https://arxiv.org/abs/2609.19969"
+        },
+        "c": "https://github.com/deepseek-ai/deepseek-recipe",
+        "n": "DeepSeek-V4.1-Flash-1017 (Mini-SWE-V2)",
+        "d": "2026-09-17",
+        "m1": "0.77"
+      },
+      {
+        "p": {
+          "name": "Introducing Muse Spark 1.3",
+          "link": "https://research.meta.ai/blog/introducing-muse-spark-1-3"
+        },
+        "c": "",
+        "n": "Muse Spark 1.3 (max effort) (mini-swe-agent)",
+        "d": "2026-09-02",
+        "m1": "0.754"
+      },
+      {
+        "p": {
+          "name": "Introducing GPT-6.1 Sol",
+          "link": "https://openai.com/index/introducing-gpt-6-1-sol/"
+        },
+        "c": "",
+        "n": "GPT-6.1 Sol (high effort) (mini-swe-agent)",
+        "d": "2026-09-29",
+        "m1": "0.7522"
+      },
+      {
+        "p": {
+          "name": "DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression",
+          "link": "https://arxiv.org/abs/2609.19969"
+        },
+        "c": "https://github.com/deepseek-ai/deepseek-recipe",
+        "n": "DeepSeek-V4.1-Flash Max (mini-SWE)",
+        "d": "2026-09-17",
+        "m1": "0.742"
+      },
+      {
+        "p": {
+          "name": "Introducing Claude Opus 5.5",
+          "link": "https://www.anthropic.com/claude-opus-5-5"
+        },
+        "c": "https://github.com/anthropics/claude-code",
+        "n": "Claude Opus 5.5",
+        "d": "2026-09-22",
+        "m1": "0.742"
+      },
+      {
+        "p": {
+          "name": "GPT-6 Astra: A new generation of intelligence",
+          "link": "https://openai.com/index/gpt-6-astra/"
+        },
+        "c": "https://github.com/openai/codex",
+        "n": "GPT-6 Astra",
+        "d": "2026-09-03",
+        "m1": "0.741"
+      },
+      {
+        "p": {
+          "name": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
+          "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/"
+        },
+        "c": "https://github.com/google-gemini/gemini-cli",
+        "n": "Gemini 3.8 Flash (high thinking) (mini-swe-agent)",
+        "d": "2026-09-02",
+        "m1": "0.737"
+      },
+      {
+        "p": {
+          "name": "Introducing SWE-2: Pushing the Pareto Frontier",
+          "link": "https://cognition.com/blog/swe-2"
+        },
+        "c": "",
+        "n": "SWE-2 (mini-swe-agent)",
+        "d": "2026-09-10",
+        "m1": "0.73"
+      },
+      {
+        "p": {
+          "name": "GPT-5.6: Frontier intelligence that scales with your ambition",
+          "link": "https://openai.com/index/gpt-5-6/"
+        },
+        "c": "https://github.com/openai/codex",
+        "n": "GPT-5.6 Sol",
+        "d": "2026-07-09",
+        "m1": "0.727"
+      },
+      {
+        "p": {
+          "name": "MiMo-V2.6: Scaling Reinforcement Learning Towards Self-Improvement",
+          "link": "https://arxiv.org/abs/2610.11959"
+        },
+        "c": "https://github.com/vllm-project/vllm",
+        "n": "MiMo-V2.6-Pro-RL (mini-swe-agent)",
+        "d": "2026-10-08",
+        "m1": "0.719"
+      },
+      {
+        "p": {
+          "name": "Introducing Grok 4.7",
+          "link": "https://x.ai/news/grok-4-7"
+        },
+        "c": "",
+        "n": "Grok 4.7 (high effort)",
+        "d": "2026-09-21",
+        "m1": "0.71"
+      },
+      {
+        "p": {
+          "name": "Introducing Claude Sonnet 5.5",
+          "link": "https://www.anthropic.com/claude-sonnet-5-5"
+        },
+        "c": "https://github.com/anthropics/claude-code",
+        "n": "Claude Sonnet 5.5 (max effort)",
+        "d": "2026-09-28",
+        "m1": "0.71"
+      },
+      {
+        "p": {
+          "name": "DeepSWE Leaderboard",
+          "link": "https://deepswe.datacurve.ai"
+        },
+        "c": "https://github.com/anthropics/claude-code",
+        "n": "Claude Fable 5 (xhigh) (MiniSWE-Agent)",
+        "d": "2026-06-09",
+        "m1": "0.6991"
+      },
+      {
+        "p": {
+          "name": "Introducing GPT-6 Sol and Luna",
+          "link": "https://openai.com/index/introducing-gpt-6-sol-and-luna/"
+        },
+        "c": "",
+        "n": "GPT-6 Sol (max effort) (mini-swe-agent)",
+        "d": "2026-09-22",
+        "m1": "0.6881"
+      },
+      {
+        "p": {
+          "name": "Introducing Claude Opus 5",
+          "link": "https://www.anthropic.com/news/claude-opus-5"
+        },
+        "c": "https://github.com/anthropics/claude-code",
+        "n": "Claude Opus 5",
+        "d": "2026-07-24",
+        "m1": "0.688"
+      },
+      {
+        "p": {
+          "name": "Step 5 Preview",
+          "link": "https://huggingface.co/stepfun-ai/Step-5-Preview"
+        },
+        "c": "",
+        "n": "Step 5 Preview (High) (SWE-agent)",
+        "d": "2026-09-20",
+        "m1": "0.677"
+      },
+      {
+        "p": {
+          "name": "Kimi K3: Open Frontier Intelligence",
+          "link": "https://arxiv.org/abs/2607.24653"
+        },
+        "c": "https://github.com/moonshotai/kimi-k3",
+        "n": "Kimi K3 (Max) (Kimi Code)",
+        "d": "2026-07-27",
+        "m1": "0.675"
+      },
+      {
+        "p": {
+          "name": "DeepSWE Leaderboard",
+          "link": "https://deepswe.datacurve.ai"
+        },
+        "c": "",
+        "n": "Grok 4.6 (medium) (MiniSWE-Agent)",
+        "d": "2026-08-12",
+        "m1": "0.6748"
+      },
+      {
+        "p": {
+          "name": "Introducing Claude Fable 5.1 and Claude Mythos 5.1",
+          "link": "https://www.anthropic.com/claude-fable-and-mythos-5-1"
+        },
+        "c": "",
+        "n": "Claude Fable 5.1 (max effort)",
+        "d": "2026-09-01",
+        "m1": "0.674"
+      },
+      {
+        "p": {
+          "name": "DeepSWE Leaderboard",
+          "link": "https://deepswe.datacurve.ai"
+        },
+        "c": "",
+        "n": "GPT-5.5 (xhigh) (MiniSWE-Agent)",
+        "d": "2026-04-23",
+        "m1": "0.6704"
+      },
+      {
+        "p": {
+          "name": "GLM-5.3: Frontier Coding with Emergent Cyber Capabilities",
+          "link": "https://z.ai/blog/glm-5.3"
+        },
+        "c": "https://github.com/zai-org/glm-5",
+        "n": "GLM-5.3 (MiniSWE-Agent)",
+        "d": "2026-08-14",
+        "m1": "0.669"
+      },
+      {
+        "p": {
+          "name": "Introducing GPT-6 Sol and Luna",
+          "link": "https://openai.com/index/introducing-gpt-6-sol-and-luna/"
+        },
+        "c": "",
+        "n": "GPT-6 Luna (max effort) (mini-swe-agent)",
+        "d": "2026-09-22",
+        "m1": "0.6659"
+      },
+      {
+        "p": {
+          "name": "Introducing Gemini 3.7 Flash",
+          "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/"
+        },
+        "c": "https://github.com/google-antigravity/antigravity-cli",
+        "n": "Gemini 3.7 Flash (High) (MiniSWE-Agent)",
+        "d": "2026-08-13",
+        "m1": "0.653"
+      },
+      {
+        "p": {
+          "name": "Hy4 preview",
+          "link": "https://github.com/Tencent-Hunyuan/Hy4-preview/blob/1296fab2674cb5a645ccfe53e9a8dc225dbe69f2/README.md"
+        },
+        "c": "https://github.com/tencent-hunyuan/hy4-preview",
+        "n": "Hy4 preview (mini-swe-agent)",
+        "d": "2026-08-28",
+        "m1": "0.643"
+      },
+      {
+        "p": {
+          "name": "GLM-5.3-Flash: Frontier Intelligence, Flash Cost",
+          "link": "https://z.ai/blog/glm-5.3-flash"
+        },
+        "c": "https://github.com/zai-org/glm-5",
+        "n": "GLM-5.3-Flash (mini-swe-agent)",
+        "d": "2026-08-26",
+        "m1": "0.634"
+      },
+      {
+        "p": {
+          "name": "DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence",
+          "link": "https://arxiv.org/abs/2606.19348"
+        },
+        "c": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+        "n": "DeepSeek-V4-Pro-0813 (Max) (DeepSeek Harness)",
+        "d": "2026-04-26",
+        "m1": "0.627"
+      },
+      {
+        "p": {
+          "name": "Mistral Large 4",
+          "link": "https://mistral.ai/news/mistral-large-4/"
+        },
+        "c": "",
+        "n": "Mistral Large 4 Preview",
+        "d": "2026-10-06",
+        "m1": "0.617"
+      },
+      {
+        "p": {
+          "name": "On the Limitations of Non-GPU AI Accelerators for Large-Model Inference: A Field Study of MoE and Multimodal Serving on Huawei Ascend",
+          "link": "https://arxiv.org/abs/2607.08215"
+        },
+        "c": "",
+        "n": "DeepSeek-V4-Flash-Vision-Exp (DeepSeek Harness)",
+        "d": "2026-07-09",
+        "m1": "0.593"
+      },
+      {
+        "p": {
+          "name": "DeepSWE Leaderboard",
+          "link": "https://deepswe.datacurve.ai"
+        },
+        "c": "",
+        "n": "Claude Opus 4.8 (max) (MiniSWE-Agent)",
+        "d": "2026-05-28",
+        "m1": "0.5897"
+      },
+      {
+        "p": {
+          "name": "On the Design of Qwen3.8-Next Architecture: Evaluation, Efficiency, and Training Stability",
+          "link": "https://arxiv.org/abs/2608.30320"
+        },
+        "c": "https://github.com/qwenlm/flashqla",
+        "n": "Qwen3.8-Flash-Next (mini-SWE-agent)",
+        "d": "2026-08-31",
+        "m1": "0.587"
+      },
+      {
+        "p": {
+          "name": "Macaron-V1: Towards Open Continual Learning with Self-Improvement and Mixture-of-LoRA",
+          "link": "https://arxiv.org/abs/2608.09819"
+        },
+        "c": "https://github.com/mindlab-research/mixture-of-lora-harness",
+        "n": "Macaron-V1-Venti (Claude Code)",
+        "d": "2026-08-10",
+        "m1": "0.584"
+      },
+      {
+        "p": {
+          "name": "DeepSWE Leaderboard",
+          "link": "https://deepswe.datacurve.ai"
+        },
+        "c": "https://github.com/vllm-project/vllm",
+        "n": "Qwen3.8 Max (xhigh) (MiniSWE-Agent)",
+        "d": "2026-08-03",
+        "m1": "0.5746"
+      },
+      {
+        "p": {
+          "name": "DeepSWE Leaderboard",
+          "link": "https://deepswe.datacurve.ai"
+        },
+        "c": "",
+        "n": "Muse Spark 1.2 (xhigh) (MiniSWE-Agent)",
+        "d": "2026-08-05",
+        "m1": "0.5487"
+      },
+      {
+        "p": {
+          "name": "DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence",
+          "link": "https://arxiv.org/abs/2606.19348"
+        },
+        "c": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+        "n": "DeepSeek-V4-Flash-0731 (Max) (DeepSeek Harness)",
+        "d": "2026-04-26",
+        "m1": "0.544"
+      },
+      {
+        "p": {
+          "name": "DeepSWE Leaderboard",
+          "link": "https://deepswe.datacurve.ai"
+        },
+        "c": "",
+        "n": "Claude Sonnet 5 (max) (MiniSWE-Agent)",
+        "d": "2026-06-30",
+        "m1": "0.5385"
+      },
+      {
+        "p": {
+          "name": "Introducing Muse Spark 1.1",
+          "link": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/"
+        },
+        "c": "https://github.com/meta-models/meta-model-cookbook",
+        "n": "Muse Spark 1.1 (MiniSWE-Agent)",
+        "d": "2026-07-09",
+        "m1": "0.533"
+      },
+      {
+        "p": {
+          "name": "Introducing Grok 4.5",
+          "link": "https://x.ai/news/grok-4-5"
+        },
+        "c": "",
+        "n": "Grok 4.5",
+        "d": "2026-07-08",
+        "m1": "0.53"
+      },
+      {
+        "p": {
+          "name": "DeepSWE Leaderboard",
+          "link": "https://deepswe.datacurve.ai"
+        },
+        "c": "",
+        "n": "GPT-5.4 (xhigh) (MiniSWE-Agent)",
+        "d": "2026-03-05",
+        "m1": "0.5177"
+      },
+      {
+        "p": {
+          "name": "DeepSWE Leaderboard",
+          "link": "https://deepswe.datacurve.ai"
+        },
+        "c": "",
+        "n": "Gemini 3.6 Flash (high) (MiniSWE-Agent)",
+        "d": "2026-07-21",
+        "m1": "0.4668"
+      },
+      {
+        "p": {
+          "name": "GLM-5.2: Built for Long-Horizon Tasks",
+          "link": "https://z.ai/blog/glm-5.2"
+        },
+        "c": "https://github.com/zai-org/GLM-5",
+        "n": "GLM-5.2 (MiniSWE-Agent)",
+        "d": "2026-06-16",
+        "m1": "0.462"
+      },
+      {
+        "p": {
+          "name": "Introducing Beam: Reflection's 501B open-weight model",
+          "link": "https://reflection.ai/blog/introducing-beam"
+        },
+        "c": "",
+        "n": "Beam",
+        "d": "2026-10-05",
+        "m1": "0.444"
+      },
+      {
+        "p": {
+          "name": "Qwen3.8-27B",
+          "link": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        "c": "https://github.com/vllm-project/vllm",
+        "n": "Qwen3.8-27B (Claude Code)",
+        "d": "2026-08-05",
+        "m1": "0.422"
+      },
+      {
+        "p": {
+          "name": "Introducing Laguna S 2.1",
+          "link": "https://poolside.ai/blog/introducing-laguna-s-2-1"
+        },
+        "c": "https://github.com/vllm-project/vllm",
+        "n": "Laguna S 2.1 (pool)",
+        "d": "2026-07-21",
+        "m1": "0.404"
+      },
+      {
+        "p": {
+          "name": "DeepSWE Leaderboard",
+          "link": "https://deepswe.datacurve.ai"
+        },
+        "c": "",
+        "n": "Gemini 3.5 Flash (high) (MiniSWE-Agent)",
+        "d": "2026-05-19",
+        "m1": "0.3606"
+      },
+      {
+        "p": {
+          "name": "Seed2.1 Model Card: Agentic Intelligence for Productivity",
+          "link": "https://seed.bytedance.com/en/blog/seed2-1-officially-released-advancing-ai-productivity"
+        },
+        "c": "",
+        "n": "Seed2.1 Pro",
+        "d": "2026-06-23",
+        "m1": "0.327"
+      },
+      {
+        "p": {
+          "name": "DeepSWE Leaderboard",
+          "link": "https://deepswe.datacurve.ai"
+        },
+        "c": "",
+        "n": "Kimi K2.7 Code (MiniSWE-Agent)",
+        "d": "2026-06-11",
+        "m1": "0.3053"
+      },
+      {
+        "p": {
+          "name": "DeepSWE Leaderboard",
+          "link": "https://deepswe.datacurve.ai"
+        },
+        "c": "",
+        "n": "Claude Sonnet 4.6 (high) (MiniSWE-Agent)",
+        "d": "2026-02-17",
+        "m1": "0.2993"
+      },
+      {
+        "p": {
+          "name": "Hy3",
+          "link": "https://hy.tencent.com/research/hy3"
+        },
+        "c": "https://github.com/Tencent-Hunyuan/Hy3",
+        "n": "Hy3",
+        "d": "2026-07-02",
+        "m1": "0.28"
+      },
+      {
+        "p": {
+          "name": "Ornith-1.5: From Self-Scaffolding to Self-Improvement",
+          "link": "https://ornith.ai/ornith_1_5.html"
+        },
+        "c": "",
+        "n": "Ornith-1.5-35B-A3B (Claude Code)",
+        "d": "2026-08-20",
+        "m1": "0.22"
+      },
+      {
+        "p": {
+          "name": "CodeMidas: Scaling Agentic Coding RL Environments from Code Itself",
+          "link": "https://arxiv.org/abs/2609.22068"
+        },
+        "c": "",
+        "n": "MiMo-V2.5 (CodeMidas RL)",
+        "d": "2026-09-18",
+        "m1": "0.217"
+      },
+      {
+        "p": {
+          "name": "GLM-5.1: Towards Long-Horizon Tasks",
+          "link": "https://z.ai/blog/glm-5.1"
+        },
+        "c": "https://github.com/zai-org/GLM-5",
+        "n": "GLM-5.1 (Max) (MiniSWE-Agent)",
+        "d": "2026-04-03",
+        "m1": "0.18"
+      },
+      {
+        "p": {
+          "name": "MindForge: Teaching Small Language Models Whole-Life-Cycle Software Engineering via Source-Free Program Synthesis",
+          "link": "https://arxiv.org/abs/2607.27146"
+        },
+        "c": "",
+        "n": "MindForge-27B (Mini-SWE-Agent)",
+        "d": "2026-07-29",
+        "m1": "0.1592"
+      },
+      {
+        "p": {
+          "name": "DeepSWE Leaderboard",
+          "link": "https://deepswe.datacurve.ai"
+        },
+        "c": "",
+        "n": "Gemini 3.1 Pro Preview (high) (MiniSWE-Agent)",
+        "d": "2026-02-19",
+        "m1": "0.1173"
+      }
+    ]
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "title": "question-answering-on-copa-zero-shot",
+  "task-hierarchy": [
+    "Question Answering"
+  ],
+  "dataset-info": {
+    "link": "https://people.ict.usc.edu/~gordon/copa.html",
+    "paper": "Choice of Plausible Alternatives: An Evaluation of Commonsense Causal Reasoning"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "OPT: Open Pre-trained Transformer Language Models",
+          "link": "https://arxiv.org/abs/2205.01068v4"
+        },
+        "c": "https://github.com/facebookresearch/metaseq",
+        "n": "OPT-175B",
+        "d": "2022-05-02",
+        "m1": "87"
+      },
+      {
+        "p": {
+          "name": "Taylor-Calibrate: Principled Initialization for Hybrid Linear Attention Distillation",
+          "link": "https://arxiv.org/abs/2606.16429"
+        },
+        "c": "https://github.com/FutureMLS-Lab/Taylor-Calibrate",
+        "n": "Taylor-Calibrate qwen3_8b 100M_ga_s2_taylor",
+        "d": "2026-06-15",
+        "m1": "87.0"
+      },
+      {
+        "p": {
+          "name": "Synthetic Pre-pretraining Survives Scale, but Not as a Grammatical Prior",
+          "link": "https://arxiv.org/abs/2609.39827"
+        },
+        "c": "https://github.com/gucci-j/verify-ppt-at-scale",
+        "n": "PPT (k-Shuffle Dyck), 3B, Marin, 100B PT tokens",
+        "d": "2026-09-30",
+        "m1": "85.0"
+      },
+      {
+        "p": {
+          "name": "MultiHashFormer: Hash-based Generative Language Models",
+          "link": "https://arxiv.org/abs/2606.28057"
+        },
+        "c": "https://github.com/HUIYINXUE/MHF",
+        "n": "MHF (H3B10K)",
+        "d": "2026-06-26",
+        "m1": "71.0"
+      },
+      {
+        "p": {
+          "name": "Parcae: Scaling Laws For Stable Looped Language Models",
+          "link": "https://arxiv.org/abs/2604.12946"
+        },
+        "c": "https://github.com/sandyresearch/parcae",
+        "n": "Parcae-1.3B (T=8, 0-shot)",
+        "d": "2026-04-14",
+        "m1": "68.666667"
+      }
+    ]
+  }
+}

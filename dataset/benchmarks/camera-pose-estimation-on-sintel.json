@@ -1,0 +1,151 @@
+{
+  "title": "camera-pose-estimation-on-sintel",
+  "task-hierarchy": [
+    "Visual Localization",
+    "Camera Pose Estimation"
+  ],
+  "dataset-info": {
+    "link": "http://sintel.is.tue.mpg.de/",
+    "paper": "A Naturalistic Open Source Movie for Optical Flow Evaluation"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "ATE",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "RPE-T",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "RPE-R",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Video Generation Models are General-Purpose Vision Learners",
+          "link": "https://arxiv.org/abs/2607.09024"
+        },
+        "c": "",
+        "n": "GenCeption Specialist-L",
+        "d": "2026-07-10",
+        "m1": "0.050",
+        "m2": "0.018",
+        "m3": "0.464"
+      },
+      {
+        "p": {
+          "name": "Efficiently Reconstructing Dynamic Scenes One D4RT at a Time",
+          "link": "https://arxiv.org/abs/2512.08924"
+        },
+        "c": "",
+        "n": "D4RT",
+        "d": "2025-12-09",
+        "m1": "0.065",
+        "m2": "0.024",
+        "m3": "0.126"
+      },
+      {
+        "p": {
+          "name": "4D-VGGT: A SpatioTemporal Foundation Model for Dynamic Scene Geometry Estimation",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/3366"
+        },
+        "c": "",
+        "n": "4D-VGGT",
+        "d": "2026-09-08",
+        "m1": "0.065",
+        "m2": "0.026",
+        "m3": "0.249"
+      },
+      {
+        "p": {
+          "name": "TrackingWorld: World-centric Monocular 3D Tracking of Almost All Pixels",
+          "link": "https://arxiv.org/abs/2512.08358"
+        },
+        "c": "https://github.com/IGL-HKUST/TrackingWorld",
+        "n": "TrackingWorld (DELTA)",
+        "d": "2025-12-09",
+        "m1": "0.088"
+      },
+      {
+        "p": {
+          "name": "LEAP-VO: Long-term Effective Any Point Tracking for Visual Odometry",
+          "link": "https://arxiv.org/abs/2401.01887"
+        },
+        "c": "",
+        "n": "LEAP-VO (extra data)",
+        "d": "2024-01-03",
+        "m1": "0.089",
+        "m2": "0.066",
+        "m3": "1.25"
+      },
+      {
+        "p": {
+          "name": "Gen4P: Video Generators are 4D Perceivers",
+          "link": "https://arxiv.org/abs/2610.22371"
+        },
+        "c": "https://github.com/yitongx/Gen4P",
+        "n": "Gen4P (Ours-II)",
+        "d": "2026-10-15",
+        "m1": "0.104",
+        "m2": "0.023",
+        "m3": "0.306"
+      },
+      {
+        "p": {
+          "name": "V-DPM: 4D Video Reconstruction with Dynamic Point Maps",
+          "link": "https://arxiv.org/abs/2601.09499"
+        },
+        "c": "https://github.com/eldar/vdpm",
+        "n": "V-DPM",
+        "d": "2026-01-14",
+        "m1": "0.105"
+      },
+      {
+        "p": {
+          "name": "DynamicVerse: A Physically-Aware Multimodal Framework for 4D World Modeling",
+          "link": "https://arxiv.org/abs/2512.03000"
+        },
+        "c": "https://github.com/Dynamics-X/DynamicVerse",
+        "n": "DynamicGen",
+        "d": "2025-12-02",
+        "m1": "0.108"
+      },
+      {
+        "p": {
+          "name": "RayMap3R: Inference-Time RayMap for Dynamic 3D Reconstruction",
+          "link": "https://arxiv.org/abs/2603.20588"
+        },
+        "c": "https://github.com/brack-wang/raymap3r",
+        "n": "RayMap3R",
+        "d": "2026-03-21",
+        "m1": "0.166",
+        "m2": "0.056",
+        "m3": "0.72"
+      }
+    ]
+  }
+}

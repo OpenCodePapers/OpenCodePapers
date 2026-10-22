@@ -1,0 +1,189 @@
+{
+  "title": "code-generation-on-terminal-bench-3-0",
+  "task-hierarchy": [
+    "Code Intelligence",
+    "Code Generation"
+  ],
+  "dataset-info": {
+    "link": "https://www.tbench.ai/",
+    "paper": "Terminal-Bench: Benchmarking Agents on Hard, Realistic Tasks in Command Line Interfaces"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Failure Recovery via Belief Updates and World Modeling for Long-Horizon Agents",
+          "link": "https://arxiv.org/abs/2610.18082"
+        },
+        "c": "",
+        "n": "BeliefWeaver (Terminus-2)",
+        "d": "2026-10-13",
+        "m1": "66.6"
+      },
+      {
+        "p": {
+          "name": "Terminal-Bench Leaderboard",
+          "link": "https://www.tbench.ai/leaderboard"
+        },
+        "c": "https://github.com/anthropics/claude-code",
+        "n": "Claude Opus 5 (Max) (mini-SWE-agent)",
+        "d": "2026-07-24",
+        "m1": "42.7"
+      },
+      {
+        "p": {
+          "name": "Terminal-Bench Leaderboard",
+          "link": "https://www.tbench.ai/leaderboard"
+        },
+        "c": "https://github.com/openai/codex",
+        "n": "GPT-5.6 Sol (Max) (Codex)",
+        "d": "2026-07-09",
+        "m1": "34.59"
+      },
+      {
+        "p": {
+          "name": "Terminal-Bench Leaderboard",
+          "link": "https://www.tbench.ai/leaderboard"
+        },
+        "c": "https://github.com/anthropics/claude-code",
+        "n": "Claude Fable 5 (Max) (Claude Code)",
+        "d": "2026-06-09",
+        "m1": "34.05"
+      },
+      {
+        "p": {
+          "name": "DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression",
+          "link": "https://arxiv.org/abs/2609.19969"
+        },
+        "c": "https://github.com/deepseek-ai/deepseek-recipe",
+        "n": "DeepSeek-V4.1-Flash Max (DeepSeek Harness (Minimal))",
+        "d": "2026-09-17",
+        "m1": "30.0"
+      },
+      {
+        "p": {
+          "name": "GLM-5.3: Frontier Coding with Emergent Cyber Capabilities",
+          "link": "https://z.ai/blog/glm-5.3"
+        },
+        "c": "https://github.com/zai-org/glm-5",
+        "n": "GLM-5.3 (Claude Code)",
+        "d": "2026-08-14",
+        "m1": "28.3"
+      },
+      {
+        "p": {
+          "name": "Terminal-Bench Leaderboard",
+          "link": "https://www.tbench.ai/leaderboard"
+        },
+        "c": "",
+        "n": "Grok 4.6 (High) (Grok Build)",
+        "d": "2026-08-12",
+        "m1": "26.49"
+      },
+      {
+        "p": {
+          "name": "Terminal-Bench Leaderboard",
+          "link": "https://www.tbench.ai/leaderboard"
+        },
+        "c": "",
+        "n": "Claude Opus 4.8 (Max) (Claude Code)",
+        "d": "2026-05-28",
+        "m1": "21.08"
+      },
+      {
+        "p": {
+          "name": "Terminal-Bench Leaderboard",
+          "link": "https://www.tbench.ai/leaderboard"
+        },
+        "c": "https://github.com/openai/codex",
+        "n": "GPT-5.6 Terra (Max) (Codex)",
+        "d": "2026-07-09",
+        "m1": "20.81"
+      },
+      {
+        "p": {
+          "name": "Terminal-RSI: Recursive Self-Improving Terminal Agents via Recursive Self-Rewrite and Policy-Refine",
+          "link": "https://arxiv.org/abs/2610.22192"
+        },
+        "c": "",
+        "n": "Terminal-RSI-27B",
+        "d": "2026-10-15",
+        "m1": "16.95"
+      },
+      {
+        "p": {
+          "name": "Terminal-Bench Leaderboard",
+          "link": "https://www.tbench.ai/leaderboard"
+        },
+        "c": "",
+        "n": "Grok 4.5 (XHigh) (Cursor CLI)",
+        "d": "2026-07-08",
+        "m1": "15.68"
+      },
+      {
+        "p": {
+          "name": "Introducing Gemini 3.7 Flash",
+          "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/"
+        },
+        "c": "https://github.com/google-antigravity/antigravity-cli",
+        "n": "Gemini 3.7 Flash (MiniSWE-Agent)",
+        "d": "2026-08-13",
+        "m1": "14.9"
+      },
+      {
+        "p": {
+          "name": "Terminal-Bench Leaderboard",
+          "link": "https://www.tbench.ai/leaderboard"
+        },
+        "c": "",
+        "n": "Claude Sonnet 5 (Max) (Claude Code)",
+        "d": "2026-06-30",
+        "m1": "14.59"
+      },
+      {
+        "p": {
+          "name": "Terminal-Bench Leaderboard",
+          "link": "https://www.tbench.ai/leaderboard"
+        },
+        "c": "https://github.com/openai/codex",
+        "n": "GPT-5.6 Luna (Max) (Codex)",
+        "d": "2026-07-09",
+        "m1": "14.32"
+      },
+      {
+        "p": {
+          "name": "Terminal-Bench Leaderboard",
+          "link": "https://www.tbench.ai/leaderboard"
+        },
+        "c": "https://github.com/zai-org/GLM-5",
+        "n": "GLM-5.2 (Max) (Claude Code)",
+        "d": "2026-06-16",
+        "m1": "4.59"
+      }
+    ]
+  }
+}

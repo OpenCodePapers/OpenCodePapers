@@ -1,0 +1,119 @@
+{
+  "title": "scene-text-recognition-on-ctr-chinese-only",
+  "task-hierarchy": [
+    "Optical Character Recognition (OCR)",
+    "Scene Text Recognition"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/FudanVI/benchmarking-chinese-text-recognition",
+    "paper": "Chinese Text Recognition with A Pre-Trained CLIP-Like Model Through Image-IDS Aligning"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Scene LACC",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Web LACC",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Document LACC",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Handwriting LACC",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "SVTRv2: CTC Beats Encoder-Decoder Models in Scene Text Recognition",
+          "link": "https://arxiv.org/abs/2411.15858"
+        },
+        "c": "https://github.com/topdu/openocr",
+        "n": "SVTRv2-B",
+        "d": "2024-11-24",
+        "m1": "83.5",
+        "m2": "83.3",
+        "m3": "99.5",
+        "m4": "67.0"
+      },
+      {
+        "p": {
+          "name": "Out of Length Text Recognition with Sub-String Matching",
+          "link": "https://arxiv.org/abs/2407.12317"
+        },
+        "c": "https://github.com/topdu/openocr",
+        "n": "SMTR (w/ training augmentation)",
+        "d": "2024-07-17",
+        "m1": "83.4",
+        "m2": "83.0",
+        "m3": "99.3",
+        "m4": "65.1"
+      },
+      {
+        "p": {
+          "name": "Instruction-Guided Scene Text Recognition",
+          "link": "https://arxiv.org/abs/2401.17851"
+        },
+        "c": "https://github.com/topdu/openocr",
+        "n": "IGTR-AR-TS-Aug",
+        "d": "2024-01-31",
+        "m1": "82.0",
+        "m2": "81.7",
+        "m3": "99.5",
+        "m4": "63.8"
+      },
+      {
+        "p": {
+          "name": "Decoder Pre-Training with only Text for Scene Text Recognition",
+          "link": "https://arxiv.org/abs/2408.05706"
+        },
+        "c": "https://github.com/topdu/openocr",
+        "n": "PARSeq + DPTR (BCTR training) (extra data)",
+        "d": "2024-08-11",
+        "m1": "80.0",
+        "m2": "79.6",
+        "m3": "98.9",
+        "m4": "64.4"
+      },
+      {
+        "p": {
+          "name": "Chinese Text Recognition with A Pre-Trained CLIP-Like Model Through Image-IDS Aligning",
+          "link": "https://arxiv.org/abs/2309.01083"
+        },
+        "c": "https://github.com/fudanvi/fudanocr",
+        "n": "CCR-CLIP (extra data)",
+        "d": "2023-09-03",
+        "m1": "71.31",
+        "m2": "69.21",
+        "m3": "98.29",
+        "m4": "60.30"
+      }
+    ]
+  }
+}

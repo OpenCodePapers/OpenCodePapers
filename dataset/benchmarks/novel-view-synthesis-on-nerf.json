@@ -55,6 +55,18 @@
     "items": [
       {
         "p": {
+          "name": "Universal Beta Splatting",
+          "link": "https://arxiv.org/abs/2510.03312"
+        },
+        "c": "https://github.com/rongliu-leo/universal-beta-splatting",
+        "n": "UBS-6D",
+        "d": "2025-09-30",
+        "m1": "34.92",
+        "m2": "0.975",
+        "m3": "0.026"
+      },
+      {
+        "p": {
           "name": "Deformable Beta Splatting",
           "link": "https://arxiv.org/abs/2501.18630v2"
         },
@@ -64,6 +76,18 @@
         "m1": "34.66",
         "m2": "0.973 ",
         "m3": "0.028"
+      },
+      {
+        "p": {
+          "name": "Depth Peeling for High-Fidelity Gaussian-Enhanced Surfel Rendering",
+          "link": "https://arxiv.org/abs/2605.25345"
+        },
+        "c": "",
+        "n": "DP-GES",
+        "d": "2026-05-25",
+        "m1": "34.13",
+        "m2": "0.97",
+        "m3": "0.03"
       },
       {
         "p": {
@@ -77,6 +101,107 @@
         "m2": "0.969",
         "m3": "0.031",
         "m5": "4.1"
+      },
+      {
+        "p": {
+          "name": "How Far Can We Compress Instant-NGP-Based NeRF?",
+          "link": "https://arxiv.org/abs/2406.04101"
+        },
+        "c": "https://github.com/yihangchen-ee/cnc",
+        "n": "CNC (F=8, lambda=0.7e-3)",
+        "d": "2024-06-06",
+        "m1": "33.69",
+        "m2": "0.968",
+        "m3": "0.044"
+      },
+      {
+        "p": {
+          "name": "Scaffold-GS: Structured 3D Gaussians for View-Adaptive Rendering",
+          "link": "https://arxiv.org/abs/2312.00109"
+        },
+        "c": "https://github.com/city-super/Scaffold-GS",
+        "n": "Scaffold-GS",
+        "d": "2023-11-30",
+        "m1": "33.68"
+      },
+      {
+        "p": {
+          "name": "PointGT: Simultaneous Geometric and Textural Editing for Point-Based Representations",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/4572"
+        },
+        "c": "",
+        "n": "PointGT",
+        "d": "2026-09-08",
+        "m1": "33.57",
+        "m2": "0.982",
+        "m3": "0.021"
+      },
+      {
+        "p": {
+          "name": "Mip-Splatting: Alias-free 3D Gaussian Splatting",
+          "link": "https://arxiv.org/abs/2311.16493"
+        },
+        "c": "https://github.com/autonomousvision/mip-splatting",
+        "n": "Mip-Splatting",
+        "d": "2023-11-27",
+        "m1": "33.36",
+        "m2": "0.969",
+        "m3": "0.031"
+      },
+      {
+        "p": {
+          "name": "Compact 3D Gaussian Representation for Radiance Field",
+          "link": "https://arxiv.org/abs/2311.13681v2"
+        },
+        "c": "https://github.com/maincold2/Compact-3DGS",
+        "n": "C3DGS",
+        "d": "2023-11-22",
+        "m1": "33.33",
+        "m2": "0.968",
+        "m3": "0.034"
+      },
+      {
+        "p": {
+          "name": "3D Gaussian Splatting for Real-Time Radiance Field Rendering",
+          "link": "https://arxiv.org/abs/2308.04079v1"
+        },
+        "c": "https://github.com/graphdeco-inria/gaussian-splatting",
+        "n": "3D Gaussian Splatting (30K)",
+        "d": "2023-08-08",
+        "m1": "33.32"
+      },
+      {
+        "p": {
+          "name": "LOD-GS: Achieving Levels of Detail using Scalable Gaussian Soup",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Shen_LOD-GS_Achieving_Levels_of_Detail_using_Scalable_Gaussian_Soup_CVPR_2025_paper.html"
+        },
+        "c": "",
+        "n": "LOD-GS",
+        "d": "2025-06-11",
+        "m1": "33.24",
+        "m2": "0.966"
+      },
+      {
+        "p": {
+          "name": "HashPoint: Accelerated Point Searching and Sampling for Neural Rendering",
+          "link": "https://arxiv.org/abs/2404.14044"
+        },
+        "c": "https://github.com/jiahao-ma/hashpoint-code",
+        "n": "HashPoint",
+        "d": "2024-04-22",
+        "m1": "33.22",
+        "m2": "0.961",
+        "m3": "0.055"
+      },
+      {
+        "p": {
+          "name": "Ref-GS: Directional Factorization for 2D Gaussian Splatting",
+          "link": "https://arxiv.org/abs/2412.00905"
+        },
+        "c": "",
+        "n": "Ref-GS",
+        "d": "2024-12-01",
+        "m1": "33.2"
       },
       {
         "p": {
@@ -98,6 +223,84 @@
         "d": "2023-01-24",
         "m1": "33.14",
         "m2": "0.963"
+      },
+      {
+        "p": {
+          "name": "CompGS: Smaller and Faster Gaussian Splatting with Vector Quantization",
+          "link": "https://arxiv.org/abs/2311.18159v3"
+        },
+        "c": "https://github.com/ucdvision/compact3d",
+        "n": "CompGS 4K",
+        "d": "2023-11-30",
+        "m1": "33.10"
+      },
+      {
+        "p": {
+          "name": "Mip-NeRF: A Multiscale Representation for Anti-Aliasing Neural Radiance Fields",
+          "link": "https://arxiv.org/abs/2103.13415"
+        },
+        "c": "https://github.com/google/mipnerf",
+        "n": "Mip-NeRF",
+        "d": "2021-03-24",
+        "m1": "33.09",
+        "m2": "0.961",
+        "m3": "0.043"
+      },
+      {
+        "p": {
+          "name": "2D Gaussian Splatting for Geometrically Accurate Radiance Fields",
+          "link": "https://arxiv.org/abs/2403.17888"
+        },
+        "c": "https://github.com/hbb1/2d-gaussian-splatting",
+        "n": "2D Gaussian Splatting",
+        "d": "2024-03-26",
+        "m1": "33.07"
+      },
+      {
+        "p": {
+          "name": "Compressed 3D Gaussian Splatting for Accelerated Novel View Synthesis",
+          "link": "https://arxiv.org/abs/2401.02436v2"
+        },
+        "c": "https://github.com/KeKsBoTer/c3dgs",
+        "n": "Compressed 3D Gaussian Splatting",
+        "d": "2023-11-17",
+        "m1": "32.936",
+        "m2": "0.967",
+        "m3": "0.033"
+      },
+      {
+        "p": {
+          "name": "LightGaussian: Unbounded 3D Gaussian Compression with 15x Reduction and 200+ FPS",
+          "link": "https://arxiv.org/abs/2311.17245v6"
+        },
+        "c": "https://github.com/VITA-Group/LightGaussian",
+        "n": "LightGaussian",
+        "d": "2023-11-28",
+        "m1": "32.725",
+        "m2": "0.965",
+        "m3": "0.0370"
+      },
+      {
+        "p": {
+          "name": "IRIS: Intersection-aware Ray-based Implicit Editable Scenes",
+          "link": "https://arxiv.org/abs/2603.15368"
+        },
+        "c": "https://github.com/gwilczynski95/iris",
+        "n": "IRIS",
+        "d": "2026-03-16",
+        "m1": "32.65",
+        "m2": "0.957",
+        "m3": "0.034"
+      },
+      {
+        "p": {
+          "name": "DaReNeRF: Direction-aware Representation for Dynamic Scenes",
+          "link": "https://arxiv.org/abs/2403.02265"
+        },
+        "c": "",
+        "n": "DaReNeRF",
+        "d": "2024-03-04",
+        "m1": "32.42"
       },
       {
         "p": {
@@ -143,6 +346,30 @@
         "m1": "31.65",
         "m2": "0.952",
         "m3": "0.051"
+      },
+      {
+        "p": {
+          "name": "Accelerating Neural Field Training via Soft Mining",
+          "link": "https://arxiv.org/abs/2312.00075"
+        },
+        "c": "https://github.com/ubc-vision/nf-soft-mining",
+        "n": "Soft Mining (Ours)",
+        "d": "2023-11-29",
+        "m1": "31.38",
+        "m2": "0.95",
+        "m3": "0.07"
+      },
+      {
+        "p": {
+          "name": "NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis",
+          "link": "https://arxiv.org/abs/2003.08934v2"
+        },
+        "c": "https://github.com/nvlabs/instant-ngp",
+        "n": "NeRF",
+        "d": "2020-03-19",
+        "m1": "31.01",
+        "m2": "0.947",
+        "m3": "0.081"
       },
       {
         "p": {

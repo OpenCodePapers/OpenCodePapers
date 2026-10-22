@@ -29,6 +29,11 @@
         "sortable": "true"
       },
       {
+        "key": "m3",
+        "label": "Segmentation AP",
+        "sortable": "true"
+      },
+      {
         "key": "n",
         "label": "ModelName"
       },
@@ -39,6 +44,18 @@
       }
     ],
     "items": [
+      {
+        "p": {
+          "name": "Dinomaly2: A Unified Framework for Unsupervised Image Anomaly Detection",
+          "link": "https://arxiv.org/abs/2510.17611"
+        },
+        "c": "https://github.com/guojiajeremy/dinomaly2",
+        "n": "Dinomaly2-L",
+        "d": "2025-10-20",
+        "m1": "99.9",
+        "m2": "98.6",
+        "m3": "70.3"
+      },
       {
         "p": {
           "name": "Dinomaly: The Less Is More Philosophy in Multi-Class Unsupervised Anomaly Detection",
@@ -74,6 +91,18 @@
       },
       {
         "p": {
+          "name": "Fast Dynamic Prototypes for Unsupervised Anomaly Detection and Localization",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/3350"
+        },
+        "c": "",
+        "n": "FDP (DINOv3-small + ResNet-18, 512px, prototype bank 8192)",
+        "d": "2026-09-08",
+        "m1": "99.7",
+        "m2": "98.4",
+        "m3": "79.1"
+      },
+      {
+        "p": {
           "name": "Dinomaly: The Less Is More Philosophy in Multi-Class Unsupervised Anomaly Detection",
           "link": "https://arxiv.org/abs/2405.14325v4"
         },
@@ -93,6 +122,17 @@
         "d": "2025-08-03",
         "m1": "99.4",
         "m2": "99.1"
+      },
+      {
+        "p": {
+          "name": "A Unified Latent Schrodinger Bridge Diffusion Model for Unsupervised Anomaly Detection and Localization",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Akshay_A_Unified_Latent_Schrodinger_Bridge_Diffusion_Model_for_Unsupervised_Anomaly_CVPR_2025_paper.html"
+        },
+        "c": "https://github.com/akshay-shilhora-as/lasb",
+        "n": "LASB",
+        "d": "2025-06-11",
+        "m1": "99.14",
+        "m2": "98.66"
       },
       {
         "p": {
@@ -126,6 +166,17 @@
         "d": "2024-04-09",
         "m1": "98.6",
         "m2": "97.7"
+      },
+      {
+        "p": {
+          "name": "ReFP-AD: Rectified Flow Preconditioning for Energy-Based Anomaly Detection",
+          "link": "https://arxiv.org/abs/2608.01793"
+        },
+        "c": "https://github.com/clendering/refp-ad",
+        "n": "ReFP-AD",
+        "d": "2026-08-03",
+        "m1": "98.6",
+        "m2": "97.9"
       },
       {
         "p": {
@@ -203,6 +254,17 @@
         "d": "2022-06-08",
         "m1": "96.5",
         "m2": "96.8"
+      },
+      {
+        "p": {
+          "name": "HLRAD: High-dimensional Latent Representation for Unified Anomaly Detection",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/5190"
+        },
+        "c": "",
+        "n": "HLRAD",
+        "d": "2026-09-08",
+        "m2": "98.6",
+        "m3": "71.3"
       }
     ]
   }

@@ -1,0 +1,99 @@
+{
+  "title": "semi-supervised-video-object-segmentation-on-youtube-vos-2018-validation-official-server",
+  "task-hierarchy": [
+    "Video Segmentation",
+    "Semi-Supervised Video Object Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://youtube-vos.org/dataset/vos/",
+    "paper": "YouTube-VOS: A Large-Scale Video Object Segmentation Benchmark"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "J&F",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Putting the Object Back into Video Object Segmentation",
+          "link": "https://arxiv.org/abs/2310.12982v2"
+        },
+        "c": "https://github.com/hkchengrex/Cutie",
+        "n": "Cutie-base (MEGA) (extra data)",
+        "d": "2023-10-19",
+        "m1": "87.0"
+      },
+      {
+        "p": {
+          "name": "Two-shot Video Object Segmentation",
+          "link": "https://arxiv.org/abs/2303.12078"
+        },
+        "c": "https://github.com/yk-pku/two-shot-video-object-segmentation",
+        "n": "2-shot XMem (two-phase pseudo-label training) (extra data)",
+        "d": "2023-03-21",
+        "m1": "84.8"
+      },
+      {
+        "p": {
+          "name": "Rethinking Space-Time Networks with Improved Memory Coverage for Efficient Video Object Segmentation",
+          "link": "https://arxiv.org/abs/2106.05210v2"
+        },
+        "c": "https://github.com/hkchengrex/STCN",
+        "n": "STCN (BL30K) (extra data)",
+        "d": "2021-06-09",
+        "m1": "84.3"
+      },
+      {
+        "p": {
+          "name": "UniRef++: Segment Every Reference Object in Spatial and Temporal Spaces",
+          "link": "https://arxiv.org/abs/2312.15715v1"
+        },
+        "c": "https://github.com/foundationvision/uniref",
+        "n": "UniRef++-L (joint multi-task, mask propagation) (extra data)",
+        "d": "2023-12-25",
+        "m1": "83.2"
+      },
+      {
+        "p": {
+          "name": "Segment Anything Meets Point Tracking",
+          "link": "https://arxiv.org/abs/2307.01197"
+        },
+        "c": "https://github.com/syscv/sam-pt",
+        "n": "SAM-PT (CoTracker) (extra data)",
+        "d": "2023-07-03",
+        "m1": "76.2"
+      },
+      {
+        "p": {
+          "name": "SegGPT: Segmenting Everything In Context",
+          "link": "https://arxiv.org/abs/2304.03284v1"
+        },
+        "c": "https://github.com/baaivision/painter",
+        "n": "SegGPT (extra data)",
+        "d": "2023-04-06",
+        "m1": "74.7"
+      }
+    ]
+  }
+}

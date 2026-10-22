@@ -1,0 +1,88 @@
+{
+  "title": "visual-question-answering-vqa-on-mmvp",
+  "task-hierarchy": [
+    "Visual Question Answering (VQA)"
+  ],
+  "dataset-info": {
+    "link": "https://openaccess.thecvf.com/content/CVPR2024/html/Tong_Eyes_Wide_Shut_Exploring_the_Visual_Shortcomings_of_Multimodal_LLMs_CVPR_2024_paper.html",
+    "paper": "Eyes Wide Shut? Exploring the Visual Shortcomings of Multimodal LLMs"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Paired Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "VisionFoundry: Teaching VLMs Visual Perception with Synthetic Images",
+          "link": "https://arxiv.org/abs/2604.09531"
+        },
+        "c": "https://github.com/zlab-princeton/visionfoundry",
+        "n": "MiMo-VL-7B-SFT + VisionFoundry-10K",
+        "d": "2026-04-10",
+        "m1": "57.3"
+      },
+      {
+        "p": {
+          "name": "Mixture of Specialized Vision Experts: Unlocking Complementary Visual Insights for Faithful MLLM Reasoning",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/4465"
+        },
+        "c": "https://github.com/jerry19h/mosve",
+        "n": "MoSVE",
+        "d": "2026-09-08",
+        "m1": "57"
+      },
+      {
+        "p": {
+          "name": "Reason Through the Latent! Making Latent Visual Reasoning Necessary",
+          "link": "https://arxiv.org/abs/2609.06746"
+        },
+        "c": "https://github.com/dmis-lab/CVRR",
+        "n": "CVRR (Qwen2.5-VL-7B)",
+        "d": "2026-09-06",
+        "m1": "52.7"
+      },
+      {
+        "p": {
+          "name": "PaliGemma: A versatile 3B VLM for transfer",
+          "link": "https://arxiv.org/abs/2407.07726"
+        },
+        "c": "https://github.com/google-research/big_vision",
+        "n": "PaliGemma",
+        "d": "2024-07-10",
+        "m1": "47.3"
+      },
+      {
+        "p": {
+          "name": "ESC: Emotional Self-Correction for Reliable Vision-Language Models",
+          "link": "https://arxiv.org/abs/2607.02089"
+        },
+        "c": "https://github.com/minhnhat2001vt/esc",
+        "n": "ESC + Qwen2-VL-7B",
+        "d": "2026-07-01",
+        "m1": "45.33"
+      }
+    ]
+  }
+}

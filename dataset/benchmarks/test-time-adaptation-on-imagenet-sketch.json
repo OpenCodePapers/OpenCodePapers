@@ -1,0 +1,89 @@
+{
+  "title": "test-time-adaptation-on-imagenet-sketch",
+  "task-hierarchy": [
+    "Image Classification",
+    "Test-Time Adaptation"
+  ],
+  "dataset-info": {
+    "link": "https://arxiv.org/abs/1905.13549",
+    "paper": "Learning Robust Global Representations by Penalizing Local Predictive Power"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Hierarchical Knowledge Prompt Tuning for Multi-task Test-Time Adaptation",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhang_Hierarchical_Knowledge_Prompt_Tuning_for_Multi-task_Test-Time_Adaptation_CVPR_2025_paper.html"
+        },
+        "c": "",
+        "n": "HKPT",
+        "d": "2025-06-11",
+        "m1": "54.8"
+      },
+      {
+        "p": {
+          "name": "Free on the Fly: Enhancing Flexibility in Test-Time Adaptation with Online EM",
+          "link": "https://arxiv.org/abs/2507.06973"
+        },
+        "c": "",
+        "n": "FreeTTA (CLIP ViT-B/16)",
+        "d": "2025-07-09",
+        "m1": "50.88"
+      },
+      {
+        "p": {
+          "name": "Efficient Test-Time Adaptation of Vision-Language Models",
+          "link": "https://arxiv.org/abs/2403.18293"
+        },
+        "c": "https://github.com/kdiaaa/tda",
+        "n": "TDA (ViT-B/16)",
+        "d": "2024-03-27",
+        "m1": "50.54"
+      },
+      {
+        "p": {
+          "name": "Improved Self-Training for Test-Time Adaptation",
+          "link": "https://openaccess.thecvf.com/content/CVPR2024/html/Ma_Improved_Self-Training_for_Test-Time_Adaptation_CVPR_2024_paper.html"
+        },
+        "c": "https://github.com/jinginai/ist4tta",
+        "n": "IST (π=0, ViT-B/16)",
+        "d": "2024-06-17",
+        "m1": "50.1"
+      },
+      {
+        "p": {
+          "name": "O-TPT: Orthogonality Constraints for Calibrating Test-time Prompt Tuning in Vision-Language Models",
+          "link": "https://arxiv.org/abs/2503.12096"
+        },
+        "c": "https://github.com/ashshaksharifdeen/o-tpt",
+        "n": "O-TPT",
+        "d": "2025-03-15",
+        "m1": "47.12"
+      }
+    ]
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "title": "optical-character-recognition-ocr-on-olmocr-bench",
+  "task-hierarchy": [
+    "Optical Character Recognition (OCR)"
+  ],
+  "dataset-info": {
+    "link": "https://olmocr.allenai.org/",
+    "paper": "olmOCR: Unlocking Trillions of Tokens in PDFs with Vision Language Models"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Infinity-Parser2 Technical Report",
+          "link": "https://arxiv.org/abs/2607.07836"
+        },
+        "c": "https://github.com/infly-ai/inf-mllm",
+        "n": "Infinity-Parser2-Pro",
+        "d": "2026-07-08",
+        "m1": "87.6"
+      },
+      {
+        "p": {
+          "name": "LightOnOCR-3: High-Performance OCR and Layout Extraction in One Model",
+          "link": "https://huggingface.co/blog/lightonai/lightonocr-3"
+        },
+        "c": "https://github.com/lightonai/lightonocr",
+        "n": "LightOnOCR-3-4B",
+        "d": "2026-10-08",
+        "m1": "86.3"
+      },
+      {
+        "p": {
+          "name": "Chandra OCR 2",
+          "link": "https://huggingface.co/datalab-to/chandra-ocr-2"
+        },
+        "c": "https://github.com/datalab-to/chandra",
+        "n": "Chandra 2",
+        "d": "2026-03-16",
+        "m1": "85.8"
+      },
+      {
+        "p": {
+          "name": "Mistral OCR 4",
+          "link": "https://mistral.ai/news/ocr-4/"
+        },
+        "c": "https://github.com/mistralai/search-starter-app",
+        "n": "Mistral OCR 4",
+        "d": "2026-06-23",
+        "m1": "85.20"
+      },
+      {
+        "p": {
+          "name": "Jina-OCR-v1: Efficient Document Parsing with Speculative Decoding and Dense Verifiable Rewards",
+          "link": "https://arxiv.org/abs/2609.03181"
+        },
+        "c": "",
+        "n": "Jina-OCR-v1",
+        "d": "2026-09-02",
+        "m1": "83.4"
+      },
+      {
+        "p": {
+          "name": "Surya OCR 2",
+          "link": "https://www.datalab.to/blog/surya-2"
+        },
+        "c": "https://github.com/datalab-to/surya",
+        "n": "Surya OCR 2",
+        "d": "2026-05-27",
+        "m1": "83.3"
+      },
+      {
+        "p": {
+          "name": "LightOnOCR: A 1B End-to-End Multilingual Vision-Language Model for State-of-the-Art OCR",
+          "link": "https://arxiv.org/abs/2601.14251"
+        },
+        "c": "",
+        "n": "LightOnOCR-2-1B (1B)",
+        "d": "2026-01-20",
+        "m1": "83.2"
+      },
+      {
+        "p": {
+          "name": "Chandra",
+          "link": "https://huggingface.co/datalab-to/chandra"
+        },
+        "c": "",
+        "n": "Chandra",
+        "d": "2025-10-21",
+        "m1": "83.1"
+      },
+      {
+        "p": {
+          "name": "Infinity Parser: Layout Aware Reinforcement Learning for Scanned Document Parsing",
+          "link": "https://arxiv.org/abs/2506.03197"
+        },
+        "c": "https://github.com/infly-ai/inf-mllm",
+        "n": "Infinity-Parser-7B",
+        "d": "2025-06-01",
+        "m1": "82.5"
+      },
+      {
+        "p": {
+          "name": "olmOCR 2: Unit Test Rewards for Document OCR",
+          "link": "https://arxiv.org/abs/2510.19817"
+        },
+        "c": "",
+        "n": "olmOCR-2-7B-1025 (7B)",
+        "d": "2025-10-22",
+        "m1": "82.4"
+      },
+      {
+        "p": {
+          "name": "DARL: Efficient Document-to-Markup Generation via Look-Ahead Diffusion Trajectory Sampling",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/5755"
+        },
+        "c": "",
+        "n": "DARL (extra data)",
+        "d": "2026-09-08",
+        "m1": "81.7"
+      },
+      {
+        "p": {
+          "name": "PaddleOCR-VL: Boosting Multilingual Document Parsing via a 0.9B Ultra-Compact Vision-Language Model",
+          "link": "https://arxiv.org/abs/2510.14528"
+        },
+        "c": "https://github.com/paddlepaddle/paddleocr",
+        "n": "PaddleOCR-VL",
+        "d": "2025-10-16",
+        "m1": "80.0"
+      },
+      {
+        "p": {
+          "name": "Qianfan-OCR: A Unified End-to-End Model for Document Intelligence",
+          "link": "https://arxiv.org/abs/2603.13398"
+        },
+        "c": "https://github.com/baidubce/Qianfan-VL",
+        "n": "Qianfan-OCR",
+        "d": "2026-03-11",
+        "m1": "79.8"
+      },
+      {
+        "p": {
+          "name": "dots.ocr: Multilingual Document Layout Parsing in a Single Vision-Language Model",
+          "link": "https://arxiv.org/abs/2512.02498"
+        },
+        "c": "https://github.com/rednote-hilab/dots.ocr",
+        "n": "dots.ocr",
+        "d": "2025-12-02",
+        "m1": "79.1"
+      },
+      {
+        "p": {
+          "name": "olmOCR: Unlocking Trillions of Tokens in PDFs with Vision Language Models",
+          "link": "https://arxiv.org/abs/2502.18443"
+        },
+        "c": "https://github.com/allenai/olmocr",
+        "n": "olmOCR",
+        "d": "2025-02-25",
+        "m1": "75.5"
+      }
+    ]
+  }
+}

@@ -101,6 +101,17 @@
       },
       {
         "p": {
+          "name": "H^2A^2: Homogeneity-Aware and Heterogeneity-Aware Feature Perception for Unified Indoor 3D Object Detection",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Xie_H2A2_Homogeneity-Aware_and_Heterogeneity-Aware_Feature_Perception_for_Unified_Indoor_3D_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "H2A2",
+        "d": "2026-06-03",
+        "m1": "68.0",
+        "m2": "51.4"
+      },
+      {
+        "p": {
           "name": "Point-GCC: Universal Self-supervised 3D Scene Pre-training via Geometry-Color Contrast",
           "link": "https://arxiv.org/abs/2305.19623v2"
         },
@@ -153,6 +164,17 @@
         "d": "2023-05-04",
         "m1": "66.2",
         "m2": "50.6"
+      },
+      {
+        "p": {
+          "name": "Robust 3D Object Detection using Probabilistic Point Clouds from Single-Photon LiDARs",
+          "link": "https://arxiv.org/abs/2508.00169"
+        },
+        "c": "https://github.com/bhavyagoyal/ppc",
+        "n": "PPC + Uni3DETR (clean)",
+        "d": "2025-07-31",
+        "m1": "65.53",
+        "m2": "49.35"
       },
       {
         "p": {
@@ -219,6 +241,17 @@
         "d": "2022-04-05",
         "m1": "64.1",
         "m2": "47.2"
+      },
+      {
+        "p": {
+          "name": "DQS3D: Densely-matched Quantization-aware Semi-supervised 3D Detection",
+          "link": "https://arxiv.org/abs/2304.13031"
+        },
+        "c": "https://github.com/air-discover/dqs3d",
+        "n": "DQS3D (100% labels)",
+        "d": "2023-04-25",
+        "m1": "64.1",
+        "m2": "48.2"
       },
       {
         "p": {
@@ -295,6 +328,17 @@
         "d": "2020-06-10",
         "m1": "60.1",
         "m2": "39.0"
+      },
+      {
+        "p": {
+          "name": "Gaussian2Scene: 3D Scene Representation Learning via Self-supervised Learning with 3D Gaussian Splatting",
+          "link": "https://arxiv.org/abs/2506.08777"
+        },
+        "c": "",
+        "n": "Gaussian2Scene + 3DETR",
+        "d": "2025-06-10",
+        "m1": "59.2",
+        "m2": "33.5"
       },
       {
         "p": {
@@ -383,6 +427,16 @@
       },
       {
         "p": {
+          "name": "3D Copy-Paste: Physically Plausible Object Insertion for Monocular 3D Detection",
+          "link": "https://arxiv.org/abs/2312.05277"
+        },
+        "c": "https://github.com/gyhandy/3d-copy-paste",
+        "n": "ImVoxelNet + 3D Copy-Paste (extra data)",
+        "d": "2023-12-08",
+        "m1": "43.79"
+      },
+      {
+        "p": {
           "name": "Frustum VoxNet for 3D object detection from RGB-D or Depth images",
           "link": "https://arxiv.org/abs/1910.05483v3"
         },
@@ -411,6 +465,16 @@
         "n": "DSS",
         "d": "2015-11-07",
         "m3": "19.55"
+      },
+      {
+        "p": {
+          "name": "GroupContrast: Semantic-aware Self-supervised Representation Learning for 3D Understanding",
+          "link": "https://arxiv.org/abs/2403.09639"
+        },
+        "c": "https://github.com/dvlab-research/groupcontrast",
+        "n": "GroupContrast",
+        "d": "2024-03-14",
+        "m2": "37.0"
       }
     ]
   }

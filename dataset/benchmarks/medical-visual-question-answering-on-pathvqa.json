@@ -1,0 +1,159 @@
+{
+  "title": "medical-visual-question-answering-on-pathvqa",
+  "task-hierarchy": [
+    "Visual Question Answering (VQA)",
+    "Medical Visual Question Answering"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/UCSD-AI4H/PathVQA",
+    "paper": "PathVQA: 30000+ Questions for Medical Visual Question Answering"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Closed-Ended Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "LLaDA-MedV: Exploring Large Language Diffusion Models for Biomedical Image Understanding",
+          "link": "https://arxiv.org/abs/2508.01617"
+        },
+        "c": "https://github.com/llm-vlm-gsl/llada-medv",
+        "n": "LLaDA-MedV (extra data)",
+        "d": "2025-08-03",
+        "m1": "95.15"
+      },
+      {
+        "p": {
+          "name": "K-PathVQA: Knowledge-Aware Multimodal Representation for Pathology Visual Question Answering",
+          "link": "https://doi.org/10.1109/JBHI.2023.3294249"
+        },
+        "c": "",
+        "n": "K-PathVQA (extra data)",
+        "d": "2023-07-11",
+        "m1": "94.6"
+      },
+      {
+        "p": {
+          "name": "MedTrinity-25M: A Large-scale Multimodal Dataset with Multigranular Annotations for Medicine",
+          "link": "https://arxiv.org/abs/2408.02900"
+        },
+        "c": "https://github.com/ucsc-vlaa/medtrinity-25m",
+        "n": "LLaVA-Tri with MedTrinity (extra data)",
+        "d": "2024-08-06",
+        "m1": "92.7"
+      },
+      {
+        "p": {
+          "name": "Biomedical Visual Instruction Tuning with Clinician Preference Alignment",
+          "link": "https://arxiv.org/abs/2406.13173"
+        },
+        "c": "",
+        "n": "BioMed-VITAL (13B, 150K) (extra data)",
+        "d": "2024-06-19",
+        "m1": "92.42"
+      },
+      {
+        "p": {
+          "name": "Med-MoE: Mixture of Domain-Specific Experts for Lightweight Medical Vision-Language Models",
+          "link": "https://arxiv.org/abs/2404.10237"
+        },
+        "c": "https://github.com/jiangsongtao/med-moe",
+        "n": "Med-MoE (Phi-2) (extra data)",
+        "d": "2024-04-16",
+        "m1": "91.98"
+      },
+      {
+        "p": {
+          "name": "Dual-Level Confidence based Implicit Self-Refinement for Medical Visual Question Answering",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Pan_Dual-Level_Confidence_based_Implicit_Self-Refinement_for_Medical_Visual_Question_Answering_CVPR_2026_paper.html"
+        },
+        "c": "https://github.com/pmhdl/ducor",
+        "n": "DuCoR (Llama2)",
+        "d": "2026-06-03",
+        "m1": "89.84"
+      },
+      {
+        "p": {
+          "name": "Q2ATransformer: Improving Medical VQA via an Answer Querying Decoder",
+          "link": "https://arxiv.org/abs/2304.01611"
+        },
+        "c": "",
+        "n": "Q2ATransformer",
+        "d": "2023-04-04",
+        "m1": "88.85"
+      },
+      {
+        "p": {
+          "name": "Open-Ended Medical Visual Question Answering Through Prefix Tuning of Language Models",
+          "link": "https://arxiv.org/abs/2303.05977"
+        },
+        "c": "",
+        "n": "GPT-2 + LoRA (extra data)",
+        "d": "2023-03-10",
+        "m1": "87.0"
+      },
+      {
+        "p": {
+          "name": "Sparse Spectral LoRA: Routed Experts for Medical VLMs",
+          "link": "https://arxiv.org/abs/2604.01310"
+        },
+        "c": "https://github.com/impact-l/medqwen",
+        "n": "MedQwen (extra data)",
+        "d": "2026-04-01",
+        "m1": "84.2"
+      },
+      {
+        "p": {
+          "name": "Multiple Meta-model Quantifying for Medical Visual Question Answering",
+          "link": "https://arxiv.org/abs/2105.08913"
+        },
+        "c": "",
+        "n": "MMQ (BAN)",
+        "d": "2021-05-19",
+        "m1": "84.0"
+      },
+      {
+        "p": {
+          "name": "PathVQA: 30000+ Questions for Medical Visual Question Answering",
+          "link": "https://arxiv.org/abs/2003.10286"
+        },
+        "c": "https://github.com/pengfeiliheu/mumc",
+        "n": "BAN + Faster R-CNN",
+        "d": "2020-03-07",
+        "m1": "68.2"
+      },
+      {
+        "p": {
+          "name": "MedFG-VQA: Low-Frequency Memory and Graph Attention for Lightweight Medical VQA",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Gu_MedFG-VQA_Low-Frequency_Memory_and_Graph_Attention_for_Lightweight_Medical_VQA_CVPR_2026_paper.html"
+        },
+        "c": "https://github.com/nust-machine-intelligence-laboratory/medfg",
+        "n": "MedFG-VQA",
+        "d": "2026-06-03",
+        "m1": "66.94"
+      }
+    ]
+  }
+}

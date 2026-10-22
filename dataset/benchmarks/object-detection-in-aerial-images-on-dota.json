@@ -96,6 +96,16 @@
       },
       {
         "p": {
+          "name": "Large Selective Kernel Network for Remote Sensing Object Detection",
+          "link": "https://arxiv.org/abs/2303.09030v2"
+        },
+        "c": "https://github.com/zcablii/Large-Selective-Kernel-Network",
+        "n": "LSKNet-S* + Oriented R-CNN (multi-scale) (extra data)",
+        "d": "2023-03-16",
+        "m1": "81.85%"
+      },
+      {
+        "p": {
           "name": "LSKNet: A Foundation Lightweight Backbone for Remote Sensing",
           "link": "https://arxiv.org/abs/2403.11735v5"
         },
@@ -103,6 +113,16 @@
         "n": "LSKNet-S*",
         "d": "2024-03-18",
         "m1": "81.85%"
+      },
+      {
+        "p": {
+          "name": "Rotation Invariant and Symmetry Aware Pixel Difference Network for Remote Sensing Object Detection",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhan_Rotation_Invariant_and_Symmetry_Aware_Pixel_Difference_Network_for_Remote_CVPR_2026_paper.html"
+        },
+        "c": "https://github.com/yuhua666/ris-pidinet",
+        "n": "RIS-PiDiNet-S",
+        "d": "2026-06-03",
+        "m1": "81.81%"
       },
       {
         "p": {
@@ -203,6 +223,26 @@
         "n": "PP-YOLOE-R-x",
         "d": "2022-11-04",
         "m1": "80.73%"
+      },
+      {
+        "p": {
+          "name": "ReDiffDet: Rotation-equivariant Diffusion Model for Oriented Object Detection",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhao_ReDiffDet_Rotation-equivariant_Diffusion_Model_for_Oriented_Object_Detection_CVPR_2025_paper.html"
+        },
+        "c": "https://github.com/wokaikaixinxin/rediffdet",
+        "n": "ReDiffDet",
+        "d": "2025-06-11",
+        "m1": "80.7%"
+      },
+      {
+        "p": {
+          "name": "PKINet-v2: Towards Powerful and Efficient Poly-Kernel Remote Sensing Object Detection",
+          "link": "https://arxiv.org/abs/2603.16341"
+        },
+        "c": "https://github.com/nust-machine-intelligence-laboratory/pkinet",
+        "n": "PKINet-v2-S†",
+        "d": "2026-03-17",
+        "m1": "80.68%"
       },
       {
         "p": {
@@ -336,6 +376,16 @@
       },
       {
         "p": {
+          "name": "Poly Kernel Inception Network for Remote Sensing Detection",
+          "link": "https://arxiv.org/abs/2403.06258"
+        },
+        "c": "https://github.com/nust-machine-intelligence-laboratory/pkinet",
+        "n": "PKINet-S (extra data)",
+        "d": "2024-03-10",
+        "m1": "78.39%"
+      },
+      {
+        "p": {
           "name": "DecoupleNet: A Lightweight Backbone Network With Efficient Feature Decoupling for Remote Sensing Visual Tasks",
           "link": "https://ieeexplore.ieee.org/document/10685518"
         },
@@ -463,6 +513,16 @@
         "n": "PolarDet",
         "d": "2020-10-17",
         "m1": "76.64%"
+      },
+      {
+        "p": {
+          "name": "Theoretically Achieving Continuous Representation of Oriented Bounding Boxes",
+          "link": "https://arxiv.org/abs/2402.18975"
+        },
+        "c": "https://github.com/jittor/jdet",
+        "n": "RoI Transformer + COBB-In-sig",
+        "d": "2024-02-29",
+        "m1": "76.55%"
       },
       {
         "p": {

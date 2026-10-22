@@ -106,6 +106,16 @@
       },
       {
         "p": {
+          "name": "Unifying Vision, Text, and Layout for Universal Document Processing",
+          "link": "https://arxiv.org/abs/2212.02623v3"
+        },
+        "c": "https://github.com/microsoft/i-code",
+        "n": "UDOP",
+        "d": "2022-12-05",
+        "m1": "91.62"
+      },
+      {
+        "p": {
           "name": "XDoc: Unified Pre-training for Cross-Format Document Understanding",
           "link": "https://arxiv.org/abs/2210.02849v1"
         },
@@ -146,6 +156,26 @@
       },
       {
         "p": {
+          "name": "DocFormer: End-to-End Transformer for Document Understanding",
+          "link": "https://arxiv.org/abs/2106.11539v2"
+        },
+        "c": "https://github.com/shabie/docformer",
+        "n": "DocFormer Large (I+T+S)",
+        "d": "2021-06-22",
+        "m1": "84.55"
+      },
+      {
+        "p": {
+          "name": "BROS: A Pre-trained Language Model Focusing on Text and Layout for Better Key Information Extraction from Documents",
+          "link": "https://arxiv.org/abs/2108.04539v5"
+        },
+        "c": "https://github.com/clovaai/bros",
+        "n": "BROS Large",
+        "d": "2021-08-10",
+        "m1": "84.52"
+      },
+      {
+        "p": {
           "name": "LayoutLMv2: Multi-modal Pre-training for Visually-Rich Document Understanding",
           "link": "https://arxiv.org/abs/2012.14740v4"
         },
@@ -176,6 +206,16 @@
       },
       {
         "p": {
+          "name": "LayoutXLM: Multimodal Pre-training for Multilingual Visually-rich Document Understanding",
+          "link": "https://arxiv.org/abs/2104.08836v3"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "LayoutXLM Large",
+        "d": "2021-04-18",
+        "m1": "82.25"
+      },
+      {
+        "p": {
           "name": "Doc2Graph: a Task Agnostic Document Understanding Framework based on Graph Neural Networks",
           "link": "https://arxiv.org/abs/2208.11168v1"
         },
@@ -183,6 +223,26 @@
         "n": "Doc2Graph",
         "d": "2022-08-23",
         "m1": "82.25"
+      },
+      {
+        "p": {
+          "name": "LayoutLM: Pre-training of Text and Layout for Document Image Understanding",
+          "link": "https://arxiv.org/abs/1912.13318v5"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "LayoutLM Base",
+        "d": "2019-12-31",
+        "m1": "79.27"
+      },
+      {
+        "p": {
+          "name": "FUNSD: A Dataset for Form Understanding in Noisy Scanned Documents",
+          "link": "https://arxiv.org/abs/1905.13538"
+        },
+        "c": "https://github.com/cydal/LayoutML_pytorch",
+        "n": "BERT + MLP Baseline",
+        "d": "2019-05-27",
+        "m1": "57.00"
       }
     ]
   }

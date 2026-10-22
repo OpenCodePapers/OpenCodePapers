@@ -1,0 +1,168 @@
+{
+  "title": "agents-on-pinchbench",
+  "task-hierarchy": [
+    "Agents"
+  ],
+  "dataset-info": {
+    "link": "https://pinchbench.com/",
+    "paper": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "KAT-Coder-V2.5 Technical Report",
+          "link": "https://arxiv.org/abs/2607.05471"
+        },
+        "c": "",
+        "n": "KAT-Coder-V2.5",
+        "d": "2026-07-06",
+        "m1": "94.9"
+      },
+      {
+        "p": {
+          "name": "Nemotron 3 Ultra: Open, Efficient Mixture-of-Experts Hybrid Mamba-Transformer Model for Agentic Reasoning",
+          "link": "https://arxiv.org/abs/2606.15007"
+        },
+        "c": "https://github.com/NVIDIA-NeMo/Nemotron",
+        "n": "Nemotron 3 Ultra",
+        "d": "2026-06-03",
+        "m1": "90.0"
+      },
+      {
+        "p": {
+          "name": "KAT-Coder-V2 Technical Report",
+          "link": "https://arxiv.org/abs/2603.27703"
+        },
+        "c": "",
+        "n": "KAT-Coder-V2",
+        "d": "2026-03-29",
+        "m1": "88.7"
+      },
+      {
+        "p": {
+          "name": "Ling and Ring 2.6 Technical Report: Efficient and Instant Agentic Intelligence at Trillion-Parameter Scale",
+          "link": "https://arxiv.org/abs/2606.15079"
+        },
+        "c": "https://github.com/inclusionai/ling-v2",
+        "n": "Ring-2.6-1T (high)",
+        "d": "2026-06-13",
+        "m1": "87.60"
+      },
+      {
+        "p": {
+          "name": "Ling-2.6-1T: A Trillion-Parameter Comprehensive Flagship Model for Complex Tasks",
+          "link": "https://huggingface.co/inclusionAI/Ling-2.6-1T"
+        },
+        "c": "",
+        "n": "Ling-2.6-1T",
+        "d": "2026-04-29",
+        "m1": "87.40"
+      },
+      {
+        "p": {
+          "name": "ClawGym: A Scalable Framework for Building Effective Claw Agents",
+          "link": "https://arxiv.org/abs/2604.26904"
+        },
+        "c": "",
+        "n": "ClawGym-30A3B",
+        "d": "2026-04-29",
+        "m1": "86.0"
+      },
+      {
+        "p": {
+          "name": "NVIDIA Nemotron 3.5 Lightning",
+          "link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16"
+        },
+        "c": "https://github.com/NVIDIA/Megatron-LM",
+        "n": "NVIDIA Nemotron 3.5 Lightning 30B-A3B",
+        "d": "2026-08-11",
+        "m1": "85.37"
+      },
+      {
+        "p": {
+          "name": "Ling and Ring 2.6 Technical Report: Efficient and Instant Agentic Intelligence at Trillion-Parameter Scale",
+          "link": "https://arxiv.org/abs/2606.15079"
+        },
+        "c": "https://github.com/inclusionai/ling-v2",
+        "n": "Ling-2.6-1T",
+        "d": "2026-06-13",
+        "m1": "85.24"
+      },
+      {
+        "p": {
+          "name": "LFM2.5-24B-A2B: Built for Fast On-Device Agents",
+          "link": "https://www.liquid.ai/blog/lfm2-5-24b-a2b"
+        },
+        "c": "",
+        "n": "LFM2.5-24B-A2B",
+        "d": "2026-10-13",
+        "m1": "83.18"
+      },
+      {
+        "p": {
+          "name": "NeoHorse-1: Towards Recursive Self-Improvement via Agentic Post-Training with Routing Harness",
+          "link": "https://arxiv.org/abs/2609.08183"
+        },
+        "c": "https://github.com/TokenRhythm/NeoHorse",
+        "n": "NeoHorse-1-9B",
+        "d": "2026-09-08",
+        "m1": "82.25"
+      },
+      {
+        "p": {
+          "name": "Ling and Ring 2.6 Technical Report: Efficient and Instant Agentic Intelligence at Trillion-Parameter Scale",
+          "link": "https://arxiv.org/abs/2606.15079"
+        },
+        "c": "https://github.com/inclusionai/ling-v2",
+        "n": "Ling-2.6-flash",
+        "d": "2026-06-13",
+        "m1": "81.30"
+      },
+      {
+        "p": {
+          "name": "Mach-Mind-4-Flash Technical Report",
+          "link": "https://arxiv.org/abs/2607.09375"
+        },
+        "c": "",
+        "n": "Mach-Mind-4-Flash",
+        "d": "2026-07-10",
+        "m1": "74.90"
+      },
+      {
+        "p": {
+          "name": "LFM2.5-2.6B: Deploy Agents Everywhere",
+          "link": "https://www.liquid.ai/blog/lfm2-5-2-6b"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "LFM2.5-2.6B",
+        "d": "2026-08-04",
+        "m1": "68.22"
+      }
+    ]
+  }
+}

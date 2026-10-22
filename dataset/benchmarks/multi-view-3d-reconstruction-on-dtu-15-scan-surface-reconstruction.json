@@ -1,0 +1,109 @@
+{
+  "title": "multi-view-3d-reconstruction-on-dtu-15-scan-surface-reconstruction",
+  "task-hierarchy": [
+    "3D Reconstruction",
+    "Multi-View 3D Reconstruction"
+  ],
+  "dataset-info": {
+    "link": "https://roboimagedata.compute.dtu.dk/",
+    "paper": "Large Scale Multi-view Stereopsis Evaluation"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Overall (Chamfer)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "HiNeuS: High-fidelity Neural Surface Mitigating Low-texture and Reflective Ambiguity",
+          "link": "https://arxiv.org/abs/2506.23854"
+        },
+        "c": "https://github.com/wangyida/hineus",
+        "n": "HiNeuS",
+        "d": "2025-06-30",
+        "m1": "0.43"
+      },
+      {
+        "p": {
+          "name": "Improving Multi-View Reconstruction via Texture-Guided Gaussian-Mesh Joint Optimization",
+          "link": "https://arxiv.org/abs/2511.03950"
+        },
+        "c": "https://github.com/zhejia01/texguided-gs2mesh",
+        "n": "TexGuided-GS2Mesh + PGSR",
+        "d": "2025-11-06",
+        "m1": "0.51"
+      },
+      {
+        "p": {
+          "name": "Confidence matters: Leveraging Multi-view Geometric Priors for GS-based Reconstruction",
+          "link": "https://arxiv.org/abs/2608.06117"
+        },
+        "c": "https://github.com/zero-4869/confidencemattersgs",
+        "n": "ConfidenceMattersGS (PGSR + VGGT)",
+        "d": "2026-08-06",
+        "m1": "0.52"
+      },
+      {
+        "p": {
+          "name": "ESR-NeRF: Emissive Source Reconstruction Using LDR Multi-view Images",
+          "link": "https://arxiv.org/abs/2404.15707"
+        },
+        "c": "https://github.com/ecrireme/esr-nerf",
+        "n": "ESR-NeRF",
+        "d": "2024-04-24",
+        "m1": "0.65"
+      },
+      {
+        "p": {
+          "name": "Confidence-Based Mesh Extraction from 3D Gaussians",
+          "link": "https://arxiv.org/abs/2603.24725"
+        },
+        "c": "https://github.com/r4dl/come",
+        "n": "CoMe",
+        "d": "2026-03-25",
+        "m1": "0.65"
+      },
+      {
+        "p": {
+          "name": "FastHuman: Reconstructing High-Quality Clothed Human in Minutes",
+          "link": "https://arxiv.org/abs/2211.14485"
+        },
+        "c": "",
+        "n": "FastHuman (PatchShading)",
+        "d": "2022-11-26",
+        "m1": "0.68"
+      },
+      {
+        "p": {
+          "name": "StableNormal: Reducing Diffusion Variance for Stable and Sharp Normal",
+          "link": "https://arxiv.org/abs/2406.16864"
+        },
+        "c": "",
+        "n": "StableNormal + 2DGS",
+        "d": "2024-06-24",
+        "m1": "0.70"
+      }
+    ]
+  }
+}

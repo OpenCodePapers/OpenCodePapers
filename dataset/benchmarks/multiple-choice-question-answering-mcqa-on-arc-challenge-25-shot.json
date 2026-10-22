@@ -1,0 +1,129 @@
+{
+  "title": "multiple-choice-question-answering-mcqa-on-arc-challenge-25-shot",
+  "task-hierarchy": [
+    "Question Answering",
+    "Multiple Choice Question Answering (MCQA)"
+  ],
+  "dataset-info": {
+    "link": "https://arxiv.org/abs/1803.05457",
+    "paper": "Think you have Solved Question Answering? Try ARC, the AI2 Reasoning Challenge"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Motif 3: Technical Report",
+          "link": "https://arxiv.org/abs/2608.09119"
+        },
+        "c": "https://github.com/motiftechnologies/motif3-training-example",
+        "n": "Motif 3 Base (25-shot)",
+        "d": "2026-08-10",
+        "m1": "94.71"
+      },
+      {
+        "p": {
+          "name": "Nemotron-4 340B Technical Report",
+          "link": "https://arxiv.org/abs/2406.11704"
+        },
+        "c": "https://github.com/nvidia/nemo-aligner",
+        "n": "Nemotron-4-340B-Base (25-shot)",
+        "d": "2024-06-17",
+        "m1": "94.28"
+      },
+      {
+        "p": {
+          "name": "Gemma 2: Improving Open Language Models at a Practical Size",
+          "link": "https://arxiv.org/abs/2408.00118"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Gemma 2 27B (25-shot)",
+        "d": "2024-07-31",
+        "m1": "71.4"
+      },
+      {
+        "p": {
+          "name": "Qwen2 Technical Report",
+          "link": "https://arxiv.org/abs/2407.10671v4"
+        },
+        "c": "https://github.com/qwenlm/qwen1.5",
+        "n": "Qwen2-72B",
+        "d": "2024-07-15",
+        "m1": "68.9"
+      },
+      {
+        "p": {
+          "name": "The Zamba2 Suite: Technical Report",
+          "link": "https://arxiv.org/abs/2411.15242"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Zamba2-7B (25-shot)",
+        "d": "2024-11-22",
+        "m1": "68.9"
+      },
+      {
+        "p": {
+          "name": "Encoder-Decoder Gemma: Improving the Quality-Efficiency Trade-Off via Adaptation",
+          "link": "https://arxiv.org/abs/2504.06225"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "T5Gemma 9B-9B PrefixLM",
+        "d": "2025-04-08",
+        "m1": "65.0"
+      },
+      {
+        "p": {
+          "name": "Jamba: A Hybrid Transformer-Mamba Language Model",
+          "link": "https://arxiv.org/abs/2403.19887"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Jamba (25-shot)",
+        "d": "2024-03-28",
+        "m1": "64.4"
+      },
+      {
+        "p": {
+          "name": "Qwen2 Technical Report",
+          "link": "https://arxiv.org/abs/2407.10671v4"
+        },
+        "c": "https://github.com/qwenlm/qwen1.5",
+        "n": "Qwen2-57B-A14B",
+        "d": "2024-07-15",
+        "m1": "64.1"
+      },
+      {
+        "p": {
+          "name": "Gemma: Open Models Based on Gemini Research and Technology",
+          "link": "https://arxiv.org/abs/2403.08295"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Gemma 7B (25-shot)",
+        "d": "2024-03-13",
+        "m1": "53.2"
+      }
+    ]
+  }
+}

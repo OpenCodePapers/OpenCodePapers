@@ -1,0 +1,140 @@
+{
+  "title": "frozen-feature-label-propagation-on-davis-2017-val",
+  "task-hierarchy": [
+    "Video Segmentation",
+    "Semi-Supervised Video Object Segmentation",
+    "Frozen-Feature Label Propagation"
+  ],
+  "dataset-info": {
+    "link": "https://davischallenge.org",
+    "paper": "The 2017 DAVIS Challenge on Video Object Segmentation"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "J&F",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "DINOv3",
+          "link": "https://arxiv.org/abs/2508.10104v1"
+        },
+        "c": "https://github.com/facebookresearch/dinov3",
+        "n": "DINOv3 + label propagation",
+        "d": "2025-08-13",
+        "m1": "83.3"
+      },
+      {
+        "p": {
+          "name": "TimeBridge: Self-Supervised Video Representation Learning via Start-End Joint Embedding and In-Between Frame Prediction",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Wang_TimeBridge_Self-Supervised_Video_Representation_Learning_via_Start-End_Joint_Embedding_and_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "TimeBridge (ViT-S/8, Kinetics-400, 400 epochs)",
+        "d": "2026-06-03",
+        "m1": "73.5"
+      },
+      {
+        "p": {
+          "name": "Emerging Properties in Self-Supervised Vision Transformers",
+          "link": "https://arxiv.org/abs/2104.14294v2"
+        },
+        "c": "https://github.com/facebookresearch/dino",
+        "n": "DINO (ViT-B/8)",
+        "d": "2021-04-29",
+        "m1": "71.4"
+      },
+      {
+        "p": {
+          "name": "Vision Pretraining for Dense Spatial Perception",
+          "link": "https://arxiv.org/abs/2607.05247"
+        },
+        "c": "https://github.com/Robbyant/lingbot-vision",
+        "n": "LingBot-Vision ViT-g + label propagation",
+        "d": "2026-07-06",
+        "m1": "70.0"
+      },
+      {
+        "p": {
+          "name": "VideoMAC: Video Masked Autoencoders Meet ConvNets",
+          "link": "https://arxiv.org/abs/2402.19082"
+        },
+        "c": "https://github.com/nust-machine-intelligence-laboratory/videomac",
+        "n": "VideoMAC (CNXv2-S) (extra data)",
+        "d": "2024-02-29",
+        "m1": "68.4"
+      },
+      {
+        "p": {
+          "name": "Recurrent Video Masked Autoencoders",
+          "link": "https://arxiv.org/abs/2512.13684"
+        },
+        "c": "",
+        "n": "RVM-H",
+        "d": "2026-04-21",
+        "m1": "65.6"
+      },
+      {
+        "p": {
+          "name": "Patch-level Representation Learning for Self-supervised Vision Transformers",
+          "link": "https://arxiv.org/abs/2206.07990"
+        },
+        "c": "",
+        "n": "DINO + SelfPatch (ViT-S/16)",
+        "d": "2022-06-16",
+        "m1": "62.7"
+      },
+      {
+        "p": {
+          "name": "Perception Encoder: The best visual embeddings are not at the output of the network",
+          "link": "https://arxiv.org/abs/2504.13181v1"
+        },
+        "c": "https://github.com/facebookresearch/perception_models",
+        "n": "PE-Spatial G",
+        "d": "2025-04-17",
+        "m1": "61.5"
+      },
+      {
+        "p": {
+          "name": "Connecting Joint-Embedding Predictive Architecture with Contrastive Self-supervised Learning",
+          "link": "https://arxiv.org/abs/2410.19560"
+        },
+        "c": "",
+        "n": "C-JEPA (ViT-L/16, frozen-representation VOS)",
+        "d": "2024-10-25",
+        "m1": "58.3"
+      },
+      {
+        "p": {
+          "name": "Learning Correspondence from the Cycle-Consistency of Time",
+          "link": "http://arxiv.org/abs/1903.07593v2"
+        },
+        "c": "https://github.com/xiaolonw/TimeCycle",
+        "n": "TimeCycle (ResNet-50, VLOG self-supervised, 480px) (extra data)",
+        "d": "2019-03-18",
+        "m1": "48.2"
+      }
+    ]
+  }
+}

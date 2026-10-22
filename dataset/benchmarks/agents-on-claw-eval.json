@@ -1,0 +1,138 @@
+{
+  "title": "agents-on-claw-eval",
+  "task-hierarchy": [
+    "Agents"
+  ],
+  "dataset-info": {
+    "link": "https://claw-eval.github.io/",
+    "paper": "Claw-Eval: Toward Trustworthy Evaluation of Autonomous Agents"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Introducing efficiency focused \"Thinking CAP\" model series",
+          "link": "https://www.bottlecapai.com/thinkingcap-qwen3-6-27b"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "ThinkingCap-Qwen3.6-27B",
+        "d": "2026-07-06",
+        "m1": "84.4"
+      },
+      {
+        "p": {
+          "name": "Occamy-1.0: Open Pareto-frontier 35B Intelligence for Co-work",
+          "link": "https://arxiv.org/abs/2609.11977"
+        },
+        "c": "https://github.com/accio-lab/dressage",
+        "n": "Occamy-1.0",
+        "d": "2026-09-04",
+        "m1": "82.2"
+      },
+      {
+        "p": {
+          "name": "Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding",
+          "link": "https://deep-reinforce.com/ornith_1_0.html"
+        },
+        "c": "https://github.com/deepreinforce-ai/Ornith-1",
+        "n": "Ornith-1.0-397B",
+        "d": "2026-06-21",
+        "m1": "77.1"
+      },
+      {
+        "p": {
+          "name": "Qwen3.6",
+          "link": "https://huggingface.co/collections/Qwen/qwen36"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Qwen3.6-27B",
+        "d": "2026-04-21",
+        "m1": "72.4"
+      },
+      {
+        "p": {
+          "name": "Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding",
+          "link": "https://deep-reinforce.com/ornith_1_0.html"
+        },
+        "c": "https://github.com/deepreinforce-ai/Ornith-1",
+        "n": "Ornith-1.0-35B",
+        "d": "2026-06-21",
+        "m1": "69.8"
+      },
+      {
+        "p": {
+          "name": "Mach-Mind-4-Flash Technical Report",
+          "link": "https://arxiv.org/abs/2607.09375"
+        },
+        "c": "",
+        "n": "Mach-Mind-4-Flash",
+        "d": "2026-07-10",
+        "m1": "69.49"
+      },
+      {
+        "p": {
+          "name": "Qwen3.6",
+          "link": "https://huggingface.co/collections/Qwen/qwen36"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Qwen3.6-35B-A3B",
+        "d": "2026-04-21",
+        "m1": "68.7"
+      },
+      {
+        "p": {
+          "name": "WEFT: Scaling Tool-Use Post-Training for General-Purpose Agents",
+          "link": "https://arxiv.org/abs/2609.36887"
+        },
+        "c": "",
+        "n": "WEFT-35B-A3B",
+        "d": "2026-09-29",
+        "m1": "64.0"
+      },
+      {
+        "p": {
+          "name": "Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding",
+          "link": "https://deep-reinforce.com/ornith_1_0.html"
+        },
+        "c": "https://github.com/deepreinforce-ai/Ornith-1",
+        "n": "Ornith-1.0-9B",
+        "d": "2026-06-21",
+        "m1": "63.1"
+      },
+      {
+        "p": {
+          "name": "SenseNova-U1: Unifying Multimodal Understanding and Generation with NEO-unify Architecture",
+          "link": "https://arxiv.org/abs/2605.12500"
+        },
+        "c": "https://github.com/OpenSenseNova/SenseNova-U1",
+        "n": "SenseNova-U1-A3B-MoT",
+        "d": "2026-05-12",
+        "m1": "58.50"
+      }
+    ]
+  }
+}

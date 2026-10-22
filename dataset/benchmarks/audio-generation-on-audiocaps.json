@@ -65,6 +65,16 @@
     "items": [
       {
         "p": {
+          "name": "Unified Audio Intelligence Without Regressing on Text Intelligence",
+          "link": "https://arxiv.org/abs/2607.05196"
+        },
+        "c": "",
+        "n": "Audex-30B-A3B SFT",
+        "d": "2026-07-06",
+        "m1": "60.9"
+      },
+      {
+        "p": {
           "name": "ETTA: Elucidating the Design Space of Text-to-Audio Models",
           "link": "https://arxiv.org/abs/2412.19351v1"
         },
@@ -78,6 +88,16 @@
         "m5": "14.29",
         "m6": "0.60",
         "m7": "0.43"
+      },
+      {
+        "p": {
+          "name": "MOVA: Towards Scalable and Synchronized Video-Audio Generation",
+          "link": "https://arxiv.org/abs/2602.08794"
+        },
+        "c": "https://github.com/OpenMOSS/MOVA",
+        "n": "MOVA audio tower (1.3B)",
+        "d": "2026-02-09",
+        "m1": "72.25"
       },
       {
         "p": {
@@ -342,6 +362,28 @@
         "d": "2022-07-20",
         "m2": "7.75",
         "m3": "47.68"
+      },
+      {
+        "p": {
+          "name": "AudioX: Diffusion Transformer for Anything-to-Audio Generation",
+          "link": "https://arxiv.org/abs/2503.10522"
+        },
+        "c": "https://github.com/ZeyueT/AudioX",
+        "n": "AudioX (AudioCaps T2A) (extra data)",
+        "d": "2025-03-13",
+        "m2": "1.59",
+        "m3": "11.51"
+      },
+      {
+        "p": {
+          "name": "WavFlow: Audio Generation in Waveform Space",
+          "link": "https://arxiv.org/abs/2605.18749"
+        },
+        "c": "https://github.com/facebookresearch/WavFlow",
+        "n": "WavFlow-M-16kHz",
+        "d": "2026-05-18",
+        "m3": "10.63",
+        "m5": "12.62"
       }
     ]
   }

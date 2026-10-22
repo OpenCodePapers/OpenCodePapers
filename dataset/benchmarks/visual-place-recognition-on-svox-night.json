@@ -58,6 +58,16 @@
       },
       {
         "p": {
+          "name": "SelaVPR++: Towards Seamless Adaptation of Foundation Models for Efficient Place Recognition",
+          "link": "https://arxiv.org/abs/2502.16601"
+        },
+        "c": "https://github.com/Lu-Feng/SelaVPRplusplus",
+        "n": "SelaVPR++ (DINOv2-L, binary512D + float4096D, rerank100)",
+        "d": "2025-02-23",
+        "m1": "98.4"
+      },
+      {
+        "p": {
           "name": "Focus on Local: Finding Reliable Discriminative Regions for Visual Place Recognition",
           "link": "https://arxiv.org/abs/2504.09881v1"
         },
@@ -67,6 +77,40 @@
         "m1": "98.3",
         "m2": "99.6",
         "m3": "99.6"
+      },
+      {
+        "p": {
+          "name": "Towards Implicit Aggregation: Robust Image Representation for Place Recognition in the Transformer Era",
+          "link": "https://arxiv.org/abs/2511.06024"
+        },
+        "c": "https://github.com/lu-feng/image",
+        "n": "ImAge (6144D, GSV-Cities)",
+        "d": "2025-11-08",
+        "m1": "97.6",
+        "m2": "99.4"
+      },
+      {
+        "p": {
+          "name": "EffoVPR: Effective Foundation Model Utilization for Visual Place Recognition",
+          "link": "https://arxiv.org/abs/2405.18065v2"
+        },
+        "c": "",
+        "n": "EffoVPR-R (1024D global + local reranking, 504px)",
+        "d": "2024-05-28",
+        "m1": "97.4",
+        "m2": "99.5",
+        "m3": "99.5"
+      },
+      {
+        "p": {
+          "name": "SAGE: Spatial-visual Adaptive Graph Exploration for Efficient Visual Place Recognition",
+          "link": "https://arxiv.org/abs/2509.25723"
+        },
+        "c": "https://github.com/chenshunpeng/sage",
+        "n": "SAGE ViT-L (without cross-image encoder)",
+        "d": "2025-09-30",
+        "m1": "97.3",
+        "m2": "99.4"
       },
       {
         "p": {
@@ -80,6 +124,29 @@
       },
       {
         "p": {
+          "name": "EDTformer: An Efficient Decoder Transformer for Visual Place Recognition",
+          "link": "https://arxiv.org/abs/2412.00784"
+        },
+        "c": "https://github.com/tong-jin01/edtformer",
+        "n": "EDTformer (4096D, 2decoder blocks, 64learned tokens, LoPA rank4)",
+        "d": "2024-12-01",
+        "m1": "96.2",
+        "m2": "98.7",
+        "m3": "99.3"
+      },
+      {
+        "p": {
+          "name": "EfficientVPR: Toward Efficient Visual Place Recognition via Scene-Aware Prompt Tuning and Adaptive Feature Enhancement",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Tang_EfficientVPR_Toward_Efficient_Visual_Place_Recognition_via_Scene-Aware_Prompt_Tuning_CVPR_2026_paper.html"
+        },
+        "c": "https://github.com/winitang/efficientvpr",
+        "n": "EfficientVPR (DINOv2-S, 322×322 inference)",
+        "d": "2026-06-01",
+        "m1": "94.4",
+        "m2": "97.9"
+      },
+      {
+        "p": {
           "name": "BoQ: A Place is Worth a Bag of Learnable Queries",
           "link": "https://arxiv.org/abs/2405.07364v3"
         },
@@ -87,6 +154,38 @@
         "n": "BoQ (ResNet-50)",
         "d": "2024-05-12",
         "m1": "87.1"
+      },
+      {
+        "p": {
+          "name": "SAGE: Spatial-visual Adaptive Graph Exploration for Efficient Visual Place Recognition",
+          "link": "https://arxiv.org/abs/2509.25723"
+        },
+        "c": "https://github.com/chenshunpeng/sage",
+        "n": "SAGE ViT-B (without cross-image encoder)",
+        "d": "2025-09-30",
+        "m3": "99.8"
+      },
+      {
+        "p": {
+          "name": "TeTRA-VPR: A Ternary Transformer Approach for Compact Visual Place Recognition",
+          "link": "https://arxiv.org/abs/2503.02511"
+        },
+        "c": "https://github.com/olivergrainge/tetra-vpr",
+        "n": "TeTRA-BoQ (ternary ViT, binary descriptor)",
+        "d": "2025-03-04",
+        "m1": "64.9"
+      },
+      {
+        "p": {
+          "name": "EigenPlaces: Training Viewpoint Robust Models for Visual Place Recognition",
+          "link": "https://arxiv.org/abs/2308.10832v1"
+        },
+        "c": "https://github.com/stschubert/vpr_tutorial",
+        "n": "EigenPlaces (ResNet-50, 2048D)",
+        "d": "2023-08-21",
+        "m1": "58.9",
+        "m2": "76.9",
+        "m3": "82.6"
       }
     ]
   }

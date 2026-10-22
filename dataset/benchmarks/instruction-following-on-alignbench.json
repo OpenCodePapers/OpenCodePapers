@@ -1,0 +1,99 @@
+{
+  "title": "instruction-following-on-alignbench",
+  "task-hierarchy": [
+    "Natural Language Understanding",
+    "Instruction Following"
+  ],
+  "dataset-info": {
+    "link": "https://llmbench.ai/align",
+    "paper": "AlignBench: Benchmarking Chinese Alignment of Large Language Models"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Score (0-10)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Qwen3 Technical Report",
+          "link": "https://arxiv.org/abs/2505.09388"
+        },
+        "c": "https://github.com/QwenLM/Qwen3",
+        "n": "Qwen3-235B-A22B (Thinking)",
+        "d": "2025-05-14",
+        "m1": "8.94"
+      },
+      {
+        "p": {
+          "name": "Qwen3 Technical Report",
+          "link": "https://arxiv.org/abs/2505.09388"
+        },
+        "c": "https://github.com/QwenLM/Qwen3",
+        "n": "Qwen3-235B-A22B (Non-thinking)",
+        "d": "2025-05-14",
+        "m1": "8.91"
+      },
+      {
+        "p": {
+          "name": "Qwen2 Technical Report",
+          "link": "https://arxiv.org/abs/2407.10671v4"
+        },
+        "c": "https://github.com/qwenlm/qwen1.5",
+        "n": "Qwen2-72B-Instruct",
+        "d": "2024-07-15",
+        "m1": "8.27"
+      },
+      {
+        "p": {
+          "name": "ChatGLM: A Family of Large Language Models from GLM-130B to GLM-4 All Tools",
+          "link": "https://arxiv.org/abs/2406.12793"
+        },
+        "c": "https://github.com/zai-org/GLM-4",
+        "n": "GLM-4 (0520)",
+        "d": "2024-06-18",
+        "m1": "8.00"
+      },
+      {
+        "p": {
+          "name": "DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model",
+          "link": "https://arxiv.org/abs/2405.04434"
+        },
+        "c": "https://github.com/deepseek-ai/DeepSeek-V2",
+        "n": "DeepSeek-V2 Chat (RL)",
+        "d": "2024-05-07",
+        "m1": "7.91"
+      },
+      {
+        "p": {
+          "name": "Qwen2 Technical Report",
+          "link": "https://arxiv.org/abs/2407.10671v4"
+        },
+        "c": "https://github.com/qwenlm/qwen1.5",
+        "n": "Qwen2-57B-A14B-Instruct",
+        "d": "2024-07-15",
+        "m1": "7.36"
+      }
+    ]
+  }
+}

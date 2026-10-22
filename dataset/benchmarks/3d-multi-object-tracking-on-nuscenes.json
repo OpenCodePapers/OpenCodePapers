@@ -136,6 +136,16 @@
         "m1": "0.71"
       },
       {
+        "p": {
+          "name": "VoxelNeXt: Fully Sparse VoxelNet for 3D Object Detection and Tracking",
+          "link": "https://arxiv.org/abs/2303.11301"
+        },
+        "c": "https://github.com/dvlab-research/VoxelNeXt",
+        "n": "VoxelNeXt (+ double-flip)",
+        "d": "2023-03-20",
+        "m1": "0.710"
+      },
+      {
         "p": "",
         "c": "",
         "n": "AlphaTrack_v2",
@@ -379,6 +389,16 @@
         "n": "PolarMOT",
         "d": "2021-04-29",
         "m1": "0.66"
+      },
+      {
+        "p": {
+          "name": "Exploring Object-Centric Temporal Modeling for Efficient Multi-View 3D Object Detection",
+          "link": "https://arxiv.org/abs/2303.11926v2"
+        },
+        "c": "https://github.com/exiawsh/streampetr",
+        "n": "StreamPETR-Large (extra data)",
+        "d": "2023-03-21",
+        "m1": "0.653"
       },
       {
         "p": "",
@@ -628,6 +648,16 @@
         "m1": "0.46"
       },
       {
+        "p": {
+          "name": "ADA-Track: End-to-End Multi-Camera 3D Multi-Object Tracking with Alternating Detection and Association",
+          "link": "https://arxiv.org/abs/2405.08909"
+        },
+        "c": "https://github.com/dsx0511/ada-track",
+        "n": "ADA-Track",
+        "d": "2024-05-14",
+        "m1": "0.456"
+      },
+      {
         "p": "",
         "c": "",
         "n": "NCTU-A Happy Group",
@@ -661,6 +691,16 @@
         "n": "CC-3DT",
         "d": "",
         "m1": "0.41"
+      },
+      {
+        "p": {
+          "name": "CC-3DT: Panoramic 3D Object Tracking via Cross-Camera Fusion",
+          "link": "https://arxiv.org/abs/2212.01247"
+        },
+        "c": "https://github.com/SysCV/qd-3dt",
+        "n": "CC-3DT + BEVFormer (camera-only)",
+        "d": "2022-12-02",
+        "m1": "0.410"
       },
       {
         "p": "",
@@ -860,6 +900,16 @@
         "n": "CenterTrack",
         "d": "",
         "m1": "0.05"
+      },
+      {
+        "p": {
+          "name": "Tracking Objects as Points",
+          "link": "https://arxiv.org/abs/2004.01177v2"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleDetection",
+        "n": "CenterTrack (monocular camera)",
+        "d": "2020-04-02",
+        "m1": "0.046"
       },
       {
         "p": "",

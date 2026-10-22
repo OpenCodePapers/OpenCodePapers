@@ -1,0 +1,148 @@
+{
+  "title": "optical-character-recognition-ocr-on-omnidocbench-v1-6",
+  "task-hierarchy": [
+    "Optical Character Recognition (OCR)"
+  ],
+  "dataset-info": {
+    "link": "https://opendatalab.com/omnidocbench",
+    "paper": "OmniDocBench: Benchmarking Diverse PDF Document Parsing with Comprehensive Annotations"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "NaviDC-OCR: Navigating Document Parsing Across Digital and Camera-Captured Documents",
+          "link": "https://arxiv.org/abs/2608.12898"
+        },
+        "c": "https://github.com/caipeng328/NaviDC-OCR",
+        "n": "NaviDC-OCR",
+        "d": "2026-08-13",
+        "m1": "96.87"
+      },
+      {
+        "p": {
+          "name": "OvisOCR2 Technical Report",
+          "link": "https://arxiv.org/abs/2607.13639"
+        },
+        "c": "",
+        "n": "OvisOCR2",
+        "d": "2026-07-15",
+        "m1": "96.58"
+      },
+      {
+        "p": {
+          "name": "PaddleOCR-VL-1.6: Expanding the Frontier of Document Parsing with Under-Optimized Region Refinement and Progressive Post-Training",
+          "link": "https://arxiv.org/abs/2606.03264"
+        },
+        "c": "https://github.com/paddlepaddle/paddleocr",
+        "n": "PaddleOCR-VL-1.6",
+        "d": "2026-06-02",
+        "m1": "96.33"
+      },
+      {
+        "p": {
+          "name": "MinerU2.5-Pro: Pushing the Limits of Data-Centric Document Parsing at Scale",
+          "link": "https://arxiv.org/abs/2604.04771"
+        },
+        "c": "https://github.com/opendatalab/mineru",
+        "n": "MinerU2.5-Pro (1.2B)",
+        "d": "2026-04-06",
+        "m1": "95.69"
+      },
+      {
+        "p": {
+          "name": "WeVisDoc: From Coverage to Capability for Robust End-to-End Document Parsing",
+          "link": "https://arxiv.org/abs/2609.20423"
+        },
+        "c": "https://github.com/Tencent/WeVisDoc",
+        "n": "WeVisDoc-4B",
+        "d": "2026-09-17",
+        "m1": "95.38"
+      },
+      {
+        "p": {
+          "name": "HPD-Parsing: Hierarchical Parallel Document Parsing",
+          "link": "https://arxiv.org/abs/2607.18839"
+        },
+        "c": "https://github.com/paddlepaddle/paddleocr",
+        "n": "HPD-Parsing",
+        "d": "2026-07-21",
+        "m1": "94.91"
+      },
+      {
+        "p": {
+          "name": "HunyuanOCR-1.5: Making Lightweight OCR VLMs Faster and Better",
+          "link": "https://arxiv.org/abs/2607.04884"
+        },
+        "c": "https://github.com/tencent-hunyuan/hunyuanocr",
+        "n": "HunyuanOCR-1.5 (1B)",
+        "d": "2026-07-06",
+        "m1": "94.74"
+      },
+      {
+        "p": {
+          "name": "Infinity-Parser2-Pro",
+          "link": "https://huggingface.co/infly/Infinity-Parser2-Pro"
+        },
+        "c": "",
+        "n": "Infinity-Parser2-Pro",
+        "d": "2026-05-11",
+        "m1": "93.95"
+      },
+      {
+        "p": {
+          "name": "Unlimited OCR Works",
+          "link": "https://arxiv.org/abs/2606.23050"
+        },
+        "c": "https://github.com/baidu/Unlimited-OCR",
+        "n": "Unlimited-OCR",
+        "d": "2026-06-22",
+        "m1": "93.92"
+      },
+      {
+        "p": {
+          "name": "MonkeyOCRv2: A Visual-Text Foundation Model for Document AI",
+          "link": "https://arxiv.org/abs/2607.11562"
+        },
+        "c": "https://github.com/yuliang-liu/monkeyocrv2",
+        "n": "MonkeyOCRv2-B-Parsing",
+        "d": "2026-07-13",
+        "m1": "91.57"
+      },
+      {
+        "p": {
+          "name": "Jina-OCR-v1: Efficient Document Parsing with Speculative Decoding and Dense Verifiable Rewards",
+          "link": "https://arxiv.org/abs/2609.03181"
+        },
+        "c": "",
+        "n": "Jina-OCR-v1",
+        "d": "2026-09-02",
+        "m1": "91.14"
+      }
+    ]
+  }
+}

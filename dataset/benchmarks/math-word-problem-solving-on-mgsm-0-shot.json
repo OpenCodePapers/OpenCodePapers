@@ -1,0 +1,149 @@
+{
+  "title": "math-word-problem-solving-on-mgsm-0-shot",
+  "task-hierarchy": [
+    "Mathematical Reasoning",
+    "Math Word Problem Solving"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/google-research/url-nlp",
+    "paper": "Language Models are Multilingual Chain-of-Thought Reasoners"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "The Llama 4 herd: The beginning of a new era of natively multimodal AI innovation",
+          "link": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/"
+        },
+        "c": "https://github.com/meta-llama/llama-cookbook",
+        "n": "Llama 4 Maverick",
+        "d": "2025-04-05",
+        "m1": "92.3"
+      },
+      {
+        "p": {
+          "name": "Introducing the next generation of Claude",
+          "link": "https://www.anthropic.com/news/claude-3-family"
+        },
+        "c": "",
+        "n": "Claude 3 Opus",
+        "d": "2024-03-04",
+        "m1": "90.7"
+      },
+      {
+        "p": {
+          "name": "The Llama 4 herd: The beginning of a new era of natively multimodal AI innovation",
+          "link": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/"
+        },
+        "c": "https://github.com/meta-llama/llama-cookbook",
+        "n": "Llama 4 Scout",
+        "d": "2025-04-05",
+        "m1": "90.6"
+      },
+      {
+        "p": {
+          "name": "Hello GPT-4o",
+          "link": "https://openai.com/index/hello-gpt-4o/"
+        },
+        "c": "",
+        "n": "GPT-4o",
+        "d": "2024-05-13",
+        "m1": "90.5"
+      },
+      {
+        "p": {
+          "name": "GPT-4o mini: advancing cost-efficient intelligence",
+          "link": "https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/"
+        },
+        "c": "https://github.com/openai/simple-evals",
+        "n": "GPT-4o mini",
+        "d": "2024-07-18",
+        "m1": "87.0"
+      },
+      {
+        "p": {
+          "name": "Llama 3.2: Revolutionizing edge AI and vision with open, customizable models",
+          "link": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/"
+        },
+        "c": "https://github.com/meta-llama/llama-models",
+        "n": "Llama 3.2 90B Vision Instruct",
+        "d": "2024-09-25",
+        "m1": "86.9"
+      },
+      {
+        "p": {
+          "name": "Introducing the next generation of Claude",
+          "link": "https://www.anthropic.com/news/claude-3-family"
+        },
+        "c": "",
+        "n": "Claude 3 Sonnet",
+        "d": "2024-03-04",
+        "m1": "83.5"
+      },
+      {
+        "p": {
+          "name": "Introducing the next generation of Claude",
+          "link": "https://www.anthropic.com/news/claude-3-family"
+        },
+        "c": "",
+        "n": "Claude 3 Haiku",
+        "d": "2024-03-04",
+        "m1": "75.1"
+      },
+      {
+        "p": {
+          "name": "Phi-4-Mini Technical Report: Compact yet Powerful Multimodal Language Models via Mixture-of-LoRAs",
+          "link": "https://arxiv.org/abs/2503.01743"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Phi-4-Mini (0-shot, CoT)",
+        "d": "2025-02-24",
+        "m1": "63.9"
+      },
+      {
+        "p": {
+          "name": "Phi-3 Technical Report: A Highly Capable Language Model Locally on Your Phone",
+          "link": "https://arxiv.org/abs/2404.14219v4"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Phi-3.5-MoE",
+        "d": "2024-04-22",
+        "m1": "58.7"
+      },
+      {
+        "p": {
+          "name": "Llama 3.2: Revolutionizing edge AI and vision with open, customizable models",
+          "link": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/"
+        },
+        "c": "https://github.com/meta-llama/llama-models",
+        "n": "Llama 3.2 3B Instruct",
+        "d": "2024-09-25",
+        "m1": "58.2"
+      }
+    ]
+  }
+}

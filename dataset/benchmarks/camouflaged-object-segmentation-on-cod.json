@@ -46,6 +46,18 @@
     "items": [
       {
         "p": {
+          "name": "Beyond Appearance: Camouflaged Object Detection via Geometric Structure",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Han_Beyond_Appearance_Camouflaged_Object_Detection_via_Geometric_Structure_CVPR_2026_paper.html"
+        },
+        "c": "https://github.com/hjy0518/depthsam",
+        "n": "DepthSAM-L 512x512",
+        "d": "2026-06-03",
+        "m1": "0.92",
+        "m2": "0.867",
+        "m3": "0.014"
+      },
+      {
+        "p": {
           "name": "Bilateral Reference for High-Resolution Dichotomous Image Segmentation",
           "link": "https://arxiv.org/abs/2401.03407v6"
         },
@@ -91,6 +103,18 @@
         "m1": "0.898",
         "m2": "0.827",
         "m3": "0.018"
+      },
+      {
+        "p": {
+          "name": "Iterative Refinement of Semantic and Spatial Representations for Open-Vocabulary Camouflaged Object Segmentation",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/5124"
+        },
+        "c": "",
+        "n": "ISSR",
+        "d": "2026-09-08",
+        "m1": "0.898",
+        "m2": "0.832",
+        "m3": "0.019"
       },
       {
         "p": {
@@ -187,6 +211,26 @@
         "m1": "0.685",
         "m2": "0.352",
         "m3": "0.092"
+      },
+      {
+        "p": {
+          "name": "Frequency Director: Learnable Mixture of Frequency Experts for Unified Concealed Scene Segmentation",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/4302"
+        },
+        "c": "",
+        "n": "FreqDirect (Swin-L)",
+        "d": "2026-09-08",
+        "m2": "0.8166"
+      },
+      {
+        "p": {
+          "name": "NUN: Nested Unfolding Network for Real-World Concealed Object Segmentation",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/3842"
+        },
+        "c": "https://github.com/chunminghe/nun",
+        "n": "NUN (DINOv2-L)",
+        "d": "2026-09-08",
+        "m3": "0.014"
       }
     ]
   }

@@ -1,0 +1,383 @@
+{
+  "title": "speech-recognition-on-open-asr-leaderboard",
+  "task-hierarchy": [
+    "Speech Recognition"
+  ],
+  "dataset-info": {
+    "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard",
+    "paper": "Open ASR Leaderboard: Towards Reproducible and Transparent Multilingual and Long-Form Speech Recognition Evaluation"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "WER",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "RTFx",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "https://github.com/QwenLM/Qwen3-ASR",
+        "n": "Qwen/Qwen3-ASR-1.7B-hf",
+        "d": "2026-01-28",
+        "m1": "4.95",
+        "m2": "819.96"
+      },
+      {
+        "p": {
+          "name": "Training and Inference Efficiency of Encoder-Decoder Speech Models",
+          "link": "https://arxiv.org/abs/2503.05931"
+        },
+        "c": "https://github.com/NVIDIA/NeMo",
+        "n": "nvidia/canary-qwen-2.5b",
+        "d": "2025-03-07",
+        "m1": "5.23",
+        "m2": "867.09"
+      },
+      {
+        "p": {
+          "name": "Data-Efficient On-Policy Distillation for Automatic Speech Recognition",
+          "link": "https://arxiv.org/abs/2605.28139"
+        },
+        "c": "https://github.com/AutoArk/open-audio-opd",
+        "n": "Edge0/ARK-ASR-0.6B",
+        "d": "2026-06-22",
+        "m1": "5.27",
+        "m2": "663.92"
+      },
+      {
+        "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "",
+        "n": "CohereLabs/cohere-transcribe-03-2026",
+        "d": "2026-03-24",
+        "m1": "5.4",
+        "m2": "906.56"
+      },
+      {
+        "p": {
+          "name": "Granite-speech: open-source speech-aware LLMs with strong English ASR capabilities",
+          "link": "https://arxiv.org/abs/2505.08699"
+        },
+        "c": "https://github.com/ibm-granite/granite-speech-models",
+        "n": "ibm-granite/granite-speech-4.1-2b",
+        "d": "2025-06-19",
+        "m1": "5.43",
+        "m2": "545.65"
+      },
+      {
+        "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "https://github.com/NVIDIA/NeMo",
+        "n": "nvidia/parakeet-tdt-0.6b-v2",
+        "d": "2025-05-01",
+        "m1": "5.48",
+        "m2": "6024.67"
+      },
+      {
+        "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "",
+        "n": "OpenMOSS-Team/MOSS-Transcribe-Diarize",
+        "d": "2026-01-04",
+        "m1": "5.52",
+        "m2": "381.16"
+      },
+      {
+        "p": {
+          "name": "Granite-speech: open-source speech-aware LLMs with strong English ASR capabilities",
+          "link": "https://arxiv.org/abs/2505.08699"
+        },
+        "c": "https://github.com/ibm-granite/granite-speech-models",
+        "n": "ibm-granite/granite-speech-4.1-2b-nar",
+        "d": "2025-06-19",
+        "m1": "5.6",
+        "m2": "2073.52"
+      },
+      {
+        "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "https://github.com/NVIDIA/NeMo",
+        "n": "nvidia/parakeet-tdt-0.6b-v3",
+        "d": "2025-05-01",
+        "m1": "5.64",
+        "m2": "6172.55"
+      },
+      {
+        "p": {
+          "name": "NLE: Non-autoregressive LLM-based ASR by Transcript Editing",
+          "link": "https://arxiv.org/abs/2603.08397"
+        },
+        "c": "https://github.com/ibm-granite/granite-speech-models",
+        "n": "NLE++",
+        "d": "2026-04-01",
+        "m1": "5.67",
+        "m2": "1630"
+      },
+      {
+        "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "https://github.com/QwenLM/Qwen3-ASR",
+        "n": "Qwen/Qwen3-ASR-0.6B-hf",
+        "d": "2026-01-28",
+        "m1": "5.7",
+        "m2": "743.96"
+      },
+      {
+        "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "microsoft/Phi-4-multimodal-instruct",
+        "d": "2025-02-24",
+        "m1": "5.72",
+        "m2": "162.53"
+      },
+      {
+        "p": {
+          "name": "Voxtral",
+          "link": "https://arxiv.org/abs/2507.13264"
+        },
+        "c": "https://github.com/mistralai/mistral-common",
+        "n": "mistralai/Voxtral-Small-24B-2507",
+        "d": "2025-07-15",
+        "m1": "5.79",
+        "m2": "101.27"
+      },
+      {
+        "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "",
+        "n": "ibm-granite/granite-speech-5.0-470m-turboctc",
+        "d": "2026-09-17",
+        "m1": "5.84",
+        "m2": "21222.23"
+      },
+      {
+        "p": {
+          "name": "Granite-speech: open-source speech-aware LLMs with strong English ASR capabilities",
+          "link": "https://arxiv.org/abs/2505.08699"
+        },
+        "c": "https://github.com/ibm-granite/granite-speech-models",
+        "n": "ibm-granite/granite-4.0-1b-speech",
+        "d": "2025-06-19",
+        "m1": "5.85",
+        "m2": "666.15"
+      },
+      {
+        "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "https://github.com/NVIDIA/NeMo",
+        "n": "nvidia/nemotron-speech-streaming-en-0.6b",
+        "d": "2026-03-13",
+        "m1": "6.0",
+        "m2": "1116.94"
+      },
+      {
+        "p": {
+          "name": "Granite-speech: open-source speech-aware LLMs with strong English ASR capabilities",
+          "link": "https://arxiv.org/abs/2505.08699"
+        },
+        "c": "https://github.com/ibm-granite/granite-speech-models",
+        "n": "ibm-granite/granite-speech-3.3-8b",
+        "d": "2025-06-19",
+        "m1": "6.12",
+        "m2": "262.79"
+      },
+      {
+        "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "https://github.com/huggingface/distil-whisper",
+        "n": "distil-whisper/distil-large-v3.5",
+        "d": "2024-12-05",
+        "m1": "6.2",
+        "m2": "888.33"
+      },
+      {
+        "p": {
+          "name": "Granite-speech: open-source speech-aware LLMs with strong English ASR capabilities",
+          "link": "https://arxiv.org/abs/2505.08699"
+        },
+        "c": "https://github.com/ibm-granite/granite-speech-models",
+        "n": "ibm-granite/granite-speech-3.3-2b",
+        "d": "2025-06-19",
+        "m1": "6.24",
+        "m2": "509.35"
+      },
+      {
+        "p": {
+          "name": "Voxtral",
+          "link": "https://arxiv.org/abs/2507.13264"
+        },
+        "c": "https://github.com/mistralai/mistral-common",
+        "n": "mistralai/Voxtral-Mini-3B-2507",
+        "d": "2025-07-15",
+        "m1": "6.4",
+        "m2": "180.93"
+      },
+      {
+        "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "https://github.com/openai/whisper",
+        "n": "openai/whisper-large-v3",
+        "d": "2023-11-06",
+        "m1": "6.5",
+        "m2": "470.21"
+      },
+      {
+        "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "",
+        "n": "nvidia/canary-1b-v2",
+        "d": "2025-08-04",
+        "m1": "6.55",
+        "m2": "1825.15"
+      },
+      {
+        "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "https://github.com/NVIDIA/NeMo",
+        "n": "nvidia/parakeet-ctc-1.1b",
+        "d": "2023-12-28",
+        "m1": "6.65",
+        "m2": "5022.76"
+      },
+      {
+        "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "https://github.com/moonshine-ai/moonshine",
+        "n": "Moonshine v2 Medium",
+        "d": "2026-02-12",
+        "m1": "6.65"
+      },
+      {
+        "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "https://github.com/openai/whisper",
+        "n": "openai/whisper-large-v3-turbo",
+        "d": "2023-11-06",
+        "m1": "7.03",
+        "m2": "795.43"
+      },
+      {
+        "p": {
+          "name": "VibeVoice-ASR Technical Report",
+          "link": "https://arxiv.org/abs/2601.18184"
+        },
+        "c": "https://github.com/microsoft/VibeVoice",
+        "n": "microsoft/VibeVoice-ASR-HF",
+        "d": "2026-03-02",
+        "m1": "7.03",
+        "m2": "218.57"
+      },
+      {
+        "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "https://github.com/espnet/espnet/tree/master/egs2/owsm_ctc_v4/s2t1",
+        "n": "espnet/owsm_ctc_v4_1B",
+        "d": "2025-01-16",
+        "m1": "7.28",
+        "m2": "776.71"
+      },
+      {
+        "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "https://github.com/mistralai/mistral-common",
+        "n": "mistralai/Voxtral-Mini-4B-Realtime-2602",
+        "d": "2026-02-11",
+        "m1": "7.49",
+        "m2": "102.62"
+      },
+      {
+        "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "https://github.com/NVIDIA/NeMo",
+        "n": "nvidia/nemotron-3.5-asr-streaming-0.6b",
+        "d": "2026-03-13",
+        "m1": "8.72",
+        "m2": "1349.06"
+      },
+      {
+        "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "https://github.com/moonshine-ai/moonshine",
+        "n": "Moonshine Base",
+        "d": "2024-10-21",
+        "m1": "10.07",
+        "m2": "565.97"
+      },
+      {
+        "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "https://github.com/google-deepmind/gemma",
+        "n": "google/gemma-4-E4B-it",
+        "d": "2026-07-02",
+        "m1": "10.41",
+        "m2": "161.3"
+      }
+    ]
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "title": "point-tracking-on-tap-vid-davis-strided-256px",
+  "task-hierarchy": [
+    "Object Tracking",
+    "Point Tracking"
+  ],
+  "dataset-info": {
+    "link": "https://tapvid.github.io/",
+    "paper": "TAP-Vid: A Benchmark for Tracking Any Point in a Video"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AJ",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "OA",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "delta_avg",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "AnthroTAP: Learning Point Tracking with Real-World Motion",
+          "link": "https://arxiv.org/abs/2507.06233"
+        },
+        "c": "",
+        "n": "Anthro-TAPNext (extra data)",
+        "d": "2025-07-08",
+        "m1": "0.714",
+        "m2": "0.924",
+        "m3": "0.835"
+      },
+      {
+        "p": {
+          "name": "TAPNext: Tracking Any Point (TAP) as Next Token Prediction",
+          "link": "https://arxiv.org/abs/2504.05579"
+        },
+        "c": "https://github.com/google-deepmind/tapnet",
+        "n": "BootsTAPNext-B (extra data)",
+        "d": "2025-04-08",
+        "m1": "0.689",
+        "m2": "0.916",
+        "m3": "0.824"
+      },
+      {
+        "p": {
+          "name": "Dense Optical Tracking: Connecting the Dots",
+          "link": "https://arxiv.org/abs/2312.00786"
+        },
+        "c": "https://github.com/16lemoing/dot",
+        "n": "DOT (BootsTAPIR + RAFT) (extra data)",
+        "d": "2023-12-01",
+        "m1": "0.685",
+        "m2": "0.917",
+        "m3": "0.813"
+      },
+      {
+        "p": {
+          "name": "Local All-Pair Correspondence for Point Tracking",
+          "link": "https://arxiv.org/abs/2407.15420v1"
+        },
+        "c": "https://github.com/cvlab-kaist/locotrack",
+        "n": "LocoTrack-B (extra data)",
+        "d": "2024-07-22",
+        "m1": "0.678",
+        "m2": "0.899",
+        "m3": "0.796"
+      },
+      {
+        "p": {
+          "name": "BootsTAP: Bootstrapped Training for Tracking-Any-Point",
+          "link": "https://arxiv.org/abs/2402.00847v2"
+        },
+        "c": "https://github.com/google-deepmind/tapnet",
+        "n": "BootsTAPIR+fix+snap+data (extra data)",
+        "d": "2024-02-01",
+        "m1": "0.674",
+        "m2": "0.913",
+        "m3": "0.79"
+      },
+      {
+        "p": {
+          "name": "Online Dense Point Tracking with Streaming Memory",
+          "link": "https://arxiv.org/abs/2503.06471"
+        },
+        "c": "https://github.com/dqiaole/spot",
+        "n": "SPOT",
+        "d": "2025-03-09",
+        "m1": "0.669",
+        "m2": "0.902",
+        "m3": "0.794"
+      },
+      {
+        "p": {
+          "name": "TAPTRv2: Attention-based Position Update Improves Tracking Any Point",
+          "link": "https://arxiv.org/abs/2407.16291"
+        },
+        "c": "",
+        "n": "TAPTRv2",
+        "d": "2024-07-23",
+        "m1": "0.664",
+        "m2": "0.913",
+        "m3": "0.788"
+      },
+      {
+        "p": {
+          "name": "TAPTR: Tracking Any Point with Transformers as Detection",
+          "link": "https://arxiv.org/abs/2403.13042"
+        },
+        "c": "https://github.com/IDEA-Research/TAPTR",
+        "n": "TAPTR",
+        "d": "2024-03-19",
+        "m1": "0.663",
+        "m2": "0.91",
+        "m3": "0.792"
+      },
+      {
+        "p": {
+          "name": "ProTracker: Probabilistic Integration for Robust and Accurate Point Tracking",
+          "link": "https://arxiv.org/abs/2501.03220"
+        },
+        "c": "https://github.com/Michaelszj/pro-tracker",
+        "n": "ProTracker",
+        "d": "2025-01-06",
+        "m1": "0.653",
+        "m2": "0.887",
+        "m3": "0.808"
+      },
+      {
+        "p": {
+          "name": "DINO-Tracker: Taming DINO for Self-Supervised Point Tracking in a Single Video",
+          "link": "https://arxiv.org/abs/2403.14548"
+        },
+        "c": "https://github.com/AssafSinger94/dino-tracker",
+        "n": "DINO-Tracker",
+        "d": "2024-03-21",
+        "m1": "0.623",
+        "m2": "0.875",
+        "m3": "0.782"
+      },
+      {
+        "p": {
+          "name": "TAPIR: Tracking Any Point with per-frame Initialization and temporal Refinement",
+          "link": "https://arxiv.org/abs/2306.08637"
+        },
+        "c": "https://github.com/deepmind/tapnet",
+        "n": "TAPIR (Panning MOVi-E) (extra data)",
+        "d": "2023-06-14",
+        "m1": "0.613",
+        "m2": "0.888",
+        "m3": "0.736"
+      },
+      {
+        "p": {
+          "name": "MFT: Long-Term Tracking of Every Pixel",
+          "link": "https://arxiv.org/abs/2305.12998"
+        },
+        "c": "https://github.com/serycjon/MFT",
+        "n": "MFT",
+        "d": "2023-05-22",
+        "m1": "0.561",
+        "m2": "0.869",
+        "m3": "0.708"
+      },
+      {
+        "p": {
+          "name": "Tracking Everything Everywhere All at Once",
+          "link": "https://arxiv.org/abs/2306.05422"
+        },
+        "c": "https://github.com/qianqianwang68/omnimotion",
+        "n": "OmniMotion (RAFT)",
+        "d": "2023-06-08",
+        "m1": "0.517",
+        "m2": "0.853",
+        "m3": "0.675"
+      },
+      {
+        "p": {
+          "name": "TAP-Vid: A Benchmark for Tracking Any Point in a Video",
+          "link": "https://arxiv.org/abs/2211.03726"
+        },
+        "c": "https://github.com/google-deepmind/tapnet",
+        "n": "TAP-Net",
+        "d": "2022-11-07",
+        "m1": "0.384",
+        "m2": "0.823",
+        "m3": "0.531"
+      }
+    ]
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "title": "reasoning-segmentation-on-reasonseg",
+  "task-hierarchy": [
+    "Referring Expression Segmentation",
+    "Reasoning Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://arxiv.org/abs/2308.00692",
+    "paper": "LISA: Reasoning Segmentation via Large Language Model"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "gIoU",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "cIoU",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "DGSeg: Dynamic Gating of Semantic-Spatial Guided Predictions for Reasoning Segmentation",
+          "link": "https://arxiv.org/abs/2607.04779"
+        },
+        "c": "https://github.com/rzzeng/dgseg",
+        "n": "DGSeg (Qwen2.5-VL-7B)",
+        "d": "2026-07-06",
+        "m1": "69.6",
+        "m2": "65.5"
+      },
+      {
+        "p": {
+          "name": "Hugging Visual Prompt and Segmentation Tokens: Consistency Learning for Fine-Grained Visual Understanding in MLLMs",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Yang_Hugging_Visual_Prompt_and_Segmentation_Tokens_Consistency_Learning_for_Fine-Grained_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "FCLM (7B)",
+        "d": "2026-06-03",
+        "m1": "64.1",
+        "m2": "62.5"
+      },
+      {
+        "p": {
+          "name": "HyperSeg: Hybrid Segmentation Assistant with Fine-grained Visual Perceiver",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Wei_HyperSeg_Hybrid_Segmentation_Assistant_with_Fine-grained_Visual_Perceiver_CVPR_2025_paper.html"
+        },
+        "c": "https://github.com/congvvc/hyperseg",
+        "n": "HyperSeg-3B",
+        "d": "2025-06-11",
+        "m1": "59.2",
+        "m2": "56.7"
+      },
+      {
+        "p": {
+          "name": "GEAR-Seg: A Grounded Explainable Agent for Reasoning Segmentation and Data Engine",
+          "link": "https://arxiv.org/abs/2607.00544"
+        },
+        "c": "https://github.com/agroboticsresearch/gear-seg",
+        "n": "GEAR-Seg",
+        "d": "2026-07-01",
+        "m1": "57.5",
+        "m2": "47.5"
+      },
+      {
+        "p": {
+          "name": "Exploring Efficient Reasoning Segmentation with Small Language Models",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/4052"
+        },
+        "c": "",
+        "n": "LReSeg",
+        "d": "2026-09-08",
+        "m1": "52.0",
+        "m2": "52.8"
+      }
+    ]
+  }
+}

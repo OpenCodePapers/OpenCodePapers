@@ -1,0 +1,88 @@
+{
+  "title": "mathematical-reasoning-on-amo-bench",
+  "task-hierarchy": [
+    "Mathematical Reasoning"
+  ],
+  "dataset-info": {
+    "link": "https://arxiv.org/abs/2510.26768",
+    "paper": "AMO-Bench: Large Language Models Still Struggle in High School Math Competitions"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "SimpleOPD: Simple Tokenizer-Agnostic On-Policy Distillation for Long-Context Reasoning",
+          "link": "https://arxiv.org/abs/2608.14277"
+        },
+        "c": "https://github.com/hhnqqq/SimpleOPD",
+        "n": "Qwen3.5-35B-A3B-OPD",
+        "d": "2026-08-14",
+        "m1": "61.25"
+      },
+      {
+        "p": {
+          "name": "Achieving Gold-Medal-Level Olympiad Reasoning via Simple and Unified Scaling",
+          "link": "https://arxiv.org/abs/2605.13301"
+        },
+        "c": "https://github.com/Simplified-Reasoning/SU-01",
+        "n": "SU-01",
+        "d": "2026-05-13",
+        "m1": "59.8"
+      },
+      {
+        "p": {
+          "name": "Intern-S2-Mobius: Foundation Model with Decoupled Knowledge and Reasoning",
+          "link": "https://arxiv.org/abs/2608.14290"
+        },
+        "c": "https://github.com/internlm/intern-s2-mobius",
+        "n": "Intern-S2-Mobius-35B",
+        "d": "2026-08-14",
+        "m1": "58.0"
+      },
+      {
+        "p": {
+          "name": "Falcon-H1R: Pushing the Reasoning Frontiers with a Hybrid Model for Efficient Test-Time Scaling",
+          "link": "https://arxiv.org/abs/2601.02346"
+        },
+        "c": "https://github.com/tiiuae/falcon-h1r",
+        "n": "Falcon-H1R (7B)",
+        "d": "2026-01-05",
+        "m1": "36.3"
+      },
+      {
+        "p": {
+          "name": "Self-Distillation Zero: Self-Revision Turns Binary Rewards into Dense Supervision",
+          "link": "https://arxiv.org/abs/2604.12002"
+        },
+        "c": "https://github.com/princeton-pli/self-distillation-zero",
+        "n": "SD-Zero (Qwen3-4B-Instruct)",
+        "d": "2026-04-13",
+        "m1": "16.0"
+      }
+    ]
+  }
+}

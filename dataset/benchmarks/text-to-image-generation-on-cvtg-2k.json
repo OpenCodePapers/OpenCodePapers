@@ -1,0 +1,257 @@
+{
+  "title": "text-to-image-generation-on-cvtg-2k",
+  "task-hierarchy": [
+    "Image Generation",
+    "Text-to-Image Generation"
+  ],
+  "dataset-info": {
+    "link": "https://arxiv.org/abs/2503.23461",
+    "paper": "TextCrafter: Accurately Rendering Multiple Texts in Complex Visual Scenes"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Word Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "NED",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "SenseNova-U1.5: Towards Native Unified Visual Intelligence",
+          "link": "https://arxiv.org/abs/2609.11929"
+        },
+        "c": "https://github.com/OpenSenseNova/SenseNova-U1",
+        "n": "SenseNova-U1.5-8B-MoT",
+        "d": "2026-09-10",
+        "m1": "0.948",
+        "m2": "0.978"
+      },
+      {
+        "p": {
+          "name": "SenseNova-U1: Unifying Multimodal Understanding and Generation with NEO-unify Architecture",
+          "link": "https://arxiv.org/abs/2605.12500"
+        },
+        "c": "https://github.com/OpenSenseNova/SenseNova-U1",
+        "n": "SenseNova-U1-8B-MoT",
+        "d": "2026-05-12",
+        "m1": "0.940",
+        "m2": "0.972"
+      },
+      {
+        "p": {
+          "name": "HiDream-O1-Image: A Natively Unified Image Generative Foundation Model with Pixel-level Unified Transformer",
+          "link": "https://arxiv.org/abs/2605.11061"
+        },
+        "c": "https://github.com/hidream-ai/hidream-o1-image",
+        "n": "HiDream-O1-Image-Pro",
+        "d": "2026-05-11",
+        "m1": "0.9222",
+        "m2": "0.9628"
+      },
+      {
+        "p": {
+          "name": "HiDream-O1-Image: A Natively Unified Image Generative Foundation Model with Pixel-level Unified Transformer",
+          "link": "https://arxiv.org/abs/2605.11061"
+        },
+        "c": "https://github.com/hidream-ai/hidream-o1-image",
+        "n": "HiDream-O1-Image",
+        "d": "2026-05-11",
+        "m1": "0.9128",
+        "m2": "0.9561"
+      },
+      {
+        "p": {
+          "name": "Emu3.5: Native Multimodal Models are World Learners",
+          "link": "https://arxiv.org/abs/2510.26583"
+        },
+        "c": "https://github.com/baaivision/Emu3.5",
+        "n": "Emu3.5 (34B)",
+        "d": "2025-10-30",
+        "m1": "0.9123"
+      },
+      {
+        "p": {
+          "name": "GLM-Image: Auto-regressive for Dense-knowledge and High-fidelity Image Generation",
+          "link": "https://z.ai/blog/glm-image"
+        },
+        "c": "https://github.com/zai-org/glm-image",
+        "n": "GLM-Image",
+        "d": "2026-01-14",
+        "m1": "0.9116"
+      },
+      {
+        "p": {
+          "name": "Lens: Rethinking Training Efficiency for Foundational Text-to-Image Models",
+          "link": "https://arxiv.org/abs/2605.21573"
+        },
+        "c": "https://github.com/microsoft/Lens",
+        "n": "Lens-Turbo",
+        "d": "2026-05-20",
+        "m1": "0.889",
+        "m2": "0.965"
+      },
+      {
+        "p": {
+          "name": "Mage-Flow: An Efficient Native-Resolution Foundation Model for Image Generation and Editing",
+          "link": "https://arxiv.org/abs/2607.19064"
+        },
+        "c": "https://github.com/microsoft/Mage",
+        "n": "Mage-Flow",
+        "d": "2026-07-21",
+        "m1": "0.887",
+        "m2": "0.950"
+      },
+      {
+        "p": {
+          "name": "LLaDA-Image: Building Strong Image Generators with Fully Open Training Recipes",
+          "link": "https://arxiv.org/abs/2609.03796"
+        },
+        "c": "https://github.com/inclusionai/llada-image",
+        "n": "LLaDA-Image",
+        "d": "2026-09-03",
+        "m1": "0.875",
+        "m2": "0.945"
+      },
+      {
+        "p": {
+          "name": "Awaking Spatial Intelligence in Unified Multimodal Understanding and Generation",
+          "link": "https://arxiv.org/abs/2605.04128"
+        },
+        "c": "https://github.com/jd-opensource/JoyAI-Image",
+        "n": "JoyAI-Image",
+        "d": "2026-05-05",
+        "m1": "0.8739",
+        "m2": "0.9369"
+      },
+      {
+        "p": {
+          "name": "Z-Image: An Efficient Image Generation Foundation Model with Single-Stream Diffusion Transformer",
+          "link": "https://arxiv.org/abs/2511.22699"
+        },
+        "c": "https://github.com/Tongyi-MAI/Z-Image",
+        "n": "Z-Image",
+        "d": "2025-11-27",
+        "m1": "0.8671",
+        "m2": "0.9367"
+      },
+      {
+        "p": {
+          "name": "LongCat-Image Technical Report",
+          "link": "https://arxiv.org/abs/2512.07584"
+        },
+        "c": "https://huggingface.co/meituan-longcat/LongCat-Image",
+        "n": "LongCat-Image",
+        "d": "2025-12-08",
+        "m1": "0.8658",
+        "m2": "0.9361"
+      },
+      {
+        "p": {
+          "name": "i1: A Simple and Fully Open Recipe for Strong Text-to-Image Models",
+          "link": "https://arxiv.org/abs/2606.11289"
+        },
+        "c": "https://github.com/zlab-princeton/i1",
+        "n": "i1",
+        "d": "2026-06-09",
+        "m1": "0.8531"
+      },
+      {
+        "p": {
+          "name": "Qwen-Image Technical Report",
+          "link": "https://arxiv.org/abs/2508.02324"
+        },
+        "c": "https://huggingface.co/Qwen/Qwen-Image",
+        "n": "Qwen-Image",
+        "d": "2025-08-04",
+        "m1": "0.8288",
+        "m2": "0.9116"
+      },
+      {
+        "p": {
+          "name": "APT: Feedback-Driven Agentic Post-Training for Text-to-Image Generation",
+          "link": "https://arxiv.org/abs/2610.18097"
+        },
+        "c": "https://github.com/siruizhang30/APT",
+        "n": "LongCat-Image (w/ APT)",
+        "d": "2026-10-13",
+        "m1": "0.821"
+      },
+      {
+        "p": {
+          "name": "S1-Omni: A Unified Multimodal Reasoning Model for Scientific Understanding, Prediction, and Generation",
+          "link": "https://arxiv.org/abs/2607.15686"
+        },
+        "c": "https://github.com/ScienceOne-AI/S1-Omni",
+        "n": "S1-Omni",
+        "d": "2026-07-17",
+        "m1": "0.8039"
+      },
+      {
+        "p": {
+          "name": "VAR RL Done Right: Tackling Asynchronous Policy Conflicts in Visual Autoregressive Generation",
+          "link": "https://arxiv.org/abs/2601.02256"
+        },
+        "c": "https://github.com/bytevisionlab/nextflow",
+        "n": "NextFlow-RL",
+        "d": "2026-01-05",
+        "m1": "0.7841",
+        "m2": "0.9081"
+      },
+      {
+        "p": {
+          "name": "DeepGen 1.0: A Lightweight Unified Multimodal Model for Advancing Image Generation and Editing",
+          "link": "https://arxiv.org/abs/2602.12205"
+        },
+        "c": "https://github.com/DeepGenTeam/DeepGen",
+        "n": "DeepGen-1.0 (RL)",
+        "d": "2026-02-12",
+        "m1": "0.7533",
+        "m2": "0.8936"
+      },
+      {
+        "p": {
+          "name": "InternVL-U: Democratizing Unified Multimodal Models for Understanding, Reasoning, Generation and Editing",
+          "link": "https://arxiv.org/abs/2603.09877"
+        },
+        "c": "https://github.com/OpenGVLab/InternVL-U",
+        "n": "InternVL-U (4B)",
+        "d": "2026-03-10",
+        "m1": "0.623"
+      },
+      {
+        "p": {
+          "name": "Ovis-Image Technical Report",
+          "link": "https://arxiv.org/abs/2511.22982"
+        },
+        "c": "https://github.com/AIDC-AI/Ovis-Image",
+        "n": "Ovis-Image (2B+7B)",
+        "d": "2025-11-28",
+        "m2": "0.9695"
+      }
+    ]
+  }
+}

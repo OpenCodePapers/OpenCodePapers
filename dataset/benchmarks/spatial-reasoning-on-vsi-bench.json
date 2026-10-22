@@ -1,0 +1,159 @@
+{
+  "title": "spatial-reasoning-on-vsi-bench",
+  "task-hierarchy": [
+    "Visual Reasoning",
+    "Spatial Reasoning"
+  ],
+  "dataset-info": {
+    "link": "https://vision-x-nyu.github.io/thinking-in-space.github.io/",
+    "paper": "Thinking in Space: How Multimodal Large Language Models See, Remember, and Recall Spaces"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Grounded 3D-Aware Spatial Vision-Language Modeling",
+          "link": "https://arxiv.org/abs/2605.30307"
+        },
+        "c": "",
+        "n": "GR3D-8B",
+        "d": "2026-05-28",
+        "m1": "67.6"
+      },
+      {
+        "p": {
+          "name": "VoxAnchor: Explicit Voxel-Semantic Grounding for Spatial Understanding in Videos",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/4848"
+        },
+        "c": "https://github.com/embrace-arch/voxanchor",
+        "n": "VoxAnchor 4B",
+        "d": "2026-09-08",
+        "m1": "66.8"
+      },
+      {
+        "p": {
+          "name": "Data-Centric Recursive Self-Improvement for Navigation via Policy-Synchronized Language-Action Dual Bootstrapping",
+          "link": "https://arxiv.org/abs/2610.15782"
+        },
+        "c": "https://github.com/OpenGVLab/RSI-Nav",
+        "n": "RSI-Nav (Ours)",
+        "d": "2026-10-11",
+        "m1": "64.9"
+      },
+      {
+        "p": {
+          "name": "Unfold The World: Factorize 4D Properties in Reinforcing Spatial Understanding",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/3149"
+        },
+        "c": "",
+        "n": "FactoSR-8B-RL",
+        "d": "2026-09-08",
+        "m1": "61.5"
+      },
+      {
+        "p": {
+          "name": "Spatial-Interactor: Learning Spatial Reasoning through Interaction with the Observable Physical World",
+          "link": "https://arxiv.org/abs/2609.23038"
+        },
+        "c": "https://github.com/ZJU-OmniAI/Spatial-Interactor",
+        "n": "Spatial-Interactor-8B",
+        "d": "2026-09-19",
+        "m1": "60.0"
+      },
+      {
+        "p": {
+          "name": "Perceptual Projection Pruning: Diversity-Aware Video Token Pruning for Multimodal Large Language Models",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/5817"
+        },
+        "c": "",
+        "n": "P3 (Qwen3-VL-8B, 25% retention)",
+        "d": "2026-09-08",
+        "m1": "59.5"
+      },
+      {
+        "p": {
+          "name": "MJev-Spatial: System One Spatial Intelligence via Native Attention Matching",
+          "link": "https://arxiv.org/abs/2610.22276"
+        },
+        "c": "https://github.com/Fr0zenCrane/MJev-Spatial",
+        "n": "MJev-Spatial",
+        "d": "2026-10-15",
+        "m1": "55.93"
+      },
+      {
+        "p": {
+          "name": "3D-Aware VLMs with Implicit and Explicit Geometries",
+          "link": "https://arxiv.org/abs/2607.21595"
+        },
+        "c": "https://github.com/vegetebird/vlm-ie3d",
+        "n": "VLM-IE3D-4B (extra data)",
+        "d": "2026-07-23",
+        "m1": "47.6"
+      },
+      {
+        "p": {
+          "name": "StreamSpatial: A Benchmark and Framework for Streaming 3D Visual-Spatial Reasoning",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/4131"
+        },
+        "c": "https://github.com/oppo-mente-lab/streamspatial",
+        "n": "Stream3D-Mem",
+        "d": "2026-09-08",
+        "m1": "47.3"
+      },
+      {
+        "p": {
+          "name": "Let VLMs Grade Their Own Thoughts: A Self-Quantification Approach to Reasoning-Aware Reward Modeling",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Xi_Let_VLMs_Grade_Their_Own_Thoughts_A_Self-Quantification_Approach_to_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "Video-RAISE-7B",
+        "d": "2026-06-03",
+        "m1": "38.7"
+      },
+      {
+        "p": {
+          "name": "PointThinker: Point-Incentivized Parallel Thinking for Multimodal Large Language Model",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Hu_PointThinker_Point-Incentivized_Parallel_Thinking_for_Multimodal_Large_Language_Model_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "PointThinker-7B (extra data)",
+        "d": "2026-06-03",
+        "m1": "37.7"
+      },
+      {
+        "p": {
+          "name": "VAST: Video Ability-Stratified Taxonomy for Data-Efficient Video Reasoning",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Wang_VAST_Video_Ability-Stratified_Taxonomy_for_Data-Efficient_Video_Reasoning_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "VideoVAST-7B (extra data)",
+        "d": "2026-06-03",
+        "m1": "33.5"
+      }
+    ]
+  }
+}

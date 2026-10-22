@@ -65,6 +65,16 @@
       },
       {
         "p": {
+          "name": "Does YOLO Really Need to See Every Training Image in Every Epoch?",
+          "link": "https://arxiv.org/abs/2603.17684"
+        },
+        "c": "https://github.com/madhavaprasath23/awesome-mamba-papers-on-medical-domain",
+        "n": "YOLO12x + AFSS",
+        "d": "2026-03-18",
+        "m1": "86.4%"
+      },
+      {
+        "p": {
           "name": "YOLO-Former: YOLO Shakes Hand With ViT",
           "link": "https://arxiv.org/abs/2401.06244v1"
         },
@@ -72,6 +82,16 @@
         "n": "YOLO-Former",
         "d": "2024-01-11",
         "m1": "86.01%"
+      },
+      {
+        "p": {
+          "name": "Deep Residual Learning for Image Recognition",
+          "link": "http://arxiv.org/abs/1512.03385v1"
+        },
+        "c": "https://github.com/tensorflow/models/tree/master/research/deeplab",
+        "n": "ResNet-101 (baseline+++: +box refinement, +context, +multi-scale testing)",
+        "d": "2015-12-10",
+        "m1": "85.6%"
       },
       {
         "p": {
@@ -103,6 +123,16 @@
         "n": "CoupleNet",
         "d": "2017-08-09",
         "m1": "82.7%"
+      },
+      {
+        "p": {
+          "name": "Exploring Simple Siamese Representation Learning",
+          "link": "https://arxiv.org/abs/2011.10566v1"
+        },
+        "c": "https://github.com/lightly-ai/lightly",
+        "n": "SimSiam ResNet-50 + Faster R-CNN (optimal) (extra data)",
+        "d": "2020-11-20",
+        "m1": "82.4%"
       },
       {
         "p": {
@@ -253,6 +283,16 @@
         "n": "FRCN",
         "d": "2017-04-11",
         "m1": "74.2%"
+      },
+      {
+        "p": {
+          "name": "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+          "link": "http://arxiv.org/abs/1506.01497v3"
+        },
+        "c": "https://github.com/facebookresearch/detectron2",
+        "n": "Faster R-CNN",
+        "d": "2015-06-04",
+        "m1": "73.2%"
       },
       {
         "p": {

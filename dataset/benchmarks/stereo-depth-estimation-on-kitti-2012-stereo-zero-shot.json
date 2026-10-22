@@ -1,0 +1,89 @@
+{
+  "title": "stereo-depth-estimation-on-kitti-2012-stereo-zero-shot",
+  "task-hierarchy": [
+    "Depth Estimation",
+    "Stereo Depth Estimation"
+  ],
+  "dataset-info": {
+    "link": "https://www.cvlibs.net/datasets/kitti/eval_stereo_flow.php?benchmark=stereo",
+    "paper": "Are we ready for autonomous driving? The KITTI vision benchmark suite"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "D1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "FoundationStereo: Zero-Shot Stereo Matching",
+          "link": "https://arxiv.org/abs/2501.09898"
+        },
+        "c": "https://github.com/NVlabs/FoundationStereo",
+        "n": "FoundationStereo (zero-shot) (extra data)",
+        "d": "2025-01-17",
+        "m1": "2.3"
+      },
+      {
+        "p": {
+          "name": "Fast-FoundationStereo: Real-Time Zero-Shot Stereo Matching",
+          "link": "https://arxiv.org/abs/2512.11130"
+        },
+        "c": "https://github.com/nvlabs/fast-foundationstereo",
+        "n": "Fast-FoundationStereo (zero-shot)",
+        "d": "2025-12-11",
+        "m1": "2.35"
+      },
+      {
+        "p": {
+          "name": "Lite Any Stereo V2: Faster and Stronger Efficient Zero-Shot Stereo Matching",
+          "link": "https://arxiv.org/abs/2606.24457"
+        },
+        "c": "https://github.com/TomTomTommi/LiteAnyStereo",
+        "n": "LAS2-L (zero-shot) (extra data)",
+        "d": "2026-06-23",
+        "m1": "2.57"
+      },
+      {
+        "p": {
+          "name": "CogStereo: Neural Stereo Matching with Implicit Spatial Cognition Embedding",
+          "link": "https://arxiv.org/abs/2510.22119"
+        },
+        "c": "",
+        "n": "CogStereo (zero-shot) (extra data)",
+        "d": "2025-10-25",
+        "m1": "3.0"
+      },
+      {
+        "p": {
+          "name": "Lite Any Stereo: Efficient Zero-Shot Stereo Matching",
+          "link": "https://arxiv.org/abs/2511.16555"
+        },
+        "c": "",
+        "n": "Lite Any Stereo (million-scale, zero-shot) (extra data)",
+        "d": "2025-11-20",
+        "m1": "3.04"
+      }
+    ]
+  }
+}

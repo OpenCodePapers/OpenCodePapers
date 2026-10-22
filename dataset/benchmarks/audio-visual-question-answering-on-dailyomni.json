@@ -1,0 +1,349 @@
+{
+  "title": "audio-visual-question-answering-on-dailyomni",
+  "task-hierarchy": [
+    "Audio Question Answering",
+    "Audio-visual Question Answering"
+  ],
+  "dataset-info": {
+    "link": "https://arxiv.org/abs/2505.17862",
+    "paper": "Daily-Omni: Towards Audio-Visual Reasoning with Temporal Alignment across Modalities"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Qwen3.5-Omni Technical Report",
+          "link": "https://arxiv.org/pdf/2604.15804"
+        },
+        "c": "",
+        "n": "Qwen3.5-Omni-Plus",
+        "d": "2026-04-21",
+        "m1": "84.6"
+      },
+      {
+        "p": {
+          "name": "OmniVideo-R1: Reinforcing Audio-visual Reasoning with Query Intention and Modality Attention",
+          "link": "https://arxiv.org/abs/2602.05847"
+        },
+        "c": "",
+        "n": "OmniVideo-R1 (Qwen3-Omni-30B-A3B)",
+        "d": "2026-02-05",
+        "m1": "82.8"
+      },
+      {
+        "p": {
+          "name": "OmniAgent: Audio-Guided Active Perception Agent for Omnimodal Audio-Video Understanding",
+          "link": "https://arxiv.org/abs/2512.23646"
+        },
+        "c": "https://github.com/kd-tao/omniagent",
+        "n": "OmniAgent",
+        "d": "2025-12-29",
+        "m1": "82.71"
+      },
+      {
+        "p": {
+          "name": "LongCat-Flash-Omni Technical Report",
+          "link": "https://arxiv.org/abs/2511.00279"
+        },
+        "c": "https://github.com/meituan-longcat/LongCat-Flash-Omni",
+        "n": "LongCat-Flash-Omni Instruct",
+        "d": "2025-10-31",
+        "m1": "82.38"
+      },
+      {
+        "p": {
+          "name": "Realtime-Venus: A full-duplex interaction system with asynchronous delegation",
+          "link": "https://arxiv.org/abs/2609.13814"
+        },
+        "c": "",
+        "n": "Realtime-Venus-Omni",
+        "d": "2026-09-12",
+        "m1": "81.3"
+      },
+      {
+        "p": {
+          "name": "TLive-Omni: An Omni-Modal Understanding Model for E-Commerce Live Streaming",
+          "link": "https://arxiv.org/abs/2608.20958"
+        },
+        "c": "https://github.com/TaoLiveAIGC/TLive-Omni",
+        "n": "TLive-Omni-9B",
+        "d": "2026-08-21",
+        "m1": "80.5"
+      },
+      {
+        "p": {
+          "name": "MiniCPM-o 4.5: Towards Real-Time Full-Duplex Omni-Modal Interaction",
+          "link": "https://arxiv.org/abs/2604.27393"
+        },
+        "c": "https://github.com/OpenBMB/MiniCPM-o",
+        "n": "MiniCPM-o 4.5-Instruct",
+        "d": "2026-04-30",
+        "m1": "80.2"
+      },
+      {
+        "p": {
+          "name": "OmniSeek: Native Tool Integration for Multi-turn Audio-Visual Reasoning",
+          "link": "https://arxiv.org/abs/2610.02181"
+        },
+        "c": "",
+        "n": "OmniSeek (ours)",
+        "d": "2026-10-01",
+        "m1": "80.0"
+      },
+      {
+        "p": {
+          "name": "Omni Interaction Agent Technical Report",
+          "link": "https://arxiv.org/abs/2609.08977"
+        },
+        "c": "https://github.com/Omni-Interaction-Gander/Omni-Interaction-Agent",
+        "n": "Gander",
+        "d": "2026-09-08",
+        "m1": "78.53"
+      },
+      {
+        "p": {
+          "name": "Qwen3-Omni Technical Report",
+          "link": "https://arxiv.org/abs/2509.17765"
+        },
+        "c": "https://github.com/QwenLM/Qwen3-Omni",
+        "n": "Qwen3-Omni-30B-A3B-Thinking",
+        "d": "2025-09-22",
+        "m1": "75.8"
+      },
+      {
+        "p": {
+          "name": "Nemotron 3 Nano Omni: Efficient and Open Multimodal Intelligence",
+          "link": "https://arxiv.org/abs/2604.24954"
+        },
+        "c": "https://github.com/nvidia-nemo/megatron-bridge",
+        "n": "Nemotron 3 Nano Omni",
+        "d": "2026-04-27",
+        "m1": "74.5"
+      },
+      {
+        "p": {
+          "name": "CogniRoute: Learning to Route Social Evidence in Omni-Modal Models",
+          "link": "https://arxiv.org/abs/2606.20970"
+        },
+        "c": "",
+        "n": "CogniRoute",
+        "d": "2026-06-18",
+        "m1": "74.3"
+      },
+      {
+        "p": {
+          "name": "Omni-Streaming Thinking",
+          "link": "https://arxiv.org/abs/2609.15128"
+        },
+        "c": "https://github.com/enjundu/ost",
+        "n": "OST",
+        "d": "2026-09-14",
+        "m1": "74.2"
+      },
+      {
+        "p": {
+          "name": "Audio-Visual Flamingo: Open Audio-Visual Intelligence for Long and Complex Videos",
+          "link": "https://arxiv.org/abs/2607.16107"
+        },
+        "c": "",
+        "n": "AVF-Think",
+        "d": "2026-07-17",
+        "m1": "73.9"
+      },
+      {
+        "p": {
+          "name": "ChronusOmni: Improving Time Awareness of Omni-Modal Large Language Models",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/4007"
+        },
+        "c": "",
+        "n": "ChronusOmni",
+        "d": "2026-09-08",
+        "m1": "72.3"
+      },
+      {
+        "p": {
+          "name": "OmniJigsaw: Enhancing Omni-Modal Reasoning via Modality-Orchestrated Reordering",
+          "link": "https://arxiv.org/abs/2604.08209"
+        },
+        "c": "https://github.com/aim-uofa/OmniJigsaw",
+        "n": "OmniJigsaw (CMM)",
+        "d": "2026-04-09",
+        "m1": "71.09"
+      },
+      {
+        "p": {
+          "name": "OmniCap-IF: Benchmarking and Improving Instruction Following Abilities for Omni-Video Captioning",
+          "link": "https://arxiv.org/abs/2606.08572"
+        },
+        "c": "https://github.com/NJU-LINK/omnicap-if",
+        "n": "OmniCaptioner-IF-7B",
+        "d": "2026-06-07",
+        "m1": "68.4"
+      },
+      {
+        "p": {
+          "name": "When Vision Speaks for Sound",
+          "link": "https://arxiv.org/abs/2605.16403"
+        },
+        "c": "https://github.com/rakanWen/wvs-code",
+        "n": "Qwen3-Omni-30B + Thud",
+        "d": "2026-05-13",
+        "m1": "67.9"
+      },
+      {
+        "p": {
+          "name": "LatentOmni: Rethinking Omni-Modal Understanding via Unified Audio-Visual Latent Reasoning",
+          "link": "https://arxiv.org/abs/2605.22012"
+        },
+        "c": "https://github.com/yfanDai/LatentOmni",
+        "n": "LatentOmni",
+        "d": "2026-05-21",
+        "m1": "67.4"
+      },
+      {
+        "p": {
+          "name": "OmniVinci: Enhancing Architecture and Data for Omni-Modal Understanding LLM",
+          "link": "https://arxiv.org/abs/2510.15870"
+        },
+        "c": "https://github.com/NVlabs/OmniVinci",
+        "n": "OmniVinci",
+        "d": "2025-10-17",
+        "m1": "66.50"
+      },
+      {
+        "p": {
+          "name": "FutureOmni: Evaluating Future Forecasting from Omni-Modal Context for Multimodal LLMs",
+          "link": "https://arxiv.org/abs/2601.13836"
+        },
+        "c": "https://github.com/OpenMOSS/FutureOmni",
+        "n": "video-SALMONN 2 (7B) +OFF",
+        "d": "2026-01-20",
+        "m1": "65.8"
+      },
+      {
+        "p": {
+          "name": "Native Active Perception as Reasoning for Omni-Modal Understanding",
+          "link": "https://arxiv.org/abs/2606.19341"
+        },
+        "c": "https://github.com/harryhsing/OmniAgent",
+        "n": "OmniAgent-RL-7B",
+        "d": "2026-06-17",
+        "m1": "64.8"
+      },
+      {
+        "p": {
+          "name": "Daily-Omni Leaderboard",
+          "link": "https://lliar-liar.github.io/Daily-Omni"
+        },
+        "c": "https://github.com/QwenLM/Qwen2.5-Omni",
+        "n": "Qwen2.5-Omni-7B-Instruct",
+        "d": "2025-03-26",
+        "m1": "62.07"
+      },
+      {
+        "p": {
+          "name": "Daily-Omni: Towards Audio-Visual Reasoning with Temporal Alignment across Modalities",
+          "link": "https://arxiv.org/abs/2505.17862"
+        },
+        "c": "",
+        "n": "Daily-Omni-Baseline-Qwen2.5",
+        "d": "2026-03-10",
+        "m1": "61.82"
+      },
+      {
+        "p": {
+          "name": "Daily-Omni Leaderboard",
+          "link": "https://lliar-liar.github.io/Daily-Omni"
+        },
+        "c": "https://github.com/QwenLM/Qwen2.5-Omni",
+        "n": "Qwen2.5-Omni-3B-Instruct",
+        "d": "2025-03-26",
+        "m1": "60.23"
+      },
+      {
+        "p": {
+          "name": "HumanOmniV2: From Understanding to Omni-Modal Reasoning with Context",
+          "link": "https://arxiv.org/abs/2506.21277"
+        },
+        "c": "https://github.com/HumanMLLM/HumanOmniV2",
+        "n": "HumanOmniV2-7B",
+        "d": "2025-06-26",
+        "m1": "58.47"
+      },
+      {
+        "p": {
+          "name": "Daily-Omni Leaderboard",
+          "link": "https://lliar-liar.github.io/Daily-Omni"
+        },
+        "c": "https://github.com/ola-omni/ola",
+        "n": "Ola 7B",
+        "d": "2025-02-06",
+        "m1": "50.71"
+      },
+      {
+        "p": {
+          "name": "Daily-Omni Leaderboard",
+          "link": "https://lliar-liar.github.io/Daily-Omni"
+        },
+        "c": "https://github.com/damo-nlp-sg/videollama2",
+        "n": "VideoLLaMA2 7B",
+        "d": "2024-06-11",
+        "m1": "35.17"
+      },
+      {
+        "p": {
+          "name": "Daily-Omni Leaderboard",
+          "link": "https://lliar-liar.github.io/Daily-Omni"
+        },
+        "c": "https://github.com/allenai/unified-io-2",
+        "n": "Unified-IO 2 XL",
+        "d": "2023-12-28",
+        "m1": "28.32"
+      },
+      {
+        "p": {
+          "name": "Daily-Omni Leaderboard",
+          "link": "https://lliar-liar.github.io/Daily-Omni"
+        },
+        "c": "https://github.com/allenai/unified-io-2",
+        "n": "Unified-IO 2 XXL",
+        "d": "2023-12-28",
+        "m1": "28.24"
+      },
+      {
+        "p": {
+          "name": "Daily-Omni Leaderboard",
+          "link": "https://lliar-liar.github.io/Daily-Omni"
+        },
+        "c": "https://github.com/allenai/unified-io-2",
+        "n": "Unified-IO 2 L",
+        "d": "2023-12-28",
+        "m1": "27.40"
+      }
+    ]
+  }
+}

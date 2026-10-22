@@ -50,6 +50,41 @@
     "items": [
       {
         "p": {
+          "name": "Denoising-GS: Gaussian Splatting with Spatial-aware Denoising",
+          "link": "https://arxiv.org/abs/2605.14880"
+        },
+        "c": "",
+        "n": "Denoising-GS",
+        "d": "2026-05-14",
+        "m1": "0.142",
+        "m2": "29.925",
+        "m3": "0.897"
+      },
+      {
+        "p": {
+          "name": "Multi-Scale 3D Gaussian Splatting for Anti-Aliased Rendering",
+          "link": "https://arxiv.org/abs/2311.17089"
+        },
+        "c": "",
+        "n": "Multi-Scale 3D Gaussian Splatting",
+        "d": "2023-11-28",
+        "m1": "0.155",
+        "m2": "27.39"
+      },
+      {
+        "p": {
+          "name": "Frequency-Aware Gaussian Splatting Decomposition",
+          "link": "https://arxiv.org/abs/2503.21226"
+        },
+        "c": "https://github.com/yishailavi/nerfstudio_lap",
+        "n": "Frequency-Aware Gaussian Splatting Decomposition",
+        "d": "2025-03-27",
+        "m1": "0.156",
+        "m2": "29.651",
+        "m3": "0.874"
+      },
+      {
+        "p": {
           "name": "MVGS: Multi-view-regulated Gaussian Splatting for Novel View Synthesis",
           "link": "https://arxiv.org/abs/2410.02103v1"
         },
@@ -68,6 +103,76 @@
         "m1": "0.171",
         "m2": "28.14",
         "m3": "0.843"
+      },
+      {
+        "p": {
+          "name": "Deformable Beta Splatting",
+          "link": "https://arxiv.org/abs/2501.18630v2"
+        },
+        "c": "https://github.com/RongLiu-Leo/beta-splatting",
+        "n": "Deformable Beta Splatting (full)",
+        "d": "2025-01-27",
+        "m1": "0.179",
+        "m2": "28.75",
+        "m3": "0.845"
+      },
+      {
+        "p": {
+          "name": "Deformable Triangle Splatting: Flexible Primitives for Real-Time Radiance Field Rendering",
+          "link": "https://arxiv.org/abs/2607.22446"
+        },
+        "c": "https://github.com/orioljim1/detris",
+        "n": "DETRIS",
+        "d": "2026-07-24",
+        "m1": "0.183"
+      },
+      {
+        "p": {
+          "name": "Universal Beta Splatting",
+          "link": "https://arxiv.org/abs/2510.03312"
+        },
+        "c": "https://github.com/rongliu-leo/universal-beta-splatting",
+        "n": "UBS-6D",
+        "d": "2025-09-30",
+        "m1": "0.184",
+        "m2": "28.66",
+        "m3": "0.840"
+      },
+      {
+        "p": {
+          "name": "SharpGS: Sharpness-Preserving 3D Gaussian Splatting with Differentiable Blur-Driven Density Control",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/4346"
+        },
+        "c": "https://github.com/cgskku/sharpgs",
+        "n": "SharpGS",
+        "d": "2026-09-08",
+        "m1": "0.19",
+        "m2": "27.576",
+        "m3": "0.82"
+      },
+      {
+        "p": {
+          "name": "Nexels: Neurally-Textured Surfels for Real-Time Novel View Synthesis with Sparse Primitives",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/3898"
+        },
+        "c": "",
+        "n": "Nexels",
+        "d": "2026-09-08",
+        "m1": "0.201",
+        "m2": "27.35",
+        "m3": "0.802"
+      },
+      {
+        "p": {
+          "name": "FreGS: 3D Gaussian Splatting with Progressive Frequency Regularization",
+          "link": "https://arxiv.org/abs/2403.06908"
+        },
+        "c": "",
+        "n": "FreGS",
+        "d": "2024-03-11",
+        "m1": "0.209",
+        "m2": "27.85",
+        "m3": "0.826"
       },
       {
         "p": {
@@ -95,6 +200,30 @@
       },
       {
         "p": {
+          "name": "Seele: A Unified Acceleration Framework for Real-Time Gaussian Splatting on Mobile Devices",
+          "link": "https://arxiv.org/abs/2503.05168"
+        },
+        "c": "https://github.com/sjtu-mvclab/seele",
+        "n": "SEELE + MiniSplatting",
+        "d": "2025-03-07",
+        "m1": "0.212",
+        "m2": "27.7",
+        "m3": "0.822"
+      },
+      {
+        "p": {
+          "name": "AdpSplit: Error-Driven Adaptive Splitting for Faster Geometry Discovery in 3D Gaussian Splatting",
+          "link": "https://arxiv.org/abs/2605.06876"
+        },
+        "c": "",
+        "n": "DashGaussian-AdpSplit",
+        "d": "2026-05-07",
+        "m1": "0.213",
+        "m2": "27.70",
+        "m3": "0.820"
+      },
+      {
+        "p": {
           "name": "3D Gaussian Splatting for Real-Time Radiance Field Rendering",
           "link": "https://arxiv.org/abs/2308.04079v1"
         },
@@ -104,6 +233,42 @@
         "m1": "0.214",
         "m2": "27.21",
         "m3": "0.815"
+      },
+      {
+        "p": {
+          "name": "Octree-GS: Towards Consistent Real-time Rendering with LOD-Structured 3D Gaussians",
+          "link": "https://arxiv.org/abs/2403.17898"
+        },
+        "c": "https://github.com/city-super/Octree-GS",
+        "n": "Octree-GS (Scaffold-GS)",
+        "d": "2024-03-26",
+        "m1": "0.214",
+        "m2": "28.05",
+        "m3": "0.819"
+      },
+      {
+        "p": {
+          "name": "FastGS: Training 3D Gaussian Splatting in 100 Seconds",
+          "link": "https://arxiv.org/abs/2511.04283"
+        },
+        "c": "https://github.com/fastgs/fastgs",
+        "n": "FastGS-Big",
+        "d": "2025-11-06",
+        "m1": "0.216",
+        "m2": "27.93",
+        "m3": "0.820"
+      },
+      {
+        "p": {
+          "name": "Floating Radiance Networks",
+          "link": "https://arxiv.org/abs/2608.05920"
+        },
+        "c": "https://github.com/kbyrski/flare",
+        "n": "FlaRe",
+        "d": "2026-08-06",
+        "m1": "0.219",
+        "m2": "28.93",
+        "m3": "0.836"
       },
       {
         "p": {
@@ -117,6 +282,30 @@
         "m2": "27.64",
         "m3": "0.864",
         "m4": "40.3"
+      },
+      {
+        "p": {
+          "name": "Speedy-Splat: Fast 3D Gaussian Splatting with Sparse Pixels and Sparse Primitives",
+          "link": "https://arxiv.org/abs/2412.00578"
+        },
+        "c": "",
+        "n": "Speedy-Splat (AccuTile)",
+        "d": "2025-08-14",
+        "m1": "0.221",
+        "m2": "27.57",
+        "m3": "0.814"
+      },
+      {
+        "p": {
+          "name": "EGGS: Explicitly Granular 3D Gaussian Splatting via Luma-Aware and Volume-Preserving Attribute Factorization",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/5695"
+        },
+        "c": "https://github.com/ingyu-jeong/eggs",
+        "n": "EGGS-L",
+        "d": "2026-09-08",
+        "m1": "0.221",
+        "m2": "27.45",
+        "m3": "0.817"
       },
       {
         "p": {
@@ -144,6 +333,18 @@
       },
       {
         "p": {
+          "name": "Eulerian Gaussian Splatting using Hashed Probability Pyramids",
+          "link": "https://arxiv.org/abs/2605.29136"
+        },
+        "c": "",
+        "n": "Eulerian Gaussian Splatting (EGS)",
+        "d": "2026-05-27",
+        "m1": "0.23",
+        "m2": "28.35",
+        "m3": "0.84"
+      },
+      {
+        "p": {
           "name": "LG-HCC: Local Geometry-Aware Hierarchical Context Compression for 3D Gaussian Splatting",
           "link": "https://arxiv.org/abs/2603.28431"
         },
@@ -156,6 +357,18 @@
       },
       {
         "p": {
+          "name": "Mip-NeRF 360: Unbounded Anti-Aliased Neural Radiance Fields",
+          "link": "https://arxiv.org/abs/2111.12077v3"
+        },
+        "c": "https://github.com/kakaobrain/NeRF-Factory",
+        "n": "Mip-NeRF 360",
+        "d": "2021-11-23",
+        "m1": "0.237",
+        "m2": "27.69",
+        "m3": "0.792"
+      },
+      {
+        "p": {
           "name": "Compressed 3D Gaussian Splatting for Accelerated Novel View Synthesis",
           "link": "https://arxiv.org/abs/2401.02436v2"
         },
@@ -165,6 +378,42 @@
         "m1": "0.238",
         "m2": "26.98",
         "m3": "0.80"
+      },
+      {
+        "p": {
+          "name": "KISS-GS: 3D Gaussian Splatting Compression Kept Simple",
+          "link": "https://arxiv.org/abs/2608.26948"
+        },
+        "c": "",
+        "n": "KISS-GS",
+        "d": "2026-08-27",
+        "m1": "0.239",
+        "m2": "27.79",
+        "m3": "0.811"
+      },
+      {
+        "p": {
+          "name": "EAGLES: Efficient Accelerated 3D Gaussians with Lightweight EncodingS",
+          "link": "https://arxiv.org/abs/2312.04564"
+        },
+        "c": "https://github.com/sharath-girish/efficientgaussian",
+        "n": "EAGLES",
+        "d": "2023-12-07",
+        "m1": "0.24",
+        "m2": "27.23",
+        "m3": "0.81"
+      },
+      {
+        "p": {
+          "name": "Metropolis-Hastings Sampling for 3D Gaussian Reconstruction",
+          "link": "https://arxiv.org/abs/2506.12945"
+        },
+        "c": "",
+        "n": "Metropolis-Hastings 3DGS",
+        "d": "2025-06-15",
+        "m1": "0.241",
+        "m2": "27.34",
+        "m3": "0.798"
       },
       {
         "p": {
@@ -189,6 +438,30 @@
         "m1": "0.247",
         "m2": "27.64",
         "m3": "0.805"
+      },
+      {
+        "p": {
+          "name": "PUP 3D-GS: Principled Uncertainty Pruning for 3D Gaussian Splatting",
+          "link": "https://arxiv.org/abs/2406.10219"
+        },
+        "c": "",
+        "n": "PUP 3D-GS",
+        "d": "2024-06-14",
+        "m1": "0.268",
+        "m2": "26.83",
+        "m3": "0.792"
+      },
+      {
+        "p": {
+          "name": "Fast and Compact 3D Gaussian Splatting with Polarized Opacity Prior",
+          "link": "https://arxiv.org/abs/2608.22344"
+        },
+        "c": "",
+        "n": "Fast and Compact 3D Gaussian Splatting with Polarized Opacity Prior",
+        "d": "2026-08-23",
+        "m1": "0.277",
+        "m2": "27.013",
+        "m3": "0.76"
       },
       {
         "p": {
@@ -234,6 +507,36 @@
         "m1": "NaN",
         "m2": "Inf",
         "m3": "Inf"
+      },
+      {
+        "p": {
+          "name": "Mobile-GS: Real-time Gaussian Splatting for Mobile Devices",
+          "link": "https://arxiv.org/abs/2603.11531"
+        },
+        "c": "https://github.com/xiaobiaodu/mobile-gs",
+        "n": "Mobile-GS (Ours)",
+        "d": "2026-03-12",
+        "m2": "27.12"
+      },
+      {
+        "p": {
+          "name": "Matryoshka Gaussian Splatting",
+          "link": "https://arxiv.org/abs/2603.19234"
+        },
+        "c": "https://github.com/ZhilinGuo/matryoshka-gaussian-splatting",
+        "n": "Matryoshka Gaussian Splatting (MGS)",
+        "d": "2026-03-19",
+        "m2": "28.2"
+      },
+      {
+        "p": {
+          "name": "ConeGS: Error-Guided Densification Using Pixel Cones for Improved Reconstruction with Fewer Primitives",
+          "link": "https://arxiv.org/abs/2511.06810"
+        },
+        "c": "https://github.com/baranowskibrt/conegs",
+        "n": "ConeGS",
+        "d": "2025-11-10",
+        "m2": "29.08"
       }
     ]
   }

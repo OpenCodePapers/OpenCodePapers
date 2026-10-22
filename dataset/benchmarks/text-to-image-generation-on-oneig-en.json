@@ -1,0 +1,319 @@
+{
+  "title": "text-to-image-generation-on-oneig-en",
+  "task-hierarchy": [
+    "Image Generation",
+    "Text-to-Image Generation"
+  ],
+  "dataset-info": {
+    "link": "https://oneig-bench.github.io",
+    "paper": "OneIG-Bench: Omni-dimensional Nuanced Evaluation for Image Generation"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "OneIG Overall Score",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "GenRouter: Unified Workflow Routing for Agentic Image Generation",
+          "link": "https://arxiv.org/abs/2608.16721"
+        },
+        "c": "https://github.com/EnVision-Research/GenRouter",
+        "n": "GenCanvas + GenRouter (Z-Image)",
+        "d": "2026-08-17",
+        "m1": "0.57"
+      },
+      {
+        "p": {
+          "name": "Emu3.5: Native Multimodal Models are World Learners",
+          "link": "https://arxiv.org/abs/2510.26583"
+        },
+        "c": "https://github.com/baaivision/Emu3.5",
+        "n": "Emu3.5 (34B)",
+        "d": "2025-10-30",
+        "m1": "0.564"
+      },
+      {
+        "p": {
+          "name": "An Empirical Study of Training Pixel-Space Text-to-Image Diffusion Models",
+          "link": "https://arxiv.org/abs/2608.16887"
+        },
+        "c": "",
+        "n": "Ours (Z-Image pixel-space) (extra data)",
+        "d": "2026-08-17",
+        "m1": "0.564"
+      },
+      {
+        "p": {
+          "name": "UniSpace: Unified Visual Representation and Scalable Multimodal Modeling",
+          "link": "https://arxiv.org/abs/2608.08676"
+        },
+        "c": "https://github.com/yjb6/UniSpace",
+        "n": "UniSpace",
+        "d": "2026-08-09",
+        "m1": "0.561"
+      },
+      {
+        "p": {
+          "name": "Lens: Rethinking Training Efficiency for Foundational Text-to-Image Models",
+          "link": "https://arxiv.org/abs/2605.21573"
+        },
+        "c": "https://github.com/microsoft/Lens",
+        "n": "Lens w/ GPT-OSS-20B-A3B",
+        "d": "2026-05-20",
+        "m1": "0.559"
+      },
+      {
+        "p": {
+          "name": "SenseNova-U1.5: Towards Native Unified Visual Intelligence",
+          "link": "https://arxiv.org/abs/2609.11929"
+        },
+        "c": "https://github.com/OpenSenseNova/SenseNova-U1",
+        "n": "SenseNova-U1.5",
+        "d": "2026-09-10",
+        "m1": "0.552"
+      },
+      {
+        "p": {
+          "name": "Multi-Resolution Flow Matching: Training-Free Diffusion Acceleration via Staged Sampling",
+          "link": "https://arxiv.org/abs/2607.01642"
+        },
+        "c": "https://github.com/Xingyu-Zheng/MrFlow",
+        "n": "MrFlow + Z-Image (20+1 steps)",
+        "d": "2026-07-02",
+        "m1": "0.55"
+      },
+      {
+        "p": {
+          "name": "SenseNova-U1: Unifying Multimodal Understanding and Generation with NEO-unify Architecture",
+          "link": "https://arxiv.org/abs/2605.12500"
+        },
+        "c": "https://github.com/OpenSenseNova/SenseNova-U1",
+        "n": "SenseNova-U1-8B-MoT",
+        "d": "2026-05-12",
+        "m1": "0.549"
+      },
+      {
+        "p": {
+          "name": "Z-Image: An Efficient Image Generation Foundation Model with Single-Stream Diffusion Transformer",
+          "link": "https://arxiv.org/abs/2511.22699"
+        },
+        "c": "https://github.com/Tongyi-MAI/Z-Image",
+        "n": "Z-Image",
+        "d": "2025-11-27",
+        "m1": "0.546"
+      },
+      {
+        "p": {
+          "name": "GEMS: Agent-Native Multimodal Generation with Memory and Skills",
+          "link": "https://arxiv.org/abs/2603.28088"
+        },
+        "c": "https://github.com/lcqysl/GEMS",
+        "n": "GEMS",
+        "d": "2026-03-30",
+        "m1": "0.542"
+      },
+      {
+        "p": {
+          "name": "Awaking Spatial Intelligence in Unified Multimodal Understanding and Generation",
+          "link": "https://arxiv.org/abs/2605.04128"
+        },
+        "c": "https://github.com/jd-opensource/JoyAI-Image",
+        "n": "JoyAI-Image",
+        "d": "2026-05-05",
+        "m1": "0.542"
+      },
+      {
+        "p": {
+          "name": "Mage-Flow: An Efficient Native-Resolution Foundation Model for Image Generation and Editing",
+          "link": "https://arxiv.org/abs/2607.19064"
+        },
+        "c": "https://github.com/microsoft/Mage",
+        "n": "Mage-Flow-Base",
+        "d": "2026-07-21",
+        "m1": "0.542"
+      },
+      {
+        "p": {
+          "name": "Parallel Decoding Distillation for Fast Image and Video Generation",
+          "link": "https://arxiv.org/abs/2607.26004"
+        },
+        "c": "https://github.com/NVlabs/fastgen",
+        "n": "PDD (Midpoint)",
+        "d": "2026-07-28",
+        "m1": "0.541"
+      },
+      {
+        "p": {
+          "name": "Iris-3B: Going Beyond the Latent with Pixel-Space Diffusion Training, Conversion and Fine-Tuning",
+          "link": "https://arxiv.org/abs/2610.09450"
+        },
+        "c": "https://github.com/speridlabs/iris-3b",
+        "n": "Iris-3B",
+        "d": "2026-10-07",
+        "m1": "0.54"
+      },
+      {
+        "p": {
+          "name": "Simplifying and Improving On-Policy Distillation for Few-Step Diffusion",
+          "link": "https://arxiv.org/abs/2610.18472"
+        },
+        "c": "",
+        "n": "SMD (Qwen-Image, 4-NFE)",
+        "d": "2026-10-13",
+        "m1": "0.54"
+      },
+      {
+        "p": {
+          "name": "Qwen-Image Technical Report",
+          "link": "https://arxiv.org/abs/2508.02324"
+        },
+        "c": "https://huggingface.co/Qwen/Qwen-Image",
+        "n": "Qwen-Image",
+        "d": "2025-08-04",
+        "m1": "0.539"
+      },
+      {
+        "p": {
+          "name": "Pluggable Pruning with Contiguous Layer Distillation for Diffusion Transformers",
+          "link": "https://arxiv.org/abs/2511.16156"
+        },
+        "c": "https://github.com/oppo-mente-lab/qwen-image-pruning",
+        "n": "PPCL (Qwen-Image, 14B)",
+        "d": "2025-11-20",
+        "m1": "0.536"
+      },
+      {
+        "p": {
+          "name": "BitDance: Scaling Autoregressive Generative Models with Binary Tokens",
+          "link": "https://arxiv.org/abs/2602.14041"
+        },
+        "c": "https://github.com/shallowdream204/BitDance",
+        "n": "BitDance-14B-16x",
+        "d": "2026-02-15",
+        "m1": "0.532"
+      },
+      {
+        "p": {
+          "name": "Ovis-Image Technical Report",
+          "link": "https://arxiv.org/abs/2511.22982"
+        },
+        "c": "https://github.com/AIDC-AI/Ovis-Image",
+        "n": "Ovis-Image (2B+7B)",
+        "d": "2025-11-28",
+        "m1": "0.53"
+      },
+      {
+        "p": {
+          "name": "APT: Feedback-Driven Agentic Post-Training for Text-to-Image Generation",
+          "link": "https://arxiv.org/abs/2610.18097"
+        },
+        "c": "https://github.com/siruizhang30/APT",
+        "n": "Lens (w/ APT)",
+        "d": "2026-10-13",
+        "m1": "0.523"
+      },
+      {
+        "p": {
+          "name": "Nucleus-Image: Sparse MoE for Image Generation",
+          "link": "https://arxiv.org/abs/2604.12163"
+        },
+        "c": "https://github.com/WithNucleusAI/Nucleus-Image",
+        "n": "Nucleus-Image",
+        "d": "2026-04-14",
+        "m1": "0.522"
+      },
+      {
+        "p": {
+          "name": "LLaDA2.0-Uni: Unifying Multimodal Understanding and Generation with Diffusion Large Language Model",
+          "link": "https://arxiv.org/abs/2604.20796"
+        },
+        "c": "https://github.com/inclusionAI/LLaDA2.0-Uni",
+        "n": "LLaDA2.0-Uni (16B)",
+        "d": "2026-04-22",
+        "m1": "0.505"
+      },
+      {
+        "p": {
+          "name": "InstantFusion: A Shared Latent Interface for Heterogeneous Image Generators",
+          "link": "https://arxiv.org/abs/2610.13944"
+        },
+        "c": "https://github.com/InternLM/InstantFusion",
+        "n": "InstantFusion (Qwen-Image + FLUX.1)",
+        "d": "2026-10-09",
+        "m1": "0.5007"
+      },
+      {
+        "p": {
+          "name": "InternVL-U: Democratizing Unified Multimodal Models for Understanding, Reasoning, Generation and Editing",
+          "link": "https://arxiv.org/abs/2603.09877"
+        },
+        "c": "https://github.com/OpenGVLab/InternVL-U",
+        "n": "InternVL-U (4B)",
+        "d": "2026-03-10",
+        "m1": "0.5"
+      },
+      {
+        "p": {
+          "name": "Intern Lumina U2: A Multi-Codebook Diffusion Large Language Model for Omni-Visual Understanding and Image Generation",
+          "link": "https://arxiv.org/abs/2610.20818"
+        },
+        "c": "https://github.com/InternLM/InternLumina-U2",
+        "n": "Intern Lumina U2 (Ascend)",
+        "d": "2026-10-14",
+        "m1": "0.494"
+      },
+      {
+        "p": {
+          "name": "Lumina-DiMOO: An Omni Diffusion Large Language Model for Multi-Modal Generation and Understanding",
+          "link": "https://arxiv.org/abs/2510.06308"
+        },
+        "c": "https://github.com/Alpha-VLLM/Lumina-DiMOO",
+        "n": "Lumina-DiMOO",
+        "d": "2025-10-07",
+        "m1": "0.455"
+      },
+      {
+        "p": {
+          "name": "UniCorn: Towards Self-Improving Unified Multimodal Models through Self-Generated Supervision",
+          "link": "https://arxiv.org/abs/2601.03193"
+        },
+        "c": "https://github.com/Hungryyan1/UniCorn",
+        "n": "UniCorn",
+        "d": "2026-01-06",
+        "m1": "0.426"
+      },
+      {
+        "p": {
+          "name": "Interleaving Reasoning for Better Text-to-Image Generation",
+          "link": "https://arxiv.org/abs/2509.06945"
+        },
+        "c": "https://github.com/Osilly/Interleaving-Reasoning-Generation",
+        "n": "IRG",
+        "d": "2025-09-08",
+        "m1": "0.415"
+      }
+    ]
+  }
+}

@@ -46,6 +46,38 @@
     "items": [
       {
         "p": {
+          "name": "SelaVPR++: Towards Seamless Adaptation of Foundation Models for Efficient Place Recognition",
+          "link": "https://arxiv.org/abs/2502.16601"
+        },
+        "c": "https://github.com/Lu-Feng/SelaVPRplusplus",
+        "n": "SelaVPR++ (DINOv2-L, binary512D + float4096D, rerank100)",
+        "d": "2025-02-23",
+        "m1": "98.7"
+      },
+      {
+        "p": {
+          "name": "EfficientVPR: Toward Efficient Visual Place Recognition via Scene-Aware Prompt Tuning and Adaptive Feature Enhancement",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Tang_EfficientVPR_Toward_Efficient_Visual_Place_Recognition_via_Scene-Aware_Prompt_Tuning_CVPR_2026_paper.html"
+        },
+        "c": "https://github.com/winitang/efficientvpr",
+        "n": "EfficientVPR (DINOv2-S, 504×504 inference)",
+        "d": "2026-06-01",
+        "m1": "98.5"
+      },
+      {
+        "p": {
+          "name": "EffoVPR: Effective Foundation Model Utilization for Visual Place Recognition",
+          "link": "https://arxiv.org/abs/2405.18065v2"
+        },
+        "c": "",
+        "n": "EffoVPR-R (1024D global + local reranking, 504px)",
+        "d": "2024-05-28",
+        "m1": "98.4",
+        "m2": "99.3",
+        "m3": "99.7"
+      },
+      {
+        "p": {
           "name": "Query-Based Adaptive Aggregation for Multi-Dataset Joint Training Toward Universal Visual Place Recognition",
           "link": "https://arxiv.org/abs/2507.03831v1"
         },
@@ -53,6 +85,18 @@
         "n": "QAA-DINOv2-B-8192",
         "d": "2025-07-04",
         "m1": "98.4"
+      },
+      {
+        "p": {
+          "name": "SAGE: Spatial-visual Adaptive Graph Exploration for Efficient Visual Place Recognition",
+          "link": "https://arxiv.org/abs/2509.25723"
+        },
+        "c": "https://github.com/chenshunpeng/sage",
+        "n": "SAGE ViT-L (without cross-image encoder)",
+        "d": "2025-09-30",
+        "m1": "98.4000",
+        "m2": "99.5",
+        "m3": "99.9000"
       },
       {
         "p": {
@@ -87,6 +131,28 @@
         "n": "BoQ (ResNet-50)",
         "d": "2024-05-12",
         "m1": "97.8"
+      },
+      {
+        "p": {
+          "name": "EigenPlaces: Training Viewpoint Robust Models for Visual Place Recognition",
+          "link": "https://arxiv.org/abs/2308.10832v1"
+        },
+        "c": "https://github.com/stschubert/vpr_tutorial",
+        "n": "EigenPlaces (ResNet-50, 2048D)",
+        "d": "2023-08-21",
+        "m1": "93.1",
+        "m2": "97.8",
+        "m3": "98.3"
+      },
+      {
+        "p": {
+          "name": "EfficientVPR: Toward Efficient Visual Place Recognition via Scene-Aware Prompt Tuning and Adaptive Feature Enhancement",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Tang_EfficientVPR_Toward_Efficient_Visual_Place_Recognition_via_Scene-Aware_Prompt_Tuning_CVPR_2026_paper.html"
+        },
+        "c": "https://github.com/winitang/efficientvpr",
+        "n": "EfficientVPR (DINOv2-S, 322×322 inference)",
+        "d": "2026-06-01",
+        "m2": "99.4"
       }
     ]
   }

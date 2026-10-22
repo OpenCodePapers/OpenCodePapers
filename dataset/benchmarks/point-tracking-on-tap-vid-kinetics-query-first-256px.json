@@ -1,0 +1,109 @@
+{
+  "title": "point-tracking-on-tap-vid-kinetics-query-first-256px",
+  "task-hierarchy": [
+    "Object Tracking",
+    "Point Tracking"
+  ],
+  "dataset-info": {
+    "link": "https://tapvid.github.io/",
+    "paper": "TAP-Vid: A Benchmark for Tracking Any Point in a Video"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AJ",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "OA",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "delta_avg",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "FlowTrack: Revisiting Optical Flow for Long-Range Dense Tracking",
+          "link": "https://openaccess.thecvf.com/content/CVPR2024/html/Cho_FlowTrack_Revisiting_Optical_Flow_for_Long-Range_Dense_Tracking_CVPR_2024_paper.html"
+        },
+        "c": "",
+        "n": "FlowTrack",
+        "d": "2024-06-17",
+        "m1": "0.564",
+        "m2": "0.88",
+        "m3": "0.689"
+      },
+      {
+        "p": {
+          "name": "BootsTAP: Bootstrapped Training for Tracking-Any-Point",
+          "link": "https://arxiv.org/abs/2402.00847v2"
+        },
+        "c": "https://github.com/google-deepmind/tapnet",
+        "n": "BootsTAPIR+fix+snap+data (extra data)",
+        "d": "2024-02-01",
+        "m1": "0.558",
+        "m2": "0.866",
+        "m3": "0.688"
+      },
+      {
+        "p": {
+          "name": "Local All-Pair Correspondence for Point Tracking",
+          "link": "https://arxiv.org/abs/2407.15420v1"
+        },
+        "c": "https://github.com/cvlab-kaist/locotrack",
+        "n": "LocoTrack-B (extra data)",
+        "d": "2024-07-22",
+        "m1": "0.529",
+        "m2": "0.853",
+        "m3": "0.668"
+      },
+      {
+        "p": {
+          "name": "TAPIR: Tracking Any Point with per-frame Initialization and temporal Refinement",
+          "link": "https://arxiv.org/abs/2306.08637"
+        },
+        "c": "https://github.com/deepmind/tapnet",
+        "n": "TAPIR (Panning MOVi-E) (extra data)",
+        "d": "2023-06-14",
+        "m1": "0.496",
+        "m2": "0.85",
+        "m3": "0.642"
+      },
+      {
+        "p": {
+          "name": "MFT: Long-Term Tracking of Every Pixel",
+          "link": "https://arxiv.org/abs/2305.12998"
+        },
+        "c": "https://github.com/serycjon/MFT",
+        "n": "MFT",
+        "d": "2023-05-22",
+        "m1": "0.396",
+        "m2": "0.727",
+        "m3": "0.604"
+      }
+    ]
+  }
+}

@@ -65,6 +65,36 @@
     "items": [
       {
         "p": {
+          "name": "Scaling Properties of Text Conditioning in Visual Generation",
+          "link": "https://arxiv.org/abs/2607.29679"
+        },
+        "c": "https://github.com/heheyas/context-scaling",
+        "n": "Qwen-Image + Structured Prompter",
+        "d": "2026-07-31",
+        "m1": "0.89"
+      },
+      {
+        "p": {
+          "name": "OmniVerifier-M1: Multimodal Meta-Verifier with Explicit Structured Recalibration",
+          "link": "https://arxiv.org/abs/2605.28805"
+        },
+        "c": "",
+        "n": "M1-TTS (OmniVerifier-M1 + GPT-Image-1.5)",
+        "d": "2026-05-27",
+        "m1": "0.88"
+      },
+      {
+        "p": {
+          "name": "GenRouter: Unified Workflow Routing for Agentic Image Generation",
+          "link": "https://arxiv.org/abs/2608.16721"
+        },
+        "c": "https://github.com/EnVision-Research/GenRouter",
+        "n": "GenCanvas + GenRouter (Qwen-Image)",
+        "d": "2026-08-17",
+        "m1": "0.88"
+      },
+      {
+        "p": {
           "name": "LVRPO: Language-Visual Alignment with GRPO for Multimodal Understanding and Generation",
           "link": "https://arxiv.org/abs/2603.27693"
         },
@@ -78,6 +108,36 @@
         "m5": "0.89",
         "m6": "0.87",
         "m7": "0.79"
+      },
+      {
+        "p": {
+          "name": "SenseNova-U1: Unifying Multimodal Understanding and Generation with NEO-unify Architecture",
+          "link": "https://arxiv.org/abs/2605.12500"
+        },
+        "c": "https://github.com/OpenSenseNova/SenseNova-U1",
+        "n": "SenseNova-U1-A3B-MoT (w/ CoT)",
+        "d": "2026-05-12",
+        "m1": "0.81"
+      },
+      {
+        "p": {
+          "name": "Think-Then-Generate: Reasoning-Aware Text-to-Image Diffusion with LLM Encoders",
+          "link": "https://arxiv.org/abs/2601.10332"
+        },
+        "c": "https://github.com/zhijie-group/Think-Then-Generate",
+        "n": "Qwen-Image (Think-Then-Generate)",
+        "d": "2026-01-15",
+        "m1": "0.79"
+      },
+      {
+        "p": {
+          "name": "ToolArtist: Tool-Using Unified Multimodal Models for Agentic Image Generation",
+          "link": "https://arxiv.org/abs/2608.04436"
+        },
+        "c": "",
+        "n": "ToolArtist",
+        "d": "2026-08-05",
+        "m1": "0.79"
       },
       {
         "p": {
@@ -97,6 +157,16 @@
       },
       {
         "p": {
+          "name": "Mind-Brush: Integrating Agentic Cognitive Search and Reasoning into Image Generation",
+          "link": "https://arxiv.org/abs/2602.01756"
+        },
+        "c": "https://github.com/PicoTrex/Mind-Brush",
+        "n": "Mind-Brush",
+        "d": "2026-02-02",
+        "m1": "0.78"
+      },
+      {
+        "p": {
           "name": "Interleaving Reasoning for Better Text-to-Image Generation",
           "link": "https://arxiv.org/abs/2509.06945"
         },
@@ -110,6 +180,16 @@
         "m5": "0.81",
         "m6": "0.82",
         "m7": "0.78"
+      },
+      {
+        "p": {
+          "name": "Gen-Searcher: Reinforcing Agentic Search for Image Generation",
+          "link": "https://arxiv.org/abs/2603.28767"
+        },
+        "c": "https://github.com/tulerfeng/Gen-Searcher",
+        "n": "Gen-Searcher-8B + Qwen-Image",
+        "d": "2026-03-30",
+        "m1": "0.77"
       },
       {
         "p": {
@@ -129,6 +209,56 @@
       },
       {
         "p": {
+          "name": "UniVerse: Empower Unified Generation with Reasoning and Knowledge",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Sun_UniVerse_Empower_Unified_Generation_with_Reasoning_and_Knowledge_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "BAGEL w/ CoT (extra data)",
+        "d": "2026-06-03",
+        "m1": "0.77"
+      },
+      {
+        "p": {
+          "name": "Think in Strokes, Not Pixels: Process-Driven Image Generation via Interleaved Reasoning",
+          "link": "https://arxiv.org/abs/2604.04746"
+        },
+        "c": "",
+        "n": "BAGEL (7B) (process-driven SFT)",
+        "d": "2026-04-08",
+        "m1": "0.76"
+      },
+      {
+        "p": {
+          "name": "Read It Back: Pretrained MLLMs Are Zero-Shot Reward Models for Text-to-Image Generation",
+          "link": "https://arxiv.org/abs/2607.11886"
+        },
+        "c": "https://github.com/huangrh99/AlphaGRPO",
+        "n": "Self-SpectraReward (w/ Self-CoT)",
+        "d": "2026-07-13",
+        "m1": "0.76"
+      },
+      {
+        "p": {
+          "name": "Uni-Edit: Intelligent Editing Is A General Task For Unified Model Tuning",
+          "link": "https://arxiv.org/abs/2605.21487"
+        },
+        "c": "https://github.com/zhengdian1/Uni-Edit",
+        "n": "BAGEL-Uni-Edit (Ours)",
+        "d": "2026-05-20",
+        "m1": "0.75"
+      },
+      {
+        "p": {
+          "name": "Learning Native Reflection in Unified Models with Interleaved Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2609.35767"
+        },
+        "c": "https://github.com/waltstephen/UMM-Reflection",
+        "n": "UMM-Reflection",
+        "d": "2026-09-28",
+        "m1": "0.7384"
+      },
+      {
+        "p": {
           "name": "DeepGen 1.0: A Lightweight Unified Multimodal Model for Advancing Image Generation and Editing",
           "link": "https://arxiv.org/abs/2602.12205"
         },
@@ -142,6 +272,16 @@
         "m5": "0.67",
         "m6": "0.82",
         "m7": "0.66"
+      },
+      {
+        "p": {
+          "name": "InterleaveThinker: Reinforcing Agentic Interleaved Generation",
+          "link": "https://arxiv.org/abs/2606.13679"
+        },
+        "c": "https://github.com/zhengdian1/InterleaveThinker",
+        "n": "InterleaveThinker + FLUX.2-klein-9B",
+        "d": "2026-06-11",
+        "m1": "0.73"
       },
       {
         "p": {
@@ -225,6 +365,16 @@
       },
       {
         "p": {
+          "name": "SenseNova-U1.5: Towards Native Unified Visual Intelligence",
+          "link": "https://arxiv.org/abs/2609.11929"
+        },
+        "c": "https://github.com/OpenSenseNova/SenseNova-U1",
+        "n": "SenseNova-U1.5-8B-MoT (w/o thinking)",
+        "d": "2026-09-10",
+        "m1": "0.7"
+      },
+      {
+        "p": {
           "name": "LLaDA2.0-Uni: Unifying Multimodal Understanding and Generation with Diffusion Large Language Model",
           "link": "https://arxiv.org/abs/2604.20796"
         },
@@ -254,6 +404,16 @@
         "m5": "0.74",
         "m6": "0.69",
         "m7": "0.66"
+      },
+      {
+        "p": {
+          "name": "AutoRubric-T2I: Robust Rule-Based Reward Model for Text-to-Image Alignment",
+          "link": "https://arxiv.org/abs/2605.17602"
+        },
+        "c": "https://github.com/johnsonkao0213/AutoRubric-T2I",
+        "n": "AutoRubric-T2I (Gemini-3-Flash, trained on PickScore)",
+        "d": "2026-05-20",
+        "m1": "0.66"
       },
       {
         "p": {
@@ -289,6 +449,26 @@
       },
       {
         "p": {
+          "name": "RepFusion: Leveraging Multimodal Priors for Denoising in Representation Space",
+          "link": "https://arxiv.org/abs/2606.14700"
+        },
+        "c": "",
+        "n": "RepFusion-SFT w/ Diffusion Decoder",
+        "d": "2026-06-12",
+        "m1": "0.64"
+      },
+      {
+        "p": {
+          "name": "SPAR: Semantic-Pixel Self-Alignment and Adaptive Routing for Unified Multimodal Models",
+          "link": "https://arxiv.org/abs/2606.23041"
+        },
+        "c": "",
+        "n": "SPAR-3B (extra data)",
+        "d": "2026-06-22",
+        "m1": "0.64"
+      },
+      {
+        "p": {
           "name": "UniLiP: Adapting CLIP for Unified Multimodal Understanding, Generation and Editing",
           "link": "https://arxiv.org/abs/2507.23278"
         },
@@ -298,6 +478,26 @@
         "m1": "0.63",
         "m2": "0.66",
         "m5": "0.60"
+      },
+      {
+        "p": {
+          "name": "BLIP3-o: A Family of Fully Open Unified Multimodal Models-Architecture, Training and Dataset",
+          "link": "https://arxiv.org/abs/2505.09568"
+        },
+        "c": "https://github.com/jiuhaichen/blip3o",
+        "n": "BLIP3-o (8B)",
+        "d": "2025-05-14",
+        "m1": "0.62"
+      },
+      {
+        "p": {
+          "name": "NextFlow: Unified Sequential Modeling Activates Multimodal Understanding and Generation",
+          "link": "https://arxiv.org/abs/2601.02204"
+        },
+        "c": "https://github.com/bytevisionlab/nextflow",
+        "n": "NextFlow-RL (7B)",
+        "d": "2026-01-05",
+        "m1": "0.62"
       },
       {
         "p": {
@@ -317,6 +517,36 @@
       },
       {
         "p": {
+          "name": "InternVL-U: Democratizing Unified Multimodal Models for Understanding, Reasoning, Generation and Editing",
+          "link": "https://arxiv.org/abs/2603.09877"
+        },
+        "c": "https://github.com/OpenGVLab/InternVL-U",
+        "n": "InternVL-U (4B, w/ CoT)",
+        "d": "2026-03-10",
+        "m1": "0.58"
+      },
+      {
+        "p": {
+          "name": "UniCom: Unified Multimodal Modeling via Compressed Continuous Semantic Representations",
+          "link": "https://arxiv.org/abs/2603.10702"
+        },
+        "c": "",
+        "n": "UniCom",
+        "d": "2026-03-11",
+        "m1": "0.58"
+      },
+      {
+        "p": {
+          "name": "LongCat-Next: Lexicalizing Modalities as Discrete Tokens",
+          "link": "https://arxiv.org/abs/2603.27538"
+        },
+        "c": "https://github.com/meituan-longcat/LongCat-Next",
+        "n": "LongCat-Next (A3B, 68.5B)",
+        "d": "2026-03-29",
+        "m1": "0.57"
+      },
+      {
+        "p": {
           "name": "UniLiP: Adapting CLIP for Unified Multimodal Understanding, Generation and Editing",
           "link": "https://arxiv.org/abs/2507.23278"
         },
@@ -326,6 +556,16 @@
         "m1": "0.56",
         "m2": "0.54",
         "m5": "0.50"
+      },
+      {
+        "p": {
+          "name": "MANGO: Unleashing Image Generation Capability of Unified Multimodal Models",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/3300"
+        },
+        "c": "",
+        "n": "MANGO-4B",
+        "d": "2026-09-08",
+        "m1": "0.56"
       },
       {
         "p": "",
@@ -358,6 +598,16 @@
       },
       {
         "p": {
+          "name": "UniCorn: Towards Self-Improving Unified Multimodal Models through Self-Generated Supervision",
+          "link": "https://arxiv.org/abs/2601.03193"
+        },
+        "c": "https://github.com/Hungryyan1/UniCorn",
+        "n": "UniCorn",
+        "d": "2026-01-06",
+        "m1": "0.55"
+      },
+      {
+        "p": {
           "name": "Rethinking UMM Visual Generation: Masked Modeling for Efficient Image-Only Pre-training",
           "link": "https://arxiv.org/abs/2603.16139"
         },
@@ -365,6 +615,16 @@
         "n": "IOMM-B 512",
         "d": "2026-03-17",
         "m1": "0.55"
+      },
+      {
+        "p": {
+          "name": "Self-Adversarial One Step Generation via Condition Shifting",
+          "link": "https://arxiv.org/abs/2604.12322"
+        },
+        "c": "https://github.com/LINs-lab/APEX",
+        "n": "APEX 20B (SFT)",
+        "d": "2026-04-14",
+        "m1": "0.54"
       },
       {
         "p": {
@@ -523,6 +783,16 @@
         "m5": "0.36",
         "m6": "0.52",
         "m7": "0.32"
+      },
+      {
+        "p": {
+          "name": "LatentUMM: Dual Latent Alignment for Unified Multimodal Models",
+          "link": "https://arxiv.org/abs/2605.17766"
+        },
+        "c": "https://github.com/AIFrontierLab/TorchUMM",
+        "n": "Bagel (14B) + LatentUMM",
+        "d": "2026-05-18",
+        "m1": "0.418"
       },
       {
         "p": {

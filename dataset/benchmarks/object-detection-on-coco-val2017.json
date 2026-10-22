@@ -282,6 +282,16 @@
       },
       {
         "p": {
+          "name": "RF-DETR: Neural Architecture Search for Real-Time Detection Transformers",
+          "link": "https://arxiv.org/abs/2511.09554v2"
+        },
+        "c": "https://github.com/roboflow/rf-detr",
+        "n": "RF-DETR (Max)",
+        "d": "2025-11-12",
+        "m1": "61.8"
+      },
+      {
+        "p": {
           "name": "Exploring Plain Vision Transformer Backbones for Object Detection",
           "link": "https://arxiv.org/abs/2203.16527v2"
         },
@@ -377,6 +387,16 @@
       },
       {
         "p": {
+          "name": "RF-DETR: Neural Architecture Search for Real-Time Detection Transformers",
+          "link": "https://arxiv.org/abs/2511.09554v2"
+        },
+        "c": "https://github.com/roboflow/rf-detr",
+        "n": "RF-DETR (2XL) (fine-tuned)",
+        "d": "2025-11-12",
+        "m1": "60.2"
+      },
+      {
+        "p": {
           "name": "End-to-End Semi-Supervised Object Detection with Soft Teacher",
           "link": "https://arxiv.org/abs/2106.09018v3"
         },
@@ -396,6 +416,26 @@
         "m1": "60.0",
         "m2": "79.0",
         "m3": "65.4"
+      },
+      {
+        "p": {
+          "name": "LightlyTrain v0.11.4: LT-DETR Object Detection Models",
+          "link": "https://github.com/lightly-ai/lightly-train/releases/tag/v0.11.4"
+        },
+        "c": "https://github.com/lightly-ai/lightly-train",
+        "n": "DINOv3 ConvNeXt-Large + LT-DETR",
+        "d": "2025-10-08",
+        "m1": "60.0"
+      },
+      {
+        "p": {
+          "name": "EdgeCrafter: Compact ViTs for Edge Dense Prediction via Task-Specialized Distillation",
+          "link": "https://arxiv.org/abs/2603.18739v1"
+        },
+        "c": "https://github.com/Intellindust-AI-Lab/EdgeCrafter",
+        "n": "ECDet-X (pretrained on Objects365) (extra data)",
+        "d": "2026-03-19",
+        "m1": "59.9"
       },
       {
         "p": {
@@ -422,12 +462,32 @@
       },
       {
         "p": {
+          "name": "GTR: Gated Token Recurrence for Efficient Dense Prediction",
+          "link": "https://arxiv.org/abs/2609.26590"
+        },
+        "c": "https://github.com/Intellindust-AI-Lab/GTR",
+        "n": "GTR-X",
+        "d": "2026-09-23",
+        "m1": "59.4"
+      },
+      {
+        "p": {
           "name": "Could Giant Pretrained Image Models Extract Universal Representations?",
           "link": "https://arxiv.org/abs/2211.02043v1"
         },
         "c": "",
         "n": "Frozen Backbone, SwinV2-G-ext22K (HTC)",
         "d": "2022-11-03",
+        "m1": "59.3"
+      },
+      {
+        "p": {
+          "name": "D-FINE: Redefine Regression Task in DETRs as Fine-grained Distribution Refinement",
+          "link": "https://arxiv.org/abs/2410.13842v1"
+        },
+        "c": "https://github.com/Peterande/D-FINE",
+        "n": "D-FINE-X (pretrained on Objects365) (extra data)",
+        "d": "2024-10-17",
         "m1": "59.3"
       },
       {
@@ -459,6 +519,16 @@
         "n": "CBNetV2 (Dual-Swin-L HTC, multi-scale)",
         "d": "2021-07-01",
         "m1": "59.1"
+      },
+      {
+        "p": {
+          "name": "RF-DETR: Neural Architecture Search for Real-Time Detection Transformers",
+          "link": "https://arxiv.org/abs/2511.09554v2"
+        },
+        "c": "https://github.com/roboflow/rf-detr",
+        "n": "RF-DETR (XL) (fine-tuned)",
+        "d": "2025-11-12",
+        "m1": "58.9"
       },
       {
         "p": {
@@ -527,6 +597,26 @@
         "m4": "42.2",
         "m5": "62.9",
         "m6": "75.2"
+      },
+      {
+        "p": {
+          "name": "Argus: A Compact and Versatile Foundation Model for Vision",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhuang_Argus_A_Compact_and_Versatile_Foundation_Model_for_Vision_CVPR_2025_paper.html"
+        },
+        "c": "",
+        "n": "Argus",
+        "d": "2025-06-11",
+        "m1": "58.6"
+      },
+      {
+        "p": {
+          "name": "LightlyTrain v0.11.4: LT-DETR Object Detection Models",
+          "link": "https://github.com/lightly-ai/lightly-train/releases/tag/v0.11.4"
+        },
+        "c": "https://github.com/lightly-ai/lightly-train",
+        "n": "DINOv3 ConvNeXt-Base + LT-DETR",
+        "d": "2025-10-08",
+        "m1": "58.6"
       },
       {
         "p": {
@@ -600,6 +690,16 @@
         "m4": "41.7",
         "m5": "62.4",
         "m6": "73.9"
+      },
+      {
+        "p": {
+          "name": "LW-DETR: A Transformer Replacement to YOLO for Real-Time Detection",
+          "link": "https://arxiv.org/abs/2406.03459v1"
+        },
+        "c": "https://github.com/Atten4Vis/LW-DETR",
+        "n": "LW-DETR-xlarge",
+        "d": "2024-06-05",
+        "m1": "58.3"
       },
       {
         "p": {
@@ -688,6 +788,26 @@
       },
       {
         "p": {
+          "name": "EdgeCrafter: Compact ViTs for Edge Dense Prediction via Task-Specialized Distillation",
+          "link": "https://arxiv.org/abs/2603.18739v1"
+        },
+        "c": "https://github.com/Intellindust-AI-Lab/EdgeCrafter",
+        "n": "ECDet-X",
+        "d": "2026-03-19",
+        "m1": "57.9"
+      },
+      {
+        "p": {
+          "name": "EASE-DETR: Easing the Competition among Object Queries",
+          "link": "https://openaccess.thecvf.com/content/CVPR2024/html/Gao_EASE-DETR_Easing_the_Competition_among_Object_Queries_CVPR_2024_paper.html"
+        },
+        "c": "",
+        "n": "EASE-DETR",
+        "d": "2024-06-17",
+        "m1": "57.8"
+      },
+      {
+        "p": {
           "name": "Relation DETR: Exploring Explicit Position Relation Prior for Object Detection",
           "link": "https://arxiv.org/abs/2407.11699v1"
         },
@@ -713,6 +833,16 @@
         "m4": "41.5",
         "m5": "61.2",
         "m6": "73.9"
+      },
+      {
+        "p": {
+          "name": "Real-Time Object Detection Meets DINOv3",
+          "link": "https://arxiv.org/abs/2509.20787v4"
+        },
+        "c": "https://github.com/Intellindust-AI-Lab/DEIMv2",
+        "n": "DEIMv2-X",
+        "d": "2025-09-25",
+        "m1": "57.8"
       },
       {
         "p": {
@@ -786,12 +916,32 @@
       },
       {
         "p": {
+          "name": "Ultralytics YOLO26: Unified Real-Time End-to-End Vision Models",
+          "link": "https://arxiv.org/abs/2606.03748v1"
+        },
+        "c": "https://github.com/ultralytics/ultralytics",
+        "n": "YOLO26x",
+        "d": "2026-06-02",
+        "m1": "57.5"
+      },
+      {
+        "p": {
           "name": "Uniform Masking: Enabling MAE Pre-training for Pyramid-based Vision Transformers with Locality",
           "link": "https://arxiv.org/abs/2205.10063v1"
         },
         "c": "https://github.com/implus/um-mae",
         "n": "UM-MAE(HTC++, Swin-L, IN1K)",
         "d": "2022-05-20",
+        "m1": "57.4"
+      },
+      {
+        "p": {
+          "name": "Hyperbolic Learning with Synthetic Captions for Open-World Detection",
+          "link": "https://arxiv.org/abs/2404.05016"
+        },
+        "c": "",
+        "n": "HyperLearner",
+        "d": "2024-04-07",
         "m1": "57.4"
       },
       {
@@ -808,6 +958,16 @@
         "m4": "40.9",
         "m5": "61.8",
         "m6": "74.5"
+      },
+      {
+        "p": {
+          "name": "D-FINE: Redefine Regression Task in DETRs as Fine-grained Distribution Refinement",
+          "link": "https://arxiv.org/abs/2410.13842v1"
+        },
+        "c": "https://github.com/Peterande/D-FINE",
+        "n": "D-FINE-L (pretrained on Objects365)",
+        "d": "2024-10-17",
+        "m1": "57.3"
       },
       {
         "p": {
@@ -852,6 +1012,26 @@
       },
       {
         "p": {
+          "name": "RT-DETRv4: Painlessly Furthering Real-Time Object Detection with Vision Foundation Models",
+          "link": "https://arxiv.org/abs/2510.25257v1"
+        },
+        "c": "https://github.com/rt-detrs/rt-detrv4",
+        "n": "RT-DETRv4-X",
+        "d": "2025-10-29",
+        "m1": "57.0"
+      },
+      {
+        "p": {
+          "name": "LightlyTrain v0.11.4: LT-DETR Object Detection Models",
+          "link": "https://github.com/lightly-ai/lightly-train/releases/tag/v0.11.4"
+        },
+        "c": "https://github.com/lightly-ai/lightly-train",
+        "n": "DINOv3 ConvNeXt-Small + LT-DETR",
+        "d": "2025-10-08",
+        "m1": "56.9"
+      },
+      {
+        "p": {
           "name": "TransNeXt: Robust Foveal Visual Perception for Vision Transformers",
           "link": "https://arxiv.org/abs/2311.17132v3"
         },
@@ -887,6 +1067,26 @@
         "m4": "40.2",
         "m5": "61.2",
         "m6": "72.8"
+      },
+      {
+        "p": {
+          "name": "DEIM: DETR with Improved Matching for Fast Convergence",
+          "link": "https://arxiv.org/abs/2412.04234v3"
+        },
+        "c": "https://github.com/ShihuaHuang95/DEIM",
+        "n": "DEIM-D-FINE-X",
+        "d": "2024-12-05",
+        "m1": "56.5"
+      },
+      {
+        "p": {
+          "name": "RF-DETR: Neural Architecture Search for Real-Time Detection Transformers",
+          "link": "https://arxiv.org/abs/2511.09554v2"
+        },
+        "c": "https://github.com/roboflow/rf-detr",
+        "n": "RF-DETR (L) (fine-tuned)",
+        "d": "2025-11-12",
+        "m1": "56.5"
       },
       {
         "p": {
@@ -934,6 +1134,36 @@
       },
       {
         "p": {
+          "name": "Scaling Open-Vocabulary Object Detection",
+          "link": "https://arxiv.org/abs/2306.09683v3"
+        },
+        "c": "https://github.com/google-research/scenic/tree/main/scenic/projects/owl_vit",
+        "n": "OWL-ST+FT (CLIP L/14)",
+        "d": "2023-06-16",
+        "m1": "56.0"
+      },
+      {
+        "p": {
+          "name": "Real-Time Object Detection Meets DINOv3",
+          "link": "https://arxiv.org/abs/2509.20787v4"
+        },
+        "c": "https://github.com/Intellindust-AI-Lab/DEIMv2",
+        "n": "DEIMv2-L",
+        "d": "2025-09-25",
+        "m1": "56.0"
+      },
+      {
+        "p": {
+          "name": "Object Detection with LightlyTrain",
+          "link": "https://docs.lightly.ai/train/stable/object_detection.html"
+        },
+        "c": "https://github.com/lightly-ai/lightly-train",
+        "n": "LTDETRv2-L",
+        "d": "2026-07-28",
+        "m1": "56.0"
+      },
+      {
+        "p": {
           "name": "MOAT: Alternating Mobile Convolution and Attention Brings Strong Vision Models",
           "link": "https://arxiv.org/abs/2210.01820v2"
         },
@@ -965,6 +1195,16 @@
       },
       {
         "p": {
+          "name": "D-FINE: Redefine Regression Task in DETRs as Fine-grained Distribution Refinement",
+          "link": "https://arxiv.org/abs/2410.13842v1"
+        },
+        "c": "https://github.com/Peterande/D-FINE",
+        "n": "D-FINE-X",
+        "d": "2024-10-17",
+        "m1": "55.8"
+      },
+      {
+        "p": {
           "name": "Advancing Vision Transformer with Enhanced Spatial Priors",
           "link": "https://arxiv.org/abs/2604.18549"
         },
@@ -974,6 +1214,16 @@
         "m1": "55.8",
         "m2": "74.3",
         "m3": "60.4"
+      },
+      {
+        "p": {
+          "name": "ConvNeXt V2: Co-designing and Scaling ConvNets with Masked Autoencoders",
+          "link": "https://arxiv.org/abs/2301.00808v1"
+        },
+        "c": "https://github.com/rwightman/pytorch-image-models",
+        "n": "ConvNeXt V2-H + Mask R-CNN",
+        "d": "2023-01-02",
+        "m1": "55.7"
       },
       {
         "p": {
@@ -1015,6 +1265,16 @@
       },
       {
         "p": {
+          "name": "YOLO-ULM: Ultra-Lightweight Models for Real-Time Object Detection",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Han_YOLO-ULM_Ultra-Lightweight_Models_for_Real-Time_Object_Detection_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "YOLO-ULM-X",
+        "d": "2026-06-03",
+        "m1": "55.6"
+      },
+      {
+        "p": {
           "name": "Advancing Vision Transformer with Enhanced Spatial Priors",
           "link": "https://arxiv.org/abs/2604.18549"
         },
@@ -1040,6 +1300,46 @@
       },
       {
         "p": {
+          "name": "RT-DETRv4: Painlessly Furthering Real-Time Object Detection with Vision Foundation Models",
+          "link": "https://arxiv.org/abs/2510.25257v1"
+        },
+        "c": "https://github.com/rt-detrs/rt-detrv4",
+        "n": "RT-DETRv4-L",
+        "d": "2025-10-29",
+        "m1": "55.4"
+      },
+      {
+        "p": {
+          "name": "Does YOLO Really Need to See Every Training Image in Every Epoch?",
+          "link": "https://arxiv.org/abs/2603.17684"
+        },
+        "c": "https://github.com/madhavaprasath23/awesome-mamba-papers-on-medical-domain",
+        "n": "YOLO12x + AFSS",
+        "d": "2026-03-18",
+        "m1": "55.4"
+      },
+      {
+        "p": {
+          "name": "Dilated Neighborhood Attention Transformer",
+          "link": "https://arxiv.org/abs/2209.15001v3"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "DiNAT-L + Cascade Mask R-CNN",
+        "d": "2022-09-29",
+        "m1": "55.3"
+      },
+      {
+        "p": {
+          "name": "A ConvNet for the 2020s",
+          "link": "https://arxiv.org/abs/2201.03545v2"
+        },
+        "c": "https://github.com/keras-team/keras/blob/master/keras/applications/convnext.py",
+        "n": "ConvNeXt-XL + Cascade Mask R-CNN",
+        "d": "2022-01-10",
+        "m1": "55.2"
+      },
+      {
+        "p": {
           "name": "MOAT: Alternating Mobile Convolution and Attention Brings Strong Vision Models",
           "link": "https://arxiv.org/abs/2210.01820v2"
         },
@@ -1050,12 +1350,32 @@
       },
       {
         "p": {
+          "name": "YOLOv12: Attention-Centric Real-Time Object Detectors",
+          "link": "https://arxiv.org/abs/2502.12524v1"
+        },
+        "c": "https://github.com/sunsmarterjie/yolov12",
+        "n": "YOLOv12-X",
+        "d": "2025-02-18",
+        "m1": "55.2"
+      },
+      {
+        "p": {
           "name": "Understanding The Robustness in Vision Transformers",
           "link": "https://arxiv.org/abs/2204.12451v4"
         },
         "c": "https://github.com/nvlabs/fan",
         "n": "FAN-L-Hybrid",
         "d": "2022-04-26",
+        "m1": "55.1"
+      },
+      {
+        "p": {
+          "name": "D-FINE: Redefine Regression Task in DETRs as Fine-grained Distribution Refinement",
+          "link": "https://arxiv.org/abs/2410.13842v1"
+        },
+        "c": "https://github.com/Peterande/D-FINE",
+        "n": "D-FINE-M (pretrained on Objects365)",
+        "d": "2024-10-17",
         "m1": "55.1"
       },
       {
@@ -1096,6 +1416,16 @@
       },
       {
         "p": {
+          "name": "Hybrid Proposal Refiner: Revisiting DETR Series from the Faster R-CNN Perspective",
+          "link": "https://openaccess.thecvf.com/content/CVPR2024/html/Zhao_Hybrid_Proposal_Refiner_Revisiting_DETR_Series_from_the_Faster_R-CNN_CVPR_2024_paper.html"
+        },
+        "c": "https://github.com/zhaojingjing713/hpr",
+        "n": "DDQ with HPR (LSJ)",
+        "d": "2024-06-17",
+        "m1": "54.9"
+      },
+      {
+        "p": {
           "name": "DS-Det: Single-Query Paradigm and Attention Disentangled Learning for Flexible Object Detection",
           "link": "https://arxiv.org/abs/2507.19807v1"
         },
@@ -1120,6 +1450,36 @@
         "d": "2023-11-27",
         "m1": "54.8",
         "m7": "155"
+      },
+      {
+        "p": {
+          "name": "Dr2Net: Dynamic Reversible Dual-Residual Networks for Memory-Efficient Finetuning",
+          "link": "https://arxiv.org/abs/2401.04105"
+        },
+        "c": "",
+        "n": "Dr2Net",
+        "d": "2024-01-08",
+        "m1": "54.7"
+      },
+      {
+        "p": {
+          "name": "DEIM: DETR with Improved Matching for Fast Convergence",
+          "link": "https://arxiv.org/abs/2412.04234v3"
+        },
+        "c": "https://github.com/ShihuaHuang95/DEIM",
+        "n": "DEIM-D-FINE-L",
+        "d": "2024-12-05",
+        "m1": "54.7"
+      },
+      {
+        "p": {
+          "name": "RF-DETR: Neural Architecture Search for Real-Time Detection Transformers",
+          "link": "https://arxiv.org/abs/2511.09554v2"
+        },
+        "c": "https://github.com/roboflow/rf-detr",
+        "n": "RF-DETR (Medium) (fine-tuned)",
+        "d": "2025-11-12",
+        "m1": "54.7"
       },
       {
         "p": {
@@ -1203,6 +1563,16 @@
       },
       {
         "p": {
+          "name": "YOLOv10: Real-Time End-to-End Object Detection",
+          "link": "https://arxiv.org/abs/2405.14458v2"
+        },
+        "c": "https://github.com/THU-MIG/yolov10",
+        "n": "YOLOv10-X",
+        "d": "2024-05-23",
+        "m1": "54.4"
+      },
+      {
+        "p": {
           "name": "MViTv2: Improved Multiscale Vision Transformers for Classification and Detection",
           "link": "https://arxiv.org/abs/2112.01526v2"
         },
@@ -1224,6 +1594,16 @@
       },
       {
         "p": {
+          "name": "DETRs Beat YOLOs on Real-time Object Detection",
+          "link": "https://arxiv.org/abs/2304.08069v2"
+        },
+        "c": "https://github.com/lyuwenyu/RT-DETR",
+        "n": "RT-DETR (ResNet-101)",
+        "d": "2023-04-17",
+        "m1": "54.3"
+      },
+      {
+        "p": {
           "name": "UniRepLKNet: A Universal Perception Large-Kernel ConvNet for Audio, Video, Point Cloud, Time-Series and Image Recognition",
           "link": "https://arxiv.org/abs/2311.15599v2"
         },
@@ -1232,6 +1612,16 @@
         "d": "2023-11-27",
         "m1": "54.3",
         "m7": "113"
+      },
+      {
+        "p": {
+          "name": "RT-DETRv2: Improved Baseline with Bag-of-Freebies for Real-Time Detection Transformer",
+          "link": "https://arxiv.org/abs/2407.17140v1"
+        },
+        "c": "https://github.com/lyuwenyu/RT-DETR",
+        "n": "RT-DETRv2-X",
+        "d": "2024-07-24",
+        "m1": "54.3"
       },
       {
         "p": {
@@ -1260,6 +1650,36 @@
       },
       {
         "p": {
+          "name": "D-FINE: Redefine Regression Task in DETRs as Fine-grained Distribution Refinement",
+          "link": "https://arxiv.org/abs/2410.13842v1"
+        },
+        "c": "https://github.com/Peterande/D-FINE",
+        "n": "D-FINE-L",
+        "d": "2024-10-17",
+        "m1": "54.0"
+      },
+      {
+        "p": {
+          "name": "A Simple Single-Scale Vision Transformer for Object Localization and Instance Segmentation",
+          "link": "https://arxiv.org/abs/2112.09747"
+        },
+        "c": "https://github.com/tensorflow/models",
+        "n": "UViT-B+ + Cascade Mask R-CNN (w/ self-training)",
+        "d": "2021-12-17",
+        "m1": "53.9"
+      },
+      {
+        "p": {
+          "name": "Ultralytics YOLOv8",
+          "link": "https://docs.ultralytics.com/models/yolov8/"
+        },
+        "c": "https://github.com/ultralytics/ultralytics",
+        "n": "YOLOv8x",
+        "d": "2023-01-10",
+        "m1": "53.9"
+      },
+      {
+        "p": {
           "name": "OverLoCK: An Overview-first-Look-Closely-next ConvNet with Context-Mixing Dynamic Kernels",
           "link": "https://arxiv.org/abs/2502.20087v3"
         },
@@ -1268,6 +1688,16 @@
         "d": "2025-02-27",
         "m1": "53.9",
         "m7": "154"
+      },
+      {
+        "p": {
+          "name": "Dynamic Group Normalization: Spatio-Temporal Adaptation to Evolving Data Statistics",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Smadar_Dynamic_Group_Normalization_Spatio-Temporal_Adaptation_to_Evolving_Data_Statistics_CVPR_2025_paper.html"
+        },
+        "c": "",
+        "n": "Dynamic Group Normalization (DGN)",
+        "d": "2025-06-11",
+        "m1": "53.89"
       },
       {
         "p": {
@@ -1292,6 +1722,36 @@
         "m1": "53.8",
         "m2": "72.4",
         "m3": "58.4"
+      },
+      {
+        "p": {
+          "name": "YOLOv12: Attention-Centric Real-Time Object Detectors",
+          "link": "https://arxiv.org/abs/2502.12524v1"
+        },
+        "c": "https://github.com/sunsmarterjie/yolov12",
+        "n": "YOLOv12-L",
+        "d": "2025-02-18",
+        "m1": "53.7"
+      },
+      {
+        "p": {
+          "name": "RT-DETRv4: Painlessly Furthering Real-Time Object Detection with Vision Foundation Models",
+          "link": "https://arxiv.org/abs/2510.25257v1"
+        },
+        "c": "https://github.com/rt-detrs/rt-detrv4",
+        "n": "RT-DETRv4-M",
+        "d": "2025-10-29",
+        "m1": "53.7"
+      },
+      {
+        "p": {
+          "name": "Vision as Unified Multimodal Generation",
+          "link": "https://arxiv.org/abs/2607.06560"
+        },
+        "c": "https://github.com/OpenSenseNova/SenseNova-Vision",
+        "n": "SenseNova-Vision",
+        "d": "2026-07-07",
+        "m1": "53.7"
       },
       {
         "p": {
@@ -1367,6 +1827,16 @@
       },
       {
         "p": {
+          "name": "RT-DETRv2: Improved Baseline with Bag-of-Freebies for Real-Time Detection Transformer",
+          "link": "https://arxiv.org/abs/2407.17140v1"
+        },
+        "c": "https://github.com/lyuwenyu/RT-DETR",
+        "n": "RT-DETRv2-L",
+        "d": "2024-07-24",
+        "m1": "53.4"
+      },
+      {
+        "p": {
           "name": "Masked Autoencoders Are Scalable Vision Learners",
           "link": "https://arxiv.org/abs/2111.06377v2"
         },
@@ -1390,6 +1860,16 @@
       },
       {
         "p": {
+          "name": "Convolutional Neural Networks Driven by Content Similarity",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Zou_Convolutional_Neural_Networks_Driven_by_Content_Similarity_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "Ego-B",
+        "d": "2026-06-03",
+        "m1": "53.3"
+      },
+      {
+        "p": {
           "name": "RMT: Retentive Networks Meet Vision Transformers",
           "link": "https://arxiv.org/abs/2309.11523v6"
         },
@@ -1400,6 +1880,16 @@
         "m2": "72.0",
         "m3": "57.8",
         "m7": "83"
+      },
+      {
+        "p": {
+          "name": "YOLOv10: Real-Time End-to-End Object Detection",
+          "link": "https://arxiv.org/abs/2405.14458v2"
+        },
+        "c": "https://github.com/THU-MIG/yolov10",
+        "n": "YOLOv10-L",
+        "d": "2024-05-23",
+        "m1": "53.2"
       },
       {
         "p": {
@@ -1444,6 +1934,16 @@
       },
       {
         "p": {
+          "name": "DETRs Beat YOLOs on Real-time Object Detection",
+          "link": "https://arxiv.org/abs/2304.08069v2"
+        },
+        "c": "https://github.com/lyuwenyu/RT-DETR",
+        "n": "RT-DETR (ResNet-50)",
+        "d": "2023-04-17",
+        "m1": "53.1"
+      },
+      {
+        "p": {
           "name": "PeLK: Parameter-efficient Large Kernel ConvNets with Peripheral Convolution",
           "link": "https://arxiv.org/abs/2403.07589v2"
         },
@@ -1467,6 +1967,16 @@
       },
       {
         "p": {
+          "name": "Object Detection with LightlyTrain",
+          "link": "https://docs.lightly.ai/train/stable/object_detection.html"
+        },
+        "c": "https://github.com/lightly-ai/lightly-train",
+        "n": "LTDETRv2-M",
+        "d": "2026-07-28",
+        "m1": "53.1"
+      },
+      {
+        "p": {
           "name": "MOAT: Alternating Mobile Convolution and Attention Brings Strong Vision Models",
           "link": "https://arxiv.org/abs/2210.01820v2"
         },
@@ -1485,6 +1995,36 @@
         "d": "2023-11-27",
         "m1": "53.0",
         "m7": "113"
+      },
+      {
+        "p": {
+          "name": "Real-Time Object Detection Meets DINOv3",
+          "link": "https://arxiv.org/abs/2509.20787v4"
+        },
+        "c": "https://github.com/Intellindust-AI-Lab/DEIMv2",
+        "n": "DEIMv2-M",
+        "d": "2025-09-25",
+        "m1": "53.0"
+      },
+      {
+        "p": {
+          "name": "RF-DETR: Neural Architecture Search for Real-Time Detection Transformers",
+          "link": "https://arxiv.org/abs/2511.09554v2"
+        },
+        "c": "https://github.com/roboflow/rf-detr",
+        "n": "RF-DETR (Small) (fine-tuned)",
+        "d": "2025-11-12",
+        "m1": "53.0"
+      },
+      {
+        "p": {
+          "name": "Ultralytics YOLOv8",
+          "link": "https://docs.ultralytics.com/models/yolov8/"
+        },
+        "c": "https://github.com/ultralytics/ultralytics",
+        "n": "YOLOv8l",
+        "d": "2023-01-10",
+        "m1": "52.9"
       },
       {
         "p": {
@@ -1619,6 +2159,16 @@
       },
       {
         "p": {
+          "name": "YOLOv10: Real-Time End-to-End Object Detection",
+          "link": "https://arxiv.org/abs/2405.14458v2"
+        },
+        "c": "https://github.com/THU-MIG/yolov10",
+        "n": "YOLOv10-B",
+        "d": "2024-05-23",
+        "m1": "52.5"
+      },
+      {
+        "p": {
           "name": "LP-DETR: Layer-wise Progressive Relations for Object Detection",
           "link": "https://arxiv.org/abs/2502.05147v3"
         },
@@ -1631,6 +2181,16 @@
         "m4": "36.2",
         "m5": "56.3",
         "m6": "67.1"
+      },
+      {
+        "p": {
+          "name": "YOLOv12: Attention-Centric Real-Time Object Detectors",
+          "link": "https://arxiv.org/abs/2502.12524v1"
+        },
+        "c": "https://github.com/sunsmarterjie/yolov12",
+        "n": "YOLOv12-M",
+        "d": "2025-02-18",
+        "m1": "52.5"
       },
       {
         "p": {
@@ -1685,6 +2245,16 @@
         "m2": "71.1",
         "m3": "56.7",
         "m7": "108"
+      },
+      {
+        "p": {
+          "name": "D-FINE: Redefine Regression Task in DETRs as Fine-grained Distribution Refinement",
+          "link": "https://arxiv.org/abs/2410.13842v1"
+        },
+        "c": "https://github.com/Peterande/D-FINE",
+        "n": "D-FINE-M",
+        "d": "2024-10-17",
+        "m1": "52.3"
       },
       {
         "p": {
@@ -2024,6 +2594,26 @@
       },
       {
         "p": {
+          "name": "Self-Supervised Representation Learning from Arbitrary Scenarios",
+          "link": "https://openaccess.thecvf.com/content/CVPR2024/html/Li_Self-Supervised_Representation_Learning_from_Arbitrary_Scenarios_CVPR_2024_paper.html"
+        },
+        "c": "",
+        "n": "ASL (ViT-B, 236k pre-training iterations)",
+        "d": "2024-06-17",
+        "m1": "51.5"
+      },
+      {
+        "p": {
+          "name": "ViTAEv2: Vision Transformer Advanced by Exploring Inductive Bias for Image Recognition and Beyond",
+          "link": "https://arxiv.org/abs/2202.10108v2"
+        },
+        "c": "https://github.com/ViTAE-Transformer/ViTDet",
+        "n": "ViTAEv2-S + Cascade Mask R-CNN",
+        "d": "2022-02-21",
+        "m1": "51.4"
+      },
+      {
+        "p": {
           "name": "PeLK: Parameter-efficient Large Kernel ConvNets with Peripheral Convolution",
           "link": "https://arxiv.org/abs/2403.07589v2"
         },
@@ -2130,6 +2720,16 @@
       },
       {
         "p": {
+          "name": "YOLOv10: Real-Time End-to-End Object Detection",
+          "link": "https://arxiv.org/abs/2405.14458v2"
+        },
+        "c": "https://github.com/THU-MIG/yolov10",
+        "n": "YOLOv10-M",
+        "d": "2024-05-23",
+        "m1": "51.1"
+      },
+      {
+        "p": {
           "name": "MambaVision: A Hybrid Mamba-Transformer Vision Backbone",
           "link": "https://arxiv.org/abs/2407.08083v2"
         },
@@ -2183,6 +2783,16 @@
       },
       {
         "p": {
+          "name": "Real-Time Object Detection Meets DINOv3",
+          "link": "https://arxiv.org/abs/2509.20787v4"
+        },
+        "c": "https://github.com/Intellindust-AI-Lab/DEIMv2",
+        "n": "DEIMv2-S",
+        "d": "2025-09-25",
+        "m1": "50.9"
+      },
+      {
+        "p": {
           "name": "Learning Data Augmentation Strategies for Object Detection",
           "link": "https://arxiv.org/abs/1906.11172v1"
         },
@@ -2193,6 +2803,16 @@
         "m4": "34.2",
         "m5": "55.5",
         "m6": "64.5"
+      },
+      {
+        "p": {
+          "name": "D-FINE: Redefine Regression Task in DETRs as Fine-grained Distribution Refinement",
+          "link": "https://arxiv.org/abs/2410.13842v1"
+        },
+        "c": "https://github.com/Peterande/D-FINE",
+        "n": "D-FINE-S (pretrained on Objects365)",
+        "d": "2024-10-17",
+        "m1": "50.7"
       },
       {
         "p": {
@@ -2208,6 +2828,16 @@
         "m4": "34.1",
         "m5": "54.2",
         "m6": "64.6"
+      },
+      {
+        "p": {
+          "name": "Object Detection with LightlyTrain",
+          "link": "https://docs.lightly.ai/train/stable/object_detection.html"
+        },
+        "c": "https://github.com/lightly-ai/lightly-train",
+        "n": "LTDETRv2-S",
+        "d": "2026-07-28",
+        "m1": "50.7"
       },
       {
         "p": {
@@ -2322,6 +2952,16 @@
       },
       {
         "p": {
+          "name": "FreeKD: Knowledge Distillation via Semantic Frequency Prompt",
+          "link": "https://arxiv.org/abs/2311.12079"
+        },
+        "c": "",
+        "n": "FreeKD (DINO-R50)",
+        "d": "2023-11-20",
+        "m1": "50.4"
+      },
+      {
+        "p": {
           "name": "Fractional Correspondence Framework in Detection Transformer",
           "link": "https://arxiv.org/abs/2503.04107v1"
         },
@@ -2359,6 +2999,16 @@
       },
       {
         "p": {
+          "name": "Ultralytics YOLOv8",
+          "link": "https://docs.ultralytics.com/models/yolov8/"
+        },
+        "c": "https://github.com/ultralytics/ultralytics",
+        "n": "YOLOv8m",
+        "d": "2023-01-10",
+        "m1": "50.2"
+      },
+      {
+        "p": {
           "name": "DAT++: Spatially Dynamic Vision Transformer with Deformable Attention",
           "link": "https://arxiv.org/abs/2309.01430v1"
         },
@@ -2391,6 +3041,16 @@
       },
       {
         "p": {
+          "name": "Star with Bilinear Mapping",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Peng_Star_with_Bilinear_Mapping_CVPR_2025_paper.html"
+        },
+        "c": "https://github.com/sjtu-deepvisionlab/sbm",
+        "n": "SBM-B",
+        "d": "2025-06-11",
+        "m1": "50.2"
+      },
+      {
+        "p": {
           "name": "PVT v2: Improved Baselines with Pyramid Vision Transformer",
           "link": "https://arxiv.org/abs/2106.13797v7"
         },
@@ -2400,6 +3060,16 @@
         "m1": "50.1",
         "m2": "69.5",
         "m3": "54.9"
+      },
+      {
+        "p": {
+          "name": "Masked AutoDecoder is Effective Multi-Task Vision Generalist",
+          "link": "https://arxiv.org/abs/2403.07692"
+        },
+        "c": "https://github.com/hanqiu-hq/mad",
+        "n": "MAD (ViT-B)",
+        "d": "2024-03-12",
+        "m1": "50.1"
       },
       {
         "p": {
@@ -2512,6 +3182,16 @@
         "m4": "32.0",
         "m5": "53.4",
         "m6": "65.1"
+      },
+      {
+        "p": {
+          "name": "RT-DETRv4: Painlessly Furthering Real-Time Object Detection with Vision Foundation Models",
+          "link": "https://arxiv.org/abs/2510.25257v1"
+        },
+        "c": "https://github.com/rt-detrs/rt-detrv4",
+        "n": "RT-DETRv4-S",
+        "d": "2025-10-29",
+        "m1": "49.8"
       },
       {
         "p": {
@@ -2793,6 +3473,16 @@
       },
       {
         "p": {
+          "name": "Mamba-Adaptor: State Space Model Adaptor for Visual Recognition",
+          "link": "https://arxiv.org/abs/2505.12685"
+        },
+        "c": "",
+        "n": "Mamba-Adaptor-b2",
+        "d": "2025-05-19",
+        "m1": "49.1"
+      },
+      {
+        "p": {
           "name": "EATFormer: Improving Vision Transformer Inspired by Evolutionary Algorithm",
           "link": "https://arxiv.org/abs/2206.09325v3"
         },
@@ -2857,6 +3547,16 @@
         "m4": "32.0",
         "m5": "51.8",
         "m6": "63.7"
+      },
+      {
+        "p": {
+          "name": "You Only Need Less Attention at Each Stage in Vision Transformers",
+          "link": "https://arxiv.org/abs/2406.00427"
+        },
+        "c": "",
+        "n": "LaViT-S",
+        "d": "2024-06-01",
+        "m1": "48.9"
       },
       {
         "p": {
@@ -2986,6 +3686,16 @@
       },
       {
         "p": {
+          "name": "D-FINE: Redefine Regression Task in DETRs as Fine-grained Distribution Refinement",
+          "link": "https://arxiv.org/abs/2410.13842v1"
+        },
+        "c": "https://github.com/Peterande/D-FINE",
+        "n": "D-FINE-S",
+        "d": "2024-10-17",
+        "m1": "48.5"
+      },
+      {
+        "p": {
           "name": "HIRI-ViT: Scaling Vision Transformer with High Resolution Inputs",
           "link": "https://arxiv.org/abs/2403.11999v1"
         },
@@ -2999,6 +3709,26 @@
         "m5": "52.6",
         "m6": "63.4",
         "m7": "59.8"
+      },
+      {
+        "p": {
+          "name": "RF-DETR: Neural Architecture Search for Real-Time Detection Transformers",
+          "link": "https://arxiv.org/abs/2511.09554v2"
+        },
+        "c": "https://github.com/roboflow/rf-detr",
+        "n": "RF-DETR (Nano) (fine-tuned)",
+        "d": "2025-11-12",
+        "m1": "48.4"
+      },
+      {
+        "p": {
+          "name": "OneSparse: A Unified Framework for Sparse Activation Layers in Vision Models",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhu_OneSparse_A_Unified_Framework_for_Sparse_Activation_Layers_in_Vision_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "Nexus (ConvNeXt-S)",
+        "d": "2026-06-03",
+        "m1": "48.4"
       },
       {
         "p": {
@@ -3053,6 +3783,16 @@
       },
       {
         "p": {
+          "name": "YOLOv12: Attention-Centric Real-Time Object Detectors",
+          "link": "https://arxiv.org/abs/2502.12524v1"
+        },
+        "c": "https://github.com/sunsmarterjie/yolov12",
+        "n": "YOLOv12-S",
+        "d": "2025-02-18",
+        "m1": "48.0"
+      },
+      {
+        "p": {
           "name": "GCNet: Non-local Networks Meet Squeeze-Excitation Networks and Beyond",
           "link": "http://arxiv.org/abs/1904.11492v1"
         },
@@ -3090,6 +3830,16 @@
         "m2": "70.0",
         "m3": "52.7",
         "m7": "63"
+      },
+      {
+        "p": {
+          "name": "RT-DETRv2: Improved Baseline with Bag-of-Freebies for Real-Time Detection Transformer",
+          "link": "https://arxiv.org/abs/2407.17140v1"
+        },
+        "c": "https://github.com/lyuwenyu/RT-DETR",
+        "n": "RT-DETRv2-S",
+        "d": "2024-07-24",
+        "m1": "47.9"
       },
       {
         "p": {
@@ -3326,6 +4076,16 @@
       },
       {
         "p": {
+          "name": "KD-DETR: Knowledge Distillation for Detection Transformer with Consistent Distillation Points Sampling",
+          "link": "https://arxiv.org/abs/2211.08071"
+        },
+        "c": "",
+        "n": "KD-DETR (DAB-Deformable, ResNet-18)",
+        "d": "2022-11-15",
+        "m1": "47.2"
+      },
+      {
+        "p": {
           "name": "Pix2seq: A Language Modeling Framework for Object Detection",
           "link": "https://arxiv.org/abs/2109.10852v2"
         },
@@ -3348,6 +4108,16 @@
         "m4": "30.3",
         "m5": "51.1",
         "m6": "63.0"
+      },
+      {
+        "p": {
+          "name": "Youtu-VL: Unleashing Visual Potential via Unified Vision-Language Supervision",
+          "link": "https://arxiv.org/abs/2601.19798"
+        },
+        "c": "https://github.com/TencentCloudADP/youtu-vl",
+        "n": "Youtu-VL (4B)",
+        "d": "2026-01-27",
+        "m1": "47.1"
       },
       {
         "p": {
@@ -3542,6 +4312,36 @@
       },
       {
         "p": {
+          "name": "YOLOv10: Real-Time End-to-End Object Detection",
+          "link": "https://arxiv.org/abs/2405.14458v2"
+        },
+        "c": "https://github.com/THU-MIG/yolov10",
+        "n": "YOLOv10-S",
+        "d": "2024-05-23",
+        "m1": "46.3"
+      },
+      {
+        "p": {
+          "name": "AKCMamba-YOLO: Selective State Space Models For Real-Time Object Detection",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Chen_AKCMamba-YOLO_Selective_State_Space_Models_For_Real-Time_Object_Detection_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "AKCMamba-YOLO",
+        "d": "2026-06-03",
+        "m1": "46.3"
+      },
+      {
+        "p": {
+          "name": "Deformable DETR: Deformable Transformers for End-to-End Object Detection",
+          "link": "https://arxiv.org/abs/2010.04159v4"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleDetection",
+        "n": "Deformable DETR + iterative bounding box refinement + two-stage Deformable DETR",
+        "d": "2020-10-08",
+        "m1": "46.2"
+      },
+      {
+        "p": {
           "name": "Cross Resolution Encoding-Decoding For Detection Transformers",
           "link": "https://arxiv.org/abs/2410.04088v1"
         },
@@ -3671,6 +4471,26 @@
       },
       {
         "p": {
+          "name": "Learning Endogenous Attention for Incremental Object Detection",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Song_Learning_Endogenous_Attention_for_Incremental_Object_Detection_CVPR_2025_paper.html"
+        },
+        "c": "https://github.com/songx1997/lea",
+        "n": "LEA (ViTDet)",
+        "d": "2025-06-11",
+        "m1": "45.5"
+      },
+      {
+        "p": {
+          "name": "Deformable DETR: Deformable Transformers for End-to-End Object Detection",
+          "link": "https://arxiv.org/abs/2010.04159v4"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleDetection",
+        "n": "Deformable DETR + iterative bounding box refinement",
+        "d": "2020-10-08",
+        "m1": "45.4"
+      },
+      {
+        "p": {
           "name": "Cross Resolution Encoding-Decoding For Detection Transformers",
           "link": "https://arxiv.org/abs/2410.04088v1"
         },
@@ -3747,6 +4567,16 @@
       },
       {
         "p": {
+          "name": "FastViT: A Fast Hybrid Vision Transformer using Structural Reparameterization",
+          "link": "https://arxiv.org/abs/2303.14189v2"
+        },
+        "c": "https://github.com/rwightman/pytorch-image-models",
+        "n": "FastViT-MA36 + Mask R-CNN",
+        "d": "2023-03-24",
+        "m1": "45.1"
+      },
+      {
+        "p": {
           "name": "MambaOut: Do We Really Need Mamba for Vision?",
           "link": "https://arxiv.org/abs/2405.07992v3"
         },
@@ -3802,6 +4632,16 @@
       },
       {
         "p": {
+          "name": "ReDiffDet: Rotation-equivariant Diffusion Model for Oriented Object Detection",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhao_ReDiffDet_Rotation-equivariant_Diffusion_Model_for_Oriented_Object_Detection_CVPR_2025_paper.html"
+        },
+        "c": "https://github.com/wokaikaixinxin/rediffdet",
+        "n": "ReDiffDet",
+        "d": "2025-06-11",
+        "m1": "45.0"
+      },
+      {
+        "p": {
           "name": "Attentive Normalization",
           "link": "https://arxiv.org/abs/1908.01259v3"
         },
@@ -3836,6 +4676,16 @@
         "m4": "23.7",
         "m5": "49.5",
         "m6": "62.3"
+      },
+      {
+        "p": {
+          "name": "Ultralytics YOLOv8",
+          "link": "https://docs.ultralytics.com/models/yolov8/"
+        },
+        "c": "https://github.com/ultralytics/ultralytics",
+        "n": "YOLOv8s",
+        "d": "2023-01-10",
+        "m1": "44.9"
       },
       {
         "p": {
@@ -3893,6 +4743,16 @@
         "m5": "48.2",
         "m6": "60.9",
         "m7": "55"
+      },
+      {
+        "p": {
+          "name": "Cut and Learn for Unsupervised Object Detection and Instance Segmentation",
+          "link": "https://arxiv.org/abs/2301.11320v1"
+        },
+        "c": "https://github.com/facebookresearch/cutler",
+        "n": "CutLER + Cascade Mask R-CNN",
+        "d": "2023-01-26",
+        "m1": "44.7"
       },
       {
         "p": {
@@ -4104,6 +4964,36 @@
         "m4": "27.2",
         "m5": "48.1",
         "m6": "56"
+      },
+      {
+        "p": {
+          "name": "Improving Visual Recognition with Hyperbolical Visual Hierarchy Mapping",
+          "link": "https://arxiv.org/abs/2404.00974"
+        },
+        "c": "https://github.com/kwonjunn01/hi-mapper",
+        "n": "Hi-Mapper(Swin-T)",
+        "d": "2024-04-01",
+        "m1": "44.0"
+      },
+      {
+        "p": {
+          "name": "Big Transfer (BiT): General Visual Representation Learning",
+          "link": "https://arxiv.org/abs/1912.11370v3"
+        },
+        "c": "https://github.com/google-research/big_transfer",
+        "n": "RetinaNet (BiT-L)",
+        "d": "2019-12-24",
+        "m1": "43.8"
+      },
+      {
+        "p": {
+          "name": "Deformable DETR: Deformable Transformers for End-to-End Object Detection",
+          "link": "https://arxiv.org/abs/2010.04159v4"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleDetection",
+        "n": "Deformable DETR",
+        "d": "2020-10-08",
+        "m1": "43.8"
       },
       {
         "p": {
@@ -4346,6 +5236,16 @@
       },
       {
         "p": {
+          "name": "D-FINE: Redefine Regression Task in DETRs as Fine-grained Distribution Refinement",
+          "link": "https://arxiv.org/abs/2410.13842v1"
+        },
+        "c": "https://github.com/Peterande/D-FINE",
+        "n": "D-FINE-N",
+        "d": "2024-10-17",
+        "m1": "42.8"
+      },
+      {
+        "p": {
           "name": "Cascade R-CNN: Delving into High Quality Object Detection",
           "link": "http://arxiv.org/abs/1712.00726v1"
         },
@@ -4367,6 +5267,16 @@
         "c": "",
         "n": "Cascade R-CNN + DyFPN (ResNet-101, 1x)",
         "d": "2020-12-01",
+        "m1": "42.7"
+      },
+      {
+        "p": {
+          "name": "SwiftFormer: Efficient Additive Attention for Transformer-based Real-time Mobile Vision Applications",
+          "link": "https://arxiv.org/abs/2303.15446"
+        },
+        "c": "https://github.com/amshaker/swiftformer",
+        "n": "SwiftFormer-L3 + Mask R-CNN",
+        "d": "2023-03-27",
         "m1": "42.7"
       },
       {
@@ -4499,6 +5409,16 @@
       },
       {
         "p": {
+          "name": "Patch-level Representation Learning for Self-supervised Vision Transformers",
+          "link": "https://arxiv.org/abs/2206.07990"
+        },
+        "c": "",
+        "n": "DINO + SelfPatch (ViT-S/16)",
+        "d": "2022-06-16",
+        "m1": "42.1"
+      },
+      {
+        "p": {
           "name": "Scale-Aware Trident Networks for Object Detection",
           "link": "https://arxiv.org/abs/1901.01892v2"
         },
@@ -4526,6 +5446,26 @@
         "m4": "24.5",
         "m5": "45.2",
         "m6": "55.7"
+      },
+      {
+        "p": {
+          "name": "You Only Look at One Sequence: Rethinking Transformer in Vision through Object Detection",
+          "link": "https://arxiv.org/abs/2106.00666v3"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "YOLOS-B",
+        "d": "2021-06-01",
+        "m1": "42.0"
+      },
+      {
+        "p": {
+          "name": "VLM4RSDet: Collaborative Optimization with Vision-Language Model for Enhancing Remote Sensing Object Detection",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Shi_VLM4RSDet_Collaborative_Optimization_with_Vision-Language_Model_for_Enhancing_Remote_Sensing_CVPR_2026_paper.html"
+        },
+        "c": "https://github.com/cszzshi/vlm4rsdet",
+        "n": "Faster R-CNN w/ VLM4RSDet",
+        "d": "2026-06-03",
+        "m1": "42.0"
       },
       {
         "p": {
@@ -4711,6 +5651,16 @@
         "m4": "23.7",
         "m5": "44.2",
         "m6": "54.1"
+      },
+      {
+        "p": {
+          "name": "SwiftFormer: Efficient Additive Attention for Transformer-based Real-time Mobile Vision Applications",
+          "link": "https://arxiv.org/abs/2303.15446"
+        },
+        "c": "https://github.com/amshaker/swiftformer",
+        "n": "SwiftFormer-L1 + Mask R-CNN",
+        "d": "2023-03-27",
+        "m1": "41.2"
       },
       {
         "p": {
@@ -4906,6 +5856,16 @@
       },
       {
         "p": {
+          "name": "YOLOv12: Attention-Centric Real-Time Object Detectors",
+          "link": "https://arxiv.org/abs/2502.12524v1"
+        },
+        "c": "https://github.com/sunsmarterjie/yolov12",
+        "n": "YOLOv12-N",
+        "d": "2025-02-18",
+        "m1": "40.6"
+      },
+      {
+        "p": {
           "name": "Reducing Label Noise in Anchor-Free Object Detection",
           "link": "https://arxiv.org/abs/2008.01167v2"
         },
@@ -5043,6 +6003,16 @@
       },
       {
         "p": {
+          "name": "Neural Clustering based Visual Representation Learning",
+          "link": "https://arxiv.org/abs/2403.17409"
+        },
+        "c": "https://github.com/guikunchen/fec",
+        "n": "FEC-Large",
+        "d": "2024-03-26",
+        "m1": "39.9"
+      },
+      {
+        "p": {
           "name": "Architecture-Agnostic Masked Image Modeling -- From ViT back to CNN",
           "link": "https://arxiv.org/abs/2205.13943v4"
         },
@@ -5145,6 +6115,16 @@
       },
       {
         "p": {
+          "name": "Exploring Simple Siamese Representation Learning",
+          "link": "https://arxiv.org/abs/2011.10566v1"
+        },
+        "c": "https://github.com/lightly-ai/lightly",
+        "n": "SimSiam ResNet-50 + Mask R-CNN (optimal) (extra data)",
+        "d": "2020-11-20",
+        "m1": "39.2"
+      },
+      {
+        "p": {
           "name": "LSNet: See Large, Focus Small",
           "link": "https://arxiv.org/abs/2503.23135v1"
         },
@@ -5224,6 +6204,16 @@
         "m4": "22.9",
         "m5": "42.1",
         "m6": "50.5"
+      },
+      {
+        "p": {
+          "name": "YOLOv10: Real-Time End-to-End Object Detection",
+          "link": "https://arxiv.org/abs/2405.14458v2"
+        },
+        "c": "https://github.com/THU-MIG/yolov10",
+        "n": "YOLOv10-N",
+        "d": "2024-05-23",
+        "m1": "38.5"
       },
       {
         "p": {
@@ -5329,6 +6319,16 @@
       },
       {
         "p": {
+          "name": "You Only Look at One Sequence: Rethinking Transformer in Vision through Object Detection",
+          "link": "https://arxiv.org/abs/2106.00666v3"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "YOLOS-S (dwr)",
+        "d": "2021-06-01",
+        "m1": "37.6"
+      },
+      {
+        "p": {
           "name": "A novel Region of Interest Extraction Layer for Instance Segmentation",
           "link": "https://arxiv.org/abs/2004.13665v2"
         },
@@ -5353,6 +6353,16 @@
         "m1": "37.4",
         "m2": "59.1",
         "m3": "40.2"
+      },
+      {
+        "p": {
+          "name": "Ultralytics YOLOv8",
+          "link": "https://docs.ultralytics.com/models/yolov8/"
+        },
+        "c": "https://github.com/ultralytics/ultralytics",
+        "n": "YOLOv8n",
+        "d": "2023-01-10",
+        "m1": "37.3"
       },
       {
         "p": {
@@ -5495,6 +6505,16 @@
       },
       {
         "p": {
+          "name": "MobileNetV4 -- Universal Models for the Mobile Ecosystem",
+          "link": "https://arxiv.org/abs/2404.10518v2"
+        },
+        "c": "https://github.com/tensorflow/models/blob/master/official/vision/modeling/backbones/mobilenet.py",
+        "n": "MNv4-Hybrid-M + RetinaNet",
+        "d": "2024-04-16",
+        "m1": "34.0"
+      },
+      {
+        "p": {
           "name": "Res2Net: A New Multi-scale Backbone Architecture",
           "link": "https://arxiv.org/abs/1904.01169v3"
         },
@@ -5531,6 +6551,16 @@
         "d": "2021-07-18",
         "m1": "32.8",
         "m7": "5.06"
+      },
+      {
+        "p": {
+          "name": "You Only Look at One Sequence: Rethinking Transformer in Vision through Object Detection",
+          "link": "https://arxiv.org/abs/2106.00666v3"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "YOLOS-Ti",
+        "d": "2021-06-01",
+        "m1": "30.0"
       },
       {
         "p": {
@@ -5614,6 +6644,16 @@
         "n": "Shift-T",
         "d": "2022-01-26",
         "m5": "42.3"
+      },
+      {
+        "p": {
+          "name": "MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications",
+          "link": "http://arxiv.org/abs/1704.04861v1"
+        },
+        "c": "https://github.com/tensorflow/tensorflow/blob/v2.4.1/tensorflow/python/keras/applications/mobilenet.py",
+        "n": "MobileNet + Faster R-CNN 600",
+        "d": "2017-04-17",
+        "m1": "19.8"
       }
     ]
   }

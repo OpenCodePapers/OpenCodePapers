@@ -1,0 +1,149 @@
+{
+  "title": "computer-use-agents-on-mmb-gui-mmbench-gui",
+  "task-hierarchy": [
+    "Agents",
+    "Computer Use Agents"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/open-compass/MMBench-GUI",
+    "paper": "MMBench-GUI: Hierarchical Multi-Platform Evaluation Framework for GUI Agents"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "MAI-UI Technical Report: Real-World Centric Foundation GUI Agents",
+          "link": "https://arxiv.org/abs/2512.22047"
+        },
+        "c": "https://github.com/Tongyi-MAI/MAI-UI",
+        "n": "MAI-UI-32B",
+        "d": "2025-12-26",
+        "m1": "91.3"
+      },
+      {
+        "p": {
+          "name": "UI-Venus-1.5 Technical Report",
+          "link": "https://arxiv.org/abs/2602.09082"
+        },
+        "c": "https://github.com/inclusionai/ui-venus",
+        "n": "UI-Venus-1.5-30B-A3B",
+        "d": "2026-02-09",
+        "m1": "88.6"
+      },
+      {
+        "p": {
+          "name": "POINTS-GUI-G: GUI-Grounding Journey",
+          "link": "https://arxiv.org/abs/2602.06391"
+        },
+        "c": "https://github.com/Tencent/POINTS-GUI",
+        "n": "POINTS-GUI-G-8B",
+        "d": "2026-02-06",
+        "m1": "87.0"
+      },
+      {
+        "p": {
+          "name": "Mobile-Agent-v3.5: Multi-platform Fundamental GUI Agents",
+          "link": "https://arxiv.org/abs/2602.16855"
+        },
+        "c": "https://github.com/x-plug/mobileagent",
+        "n": "GUI-Owl-1.5-32B-Instruct",
+        "d": "2026-02-15",
+        "m1": "86.84"
+      },
+      {
+        "p": {
+          "name": "GroundGUI: GUI Grounding by High-Quality Data and Distillation-to-Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2610.19100"
+        },
+        "c": "https://github.com/PrentisAI/GroundGUI",
+        "n": "GroundGUI-8B",
+        "d": "2026-10-13",
+        "m1": "86.8"
+      },
+      {
+        "p": {
+          "name": "Step-GUI Technical Report",
+          "link": "https://arxiv.org/abs/2512.15431"
+        },
+        "c": "https://github.com/stepfun-ai/gelab-zero",
+        "n": "Step-GUI-8B",
+        "d": "2025-12-17",
+        "m1": "85.6"
+      },
+      {
+        "p": {
+          "name": "Mobile-Agent-v3: Fundamental Agents for GUI Automation",
+          "link": "https://arxiv.org/abs/2508.15144"
+        },
+        "c": "https://github.com/X-PLUG/MobileAgent/tree/main/Mobile-Agent-v3",
+        "n": "GUI-Owl-32B",
+        "d": "2025-08-21",
+        "m1": "82.97"
+      },
+      {
+        "p": {
+          "name": "ScaleCUA: Scaling Open-Source Computer Use Agents with Cross-Platform Data",
+          "link": "https://arxiv.org/abs/2509.15221"
+        },
+        "c": "https://github.com/OpenGVLab/ScaleCUA",
+        "n": "ScaleCUA-32B",
+        "d": "2025-09-18",
+        "m1": "82.0"
+      },
+      {
+        "p": {
+          "name": "Grounding Computer Use Agents on Human Demonstrations",
+          "link": "https://arxiv.org/abs/2511.07332"
+        },
+        "c": "https://github.com/ServiceNow/GroundCUA/",
+        "n": "GroundNext-7B (RL)",
+        "d": "2025-11-10",
+        "m1": "81.1"
+      },
+      {
+        "p": {
+          "name": "InfiGUI-G1: Advancing GUI Grounding with Adaptive Exploration Policy Optimization",
+          "link": "https://arxiv.org/abs/2508.05731"
+        },
+        "c": "https://github.com/InfiXAI/InfiGUI-G1",
+        "n": "InfiGUI-G1-7B (extra data)",
+        "d": "2025-08-07",
+        "m1": "80.8"
+      },
+      {
+        "p": {
+          "name": "DeskForge: Dense Supervision from Desktop Environments for Computer-Use Agents",
+          "link": "https://arxiv.org/abs/2610.02320"
+        },
+        "c": "https://github.com/Saidgurbuz/deskforge",
+        "n": "DeskForge-Qwen3.5-4B",
+        "d": "2026-10-01",
+        "m1": "76.82"
+      }
+    ]
+  }
+}

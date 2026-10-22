@@ -1,0 +1,89 @@
+{
+  "title": "scene-text-recognition-on-wordart",
+  "task-hierarchy": [
+    "Optical Character Recognition (OCR)",
+    "Scene Text Recognition"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/xdxie/WordArt",
+    "paper": "Toward Understanding WordArt: Corner-Guided Transformer for Scene Text Recognition"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Multi-modal In-Context Learning Makes an Ego-evolving Scene Text Recognizer",
+          "link": "https://arxiv.org/abs/2311.13120"
+        },
+        "c": "https://github.com/bytedance/e2str",
+        "n": "E²STR-ICL",
+        "d": "2023-11-22",
+        "m1": "86.17"
+      },
+      {
+        "p": {
+          "name": "Font-Agent: Enhancing Font Understanding with Large Language Models",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Lai_Font-Agent_Enhancing_Font_Understanding_with_Large_Language_Models_CVPR_2025_paper.html"
+        },
+        "c": "",
+        "n": "Font-Agent (extra data)",
+        "d": "2025-06-11",
+        "m1": "83.57"
+      },
+      {
+        "p": {
+          "name": "Choose What You Need: Disentangled Representation Learning for Scene Text Recognition Removal and Editing",
+          "link": "https://arxiv.org/abs/2405.04377"
+        },
+        "c": "",
+        "n": "DARLING (extra data)",
+        "d": "2024-05-07",
+        "m1": "81.2"
+      },
+      {
+        "p": {
+          "name": "Focus on the Whole Character: Discriminative Character Modeling for Scene Text Recognition",
+          "link": "https://arxiv.org/abs/2407.05562"
+        },
+        "c": "https://github.com/bang123-box/cfe",
+        "n": "CFE-Base (synthetic training) (extra data)",
+        "d": "2024-07-08",
+        "m1": "75.7"
+      },
+      {
+        "p": {
+          "name": "Class-Aware Mask-Guided Feature Refinement for Scene Text Recognition",
+          "link": "https://arxiv.org/abs/2402.13643"
+        },
+        "c": "https://github.com/melosy/cam",
+        "n": "CAM-Base",
+        "d": "2024-02-21",
+        "m1": "75.6"
+      }
+    ]
+  }
+}

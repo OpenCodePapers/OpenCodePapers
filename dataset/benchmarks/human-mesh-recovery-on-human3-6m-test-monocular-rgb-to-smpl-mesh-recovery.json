@@ -1,0 +1,100 @@
+{
+  "title": "human-mesh-recovery-on-human3-6m-test-monocular-rgb-to-smpl-mesh-recovery",
+  "task-hierarchy": [
+    "Pose Estimation",
+    "3D Human Pose Estimation",
+    "Human Mesh Recovery"
+  ],
+  "dataset-info": {
+    "link": "http://vision.imar.ro/human3.6m/description.php",
+    "paper": "Human3.6M: Large Scale Datasets and Predictive Methods for 3D Human Sensing in Natural Environments"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "MPJPE",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "P-MPJPE",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "BioPose: Biomechanically-accurate 3D Pose Estimation from Monocular Videos",
+          "link": "https://arxiv.org/abs/2501.07800v1"
+        },
+        "c": "",
+        "n": "MQ-HMR (ViT-H, 96 pose tokens) (extra data)",
+        "d": "2025-01-14",
+        "m1": "42.5",
+        "m2": "28.5"
+      },
+      {
+        "p": {
+          "name": "3D Human Mesh Estimation from Virtual Markers",
+          "link": "https://arxiv.org/abs/2303.11726v4"
+        },
+        "c": "https://github.com/ShirleyMaxx/VirtualMarker",
+        "n": "VirtualMarker (64 markers, HRNet-W48) (extra data)",
+        "d": "2023-03-21",
+        "m1": "47.3",
+        "m2": "32.0"
+      },
+      {
+        "p": {
+          "name": "Cross-Attention of Disentangled Modalities for 3D Human Mesh Recovery with Transformers",
+          "link": "https://arxiv.org/abs/2207.13820v1"
+        },
+        "c": "https://github.com/postech-ami/fastmetro",
+        "n": "FastMETRO-L-H64 (extra data)",
+        "d": "2022-07-27",
+        "m1": "52.2",
+        "m2": "33.7"
+      },
+      {
+        "p": {
+          "name": "PhysPT: Physics-aware Pretrained Transformer for Estimating Human Dynamics from Monocular Videos",
+          "link": "https://arxiv.org/abs/2404.04430"
+        },
+        "c": "",
+        "n": "PhysPT",
+        "d": "2024-04-05",
+        "m1": "52.7",
+        "m2": "36.7"
+      },
+      {
+        "p": {
+          "name": "PyMAF: 3D Human Pose and Shape Regression with Pyramidal Mesh Alignment Feedback Loop",
+          "link": "https://arxiv.org/abs/2103.16507v4"
+        },
+        "c": "https://github.com/HongwenZhang/PyMAF",
+        "n": "PyMAF (extra data)",
+        "d": "2021-03-30",
+        "m1": "57.7",
+        "m2": "40.5"
+      }
+    ]
+  }
+}

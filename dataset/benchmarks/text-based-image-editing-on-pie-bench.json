@@ -40,6 +40,11 @@
         "sortable": "true"
       },
       {
+        "key": "m5",
+        "label": "PIE-Bench Edit Region CLIP Similarity",
+        "sortable": "true"
+      },
+      {
         "key": "n",
         "label": "ModelName"
       },
@@ -62,6 +67,28 @@
         "m2": "9.92",
         "m3": "1.98",
         "m4": "25.63"
+      },
+      {
+        "p": {
+          "name": "FlashIn: Fast and Accurate Image Inversion for Real-time Image Editing",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Wang_FlashIn_Fast_and_Accurate_Image_Inversion_for_Real-time_Image_Editing_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "FlashIn",
+        "d": "2026-06-03",
+        "m1": "31.91",
+        "m4": "25.67",
+        "m5": "23.94"
+      },
+      {
+        "p": {
+          "name": "Multi-History-Step SDE Inversion for Image Editing with Superior Regional Awareness",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/5667"
+        },
+        "c": "",
+        "n": "MIEdit (SD3.5)",
+        "d": "2026-09-08",
+        "m1": "29.35"
       },
       {
         "p": {
@@ -88,6 +115,20 @@
         "m2": "45.67",
         "m3": "12.65",
         "m4": "25.91"
+      },
+      {
+        "p": {
+          "name": "Analyzing and Improving Training-Free Fast Sampling of Text-to-Image Diffusion Models",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/3912"
+        },
+        "c": "https://github.com/zju-pi/tors",
+        "n": "TORS (Flux.1-Kontext)",
+        "d": "2026-09-08",
+        "m1": "27.59",
+        "m2": "64.87",
+        "m3": "52.46",
+        "m4": "25.76",
+        "m5": "22.7"
       },
       {
         "p": {
@@ -130,6 +171,17 @@
       },
       {
         "p": {
+          "name": "Target-aware Image Editing via Cycle-consistent Constraints",
+          "link": "https://arxiv.org/abs/2510.20212"
+        },
+        "c": "https://github.com/hkust-longgroup/flowcycle",
+        "n": "FlowCycle",
+        "d": "2025-10-23",
+        "m1": "26.83",
+        "m4": "25.48"
+      },
+      {
+        "p": {
           "name": "Inversion-Free Image Editing with Natural Language",
           "link": "https://arxiv.org/abs/2312.04965v1"
         },
@@ -156,6 +208,19 @@
       },
       {
         "p": {
+          "name": "Wavelet-Guided Semantic Signal Compensation for Inversion-Free Image Editing",
+          "link": "https://arxiv.org/abs/2607.02421"
+        },
+        "c": "https://github.com/zoey-tang-33/wssc",
+        "n": "WSSC",
+        "d": "2026-07-02",
+        "m1": "26.17",
+        "m2": "54.02",
+        "m3": "30.95",
+        "m5": "25.52"
+      },
+      {
+        "p": {
           "name": "StyleDiffusion: Prompt-Embedding Inversion for Text-Based Editing",
           "link": "https://arxiv.org/abs/2303.15649v3"
         },
@@ -179,6 +244,33 @@
         "m2": "68.77",
         "m3": "15.09",
         "m4": "24.81"
+      },
+      {
+        "p": {
+          "name": "FlashEdit: Decoupling Speed, Structure, and Semantics for Precise Image Editing",
+          "link": "https://arxiv.org/abs/2509.22244"
+        },
+        "c": "https://github.com/junyiwucode/flashedit",
+        "n": "FlashEdit",
+        "d": "2025-09-26",
+        "m1": "25.33",
+        "m2": "62.25",
+        "m4": "25.51",
+        "m5": "22.29"
+      },
+      {
+        "p": {
+          "name": "The Promise of RL for Autoregressive Image Editing",
+          "link": "https://arxiv.org/abs/2508.01119"
+        },
+        "c": "https://github.com/mair-lab/earl",
+        "n": "EARL SFT (S) → RL (S+C)",
+        "d": "2025-08-01",
+        "m1": "23.71",
+        "m2": "112.4",
+        "m3": "35.0",
+        "m4": "24.44",
+        "m5": "21.34"
       },
       {
         "p": {
@@ -296,6 +388,29 @@
         "m2": "239.4",
         "m3": "70.9",
         "m4": "27.33"
+      },
+      {
+        "p": {
+          "name": "Visual Autoregressive Modeling for Instruction-Guided Image Editing",
+          "link": "https://arxiv.org/abs/2508.15772"
+        },
+        "c": "https://github.com/HiDream-ai/VAREdit",
+        "n": "VAREdit 2.2B (512px)",
+        "d": "2025-08-21",
+        "m4": "26.0",
+        "m5": "22.5"
+      },
+      {
+        "p": {
+          "name": "Source-Agnostic Image Translation Based on Latent Aware Adaptive Masking",
+          "link": "https://arxiv.org/abs/2608.14046"
+        },
+        "c": "https://github.com/dtoma95/pm-edit",
+        "n": "PM-Edit",
+        "d": "2026-08-14",
+        "m3": "19.68",
+        "m4": "26.43",
+        "m5": "22.81"
       }
     ]
   }

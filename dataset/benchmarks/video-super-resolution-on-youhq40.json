@@ -1,0 +1,301 @@
+{
+  "title": "video-super-resolution-on-youhq40",
+  "task-hierarchy": [
+    "Super-Resolution",
+    "Video Super-Resolution"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/sczhou/Upscale-A-Video",
+    "paper": "Upscale-A-Video: Temporal-Consistent Diffusion Model for Real-World Video Super-Resolution"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "PSNR",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "LPIPS",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "SSIM",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "CLIP-IQA",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "E_warp",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "MUSIQ",
+        "sortable": "true"
+      },
+      {
+        "key": "m7",
+        "label": "DOVER",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "RealisVSR: Detail-enhanced Diffusion for Real-World 4K Video Super-Resolution",
+          "link": "https://arxiv.org/abs/2507.19138"
+        },
+        "c": "",
+        "n": "RealisVSR",
+        "d": "2025-07-25",
+        "m1": "25.84",
+        "m2": "0.1935",
+        "m3": "0.7601"
+      },
+      {
+        "p": {
+          "name": "Upscale-A-Video: Temporal-Consistent Diffusion Model for Real-World Video Super-Resolution",
+          "link": "https://arxiv.org/abs/2312.06640"
+        },
+        "c": "https://github.com/sczhou/upscale-a-video",
+        "n": "Upscale-A-Video",
+        "d": "2023-12-11",
+        "m1": "25.83",
+        "m2": "0.268",
+        "m3": "0.733",
+        "m5": "0.737"
+      },
+      {
+        "p": {
+          "name": "TRaM-VSR: Importance-Aware Token Routing and Merging for One-Step Diffusion Video Super-Resolution",
+          "link": "https://arxiv.org/abs/2607.22231"
+        },
+        "c": "https://github.com/ree1s/tram-vsr",
+        "n": "TRaM-VSR",
+        "d": "2026-07-24",
+        "m1": "24.38",
+        "m2": "0.2903",
+        "m3": "0.6856",
+        "m4": "0.4676",
+        "m5": "1.7"
+      },
+      {
+        "p": {
+          "name": "DOVE: Efficient One-Step Diffusion Model for Real-World Video Super-Resolution",
+          "link": "https://arxiv.org/abs/2505.16239"
+        },
+        "c": "https://github.com/zhengchen1999/dove",
+        "n": "DOVE",
+        "d": "2025-05-22",
+        "m1": "24.30",
+        "m2": "0.2997",
+        "m3": "0.6740",
+        "m4": "0.4985",
+        "m5": "2.05",
+        "m7": "0.8574"
+      },
+      {
+        "p": {
+          "name": "DAM-VSR: Disentanglement of Appearance and Motion for Video Super-Resolution",
+          "link": "https://arxiv.org/abs/2507.01012"
+        },
+        "c": "",
+        "n": "DAM-VSR (ResShift ISR) (extra data)",
+        "d": "2025-07-01",
+        "m1": "24.246",
+        "m2": "0.367",
+        "m3": "0.668",
+        "m5": "1.769"
+      },
+      {
+        "p": {
+          "name": "Towards Redundancy Reduction in Diffusion Models for Efficient Video Super-Resolution",
+          "link": "https://arxiv.org/abs/2509.23980"
+        },
+        "c": "",
+        "n": "OASIS (extra data)",
+        "d": "2025-09-28",
+        "m1": "23.75",
+        "m2": "0.2608",
+        "m3": "0.6417",
+        "m4": "0.4817",
+        "m5": "2.74",
+        "m7": "0.8700"
+      },
+      {
+        "p": {
+          "name": "DiffVSR: Enhancing Real-World Video Super-Resolution with Diffusion Models for Advanced Visual Quality and Temporal Consistency",
+          "link": "https://arxiv.org/abs/2501.10110"
+        },
+        "c": "",
+        "n": "DiffVSR (extra data)",
+        "d": "2025-01-17",
+        "m1": "23.713",
+        "m4": "0.785",
+        "m5": "1.492",
+        "m6": "68.040",
+        "m7": "0.878"
+      },
+      {
+        "p": {
+          "name": "FlashVSR+: Efficient Video Super-Resolution via Hybrid Attention and Reward-Yield Distribution Matching",
+          "link": "https://arxiv.org/abs/2610.17552"
+        },
+        "c": "https://github.com/OpenImagingLab/FlashVSR_Plus",
+        "n": "FlashVSR+ (Ours-Base)",
+        "d": "2026-10-13",
+        "m1": "23.64",
+        "m2": "0.2698",
+        "m3": "0.625",
+        "m6": "64.71"
+      },
+      {
+        "p": {
+          "name": "FlashVSR: Towards Real-Time Diffusion-Based Streaming Video Super-Resolution",
+          "link": "https://arxiv.org/abs/2510.12747"
+        },
+        "c": "https://github.com/openimaginglab/flashvsr",
+        "n": "FlashVSR (Tiny)",
+        "d": "2025-10-14",
+        "m1": "23.31",
+        "m2": "0.3866",
+        "m3": "0.6110"
+      },
+      {
+        "p": {
+          "name": "DUO-VSR: Dual-Stream Distillation for One-Step Video Super-Resolution",
+          "link": "https://arxiv.org/abs/2603.22271"
+        },
+        "c": "",
+        "n": "DUO-VSR (extra data)",
+        "d": "2026-03-23",
+        "m1": "22.96",
+        "m2": "0.289",
+        "m3": "0.674",
+        "m4": "0.4222",
+        "m5": "1.98",
+        "m6": "65.24",
+        "m7": "0.8728"
+      },
+      {
+        "p": {
+          "name": "Asymmetric VAE for One-Step Video Super-Resolution Acceleration",
+          "link": "https://arxiv.org/abs/2509.24142"
+        },
+        "c": "",
+        "n": "FastVSR (f8 encoder / f16 decoder) (extra data)",
+        "d": "2025-09-29",
+        "m1": "22.85",
+        "m2": "0.3513",
+        "m3": "0.6614",
+        "m4": "0.5888",
+        "m5": "1.90",
+        "m6": "65.38",
+        "m7": "0.8558"
+      },
+      {
+        "p": {
+          "name": "SwiftVR: Real-Time One-Step Generative Video Restoration",
+          "link": "https://arxiv.org/abs/2606.09516"
+        },
+        "c": "https://github.com/H-oliday/SwiftVR",
+        "n": "SwiftVR",
+        "d": "2026-06-08",
+        "m1": "22.67",
+        "m2": "0.2947",
+        "m3": "0.6048",
+        "m4": "0.595",
+        "m6": "69.81"
+      },
+      {
+        "p": {
+          "name": "SeedVR2: One-Step Video Restoration via Diffusion Adversarial Post-Training",
+          "link": "https://arxiv.org/abs/2506.05301"
+        },
+        "c": "https://github.com/bytedance-seed/seedvr",
+        "n": "SeedVR2-7B",
+        "d": "2025-06-05",
+        "m1": "22.46",
+        "m2": "0.274",
+        "m3": "0.600",
+        "m4": "0.4687",
+        "m6": "66.01"
+      },
+      {
+        "p": {
+          "name": "LiteVSR: Lightweight Adaptation of Frozen Diffusion Transformers for Video Super-Resolution",
+          "link": "https://arxiv.org/abs/2606.09250"
+        },
+        "c": "",
+        "n": "LiteVSR (Wan2.2-5B, 5-step full-rank adapter) (extra data)",
+        "d": "2026-06-08",
+        "m1": "21.28",
+        "m2": "0.3842",
+        "m4": "0.5741",
+        "m6": "68.67",
+        "m7": "0.5984"
+      },
+      {
+        "p": {
+          "name": "SeedVR: Seeding Infinity in Diffusion Transformer Towards Generic Video Restoration",
+          "link": "https://arxiv.org/abs/2501.01320"
+        },
+        "c": "https://github.com/iceclear/seedvr",
+        "n": "SeedVR-3B (extra data)",
+        "d": "2025-01-02",
+        "m1": "21.15",
+        "m2": "0.298",
+        "m3": "0.554",
+        "m4": "0.635",
+        "m6": "67.45",
+        "m7": "0.12788"
+      },
+      {
+        "p": {
+          "name": "SeedVR2: One-Step Video Restoration via Diffusion Adversarial Post-Training",
+          "link": "https://arxiv.org/abs/2506.05301"
+        },
+        "c": "https://github.com/bytedance-seed/seedvr",
+        "n": "SeedVR2-3B",
+        "d": "2025-06-05",
+        "m5": "1.376",
+        "m7": "0.1334"
+      },
+      {
+        "p": {
+          "name": "SparkVSR: Interactive Video Super-Resolution via Sparse Keyframe Propagation",
+          "link": "https://arxiv.org/abs/2603.16864"
+        },
+        "c": "https://github.com/taco-group/SparkVSR",
+        "n": "SparkVSR (PiSA-SR reference)",
+        "d": "2026-03-17",
+        "m4": "0.6346",
+        "m6": "69.1"
+      }
+    ]
+  }
+}

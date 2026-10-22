@@ -40,6 +40,17 @@
     "items": [
       {
         "p": {
+          "name": "MASS: Motion-Aligned Selective Scan for Flow-Based Video Frame Interpolation",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/3303"
+        },
+        "c": "",
+        "n": "MASS",
+        "d": "2026-09-08",
+        "m1": "34.83",
+        "m2": "0.908"
+      },
+      {
+        "p": {
           "name": "Extracting Motion and Appearance via Inter-Frame Attention for Efficient Video Frame Interpolation",
           "link": "https://arxiv.org/abs/2303.00440v2"
         },
@@ -48,6 +59,17 @@
         "d": "2023-03-01",
         "m1": "34.67",
         "m2": "0.907"
+      },
+      {
+        "p": {
+          "name": "AMT: All-Pairs Multi-Field Transforms for Efficient Frame Interpolation",
+          "link": "https://arxiv.org/abs/2304.09790"
+        },
+        "c": "https://github.com/mcg-nku/amt",
+        "n": "AMT-G",
+        "d": "2023-04-19",
+        "m1": "34.63",
+        "m2": "0.904"
       },
       {
         "p": {
@@ -62,6 +84,39 @@
       },
       {
         "p": {
+          "name": "AMT: All-Pairs Multi-Field Transforms for Efficient Frame Interpolation",
+          "link": "https://arxiv.org/abs/2304.09790"
+        },
+        "c": "https://github.com/mcg-nku/amt",
+        "n": "AMT-L",
+        "d": "2023-04-19",
+        "m1": "34.49",
+        "m2": "0.903"
+      },
+      {
+        "p": {
+          "name": "AMT: All-Pairs Multi-Field Transforms for Efficient Frame Interpolation",
+          "link": "https://arxiv.org/abs/2304.09790"
+        },
+        "c": "https://github.com/mcg-nku/amt",
+        "n": "AMT-S",
+        "d": "2023-04-19",
+        "m1": "34.29",
+        "m2": "0.901"
+      },
+      {
+        "p": {
+          "name": "Many-to-many Splatting for Efficient Video Frame Interpolation",
+          "link": "https://arxiv.org/abs/2204.03513v1"
+        },
+        "c": "https://github.com/feinanshan/m2m_vfi",
+        "n": "M2M-PWC",
+        "d": "2022-04-07",
+        "m1": "33.93",
+        "m2": "0.945"
+      },
+      {
+        "p": {
           "name": "FILM: Frame Interpolation for Large Motion",
           "link": "https://arxiv.org/abs/2202.04901v4"
         },
@@ -70,6 +125,61 @@
         "d": "2022-02-10",
         "m1": "33.78",
         "m2": "0.906"
+      },
+      {
+        "p": {
+          "name": "Softmax Splatting for Video Frame Interpolation",
+          "link": "https://arxiv.org/abs/2003.05534v1"
+        },
+        "c": "https://github.com/sniklaus/softmax-splatting",
+        "n": "SoftSplat-LLap",
+        "d": "2020-03-11",
+        "m1": "33.6",
+        "m2": "0.901"
+      },
+      {
+        "p": {
+          "name": "Many-to-many Splatting for Efficient Video Frame Interpolation",
+          "link": "https://arxiv.org/abs/2204.03513v1"
+        },
+        "c": "https://github.com/feinanshan/m2m_vfi",
+        "n": "M2M-DIS",
+        "d": "2022-04-07",
+        "m1": "33.25",
+        "m2": "0.942"
+      },
+      {
+        "p": {
+          "name": "Disentangled Motion Modeling for Video Frame Interpolation",
+          "link": "https://arxiv.org/abs/2406.17256"
+        },
+        "c": "https://github.com/jhlew/momo",
+        "n": "MoMo",
+        "d": "2024-06-25",
+        "m1": "33.09",
+        "m2": "0.9293"
+      },
+      {
+        "p": {
+          "name": "Softmax Splatting for Video Frame Interpolation",
+          "link": "https://arxiv.org/abs/2003.05534v1"
+        },
+        "c": "https://github.com/sniklaus/softmax-splatting",
+        "n": "SoftSplat-LF",
+        "d": "2020-03-11",
+        "m1": "32.5",
+        "m2": "0.856"
+      },
+      {
+        "p": {
+          "name": "TLB-VFI: Temporal-Aware Latent Brownian Bridge Diffusion for Video Frame Interpolation",
+          "link": "https://arxiv.org/abs/2507.04984"
+        },
+        "c": "https://github.com/ZonglinL/TLBVFI",
+        "n": "TLB-VFI",
+        "d": "2025-07-07",
+        "m1": "32.441",
+        "m2": "0.928"
       }
     ]
   }

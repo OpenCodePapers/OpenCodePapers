@@ -1,0 +1,738 @@
+{
+  "title": "mathematical-reasoning-on-minerva-math",
+  "task-hierarchy": [
+    "Mathematical Reasoning"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/thunlp/JustRL/tree/main/data/Minerva",
+    "paper": "Solving Quantitative Reasoning Problems with Language Models"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Filter, Then Reweight: Rethinking Optimization Granularity in On-Policy Distillation",
+          "link": "https://arxiv.org/abs/2606.02684"
+        },
+        "c": "https://github.com/YuYingLi0/FiRe-OPD",
+        "n": "FiRe-OPD",
+        "d": "2026-06-01",
+        "m1": "68.49"
+      },
+      {
+        "p": {
+          "name": "DiagEvo: Diagnosis-Guided Self-Evolution via Hierarchical Error Memory",
+          "link": "https://arxiv.org/abs/2609.00768"
+        },
+        "c": "",
+        "n": "DiagEvo (Qwen3-8B, 235B-A22B diagnostician)",
+        "d": "2026-09-01",
+        "m1": "64.8"
+      },
+      {
+        "p": {
+          "name": "VASPO: Self-Distillation with Privileged Value Estimation",
+          "link": "https://arxiv.org/abs/2610.20516"
+        },
+        "c": "https://github.com/cii030/VASPO",
+        "n": "VASPO (Qwen3-4B-Instruct-2507)",
+        "d": "2026-10-14",
+        "m1": "64.75"
+      },
+      {
+        "p": {
+          "name": "Off-the-Shelf LLMs as Process Scorers: Training-Free Alternative to PRMs for Mathematical Reasoning",
+          "link": "https://arxiv.org/abs/2606.01682"
+        },
+        "c": "",
+        "n": "CGS (Qwen2.5-7B → Qwen2.5-72B)",
+        "d": "2026-06-01",
+        "m1": "63.6"
+      },
+      {
+        "p": {
+          "name": "J-Zero: Unified Challenger--Solver--Judge Co-Evolution from Zero Data",
+          "link": "https://arxiv.org/abs/2608.26582"
+        },
+        "c": "https://github.com/GyoukChu/J-Zero",
+        "n": "J-Zero-8B",
+        "d": "2026-08-27",
+        "m1": "61.76"
+      },
+      {
+        "p": {
+          "name": "DARC: Decoupled Asymmetric Reasoning Curriculum for LLM Evolution",
+          "link": "https://arxiv.org/abs/2601.13761"
+        },
+        "c": "https://github.com/RUCBM/DARC",
+        "n": "DARC (Qwen3-8B-Base)",
+        "d": "2026-01-20",
+        "m1": "61.4"
+      },
+      {
+        "p": {
+          "name": "Guided Self-Evolving LLMs with Minimal Human Supervision",
+          "link": "https://arxiv.org/abs/2512.02472"
+        },
+        "c": "",
+        "n": "Qwen3-8B-Base (R-Few 5%)",
+        "d": "2025-12-02",
+        "m1": "60.3"
+      },
+      {
+        "p": {
+          "name": "Questioning the Questions: Sustaining Self-Evolution in Reasoning Models",
+          "link": "https://arxiv.org/abs/2610.04299"
+        },
+        "c": "https://github.com/jinyuanli0012/r-quest",
+        "n": "R-Quest (Qwen3-4B-Base)",
+        "d": "2026-10-03",
+        "m1": "58.82"
+      },
+      {
+        "p": {
+          "name": "SoloQ: Calibration-Free Quantization for Diffusion Language Models",
+          "link": "https://arxiv.org/abs/2610.07121"
+        },
+        "c": "",
+        "n": "SoloQ-C (Fast-dLLM v2-7B)",
+        "d": "2026-10-05",
+        "m1": "54.86"
+      },
+      {
+        "p": {
+          "name": "FlowBalance: Verifier-Grounded Self-Improvement from On-Policy Reasoning Experience",
+          "link": "https://arxiv.org/abs/2609.03241"
+        },
+        "c": "https://github.com/alexhuang13/FlowBalance",
+        "n": "Qwen3-8B + FlowBalance",
+        "d": "2026-09-03",
+        "m1": "53.68"
+      },
+      {
+        "p": {
+          "name": "KV4-RL: Unlocking Faster Asynchronous Rollouts for RLVR with INT4 KV Cache Quantization",
+          "link": "https://arxiv.org/abs/2610.14448"
+        },
+        "c": "",
+        "n": "KV4-RL (Qwen3-8B-Base)",
+        "d": "2026-10-10",
+        "m1": "51.8"
+      },
+      {
+        "p": {
+          "name": "JustRL: Scaling a 1.5B LLM with a Simple RL Recipe",
+          "link": "https://arxiv.org/abs/2512.16649"
+        },
+        "c": "https://github.com/thunlp/JustRL",
+        "n": "JustRL-DeepSeek 1.5B",
+        "d": "2025-12-18",
+        "m1": "51.47"
+      },
+      {
+        "p": {
+          "name": "SAGE: Mitigating Long-Horizon Reasoning Biases via Topological Guidance",
+          "link": "https://arxiv.org/abs/2609.30192"
+        },
+        "c": "https://github.com/Susan571/SAGE-NeurIPS2026",
+        "n": "Qwen3.5-35B w/SAGE",
+        "d": "2026-09-24",
+        "m1": "51.34"
+      },
+      {
+        "p": {
+          "name": "TPPO: Tracking-Value PPO For Language Model Reasoning",
+          "link": "https://arxiv.org/abs/2610.16794"
+        },
+        "c": "https://github.com/LINs-lab/TPPO",
+        "n": "TPPO (Qwen3-4B)",
+        "d": "2026-10-12",
+        "m1": "51.0"
+      },
+      {
+        "p": {
+          "name": "TGRL: Temperature-Grouped Reinforcement Learning for Efficient Exploration in LLMs",
+          "link": "https://arxiv.org/abs/2609.33589"
+        },
+        "c": "https://github.com/1229095296/TGRL",
+        "n": "TGRL (Qwen3-32B) (extra data)",
+        "d": "2026-09-27",
+        "m1": "50.6"
+      },
+      {
+        "p": {
+          "name": "Anti-Self-Distillation for Reasoning RL via Pointwise Mutual Information",
+          "link": "https://arxiv.org/abs/2605.11609"
+        },
+        "c": "https://github.com/FloyedShen/AntiSD",
+        "n": "Qwen3-30B-A3B + AntiSD",
+        "d": "2026-05-12",
+        "m1": "49.7"
+      },
+      {
+        "p": {
+          "name": "Self-Hinting Language Models Enhance Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2602.03143"
+        },
+        "c": "https://github.com/BaohaoLiao/SAGE",
+        "n": "SAGE (Qwen3-4B-Instruct)",
+        "d": "2026-02-03",
+        "m1": "49.2"
+      },
+      {
+        "p": {
+          "name": "Rethinking Critic Learning in PPO: Understanding and Mitigating Value Flattening",
+          "link": "https://arxiv.org/abs/2609.18708"
+        },
+        "c": "https://github.com/Dodojordi/SP3O",
+        "n": "SP3O Qwen3-4B-Base",
+        "d": "2026-09-16",
+        "m1": "47.93"
+      },
+      {
+        "p": {
+          "name": "Native Parallel Reasoner: Reasoning in Parallelism via Self-Distilled Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2512.07461"
+        },
+        "c": "https://github.com/bigai-nlco/Native-Parallel-Reasoner",
+        "n": "NPR (Qwen3-4B)",
+        "d": "2025-12-08",
+        "m1": "47.1"
+      },
+      {
+        "p": {
+          "name": "iGRPO: Self-Feedback-Driven LLM Reasoning",
+          "link": "https://arxiv.org/abs/2602.09000"
+        },
+        "c": "",
+        "n": "DeepSeek-R1-Distill-Qwen-14B + iGRPO",
+        "d": "2026-02-09",
+        "m1": "47.06"
+      },
+      {
+        "p": {
+          "name": "Unsupervised Process Reward Models",
+          "link": "https://arxiv.org/abs/2605.10158"
+        },
+        "c": "",
+        "n": "uPRM",
+        "d": "2026-05-11",
+        "m1": "46.7"
+      },
+      {
+        "p": {
+          "name": "ResRL: Boosting LLM Reasoning via Negative Sample Projection Residual Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2605.00380"
+        },
+        "c": "https://github.com/1229095296/ResRL",
+        "n": "ResRL (Qwen3-8B)",
+        "d": "2026-05-01",
+        "m1": "46.0"
+      },
+      {
+        "p": {
+          "name": "The Mirage of Optimizing Training Policies: Monotonic Inference Policies as the Real Objective for LLM Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2606.29526"
+        },
+        "c": "",
+        "n": "Qwen3-4B (MIPU)",
+        "d": "2026-06-28",
+        "m1": "45.96"
+      },
+      {
+        "p": {
+          "name": "ReSPO: Reshaped Sequence Policy Optimization for Gradient Starvation in Off-Policy Learning",
+          "link": "https://arxiv.org/abs/2609.35433"
+        },
+        "c": "https://github.com/yhangchen/ReSPO-code",
+        "n": "ReSPO (Qwen3-30B-A3B-Base, N=16)",
+        "d": "2026-09-28",
+        "m1": "45.7"
+      },
+      {
+        "p": {
+          "name": "Selection Is Not Learning: Choosing Model Futures",
+          "link": "https://arxiv.org/abs/2610.22029"
+        },
+        "c": "",
+        "n": "EvoHeir (Qwen3-8B-Base)",
+        "d": "2026-10-15",
+        "m1": "45.22"
+      },
+      {
+        "p": {
+          "name": "Heterogeneous Agent Collaborative Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2603.02604"
+        },
+        "c": "",
+        "n": "Qwen3-4B-Instruct (HACPO)",
+        "d": "2026-03-03",
+        "m1": "45.2"
+      },
+      {
+        "p": {
+          "name": "Can LLMs Learn to Reason Robustly under Noisy Supervision?",
+          "link": "https://arxiv.org/abs/2604.03993"
+        },
+        "c": "https://github.com/ShenzhiYang2000/OLR",
+        "n": "Qwen3-4B-Base (with OLR)",
+        "d": "2026-04-05",
+        "m1": "44.9"
+      },
+      {
+        "p": {
+          "name": "GRAIL: Gradient-Reweighted Advantages for Reinforcement Learning with Verifiable Rewards",
+          "link": "https://arxiv.org/abs/2606.04889"
+        },
+        "c": "https://github.com/declare-lab/grail",
+        "n": "GRAIL (Qwen3-8B)",
+        "d": "2026-06-03",
+        "m1": "44.73"
+      },
+      {
+        "p": {
+          "name": "Towards Full Pipeline FP8 Reinforcement Learning for LLMs",
+          "link": "https://arxiv.org/abs/2609.22870"
+        },
+        "c": "",
+        "n": "Qwen3-8B-Base + Calibrated Clipping (Tensorwise FP8)",
+        "d": "2026-09-19",
+        "m1": "44.6"
+      },
+      {
+        "p": {
+          "name": "Figure It Out: Improving the Frontier of Reasoning with Active Visual Thinking",
+          "link": "https://arxiv.org/abs/2512.24297"
+        },
+        "c": "https://github.com/chenmeiqii/FIGR",
+        "n": "FigR",
+        "d": "2025-12-30",
+        "m1": "44.49"
+      },
+      {
+        "p": {
+          "name": "Rethinking Cross-Tokenizer On-Policy Distillation: From Alignment Coverage to Supervision Reliability",
+          "link": "https://arxiv.org/abs/2610.08448"
+        },
+        "c": "",
+        "n": "Strict top-16 (Qwen3-235B-A22B-Instruct-2507 -> Granite-4.1-8B)",
+        "d": "2026-10-06",
+        "m1": "44.11"
+      },
+      {
+        "p": {
+          "name": "Reasoning Palette: Modulating Reasoning via Latent Contextualization for Controllable Exploration for (V)LMs",
+          "link": "https://arxiv.org/abs/2512.17206"
+        },
+        "c": "",
+        "n": "Qwen3-8B-Base with Reasoning Palette (RLOO, Linear Decay)",
+        "d": "2025-12-19",
+        "m1": "43.77"
+      },
+      {
+        "p": {
+          "name": "ThreadWeaver: Adaptive Threading for Efficient Parallel Reasoning in Language Models",
+          "link": "https://arxiv.org/abs/2512.07843"
+        },
+        "c": "https://github.com/facebookresearch/threadweaver",
+        "n": "ThreadWeaver (Qwen3-8B)",
+        "d": "2025-11-24",
+        "m1": "43.7"
+      },
+      {
+        "p": {
+          "name": "Semifactual Credit-Augmented Policy Optimization",
+          "link": "https://arxiv.org/abs/2609.40360"
+        },
+        "c": "https://github.com/dtyxs/scapo",
+        "n": "SCAPO (Qwen3-4B-Base)",
+        "d": "2026-09-30",
+        "m1": "43.38"
+      },
+      {
+        "p": {
+          "name": "Recursive Think-Answer Process for LLMs and VLMs",
+          "link": "https://arxiv.org/abs/2603.02099"
+        },
+        "c": "",
+        "n": "R1-Distill-Qwen-7B-R-TAP",
+        "d": "2026-03-02",
+        "m1": "42.3"
+      },
+      {
+        "p": {
+          "name": "Your Group-Relative Advantage Is Biased",
+          "link": "https://arxiv.org/abs/2601.08521"
+        },
+        "c": "",
+        "n": "GSPO+HA-DW (Qwen-3-8B-Base)",
+        "d": "2026-01-13",
+        "m1": "41.9"
+      },
+      {
+        "p": {
+          "name": "Unlocking Token Rewards via Training-Free Reward Attribution",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Wu_Unlocking_Token_Rewards_via_Training-Free_Reward_Attribution_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "Qwen2.5-Math-7B + GRPO (P2T token reward) (extra data)",
+        "d": "2026-06-03",
+        "m1": "41.9"
+      },
+      {
+        "p": {
+          "name": "PretrainZero: Reinforcement Active Pretraining",
+          "link": "https://arxiv.org/abs/2512.03442"
+        },
+        "c": "",
+        "n": "PretrainZero (Qwen3-30B-A3B-MoE-Base)",
+        "d": "2025-12-03",
+        "m1": "41.2"
+      },
+      {
+        "p": {
+          "name": "Enabling Token-wise Importance Sampling in Off-Policy RLVR with Proximal KL Regularization",
+          "link": "https://arxiv.org/abs/2610.18738"
+        },
+        "c": "https://github.com/BiEchi/proximal-kl-core",
+        "n": "Proximal KL (Qwen3-4B-Base, off-policy, staleness 4, lr 5e-6)",
+        "d": "2026-10-13",
+        "m1": "40.44"
+      },
+      {
+        "p": {
+          "name": "From Imitation to Discrimination: Toward A Generalized Curriculum Advantage Mechanism Enhancing Cross-Domain Reasoning Tasks",
+          "link": "https://arxiv.org/abs/2512.02580"
+        },
+        "c": "",
+        "n": "REINFORCE++ (with CAPO) (Qwen2.5-7B-Math)",
+        "d": "2025-12-02",
+        "m1": "40.1"
+      },
+      {
+        "p": {
+          "name": "SPARK: Stepwise Process-Aware Rewards for Reference-Free Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2512.03244"
+        },
+        "c": "",
+        "n": "PRM-CoT (Process-Aware) (Qwen2.5-Math-7B)",
+        "d": "2025-12-02",
+        "m1": "40.1"
+      },
+      {
+        "p": {
+          "name": "Learning to Hint for Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2604.00698"
+        },
+        "c": "https://github.com/Andree-9/HiLL",
+        "n": "HiLL (Qwen2.5-7B-Instruct)",
+        "d": "2026-04-01",
+        "m1": "40.1"
+      },
+      {
+        "p": {
+          "name": "Small Generalizable Prompt Predictive Models Can Steer Efficient RL Post-Training of Large Reasoning Models",
+          "link": "https://arxiv.org/abs/2602.01970"
+        },
+        "c": "",
+        "n": "DSR-7B with GPS",
+        "d": "2026-02-02",
+        "m1": "39.7"
+      },
+      {
+        "p": {
+          "name": "TraPO: A Semi-Supervised Reinforcement Learning Framework for Boosting LLM Reasoning",
+          "link": "https://arxiv.org/abs/2512.13106"
+        },
+        "c": "https://github.com/ShenzhiYang2000/TRAPO",
+        "n": "Qwen2.5-Math-7B with TraPO (4K labels, 12K unlabeled)",
+        "d": "2025-12-15",
+        "m1": "39.3"
+      },
+      {
+        "p": {
+          "name": "The Master Key Hypothesis: Unlocking Cross-Model Capability Transfer via Linear Subspace Alignment",
+          "link": "https://arxiv.org/abs/2604.06377"
+        },
+        "c": "https://github.com/rishabbala/steering-vector-transfer",
+        "n": "Qwen3 (14B) + UNLOCK from 4B",
+        "d": "2026-04-07",
+        "m1": "39.2"
+      },
+      {
+        "p": {
+          "name": "Multiplex Thinking: Reasoning via Token-wise Branch-and-Merge",
+          "link": "https://arxiv.org/abs/2601.08808"
+        },
+        "c": "https://github.com/GMLR-Penn/Multiplex-Thinking",
+        "n": "Multiplex Thinking (DeepSeek-R1-Distill-Qwen-7B)",
+        "d": "2026-01-13",
+        "m1": "38.6"
+      },
+      {
+        "p": {
+          "name": "Coupled Variational Reinforcement Learning for Language Model General Reasoning",
+          "link": "https://arxiv.org/abs/2512.12576"
+        },
+        "c": "https://github.com/wenxueru/covrl",
+        "n": "Qwen3-14B with CoVRL",
+        "d": "2025-12-14",
+        "m1": "38.1"
+      },
+      {
+        "p": {
+          "name": "SPOT: Sparse Probing and Outcome Calibration for On-Policy Distillation",
+          "link": "https://arxiv.org/abs/2608.04419"
+        },
+        "c": "https://github.com/QuZikun/SPOT",
+        "n": "SPOT Qwen3-4B-Base",
+        "d": "2026-08-05",
+        "m1": "37.73"
+      },
+      {
+        "p": {
+          "name": "Recovering Reliable Supervision via Critique-Guided On-Policy Distillation",
+          "link": "https://arxiv.org/abs/2610.20572"
+        },
+        "c": "https://github.com/kzhao5/CriticOPD",
+        "n": "CriticOPD (Qwen3-1.7B-Non-Thinking)",
+        "d": "2026-10-14",
+        "m1": "37.44"
+      },
+      {
+        "p": {
+          "name": "Latent-MOPD: Latent Multi-Teacher On-Policy Distillation",
+          "link": "https://arxiv.org/abs/2610.02381"
+        },
+        "c": "https://github.com/fangzy96/latent-mopd",
+        "n": "Latent-MOPD (last 3)",
+        "d": "2026-10-01",
+        "m1": "36.3"
+      },
+      {
+        "p": {
+          "name": "Beyond Policy Rollouts: Embedding-Space Directional Exploration with Anchored Noise for LLM RLVR",
+          "link": "https://arxiv.org/abs/2610.16105"
+        },
+        "c": "",
+        "n": "EDEN (Qwen2.5-Math-7B)",
+        "d": "2026-10-12",
+        "m1": "36.03"
+      },
+      {
+        "p": {
+          "name": "Boosting Reinforcement Learning with Verifiable Rewards via Randomly Selected Few-Shot Guidance",
+          "link": "https://arxiv.org/abs/2605.15012"
+        },
+        "c": "https://github.com/KaiYan289/FEST",
+        "n": "FEST-GRPO",
+        "d": "2026-05-14",
+        "m1": "35.45"
+      },
+      {
+        "p": {
+          "name": "Guiding LLM Post-training Data Engineering with Model Internals from Sparse Autoencoders",
+          "link": "https://arxiv.org/abs/2605.27354"
+        },
+        "c": "",
+        "n": "Qwen2.5-Math-7B (SaeRL, GRPO)",
+        "d": "2026-05-26",
+        "m1": "35.4"
+      },
+      {
+        "p": {
+          "name": "Rethinking Training-Inference Mismatch in LLM Reinforcement Learning: Where It Arises and How to Correct It",
+          "link": "https://arxiv.org/abs/2609.32444"
+        },
+        "c": "https://github.com/kzhao5/CIS-RL",
+        "n": "Qwen3-30B-A3B + CIS",
+        "d": "2026-09-26",
+        "m1": "34.31"
+      },
+      {
+        "p": {
+          "name": "On-policy Distillation with Verifiable Reward",
+          "link": "https://arxiv.org/abs/2608.24696"
+        },
+        "c": "https://github.com/LeapLabTHU/OPDVR",
+        "n": "OPDVR (Qwen3-4B)",
+        "d": "2026-08-25",
+        "m1": "33.2"
+      },
+      {
+        "p": {
+          "name": "RISE: Recursive Improvement via Self-Extrapolating Policy Distillation",
+          "link": "https://arxiv.org/abs/2609.05295"
+        },
+        "c": "",
+        "n": "RISE (weight,Qwen3-8B)",
+        "d": "2026-09-04",
+        "m1": "32.6"
+      },
+      {
+        "p": {
+          "name": "Where the Model Changes Its Mind: Hindsight-Divergence Localization for Efficient Reinforcement Learning with Verifiable Rewards",
+          "link": "https://arxiv.org/abs/2609.36864"
+        },
+        "c": "",
+        "n": "HDL (Qwen3-8B)",
+        "d": "2026-09-29",
+        "m1": "32.49"
+      },
+      {
+        "p": {
+          "name": "Normalized Low-Rank Adaptation",
+          "link": "https://arxiv.org/abs/2608.31036"
+        },
+        "c": "https://github.com/Joluck/NoRA",
+        "n": "DS-R1-Distill-Qwen1.5B NoRA",
+        "d": "2026-08-31",
+        "m1": "32"
+      },
+      {
+        "p": {
+          "name": "Low-rank Optimization Trajectories Modeling for LLM RLVR Acceleration",
+          "link": "https://arxiv.org/abs/2604.11446"
+        },
+        "c": "https://github.com/RUCAIBox/NExt",
+        "n": "Qwen2.5-14B-Instruct with NExt",
+        "d": "2026-04-13",
+        "m1": "30.5"
+      },
+      {
+        "p": {
+          "name": "Rethinking RL for LLM Reasoning: It's Sparse Policy Selection, Not Capability Learning",
+          "link": "https://arxiv.org/abs/2605.06241"
+        },
+        "c": "https://github.com/farukakgul/ReasonMaxxer",
+        "n": "ReasonMaxxer (Qwen3-4B)",
+        "d": "2026-05-07",
+        "m1": "30.5"
+      },
+      {
+        "p": {
+          "name": "From P(y|x) to P(y): Investigating Reinforcement Learning in Pre-train Space",
+          "link": "https://arxiv.org/abs/2604.14142"
+        },
+        "c": "https://github.com/Trae1ounG/Pretrain_Space_RLVR",
+        "n": "DSRL (Qwen3-8B)",
+        "d": "2026-04-15",
+        "m1": "30.32"
+      },
+      {
+        "p": {
+          "name": "Spectral-Driven Adaptive-Rank Optimizer for Large Language Model Reinforcement Learning with Verifiable Rewards",
+          "link": "https://arxiv.org/abs/2610.16533"
+        },
+        "c": "https://github.com/rucaibox/ares",
+        "n": "Ares (Qwen3-8B-Base)",
+        "d": "2026-10-12",
+        "m1": "29.4"
+      },
+      {
+        "p": {
+          "name": "Adaptive Ability Decomposing for Unlocking Large Reasoning Model Effective Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2602.00759"
+        },
+        "c": "",
+        "n": "A2D (Qwen2.5-7B-Instruct)",
+        "d": "2026-01-31",
+        "m1": "28.9"
+      },
+      {
+        "p": {
+          "name": "Learn What's Left, Not What's Mastered: Saturation Aware Advantage Reweighting for Multi-Reward Policy Optimization",
+          "link": "https://arxiv.org/abs/2608.16072"
+        },
+        "c": "",
+        "n": "Qwen2.5-7B-Instruct with SA-MRPO (3 objectives) (extra data)",
+        "d": "2026-08-17",
+        "m1": "24.8"
+      },
+      {
+        "p": {
+          "name": "RelayLLM: Efficient Reasoning via Collaborative Decoding",
+          "link": "https://arxiv.org/abs/2601.05167"
+        },
+        "c": "https://github.com/Chengsong-Huang/RelayLLM",
+        "n": "Qwen3-0.6B (RelayLLM Difficulty-Aware-Reward)",
+        "d": "2026-01-08",
+        "m1": "23.53"
+      },
+      {
+        "p": {
+          "name": "FlashREINFORCE: Critic-Free Single-Rollout Asynchronous RL for Agentic Language Models",
+          "link": "https://yifanzhang-pro.github.io/FlashREINFORCE/FlashREINFORCE.pdf"
+        },
+        "c": "https://github.com/NVIDIA-NeMo/labs-molt",
+        "n": "FlashREINFORCE (Qwen2.5-Math-1.5B)",
+        "d": "2026-09-14",
+        "m1": "22.8"
+      },
+      {
+        "p": {
+          "name": "Rationale-Guided Policy Optimization: Learning to Reason with Adaptive Rationale Scaffolding",
+          "link": "https://arxiv.org/abs/2610.07342"
+        },
+        "c": "https://github.com/VietHoang1512/rgpo",
+        "n": "RGPO",
+        "d": "2026-10-05",
+        "m1": "22.1"
+      },
+      {
+        "p": {
+          "name": "Self-Play Search Distillation for Large Language Model Reasoning",
+          "link": "https://arxiv.org/abs/2609.30936"
+        },
+        "c": "",
+        "n": "SPSD-Qwen3-4B-Base (OPSD)",
+        "d": "2026-09-25",
+        "m1": "21.7"
+      },
+      {
+        "p": {
+          "name": "OVD: On-policy Verbal Distillation",
+          "link": "https://arxiv.org/abs/2601.21968"
+        },
+        "c": "",
+        "n": "OVD (Qwen2.5-Math-1.5B, 2 random examples, 800 steps)",
+        "d": "2026-01-29",
+        "m1": "18.0"
+      },
+      {
+        "p": {
+          "name": "LastOPD: Taming Collapse in Latent On-Policy Distillation",
+          "link": "https://arxiv.org/abs/2609.28845"
+        },
+        "c": "https://github.com/Muyiiiii/LastOPD",
+        "n": "LastOPD (Qwen3-4B -> Qwen3-1.7B-Base)",
+        "d": "2026-09-23",
+        "m1": "17.74"
+      }
+    ]
+  }
+}

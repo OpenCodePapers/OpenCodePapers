@@ -36,6 +36,156 @@
     "items": [
       {
         "p": {
+          "name": "Killing Two Birds with One Stone:Efficient and Robust Training of Face Recognition CNNs by Partial FC",
+          "link": "https://arxiv.org/abs/2203.15565v1"
+        },
+        "c": "https://github.com/deepinsight/insightface",
+        "n": "WF42M, R200, PFC-0.3",
+        "d": "2022-03-28",
+        "m1": "99.51"
+      },
+      {
+        "p": {
+          "name": "TransFace: Calibrating Transformer Training for Face Recognition from a Data-Centric Perspective",
+          "link": "https://arxiv.org/abs/2308.10133"
+        },
+        "c": "https://github.com/danjun6737/transface",
+        "n": "TransFace-L (WebFace42M)",
+        "d": "2023-08-20",
+        "m1": "99.50"
+      },
+      {
+        "p": {
+          "name": "Partial FC: Training 10 Million Identities on a Single Machine",
+          "link": "https://arxiv.org/abs/2010.05222v2"
+        },
+        "c": "https://github.com/deepinsight/insightface",
+        "n": "Partial FC ResNet100 + CosFace (Glint360K, r=1.0)",
+        "d": "2020-10-11",
+        "m1": "99.33"
+      },
+      {
+        "p": {
+          "name": "KeyPoint Relative Position Encoding for Face Recognition",
+          "link": "https://arxiv.org/abs/2403.14852"
+        },
+        "c": "https://github.com/mk-minchul/kprpe",
+        "n": "AdaFace ViT Base KP-RPE (WebFace12M)",
+        "d": "2024-03-21",
+        "m1": "99.30"
+      },
+      {
+        "p": {
+          "name": "AdaFace: Quality Adaptive Margin for Face Recognition",
+          "link": "https://arxiv.org/abs/2204.00964v2"
+        },
+        "c": "https://github.com/mk-minchul/adaface",
+        "n": "AdaFace R100 (WebFace4M)",
+        "d": "2022-04-03",
+        "m1": "99.17"
+      },
+      {
+        "p": {
+          "name": "Vision Transformers for Face Recognition Need More Registers",
+          "link": "https://arxiv.org/abs/2606.12036"
+        },
+        "c": "https://github.com/taharchettaoui/vit-fr-registers",
+        "n": "ViT-8R",
+        "d": "2026-06-10",
+        "m1": "99.17"
+      },
+      {
+        "p": {
+          "name": "Noise-Robust Face Recognition via Non-target Similarity Distribution Guided Sample Selection",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/5198"
+        },
+        "c": "",
+        "n": "Arc+DDLN (R100)",
+        "d": "2026-09-08",
+        "m1": "99.03"
+      },
+      {
+        "p": {
+          "name": "ArcFace: Additive Angular Margin Loss for Deep Face Recognition",
+          "link": "https://arxiv.org/abs/1801.07698v4"
+        },
+        "c": "https://github.com/deepinsight/insightface",
+        "n": "IBUG-500K, R100, ArcFace",
+        "d": "2018-01-23",
+        "m1": "98.87"
+      },
+      {
+        "p": {
+          "name": "Pose-invariant face recognition via feature-space pose frontalization",
+          "link": "https://arxiv.org/abs/2505.16412"
+        },
+        "c": "https://github.com/nikolaystanishev/feature-space-pose-frontalization",
+        "n": "FSPFM (ResNet50, fine-tuning + ADA)",
+        "d": "2025-05-22",
+        "m1": "98.67"
+      },
+      {
+        "p": {
+          "name": "Unified Negative Pair Generation toward Well-discriminative Feature Space for Face Recognition",
+          "link": "https://arxiv.org/abs/2203.11593v2"
+        },
+        "c": "https://github.com/tomas-gajarsky/facetorch",
+        "n": "ArcFace+UNPG",
+        "d": "2022-03-22",
+        "m1": "98.60"
+      },
+      {
+        "p": {
+          "name": "SwinFace: A Multi-task Transformer for Face Recognition, Expression Recognition, Age Estimation and Attribute Estimation",
+          "link": "https://arxiv.org/abs/2308.11509"
+        },
+        "c": "https://github.com/lxq1000/swinface",
+        "n": "SwinFace",
+        "d": "2023-08-22",
+        "m1": "98.60"
+      },
+      {
+        "p": {
+          "name": "MagFace: A Universal Representation for Face Recognition and Quality Assessment",
+          "link": "https://arxiv.org/abs/2103.06627v4"
+        },
+        "c": "https://github.com/IrvingMeng/MagFace",
+        "n": "MagFace",
+        "d": "2021-03-11",
+        "m1": "98.46"
+      },
+      {
+        "p": {
+          "name": "CurricularFace: Adaptive Curriculum Learning Loss for Deep Face Recognition",
+          "link": "https://arxiv.org/abs/2004.00288v1"
+        },
+        "c": "https://github.com/HuangYG123/CurricularFace",
+        "n": "CurricularFace (MS1MV2, ResNet100)",
+        "d": "2020-04-01",
+        "m1": "98.37"
+      },
+      {
+        "p": {
+          "name": "FaceLiVT: Face Recognition using Linear Vision Transformer with Structural Reparameterization For Mobile Device",
+          "link": "https://arxiv.org/abs/2506.10361"
+        },
+        "c": "",
+        "n": "FaceLiVT-M-(LA, 40 epochs)",
+        "d": "2025-06-12",
+        "m1": "97.2"
+      },
+      {
+        "p": {
+          "name": "SFace: Sigmoid-Constrained Hypersphere Loss for Robust Face Recognition",
+          "link": "https://arxiv.org/abs/2205.12010"
+        },
+        "c": "https://github.com/zhongyy/SFace",
+        "n": "SFace (CASIA-WebFace, ResNet50)",
+        "d": "2022-05-24",
+        "m1": "95.81"
+      },
+      {
+        "p": {
           "name": "GhostFaceNets: Lightweight Face Recognition Model From Cheap Operations",
           "link": "https://ieeexplore.ieee.org/document/10098610"
         },

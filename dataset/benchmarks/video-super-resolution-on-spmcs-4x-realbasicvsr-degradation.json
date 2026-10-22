@@ -1,0 +1,130 @@
+{
+  "title": "video-super-resolution-on-spmcs-4x-realbasicvsr-degradation",
+  "task-hierarchy": [
+    "Super-Resolution",
+    "Video Super-Resolution"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/jiangsutx/SPMC_VideoSR",
+    "paper": "Detail-revealing Deep Video Super-resolution"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "PSNR",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "SSIM",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "LPIPS",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Upscale-A-Video: Temporal-Consistent Diffusion Model for Real-World Video Super-Resolution",
+          "link": "https://arxiv.org/abs/2312.06640"
+        },
+        "c": "https://github.com/sczhou/upscale-a-video",
+        "n": "Upscale-A-Video",
+        "d": "2023-12-11",
+        "m1": "25.32",
+        "m2": "0.741",
+        "m3": "0.222"
+      },
+      {
+        "p": {
+          "name": "FlashVSR: Towards Real-Time Diffusion-Based Streaming Video Super-Resolution",
+          "link": "https://arxiv.org/abs/2510.12747"
+        },
+        "c": "https://github.com/openimaginglab/flashvsr",
+        "n": "FlashVSR (Tiny)",
+        "d": "2025-10-14",
+        "m1": "24.02",
+        "m2": "0.6450"
+      },
+      {
+        "p": {
+          "name": "DOVE: Efficient One-Step Diffusion Model for Real-World Video Super-Resolution",
+          "link": "https://arxiv.org/abs/2505.16239"
+        },
+        "c": "https://github.com/zhengchen1999/dove",
+        "n": "DOVE",
+        "d": "2025-05-22",
+        "m1": "23.11",
+        "m2": "0.6210",
+        "m3": "0.2888"
+      },
+      {
+        "p": {
+          "name": "SparkVSR: Interactive Video Super-Resolution via Sparse Keyframe Propagation",
+          "link": "https://arxiv.org/abs/2603.16864"
+        },
+        "c": "https://github.com/taco-group/SparkVSR",
+        "n": "SparkVSR (no reference)",
+        "d": "2026-03-17",
+        "m1": "23.04",
+        "m2": "0.6237",
+        "m3": "0.3139"
+      },
+      {
+        "p": {
+          "name": "SeedVR2: One-Step Video Restoration via Diffusion Adversarial Post-Training",
+          "link": "https://arxiv.org/abs/2506.05301"
+        },
+        "c": "https://github.com/bytedance-seed/seedvr",
+        "n": "SeedVR2-3B",
+        "d": "2025-06-05",
+        "m1": "22.97",
+        "m2": "0.646",
+        "m3": "0.306"
+      },
+      {
+        "p": {
+          "name": "SwiftVR: Real-Time One-Step Generative Video Restoration",
+          "link": "https://arxiv.org/abs/2606.09516"
+        },
+        "c": "https://github.com/H-oliday/SwiftVR",
+        "n": "SwiftVR",
+        "d": "2026-06-08",
+        "m1": "22.33",
+        "m2": "0.5742",
+        "m3": "0.2837"
+      },
+      {
+        "p": {
+          "name": "FlashVSR: Towards Real-Time Diffusion-Based Streaming Video Super-Resolution",
+          "link": "https://arxiv.org/abs/2510.12747"
+        },
+        "c": "https://github.com/openimaginglab/flashvsr",
+        "n": "FlashVSR (Full)",
+        "d": "2025-10-14",
+        "m3": "0.3436"
+      }
+    ]
+  }
+}

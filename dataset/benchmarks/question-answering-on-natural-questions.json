@@ -85,6 +85,16 @@
       },
       {
         "p": {
+          "name": "WHALE: A Simple Recipe for Joint Harness-Weight Optimization",
+          "link": "https://arxiv.org/abs/2609.00196"
+        },
+        "c": "https://github.com/krafton-ai/WHALE",
+        "n": "Qwen3.5-2B + WHALE (E0.6,I6)",
+        "d": "2026-08-31",
+        "m1": "55.5"
+      },
+      {
+        "p": {
           "name": "Leveraging Passage Retrieval with Generative Models for Open Domain Question Answering",
           "link": "https://arxiv.org/abs/2007.01282v2"
         },
@@ -112,6 +122,26 @@
         "n": "RankRAG-llama3-70b (Zero-Shot, KILT)",
         "d": "2024-07-02",
         "m1": "54.2"
+      },
+      {
+        "p": {
+          "name": "DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model",
+          "link": "https://arxiv.org/abs/2405.04434"
+        },
+        "c": "https://github.com/deepseek-ai/DeepSeek-V2",
+        "n": "DeepSeek-V2 Chat (RL) (5-shot)",
+        "d": "2024-05-07",
+        "m1": "53.4"
+      },
+      {
+        "p": {
+          "name": "AT^2PO: Agentic Turn-based Policy Optimization via Tree Search",
+          "link": "https://arxiv.org/abs/2601.04767"
+        },
+        "c": "https://github.com/zzfoutofspace/ATPO",
+        "n": "AT2PO (Qwen2.5-7B)",
+        "d": "2026-01-08",
+        "m1": "52.91"
       },
       {
         "p": {
@@ -145,6 +175,16 @@
       },
       {
         "p": {
+          "name": "Meta-Reinforcement Learning with Self-Reflection for Agentic Search",
+          "link": "https://arxiv.org/abs/2603.11327"
+        },
+        "c": "https://github.com/tengxiao1/MR-Search",
+        "n": "MR-Search (Qwen2.5-7B-Base)",
+        "d": "2026-03-11",
+        "m1": "50.2"
+      },
+      {
+        "p": {
           "name": "RankRAG: Unifying Context Ranking with Retrieval-Augmented Generation in LLMs",
           "link": "https://arxiv.org/abs/2407.02485v1"
         },
@@ -152,6 +192,16 @@
         "n": "RankRAG-llama3-70b (Zero-Shot, DPR)",
         "d": "2024-07-02",
         "m1": "50.0"
+      },
+      {
+        "p": {
+          "name": "DeepSeek LLM: Scaling Open-Source Language Models with Longtermism",
+          "link": "https://arxiv.org/abs/2401.02954"
+        },
+        "c": "https://github.com/deepseek-ai/deepseek-llm",
+        "n": "DeepSeek LLM 67B Chat",
+        "d": "2024-01-05",
+        "m1": "47.0"
       },
       {
         "p": {
@@ -165,6 +215,46 @@
       },
       {
         "p": {
+          "name": "SEED: Self-Evolving On-Policy Distillation for Agentic Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2607.14777"
+        },
+        "c": "https://github.com/jinyangwu/SEED",
+        "n": "SEED (Qwen2.5-7B-Instruct)",
+        "d": "2026-07-16",
+        "m1": "47.0"
+      },
+      {
+        "p": {
+          "name": "EVOKE: Eliciting World Knowledge in Agents for Transferable Decision-Making",
+          "link": "https://arxiv.org/abs/2609.38334"
+        },
+        "c": "https://github.com/Gnonymous/EVOKE",
+        "n": "EVOKE (Qwen2.5-7B-Instruct)",
+        "d": "2026-09-29",
+        "m1": "46.8"
+      },
+      {
+        "p": {
+          "name": "Shallow Prefill, Deep Decoding: Efficient Long-Context Inference via Layer-Asymmetric KV Visibility",
+          "link": "https://arxiv.org/abs/2605.06105"
+        },
+        "c": "",
+        "n": "OffShelf-FT-SPEED+BoS-24",
+        "d": "2026-05-07",
+        "m1": "46.4"
+      },
+      {
+        "p": {
+          "name": "T^2PO: Uncertainty-Guided Exploration Control for Stable Multi-Turn Agentic Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2605.02178"
+        },
+        "c": "https://github.com/WillDreamer/T2PO",
+        "n": "T2PO (Qwen3-4B-RFT)",
+        "d": "2026-05-04",
+        "m1": "46.13"
+      },
+      {
+        "p": {
           "name": "RankRAG: Unifying Context Ranking with Retrieval-Augmented Generation in LLMs",
           "link": "https://arxiv.org/abs/2407.02485v1"
         },
@@ -172,6 +262,16 @@
         "n": "RankRAG-llama3-8b (Zero-Shot, DPR)",
         "d": "2024-07-02",
         "m1": "46.1"
+      },
+      {
+        "p": {
+          "name": "Jamba: A Hybrid Transformer-Mamba Language Model",
+          "link": "https://arxiv.org/abs/2403.19887"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Jamba (5-shot)",
+        "d": "2024-03-28",
+        "m1": "45.9"
       },
       {
         "p": {
@@ -192,6 +292,16 @@
         "n": "code-davinci-002 175B + REPLUG LSR (few-shot)",
         "d": "2023-01-30",
         "m1": "45.5"
+      },
+      {
+        "p": {
+          "name": "Atlas: Orchestrating Heterogeneous Models and Tools for Multi-Domain Complex Reasoning",
+          "link": "https://arxiv.org/abs/2601.03872"
+        },
+        "c": "",
+        "n": "Atlas (RL) (pool extension)",
+        "d": "2026-01-07",
+        "m1": "45.3"
       },
       {
         "p": {
@@ -225,6 +335,16 @@
       },
       {
         "p": {
+          "name": "Encoder-Decoder Gemma: Improving the Quality-Efficiency Trade-Off via Adaptation",
+          "link": "https://arxiv.org/abs/2504.06225"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "T5Gemma 9B-9B PrefixLM",
+        "d": "2025-04-08",
+        "m1": "43.1"
+      },
+      {
+        "p": {
           "name": "ChatQA: Surpassing GPT-4 on Conversational QA and RAG",
           "link": "https://arxiv.org/abs/2401.10225v5"
         },
@@ -245,6 +365,16 @@
       },
       {
         "p": {
+          "name": "Agentic-R: Learning to Retrieve for Agentic Search",
+          "link": "https://arxiv.org/abs/2601.11888"
+        },
+        "c": "https://github.com/8421BCD/Agentic-R",
+        "n": "Agentic-R",
+        "d": "2026-01-17",
+        "m1": "42.43"
+      },
+      {
+        "p": {
           "name": "Atlas: Few-shot Learning with Retrieval Augmented Language Models",
           "link": "https://arxiv.org/abs/2208.03299v3"
         },
@@ -252,6 +382,26 @@
         "n": "Atlas (few-shot, k=64, Wiki-dec-2021+CC index)",
         "d": "2022-08-05",
         "m1": "42.4"
+      },
+      {
+        "p": {
+          "name": "Demystifying Reinforcement Learning for Long-Horizon Tool-Using Agents: A Comprehensive Recipe",
+          "link": "https://arxiv.org/abs/2603.21972"
+        },
+        "c": "https://github.com/WxxShirley/Agent-STAR",
+        "n": "Qwen2.5-Instruct (7B) + STAR (Macro reward)",
+        "d": "2026-03-23",
+        "m1": "42.2"
+      },
+      {
+        "p": {
+          "name": "Dr. Zero: Self-Evolving Search Agents without Training Data",
+          "link": "https://arxiv.org/abs/2601.07055"
+        },
+        "c": "https://github.com/facebookresearch/drzero",
+        "n": "Dr. Zero (Qwen2.5-7B-Instruct)",
+        "d": "2026-01-11",
+        "m1": "41.6"
       },
       {
         "p": {
@@ -295,6 +445,16 @@
       },
       {
         "p": {
+          "name": "InternVL3: Exploring Advanced Training and Test-Time Recipes for Open-Source Multimodal Models",
+          "link": "https://arxiv.org/abs/2504.10479"
+        },
+        "c": "https://github.com/OpenGVLab/InternVL",
+        "n": "InternVL3-78B",
+        "d": "2025-04-14",
+        "m1": "39.0"
+      },
+      {
+        "p": {
           "name": "PaLM 2 Technical Report",
           "link": "https://arxiv.org/abs/2305.10403v3"
         },
@@ -302,6 +462,16 @@
         "n": "PaLM 2-L (one-shot)",
         "d": "2023-05-17",
         "m1": "37.5"
+      },
+      {
+        "p": {
+          "name": "AdaTutoRank: Learning to Rerank Document Sets via Adaptive Tutoring Optimization for RAG and Deep Research",
+          "link": "https://arxiv.org/abs/2609.32472"
+        },
+        "c": "https://github.com/AdaTutoRank/AdaTutoRank",
+        "n": "AdaTutoRank (8B)",
+        "d": "2026-09-26",
+        "m1": "36.87"
       },
       {
         "p": {
@@ -322,6 +492,16 @@
         "n": "LLaMA 65B (few-shot, k=5)",
         "d": "2023-02-27",
         "m1": "35.0"
+      },
+      {
+        "p": {
+          "name": "Gemma 2: Improving Open Language Models at a Practical Size",
+          "link": "https://arxiv.org/abs/2408.00118"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Gemma 2 27B (5-shot)",
+        "d": "2024-07-31",
+        "m1": "34.5"
       },
       {
         "p": {
@@ -375,6 +555,16 @@
       },
       {
         "p": {
+          "name": "Mixtral of Experts",
+          "link": "https://arxiv.org/abs/2401.04088v1"
+        },
+        "c": "https://github.com/jingyaogong/minimind",
+        "n": "Mixtral 8x7B (5-shot)",
+        "d": "2024-01-08",
+        "m1": "30.6"
+      },
+      {
+        "p": {
           "name": "Language Models are Few-Shot Learners",
           "link": "https://arxiv.org/abs/2005.14165v4"
         },
@@ -395,6 +585,16 @@
       },
       {
         "p": {
+          "name": "olmOCR: Unlocking Trillions of Tokens in PDFs with Vision Language Models",
+          "link": "https://arxiv.org/abs/2502.18443"
+        },
+        "c": "https://github.com/allenai/olmocr",
+        "n": "OLMo-2-7B-1124 (olmOCR-peS2o)",
+        "d": "2025-02-25",
+        "m1": "29.1"
+      },
+      {
+        "p": {
           "name": "Mistral 7B",
           "link": "https://arxiv.org/abs/2310.06825v1"
         },
@@ -412,6 +612,16 @@
         "n": "Gopher (few-shot, k=64)",
         "d": "2021-12-08",
         "m1": "28.2"
+      },
+      {
+        "p": {
+          "name": "Gated DeltaNet-2: Decoupling Erase and Write in Linear Attention",
+          "link": "https://arxiv.org/abs/2605.22791"
+        },
+        "c": "https://github.com/nvlabs/gateddeltanet-2",
+        "n": "Gated DeltaNet-2 (1.3B)",
+        "d": "2026-05-21",
+        "m1": "26.31"
       },
       {
         "p": {
@@ -442,6 +652,16 @@
       },
       {
         "p": {
+          "name": "Knowledge Distillation During Mid-Training Favors Reasoning over Factual Recall",
+          "link": "https://arxiv.org/abs/2609.01532"
+        },
+        "c": "https://github.com/facebookresearch/midtraining-distillation",
+        "n": "Switch Distillation (1B; 7B teacher, q30% mid-training)",
+        "d": "2026-09-01",
+        "m1": "25.3"
+      },
+      {
+        "p": {
           "name": "LLaMA: Open and Efficient Foundation Language Models",
           "link": "https://arxiv.org/abs/2302.13971v1"
         },
@@ -452,6 +672,26 @@
       },
       {
         "p": {
+          "name": "Massive Activations in Hybrid Linear Attention Large Language Models: Pre-Attention Spikes and Inter-Spike Plateaus",
+          "link": "https://arxiv.org/abs/2608.12149"
+        },
+        "c": "https://github.com/startluxlabs/massive-activations-hla",
+        "n": "GDN 1.3B (3:1 hybrid, 50B tokens)",
+        "d": "2026-08-12",
+        "m1": "24.9"
+      },
+      {
+        "p": {
+          "name": "Gated Delta Networks: Improving Mamba2 with Delta Rule",
+          "link": "https://arxiv.org/abs/2412.06464"
+        },
+        "c": "https://github.com/nvlabs/gateddeltanet",
+        "n": "Gated DeltaNet-H2",
+        "d": "2024-12-09",
+        "m1": "24.8"
+      },
+      {
+        "p": {
           "name": "GLaM: Efficient Scaling of Language Models with Mixture-of-Experts",
           "link": "https://arxiv.org/abs/2112.06905v2"
         },
@@ -459,6 +699,46 @@
         "n": "GLaM 62B/64E (Zero-Shot)",
         "d": "2021-12-13",
         "m1": "24.7"
+      },
+      {
+        "p": {
+          "name": "Kalman Delta Networks: Uncertainty-aware Associative Memory",
+          "link": "https://arxiv.org/abs/2609.07816"
+        },
+        "c": "https://github.com/ngocbh/kalman-delta-networks",
+        "n": "Diagonal KDN (1.3B)",
+        "d": "2026-09-07",
+        "m1": "23.63"
+      },
+      {
+        "p": {
+          "name": "Moshi: a speech-text foundation model for real-time dialogue",
+          "link": "https://arxiv.org/abs/2410.00037"
+        },
+        "c": "https://github.com/kyutai-labs/moshi",
+        "n": "Helium",
+        "d": "2024-09-17",
+        "m1": "23.3"
+      },
+      {
+        "p": {
+          "name": "Gemma: Open Models Based on Gemini Research and Technology",
+          "link": "https://arxiv.org/abs/2403.08295"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Gemma 7B (5-shot)",
+        "d": "2024-03-13",
+        "m1": "23.0"
+      },
+      {
+        "p": {
+          "name": "RecurrentGemma: Moving Past Transformers for Efficient Open Language Models",
+          "link": "https://arxiv.org/abs/2404.07839"
+        },
+        "c": "https://github.com/google-deepmind/recurrentgemma",
+        "n": "RecurrentGemma-9B (5-shot)",
+        "d": "2024-04-11",
+        "m1": "21.7"
       },
       {
         "p": {
@@ -492,6 +772,16 @@
       },
       {
         "p": {
+          "name": "T5Gemma 2: Seeing, Reading, and Understanding Longer",
+          "link": "https://arxiv.org/abs/2512.14856"
+        },
+        "c": "",
+        "n": "T5Gemma 2 4B-4B",
+        "d": "2025-12-16",
+        "m1": "17.2"
+      },
+      {
+        "p": {
           "name": "Ask Me Anything: A simple strategy for prompting language models",
           "link": "https://arxiv.org/abs/2210.02441v3"
         },
@@ -499,6 +789,56 @@
         "n": "Neo-6B (Few-Shot)",
         "d": "2022-10-05",
         "m1": "13.7"
+      },
+      {
+        "p": {
+          "name": "Dynamic Linear Attention",
+          "link": "https://arxiv.org/abs/2606.10650"
+        },
+        "c": "",
+        "n": "Gated DeltaNet-1.3B w/ DLA",
+        "d": "2026-06-09",
+        "m1": "12.1"
+      },
+      {
+        "p": {
+          "name": "RecurrentGemma: Moving Past Transformers for Efficient Open Language Models",
+          "link": "https://arxiv.org/abs/2404.07839"
+        },
+        "c": "https://github.com/google-deepmind/recurrentgemma",
+        "n": "RecurrentGemma-2B (5-shot)",
+        "d": "2024-04-11",
+        "m1": "11.5"
+      },
+      {
+        "p": {
+          "name": "Scaling Laws for Looped Mixture of Experts",
+          "link": "https://arxiv.org/abs/2609.40316"
+        },
+        "c": "",
+        "n": "A0.3B-1.3B LoopMoE (R=5)",
+        "d": "2026-09-30",
+        "m1": "9.9"
+      },
+      {
+        "p": {
+          "name": "SmolLM2: When Smol Goes Big -- Data-Centric Training of a Small Language Model",
+          "link": "https://arxiv.org/abs/2502.02737"
+        },
+        "c": "https://github.com/huggingface/smollm",
+        "n": "SmolLM2 1.7B",
+        "d": "2025-02-04",
+        "m1": "8.7"
+      },
+      {
+        "p": {
+          "name": "Language Models are Unsupervised Multitask Learners",
+          "link": "https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "GPT-2",
+        "d": "2019-02-14",
+        "m1": "4.1"
       }
     ]
   }

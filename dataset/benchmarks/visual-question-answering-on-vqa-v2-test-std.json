@@ -86,6 +86,26 @@
       },
       {
         "p": {
+          "name": "BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models",
+          "link": "https://arxiv.org/abs/2301.12597v3"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "BLIP-2 ViT-g OPT 6.7B",
+        "d": "2023-01-30",
+        "m1": "82.30"
+      },
+      {
+        "p": {
+          "name": "GIT: A Generative Image-to-text Transformer for Vision and Language",
+          "link": "https://arxiv.org/abs/2205.14100v5"
+        },
+        "c": "https://github.com/microsoft/GenerativeImage2Text",
+        "n": "GIT2",
+        "d": "2022-05-27",
+        "m1": "81.92"
+      },
+      {
+        "p": {
           "name": "X$^2$-VLM: All-In-One Pre-trained Model For Vision-Language Tasks",
           "link": "https://arxiv.org/abs/2211.12402v2"
         },
@@ -169,6 +189,16 @@
       },
       {
         "p": {
+          "name": "BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation",
+          "link": "https://arxiv.org/abs/2201.12086v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "BLIP CapFilt-L",
+        "d": "2022-01-28",
+        "m1": "78.32"
+      },
+      {
+        "p": {
           "name": "VinVL: Revisiting Visual Representations in Vision-Language Models",
           "link": "https://arxiv.org/abs/2101.00529v2"
         },
@@ -228,6 +258,16 @@
         "m2": "90.83",
         "m3": "56.79",
         "m4": "65.24"
+      },
+      {
+        "p": {
+          "name": "GLIPv2: Unifying Localization and Vision-Language Understanding",
+          "link": "https://arxiv.org/abs/2206.05836v2"
+        },
+        "c": "https://github.com/microsoft/GLIP",
+        "n": "GLIPv2-H (fine-tuned)",
+        "d": "2022-06-12",
+        "m1": "74.8"
       },
       {
         "p": {

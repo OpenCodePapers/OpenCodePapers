@@ -1,0 +1,179 @@
+{
+  "title": "multimodal-reasoning-on-visulogic",
+  "task-hierarchy": [
+    "Visual Reasoning",
+    "Multimodal Reasoning"
+  ],
+  "dataset-info": {
+    "link": "https://visulogic-benchmark.github.io/VisuLogic",
+    "paper": "VisuLogic: A Benchmark for Evaluating Visual Reasoning in Multi-modal Large Language Models"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "STEP3-VL-10B Technical Report",
+          "link": "https://arxiv.org/abs/2601.09668"
+        },
+        "c": "https://github.com/stepfun-ai/Step3-VL-10B",
+        "n": "Step3-VL-10B (PaCoRe)",
+        "d": "2026-01-14",
+        "m1": "32.7"
+      },
+      {
+        "p": {
+          "name": "ERNIE 5.0 Technical Report",
+          "link": "https://arxiv.org/abs/2602.04705"
+        },
+        "c": "",
+        "n": "ERNIE 5.0",
+        "d": "2026-02-04",
+        "m1": "32.0"
+      },
+      {
+        "p": {
+          "name": "LongCat-Next: Lexicalizing Modalities as Discrete Tokens",
+          "link": "https://arxiv.org/abs/2603.27538"
+        },
+        "c": "https://github.com/meituan-longcat/LongCat-Next",
+        "n": "LongCat-Next (A3B, 68.5B)",
+        "d": "2026-03-29",
+        "m1": "29.4"
+      },
+      {
+        "p": {
+          "name": "Thinking in Uncertainty: Mitigating Hallucinations in MLRMs with Latent Entropy-Aware Decoding",
+          "link": "https://arxiv.org/abs/2603.13366"
+        },
+        "c": "https://github.com/mlrm-lead/mlrm-lead",
+        "n": "VL-Cogito-7B with LEAD",
+        "d": "2026-03-09",
+        "m1": "28.9"
+      },
+      {
+        "p": {
+          "name": "Generation as Auxiliary Supervision: Enhancing Visual Understanding at Zero Inference Overhead via Decoupled Embedding Prediction",
+          "link": "https://arxiv.org/abs/2608.12209"
+        },
+        "c": "",
+        "n": "GAS (2B)",
+        "d": "2026-08-12",
+        "m1": "28.6"
+      },
+      {
+        "p": {
+          "name": "Modality Gap-Driven Subspace Alignment Training Paradigm For Multimodal Large Language Models",
+          "link": "https://arxiv.org/abs/2602.07026"
+        },
+        "c": "https://github.com/Yu-xm/ReVision",
+        "n": "ReVision",
+        "d": "2026-02-02",
+        "m1": "27.7"
+      },
+      {
+        "p": {
+          "name": "LoopVL: Recurrent Visual Intelligence",
+          "link": "https://arxiv.org/abs/2609.38426"
+        },
+        "c": "https://github.com/Tier-Flow/LoopVL",
+        "n": "LoopVL-1B",
+        "d": "2026-09-29",
+        "m1": "27.0"
+      },
+      {
+        "p": {
+          "name": "MetaphorStar: Image Metaphor Understanding and Reasoning with End-to-End Visual Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2602.10575"
+        },
+        "c": "https://github.com/MING-ZCH/MetaphorStar",
+        "n": "MetaphorStar-7B",
+        "d": "2026-02-11",
+        "m1": "26.9"
+      },
+      {
+        "p": {
+          "name": "UVU: Improving Multimodal Understanding via Vision-Language Unified Autoregressive Paradigm",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Kan_UVU_Improving_Multimodal_Understanding_via_Vision-Language_Unified_Autoregressive_Paradigm_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "UVU 3B",
+        "d": "2026-06-03",
+        "m1": "26.4"
+      },
+      {
+        "p": {
+          "name": "Youtu-VL: Unleashing Visual Potential via Unified Vision-Language Supervision",
+          "link": "https://arxiv.org/abs/2601.19798"
+        },
+        "c": "https://github.com/TencentCloudADP/youtu-vl",
+        "n": "Youtu-VL (4B)",
+        "d": "2026-01-27",
+        "m1": "25.7"
+      },
+      {
+        "p": {
+          "name": "Kwai Keye-VL Technical Report",
+          "link": "https://arxiv.org/abs/2507.01949"
+        },
+        "c": "https://github.com/kwai-keye/keye",
+        "n": "Keye-VL-8B",
+        "d": "2025-07-02",
+        "m1": "25.6"
+      },
+      {
+        "p": {
+          "name": "Beyond Correctness: Benchmarking and Aligning Response Behaviors in Hybrid-Thinking MLLMs",
+          "link": "https://arxiv.org/abs/2608.12781"
+        },
+        "c": "",
+        "n": "Qwen3-VL-8B + PatternRL",
+        "d": "2026-08-17",
+        "m1": "25.38"
+      },
+      {
+        "p": {
+          "name": "Kwai Keye-VL 1.5 Technical Report",
+          "link": "https://arxiv.org/abs/2509.01563"
+        },
+        "c": "https://github.com/kwai-keye/keye",
+        "n": "Keye-VL-1.5-8B",
+        "d": "2025-09-01",
+        "m1": "23.1"
+      },
+      {
+        "p": {
+          "name": "VIVAS: Vitalizing Visual Perception in VLM Pre-training via Vision-language Unified Autoregressive Supervision",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/4767"
+        },
+        "c": "",
+        "n": "VIVAS",
+        "d": "2026-09-08",
+        "m1": "23.1"
+      }
+    ]
+  }
+}

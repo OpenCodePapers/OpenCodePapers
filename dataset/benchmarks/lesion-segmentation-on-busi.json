@@ -1,0 +1,109 @@
+{
+  "title": "lesion-segmentation-on-busi",
+  "task-hierarchy": [
+    "Medical Image Segmentation",
+    "Lesion Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://doi.org/10.1016/j.dib.2019.104863",
+    "paper": "Dataset of breast ultrasound images"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Dice",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "IoU",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "MedCAGD: Context-Aware Gated Decoder for Robust Medical Image Segmentation",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/4399"
+        },
+        "c": "https://github.com/saadwazir/medcagd",
+        "n": "MedCAGD",
+        "d": "2026-09-08",
+        "m1": "0.8347"
+      },
+      {
+        "p": {
+          "name": "AD-GBC: Anisotropic Granular-Ball Skip-Connection Refiner for UNet-Based Medical Image Segmentation",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Shen_AD-GBC_Anisotropic_Granular-Ball_Skip-Connection_Refiner_for_UNet-Based_Medical_Image_Segmentation_CVPR_2026_paper.html"
+        },
+        "c": "https://github.com/siashen-dot/ad-gbc",
+        "n": "U-KAN + AD-GBC",
+        "d": "2026-06-03",
+        "m1": "0.8212",
+        "m2": "0.6986"
+      },
+      {
+        "p": {
+          "name": "GeoSemba: Reconstructing State Space Model for Cross Paradigm Representation in Medical Image Segmentation",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Sun_GeoSemba_Reconstructing_State_Space_Model_for_Cross_Paradigm_Representation_in_CVPR_2026_paper.html"
+        },
+        "c": "https://github.com/mrliujunwen/geosemba",
+        "n": "GeoSemba",
+        "d": "2026-06-03",
+        "m1": "0.821",
+        "m2": "0.737"
+      },
+      {
+        "p": {
+          "name": "PMRNet: Physics-informed Multi-scale Refinement Network for Medical Image Segmentation",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Kang_PMRNet_Physics-informed_Multi-scale_Refinement_Network_for_Medical_Image_Segmentation_CVPR_2026_paper.html"
+        },
+        "c": "https://github.com/kangboce/pmrnet",
+        "n": "PMRNet",
+        "d": "2026-06-03",
+        "m1": "0.8188",
+        "m2": "0.7356"
+      },
+      {
+        "p": {
+          "name": "Take the Bull by the Horns: Learning to Segment Hard Samples",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Guo_Take_the_Bull_by_the_Horns_Learning_to_Segment_Hard_CVPR_2025_paper.html"
+        },
+        "c": "https://github.com/tqlyuangie/l2s",
+        "n": "L2S",
+        "d": "2025-06-11",
+        "m1": "0.8182",
+        "m2": "0.7327"
+      },
+      {
+        "p": {
+          "name": "LightMIS: Ultra-Lightweight Medical Image Segmentation Without a Stage-Wise Decoder",
+          "link": "https://arxiv.org/abs/2609.28327"
+        },
+        "c": "https://github.com/AndreiiArhire/LightMIS",
+        "n": "LightMIS",
+        "d": "2026-09-24",
+        "m1": "0.8016",
+        "m2": "0.7228"
+      }
+    ]
+  }
+}

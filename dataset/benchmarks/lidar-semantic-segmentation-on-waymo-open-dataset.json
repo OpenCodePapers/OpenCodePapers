@@ -1,0 +1,120 @@
+{
+  "title": "lidar-semantic-segmentation-on-waymo-open-dataset",
+  "task-hierarchy": [
+    "Semantic Segmentation",
+    "3D Semantic Segmentation",
+    "LIDAR Semantic Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://waymo.com/open/",
+    "paper": "Scalability in Perception for Autonomous Driving: Waymo Open Dataset"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mIoU",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Volume Transformer: Revisiting Vanilla Transformers for 3D Scene Understanding",
+          "link": "https://arxiv.org/abs/2604.19609"
+        },
+        "c": "https://github.com/yilmazkadir/volt",
+        "n": "Volt-B (extra data)",
+        "d": "2026-04-21",
+        "m1": "73.4"
+      },
+      {
+        "p": {
+          "name": "DINO in the Room: Leveraging 2D Foundation Models for 3D Segmentation",
+          "link": "https://arxiv.org/abs/2503.18944v1"
+        },
+        "c": "https://github.com/VisualComputingInstitute/DITR",
+        "n": "DITR (extra data)",
+        "d": "2025-03-24",
+        "m1": "73.3"
+      },
+      {
+        "p": {
+          "name": "LitePT: Lighter Yet Stronger Point Transformer",
+          "link": "https://arxiv.org/abs/2512.13689"
+        },
+        "c": "https://github.com/prs-eth/litept",
+        "n": "LitePT-S",
+        "d": "2025-12-15",
+        "m1": "73.1"
+      },
+      {
+        "p": {
+          "name": "vFusedSeg3D: 3rd Place Solution for 2024 Waymo Open Dataset Challenge in Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2408.15254"
+        },
+        "c": "",
+        "n": "vFusedSeg3D",
+        "d": "2024-08-09",
+        "m1": "72.46"
+      },
+      {
+        "p": {
+          "name": "Multi-Space Alignments Towards Universal LiDAR Segmentation",
+          "link": "https://arxiv.org/abs/2405.01538"
+        },
+        "c": "https://github.com/youquanl/m3net",
+        "n": "M3Net",
+        "d": "2024-05-02",
+        "m1": "72.4"
+      },
+      {
+        "p": {
+          "name": "Image-to-Point Cloud Feature Back-Projection for Multimodal Training of 3D Semantic Segmentation",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Han_Image-to-Point_Cloud_Feature_Back-Projection_for_Multimodal_Training_of_3D_Semantic_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "IPFP(PTv3)",
+        "d": "2026-06-03",
+        "m1": "72.4"
+      },
+      {
+        "p": {
+          "name": "Multi-Scale Neighborhood Occupancy Masked Autoencoder for Self-Supervised Learning in LiDAR Point Clouds",
+          "link": "https://arxiv.org/abs/2502.20316"
+        },
+        "c": "",
+        "n": "NOMAE",
+        "d": "2025-02-27",
+        "m1": "72.3"
+      },
+      {
+        "p": {
+          "name": "Point Transformer V3: Simpler, Faster, Stronger",
+          "link": "https://arxiv.org/abs/2312.10035v2"
+        },
+        "c": "https://github.com/Pointcept/Pointcept",
+        "n": "Point Transformer V3 + PPT (extra data)",
+        "d": "2023-12-15",
+        "m1": "72.1"
+      }
+    ]
+  }
+}

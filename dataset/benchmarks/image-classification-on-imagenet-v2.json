@@ -105,6 +105,26 @@
       },
       {
         "p": {
+          "name": "EVA-02: A Visual Representation for Neon Genesis",
+          "link": "https://arxiv.org/abs/2303.11331"
+        },
+        "c": "https://github.com/baaivision/eva",
+        "n": "EVA-02-L",
+        "d": "2023-03-20",
+        "m1": "82.4"
+      },
+      {
+        "p": {
+          "name": "EVA: Exploring the Limits of Masked Visual Representation Learning at Scale",
+          "link": "https://arxiv.org/abs/2211.07636v2"
+        },
+        "c": "https://github.com/rwightman/pytorch-image-models",
+        "n": "EVA",
+        "d": "2022-11-14",
+        "m1": "81.6"
+      },
+      {
+        "p": {
           "name": "MOAT: Alternating Mobile Convolution and Attention Brings Strong Vision Models",
           "link": "https://arxiv.org/abs/2210.01820v2"
         },
@@ -112,6 +132,16 @@
         "n": "MOAT-4 (IN-22K pretraining)",
         "d": "2022-10-04",
         "m1": "81.5"
+      },
+      {
+        "p": {
+          "name": "DINOv3",
+          "link": "https://arxiv.org/abs/2508.10104v1"
+        },
+        "c": "https://github.com/facebookresearch/dinov3",
+        "n": "DINOv3 (7B)",
+        "d": "2025-08-13",
+        "m1": "81.4"
       },
       {
         "p": {
@@ -125,6 +155,16 @@
       },
       {
         "p": {
+          "name": "CoCa: Contrastive Captioners are Image-Text Foundation Models",
+          "link": "https://arxiv.org/abs/2205.01917v2"
+        },
+        "c": "https://github.com/mlfoundations/open_clip",
+        "n": "CoCa",
+        "d": "2022-05-04",
+        "m1": "80.7"
+      },
+      {
+        "p": {
           "name": "MOAT: Alternating Mobile Convolution and Attention Brings Strong Vision Models",
           "link": "https://arxiv.org/abs/2210.01820v2"
         },
@@ -132,6 +172,36 @@
         "n": "MOAT-3 (IN-22K pretraining)",
         "d": "2022-10-04",
         "m1": "80.6"
+      },
+      {
+        "p": {
+          "name": "Perception Encoder: The best visual embeddings are not at the output of the network",
+          "link": "https://arxiv.org/abs/2504.13181v1"
+        },
+        "c": "https://github.com/facebookresearch/perception_models",
+        "n": "PE-Core G",
+        "d": "2025-04-17",
+        "m1": "80.2"
+      },
+      {
+        "p": {
+          "name": "MoE-ViE: Mixture of Experts Vision Encoder for Efficient Image and Video Understanding",
+          "link": "https://arxiv.org/abs/2608.17402"
+        },
+        "c": "https://github.com/facebookresearch/moe_vie",
+        "n": "MoE-ViE-H/14",
+        "d": "2026-08-18",
+        "m1": "80.0"
+      },
+      {
+        "p": {
+          "name": "SigLIP 2: Multilingual Vision-Language Encoders with Improved Semantic Understanding, Localization, and Dense Features",
+          "link": "https://arxiv.org/abs/2502.14786"
+        },
+        "c": "https://github.com/google-research/big_vision",
+        "n": "SigLIP 2 (g/16)",
+        "d": "2025-02-20",
+        "m1": "79.8"
       },
       {
         "p": {
@@ -145,12 +215,32 @@
       },
       {
         "p": {
+          "name": "CvT: Introducing Convolutions to Vision Transformers",
+          "link": "https://arxiv.org/abs/2103.15808v1"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "CvT-W24 384",
+        "d": "2021-03-29",
+        "m1": "78.8"
+      },
+      {
+        "p": {
           "name": "MOAT: Alternating Mobile Convolution and Attention Brings Strong Vision Models",
           "link": "https://arxiv.org/abs/2210.01820v2"
         },
         "c": "https://github.com/google-research/deeplab2",
         "n": "MOAT-1 (IN-22K pretraining)",
         "d": "2022-10-04",
+        "m1": "78.4"
+      },
+      {
+        "p": {
+          "name": "DINOv2: Learning Robust Visual Features without Supervision",
+          "link": "https://arxiv.org/abs/2304.07193v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "DINOv2 (ViT-g/14)",
+        "d": "2023-04-14",
         "m1": "78.4"
       },
       {
@@ -185,6 +275,26 @@
       },
       {
         "p": {
+          "name": "Sigmoid Loss for Language Image Pre-Training",
+          "link": "https://arxiv.org/abs/2303.15343"
+        },
+        "c": "https://github.com/google-research/big_vision",
+        "n": "SigLIP SO",
+        "d": "2023-03-27",
+        "m1": "77.2"
+      },
+      {
+        "p": {
+          "name": "Image Captioners Are Scalable Vision Learners Too",
+          "link": "https://arxiv.org/abs/2306.07915"
+        },
+        "c": "https://github.com/google-research/big_vision",
+        "n": "CapPa L/14 + MAP",
+        "d": "2023-06-13",
+        "m1": "76.8"
+      },
+      {
+        "p": {
           "name": "Going deeper with Image Transformers",
           "link": "https://arxiv.org/abs/2103.17239v2"
         },
@@ -205,6 +315,26 @@
       },
       {
         "p": {
+          "name": "Demystifying CLIP Data",
+          "link": "https://arxiv.org/abs/2309.16671"
+        },
+        "c": "https://github.com/facebookresearch/MetaCLIP",
+        "n": "MetaCLIP ViT-bigG/14",
+        "d": "2023-09-28",
+        "m1": "76.0"
+      },
+      {
+        "p": {
+          "name": "Training data-efficient image transformers & distillation through attention",
+          "link": "https://arxiv.org/abs/2012.12877v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "DeiT-B Distilled 384 (1000 epochs)",
+        "d": "2020-12-23",
+        "m1": "75.2"
+      },
+      {
+        "p": {
           "name": "ResMLP: Feedforward networks for image classification with data-efficient training",
           "link": "https://arxiv.org/abs/2105.03404v2"
         },
@@ -221,6 +351,16 @@
         "c": "https://github.com/rwightman/pytorch-image-models",
         "n": "ViT-B-36x1",
         "d": "2022-03-18",
+        "m1": "73.9"
+      },
+      {
+        "p": {
+          "name": "Sparse Autoencoders enable Robust and Interpretable Fine-tuning of CLIP models",
+          "link": "https://arxiv.org/abs/2605.15961"
+        },
+        "c": "https://github.com/Fabian-Mor/sae-ft",
+        "n": "SAE-FT (ViT-B/16)",
+        "d": "2026-05-15",
         "m1": "73.9"
       },
       {
@@ -245,6 +385,16 @@
       },
       {
         "p": {
+          "name": "Anchor-based Robust Finetuning of Vision-Language Models",
+          "link": "https://arxiv.org/abs/2404.06244"
+        },
+        "c": "",
+        "n": "ARF",
+        "d": "2024-04-09",
+        "m1": "72.8"
+      },
+      {
+        "p": {
           "name": "Distilling Out-of-Distribution Robustness from Vision-Language Foundation Models",
           "link": "https://arxiv.org/abs/2311.01441v2"
         },
@@ -262,6 +412,16 @@
         "n": "LeViT-384",
         "d": "2021-04-02",
         "m1": "71.4"
+      },
+      {
+        "p": {
+          "name": "Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision",
+          "link": "https://arxiv.org/abs/2102.05918v2"
+        },
+        "c": "https://github.com/facebookresearch/metaclip",
+        "n": "ALIGN (extra data)",
+        "d": "2021-02-11",
+        "m1": "70.1"
       },
       {
         "p": {
@@ -285,6 +445,16 @@
       },
       {
         "p": {
+          "name": "MobileCLIP: Fast Image-Text Models through Multi-Modal Reinforced Training",
+          "link": "https://arxiv.org/abs/2311.17049"
+        },
+        "c": "https://github.com/rwightman/pytorch-image-models",
+        "n": "MobileCLIP-B",
+        "d": "2023-11-28",
+        "m1": "69.8"
+      },
+      {
+        "p": {
           "name": "When Vision Transformers Outperform ResNets without Pre-training or Strong Data Augmentations",
           "link": "https://arxiv.org/abs/2106.01548v3"
         },
@@ -292,6 +462,36 @@
         "n": "ResNet-152x2-SAM",
         "d": "2021-06-03",
         "m1": "69.6"
+      },
+      {
+        "p": {
+          "name": "Multi-label Cluster Discrimination for Visual Representation Learning",
+          "link": "https://arxiv.org/abs/2407.17331v2"
+        },
+        "c": "https://github.com/deepglint/unicom",
+        "n": "MLCD ViT-L/14",
+        "d": "2024-07-24",
+        "m1": "68.9"
+      },
+      {
+        "p": {
+          "name": "Retaining Knowledge and Enhancing Long-Text Representations in CLIP through Dual-Teacher Distillation",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Feng_Retaining_Knowledge_and_Enhancing_Long-Text_Representations_in_CLIP_through_Dual-Teacher_CVPR_2025_paper.html"
+        },
+        "c": "",
+        "n": "LongD-CLIP (ViT-L/14) (extra data)",
+        "d": "2025-06-11",
+        "m1": "68.8"
+      },
+      {
+        "p": {
+          "name": "Designing Network Design Spaces",
+          "link": "https://arxiv.org/abs/2003.13678v1"
+        },
+        "c": "https://github.com/rwightman/pytorch-image-models",
+        "n": "RegNetY-8.0GF",
+        "d": "2020-03-30",
+        "m1": "68.7"
       },
       {
         "p": {
@@ -315,6 +515,16 @@
       },
       {
         "p": {
+          "name": "AltCLIP: Altering the Language Encoder in CLIP for Extended Language Capabilities",
+          "link": "https://arxiv.org/abs/2211.06679v2"
+        },
+        "c": "https://github.com/flagai-open/flagai",
+        "n": "AltCLIP",
+        "d": "2022-11-12",
+        "m1": "68.2"
+      },
+      {
+        "p": {
           "name": "LeViT: a Vision Transformer in ConvNet's Clothing for Faster Inference",
           "link": "https://arxiv.org/abs/2104.01136v2"
         },
@@ -332,6 +542,16 @@
         "n": "ViT-B/16-SAM",
         "d": "2021-06-03",
         "m1": "67.5"
+      },
+      {
+        "p": {
+          "name": "SmartCLIP: Modular Vision-language Alignment with Identification Guarantees",
+          "link": "https://arxiv.org/abs/2507.22264"
+        },
+        "c": "https://github.com/mid-push/smartclip",
+        "n": "SmartCLIP (ViT-L/14)",
+        "d": "2025-07-29",
+        "m1": "66.6"
       },
       {
         "p": {

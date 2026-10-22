@@ -55,6 +55,16 @@
       },
       {
         "p": {
+          "name": "AdaSR: Adaptive Streaming Reasoning with Hierarchical Relative Policy Optimization",
+          "link": "https://arxiv.org/abs/2606.14694"
+        },
+        "c": "https://github.com/EIT-NLP/StreamingLLM",
+        "n": "AdaSR-HRPO (Qwen3-4B)",
+        "d": "2026-06-12",
+        "m1": "80.7"
+      },
+      {
+        "p": {
           "name": "RankRAG: Unifying Context Ranking with Retrieval-Augmented Generation in LLMs",
           "link": "https://arxiv.org/abs/2407.02485v1"
         },
@@ -62,6 +72,16 @@
         "n": "RankRAG-llama3-70B (Zero-Shot)",
         "d": "2024-07-02",
         "m1": "79.8"
+      },
+      {
+        "p": {
+          "name": "ClinFusion: A Vision-Centric Multimodal LLM System for Holistic Medical Understanding",
+          "link": "https://arxiv.org/abs/2607.24743"
+        },
+        "c": "https://github.com/alibaba-damo-academy/ClinFusion",
+        "n": "ClinFusion-32B + Agentic tools",
+        "d": "2026-07-27",
+        "m1": "79.7"
       },
       {
         "p": {
@@ -82,6 +102,16 @@
         "n": "Flan-PaLM (540B, Few-shot)",
         "d": "2022-12-26",
         "m1": "79"
+      },
+      {
+        "p": {
+          "name": "MetaRubric: Learning to Reward for Rubric-Based Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2610.02824"
+        },
+        "c": "https://github.com/metarubric/metarubric",
+        "n": "MetaRubric (Qwen3-4B)",
+        "d": "2026-10-02",
+        "m1": "78.4"
       },
       {
         "p": {
@@ -121,6 +151,16 @@
         "c": "https://github.com/ibm-self-serve-assets/metagen-blended-rag",
         "n": "MetaGen Blended RAG (zero-shot)",
         "d": "2025-05-23",
+        "m1": "77.9"
+      },
+      {
+        "p": {
+          "name": "Meissa: Multi-modal Medical Agentic Intelligence",
+          "link": "https://arxiv.org/abs/2603.09018"
+        },
+        "c": "https://github.com/Schuture/Meissa",
+        "n": "Meissa (4B)",
+        "d": "2026-03-09",
         "m1": "77.9"
       },
       {
@@ -182,6 +222,16 @@
         "n": "Claude 3 Opus (5-shot)",
         "d": "2024-03-04",
         "m1": "75.8"
+      },
+      {
+        "p": {
+          "name": "Medic-AD: Towards Medical Vision-Language Model's Clinical Intelligence",
+          "link": "https://arxiv.org/abs/2603.27176"
+        },
+        "c": "https://github.com/aidaslab/medic-ad",
+        "n": "MEDIC-AD",
+        "d": "2026-03-28",
+        "m1": "75.6"
       },
       {
         "p": {
@@ -285,6 +335,26 @@
       },
       {
         "p": {
+          "name": "MedGemma 1.5 Technical Report",
+          "link": "https://arxiv.org/abs/2604.05081"
+        },
+        "c": "https://github.com/google-health/medgemma",
+        "n": "MedGemma 1.5 4B",
+        "d": "2026-04-06",
+        "m1": "67.6"
+      },
+      {
+        "p": {
+          "name": "QuCo-RAG: Quantifying Uncertainty from the Pre-training Corpus for Dynamic Retrieval-Augmented Generation",
+          "link": "https://arxiv.org/abs/2512.19134"
+        },
+        "c": "https://github.com/ZhishanQ/QuCo-RAG",
+        "n": "QuCo-RAG (OLMo-2-7B)",
+        "d": "2025-12-22",
+        "m1": "66.4"
+      },
+      {
+        "p": {
           "name": "BioELECTRA:Pretrained Biomedical text Encoder using Discriminators",
           "link": "https://aclanthology.org/2021.bionlp-1.16"
         },
@@ -295,6 +365,16 @@
       },
       {
         "p": {
+          "name": "Eliciting Medical Reasoning with Knowledge-enhanced Data Synthesis: A Semi-Supervised Reinforcement Learning Approach",
+          "link": "https://arxiv.org/abs/2604.11547"
+        },
+        "c": "https://github.com/tdlhl/MedSSR",
+        "n": "Llama-3.1-8B-Instruct + MedSSR",
+        "d": "2026-04-13",
+        "m1": "58.75"
+      },
+      {
+        "p": {
           "name": "Large Language Models Encode Clinical Knowledge",
           "link": "https://arxiv.org/abs/2212.13138v1"
         },
@@ -302,6 +382,16 @@
         "n": "PaLM (62B, Few-shot)",
         "d": "2022-12-26",
         "m1": "57.8"
+      },
+      {
+        "p": {
+          "name": "GPT-Neo: Large Scale Autoregressive Language Modeling with Mesh-Tensorflow",
+          "link": "https://zenodo.org/records/5297715"
+        },
+        "c": "https://github.com/eleutherai/gpt-neo",
+        "n": "GPT-Neo 2.7B",
+        "d": "2021-03-21",
+        "m1": "57.54"
       },
       {
         "p": {

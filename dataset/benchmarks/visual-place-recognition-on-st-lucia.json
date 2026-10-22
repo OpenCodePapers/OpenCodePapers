@@ -68,6 +68,17 @@
       },
       {
         "p": {
+          "name": "VLAD-BuFF: Burst-aware Fast Feature Aggregation for Visual Place Recognition",
+          "link": "https://arxiv.org/abs/2409.19293"
+        },
+        "c": "https://github.com/ahmedest61/vlad-buff",
+        "n": "VLAD-BuFF (PCA whitening,8192D)",
+        "d": "2024-09-28",
+        "m1": "100",
+        "m2": "100"
+      },
+      {
+        "p": {
           "name": "Focus on Local: Finding Reliable Discriminative Regions for Visual Place Recognition",
           "link": "https://arxiv.org/abs/2504.09881v1"
         },
@@ -92,6 +103,17 @@
       },
       {
         "p": {
+          "name": "Towards Implicit Aggregation: Robust Image Representation for Place Recognition in the Transformer Era",
+          "link": "https://arxiv.org/abs/2511.06024"
+        },
+        "c": "https://github.com/lu-feng/image",
+        "n": "ImAge (6144D, GSV-Cities)",
+        "d": "2025-11-08",
+        "m1": "99.9",
+        "m2": "100"
+      },
+      {
+        "p": {
           "name": "Towards Seamless Adaptation of Pre-trained Models for Visual Place Recognition",
           "link": "https://arxiv.org/abs/2402.14505v3"
         },
@@ -99,6 +121,16 @@
         "n": "SelaVPR",
         "d": "2024-02-22",
         "m1": "99.8"
+      },
+      {
+        "p": {
+          "name": "$R^{2}$Former: Unified $R$etrieval and $R$eranking Transformer for Place Recognition",
+          "link": "https://arxiv.org/abs/2304.03410"
+        },
+        "c": "https://github.com/bytedance/r2former",
+        "n": "R2Former (ViT-Small, MSLS-trained, top-100 reranking)",
+        "d": "2023-04-06",
+        "m1": "99.7"
       },
       {
         "p": {
@@ -123,6 +155,18 @@
       },
       {
         "p": {
+          "name": "EigenPlaces: Training Viewpoint Robust Models for Visual Place Recognition",
+          "link": "https://arxiv.org/abs/2308.10832v1"
+        },
+        "c": "https://github.com/stschubert/vpr_tutorial",
+        "n": "EigenPlaces (ResNet-50, 2048D)",
+        "d": "2023-08-21",
+        "m1": "99.6",
+        "m2": "99.9",
+        "m3": "100"
+      },
+      {
+        "p": {
           "name": "Rethinking Visual Geo-localization for Large-Scale Applications",
           "link": "https://arxiv.org/abs/2204.02287v2"
         },
@@ -131,6 +175,18 @@
         "d": "2022-04-05",
         "m1": "99.59",
         "m2": "99.9"
+      },
+      {
+        "p": {
+          "name": "Deep Homography Estimation for Visual Place Recognition",
+          "link": "https://arxiv.org/abs/2402.16086"
+        },
+        "c": "https://github.com/lu-feng/dhe-vpr",
+        "n": "DHE-VPR (jointly fine-tuned)",
+        "d": "2024-02-25",
+        "m1": "99.1",
+        "m2": "99.6",
+        "m3": "99.7"
       },
       {
         "p": {

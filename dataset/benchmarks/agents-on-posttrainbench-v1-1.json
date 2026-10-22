@@ -1,0 +1,178 @@
+{
+  "title": "agents-on-posttrainbench-v1-1",
+  "task-hierarchy": [
+    "Agents"
+  ],
+  "dataset-info": {
+    "link": "https://posttrainbench.com/",
+    "paper": "PostTrainBench: Can LLM Agents Automate LLM Post-Training?"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Gemini 4 Argon: our next era of frontier intelligence",
+          "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+        },
+        "c": "https://github.com/google-gemini/gemini-cli",
+        "n": "Gemini 4 Argon (OpenCode)",
+        "d": "2026-09-30",
+        "m1": "45.3"
+      },
+      {
+        "p": {
+          "name": "PostTrainBench Leaderboard",
+          "link": "https://posttrainbench.com"
+        },
+        "c": "https://github.com/anthropics/claude-code",
+        "n": "Claude Fable 5 (1M, Max) (Claude Code)",
+        "d": "2026-06-09",
+        "m1": "41.79"
+      },
+      {
+        "p": {
+          "name": "GLM-5.3: Frontier Coding with Emergent Cyber Capabilities",
+          "link": "https://z.ai/blog/glm-5.3"
+        },
+        "c": "https://github.com/zai-org/glm-5",
+        "n": "GLM-5.3 (Claude Code)",
+        "d": "2026-08-14",
+        "m1": "39.8"
+      },
+      {
+        "p": {
+          "name": "PostTrainBench Leaderboard",
+          "link": "https://posttrainbench.com"
+        },
+        "c": "https://github.com/openai/codex",
+        "n": "GPT-5.6 Sol (Max) (Codex CLI)",
+        "d": "2026-07-09",
+        "m1": "36.23"
+      },
+      {
+        "p": {
+          "name": "Hy4 preview",
+          "link": "https://github.com/Tencent-Hunyuan/Hy4-preview/blob/1296fab2674cb5a645ccfe53e9a8dc225dbe69f2/README.md"
+        },
+        "c": "https://github.com/tencent-hunyuan/hy4-preview",
+        "n": "Hy4 preview",
+        "d": "2026-08-28",
+        "m1": "35.6"
+      },
+      {
+        "p": {
+          "name": "PostTrainBench Leaderboard",
+          "link": "https://posttrainbench.com"
+        },
+        "c": "https://github.com/anthropics/claude-code",
+        "n": "Claude Opus 5 (Claude Code)",
+        "d": "2026-07-24",
+        "m1": "35.04"
+      },
+      {
+        "p": {
+          "name": "PostTrainBench Leaderboard",
+          "link": "https://posttrainbench.com"
+        },
+        "c": "",
+        "n": "Claude Opus 4.8 (High) (Claude Code)",
+        "d": "2026-05-28",
+        "m1": "33.84"
+      },
+      {
+        "p": {
+          "name": "PostTrainBench Leaderboard",
+          "link": "https://posttrainbench.com"
+        },
+        "c": "https://github.com/moonshotai/kimi-k3",
+        "n": "Kimi K3 (Claude Code)",
+        "d": "2026-07-27",
+        "m1": "31.96"
+      },
+      {
+        "p": {
+          "name": "PostTrainBench Leaderboard",
+          "link": "https://posttrainbench.com"
+        },
+        "c": "https://github.com/zai-org/GLM-5",
+        "n": "GLM-5.2 (Max) (Claude Code)",
+        "d": "2026-06-16",
+        "m1": "31.70"
+      },
+      {
+        "p": {
+          "name": "PostTrainBench Leaderboard",
+          "link": "https://posttrainbench.com"
+        },
+        "c": "",
+        "n": "Claude Opus 4.7 (xHigh) (Claude Code)",
+        "d": "2026-04-16",
+        "m1": "28.56"
+      },
+      {
+        "p": {
+          "name": "PostTrainBench Leaderboard",
+          "link": "https://posttrainbench.com"
+        },
+        "c": "",
+        "n": "GPT-5.5 (xHigh) (Codex CLI)",
+        "d": "2026-04-23",
+        "m1": "27.23"
+      },
+      {
+        "p": {
+          "name": "PostTrainBench Leaderboard",
+          "link": "https://posttrainbench.com"
+        },
+        "c": "",
+        "n": "Grok 4.5 (High) (Cursor CLI)",
+        "d": "2026-07-08",
+        "m1": "23.45"
+      },
+      {
+        "p": {
+          "name": "PostTrainBench Leaderboard",
+          "link": "https://posttrainbench.com"
+        },
+        "c": "",
+        "n": "Gemini 3.1 Pro (OpenCode)",
+        "d": "2026-02-19",
+        "m1": "21.99"
+      },
+      {
+        "p": {
+          "name": "PostTrainBench Leaderboard",
+          "link": "https://posttrainbench.com"
+        },
+        "c": "",
+        "n": "GPT-5.4 (High) (Codex CLI)",
+        "d": "2026-03-05",
+        "m1": "19"
+      }
+    ]
+  }
+}

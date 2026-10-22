@@ -1,0 +1,87 @@
+{
+  "title": "image-compression-on-imagenet-256x256-vae-reconstruction-f16",
+  "task-hierarchy": [
+    "Image Compression"
+  ],
+  "dataset-info": {
+    "link": "https://arxiv.org/abs/1409.0575",
+    "paper": "ImageNet Large Scale Visual Recognition Challenge"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "PSNR",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "SSIM",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Qwen-Image-VAE-2.0 Technical Report",
+          "link": "https://arxiv.org/abs/2605.13565"
+        },
+        "c": "https://github.com/alibaba/OmniDoc-TokenBench",
+        "n": "Qwen-Image-VAE-2.0-f16c128",
+        "d": "2026-05-13",
+        "m1": "35.90",
+        "m2": "0.9519"
+      },
+      {
+        "p": {
+          "name": "Unified Latent Space for Understanding and Generation via Semantic Auto-encoder",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Li_Unified_Latent_Space_for_Understanding_and_Generation_via_Semantic_Auto-encoder_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "S-AE",
+        "d": "2026-06-03",
+        "m1": "33.84",
+        "m2": "0.96"
+      },
+      {
+        "p": {
+          "name": "FLUX.2: Frontier Visual Intelligence",
+          "link": "https://bfl.ai/blog/flux-2"
+        },
+        "c": "https://github.com/black-forest-labs/flux2",
+        "n": "FLUX.2 VAE",
+        "d": "2025-11-25",
+        "m1": "31.4632",
+        "m2": "0.9038"
+      },
+      {
+        "p": {
+          "name": "Reconstruction vs. Generation: Taming Optimization Dilemma in Latent Diffusion Models",
+          "link": "https://arxiv.org/abs/2501.01423v2"
+        },
+        "c": "https://github.com/hustvl/LightningDiT",
+        "n": "VA-VAE-f16d32 (DINOv2)",
+        "d": "2025-01-02",
+        "m1": "27.96",
+        "m2": "0.79"
+      }
+    ]
+  }
+}

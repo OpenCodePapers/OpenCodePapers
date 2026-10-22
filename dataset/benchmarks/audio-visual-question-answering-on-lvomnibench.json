@@ -1,0 +1,89 @@
+{
+  "title": "audio-visual-question-answering-on-lvomnibench",
+  "task-hierarchy": [
+    "Audio Question Answering",
+    "Audio-visual Question Answering"
+  ],
+  "dataset-info": {
+    "link": "https://kd-tao.github.io/LVOmniBench/",
+    "paper": "LVOmniBench: Pioneering Long Audio-Video Understanding Evaluation for Omnimodal LLMs"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "LEAP: Learned Block-wise Evidence Retrieval for Long Audio-Video Perception",
+          "link": "https://arxiv.org/abs/2609.39938"
+        },
+        "c": "",
+        "n": "LEAP (extra data)",
+        "d": "2026-09-30",
+        "m1": "46.5"
+      },
+      {
+        "p": {
+          "name": "OmniReasoning: Pushing the Limits of Audio-Visual Joint Reasoning",
+          "link": "https://arxiv.org/abs/2609.39490"
+        },
+        "c": "https://github.com/PKU-VaLuE-Lab/OmniReasoning",
+        "n": "OmniReasoning-30B-A3B (extra data)",
+        "d": "2026-09-30",
+        "m1": "44.7"
+      },
+      {
+        "p": {
+          "name": "OmniSeek: Native Tool Integration for Multi-turn Audio-Visual Reasoning",
+          "link": "https://arxiv.org/abs/2610.02181"
+        },
+        "c": "",
+        "n": "OmniSeek (ours)",
+        "d": "2026-10-01",
+        "m1": "44.2"
+      },
+      {
+        "p": {
+          "name": "Realtime-Venus: A full-duplex interaction system with asynchronous delegation",
+          "link": "https://arxiv.org/abs/2609.13814"
+        },
+        "c": "",
+        "n": "Realtime-Venus-Omni",
+        "d": "2026-09-12",
+        "m1": "38.9"
+      },
+      {
+        "p": {
+          "name": "LatentOmni: Rethinking Omni-Modal Understanding via Unified Audio-Visual Latent Reasoning",
+          "link": "https://arxiv.org/abs/2605.22012"
+        },
+        "c": "https://github.com/yfanDai/LatentOmni",
+        "n": "LatentOmni",
+        "d": "2026-05-21",
+        "m1": "35.1"
+      }
+    ]
+  }
+}

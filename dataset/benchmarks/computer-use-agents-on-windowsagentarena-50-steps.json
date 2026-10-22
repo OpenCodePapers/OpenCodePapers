@@ -1,0 +1,159 @@
+{
+  "title": "computer-use-agents-on-windowsagentarena-50-steps",
+  "task-hierarchy": [
+    "Agents",
+    "Computer Use Agents"
+  ],
+  "dataset-info": {
+    "link": "https://microsoft.github.io/WindowsAgentArena/",
+    "paper": "Windows Agent Arena: Evaluating Multi-Modal OS Agents at Scale"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Success Rate",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "UI-Mate: Advancing Open-Weight Foundation GUI Agents with In-Context Demonstrations",
+          "link": "https://arxiv.org/abs/2608.15930"
+        },
+        "c": "https://github.com/Tencent/UI-Mate",
+        "n": "UI-Mate-27B",
+        "d": "2026-08-16",
+        "m1": "66.2"
+      },
+      {
+        "p": {
+          "name": "OS-Helix: Unifying GUI Interaction and Code Execution in Native Computer-Using Agents",
+          "link": "https://arxiv.org/abs/2610.22234"
+        },
+        "c": "https://github.com/OS-Copilot/OS-Helix",
+        "n": "OS-Helix-27B-RL",
+        "d": "2026-10-15",
+        "m1": "63.87"
+      },
+      {
+        "p": {
+          "name": "OS-Symphony: A Holistic Framework for Robust and Generalist Computer-Using Agent",
+          "link": "https://arxiv.org/abs/2601.07779"
+        },
+        "c": "https://github.com/OS-Copilot/OS-Symphony",
+        "n": "OS-Symphony w/ GPT-5",
+        "d": "2026-01-12",
+        "m1": "63.45"
+      },
+      {
+        "p": {
+          "name": "The Unreasonable Effectiveness of Scaling Agents for Computer Use",
+          "link": "https://arxiv.org/abs/2510.02250"
+        },
+        "c": "https://github.com/simular-ai/Agent-S/",
+        "n": "Agent S3 w/ bBoN (N=3) w/ GPT-5 (50-step)",
+        "d": "2025-10-02",
+        "m1": "54.1"
+      },
+      {
+        "p": {
+          "name": "UI-TARS-2 Technical Report: Advancing GUI Agent with Multi-Turn Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2509.02544"
+        },
+        "c": "https://github.com/bytedance/ui-tars",
+        "n": "UI-TARS-2",
+        "d": "2025-09-02",
+        "m1": "50.6"
+      },
+      {
+        "p": {
+          "name": "CoAct-1: Computer-using Multi-Agent System with Coding Actions",
+          "link": "https://arxiv.org/abs/2508.03923"
+        },
+        "c": "",
+        "n": "CoAct-1",
+        "d": "2025-08-05",
+        "m1": "43.5"
+      },
+      {
+        "p": {
+          "name": "UI-TARS: Pioneering Automated GUI Interaction with Native Agents",
+          "link": "https://arxiv.org/abs/2501.12326"
+        },
+        "c": "https://github.com/bytedance/ui-tars",
+        "n": "UI-TARS-1.5 (early access)",
+        "d": "2025-01-21",
+        "m1": "42.1"
+      },
+      {
+        "p": {
+          "name": "Recovering Policy-Induced Errors: Benchmarking and Trajectory Synthesis for Robust GUI Agents",
+          "link": "https://arxiv.org/abs/2605.29447"
+        },
+        "c": "https://github.com/AlibabaResearch/RoTS",
+        "n": "RoTS-32B",
+        "d": "2026-05-28",
+        "m1": "39.1"
+      },
+      {
+        "p": {
+          "name": "HybridCUA: Learning to Orchestrate GUI and CLI for Computer-Use Agents",
+          "link": "https://arxiv.org/abs/2609.38008"
+        },
+        "c": "https://github.com/ZJU-REAL/HybridCUA",
+        "n": "HybridCUA-9B",
+        "d": "2026-09-29",
+        "m1": "36.0"
+      },
+      {
+        "p": {
+          "name": "ToolCUA: Towards Optimal GUI-Tool Path Orchestration for Computer Use Agents",
+          "link": "https://arxiv.org/abs/2605.12481"
+        },
+        "c": "https://github.com/X-PLUG/ToolCUA",
+        "n": "ToolCUA-8B",
+        "d": "2026-05-12",
+        "m1": "33.8"
+      },
+      {
+        "p": {
+          "name": "Scaling Computer-Use Grounding via User Interface Decomposition and Synthesis",
+          "link": "https://arxiv.org/abs/2505.13227"
+        },
+        "c": "https://github.com/xlang-ai/osworld-g",
+        "n": "JEDI-7B w/ GPT-4o",
+        "d": "2025-05-19",
+        "m1": "32.8"
+      },
+      {
+        "p": {
+          "name": "ScaleCUA: Scaling Open-Source Computer Use Agents with Cross-Platform Data",
+          "link": "https://arxiv.org/abs/2509.15221"
+        },
+        "c": "https://github.com/OpenGVLab/ScaleCUA",
+        "n": "ScaleCUA-32B (50 steps)",
+        "d": "2025-09-18",
+        "m1": "24.2"
+      }
+    ]
+  }
+}

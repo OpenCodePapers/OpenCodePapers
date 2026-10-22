@@ -1,0 +1,88 @@
+{
+  "title": "audio-classification-on-vocalsound",
+  "task-hierarchy": [
+    "Audio Classification"
+  ],
+  "dataset-info": {
+    "link": "https://arxiv.org/abs/2205.03433",
+    "paper": "Vocalsound: A Dataset for Improving Human Vocal Sounds Recognition"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Qwen2-Audio Technical Report",
+          "link": "https://arxiv.org/abs/2407.10759"
+        },
+        "c": "https://github.com/qwenlm/qwen2-audio",
+        "n": "Qwen2-Audio",
+        "d": "2024-07-15",
+        "m1": "93.92"
+      },
+      {
+        "p": {
+          "name": "VideoLLaMA 2: Advancing Spatial-Temporal Modeling and Audio Understanding in Video-LLMs",
+          "link": "https://arxiv.org/abs/2406.07476v3"
+        },
+        "c": "https://github.com/damo-nlp-sg/videollama2",
+        "n": "VideoLLaMA 2-AV 7B",
+        "d": "2024-06-11",
+        "m1": "93.19"
+      },
+      {
+        "p": {
+          "name": "LongCat-Flash-Omni Technical Report",
+          "link": "https://arxiv.org/abs/2511.00279"
+        },
+        "c": "https://github.com/meituan-longcat/LongCat-Flash-Omni",
+        "n": "LongCat-Flash-Omni",
+        "d": "2025-10-31",
+        "m1": "92.76"
+      },
+      {
+        "p": {
+          "name": "ERNIE 5.0 Technical Report",
+          "link": "https://arxiv.org/abs/2602.04705"
+        },
+        "c": "",
+        "n": "ERNIE 5.0",
+        "d": "2026-02-04",
+        "m1": "90.73"
+      },
+      {
+        "p": {
+          "name": "LongCat-Next: Lexicalizing Modalities as Discrete Tokens",
+          "link": "https://arxiv.org/abs/2603.27538"
+        },
+        "c": "https://github.com/meituan-longcat/LongCat-Next",
+        "n": "LongCat-Next (A3B, 68.5B)",
+        "d": "2026-03-29",
+        "m1": "85.91"
+      }
+    ]
+  }
+}

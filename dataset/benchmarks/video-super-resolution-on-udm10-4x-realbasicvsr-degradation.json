@@ -1,0 +1,218 @@
+{
+  "title": "video-super-resolution-on-udm10-4x-realbasicvsr-degradation",
+  "task-hierarchy": [
+    "Super-Resolution",
+    "Video Super-Resolution"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/psychopa4/PFNL",
+    "paper": "Progressive Fusion Video Super-Resolution Network via Exploiting Non-Local Spatio-Temporal Correlations"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "PSNR",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "SSIM",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "DC-VSR: Spatially and Temporally Consistent Video Super-Resolution with Video Diffusion Prior",
+          "link": "https://arxiv.org/abs/2502.03502"
+        },
+        "c": "",
+        "n": "DC-VSR (alternating SAP/TAP)",
+        "d": "2025-02-05",
+        "m1": "28.71",
+        "m2": "0.8550"
+      },
+      {
+        "p": {
+          "name": "STCDiT: Spatio-Temporally Consistent Diffusion Transformer for High-Quality Video Super-Resolution",
+          "link": "https://arxiv.org/abs/2511.18786"
+        },
+        "c": "",
+        "n": "STCDiT-tiny (extra data)",
+        "d": "2025-11-24",
+        "m1": "28.59",
+        "m2": "0.8451"
+      },
+      {
+        "p": {
+          "name": "DAM-VSR: Disentanglement of Appearance and Motion for Video Super-Resolution",
+          "link": "https://arxiv.org/abs/2507.01012"
+        },
+        "c": "",
+        "n": "DAM-VSR (ResShift ISR) (extra data)",
+        "d": "2025-07-01",
+        "m1": "27.011",
+        "m2": "0.776"
+      },
+      {
+        "p": {
+          "name": "SparkVSR: Interactive Video Super-Resolution via Sparse Keyframe Propagation",
+          "link": "https://arxiv.org/abs/2603.16864"
+        },
+        "c": "https://github.com/taco-group/SparkVSR",
+        "n": "SparkVSR (no reference)",
+        "d": "2026-03-17",
+        "m1": "26.62",
+        "m2": "0.7756"
+      },
+      {
+        "p": {
+          "name": "DOVE: Efficient One-Step Diffusion Model for Real-World Video Super-Resolution",
+          "link": "https://arxiv.org/abs/2505.16239"
+        },
+        "c": "https://github.com/zhengchen1999/dove",
+        "n": "DOVE",
+        "d": "2025-05-22",
+        "m1": "26.48",
+        "m2": "0.7827"
+      },
+      {
+        "p": {
+          "name": "RealViformer: Investigating Attention for Real-World Video Super-Resolution",
+          "link": "https://arxiv.org/abs/2407.13987"
+        },
+        "c": "https://github.com/yuehan717/realviformer",
+        "n": "RealViformer",
+        "d": "2024-07-19",
+        "m1": "26.42",
+        "m2": "0.7609"
+      },
+      {
+        "p": {
+          "name": "SeedVR2: One-Step Video Restoration via Diffusion Adversarial Post-Training",
+          "link": "https://arxiv.org/abs/2506.05301"
+        },
+        "c": "https://github.com/bytedance-seed/seedvr",
+        "n": "SeedVR2-7B",
+        "d": "2025-06-05",
+        "m1": "26.26",
+        "m2": "0.798"
+      },
+      {
+        "p": {
+          "name": "Motion-Guided Latent Diffusion for Temporally Consistent Real-world Video Super-resolution",
+          "link": "https://arxiv.org/abs/2312.00853"
+        },
+        "c": "https://github.com/ianyeung/mgld-vsr",
+        "n": "MGLD-VSR",
+        "d": "2023-12-01",
+        "m1": "25.99",
+        "m2": "0.7548"
+      },
+      {
+        "p": {
+          "name": "Towards Redundancy Reduction in Diffusion Models for Efficient Video Super-Resolution",
+          "link": "https://arxiv.org/abs/2509.23980"
+        },
+        "c": "",
+        "n": "OASIS (extra data)",
+        "d": "2025-09-28",
+        "m1": "25.63",
+        "m2": "0.7579"
+      },
+      {
+        "p": {
+          "name": "SwiftVR: Real-Time One-Step Generative Video Restoration",
+          "link": "https://arxiv.org/abs/2606.09516"
+        },
+        "c": "https://github.com/H-oliday/SwiftVR",
+        "n": "SwiftVR",
+        "d": "2026-06-08",
+        "m1": "25.58",
+        "m2": "0.7659"
+      },
+      {
+        "p": {
+          "name": "DUO-VSR: Dual-Stream Distillation for One-Step Video Super-Resolution",
+          "link": "https://arxiv.org/abs/2603.22271"
+        },
+        "c": "",
+        "n": "DUO-VSR (extra data)",
+        "d": "2026-03-23",
+        "m1": "24.94",
+        "m2": "0.726"
+      },
+      {
+        "p": {
+          "name": "InfVSR: Breaking Length Limits of Generic Video Super-Resolution",
+          "link": "https://arxiv.org/abs/2510.00948"
+        },
+        "c": "",
+        "n": "InfVSR (extra data)",
+        "d": "2025-10-01",
+        "m1": "24.86",
+        "m2": "0.7274"
+      },
+      {
+        "p": {
+          "name": "Asymmetric VAE for One-Step Video Super-Resolution Acceleration",
+          "link": "https://arxiv.org/abs/2509.24142"
+        },
+        "c": "",
+        "n": "FastVSR (f8 encoder / f16 decoder) (extra data)",
+        "d": "2025-09-29",
+        "m1": "24.36",
+        "m2": "0.7184"
+      },
+      {
+        "p": {
+          "name": "LSGQuant: Layer-Sensitivity Guided Quantization for One-Step Diffusion Real-World Video Super-Resolution",
+          "link": "https://arxiv.org/abs/2602.03182"
+        },
+        "c": "",
+        "n": "LSGQuant W4A4 (extra data)",
+        "d": "2026-02-03",
+        "m1": "23.80",
+        "m2": "0.7130"
+      },
+      {
+        "p": {
+          "name": "DiffVSR: Enhancing Real-World Video Super-Resolution with Diffusion Models for Advanced Visual Quality and Temporal Consistency",
+          "link": "https://arxiv.org/abs/2501.10110"
+        },
+        "c": "",
+        "n": "DiffVSR (extra data)",
+        "d": "2025-01-17",
+        "m1": "23.181"
+      },
+      {
+        "p": {
+          "name": "LiteVSR: Lightweight Adaptation of Frozen Diffusion Transformers for Video Super-Resolution",
+          "link": "https://arxiv.org/abs/2606.09250"
+        },
+        "c": "",
+        "n": "LiteVSR (Wan2.2-5B, 5-step full-rank adapter) (extra data)",
+        "d": "2026-06-08",
+        "m1": "23.01"
+      }
+    ]
+  }
+}

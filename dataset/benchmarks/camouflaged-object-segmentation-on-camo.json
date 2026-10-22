@@ -46,6 +46,18 @@
     "items": [
       {
         "p": {
+          "name": "Beyond Appearance: Camouflaged Object Detection via Geometric Structure",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Han_Beyond_Appearance_Camouflaged_Object_Detection_via_Geometric_Structure_CVPR_2026_paper.html"
+        },
+        "c": "https://github.com/hjy0518/depthsam",
+        "n": "DepthSAM-L 512x512",
+        "d": "2026-06-03",
+        "m1": "0.919",
+        "m2": "0.906",
+        "m3": "0.028"
+      },
+      {
+        "p": {
           "name": "FOCUS: Towards Universal Foreground Segmentation",
           "link": "https://arxiv.org/abs/2501.05238v1"
         },
@@ -67,6 +79,18 @@
         "m1": "0.904",
         "m2": "0.890",
         "m3": "0.030"
+      },
+      {
+        "p": {
+          "name": "Iterative Refinement of Semantic and Spatial Representations for Open-Vocabulary Camouflaged Object Segmentation",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/5124"
+        },
+        "c": "",
+        "n": "ISSR",
+        "d": "2026-09-08",
+        "m1": "0.896",
+        "m2": "0.87",
+        "m3": "0.039"
       },
       {
         "p": {
@@ -222,6 +246,16 @@
         "d": "2023-07-26",
         "m2": "0.833",
         "m3": "0.0560"
+      },
+      {
+        "p": {
+          "name": "NUN: Nested Unfolding Network for Real-World Concealed Object Segmentation",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/3842"
+        },
+        "c": "https://github.com/chunminghe/nun",
+        "n": "NUN (DINOv2-L)",
+        "d": "2026-09-08",
+        "m3": "0.028"
       }
     ]
   }

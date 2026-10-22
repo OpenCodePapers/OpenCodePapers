@@ -131,6 +131,16 @@
       },
       {
         "p": {
+          "name": "Progressive Mask Distillation for Self-supervised Video Representation",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Wu_Progressive_Mask_Distillation_for_Self-supervised_Video_Representation_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "PMD 400e (ViT-L)",
+        "d": "2026-06-03",
+        "m1": "76.4"
+      },
+      {
+        "p": {
           "name": "Rethinking Video ViTs: Sparse Video Tubes for Joint Image and Video Learning",
           "link": "https://arxiv.org/abs/2212.03229v1"
         },
@@ -226,6 +236,16 @@
       },
       {
         "p": {
+          "name": "Test Time Training for Long Videos via Frame Forgetting Network",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/4271"
+        },
+        "c": "https://github.com/rajatmodi62/ffn",
+        "n": "FFN (Ours)",
+        "d": "2026-09-08",
+        "m1": "74.1"
+      },
+      {
+        "p": {
           "name": "MAR: Masked Autoencoders for Efficient Action Recognition",
           "link": "https://arxiv.org/abs/2207.11660v1"
         },
@@ -236,6 +256,16 @@
         "m2": "94.4",
         "m3": "311",
         "m4": "131x6"
+      },
+      {
+        "p": {
+          "name": "Enhanced Motion-Text Alignment for Image-to-Video Transfer Learning",
+          "link": "https://openaccess.thecvf.com/content/CVPR2024/html/Zhang_Enhanced_Motion-Text_Alignment_for_Image-to-Video_Transfer_Learning_CVPR_2024_paper.html"
+        },
+        "c": "",
+        "n": "MoTED (ViT-L/14, 32 frames)",
+        "d": "2024-06-17",
+        "m1": "73.8"
       },
       {
         "p": {
@@ -317,6 +347,26 @@
         "m1": "73.0",
         "m2": "94.5",
         "m4": "5154"
+      },
+      {
+        "p": {
+          "name": "InternVideo-Next: Towards General Video Foundation Models without Video-Text Supervision",
+          "link": "https://arxiv.org/abs/2512.01342"
+        },
+        "c": "",
+        "n": "InternVideo-Next (s2 Large)",
+        "d": "2025-12-01",
+        "m1": "73.0"
+      },
+      {
+        "p": {
+          "name": "Action Detail Matters: Refining Video Recognition with Local Action Queries",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Wang_Action_Detail_Matters_Refining_Video_Recognition_with_Local_Action_Queries_CVPR_2025_paper.html"
+        },
+        "c": "",
+        "n": "FocusVideo-L/14",
+        "d": "2025-06-11",
+        "m1": "72.9"
       },
       {
         "p": {
@@ -637,6 +687,26 @@
       },
       {
         "p": {
+          "name": "Align Before Adapt: Leveraging Entity-to-Region Alignments for Generalizable Video Action Recognition",
+          "link": "https://arxiv.org/abs/2311.15619"
+        },
+        "c": "",
+        "n": "ALT-B/16",
+        "d": "2023-11-27",
+        "m1": "68.6"
+      },
+      {
+        "p": {
+          "name": "Dr2Net: Dynamic Reversible Dual-Residual Networks for Memory-Efficient Finetuning",
+          "link": "https://arxiv.org/abs/2401.04105"
+        },
+        "c": "",
+        "n": "Dr2Net",
+        "d": "2024-01-08",
+        "m1": "68.6"
+      },
+      {
+        "p": {
           "name": "Multiview Transformers for Video Recognition",
           "link": "https://arxiv.org/abs/2201.04288v4"
         },
@@ -805,6 +875,16 @@
         "d": "2021-02-14",
         "m1": "67.4",
         "m2": "91"
+      },
+      {
+        "p": {
+          "name": "Language Model Beats Diffusion -- Tokenizer is Key to Visual Generation",
+          "link": "https://arxiv.org/abs/2310.05737v3"
+        },
+        "c": "https://github.com/jy0205/Pyramid-Flow",
+        "n": "MAGVIT-v2 + ViT-B (tokens as targets) (extra data)",
+        "d": "2023-10-09",
+        "m1": "67.38"
       },
       {
         "p": {
@@ -1194,6 +1274,16 @@
       },
       {
         "p": {
+          "name": "TouchScale: 500 Hours of Human Vision and Touch for Visual-Tactile Learning",
+          "link": "https://arxiv.org/abs/2610.10288"
+        },
+        "c": "https://github.com/phai-lab/touchscale",
+        "n": "TouchScale (Hiera-B, fine-tuned)",
+        "d": "2026-10-07",
+        "m1": "63.27"
+      },
+      {
+        "p": {
           "name": "Diverse Temporal Aggregation and Depthwise Spatiotemporal Factorization for Efficient Video Classification",
           "link": "https://arxiv.org/abs/2012.00317v3"
         },
@@ -1365,6 +1455,16 @@
         "n": "SVT",
         "d": "2021-12-02",
         "m1": "59.2"
+      },
+      {
+        "p": {
+          "name": "LoKi: Low-dimensional KAN for Efficient Fine-tuning Image Models",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Cai_LoKi_Low-dimensional_KAN_for_Efficient_Fine-tuning_Image_Models_CVPR_2025_paper.html"
+        },
+        "c": "",
+        "n": "LoKi(ViT)",
+        "d": "2025-06-11",
+        "m1": "56.3"
       },
       {
         "p": {

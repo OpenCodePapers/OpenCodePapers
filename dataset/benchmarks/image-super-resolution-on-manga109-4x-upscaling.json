@@ -144,6 +144,17 @@
       },
       {
         "p": {
+          "name": "Image Processing GNN: Breaking Rigidity in Super-Resolution",
+          "link": "http://openaccess.thecvf.com//content/CVPR2024/html/Tian_Image_Processing_GNN_Breaking_Rigidity_in_Super-Resolution_CVPR_2024_paper.html"
+        },
+        "c": "https://github.com/huawei-noah/Efficient-Computing",
+        "n": "IPG+",
+        "d": "2024-01-01",
+        "m1": "0.931",
+        "m2": "32.72"
+      },
+      {
+        "p": {
           "name": "Progressive Focused Transformer for Single Image Super-Resolution",
           "link": "https://arxiv.org/abs/2503.20337v1"
         },
@@ -151,6 +162,17 @@
         "n": "PFT",
         "d": "2025-03-26",
         "m1": "0.9306",
+        "m2": "32.63"
+      },
+      {
+        "p": {
+          "name": "CFAT: Unleashing Triangular Windows for Image Super-resolution",
+          "link": "http://openaccess.thecvf.com//content/CVPR2024/html/Ray_CFAT_Unleashing_Triangular_Windows_for_Image_Super-resolution_CVPR_2024_paper.html"
+        },
+        "c": "https://github.com/rayabhisek123/cfat",
+        "n": "CFAT",
+        "d": "2024-01-01",
+        "m1": "0.9305",
         "m2": "32.63"
       },
       {
@@ -218,6 +240,28 @@
         "d": "2024-12-28",
         "m1": "0.9284",
         "m2": "32.46"
+      },
+      {
+        "p": {
+          "name": "On Efficient Transformer-Based Image Pre-training for Low-Level Vision",
+          "link": "https://arxiv.org/abs/2112.10175v2"
+        },
+        "c": "https://github.com/fenglinglwb/edt",
+        "n": "EDT-B†",
+        "d": "2021-12-19",
+        "m1": "0.9283",
+        "m2": "32.39"
+      },
+      {
+        "p": {
+          "name": "Accurate Image Restoration with Attention Retractable Transformer",
+          "link": "https://arxiv.org/abs/2210.01427"
+        },
+        "c": "",
+        "n": "ART",
+        "d": "2022-10-04",
+        "m1": "0.9283",
+        "m2": "32.31"
       },
       {
         "p": {
@@ -483,6 +527,17 @@
       },
       {
         "p": {
+          "name": "SeD: Semantic-Aware Discriminator for Image Super-Resolution",
+          "link": "https://arxiv.org/abs/2402.19387"
+        },
+        "c": "https://github.com/lbc12345/sed",
+        "n": "SwinIR+U+SeD",
+        "d": "2024-02-29",
+        "m1": "0.898",
+        "m2": "30.58"
+      },
+      {
+        "p": {
           "name": "Lightweight Feature Fusion Network for Single Image Super-Resolution",
           "link": "http://arxiv.org/abs/1902.05694v2"
         },
@@ -603,6 +658,76 @@
         "n": "IMDN",
         "d": "2019-09-26",
         "m2": "30.45"
+      },
+      {
+        "p": {
+          "name": "Transcending the Limit of Local Window: Advanced Super-Resolution Transformer with Adaptive Token Dictionary",
+          "link": "https://arxiv.org/abs/2401.08209v2"
+        },
+        "c": "https://github.com/labshuhanggu/adaptive-token-dictionary",
+        "n": "ATD",
+        "d": "2024-01-16",
+        "m2": "32.62"
+      },
+      {
+        "p": {
+          "name": "UCAN: Unified Convolutional Attention Network for Expansive Receptive Fields in Lightweight Super-Resolution",
+          "link": "https://arxiv.org/abs/2603.11680"
+        },
+        "c": "",
+        "n": "UCAN-L",
+        "d": "2026-03-12",
+        "m2": "31.63"
+      },
+      {
+        "p": {
+          "name": "SAT: Selective Aggregation Transformer for Image Super-Resolution",
+          "link": "https://arxiv.org/abs/2604.07994"
+        },
+        "c": "https://github.com/phutran1005/sat",
+        "n": "SAT",
+        "d": "2026-04-09",
+        "m2": "32.85"
+      },
+      {
+        "p": {
+          "name": "Pixel to Gaussian: Ultra-Fast Continuous Super-Resolution with 2D Gaussian Modeling",
+          "link": "https://arxiv.org/abs/2503.06617"
+        },
+        "c": "",
+        "n": "ContinuousSR",
+        "d": "2025-03-09",
+        "m2": "32.19"
+      },
+      {
+        "p": {
+          "name": "WARP: Wide Attention with Rich Projections for Image Super-Resolution",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/4822"
+        },
+        "c": "",
+        "n": "WARP",
+        "d": "2026-09-08",
+        "m2": "32.73"
+      },
+      {
+        "p": {
+          "name": "ADD: Attribution-Driven Data Augmentation Framework for Boosting Image Super-Resolution",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Mi_ADD_Attribution-Driven_Data_Augmentation_Framework_for_Boosting_Image_Super-Resolution_CVPR_2025_paper.html"
+        },
+        "c": "",
+        "n": "SwinIR + ADD+",
+        "d": "2025-06-11",
+        "m2": "31.6"
+      },
+      {
+        "p": {
+          "name": "TSP-Mamba: The Travelling Salesman Problem Meets Mamba for Image Super-resolution and Beyond",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhou_TSP-Mamba_The_Travelling_Salesman_Problem_Meets_Mamba_for_Image_Super-resolution_CVPR_2025_paper.html"
+        },
+        "c": "",
+        "n": "TSP-Mamba",
+        "d": "2025-06-11",
+        "m2": "31.95"
       }
     ]
   }

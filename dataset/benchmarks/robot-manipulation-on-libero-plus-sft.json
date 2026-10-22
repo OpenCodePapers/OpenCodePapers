@@ -1,0 +1,79 @@
+{
+  "title": "robot-manipulation-on-libero-plus-sft",
+  "task-hierarchy": [
+    "Robotics",
+    "Robot Manipulation"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/sylvestf/LIBERO-plus",
+    "paper": "LIBERO-Plus: In-depth Robustness Analysis of Vision-Language-Action Models"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Success Rate",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "UniWAM: Unified World-Action Model",
+          "link": "https://arxiv.org/abs/2610.02054"
+        },
+        "c": "https://github.com/UniWAM/UniWAM",
+        "n": "UniWAM",
+        "d": "2026-10-01",
+        "m1": "92.6"
+      },
+      {
+        "p": {
+          "name": "ZimaBlue: Evolving Generalizable World Action Models through Scalable Video Pre-training",
+          "link": "https://arxiv.org/abs/2609.00188"
+        },
+        "c": "https://github.com/ZimaBlue-WAM/ZimaBlue",
+        "n": "ZimaBlue (Slow System)",
+        "d": "2026-08-31",
+        "m1": "92.0"
+      },
+      {
+        "p": {
+          "name": "ACoT-VLA: Action Chain-of-Thought for Vision-Language-Action Models",
+          "link": "https://arxiv.org/abs/2601.11404"
+        },
+        "c": "https://github.com/agibottech/acot-vla",
+        "n": "ACoT-VLA",
+        "d": "2026-01-16",
+        "m1": "88.0"
+      },
+      {
+        "p": {
+          "name": "Mimic Intent, Not Just Trajectories",
+          "link": "https://arxiv.org/abs/2602.08602"
+        },
+        "c": "https://github.com/RenMing-Huang/MINT",
+        "n": "MINT-4B+",
+        "d": "2026-03-28",
+        "m1": "84.1"
+      }
+    ]
+  }
+}

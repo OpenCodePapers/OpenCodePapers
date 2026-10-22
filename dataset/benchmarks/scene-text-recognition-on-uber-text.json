@@ -56,6 +56,16 @@
       },
       {
         "p": {
+          "name": "Decoder Pre-Training with only Text for Scene Text Recognition",
+          "link": "https://arxiv.org/abs/2408.05706"
+        },
+        "c": "https://github.com/topdu/openocr",
+        "n": "PARSeq + DPTR (real-data training) (extra data)",
+        "d": "2024-08-11",
+        "m1": "87.7"
+      },
+      {
+        "p": {
           "name": "CLIP4STR: A Simple Baseline for Scene Text Recognition with Pre-trained Vision-Language Model",
           "link": "https://arxiv.org/abs/2305.14014v4"
         },
@@ -63,6 +73,26 @@
         "n": "CLIP4STR-B",
         "d": "2023-05-23",
         "m1": "86.8"
+      },
+      {
+        "p": {
+          "name": "Scene Text Recognition with Permuted Autoregressive Sequence Models",
+          "link": "https://arxiv.org/abs/2207.06966v1"
+        },
+        "c": "https://github.com/topdu/openocr",
+        "n": "PARSeq-S A (real data, 36-char)",
+        "d": "2022-07-14",
+        "m1": "84.5"
+      },
+      {
+        "p": {
+          "name": "LISTER: Neighbor Decoding for Length-Insensitive Scene Text Recognition",
+          "link": "https://arxiv.org/abs/2308.12774"
+        },
+        "c": "https://github.com/alibabaresearch/advancedliteratemachinery",
+        "n": "LISTER-Bh",
+        "d": "2023-08-24",
+        "m1": "83.1"
       }
     ]
   }

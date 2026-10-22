@@ -120,6 +120,16 @@
       },
       {
         "p": {
+          "name": "Once-Tuning-Multiple-Variants: Tuning Once and Expanded as Multiple Vision-Language Model Variants",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Yu_Once-Tuning-Multiple-Variants_Tuning_Once_and_Expanded_as_Multiple_Vision-Language_Model_Variants_CVPR_2025_paper.html"
+        },
+        "c": "",
+        "n": "BEiT-3 (Large)-OTMV",
+        "d": "2025-06-11",
+        "m1": "97.3"
+      },
+      {
+        "p": {
           "name": "ERNIE-ViL 2.0: Multi-view Contrastive Learning for Image-Text Pre-training",
           "link": "https://arxiv.org/abs/2209.15270v1"
         },
@@ -177,6 +187,26 @@
       },
       {
         "p": {
+          "name": "DH-Set: Improving Vision-Language Alignment with Diverse and Hybrid Set-Embeddings Learning",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhang_DH-Set_Improving_Vision-Language_Alignment_with_Diverse_and_Hybrid_Set-Embeddings_Learning_CVPR_2025_paper.html"
+        },
+        "c": "",
+        "n": "DH-Set (CLIP-based ViT-large-384 + BERT-large)",
+        "d": "2025-06-11",
+        "m1": "96.3"
+      },
+      {
+        "p": {
+          "name": "MAFA: Managing False Negatives for Vision-Language Pre-training",
+          "link": "https://arxiv.org/abs/2312.06112"
+        },
+        "c": "https://github.com/jaeseokbyun/mafa",
+        "n": "COSMO (4M-Clean)",
+        "d": "2023-12-11",
+        "m1": "96.1"
+      },
+      {
+        "p": {
           "name": "Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision",
           "link": "https://arxiv.org/abs/2102.05918v2"
         },
@@ -189,6 +219,16 @@
         "m4": "84.9",
         "m5": "97.4",
         "m6": "98.6"
+      },
+      {
+        "p": {
+          "name": "CoV-Align: Efficient Fine-grained Cross-Modal Alignment with Cohesive Visual Semantics Priority",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Liu_CoV-Align_Efficient_Fine-grained_Cross-Modal_Alignment_with_Cohesive_Visual_Semantics_Priority_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "CoV-Align (Swin base-384 + BERT base)",
+        "d": "2026-06-03",
+        "m1": "90.2"
       },
       {
         "p": {
@@ -237,6 +277,16 @@
       },
       {
         "p": {
+          "name": "Linguistic-Aware Patch Slimming Framework for Fine-grained Cross-Modal Alignment",
+          "link": "https://openaccess.thecvf.com/content/CVPR2024/html/Fu_Linguistic-Aware_Patch_Slimming_Framework_for_Fine-grained_Cross-Modal_Alignment_CVPR_2024_paper.html"
+        },
+        "c": "https://github.com/crossmodalgroup/laps",
+        "n": "LAPS (Swin)",
+        "d": "2024-06-17",
+        "m1": "84.5"
+      },
+      {
+        "p": {
           "name": "ViLT: Vision-and-Language Transformer Without Convolution or Region Supervision",
           "link": "https://arxiv.org/abs/2102.03334v2"
         },
@@ -249,6 +299,16 @@
         "m4": "64.4",
         "m5": "88.7",
         "m6": "93.8"
+      },
+      {
+        "p": {
+          "name": "Composing Object Relations and Attributes for Image-Text Matching",
+          "link": "https://arxiv.org/abs/2406.11820"
+        },
+        "c": "https://github.com/vkhoi/cora_cvpr24",
+        "n": "CORA (Faster R-CNN + BERT, ensemble)",
+        "d": "2024-06-17",
+        "m1": "83.4"
       },
       {
         "p": {
@@ -290,6 +350,16 @@
         "d": "2023-01-07",
         "m1": "79.6",
         "m4": "60.0"
+      },
+      {
+        "p": {
+          "name": "Learning to Rematch Mismatched Pairs for Robust Cross-Modal Retrieval",
+          "link": "https://arxiv.org/abs/2403.05105v1"
+        },
+        "c": "https://github.com/hhc1997/l2rm",
+        "n": "L2RM-SGRAF",
+        "d": "2024-03-08",
+        "m1": "79.6"
       },
       {
         "p": {

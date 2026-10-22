@@ -1,0 +1,89 @@
+{
+  "title": "3d-instance-segmentation-on-scannet200-test",
+  "task-hierarchy": [
+    "Instance Segmentation",
+    "3D Instance Segmentation"
+  ],
+  "dataset-info": {
+    "link": "http://kaldir.vc.in.tum.de/scannet_benchmark/",
+    "paper": "Language-Grounded Indoor 3D Semantic Segmentation in the Wild"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AP50",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Volume Transformer: Revisiting Vanilla Transformers for 3D Scene Understanding",
+          "link": "https://arxiv.org/abs/2604.19609"
+        },
+        "c": "https://github.com/yilmazkadir/volt",
+        "n": "Volt-SPFormer",
+        "d": "2026-04-21",
+        "m1": "47.5"
+      },
+      {
+        "p": {
+          "name": "ODIN: A Single Model for 2D and 3D Segmentation",
+          "link": "https://arxiv.org/abs/2401.02416v3"
+        },
+        "c": "https://github.com/ayushjain1144/odin",
+        "n": "ODIN Swin-B",
+        "d": "2024-01-04",
+        "m1": "39.4"
+      },
+      {
+        "p": {
+          "name": "Mask3D: Mask Transformer for 3D Semantic Instance Segmentation",
+          "link": "https://arxiv.org/abs/2210.03105v2"
+        },
+        "c": "https://github.com/jonasschult/mask3d",
+        "n": "Mask3D",
+        "d": "2022-10-06",
+        "m1": "38.8"
+      },
+      {
+        "p": {
+          "name": "Language-Grounded Indoor 3D Semantic Segmentation in the Wild",
+          "link": "https://arxiv.org/abs/2204.07761v2"
+        },
+        "c": "https://github.com/RozDavid/LanguageGroundedSemseg",
+        "n": "LGround Inst.",
+        "d": "2022-04-16",
+        "m1": "24.6"
+      },
+      {
+        "p": {
+          "name": "Exploring Data-Efficient 3D Scene Understanding with Contrastive Scene Contexts",
+          "link": "https://arxiv.org/abs/2012.09165v3"
+        },
+        "c": "https://github.com/Pointcept/Pointcept",
+        "n": "CSC-Pretrain Inst.",
+        "d": "2020-12-16",
+        "m1": "20.9"
+      }
+    ]
+  }
+}

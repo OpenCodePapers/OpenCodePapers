@@ -1,0 +1,187 @@
+{
+  "title": "end-to-end-autonomous-driving-on-carla-town05-long",
+  "task-hierarchy": [
+    "Autonomous Driving",
+    "End-to-End Autonomous Driving"
+  ],
+  "dataset-info": {
+    "link": "https://arxiv.org/abs/2104.09224",
+    "paper": "Multi-Modal Fusion Transformer for End-to-End Autonomous Driving"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Driving Score",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Route Completion",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "VADv2: End-to-End Vectorized Autonomous Driving via Probabilistic Planning",
+          "link": "https://arxiv.org/abs/2402.13243v1"
+        },
+        "c": "https://github.com/hustvl/vad",
+        "n": "VADv2",
+        "d": "2024-02-20",
+        "m1": "85.1",
+        "m2": "98.4"
+      },
+      {
+        "p": {
+          "name": "Navigation-Guided Sparse Scene Representation for End-to-End Autonomous Driving",
+          "link": "https://arxiv.org/abs/2409.18341"
+        },
+        "c": "https://github.com/peidongli/ssr",
+        "n": "SSR",
+        "d": "2024-09-26",
+        "m1": "78.9",
+        "m2": "95.5"
+      },
+      {
+        "p": {
+          "name": "DriveMLM: Aligning Multi-Modal Large Language Models with Behavioral Planning States for Autonomous Driving",
+          "link": "https://arxiv.org/abs/2312.09245"
+        },
+        "c": "https://github.com/opengvlab/drivemlm",
+        "n": "DriveMLM",
+        "d": "2023-12-14",
+        "m1": "76.1",
+        "m2": "98.1"
+      },
+      {
+        "p": {
+          "name": "ReasonNet: End-to-End Driving with Temporal and Global Reasoning",
+          "link": "https://arxiv.org/abs/2305.10507v1"
+        },
+        "c": "",
+        "n": "ReasonNet",
+        "d": "2023-05-17",
+        "m1": "73.22",
+        "m2": "95.88"
+      },
+      {
+        "p": {
+          "name": "DriveAdapter: Breaking the Coupling Barrier of Perception and Planning in End-to-End Autonomous Driving",
+          "link": "https://arxiv.org/abs/2308.00398v2"
+        },
+        "c": "https://github.com/opendrivelab/driveadapter",
+        "n": "DriveAdapter + TCP (extra data)",
+        "d": "2023-08-01",
+        "m1": "71.9",
+        "m2": "97.3"
+      },
+      {
+        "p": {
+          "name": "Think Twice before Driving: Towards Scalable Decoders for End-to-End Autonomous Driving",
+          "link": "https://arxiv.org/abs/2305.06242v1"
+        },
+        "c": "https://github.com/opendrivelab/thinktwice",
+        "n": "ThinkTwice (extra data)",
+        "d": "2023-05-10",
+        "m1": "70.9",
+        "m2": "95.5"
+      },
+      {
+        "p": {
+          "name": "Enhancing End-to-End Autonomous Driving with Latent World Model",
+          "link": "https://arxiv.org/abs/2406.08481v1"
+        },
+        "c": "https://github.com/bravegroup/law",
+        "n": "LAW (Perception-Free)",
+        "d": "2024-06-12",
+        "m1": "70.1",
+        "m2": "97.8"
+      },
+      {
+        "p": {
+          "name": "Safety-Enhanced Autonomous Driving Using Interpretable Sensor Fusion Transformer",
+          "link": "https://arxiv.org/abs/2207.14024v5"
+        },
+        "c": "https://github.com/opendilab/InterFuser",
+        "n": "InterFuser",
+        "d": "2022-07-28",
+        "m1": "68.31",
+        "m2": "94.97"
+      },
+      {
+        "p": {
+          "name": "On the Road to Portability: Compressing End-to-End Motion Planner for Autonomous Driving",
+          "link": "https://arxiv.org/abs/2403.01238"
+        },
+        "c": "",
+        "n": "PlanKD (InterFuser, 26.3M student)",
+        "d": "2024-03-02",
+        "m1": "55.9",
+        "m2": "97.44"
+      },
+      {
+        "p": {
+          "name": "InteractionNet: Joint Planning and Prediction for Autonomous Driving with Transformers",
+          "link": "https://arxiv.org/abs/2309.03475v1"
+        },
+        "c": "https://github.com/fujiawei0724/interactionnet",
+        "n": "InteractionNet",
+        "d": "2023-09-07",
+        "m1": "40.37",
+        "m2": "72.71"
+      },
+      {
+        "p": {
+          "name": "Multi-Modal Fusion Transformer for End-to-End Autonomous Driving",
+          "link": "https://arxiv.org/abs/2104.09224v1"
+        },
+        "c": "https://github.com/autonomousvision/transfuser",
+        "n": "TransFuser",
+        "d": "2021-04-19",
+        "m1": "33.15",
+        "m2": "56.36"
+      },
+      {
+        "p": {
+          "name": "VAD: Vectorized Scene Representation for Efficient Autonomous Driving",
+          "link": "https://arxiv.org/abs/2303.12077v3"
+        },
+        "c": "https://github.com/hustvl/vad",
+        "n": "VAD-Base",
+        "d": "2023-03-21",
+        "m1": "30.31",
+        "m2": "75.2"
+      },
+      {
+        "p": {
+          "name": "ST-P3: End-to-end Vision-based Autonomous Driving via Spatial-Temporal Feature Learning",
+          "link": "https://arxiv.org/abs/2207.07601v2"
+        },
+        "c": "https://github.com/opendrivelab/st-p3",
+        "n": "ST-P3",
+        "d": "2022-07-15",
+        "m1": "11.45",
+        "m2": "83.15"
+      }
+    ]
+  }
+}

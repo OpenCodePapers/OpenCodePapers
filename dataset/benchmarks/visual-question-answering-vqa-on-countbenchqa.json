@@ -1,0 +1,78 @@
+{
+  "title": "visual-question-answering-vqa-on-countbenchqa",
+  "task-hierarchy": [
+    "Visual Question Answering (VQA)"
+  ],
+  "dataset-info": {
+    "link": "https://huggingface.co/datasets/vikhyatk/CountBenchQA",
+    "paper": "PaliGemma: A versatile 3B VLM for transfer"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Vero: An Open RL Recipe for General Visual Reasoning",
+          "link": "https://arxiv.org/abs/2604.04917"
+        },
+        "c": "https://github.com/zlab-princeton/vero",
+        "n": "Vero-Qwen3.5-9B",
+        "d": "2026-04-06",
+        "m1": "95.5"
+      },
+      {
+        "p": {
+          "name": "Molmo and PixMo: Open Weights and Open Data for State-of-the-Art Vision-Language Models",
+          "link": "https://arxiv.org/abs/2409.17146"
+        },
+        "c": "https://github.com/allenai/molmo",
+        "n": "Molmo 72B",
+        "d": "2024-09-25",
+        "m1": "91.2"
+      },
+      {
+        "p": {
+          "name": "Generation as Auxiliary Supervision: Enhancing Visual Understanding at Zero Inference Overhead via Decoupled Embedding Prediction",
+          "link": "https://arxiv.org/abs/2608.12209"
+        },
+        "c": "",
+        "n": "GAS (4B)",
+        "d": "2026-08-12",
+        "m1": "90.8"
+      },
+      {
+        "p": {
+          "name": "Skill-Decoupled On-Policy Expert Distillation for Unified Vision-Language Models",
+          "link": "https://arxiv.org/abs/2610.22217"
+        },
+        "c": "https://github.com/NEUIR/SCOPED",
+        "n": "SCOPED-8B (extra data)",
+        "d": "2026-10-15",
+        "m1": "90.43"
+      }
+    ]
+  }
+}

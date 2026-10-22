@@ -1,0 +1,263 @@
+{
+  "title": "time-series-forecasting-on-gift-eval",
+  "task-hierarchy": [
+    "Time Series Forecasting"
+  ],
+  "dataset-info": {
+    "link": "https://huggingface.co/spaces/Salesforce/GIFT-Eval",
+    "paper": "GIFT-Eval: A Benchmark For General Time Series Forecasting Model Evaluation"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "CRPS",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "MASE",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Timestral: Mistral's time-series foundation models",
+          "link": "https://mistral.ai/news/timestral/"
+        },
+        "c": "https://github.com/mistralai/timestral",
+        "n": "Timestral-209M (zero-shot)",
+        "d": "2026-10-15",
+        "m1": "0.4460",
+        "m2": "0.6575"
+      },
+      {
+        "p": {
+          "name": "$t_0$: A Time-Series Foundation Model for Forecasting with Context",
+          "link": "https://arxiv.org/abs/2609.24559"
+        },
+        "c": "https://github.com/theforecastingcompany/tfc-t0",
+        "n": "t0-gamma (zero-shot)",
+        "d": "2026-09-21",
+        "m1": "0.4520",
+        "m2": "0.6608"
+      },
+      {
+        "p": {
+          "name": "GIFT-Eval Leaderboard",
+          "link": "https://huggingface.co/spaces/Salesforce/GIFT-Eval"
+        },
+        "c": "https://github.com/nx-ai/tirex-2",
+        "n": "TiRex-2-Pretrained",
+        "d": "2026-07-01",
+        "m1": "0.46694417123735016",
+        "m2": "0.6776658411439145"
+      },
+      {
+        "p": {
+          "name": "$t_0$: A Time-Series Foundation Model for Forecasting with Context",
+          "link": "https://arxiv.org/abs/2609.24559"
+        },
+        "c": "https://github.com/theforecastingcompany/tfc-t0",
+        "n": "t0-beta (zero-shot)",
+        "d": "2026-09-21",
+        "m1": "0.4738",
+        "m2": "0.6865"
+      },
+      {
+        "p": {
+          "name": "PathFM: Fast Generative Forecasting of Multivariate Trajectories",
+          "link": "https://arxiv.org/abs/2610.22358"
+        },
+        "c": "",
+        "n": "PathFM-300M",
+        "d": "2026-10-15",
+        "m1": "0.4818",
+        "m2": "0.7008"
+      },
+      {
+        "p": {
+          "name": "GIFT-Eval Leaderboard",
+          "link": "https://huggingface.co/spaces/Salesforce/GIFT-Eval"
+        },
+        "c": "",
+        "n": "PatchTST-FM-r1 (zero-shot)",
+        "d": "2026-02-06",
+        "m1": "0.48294362691115816",
+        "m2": "0.7069359006427616"
+      },
+      {
+        "p": {
+          "name": "Timer-S1: A Billion-Scale Time Series Foundation Model with Serial Scaling",
+          "link": "https://arxiv.org/abs/2603.04791"
+        },
+        "c": "",
+        "n": "Timer-S1",
+        "d": "2026-03-05",
+        "m1": "0.4853",
+        "m2": "0.6934"
+      },
+      {
+        "p": {
+          "name": "GIFT-Eval Leaderboard",
+          "link": "https://huggingface.co/spaces/Salesforce/GIFT-Eval"
+        },
+        "c": "https://github.com/amazon-science/chronos-forecasting",
+        "n": "Chronos-2",
+        "d": "2025-10-17",
+        "m1": "0.4854159274376452",
+        "m2": "0.6977934020150602"
+      },
+      {
+        "p": {
+          "name": "GIFT-Eval Leaderboard",
+          "link": "https://huggingface.co/spaces/Salesforce/GIFT-Eval"
+        },
+        "c": "",
+        "n": "FlowState-r1.1 (zero-shot)",
+        "d": "2025-08-07",
+        "m1": "0.48657697457966975",
+        "m2": "0.7014944502106818"
+      },
+      {
+        "p": {
+          "name": "GIFT-Eval Leaderboard",
+          "link": "https://huggingface.co/spaces/Salesforce/GIFT-Eval"
+        },
+        "c": "https://github.com/nx-ai/tirex",
+        "n": "TiRex (zero-shot)",
+        "d": "2025-05-29",
+        "m1": "0.4884636932151272",
+        "m2": "0.7157582085433767"
+      },
+      {
+        "p": {
+          "name": "GIFT-Eval Leaderboard",
+          "link": "https://huggingface.co/spaces/Salesforce/GIFT-Eval"
+        },
+        "c": "https://github.com/google-research/timesfm",
+        "n": "TimesFM-2.5 (zero-shot)",
+        "d": "2023-10-14",
+        "m1": "0.49028809274942975",
+        "m2": "0.7050307775530733"
+      },
+      {
+        "p": {
+          "name": "Moirai 2.0: When Less Is More for Time Series Forecasting",
+          "link": "https://arxiv.org/abs/2511.11698"
+        },
+        "c": "https://github.com/salesforceairesearch/uni2ts",
+        "n": "Moirai 2.0 R-Small",
+        "d": "2025-11-12",
+        "m1": "0.5164",
+        "m2": "0.7281"
+      },
+      {
+        "p": {
+          "name": "GIFT-Eval Leaderboard",
+          "link": "https://huggingface.co/spaces/Salesforce/GIFT-Eval"
+        },
+        "c": "https://github.com/datadog/toto",
+        "n": "Toto Open Base 1.0 (zero-shot)",
+        "d": "2025-05-20",
+        "m1": "0.5172591998402039",
+        "m2": "0.7501141083781525"
+      },
+      {
+        "p": {
+          "name": "GIFT-Eval Leaderboard",
+          "link": "https://huggingface.co/spaces/Salesforce/GIFT-Eval"
+        },
+        "c": "",
+        "n": "TempoPFN (zero-shot)",
+        "d": "2025-10-29",
+        "m1": "0.5327337002899803",
+        "m2": "0.7875044803307811"
+      },
+      {
+        "p": {
+          "name": "GIFT-Eval Leaderboard",
+          "link": "https://huggingface.co/spaces/Salesforce/GIFT-Eval"
+        },
+        "c": "https://github.com/liam-sbhoo/tabpfn-time-series",
+        "n": "TabPFN-TS (zero-shot)",
+        "d": "2025-01-06",
+        "m1": "0.5441039140993773",
+        "m2": "0.7708766525107541"
+      },
+      {
+        "p": {
+          "name": "TimeBraid: Unifying Time Series and Language for Understanding and Forecasting",
+          "link": "https://arxiv.org/abs/2609.29792"
+        },
+        "c": "https://github.com/CharonWangg/TimeBraid",
+        "n": "TimeBraid-2.5B",
+        "d": "2026-09-24",
+        "m1": "0.546",
+        "m2": "0.763"
+      },
+      {
+        "p": {
+          "name": "Kairos: Towards Adaptive and Generalizable Time Series Foundation Models",
+          "link": "https://arxiv.org/abs/2509.25826"
+        },
+        "c": "https://github.com/foundation-model-research/Kairos",
+        "n": "Kairos-50M (zero-shot)",
+        "d": "2025-09-30",
+        "m1": "0.5482",
+        "m2": "0.7422"
+      },
+      {
+        "p": {
+          "name": "GIFT-Eval Leaderboard",
+          "link": "https://huggingface.co/spaces/Salesforce/GIFT-Eval"
+        },
+        "c": "https://github.com/wxie9/YingLong",
+        "n": "YingLong 300M (zero-shot)",
+        "d": "2025-05-20",
+        "m1": "0.5482565788783168",
+        "m2": "0.7981119011665914"
+      },
+      {
+        "p": {
+          "name": "GIFT-Eval Leaderboard",
+          "link": "https://huggingface.co/spaces/Salesforce/GIFT-Eval"
+        },
+        "c": "https://github.com/thuml/sundial",
+        "n": "Sundial Base 128M (zero-shot)",
+        "d": "2025-02-02",
+        "m1": "0.5590377290143805",
+        "m2": "0.7502214897954584"
+      },
+      {
+        "p": {
+          "name": "Reverso: Efficient Time Series Foundation Models for Zero-shot Forecasting",
+          "link": "https://arxiv.org/abs/2602.17634"
+        },
+        "c": "",
+        "n": "Reverso-Small (zero-shot)",
+        "d": "2026-02-19",
+        "m1": "0.6265",
+        "m2": "0.7263"
+      }
+    ]
+  }
+}

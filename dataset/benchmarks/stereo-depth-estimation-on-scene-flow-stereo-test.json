@@ -1,0 +1,329 @@
+{
+  "title": "stereo-depth-estimation-on-scene-flow-stereo-test",
+  "task-hierarchy": [
+    "Depth Estimation",
+    "Stereo Depth Estimation"
+  ],
+  "dataset-info": {
+    "link": "https://lmb.informatik.uni-freiburg.de/resources/datasets/SceneFlowDatasets.en.html",
+    "paper": "A Large Dataset to Train Convolutional Networks for Disparity, Optical Flow, and Scene Flow Estimation"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "EPE",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "ELFNet: Evidential Local-global Fusion for Stereo Matching",
+          "link": "https://arxiv.org/abs/2308.00728"
+        },
+        "c": "https://github.com/jimmy19991222/elfnet",
+        "n": "ELFNet",
+        "d": "2023-08-01",
+        "m1": "0.33"
+      },
+      {
+        "p": {
+          "name": "OpenStereo: A Comprehensive Benchmark for Stereo Matching and Strong Baseline",
+          "link": "https://arxiv.org/abs/2312.00343"
+        },
+        "c": "https://github.com/xiandaguo/openstereo",
+        "n": "StereoBase (extra data)",
+        "d": "2023-12-01",
+        "m1": "0.34"
+      },
+      {
+        "p": {
+          "name": "FoundationStereo: Zero-Shot Stereo Matching",
+          "link": "https://arxiv.org/abs/2501.09898"
+        },
+        "c": "https://github.com/NVlabs/FoundationStereo",
+        "n": "FoundationStereo (extra data)",
+        "d": "2025-01-17",
+        "m1": "0.34"
+      },
+      {
+        "p": {
+          "name": "CogStereo: Neural Stereo Matching with Implicit Spatial Cognition Embedding",
+          "link": "https://arxiv.org/abs/2510.22119"
+        },
+        "c": "",
+        "n": "CogStereo (DAv2 ViT-L) (extra data)",
+        "d": "2025-10-25",
+        "m1": "0.35"
+      },
+      {
+        "p": {
+          "name": "HITNet: Hierarchical Iterative Tile Refinement Network for Real-time Stereo Matching",
+          "link": "https://arxiv.org/abs/2007.12140v5"
+        },
+        "c": "https://github.com/google-research/google-research",
+        "n": "HITNet XL",
+        "d": "2020-07-23",
+        "m1": "0.36"
+      },
+      {
+        "p": {
+          "name": "MonSter: Marry Monodepth to Stereo Unleashes Power",
+          "link": "https://arxiv.org/abs/2501.08643"
+        },
+        "c": "",
+        "n": "MonSter++ (extra data)",
+        "d": "2025-01-15",
+        "m1": "0.37"
+      },
+      {
+        "p": {
+          "name": "MoCha-Stereo: Motif Channel Attention Network for Stereo Matching",
+          "link": "https://arxiv.org/abs/2404.06842"
+        },
+        "c": "https://github.com/zyangchen/mocha-stereo",
+        "n": "MoCha-Stereo",
+        "d": "2024-04-10",
+        "m1": "0.41"
+      },
+      {
+        "p": {
+          "name": "Global Regulation and Excitation via Attention Tuning for Stereo Matching",
+          "link": "https://arxiv.org/abs/2509.15891"
+        },
+        "c": "",
+        "n": "GREAT-IGEV",
+        "d": "2025-09-19",
+        "m1": "0.413"
+      },
+      {
+        "p": {
+          "name": "DEFOM-Stereo: Depth Foundation Model Based Stereo Matching",
+          "link": "https://arxiv.org/abs/2501.09466"
+        },
+        "c": "https://github.com/Insta360-Research-Team/DEFOM-Stereo",
+        "n": "DEFOM-Stereo (ViT-L) (extra data)",
+        "d": "2025-01-16",
+        "m1": "0.42"
+      },
+      {
+        "p": {
+          "name": "IGEV++: Iterative Multi-range Geometry Encoding Volumes for Stereo Matching",
+          "link": "https://arxiv.org/abs/2409.00638"
+        },
+        "c": "https://github.com/gangweix/igev-plusplus",
+        "n": "IGEV++",
+        "d": "2024-09-01",
+        "m1": "0.43"
+      },
+      {
+        "p": {
+          "name": "Selective-Stereo: Adaptive Frequency Information Selection for Stereo Matching",
+          "link": "https://arxiv.org/abs/2403.00486"
+        },
+        "c": "https://github.com/windsrain/selective-stereo",
+        "n": "Selective-IGEV",
+        "d": "2024-03-01",
+        "m1": "0.44"
+      },
+      {
+        "p": {
+          "name": "MC-Stereo: Multi-Peak Lookup and Cascade Search Range for Stereo Matching",
+          "link": "https://arxiv.org/abs/2311.02340"
+        },
+        "c": "",
+        "n": "MC-Stereo",
+        "d": "2023-11-04",
+        "m1": "0.45"
+      },
+      {
+        "p": {
+          "name": "Neural Markov Random Field for Stereo Matching",
+          "link": "https://arxiv.org/abs/2403.11193"
+        },
+        "c": "https://github.com/aeolusguan/nmrf",
+        "n": "NMRF-Stereo",
+        "d": "2024-03-17",
+        "m1": "0.45"
+      },
+      {
+        "p": {
+          "name": "Rectified Iterative Disparity for Stereo Matching",
+          "link": "https://arxiv.org/abs/2406.10943"
+        },
+        "c": "",
+        "n": "DR-Stereo",
+        "d": "2024-06-16",
+        "m1": "0.45"
+      },
+      {
+        "p": {
+          "name": "Decoupling Bidirectional Geometric Representations of 4D cost volume with 2D convolution",
+          "link": "https://arxiv.org/abs/2509.02415"
+        },
+        "c": "https://github.com/happydummy/DBStereo",
+        "n": "DBStereo-L (extra data)",
+        "d": "2025-09-02",
+        "m1": "0.45"
+      },
+      {
+        "p": {
+          "name": "Pip-Stereo: Progressive Iterations Pruner for Iterative Optimization based Stereo Matching",
+          "link": "https://arxiv.org/abs/2602.20496"
+        },
+        "c": "",
+        "n": "PipStereo (1 iteration) (extra data)",
+        "d": "2026-02-24",
+        "m1": "0.45"
+      },
+      {
+        "p": {
+          "name": "Generalized Geometry Encoding Volume for Real-time Stereo Matching",
+          "link": "https://arxiv.org/abs/2512.06793"
+        },
+        "c": "",
+        "n": "GGEV (ViT-S, 8 iterations) (extra data)",
+        "d": "2025-12-07",
+        "m1": "0.46"
+      },
+      {
+        "p": {
+          "name": "Iterative Geometry Encoding Volume for Stereo Matching",
+          "link": "https://arxiv.org/abs/2303.06615v2"
+        },
+        "c": "https://github.com/gangweix/igev",
+        "n": "IGEV-Stereo",
+        "d": "2023-03-12",
+        "m1": "0.47"
+      },
+      {
+        "p": {
+          "name": "LightStereo: Channel Boost Is All You Need for Efficient 2D Cost Aggregation",
+          "link": "https://arxiv.org/abs/2406.19833"
+        },
+        "c": "",
+        "n": "LightStereo-H (extra data)",
+        "d": "2024-06-28",
+        "m1": "0.51"
+      },
+      {
+        "p": {
+          "name": "BANet: Bilateral Aggregation Network for Mobile Stereo Matching",
+          "link": "https://arxiv.org/abs/2503.03259"
+        },
+        "c": "https://github.com/gangweix/banet",
+        "n": "BANet-3D (extra data)",
+        "d": "2025-03-05",
+        "m1": "0.51"
+      },
+      {
+        "p": {
+          "name": "CAR-Stereo: Confidence-Aware Adaptive Disparity Refinement for Real-Time Stereo Matching",
+          "link": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ContentListWeb_4.html#wei1i_412"
+        },
+        "c": "",
+        "n": "CAR-Stereo",
+        "d": "2026-06-01",
+        "m1": "0.54"
+      },
+      {
+        "p": {
+          "name": "MAFNet:Multi-frequency Adaptive Fusion Network for Real-time Stereo Matching",
+          "link": "https://arxiv.org/abs/2512.04358"
+        },
+        "c": "",
+        "n": "MAFNet (extra data)",
+        "d": "2025-12-04",
+        "m1": "0.56"
+      },
+      {
+        "p": {
+          "name": "EDNet: Efficient Disparity Estimation with Cost Volume Combination and Attention-based Spatial Residual",
+          "link": "https://arxiv.org/abs/2010.13338"
+        },
+        "c": "",
+        "n": "EDNet",
+        "d": "2020-10-26",
+        "m1": "0.63"
+      },
+      {
+        "p": {
+          "name": "Learning the Distribution of Errors in Stereo Matching for Joint Disparity and Uncertainty Estimation",
+          "link": "https://arxiv.org/abs/2304.00152"
+        },
+        "c": "https://github.com/lly00412/sednet",
+        "n": "SEDNet (3σ soft inlier threshold)",
+        "d": "2023-03-31",
+        "m1": "0.6754"
+      },
+      {
+        "p": {
+          "name": "AANet: Adaptive Aggregation Network for Efficient Stereo Matching",
+          "link": "https://arxiv.org/abs/2004.09548v1"
+        },
+        "c": "https://github.com/haofeixu/aanet",
+        "n": "AANet+",
+        "d": "2020-04-20",
+        "m1": "0.72"
+      },
+      {
+        "p": {
+          "name": "Pyramid Stereo Matching Network",
+          "link": "http://arxiv.org/abs/1803.08669v1"
+        },
+        "c": "https://github.com/JiaRenChang/PSMNet",
+        "n": "PSMNet",
+        "d": "2018-03-23",
+        "m1": "1.09"
+      },
+      {
+        "p": {
+          "name": "StereoNet: Guided Hierarchical Refinement for Real-Time Edge-Aware Depth Prediction",
+          "link": "https://arxiv.org/abs/1807.08865"
+        },
+        "c": "",
+        "n": "StereoNet (8x, multi-refinement)",
+        "d": "2018-07-24",
+        "m1": "1.101"
+      },
+      {
+        "p": {
+          "name": "Learned Binocular-Encoding Optics for RGBD Imaging Using Joint Stereo and Focus Cues",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Liu_Learned_Binocular-Encoding_Optics_for_RGBD_Imaging_Using_Joint_Stereo_and_CVPR_2025_paper.html"
+        },
+        "c": "",
+        "n": "D-S Rank2",
+        "d": "2025-06-11",
+        "m1": "1.12"
+      },
+      {
+        "p": {
+          "name": "A Large Dataset to Train Convolutional Networks for Disparity, Optical Flow, and Scene Flow Estimation",
+          "link": "https://arxiv.org/abs/1512.02134"
+        },
+        "c": "https://github.com/HKBU-HPML/FADNet",
+        "n": "DispNetCorr1D (DispNetC)",
+        "d": "2015-12-07",
+        "m1": "1.68"
+      }
+    ]
+  }
+}

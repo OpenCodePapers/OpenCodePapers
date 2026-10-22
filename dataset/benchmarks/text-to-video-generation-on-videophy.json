@@ -1,0 +1,88 @@
+{
+  "title": "text-to-video-generation-on-videophy",
+  "task-hierarchy": [
+    "Video Generation",
+    "Text-to-Video Generation"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/Hritikbansal/videoPHY",
+    "paper": "VideoPhy: Evaluating Physical Commonsense for Video Generation"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "PC",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "SA",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "PhysPO: Physics-Aware Local Preference Optimization for Physically Consistent Video Diffusion",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/3783"
+        },
+        "c": "",
+        "n": "PhysPO-CogVideoX (extra data)",
+        "d": "2026-09-08",
+        "m1": "49.4",
+        "m2": "74.7"
+      },
+      {
+        "p": {
+          "name": "PhysAlign: Learning Physical Priors for Dynamical Event-Driven Video Generation via Representation Alignment",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/3309"
+        },
+        "c": "",
+        "n": "PhysAlign (extra data)",
+        "d": "2026-09-08",
+        "m1": "40.54",
+        "m2": "53.98"
+      },
+      {
+        "p": {
+          "name": "Phantom: Physics-Infused Video Generation via Joint Modeling of Visual and Latent Physical Dynamics",
+          "link": "https://arxiv.org/abs/2604.08503"
+        },
+        "c": "",
+        "n": "Phantom (Wan2.2-TI2V-5B)",
+        "d": "2026-04-09",
+        "m1": "37.9",
+        "m2": "47.5"
+      },
+      {
+        "p": {
+          "name": "DreamWorld: Unified World Modeling in Video Generation",
+          "link": "https://arxiv.org/abs/2603.00466"
+        },
+        "c": "https://github.com/ABU121111/DreamWorld",
+        "n": "DreamWorld",
+        "d": "2026-02-28",
+        "m1": "26.2",
+        "m2": "52.9"
+      }
+    ]
+  }
+}

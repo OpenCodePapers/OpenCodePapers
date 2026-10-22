@@ -1,0 +1,398 @@
+{
+  "title": "representation-learning-on-mteb-english-v2",
+  "task-hierarchy": [
+    "Representation Learning"
+  ],
+  "dataset-info": {
+    "link": "https://mteb-leaderboard.hf.space/?benchmark_name=MTEB%28eng%2C+v2%29",
+    "paper": "MMTEB: Massive Multilingual Text Embedding Benchmark"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "MTEB Score",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "MTEB Leaderboard",
+          "link": "https://huggingface.co/spaces/mteb/leaderboard"
+        },
+        "c": "https://github.com/huggingface/sentence-transformers",
+        "n": "QZhou-Embedding",
+        "d": "2025-08-29",
+        "m1": "75.9700"
+      },
+      {
+        "p": {
+          "name": "MTEB Leaderboard",
+          "link": "https://huggingface.co/spaces/mteb/leaderboard"
+        },
+        "c": "https://github.com/qwenlm/qwen3-embedding",
+        "n": "Qwen3-Embedding-8B",
+        "d": "2025-06-05",
+        "m1": "75.2300"
+      },
+      {
+        "p": {
+          "name": "MTEB Leaderboard",
+          "link": "https://huggingface.co/spaces/mteb/leaderboard"
+        },
+        "c": "https://github.com/DunZhang/Jasper-Token-Compression-Training",
+        "n": "Jasper-Token-Compression-600M",
+        "d": "2025-11-18",
+        "m1": "74.7500"
+      },
+      {
+        "p": {
+          "name": "MTEB Leaderboard",
+          "link": "https://huggingface.co/spaces/mteb/leaderboard"
+        },
+        "c": "https://github.com/qwenlm/qwen3-embedding",
+        "n": "Qwen3-Embedding-4B",
+        "d": "2025-06-05",
+        "m1": "74.6100"
+      },
+      {
+        "p": {
+          "name": "MTEB Leaderboard",
+          "link": "https://huggingface.co/spaces/mteb/leaderboard"
+        },
+        "c": "",
+        "n": "LGAI-Embedding-Preview",
+        "d": "2025-06-09",
+        "m1": "74.1200"
+      },
+      {
+        "p": {
+          "name": "MTEB Leaderboard",
+          "link": "https://huggingface.co/spaces/mteb/leaderboard"
+        },
+        "c": "https://github.com/codefuse-ai/codefuse-embeddings",
+        "n": "F2LLM-4B",
+        "d": "2025-10-02",
+        "m1": "73.6700"
+      },
+      {
+        "p": {
+          "name": "MTEB Leaderboard",
+          "link": "https://huggingface.co/spaces/mteb/leaderboard"
+        },
+        "c": "",
+        "n": "gemini-embedding-001",
+        "d": "2025-03-10",
+        "m1": "73.3000"
+      },
+      {
+        "p": {
+          "name": "MTEB Leaderboard",
+          "link": "https://huggingface.co/spaces/mteb/leaderboard"
+        },
+        "c": "https://github.com/codefuse-ai/codefuse-embeddings",
+        "n": "F2LLM-v2-14B",
+        "d": "2026-03-19",
+        "m1": "73.0800"
+      },
+      {
+        "p": {
+          "name": "MTEB Leaderboard",
+          "link": "https://huggingface.co/spaces/mteb/leaderboard"
+        },
+        "c": "https://github.com/codefuse-ai/codefuse-embeddings",
+        "n": "F2LLM-v2-8B",
+        "d": "2026-03-19",
+        "m1": "72.8600"
+      },
+      {
+        "p": {
+          "name": "MTEB Leaderboard",
+          "link": "https://huggingface.co/spaces/mteb/leaderboard"
+        },
+        "c": "https://github.com/codefuse-ai/codefuse-embeddings",
+        "n": "F2LLM-v2-4B",
+        "d": "2026-03-19",
+        "m1": "72.4100"
+      },
+      {
+        "p": {
+          "name": "MTEB Leaderboard",
+          "link": "https://huggingface.co/spaces/mteb/leaderboard"
+        },
+        "c": "https://github.com/codefuse-ai/codefuse-embeddings",
+        "n": "F2LLM-1.7B",
+        "d": "2025-10-02",
+        "m1": "72.0100"
+      },
+      {
+        "p": {
+          "name": "MTEB Leaderboard",
+          "link": "https://huggingface.co/spaces/mteb/leaderboard"
+        },
+        "c": "https://github.com/huggingface/sentence-transformers",
+        "n": "jina-embeddings-v5-text-small",
+        "d": "2026-02-17",
+        "m1": "71.7800"
+      },
+      {
+        "p": {
+          "name": "jina-embeddings-v5-omni: Text-Geometry-Preserving Multimodal Embeddings via Frozen-Tower Composition",
+          "link": "https://arxiv.org/abs/2605.08384"
+        },
+        "c": "https://github.com/huggingface/sentence-transformers",
+        "n": "jina-embeddings-v5-omni-small",
+        "d": "2026-05-08",
+        "m1": "71.7800"
+      },
+      {
+        "p": {
+          "name": "MTEB Leaderboard",
+          "link": "https://huggingface.co/spaces/mteb/leaderboard"
+        },
+        "c": "https://github.com/codefuse-ai/codefuse-embeddings",
+        "n": "F2LLM-v2-1.7B",
+        "d": "2026-03-19",
+        "m1": "71.6300"
+      },
+      {
+        "p": {
+          "name": "MTEB Leaderboard",
+          "link": "https://huggingface.co/spaces/mteb/leaderboard"
+        },
+        "c": "https://github.com/nlpjcl/rag-retrieval",
+        "n": "jasper_en_vision_language_v1",
+        "d": "2024-12-26",
+        "m1": "71.4100"
+      },
+      {
+        "p": {
+          "name": "MTEB Leaderboard",
+          "link": "https://huggingface.co/spaces/mteb/leaderboard"
+        },
+        "c": "https://github.com/hitsz-tmg/kalm-embedding",
+        "n": "KaLM-embedding-multilingual-mini-instruct-v2.5",
+        "d": "2025-06-26",
+        "m1": "71.2900"
+      },
+      {
+        "p": {
+          "name": "MTEB Leaderboard",
+          "link": "https://huggingface.co/spaces/mteb/leaderboard"
+        },
+        "c": "https://github.com/huggingface/sentence-transformers",
+        "n": "gte-Qwen2-7B-instruct",
+        "d": "2023-08-07",
+        "m1": "70.7200"
+      },
+      {
+        "p": {
+          "name": "MTEB Leaderboard",
+          "link": "https://huggingface.co/spaces/mteb/leaderboard"
+        },
+        "c": "https://github.com/qwenlm/qwen3-embedding",
+        "n": "Qwen3-Embedding-0.6B",
+        "d": "2025-06-05",
+        "m1": "70.4700"
+      },
+      {
+        "p": {
+          "name": "MTEB Leaderboard",
+          "link": "https://huggingface.co/spaces/mteb/leaderboard"
+        },
+        "c": "",
+        "n": "ICT-TIME-and-Querit-embedding-v1",
+        "d": "2026-02-05",
+        "m1": "70.1200"
+      },
+      {
+        "p": {
+          "name": "MTEB Leaderboard",
+          "link": "https://huggingface.co/spaces/mteb/leaderboard"
+        },
+        "c": "https://github.com/codefuse-ai/codefuse-embeddings",
+        "n": "F2LLM-0.6B",
+        "d": "2025-10-02",
+        "m1": "70.0300"
+      },
+      {
+        "p": {
+          "name": "MTEB Leaderboard",
+          "link": "https://huggingface.co/spaces/mteb/leaderboard"
+        },
+        "c": "https://github.com/codefuse-ai/codefuse-embeddings",
+        "n": "F2LLM-v2-0.6B",
+        "d": "2026-03-19",
+        "m1": "69.9700"
+      },
+      {
+        "p": {
+          "name": "MTEB Leaderboard",
+          "link": "https://huggingface.co/spaces/mteb/leaderboard"
+        },
+        "c": "",
+        "n": "NV-Embed-v2",
+        "d": "2024-05-27",
+        "m1": "69.8100"
+      },
+      {
+        "p": {
+          "name": "MTEB Leaderboard",
+          "link": "https://huggingface.co/spaces/mteb/leaderboard"
+        },
+        "c": "",
+        "n": "Linq-Embed-Mistral",
+        "d": "2024-05-29",
+        "m1": "69.8000"
+      },
+      {
+        "p": {
+          "name": "MTEB Leaderboard",
+          "link": "https://huggingface.co/spaces/mteb/leaderboard"
+        },
+        "c": "https://github.com/huggingface/sentence-transformers",
+        "n": "embeddinggemma-300m",
+        "d": "2025-09-24",
+        "m1": "69.6700"
+      },
+      {
+        "p": {
+          "name": "MTEB Leaderboard",
+          "link": "https://huggingface.co/spaces/mteb/leaderboard"
+        },
+        "c": "https://github.com/nlpjcl/rag-retrieval",
+        "n": "stella_en_1.5B_v5",
+        "d": "2024-12-26",
+        "m1": "69.4300"
+      },
+      {
+        "p": {
+          "name": "MTEB Leaderboard",
+          "link": "https://huggingface.co/spaces/mteb/leaderboard"
+        },
+        "c": "https://github.com/nlpjcl/rag-retrieval",
+        "n": "stella_en_400M_v5",
+        "d": "2024-12-26",
+        "m1": "69.3900"
+      },
+      {
+        "p": {
+          "name": "MTEB Leaderboard",
+          "link": "https://huggingface.co/spaces/mteb/leaderboard"
+        },
+        "c": "",
+        "n": "SFR-Embedding-Mistral",
+        "d": "2024-01-24",
+        "m1": "69.3100"
+      },
+      {
+        "p": {
+          "name": "MTEB Leaderboard",
+          "link": "https://huggingface.co/spaces/mteb/leaderboard"
+        },
+        "c": "https://github.com/codefuse-ai/codefuse-embeddings",
+        "n": "F2LLM-v2-330M",
+        "d": "2026-03-19",
+        "m1": "68.8600"
+      },
+      {
+        "p": {
+          "name": "MTEB Leaderboard",
+          "link": "https://huggingface.co/spaces/mteb/leaderboard"
+        },
+        "c": "",
+        "n": "NV-Embed-v1",
+        "d": "2024-05-27",
+        "m1": "68.3200"
+      },
+      {
+        "p": {
+          "name": "MTEB Leaderboard",
+          "link": "https://huggingface.co/spaces/mteb/leaderboard"
+        },
+        "c": "https://github.com/huggingface/sentence-transformers",
+        "n": "e5-mistral-7b-instruct",
+        "d": "2023-12-31",
+        "m1": "67.9700"
+      },
+      {
+        "p": {
+          "name": "MTEB Leaderboard",
+          "link": "https://huggingface.co/spaces/mteb/leaderboard"
+        },
+        "c": "https://github.com/huggingface/sentence-transformers",
+        "n": "gte-Qwen2-1.5B-instruct",
+        "d": "2023-08-07",
+        "m1": "67.2000"
+      },
+      {
+        "p": {
+          "name": "MTEB Leaderboard",
+          "link": "https://huggingface.co/spaces/mteb/leaderboard"
+        },
+        "c": "https://github.com/contextualai/gritlm",
+        "n": "GritLM-7B",
+        "d": "2024-02-15",
+        "m1": "67.0700"
+      },
+      {
+        "p": {
+          "name": "MTEB Leaderboard",
+          "link": "https://huggingface.co/spaces/mteb/leaderboard"
+        },
+        "c": "https://github.com/SeanLee97/AnglE",
+        "n": "UAE-Large-V1",
+        "d": "2023-09-22",
+        "m1": "66.4000"
+      },
+      {
+        "p": {
+          "name": "MTEB Leaderboard",
+          "link": "https://huggingface.co/spaces/mteb/leaderboard"
+        },
+        "c": "",
+        "n": "mxbai-embed-large-v1",
+        "d": "2024-03-07",
+        "m1": "66.2600"
+      },
+      {
+        "p": {
+          "name": "MTEB Leaderboard",
+          "link": "https://huggingface.co/spaces/mteb/leaderboard"
+        },
+        "c": "https://github.com/avsolatorio/gistembed",
+        "n": "GIST-large-Embedding-v0",
+        "d": "2024-02-26",
+        "m1": "66.2500"
+      },
+      {
+        "p": {
+          "name": "MTEB Leaderboard",
+          "link": "https://huggingface.co/spaces/mteb/leaderboard"
+        },
+        "c": "https://github.com/contextualai/gritlm",
+        "n": "GritLM-8x7B",
+        "d": "2024-02-15",
+        "m1": "66.1600"
+      }
+    ]
+  }
+}

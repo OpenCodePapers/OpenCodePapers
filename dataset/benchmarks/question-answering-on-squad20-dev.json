@@ -40,6 +40,36 @@
     "items": [
       {
         "p": {
+          "name": "Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism",
+          "link": "https://arxiv.org/abs/1909.08053v4"
+        },
+        "c": "https://github.com/NVIDIA/Megatron-LM",
+        "n": "Megatron-3.9B",
+        "d": "2019-09-17",
+        "m1": "91.2"
+      },
+      {
+        "p": {
+          "name": "UltraBERT: Beyond the Limit of BERT Pre-Training",
+          "link": "https://arxiv.org/abs/2610.15028"
+        },
+        "c": "",
+        "n": "UltraBERT 380M",
+        "d": "2026-10-10",
+        "m1": "90.9"
+      },
+      {
+        "p": {
+          "name": "DeBERTa: Decoding-enhanced BERT with Disentangled Attention",
+          "link": "https://arxiv.org/abs/2006.03654v6"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "DeBERTa Large",
+        "d": "2020-06-05",
+        "m1": "90.7"
+      },
+      {
+        "p": {
           "name": "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
           "link": "https://arxiv.org/abs/1906.08237v2"
         },
@@ -48,6 +78,16 @@
         "d": "2019-06-19",
         "m1": "90.6",
         "m2": "87.9"
+      },
+      {
+        "p": {
+          "name": "Funnel-Transformer: Filtering out Sequential Redundancy for Efficient Language Processing",
+          "link": "https://arxiv.org/abs/2006.03236v1"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Funnel-Transformer Large",
+        "d": "2020-06-05",
+        "m1": "90.4"
       },
       {
         "p": {
@@ -73,6 +113,16 @@
       },
       {
         "p": {
+          "name": "BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension",
+          "link": "https://arxiv.org/abs/1910.13461v1"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "BART",
+        "d": "2019-10-29",
+        "m1": "89.2"
+      },
+      {
+        "p": {
           "name": "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
           "link": "https://arxiv.org/abs/1909.11942v6"
         },
@@ -92,6 +142,16 @@
         "d": "2019-08-14",
         "m1": "87.9",
         "m2": "85.1"
+      },
+      {
+        "p": {
+          "name": "ERNIE-Gram: Pre-Training with Explicitly N-Gram Masked Language Modeling for Natural Language Understanding",
+          "link": "https://arxiv.org/abs/2010.12148"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleNLP/blob/develop/paddlenlp/transformers/ernie_gram/modeling.py",
+        "n": "ERNIE-Gram",
+        "d": "2020-10-23",
+        "m1": "87.1"
       },
       {
         "p": {
@@ -135,6 +195,16 @@
         "d": "2019-09-26",
         "m1": "82.1",
         "m2": "79.0"
+      },
+      {
+        "p": {
+          "name": "MobileBERT: a Compact Task-Agnostic BERT for Resource-Limited Devices",
+          "link": "https://arxiv.org/abs/2004.02984v2"
+        },
+        "c": "https://github.com/tensorflow/models/tree/master/official/nlp/projects/mobilebert",
+        "n": "MobileBERT w/o OPT",
+        "d": "2020-04-06",
+        "m1": "80.2"
       },
       {
         "p": {

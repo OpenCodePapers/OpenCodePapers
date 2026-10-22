@@ -1,0 +1,88 @@
+{
+  "title": "spoken-language-identification-on-fleurs",
+  "task-hierarchy": [
+    "Spoken Language Identification"
+  ],
+  "dataset-info": {
+    "link": "https://huggingface.co/datasets/google/fleurs",
+    "paper": "FLEURS: Few-shot Learning Evaluation of Universal Representations of Speech"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Geolocation-Aware Robust Spoken Language Identification",
+          "link": "https://arxiv.org/abs/2508.17148"
+        },
+        "c": "https://github.com/espnet/espnet",
+        "n": "GeoLID (Combined) (extra data)",
+        "d": "2025-08-23",
+        "m1": "97.7"
+      },
+      {
+        "p": {
+          "name": "Scaling Speech Technology to 1,000+ Languages",
+          "link": "https://arxiv.org/abs/2305.13516"
+        },
+        "c": "https://github.com/facebookresearch/fairseq/tree/main/examples/mms",
+        "n": "MMS-126 (extra data)",
+        "d": "2023-05-27",
+        "m1": "97.5"
+      },
+      {
+        "p": {
+          "name": "OWSM v4: Improving Open Whisper-Style Speech Models via Data Scaling and Cleaning",
+          "link": "https://arxiv.org/abs/2506.00338"
+        },
+        "c": "https://github.com/espnet/espnet/tree/master/egs2/owsm_ctc_v4/s2t1",
+        "n": "OWSM v4 medium (extra data)",
+        "d": "2025-01-16",
+        "m1": "95.6"
+      },
+      {
+        "p": {
+          "name": "A Compact End-to-End Model with Local and Global Context for Spoken Language Identification",
+          "link": "https://arxiv.org/abs/2210.15781"
+        },
+        "c": "https://github.com/nvidia-nemo/speech",
+        "n": "TitaNet-LID-3x5x1024 (extra data)",
+        "d": "2022-10-27",
+        "m1": "88.2"
+      },
+      {
+        "p": {
+          "name": "OWSM-CTC: An Open Encoder-Only Speech Foundation Model for Speech Recognition, Translation, and Language Identification",
+          "link": "https://arxiv.org/abs/2402.12654"
+        },
+        "c": "https://github.com/espnet/espnet/tree/master/egs2/owsm_ctc_v3.1/s2t1",
+        "n": "OWSM-CTC Medium (extra data)",
+        "d": "2024-02-23",
+        "m1": "87.6"
+      }
+    ]
+  }
+}

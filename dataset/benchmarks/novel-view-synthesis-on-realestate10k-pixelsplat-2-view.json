@@ -1,0 +1,204 @@
+{
+  "title": "novel-view-synthesis-on-realestate10k-pixelsplat-2-view",
+  "task-hierarchy": [
+    "Novel View Synthesis"
+  ],
+  "dataset-info": {
+    "link": "https://google.github.io/realestate10k/",
+    "paper": "Stereo Magnification: Learning View Synthesis using Multiplane Images"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "PSNR",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "SSIM",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "LPIPS",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "LagerNVS: Latent Geometry for Fully Neural Real-time Novel View Synthesis",
+          "link": "https://arxiv.org/abs/2603.20176"
+        },
+        "c": "https://github.com/facebookresearch/lagernvs",
+        "n": "LagerNVS (extra data)",
+        "d": "2026-03-20",
+        "m1": "31.39",
+        "m2": "0.928",
+        "m3": "0.078"
+      },
+      {
+        "p": {
+          "name": "Scaling View Synthesis Transformers",
+          "link": "https://arxiv.org/abs/2602.21341"
+        },
+        "c": "https://github.com/evnkim/svsm",
+        "n": "SVSM-420M",
+        "d": "2026-02-24",
+        "m1": "30.01",
+        "m2": "0.910",
+        "m3": "0.096"
+      },
+      {
+        "p": {
+          "name": "ReSplat: Learning Recurrent Gaussian Splats",
+          "link": "https://arxiv.org/abs/2510.08575"
+        },
+        "c": "",
+        "n": "ReSplat",
+        "d": "2025-10-09",
+        "m1": "29.75",
+        "m2": "0.912",
+        "m3": "0.100"
+      },
+      {
+        "p": {
+          "name": "LVSM: A Large View Synthesis Model with Minimal 3D Inductive Bias",
+          "link": "https://arxiv.org/abs/2410.17242"
+        },
+        "c": "https://github.com/haian-jin/lvsm",
+        "n": "LVSM Decoder-Only",
+        "d": "2024-10-22",
+        "m1": "29.67",
+        "m2": "0.906",
+        "m3": "0.098"
+      },
+      {
+        "p": {
+          "name": "LocusGS: Spatially Grounded Tokens for Feed-Forward 3D Gaussian Splatting",
+          "link": "https://arxiv.org/abs/2608.12825"
+        },
+        "c": "https://github.com/leo-frank/locusgs",
+        "n": "LocusGS (4096 tokens)",
+        "d": "2026-08-13",
+        "m1": "28.89",
+        "m2": "0.916",
+        "m3": "0.124"
+      },
+      {
+        "p": {
+          "name": "IDESplat: Iterative Depth Probability Estimation for Generalizable 3D Gaussian Splatting",
+          "link": "https://arxiv.org/abs/2601.03824"
+        },
+        "c": "",
+        "n": "IDESplat (extra data)",
+        "d": "2026-03-26",
+        "m1": "27.80",
+        "m2": "0.893",
+        "m3": "0.108"
+      },
+      {
+        "p": {
+          "name": "iSplat: Iterative Learning for Fine-Grained Gaussian Splatting",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Wu_iSplat_Iterative_Learning_for_Fine-Grained_Gaussian_Splatting_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "iSplat",
+        "d": "2026-06-03",
+        "m1": "27.67",
+        "m2": "0.891",
+        "m3": "0.11"
+      },
+      {
+        "p": {
+          "name": "DepthSplat: Connecting Gaussian Splatting and Depth",
+          "link": "https://arxiv.org/abs/2410.13862"
+        },
+        "c": "https://github.com/cvg/depthsplat",
+        "n": "DepthSplat Large (extra data)",
+        "d": "2024-10-17",
+        "m1": "27.47",
+        "m2": "0.889",
+        "m3": "0.114"
+      },
+      {
+        "p": {
+          "name": "HiSplat: Hierarchical 3D Gaussian Splatting for Generalizable Sparse-View Reconstruction",
+          "link": "https://arxiv.org/abs/2410.06245"
+        },
+        "c": "",
+        "n": "HiSplat",
+        "d": "2024-10-08",
+        "m1": "27.21",
+        "m2": "0.881",
+        "m3": "0.117"
+      },
+      {
+        "p": {
+          "name": "MonoSplat: Generalizable 3D Gaussian Splatting from Monocular Depth Foundation Models",
+          "link": "https://arxiv.org/abs/2505.15185"
+        },
+        "c": "https://github.com/cuhk-aim-group/monosplat",
+        "n": "MonoSplat (extra data)",
+        "d": "2025-05-21",
+        "m1": "26.68",
+        "m2": "0.875",
+        "m3": "0.123"
+      },
+      {
+        "p": {
+          "name": "MVSplat: Efficient 3D Gaussian Splatting from Sparse Multi-View Images",
+          "link": "https://arxiv.org/abs/2403.14627"
+        },
+        "c": "https://github.com/donydchen/mvsplat",
+        "n": "MVSplat (3 Gaussians per pixel) (extra data)",
+        "d": "2024-03-21",
+        "m1": "26.54",
+        "m2": "0.872",
+        "m3": "0.127"
+      },
+      {
+        "p": {
+          "name": "Omni-Scene: Omni-Gaussian Representation for Ego-Centric Sparse-View Scene Reconstruction",
+          "link": "https://arxiv.org/abs/2412.06273"
+        },
+        "c": "https://github.com/wu-cvgl/omni-scene",
+        "n": "Omni-Scene",
+        "d": "2024-12-09",
+        "m1": "26.19",
+        "m2": "0.865",
+        "m3": "0.131"
+      },
+      {
+        "p": {
+          "name": "pixelSplat: 3D Gaussian Splats from Image Pairs for Scalable Generalizable 3D Reconstruction",
+          "link": "https://arxiv.org/abs/2312.12337"
+        },
+        "c": "https://github.com/dcharatan/pixelsplat",
+        "n": "pixelSplat (extra data)",
+        "d": "2023-12-19",
+        "m1": "26.09",
+        "m2": "0.863",
+        "m3": "0.136"
+      }
+    ]
+  }
+}

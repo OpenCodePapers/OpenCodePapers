@@ -95,6 +95,17 @@
       },
       {
         "p": {
+          "name": "Optical Flow Matching: Reframing Optical Flow as Continuous Transport Dynamics",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Luo_Optical_Flow_Matching_Reframing_Optical_Flow_as_Continuous_Transport_Dynamics_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "OFM",
+        "d": "2026-06-03",
+        "m1": "10.9",
+        "m2": "3.32"
+      },
+      {
+        "p": {
           "name": "DPFlow: Adaptive Optical Flow Estimation with a Dual-Pyramid Framework",
           "link": "https://arxiv.org/abs/2503.14880v1"
         },
@@ -114,6 +125,17 @@
         "d": "2025-09-05",
         "m1": "11.5",
         "m2": "3.36"
+      },
+      {
+        "p": {
+          "name": "FlowDiffuser: Advancing Optical Flow Estimation with Diffusion Models",
+          "link": "https://openaccess.thecvf.com/content/CVPR2024/html/Luo_FlowDiffuser_Advancing_Optical_Flow_Estimation_with_Diffusion_Models_CVPR_2024_paper.html"
+        },
+        "c": "https://github.com/la30/flowdiffuser",
+        "n": "FlowDiffuser",
+        "d": "2024-06-17",
+        "m1": "11.8",
+        "m2": "3.61"
       },
       {
         "p": {
@@ -161,6 +183,17 @@
       },
       {
         "p": {
+          "name": "SEA-RAFT: Simple, Efficient, Accurate RAFT for Optical Flow",
+          "link": "https://arxiv.org/abs/2405.14793"
+        },
+        "c": "https://github.com/princeton-vl/sea-raft",
+        "n": "SEA-RAFT(L, C+T zero-shot) (extra data)",
+        "d": "2024-05-23",
+        "m1": "12.9",
+        "m2": "3.62"
+      },
+      {
+        "p": {
           "name": "WAFT: Warping-Alone Field Transforms for Optical Flow",
           "link": "https://arxiv.org/abs/2506.21526"
         },
@@ -205,6 +238,17 @@
       },
       {
         "p": {
+          "name": "FlowFormer++: Masked Cost Volume Autoencoding for Pretraining Optical Flow Estimation",
+          "link": "https://arxiv.org/abs/2303.01237"
+        },
+        "c": "",
+        "n": "FlowFormer++ (C+T, zero-shot, tile) (extra data)",
+        "d": "2023-03-02",
+        "m1": "14.13",
+        "m2": "3.93"
+      },
+      {
+        "p": {
           "name": "FlowFormer: A Transformer Architecture for Optical Flow",
           "link": "https://arxiv.org/abs/2203.16194v4"
         },
@@ -216,6 +260,17 @@
       },
       {
         "p": {
+          "name": "NeuFlow v2: High-Efficiency Optical Flow Estimation on Edge Devices",
+          "link": "https://arxiv.org/abs/2408.10161"
+        },
+        "c": "https://github.com/neufieldrobotics/neuflow_v2",
+        "n": "NeuFlow v2 (9 iterations, Things-only, zero-shot) (extra data)",
+        "d": "2024-08-19",
+        "m1": "15.3",
+        "m2": "4.33"
+      },
+      {
+        "p": {
           "name": "Global Matching with Overlapping Attention for Optical Flow Estimation",
           "link": "https://arxiv.org/abs/2203.11335v1"
         },
@@ -224,6 +279,17 @@
         "d": "2022-03-21",
         "m1": "15.4",
         "m2": "4.24"
+      },
+      {
+        "p": {
+          "name": "SKFlow: Learning Optical Flow with Super Kernels",
+          "link": "https://arxiv.org/abs/2205.14623"
+        },
+        "c": "https://github.com/littlespray/SKFlow",
+        "n": "SKFlow (C+T) (extra data)",
+        "d": "2022-05-29",
+        "m1": "15.5",
+        "m2": "4.27"
       },
       {
         "p": {

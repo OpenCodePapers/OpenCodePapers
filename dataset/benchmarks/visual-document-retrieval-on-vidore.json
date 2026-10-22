@@ -1,0 +1,189 @@
+{
+  "title": "visual-document-retrieval-on-vidore",
+  "task-hierarchy": [
+    "Document Understanding",
+    "Visual Document Retrieval"
+  ],
+  "dataset-info": {
+    "link": "https://huggingface.co/vidore",
+    "paper": "ColPali: Efficient Document Retrieval with Vision Language Models"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "NDCG@5",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "EVIE: High-Performance Multilingual Visual Document Retrieval with Matryoshka Embeddings and Token Compression",
+          "link": "https://github.com/Tencent/EVIE"
+        },
+        "c": "https://github.com/tencent/evie",
+        "n": "EVIE-8B",
+        "d": "2026-09-07",
+        "m1": "92.18"
+      },
+      {
+        "p": {
+          "name": "ColPali: Efficient Document Retrieval with Vision Language Models",
+          "link": "https://arxiv.org/abs/2407.01449"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "ColQwen2.5 v0.2",
+        "d": "2024-06-27",
+        "m1": "89.4"
+      },
+      {
+        "p": {
+          "name": "ColPali: Efficient Document Retrieval with Vision Language Models",
+          "link": "https://arxiv.org/abs/2407.01449"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "ColQwen2 v1.0",
+        "d": "2024-06-27",
+        "m1": "89.3"
+      },
+      {
+        "p": {
+          "name": "LightSTAR: Efficient Visual Document Retrieval via Lightweight Selection with Vision-Adaptive Refinement",
+          "link": "https://arxiv.org/abs/2606.23539"
+        },
+        "c": "https://github.com/bokufa/lightstar",
+        "n": "LightSTAR",
+        "d": "2026-06-22",
+        "m1": "89.1"
+      },
+      {
+        "p": {
+          "name": "ColPali: Efficient Document Retrieval with Vision Language Models",
+          "link": "https://arxiv.org/abs/2407.01449"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "ColQwen2.5 v0.1",
+        "d": "2024-06-27",
+        "m1": "88.8"
+      },
+      {
+        "p": {
+          "name": "NeoMME: A Single-Tower Multimodal-Native Multilingual Foundation Encoder for Efficient Fine-Tuning and Inference",
+          "link": "https://arxiv.org/abs/2609.01657"
+        },
+        "c": "",
+        "n": "NeoMME-800M-Retriever (late interaction)",
+        "d": "2026-08-31",
+        "m1": "87.44"
+      },
+      {
+        "p": {
+          "name": "ColPali: Efficient Document Retrieval with Vision Language Models",
+          "link": "https://arxiv.org/abs/2407.01449"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "ColQwen2 v0.1",
+        "d": "2024-06-27",
+        "m1": "87.3"
+      },
+      {
+        "p": {
+          "name": "Generative Late-Interaction Embeddings For Visual Document Retrieval",
+          "link": "https://arxiv.org/abs/2609.11808"
+        },
+        "c": "https://github.com/mohammad2012191/GLIE",
+        "n": "GLIE (ColQwen2 v1.0, k=64)",
+        "d": "2026-09-10",
+        "m1": "86.8"
+      },
+      {
+        "p": {
+          "name": "ColPali: Efficient Document Retrieval with Vision Language Models",
+          "link": "https://arxiv.org/abs/2407.01449"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "ColPali v1.3",
+        "d": "2024-06-27",
+        "m1": "84.8"
+      },
+      {
+        "p": {
+          "name": "ColPali: Efficient Document Retrieval with Vision Language Models",
+          "link": "https://arxiv.org/abs/2407.01449"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "ColPali v1.2",
+        "d": "2024-06-27",
+        "m1": "83.9"
+      },
+      {
+        "p": {
+          "name": "ColPali: Efficient Document Retrieval with Vision Language Models",
+          "link": "https://arxiv.org/abs/2407.01449"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "ColSmol 500M",
+        "d": "2024-06-27",
+        "m1": "82.3"
+      },
+      {
+        "p": {
+          "name": "ColPali: Efficient Document Retrieval with Vision Language Models",
+          "link": "https://arxiv.org/abs/2407.01449"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "ColPali v1.1",
+        "d": "2024-06-27",
+        "m1": "81.5"
+      },
+      {
+        "p": {
+          "name": "ColPali: Efficient Document Retrieval with Vision Language Models",
+          "link": "https://arxiv.org/abs/2407.01449"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "ColPali",
+        "d": "2024-06-27",
+        "m1": "81.3"
+      },
+      {
+        "p": {
+          "name": "ModernVBERT: Towards Smaller Visual Document Retrievers",
+          "link": "https://arxiv.org/abs/2510.01149"
+        },
+        "c": "https://github.com/illuin-tech/modernvbert",
+        "n": "ColModernVBERT",
+        "d": "2025-10-01",
+        "m1": "81.2"
+      },
+      {
+        "p": {
+          "name": "ColPali: Efficient Document Retrieval with Vision Language Models",
+          "link": "https://arxiv.org/abs/2407.01449"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "ColSmol 256M",
+        "d": "2024-06-27",
+        "m1": "80.1"
+      }
+    ]
+  }
+}

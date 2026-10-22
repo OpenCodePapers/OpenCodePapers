@@ -36,6 +36,36 @@
     "items": [
       {
         "p": {
+          "name": "Introducing Claude Opus 5.5",
+          "link": "https://www.anthropic.com/claude-opus-5-5"
+        },
+        "c": "https://github.com/anthropics/claude-code",
+        "n": "Claude Opus 5.5",
+        "d": "2026-09-22",
+        "m1": "89.9"
+      },
+      {
+        "p": {
+          "name": "Introducing Claude Sonnet 5.5",
+          "link": "https://www.anthropic.com/claude-sonnet-5-5"
+        },
+        "c": "https://github.com/anthropics/claude-code",
+        "n": "Claude Sonnet 5.5",
+        "d": "2026-09-28",
+        "m1": "81.3"
+      },
+      {
+        "p": {
+          "name": "Introducing Claude Fable 5.1 and Claude Mythos 5.1",
+          "link": "https://www.anthropic.com/claude-fable-and-mythos-5-1"
+        },
+        "c": "",
+        "n": "Claude Fable 5.1 (max effort)",
+        "d": "2026-09-01",
+        "m1": "81.2"
+      },
+      {
+        "p": {
           "name": "Claude Fable 5 and Claude Mythos 5",
           "link": "https://www.anthropic.com/news/claude-fable-5-mythos-5"
         },
@@ -46,6 +76,16 @@
       },
       {
         "p": {
+          "name": "Introducing Claude Opus 5",
+          "link": "https://www.anthropic.com/news/claude-opus-5"
+        },
+        "c": "https://github.com/anthropics/claude-code",
+        "n": "Claude Opus 5",
+        "d": "2026-07-24",
+        "m1": "79.2"
+      },
+      {
+        "p": {
           "name": "Introducing Claude Opus 4.8",
           "link": "https://www.anthropic.com/news/claude-opus-4-8"
         },
@@ -53,6 +93,66 @@
         "n": "Claude Opus 4.8",
         "d": "2026-05-28",
         "m1": "69.2"
+      },
+      {
+        "p": {
+          "name": "Qwen3.8-Max: A New Bar for Coding and Cowork",
+          "link": "https://qwen.ai/blog?id=qwen3.8"
+        },
+        "c": "https://github.com/vllm-project/vllm",
+        "n": "Qwen3.8-Max",
+        "d": "2026-08-03",
+        "m1": "67.7"
+      },
+      {
+        "p": {
+          "name": "Hy4 preview",
+          "link": "https://github.com/Tencent-Hunyuan/Hy4-preview/blob/1296fab2674cb5a645ccfe53e9a8dc225dbe69f2/README.md"
+        },
+        "c": "https://github.com/tencent-hunyuan/hy4-preview",
+        "n": "Hy4 preview",
+        "d": "2026-08-28",
+        "m1": "65.7"
+      },
+      {
+        "p": {
+          "name": "Introducing Beam: Reflection's 501B open-weight model",
+          "link": "https://reflection.ai/blog/introducing-beam"
+        },
+        "c": "",
+        "n": "Beam",
+        "d": "2026-10-05",
+        "m1": "65.5"
+      },
+      {
+        "p": {
+          "name": "KAT-Coder-V2.5 Technical Report",
+          "link": "https://arxiv.org/abs/2607.05471"
+        },
+        "c": "",
+        "n": "KAT-Coder-V2.5",
+        "d": "2026-07-06",
+        "m1": "65.2"
+      },
+      {
+        "p": {
+          "name": "Self-Evolving Coding Agents via Harness-Policy Optimization",
+          "link": "https://arxiv.org/abs/2610.22791"
+        },
+        "c": "https://github.com/MSR-Orchard/Self-HPO",
+        "n": "Self-HPO-Qwen3.5-35B-A3B",
+        "d": "2026-10-16",
+        "m1": "65.2"
+      },
+      {
+        "p": {
+          "name": "Introducing Claude Haiku 5.5",
+          "link": "https://www.anthropic.com/claude-haiku-5-5"
+        },
+        "c": "",
+        "n": "Claude Haiku 5.5 (max effort)",
+        "d": "2026-10-07",
+        "m1": "64.8"
       },
       {
         "p": {
@@ -86,6 +186,26 @@
       },
       {
         "p": {
+          "name": "Groupwise Agentic Grading and Advantage Redistribution for Code Agent RL",
+          "link": "https://arxiv.org/abs/2609.32577"
+        },
+        "c": "",
+        "n": "MiMo-V2.6-Pro (GAGAR mixed-task RL)",
+        "d": "2026-09-26",
+        "m1": "62.7"
+      },
+      {
+        "p": {
+          "name": "On the Design of Qwen3.8-Next Architecture: Evaluation, Efficiency, and Training Stability",
+          "link": "https://arxiv.org/abs/2608.30320"
+        },
+        "c": "https://github.com/qwenlm/flashqla",
+        "n": "Qwen3.8-Flash-Next",
+        "d": "2026-08-31",
+        "m1": "62.5"
+      },
+      {
+        "p": {
           "name": "Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding",
           "link": "https://deep-reinforce.com/ornith_1_0.html"
         },
@@ -106,6 +226,26 @@
       },
       {
         "p": {
+          "name": "Qwen3.8-27B",
+          "link": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        "c": "https://github.com/vllm-project/vllm",
+        "n": "Qwen3.8-27B",
+        "d": "2026-08-05",
+        "m1": "61.7"
+      },
+      {
+        "p": {
+          "name": "Intern-S2-Preview: Scientific Agentic Foundation Model",
+          "link": "https://arxiv.org/abs/2608.13505"
+        },
+        "c": "https://github.com/internlm/intern-s1",
+        "n": "Intern-S2-Preview-397B",
+        "d": "2026-08-13",
+        "m1": "61.56"
+      },
+      {
+        "p": {
           "name": "Introducing Muse Spark 1.1",
           "link": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/"
         },
@@ -116,6 +256,46 @@
       },
       {
         "p": {
+          "name": "NexForge: Scaling Agent Capabilities through Requirement-Driven Task Synthesis for LLMs",
+          "link": "https://arxiv.org/abs/2607.14186"
+        },
+        "c": "https://github.com/nex-agi/nex-n2.5",
+        "n": "Nex-N2.5-Pro",
+        "d": "2026-07-17",
+        "m1": "61.2"
+      },
+      {
+        "p": {
+          "name": "Sage-A1.5: From Long-Horizon Execution to Scientific Exploration with Capability Composition",
+          "link": "https://arxiv.org/abs/2610.28578"
+        },
+        "c": "https://github.com/InternScience/Agents-A1",
+        "n": "Sage-A1.5",
+        "d": "2026-10-20",
+        "m1": "61.2"
+      },
+      {
+        "p": {
+          "name": "Ornith-1.5: From Self-Scaffolding to Self-Improvement",
+          "link": "https://ornith.ai/ornith_1_5.html"
+        },
+        "c": "",
+        "n": "Ornith-1.5-35B-A3B",
+        "d": "2026-08-20",
+        "m1": "59.6"
+      },
+      {
+        "p": {
+          "name": "Atria Dawn: The Dawn of Agentic Superintelligence",
+          "link": "https://arxiv.org/abs/2609.15818"
+        },
+        "c": "https://github.com/atria-asi/Atria-Dawn-Preview",
+        "n": "Atria Dawn Preview",
+        "d": "2026-09-14",
+        "m1": "59.6"
+      },
+      {
+        "p": {
           "name": "Introducing LongCat-2.0",
           "link": "https://longcat.chat/blog/longcat-2.0/"
         },
@@ -123,6 +303,16 @@
         "n": "LongCat-2.0",
         "d": "2026-07-05",
         "m1": "59.5"
+      },
+      {
+        "p": {
+          "name": "Introducing Laguna S 2.1",
+          "link": "https://poolside.ai/blog/introducing-laguna-s-2-1"
+        },
+        "c": "https://github.com/vllm-project/vllm",
+        "n": "Laguna S 2.1",
+        "d": "2026-07-21",
+        "m1": "59.4"
       },
       {
         "p": {
@@ -256,6 +446,16 @@
       },
       {
         "p": {
+          "name": "Inkling-Small",
+          "link": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        "c": "https://github.com/thinking-machines-lab/tinker-cookbook",
+        "n": "Inkling-Small",
+        "d": "2026-07-27",
+        "m1": "55.9"
+      },
+      {
+        "p": {
           "name": "Introducing GPT-5.2",
           "link": "https://openai.com/index/introducing-gpt-5-2/"
         },
@@ -263,6 +463,16 @@
         "n": "GPT-5.2",
         "d": "2025-12-11",
         "m1": "55.6"
+      },
+      {
+        "p": {
+          "name": "MiniMax-M2.5",
+          "link": "https://huggingface.co/MiniMaxAI/MiniMax-M2.5"
+        },
+        "c": "https://github.com/minimax-ai/minimax-m2.5",
+        "n": "MiniMax-M2.5",
+        "d": "2026-02-12",
+        "m1": "55.4"
       },
       {
         "p": {
@@ -296,6 +506,16 @@
       },
       {
         "p": {
+          "name": "CodeMidas: Scaling Agentic Coding RL Environments from Code Itself",
+          "link": "https://arxiv.org/abs/2609.22068"
+        },
+        "c": "",
+        "n": "MiMo-V2.5 (CodeMidas RL)",
+        "d": "2026-09-18",
+        "m1": "54.4"
+      },
+      {
+        "p": {
           "name": "Gemini 3.1 Pro: A smarter model for your most complex tasks",
           "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/"
         },
@@ -306,6 +526,36 @@
       },
       {
         "p": {
+          "name": "Ling and Ring 2.6 Technical Report: Efficient and Instant Agentic Intelligence at Trillion-Parameter Scale",
+          "link": "https://arxiv.org/abs/2606.15079"
+        },
+        "c": "https://github.com/inclusionai/ling-v2",
+        "n": "Ring-2.6-1T (High)",
+        "d": "2026-06-13",
+        "m1": "53.76"
+      },
+      {
+        "p": {
+          "name": "Qwen3.6",
+          "link": "https://huggingface.co/collections/Qwen/qwen36"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Qwen3.6-27B",
+        "d": "2026-04-21",
+        "m1": "53.5"
+      },
+      {
+        "p": {
+          "name": "MAI-Thinking-1: Building a Hill-Climbing Machine",
+          "link": "https://microsoft.ai/wp-content/uploads/2026/06/main_20260602_2.pdf"
+        },
+        "c": "",
+        "n": "MAI-Thinking-1",
+        "d": "2026-06-02",
+        "m1": "52.8"
+      },
+      {
+        "p": {
           "name": "Introducing Claude Opus 4.6",
           "link": "https://www.anthropic.com/news/claude-opus-4-6"
         },
@@ -313,6 +563,106 @@
         "n": "claude-opus-4-6 (thinking)",
         "d": "2026-02-05",
         "m1": "51.90"
+      },
+      {
+        "p": {
+          "name": "SkillForge: Self-Distilling Agents for Project-Specific Issue Resolution",
+          "link": "https://arxiv.org/abs/2608.18933"
+        },
+        "c": "https://github.com/cslsolow/skillforge",
+        "n": "SkillForge (GPT-5-mini) (extra data)",
+        "d": "2026-08-19",
+        "m1": "51.7"
+      },
+      {
+        "p": {
+          "name": "MindForge: Teaching Small Language Models Whole-Life-Cycle Software Engineering via Source-Free Program Synthesis",
+          "link": "https://arxiv.org/abs/2607.27146"
+        },
+        "c": "",
+        "n": "MindForge-27B",
+        "d": "2026-07-29",
+        "m1": "51.34"
+      },
+      {
+        "p": {
+          "name": "Muse Glimmer 30B: An On-Device Agentic Model",
+          "link": "https://arxiv.org/abs/2610.24628"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Muse Glimmer-30B (High)",
+        "d": "2026-10-17",
+        "m1": "51.2"
+      },
+      {
+        "p": {
+          "name": "Kimi K2.5: Visual Agentic Intelligence",
+          "link": "https://arxiv.org/abs/2602.02276"
+        },
+        "c": "https://github.com/MoonshotAI/Kimi-K2.5",
+        "n": "Kimi K2.5",
+        "d": "2026-02-02",
+        "m1": "50.7"
+      },
+      {
+        "p": {
+          "name": "Qwen3.6",
+          "link": "https://huggingface.co/collections/Qwen/qwen36"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Qwen3.6-35B-A3B",
+        "d": "2026-04-21",
+        "m1": "49.5"
+      },
+      {
+        "p": {
+          "name": "Laguna M.1/XS.2 Technical Report",
+          "link": "https://arxiv.org/abs/2605.27605"
+        },
+        "c": "https://github.com/poolsideai/pool",
+        "n": "Laguna M.1",
+        "d": "2026-05-26",
+        "m1": "49.2"
+      },
+      {
+        "p": {
+          "name": "FastContext: Training Efficient Repository Explorer for Coding Agents",
+          "link": "https://arxiv.org/abs/2606.14066"
+        },
+        "c": "https://github.com/microsoft/fastcontext",
+        "n": "GPT-5.4 + FastContext 30B-SFT (Mini-SWE-Agent)",
+        "d": "2026-06-12",
+        "m1": "49.0"
+      },
+      {
+        "p": {
+          "name": "Introducing Laguna XS 2.1",
+          "link": "https://poolside.ai/blog/introducing-laguna-xs-2-1"
+        },
+        "c": "https://github.com/vllm-project/vllm",
+        "n": "Laguna XS 2.1",
+        "d": "2026-07-02",
+        "m1": "47.6"
+      },
+      {
+        "p": {
+          "name": "Nanbeige4.2-3B: Unlocking Agentic Capabilities in a Compact Model",
+          "link": "https://huggingface.co/Nanbeige/Nanbeige4.2-3B/blob/main/Nanbeige42_report.pdf"
+        },
+        "c": "https://github.com/vllm-project/vllm",
+        "n": "Nanbeige4.2-3B",
+        "d": "2026-07-21",
+        "m1": "46.9"
+      },
+      {
+        "p": {
+          "name": "Laguna M.1/XS.2 Technical Report",
+          "link": "https://arxiv.org/abs/2605.27605"
+        },
+        "c": "https://github.com/poolsideai/pool",
+        "n": "Laguna XS.2",
+        "d": "2026-05-26",
+        "m1": "46.3"
       },
       {
         "p": {
@@ -366,6 +716,16 @@
       },
       {
         "p": {
+          "name": "Magenta: Closing the Loop Between Mathematical Reasoning and Lean Verification",
+          "link": "https://arxiv.org/abs/2609.11319"
+        },
+        "c": "",
+        "n": "K2-Horizon-375B-A23B",
+        "d": "2026-09-10",
+        "m1": "42.6"
+      },
+      {
+        "p": {
           "name": "Introducing GPT-5",
           "link": "https://openai.com/index/introducing-gpt-5/"
         },
@@ -383,6 +743,16 @@
         "n": "gpt-5.2-codex",
         "d": "2026-01-14",
         "m1": "41.04"
+      },
+      {
+        "p": {
+          "name": "Introducing North Mini Code: Cohere's first model for developers",
+          "link": "https://cohere.com/blog/north-mini-code"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "North Mini Code",
+        "d": "2026-06-09",
+        "m1": "40.2"
       },
       {
         "p": {
@@ -406,6 +776,16 @@
       },
       {
         "p": {
+          "name": "FrogNano: Training a 4B Coding Agent via Online Task Synthesis",
+          "link": "https://arxiv.org/abs/2609.07925"
+        },
+        "c": "https://github.com/microsoft/frognano",
+        "n": "FrogNano-4B-2609",
+        "d": "2026-09-07",
+        "m1": "37.6"
+      },
+      {
+        "p": {
           "name": "MiniMax-M2.1",
           "link": "https://www.minimax.io/news/minimax-m21"
         },
@@ -416,6 +796,16 @@
       },
       {
         "p": {
+          "name": "Dockerless: Environment-Free Program Verifier for Coding Agents",
+          "link": "https://arxiv.org/abs/2606.28436"
+        },
+        "c": "",
+        "n": "Dockerless-RL-9B",
+        "d": "2026-06-26",
+        "m1": "35.2"
+      },
+      {
+        "p": {
           "name": "Gemini 3 Flash",
           "link": "https://blog.google/products/gemini/gemini-3-flash/"
         },
@@ -423,6 +813,16 @@
         "n": "gemini-3-flash",
         "d": "2025-12-17",
         "m1": "34.63"
+      },
+      {
+        "p": {
+          "name": "Granite 4.2 LLMs: How They're Built",
+          "link": "https://huggingface.co/blog/ibm-granite/granite-4-2"
+        },
+        "c": "https://github.com/ibm-granite/granite-4.2-language-models",
+        "n": "Granite-4.2-30B",
+        "d": "2026-08-25",
+        "m1": "33.29"
       },
       {
         "p": {
@@ -473,6 +873,16 @@
         "n": "deepseek-v3p2",
         "d": "2025-12-02",
         "m1": "15.56"
+      },
+      {
+        "p": {
+          "name": "MiniCPM5-2B",
+          "link": "https://huggingface.co/openbmb/MiniCPM5-2B"
+        },
+        "c": "https://github.com/openbmb/minicpm",
+        "n": "MiniCPM5-2B",
+        "d": "2026-09-07",
+        "m1": "14.4"
       },
       {
         "p": {

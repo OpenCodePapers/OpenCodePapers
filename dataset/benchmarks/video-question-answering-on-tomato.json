@@ -1,0 +1,168 @@
+{
+  "title": "video-question-answering-on-tomato",
+  "task-hierarchy": [
+    "Video Question Answering"
+  ],
+  "dataset-info": {
+    "link": "https://openreview.net/forum?id=fCi4o83Mfs",
+    "paper": "TOMATO: Assessing Visual Temporal Reasoning Capabilities in Multimodal Foundation Models"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
+          "link": "https://arxiv.org/abs/2506.09985v1"
+        },
+        "c": "https://github.com/facebookresearch/vjepa2",
+        "n": "V-JEPA 2 ViT-g (1B, 384px) + Llama 3.1 (8B)",
+        "d": "2025-06-11",
+        "m1": "40.3"
+      },
+      {
+        "p": {
+          "name": "Molmo2: Open Weights and Data for Vision-Language Models with Video Understanding and Grounding",
+          "link": "https://arxiv.org/abs/2601.10611"
+        },
+        "c": "https://github.com/allenai/molmo2",
+        "n": "Molmo2-4B",
+        "d": "2026-01-15",
+        "m1": "39.8"
+      },
+      {
+        "p": {
+          "name": "MOSS-VL Technical Report",
+          "link": "https://arxiv.org/abs/2608.15045"
+        },
+        "c": "https://github.com/OpenMOSS/MOSS-VL",
+        "n": "MOSS-VL-Instruct-0708",
+        "d": "2026-08-15",
+        "m1": "39.5"
+      },
+      {
+        "p": {
+          "name": "VideoChat3: Fully Open Video MLLM for Efficient and Generalist Video Understanding",
+          "link": "https://arxiv.org/abs/2607.14935"
+        },
+        "c": "https://github.com/MCG-NJU/VideoChat3",
+        "n": "VideoChat3-4B",
+        "d": "2026-07-16",
+        "m1": "37.9"
+      },
+      {
+        "p": {
+          "name": "InternVideo3: Agentify Foundation Models with Multimodal Contextual Reasoning",
+          "link": "https://arxiv.org/abs/2606.12195"
+        },
+        "c": "https://github.com/opengvlab/internvideo",
+        "n": "InternVideo3-8B",
+        "d": "2026-06-10",
+        "m1": "37.4"
+      },
+      {
+        "p": {
+          "name": "Unified Spatio-Temporal Token Scoring for Efficient Video VLMs",
+          "link": "https://arxiv.org/abs/2603.18004"
+        },
+        "c": "https://github.com/allenai/STTS",
+        "n": "Molmo2 (SigLIP2 So400M + Qwen3-4B) baseline",
+        "d": "2026-03-18",
+        "m1": "36.5"
+      },
+      {
+        "p": {
+          "name": "MotionAtlas: A High-Quality Dataset and Benchmark for Dense Motion Captioning",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/4897"
+        },
+        "c": "https://github.com/kagura-0001/motionatlas",
+        "n": "MotionAtlas-4B",
+        "d": "2026-09-08",
+        "m1": "35.2"
+      },
+      {
+        "p": {
+          "name": "EgoVITA: Learning to Plan and Verify for Egocentric Video Reasoning",
+          "link": "https://arxiv.org/abs/2511.18242"
+        },
+        "c": "https://github.com/yogkul2000/egovita",
+        "n": "EgoVITA (Qwen3-VL)",
+        "d": "2025-11-23",
+        "m1": "34.5"
+      },
+      {
+        "p": {
+          "name": "PerceptionLM: Open-Access Data and Models for Detailed Visual Understanding",
+          "link": "https://arxiv.org/abs/2504.13180v1"
+        },
+        "c": "https://github.com/facebookresearch/perception_models",
+        "n": "PLM-8B",
+        "d": "2025-04-17",
+        "m1": "33.2"
+      },
+      {
+        "p": {
+          "name": "Taming Hallucinations: Boosting MLLMs' Video Understanding via Counterfactual Video Generation",
+          "link": "https://arxiv.org/abs/2512.24271"
+        },
+        "c": "https://github.com/AMAP-ML/Taming-Hallucinations",
+        "n": "DNA-Train-7B",
+        "d": "2025-12-30",
+        "m1": "32.6"
+      },
+      {
+        "p": {
+          "name": "Kimi-VL Technical Report",
+          "link": "https://arxiv.org/abs/2504.07491"
+        },
+        "c": "https://github.com/moonshotai/kimi-vl",
+        "n": "Kimi-VL-A3B-Instruct",
+        "d": "2025-04-10",
+        "m1": "31.7"
+      },
+      {
+        "p": {
+          "name": "CoPE-VideoLM: Codec Primitives For Efficient Video Language Models",
+          "link": "https://arxiv.org/abs/2602.13191"
+        },
+        "c": "",
+        "n": "CoPE 7B",
+        "d": "2026-02-13",
+        "m1": "28.3"
+      },
+      {
+        "p": {
+          "name": "Incentivizing Versatile Video Reasoning in MLLMs via Data-Efficient Reinforcement Learning",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Wang_Incentivizing_Versatile_Video_Reasoning_in_MLLMs_via_Data-Efficient_Reinforcement_Learning_CVPR_2026_paper.html"
+        },
+        "c": "https://github.com/wang-xiaodong1899/videoreasoner",
+        "n": "VideoReasoner (Qwen2-VL-7B-Base + RL)",
+        "d": "2026-06-03",
+        "m1": "27.8"
+      }
+    ]
+  }
+}

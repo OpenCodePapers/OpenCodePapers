@@ -1,0 +1,79 @@
+{
+  "title": "speaker-diarization-on-ami-ihm-diarization-test",
+  "task-hierarchy": [
+    "Speaker Recognition",
+    "Speaker Diarization"
+  ],
+  "dataset-info": {
+    "link": "https://groups.inf.ed.ac.uk/ami/corpus/",
+    "paper": "The AMI Meeting Corpus: A Pre-announcement"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "DER",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Powerset multi-class cross entropy loss for neural speaker diarization",
+          "link": "https://arxiv.org/abs/2310.13025"
+        },
+        "c": "https://github.com/frenchkrab/is2023-powerset-diarization",
+        "n": "Powerset (domain-adapted)",
+        "d": "2023-10-19",
+        "m1": "18.0"
+      },
+      {
+        "p": {
+          "name": "End-to-end speaker segmentation for overlap-aware resegmentation",
+          "link": "https://arxiv.org/abs/2104.04045"
+        },
+        "c": "https://github.com/pyannote/pyannote-audio",
+        "n": "VBx + pyannote 2.0 VAD and resegmentation",
+        "d": "2021-04-08",
+        "m1": "19.9"
+      },
+      {
+        "p": {
+          "name": "Encoder-Decoder Based Attractors for End-to-End Neural Diarization",
+          "link": "https://arxiv.org/abs/2106.10654"
+        },
+        "c": "https://github.com/hitachi-speech/eend",
+        "n": "EEND-EDA",
+        "d": "2021-06-20",
+        "m1": "21.56"
+      },
+      {
+        "p": {
+          "name": "DiaPer: End-to-End Neural Diarization with Perceiver-Based Attractors",
+          "link": "https://arxiv.org/abs/2312.04324"
+        },
+        "c": "https://github.com/butspeechfit/diaper",
+        "n": "DiaPer 20-attractor + compound FT 5min",
+        "d": "2023-12-07",
+        "m1": "23.9"
+      }
+    ]
+  }
+}

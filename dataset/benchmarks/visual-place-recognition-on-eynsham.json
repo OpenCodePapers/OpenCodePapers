@@ -56,6 +56,27 @@
       },
       {
         "p": {
+          "name": "MegaLoc: One Retrieval to Place Them All",
+          "link": "https://arxiv.org/abs/2502.17237"
+        },
+        "c": "https://github.com/gmberton/megaloc",
+        "n": "MegaLoc (8448D)",
+        "d": "2025-02-24",
+        "m1": "92.6",
+        "m2": "96.8"
+      },
+      {
+        "p": {
+          "name": "SelaVPR++: Towards Seamless Adaptation of Foundation Models for Efficient Place Recognition",
+          "link": "https://arxiv.org/abs/2502.16601"
+        },
+        "c": "https://github.com/Lu-Feng/SelaVPRplusplus",
+        "n": "SelaVPR++ (DINOv2-L, binary512D + float4096D, rerank100)",
+        "d": "2025-02-23",
+        "m1": "92.5"
+      },
+      {
+        "p": {
           "name": "Focus on Local: Finding Reliable Discriminative Regions for Visual Place Recognition",
           "link": "https://arxiv.org/abs/2504.09881v1"
         },
@@ -68,6 +89,28 @@
       },
       {
         "p": {
+          "name": "SAGE: Spatial-visual Adaptive Graph Exploration for Efficient Visual Place Recognition",
+          "link": "https://arxiv.org/abs/2509.25723"
+        },
+        "c": "https://github.com/chenshunpeng/sage",
+        "n": "SAGE ViT-L (without cross-image encoder)",
+        "d": "2025-09-30",
+        "m1": "92.3",
+        "m2": "96.7",
+        "m3": "95.9"
+      },
+      {
+        "p": {
+          "name": "Region Matters: Efficient and Reliable Region-Aware Visual Place Recognition",
+          "link": "https://arxiv.org/abs/2604.22390"
+        },
+        "c": "https://github.com/chenshunpeng/fol",
+        "n": "FoL++ (ViT-L,reranking,322px)",
+        "d": "2026-04-24",
+        "m1": "92.3"
+      },
+      {
+        "p": {
           "name": "BoQ: A Place is Worth a Bag of Learnable Queries",
           "link": "https://arxiv.org/abs/2405.07364v3"
         },
@@ -77,6 +120,17 @@
         "m1": "92.2",
         "m2": "96.4",
         "m3": "95.6"
+      },
+      {
+        "p": {
+          "name": "EfficientVPR: Toward Efficient Visual Place Recognition via Scene-Aware Prompt Tuning and Adaptive Feature Enhancement",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Tang_EfficientVPR_Toward_Efficient_Visual_Place_Recognition_via_Scene-Aware_Prompt_Tuning_CVPR_2026_paper.html"
+        },
+        "c": "https://github.com/winitang/efficientvpr",
+        "n": "EfficientVPR (DINOv2-S, 322×322 inference)",
+        "d": "2026-06-01",
+        "m1": "92",
+        "m3": "95.3"
       },
       {
         "p": {

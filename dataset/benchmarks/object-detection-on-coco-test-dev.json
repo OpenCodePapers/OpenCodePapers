@@ -2887,6 +2887,16 @@
       },
       {
         "p": {
+          "name": "Deep Residual Learning for Image Recognition",
+          "link": "http://arxiv.org/abs/1512.03385v1"
+        },
+        "c": "https://github.com/tensorflow/models/tree/master/research/deeplab",
+        "n": "ResNet-101 (ensemble of 3 models)",
+        "d": "2015-12-10",
+        "m1": "37.4"
+      },
+      {
+        "p": {
           "name": "Revisiting Unreasonable Effectiveness of Data in Deep Learning Era",
           "link": "http://arxiv.org/abs/1707.02968v2"
         },
@@ -2949,6 +2959,26 @@
         "n": "Faster R-CNN + FPN",
         "d": "2016-12-09",
         "m1": "36.2"
+      },
+      {
+        "p": {
+          "name": "MobileNetV2: Inverted Residuals and Linear Bottlenecks",
+          "link": "http://arxiv.org/abs/1801.04381v4"
+        },
+        "c": "https://github.com/tensorflow/models/tree/master/research/deeplab",
+        "n": "MobileNetV2 + SSDLite",
+        "d": "2018-01-13",
+        "m1": "22.1"
+      },
+      {
+        "p": {
+          "name": "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+          "link": "http://arxiv.org/abs/1506.01497v3"
+        },
+        "c": "https://github.com/facebookresearch/detectron2",
+        "n": "Faster R-CNN (VGG-16)",
+        "d": "2015-06-04",
+        "m1": "21.9"
       }
     ]
   }

@@ -1,0 +1,118 @@
+{
+  "title": "agents-on-claw-eval-multi-turn-pass-3",
+  "task-hierarchy": [
+    "Agents"
+  ],
+  "dataset-info": {
+    "link": "https://claw-eval.github.io/",
+    "paper": "Claw-Eval: Toward Trustworthy Evaluation of Autonomous Agents"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Pass^3",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Claw-Eval Leaderboard",
+          "link": "https://claw-eval.github.io"
+        },
+        "c": "https://huggingface.co/moonshotai/Kimi-K2.6",
+        "n": "Kimi-K2.6 (Multi Turn)",
+        "d": "2026-04-20",
+        "m1": "65.8"
+      },
+      {
+        "p": {
+          "name": "Claw-Eval Leaderboard",
+          "link": "https://claw-eval.github.io"
+        },
+        "c": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+        "n": "DeepSeek-V4-Pro (Multi Turn)",
+        "d": "2026-04-26",
+        "m1": "65.8"
+      },
+      {
+        "p": {
+          "name": "Claw-Eval Leaderboard",
+          "link": "https://claw-eval.github.io"
+        },
+        "c": "https://huggingface.co/XiaomiMiMo/MiMo-V2.5-Pro",
+        "n": "MiMo-V2.5-Pro (Multi Turn)",
+        "d": "2026-04-27",
+        "m1": "63.2"
+      },
+      {
+        "p": {
+          "name": "Claw-Eval Leaderboard",
+          "link": "https://claw-eval.github.io"
+        },
+        "c": "https://github.com/zai-org/GLM-5",
+        "n": "GLM-5.1 (Multi Turn)",
+        "d": "2026-04-03",
+        "m1": "60.5"
+      },
+      {
+        "p": {
+          "name": "Claw-Eval: Toward Trustworthy Evaluation of Autonomous Agents",
+          "link": "https://arxiv.org/abs/2604.06132"
+        },
+        "c": "https://github.com/claw-eval/claw-eval",
+        "n": "GLM-5V-Turbo (Multi Turn)",
+        "d": "2026-04-07",
+        "m1": "57.9"
+      },
+      {
+        "p": {
+          "name": "Claw-Eval Leaderboard",
+          "link": "https://claw-eval.github.io"
+        },
+        "c": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+        "n": "DeepSeek-V4-Flash (Multi Turn)",
+        "d": "2026-04-26",
+        "m1": "57.9"
+      },
+      {
+        "p": {
+          "name": "Claw-Eval: Toward Trustworthy Evaluation of Autonomous Agents",
+          "link": "https://arxiv.org/abs/2604.06132"
+        },
+        "c": "https://github.com/claw-eval/claw-eval",
+        "n": "Qwen3.5-397B-A17B (Multi Turn)",
+        "d": "2026-04-07",
+        "m1": "52.6"
+      },
+      {
+        "p": {
+          "name": "Claw-Eval Leaderboard",
+          "link": "https://claw-eval.github.io"
+        },
+        "c": "https://github.com/MoonshotAI/Kimi-K2.5",
+        "n": "Kimi-K2.5 (Multi Turn)",
+        "d": "2026-02-02",
+        "m1": "50.0"
+      }
+    ]
+  }
+}

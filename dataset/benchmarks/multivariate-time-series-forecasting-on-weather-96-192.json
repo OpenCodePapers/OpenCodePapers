@@ -1,0 +1,110 @@
+{
+  "title": "multivariate-time-series-forecasting-on-weather-96-192",
+  "task-hierarchy": [
+    "Time Series Forecasting",
+    "Multivariate Time Series Forecasting"
+  ],
+  "dataset-info": {
+    "link": "https://www.bgc-jena.mpg.de/wetter/",
+    "paper": "Autoformer: Decomposition Transformers with Auto-Correlation for Long-Term Series Forecasting"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "MSE",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "MAE",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "GG-SSMs: Graph-Generating State Space Models",
+          "link": "https://arxiv.org/abs/2412.12423"
+        },
+        "c": "",
+        "n": "GG-SSM",
+        "d": "2024-12-17",
+        "m1": "0.1918",
+        "m2": "0.2405"
+      },
+      {
+        "p": {
+          "name": "TimeMixer: Decomposable Multiscale Mixing for Time Series Forecasting",
+          "link": "https://arxiv.org/abs/2405.14616"
+        },
+        "c": "https://github.com/kwuking/TimeMixer",
+        "n": "TimeMixer",
+        "d": "2024-05-23",
+        "m1": "0.208",
+        "m2": "0.250"
+      },
+      {
+        "p": {
+          "name": "SegRNN: Segment Recurrent Neural Network for Long-Term Time Series Forecasting",
+          "link": "https://arxiv.org/abs/2308.11200v1"
+        },
+        "c": "https://github.com/thuml/Time-Series-Library",
+        "n": "SegRNN",
+        "d": "2023-08-22",
+        "m1": "0.211",
+        "m2": "0.273"
+      },
+      {
+        "p": {
+          "name": "xPatch: Dual-Stream Time Series Forecasting with Exponential Seasonal-Trend Decomposition",
+          "link": "https://arxiv.org/abs/2412.17323v2"
+        },
+        "c": "https://github.com/stitsyuk/xpatch",
+        "n": "xPatch",
+        "d": "2024-12-23",
+        "m1": "0.214",
+        "m2": "0.245"
+      },
+      {
+        "p": {
+          "name": "iTransformer: Inverted Transformers Are Effective for Time Series Forecasting",
+          "link": "https://arxiv.org/abs/2310.06625v4"
+        },
+        "c": "https://github.com/thuml/Time-Series-Library",
+        "n": "iTransformer",
+        "d": "2023-10-10",
+        "m1": "0.221",
+        "m2": "0.254"
+      },
+      {
+        "p": {
+          "name": "Autoformer: Decomposition Transformers with Auto-Correlation for Long-Term Series Forecasting",
+          "link": "https://arxiv.org/abs/2106.13008v5"
+        },
+        "c": "https://github.com/thuml/autoformer",
+        "n": "Autoformer",
+        "d": "2021-06-24",
+        "m1": "0.307",
+        "m2": "0.367"
+      }
+    ]
+  }
+}

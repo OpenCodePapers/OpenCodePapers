@@ -1,0 +1,153 @@
+{
+  "title": "text-to-video-generation-on-vbench-2-0",
+  "task-hierarchy": [
+    "Video Generation",
+    "Text-to-Video Generation"
+  ],
+  "dataset-info": {
+    "link": "https://vchitect.github.io/VBench-2.0-project/",
+    "paper": "VBench-2.0: Advancing Video Generation Benchmark Suite for Intrinsic Faithfulness"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "VBench-2.0 Total Score",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "VBench-2.0 Physics Score",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "VBench-2.0 Creativity Score",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "VBench-2.0 Commonsense Score",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "VBench-2.0 Human Fidelity Score",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "VBench-2.0 Controllability Score",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "LightVAE: Towards Compact and Efficient Video Autoencoders",
+          "link": "https://arxiv.org/abs/2610.14726"
+        },
+        "c": "https://github.com/ModelTC/LightVAE",
+        "n": "LightVAE-Lite (MiniMax-H3)",
+        "d": "2026-10-10",
+        "m1": "66.5546",
+        "m2": "75.3712",
+        "m3": "45.4439",
+        "m4": "74.0825",
+        "m5": "82.6056",
+        "m6": "55.2702"
+      },
+      {
+        "p": {
+          "name": "LongCat-Video Technical Report",
+          "link": "https://arxiv.org/abs/2510.22200"
+        },
+        "c": "https://github.com/meituan-longcat/LongCat-Video",
+        "n": "LongCat-Video",
+        "d": "2025-10-25",
+        "m1": "62.11",
+        "m2": "59.92",
+        "m3": "54.73",
+        "m4": "70.94",
+        "m5": "80.20",
+        "m6": "44.79"
+      },
+      {
+        "p": {
+          "name": "TC-Pade: Trajectory-Consistent Pade Approximation for Diffusion Acceleration",
+          "link": "https://arxiv.org/abs/2603.02943"
+        },
+        "c": "",
+        "n": "TC-Padé (fast)",
+        "d": "2026-03-03",
+        "m1": "60.38"
+      },
+      {
+        "p": {
+          "name": "PyramidalWan: On Making Pretrained Video Model Pyramidal for Efficient Inference",
+          "link": "https://arxiv.org/abs/2601.04792"
+        },
+        "c": "",
+        "n": "Wan-DMD (4 steps)",
+        "d": "2026-01-08",
+        "m1": "57.48"
+      },
+      {
+        "p": {
+          "name": "ReHyAt: Recurrent Hybrid Attention for Video Diffusion Transformers",
+          "link": "https://arxiv.org/abs/2601.04342"
+        },
+        "c": "",
+        "n": "ReHyAt (15×Tc=5)",
+        "d": "2026-01-07",
+        "m1": "56.3"
+      },
+      {
+        "p": {
+          "name": "LatSearch: Latent Reward-Guided Search for Faster Inference-Time Scaling in Video Diffusion",
+          "link": "https://arxiv.org/abs/2603.14526"
+        },
+        "c": "https://github.com/zengqunzhao/latsearch",
+        "n": "LatSearch",
+        "d": "2026-03-15",
+        "m1": "55.25",
+        "m2": "53.41",
+        "m3": "57.53",
+        "m4": "57.36",
+        "m5": "84.01",
+        "m6": "23.96"
+      },
+      {
+        "p": {
+          "name": "Breaking the Uniformity Trap: Scaling Video Diffusion Model via SplitMoE",
+          "link": "https://arxiv.org/abs/2609.38140"
+        },
+        "c": "",
+        "n": "SplitMoE",
+        "d": "2026-09-29",
+        "m2": "69.41",
+        "m3": "58.46",
+        "m4": "64.89",
+        "m5": "84.47",
+        "m6": "45.72"
+      }
+    ]
+  }
+}

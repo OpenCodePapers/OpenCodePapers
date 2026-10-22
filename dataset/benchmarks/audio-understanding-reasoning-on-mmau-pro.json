@@ -1,0 +1,99 @@
+{
+  "title": "audio-understanding-reasoning-on-mmau-pro",
+  "task-hierarchy": [
+    "Audio Question Answering",
+    "Audio Understanding Reasoning"
+  ],
+  "dataset-info": {
+    "link": "https://sonalkum.github.io/mmau-pro/",
+    "paper": "MMAU-Pro: A Challenging and Comprehensive Benchmark for Holistic Evaluation of Audio General Intelligence"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "MMAU-Pro Overall Weighted Performance",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "dots3-note Preview: A Small but Mighty Step Toward Long-Horizon Agency in Real Life",
+          "link": "https://studio.dots.ai/dots/dots3-en.html"
+        },
+        "c": "https://github.com/studio-dots-ai/dots3-note-prev",
+        "n": "dots3-note Preview",
+        "d": "2026-08-13",
+        "m1": "69.79"
+      },
+      {
+        "p": {
+          "name": "Realtime-Venus: A full-duplex interaction system with asynchronous delegation",
+          "link": "https://arxiv.org/abs/2609.13814"
+        },
+        "c": "",
+        "n": "Realtime-Venus-Audio",
+        "d": "2026-09-12",
+        "m1": "63.2"
+      },
+      {
+        "p": {
+          "name": "Audio Flamingo Next: Next-Generation Open Audio-Language Models for Speech, Sound, and Music",
+          "link": "https://arxiv.org/abs/2604.10905"
+        },
+        "c": "",
+        "n": "AF-Next-Think",
+        "d": "2026-04-13",
+        "m1": "58.7"
+      },
+      {
+        "p": {
+          "name": "AudioToolAgent: An Agentic Framework for Audio-Language Models",
+          "link": "https://arxiv.org/abs/2510.02995"
+        },
+        "c": "https://github.com/GLJS/AudioToolAgent",
+        "n": "AudioToolAgent",
+        "d": "2025-10-03",
+        "m1": "57.96"
+      },
+      {
+        "p": {
+          "name": "AHA: Aligning Large Audio-Language Models for Reasoning Hallucinations via Counterfactual Hard Negatives",
+          "link": "https://arxiv.org/abs/2512.24052"
+        },
+        "c": "https://github.com/LLM-VLM-GSL/AHA",
+        "n": "Qwen-Audio-AHA",
+        "d": "2025-12-30",
+        "m1": "54.8"
+      },
+      {
+        "p": {
+          "name": "MiMo-Audio: Audio Language Models are Few-Shot Learners",
+          "link": "https://arxiv.org/abs/2512.23808"
+        },
+        "c": "https://github.com/XiaomiMiMo/MiMo-Audio/",
+        "n": "MiMo-Audio-7B-Instruct",
+        "d": "2025-09-01",
+        "m1": "53.35"
+      }
+    ]
+  }
+}

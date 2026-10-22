@@ -1,0 +1,108 @@
+{
+  "title": "video-matting-on-videomatte-1920-1080",
+  "task-hierarchy": [
+    "Video Matting"
+  ],
+  "dataset-info": {
+    "link": "https://arxiv.org/abs/2108.11515",
+    "paper": "Robust High-Resolution Video Matting with Temporal Guidance"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "MAD",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "MSE",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Gradient",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "MatAnyone 2: Scaling Video Matting via a Learned Quality Evaluator",
+          "link": "https://arxiv.org/abs/2512.11782"
+        },
+        "c": "https://github.com/pq-yang/matanyone2",
+        "n": "MatAnyone 2",
+        "d": "2025-12-12",
+        "m1": "4.10",
+        "m2": "0.28",
+        "m3": "3.45"
+      },
+      {
+        "p": {
+          "name": "$\\alpha$Matte4K & $\\mu$Matting: Dataset and Model for Ultra-Micro Precision Alpha Video Matting",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Chen_alphaMatte4K__muMatting_Dataset_and_Model_for_Ultra-Micro_Precision_Alpha_CVPR_2026_paper.html"
+        },
+        "c": "https://github.com/kadatec/mu-matting",
+        "n": "µMatting (extra data)",
+        "d": "2026-06-03",
+        "m1": "4.21",
+        "m2": "1.62",
+        "m3": "8.49"
+      },
+      {
+        "p": {
+          "name": "MatAnyone: Stable Video Matting with Consistent Memory Propagation",
+          "link": "https://arxiv.org/abs/2501.14677"
+        },
+        "c": "https://github.com/pq-yang/matanyone",
+        "n": "MatAnyone",
+        "d": "2025-01-24",
+        "m1": "4.24",
+        "m2": "0.33",
+        "m3": "4.00"
+      },
+      {
+        "p": {
+          "name": "Robust High-Resolution Video Matting with Temporal Guidance",
+          "link": "https://arxiv.org/abs/2108.11515"
+        },
+        "c": "https://github.com/PeterL1n/RobustVideoMatting",
+        "n": "RVM ResNet50",
+        "d": "2021-08-25",
+        "m1": "5.81",
+        "m2": "0.97",
+        "m3": "9.65"
+      },
+      {
+        "p": {
+          "name": "VMFormer: End-to-End Video Matting with Transformer",
+          "link": "https://arxiv.org/abs/2208.12801"
+        },
+        "c": "https://github.com/SHI-Labs/VMFormer",
+        "n": "VMFormer",
+        "d": "2022-08-26",
+        "m1": "6.20",
+        "m2": "1.53",
+        "m3": "6.30"
+      }
+    ]
+  }
+}

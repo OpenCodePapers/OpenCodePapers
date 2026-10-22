@@ -37,6 +37,16 @@
     "items": [
       {
         "p": {
+          "name": "Perception Encoder: The best visual embeddings are not at the output of the network",
+          "link": "https://arxiv.org/abs/2504.13181v1"
+        },
+        "c": "https://github.com/facebookresearch/perception_models",
+        "n": "PE-Core G",
+        "d": "2025-04-17",
+        "m1": "78.5"
+      },
+      {
+        "p": {
           "name": "EVA-CLIP-18B: Scaling CLIP to 18 Billion Parameters",
           "link": "https://arxiv.org/abs/2402.04252v1"
         },
@@ -44,6 +54,36 @@
         "n": "EVA-CLIP-18B",
         "d": "2024-02-06",
         "m1": "77.7"
+      },
+      {
+        "p": {
+          "name": "Demystifying CLIP Data",
+          "link": "https://arxiv.org/abs/2309.16671"
+        },
+        "c": "https://github.com/facebookresearch/MetaCLIP",
+        "n": "MetaCLIP ViT-bigG/14",
+        "d": "2023-09-28",
+        "m1": "75.1"
+      },
+      {
+        "p": {
+          "name": "Multi-label Cluster Discrimination for Visual Representation Learning",
+          "link": "https://arxiv.org/abs/2407.17331v2"
+        },
+        "c": "https://github.com/deepglint/unicom",
+        "n": "MLCD ViT-L/14",
+        "d": "2024-07-24",
+        "m1": "72.1"
+      },
+      {
+        "p": {
+          "name": "SmartCLIP: Modular Vision-language Alignment with Identification Guarantees",
+          "link": "https://arxiv.org/abs/2507.22264"
+        },
+        "c": "https://github.com/mid-push/smartclip",
+        "n": "SmartCLIP (ViT-L/14)",
+        "d": "2025-07-29",
+        "m1": "72.1"
       },
       {
         "p": {

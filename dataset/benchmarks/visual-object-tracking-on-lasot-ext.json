@@ -68,6 +68,18 @@
       },
       {
         "p": {
+          "name": "TR-MoE: Temporal Reliability-Aware Mixture-of-Experts for Robust Tracking",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/4745"
+        },
+        "c": "https://github.com/avant1v/tr-moe",
+        "n": "TR-MoE",
+        "d": "2026-09-08",
+        "m1": "58.4",
+        "m2": "70.8",
+        "m3": "68.3"
+      },
+      {
+        "p": {
           "name": "Tracking Meets LoRA: Faster Training, Larger Model, Stronger Performance",
           "link": "https://arxiv.org/abs/2403.05231v2"
         },
@@ -164,6 +176,16 @@
       },
       {
         "p": {
+          "name": "ODONet: Online Dynamic Offset Network for Visual Object Tracking",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/4749"
+        },
+        "c": "https://github.com/whitebutterflies/odonet",
+        "n": "ODONet-B224",
+        "d": "2026-09-08",
+        "m1": "54.3"
+      },
+      {
+        "p": {
           "name": "ODTrack: Online Dense Temporal Token Learning for Visual Tracking",
           "link": "https://arxiv.org/abs/2401.01686v1"
         },
@@ -221,6 +243,18 @@
       },
       {
         "p": {
+          "name": "Autoregressive Queries for Adaptive Tracking with Spatio-TemporalTransformers",
+          "link": "https://arxiv.org/abs/2403.10574v1"
+        },
+        "c": "",
+        "n": "AQATrack-384 (extra data)",
+        "d": "2024-03-15",
+        "m1": "52.7",
+        "m2": "64.2",
+        "m3": "60.8"
+      },
+      {
+        "p": {
           "name": "ODTrack: Online Dense Temporal Token Learning for Visual Tracking",
           "link": "https://arxiv.org/abs/2401.01686v1"
         },
@@ -262,6 +296,17 @@
         "n": "KeepTrack",
         "d": "2021-03-30",
         "m1": "48.2"
+      },
+      {
+        "p": {
+          "name": "Adaptive Capacity Autoregressive Visual Tracking",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Lin_Adaptive_Capacity_Autoregressive_Visual_Tracking_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "ARTrack-AC_para",
+        "d": "2026-06-03",
+        "m1": "47.5",
+        "m3": "53.3"
       },
       {
         "p": {

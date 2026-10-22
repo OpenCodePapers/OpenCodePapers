@@ -1,0 +1,97 @@
+{
+  "title": "visual-place-recognition-on-sf-xl-occlusion",
+  "task-hierarchy": [
+    "Visual Localization",
+    "Visual Place Recognition"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/gbarbarani/re-ranking-for-VPR",
+    "paper": "Are Local Features All You Need for Cross-Domain Visual Place Recognition?"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Recall@1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Recall@10",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "AdaptVPR: Route-Aware Hard Positive Generation for Robust Visual Place Recognition",
+          "link": "https://arxiv.org/abs/2609.04369"
+        },
+        "c": "https://github.com/chenshunpeng/AdaptVPR",
+        "n": "ImAge + AdaptVPR",
+        "d": "2026-09-03",
+        "m1": "0.632",
+        "m2": "0.724"
+      },
+      {
+        "p": {
+          "name": "SuperPlace: The Renaissance of Classical Feature Aggregation for Visual Place Recognition in the Era of Foundation Models",
+          "link": "https://arxiv.org/abs/2506.13073"
+        },
+        "c": "https://github.com/binuxliu/superplace",
+        "n": "SuperPlace SP-NVL-FT2 (DINOv2-B, GPMS, 8192D, 322px)",
+        "d": "2025-06-16",
+        "m1": "0.592"
+      },
+      {
+        "p": {
+          "name": "SAGE: Spatial-visual Adaptive Graph Exploration for Efficient Visual Place Recognition",
+          "link": "https://arxiv.org/abs/2509.25723"
+        },
+        "c": "https://github.com/chenshunpeng/sage",
+        "n": "SAGE ViT-B (without cross-image encoder)",
+        "d": "2025-09-30",
+        "m1": "0.579"
+      },
+      {
+        "p": {
+          "name": "UniPR-3D: Towards Universal Visual Place Recognition with Visual Geometry Grounded Transformer",
+          "link": "https://arxiv.org/abs/2512.21078"
+        },
+        "c": "https://github.com/dtc111111/UniPR-3D",
+        "n": "UniPR-3D* (MegaLoc training setting, single frame)",
+        "d": "2025-12-24",
+        "m1": "0.539",
+        "m2": "0.774"
+      },
+      {
+        "p": {
+          "name": "MegaLoc: One Retrieval to Place Them All",
+          "link": "https://arxiv.org/abs/2502.17237"
+        },
+        "c": "https://github.com/gmberton/megaloc",
+        "n": "MegaLoc (8448D)",
+        "d": "2025-02-24",
+        "m1": "0.513",
+        "m2": "0.75"
+      }
+    ]
+  }
+}

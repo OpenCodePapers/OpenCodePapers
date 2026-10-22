@@ -1,0 +1,219 @@
+{
+  "title": "instruction-following-on-mtbench",
+  "task-hierarchy": [
+    "Natural Language Understanding",
+    "Instruction Following"
+  ],
+  "dataset-info": {
+    "link": "https://arxiv.org/abs/2306.05685",
+    "paper": "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Score (1-10)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Qwen2.5 Technical Report",
+          "link": "https://arxiv.org/abs/2412.15115v2"
+        },
+        "c": "https://github.com/qwenlm/qwen1.5",
+        "n": "Qwen2.5-72B-Instruct",
+        "d": "2024-12-19",
+        "m1": "9.35"
+      },
+      {
+        "p": {
+          "name": "Falcon-H1: A Family of Hybrid-Head Language Models Redefining Efficiency and Performance",
+          "link": "https://arxiv.org/abs/2507.22448"
+        },
+        "c": "https://huggingface.co/tiiuae/Falcon-H1-34B-Instruct",
+        "n": "Falcon-H1-34B-Instruct",
+        "d": "2025-07-30",
+        "m1": "9.20"
+      },
+      {
+        "p": {
+          "name": "Qwen2 Technical Report",
+          "link": "https://arxiv.org/abs/2407.10671v4"
+        },
+        "c": "https://github.com/qwenlm/qwen1.5",
+        "n": "Qwen2-72B-Instruct",
+        "d": "2024-07-15",
+        "m1": "9.12"
+      },
+      {
+        "p": {
+          "name": "DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model",
+          "link": "https://arxiv.org/abs/2405.04434"
+        },
+        "c": "https://github.com/deepseek-ai/DeepSeek-V2",
+        "n": "DeepSeek-V2 Chat (RL)",
+        "d": "2024-05-07",
+        "m1": "8.97"
+      },
+      {
+        "p": {
+          "name": "Phi-3 Technical Report: A Highly Capable Language Model Locally on Your Phone",
+          "link": "https://arxiv.org/abs/2404.14219v4"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Phi-3-Medium",
+        "d": "2024-04-22",
+        "m1": "8.91"
+      },
+      {
+        "p": {
+          "name": "HyperCLOVA X THINK Technical Report",
+          "link": "https://arxiv.org/abs/2506.22403"
+        },
+        "c": "https://huggingface.co/naver-hyperclovax/HyperCLOVAX-SEED-Think-14B",
+        "n": "HyperCLOVA X SEED 14B Think",
+        "d": "2025-06-27",
+        "m1": "8.8313"
+      },
+      {
+        "p": {
+          "name": "A Zeroth-Order Paradigm for LLM Preference Alignment",
+          "link": "https://arxiv.org/abs/2609.19144"
+        },
+        "c": "",
+        "n": "Gemma-2-9B-it SimPO + ComPO",
+        "d": "2026-09-16",
+        "m1": "8.79"
+      },
+      {
+        "p": {
+          "name": "Qwen2 Technical Report",
+          "link": "https://arxiv.org/abs/2407.10671v4"
+        },
+        "c": "https://github.com/qwenlm/qwen1.5",
+        "n": "Qwen2-57B-A14B-Instruct",
+        "d": "2024-07-15",
+        "m1": "8.55"
+      },
+      {
+        "p": {
+          "name": "Aria: An Open Multimodal Native Mixture-of-Experts Model",
+          "link": "https://arxiv.org/abs/2410.05993v4"
+        },
+        "c": "https://github.com/rhymes-ai/aria",
+        "n": "Aria",
+        "d": "2024-10-08",
+        "m1": "8.53"
+      },
+      {
+        "p": {
+          "name": "ChatGLM: A Family of Large Language Models from GLM-130B to GLM-4 All Tools",
+          "link": "https://arxiv.org/abs/2406.12793"
+        },
+        "c": "https://github.com/zai-org/GLM-4",
+        "n": "GLM-4-9B-Chat",
+        "d": "2024-06-18",
+        "m1": "8.35"
+      },
+      {
+        "p": {
+          "name": "Mixtral of Experts",
+          "link": "https://arxiv.org/abs/2401.04088v1"
+        },
+        "c": "https://github.com/jingyaogong/minimind",
+        "n": "Mixtral 8x7B Instruct",
+        "d": "2024-01-08",
+        "m1": "8.30"
+      },
+      {
+        "p": {
+          "name": "Nemotron-4 340B Technical Report",
+          "link": "https://arxiv.org/abs/2406.11704"
+        },
+        "c": "https://github.com/nvidia/nemo-aligner",
+        "n": "Nemotron-4-340B-Instruct",
+        "d": "2024-06-17",
+        "m1": "8.22"
+      },
+      {
+        "p": {
+          "name": "Pixtral 12B",
+          "link": "https://arxiv.org/abs/2410.07073"
+        },
+        "c": "https://github.com/mistralai/mistral-inference",
+        "n": "Pixtral 12B",
+        "d": "2024-10-09",
+        "m1": "7.68"
+      },
+      {
+        "p": {
+          "name": "The Zamba2 Suite: Technical Report",
+          "link": "https://arxiv.org/abs/2411.15242"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Zamba2-7B-Instruct",
+        "d": "2024-11-22",
+        "m1": "7.42"
+      },
+      {
+        "p": {
+          "name": "LSRIF: Logic-Structured Reinforcement Learning for Instruction Following",
+          "link": "https://arxiv.org/abs/2601.06431"
+        },
+        "c": "",
+        "n": "Distill-Qwen-14B (LsrIF)",
+        "d": "2026-01-10",
+        "m1": "7.0"
+      },
+      {
+        "p": {
+          "name": "Mistral 7B",
+          "link": "https://arxiv.org/abs/2310.06825v1"
+        },
+        "c": "https://github.com/mistralai/mistral-src",
+        "n": "Mistral 7B Instruct",
+        "d": "2023-10-10",
+        "m1": "6.84"
+      },
+      {
+        "p": {
+          "name": "SmolLM2: When Smol Goes Big -- Data-Centric Training of a Small Language Model",
+          "link": "https://arxiv.org/abs/2502.02737"
+        },
+        "c": "https://github.com/huggingface/smollm",
+        "n": "SmolLM2 1.7B Instruct",
+        "d": "2025-02-04",
+        "m1": "6.13"
+      },
+      {
+        "p": {
+          "name": "BitNet b1.58 2B4T Technical Report",
+          "link": "https://arxiv.org/abs/2504.12285"
+        },
+        "c": "https://github.com/microsoft/bitnet",
+        "n": "BitNet b1.58 2B4T",
+        "d": "2025-04-16",
+        "m1": "5.85"
+      }
+    ]
+  }
+}

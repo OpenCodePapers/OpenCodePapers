@@ -1,0 +1,165 @@
+{
+  "title": "text-to-speech-synthesis-on-open-tts-leaderboard",
+  "task-hierarchy": [
+    "Speech Synthesis",
+    "Text-To-Speech Synthesis"
+  ],
+  "dataset-info": {
+    "link": "https://huggingface.co/spaces/hf-audio/open_tts_leaderboard",
+    "paper": "Open TTS Leaderboard"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "WER",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "RTFx",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Open TTS Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_tts_leaderboard"
+        },
+        "c": "https://github.com/fishaudio/fish-speech",
+        "n": "Fish Audio S2 Pro",
+        "d": "2026-03-09",
+        "m1": "1.06",
+        "m2": "0.4"
+      },
+      {
+        "p": {
+          "name": "Open TTS Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_tts_leaderboard"
+        },
+        "c": "https://github.com/k2-fsa/omnivoice",
+        "n": "OmniVoice",
+        "d": "2026-04-01",
+        "m1": "1.1",
+        "m2": "37.56"
+      },
+      {
+        "p": {
+          "name": "Open TTS Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_tts_leaderboard"
+        },
+        "c": "https://github.com/kyutai-labs/pocket-tts",
+        "n": "Pocket TTS",
+        "d": "2025-09-08",
+        "m1": "1.11",
+        "m2": "9.09"
+      },
+      {
+        "p": {
+          "name": "Open TTS Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_tts_leaderboard"
+        },
+        "c": "https://github.com/QwenLM/Qwen3-TTS",
+        "n": "Qwen3-TTS 1.7B (CustomVoice)",
+        "d": "2026-01-22",
+        "m1": "1.17",
+        "m2": "13.32"
+      },
+      {
+        "p": {
+          "name": "Open TTS Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_tts_leaderboard"
+        },
+        "c": "https://github.com/funaudiollm/cosyvoice",
+        "n": "CosyVoice 3 0.5B (RL)",
+        "d": "2025-05-23",
+        "m1": "1.18",
+        "m2": "2.81"
+      },
+      {
+        "p": {
+          "name": "Open TTS Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_tts_leaderboard"
+        },
+        "c": "https://github.com/microsoft/vibevoice",
+        "n": "VibeVoice Realtime 0.5B",
+        "d": "2025-08-26",
+        "m1": "1.3",
+        "m2": "2.71"
+      },
+      {
+        "p": {
+          "name": "Open TTS Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_tts_leaderboard"
+        },
+        "c": "https://github.com/facebookresearch/seamless_communication",
+        "n": "SeamlessM4T v2 Large",
+        "d": "2023-12-08",
+        "m1": "1.57",
+        "m2": "169.5"
+      },
+      {
+        "p": {
+          "name": "Open TTS Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_tts_leaderboard"
+        },
+        "c": "https://github.com/microsoft/speecht5",
+        "n": "SpeechT5",
+        "d": "2021-10-14",
+        "m1": "1.79",
+        "m2": "115.99"
+      },
+      {
+        "p": {
+          "name": "Open TTS Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_tts_leaderboard"
+        },
+        "c": "https://github.com/OpenMOSS/MOSS-TTS",
+        "n": "MOSS-TTS",
+        "d": "2026-03-18",
+        "m1": "1.81",
+        "m2": "3.43"
+      },
+      {
+        "p": {
+          "name": "Open TTS Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_tts_leaderboard"
+        },
+        "c": "https://github.com/QwenLM/Qwen3-Omni",
+        "n": "Qwen3-Omni 30B-A3B",
+        "d": "2025-09-22",
+        "m1": "1.98",
+        "m2": "11.46"
+      },
+      {
+        "p": {
+          "name": "Open TTS Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_tts_leaderboard"
+        },
+        "c": "",
+        "n": "Voxtral 4B TTS",
+        "d": "2026-03-26",
+        "m1": "2.17",
+        "m2": "46.84"
+      }
+    ]
+  }
+}

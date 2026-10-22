@@ -1,0 +1,196 @@
+{
+  "title": "monocular-depth-estimation-on-scannet-relative-depth-aligned",
+  "task-hierarchy": [
+    "Depth Estimation",
+    "Monocular Depth Estimation"
+  ],
+  "dataset-info": {
+    "link": "http://www.scan-net.org/",
+    "paper": "ScanNet: Richly-annotated 3D Reconstructions of Indoor Scenes"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AbsRel",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "delta1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Vision as Unified Multimodal Generation",
+          "link": "https://arxiv.org/abs/2607.06560"
+        },
+        "c": "https://github.com/OpenSenseNova/SenseNova-Vision",
+        "n": "SenseNova-Vision",
+        "d": "2026-07-07",
+        "m1": "0.039",
+        "m2": "0.98"
+      },
+      {
+        "p": {
+          "name": "Lotus-2: Advancing Geometric Dense Prediction with Powerful Image Generative Model",
+          "link": "https://arxiv.org/abs/2512.01030"
+        },
+        "c": "https://github.com/EnVision-Research/Lotus-2",
+        "n": "Lotus-2 (zero-shot)",
+        "d": "2025-11-30",
+        "m1": "0.042",
+        "m2": "0.976"
+      },
+      {
+        "p": {
+          "name": "DINOv3",
+          "link": "https://arxiv.org/abs/2508.10104v1"
+        },
+        "c": "https://github.com/facebookresearch/dinov3",
+        "n": "DINOv3 + Depth Anything V2",
+        "d": "2025-08-13",
+        "m1": "0.044",
+        "m2": "0.981"
+      },
+      {
+        "p": {
+          "name": "AnyDepth: Depth Estimation Made Easy",
+          "link": "https://arxiv.org/abs/2601.02760"
+        },
+        "c": "https://github.com/AIGeeksGroup/AnyDepth",
+        "n": "AnyDepth ViT-L",
+        "d": "2026-01-06",
+        "m1": "0.054",
+        "m2": "0.974"
+      },
+      {
+        "p": {
+          "name": "Lotus: Diffusion-based Visual Foundation Model for High-quality Dense Prediction",
+          "link": "https://arxiv.org/abs/2409.18124"
+        },
+        "c": "https://github.com/envision-research/lotus",
+        "n": "Lotus-D (zero-shot)",
+        "d": "2024-09-26",
+        "m1": "0.055",
+        "m2": "0.965"
+      },
+      {
+        "p": {
+          "name": "UniGP: Taming Diffusion Transformer for Prior-Preserved Unified Generation and Perception",
+          "link": "https://arxiv.org/abs/2606.30332"
+        },
+        "c": "https://github.com/guoqincode/unigp",
+        "n": "UNIGP",
+        "d": "2026-06-29",
+        "m1": "0.055",
+        "m2": "0.979"
+      },
+      {
+        "p": {
+          "name": "Fine-Tuning Image-Conditional Diffusion Models is Easier than You Think",
+          "link": "https://arxiv.org/abs/2409.11355v1"
+        },
+        "c": "https://github.com/VisualComputingInstitute/diffusion-e2e-ft",
+        "n": "Marigold + E2E FT (zero-shot)",
+        "d": "2024-09-17",
+        "m1": "0.058"
+      },
+      {
+        "p": {
+          "name": "Video Generative Models as Geometry Learner",
+          "link": "https://arxiv.org/abs/2608.28549"
+        },
+        "c": "https://github.com/creative-intelligence-studio/geonext",
+        "n": "GeoNeXt",
+        "d": "2026-08-28",
+        "m1": "0.059",
+        "m2": "0.958"
+      },
+      {
+        "p": {
+          "name": "GeoWizard: Unleashing the Diffusion Priors for 3D Geometry Estimation from a Single Image",
+          "link": "https://arxiv.org/abs/2403.12013"
+        },
+        "c": "https://github.com/fuxiao0719/GeoWizard",
+        "n": "GeoWizard (zero-shot)",
+        "d": "2024-03-18",
+        "m1": "0.061",
+        "m2": "0.953"
+      },
+      {
+        "p": {
+          "name": "Repurposing Diffusion-Based Image Generators for Monocular Depth Estimation",
+          "link": "https://arxiv.org/abs/2312.02145v2"
+        },
+        "c": "https://github.com/prs-eth/marigold",
+        "n": "Marigold (ensemble)",
+        "d": "2023-12-04",
+        "m1": "0.064",
+        "m2": "0.951"
+      },
+      {
+        "p": {
+          "name": "MODUS: Decoder-Only Any-to-Any Modeling of Diverse Modalities",
+          "link": "https://arxiv.org/abs/2607.25948"
+        },
+        "c": "https://github.com/EPFL-VILAB/Modus",
+        "n": "Modus",
+        "d": "2026-07-28",
+        "m1": "0.067",
+        "m2": "0.957"
+      },
+      {
+        "p": {
+          "name": "DICEPTION: A Generalist Diffusion Model for Visual Perceptual Tasks",
+          "link": "https://arxiv.org/abs/2502.17157v1"
+        },
+        "c": "https://github.com/aim-uofa/diception",
+        "n": "DICEPTION (zero-shot)",
+        "d": "2025-02-24",
+        "m1": "0.072",
+        "m2": "0.944"
+      },
+      {
+        "p": {
+          "name": "Fine-Tuning Image-Conditional Diffusion Models is Easier than You Think",
+          "link": "https://arxiv.org/abs/2409.11355v1"
+        },
+        "c": "https://github.com/VisualComputingInstitute/diffusion-e2e-ft",
+        "n": "Stable Diffusion + E2E FT (zero-shot)",
+        "d": "2024-09-17",
+        "m2": "0.965"
+      },
+      {
+        "p": {
+          "name": "ZipDepth: Bringing Lightweight Zero-Shot Monocular Depth Anywhere, on Any Device",
+          "link": "https://arxiv.org/abs/2607.08771"
+        },
+        "c": "https://github.com/fabiotosi92/zipdepth",
+        "n": "ZipDepth",
+        "d": "2026-07-09",
+        "m1": "0.088",
+        "m2": "0.921"
+      }
+    ]
+  }
+}

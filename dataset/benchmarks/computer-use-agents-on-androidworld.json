@@ -1,0 +1,439 @@
+{
+  "title": "computer-use-agents-on-androidworld",
+  "task-hierarchy": [
+    "Agents",
+    "Computer Use Agents"
+  ],
+  "dataset-info": {
+    "link": "https://google-research.github.io/android_world/",
+    "paper": "AndroidWorld: A Dynamic Benchmarking Environment for Autonomous Agents"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Success Rate",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Qwen3.8-Max: A New Bar for Coding and Cowork",
+          "link": "https://qwen.ai/blog?id=qwen3.8"
+        },
+        "c": "https://github.com/vllm-project/vllm",
+        "n": "Qwen3.8-Max",
+        "d": "2026-08-03",
+        "m1": "85.3"
+      },
+      {
+        "p": {
+          "name": "On the Design of Qwen3.8-Next Architecture: Evaluation, Efficiency, and Training Stability",
+          "link": "https://arxiv.org/abs/2608.30320"
+        },
+        "c": "https://github.com/qwenlm/flashqla",
+        "n": "Qwen3.8-Flash-Next",
+        "d": "2026-08-31",
+        "m1": "84.5"
+      },
+      {
+        "p": {
+          "name": "Training Open Models for Agentic Phone Use",
+          "link": "https://arxiv.org/abs/2606.23049"
+        },
+        "c": "https://github.com/PhoneBuddyAI/phonebuddy",
+        "n": "PhoneBuddy-4B-Real+Mock",
+        "d": "2026-06-22",
+        "m1": "83.2"
+      },
+      {
+        "p": {
+          "name": "Learning to Explore: Scaling Agentic Reasoning via Exploration-Aware Policy Optimization",
+          "link": "https://arxiv.org/abs/2605.08978"
+        },
+        "c": "https://github.com/HansenHua/EAPO-ICML26",
+        "n": "EAPO (8B)",
+        "d": "2026-05-12",
+        "m1": "82.05"
+      },
+      {
+        "p": {
+          "name": "Qwen3.8-27B",
+          "link": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        "c": "https://github.com/vllm-project/vllm",
+        "n": "Qwen3.8-27B",
+        "d": "2026-08-05",
+        "m1": "81.9"
+      },
+      {
+        "p": {
+          "name": "UI-Voyager: A Self-Evolving GUI Agent Learning via Failed Experience",
+          "link": "https://arxiv.org/abs/2603.24533"
+        },
+        "c": "https://github.com/ui-voyager/UI-Voyager",
+        "n": "UI-Voyager",
+        "d": "2026-03-25",
+        "m1": "81.0"
+      },
+      {
+        "p": {
+          "name": "OpenMobile-2: Building Versatile Mobile Agents with Scalable Environments and App-Native Tools",
+          "link": "https://arxiv.org/abs/2610.14157"
+        },
+        "c": "https://github.com/OpenMobile2/OpenMobile2-Code",
+        "n": "OpenMobile-2-27B",
+        "d": "2026-10-09",
+        "m1": "80.8"
+      },
+      {
+        "p": {
+          "name": "Holo3.1: Fast & Local Computer Use Agents",
+          "link": "https://hcompany.ai/holo3.1"
+        },
+        "c": "",
+        "n": "Holo3.1-35B-A3B",
+        "d": "2026-06-01",
+        "m1": "79.3"
+      },
+      {
+        "p": {
+          "name": "Xiaomi-GUI-0 Technical Report",
+          "link": "https://arxiv.org/abs/2606.31410"
+        },
+        "c": "",
+        "n": "Xiaomi-GUI-0 (Qwen3-VL-30B, Agentic RL)",
+        "d": "2026-06-30",
+        "m1": "78.9"
+      },
+      {
+        "p": {
+          "name": "UI-Venus-1.5 Technical Report",
+          "link": "https://arxiv.org/abs/2602.09082"
+        },
+        "c": "https://github.com/inclusionai/ui-venus",
+        "n": "UI-Venus-1.5-30B-A3B",
+        "d": "2026-02-09",
+        "m1": "77.6"
+      },
+      {
+        "p": {
+          "name": "UI-KOBE: Knowledge-Oriented Behavior Exploration for Lightweight Graph-Guided GUI Agents",
+          "link": "https://arxiv.org/abs/2605.29534"
+        },
+        "c": "",
+        "n": "UI-KOBE (Qwen3.5-Plus)",
+        "d": "2026-05-28",
+        "m1": "77.6"
+      },
+      {
+        "p": {
+          "name": "MAI-UI Technical Report: Real-World Centric Foundation GUI Agents",
+          "link": "https://arxiv.org/abs/2512.22047"
+        },
+        "c": "https://github.com/Tongyi-MAI/MAI-UI",
+        "n": "MAI-UI-235B-A22B",
+        "d": "2025-12-26",
+        "m1": "76.7"
+      },
+      {
+        "p": {
+          "name": "GLM-5V-Turbo: Toward a Native Foundation Model for Multimodal Agents",
+          "link": "https://arxiv.org/abs/2604.26752"
+        },
+        "c": "https://github.com/zai-org/GLM-V",
+        "n": "GLM-5V-Turbo",
+        "d": "2026-04-29",
+        "m1": "75.7"
+      },
+      {
+        "p": {
+          "name": "Mobile-Agent-v3: Fundamental Agents for GUI Automation",
+          "link": "https://arxiv.org/abs/2508.15144"
+        },
+        "c": "https://github.com/X-PLUG/MobileAgent/tree/main/Mobile-Agent-v3",
+        "n": "Mobile-Agent-v3 w/ GUI-Owl-32B",
+        "d": "2025-08-21",
+        "m1": "73.3"
+      },
+      {
+        "p": {
+          "name": "UI-TARS-2 Technical Report: Advancing GUI Agent with Multi-Turn Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2509.02544"
+        },
+        "c": "https://github.com/bytedance/ui-tars",
+        "n": "UI-TARS-2",
+        "d": "2025-09-02",
+        "m1": "73.3"
+      },
+      {
+        "p": {
+          "name": "Holo2: Foundational Models for Navigation and Computer Use Agents",
+          "link": "https://huggingface.co/Hcompany/Holo2-235B-A22B"
+        },
+        "c": "",
+        "n": "Holo2-30B-A3B",
+        "d": "2026-02-03",
+        "m1": "71.6"
+      },
+      {
+        "p": {
+          "name": "Mobile-Agent-v3.5: Multi-platform Fundamental GUI Agents",
+          "link": "https://arxiv.org/abs/2602.16855"
+        },
+        "c": "https://github.com/x-plug/mobileagent",
+        "n": "GUI-Owl-1.5-8B-Thinking",
+        "d": "2026-02-15",
+        "m1": "71.6"
+      },
+      {
+        "p": {
+          "name": "PhoneWorld: Scaling Phone-Use Agent Environments",
+          "link": "https://arxiv.org/abs/2605.29486"
+        },
+        "c": "",
+        "n": "Qwen3.5-9B + PhoneWorld (10K replacement)",
+        "d": "2026-05-28",
+        "m1": "71.6"
+      },
+      {
+        "p": {
+          "name": "Qwen3.5: Towards Native Multimodal Agents",
+          "link": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Qwen3.5-35B-A3B",
+        "d": "2026-02-16",
+        "m1": "71.1"
+      },
+      {
+        "p": {
+          "name": "Qwen3.6",
+          "link": "https://huggingface.co/collections/Qwen/qwen36"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Qwen3.6-27B",
+        "d": "2026-04-21",
+        "m1": "70.3"
+      },
+      {
+        "p": {
+          "name": "Holo3: Foundational Models for Navigation and Computer Use Agents",
+          "link": "https://huggingface.co/Hcompany/Holo3-35B-A3B"
+        },
+        "c": "",
+        "n": "Holo3-35B-A3B",
+        "d": "2026-04-01",
+        "m1": "67.2"
+      },
+      {
+        "p": {
+          "name": "MobileForge: Annotation-Free Adaptation for Mobile GUI Agents with Hierarchical Feedback-Guided Policy Optimization",
+          "link": "https://arxiv.org/abs/2606.19930"
+        },
+        "c": "https://github.com/kwai/MobileForge",
+        "n": "ForgeOwl-8B (extra data)",
+        "d": "2026-06-18",
+        "m1": "67.2"
+      },
+      {
+        "p": {
+          "name": "The Next Screenshot Knows: Gated Hindsight Distillation for Mobile GUI Agents",
+          "link": "https://arxiv.org/abs/2608.06065"
+        },
+        "c": "",
+        "n": "GHD (Qwen3-VL-8B)",
+        "d": "2026-08-06",
+        "m1": "66.47"
+      },
+      {
+        "p": {
+          "name": "OpenMobile: Building Open Mobile Agents with Task and Trajectory Synthesis",
+          "link": "https://arxiv.org/abs/2604.15093"
+        },
+        "c": "https://github.com/njucckevin/OpenMobile-Code",
+        "n": "Qwen3-VL (fine-tuned on OpenMobile)",
+        "d": "2026-04-16",
+        "m1": "64.7"
+      },
+      {
+        "p": {
+          "name": "UI-TARS: Pioneering Automated GUI Interaction with Native Agents",
+          "link": "https://arxiv.org/abs/2501.12326"
+        },
+        "c": "https://github.com/bytedance/ui-tars",
+        "n": "UI-TARS-1.5 (early access)",
+        "d": "2025-01-21",
+        "m1": "64.2"
+      },
+      {
+        "p": {
+          "name": "Qwen3-VL Technical Report",
+          "link": "https://arxiv.org/abs/2511.21631"
+        },
+        "c": "https://github.com/QwenLM/Qwen3-VL",
+        "n": "Qwen3-VL-235B-A22B-Instruct",
+        "d": "2025-11-26",
+        "m1": "63.7"
+      },
+      {
+        "p": {
+          "name": "Latent World Action Model for GUI Agents",
+          "link": "https://arxiv.org/abs/2610.14228"
+        },
+        "c": "https://github.com/sjyu001/latent2world",
+        "n": "Latent2World (Gemini-3.6-Flash)",
+        "d": "2026-10-09",
+        "m1": "63.39"
+      },
+      {
+        "p": {
+          "name": "Seed1.5-VL Technical Report",
+          "link": "https://arxiv.org/abs/2505.07062v1"
+        },
+        "c": "https://github.com/bytedance-seed/seed1.5-vl",
+        "n": "Seed1.5-VL (thinking)",
+        "d": "2025-05-11",
+        "m1": "62.1"
+      },
+      {
+        "p": {
+          "name": "GLM-4.1V-Thinking: Towards Versatile Multimodal Reasoning with Scalable Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2507.01006"
+        },
+        "c": "https://github.com/THUDM/GLM-4.1V-Thinking",
+        "n": "GLM-4.6V",
+        "d": "2025-07-01",
+        "m1": "57.0"
+      },
+      {
+        "p": {
+          "name": "OmegaUse: Building a General-Purpose GUI Agent for Autonomous Task Execution",
+          "link": "https://arxiv.org/abs/2601.20380"
+        },
+        "c": "",
+        "n": "OmegaUse",
+        "d": "2026-01-28",
+        "m1": "55.7"
+      },
+      {
+        "p": {
+          "name": "Agent S2: A Compositional Generalist-Specialist Framework for Computer Use Agents",
+          "link": "https://arxiv.org/abs/2504.00906"
+        },
+        "c": "https://github.com/simular-ai/agent-s",
+        "n": "Agent S2 (worker-only)",
+        "d": "2025-04-01",
+        "m1": "54.3"
+      },
+      {
+        "p": {
+          "name": "MobileWorldBench: Towards Semantic World Modeling For Mobile Agents",
+          "link": "https://arxiv.org/abs/2512.14014"
+        },
+        "c": "https://github.com/jacklishufan/MobileWorld",
+        "n": "Qwen3-VL-8B-Instruct + MobileWorld Semantic World Model",
+        "d": "2025-12-16",
+        "m1": "54.3"
+      },
+      {
+        "p": {
+          "name": "LLaDA-UI: Bringing Block-wise Diffusion to Vision-Language GUI Agents",
+          "link": "https://arxiv.org/abs/2609.13287"
+        },
+        "c": "https://github.com/inclusionai/llada-ui",
+        "n": "LLaDA-UI",
+        "d": "2026-09-09",
+        "m1": "53.5"
+      },
+      {
+        "p": {
+          "name": "Aria-UI: Visual Grounding for GUI Instructions",
+          "link": "https://arxiv.org/abs/2412.16256v1"
+        },
+        "c": "https://github.com/ariaui/aria-ui",
+        "n": "GPT-4o + Aria-UI TH",
+        "d": "2024-12-20",
+        "m1": "44.8"
+      },
+      {
+        "p": {
+          "name": "Navigating the Digital World as Humans Do: Universal Visual Grounding for GUI Agents",
+          "link": "https://arxiv.org/abs/2410.05243v1"
+        },
+        "c": "https://github.com/OSU-NLP-Group/UGround",
+        "n": "SeeAct-V (GPT-4o + UGround-V1-7B)",
+        "d": "2024-10-07",
+        "m1": "44.0"
+      },
+      {
+        "p": {
+          "name": "Aguvis: Unified Pure Vision Agents for Autonomous GUI Interaction",
+          "link": "https://arxiv.org/abs/2412.04454v2"
+        },
+        "c": "https://github.com/xlang-ai/aguvis",
+        "n": "GPT-4o + AGUVIS-7B",
+        "d": "2024-12-05",
+        "m1": "37.1"
+      },
+      {
+        "p": {
+          "name": "Qwen2.5-VL Technical Report",
+          "link": "https://arxiv.org/abs/2502.13923v1"
+        },
+        "c": "https://github.com/qwenlm/qwen2-vl",
+        "n": "Qwen2.5-VL-72B",
+        "d": "2025-02-19",
+        "m1": "35"
+      },
+      {
+        "p": {
+          "name": "Video2GUI: Synthesizing Large-Scale Interaction Trajectories for Generalized GUI Agent Pretraining",
+          "link": "https://arxiv.org/abs/2605.14747"
+        },
+        "c": "https://github.com/WeiminXiong/Video2GUI",
+        "n": "Mimo-VL-7B + WildGUI",
+        "d": "2026-05-14",
+        "m1": "31.9"
+      },
+      {
+        "p": {
+          "name": "ScaleCUA: Scaling Open-Source Computer Use Agents with Cross-Platform Data",
+          "link": "https://arxiv.org/abs/2509.15221"
+        },
+        "c": "https://github.com/OpenGVLab/ScaleCUA",
+        "n": "ScaleCUA-32B",
+        "d": "2025-09-18",
+        "m1": "30.6"
+      },
+      {
+        "p": {
+          "name": "InfiGUIAgent: A Multimodal Generalist GUI Agent with Native Reasoning and Reflection",
+          "link": "https://arxiv.org/abs/2501.04575"
+        },
+        "c": "https://github.com/reallm-labs/infiguiagent",
+        "n": "InfiGUIAgent-2B",
+        "d": "2025-01-08",
+        "m1": "9.0"
+      }
+    ]
+  }
+}

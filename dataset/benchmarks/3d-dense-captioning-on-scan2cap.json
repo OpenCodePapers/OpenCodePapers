@@ -1,0 +1,98 @@
+{
+  "title": "3d-dense-captioning-on-scan2cap",
+  "task-hierarchy": [
+    "Image Captioning",
+    "3D Captioning",
+    "3D dense captioning"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/daveredrum/Scan2Cap",
+    "paper": "Scan2Cap: Context-aware Dense Captioning in RGB-D Scans"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "CIDEr",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "ROUGE",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "GAP-MLLM: Geometry-Aligned Pre-training for Activating 3D Spatial Perception in Multimodal Large Language Models",
+          "link": "https://arxiv.org/abs/2603.16461"
+        },
+        "c": "https://github.com/zestfuljx/gap-mllm",
+        "n": "GAP-MLLM-3B",
+        "d": "2026-03-17",
+        "m1": "84.7",
+        "m2": "63.1"
+      },
+      {
+        "p": {
+          "name": "3D-Aware VLMs with Implicit and Explicit Geometries",
+          "link": "https://arxiv.org/abs/2607.21595"
+        },
+        "c": "https://github.com/vegetebird/vlm-ie3d",
+        "n": "VLM-IE3D",
+        "d": "2026-07-23",
+        "m1": "80.4"
+      },
+      {
+        "p": {
+          "name": "3D-LLaVA: Towards Generalist 3D LMMs with Omni Superpoint Transformer",
+          "link": "https://arxiv.org/abs/2501.01163"
+        },
+        "c": "https://github.com/djiajunustc/3d-llava",
+        "n": "3D-LLaVA",
+        "d": "2025-01-02",
+        "m1": "78.8",
+        "m2": "57.7"
+      },
+      {
+        "p": {
+          "name": "Merge3D: Efficient 3D Multimodal LLMs via Joint 2D-3D Token Merging",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Pan_Merge3D_Efficient_3D_Multimodal_LLMs_via_Joint_2D-3D_Token_Merging_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "Merge3D (30% token retention)",
+        "d": "2026-06-03",
+        "m1": "73.4",
+        "m2": "61.6"
+      },
+      {
+        "p": {
+          "name": "Imagine3D-LLM: Teaching MLLMs to Imagine 3D Scenes Before Answering",
+          "link": "https://arxiv.org/abs/2609.38177"
+        },
+        "c": "https://github.com/cvlab-kaist/Imagine3D-LLM",
+        "n": "Imagine3D-LLM",
+        "d": "2026-09-29",
+        "m2": "67.6"
+      }
+    ]
+  }
+}

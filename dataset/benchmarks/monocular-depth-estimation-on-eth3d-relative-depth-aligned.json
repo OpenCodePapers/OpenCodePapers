@@ -1,0 +1,154 @@
+{
+  "title": "monocular-depth-estimation-on-eth3d-relative-depth-aligned",
+  "task-hierarchy": [
+    "Depth Estimation",
+    "Monocular Depth Estimation"
+  ],
+  "dataset-info": {
+    "link": "https://www.eth3d.net/data/schoeps2017cvpr.pdf",
+    "paper": "A Multi-View Stereo Benchmark with High-Resolution Images and Multi-Camera Videos"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AbsRel",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "delta1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Vision as Unified Multimodal Generation",
+          "link": "https://arxiv.org/abs/2607.06560"
+        },
+        "c": "https://github.com/OpenSenseNova/SenseNova-Vision",
+        "n": "SenseNova-Vision",
+        "d": "2026-07-07",
+        "m1": "0.043",
+        "m2": "0.974"
+      },
+      {
+        "p": {
+          "name": "Lotus-2: Advancing Geometric Dense Prediction with Powerful Image Generative Model",
+          "link": "https://arxiv.org/abs/2512.01030"
+        },
+        "c": "https://github.com/EnVision-Research/Lotus-2",
+        "n": "Lotus-2 (zero-shot)",
+        "d": "2025-11-30",
+        "m1": "0.046",
+        "m2": "0.981"
+      },
+      {
+        "p": {
+          "name": "DICEPTION: A Generalist Diffusion Model for Visual Perceptual Tasks",
+          "link": "https://arxiv.org/abs/2502.17157v1"
+        },
+        "c": "https://github.com/aim-uofa/diception",
+        "n": "DICEPTION (zero-shot)",
+        "d": "2025-02-24",
+        "m1": "0.050",
+        "m2": "0.975"
+      },
+      {
+        "p": {
+          "name": "DINOv3",
+          "link": "https://arxiv.org/abs/2508.10104v1"
+        },
+        "c": "https://github.com/facebookresearch/dinov3",
+        "n": "DINOv3 + Depth Anything V2",
+        "d": "2025-08-13",
+        "m1": "0.054",
+        "m2": "0.975"
+      },
+      {
+        "p": {
+          "name": "Video Generative Models as Geometry Learner",
+          "link": "https://arxiv.org/abs/2608.28549"
+        },
+        "c": "https://github.com/creative-intelligence-studio/geonext",
+        "n": "GeoNeXt",
+        "d": "2026-08-28",
+        "m1": "0.056",
+        "m2": "0.972"
+      },
+      {
+        "p": {
+          "name": "Lotus: Diffusion-based Visual Foundation Model for High-quality Dense Prediction",
+          "link": "https://arxiv.org/abs/2409.18124"
+        },
+        "c": "https://github.com/envision-research/lotus",
+        "n": "Lotus-G (zero-shot)",
+        "d": "2024-09-26",
+        "m1": "0.059",
+        "m2": "0.970"
+      },
+      {
+        "p": {
+          "name": "UniGP: Taming Diffusion Transformer for Prior-Preserved Unified Generation and Perception",
+          "link": "https://arxiv.org/abs/2606.30332"
+        },
+        "c": "https://github.com/guoqincode/unigp",
+        "n": "UNIGP",
+        "d": "2026-06-29",
+        "m1": "0.06",
+        "m2": "0.963"
+      },
+      {
+        "p": {
+          "name": "Fine-Tuning Image-Conditional Diffusion Models is Easier than You Think",
+          "link": "https://arxiv.org/abs/2409.11355v1"
+        },
+        "c": "https://github.com/VisualComputingInstitute/diffusion-e2e-ft",
+        "n": "Marigold + E2E FT (zero-shot)",
+        "d": "2024-09-17",
+        "m1": "0.062",
+        "m2": "0.959"
+      },
+      {
+        "p": {
+          "name": "GeoWizard: Unleashing the Diffusion Priors for 3D Geometry Estimation from a Single Image",
+          "link": "https://arxiv.org/abs/2403.12013"
+        },
+        "c": "https://github.com/fuxiao0719/GeoWizard",
+        "n": "GeoWizard (zero-shot)",
+        "d": "2024-03-18",
+        "m1": "0.064",
+        "m2": "0.961"
+      },
+      {
+        "p": {
+          "name": "Repurposing Diffusion-Based Image Generators for Monocular Depth Estimation",
+          "link": "https://arxiv.org/abs/2312.02145v2"
+        },
+        "c": "https://github.com/prs-eth/marigold",
+        "n": "Marigold (ensemble)",
+        "d": "2023-12-04",
+        "m1": "0.065",
+        "m2": "0.960"
+      }
+    ]
+  }
+}

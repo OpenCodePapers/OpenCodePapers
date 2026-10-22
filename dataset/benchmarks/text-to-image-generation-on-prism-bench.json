@@ -1,0 +1,109 @@
+{
+  "title": "text-to-image-generation-on-prism-bench",
+  "task-hierarchy": [
+    "Image Generation",
+    "Text-to-Image Generation"
+  ],
+  "dataset-info": {
+    "link": "https://flux-reason-6m.github.io",
+    "paper": "FLUX-Reason-6M & PRISM-Bench: A Million-Scale Text-to-Image Reasoning Dataset and Comprehensive Benchmark"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "NextFlow: Unified Sequential Modeling Activates Multimodal Understanding and Generation",
+          "link": "https://arxiv.org/abs/2601.02204"
+        },
+        "c": "https://github.com/bytevisionlab/nextflow",
+        "n": "NextFlow-RL (7B)",
+        "d": "2026-01-05",
+        "m1": "78.8"
+      },
+      {
+        "p": {
+          "name": "Z-Image: An Efficient Image Generation Foundation Model with Single-Stream Diffusion Transformer",
+          "link": "https://arxiv.org/abs/2511.22699"
+        },
+        "c": "https://github.com/Tongyi-MAI/Z-Image",
+        "n": "Z-Image-Turbo",
+        "d": "2025-11-27",
+        "m1": "77.4"
+      },
+      {
+        "p": {
+          "name": "FLUX-Reason-6M & PRISM-Bench: A Million-Scale Text-to-Image Reasoning Dataset and Comprehensive Benchmark",
+          "link": "https://arxiv.org/abs/2509.09680"
+        },
+        "c": "https://github.com/rongyaofang/prism-bench",
+        "n": "Qwen-Image",
+        "d": "2025-09-11",
+        "m1": "74.1"
+      },
+      {
+        "p": {
+          "name": "FLUX-Reason-6M & PRISM-Bench: A Million-Scale Text-to-Image Reasoning Dataset and Comprehensive Benchmark",
+          "link": "https://arxiv.org/abs/2509.09680"
+        },
+        "c": "https://github.com/rongyaofang/prism-bench",
+        "n": "FLUX.1-dev",
+        "d": "2025-09-11",
+        "m1": "68.5"
+      },
+      {
+        "p": {
+          "name": "FLUX-Reason-6M & PRISM-Bench: A Million-Scale Text-to-Image Reasoning Dataset and Comprehensive Benchmark",
+          "link": "https://arxiv.org/abs/2509.09680"
+        },
+        "c": "https://github.com/rongyaofang/prism-bench",
+        "n": "SD3-Medium",
+        "d": "2025-09-11",
+        "m1": "66.1"
+      },
+      {
+        "p": {
+          "name": "MiniT2I: A Minimalist Baseline for Text-to-Image Generation",
+          "link": "https://peppaking8.github.io/#/post/minit2i"
+        },
+        "c": "https://github.com/hope7happiness/minit2i-torch",
+        "n": "MiniT2I-L/16",
+        "d": "2026-06-14",
+        "m1": "62.4"
+      },
+      {
+        "p": {
+          "name": "FLUX-Reason-6M & PRISM-Bench: A Million-Scale Text-to-Image Reasoning Dataset and Comprehensive Benchmark",
+          "link": "https://arxiv.org/abs/2509.09680"
+        },
+        "c": "https://github.com/rongyaofang/prism-bench",
+        "n": "SDXL",
+        "d": "2025-09-11",
+        "m1": "57.0"
+      }
+    ]
+  }
+}
