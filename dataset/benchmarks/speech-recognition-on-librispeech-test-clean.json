@@ -169,6 +169,16 @@
       },
       {
         "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "",
+        "n": "Qwen3.5-Omni-Plus",
+        "d": "2026-04-21",
+        "m1": "1.11"
+      },
+      {
+        "p": {
           "name": "Introducing Zoom AI Services",
           "link": "https://developers.zoom.us/blog/introducing-zoom-ai-services/"
         },
@@ -299,6 +309,16 @@
         "c": "https://github.com/NVIDIA/NeMo",
         "n": "nvidia/parakeet-rnnt-0.6b",
         "d": "2023-12-28",
+        "m1": "1.25"
+      },
+      {
+        "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "",
+        "n": "Cohere-transcribe-03-2026",
+        "d": "2026-03-24",
         "m1": "1.25"
       },
       {
@@ -523,6 +543,16 @@
       },
       {
         "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "",
+        "n": "Canary-1b",
+        "d": "2024-02-07",
+        "m1": "1.48"
+      },
+      {
+        "p": {
           "name": "Self-training and Pre-training are Complementary for Speech Recognition",
           "link": "https://arxiv.org/abs/2010.11430v1"
         },
@@ -633,6 +663,16 @@
       },
       {
         "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Audio Flamingo 3",
+        "d": "2025-07-10",
+        "m1": "1.57"
+      },
+      {
+        "p": {
           "name": "Fast Conformer with Linearly Scalable Attention for Efficient Speech Recognition",
           "link": "https://arxiv.org/abs/2305.05084"
         },
@@ -640,6 +680,16 @@
         "n": "nvidia/stt_en_fastconformer_ctc_large",
         "d": "2023-06-08",
         "m1": "1.58"
+      },
+      {
+        "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "https://github.com/qwenlm/qwen2-audio",
+        "n": "Qwen2-Audio",
+        "d": "2024-07-15",
+        "m1": "1.6"
       },
       {
         "p": {
@@ -749,6 +799,16 @@
         "c": "",
         "n": "SpeechStew (1B)",
         "d": "2021-04-05",
+        "m1": "1.7"
+      },
+      {
+        "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "https://github.com/kyutai-labs/moshi",
+        "n": "Stt-2.6b-en",
+        "d": "2024-09-17",
         "m1": "1.7"
       },
       {
@@ -943,6 +1003,16 @@
       },
       {
         "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "",
+        "n": "SYMPHONY-ASR",
+        "d": "2026-01-12",
+        "m1": "1.91"
+      },
+      {
+        "p": {
           "name": "Robust Knowledge Distillation via Large-Scale Pseudo Labelling",
           "link": "https://arxiv.org/abs/2311.00430"
         },
@@ -950,6 +1020,26 @@
         "n": "distil-whisper/distil-large-v3.5",
         "d": "2024-12-05",
         "m1": "1.93"
+      },
+      {
+        "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "",
+        "n": "Asr-conformer-loquacious",
+        "d": "2025-02-06",
+        "m1": "1.95"
+      },
+      {
+        "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "",
+        "n": "SYMPHONY",
+        "d": "2025-10-27",
+        "m1": "1.95"
       },
       {
         "p": {
@@ -1063,6 +1153,16 @@
       },
       {
         "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "LFM2-Audio-1.5B",
+        "d": "2025-11-28",
+        "m1": "2.03"
+      },
+      {
+        "p": {
           "name": "Moonshine v2: Ergodic Streaming Encoder ASR for Latency-Critical Speech Applications",
           "link": "https://arxiv.org/abs/2602.12241"
         },
@@ -1070,6 +1170,16 @@
         "n": "usefulsensors/moonshine-streaming-small",
         "d": "2026-02-12",
         "m1": "2.07"
+      },
+      {
+        "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "",
+        "n": "Moonshine-streaming-medium",
+        "d": "2026-01-06",
+        "m1": "2.09"
       },
       {
         "p": {
@@ -1153,6 +1263,16 @@
       },
       {
         "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "https://github.com/zai-org/GLM-ASR",
+        "n": "GLM-ASR-Nano-2512",
+        "d": "2025-12-09",
+        "m1": "2.15"
+      },
+      {
+        "p": {
           "name": "Robust wav2vec 2.0: Analyzing Domain Shift in Self-Supervised Pre-Training",
           "link": "https://arxiv.org/abs/2104.01027"
         },
@@ -1170,6 +1290,16 @@
         "n": "espnet/owsm_ctc_v3.2_ft_1B",
         "d": "2024-09-24",
         "m1": "2.17"
+      },
+      {
+        "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "",
+        "n": "Canary-1b-v2",
+        "d": "2025-08-04",
+        "m1": "2.18"
       },
       {
         "p": {
@@ -1253,6 +1383,16 @@
       },
       {
         "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "https://github.com/huggingface/distil-whisper",
+        "n": "Distil-large-v3.5",
+        "d": "2024-12-05",
+        "m1": "2.37"
+      },
+      {
+        "p": {
           "name": "Conformer: Convolution-augmented Transformer for Speech Recognition",
           "link": "https://arxiv.org/abs/2005.08100"
         },
@@ -1280,6 +1420,16 @@
         "n": "Squeezeformer (L)",
         "d": "2022-06-02",
         "m1": "2.47"
+      },
+      {
+        "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "",
+        "n": "Moonshine-streaming-small",
+        "d": "2026-01-06",
+        "m1": "2.49"
       },
       {
         "p": {
@@ -1413,6 +1563,16 @@
       },
       {
         "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "https://github.com/huggingface/distil-whisper",
+        "n": "Distil-large-v2",
+        "d": "2024-12-05",
+        "m1": "2.94"
+      },
+      {
+        "p": {
           "name": "Jasper: An End-to-End Convolutional Neural Acoustic Model",
           "link": "https://arxiv.org/abs/1904.03288v3"
         },
@@ -1523,6 +1683,16 @@
       },
       {
         "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "",
+        "n": "Niagara-38m-batch.en",
+        "d": "2026-02-19",
+        "m1": "3.84"
+      },
+      {
+        "p": {
           "name": "Moonshine v2: Ergodic Streaming Encoder ASR for Latency-Critical Speech Applications",
           "link": "https://arxiv.org/abs/2602.12241"
         },
@@ -1597,6 +1767,16 @@
       },
       {
         "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "",
+        "n": "Niagara-19m-batch.en",
+        "d": "2026-02-19",
+        "m1": "4.81"
+      },
+      {
+        "p": {
           "name": "Deep Speech 2: End-to-End Speech Recognition in English and Mandarin",
           "link": "http://arxiv.org/abs/1512.02595v1"
         },
@@ -1621,6 +1801,16 @@
         "n": "HMM-DNN + pNorm*",
         "d": "",
         "m1": "5.5"
+      },
+      {
+        "p": {
+          "name": "Open ASR Leaderboard",
+          "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard"
+        },
+        "c": "https://github.com/kyutai-labs/moshi",
+        "n": "Moshi ASR",
+        "d": "2024-09-17",
+        "m1": "5.7"
       },
       {
         "p": {

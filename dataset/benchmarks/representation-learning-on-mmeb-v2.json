@@ -1,0 +1,358 @@
+{
+  "title": "representation-learning-on-mmeb-v2",
+  "task-hierarchy": [
+    "Representation Learning"
+  ],
+  "dataset-info": {
+    "link": "https://huggingface.co/spaces/TIGER-Lab/MMEB-Leaderboard",
+    "paper": "VLM2Vec-V2: Advancing Multimodal Embedding for Videos, Images, and Visual Documents"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "MMEB-v2 Score",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Ovis-Embedding: Pushing the Frontiers of Universal Omni-Modal Embeddings",
+          "link": "https://arxiv.org/abs/2609.25165"
+        },
+        "c": "https://github.com/ATH-MaaS/Ovis-Omni-Embedding",
+        "n": "Ovis-Embedding-VL-9B",
+        "d": "2026-09-21",
+        "m1": "81.13"
+      },
+      {
+        "p": {
+          "name": "MMEB Leaderboard",
+          "link": "https://huggingface.co/spaces/TIGER-Lab/MMEB-Leaderboard"
+        },
+        "c": "https://github.com/tencent/wemm-embedding",
+        "n": "WeMM-Embedding-9B",
+        "d": "2026-08-25",
+        "m1": "80.58"
+      },
+      {
+        "p": {
+          "name": "MMEB Leaderboard",
+          "link": "https://huggingface.co/spaces/TIGER-Lab/MMEB-Leaderboard"
+        },
+        "c": "",
+        "n": "DME-Large",
+        "d": "2026-08-03",
+        "m1": "80.24"
+      },
+      {
+        "p": {
+          "name": "MMEB Leaderboard",
+          "link": "https://huggingface.co/spaces/TIGER-Lab/MMEB-Leaderboard"
+        },
+        "c": "https://github.com/tencent/wemm-embedding",
+        "n": "WeMM-Embedding-4B",
+        "d": "2026-08-25",
+        "m1": "79.19"
+      },
+      {
+        "p": {
+          "name": "MMEB Leaderboard",
+          "link": "https://huggingface.co/spaces/TIGER-Lab/MMEB-Leaderboard"
+        },
+        "c": "",
+        "n": "DME-Medium",
+        "d": "2026-08-03",
+        "m1": "78.38"
+      },
+      {
+        "p": {
+          "name": "MMEB Leaderboard",
+          "link": "https://huggingface.co/spaces/TIGER-Lab/MMEB-Leaderboard"
+        },
+        "c": "https://github.com/tencent/wemm-embedding",
+        "n": "WeMM-Embedding-2B",
+        "d": "2026-08-25",
+        "m1": "77.94"
+      },
+      {
+        "p": {
+          "name": "MMEB Leaderboard",
+          "link": "https://huggingface.co/spaces/TIGER-Lab/MMEB-Leaderboard"
+        },
+        "c": "https://github.com/QwenLM/Qwen3-VL-Embedding",
+        "n": "Qwen3-VL-Embedding-8B",
+        "d": "2026-01-08",
+        "m1": "77.82"
+      },
+      {
+        "p": {
+          "name": "MMEB Leaderboard",
+          "link": "https://huggingface.co/spaces/TIGER-Lab/MMEB-Leaderboard"
+        },
+        "c": "",
+        "n": "DME-Small",
+        "d": "2026-08-03",
+        "m1": "74.75"
+      },
+      {
+        "p": {
+          "name": "MMEB Leaderboard",
+          "link": "https://huggingface.co/spaces/TIGER-Lab/MMEB-Leaderboard"
+        },
+        "c": "https://github.com/QwenLM/Qwen3-VL-Embedding",
+        "n": "Qwen3-VL-Embedding-2B",
+        "d": "2026-01-08",
+        "m1": "73.25"
+      },
+      {
+        "p": {
+          "name": "MMEB Leaderboard",
+          "link": "https://huggingface.co/spaces/TIGER-Lab/MMEB-Leaderboard"
+        },
+        "c": "https://github.com/Alibaba-NLP/UEmbed",
+        "n": "UEmbed-9B (hybrid)",
+        "d": "2026-08-03",
+        "m1": "71.83"
+      },
+      {
+        "p": {
+          "name": "MMEB Leaderboard",
+          "link": "https://huggingface.co/spaces/TIGER-Lab/MMEB-Leaderboard"
+        },
+        "c": "https://github.com/Alibaba-NLP/UEmbed",
+        "n": "UEmbed-9B (dense)",
+        "d": "2026-08-03",
+        "m1": "71.77"
+      },
+      {
+        "p": {
+          "name": "MMEB Leaderboard",
+          "link": "https://huggingface.co/spaces/TIGER-Lab/MMEB-Leaderboard"
+        },
+        "c": "https://github.com/Alibaba-NLP/UEmbed",
+        "n": "UEmbed-9B (sparse)",
+        "d": "2026-08-03",
+        "m1": "71.05"
+      },
+      {
+        "p": {
+          "name": "MMEB Leaderboard",
+          "link": "https://huggingface.co/spaces/TIGER-Lab/MMEB-Leaderboard"
+        },
+        "c": "https://github.com/Alibaba-NLP/UEmbed",
+        "n": "UEmbed-4B (dense)",
+        "d": "2026-08-03",
+        "m1": "70.36"
+      },
+      {
+        "p": {
+          "name": "MMEB Leaderboard",
+          "link": "https://huggingface.co/spaces/TIGER-Lab/MMEB-Leaderboard"
+        },
+        "c": "https://github.com/Alibaba-NLP/UEmbed",
+        "n": "UEmbed-4B (sparse)",
+        "d": "2026-08-03",
+        "m1": "69.69"
+      },
+      {
+        "p": {
+          "name": "MMEB Leaderboard",
+          "link": "https://huggingface.co/spaces/TIGER-Lab/MMEB-Leaderboard"
+        },
+        "c": "",
+        "n": "e5-omni-7B",
+        "d": "2026-01-07",
+        "m1": "67.84"
+      },
+      {
+        "p": {
+          "name": "MMEB Leaderboard",
+          "link": "https://huggingface.co/spaces/TIGER-Lab/MMEB-Leaderboard"
+        },
+        "c": "https://github.com/Alibaba-NLP/UEmbed",
+        "n": "UEmbed-2B (dense)",
+        "d": "2026-08-03",
+        "m1": "66.49"
+      },
+      {
+        "p": {
+          "name": "MMEB Leaderboard",
+          "link": "https://huggingface.co/spaces/TIGER-Lab/MMEB-Leaderboard"
+        },
+        "c": "https://github.com/Alibaba-NLP/UEmbed",
+        "n": "UEmbed-2B (sparse)",
+        "d": "2026-08-03",
+        "m1": "65.53"
+      },
+      {
+        "p": {
+          "name": "MMEB Leaderboard",
+          "link": "https://huggingface.co/spaces/TIGER-Lab/MMEB-Leaderboard"
+        },
+        "c": "https://github.com/XMUDeepLIT/UME-R1",
+        "n": "UME-R1-7B",
+        "d": "2025-11-01",
+        "m1": "64.07"
+      },
+      {
+        "p": {
+          "name": "MMEB Leaderboard",
+          "link": "https://huggingface.co/spaces/TIGER-Lab/MMEB-Leaderboard"
+        },
+        "c": "",
+        "n": "e5-omni-3B",
+        "d": "2026-01-07",
+        "m1": "63.59"
+      },
+      {
+        "p": {
+          "name": "MMEB Leaderboard",
+          "link": "https://huggingface.co/spaces/TIGER-Lab/MMEB-Leaderboard"
+        },
+        "c": "https://github.com/haoyu-bu/cafe",
+        "n": "interestFM-UIR-CAFe-7B",
+        "d": "2025-03-25",
+        "m1": "60.17"
+      },
+      {
+        "p": {
+          "name": "MMEB Leaderboard",
+          "link": "https://huggingface.co/spaces/TIGER-Lab/MMEB-Leaderboard"
+        },
+        "c": "https://github.com/LCO-Embedding/LCO-Embedding",
+        "n": "LCO-Embedding-Omni-7B",
+        "d": "2025-10-13",
+        "m1": "59.96"
+      },
+      {
+        "p": {
+          "name": "MMEB Leaderboard",
+          "link": "https://huggingface.co/spaces/TIGER-Lab/MMEB-Leaderboard"
+        },
+        "c": "https://github.com/XMUDeepLIT/UME-R1",
+        "n": "UME-R1-2B",
+        "d": "2025-11-01",
+        "m1": "59.69"
+      },
+      {
+        "p": {
+          "name": "MMEB Leaderboard",
+          "link": "https://huggingface.co/spaces/TIGER-Lab/MMEB-Leaderboard"
+        },
+        "c": "https://github.com/huggingface/sentence-transformers",
+        "n": "EmbeddingGemma-2",
+        "d": "2025-09-24",
+        "m1": "59.01"
+      },
+      {
+        "p": {
+          "name": "MMEB Leaderboard",
+          "link": "https://huggingface.co/spaces/TIGER-Lab/MMEB-Leaderboard"
+        },
+        "c": "",
+        "n": "gme-Qwen2-VL-7B-Instruct",
+        "d": "2024-12-22",
+        "m1": "57.32"
+      },
+      {
+        "p": {
+          "name": "MMEB Leaderboard",
+          "link": "https://huggingface.co/spaces/TIGER-Lab/MMEB-Leaderboard"
+        },
+        "c": "",
+        "n": "gme-Qwen2-VL-2B-Instruct",
+        "d": "2024-12-22",
+        "m1": "53.65"
+      },
+      {
+        "p": {
+          "name": "MMEB Leaderboard",
+          "link": "https://huggingface.co/spaces/TIGER-Lab/MMEB-Leaderboard"
+        },
+        "c": "https://github.com/haoyu-bu/cafe",
+        "n": "interestFM-UIR-CAFe-0.5B",
+        "d": "2025-03-25",
+        "m1": "49.33"
+      },
+      {
+        "p": {
+          "name": "VLM2Vec: Training Vision-Language Models for Massive Multimodal Embedding Tasks",
+          "link": "https://arxiv.org/abs/2410.05160"
+        },
+        "c": "",
+        "n": "VLM2Vec-V1-Qwen2VL-7B",
+        "d": "2024-10-07",
+        "m1": "47.0"
+      },
+      {
+        "p": {
+          "name": "VLM2Vec: Training Vision-Language Models for Massive Multimodal Embedding Tasks",
+          "link": "https://arxiv.org/abs/2410.05160"
+        },
+        "c": "",
+        "n": "VLM2Vec-V1-Qwen2VL-2B",
+        "d": "2024-10-07",
+        "m1": "42.69"
+      },
+      {
+        "p": {
+          "name": "MMEB Leaderboard",
+          "link": "https://huggingface.co/spaces/TIGER-Lab/MMEB-Leaderboard"
+        },
+        "c": "",
+        "n": "RGE(Qwen2VL-7B)",
+        "d": "2025-11-20",
+        "m1": "34.3"
+      },
+      {
+        "p": {
+          "name": "MMEB Leaderboard",
+          "link": "https://huggingface.co/spaces/TIGER-Lab/MMEB-Leaderboard"
+        },
+        "c": "",
+        "n": "RGE(Qwen2.5VL-7B)",
+        "d": "2025-11-20",
+        "m1": "33.52"
+      },
+      {
+        "p": {
+          "name": "MMEB Leaderboard",
+          "link": "https://huggingface.co/spaces/TIGER-Lab/MMEB-Leaderboard"
+        },
+        "c": "",
+        "n": "RGE(Qwen2.5VL-3B)",
+        "d": "2025-11-20",
+        "m1": "32.36"
+      },
+      {
+        "p": {
+          "name": "MMEB Leaderboard",
+          "link": "https://huggingface.co/spaces/TIGER-Lab/MMEB-Leaderboard"
+        },
+        "c": "",
+        "n": "RGE(Qwen2VL-2B)",
+        "d": "2025-11-20",
+        "m1": "32.06"
+      }
+    ]
+  }
+}

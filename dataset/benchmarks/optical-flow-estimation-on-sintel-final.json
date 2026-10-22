@@ -75,6 +75,16 @@
       },
       {
         "p": {
+          "name": "StreamFlow: Streamlined Multi-Frame Optical Flow Estimation for Video Sequences",
+          "link": "https://arxiv.org/abs/2311.17099"
+        },
+        "c": "https://github.com/littlespray/streamflow",
+        "n": "StreamFlow (4 frames, Sintel fine-tuned) (extra data)",
+        "d": "2023-11-28",
+        "m1": "1.874"
+      },
+      {
+        "p": {
           "name": "MEMFOF: High-Resolution Training for Memory-Efficient Multi-Frame Optical Flow Estimation",
           "link": "https://arxiv.org/abs/2506.23151v1"
         },
@@ -122,6 +132,26 @@
         "n": "FlowDiffuser",
         "d": "2024-06-17",
         "m1": "2.03"
+      },
+      {
+        "p": {
+          "name": "SplatFlow: Learning Multi-frame Optical Flow via Splatting",
+          "link": "https://arxiv.org/abs/2306.08887"
+        },
+        "c": "https://github.com/wwsource/splatflow",
+        "n": "SplatFlow-GMA (Sintel fine-tuned, 3-frame, no WarmStart) (extra data)",
+        "d": "2023-06-15",
+        "m1": "2.072"
+      },
+      {
+        "p": {
+          "name": "FlowFormer: A Transformer Architecture for Optical Flow",
+          "link": "https://arxiv.org/abs/2203.16194v4"
+        },
+        "c": "https://github.com/drinkingcoder/FlowFormer-Official",
+        "n": "FlowFormer (Sintel fine-tuned, no warm-start) (extra data)",
+        "d": "2022-03-30",
+        "m1": "2.088"
       },
       {
         "p": {

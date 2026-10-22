@@ -46,8 +46,8 @@
         "c": "https://github.com/mistralai/timestral",
         "n": "Timestral-209M (zero-shot)",
         "d": "2026-10-15",
-        "m2": "0.6575470668013165",
-        "m1": "0.44601007037357016"
+        "m2": "0.6575",
+        "m1": "0.4460"
       },
       {
         "p": {
@@ -59,6 +59,17 @@
         "d": "2026-09-21",
         "m2": "0.6608",
         "m1": "0.4520"
+      },
+      {
+        "p": {
+          "name": "GIFT-Eval Leaderboard",
+          "link": "https://huggingface.co/spaces/Salesforce/GIFT-Eval"
+        },
+        "c": "https://github.com/nx-ai/tirex-2",
+        "n": "TiRex-2-Pretrained",
+        "d": "2026-07-01",
+        "m1": "0.46694417123735016",
+        "m2": "0.6776658411439145"
       },
       {
         "p": {
@@ -84,14 +95,69 @@
       },
       {
         "p": {
+          "name": "GIFT-Eval Leaderboard",
+          "link": "https://huggingface.co/spaces/Salesforce/GIFT-Eval"
+        },
+        "c": "",
+        "n": "PatchTST-FM-r1 (zero-shot)",
+        "d": "2026-02-06",
+        "m1": "0.48294362691115816",
+        "m2": "0.7069359006427616"
+      },
+      {
+        "p": {
           "name": "Timer-S1: A Billion-Scale Time Series Foundation Model with Serial Scaling",
           "link": "https://arxiv.org/abs/2603.04791"
         },
         "c": "",
         "n": "Timer-S1",
         "d": "2026-03-05",
-        "m2": "0.6933502965151072",
-        "m1": "0.48529875002395845"
+        "m2": "0.6934",
+        "m1": "0.4853"
+      },
+      {
+        "p": {
+          "name": "GIFT-Eval Leaderboard",
+          "link": "https://huggingface.co/spaces/Salesforce/GIFT-Eval"
+        },
+        "c": "https://github.com/amazon-science/chronos-forecasting",
+        "n": "Chronos-2",
+        "d": "2025-10-17",
+        "m1": "0.4854159274376452",
+        "m2": "0.6977934020150602"
+      },
+      {
+        "p": {
+          "name": "GIFT-Eval Leaderboard",
+          "link": "https://huggingface.co/spaces/Salesforce/GIFT-Eval"
+        },
+        "c": "",
+        "n": "FlowState-r1.1 (zero-shot)",
+        "d": "2025-08-07",
+        "m1": "0.48657697457966975",
+        "m2": "0.7014944502106818"
+      },
+      {
+        "p": {
+          "name": "GIFT-Eval Leaderboard",
+          "link": "https://huggingface.co/spaces/Salesforce/GIFT-Eval"
+        },
+        "c": "https://github.com/nx-ai/tirex",
+        "n": "TiRex (zero-shot)",
+        "d": "2025-05-29",
+        "m1": "0.4884636932151272",
+        "m2": "0.7157582085433767"
+      },
+      {
+        "p": {
+          "name": "GIFT-Eval Leaderboard",
+          "link": "https://huggingface.co/spaces/Salesforce/GIFT-Eval"
+        },
+        "c": "https://github.com/google-research/timesfm",
+        "n": "TimesFM-2.5 (zero-shot)",
+        "d": "2023-10-14",
+        "m1": "0.49028809274942975",
+        "m2": "0.7050307775530733"
       },
       {
         "p": {
@@ -101,8 +167,41 @@
         "c": "https://github.com/salesforceairesearch/uni2ts",
         "n": "Moirai 2.0 R-Small",
         "d": "2025-11-12",
-        "m2": "0.7281297366552085",
-        "m1": "0.5164382312490021"
+        "m2": "0.7281",
+        "m1": "0.5164"
+      },
+      {
+        "p": {
+          "name": "GIFT-Eval Leaderboard",
+          "link": "https://huggingface.co/spaces/Salesforce/GIFT-Eval"
+        },
+        "c": "https://github.com/datadog/toto",
+        "n": "Toto Open Base 1.0 (zero-shot)",
+        "d": "2025-05-20",
+        "m1": "0.5172591998402039",
+        "m2": "0.7501141083781525"
+      },
+      {
+        "p": {
+          "name": "GIFT-Eval Leaderboard",
+          "link": "https://huggingface.co/spaces/Salesforce/GIFT-Eval"
+        },
+        "c": "",
+        "n": "TempoPFN (zero-shot)",
+        "d": "2025-10-29",
+        "m1": "0.5327337002899803",
+        "m2": "0.7875044803307811"
+      },
+      {
+        "p": {
+          "name": "GIFT-Eval Leaderboard",
+          "link": "https://huggingface.co/spaces/Salesforce/GIFT-Eval"
+        },
+        "c": "https://github.com/liam-sbhoo/tabpfn-time-series",
+        "n": "TabPFN-TS (zero-shot)",
+        "d": "2025-01-06",
+        "m1": "0.5441039140993773",
+        "m2": "0.7708766525107541"
       },
       {
         "p": {
@@ -123,8 +222,30 @@
         "c": "https://github.com/foundation-model-research/Kairos",
         "n": "Kairos-50M (zero-shot)",
         "d": "2025-09-30",
-        "m2": "0.7422276527814847",
-        "m1": "0.5482264951442222"
+        "m2": "0.7422",
+        "m1": "0.5482"
+      },
+      {
+        "p": {
+          "name": "GIFT-Eval Leaderboard",
+          "link": "https://huggingface.co/spaces/Salesforce/GIFT-Eval"
+        },
+        "c": "https://github.com/wxie9/YingLong",
+        "n": "YingLong 300M (zero-shot)",
+        "d": "2025-05-20",
+        "m1": "0.5482565788783168",
+        "m2": "0.7981119011665914"
+      },
+      {
+        "p": {
+          "name": "GIFT-Eval Leaderboard",
+          "link": "https://huggingface.co/spaces/Salesforce/GIFT-Eval"
+        },
+        "c": "https://github.com/thuml/sundial",
+        "n": "Sundial Base 128M (zero-shot)",
+        "d": "2025-02-02",
+        "m1": "0.5590377290143805",
+        "m2": "0.7502214897954584"
       },
       {
         "p": {
@@ -134,8 +255,8 @@
         "c": "",
         "n": "Reverso-Small (zero-shot)",
         "d": "2026-02-19",
-        "m2": "0.7263072145756775",
-        "m1": "0.6264969674270287"
+        "m2": "0.7263",
+        "m1": "0.6265"
       }
     ]
   }

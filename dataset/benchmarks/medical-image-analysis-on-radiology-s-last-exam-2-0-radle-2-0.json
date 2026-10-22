@@ -1,0 +1,198 @@
+{
+  "title": "medical-image-analysis-on-radiology-s-last-exam-2-0-radle-2-0",
+  "task-hierarchy": [
+    "Medical Image Analysis"
+  ],
+  "dataset-info": {
+    "link": "https://crashlab.in/radle/2/leaderboard",
+    "paper": "Radiology's Last Exam (RadLE) 2.0: Are we ready for Autonomous AI Diagnosis in Radiology?"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "RadLE-C",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "RadLE Leaderboard",
+          "link": "https://crashlab.in/radle/2/leaderboard"
+        },
+        "c": "https://github.com/anthropics/claude-code",
+        "n": "Claude Fable 5",
+        "d": "2026-06-09",
+        "m1": "758"
+      },
+      {
+        "p": {
+          "name": "RadLE Leaderboard",
+          "link": "https://crashlab.in/radle/2/leaderboard"
+        },
+        "c": "https://github.com/meta-models/meta-model-cookbook",
+        "n": "Meta Muse Spark 1.1",
+        "d": "2026-07-09",
+        "m1": "735"
+      },
+      {
+        "p": {
+          "name": "RadLE Leaderboard",
+          "link": "https://crashlab.in/radle/2/leaderboard"
+        },
+        "c": "https://github.com/openai/codex",
+        "n": "GPT-5.6 Sol Pro",
+        "d": "2026-07-09",
+        "m1": "665"
+      },
+      {
+        "p": {
+          "name": "RadLE Leaderboard",
+          "link": "https://crashlab.in/radle/2/leaderboard"
+        },
+        "c": "",
+        "n": "Gemini 3.1 Pro",
+        "d": "2026-02-19",
+        "m1": "660"
+      },
+      {
+        "p": {
+          "name": "RadLE Leaderboard",
+          "link": "https://crashlab.in/radle/2/leaderboard"
+        },
+        "c": "",
+        "n": "OctoMed 7B",
+        "d": "2025-11-28",
+        "m1": "541"
+      },
+      {
+        "p": {
+          "name": "RadLE Leaderboard",
+          "link": "https://crashlab.in/radle/2/leaderboard"
+        },
+        "c": "",
+        "n": "Grok 4.5",
+        "d": "2026-07-08",
+        "m1": "524"
+      },
+      {
+        "p": {
+          "name": "RadLE Leaderboard",
+          "link": "https://crashlab.in/radle/2/leaderboard"
+        },
+        "c": "https://github.com/nvidia-nemo/megatron-bridge",
+        "n": "Nemotron 3 Omni",
+        "d": "2026-04-27",
+        "m1": "476"
+      },
+      {
+        "p": {
+          "name": "RadLE Leaderboard",
+          "link": "https://crashlab.in/radle/2/leaderboard"
+        },
+        "c": "",
+        "n": "Qwen 3.7 Plus",
+        "d": "2026-06-02",
+        "m1": "472"
+      },
+      {
+        "p": {
+          "name": "RadLE Leaderboard",
+          "link": "https://crashlab.in/radle/2/leaderboard"
+        },
+        "c": "https://github.com/zai-org/GLM-V",
+        "n": "GLM-5V Turbo",
+        "d": "2026-04-29",
+        "m1": "409"
+      },
+      {
+        "p": {
+          "name": "RadLE Leaderboard",
+          "link": "https://crashlab.in/radle/2/leaderboard"
+        },
+        "c": "https://github.com/MiniMax-AI/MiniMax-M3",
+        "n": "MiniMax M3",
+        "d": "2026-05-31",
+        "m1": "350"
+      },
+      {
+        "p": {
+          "name": "RadLE Leaderboard",
+          "link": "https://crashlab.in/radle/2/leaderboard"
+        },
+        "c": "https://github.com/google-deepmind/gemma",
+        "n": "Gemma 4 31B",
+        "d": "2026-07-02",
+        "m1": "336"
+      },
+      {
+        "p": {
+          "name": "RadLE Leaderboard",
+          "link": "https://crashlab.in/radle/2/leaderboard"
+        },
+        "c": "",
+        "n": "Lingshu 32B",
+        "d": "2025-06-08",
+        "m1": "284"
+      },
+      {
+        "p": {
+          "name": "RadLE Leaderboard",
+          "link": "https://crashlab.in/radle/2/leaderboard"
+        },
+        "c": "https://github.com/google-health/medgemma",
+        "n": "MedGemma 1.5 4B",
+        "d": "2026-04-06",
+        "m1": "277"
+      },
+      {
+        "p": {
+          "name": "RadLE Leaderboard",
+          "link": "https://crashlab.in/radle/2/leaderboard"
+        },
+        "c": "https://github.com/meta-llama/llama-cookbook",
+        "n": "Llama 4 Maverick",
+        "d": "2025-04-05",
+        "m1": "263"
+      },
+      {
+        "p": {
+          "name": "RadLE Leaderboard",
+          "link": "https://crashlab.in/radle/2/leaderboard"
+        },
+        "c": "https://github.com/opengvlab/internvl",
+        "n": "InternVL 3.5 8B",
+        "d": "2025-08-25",
+        "m1": "241"
+      },
+      {
+        "p": {
+          "name": "RadLE Leaderboard",
+          "link": "https://crashlab.in/radle/2/leaderboard"
+        },
+        "c": "https://huggingface.co/mistralai/Mistral-Large-3-675B-Instruct-2512",
+        "n": "Mistral Lg 3 2512",
+        "d": "2025-11-28",
+        "m1": "181"
+      }
+    ]
+  }
+}

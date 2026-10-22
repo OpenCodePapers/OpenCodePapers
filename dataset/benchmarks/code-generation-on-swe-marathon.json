@@ -1,0 +1,299 @@
+{
+  "title": "code-generation-on-swe-marathon",
+  "task-hierarchy": [
+    "Code Intelligence",
+    "Code Generation"
+  ],
+  "dataset-info": {
+    "link": "https://swe-marathon.org/",
+    "paper": "SWE-Marathon: Can Agents Autonomously Complete Ultra-Long-Horizon Software Work?"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Resolution Rate",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "SWE-Marathon Leaderboard",
+          "link": "https://www.swe-marathon.org"
+        },
+        "c": "",
+        "n": "Muse Wonder Full (max) (Muse Code)",
+        "d": "2026-10-12",
+        "m1": "53.12"
+      },
+      {
+        "p": {
+          "name": "SWE-Marathon Leaderboard",
+          "link": "https://www.swe-marathon.org"
+        },
+        "c": "",
+        "n": "Muse Wonder (max) (Muse Code)",
+        "d": "2026-10-12",
+        "m1": "52.5"
+      },
+      {
+        "p": {
+          "name": "SWE-Marathon Leaderboard",
+          "link": "https://www.swe-marathon.org"
+        },
+        "c": "https://github.com/anthropics/claude-code",
+        "n": "Claude Sonnet 5.5 (max) (Claude Code)",
+        "d": "2026-09-28",
+        "m1": "51.25"
+      },
+      {
+        "p": {
+          "name": "SWE-Marathon Leaderboard",
+          "link": "https://www.swe-marathon.org"
+        },
+        "c": "https://github.com/anthropics/claude-code",
+        "n": "Claude Opus 5 (max) (Claude Code)",
+        "d": "2026-07-24",
+        "m1": "50.0"
+      },
+      {
+        "p": {
+          "name": "SWE-Marathon Leaderboard",
+          "link": "https://www.swe-marathon.org"
+        },
+        "c": "",
+        "n": "Claude Haiku 5.5 (max) (Claude Code)",
+        "d": "2026-10-07",
+        "m1": "50.0"
+      },
+      {
+        "p": {
+          "name": "SWE-Marathon Leaderboard",
+          "link": "https://www.swe-marathon.org"
+        },
+        "c": "",
+        "n": "Claude Opus 4.8 (Claude Code)",
+        "d": "2026-05-28",
+        "m1": "48.75"
+      },
+      {
+        "p": {
+          "name": "SWE-Marathon Leaderboard",
+          "link": "https://www.swe-marathon.org"
+        },
+        "c": "https://github.com/moonshotai/kimi-k3",
+        "n": "Kimi K3 (Claude Code)",
+        "d": "2026-07-27",
+        "m1": "48.13"
+      },
+      {
+        "p": {
+          "name": "SWE-Marathon Leaderboard",
+          "link": "https://www.swe-marathon.org"
+        },
+        "c": "https://github.com/anthropics/claude-code",
+        "n": "Claude Opus 5.5 (max) (Claude Code)",
+        "d": "2026-09-22",
+        "m1": "46.25"
+      },
+      {
+        "p": {
+          "name": "SWE-Marathon Leaderboard",
+          "link": "https://www.swe-marathon.org"
+        },
+        "c": "",
+        "n": "Claude Fable 5.1 (max) (Claude Code)",
+        "d": "2026-09-01",
+        "m1": "45.62"
+      },
+      {
+        "p": {
+          "name": "SWE-Marathon Leaderboard",
+          "link": "https://www.swe-marathon.org"
+        },
+        "c": "",
+        "n": "Grok 4.7 (high) (Grok Build)",
+        "d": "2026-09-21",
+        "m1": "45.62"
+      },
+      {
+        "p": {
+          "name": "SWE-Marathon Leaderboard",
+          "link": "https://www.swe-marathon.org"
+        },
+        "c": "",
+        "n": "GPT-6 Sol (max) (Codex)",
+        "d": "2026-09-22",
+        "m1": "43.12"
+      },
+      {
+        "p": {
+          "name": "SWE-Marathon Leaderboard",
+          "link": "https://www.swe-marathon.org"
+        },
+        "c": "https://github.com/openai/codex",
+        "n": "GPT-5.6 Sol (max) (Codex)",
+        "d": "2026-07-09",
+        "m1": "42.5"
+      },
+      {
+        "p": {
+          "name": "SWE-Marathon Leaderboard",
+          "link": "https://www.swe-marathon.org"
+        },
+        "c": "https://github.com/zai-org/glm-5",
+        "n": "GLM-5.3 (max) (Claude Code)",
+        "d": "2026-08-14",
+        "m1": "42.5"
+      },
+      {
+        "p": {
+          "name": "SWE-Marathon Leaderboard",
+          "link": "https://www.swe-marathon.org"
+        },
+        "c": "https://github.com/openai/codex",
+        "n": "GPT-6 Astra (max) (Codex)",
+        "d": "2026-09-03",
+        "m1": "42.5"
+      },
+      {
+        "p": {
+          "name": "SWE-Marathon Leaderboard",
+          "link": "https://www.swe-marathon.org"
+        },
+        "c": "",
+        "n": "GPT-6.1 Sol (max) (Codex)",
+        "d": "2026-09-29",
+        "m1": "42.5"
+      },
+      {
+        "p": {
+          "name": "SWE-Marathon Leaderboard",
+          "link": "https://www.swe-marathon.org"
+        },
+        "c": "https://github.com/zai-org/glm-5",
+        "n": "GLM-5.3-Flash (max) (Claude Code)",
+        "d": "2026-08-26",
+        "m1": "38.75"
+      },
+      {
+        "p": {
+          "name": "SWE-Marathon Leaderboard",
+          "link": "https://www.swe-marathon.org"
+        },
+        "c": "https://github.com/openai/codex",
+        "n": "GPT-5.6 Terra (max) (Codex)",
+        "d": "2026-07-09",
+        "m1": "32.5"
+      },
+      {
+        "p": {
+          "name": "SWE-Marathon Leaderboard",
+          "link": "https://www.swe-marathon.org"
+        },
+        "c": "",
+        "n": "Grok 4.6 (high) (Grok Build)",
+        "d": "2026-08-12",
+        "m1": "31.88"
+      },
+      {
+        "p": {
+          "name": "SWE-Marathon Leaderboard",
+          "link": "https://www.swe-marathon.org"
+        },
+        "c": "",
+        "n": "Muse Spark 1.3 (xhigh) (Muse Code)",
+        "d": "2026-09-02",
+        "m1": "30.62"
+      },
+      {
+        "p": {
+          "name": "SWE-Marathon Leaderboard",
+          "link": "https://www.swe-marathon.org"
+        },
+        "c": "",
+        "n": "Claude Sonnet 5 (max) (Claude Code)",
+        "d": "2026-06-30",
+        "m1": "30.0"
+      },
+      {
+        "p": {
+          "name": "SWE-Marathon Leaderboard",
+          "link": "https://www.swe-marathon.org"
+        },
+        "c": "",
+        "n": "Grok 4.5 (Grok Build)",
+        "d": "2026-07-08",
+        "m1": "29.38"
+      },
+      {
+        "p": {
+          "name": "SWE-Marathon Leaderboard",
+          "link": "https://www.swe-marathon.org"
+        },
+        "c": "",
+        "n": "GPT-6 Luna (max) (Codex)",
+        "d": "2026-09-22",
+        "m1": "28.12"
+      },
+      {
+        "p": {
+          "name": "SWE-Marathon Leaderboard",
+          "link": "https://www.swe-marathon.org"
+        },
+        "c": "https://github.com/openai/codex",
+        "n": "GPT-5.6 Luna (max) (Codex)",
+        "d": "2026-07-09",
+        "m1": "24.38"
+      },
+      {
+        "p": {
+          "name": "SWE-Marathon Leaderboard",
+          "link": "https://www.swe-marathon.org"
+        },
+        "c": "https://github.com/google-antigravity/antigravity-cli",
+        "n": "Gemini 3.7 Flash (OpenCode)",
+        "d": "2026-08-13",
+        "m1": "22.5"
+      },
+      {
+        "p": {
+          "name": "SWE-Marathon Leaderboard",
+          "link": "https://www.swe-marathon.org"
+        },
+        "c": "https://github.com/zai-org/GLM-5",
+        "n": "GLM-5.2 (Claude Code)",
+        "d": "2026-06-16",
+        "m1": "19.38"
+      },
+      {
+        "p": {
+          "name": "SWE-Marathon Leaderboard",
+          "link": "https://www.swe-marathon.org"
+        },
+        "c": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+        "n": "DeepSeek V4 Pro (MiniSWE-Agent)",
+        "d": "2026-04-26",
+        "m1": "10.63"
+      }
+    ]
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "title": "time-series-forecasting-on-boomlet",
+  "task-hierarchy": [
+    "Time Series Forecasting"
+  ],
+  "dataset-info": {
+    "link": "https://huggingface.co/spaces/Datadog/BOOM",
+    "paper": "This Time is Different: An Observability Perspective on Time Series Foundation Models"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Average Rank",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "MASE",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "CRPS",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Toto 2.0: Time Series Forecasting Enters the Scaling Era",
+          "link": "https://arxiv.org/abs/2605.20119"
+        },
+        "c": "https://github.com/datadog/toto",
+        "n": "Toto-2.0-2.5B",
+        "d": "2026-05-19",
+        "m2": "0.584",
+        "m3": "0.486",
+        "m1": "2.633"
+      },
+      {
+        "p": {
+          "name": "This Time is Different: An Observability Perspective on Time Series Foundation Models",
+          "link": "https://arxiv.org/abs/2505.14766"
+        },
+        "c": "https://github.com/datadog/toto",
+        "n": "Toto-Open-Base-1.0",
+        "d": "2025-05-20",
+        "m2": "0.617",
+        "m3": "0.519",
+        "m1": "6.4"
+      },
+      {
+        "p": {
+          "name": "BOOM Leaderboard",
+          "link": "https://huggingface.co/spaces/Datadog/BOOM"
+        },
+        "c": "https://github.com/amazon-science/chronos-forecasting",
+        "n": "Chronos-2",
+        "d": "2025-10-17",
+        "m2": "0.623",
+        "m3": "0.522",
+        "m1": "6.667"
+      },
+      {
+        "p": {
+          "name": "BOOM Leaderboard",
+          "link": "https://huggingface.co/spaces/Datadog/BOOM"
+        },
+        "c": "https://github.com/google-research/timesfm",
+        "n": "TimesFM 2.5 200M",
+        "d": "2023-10-14",
+        "m2": "0.638",
+        "m3": "0.532",
+        "m1": "7.7"
+      },
+      {
+        "p": {
+          "name": "BOOM Leaderboard",
+          "link": "https://huggingface.co/spaces/Datadog/BOOM"
+        },
+        "c": "https://github.com/SalesforceAIResearch/uni2ts",
+        "n": "Moirai 1.1 Large",
+        "d": "2024-02-04",
+        "m2": "0.767",
+        "m3": "0.621",
+        "m1": "11.478"
+      },
+      {
+        "p": {
+          "name": "BOOM Leaderboard",
+          "link": "https://huggingface.co/spaces/Datadog/BOOM"
+        },
+        "c": "https://github.com/google-research/timesfm",
+        "n": "TimesFM 2.0 500M",
+        "d": "2023-10-14",
+        "m2": "0.685",
+        "m3": "0.603",
+        "m1": "11.511"
+      },
+      {
+        "p": {
+          "name": "BOOM Leaderboard",
+          "link": "https://huggingface.co/spaces/Datadog/BOOM"
+        },
+        "c": "https://github.com/SalesforceAIResearch/uni2ts",
+        "n": "Moirai 1.1 Base",
+        "d": "2024-02-04",
+        "m2": "0.779",
+        "m3": "0.63",
+        "m1": "11.756"
+      },
+      {
+        "p": {
+          "name": "BOOM Leaderboard",
+          "link": "https://huggingface.co/spaces/Datadog/BOOM"
+        },
+        "c": "https://github.com/SalesforceAIResearch/uni2ts",
+        "n": "Moirai 1.1 Small",
+        "d": "2024-02-04",
+        "m2": "0.786",
+        "m3": "0.631",
+        "m1": "12.144"
+      },
+      {
+        "p": {
+          "name": "BOOM Leaderboard",
+          "link": "https://huggingface.co/spaces/Datadog/BOOM"
+        },
+        "c": "https://github.com/salesforceairesearch/uni2ts",
+        "n": "Moirai 2.0 Small",
+        "d": "2025-11-12",
+        "m2": "0.902",
+        "m3": "0.467",
+        "m1": "12.267"
+      },
+      {
+        "p": {
+          "name": "BOOM Leaderboard",
+          "link": "https://huggingface.co/spaces/Datadog/BOOM"
+        },
+        "c": "https://github.com/amazon-science/chronos-forecasting",
+        "n": "Chronos-Bolt Base",
+        "d": "2024-03-12",
+        "m2": "0.711",
+        "m3": "0.637",
+        "m1": "12.844"
+      },
+      {
+        "p": {
+          "name": "BOOM Leaderboard",
+          "link": "https://huggingface.co/spaces/Datadog/BOOM"
+        },
+        "c": "https://github.com/amazon-science/chronos-forecasting",
+        "n": "Chronos-Bolt Small",
+        "d": "2024-03-12",
+        "m2": "0.717",
+        "m3": "0.642",
+        "m1": "13.078"
+      },
+      {
+        "p": {
+          "name": "BOOM Leaderboard",
+          "link": "https://huggingface.co/spaces/Datadog/BOOM"
+        },
+        "c": "https://github.com/time-moe/time-moe",
+        "n": "Time-MoE 200M",
+        "d": "2024-09-24",
+        "m2": "0.793",
+        "m3": "0.78",
+        "m1": "17.178"
+      },
+      {
+        "p": {
+          "name": "BOOM Leaderboard",
+          "link": "https://huggingface.co/spaces/Datadog/BOOM"
+        },
+        "c": "https://github.com/time-moe/time-moe",
+        "n": "Time-MoE 50M",
+        "d": "2024-09-24",
+        "m2": "0.81",
+        "m3": "0.788",
+        "m1": "17.222"
+      },
+      {
+        "p": {
+          "name": "BOOM Leaderboard",
+          "link": "https://huggingface.co/spaces/Datadog/BOOM"
+        },
+        "c": "https://github.com/thuml/Large-Time-Series-Model",
+        "n": "Timer Base 84M",
+        "d": "2024-02-04",
+        "m2": "0.807",
+        "m3": "0.793",
+        "m1": "17.622"
+      },
+      {
+        "p": {
+          "name": "BOOM Leaderboard",
+          "link": "https://huggingface.co/spaces/Datadog/BOOM"
+        },
+        "c": "https://github.com/keytoyze/visionts",
+        "n": "VisionTS",
+        "d": "2024-08-30",
+        "m2": "0.912",
+        "m3": "0.885",
+        "m1": "19.6"
+      }
+    ]
+  }
+}

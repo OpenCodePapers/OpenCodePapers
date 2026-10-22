@@ -1,0 +1,268 @@
+{
+  "title": "agents-on-skillsbench-v1-1-with-skills",
+  "task-hierarchy": [
+    "Agents"
+  ],
+  "dataset-info": {
+    "link": "https://www.skillsbench.ai",
+    "paper": "SkillsBench: Benchmarking How Well Agent Skills Work Across Diverse Tasks"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Pass Rate",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "SkillsBench Leaderboard",
+          "link": "https://huggingface.co/datasets/benchflow/skillsbench-leaderboard"
+        },
+        "c": "",
+        "n": "GPT-5.5 (OpenHands)",
+        "d": "2026-04-23",
+        "m1": "67.3"
+      },
+      {
+        "p": {
+          "name": "SkillsBench Leaderboard",
+          "link": "https://huggingface.co/datasets/benchflow/skillsbench-leaderboard"
+        },
+        "c": "",
+        "n": "Opus 4.7 (Claude Code)",
+        "d": "2026-04-16",
+        "m1": "61.2"
+      },
+      {
+        "p": {
+          "name": "SkillsBench Leaderboard",
+          "link": "https://huggingface.co/datasets/benchflow/skillsbench-leaderboard"
+        },
+        "c": "",
+        "n": "Gemini 3.1 Pro (Gemini CLI)",
+        "d": "2026-02-19",
+        "m1": "60.8"
+      },
+      {
+        "p": {
+          "name": "SkillsBench Leaderboard",
+          "link": "https://huggingface.co/datasets/benchflow/skillsbench-leaderboard"
+        },
+        "c": "https://github.com/zai-org/GLM-5",
+        "n": "GLM 5.1 (OpenHands)",
+        "d": "2026-04-03",
+        "m1": "58.4"
+      },
+      {
+        "p": {
+          "name": "SkillsBench Leaderboard",
+          "link": "https://huggingface.co/datasets/benchflow/skillsbench-leaderboard"
+        },
+        "c": "",
+        "n": "Gemini 3 Flash (Gemini CLI)",
+        "d": "2025-11-18",
+        "m1": "54.6068"
+      },
+      {
+        "p": {
+          "name": "SkillsBench Leaderboard",
+          "link": "https://huggingface.co/datasets/benchflow/skillsbench-leaderboard"
+        },
+        "c": "",
+        "n": "Opus 4.8 (OpenHands)",
+        "d": "2026-05-28",
+        "m1": "54.1"
+      },
+      {
+        "p": {
+          "name": "SkillsBench Leaderboard",
+          "link": "https://huggingface.co/datasets/benchflow/skillsbench-leaderboard"
+        },
+        "c": "https://huggingface.co/moonshotai/Kimi-K2.6",
+        "n": "Kimi K2.6 (OpenHands)",
+        "d": "2026-04-20",
+        "m1": "54"
+      },
+      {
+        "p": {
+          "name": "SkillsBench Leaderboard",
+          "link": "https://huggingface.co/datasets/benchflow/skillsbench-leaderboard"
+        },
+        "c": "https://github.com/MiniMax-AI/MiniMax-M3",
+        "n": "MiniMax M3 (OpenHands)",
+        "d": "2026-05-31",
+        "m1": "53"
+      },
+      {
+        "p": {
+          "name": "SkillZip: Contract-Preserving Graph Compression for Scalable Agent Skill Libraries",
+          "link": "https://arxiv.org/abs/2608.05604"
+        },
+        "c": "",
+        "n": "SkillZip (Claude Sonnet 4.5) (OpenHands (BenchFlow 0.6.2))",
+        "d": "2026-08-06",
+        "m1": "52.4"
+      },
+      {
+        "p": {
+          "name": "SkillsBench Leaderboard",
+          "link": "https://huggingface.co/datasets/benchflow/skillsbench-leaderboard"
+        },
+        "c": "",
+        "n": "GPT-5.2 (Codex)",
+        "d": "2025-12-11",
+        "m1": "51.7046"
+      },
+      {
+        "p": {
+          "name": "SkillsBench Leaderboard",
+          "link": "https://huggingface.co/datasets/benchflow/skillsbench-leaderboard"
+        },
+        "c": "",
+        "n": "Opus 4.6 (Claude Code)",
+        "d": "2026-02-05",
+        "m1": "50.2241"
+      },
+      {
+        "p": {
+          "name": "SkillsBench Leaderboard",
+          "link": "https://huggingface.co/datasets/benchflow/skillsbench-leaderboard"
+        },
+        "c": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+        "n": "DeepSeek V4 Pro (OpenHands)",
+        "d": "2026-04-26",
+        "m1": "50.1"
+      },
+      {
+        "p": {
+          "name": "Intern-S2-Preview: Scientific Agentic Foundation Model",
+          "link": "https://arxiv.org/abs/2608.13505"
+        },
+        "c": "https://github.com/internlm/intern-s1",
+        "n": "Intern-S2-Preview-397B (OpenClaw 2026.5.7)",
+        "d": "2026-08-13",
+        "m1": "50.03"
+      },
+      {
+        "p": {
+          "name": "SkillsBench Leaderboard",
+          "link": "https://huggingface.co/datasets/benchflow/skillsbench-leaderboard"
+        },
+        "c": "",
+        "n": "Opus 4.5 (Claude Code)",
+        "d": "2025-11-24",
+        "m1": "49.0395"
+      },
+      {
+        "p": {
+          "name": "SkillsBench Leaderboard",
+          "link": "https://huggingface.co/datasets/benchflow/skillsbench-leaderboard"
+        },
+        "c": "",
+        "n": "Gemini 3.5 Flash (OpenHands)",
+        "d": "2026-05-19",
+        "m1": "48.2"
+      },
+      {
+        "p": {
+          "name": "SkillsBench Leaderboard",
+          "link": "https://huggingface.co/datasets/benchflow/skillsbench-leaderboard"
+        },
+        "c": "",
+        "n": "Sonnet 4.6 (OpenHands)",
+        "d": "2026-02-17",
+        "m1": "47.2"
+      },
+      {
+        "p": {
+          "name": "SkillsBench Leaderboard",
+          "link": "https://huggingface.co/datasets/benchflow/skillsbench-leaderboard"
+        },
+        "c": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+        "n": "DeepSeek V4 Flash (OpenHands)",
+        "d": "2026-04-26",
+        "m1": "44.7"
+      },
+      {
+        "p": {
+          "name": "SkillsBench Leaderboard",
+          "link": "https://huggingface.co/datasets/benchflow/skillsbench-leaderboard"
+        },
+        "c": "",
+        "n": "Grok 4.3 (OpenHands)",
+        "d": "2026-04-30",
+        "m1": "41.7"
+      },
+      {
+        "p": {
+          "name": "SkillsBench Leaderboard",
+          "link": "https://huggingface.co/datasets/benchflow/skillsbench-leaderboard"
+        },
+        "c": "",
+        "n": "GPT-5.4 Mini (OpenHands)",
+        "d": "2026-03-05",
+        "m1": "41.4"
+      },
+      {
+        "p": {
+          "name": "SkillsBench Leaderboard",
+          "link": "https://huggingface.co/datasets/benchflow/skillsbench-leaderboard"
+        },
+        "c": "",
+        "n": "Sonnet 4.5 (Claude Code)",
+        "d": "2025-09-29",
+        "m1": "36.1723"
+      },
+      {
+        "p": {
+          "name": "SkillsBench Leaderboard",
+          "link": "https://huggingface.co/datasets/benchflow/skillsbench-leaderboard"
+        },
+        "c": "https://huggingface.co/MiniMaxAI/MiniMax-M2.7",
+        "n": "MiniMax M2.7 (OpenHands)",
+        "d": "2026-05-26",
+        "m1": "34.9"
+      },
+      {
+        "p": {
+          "name": "SkillsBench Leaderboard",
+          "link": "https://huggingface.co/datasets/benchflow/skillsbench-leaderboard"
+        },
+        "c": "",
+        "n": "Haiku 4.5 (Claude Code)",
+        "d": "2025-10-15",
+        "m1": "30.0831"
+      },
+      {
+        "p": {
+          "name": "SkillsBench Leaderboard",
+          "link": "https://huggingface.co/datasets/benchflow/skillsbench-leaderboard"
+        },
+        "c": "",
+        "n": "Gemini 3.1 Flash Lite (OpenHands)",
+        "d": "2026-03-03",
+        "m1": "20.1"
+      }
+    ]
+  }
+}

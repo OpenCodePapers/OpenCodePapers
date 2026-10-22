@@ -155,6 +155,16 @@
       },
       {
         "p": {
+          "name": "StreamFlow: Streamlined Multi-Frame Optical Flow Estimation for Video Sequences",
+          "link": "https://arxiv.org/abs/2311.17099"
+        },
+        "c": "https://github.com/littlespray/streamflow",
+        "n": "StreamFlow (4 frames, Sintel fine-tuned) (extra data)",
+        "d": "2023-11-28",
+        "m1": "1.041"
+      },
+      {
+        "p": {
           "name": "DPFlow: Adaptive Optical Flow Estimation with a Dual-Pyramid Framework",
           "link": "https://arxiv.org/abs/2503.14880v1"
         },
@@ -192,6 +202,16 @@
         "n": "CroCo-Flow",
         "d": "2022-11-18",
         "m1": "1.092"
+      },
+      {
+        "p": {
+          "name": "SplatFlow: Learning Multi-frame Optical Flow via Splatting",
+          "link": "https://arxiv.org/abs/2306.08887"
+        },
+        "c": "https://github.com/wwsource/splatflow",
+        "n": "SplatFlow-GMA (Sintel fine-tuned, 3-frame, no WarmStart) (extra data)",
+        "d": "2023-06-15",
+        "m1": "1.119"
       },
       {
         "p": {
