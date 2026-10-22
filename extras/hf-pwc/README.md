@@ -6,7 +6,7 @@ of _Hugging Face_, through its [public API](https://paperswithcode.co/docs/api).
 ```bash
 python3 fetch_catalog.py            # tasks, datasets and evaluations (leaderboard entries)
 python3 match_leaderboards.py       # existing benchmark of each leaderboard
-# review data/review/matches_*.json
+# review data/review/matches_*.json and split_*.json
 python3 apply_reviews.py && python3 match_leaderboards.py
 python3 fetch_leaderboard_info.py   # metric directions of new benchmarks
 python3 fetch_paper_details.py      # links of papers without arXiv id
@@ -24,6 +24,8 @@ Rules:
   websites (aggregators, arenas, vendor reports) are dropped.
 - A leaderboard is merged into an existing benchmark if both list the same results for
   several papers. Weaker matches are reviewed, to avoid duplicate benchmarks.
+- Leaderboards that mix protocols (like zero-shot and fine-tuned results) are split by a
+  review into groups of one protocol, which are merged or become new benchmarks.
 - New benchmarks need at least 5 entries from 3 papers and a code link.
 - Every entry is reviewed before it is added, and uncertain ones are dropped.
 
@@ -39,11 +41,11 @@ instructions of [review_prompts.md](./review_prompts.md)), who writes the decisi
 `data/reviewed_evaluations.json`, so reruns only review new data (entries already in the
 dataset are skipped anyway). New metric columns are decided by hand in `data/overrides.json`.
 
-In Oct 2026, 153 of 2027 leaderboards were matched automatically and 636 reviewed. Many
-leaderboards of the site mix protocols (zero-shot and fine-tuned results, validation and
-test splits), these were dropped. 4720 entries were added to 274 existing benchmarks, and
-404 new benchmarks were created with 8563 entries. 907 entries come from benchmark
-leaderboard websites.
+In Oct 2026, 153 of 2027 leaderboards were matched automatically and 636 reviewed. 333
+leaderboards that mix protocols (zero-shot and fine-tuned results, validation and test
+splits) were split by reviews, 221 of them into 287 groups of one protocol. In total, 5441
+entries were added to 392 existing benchmarks, and 485 new benchmarks were created with
+9435 entries. 1102 entries come from benchmark leaderboard websites.
 
 <br>
 

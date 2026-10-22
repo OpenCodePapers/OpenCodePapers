@@ -1,6 +1,6 @@
 """
 Download the metric directions and the primary metric of the leaderboards that become
-new benchmarks, to data/leaderboards/.
+new benchmarks (also in parts, when split), to data/leaderboards/.
 """
 
 import os
@@ -39,7 +39,12 @@ def fetch_info(key: str) -> dict:
 
 def main():
     matches = utils.load_json(MATCHES_PATH)
-    keys = [k for k, m in matches.items() if m["status"] == "new"]
+    keys = [
+        k
+        for k, m in matches.items()
+        if m["status"] == "new"
+        or any(g["decision"] == "new" for g in m.get("groups", []))
+    ]
     todo = [k for k in keys if not os.path.isfile(info_path(k))]
     print(f"Leaderboards: {len(keys)}, to download: {len(todo)}")
 

@@ -14,6 +14,7 @@ BENCHMARKS_DIR = "../../dataset/benchmarks/"
 CATALOG_DIR = "data/catalog/"
 OVERRIDES_PATH = "data/overrides.json"
 REVIEWED_PATH = "data/reviewed_evaluations.json"
+REVIEW_DIR = "data/review/"
 
 # Minimum size of new benchmarks
 MIN_ENTRIES = 5
@@ -154,6 +155,15 @@ def normalize_title(s: Optional[str]) -> str:
     return re.sub(r"\s+", " ", s).strip()
 
 
+def slugify(s: str) -> str:
+    return re.sub(r"-+", "-", re.sub(r"[^a-z0-9]+", "-", s.lower())).strip("-")
+
+
+def benchmark_name(task: str, dataset: str) -> str:
+    """Title of a benchmark like "<task>-on-<dataset>"."""
+    return f"{slugify(task)}-on-{slugify(dataset)}"[:128].strip("-")
+
+
 def arxiv_id_of_link(link: str) -> str:
     m = ARXIV_ID_RE.search(link or "")
     return m.group(1) if m else ""
@@ -182,6 +192,29 @@ def write_json(path: str, data, compact: bool = False):
     os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=1 if compact else 2, ensure_ascii=False)
+
+
+def dumps_review(obj, indent: int = 0) -> str:
+    """JSON of review files, with lists and objects on one line if they fit in 1000
+    characters (like one entry per line)."""
+    text = json.dumps(obj, ensure_ascii=False)
+    if len(text) <= 1000 or not isinstance(obj, (dict, list)) or not obj:
+        return text
+    pad = "  " * (indent + 1)
+    if isinstance(obj, dict):
+        parts = [
+            f"{pad}{json.dumps(k, ensure_ascii=False)}: {dumps_review(v, indent + 1)}"
+            for k, v in obj.items()
+        ]
+        return "{\n" + ",\n".join(parts) + "\n" + "  " * indent + "}"
+    parts = [pad + dumps_review(v, indent + 1) for v in obj]
+    return "[\n" + ",\n".join(parts) + "\n" + "  " * indent + "]"
+
+
+def write_review(path: str, data):
+    os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(dumps_review(data) + "\n")
 
 
 def load_catalog():
@@ -224,6 +257,24 @@ def write_reviewed_evaluations(reviewed: Dict[str, set]):
         lines.append(f'  "{k}": {json.dumps(ids)}')
     with open(REVIEWED_PATH, "w", encoding="utf-8") as f:
         f.write("{\n" + ",\n".join(lines) + "\n}\n")
+
+
+def write_review_batches(prefix: str, groups: List[dict], count_key: str, size: int):
+    """Review groups in files of about `size` entries, like data/review/<prefix>_000.json."""
+    for fname in os.listdir(REVIEW_DIR):
+        if re.fullmatch(prefix + r"_\d+\.json", fname):
+            os.remove(os.path.join(REVIEW_DIR, fname))
+    batch, count, n = [], 0, 0
+    for group in groups + [None]:
+        if group is None or (batch and count + len(group[count_key]) > size):
+            if batch:
+                write_review(os.path.join(REVIEW_DIR, f"{prefix}_{n:03d}.json"), batch)
+                n += 1
+            batch, count = [], 0
+        if group is not None:
+            batch.append(group)
+            count += len(group[count_key])
+    return n
 
 
 def task_chain(tasks: Dict[str, dict], task_id: str) -> List[str]:

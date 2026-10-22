@@ -11,6 +11,9 @@ Leaderboards are matched by the results both list for the same papers (title or 
   ones (5+ and 20% if the dataset names are not similar).
 - Leaderboards with weaker evidence, or a benchmark of a similar dataset name, are
   reviewed. The others become new benchmarks, or are dropped if they are too small.
+- Leaderboards dropped by a review (often mixing protocols, like zero-shot and fine-tuned
+  results) are reviewed again entry by entry (data/review/split_*.json): their entries are
+  split into groups of one protocol, which are merged or become new benchmarks.
 """
 
 import collections
@@ -24,8 +27,11 @@ import utils
 # ==================================================================================================
 
 MATCHES_PATH = "data/matches.json"
-REVIEW_DIR = "data/review/"
 REVIEW_BATCH = 20
+SPLIT_BATCH_ENTRIES = 250
+MAX_SPLIT_CANDIDATES = 6
+# dataset links used by more benchmarks don't identify a dataset (like cocodataset.org)
+MAX_LINK_BENCHMARKS = 10
 
 MIN_AGREEING_PAPERS = 3
 MAX_CONFLICT_SHARE = 0.25
@@ -48,6 +54,10 @@ def dataset_tokens(text: str) -> Set[str]:
     return set(utils.normalize_title(text).split()) - GENERIC_TOKENS
 
 
+def normalize_link(link: str) -> str:
+    return re.sub(r"^https?://(www\.)?", "", (link or "").strip().lower()).rstrip("/")
+
+
 class BenchIndex:
     """Benchmark items by paper, and benchmarks by paper and dataset name."""
 
@@ -57,6 +67,7 @@ class BenchIndex:
         self.by_paper = collections.defaultdict(set)
         self.by_token = collections.defaultdict(set)
         self.by_compact = collections.defaultdict(set)
+        self.by_link = collections.defaultdict(set)
         for title, data in benchmarks.items():
             by_title = collections.defaultdict(list)
             by_arxiv = collections.defaultdict(list)
@@ -79,6 +90,9 @@ class BenchIndex:
             self.by_compact[utils.compact_name(utils.bench_dataset_part(title))].add(
                 title
             )
+            link = normalize_link(data["dataset-info"].get("link"))
+            if link:
+                self.by_link[link].add(title)
 
     def paper_items(self, bench: str, paper: tuple) -> List[dict]:
         by_title, by_arxiv = self.items[bench]
@@ -90,6 +104,38 @@ class BenchIndex:
         found = set(self.by_paper.get(("t", paper[0]), set()))
         if paper[1]:
             found |= self.by_paper.get(("a", paper[1]), set())
+        return found
+
+    def variant_candidates(self, dataset: dict) -> Dict[str, float]:
+        """
+        Benchmarks with the most distinctive word of the dataset name (like "calvin" of
+        "CALVIN ABCD to D"), and the share of words both names have.
+        """
+        toks = dataset_tokens(dataset["name"].replace("-", " "))
+        known = [
+            t for t in toks if len(t) >= 3 and not t.isdigit() and self.by_token.get(t)
+        ]
+        if not known:
+            return {}
+        rare = min(known, key=lambda t: (len(self.by_token[t]), t))
+        found = {}
+        for bench in self.by_token[rare]:
+            btoks = dataset_tokens(utils.bench_dataset_part(bench).replace("-", " "))
+            found[bench] = len(toks & btoks) / len(toks | btoks)
+        return found
+
+    def link_candidates(self, dataset: dict) -> Set[str]:
+        """Benchmarks with the dataset's homepage or paper as link (like InfographicVQA
+        for "InfoVQA")."""
+        links = {normalize_link(dataset.get(k)) for k in ("homepage", "url")}
+        m = re.search(r"/paper/(\d{4}\.\d{4,5})", dataset.get("paper_url") or "")
+        if m:
+            links.add(f"arxiv.org/abs/{m.group(1)}")
+        found = set()
+        for link in links - {""}:
+            benches = self.by_link.get(link, set())
+            if len(benches) <= MAX_LINK_BENCHMARKS:
+                found |= benches
         return found
 
     def name_candidates(self, dataset: dict) -> Dict[str, bool]:
@@ -308,41 +354,116 @@ def review_info(key, evals, cands, index, *, tasks, datasets) -> dict:
             }
             for e in samples
         ],
-        "candidates": [],
+        "candidates": [candidate_info(c, index) for c in cands[:4]],
     }
-    for cand in cands[:4]:
-        data = index.benchmarks[cand["benchmark"]]
-        fields = metric_fields(data)
-        items = data["benchmark"]["items"]
-        items = items[:3] + items[-2:] if len(items) > 5 else items
-        info["candidates"].append(
-            {
-                "benchmark": cand["benchmark"],
-                "task_hierarchy": data["task-hierarchy"],
-                "dataset_info": data["dataset-info"],
-                "metrics": fields,
-                "num_entries": len(data["benchmark"]["items"]),
-                "shared_papers": cand["shared_papers"],
-                "agreeing_papers": cand["agreeing_papers"],
-                "conflicting_papers": cand["conflicting_papers"],
-                "value_mapping": {hm: m["key"] for hm, m in cand["mapping"].items()},
-                "shared_paper_examples": cand["shared_examples"],
-                "sample_entries": [
-                    {
-                        "model": it.get("n"),
-                        "paper": (
-                            it["p"].get("name", "") if isinstance(it["p"], dict) else ""
-                        )[:80],
-                        "date": it.get("d"),
-                        "metrics": {
-                            k: it[k] for k in fields if it.get(k) not in (None, "")
-                        },
-                    }
-                    for it in items
-                ],
-            }
-        )
     return info
+
+
+def candidate_info(cand: dict, index: BenchIndex) -> dict:
+    data = index.benchmarks[cand["benchmark"]]
+    fields = metric_fields(data)
+    items = data["benchmark"]["items"]
+    items = items[:3] + items[-2:] if len(items) > 5 else items
+    return {
+        "benchmark": cand["benchmark"],
+        "task_hierarchy": data["task-hierarchy"],
+        "dataset_info": data["dataset-info"],
+        "metrics": fields,
+        "num_entries": len(data["benchmark"]["items"]),
+        "shared_papers": cand["shared_papers"],
+        "agreeing_papers": cand["agreeing_papers"],
+        "conflicting_papers": cand["conflicting_papers"],
+        "value_mapping": {hm: m["key"] for hm, m in cand["mapping"].items()},
+        "shared_paper_examples": cand["shared_examples"],
+        "sample_entries": [
+            {
+                "model": it.get("n"),
+                "paper": (it["p"].get("name", "") if isinstance(it["p"], dict) else "")[
+                    :80
+                ],
+                "date": it.get("d"),
+                "metrics": {k: it[k] for k in fields if it.get(k) not in (None, "")},
+            }
+            for it in items
+        ],
+    }
+
+
+def split_candidates(cands: List[dict], variants: Dict[str, float]) -> List[dict]:
+    """Benchmarks of a similar dataset name or with agreeing values first, then other
+    benchmarks of the dataset (protocol variants)."""
+    similar = [
+        c
+        for c in cands
+        if variants.get(c["benchmark"], 0) >= 0.5
+        or c["agreeing_papers"] >= MIN_AGREEING_PAPERS
+    ]
+    similar.sort(
+        key=lambda c: (-c["agreeing_papers"], -variants.get(c["benchmark"], 0))
+    )
+    others = [c for c in cands if c not in similar and c["benchmark"] in variants]
+    others.sort(key=lambda c: (-variants[c["benchmark"]], -c["agreeing_papers"]))
+    return (similar + others)[:MAX_SPLIT_CANDIDATES]
+
+
+def split_review_info(key, evals, cands, index, *, tasks, datasets, reason) -> dict:
+    """All entries of a dropped leaderboard, with the candidates that list their papers
+    with the same or another value."""
+    task_id, dataset_id = key.split("/")
+    ds = datasets.get(dataset_id, {})
+    rows = []
+    for e in sorted(evals, key=lambda e: (e["paper_published_date"] or "", e["id"])):
+        same, other = [], []
+        for cand in cands:
+            data = index.benchmarks[cand["benchmark"]]
+            items = index.paper_items(cand["benchmark"], paper_key(e))
+            if not items:
+                continue
+            agree = any(
+                utils.values_agree(v, it.get(k)) is not None
+                for v in e["metrics"].values()
+                for it in items
+                for k in metric_fields(data)
+            )
+            (same if agree else other).append(cand["benchmark"])
+        leaderboard = utils.leaderboard_source(e)
+        reporting = utils.reporting_paper_ref(e)
+        row = {
+            "id": e["id"],
+            "model": e["model_name"],
+            "paper": (e["paper_title"] or "")[:80],
+            "source": (
+                f"website {leaderboard[0]}"
+                if leaderboard
+                else f"reported by paper {reporting}" if reporting else ""
+            ),
+            "date": e["paper_published_date"],
+            "metrics": e["metrics"],
+            "methodology": (e.get("methodology") or "")[:200],
+            "same_value_in": same,
+            "other_value_in": other,
+        }
+        rows.append({k: v for k, v in row.items() if v})
+    return {
+        "leaderboard": key,
+        "task": " > ".join(utils.task_chain(tasks, task_id)),
+        "dataset": ds.get("name"),
+        "dataset_full_name": ds.get("full_name"),
+        "dataset_description": (
+            ds.get("short_description") or ds.get("description") or ""
+        )[:400],
+        "dataset_split": ds.get("split_name"),
+        "drop_reason": reason,
+        "candidates": [
+            {
+                k: v
+                for k, v in candidate_info(c, index).items()
+                if k != "shared_paper_examples"
+            }
+            for c in cands
+        ],
+        "entries": rows,
+    }
 
 
 def apply_override(entry: dict, ov: dict, index: BenchIndex):
@@ -371,8 +492,13 @@ def apply_override(entry: dict, ov: dict, index: BenchIndex):
 def main():
     tasks, datasets, evaluations = utils.load_catalog()
     index = BenchIndex(utils.load_benchmarks())
-    overrides = {
-        o["leaderboard"]: o for o in utils.load_overrides().get("leaderboards", [])
+    all_overrides = utils.load_overrides()
+    overrides = {o["leaderboard"]: o for o in all_overrides.get("leaderboards", [])}
+    splits = {o["leaderboard"]: o for o in all_overrides.get("splits", [])}
+    dropped_new = {
+        o["leaderboard"]: o.get("reason", "")
+        for o in all_overrides.get("new_benchmarks", [])
+        if o["decision"] == "drop"
     }
 
     leaderboards = collections.defaultdict(list)
@@ -381,7 +507,7 @@ def main():
             leaderboards[utils.leaderboard_key(e)].append(e)
 
     matches = {}
-    review = []
+    review, split_review = [], []
     stats = collections.Counter()
     for key in sorted(leaderboards, key=lambda k: tuple(int(x) for x in k.split("/"))):
         evals = leaderboards[key]
@@ -452,20 +578,58 @@ def main():
 
         if key in overrides:
             apply_override(entry, overrides[key], index)
+
+        if key in splits:
+            for k in (
+                "benchmark",
+                "mapping",
+                "candidates",
+                "evidence",
+                "also_accepted",
+            ):
+                entry.pop(k, None)
+            entry.update(status="split", groups=splits[key]["groups"])
+        elif len(evals) >= utils.MIN_ENTRIES and (
+            (entry["status"] == "drop" and entry.get("reviewed")) or key in dropped_new
+        ):
+            variants = index.variant_candidates(dataset)
+            for bench in index.link_candidates(dataset):
+                variants[bench] = max(variants.get(bench, 0), 0.5)
+            variants.update({b: 1.0 for b in names})
+            cands += [
+                score_candidate(index, b, papers)
+                for b in sorted(set(variants) - cand_benches)
+            ]
+            split_review.append(
+                split_review_info(
+                    key,
+                    evals,
+                    split_candidates(cands, variants),
+                    index,
+                    tasks=tasks,
+                    datasets=datasets,
+                    reason=dropped_new.get(key) or entry.get("reviewed"),
+                )
+            )
         stats[entry["status"]] += 1
         matches[key] = entry
 
     utils.write_json(MATCHES_PATH, matches)
 
     # reviews still missing a decision, in batches
-    os.makedirs(REVIEW_DIR, exist_ok=True)
-    for fname in os.listdir(REVIEW_DIR):
+    os.makedirs(utils.REVIEW_DIR, exist_ok=True)
+    for fname in os.listdir(utils.REVIEW_DIR):
         if re.fullmatch(r"matches_\d+\.json", fname):
-            os.remove(os.path.join(REVIEW_DIR, fname))
-    todo = [r for r in review if r["leaderboard"] not in overrides]
+            os.remove(os.path.join(utils.REVIEW_DIR, fname))
+    todo = [
+        r for r in review if r["leaderboard"] not in overrides.keys() | splits.keys()
+    ]
     for i in range(0, len(todo), REVIEW_BATCH):
-        path = os.path.join(REVIEW_DIR, f"matches_{i // REVIEW_BATCH:03d}.json")
-        utils.write_json(path, todo[i : i + REVIEW_BATCH])
+        path = os.path.join(utils.REVIEW_DIR, f"matches_{i // REVIEW_BATCH:03d}.json")
+        utils.write_review(path, todo[i : i + REVIEW_BATCH])
+    n_split_files = utils.write_review_batches(
+        "split", split_review, "entries", SPLIT_BATCH_ENTRIES
+    )
 
     merged_into = collections.Counter(
         m["benchmark"] for m in matches.values() if m.get("benchmark")
@@ -473,7 +637,8 @@ def main():
     print(f"Leaderboards: {len(matches)} {dict(stats)}")
     print(f"Benchmarks receiving merges: {len(merged_into)}")
     print(
-        f"Reviews pending: {len(todo)} in {(len(todo) + REVIEW_BATCH - 1) // REVIEW_BATCH} files"
+        f"Reviews pending: {len(todo)} in {(len(todo) + REVIEW_BATCH - 1) // REVIEW_BATCH} files, "
+        f"{len(split_review)} leaderboards to split in {n_split_files} files"
     )
 
 

@@ -25,7 +25,7 @@ def needed_papers(evaluations: list, matches: dict) -> set:
     refs = set()
     for e in evaluations:
         match = matches.get(utils.leaderboard_key(e), {})
-        if match.get("status") not in ("merge", "new", "review"):
+        if match.get("status") not in ("merge", "new", "review", "split"):
             continue
         if not utils.is_importable(e) or utils.leaderboard_source(e):
             continue

@@ -12,6 +12,8 @@ new_columns.json).
   column is approved in data/overrides.json.
 - New benchmarks need 5+ entries from 3+ papers and a code link. Leaderboards of the
   same dataset are combined, probable duplicates of existing benchmarks are skipped.
+- Split leaderboards add the entries of their groups to the group's benchmark, groups of
+  new benchmarks with the same title are combined.
 """
 
 import collections
@@ -35,7 +37,6 @@ from test_benchmark_files import (  # noqa: E402 pylint: disable=wrong-import-po
 
 MATCHES_PATH = "data/matches.json"
 UPDATES_DIR = "data/updates/"
-REVIEW_DIR = "data/review/"
 REVIEW_BATCH_ENTRIES = 300
 MAX_REVIEW_ENTRIES = 150
 
@@ -60,10 +61,6 @@ FIELD_D = {"key": "d", "label": "ReleaseDate", "sortable": "true"}
 
 def clean_text(s: Optional[str]) -> str:
     return " ".join((s or "").split())
-
-
-def slugify(s: str) -> str:
-    return re.sub(r"-+", "-", re.sub(r"[^a-z0-9]+", "-", s.lower())).strip("-")
 
 
 def valid_link(link: Optional[str]) -> bool:
@@ -93,7 +90,7 @@ def item_of(entry: dict, metrics: dict) -> dict:
         "c": entry["c"],
         "n": entry["n"],
         "d": entry["d"],
-        **metrics,
+        **{k: metrics[k] for k in sorted(metrics, key=lambda k: int(k[1:]))},
     }
 
 
@@ -534,8 +531,7 @@ def new_review(key: str, built: dict, hierarchies, tasks: dict, datasets: dict) 
 
 
 def benchmark_title(hierarchy: List[str], dataset: dict, taken: set) -> str:
-    base = f"{slugify(hierarchy[-1])}-on-{slugify(dataset['name'])}"
-    title = base[:128].strip("-")
+    base = title = utils.benchmark_name(hierarchy[-1], dataset["name"])
     n = 2
     while title in taken:
         title = base[:124].strip("-") + f"-{n}"
@@ -577,35 +573,26 @@ def benchmark_summary(fields: List[dict], items: List[dict]) -> dict:
     }
 
 
-def write_batches(prefix: str, groups: List[dict], count_key: str):
-    """Review groups in files of about REVIEW_BATCH_ENTRIES entries."""
-    for fname in os.listdir(REVIEW_DIR):
-        if re.fullmatch(prefix + r"_\d+\.json", fname):
-            os.remove(os.path.join(REVIEW_DIR, fname))
-    batch, size, n = [], 0, 0
-    for group in groups + [None]:
-        if group is None or (
-            batch and size + len(group[count_key]) > REVIEW_BATCH_ENTRIES
-        ):
-            if batch:
-                utils.write_json(
-                    os.path.join(REVIEW_DIR, f"{prefix}_{n:03d}.json"), batch
-                )
-                n += 1
-            batch, size = [], 0
-        if group is not None:
-            batch.append(group)
-            size += len(group[count_key])
-    return n
-
-
 # ==================================================================================================
 
 
+def map_metrics(entries: List[dict], mapping: dict):
+    """Values of mapped metrics in the benchmark's scale, and the other metrics."""
+    for entry in entries:
+        entry["mapped"] = {
+            mapping[m]["key"]: utils.scale_value(v, mapping[m].get("factor", 1))
+            for m, v in entry["metrics"].items()
+            if m in mapping
+        }
+        entry["extra"] = {m: v for m, v in entry["metrics"].items() if m not in mapping}
+
+
 def collect_entries(leaderboards, matches, known, details, skipped):
-    """Entries of the leaderboards, by benchmark to merge into and by new leaderboard."""
+    """Entries of the leaderboards: by benchmark to merge into, by new leaderboard, and
+    by title of the new benchmarks of split leaderboards."""
     merge_entries = collections.defaultdict(list)
     new_entries = {}
+    split_new = {}
     for key, evals in sorted(leaderboards.items()):
         match = matches[key]
         entries = []
@@ -618,20 +605,38 @@ def collect_entries(leaderboards, matches, known, details, skipped):
                 continue
             entries.append(entry)
         if match["status"] == "merge":
-            mapping = match["mapping"]
-            for entry in entries:
-                entry["mapped"] = {
-                    mapping[m]["key"]: utils.scale_value(v, mapping[m]["factor"])
-                    for m, v in entry["metrics"].items()
-                    if m in mapping
-                }
-                entry["extra"] = {
-                    m: v for m, v in entry["metrics"].items() if m not in mapping
-                }
+            map_metrics(entries, match["mapping"])
             merge_entries[match["benchmark"]].extend(entries)
-        else:
+        elif match["status"] == "new":
             new_entries[key] = entries
-    return merge_entries, new_entries
+        for group in match.get("groups", []):
+            part = [e for e in entries if e["ids"][0] in set(group["ids"])]
+            if group["decision"] == "merge":
+                map_metrics(part, group["metrics"])
+                merge_entries[group["benchmark"]].extend(part)
+                continue
+            # optional column labels of the site's metrics, the primary one first
+            labels = group.get("metrics")
+            for e in part if labels else []:
+                renamed = {}
+                for m, v in e["metrics"].items():
+                    if m in labels:
+                        renamed.setdefault(labels[m], v)
+                e["metrics"] = renamed
+            th = group["task_hierarchy"]
+            planned = split_new.setdefault(
+                utils.benchmark_name(th[-1], group["dataset"]),
+                {
+                    "hierarchy": th,
+                    "dataset_id": key.split("/")[1],
+                    "labels": labels,
+                    "keys": [],
+                    "entries": [],
+                },
+            )
+            planned["keys"].append(key)
+            planned["entries"].extend(part)
+    return merge_entries, new_entries, split_new
 
 
 def main():
@@ -649,7 +654,7 @@ def main():
     leaderboards = collections.defaultdict(list)
     for e in evaluations:
         key = utils.leaderboard_key(e)
-        if matches.get(key, {}).get("status") not in ("merge", "new"):
+        if matches.get(key, {}).get("status") not in ("merge", "new", "split"):
             continue
         if utils.is_importable(e) and e["id"] not in reviewed["excluded"]:
             leaderboards[key].append(e)
@@ -659,7 +664,7 @@ def main():
         fetch_paper_details.needed_papers(evaluations, matches)
     )
     skipped = []
-    merge_entries, new_entries = collect_entries(
+    merge_entries, new_entries, split_new = collect_entries(
         leaderboards, matches, known, details, skipped
     )
 
@@ -729,6 +734,7 @@ def main():
     for b, data in benchmarks.items():
         root = data["task-hierarchy"][0] if data["task-hierarchy"] else ""
         existing[(utils.compact_name(utils.bench_dataset_part(b)), root)].append(b)
+    planned = {}
     for dataset_id, keys in kept.items():
         dataset = datasets[dataset_id]
         hierarchies_used = collections.Counter(
@@ -736,17 +742,47 @@ def main():
         )
         hierarchy = list(hierarchies_used.most_common(1)[0][0])
         duplicate = existing.get(
-            (utils.compact_name(slugify(dataset["name"])), hierarchy[0])
+            (utils.compact_name(utils.slugify(dataset["name"])), hierarchy[0])
         )
         if duplicate:
             skipped.append(
                 {"reason": f"new benchmark may duplicate {duplicate}", "target": keys}
             )
             continue
+        title = benchmark_title(hierarchy, dataset, taken)
+        taken.add(title)
+        planned[title] = {
+            "hierarchy": hierarchy,
+            "dataset_id": dataset_id,
+            "keys": keys,
+            "entries": [e for k in keys for e in new_entries[k]],
+        }
+    # parts of split leaderboards, their title names the protocol
+    existing_titles = {utils.compact_name(b) for b in benchmarks}
+    for title, plan in split_new.items():
+        if utils.compact_name(title) in existing_titles:
+            skipped.append(
+                {"reason": f"new benchmark {title} exists", "target": plan["keys"]}
+            )
+        elif title in planned:
+            planned[title]["keys"] += plan["keys"]
+            planned[title]["entries"] += plan["entries"]
+        else:
+            planned[title] = plan
+
+    for title, plan in planned.items():
+        dataset, keys = datasets[plan["dataset_id"]], plan["keys"]
         info = leaderboard_info(keys)
-        built, reason = build_new(
-            combine([e for k in keys for e in new_entries[k]], skipped), info
-        )
+        if plan.get("labels"):
+            directions = info.get("metrics") or {}
+            info = {
+                "primary": next(iter(plan["labels"].values())),
+                "metrics": {
+                    label: directions.get(m)
+                    for m, label in reversed(plan["labels"].items())
+                },
+            }
+        built, reason = build_new(combine(plan["entries"], skipped), info)
         if not built:
             skipped.append({"reason": f"new benchmark {reason}", "target": keys})
             continue
@@ -757,14 +793,12 @@ def main():
         pending = [
             e for e in built["entries"] if review_status(e, reviewed) == "pending"
         ]
-        title = benchmark_title(hierarchy, dataset, taken)
-        taken.add(title)
         final, reason = build_new(accepted, info)
         if pending:
             entry_reviews.append(
                 {
                     "benchmark": title,
-                    "task_hierarchy": hierarchy,
+                    "task_hierarchy": plan["hierarchy"],
                     **benchmark_summary(
                         built["fields"], final["items"] if final else []
                     ),
@@ -779,7 +813,7 @@ def main():
             continue
         data = {
             "title": title,
-            "task-hierarchy": hierarchy,
+            "task-hierarchy": plan["hierarchy"],
             "dataset-info": dataset_info(dataset, datasets),
             "benchmark": {"fields": final["fields"], "items": final["items"]},
         }
@@ -788,12 +822,16 @@ def main():
         stats["new benchmark entries"] += len(final["items"])
 
     utils.write_json(os.path.join(UPDATES_DIR, "skipped.json"), skipped, compact=True)
-    os.makedirs(REVIEW_DIR, exist_ok=True)
-    n_entry_files = write_batches("entries", entry_reviews, "new_entries")
-    n_new_files = write_batches("new", new_reviews, "entries")
-    utils.write_json(os.path.join(REVIEW_DIR, "new_columns.json"), column_reviews)
+    os.makedirs(utils.REVIEW_DIR, exist_ok=True)
+    n_entry_files = utils.write_review_batches(
+        "entries", entry_reviews, "new_entries", REVIEW_BATCH_ENTRIES
+    )
+    n_new_files = utils.write_review_batches(
+        "new", new_reviews, "entries", REVIEW_BATCH_ENTRIES
+    )
+    utils.write_json(os.path.join(utils.REVIEW_DIR, "new_columns.json"), column_reviews)
     utils.write_json(
-        os.path.join(REVIEW_DIR, "task_hierarchies.json"),
+        os.path.join(utils.REVIEW_DIR, "task_hierarchies.json"),
         sorted(hierarchies.paths),
         compact=True,
     )

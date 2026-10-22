@@ -20,6 +20,8 @@ def fetch(name: str):
         results.append(item)
         if len(results) % 1000 == 0:
             print(f"{name}: {len(results)}", flush=True)
+    # offset pages repeat items when the site changes meanwhile
+    results = list({item["id"]: item for item in results}.values())
 
     path = os.path.join(CATALOG_DIR, f"{name}.json")
     with open(path, "w", encoding="utf-8") as f:
