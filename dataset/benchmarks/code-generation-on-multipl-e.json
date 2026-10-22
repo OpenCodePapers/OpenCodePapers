@@ -1,0 +1,209 @@
+{
+  "title": "code-generation-on-multipl-e",
+  "task-hierarchy": [
+    "Code Intelligence",
+    "Code Generation"
+  ],
+  "dataset-info": {
+    "link": "https://arxiv.org/abs/2208.08227",
+    "paper": "MultiPL-E: A Scalable and Extensible Approach to Benchmarking Neural Code Generation"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Qwen3-Coder-Next Technical Report",
+          "link": "https://arxiv.org/abs/2603.00729"
+        },
+        "c": "https://github.com/QwenLM/Qwen3-Coder",
+        "n": "Qwen3-Coder-Next",
+        "d": "2026-02-28",
+        "m1": "88.23"
+      },
+      {
+        "p": {
+          "name": "Qwen3-Next",
+          "link": "https://qwenlm.github.io/blog/qwen3_next/"
+        },
+        "c": "",
+        "n": "Qwen3-Next-80B-A3B-Instruct",
+        "d": "2025-09-09",
+        "m1": "87.8"
+      },
+      {
+        "p": {
+          "name": "Qwen3-Omni Technical Report",
+          "link": "https://arxiv.org/abs/2509.17765"
+        },
+        "c": "https://github.com/QwenLM/Qwen3-Omni",
+        "n": "Qwen3-Omni-Flash-Instruct",
+        "d": "2025-09-22",
+        "m1": "81.5"
+      },
+      {
+        "p": {
+          "name": "Qwen2.5-VL Technical Report",
+          "link": "https://arxiv.org/abs/2502.13923v1"
+        },
+        "c": "https://github.com/qwenlm/qwen2-vl",
+        "n": "Qwen2.5-VL-72B",
+        "d": "2025-02-19",
+        "m1": "79.5"
+      },
+      {
+        "p": {
+          "name": "On the Design of Qwen3.8-Next Architecture: Evaluation, Efficiency, and Training Stability",
+          "link": "https://arxiv.org/abs/2608.30320"
+        },
+        "c": "https://github.com/qwenlm/flashqla",
+        "n": "Qwen3.8-Flash-Next-Base",
+        "d": "2026-08-31",
+        "m1": "79.09"
+      },
+      {
+        "p": {
+          "name": "Qwen2.5 Technical Report",
+          "link": "https://arxiv.org/abs/2412.15115v2"
+        },
+        "c": "https://github.com/qwenlm/qwen1.5",
+        "n": "Qwen2.5-Plus",
+        "d": "2024-12-19",
+        "m1": "77.0"
+      },
+      {
+        "p": {
+          "name": "LLaDA2.0: Scaling Up Diffusion Language Models to 100B",
+          "link": "https://arxiv.org/abs/2512.15745"
+        },
+        "c": "https://github.com/inclusionAI/LLaDA2.0",
+        "n": "LLaDA2.0-flash",
+        "d": "2025-12-10",
+        "m1": "74.87"
+      },
+      {
+        "p": {
+          "name": "LoopCoder-v2: Only Loop Once for Efficient Test-Time Computation Scaling",
+          "link": "https://arxiv.org/abs/2606.18023"
+        },
+        "c": "https://github.com/csjianyang/loopcoder",
+        "n": "LoopCoder-v2",
+        "d": "2026-06-16",
+        "m1": "73.9"
+      },
+      {
+        "p": {
+          "name": "LLaDA2.1: Speeding Up Text Diffusion via Token Editing",
+          "link": "https://arxiv.org/abs/2602.08676"
+        },
+        "c": "https://github.com/inclusionAI/LLaDA2.X",
+        "n": "LLaDA2.1-flash (100B)",
+        "d": "2026-02-09",
+        "m1": "73.34"
+      },
+      {
+        "p": {
+          "name": "Qwen2 Technical Report",
+          "link": "https://arxiv.org/abs/2407.10671v4"
+        },
+        "c": "https://github.com/qwenlm/qwen1.5",
+        "n": "Qwen2-72B-Instruct",
+        "d": "2024-07-15",
+        "m1": "69.2"
+      },
+      {
+        "p": {
+          "name": "LLaDA MoE v2: Scaling Mixture-of-Experts Diffusion Language Models",
+          "link": "https://arxiv.org/abs/2608.03457"
+        },
+        "c": "",
+        "n": "LLaDA MoE v2 Instruct",
+        "d": "2026-08-04",
+        "m1": "67.52"
+      },
+      {
+        "p": {
+          "name": "Qwen2 Technical Report",
+          "link": "https://arxiv.org/abs/2407.10671v4"
+        },
+        "c": "https://github.com/qwenlm/qwen1.5",
+        "n": "Qwen2-57B-A14B-Instruct",
+        "d": "2024-07-15",
+        "m1": "66.4"
+      },
+      {
+        "p": {
+          "name": "Qwen3 Technical Report",
+          "link": "https://arxiv.org/abs/2505.09388"
+        },
+        "c": "https://github.com/QwenLM/Qwen3",
+        "n": "Qwen3-235B-A22B (Base)",
+        "d": "2025-05-14",
+        "m1": "65.94"
+      },
+      {
+        "p": {
+          "name": "Qwen2.5-Omni Technical Report",
+          "link": "https://arxiv.org/abs/2503.20215"
+        },
+        "c": "https://github.com/QwenLM/Qwen2.5-Omni",
+        "n": "Qwen2.5-Omni-7B",
+        "d": "2025-03-26",
+        "m1": "65.8"
+      },
+      {
+        "p": {
+          "name": "Qwen2 Technical Report",
+          "link": "https://arxiv.org/abs/2407.10671v4"
+        },
+        "c": "https://github.com/qwenlm/qwen1.5",
+        "n": "Qwen2-72B",
+        "d": "2024-07-15",
+        "m1": "59.6"
+      },
+      {
+        "p": {
+          "name": "Laguna M.1/XS.2 Technical Report",
+          "link": "https://arxiv.org/abs/2605.27605"
+        },
+        "c": "https://github.com/poolsideai/pool",
+        "n": "Laguna XS.2",
+        "d": "2026-05-26",
+        "m1": "58.4"
+      },
+      {
+        "p": {
+          "name": "Qwen2 Technical Report",
+          "link": "https://arxiv.org/abs/2407.10671v4"
+        },
+        "c": "https://github.com/qwenlm/qwen1.5",
+        "n": "Qwen2-57B-A14B",
+        "d": "2024-07-15",
+        "m1": "49.8"
+      }
+    ]
+  }
+}

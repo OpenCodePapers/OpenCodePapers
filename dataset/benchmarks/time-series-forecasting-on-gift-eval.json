@@ -1,0 +1,142 @@
+{
+  "title": "time-series-forecasting-on-gift-eval",
+  "task-hierarchy": [
+    "Time Series Forecasting"
+  ],
+  "dataset-info": {
+    "link": "https://huggingface.co/spaces/Salesforce/GIFT-Eval",
+    "paper": "GIFT-Eval: A Benchmark For General Time Series Forecasting Model Evaluation"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "CRPS",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "MASE",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Timestral: Mistral's time-series foundation models",
+          "link": "https://mistral.ai/news/timestral/"
+        },
+        "c": "https://github.com/mistralai/timestral",
+        "n": "Timestral-209M (zero-shot)",
+        "d": "2026-10-15",
+        "m2": "0.6575470668013165",
+        "m1": "0.44601007037357016"
+      },
+      {
+        "p": {
+          "name": "$t_0$: A Time-Series Foundation Model for Forecasting with Context",
+          "link": "https://arxiv.org/abs/2609.24559"
+        },
+        "c": "https://github.com/theforecastingcompany/tfc-t0",
+        "n": "t0-gamma (zero-shot)",
+        "d": "2026-09-21",
+        "m2": "0.6608",
+        "m1": "0.4520"
+      },
+      {
+        "p": {
+          "name": "$t_0$: A Time-Series Foundation Model for Forecasting with Context",
+          "link": "https://arxiv.org/abs/2609.24559"
+        },
+        "c": "https://github.com/theforecastingcompany/tfc-t0",
+        "n": "t0-beta (zero-shot)",
+        "d": "2026-09-21",
+        "m2": "0.6865",
+        "m1": "0.4738"
+      },
+      {
+        "p": {
+          "name": "PathFM: Fast Generative Forecasting of Multivariate Trajectories",
+          "link": "https://arxiv.org/abs/2610.22358"
+        },
+        "c": "",
+        "n": "PathFM-300M",
+        "d": "2026-10-15",
+        "m1": "0.4818",
+        "m2": "0.7008"
+      },
+      {
+        "p": {
+          "name": "Timer-S1: A Billion-Scale Time Series Foundation Model with Serial Scaling",
+          "link": "https://arxiv.org/abs/2603.04791"
+        },
+        "c": "",
+        "n": "Timer-S1",
+        "d": "2026-03-05",
+        "m2": "0.6933502965151072",
+        "m1": "0.48529875002395845"
+      },
+      {
+        "p": {
+          "name": "Moirai 2.0: When Less Is More for Time Series Forecasting",
+          "link": "https://arxiv.org/abs/2511.11698"
+        },
+        "c": "https://github.com/salesforceairesearch/uni2ts",
+        "n": "Moirai 2.0 R-Small",
+        "d": "2025-11-12",
+        "m2": "0.7281297366552085",
+        "m1": "0.5164382312490021"
+      },
+      {
+        "p": {
+          "name": "TimeBraid: Unifying Time Series and Language for Understanding and Forecasting",
+          "link": "https://arxiv.org/abs/2609.29792"
+        },
+        "c": "https://github.com/CharonWangg/TimeBraid",
+        "n": "TimeBraid-2.5B",
+        "d": "2026-09-24",
+        "m2": "0.763",
+        "m1": "0.546"
+      },
+      {
+        "p": {
+          "name": "Kairos: Towards Adaptive and Generalizable Time Series Foundation Models",
+          "link": "https://arxiv.org/abs/2509.25826"
+        },
+        "c": "https://github.com/foundation-model-research/Kairos",
+        "n": "Kairos-50M (zero-shot)",
+        "d": "2025-09-30",
+        "m2": "0.7422276527814847",
+        "m1": "0.5482264951442222"
+      },
+      {
+        "p": {
+          "name": "Reverso: Efficient Time Series Foundation Models for Zero-shot Forecasting",
+          "link": "https://arxiv.org/abs/2602.17634"
+        },
+        "c": "",
+        "n": "Reverso-Small (zero-shot)",
+        "d": "2026-02-19",
+        "m2": "0.7263072145756775",
+        "m1": "0.6264969674270287"
+      }
+    ]
+  }
+}

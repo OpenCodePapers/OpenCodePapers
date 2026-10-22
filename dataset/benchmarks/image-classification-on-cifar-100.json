@@ -80,6 +80,36 @@
       },
       {
         "p": {
+          "name": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+          "link": "https://arxiv.org/abs/2010.11929v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Vision Transformer (ViT-H/14) (extra data)",
+        "d": "2020-10-22",
+        "m1": "94.55"
+      },
+      {
+        "p": {
+          "name": "Multimodal Autoregressive Pre-training of Large Vision Encoders",
+          "link": "https://arxiv.org/abs/2411.14402v1"
+        },
+        "c": "https://github.com/apple/ml-aim",
+        "n": "AIMv2 ViT-3B/14 448px",
+        "d": "2024-11-21",
+        "m1": "94.5"
+      },
+      {
+        "p": {
+          "name": "DINOv2: Learning Robust Visual Features without Supervision",
+          "link": "https://arxiv.org/abs/2304.07193v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "DINOv2 (ViT-g/14)",
+        "d": "2023-04-14",
+        "m1": "94.4"
+      },
+      {
+        "p": {
           "name": "ImageNet-21K Pretraining for the Masses",
           "link": "https://arxiv.org/abs/2104.10972v4"
         },
@@ -107,6 +137,16 @@
         "n": "ViT-B/16 (PUGD)",
         "d": "2021-10-01",
         "m1": "93.95"
+      },
+      {
+        "p": {
+          "name": "PolyViT: Co-training Vision Transformers on Images, Videos and Audio",
+          "link": "https://arxiv.org/abs/2111.12993"
+        },
+        "c": "",
+        "n": "PolyViT-L",
+        "d": "2021-11-25",
+        "m1": "93.9"
       },
       {
         "p": {
@@ -141,6 +181,16 @@
       },
       {
         "p": {
+          "name": "ReFTA: Breaking the Weight Reconstruction Bottleneck in Tensorized Parameter-Efficient Fine-Tuning",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Zheng_ReFTA_Breaking_the_Weight_Reconstruction_Bottleneck_in_Tensorized_Parameter-Efficient_Fine-Tuning_CVPR_2026_paper.html"
+        },
+        "c": "https://github.com/jzheng20/refta",
+        "n": "ReFTA (ViT-Large)",
+        "d": "2026-06-03",
+        "m1": "93.26"
+      },
+      {
+        "p": {
           "name": "Going deeper with Image Transformers",
           "link": "https://arxiv.org/abs/2103.17239v2"
         },
@@ -148,6 +198,16 @@
         "n": "CaiT-M-36 U 224",
         "d": "2021-03-31",
         "m1": "93.1"
+      },
+      {
+        "p": {
+          "name": "Efficient Stitchable Task Adaptation",
+          "link": "https://arxiv.org/abs/2311.17352"
+        },
+        "c": "https://github.com/ziplab/stitched_llama",
+        "n": "ESTA",
+        "d": "2023-11-29",
+        "m1": "93.08"
       },
       {
         "p": {
@@ -168,6 +228,16 @@
         "n": "TResNet-L-V2",
         "d": "2020-03-30",
         "m1": "92.6"
+      },
+      {
+        "p": {
+          "name": "Sheared Backpropagation for Fine-tuning Foundation Models",
+          "link": "https://openaccess.thecvf.com/content/CVPR2024/html/Yu_Sheared_Backpropagation_for_Fine-tuning_Foundation_Models_CVPR_2024_paper.html"
+        },
+        "c": "",
+        "n": "PREBR++JS@70%",
+        "d": "2024-06-17",
+        "m1": "92.4"
       },
       {
         "p": {
@@ -201,6 +271,26 @@
       },
       {
         "p": {
+          "name": "Multi-label Cluster Discrimination for Visual Representation Learning",
+          "link": "https://arxiv.org/abs/2407.17331v2"
+        },
+        "c": "https://github.com/deepglint/unicom",
+        "n": "MLCD ViT-L/14 (linear probe)",
+        "d": "2024-07-24",
+        "m1": "92.0"
+      },
+      {
+        "p": {
+          "name": "Star with Bilinear Mapping",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Peng_Star_with_Bilinear_Mapping_CVPR_2025_paper.html"
+        },
+        "c": "https://github.com/sjtu-deepvisionlab/sbm",
+        "n": "SBM-B",
+        "d": "2025-06-11",
+        "m1": "91.9"
+      },
+      {
+        "p": {
           "name": "Incorporating Convolution Designs into Visual Transformers",
           "link": "https://arxiv.org/abs/2103.11816v2"
         },
@@ -217,6 +307,26 @@
         "c": "https://github.com/rishikksh20/CeiT-pytorch",
         "n": "CeiT-S (384 finetune resolution)",
         "d": "2021-03-22",
+        "m1": "91.8"
+      },
+      {
+        "p": {
+          "name": "BEiT: BERT Pre-Training of Image Transformers",
+          "link": "https://arxiv.org/abs/2106.08254v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "BEiT (extra data)",
+        "d": "2021-06-15",
+        "m1": "91.8"
+      },
+      {
+        "p": {
+          "name": "Scalable Pre-training of Large Autoregressive Image Models",
+          "link": "https://arxiv.org/abs/2401.08541v1"
+        },
+        "c": "https://github.com/lightly-ai/lightly",
+        "n": "AIM-7B (layer 20)",
+        "d": "2024-01-16",
         "m1": "91.8"
       },
       {
@@ -242,6 +352,16 @@
       },
       {
         "p": {
+          "name": "Stabilizing Feature Geometry in Noisy Pretrained Models for Robust Downstream Tasks",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_Stabilizing_Feature_Geometry_in_Noisy_Pretrained_Models_for_Robust_Downstream_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "FGS (Swin-L, ImageNet-21K)",
+        "d": "2026-06-03",
+        "m1": "91.48"
+      },
+      {
+        "p": {
           "name": "GPipe: Efficient Training of Giant Neural Networks using Pipeline Parallelism",
           "link": "https://arxiv.org/abs/1811.06965v5"
         },
@@ -249,6 +369,16 @@
         "n": "GPIPE",
         "d": "2018-11-16",
         "m1": "91.3"
+      },
+      {
+        "p": {
+          "name": "AdapterTune: Zero-Initialized Low-Rank Adapters for Frozen Vision Transformers",
+          "link": "https://arxiv.org/abs/2603.14706"
+        },
+        "c": "https://github.com/salimkhazem/adaptertune",
+        "n": "AdapterTune (ViT-B/16)",
+        "d": "2026-03-16",
+        "m1": "91.2"
       },
       {
         "p": {
@@ -273,6 +403,16 @@
       },
       {
         "p": {
+          "name": "Pay Attention to Attention Distribution: A New Local Lipschitz Bound for Transformers",
+          "link": "https://arxiv.org/abs/2507.07814"
+        },
+        "c": "",
+        "n": "JaSMin (ViT-B, k=10, lambda=1e-3, max)",
+        "d": "2025-07-10",
+        "m1": "90.94"
+      },
+      {
+        "p": {
           "name": "Training data-efficient image transformers & distillation through attention",
           "link": "https://arxiv.org/abs/2012.12877v2"
         },
@@ -281,6 +421,56 @@
         "d": "2020-12-23",
         "m1": "90.8",
         "m2": "86M"
+      },
+      {
+        "p": {
+          "name": "ViTAEv2: Vision Transformer Advanced by Exploring Inductive Bias for Image Recognition and Beyond",
+          "link": "https://arxiv.org/abs/2202.10108v2"
+        },
+        "c": "https://github.com/ViTAE-Transformer/ViTDet",
+        "n": "ViTAE-S",
+        "d": "2022-02-21",
+        "m1": "90.8"
+      },
+      {
+        "p": {
+          "name": "Edge-RecViT: Efficient Vision Transformer via Semantic-Refined Dynamic Recursion",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Li_Edge-RecViT_Efficient_Vision_Transformer_via_Semantic-Refined_Dynamic_Recursion_CVPR_2026_paper.html"
+        },
+        "c": "https://github.com/ricardolee510520/edge-recvit",
+        "n": "Edge-RecViT (Base)",
+        "d": "2026-06-03",
+        "m1": "90.78"
+      },
+      {
+        "p": {
+          "name": "Going Deep: Deep Visual Prompting with LoTeP",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/5386"
+        },
+        "c": "",
+        "n": "LoTeP-CP",
+        "d": "2026-09-08",
+        "m1": "90.57"
+      },
+      {
+        "p": {
+          "name": "Masked Siamese Networks for Label-Efficient Learning",
+          "link": "https://arxiv.org/abs/2204.07141v1"
+        },
+        "c": "https://github.com/lightly-ai/lightly",
+        "n": "MSN ViT-B/16",
+        "d": "2022-04-14",
+        "m1": "90.5"
+      },
+      {
+        "p": {
+          "name": "A General and Efficient Training for Transformer via Token Expansion",
+          "link": "https://arxiv.org/abs/2404.00672"
+        },
+        "c": "https://github.com/osilly/tokenexpansion",
+        "n": "DeiT Small + ToE",
+        "d": "2024-03-31",
+        "m1": "90.37"
       },
       {
         "p": {
@@ -325,6 +515,16 @@
       },
       {
         "p": {
+          "name": "Sample- and Parameter-Efficient Auto-Regressive Image Models",
+          "link": "https://arxiv.org/abs/2411.15648"
+        },
+        "c": "https://github.com/elad-amrani/xtra",
+        "n": "XTRA-H (ViT-H/14) (extra data)",
+        "d": "2024-11-23",
+        "m1": "90.0"
+      },
+      {
+        "p": {
           "name": "ASAM: Adaptive Sharpness-Aware Minimization for Scale-Invariant Learning of Deep Neural Networks",
           "link": "https://arxiv.org/abs/2102.11600v3"
         },
@@ -365,6 +565,36 @@
       },
       {
         "p": {
+          "name": "Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture",
+          "link": "https://arxiv.org/abs/2301.08243"
+        },
+        "c": "https://github.com/facebookresearch/ijepa",
+        "n": "I-JEPA ViT-G/16",
+        "d": "2023-01-19",
+        "m1": "89.5"
+      },
+      {
+        "p": {
+          "name": "DnA: Denoising Attention for Visual Tasks",
+          "link": "https://arxiv.org/abs/2606.27372"
+        },
+        "c": "https://github.com/rjccv/dna",
+        "n": "DnA (ViT-B)",
+        "d": "2026-06-25",
+        "m1": "89.5"
+      },
+      {
+        "p": {
+          "name": "Friendly Sharpness-Aware Minimization",
+          "link": "https://arxiv.org/abs/2403.12350"
+        },
+        "c": "https://github.com/nblt/f-sam",
+        "n": "F-SAM",
+        "d": "2024-03-19",
+        "m1": "89.49"
+      },
+      {
+        "p": {
           "name": "Towards Better Accuracy-efficiency Trade-offs: Divide and Co-training",
           "link": "https://arxiv.org/abs/2011.14660v4"
         },
@@ -396,6 +626,16 @@
       },
       {
         "p": {
+          "name": "Align Once to Explain: Feature Alignment for Scalable B-cosification of Foundational Vision Transformers",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Maser_Align_Once_to_Explain_Feature_Alignment_for_Scalable_B-cosification_of_CVPR_2026_paper.html"
+        },
+        "c": "https://github.com/rmaser/aloe",
+        "n": "ALOE DINOv3 ViT-B/16",
+        "d": "2026-06-03",
+        "m1": "89.14"
+      },
+      {
+        "p": {
           "name": "When Vision Transformers Outperform ResNets without Pre-training or Strong Data Augmentations",
           "link": "https://arxiv.org/abs/2106.01548v3"
         },
@@ -412,6 +652,16 @@
         "c": "https://github.com/BR-IDL/PaddleViT/tree/develop/image_classification",
         "n": "ConvMLP-M",
         "d": "2021-09-09",
+        "m1": "89.1"
+      },
+      {
+        "p": {
+          "name": "LoKi: Low-dimensional KAN for Efficient Fine-tuning Image Models",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Cai_LoKi_Low-dimensional_KAN_for_Efficient_Fine-tuning_Image_Models_CVPR_2025_paper.html"
+        },
+        "c": "",
+        "n": "LoKi",
+        "d": "2025-06-11",
         "m1": "89.1"
       },
       {
@@ -436,6 +686,16 @@
       },
       {
         "p": {
+          "name": "Generative Pretraining from Pixels",
+          "link": "https://openai.com/blog/image-gpt/"
+        },
+        "c": "https://github.com/openai/image-gpt",
+        "n": "iGPT-L",
+        "d": "2020-07-17",
+        "m1": "88.5"
+      },
+      {
+        "p": {
           "name": "ColorNet: Investigating the importance of color spaces for image classification",
           "link": "http://arxiv.org/abs/1902.00267v1"
         },
@@ -444,6 +704,16 @@
         "d": "2019-02-01",
         "m1": "88.4",
         "m2": "19.0M"
+      },
+      {
+        "p": {
+          "name": "Mamba-Adaptor: State Space Model Adaptor for Visual Recognition",
+          "link": "https://arxiv.org/abs/2505.12685"
+        },
+        "c": "",
+        "n": "Mamba-Adaptor (VMamba-B)",
+        "d": "2025-05-19",
+        "m1": "88.34"
       },
       {
         "p": {
@@ -465,6 +735,26 @@
         "d": "2020-05-12",
         "m1": "88.3",
         "m2": "9.0M"
+      },
+      {
+        "p": {
+          "name": "Learning from Itself: Mining Internal Knowledge from Vision Language Models for Continual Learning",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Gong_Learning_from_Itself_Mining_Internal_Knowledge_from_Vision_Language_Models_CVPR_2026_paper.html"
+        },
+        "c": "https://github.com/jordangong/continual-learning",
+        "n": "LfI (OpenCLIP ViT-L/14, LAION-400M) (extra data)",
+        "d": "2026-06-03",
+        "m1": "88.12"
+      },
+      {
+        "p": {
+          "name": "GliaNet: Adaptive Neural Network Structure Learning with Glia-Driven",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Han_GliaNet_Adaptive_Neural_Network_Structure_Learning_with_Glia-Driven_CVPR_2025_paper.html"
+        },
+        "c": "",
+        "n": "GliaNet (ViT-B)",
+        "d": "2025-06-11",
+        "m1": "88.05"
       },
       {
         "p": {
@@ -510,6 +800,16 @@
       },
       {
         "p": {
+          "name": "Dense Vision Transformer Compression with Few Samples",
+          "link": "https://arxiv.org/abs/2403.18708"
+        },
+        "c": "",
+        "n": "DC-ViT-B (extra data)",
+        "d": "2024-03-27",
+        "m1": "87.5"
+      },
+      {
+        "p": {
           "name": "PSO-Convolutional Neural Networks with Heterogeneous Learning Rate",
           "link": "https://arxiv.org/abs/2205.10456v3"
         },
@@ -538,6 +838,16 @@
         "n": "ConvMLP-S",
         "d": "2021-09-09",
         "m1": "87.4"
+      },
+      {
+        "p": {
+          "name": "Progressive Neural Architecture Generation",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Yu_Progressive_Neural_Architecture_Generation_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "PNAG",
+        "d": "2026-06-03",
+        "m1": "87.2"
       },
       {
         "p": {
@@ -654,6 +964,16 @@
       },
       {
         "p": {
+          "name": "SpikingResformer: Bridging ResNet and Vision Transformer in Spiking Neural Networks",
+          "link": "https://arxiv.org/abs/2403.14302"
+        },
+        "c": "https://github.com/xyshi2000/spikingresformer",
+        "n": "SpikingResformer-S",
+        "d": "2024-03-21",
+        "m1": "85.98"
+      },
+      {
+        "p": {
           "name": "MixMo: Mixing Multiple Inputs for Multiple Outputs via Deep Subnetworks",
           "link": "https://arxiv.org/abs/2103.06132v3"
         },
@@ -673,11 +993,31 @@
         "m1": "85.74"
       },
       {
+        "p": {
+          "name": "MULTIFLOW: Shifting Towards Task-Agnostic Vision-Language Pruning",
+          "link": "https://arxiv.org/abs/2404.05621"
+        },
+        "c": "https://github.com/farinamatteo/multiflow",
+        "n": "MULTIFLOW (DINO_B/16, 63% sparsity) (extra data)",
+        "d": "2024-04-08",
+        "m1": "85.6"
+      },
+      {
         "p": "",
         "c": "",
         "n": "WRN-28-8 (SAMix+DM)",
         "d": "",
         "m1": "85.59"
+      },
+      {
+        "p": {
+          "name": "Closest Neighbors are Harmful for Lightweight Masked Auto-encoders",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Meng_Closest_Neighbors_are_Harmful_for_Lightweight_Masked_Auto-encoders_CVPR_2025_paper.html"
+        },
+        "c": "https://github.com/seolabcornell/nor-mae",
+        "n": "NoR-MAE (ViT-Small)",
+        "d": "2025-06-11",
+        "m1": "85.57"
       },
       {
         "p": {
@@ -698,6 +1038,16 @@
         "n": "ASANas",
         "d": "2019-03-14",
         "m1": "85.42"
+      },
+      {
+        "p": {
+          "name": "$λ$-JEPA Spectral Anti-Collapse Regularization for Self-Supervised Learning",
+          "link": "https://arxiv.org/abs/2609.35288"
+        },
+        "c": "https://github.com/berkerdemirel/lambda-jepa",
+        "n": "λ-JEPA ViT-B/16 (linear probe)",
+        "d": "2026-09-28",
+        "m1": "85.4"
       },
       {
         "p": "",
@@ -773,6 +1123,16 @@
         "n": "WRN 28-14",
         "d": "2020-07-25",
         "m1": "85.00"
+      },
+      {
+        "p": {
+          "name": "ViTAE: Vision Transformer Advanced by Exploring Intrinsic Inductive Bias",
+          "link": "https://arxiv.org/abs/2106.03348v4"
+        },
+        "c": "https://github.com/ViTAE-Transformer/ViTAE-Transformer",
+        "n": "ViTAE-T",
+        "d": "2021-06-07",
+        "m1": "85.0"
       },
       {
         "p": {
@@ -877,6 +1237,16 @@
       },
       {
         "p": {
+          "name": "Random Entangled Tokens for Adversarially Robust Vision Transformer",
+          "link": "https://openaccess.thecvf.com/content/CVPR2024/html/Gong_Random_Entangled_Tokens_for_Adversarially_Robust_Vision_Transformer_CVPR_2024_paper.html"
+        },
+        "c": "",
+        "n": "ReiT (ViT-S, NAT)",
+        "d": "2024-06-17",
+        "m1": "84.02"
+      },
+      {
+        "p": {
           "name": "Expeditious Saliency-guided Mix-up through Random Gradient Thresholding",
           "link": "https://arxiv.org/abs/2212.04875v3"
         },
@@ -924,6 +1294,16 @@
         "n": "ResNeXt-50(32x4d) + AutoMix",
         "d": "2021-03-24",
         "m1": "83.64"
+      },
+      {
+        "p": {
+          "name": "Pre-training Vision Models with Mandelbulb Variations",
+          "link": "https://openaccess.thecvf.com/content/CVPR2024/html/Chiche_Pre-training_Vision_Models_with_Mandelbulb_Variations_CVPR_2024_paper.html"
+        },
+        "c": "https://github.com/ristoranterist/mandelbulbvariationsgenerator",
+        "n": "ViT-B (MandelbulbVAR-Hybrid-21k)",
+        "d": "2024-06-17",
+        "m1": "83.6"
       },
       {
         "p": {
@@ -998,6 +1378,16 @@
       },
       {
         "p": {
+          "name": "Your Image is My Video: Reshaping the Receptive Field via Image-To-Video Differentiable AutoAugmentation and Fusion",
+          "link": "https://arxiv.org/abs/2403.15194"
+        },
+        "c": "",
+        "n": "DAS (WideResNet-28-2)",
+        "d": "2024-03-22",
+        "m1": "83.06"
+      },
+      {
+        "p": {
           "name": "Expeditious Saliency-guided Mix-up through Random Gradient Thresholding",
           "link": "https://arxiv.org/abs/2212.04875v3"
         },
@@ -1035,6 +1425,16 @@
         "n": "DenseNet-BC",
         "d": "2016-08-25",
         "m1": "82.82"
+      },
+      {
+        "p": {
+          "name": "Masked Siamese Networks for Label-Efficient Learning",
+          "link": "https://arxiv.org/abs/2204.07141v1"
+        },
+        "c": "https://github.com/lightly-ai/lightly",
+        "n": "MSN ViT-B/16 (linear probe)",
+        "d": "2022-04-14",
+        "m1": "82.8"
       },
       {
         "p": {
@@ -1148,6 +1548,16 @@
       },
       {
         "p": {
+          "name": "Locality-Attending Vision Transformer",
+          "link": "https://arxiv.org/abs/2603.04892"
+        },
+        "c": "https://github.com/sinahmr/LocAtViT",
+        "n": "LocAtViT (Base)",
+        "d": "2026-03-05",
+        "m1": "82.2"
+      },
+      {
+        "p": {
           "name": "Attend and Rectify: a Gated Attention Mechanism for Fine-Grained Recovery",
           "link": "http://arxiv.org/abs/1807.07320v2"
         },
@@ -1175,6 +1585,26 @@
         "n": "WRN+SWA",
         "d": "2018-03-14",
         "m1": "82.15"
+      },
+      {
+        "p": {
+          "name": "Self-Supervised Representation Learning from Arbitrary Scenarios",
+          "link": "https://openaccess.thecvf.com/content/CVPR2024/html/Li_Self-Supervised_Representation_Learning_from_Arbitrary_Scenarios_CVPR_2024_paper.html"
+        },
+        "c": "",
+        "n": "ASL (ViT-S, fine-tuning)",
+        "d": "2024-06-17",
+        "m1": "82.1"
+      },
+      {
+        "p": {
+          "name": "STAA-SNN: Spatial-Temporal Attention Aggregator for Spiking Neural Networks",
+          "link": "https://arxiv.org/abs/2503.02689"
+        },
+        "c": "",
+        "n": "STAA-SNN (ResNet-19, T=4)",
+        "d": "2025-03-04",
+        "m1": "82.05"
       },
       {
         "p": {
@@ -1279,6 +1709,16 @@
       },
       {
         "p": {
+          "name": "Improving Generalization via Meta-Learning on Hard Samples",
+          "link": "https://arxiv.org/abs/2403.12236"
+        },
+        "c": "",
+        "n": "LRWOpt",
+        "d": "2024-03-18",
+        "m1": "81.42"
+      },
+      {
+        "p": {
           "name": "Automatic Data Augmentation via Invariance-Constrained Learning",
           "link": "https://arxiv.org/abs/2209.15031v2"
         },
@@ -1299,6 +1739,16 @@
       },
       {
         "p": {
+          "name": "Caption Bottleneck Models",
+          "link": "https://arxiv.org/abs/2607.00578"
+        },
+        "c": "https://github.com/bariscagliyan/captionbottleneckmodels",
+        "n": "CaBM",
+        "d": "2026-07-01",
+        "m1": "81.14"
+      },
+      {
+        "p": {
           "name": "Deep Competitive Pathway Networks",
           "link": "http://arxiv.org/abs/1709.10282v1"
         },
@@ -1306,6 +1756,16 @@
         "n": "CoPaNet-R-164",
         "d": "2017-09-29",
         "m1": "81.10"
+      },
+      {
+        "p": {
+          "name": "Rethinking Spiking Self-Attention Mechanism: Implementing a-XNOR Similarity Calculation in Spiking Transformers",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Xiao_Rethinking_Spiking_Self-Attention_Mechanism_Implementing_a-XNOR_Similarity_Calculation_in_Spiking_CVPR_2025_paper.html"
+        },
+        "c": "",
+        "n": "M-ViT + α-SSA (α=0.3)",
+        "d": "2025-06-11",
+        "m1": "81.08"
       },
       {
         "p": {
@@ -1319,6 +1779,16 @@
       },
       {
         "p": {
+          "name": "Training-Adaptive Convolutional Sparse Coding via Information Bottleneck for Robust Visual Representation",
+          "link": "https://arxiv.org/abs/2609.19122"
+        },
+        "c": "https://github.com/mason-ching/TA-CSC",
+        "n": "TA-CSC-18 all",
+        "d": "2026-09-17",
+        "m1": "80.76"
+      },
+      {
+        "p": {
           "name": "Expeditious Saliency-guided Mix-up through Random Gradient Thresholding",
           "link": "https://arxiv.org/abs/2212.04875v3"
         },
@@ -1326,6 +1796,16 @@
         "n": "RL-Mix (PreActResNet-18)",
         "d": "2022-12-09",
         "m1": "80.75"
+      },
+      {
+        "p": {
+          "name": "Intrinsically Stable Spiking Neural Networks: Overcoming the Performance Barrier in the Absence of Batch Normalization",
+          "link": "https://arxiv.org/abs/2606.31695"
+        },
+        "c": "",
+        "n": "IS-SNN SEW-ResNet-19 (T=6, strong augmentation)",
+        "d": "2026-06-30",
+        "m1": "80.72"
       },
       {
         "p": {
@@ -1379,6 +1859,16 @@
       },
       {
         "p": {
+          "name": "Prune Once: Retraining-Free Task-Agnostic Pruning for Vision-Language Models",
+          "link": "https://arxiv.org/abs/2608.06901"
+        },
+        "c": "https://github.com/cau-hai-lab/porta",
+        "n": "PORTA (OpenAI CLIP-ViT-bigG, 55% sparsity)",
+        "d": "2026-08-07",
+        "m1": "80.27"
+      },
+      {
+        "p": {
           "name": "SageMix: Saliency-Guided Mixup for Point Clouds",
           "link": "https://arxiv.org/abs/2210.06944v1"
         },
@@ -1419,6 +1909,16 @@
       },
       {
         "p": {
+          "name": "Improving Accuracy and Calibration via Differentiated Deep Mutual Learning",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Liu_Improving_Accuracy_and_Calibration_via_Differentiated_Deep_Mutual_Learning_CVPR_2025_paper.html"
+        },
+        "c": "",
+        "n": "Diff-DML-2 (ResNet50)",
+        "d": "2025-06-11",
+        "m1": "79.3"
+      },
+      {
+        "p": {
           "name": "With a Little Help from My Friends: Nearest-Neighbor Contrastive Learning of Visual Representations",
           "link": "https://arxiv.org/abs/2104.14548v2"
         },
@@ -1436,6 +1936,16 @@
         "n": "ABNet-2G-R1",
         "d": "2024-11-28",
         "m1": "78.792"
+      },
+      {
+        "p": {
+          "name": "Auto-Train-Once: Controller Network Guided Automatic Network Pruning from Scratch",
+          "link": "https://arxiv.org/abs/2403.14729"
+        },
+        "c": "https://github.com/xidongwu/autotrainonce",
+        "n": "Auto-Train-Once (ATO)",
+        "d": "2024-03-21",
+        "m1": "78.54"
       },
       {
         "p": {
@@ -1459,6 +1969,26 @@
       },
       {
         "p": {
+          "name": "RepAn: Enhanced Annealing through Re-parameterization",
+          "link": "https://openaccess.thecvf.com/content/CVPR2024/html/Fei_RepAn_Enhanced_Annealing_through_Re-parameterization_CVPR_2024_paper.html"
+        },
+        "c": "https://github.com/xfey/repan",
+        "n": "RepAn (ResNet-18, ACNet)",
+        "d": "2024-06-17",
+        "m1": "78.37"
+      },
+      {
+        "p": {
+          "name": "Fourier or Wavelet bases as counterpart self-attention in spikformer for efficient visual classification",
+          "link": "https://arxiv.org/abs/2403.18228"
+        },
+        "c": "",
+        "n": "FWformer-4-384 (2D-FFT, MS)",
+        "d": "2024-03-27",
+        "m1": "78.3"
+      },
+      {
+        "p": {
           "name": "Pre-training of Lightweight Vision Transformers on Small Datasets with Minimally Scaled Images",
           "link": "https://arxiv.org/abs/2402.03752v1"
         },
@@ -1467,6 +1997,26 @@
         "d": "2024-02-06",
         "m1": "78.27",
         "m2": "3.64M"
+      },
+      {
+        "p": {
+          "name": "Hyperbolic Busemann Neural Networks",
+          "link": "https://arxiv.org/abs/2602.18858"
+        },
+        "c": "https://github.com/gitzh-chen/hbnn",
+        "n": "BMLR-P",
+        "d": "2026-02-21",
+        "m1": "78.1"
+      },
+      {
+        "p": {
+          "name": "Exploring the Transferability of Visual Prompting for Multimodal Large Language Models",
+          "link": "https://arxiv.org/abs/2404.11207"
+        },
+        "c": "https://github.com/zyccheihehei/transferable-visual-prompting",
+        "n": "TVP (ours)",
+        "d": "2024-04-17",
+        "m1": "77.92"
       },
       {
         "p": {
@@ -1487,6 +2037,16 @@
         "n": "MobileNetV3-large x1.0 (BSConv-U)",
         "d": "2020-03-30",
         "m1": "77.7"
+      },
+      {
+        "p": {
+          "name": "FLAVA: A Foundational Language And Vision Alignment Model",
+          "link": "https://arxiv.org/abs/2112.04482v3"
+        },
+        "c": "https://github.com/facebookresearch/multimodal",
+        "n": "FLAVA",
+        "d": "2021-12-08",
+        "m1": "77.68"
       },
       {
         "p": {
@@ -1551,6 +2111,16 @@
       },
       {
         "p": {
+          "name": "SQS: Bayesian DNN Compression through Sparse Quantized Sub-distributions",
+          "link": "https://arxiv.org/abs/2510.08999"
+        },
+        "c": "https://github.com/comeusr/SQS_TMLR",
+        "n": "SQS (ResNet-18,4bit,50%nonzero,M=50)",
+        "d": "2026-09-07",
+        "m1": "76.63"
+      },
+      {
+        "p": {
           "name": "Non-convex Learning via Replica Exchange Stochastic Gradient MCMC",
           "link": "https://arxiv.org/abs/2008.05367v3"
         },
@@ -1568,6 +2138,36 @@
         "n": "MomentumNet",
         "d": "2021-02-15",
         "m1": "76.38"
+      },
+      {
+        "p": {
+          "name": "Dynamic Group Normalization: Spatio-Temporal Adaptation to Evolving Data Statistics",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Smadar_Dynamic_Group_Normalization_Spatio-Temporal_Adaptation_to_Evolving_Data_Statistics_CVPR_2025_paper.html"
+        },
+        "c": "",
+        "n": "Dynamic Group Normalization (DGN)",
+        "d": "2025-06-11",
+        "m1": "76.12"
+      },
+      {
+        "p": {
+          "name": "Steganographic Passport: An Owner and User Verifiable Credential for Deep Model IP Protection Without Retraining",
+          "link": "https://arxiv.org/abs/2404.02889"
+        },
+        "c": "",
+        "n": "Steganographic Passport (ResNet-18, BN)",
+        "d": "2024-04-03",
+        "m1": "76.1"
+      },
+      {
+        "p": {
+          "name": "LANCE: Low Rank Activation Compression for Efficient On-Device Continual Learning",
+          "link": "https://arxiv.org/abs/2509.21617"
+        },
+        "c": "https://github.com/mapolinario94/lance",
+        "n": "LANCE (ResNet34, 4 layers)",
+        "d": "2025-09-25",
+        "m1": "75.94"
       },
       {
         "p": {
@@ -1608,6 +2208,26 @@
         "n": "Stochastic Depth",
         "d": "2016-03-30",
         "m1": "75.42"
+      },
+      {
+        "p": {
+          "name": "Boosting Order-Preserving and Transferability for Neural Architecture Search: a Joint Architecture Refined Search and Fine-tuning Approach",
+          "link": "https://arxiv.org/abs/2403.11380"
+        },
+        "c": "https://github.com/beichenzbc/supernet-shifting",
+        "n": "Supernet Shifting",
+        "d": "2024-03-18",
+        "m1": "75.38"
+      },
+      {
+        "p": {
+          "name": "JointSQ: Joint Sparsification-Quantization for Distributed Learning",
+          "link": "https://openaccess.thecvf.com/content/CVPR2024/html/Xie_JointSQ_Joint_Sparsification-Quantization_for_Distributed_Learning_CVPR_2024_paper.html"
+        },
+        "c": "",
+        "n": "JointSQ",
+        "d": "2024-06-17",
+        "m1": "75.04"
       },
       {
         "p": {
@@ -1682,6 +2302,16 @@
       },
       {
         "p": {
+          "name": "Flexible Group Count Enables Hassle-Free Structured Pruning",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhang_Flexible_Group_Count_Enables_Hassle-Free_Structured_Pruning_CVPR_2025_paper.html"
+        },
+        "c": "",
+        "n": "LeanFlex-GKP (ResNet110, PR=43.75%)",
+        "d": "2025-06-11",
+        "m1": "73.63"
+      },
+      {
+        "p": {
           "name": "Fractional Max-Pooling",
           "link": "http://arxiv.org/abs/1412.6071v4"
         },
@@ -1702,6 +2332,16 @@
       },
       {
         "p": {
+          "name": "Drainage: A Unifying Framework for Addressing Class Uncertainty",
+          "link": "https://arxiv.org/abs/2512.03182"
+        },
+        "c": "https://github.com/zki-ph-imageanalysis/drainage",
+        "n": "Drainage",
+        "d": "2025-12-02",
+        "m1": "73.31"
+      },
+      {
+        "p": {
           "name": "PDO-eConvs: Partial Differential Operator Based Equivariant Convolutions",
           "link": "https://arxiv.org/abs/2007.10408v2"
         },
@@ -1709,6 +2349,16 @@
         "n": "PDO-eConv (p6m,0.37M)",
         "d": "2020-07-20",
         "m1": "73"
+      },
+      {
+        "p": {
+          "name": "Not All Objectives Are Born Equal: Priority-Constrained Descent for Hierarchical Multi-Objective Optimization",
+          "link": "https://arxiv.org/abs/2606.29521"
+        },
+        "c": "https://github.com/DaraVaram/priority-constrained-descent",
+        "n": "Priority-Constrained Descent (PCD)",
+        "d": "2026-09-21",
+        "m1": "73.0"
       },
       {
         "p": {
@@ -1730,6 +2380,26 @@
         "n": "PDO-eConv (p6,0.36M)",
         "d": "2020-07-20",
         "m1": "72.87"
+      },
+      {
+        "p": {
+          "name": "SIMPLER: Efficient Foundation Model Adaptation via Similarity-Guided Layer Pruning for Earth Observation",
+          "link": "https://arxiv.org/abs/2603.19873"
+        },
+        "c": "",
+        "n": "SIMPLER (ViT-MAE, ImageNet-pretrained) (extra data)",
+        "d": "2026-03-20",
+        "m1": "72.8"
+      },
+      {
+        "p": {
+          "name": "Population Normalization for Federated Learning",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Wang_Population_Normalization_for_Federated_Learning_CVPR_2025_paper.html"
+        },
+        "c": "",
+        "n": "Noisy Population Normalization (NPN)",
+        "d": "2025-06-11",
+        "m1": "72.74"
       },
       {
         "p": {
@@ -1824,6 +2494,36 @@
       },
       {
         "p": {
+          "name": "AZ-NAS: Assembling Zero-Cost Proxies for Network Architecture Search",
+          "link": "https://arxiv.org/abs/2403.19232"
+        },
+        "c": "https://github.com/cvlab-yonsei/az-nas",
+        "n": "AZ-NAS",
+        "d": "2024-03-28",
+        "m1": "70.75"
+      },
+      {
+        "p": {
+          "name": "OrthCaps: An Orthogonal CapsNet with Sparse Attention Routing and Pruning",
+          "link": "https://arxiv.org/abs/2403.13351"
+        },
+        "c": "",
+        "n": "OrthCaps-D",
+        "d": "2024-03-20",
+        "m1": "70.56"
+      },
+      {
+        "p": {
+          "name": "A Few Gaussians Is All You Need: SSOG-Attention That Steers Instead of Scores",
+          "link": "https://pisoni.ai/posts/ssog/"
+        },
+        "c": "https://github.com/4rtemi5/ssog",
+        "n": "SSOG factorized +μδ",
+        "d": "2026-08-15",
+        "m1": "70.4"
+      },
+      {
+        "p": {
           "name": "WaveMix: A Resource-efficient Neural Network for Image Analysis",
           "link": "https://arxiv.org/abs/2205.14375v5"
         },
@@ -1854,6 +2554,16 @@
       },
       {
         "p": {
+          "name": "Dynamic Sparse Attention and Mixture-of-Experts for Iterative Visual Classification",
+          "link": "https://www.researchsquare.com/article/rs-10571274/v1"
+        },
+        "c": "",
+        "n": "DSA-MoE",
+        "d": "2026-08-02",
+        "m1": "69.2"
+      },
+      {
+        "p": {
           "name": "Stacked What-Where Auto-encoders",
           "link": "http://arxiv.org/abs/1506.02351v8"
         },
@@ -1871,6 +2581,16 @@
         "n": "NiN+Superclass+CDJ",
         "d": "2017-06-06",
         "m1": "69"
+      },
+      {
+        "p": {
+          "name": "Fourier-basis Functions to Bridge Augmentation Gap: Rethinking Frequency Augmentation in Image Classification",
+          "link": "https://arxiv.org/abs/2403.01944"
+        },
+        "c": "https://github.com/nis-research/afa-augment",
+        "n": "CCT + PRIME + AFA",
+        "d": "2024-03-04",
+        "m1": "68.48"
       },
       {
         "p": {
@@ -1924,6 +2644,16 @@
       },
       {
         "p": {
+          "name": "Selection-as-Nonlinearity: Bridging Attention and Activation via a Joint Game-Decision Lens for Interpretable, Discriminative Visual Representations",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Cai_Selection-as-Nonlinearity_Bridging_Attention_and_Activation_via_a_Joint_Game-Decision_Lens_CVPR_2026_paper.html"
+        },
+        "c": "https://github.com/sudongcai/csan",
+        "n": "Swin-CSaN (CIFAR-Swin-Tiny)",
+        "d": "2026-06-03",
+        "m1": "67.6"
+      },
+      {
+        "p": {
           "name": "HD-CNN: Hierarchical Deep Convolutional Neural Network for Large Scale Visual Recognition",
           "link": "http://arxiv.org/abs/1410.0736v4"
         },
@@ -1971,6 +2701,16 @@
         "n": "ACN",
         "d": "2014-12-21",
         "m1": "66.3"
+      },
+      {
+        "p": {
+          "name": "Hyperspherical Classification with Dynamic Label-to-Prototype Assignment",
+          "link": "https://arxiv.org/abs/2403.16937"
+        },
+        "c": "https://github.com/msed-ebrahimi/dl2pa_cvpr24",
+        "n": "DL2PA (ResNet-32, d=50)",
+        "d": "2024-03-25",
+        "m1": "66.22"
       },
       {
         "p": {

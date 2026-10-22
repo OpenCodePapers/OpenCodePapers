@@ -1,0 +1,217 @@
+{
+  "title": "monocular-depth-estimation-on-nyuv2-relative",
+  "task-hierarchy": [
+    "Depth Estimation",
+    "Monocular Depth Estimation"
+  ],
+  "dataset-info": {
+    "link": "https://cs.nyu.edu/~fergus/datasets/nyu_depth_v2.html",
+    "paper": "Indoor Segmentation and Support Inference from RGBD Images"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "delta1",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "AbsRel",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Depth Anything: Unleashing the Power of Large-Scale Unlabeled Data",
+          "link": "https://arxiv.org/abs/2401.10891v2"
+        },
+        "c": "https://github.com/LiheYoung/Depth-Anything",
+        "n": "Depth Anything (ViT-L)",
+        "d": "2024-01-19",
+        "m2": "0.043",
+        "m1": "0.981"
+      },
+      {
+        "p": {
+          "name": "Vision as Unified Multimodal Generation",
+          "link": "https://arxiv.org/abs/2607.06560"
+        },
+        "c": "https://github.com/OpenSenseNova/SenseNova-Vision",
+        "n": "SenseNova-Vision",
+        "d": "2026-07-07",
+        "m2": "0.04",
+        "m1": "0.981"
+      },
+      {
+        "p": {
+          "name": "DINOv3",
+          "link": "https://arxiv.org/abs/2508.10104v1"
+        },
+        "c": "https://github.com/facebookresearch/dinov3",
+        "n": "DINOv3 + Depth Anything V2",
+        "d": "2025-08-13",
+        "m2": "0.043",
+        "m1": "0.98"
+      },
+      {
+        "p": {
+          "name": "Depth Anything 3: Recovering the Visual Space from Any Views",
+          "link": "https://arxiv.org/abs/2511.10647"
+        },
+        "c": "https://github.com/bytedance-seed/depth-anything-3",
+        "n": "Depth Anything 3 Mono",
+        "d": "2025-11-13",
+        "m1": "0.980"
+      },
+      {
+        "p": {
+          "name": "In Pursuit of Pixel Supervision for Visual Pre-training",
+          "link": "https://arxiv.org/abs/2512.15715"
+        },
+        "c": "https://github.com/facebookresearch/pixio",
+        "n": "Pixio-H + DPT",
+        "d": "2025-12-17",
+        "m1": "0.980"
+      },
+      {
+        "p": {
+          "name": "Depth Anything V2",
+          "link": "https://arxiv.org/abs/2406.09414"
+        },
+        "c": "https://github.com/DepthAnything/Depth-Anything-V2",
+        "n": "Depth Anything V2 (ViT-G)",
+        "d": "2024-06-13",
+        "m2": "0.044",
+        "m1": "0.979"
+      },
+      {
+        "p": {
+          "name": "Lotus-2: Advancing Geometric Dense Prediction with Powerful Image Generative Model",
+          "link": "https://arxiv.org/abs/2512.01030"
+        },
+        "c": "https://github.com/EnVision-Research/Lotus-2",
+        "n": "Lotus-2 (zero-shot)",
+        "d": "2025-11-30",
+        "m2": "0.041",
+        "m1": "0.976"
+      },
+      {
+        "p": {
+          "name": "Lotus: Diffusion-based Visual Foundation Model for High-quality Dense Prediction",
+          "link": "https://arxiv.org/abs/2409.18124"
+        },
+        "c": "https://github.com/envision-research/lotus",
+        "n": "Lotus-D (zero-shot)",
+        "d": "2024-09-26",
+        "m2": "0.051",
+        "m1": "0.972"
+      },
+      {
+        "p": {
+          "name": "CH3Depth: Efficient and Flexible Depth Foundation Model with Flow Matching",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Li_CH3Depth_Efficient_and_Flexible_Depth_Foundation_Model_with_Flow_Matching_CVPR_2025_paper.html"
+        },
+        "c": "",
+        "n": "CH3Depth (96K)",
+        "d": "2025-06-11",
+        "m2": "0.05",
+        "m1": "0.972"
+      },
+      {
+        "p": {
+          "name": "DepthART: Scaling Foundation Monocular Depth to Tiny Models",
+          "link": "https://arxiv.org/abs/2607.17099"
+        },
+        "c": "https://github.com/xuefeng-cvr/depthart",
+        "n": "DepthART-L (zero-shot)",
+        "d": "2026-07-19",
+        "m2": "0.053",
+        "m1": "0.971"
+      },
+      {
+        "p": {
+          "name": "AnyDepth: Depth Estimation Made Easy",
+          "link": "https://arxiv.org/abs/2601.02760"
+        },
+        "c": "https://github.com/AIGeeksGroup/AnyDepth",
+        "n": "AnyDepth ViT-L",
+        "d": "2026-01-06",
+        "m2": "0.06",
+        "m1": "0.968"
+      },
+      {
+        "p": {
+          "name": "Video Generative Models as Geometry Learner",
+          "link": "https://arxiv.org/abs/2608.28549"
+        },
+        "c": "https://github.com/creative-intelligence-studio/geonext",
+        "n": "GeoNeXt",
+        "d": "2026-08-28",
+        "m2": "0.053",
+        "m1": "0.968"
+      },
+      {
+        "p": {
+          "name": "DepthART: Scaling Foundation Monocular Depth to Tiny Models",
+          "link": "https://arxiv.org/abs/2607.17099"
+        },
+        "c": "https://github.com/xuefeng-cvr/depthart",
+        "n": "DepthART-S (zero-shot)",
+        "d": "2026-07-19",
+        "m2": "0.059",
+        "m1": "0.964"
+      },
+      {
+        "p": {
+          "name": "ZipDepth: Bringing Lightweight Zero-Shot Monocular Depth Anywhere, on Any Device",
+          "link": "https://arxiv.org/abs/2607.08771"
+        },
+        "c": "https://github.com/fabiotosi92/zipdepth",
+        "n": "ZipDepth",
+        "d": "2026-07-09",
+        "m2": "0.084",
+        "m1": "0.933"
+      },
+      {
+        "p": {
+          "name": "Let RGB Be the Language of Vision",
+          "link": "https://arxiv.org/abs/2607.12450"
+        },
+        "c": "https://github.com/yangtiming/RINO",
+        "n": "RINO-Zero (Qwen-Image-Edit)",
+        "d": "2026-07-14",
+        "m1": "0.927",
+        "m2": "0.086"
+      },
+      {
+        "p": {
+          "name": "Towards Robust Monocular Depth Estimation: Mixing Datasets for Zero-shot Cross-dataset Transfer",
+          "link": "https://arxiv.org/abs/1907.01341v3"
+        },
+        "c": "https://github.com/isl-org/MiDaS",
+        "n": "MiDaS",
+        "d": "2019-07-02",
+        "m1": "0.9045"
+      }
+    ]
+  }
+}

@@ -1,0 +1,269 @@
+{
+  "title": "monocular-depth-estimation-on-clevr-distance",
+  "task-hierarchy": [
+    "Depth Estimation",
+    "Monocular Depth Estimation"
+  ],
+  "dataset-info": {
+    "link": "https://arxiv.org/abs/1910.04867",
+    "paper": "A Large-scale Study of Representation Learning with the Visual Task Adaptation Benchmark"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Towards Efficient Visual Adaption via Structural Re-parameterization",
+          "link": "https://arxiv.org/abs/2302.08106"
+        },
+        "c": "",
+        "n": "RepAdapter-attn ViT-B/16 (VTAB-1k)",
+        "d": "2023-02-16",
+        "m1": "69.1"
+      },
+      {
+        "p": {
+          "name": "FacT: Factor-Tuning for Lightweight Adaptation on Vision Transformer",
+          "link": "https://arxiv.org/abs/2212.03145"
+        },
+        "c": "",
+        "n": "FacT-TT ViT-B/16 (VTAB-1k)",
+        "d": "2022-12-06",
+        "m1": "69.0"
+      },
+      {
+        "p": {
+          "name": "Neural Prompt Search",
+          "link": "https://arxiv.org/abs/2206.04673v2"
+        },
+        "c": "https://github.com/ZhangYuanhan-AI/NOAH",
+        "n": "NOAH ViT-B/16 (VTAB-1k)",
+        "d": "2022-06-09",
+        "m1": "68.9"
+      },
+      {
+        "p": {
+          "name": "Expanding Sparse Tuning for Low Memory Usage",
+          "link": "https://arxiv.org/abs/2411.01800"
+        },
+        "c": "",
+        "n": "SNELL-32 ViT-B/16 (VTAB-1k)",
+        "d": "2024-11-04",
+        "m1": "68.6"
+      },
+      {
+        "p": {
+          "name": "Consolidator: Mergeable Adapter with Grouped Connections for Visual Adaptation",
+          "link": "https://arxiv.org/abs/2305.00603"
+        },
+        "c": "",
+        "n": "Consolidator ViT-B/16 (VTAB-1k)",
+        "d": "2023-04-30",
+        "m1": "68.2"
+      },
+      {
+        "p": {
+          "name": "Sensitivity-Aware Visual Parameter-Efficient Fine-Tuning",
+          "link": "https://arxiv.org/abs/2303.08566"
+        },
+        "c": "https://github.com/ziplab/spt",
+        "n": "SPT-Adapter ViT-B/16 (VTAB-1k)",
+        "d": "2023-03-15",
+        "m1": "68.0"
+      },
+      {
+        "p": {
+          "name": "Convolutional Bypasses Are Better Vision Transformer Adapters",
+          "link": "https://arxiv.org/abs/2207.07039"
+        },
+        "c": "",
+        "n": "Convpass ViT-B/16 (VTAB-1k)",
+        "d": "2022-07-14",
+        "m1": "67.9"
+      },
+      {
+        "p": {
+          "name": "One-for-All: Generalized LoRA for Parameter-Efficient Fine-tuning",
+          "link": "https://arxiv.org/abs/2306.07967"
+        },
+        "c": "https://github.com/arnav0400/vit-slim",
+        "n": "GLoRA ViT-B/16 (VTAB-1k)",
+        "d": "2023-06-13",
+        "m1": "67.3"
+      },
+      {
+        "p": {
+          "name": "MLAE: Masked LoRA Experts for Visual Parameter-Efficient Fine-Tuning",
+          "link": "https://arxiv.org/abs/2405.18897"
+        },
+        "c": "",
+        "n": "MLAE ViT-B/16 (VTAB-1k)",
+        "d": "2024-05-29",
+        "m1": "67.2"
+      },
+      {
+        "p": {
+          "name": "Efficient Adaptation of Large Vision Transformer via Adapter Re-Composing",
+          "link": "https://arxiv.org/abs/2310.06234"
+        },
+        "c": "",
+        "n": "ARC ViT-B/16 (VTAB-1k)",
+        "d": "2023-10-10",
+        "m1": "67.1"
+      },
+      {
+        "p": {
+          "name": "Low-rank Attention Side-Tuning for Parameter-Efficient Fine-Tuning",
+          "link": "https://arxiv.org/abs/2402.04009"
+        },
+        "c": "",
+        "n": "LAST ViT-B/16 (VTAB-1k)",
+        "d": "2024-02-06",
+        "m1": "65.9"
+      },
+      {
+        "p": {
+          "name": "SCT: A Simple Baseline for Parameter-Efficient Fine-Tuning via Salient Channels",
+          "link": "https://arxiv.org/abs/2309.08513"
+        },
+        "c": "https://github.com/zhaohengyuan1/sct",
+        "n": "SCT ViT-B/16 (VTAB-1k)",
+        "d": "2023-09-15",
+        "m1": "65.1"
+      },
+      {
+        "p": {
+          "name": "DTL: Disentangled Transfer Learning for Visual Recognition",
+          "link": "https://arxiv.org/abs/2312.07856"
+        },
+        "c": "",
+        "n": "DTL+ ViT-B/16 (VTAB-1k)",
+        "d": "2023-12-13",
+        "m1": "65.1"
+      },
+      {
+        "p": {
+          "name": "Revisiting the Parameter Efficiency of Adapters from the Perspective of Precision Redundancy",
+          "link": "https://arxiv.org/abs/2307.16867"
+        },
+        "c": "https://github.com/jieshibo/petl-vit",
+        "n": "Bi-LoRA ViT-B/16 (VTAB-1k)",
+        "d": "2023-07-31",
+        "m1": "64.2"
+      },
+      {
+        "p": {
+          "name": "Hierarchical Side-Tuning for Vision Transformers",
+          "link": "https://arxiv.org/abs/2310.05393"
+        },
+        "c": "",
+        "n": "HST-B ViT-B/16 (VTAB-1k)",
+        "d": "2023-10-09",
+        "m1": "63.7"
+      },
+      {
+        "p": {
+          "name": "Res-Tuning: A Flexible and Efficient Tuning Paradigm via Unbinding Tuner from Backbone",
+          "link": "https://arxiv.org/abs/2310.19859"
+        },
+        "c": "",
+        "n": "Res-Tuning ViT-B/16 (VTAB-1k)",
+        "d": "2023-10-30",
+        "m1": "63.6"
+      },
+      {
+        "p": {
+          "name": "Dynamic Tuning Towards Parameter and Inference Efficiency for ViT Adaptation",
+          "link": "https://arxiv.org/abs/2403.11808"
+        },
+        "c": "https://github.com/nus-hpc-ai-lab/dynamic-tuning",
+        "n": "DyT ViT-B/16 (VTAB-1k)",
+        "d": "2024-03-18",
+        "m1": "63.2"
+      },
+      {
+        "p": {
+          "name": "Visual Fourier Prompt Tuning",
+          "link": "https://arxiv.org/abs/2411.01327"
+        },
+        "c": "",
+        "n": "VFPT ViT-B/16 (VTAB-1k)",
+        "d": "2024-11-02",
+        "m1": "63.2"
+      },
+      {
+        "p": {
+          "name": "Gradient-based Parameter Selection for Efficient Fine-Tuning",
+          "link": "https://arxiv.org/abs/2312.10136"
+        },
+        "c": "https://github.com/FightingFighting/GPS",
+        "n": "GPS ViT-B/16 (VTAB-1k)",
+        "d": "2023-12-15",
+        "m1": "62.6"
+      },
+      {
+        "p": {
+          "name": "Scaling & Shifting Your Features: A New Baseline for Efficient Model Tuning",
+          "link": "https://arxiv.org/abs/2210.08823"
+        },
+        "c": "https://github.com/dongzelian/ssf",
+        "n": "SSF ViT-B/16 (VTAB-1k)",
+        "d": "2022-10-17",
+        "m1": "62.3"
+      },
+      {
+        "p": {
+          "name": "Adapters Strike Back",
+          "link": "https://arxiv.org/abs/2406.06820"
+        },
+        "c": "https://github.com/visinf/adapter_plus",
+        "n": "Adapter+ ViT-B/16 (VTAB-1k)",
+        "d": "2024-06-10",
+        "m1": "61.6"
+      },
+      {
+        "p": {
+          "name": "Visual Prompt Tuning",
+          "link": "https://arxiv.org/abs/2203.12119v2"
+        },
+        "c": "https://github.com/KMnP/vpt",
+        "n": "VPT-Deep ViT-B/16 (VTAB-1k)",
+        "d": "2022-03-23",
+        "m1": "60.0"
+      },
+      {
+        "p": {
+          "name": "MoSA: Mixture of Sparse Adapters for Visual Efficient Tuning",
+          "link": "https://arxiv.org/abs/2312.02923"
+        },
+        "c": "https://github.com/theia-4869/mosa",
+        "n": "MoSA ViT-B/16 (VTAB-1k)",
+        "d": "2023-12-05",
+        "m1": "58.1"
+      }
+    ]
+  }
+}

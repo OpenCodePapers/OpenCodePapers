@@ -1,0 +1,89 @@
+{
+  "title": "zero-shot-video-retrieval-on-msr-vtt-video-to-text",
+  "task-hierarchy": [
+    "Video Retrieval",
+    "Zero-Shot Video Retrieval"
+  ],
+  "dataset-info": {
+    "link": "",
+    "paper": "MSR-VTT: A Large Video Description Dataset for Bridging Video and Language"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "R@1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Hyperbolic Gramian Volumes for Multimodal Alignment",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Na_Hyperbolic_Gramian_Volumes_for_Multimodal_Alignment_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "HyperGRAM (extra data)",
+        "d": "2026-06-03",
+        "m1": "53.6"
+      },
+      {
+        "p": {
+          "name": "Perception Encoder: The best visual embeddings are not at the output of the network",
+          "link": "https://arxiv.org/abs/2504.13181v1"
+        },
+        "c": "https://github.com/facebookresearch/perception_models",
+        "n": "PE-Core G",
+        "d": "2025-04-17",
+        "m1": "49.9"
+      },
+      {
+        "p": {
+          "name": "MoE-ViE: Mixture of Experts Vision Encoder for Efficient Image and Video Understanding",
+          "link": "https://arxiv.org/abs/2608.17402"
+        },
+        "c": "https://github.com/facebookresearch/moe_vie",
+        "n": "MoE-ViE-L/16",
+        "d": "2026-08-18",
+        "m1": "49.8"
+      },
+      {
+        "p": {
+          "name": "LAION-BVD: A 10-Million-Hour Open Video Dataset for Multimodal Pre-training",
+          "link": "https://arxiv.org/abs/2608.24845"
+        },
+        "c": "",
+        "n": "ViCLIP L-14 (BVD-V-10M, WiSE-FT, zero-shot)",
+        "d": "2026-08-25",
+        "m1": "45.3"
+      },
+      {
+        "p": {
+          "name": "Incorporating Dense Knowledge Alignment into Unified Multimodal Representation Models",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Cui_Incorporating_Dense_Knowledge_Alignment_into_Unified_Multimodal_Representation_Models_CVPR_2025_paper.html"
+        },
+        "c": "",
+        "n": "DeKR-7B (zero-shot)",
+        "d": "2025-06-11",
+        "m1": "43.7"
+      }
+    ]
+  }
+}

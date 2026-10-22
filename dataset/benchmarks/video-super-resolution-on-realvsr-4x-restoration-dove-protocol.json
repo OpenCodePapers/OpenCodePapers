@@ -1,0 +1,108 @@
+{
+  "title": "video-super-resolution-on-realvsr-4x-restoration-dove-protocol",
+  "task-hierarchy": [
+    "Super-Resolution",
+    "Video Super-Resolution"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/IanYeung/RealVSR",
+    "paper": "Real-World Video Super-Resolution: A Benchmark Dataset and a Decomposition Based Learning Scheme"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "LPIPS",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "PSNR",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "SSIM",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "SparkVSR: Interactive Video Super-Resolution via Sparse Keyframe Propagation",
+          "link": "https://arxiv.org/abs/2603.16864"
+        },
+        "c": "https://github.com/taco-group/SparkVSR",
+        "n": "SparkVSR (no reference)",
+        "d": "2026-03-17",
+        "m2": "22.00",
+        "m3": "0.7222",
+        "m1": "0.1809"
+      },
+      {
+        "p": {
+          "name": "Asymmetric VAE for One-Step Video Super-Resolution Acceleration",
+          "link": "https://arxiv.org/abs/2509.24142"
+        },
+        "c": "",
+        "n": "FastVSR (f8 encoder / f16 decoder) (extra data)",
+        "d": "2025-09-29",
+        "m2": "22.20",
+        "m3": "0.7230",
+        "m1": "0.1830"
+      },
+      {
+        "p": {
+          "name": "DOVE: Efficient One-Step Diffusion Model for Real-World Video Super-Resolution",
+          "link": "https://arxiv.org/abs/2505.16239"
+        },
+        "c": "https://github.com/zhengchen1999/dove",
+        "n": "DOVE",
+        "d": "2025-05-22",
+        "m2": "22.32",
+        "m3": "0.7301",
+        "m1": "0.1851"
+      },
+      {
+        "p": {
+          "name": "DOVE: Efficient One-Step Diffusion Model for Real-World Video Super-Resolution",
+          "link": "https://arxiv.org/abs/2505.16239"
+        },
+        "c": "https://github.com/zhengchen1999/dove",
+        "n": "DOVE-2B",
+        "d": "2025-05-22",
+        "m2": "22.11",
+        "m1": "0.1998"
+      },
+      {
+        "p": {
+          "name": "Towards Redundancy Reduction in Diffusion Models for Efficient Video Super-Resolution",
+          "link": "https://arxiv.org/abs/2509.23980"
+        },
+        "c": "",
+        "n": "OASIS (extra data)",
+        "d": "2025-09-28",
+        "m2": "21.14",
+        "m3": "0.6212",
+        "m1": "0.2018"
+      }
+    ]
+  }
+}

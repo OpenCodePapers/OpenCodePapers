@@ -1,0 +1,249 @@
+{
+  "title": "audio-understanding-reasoning-on-mmsu",
+  "task-hierarchy": [
+    "Audio Question Answering",
+    "Audio Understanding Reasoning"
+  ],
+  "dataset-info": {
+    "link": "https://arxiv.org/abs/2506.04779",
+    "paper": "MMSU: A Massive Multi-task Spoken Language Understanding and Reasoning Benchmark"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "StepAudio 3 Realtime Technical Report",
+          "link": "https://arxiv.org/abs/2609.14005"
+        },
+        "c": "",
+        "n": "StepAudio 3 Realtime",
+        "d": "2026-09-12",
+        "m1": "90.6"
+      },
+      {
+        "p": {
+          "name": "ERNIE 5.0 Technical Report",
+          "link": "https://arxiv.org/abs/2602.04705"
+        },
+        "c": "",
+        "n": "ERNIE 5.0",
+        "d": "2026-02-04",
+        "m1": "84.68"
+      },
+      {
+        "p": {
+          "name": "Qwen-Audio-Jev: A Unified Interface for Audio Decisions",
+          "link": "https://arxiv.org/abs/2610.21614"
+        },
+        "c": "",
+        "n": "Qwen-Audio-Jev",
+        "d": "2026-10-15",
+        "m1": "84.0568"
+      },
+      {
+        "p": {
+          "name": "FireRedAudio: A General-Purpose Audio Language Model with Decoupled Continuous Representations for Understanding and Generation",
+          "link": "https://arxiv.org/abs/2608.24168"
+        },
+        "c": "https://github.com/fireredteam/fireredaudio",
+        "n": "FireRedAudio",
+        "d": "2026-08-25",
+        "m1": "83.3"
+      },
+      {
+        "p": {
+          "name": "Qwen3.5-Omni Technical Report",
+          "link": "https://arxiv.org/pdf/2604.15804"
+        },
+        "c": "",
+        "n": "Qwen3.5-Omni-Plus",
+        "d": "2026-04-21",
+        "m1": "82.8"
+      },
+      {
+        "p": {
+          "name": "Step-Audio-R1.5 Technical Report",
+          "link": "https://arxiv.org/abs/2604.25719"
+        },
+        "c": "https://github.com/stepfun-ai/Step-Audio-R1",
+        "n": "Step-Audio-R1.5",
+        "d": "2026-04-28",
+        "m1": "79.03"
+      },
+      {
+        "p": {
+          "name": "Step-Audio-R1 Technical Report",
+          "link": "https://arxiv.org/abs/2511.15848"
+        },
+        "c": "https://github.com/stepfun-ai/Step-Audio-R1",
+        "n": "Step-Audio-R1",
+        "d": "2025-11-19",
+        "m1": "75.9"
+      },
+      {
+        "p": {
+          "name": "Qwen3-Omni Technical Report",
+          "link": "https://arxiv.org/abs/2509.17765"
+        },
+        "c": "https://github.com/QwenLM/Qwen3-Omni",
+        "n": "Qwen3-Omni-Flash-Thinking",
+        "d": "2025-09-22",
+        "m1": "71.3"
+      },
+      {
+        "p": {
+          "name": "OmniJigsaw: Enhancing Omni-Modal Reasoning via Modality-Orchestrated Reordering",
+          "link": "https://arxiv.org/abs/2604.08209"
+        },
+        "c": "https://github.com/aim-uofa/OmniJigsaw",
+        "n": "OmniJigsaw (CMM)",
+        "d": "2026-04-09",
+        "m1": "70.7"
+      },
+      {
+        "p": {
+          "name": "Fun-Audio-Chat Technical Report",
+          "link": "https://arxiv.org/abs/2512.20156"
+        },
+        "c": "https://github.com/FunAudioLLM/Fun-Audio-Chat",
+        "n": "Fun-Audio-Chat-30B-A3B",
+        "d": "2025-12-23",
+        "m1": "70.1"
+      },
+      {
+        "p": {
+          "name": "Realtime-Venus: A full-duplex interaction system with asynchronous delegation",
+          "link": "https://arxiv.org/abs/2609.13814"
+        },
+        "c": "",
+        "n": "Realtime-Venus-Audio",
+        "d": "2026-09-12",
+        "m1": "66.8"
+      },
+      {
+        "p": {
+          "name": "Covo-Audio Technical Report",
+          "link": "https://arxiv.org/abs/2602.09823"
+        },
+        "c": "",
+        "n": "Covo-Audio",
+        "d": "2026-02-10",
+        "m1": "66.64"
+      },
+      {
+        "p": {
+          "name": "Beyond Transcription: Unified Audio Schema for Perception-Aware AudioLLMs",
+          "link": "https://arxiv.org/abs/2604.12506"
+        },
+        "c": "",
+        "n": "UAS-Audio",
+        "d": "2026-04-14",
+        "m1": "66.2"
+      },
+      {
+        "p": {
+          "name": "Reinforcement Learning with Evolving Rubrics as Rewards for Audio Reasoning",
+          "link": "https://arxiv.org/abs/2608.02831"
+        },
+        "c": "https://github.com/tianyi-lab/AudioRubrics",
+        "n": "AudioRubrics Qwen2.5-Omni-7B (rubric weight 0.7)",
+        "d": "2026-08-03",
+        "m1": "65.9"
+      },
+      {
+        "p": {
+          "name": "Unified Audio Intelligence Without Regressing on Text Intelligence",
+          "link": "https://arxiv.org/abs/2607.05196"
+        },
+        "c": "",
+        "n": "Audex 30B-A3B",
+        "d": "2026-07-06",
+        "m1": "63.4"
+      },
+      {
+        "p": {
+          "name": "MiMo-Audio: Audio Language Models are Few-Shot Learners",
+          "link": "https://arxiv.org/abs/2512.23808"
+        },
+        "c": "https://github.com/XiaomiMiMo/MiMo-Audio/",
+        "n": "MiMo-Audio-7B-Instruct (+Think)",
+        "d": "2025-09-01",
+        "m1": "62.88"
+      },
+      {
+        "p": {
+          "name": "Audio Flamingo 3: Advancing Audio Intelligence with Fully Open Large Audio Language Models",
+          "link": "https://www.arxiv.org/abs/2507.08128"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Audio Flamingo 3 (+Think)",
+        "d": "2025-07-10",
+        "m1": "62.3"
+      },
+      {
+        "p": {
+          "name": "Audio-Visual Flamingo: Open Audio-Visual Intelligence for Long and Complex Videos",
+          "link": "https://arxiv.org/abs/2607.16107"
+        },
+        "c": "",
+        "n": "AVF-Instruct",
+        "d": "2026-07-17",
+        "m1": "61.5"
+      },
+      {
+        "p": {
+          "name": "DIFFA-2: A Practical Diffusion Large Language Model for General Audio Understanding",
+          "link": "https://arxiv.org/abs/2601.23161"
+        },
+        "c": "",
+        "n": "DIFFA-2 (8B)",
+        "d": "2026-01-30",
+        "m1": "60.45"
+      },
+      {
+        "p": {
+          "name": "Audio-Omni: Extending Multi-modal Understanding to Versatile Audio Generation and Editing",
+          "link": "https://arxiv.org/abs/2604.10708"
+        },
+        "c": "https://github.com/ZeyueT/Audio-Omni",
+        "n": "Audio-Omni",
+        "d": "2026-04-12",
+        "m1": "56.83"
+      },
+      {
+        "p": {
+          "name": "DIFFA: Large Language Diffusion Models Can Listen and Understand",
+          "link": "https://arxiv.org/abs/2507.18452"
+        },
+        "c": "https://github.com/NKU-HLT/DIFFA",
+        "n": "DIFFA (rewrite-Qwen3 data)",
+        "d": "2025-07-24",
+        "m1": "56.43"
+      }
+    ]
+  }
+}

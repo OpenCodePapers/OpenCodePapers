@@ -1,0 +1,98 @@
+{
+  "title": "audio-question-answering-on-openaudiobench-llamaquestions",
+  "task-hierarchy": [
+    "Audio Question Answering"
+  ],
+  "dataset-info": {
+    "link": "https://huggingface.co/datasets/baichuan-inc/OpenAudioBench",
+    "paper": "Baichuan-Audio: A Unified Framework for End-to-End Speech Interaction"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Fun-Audio-Chat Technical Report",
+          "link": "https://arxiv.org/abs/2512.20156"
+        },
+        "c": "https://github.com/FunAudioLLM/Fun-Audio-Chat",
+        "n": "Fun-Audio-Chat-30B-A3B",
+        "d": "2025-12-23",
+        "m1": "85.00"
+      },
+      {
+        "p": {
+          "name": "Realtime-Venus: A full-duplex interaction system with asynchronous delegation",
+          "link": "https://arxiv.org/abs/2609.13814"
+        },
+        "c": "",
+        "n": "Realtime-Venus-Audio",
+        "d": "2026-09-12",
+        "m1": "83.8"
+      },
+      {
+        "p": {
+          "name": "LongCat-Flash-Omni Technical Report",
+          "link": "https://arxiv.org/abs/2511.00279"
+        },
+        "c": "https://github.com/meituan-longcat/LongCat-Flash-Omni",
+        "n": "LongCat-Flash-Omni",
+        "d": "2025-10-31",
+        "m1": "83.33"
+      },
+      {
+        "p": {
+          "name": "Kimi-Audio Technical Report",
+          "link": "https://arxiv.org/pdf/2504.18425"
+        },
+        "c": "https://github.com/MoonshotAI/Kimi-Audio",
+        "n": "Kimi-Audio",
+        "d": "2025-04-25",
+        "m1": "79.33"
+      },
+      {
+        "p": {
+          "name": "Baichuan-Audio: A Unified Framework for End-to-End Speech Interaction",
+          "link": "https://arxiv.org/abs/2502.17239"
+        },
+        "c": "https://github.com/baichuan-inc/baichuan-audio",
+        "n": "Baichuan-Audio",
+        "d": "2025-02-24",
+        "m1": "78.4"
+      },
+      {
+        "p": {
+          "name": "Omni Interaction Agent Technical Report",
+          "link": "https://arxiv.org/abs/2609.08977"
+        },
+        "c": "https://github.com/Omni-Interaction-Gander/Omni-Interaction-Agent",
+        "n": "Gander",
+        "d": "2026-09-08",
+        "m1": "75.6"
+      }
+    ]
+  }
+}

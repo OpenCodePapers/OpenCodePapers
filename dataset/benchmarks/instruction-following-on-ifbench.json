@@ -1,0 +1,799 @@
+{
+  "title": "instruction-following-on-ifbench",
+  "task-hierarchy": [
+    "Natural Language Understanding",
+    "Instruction Following"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/allenai/IFBench",
+    "paper": "Generalizing Verifiable Instruction Following"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Mach-Mind-4-Flash Technical Report",
+          "link": "https://arxiv.org/abs/2607.09375"
+        },
+        "c": "",
+        "n": "Mach-Mind-4-Flash",
+        "d": "2026-07-10",
+        "m1": "82.82"
+      },
+      {
+        "p": {
+          "name": "Inkling-Small",
+          "link": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        "c": "https://github.com/thinking-machines-lab/tinker-cookbook",
+        "n": "Inkling-Small",
+        "d": "2026-07-27",
+        "m1": "82.2"
+      },
+      {
+        "p": {
+          "name": "Sage-A1.5: From Long-Horizon Execution to Scientific Exploration with Capability Composition",
+          "link": "https://arxiv.org/abs/2610.28578"
+        },
+        "c": "https://github.com/InternScience/Agents-A1",
+        "n": "Sage-A1.5",
+        "d": "2026-10-20",
+        "m1": "81.6"
+      },
+      {
+        "p": {
+          "name": "Qwen3.8-Flash-Next",
+          "link": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next"
+        },
+        "c": "https://github.com/qwenlm/qwen3.8-flash-next",
+        "n": "Qwen3.8-Flash-Next",
+        "d": "2026-08-24",
+        "m1": "81.3"
+      },
+      {
+        "p": {
+          "name": "Group Entropy-Controlled Policy Optimization",
+          "link": "https://arxiv.org/abs/2607.16850"
+        },
+        "c": "",
+        "n": "GEPO (Qwen3.5-9B)",
+        "d": "2026-07-18",
+        "m1": "80.7"
+      },
+      {
+        "p": {
+          "name": "Scaling the Horizon, Not the Parameters: Reaching Trillion-Parameter Performance with a 35B Agent",
+          "link": "https://arxiv.org/abs/2606.30616"
+        },
+        "c": "https://github.com/InternScience/Agents-A1",
+        "n": "Agents-A1",
+        "d": "2026-06-29",
+        "m1": "80.6"
+      },
+      {
+        "p": {
+          "name": "SenseNova-U1: Unifying Multimodal Understanding and Generation with NEO-unify Architecture",
+          "link": "https://arxiv.org/abs/2605.12500"
+        },
+        "c": "https://github.com/OpenSenseNova/SenseNova-U1",
+        "n": "SenseNova-U1-A3B-MoT",
+        "d": "2026-05-12",
+        "m1": "79.79"
+      },
+      {
+        "p": {
+          "name": "Introducing Beam: Reflection's 501B open-weight model",
+          "link": "https://reflection.ai/blog/introducing-beam"
+        },
+        "c": "",
+        "n": "Beam",
+        "d": "2026-10-05",
+        "m1": "79.7"
+      },
+      {
+        "p": {
+          "name": "Qwen3.8-27B",
+          "link": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        "c": "https://github.com/vllm-project/vllm",
+        "n": "Qwen3.8-27B",
+        "d": "2026-08-05",
+        "m1": "79.5"
+      },
+      {
+        "p": {
+          "name": "Closing the Loop: Practical Training Recipes for Looped Language Models",
+          "link": "https://arxiv.org/abs/2610.00673"
+        },
+        "c": "",
+        "n": "Dory1.0-4B",
+        "d": "2026-09-30",
+        "m1": "79.0"
+      },
+      {
+        "p": {
+          "name": "Motif 3: Technical Report",
+          "link": "https://arxiv.org/abs/2608.09119"
+        },
+        "c": "https://github.com/motiftechnologies/motif3-training-example",
+        "n": "Motif 3",
+        "d": "2026-08-10",
+        "m1": "78.2"
+      },
+      {
+        "p": {
+          "name": "MOPD: Multi-Teacher On-Policy Distillation for Capability Integration in LLM Post-Training",
+          "link": "https://arxiv.org/abs/2606.30406"
+        },
+        "c": "",
+        "n": "Qwen3-30B-A3B + MOPD",
+        "d": "2026-06-29",
+        "m1": "77.89"
+      },
+      {
+        "p": {
+          "name": "Unified Audio Intelligence Without Regressing on Text Intelligence",
+          "link": "https://arxiv.org/abs/2607.05196"
+        },
+        "c": "",
+        "n": "Audex 30B-A3B",
+        "d": "2026-07-06",
+        "m1": "77.8"
+      },
+      {
+        "p": {
+          "name": "Muse Glimmer 30B: An On-Device Agentic Model",
+          "link": "https://arxiv.org/abs/2610.24628"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Muse Glimmer-30B (High Reasoning)",
+        "d": "2026-10-17",
+        "m1": "77.0"
+      },
+      {
+        "p": {
+          "name": "Rufus-Air: An Open LLM Post-Training Recipe",
+          "link": "https://arxiv.org/abs/2609.29421"
+        },
+        "c": "",
+        "n": "Rufus-Air",
+        "d": "2026-09-24",
+        "m1": "76.9"
+      },
+      {
+        "p": {
+          "name": "Qwen3.5: Towards Native Multimodal Agents",
+          "link": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Qwen3.5-27B",
+        "d": "2026-02-16",
+        "m1": "76.5"
+      },
+      {
+        "p": {
+          "name": "Qwen3.5: Towards Native Multimodal Agents",
+          "link": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Qwen3.5-397B-A17B",
+        "d": "2026-02-16",
+        "m1": "76.5"
+      },
+      {
+        "p": {
+          "name": "Qwen3.5: Towards Native Multimodal Agents",
+          "link": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Qwen3.5-122B-A10B",
+        "d": "2026-02-16",
+        "m1": "76.1"
+      },
+      {
+        "p": {
+          "name": "AgentGrad: Intervention-guided Prompt Optimization for Multi Agent Systems",
+          "link": "https://arxiv.org/abs/2609.08572"
+        },
+        "c": "",
+        "n": "AgentGrad (GPT-5-mini)",
+        "d": "2026-09-08",
+        "m1": "76.08"
+      },
+      {
+        "p": {
+          "name": "The MiniMax-M2 Series: Mini Activations Unleashing Max Real-World Intelligence",
+          "link": "https://arxiv.org/abs/2605.26494"
+        },
+        "c": "https://huggingface.co/MiniMaxAI/MiniMax-M2.7",
+        "n": "MiniMax-M2.7",
+        "d": "2026-05-26",
+        "m1": "76.0"
+      },
+      {
+        "p": {
+          "name": "LFM2.5-24B-A2B: Built for Fast On-Device Agents",
+          "link": "https://www.liquid.ai/blog/lfm2-5-24b-a2b"
+        },
+        "c": "",
+        "n": "LFM2.5-24B-A2B",
+        "d": "2026-10-13",
+        "m1": "74.69"
+      },
+      {
+        "p": {
+          "name": "VibeThinker-3B: Exploring the Frontier of Verifiable Reasoning in Small Language Models",
+          "link": "https://arxiv.org/abs/2606.16140"
+        },
+        "c": "https://github.com/WeiboAI/VibeThinker",
+        "n": "VibeThinker-3B",
+        "d": "2026-06-15",
+        "m1": "74.5"
+      },
+      {
+        "p": {
+          "name": "Nemotron 3 Nano Omni: Efficient and Open Multimodal Intelligence",
+          "link": "https://arxiv.org/abs/2604.24954"
+        },
+        "c": "https://github.com/nvidia-nemo/megatron-bridge",
+        "n": "Nemotron 3 Nano Omni",
+        "d": "2026-04-27",
+        "m1": "74.2"
+      },
+      {
+        "p": {
+          "name": "RUBRIC-ARROW: Alternating Pointwise Rubric Reward Modeling for LLM Post-training in Non-verifiable Domains",
+          "link": "https://arxiv.org/abs/2605.29156"
+        },
+        "c": "https://github.com/haoxiang03/rubric-arrow",
+        "n": "RUBRIC-ARROW-voting@5",
+        "d": "2026-05-27",
+        "m1": "73.2"
+      },
+      {
+        "p": {
+          "name": "NVIDIA Nemotron 3: Efficient and Open Intelligence",
+          "link": "https://arxiv.org/abs/2512.20856"
+        },
+        "c": "https://github.com/nvidia-nemo/nemotron",
+        "n": "Nemotron 3 Super",
+        "d": "2025-12-24",
+        "m1": "72.56"
+      },
+      {
+        "p": {
+          "name": "One Model to Loop Them All: Elastic Latent Recurrence for Language Models",
+          "link": "https://arxiv.org/abs/2610.12582"
+        },
+        "c": "",
+        "n": "Koi-4B",
+        "d": "2026-10-08",
+        "m1": "71.8"
+      },
+      {
+        "p": {
+          "name": "Nemotron 3 Nano: Open, Efficient Mixture-of-Experts Hybrid Mamba-Transformer Model for Agentic Reasoning",
+          "link": "https://arxiv.org/abs/2512.20848"
+        },
+        "c": "https://github.com/nvidia-nemo/nemotron",
+        "n": "NVIDIA-Nemotron-3-Nano-30B-A3B-BF16",
+        "d": "2025-12-23",
+        "m1": "71.5"
+      },
+      {
+        "p": {
+          "name": "Intern-S1-Pro: Scientific Multimodal Foundation Model at Trillion Scale",
+          "link": "https://arxiv.org/abs/2603.25040"
+        },
+        "c": "",
+        "n": "Intern-S1-Pro",
+        "d": "2026-03-26",
+        "m1": "71.2"
+      },
+      {
+        "p": {
+          "name": "Qwen3.5: Towards Native Multimodal Agents",
+          "link": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Qwen3.5-35B-A3B",
+        "d": "2026-02-16",
+        "m1": "70.2"
+      },
+      {
+        "p": {
+          "name": "Vela: User Behavior as Supervision Sparks LLM Intelligence",
+          "link": "https://arxiv.org/abs/2610.14709"
+        },
+        "c": "https://github.com/allspark-research/vela",
+        "n": "Vela-35B-A3B (extra data)",
+        "d": "2026-10-10",
+        "m1": "69.2"
+      },
+      {
+        "p": {
+          "name": "MAI-Thinking-1: Building a Hill-Climbing Machine",
+          "link": "https://microsoft.ai/wp-content/uploads/2026/06/main_20260602_2.pdf"
+        },
+        "c": "",
+        "n": "MAI-Thinking-1",
+        "d": "2026-06-02",
+        "m1": "69"
+      },
+      {
+        "p": {
+          "name": "SenseNova-U1.5: Towards Native Unified Visual Intelligence",
+          "link": "https://arxiv.org/abs/2609.11929"
+        },
+        "c": "https://github.com/OpenSenseNova/SenseNova-U1",
+        "n": "SenseNova-U1.5-8B-MoT",
+        "d": "2026-09-10",
+        "m1": "69.0"
+      },
+      {
+        "p": {
+          "name": "Olmo 3",
+          "link": "https://arxiv.org/abs/2512.13961"
+        },
+        "c": "https://github.com/allenai/open-instruct",
+        "n": "Olmo 3.1 Think 32B",
+        "d": "2025-12-15",
+        "m1": "68.1"
+      },
+      {
+        "p": {
+          "name": "Step 3.5 Flash: Open Frontier-Level Intelligence with 11B Active Parameters",
+          "link": "https://arxiv.org/abs/2602.10604"
+        },
+        "c": "https://huggingface.co/stepfun-ai/Step-3.5-Flash-Base",
+        "n": "Step-3.5-Flash",
+        "d": "2026-02-11",
+        "m1": "67.4"
+      },
+      {
+        "p": {
+          "name": "K-EXAONE Technical Report",
+          "link": "https://arxiv.org/abs/2601.01739"
+        },
+        "c": "https://github.com/LG-AI-EXAONE/K-EXAONE",
+        "n": "K-EXAONE (236B, reasoning)",
+        "d": "2026-01-05",
+        "m1": "67.3"
+      },
+      {
+        "p": {
+          "name": "KAT-Coder-V2 Technical Report",
+          "link": "https://arxiv.org/abs/2603.27703"
+        },
+        "c": "",
+        "n": "KAT-Coder-V2",
+        "d": "2026-03-29",
+        "m1": "67.0"
+      },
+      {
+        "p": {
+          "name": "NeoHorse-1: Towards Recursive Self-Improvement via Agentic Post-Training with Routing Harness",
+          "link": "https://arxiv.org/abs/2609.08183"
+        },
+        "c": "https://github.com/TokenRhythm/NeoHorse",
+        "n": "NeoHorse-1-9B",
+        "d": "2026-09-08",
+        "m1": "66.33"
+      },
+      {
+        "p": {
+          "name": "Data Science and Technology Towards AGI Part I: Tiered Data Management",
+          "link": "https://arxiv.org/abs/2602.09003"
+        },
+        "c": "https://github.com/UltraData-OpenBMB/UltraData-Math",
+        "n": "MiniCPM5-2B",
+        "d": "2026-02-09",
+        "m1": "66.3"
+      },
+      {
+        "p": {
+          "name": "Qwen3.5: Towards Native Multimodal Agents",
+          "link": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Qwen3.5-9B",
+        "d": "2026-02-16",
+        "m1": "64.5"
+      },
+      {
+        "p": {
+          "name": "EXAONE 4.5 Technical Report",
+          "link": "https://arxiv.org/abs/2604.08644"
+        },
+        "c": "https://github.com/LG-AI-EXAONE/EXAONE-4.5",
+        "n": "EXAONE 4.5 (Reasoning)",
+        "d": "2026-04-09",
+        "m1": "62.6"
+      },
+      {
+        "p": {
+          "name": "LFM2.5-2.6B: Deploy Agents Everywhere",
+          "link": "https://www.liquid.ai/blog/lfm2-5-2-6b"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "LFM2.5-2.6B",
+        "d": "2026-08-04",
+        "m1": "59.17"
+      },
+      {
+        "p": {
+          "name": "Announcing Bonsai 27B: The First 27B-Class Model to Run on a Phone",
+          "link": "https://prismml.com/news/bonsai-27b"
+        },
+        "c": "https://github.com/prismml-eng/bonsai-demo",
+        "n": "Ternary Bonsai 27B",
+        "d": "2026-07-14",
+        "m1": "58.50"
+      },
+      {
+        "p": {
+          "name": "Ling and Ring 2.6 Technical Report: Efficient and Instant Agentic Intelligence at Trillion-Parameter Scale",
+          "link": "https://arxiv.org/abs/2606.15079"
+        },
+        "c": "https://github.com/inclusionai/ling-v2",
+        "n": "Ling-2.6-1T",
+        "d": "2026-06-13",
+        "m1": "57.62"
+      },
+      {
+        "p": {
+          "name": "Ling and Ring 2.6 Technical Report: Efficient and Instant Agentic Intelligence at Trillion-Parameter Scale",
+          "link": "https://arxiv.org/abs/2606.15079"
+        },
+        "c": "https://github.com/inclusionai/ling-v2",
+        "n": "Ling-2.6-flash",
+        "d": "2026-06-13",
+        "m1": "57.40"
+      },
+      {
+        "p": {
+          "name": "Ling-2.6-1T: A Trillion-Parameter Comprehensive Flagship Model for Complex Tasks",
+          "link": "https://huggingface.co/inclusionAI/Ling-2.6-1T"
+        },
+        "c": "",
+        "n": "Ling-2.6-1T",
+        "d": "2026-04-29",
+        "m1": "57.00"
+      },
+      {
+        "p": {
+          "name": "Step 3.5 Flash: Open Frontier-Level Intelligence with 11B Active Parameters",
+          "link": "https://arxiv.org/abs/2602.10604"
+        },
+        "c": "https://huggingface.co/stepfun-ai/Step-3.5-Flash-Base",
+        "n": "Step-3.5-Flash PaCoRe",
+        "d": "2026-02-11",
+        "m1": "56.8"
+      },
+      {
+        "p": {
+          "name": "LFM2.5-8B-A1B: an Even Better on-Device Mixture-of-Experts",
+          "link": "https://www.liquid.ai/blog/lfm2-5-8b-a1b"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "LFM2.5-8B-A1B",
+        "d": "2026-05-28",
+        "m1": "56.47"
+      },
+      {
+        "p": {
+          "name": "Nanbeige4.2-3B: Unlocking Agentic Capabilities in a Compact Model",
+          "link": "https://huggingface.co/Nanbeige/Nanbeige4.2-3B/blob/main/Nanbeige42_report.pdf"
+        },
+        "c": "https://github.com/vllm-project/vllm",
+        "n": "Nanbeige4.2-3B",
+        "d": "2026-07-21",
+        "m1": "54.6"
+      },
+      {
+        "p": {
+          "name": "Falcon-H1R: Pushing the Reasoning Frontiers with a Hybrid Model for Efficient Test-Time Scaling",
+          "link": "https://arxiv.org/abs/2601.02346"
+        },
+        "c": "https://github.com/tiiuae/falcon-h1r",
+        "n": "Falcon-H1R (7B)",
+        "d": "2026-01-05",
+        "m1": "53.4"
+      },
+      {
+        "p": {
+          "name": "Qwen3.5-Omni Technical Report",
+          "link": "https://arxiv.org/pdf/2604.15804"
+        },
+        "c": "",
+        "n": "Qwen3.5-Omni-Plus",
+        "d": "2026-04-21",
+        "m1": "52.6"
+      },
+      {
+        "p": {
+          "name": "Verify Before You Distill: Prompt-Level Teacher Gating for On-Policy Distillation",
+          "link": "https://arxiv.org/abs/2609.02998"
+        },
+        "c": "",
+        "n": "TGOPD (4B multi-domain GRPO-fallback)",
+        "d": "2026-09-02",
+        "m1": "51.72"
+      },
+      {
+        "p": {
+          "name": "RubricHub: A Comprehensive and Highly Discriminative Rubric Dataset via Automated Coarse-to-Fine Generation",
+          "link": "https://arxiv.org/abs/2601.08430"
+        },
+        "c": "https://github.com/teqkilla/RubricHub",
+        "n": "Qwen3-14B (RuFT→RuRL)",
+        "d": "2026-01-13",
+        "m1": "51.4"
+      },
+      {
+        "p": {
+          "name": "Shepherd: A Runtime Substrate Empowering Meta-Agents with a Formalized Execution Trace",
+          "link": "https://arxiv.org/abs/2605.10913"
+        },
+        "c": "",
+        "n": "CRO",
+        "d": "2026-05-11",
+        "m1": "51.3"
+      },
+      {
+        "p": {
+          "name": "HY-MT1.5 Technical Report",
+          "link": "https://arxiv.org/abs/2512.24092"
+        },
+        "c": "https://github.com/tencent-hunyuan/hy-mt",
+        "n": "Hy-MT2-30B-A3B",
+        "d": "2025-12-30",
+        "m1": "50.67"
+      },
+      {
+        "p": {
+          "name": "ROSS: Relearning from Self-Generated Rollouts through Selective Supervision",
+          "link": "https://arxiv.org/abs/2609.35954"
+        },
+        "c": "",
+        "n": "ROSS (Qwen3.6-35B-A3B)",
+        "d": "2026-09-28",
+        "m1": "47.76"
+      },
+      {
+        "p": {
+          "name": "Introducing LFM2.5: The Next Generation of On-Device AI",
+          "link": "https://www.liquid.ai/blog/introducing-lfm2-5-the-next-generation-of-on-device-ai"
+        },
+        "c": "",
+        "n": "LFM2.5-1.2B-Instruct",
+        "d": "2026-01-05",
+        "m1": "47.33"
+      },
+      {
+        "p": {
+          "name": "Post-Trained MoE Can Skip Half Experts via Self-Distillation",
+          "link": "https://arxiv.org/abs/2605.18643"
+        },
+        "c": "https://github.com/TsinghuaC3I/ZEDA",
+        "n": "ZEDA (GLM-4.7-Flash)",
+        "d": "2026-05-18",
+        "m1": "47.3"
+      },
+      {
+        "p": {
+          "name": "MiniCPM5-1B",
+          "link": "https://huggingface.co/openbmb/MiniCPM5-1B"
+        },
+        "c": "https://github.com/openbmb/minicpm",
+        "n": "MiniCPM5-1B (Thinking)",
+        "d": "2026-05-25",
+        "m1": "46.67"
+      },
+      {
+        "p": {
+          "name": "LFM2.5-1.2B-Thinking: On-Device Reasoning Under 1GB",
+          "link": "https://www.liquid.ai/blog/lfm2-5-1-2b-thinking-on-device-reasoning-under-1gb"
+        },
+        "c": "",
+        "n": "LFM2.5-1.2B-Thinking",
+        "d": "2026-01-20",
+        "m1": "44.85"
+      },
+      {
+        "p": {
+          "name": "HarnessRL: Co-Evolving Policies with a Just-in-Time Training Harness for Open-Ended RL",
+          "link": "https://arxiv.org/abs/2610.26426"
+        },
+        "c": "https://github.com/Tongyi-ConvAI/Qwen-Character",
+        "n": "HarnessRL (Qwen3.5-9B)",
+        "d": "2026-10-19",
+        "m1": "43.6"
+      },
+      {
+        "p": {
+          "name": "Trust Region On-Policy Distillation",
+          "link": "https://arxiv.org/abs/2606.01249"
+        },
+        "c": "",
+        "n": "TrOPD (Qwen3-SFT-1.7B)",
+        "d": "2026-05-31",
+        "m1": "42.18"
+      },
+      {
+        "p": {
+          "name": "CoRT: Counterfactual Replay for Token-Level Rubric-Guided Policy Optimization",
+          "link": "https://arxiv.org/abs/2607.25659"
+        },
+        "c": "",
+        "n": "CoRT (Qwen3-14B)",
+        "d": "2026-07-28",
+        "m1": "41.09"
+      },
+      {
+        "p": {
+          "name": "LFM2.5-350M: No Size Left Behind",
+          "link": "https://www.liquid.ai/blog/lfm2-5-350m-no-size-left-behind"
+        },
+        "c": "",
+        "n": "LFM2.5-350M",
+        "d": "2026-03-31",
+        "m1": "40.69"
+      },
+      {
+        "p": {
+          "name": "Beyond Teacher Assignment: Domain-Normalized Multi-Teacher On-Policy Distillation",
+          "link": "https://arxiv.org/abs/2609.35347"
+        },
+        "c": "https://github.com/LiXin97/DN-MOPD",
+        "n": "DN-MOPD-9B",
+        "d": "2026-09-28",
+        "m1": "38.7"
+      },
+      {
+        "p": {
+          "name": "LFM2.5-230M: Built to Run Anywhere",
+          "link": "https://www.liquid.ai/blog/lfm2-5-230m"
+        },
+        "c": "",
+        "n": "LFM2.5-230M",
+        "d": "2026-06-25",
+        "m1": "38.40"
+      },
+      {
+        "p": {
+          "name": "Bootstrapping Exploration with Group-Level Natural Language Feedback in Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2603.04597"
+        },
+        "c": "https://github.com/LuckyyySTA/GOLF",
+        "n": "GOLF (Qwen-3-8B)",
+        "d": "2026-03-04",
+        "m1": "38.33"
+      },
+      {
+        "p": {
+          "name": "p1: Better Prompt Optimization with Fewer Prompts",
+          "link": "https://arxiv.org/abs/2604.08801"
+        },
+        "c": "",
+        "n": "p1 p1 (Qwen3-4B-Instruct-2507)",
+        "d": "2026-04-09",
+        "m1": "37.41"
+      },
+      {
+        "p": {
+          "name": "Cosmos 3: Omnimodal World Models for Physical AI",
+          "link": "https://arxiv.org/abs/2606.02800"
+        },
+        "c": "https://github.com/nvidia/cosmos",
+        "n": "Cosmos3-Super",
+        "d": "2026-06-01",
+        "m1": "37.0"
+      },
+      {
+        "p": {
+          "name": "ACLArena: Agent Continue Learning in Multi-stage Post-training",
+          "link": "https://arxiv.org/abs/2609.23989"
+        },
+        "c": "https://github.com/WillDreamer/ACLArena",
+        "n": "MLE (ACLArena) (extra data)",
+        "d": "2026-09-21",
+        "m1": "29.1"
+      },
+      {
+        "p": {
+          "name": "MOPD-Router: Rethinking Teacher Routing in Multi-Teacher On-Policy Distillation",
+          "link": "https://arxiv.org/abs/2609.30837"
+        },
+        "c": "https://github.com/TURLEing/MOPD-Router",
+        "n": "MOPD-Router (ExpertAlign, Qwen3-4B-Non-Thinking student, domain-labeled)",
+        "d": "2026-09-25",
+        "m1": "28.91"
+      },
+      {
+        "p": {
+          "name": "Enhancing Rubric-based RL via Self-Distillation",
+          "link": "https://arxiv.org/abs/2607.18082"
+        },
+        "c": "",
+        "n": "CriPO-RS (Qwen3-4B)",
+        "d": "2026-07-21",
+        "m1": "28.3"
+      },
+      {
+        "p": {
+          "name": "Weak-to-Strong On-Policy Distillation",
+          "link": "https://arxiv.org/abs/2607.26246"
+        },
+        "c": "https://github.com/yu-fangxu/w2s-opd",
+        "n": "W2S-OPD (pre-/post-RL contrast)",
+        "d": "2026-07-28",
+        "m1": "27.0"
+      },
+      {
+        "p": {
+          "name": "LFM2 Technical Report",
+          "link": "https://arxiv.org/abs/2511.23404"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "LFM2-8B-A1B",
+        "d": "2025-11-28",
+        "m1": "25.85"
+      },
+      {
+        "p": {
+          "name": "Open-MOPD: Diagnosing and Fixing Capability Imbalance in Multi-Teacher On-Policy Distillation",
+          "link": "https://arxiv.org/abs/2608.19098"
+        },
+        "c": "https://github.com/BytedTsinghua-SIA/Open-MOPD",
+        "n": "Open-MOPD (SmolLM3-3B)",
+        "d": "2026-08-19",
+        "m1": "24.67"
+      },
+      {
+        "p": {
+          "name": "MobileMoE: Scaling On-Device Mixture of Experts",
+          "link": "https://arxiv.org/abs/2605.27358"
+        },
+        "c": "",
+        "n": "MobileMoE-L (922M)",
+        "d": "2026-05-26",
+        "m1": "20.1"
+      },
+      {
+        "p": {
+          "name": "ARC: Fair Relative Advantage Comparison in Open-Ended Real-World Interaction",
+          "link": "https://arxiv.org/abs/2608.13622"
+        },
+        "c": "",
+        "n": "DAPO + ARC (Qwen3-8B)",
+        "d": "2026-08-13",
+        "m1": "17.35"
+      }
+    ]
+  }
+}

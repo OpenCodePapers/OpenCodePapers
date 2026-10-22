@@ -77,6 +77,16 @@
       },
       {
         "p": {
+          "name": "Bridging Semantic and Kinematic Conditions with Diffusion-based Discrete Motion Tokenizer",
+          "link": "https://arxiv.org/abs/2603.19227"
+        },
+        "c": "https://github.com/rheallyc/MoTok",
+        "n": "MoTok-DDM-4",
+        "d": "2026-03-19",
+        "m1": "0.029"
+      },
+      {
+        "p": {
           "name": "BiPO: Bidirectional Partial Occlusion Network for Text-to-Motion Synthesis",
           "link": "https://arxiv.org/abs/2412.00112v2"
         },
@@ -103,6 +113,18 @@
       },
       {
         "p": {
+          "name": "MoScale: Autoregressive Next-Scale Prediction for Human Motion Generation and Editing",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/3276"
+        },
+        "c": "https://github.com/woo0818/scalemogen",
+        "n": "ScaleMoGen",
+        "d": "2026-09-08",
+        "m1": "0.03",
+        "m2": "0.856",
+        "m4": "1.105"
+      },
+      {
+        "p": {
           "name": "DisCoRD: Discrete Tokens to Continuous Motion via Rectified Flow Decoding",
           "link": "https://arxiv.org/abs/2411.19527v3"
         },
@@ -112,6 +134,79 @@
         "m1": "0.032",
         "m2": "0.809",
         "m4": "1.288"
+      },
+      {
+        "p": {
+          "name": "Reconstruction-Anchored Diffusion Model for Text-to-Motion Generation",
+          "link": "https://arxiv.org/abs/2601.14788"
+        },
+        "c": "",
+        "n": "RAM",
+        "d": "2026-01-21",
+        "m1": "0.032",
+        "m2": "0.839",
+        "m3": "9.487",
+        "m4": "1.142"
+      },
+      {
+        "p": {
+          "name": "LaxMotion: Rethinking Supervision Granularity for 3D Human Motion Generation",
+          "link": "https://arxiv.org/abs/2511.11368"
+        },
+        "c": "",
+        "n": "LaxMotion (3D Finetune)",
+        "d": "2025-11-14",
+        "m1": "0.034",
+        "m2": "0.812",
+        "m3": "9.519"
+      },
+      {
+        "p": {
+          "name": "Multi-level Causal LLM-based Text-to-Motion Generation with Human Alignment",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Chen_Multi-level_Causal_LLM-based_Text-to-Motion_Generation_with_Human_Alignment_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "MoTiGA (Llama)",
+        "d": "2026-06-03",
+        "m1": "0.041",
+        "m2": "0.808",
+        "m3": "9.659"
+      },
+      {
+        "p": {
+          "name": "K-Mask: Kinematic-Aware Masked Modeling for Controllable Text-to-Motion Synthesis",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/5839"
+        },
+        "c": "",
+        "n": "K-Mask",
+        "d": "2026-09-08",
+        "m1": "0.041",
+        "m2": "0.824",
+        "m3": "9.671",
+        "m4": "1.415"
+      },
+      {
+        "p": {
+          "name": "ReMoMask-2: Latent Retrieval-Augmented Masked Motion Generation",
+          "link": "https://arxiv.org/abs/2609.08365"
+        },
+        "c": "https://github.com/AIGeeksGroup/ReMoMask-2",
+        "n": "ReMoMask-2",
+        "d": "2026-09-08",
+        "m1": "0.042",
+        "m2": "0.813",
+        "m3": "9.472",
+        "m4": "1.243"
+      },
+      {
+        "p": {
+          "name": "Riemannian Motion Generation: A Unified Framework for Human Motion Representation and Generation via Riemannian Flow Matching",
+          "link": "https://arxiv.org/abs/2603.15016"
+        },
+        "c": "",
+        "n": "RMG",
+        "d": "2026-03-16",
+        "m1": "0.043"
       },
       {
         "p": {
@@ -189,6 +284,28 @@
       },
       {
         "p": {
+          "name": "Towards Interactive Intelligence for Digital Humans",
+          "link": "https://arxiv.org/abs/2512.13674"
+        },
+        "c": "",
+        "n": "FloodDiffusion",
+        "d": "2025-12-15",
+        "m1": "0.057"
+      },
+      {
+        "p": {
+          "name": "Language-Guided Transformer Tokenizer for Human Motion Generation",
+          "link": "https://arxiv.org/abs/2602.08337"
+        },
+        "c": "",
+        "n": "LG-Tok",
+        "d": "2026-02-09",
+        "m1": "0.057",
+        "m2": "0.83",
+        "m4": "1.54"
+      },
+      {
+        "p": {
           "name": "BAD: Bidirectional Auto-regressive Diffusion for Text-to-Motion Generation",
           "link": "https://arxiv.org/abs/2409.10847v1"
         },
@@ -212,6 +329,17 @@
       },
       {
         "p": {
+          "name": "Causal Motion Diffusion Models for Autoregressive Motion Generation",
+          "link": "https://arxiv.org/abs/2602.22594"
+        },
+        "c": "",
+        "n": "CMDM w/ FSS",
+        "d": "2026-02-26",
+        "m1": "0.068",
+        "m2": "0.86"
+      },
+      {
+        "p": {
           "name": "DiverseMotion: Towards Diverse Human Motion Generation via Discrete Diffusion",
           "link": "https://arxiv.org/abs/2309.01372v1"
         },
@@ -222,6 +350,17 @@
         "m2": "0.783",
         "m3": "9.551",
         "m4": "2.062"
+      },
+      {
+        "p": {
+          "name": "MotionVLA: Vision-Language-Action Model for Humanoid Motion",
+          "link": "https://arxiv.org/abs/2606.15142"
+        },
+        "c": "https://github.com/AIGeeksGroup/MotionVLA",
+        "n": "MotionVLA (Qwen3.5-2B)",
+        "d": "2026-06-13",
+        "m1": "0.071",
+        "m3": "9.548"
       },
       {
         "p": {
@@ -274,6 +413,28 @@
         "m2": "0.795",
         "m3": "9.018",
         "m4": "1.795"
+      },
+      {
+        "p": {
+          "name": "Odoriko: A Shape-Aware Multimodal Diffusion Framework for Human Motion",
+          "link": "https://arxiv.org/abs/2606.21135"
+        },
+        "c": "",
+        "n": "Odoriko",
+        "d": "2026-06-19",
+        "m1": "0.103",
+        "m2": "0.805",
+        "m3": "9.672"
+      },
+      {
+        "p": {
+          "name": "DrawMotion: Generating 3D Human Motions by Freehand Drawing",
+          "link": "https://arxiv.org/abs/2605.20955"
+        },
+        "c": "https://github.com/InvertedForest/DrawMotion",
+        "n": "DrawMotion",
+        "d": "2026-05-20",
+        "m1": "0.108"
       },
       {
         "p": {
@@ -405,6 +566,30 @@
       },
       {
         "p": {
+          "name": "Practice Makes Perfect: From Explicit Decomposition to Reinforced Latent Planning in Text-to-Human Motion",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/5797"
+        },
+        "c": "https://github.com/erwin2233/lact-motion",
+        "n": "LaCT-Motion",
+        "d": "2026-09-08",
+        "m1": "0.167",
+        "m2": "0.873",
+        "m3": "9.507"
+      },
+      {
+        "p": {
+          "name": "AvatarGPT: All-in-One Framework for Motion Understanding Planning Generation and Beyond",
+          "link": "https://arxiv.org/abs/2311.16468"
+        },
+        "c": "https://github.com/zixiangzhou916/avatargpt",
+        "n": "AvatarGPT (T5-Large)",
+        "d": "2023-11-28",
+        "m1": "0.168",
+        "m2": "0.796",
+        "m3": "9.624"
+      },
+      {
+        "p": {
           "name": "UniMotion: A Unified Framework for Motion-Text-Vision Understanding and Generation",
           "link": "https://arxiv.org/abs/2603.22282"
         },
@@ -414,6 +599,19 @@
         "m1": "0.194",
         "m2": "0.841",
         "m3": "9.583"
+      },
+      {
+        "p": {
+          "name": "MoRL: Reinforced Reasoning for Unified Motion Understanding and Generation",
+          "link": "https://arxiv.org/abs/2602.14534"
+        },
+        "c": "https://github.com/AIGeeksGroup/MoRL",
+        "n": "MoRL",
+        "d": "2026-02-16",
+        "m1": "0.203",
+        "m2": "0.821",
+        "m3": "9.701",
+        "m4": "2.702"
       },
       {
         "p": {
@@ -491,6 +689,18 @@
         "m2": "0.798",
         "m3": "9.607",
         "m4": "2.259"
+      },
+      {
+        "p": {
+          "name": "OMG: Towards Open-vocabulary Motion Generation via Mixture of Controllers",
+          "link": "https://arxiv.org/abs/2312.08985"
+        },
+        "c": "",
+        "n": "OMG",
+        "d": "2023-12-14",
+        "m1": "0.381",
+        "m2": "0.784",
+        "m3": "9.657"
       },
       {
         "p": {
@@ -616,6 +826,26 @@
         "m1": "11.02",
         "m2": "0.486",
         "m3": "7.676"
+      },
+      {
+        "p": {
+          "name": "Bridging Semantic and Kinematic Conditions with Diffusion-based Discrete Motion Tokenizer",
+          "link": "https://arxiv.org/abs/2603.19227"
+        },
+        "c": "https://github.com/rheallyc/MoTok",
+        "n": "MoTok-DDM-2",
+        "d": "2026-03-19",
+        "m2": "0.799"
+      },
+      {
+        "p": {
+          "name": "SFM: Taming State Space Models for Text-to-Motion via Spatial-Frequency Modeling",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/4637"
+        },
+        "c": "",
+        "n": "SFM",
+        "d": "2026-09-08",
+        "m2": "0.845"
       }
     ]
   }

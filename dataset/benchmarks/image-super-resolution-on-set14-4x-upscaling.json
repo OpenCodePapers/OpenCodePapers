@@ -154,6 +154,16 @@
       },
       {
         "p": {
+          "name": "SAT: Selective Aggregation Transformer for Image Super-Resolution",
+          "link": "https://arxiv.org/abs/2604.07994"
+        },
+        "c": "https://github.com/phutran1005/sat",
+        "n": "SAT",
+        "d": "2026-04-09",
+        "m1": "29.35"
+      },
+      {
+        "p": {
           "name": "Channel-Partitioned Windowed Attention And Frequency Learning for Single Image Super-Resolution",
           "link": "https://arxiv.org/abs/2407.16232v2"
         },
@@ -173,6 +183,27 @@
         "d": "2024-01-01",
         "m1": "29.30",
         "m2": "0.7985"
+      },
+      {
+        "p": {
+          "name": "Image Processing GNN: Breaking Rigidity in Super-Resolution",
+          "link": "http://openaccess.thecvf.com//content/CVPR2024/html/Tian_Image_Processing_GNN_Breaking_Rigidity_in_Super-Resolution_CVPR_2024_paper.html"
+        },
+        "c": "https://github.com/huawei-noah/Efficient-Computing",
+        "n": "IPG+",
+        "d": "2024-01-01",
+        "m1": "29.3",
+        "m2": "0.7979"
+      },
+      {
+        "p": {
+          "name": "WARP: Wide Attention with Rich Projections for Image Super-Resolution",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/4822"
+        },
+        "c": "",
+        "n": "WARP",
+        "d": "2026-09-08",
+        "m1": "29.3"
       },
       {
         "p": {
@@ -231,6 +262,17 @@
       },
       {
         "p": {
+          "name": "On Efficient Transformer-Based Image Pre-training for Low-Level Vision",
+          "link": "https://arxiv.org/abs/2112.10175v2"
+        },
+        "c": "https://github.com/fenglinglwb/edt",
+        "n": "EDT-B†",
+        "d": "2021-12-19",
+        "m1": "29.23",
+        "m2": "0.7971"
+      },
+      {
+        "p": {
           "name": "Recursive Generalization Transformer for Image Super-Resolution",
           "link": "https://arxiv.org/abs/2303.06373v4"
         },
@@ -283,6 +325,27 @@
       },
       {
         "p": {
+          "name": "Pixel to Gaussian: Ultra-Fast Continuous Super-Resolution with 2D Gaussian Modeling",
+          "link": "https://arxiv.org/abs/2503.06617"
+        },
+        "c": "",
+        "n": "ContinuousSR",
+        "d": "2025-03-09",
+        "m1": "29.18"
+      },
+      {
+        "p": {
+          "name": "Accurate Image Restoration with Attention Retractable Transformer",
+          "link": "https://arxiv.org/abs/2210.01427"
+        },
+        "c": "",
+        "n": "ART",
+        "d": "2022-10-04",
+        "m1": "29.16",
+        "m2": "0.7958"
+      },
+      {
+        "p": {
           "name": "SwinIR: Image Restoration Using Swin Transformer",
           "link": "https://arxiv.org/abs/2108.10257v1"
         },
@@ -313,6 +376,16 @@
         "d": "2021-04-15",
         "m1": "29.08",
         "m2": "0.7925"
+      },
+      {
+        "p": {
+          "name": "Latent Modulated Function for Computational Optimal Continuous Image Representation",
+          "link": "https://arxiv.org/abs/2404.16451"
+        },
+        "c": "https://github.com/hezongyao/lmf",
+        "n": "LM-CiaoSR (SwinIR encoder)",
+        "d": "2024-04-25",
+        "m1": "29.08"
       },
       {
         "p": {
@@ -348,6 +421,16 @@
       },
       {
         "p": {
+          "name": "TSP-Mamba: The Travelling Salesman Problem Meets Mamba for Image Super-resolution and Beyond",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhou_TSP-Mamba_The_Travelling_Salesman_Problem_Meets_Mamba_for_Image_Super-resolution_CVPR_2025_paper.html"
+        },
+        "c": "",
+        "n": "TSP-Mamba",
+        "d": "2025-06-11",
+        "m1": "29.05"
+      },
+      {
+        "p": {
           "name": "Deep Back-Projection Networks for Single Image Super-resolution",
           "link": "https://arxiv.org/abs/1904.05677v2"
         },
@@ -370,6 +453,16 @@
       },
       {
         "p": {
+          "name": "Pre-Trained Image Processing Transformer",
+          "link": "https://arxiv.org/abs/2012.00364v4"
+        },
+        "c": "https://github.com/huawei-noah/Pretrained-IPT",
+        "n": "IPT",
+        "d": "2020-12-01",
+        "m1": "29.01"
+      },
+      {
+        "p": {
           "name": "ESRGAN: Enhanced Super-Resolution Generative Adversarial Networks",
           "link": "http://arxiv.org/abs/1809.00219v2"
         },
@@ -389,6 +482,26 @@
         "d": "2020-08-20",
         "m1": "28.99",
         "m2": "0.7907"
+      },
+      {
+        "p": {
+          "name": "ADD: Attribution-Driven Data Augmentation Framework for Boosting Image Super-Resolution",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Mi_ADD_Attribution-Driven_Data_Augmentation_Framework_for_Boosting_Image_Super-Resolution_CVPR_2025_paper.html"
+        },
+        "c": "",
+        "n": "SwinIR + ADD+",
+        "d": "2025-06-11",
+        "m1": "28.99"
+      },
+      {
+        "p": {
+          "name": "UCAN: Unified Convolutional Attention Network for Expansive Receptive Fields in Lightweight Super-Resolution",
+          "link": "https://arxiv.org/abs/2603.11680"
+        },
+        "c": "",
+        "n": "UCAN-L",
+        "d": "2026-03-12",
+        "m1": "28.99"
       },
       {
         "p": {
@@ -952,6 +1065,17 @@
       },
       {
         "p": {
+          "name": "SeD: Semantic-Aware Discriminator for Image Super-Resolution",
+          "link": "https://arxiv.org/abs/2402.19387"
+        },
+        "c": "https://github.com/lbc12345/sed",
+        "n": "RRDB+U+SeD",
+        "d": "2024-02-29",
+        "m1": "27.94",
+        "m2": "0.757"
+      },
+      {
+        "p": {
           "name": "Seven ways to improve example-based single image super resolution",
           "link": "http://arxiv.org/abs/1511.02228v1"
         },
@@ -1090,6 +1214,27 @@
         "m2": "0.7438",
         "m4": "0.1027",
         "m5": "0.0819"
+      },
+      {
+        "p": {
+          "name": "Single Image Super-Resolution From Transformed Self-Exemplars",
+          "link": "https://ieeexplore.ieee.org/document/7298657"
+        },
+        "c": "https://github.com/jbhuang0604/selfexsr",
+        "n": "SelfExSR",
+        "d": "2015-01-01",
+        "m1": "27.40"
+      },
+      {
+        "p": {
+          "name": "Training Generative Image Super-Resolution Models by Wavelet-Domain Losses Enables Better Control of Artifacts",
+          "link": "https://arxiv.org/abs/2402.19215"
+        },
+        "c": "https://github.com/mandalinadagi/wgsr",
+        "n": "WGSR (1-lvl)",
+        "d": "2024-02-29",
+        "m1": "27.395",
+        "m2": "0.739"
       },
       {
         "p": {

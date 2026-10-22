@@ -1,0 +1,99 @@
+{
+  "title": "robot-manipulation-on-robocasa365-atomic-seen",
+  "task-hierarchy": [
+    "Robotics",
+    "Robot Manipulation"
+  ],
+  "dataset-info": {
+    "link": "https://robocasa.ai/",
+    "paper": "RoboCasa365: A Large-Scale Simulation Framework for Training and Benchmarking Generalist Robots"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Success Rate",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Zetta ζ: An Efficient Closed-Loop Embodied Harness for Self-Evolving Physical Intelligence",
+          "link": "https://arxiv.org/abs/2608.16590"
+        },
+        "c": "https://github.com/air-embodied-brain/zetta-embodiment",
+        "n": "Zetta + frozen GR00T N1.5",
+        "d": "2026-08-17",
+        "m1": "93.56"
+      },
+      {
+        "p": {
+          "name": "Self-Evolving Coding Agents: From Digital Programs to Physical-World Intelligence",
+          "link": "https://arxiv.org/abs/2609.35432"
+        },
+        "c": "https://github.com/HexaFuture/PhysicalCoding",
+        "n": "HexaModel v0.1 (extra data)",
+        "d": "2026-09-28",
+        "m1": "81.0"
+      },
+      {
+        "p": {
+          "name": "ZimaBlue: Evolving Generalizable World Action Models through Scalable Video Pre-training",
+          "link": "https://arxiv.org/abs/2609.00188"
+        },
+        "c": "https://github.com/ZimaBlue-WAM/ZimaBlue",
+        "n": "ZimaBlue (Slow System)",
+        "d": "2026-08-31",
+        "m1": "78.1"
+      },
+      {
+        "p": {
+          "name": "OpenWAM: An Open, Modular Exploration Towards Systematic World-Action Model Pretraining",
+          "link": "https://arxiv.org/abs/2609.07398"
+        },
+        "c": "https://github.com/OpenWAM-Official/OpenWAM",
+        "n": "OpenWAM-alpha",
+        "d": "2026-09-07",
+        "m1": "69.7"
+      },
+      {
+        "p": {
+          "name": "Can World and Action Modeling Benefit Each Other under Unified Causal Training?",
+          "link": "https://arxiv.org/abs/2610.21095"
+        },
+        "c": "https://github.com/Interactive-Active-AI/OneWM",
+        "n": "OneWM",
+        "d": "2026-10-15",
+        "m1": "68.78"
+      },
+      {
+        "p": {
+          "name": "RLDX-1 Technical Report",
+          "link": "https://arxiv.org/abs/2605.03269"
+        },
+        "c": "https://github.com/RLWRLD/RLDX-1",
+        "n": "RLDX-1",
+        "d": "2026-05-05",
+        "m1": "67.3"
+      }
+    ]
+  }
+}

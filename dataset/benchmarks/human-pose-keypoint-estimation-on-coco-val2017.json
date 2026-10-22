@@ -354,6 +354,26 @@
       },
       {
         "p": {
+          "name": "GKDT: General Keypoint Detection Transformer",
+          "link": "https://arxiv.org/abs/2607.00752"
+        },
+        "c": "https://github.com/alanlusun/general-keypoint-detection",
+        "n": "GKDT-H (extra data)",
+        "d": "2026-07-01",
+        "m1": "78.1"
+      },
+      {
+        "p": {
+          "name": "DynPose: Largely Improving the Efficiency of Human Pose Estimation by a Simple Dynamic Framework",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Xu_DynPose_Largely_Improving_the_Efficiency_of_Human_Pose_Estimation_by_CVPR_2025_paper.html"
+        },
+        "c": "https://github.com/aritoria/dynpose",
+        "n": "Dyn-R152-VL/50",
+        "d": "2025-06-11",
+        "m1": "78.0"
+      },
+      {
+        "p": {
           "name": "From RGB Generation to Dense Field Readout: Pixel-Space Dense Prediction with Text-to-Image Models",
           "link": "https://arxiv.org/abs/2607.06553v1"
         },
@@ -599,6 +619,16 @@
         "m2": "91.1",
         "m3": "84.1",
         "m4": "82.0"
+      },
+      {
+        "p": {
+          "name": "Argus: A Compact and Versatile Foundation Model for Vision",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhuang_Argus_A_Compact_and_Versatile_Foundation_Model_for_Vision_CVPR_2025_paper.html"
+        },
+        "c": "",
+        "n": "Argus",
+        "d": "2025-06-11",
+        "m1": "77.0"
       },
       {
         "p": {
@@ -948,6 +978,16 @@
         "m2": "90.6",
         "m3": "82.3",
         "m4": "80.8"
+      },
+      {
+        "p": {
+          "name": "GTR: Gated Token Recurrence for Efficient Dense Prediction",
+          "link": "https://arxiv.org/abs/2609.26590"
+        },
+        "c": "https://github.com/Intellindust-AI-Lab/GTR",
+        "n": "GTR-X",
+        "d": "2026-09-23",
+        "m1": "75.5"
       },
       {
         "p": {
@@ -1378,6 +1418,16 @@
         "m2": "92.3",
         "m3": "79.9",
         "m4": "76.1"
+      },
+      {
+        "p": {
+          "name": "DiffusionRegPose: Enhancing Multi-Person Pose Estimation using a Diffusion-Based End-to-End Regression Approach",
+          "link": "https://openaccess.thecvf.com/content/CVPR2024/html/Tan_DiffusionRegPose_Enhancing_Multi-Person_Pose_Estimation_using_a_Diffusion-Based_End-to-End_Regression_CVPR_2024_paper.html"
+        },
+        "c": "https://github.com/cici203/diffusionregpose",
+        "n": "DiffusionRegPose",
+        "d": "2024-06-17",
+        "m1": "72.5"
       },
       {
         "p": {
@@ -1873,6 +1923,16 @@
         "c": "https://github.com/facebookresearch/detectron",
         "n": "Mask R-CNN + NL blocks (4 in head, 1 in backbone)",
         "d": "2017-11-21",
+        "m1": "66.5"
+      },
+      {
+        "p": {
+          "name": "Masked AutoDecoder is Effective Multi-Task Vision Generalist",
+          "link": "https://arxiv.org/abs/2403.07692"
+        },
+        "c": "https://github.com/hanqiu-hq/mad",
+        "n": "MAD (ViT-B)",
+        "d": "2024-03-12",
         "m1": "66.5"
       },
       {

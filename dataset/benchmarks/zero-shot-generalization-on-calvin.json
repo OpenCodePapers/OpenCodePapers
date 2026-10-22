@@ -36,6 +36,16 @@
     "items": [
       {
         "p": {
+          "name": "MMaDA-VLA: Large Diffusion Vision-Language-Action Model with Unified Multi-Modal Instruction and Generation",
+          "link": "https://arxiv.org/abs/2603.25406"
+        },
+        "c": "https://github.com/yliu-cs/MMaDA-VLA",
+        "n": "MMaDA-VLA (CALVIN ABC→D)",
+        "d": "2026-03-26",
+        "m1": "4.78"
+      },
+      {
+        "p": {
           "name": "Xiaomi-Robotics-0: An Open-Sourced Vision-Language-Action Model with Real-Time Execution",
           "link": "https://arxiv.org/abs/2602.12684"
         },
@@ -43,6 +53,66 @@
         "n": "Xiaomi-Robotics-0",
         "d": "2026-02-13",
         "m1": "4.75"
+      },
+      {
+        "p": {
+          "name": "GreenWAM: A World Foundation Model for Robotics",
+          "link": "https://arxiv.org/abs/2610.18774"
+        },
+        "c": "https://github.com/greenvla/GreenWAM",
+        "n": "GreenWAM",
+        "d": "2026-10-13",
+        "m1": "4.64"
+      },
+      {
+        "p": {
+          "name": "FLOWER: Democratizing Generalist Robot Policies with Efficient Vision-Language-Action Flow Policies",
+          "link": "https://arxiv.org/abs/2509.04996"
+        },
+        "c": "https://github.com/intuitive-robots/flower_vla_calvin",
+        "n": "FLOWER (ABC→D, PrT)",
+        "d": "2025-09-05",
+        "m1": "4.53"
+      },
+      {
+        "p": {
+          "name": "PAIR: Bridging Perception and Action in Vision-Language-Action Models",
+          "link": "https://arxiv.org/abs/2610.09016"
+        },
+        "c": "",
+        "n": "VLA-Adapter + PAIR",
+        "d": "2026-10-06",
+        "m1": "4.53"
+      },
+      {
+        "p": {
+          "name": "Disentangled Robot Learning via Separate Forward and Inverse Dynamics Pretraining",
+          "link": "https://arxiv.org/abs/2604.16391"
+        },
+        "c": "https://github.com/LogosRoboticsGroup/DeFi",
+        "n": "DeFI",
+        "d": "2026-03-27",
+        "m1": "4.51"
+      },
+      {
+        "p": {
+          "name": "LEAP-VLA: Latent-Enhanced Action Prototyping via Continuous Residual Latent Spaces for Vision-Language-Action Models",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/3297"
+        },
+        "c": "",
+        "n": "LEAP-VLA",
+        "d": "2026-09-08",
+        "m1": "4.28"
+      },
+      {
+        "p": {
+          "name": "AffordanceWAM: Affordance-Aware Joint World-Action Modeling for Robot Manipulation",
+          "link": "https://arxiv.org/abs/2609.22332"
+        },
+        "c": "https://github.com/Skywalker-yqz/AffordanceWAM",
+        "n": "AffordanceWAM",
+        "d": "2026-10-18",
+        "m1": "4.22"
       },
       {
         "p": {
@@ -66,6 +136,46 @@
       },
       {
         "p": {
+          "name": "Learning a Unified Latent Action Space from Videos with Action-centric Cycle Consistency",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Chen_Learning_a_Unified_Latent_Action_Space_from_Videos_with_Action-centric_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "CycleMimic",
+        "d": "2026-06-03",
+        "m1": "3.93"
+      },
+      {
+        "p": {
+          "name": "OmniStream: Mastering Perception, Reconstruction and Action in Continuous Streams",
+          "link": "https://arxiv.org/abs/2603.12265"
+        },
+        "c": "https://github.com/Go2Heart/OmniStream",
+        "n": "OmniStream-7B",
+        "d": "2026-03-12",
+        "m1": "3.885"
+      },
+      {
+        "p": {
+          "name": "UniVLA: Learning to Act Anywhere with Task-centric Latent Actions",
+          "link": "https://arxiv.org/abs/2505.06111v2"
+        },
+        "c": "https://github.com/opendrivelab/univla",
+        "n": "UniVLA (Task-centric Latent Actions, CALVIN ABC→D)",
+        "d": "2025-05-09",
+        "m1": "3.8"
+      },
+      {
+        "p": {
+          "name": "EmbodiedMidtrain: Bridging the Gap between Vision-Language Models and Vision-Language-Action Models via Mid-training",
+          "link": "https://arxiv.org/abs/2604.20012"
+        },
+        "c": "",
+        "n": "InternVL3.5-1B + EmbodiedMidtrain",
+        "d": "2026-04-21",
+        "m1": "3.714"
+      },
+      {
+        "p": {
           "name": "RoboUniView: Visual-Language Model with Unified View Representation for Robotic Manipulation",
           "link": "https://arxiv.org/abs/2406.18977v3"
         },
@@ -73,6 +183,16 @@
         "n": "RoboUniView",
         "d": "2024-06-27",
         "m1": "3.647"
+      },
+      {
+        "p": {
+          "name": "Recurrent-Depth VLA: Implicit Test-Time Compute Scaling of Vision-Language-Action Models via Latent Iterative Reasoning",
+          "link": "https://arxiv.org/abs/2602.07845"
+        },
+        "c": "https://github.com/rd-vla/rd-vla",
+        "n": "RD-VLA (0.5B)",
+        "d": "2026-02-08",
+        "m1": "3.39"
       },
       {
         "p": {
@@ -93,6 +213,26 @@
         "n": "GR-1",
         "d": "2023-12-20",
         "m1": "3.06"
+      },
+      {
+        "p": {
+          "name": "DeeR-VLA: Dynamic Inference of Multimodal Large Language Models for Efficient Robot Execution",
+          "link": "https://arxiv.org/abs/2411.02359"
+        },
+        "c": "https://github.com/yueyang130/deer-vla",
+        "n": "DeeR w. online (CALVIN ABC→D)",
+        "d": "2024-11-04",
+        "m1": "2.90"
+      },
+      {
+        "p": {
+          "name": "RoboAlign: Learning Test-Time Reasoning for Language-Action Alignment in Vision-Language-Action Models",
+          "link": "https://arxiv.org/abs/2603.21341"
+        },
+        "c": "",
+        "n": "RoboAlign",
+        "d": "2026-03-22",
+        "m1": "2.57"
       }
     ]
   }

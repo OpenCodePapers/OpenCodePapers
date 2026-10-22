@@ -1,0 +1,108 @@
+{
+  "title": "visual-question-answering-vqa-on-mmt-bench",
+  "task-hierarchy": [
+    "Visual Question Answering (VQA)"
+  ],
+  "dataset-info": {
+    "link": "https://proceedings.mlr.press/v235/ying24a.html",
+    "paper": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "InternVL3: Exploring Advanced Training and Test-Time Recipes for Open-Source Multimodal Models",
+          "link": "https://arxiv.org/abs/2504.10479"
+        },
+        "c": "https://github.com/OpenGVLab/InternVL",
+        "n": "InternVL3-78B",
+        "d": "2025-04-14",
+        "m1": "73.2"
+      },
+      {
+        "p": {
+          "name": "MiniCPM-o 4.5: Towards Real-Time Full-Duplex Omni-Modal Interaction",
+          "link": "https://arxiv.org/abs/2604.27393"
+        },
+        "c": "https://github.com/OpenBMB/MiniCPM-o",
+        "n": "MiniCPM-o 4.5-Instruct",
+        "d": "2026-04-30",
+        "m1": "69.7"
+      },
+      {
+        "p": {
+          "name": "Ovis2.5 Technical Report",
+          "link": "https://arxiv.org/abs/2508.11737"
+        },
+        "c": "https://github.com/AIDC-AI/Ovis",
+        "n": "Ovis2.5-9B",
+        "d": "2025-08-15",
+        "m1": "69.3"
+      },
+      {
+        "p": {
+          "name": "MiniCPM-V 4.5: Cooking Efficient MLLMs via Architecture, Data, and Training Recipe",
+          "link": "https://arxiv.org/abs/2509.18154"
+        },
+        "c": "https://github.com/OpenBMB/MiniCPM-V",
+        "n": "MiniCPM-V 4.5",
+        "d": "2025-09-16",
+        "m1": "68.3"
+      },
+      {
+        "p": {
+          "name": "OneThinker: All-in-one Reasoning Model for Image and Video",
+          "link": "https://arxiv.org/abs/2512.03043"
+        },
+        "c": "https://github.com/tulerfeng/onethinker",
+        "n": "OneThinker-8B",
+        "d": "2025-12-02",
+        "m1": "67.8"
+      },
+      {
+        "p": {
+          "name": "CoLT: Teaching Multi-Modal Models to Think with Chain of Latent Thoughts",
+          "link": "https://arxiv.org/abs/2606.31986"
+        },
+        "c": "https://github.com/hulianyuyy/colt",
+        "n": "CoLT",
+        "d": "2026-06-30",
+        "m1": "67.4"
+      },
+      {
+        "p": {
+          "name": "Differences That Matter: Auditing Models for Capability Gap Discovery and Rectification",
+          "link": "https://arxiv.org/abs/2512.16921"
+        },
+        "c": "",
+        "n": "Gemma3 + AuditDM",
+        "d": "2025-12-18",
+        "m1": "58.9"
+      }
+    ]
+  }
+}

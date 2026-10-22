@@ -1,0 +1,99 @@
+{
+  "title": "computer-use-agents-on-mobileworld",
+  "task-hierarchy": [
+    "Agents",
+    "Computer Use Agents"
+  ],
+  "dataset-info": {
+    "link": "https://tongyi-mai.github.io/MobileWorld/",
+    "paper": "MobileWorld: Benchmarking Autonomous Mobile Agents in Agent-User Interactive, and MCP-Augmented Environments"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Success Rate",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Qwen-UI-Agent Technical Report: Toward Next-Generation Real-World Centric Foundation GUI Agents",
+          "link": "https://arxiv.org/abs/2607.28227"
+        },
+        "c": "",
+        "n": "Qwen-UI-Agent (27B)",
+        "d": "2026-07-30",
+        "m1": "82.1"
+      },
+      {
+        "p": {
+          "name": "Qwen3.8-Max: A New Bar for Coding and Cowork",
+          "link": "https://qwen.ai/blog?id=qwen3.8"
+        },
+        "c": "https://github.com/vllm-project/vllm",
+        "n": "Qwen3.8-Max",
+        "d": "2026-08-03",
+        "m1": "77.8"
+      },
+      {
+        "p": {
+          "name": "MobileWorld: Benchmarking Autonomous Mobile Agents in Agent-User Interactive, and MCP-Augmented Environments",
+          "link": "https://arxiv.org/abs/2512.19432"
+        },
+        "c": "https://github.com/Tongyi-MAI/MobileWorld",
+        "n": "MobileWorld Planner-Executor (GPT-5 + UI-Ins-7B)",
+        "d": "2025-12-22",
+        "m1": "51.7"
+      },
+      {
+        "p": {
+          "name": "Mobile-Agent-v3.5: Multi-platform Fundamental GUI Agents",
+          "link": "https://arxiv.org/abs/2602.16855"
+        },
+        "c": "https://github.com/x-plug/mobileagent",
+        "n": "GUI-Owl-1.5-32B-Instruct",
+        "d": "2026-02-15",
+        "m1": "46.8"
+      },
+      {
+        "p": {
+          "name": "MAI-UI Technical Report: Real-World Centric Foundation GUI Agents",
+          "link": "https://arxiv.org/abs/2512.22047"
+        },
+        "c": "https://github.com/Tongyi-MAI/MAI-UI",
+        "n": "MAI-UI-235B-A22B",
+        "d": "2025-12-26",
+        "m1": "41.7"
+      },
+      {
+        "p": {
+          "name": "LLaDA-UI: Bringing Block-wise Diffusion to Vision-Language GUI Agents",
+          "link": "https://arxiv.org/abs/2609.13287"
+        },
+        "c": "https://github.com/inclusionai/llada-ui",
+        "n": "LLaDA-UI",
+        "d": "2026-09-09",
+        "m1": "25.6"
+      }
+    ]
+  }
+}

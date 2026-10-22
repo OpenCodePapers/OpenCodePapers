@@ -1,0 +1,78 @@
+{
+  "title": "visual-question-answering-vqa-on-vibe-eval",
+  "task-hierarchy": [
+    "Visual Question Answering (VQA)"
+  ],
+  "dataset-info": {
+    "link": "https://arxiv.org/abs/2405.02287",
+    "paper": "Vibe-Eval: A hard evaluation suite for measuring progress of multimodal language models"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Gemini 2.5: Pushing the Frontier with Advanced Reasoning, Multimodality, Long Context, and Next Generation Agentic Capabilities",
+          "link": "https://arxiv.org/abs/2507.06261"
+        },
+        "c": "",
+        "n": "Gemini 2.5 Pro",
+        "d": "2025-07-07",
+        "m1": "67.2"
+      },
+      {
+        "p": {
+          "name": "Gemini 2.5: Pushing the Frontier with Advanced Reasoning, Multimodality, Long Context, and Next Generation Agentic Capabilities",
+          "link": "https://arxiv.org/abs/2507.06261"
+        },
+        "c": "",
+        "n": "Gemini 2.5 Flash",
+        "d": "2025-07-07",
+        "m1": "65.4"
+      },
+      {
+        "p": {
+          "name": "Introducing Gemini 2.0: our new AI model for the agentic era",
+          "link": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/google-gemini-ai-update-december-2024/"
+        },
+        "c": "",
+        "n": "Gemini 2.0 Flash Experimental",
+        "d": "2024-12-11",
+        "m1": "56.3"
+      },
+      {
+        "p": {
+          "name": "LLaVA-OneVision: Easy Visual Task Transfer",
+          "link": "https://arxiv.org/abs/2408.03326v3"
+        },
+        "c": "https://github.com/evolvinglmms-lab/lmms-eval",
+        "n": "LLaVA-OneVision-72B",
+        "d": "2024-08-06",
+        "m1": "50.7"
+      }
+    ]
+  }
+}

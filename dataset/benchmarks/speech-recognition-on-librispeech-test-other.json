@@ -268,6 +268,16 @@
         "m1": "2.6"
       },
       {
+        "p": {
+          "name": "ERNIE 5.0 Technical Report",
+          "link": "https://arxiv.org/abs/2602.04705"
+        },
+        "c": "",
+        "n": "ERNIE 5.0",
+        "d": "2026-02-04",
+        "m1": "2.61"
+      },
+      {
         "p": "",
         "c": "https://github.com/NVIDIA/NeMo",
         "n": "nvidia/canary-qwen-2.5b",
@@ -286,12 +296,32 @@
       },
       {
         "p": {
+          "name": "Building a Production Greek-English Speech Recognizer",
+          "link": "https://arxiv.org/abs/2609.13498"
+        },
+        "c": "",
+        "n": "sophea/asr-k1 (preview)",
+        "d": "2026-09-11",
+        "m1": "2.68"
+      },
+      {
+        "p": {
           "name": "Pulse STT: Fast, Accurate Speech-to-Text",
           "link": "https://smallest.ai/speech-to-text"
         },
         "c": "",
         "n": "smallestai/pulse",
         "d": "2026-01-28",
+        "m1": "2.7"
+      },
+      {
+        "p": {
+          "name": "MASQuant: Modality-Aware Smoothing Quantization for Multimodal Large Language Models",
+          "link": "https://arxiv.org/abs/2603.04800"
+        },
+        "c": "https://github.com/alibaba/efficientai",
+        "n": "MASQuant (Qwen2.5-Omni-7B)",
+        "d": "2026-03-05",
         "m1": "2.7"
       },
       {
@@ -303,6 +333,16 @@
         "n": "nvidia/parakeet-tdt-0.6b-v2",
         "d": "2025-05-01",
         "m1": "2.73"
+      },
+      {
+        "p": {
+          "name": "Audio Flamingo Next: Next-Generation Open Audio-Language Models for Speech, Sound, and Music",
+          "link": "https://arxiv.org/abs/2604.10905"
+        },
+        "c": "",
+        "n": "AF-Next-Instruct",
+        "d": "2026-04-13",
+        "m1": "2.76"
       },
       {
         "p": {
@@ -353,6 +393,16 @@
       },
       {
         "p": {
+          "name": "Raon-Speech Technical Report",
+          "link": "https://arxiv.org/abs/2605.23912"
+        },
+        "c": "https://github.com/krafton-ai/raon-speech",
+        "n": "Raon-Speech",
+        "d": "2026-04-08",
+        "m1": "2.89"
+      },
+      {
+        "p": {
           "name": "HuBERT: Self-Supervised Speech Representation Learning by Masked Prediction of Hidden Units",
           "link": "https://arxiv.org/abs/2106.07447v1"
         },
@@ -393,6 +443,16 @@
       },
       {
         "p": {
+          "name": "Unified Audio Intelligence Without Regressing on Text Intelligence",
+          "link": "https://arxiv.org/abs/2607.05196"
+        },
+        "c": "",
+        "n": "Audex 30B-A3B",
+        "d": "2026-07-06",
+        "m1": "3.06"
+      },
+      {
+        "p": {
           "name": "Canary-1B-v2 & Parakeet-TDT-0.6B-v3: Efficient and High-Performance Models for Multilingual ASR and AST",
           "link": "https://arxiv.org/abs/2509.14128"
         },
@@ -420,6 +480,16 @@
         "n": "nvidia/parakeet-tdt-0.6b-v3",
         "d": "2025-08-14",
         "m1": "3.12"
+      },
+      {
+        "p": {
+          "name": "StepAudio 2.5 Technical Report",
+          "link": "https://arxiv.org/abs/2605.23463"
+        },
+        "c": "",
+        "n": "StepAudio 2.5 ASR",
+        "d": "2026-05-22",
+        "m1": "3.16"
       },
       {
         "p": {
@@ -493,6 +563,16 @@
       },
       {
         "p": {
+          "name": "Mega-ASR: Towards In-the-wild^2 Speech Recognition via Scaling up Real-world Acoustic Simulation",
+          "link": "https://arxiv.org/abs/2605.19833"
+        },
+        "c": "https://github.com/xzf-thu/Mega-ASR",
+        "n": "Mega-ASR w/ router",
+        "d": "2026-05-19",
+        "m1": "3.37"
+      },
+      {
+        "p": {
           "name": "Fast Conformer with Linearly Scalable Attention for Efficient Speech Recognition",
           "link": "https://arxiv.org/abs/2305.05084"
         },
@@ -530,6 +610,16 @@
         "n": "nvidia/canary-180m-flash",
         "d": "2025-03-11",
         "m1": "3.41"
+      },
+      {
+        "p": {
+          "name": "LongCat-Next: Lexicalizing Modalities as Discrete Tokens",
+          "link": "https://arxiv.org/abs/2603.27538"
+        },
+        "c": "https://github.com/meituan-longcat/LongCat-Next",
+        "n": "LongCat-Next (A3B, 68.5B)",
+        "d": "2026-03-29",
+        "m1": "3.42"
       },
       {
         "p": {
@@ -579,6 +669,16 @@
         "c": "https://github.com/efeslab/LiteASR",
         "n": "efficient-speech/lite-whisper-large-v3-acc",
         "d": "2025-02-26",
+        "m1": "3.5"
+      },
+      {
+        "p": {
+          "name": "Audio-Visual Flamingo: Open Audio-Visual Intelligence for Long and Complex Videos",
+          "link": "https://arxiv.org/abs/2607.16107"
+        },
+        "c": "",
+        "n": "AVF-Instruct",
+        "d": "2026-07-17",
         "m1": "3.5"
       },
       {
@@ -863,6 +963,16 @@
       },
       {
         "p": {
+          "name": "Introducing LFM2.5: The Next Generation of On-Device AI",
+          "link": "https://www.liquid.ai/blog/introducing-lfm2-5-the-next-generation-of-on-device-ai"
+        },
+        "c": "",
+        "n": "LFM2.5-Audio-1.5B",
+        "d": "2026-01-05",
+        "m1": "4.30"
+      },
+      {
+        "p": {
           "name": "Stateful Conformer with Cache-based Inference for Streaming Automatic Speech Recognition",
           "link": "https://arxiv.org/abs/2312.17279"
         },
@@ -993,6 +1103,16 @@
       },
       {
         "p": {
+          "name": "Dynin-Omni: Omnimodal Unified Large Diffusion Language Model",
+          "link": "https://arxiv.org/abs/2604.00007"
+        },
+        "c": "https://github.com/AIDASLab/Dynin-Omni",
+        "n": "Dynin-Omni (8B)",
+        "d": "2026-03-09",
+        "m1": "4.8"
+      },
+      {
+        "p": {
           "name": "On the Effects of Heterogeneous Data Sources on Speech-to-Text Foundation Models",
           "link": "https://arxiv.org/abs/2406.09282"
         },
@@ -1103,6 +1223,16 @@
       },
       {
         "p": {
+          "name": "DIFFA-2: A Practical Diffusion Large Language Model for General Audio Understanding",
+          "link": "https://arxiv.org/abs/2601.23161"
+        },
+        "c": "",
+        "n": "DIFFA-2 (S1)",
+        "d": "2026-01-30",
+        "m1": "5.34"
+      },
+      {
+        "p": {
           "name": "ContextNet: Improving Convolutional Neural Networks for Automatic Speech Recognition with Global Context",
           "link": "https://arxiv.org/abs/2005.03191v3"
         },
@@ -1110,6 +1240,16 @@
         "n": "ContextNet(S)",
         "d": "2020-05-07",
         "m1": "5.5"
+      },
+      {
+        "p": {
+          "name": "X-AuT: Progressive Audio-Encoder Compression for Speech LLMs with Cross-Scale Distillation",
+          "link": "https://arxiv.org/abs/2609.11412"
+        },
+        "c": "https://github.com/XPENG-AI/X-AuT",
+        "n": "X-AuT Prune-14 S2",
+        "d": "2026-09-10",
+        "m1": "5.52"
       },
       {
         "p": {
@@ -1173,6 +1313,26 @@
       },
       {
         "p": {
+          "name": "Pruned CTC for Memory-Efficient Large-Vocabulary ASR Training",
+          "link": "https://arxiv.org/abs/2609.33645"
+        },
+        "c": "https://github.com/yfyeung/PrunedCTC",
+        "n": "Pruned CTC (ours)",
+        "d": "2026-09-27",
+        "m1": "6.02"
+      },
+      {
+        "p": {
+          "name": "MiDashengLM: Efficient Audio Understanding with General Audio Captions",
+          "link": "https://arxiv.org/abs/2508.03983"
+        },
+        "c": "https://huggingface.co/mispeech/midashenglm-7b",
+        "n": "MiDashengLM-7B",
+        "d": "2025-08-06",
+        "m1": "6.2"
+      },
+      {
+        "p": {
           "name": "Moonshine v2: Ergodic Streaming Encoder ASR for Latency-Critical Speech Applications",
           "link": "https://arxiv.org/abs/2602.12241"
         },
@@ -1190,6 +1350,16 @@
         "n": "facebook/data2vec-audio-base-960h",
         "d": "2022-03-02",
         "m1": "6.43"
+      },
+      {
+        "p": {
+          "name": "VibeVoice-ASR-Streaming Technical Report",
+          "link": "https://arxiv.org/abs/2609.02812"
+        },
+        "c": "https://github.com/microsoft/vibevoice",
+        "n": "VibeVoice-ASR-Streaming-7B (22 frames)",
+        "d": "2026-09-02",
+        "m1": "6.49"
       },
       {
         "p": {

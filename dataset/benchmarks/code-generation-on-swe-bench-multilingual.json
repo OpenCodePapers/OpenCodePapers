@@ -1,0 +1,619 @@
+{
+  "title": "code-generation-on-swe-bench-multilingual",
+  "task-hierarchy": [
+    "Code Intelligence",
+    "Code Generation"
+  ],
+  "dataset-info": {
+    "link": "https://www.swebench.com/multilingual.html",
+    "paper": "SWE-bench: Can Language Models Resolve Real-World GitHub Issues?"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Introducing Claude Opus 5.5",
+          "link": "https://www.anthropic.com/claude-opus-5-5"
+        },
+        "c": "https://github.com/anthropics/claude-code",
+        "n": "Claude Opus 5.5",
+        "d": "2026-09-22",
+        "m1": "93.9"
+      },
+      {
+        "p": {
+          "name": "Claude Fable 5 and Claude Mythos 5",
+          "link": "https://www.anthropic.com/news/claude-fable-5-mythos-5"
+        },
+        "c": "https://github.com/anthropics/claude-code",
+        "n": "Claude Mythos 5",
+        "d": "2026-06-09",
+        "m1": "92.2"
+      },
+      {
+        "p": {
+          "name": "Introducing Claude Sonnet 5.5",
+          "link": "https://www.anthropic.com/claude-sonnet-5-5"
+        },
+        "c": "https://github.com/anthropics/claude-code",
+        "n": "Claude Sonnet 5.5",
+        "d": "2026-09-28",
+        "m1": "90.3"
+      },
+      {
+        "p": {
+          "name": "Introducing Claude Opus 5",
+          "link": "https://www.anthropic.com/news/claude-opus-5"
+        },
+        "c": "https://github.com/anthropics/claude-code",
+        "n": "Claude Opus 5",
+        "d": "2026-07-24",
+        "m1": "89.5"
+      },
+      {
+        "p": {
+          "name": "Introducing Claude Fable 5.1 and Claude Mythos 5.1",
+          "link": "https://www.anthropic.com/claude-fable-and-mythos-5-1"
+        },
+        "c": "",
+        "n": "Claude Fable 5.1 (max effort)",
+        "d": "2026-09-01",
+        "m1": "89.1"
+      },
+      {
+        "p": {
+          "name": "Introducing Claude Opus 4.8",
+          "link": "https://www.anthropic.com/news/claude-opus-4-8"
+        },
+        "c": "",
+        "n": "Claude Opus 4.8",
+        "d": "2026-05-28",
+        "m1": "84.4"
+      },
+      {
+        "p": {
+          "name": "Introducing Claude Haiku 5.5",
+          "link": "https://www.anthropic.com/claude-haiku-5-5"
+        },
+        "c": "",
+        "n": "Claude Haiku 5.5 (max effort)",
+        "d": "2026-10-07",
+        "m1": "83.7"
+      },
+      {
+        "p": {
+          "name": "Hy4 preview",
+          "link": "https://github.com/Tencent-Hunyuan/Hy4-preview/blob/1296fab2674cb5a645ccfe53e9a8dc225dbe69f2/README.md"
+        },
+        "c": "https://github.com/tencent-hunyuan/hy4-preview",
+        "n": "Hy4 preview (swe-agent scaffold)",
+        "d": "2026-08-28",
+        "m1": "82.9"
+      },
+      {
+        "p": {
+          "name": "Intern-S2-Preview: Scientific Agentic Foundation Model",
+          "link": "https://arxiv.org/abs/2608.13505"
+        },
+        "c": "https://github.com/internlm/intern-s1",
+        "n": "Intern-S2-Preview-397B (Mini-SWE-Agent)",
+        "d": "2026-08-13",
+        "m1": "81.67"
+      },
+      {
+        "p": {
+          "name": "On the Design of Qwen3.8-Next Architecture: Evaluation, Efficiency, and Training Stability",
+          "link": "https://arxiv.org/abs/2608.30320"
+        },
+        "c": "https://github.com/qwenlm/flashqla",
+        "n": "Qwen3.8-Flash-Next (mini-SWE-agent)",
+        "d": "2026-08-31",
+        "m1": "81.0"
+      },
+      {
+        "p": {
+          "name": "Introducing Claude Opus 4.7",
+          "link": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        "c": "",
+        "n": "Claude Opus 4.7",
+        "d": "2026-04-16",
+        "m1": "80.5"
+      },
+      {
+        "p": {
+          "name": "Composer 2 Technical Report",
+          "link": "https://arxiv.org/abs/2603.24477"
+        },
+        "c": "",
+        "n": "Composer 2.5 (Cursor harness)",
+        "d": "2026-03-25",
+        "m1": "79.8"
+      },
+      {
+        "p": {
+          "name": "Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding",
+          "link": "https://deep-reinforce.com/ornith_1_0.html"
+        },
+        "c": "https://github.com/deepreinforce-ai/Ornith-1",
+        "n": "Ornith-1.0-397B (OpenHands)",
+        "d": "2026-06-21",
+        "m1": "78.9"
+      },
+      {
+        "p": {
+          "name": "Introducing Laguna S 2.1",
+          "link": "https://poolside.ai/blog/introducing-laguna-s-2-1"
+        },
+        "c": "https://github.com/vllm-project/vllm",
+        "n": "Laguna S 2.1 (pool)",
+        "d": "2026-07-21",
+        "m1": "78.5"
+      },
+      {
+        "p": {
+          "name": "Introducing LongCat-2.0",
+          "link": "https://longcat.chat/blog/longcat-2.0/"
+        },
+        "c": "https://huggingface.co/meituan-longcat/LongCat-2.0",
+        "n": "LongCat-2.0",
+        "d": "2026-07-05",
+        "m1": "78.3"
+      },
+      {
+        "p": {
+          "name": "Introducing Grok 4.5",
+          "link": "https://x.ai/news/grok-4-5"
+        },
+        "c": "",
+        "n": "Grok 4.5",
+        "d": "2026-07-08",
+        "m1": "78.0"
+      },
+      {
+        "p": {
+          "name": "Introducing Beam: Reflection's 501B open-weight model",
+          "link": "https://reflection.ai/blog/introducing-beam"
+        },
+        "c": "",
+        "n": "Beam",
+        "d": "2026-10-05",
+        "m1": "78.0"
+      },
+      {
+        "p": {
+          "name": "Introducing Claude Opus 4.6",
+          "link": "https://www.anthropic.com/news/claude-opus-4-6"
+        },
+        "c": "",
+        "n": "Claude Opus 4.6",
+        "d": "2026-02-05",
+        "m1": "77.83"
+      },
+      {
+        "p": {
+          "name": "Kimi K2.6",
+          "link": "https://www.kimi.com/blog/kimi-k2-6"
+        },
+        "c": "https://huggingface.co/moonshotai/Kimi-K2.6",
+        "n": "Kimi K2.6 (In-house SWE-agent-adapted framework)",
+        "d": "2026-04-20",
+        "m1": "76.7"
+      },
+      {
+        "p": {
+          "name": "The MiniMax-M2 Series: Mini Activations Unleashing Max Real-World Intelligence",
+          "link": "https://arxiv.org/abs/2605.26494"
+        },
+        "c": "https://huggingface.co/MiniMaxAI/MiniMax-M2.7",
+        "n": "MiniMax-M2.7",
+        "d": "2026-05-26",
+        "m1": "76.5"
+      },
+      {
+        "p": {
+          "name": "Introducing Claude Opus 4.5",
+          "link": "https://www.anthropic.com/news/claude-opus-4-5"
+        },
+        "c": "",
+        "n": "Claude Opus 4.5",
+        "d": "2025-11-24",
+        "m1": "76.2"
+      },
+      {
+        "p": {
+          "name": "DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence",
+          "link": "https://arxiv.org/abs/2606.19348"
+        },
+        "c": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+        "n": "DeepSeek-V4-Pro Max",
+        "d": "2026-04-26",
+        "m1": "76.2"
+      },
+      {
+        "p": {
+          "name": "Introducing Claude Sonnet 4.6",
+          "link": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        "c": "",
+        "n": "Claude Sonnet 4.6",
+        "d": "2026-02-17",
+        "m1": "75.9"
+      },
+      {
+        "p": {
+          "name": "Hy3",
+          "link": "https://hy.tencent.com/research/hy3"
+        },
+        "c": "https://github.com/Tencent-Hunyuan/Hy3",
+        "n": "Hy3 (SWE-agent)",
+        "d": "2026-07-02",
+        "m1": "75.8"
+      },
+      {
+        "p": {
+          "name": "dots3-note Preview: A Small but Mighty Step Toward Long-Horizon Agency in Real Life",
+          "link": "https://studio.dots.ai/dots/dots3-en.html"
+        },
+        "c": "https://github.com/studio-dots-ai/dots3-note-prev",
+        "n": "dots3-note Preview (live-swe-agent)",
+        "d": "2026-08-13",
+        "m1": "75.67"
+      },
+      {
+        "p": {
+          "name": "KAT-Coder-V2 Technical Report",
+          "link": "https://arxiv.org/abs/2603.27703"
+        },
+        "c": "",
+        "n": "KAT-Coder-V2 (Claude Code)",
+        "d": "2026-03-29",
+        "m1": "75.4"
+      },
+      {
+        "p": {
+          "name": "Composer 2 Technical Report",
+          "link": "https://arxiv.org/abs/2603.24477"
+        },
+        "c": "",
+        "n": "Composer 2 (Cursor harness)",
+        "d": "2026-03-25",
+        "m1": "73.7"
+      },
+      {
+        "p": {
+          "name": "GLM-5: From Vibe Coding to Agentic Engineering",
+          "link": "https://z.ai/blog/glm-5"
+        },
+        "c": "https://github.com/zai-org/GLM-5",
+        "n": "GLM-5 (OpenHands)",
+        "d": "2026-02-11",
+        "m1": "73.3"
+      },
+      {
+        "p": {
+          "name": "DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence",
+          "link": "https://arxiv.org/abs/2606.19348"
+        },
+        "c": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+        "n": "DeepSeek-V4-Flash Max",
+        "d": "2026-04-26",
+        "m1": "73.3"
+      },
+      {
+        "p": {
+          "name": "Kimi K2.5: Visual Agentic Intelligence",
+          "link": "https://arxiv.org/abs/2602.02276"
+        },
+        "c": "https://github.com/MoonshotAI/Kimi-K2.5",
+        "n": "Kimi K2.5 (Internal agent scaffold)",
+        "d": "2026-02-02",
+        "m1": "73.0"
+      },
+      {
+        "p": {
+          "name": "Ling-3.0-flash",
+          "link": "https://huggingface.co/inclusionAI/Ling-3.0-flash"
+        },
+        "c": "",
+        "n": "Ling-3.0-flash (OpenHands)",
+        "d": "2026-07-23",
+        "m1": "72.4"
+      },
+      {
+        "p": {
+          "name": "MiMo-V2-Flash Technical Report",
+          "link": "https://arxiv.org/abs/2601.02780"
+        },
+        "c": "https://github.com/XiaomiMiMo/MiMo-V2-Flash",
+        "n": "MiMo-V2-Flash (Thinking)",
+        "d": "2026-01-06",
+        "m1": "71.7"
+      },
+      {
+        "p": {
+          "name": "Ornith-1.5: From Self-Scaffolding to Self-Improvement",
+          "link": "https://ornith.ai/ornith_1_5.html"
+        },
+        "c": "",
+        "n": "Ornith-1.5-35B-A3B (OpenHands)",
+        "d": "2026-08-20",
+        "m1": "71.4"
+      },
+      {
+        "p": {
+          "name": "Qwen3.6",
+          "link": "https://huggingface.co/collections/Qwen/qwen36"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Qwen3.6-27B (Internal agent scaffold)",
+        "d": "2026-04-21",
+        "m1": "71.3"
+      },
+      {
+        "p": {
+          "name": "DeepSeek-V3.2 Technical Report",
+          "link": "https://arxiv.org/abs/2512.02556"
+        },
+        "c": "https://github.com/deepseek-ai/DeepSeek-V3.2-Exp",
+        "n": "DeepSeek-V3.2 (Internal framework)",
+        "d": "2025-12-02",
+        "m1": "70.2"
+      },
+      {
+        "p": {
+          "name": "Qwen3.5: Towards Native Multimodal Agents",
+          "link": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Qwen3.5-397B-A17B (Internal agent scaffold)",
+        "d": "2026-02-16",
+        "m1": "69.3"
+      },
+      {
+        "p": {
+          "name": "Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding",
+          "link": "https://deep-reinforce.com/ornith_1_0.html"
+        },
+        "c": "https://github.com/deepreinforce-ai/Ornith-1",
+        "n": "Ornith-1.0-35B (OpenHands)",
+        "d": "2026-06-21",
+        "m1": "69.3"
+      },
+      {
+        "p": {
+          "name": "MindForge: Teaching Small Language Models Whole-Life-Cycle Software Engineering via Source-Free Program Synthesis",
+          "link": "https://arxiv.org/abs/2607.27146"
+        },
+        "c": "",
+        "n": "MindForge-27B (Mini-SWE-Agent)",
+        "d": "2026-07-29",
+        "m1": "67.77"
+      },
+      {
+        "p": {
+          "name": "Priming Base Models for Agentic Post-Training: An Open Midtraining Recipe",
+          "link": "https://arxiv.org/abs/2610.22019"
+        },
+        "c": "",
+        "n": "NVIDIA Nemotron 3.5 Super VL 120B-A12B BF16",
+        "d": "2026-10-15",
+        "m1": "67.72"
+      },
+      {
+        "p": {
+          "name": "Nemotron 3 Ultra: Open, Efficient Mixture-of-Experts Hybrid Mamba-Transformer Model for Agentic Reasoning",
+          "link": "https://arxiv.org/abs/2606.15007"
+        },
+        "c": "https://github.com/NVIDIA-NeMo/Nemotron",
+        "n": "Nemotron 3 Ultra (OpenHands)",
+        "d": "2026-06-03",
+        "m1": "67.7"
+      },
+      {
+        "p": {
+          "name": "Step 3.5 Flash: Open Frontier-Level Intelligence with 11B Active Parameters",
+          "link": "https://arxiv.org/abs/2602.10604"
+        },
+        "c": "https://huggingface.co/stepfun-ai/Step-3.5-Flash-Base",
+        "n": "Step-3.5-Flash",
+        "d": "2026-02-11",
+        "m1": "67.4"
+      },
+      {
+        "p": {
+          "name": "Qwen3.6",
+          "link": "https://huggingface.co/collections/Qwen/qwen36"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Qwen3.6-35B-A3B (Internal agent scaffold)",
+        "d": "2026-04-21",
+        "m1": "67.2"
+      },
+      {
+        "p": {
+          "name": "Qwen3-Coder-Next Technical Report",
+          "link": "https://arxiv.org/abs/2603.00729"
+        },
+        "c": "https://github.com/QwenLM/Qwen3-Coder",
+        "n": "Qwen3-Coder-Next (OpenHands)",
+        "d": "2026-02-28",
+        "m1": "64.3"
+      },
+      {
+        "p": {
+          "name": "Laguna M.1/XS.2 Technical Report",
+          "link": "https://arxiv.org/abs/2605.27605"
+        },
+        "c": "https://github.com/poolsideai/pool",
+        "n": "Laguna M.1 (pool)",
+        "d": "2026-05-26",
+        "m1": "63.1"
+      },
+      {
+        "p": {
+          "name": "Introducing Laguna XS 2.1",
+          "link": "https://poolside.ai/blog/introducing-laguna-xs-2-1"
+        },
+        "c": "https://github.com/vllm-project/vllm",
+        "n": "Laguna XS 2.1 (pool)",
+        "d": "2026-07-02",
+        "m1": "63.1"
+      },
+      {
+        "p": {
+          "name": "Self-Evolving Coding Agents via Harness-Policy Optimization",
+          "link": "https://arxiv.org/abs/2610.22791"
+        },
+        "c": "https://github.com/MSR-Orchard/Self-HPO",
+        "n": "Self-HPO-Qwen3.5-35B-A3B",
+        "d": "2026-10-16",
+        "m1": "59.7"
+      },
+      {
+        "p": {
+          "name": "One to More, More to One: Category-Aware Iterative Expert Training for Software Engineering Agents",
+          "link": "https://arxiv.org/abs/2609.23377"
+        },
+        "c": "https://github.com/alibaba/agenticbigbang",
+        "n": "Logics-SWE-Qwen3.6-27B (SWE-agent)",
+        "d": "2026-09-20",
+        "m1": "59.0"
+      },
+      {
+        "p": {
+          "name": "Laguna M.1/XS.2 Technical Report",
+          "link": "https://arxiv.org/abs/2605.27605"
+        },
+        "c": "https://github.com/poolsideai/pool",
+        "n": "Laguna XS.2 (pool)",
+        "d": "2026-05-26",
+        "m1": "57.7"
+      },
+      {
+        "p": {
+          "name": "Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding",
+          "link": "https://deep-reinforce.com/ornith_1_0.html"
+        },
+        "c": "https://github.com/deepreinforce-ai/Ornith-1",
+        "n": "Ornith-1.0-9B (OpenHands)",
+        "d": "2026-06-21",
+        "m1": "52.0"
+      },
+      {
+        "p": {
+          "name": "Dockerless: Environment-Free Program Verifier for Coding Agents",
+          "link": "https://arxiv.org/abs/2606.28436"
+        },
+        "c": "",
+        "n": "Dockerless-RL-9B (OpenHands)",
+        "d": "2026-06-26",
+        "m1": "50.0"
+      },
+      {
+        "p": {
+          "name": "Kimi K2: Open Agentic Intelligence",
+          "link": "https://arxiv.org/abs/2507.20534"
+        },
+        "c": "https://github.com/MoonshotAI/Kimi-K2",
+        "n": "Kimi K2",
+        "d": "2025-07-28",
+        "m1": "47.3"
+      },
+      {
+        "p": {
+          "name": "NVIDIA Nemotron 3: Efficient and Open Intelligence",
+          "link": "https://arxiv.org/abs/2512.20856"
+        },
+        "c": "https://github.com/nvidia-nemo/nemotron",
+        "n": "Nemotron 3 Super (OpenHands)",
+        "d": "2025-12-24",
+        "m1": "45.78"
+      },
+      {
+        "p": {
+          "name": "Granite 4.2 LLMs: How They're Built",
+          "link": "https://huggingface.co/blog/ibm-granite/granite-4-2"
+        },
+        "c": "https://github.com/ibm-granite/granite-4.2-language-models",
+        "n": "Granite-4.2-30B",
+        "d": "2026-08-25",
+        "m1": "41.89"
+      },
+      {
+        "p": {
+          "name": "Let It Flow: Agentic Crafting on Rock and Roll, Building the ROME Model within an Open Agentic Learning Ecosystem",
+          "link": "https://arxiv.org/abs/2512.24873"
+        },
+        "c": "https://github.com/alibaba/roll",
+        "n": "ROME (30B MoE, activated 3B) (iFlow CLI)",
+        "d": "2025-12-31",
+        "m1": "40.0"
+      },
+      {
+        "p": {
+          "name": "NVIDIA Nemotron 3.5 Lightning",
+          "link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16"
+        },
+        "c": "https://github.com/NVIDIA/Megatron-LM",
+        "n": "NVIDIA Nemotron 3.5 Lightning 30B-A3B (NeMo Evaluator)",
+        "d": "2026-08-11",
+        "m1": "39.33"
+      },
+      {
+        "p": {
+          "name": "Scaling Embeddings Outperforms Scaling Experts in Language Models",
+          "link": "https://arxiv.org/abs/2601.21204"
+        },
+        "c": "",
+        "n": "LongCat-Flash-Lite (68.5B)",
+        "d": "2026-01-29",
+        "m1": "38.1"
+      },
+      {
+        "p": {
+          "name": "LoopCoder-v2: Only Loop Once for Efficient Test-Time Computation Scaling",
+          "link": "https://arxiv.org/abs/2606.18023"
+        },
+        "c": "https://github.com/csjianyang/loopcoder",
+        "n": "LoopCoder-v2",
+        "d": "2026-06-16",
+        "m1": "31.0"
+      },
+      {
+        "p": {
+          "name": "SWE-smith: Scaling Data for Software Engineering Agents",
+          "link": "https://arxiv.org/abs/2504.21798"
+        },
+        "c": "https://github.com/swe-bench/swe-smith",
+        "n": "SWE-agent-LM-32B",
+        "d": "2025-04-30",
+        "m1": "8.4"
+      }
+    ]
+  }
+}

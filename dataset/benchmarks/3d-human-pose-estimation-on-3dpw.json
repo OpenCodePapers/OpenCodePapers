@@ -97,6 +97,18 @@
       },
       {
         "p": {
+          "name": "ScoreHypo: Probabilistic Human Mesh Estimation with Hypothesis Scoring",
+          "link": "https://openaccess.thecvf.com/content/CVPR2024/html/Xu_ScoreHypo_Probabilistic_Human_Mesh_Estimation_with_Hypothesis_Scoring_CVPR_2024_paper.html"
+        },
+        "c": "https://github.com/xy02-05/scorehypo",
+        "n": "ScoreHypo (M=200)",
+        "d": "2024-06-17",
+        "m1": "71.9",
+        "m2": "36.1",
+        "m3": "61.8"
+      },
+      {
+        "p": {
           "name": "PersPose: 3D Human Pose Estimation with Perspective Encoding and Perspective Rotation",
           "link": "https://arxiv.org/abs/2508.17239"
         },
@@ -106,6 +118,16 @@
         "m1": "72.4",
         "m2": "39.1",
         "m3": "60.1"
+      },
+      {
+        "p": {
+          "name": "Cross-view and Cross-pose Completion for 3D Human Understanding",
+          "link": "https://arxiv.org/abs/2311.09104"
+        },
+        "c": "",
+        "n": "CroCo-Body (extra data)",
+        "d": "2023-11-15",
+        "m1": "73.3"
       },
       {
         "p": {
@@ -119,6 +141,30 @@
         "m2": "40.6",
         "m3": "62.7",
         "m4": "7.7"
+      },
+      {
+        "p": {
+          "name": "PostureHMR: Posture Transformation for 3D Human Mesh Recovery",
+          "link": "https://openaccess.thecvf.com/content/CVPR2024/html/Song_PostureHMR_Posture_Transformation_for_3D_Human_Mesh_Recovery_CVPR_2024_paper.html"
+        },
+        "c": "",
+        "n": "PostureHMR (extra data)",
+        "d": "2024-06-17",
+        "m1": "75.4",
+        "m2": "39.6",
+        "m3": "64.9"
+      },
+      {
+        "p": {
+          "name": "Multi-HMR: Multi-Person Whole-Body Human Mesh Recovery in a Single Shot",
+          "link": "https://arxiv.org/abs/2402.14654v2"
+        },
+        "c": "https://github.com/naver/multi-hmr",
+        "n": "Multi-HMR ViT-L/14 (896px, 3DPW fine-tuned) (extra data)",
+        "d": "2024-02-22",
+        "m1": "75.9",
+        "m2": "41.7",
+        "m3": "61.4"
       },
       {
         "p": {
@@ -218,6 +264,18 @@
       },
       {
         "p": {
+          "name": "MuCHeR: Multi-Person Camera-Centric Human Detection, Mesh Recovery and Tracking",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/3419"
+        },
+        "c": "https://github.com/naver/multi-hmr-2",
+        "n": "Multi-HMR 2.b",
+        "d": "2026-09-08",
+        "m1": "78.1",
+        "m2": "41.8",
+        "m3": "65.2"
+      },
+      {
+        "p": {
           "name": "SEFD: Learning to Distill Complex Pose and Occlusion",
           "link": "http://openaccess.thecvf.com//content/ICCV2023/html/Yang_SEFD_Learning_to_Distill_Complex_Pose_and_Occlusion_ICCV_2023_paper.html"
         },
@@ -227,6 +285,18 @@
         "m1": "78.36",
         "m2": "43.79",
         "m3": "64.75"
+      },
+      {
+        "p": {
+          "name": "Scene and Human in One World: Reconstruction in a Feedforward Pass",
+          "link": "https://arxiv.org/abs/2606.27720"
+        },
+        "c": "https://github.com/bowieshi/4d-show-official-codebase",
+        "n": "SHOW",
+        "d": "2026-06-26",
+        "m1": "78.7",
+        "m2": "41.0",
+        "m3": "67.7"
       },
       {
         "p": {
@@ -287,6 +357,30 @@
         "m1": "79.8",
         "m2": "39.5",
         "m3": "69.0"
+      },
+      {
+        "p": {
+          "name": "HumMUSS: Human Motion Understanding using State Space Models",
+          "link": "https://arxiv.org/abs/2404.10880"
+        },
+        "c": "",
+        "n": "HumMUSS (f) + [44]",
+        "d": "2024-04-16",
+        "m1": "80.0",
+        "m2": "40.7",
+        "m3": "69.1"
+      },
+      {
+        "p": {
+          "name": "Instance-aware Contrastive Learning for Occluded Human Mesh Reconstruction",
+          "link": "http://openaccess.thecvf.com//content/CVPR2024/html/Gwon_Instance-aware_Contrastive_Learning_for_Occluded_Human_Mesh_Reconstruction_CVPR_2024_paper.html"
+        },
+        "c": "https://github.com/dcvl-3d/instancehmr_release",
+        "n": "InstanceHMR (HRNet-32) (extra data)",
+        "d": "2024-01-01",
+        "m1": "80.3",
+        "m2": "44.3",
+        "m3": "73.2"
       },
       {
         "p": {
@@ -411,6 +505,18 @@
       },
       {
         "p": {
+          "name": "Cross-Attention of Disentangled Modalities for 3D Human Mesh Recovery with Transformers",
+          "link": "https://arxiv.org/abs/2207.13820v1"
+        },
+        "c": "https://github.com/postech-ami/fastmetro",
+        "n": "FastMETRO-L-H64 (extra data)",
+        "d": "2022-07-27",
+        "m1": "84.1",
+        "m2": "44.6",
+        "m3": "73.5"
+      },
+      {
+        "p": {
           "name": "IKOL: Inverse kinematics optimization layer for 3D human pose and shape estimation via Gauss-Newton differentiation",
           "link": "https://arxiv.org/abs/2302.01058v2"
         },
@@ -432,6 +538,18 @@
         "m1": "84.6",
         "m2": "44.3",
         "m3": "71"
+      },
+      {
+        "p": {
+          "name": "Motions as Queries: One-Stage Multi-Person Holistic Human Motion Capture",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Liu_Motions_as_Queries_One-Stage_Multi-Person_Holistic_Human_Motion_Capture_CVPR_2025_paper.html"
+        },
+        "c": "https://github.com/kenkunliu/maq",
+        "n": "MaQ (extra data)",
+        "d": "2025-06-11",
+        "m1": "84.9",
+        "m2": "44.7",
+        "m3": "72.6"
       },
       {
         "p": {
@@ -468,6 +586,18 @@
         "m1": "86.9",
         "m2": "45.9",
         "m3": "73.4"
+      },
+      {
+        "p": {
+          "name": "PyMAF-X: Towards Well-aligned Full-body Model Regression from Monocular Images",
+          "link": "https://arxiv.org/abs/2207.06400v3"
+        },
+        "c": "https://github.com/HongwenZhang/PyMAF",
+        "n": "PyMAF (HR48, trained on 3DPW) (extra data)",
+        "d": "2022-07-13",
+        "m1": "87.0",
+        "m2": "45.3",
+        "m3": "74.2"
       },
       {
         "p": {
@@ -553,6 +683,18 @@
         "m1": "92.60",
         "m2": "49.39",
         "m3": "77.37"
+      },
+      {
+        "p": {
+          "name": "MeshPose: Unifying DensePose and 3D Body Mesh reconstruction",
+          "link": "https://arxiv.org/abs/2406.10180v1"
+        },
+        "c": "https://github.com/Snapchat/MeshPose",
+        "n": "MeshPose (HRNet32)",
+        "d": "2024-06-14",
+        "m1": "92.7",
+        "m2": "46.73",
+        "m3": "76.08"
       },
       {
         "p": {
@@ -807,6 +949,17 @@
         "m1": "108.6",
         "m2": "66.9",
         "m3": "87.8"
+      },
+      {
+        "p": {
+          "name": "PyMAF: 3D Human Pose and Shape Regression with Pyramidal Mesh Alignment Feedback Loop",
+          "link": "https://arxiv.org/abs/2103.16507v4"
+        },
+        "c": "https://github.com/HongwenZhang/PyMAF",
+        "n": "PyMAF (extra data)",
+        "d": "2021-03-30",
+        "m1": "110.1",
+        "m3": "92.8"
       },
       {
         "p": {
@@ -1447,6 +1600,67 @@
         "d": "2017-12-18",
         "m3": "130.0",
         "m4": "37.4"
+      },
+      {
+        "p": {
+          "name": "Synergistic Global-space Camera and Human Reconstruction from Videos",
+          "link": "https://arxiv.org/abs/2405.14855"
+        },
+        "c": "",
+        "n": "SynCHMR (full pipeline)",
+        "d": "2024-05-23",
+        "m2": "52.4"
+      },
+      {
+        "p": {
+          "name": "Score-Guided Diffusion for 3D Human Recovery",
+          "link": "https://arxiv.org/abs/2403.09623"
+        },
+        "c": "https://github.com/statho/scorehmr",
+        "n": "ScoreHMR",
+        "d": "2024-03-14",
+        "m2": "51.1"
+      },
+      {
+        "p": {
+          "name": "CLOAF: CoLlisiOn-Aware Human Flow",
+          "link": "https://arxiv.org/abs/2403.09050"
+        },
+        "c": "",
+        "n": "CLOAF",
+        "d": "2024-03-14",
+        "m2": "53.2",
+        "m3": "82.3"
+      },
+      {
+        "p": {
+          "name": "DETRAM: End-to-end DEtection, Tracking and Recovery of HumAn Meshes",
+          "link": "https://arxiv.org/abs/2607.09089"
+        },
+        "c": "",
+        "n": "DETRAM",
+        "d": "2026-07-10",
+        "m3": "60.0"
+      },
+      {
+        "p": {
+          "name": "Fast Sam 3D Body: Accelerating SAM 3D Body for Real-Time Full-Body Human Mesh Recovery",
+          "link": "https://arxiv.org/abs/2603.15603"
+        },
+        "c": "https://github.com/yangtiming/fast-sam-3d-body",
+        "n": "Fast SAM 3D Body (Automatic)",
+        "d": "2026-03-16",
+        "m3": "58.9"
+      },
+      {
+        "p": {
+          "name": "PoseD-Flow: Versatile and Guided Flow Matching Model of Human Pose",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Nadar_PoseD-Flow_Versatile_and_Guided_Flow_Matching_Model_of_Human_Pose_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "PoseD-Flow (PoseRFM, CLIFF initialization)",
+        "d": "2026-06-03",
+        "m2": "47.24"
       }
     ]
   }

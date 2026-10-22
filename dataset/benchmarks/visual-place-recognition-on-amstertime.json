@@ -58,6 +58,18 @@
       },
       {
         "p": {
+          "name": "SAGE: Spatial-visual Adaptive Graph Exploration for Efficient Visual Place Recognition",
+          "link": "https://arxiv.org/abs/2509.25723"
+        },
+        "c": "https://github.com/chenshunpeng/sage",
+        "n": "SAGE ViT-L (without cross-image encoder)",
+        "d": "2025-09-30",
+        "m1": "65.6",
+        "m2": "90.4",
+        "m3": "86.7"
+      },
+      {
+        "p": {
           "name": "EffoVPR: Effective Foundation Model Utilization for Visual Place Recognition",
           "link": "https://arxiv.org/abs/2405.18065v2"
         },
@@ -65,6 +77,18 @@
         "n": "EffoVPR",
         "d": "2024-05-28",
         "m1": "65.5"
+      },
+      {
+        "p": {
+          "name": "EDTformer: An Efficient Decoder Transformer for Visual Place Recognition",
+          "link": "https://arxiv.org/abs/2412.00784"
+        },
+        "c": "https://github.com/tong-jin01/edtformer",
+        "n": "EDTformer (4096D, 2decoder blocks, 64learned tokens, LoPA rank4)",
+        "d": "2024-12-01",
+        "m1": "65.2",
+        "m2": "89",
+        "m3": "85"
       },
       {
         "p": {
@@ -90,6 +114,17 @@
       },
       {
         "p": {
+          "name": "Faster or Stronger: Towards Flexible Visual Place Recognition via Weighted Aggregation and Token Pruning",
+          "link": "https://arxiv.org/abs/2605.20551"
+        },
+        "c": "",
+        "n": "WeiAD (DINOv2 ViT-L)",
+        "d": "2026-05-19",
+        "m1": "63.4",
+        "m3": "83.7"
+      },
+      {
+        "p": {
           "name": "BoQ: A Place is Worth a Bag of Learnable Queries",
           "link": "https://arxiv.org/abs/2405.07364v3"
         },
@@ -99,6 +134,38 @@
         "m1": "63.0",
         "m2": "85.1",
         "m3": "81.6"
+      },
+      {
+        "p": {
+          "name": "SuperPlace: The Renaissance of Classical Feature Aggregation for Visual Place Recognition in the Era of Foundation Models",
+          "link": "https://arxiv.org/abs/2506.13073"
+        },
+        "c": "https://github.com/binuxliu/superplace",
+        "n": "SuperPlace SP-NVL-FT2 (DINOv2-B, GPMS, 8192D, 322px)",
+        "d": "2025-06-16",
+        "m1": "62.3"
+      },
+      {
+        "p": {
+          "name": "VLAD-BuFF: Burst-aware Fast Feature Aggregation for Visual Place Recognition",
+          "link": "https://arxiv.org/abs/2409.19293"
+        },
+        "c": "https://github.com/ahmedest61/vlad-buff",
+        "n": "VLAD-BuFF (PCA whitening,8192D)",
+        "d": "2024-09-28",
+        "m1": "61.4",
+        "m3": "81.9"
+      },
+      {
+        "p": {
+          "name": "EfficientVPR: Toward Efficient Visual Place Recognition via Scene-Aware Prompt Tuning and Adaptive Feature Enhancement",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Tang_EfficientVPR_Toward_Efficient_Visual_Place_Recognition_via_Scene-Aware_Prompt_Tuning_CVPR_2026_paper.html"
+        },
+        "c": "https://github.com/winitang/efficientvpr",
+        "n": "EfficientVPR (DINOv2-S, 504×504 inference)",
+        "d": "2026-06-01",
+        "m1": "61.4",
+        "m3": "82"
       },
       {
         "p": {
@@ -119,6 +186,18 @@
         "n": "BoQ (ResNet-50)",
         "d": "2024-05-12",
         "m1": "52.2"
+      },
+      {
+        "p": {
+          "name": "D²-VPR: A Parameter-efficient Visual-foundation-model-based Visual Place Recognition Method via Knowledge Distillation and Deformable Aggregation",
+          "link": "https://arxiv.org/abs/2511.12528"
+        },
+        "c": "https://github.com/tony19980810/d2vpr",
+        "n": "D2-VPR (released no encoder)",
+        "d": "2025-11-16",
+        "m1": "49.1",
+        "m2": "76.1",
+        "m3": "70.7"
       },
       {
         "p": {

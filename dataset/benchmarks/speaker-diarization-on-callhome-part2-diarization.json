@@ -1,0 +1,79 @@
+{
+  "title": "speaker-diarization-on-callhome-part2-diarization",
+  "task-hierarchy": [
+    "Speaker Recognition",
+    "Speaker Diarization"
+  ],
+  "dataset-info": {
+    "link": "https://catalog.ldc.upenn.edu/LDC2001S97",
+    "paper": "2000 NIST Speaker Recognition Evaluation"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "DER",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "TOLD: A Novel Two-Stage Overlap-Aware Framework for Speaker Diarization",
+          "link": "https://arxiv.org/abs/2303.05397v2"
+        },
+        "c": "https://github.com/alibaba-damo-academy/FunASR",
+        "n": "TOLD (EEND-OLA + SOAP)",
+        "d": "2023-03-08",
+        "m1": "10.14"
+      },
+      {
+        "p": {
+          "name": "Encoder-Decoder Based Attractors for End-to-End Neural Diarization",
+          "link": "https://arxiv.org/abs/2106.10654"
+        },
+        "c": "https://github.com/hitachi-speech/eend",
+        "n": "EEND-EDA",
+        "d": "2021-06-20",
+        "m1": "12.88"
+      },
+      {
+        "p": {
+          "name": "DiaPer: End-to-End Neural Diarization with Perceiver-Based Attractors",
+          "link": "https://arxiv.org/abs/2312.04324"
+        },
+        "c": "https://github.com/butspeechfit/diaper",
+        "n": "DiaPer 10-attractor + CALLHOME FT",
+        "d": "2023-12-07",
+        "m1": "13.6"
+      },
+      {
+        "p": {
+          "name": "End-to-End Speaker Diarization for an Unknown Number of Speakers with Encoder-Decoder Based Attractors",
+          "link": "https://arxiv.org/abs/2005.09921"
+        },
+        "c": "https://github.com/hitachi-speech/eend",
+        "n": "SA-EEND + EDA (shuffled)",
+        "d": "2020-05-20",
+        "m1": "15.29"
+      }
+    ]
+  }
+}

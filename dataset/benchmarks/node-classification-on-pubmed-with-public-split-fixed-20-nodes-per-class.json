@@ -115,6 +115,16 @@
       },
       {
         "p": {
+          "name": "GRAND: Graph Neural Diffusion",
+          "link": "https://arxiv.org/abs/2106.10934"
+        },
+        "c": "https://github.com/twitter-research/graph-neural-pde",
+        "n": "GRAND-nl-rw",
+        "d": "2021-06-21",
+        "m1": "81.0%"
+      },
+      {
+        "p": {
           "name": "GraphMix: Improved Training of GNNs for Semi-Supervised Learning",
           "link": "https://arxiv.org/abs/1909.11715v3"
         },
@@ -175,6 +185,16 @@
       },
       {
         "p": {
+          "name": "GRAND: Graph Neural Diffusion",
+          "link": "https://arxiv.org/abs/2106.10934"
+        },
+        "c": "https://github.com/twitter-research/graph-neural-pde",
+        "n": "GRAND-l",
+        "d": "2021-06-21",
+        "m1": "80.4%"
+      },
+      {
+        "p": {
           "name": "Simple and Deep Graph Convolutional Networks",
           "link": "https://arxiv.org/abs/2007.02133v1"
         },
@@ -224,11 +244,31 @@
         "m1": "79.8%"
       },
       {
+        "p": {
+          "name": "GRAND: Graph Neural Diffusion",
+          "link": "https://arxiv.org/abs/2106.10934"
+        },
+        "c": "https://github.com/twitter-research/graph-neural-pde",
+        "n": "GRAND-nl",
+        "d": "2021-06-21",
+        "m1": "79.7%"
+      },
+      {
         "p": "",
         "c": "",
         "n": "GCN+DropEdge",
         "d": "",
         "m1": "79.60%"
+      },
+      {
+        "p": {
+          "name": "GraphNAS: Graph Neural Architecture Search with Reinforcement Learning",
+          "link": "https://arxiv.org/abs/1904.09981v2"
+        },
+        "c": "https://github.com/GraphNAS/GraphNAS-simple",
+        "n": "GraphNAS",
+        "d": "2019-04-22",
+        "m1": "79.6%"
       },
       {
         "p": {
@@ -269,6 +309,16 @@
         "n": "SEGCN",
         "d": "2018-09-26",
         "m1": "78.9 ± 0.7"
+      },
+      {
+        "p": {
+          "name": "Simplifying Graph Convolutional Networks",
+          "link": "https://arxiv.org/abs/1902.07153v2"
+        },
+        "c": "https://github.com/dmlc/dgl/tree/master/examples/pytorch/sgc",
+        "n": "SGC",
+        "d": "2019-02-19",
+        "m1": "78.9%"
       },
       {
         "p": {

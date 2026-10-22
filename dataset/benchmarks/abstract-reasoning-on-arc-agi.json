@@ -1,0 +1,159 @@
+{
+  "title": "abstract-reasoning-on-arc-agi",
+  "task-hierarchy": [
+    "Visual Reasoning",
+    "Abstract Reasoning"
+  ],
+  "dataset-info": {
+    "link": "https://arcprize.org/arc-agi/1",
+    "paper": "On the Measure of Intelligence"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "GPT-6 Astra: A new generation of intelligence",
+          "link": "https://openai.com/index/gpt-6-astra/"
+        },
+        "c": "https://github.com/openai/codex",
+        "n": "GPT-6 Astra",
+        "d": "2026-09-03",
+        "m1": "98.5"
+      },
+      {
+        "p": {
+          "name": "Introducing Claude Opus 5",
+          "link": "https://www.anthropic.com/news/claude-opus-5"
+        },
+        "c": "https://github.com/anthropics/claude-code",
+        "n": "Claude Opus 5",
+        "d": "2026-07-24",
+        "m1": "97.5"
+      },
+      {
+        "p": {
+          "name": "Introducing GPT-5.4",
+          "link": "https://openai.com/index/introducing-gpt-5-4/"
+        },
+        "c": "",
+        "n": "GPT-5.4 Pro",
+        "d": "2026-03-05",
+        "m1": "94.5"
+      },
+      {
+        "p": {
+          "name": "Introducing GPT-5.2",
+          "link": "https://openai.com/index/introducing-gpt-5-2/"
+        },
+        "c": "",
+        "n": "GPT-5.2 Pro",
+        "d": "2025-12-11",
+        "m1": "90.5"
+      },
+      {
+        "p": {
+          "name": "optimize_anything: A Universal API for Optimizing any Text Parameter",
+          "link": "https://arxiv.org/abs/2605.19633"
+        },
+        "c": "https://github.com/gepa-ai/gepa",
+        "n": "optimize_anything ARC-AGI agent (Gemini 3 Flash)",
+        "d": "2026-05-19",
+        "m1": "89.5"
+      },
+      {
+        "p": {
+          "name": "Inkling-Small",
+          "link": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        "c": "https://github.com/thinking-machines-lab/tinker-cookbook",
+        "n": "Inkling-Small",
+        "d": "2026-07-27",
+        "m1": "84.0"
+      },
+      {
+        "p": {
+          "name": "Natural Image Pretraining Improves Abstract Reasoning",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/5527"
+        },
+        "c": "",
+        "n": "Nat-ARC ensemble",
+        "d": "2026-09-08",
+        "m1": "70.2"
+      },
+      {
+        "p": {
+          "name": "ARC Is a Vision Problem!",
+          "link": "https://arxiv.org/abs/2511.14761"
+        },
+        "c": "",
+        "n": "VARC (ensemble)",
+        "d": "2025-11-18",
+        "m1": "60.4"
+      },
+      {
+        "p": {
+          "name": "SSL: Sweet Spot Learning for Differentiated Guidance in Agentic Optimization",
+          "link": "https://arxiv.org/abs/2601.22491"
+        },
+        "c": "",
+        "n": "SSL (7B)",
+        "d": "2026-01-30",
+        "m1": "58.2"
+      },
+      {
+        "p": {
+          "name": "ARC Is a Vision Problem!",
+          "link": "https://arxiv.org/abs/2511.14761"
+        },
+        "c": "",
+        "n": "VARC",
+        "d": "2025-11-18",
+        "m1": "54.5"
+      },
+      {
+        "p": {
+          "name": "Human-like Abstract Visual Reasoning via Understanding and Solving Reasoning Loop",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Chen_Human-like_Abstract_Visual_Reasoning_via_Understanding_and_Solving_Reasoning_Loop_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "USRL (Ours)",
+        "d": "2026-06-03",
+        "m1": "47.2"
+      },
+      {
+        "p": {
+          "name": "Hierarchical Reasoning Model",
+          "link": "https://arxiv.org/abs/2506.21734"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "HRM",
+        "d": "2025-06-26",
+        "m1": "40.3"
+      }
+    ]
+  }
+}

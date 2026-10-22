@@ -1,0 +1,118 @@
+{
+  "title": "agents-on-taubench-retail",
+  "task-hierarchy": [
+    "Agents"
+  ],
+  "dataset-info": {
+    "link": "https://taubench.com/#home",
+    "paper": "$τ$-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Claude Opus 4.1",
+          "link": "https://www.anthropic.com/news/claude-opus-4-1"
+        },
+        "c": "",
+        "n": "Claude Opus 4.1",
+        "d": "2025-08-05",
+        "m1": "82.4"
+      },
+      {
+        "p": {
+          "name": "Claude 3.7 Sonnet and Claude Code",
+          "link": "https://www.anthropic.com/news/claude-3-7-sonnet"
+        },
+        "c": "",
+        "n": "Claude 3.7 Sonnet",
+        "d": "2025-02-24",
+        "m1": "81.2"
+      },
+      {
+        "p": {
+          "name": "GLM-4.5: Agentic, Reasoning, and Coding (ARC) Foundation Models",
+          "link": "https://arxiv.org/abs/2508.06471"
+        },
+        "c": "https://github.com/zai-org/GLM-4.5",
+        "n": "GLM-4.5 (355B)",
+        "d": "2025-08-08",
+        "m1": "79.7"
+      },
+      {
+        "p": {
+          "name": "Introducing OpenAI o1",
+          "link": "https://openai.com/o1/"
+        },
+        "c": "",
+        "n": "OpenAI o1",
+        "d": "2024-09-12",
+        "m1": "70.8"
+      },
+      {
+        "p": {
+          "name": "Introducing OpenAI o3 and o4-mini",
+          "link": "https://openai.com/index/introducing-o3-and-o4-mini/"
+        },
+        "c": "https://github.com/openai/codex",
+        "n": "OpenAI o3",
+        "d": "2025-04-16",
+        "m1": "70.4"
+      },
+      {
+        "p": {
+          "name": "gpt-oss-120b & gpt-oss-20b Model Card",
+          "link": "https://arxiv.org/abs/2508.10925"
+        },
+        "c": "",
+        "n": "gpt-oss-120b",
+        "d": "2025-08-08",
+        "m1": "67.8"
+      },
+      {
+        "p": {
+          "name": "ARC: Fair Relative Advantage Comparison in Open-Ended Real-World Interaction",
+          "link": "https://arxiv.org/abs/2608.13622"
+        },
+        "c": "",
+        "n": "GRPO + ARC (Qwen3-8B)",
+        "d": "2026-08-13",
+        "m1": "50.0"
+      },
+      {
+        "p": {
+          "name": "CAST: Critique-Aware Supervision for Training Reliable Long-Horizon Tool-Calling Agents",
+          "link": "https://arxiv.org/abs/2608.30147"
+        },
+        "c": "",
+        "n": "CAST Policy-8B",
+        "d": "2026-08-31",
+        "m1": "30.0"
+      }
+    ]
+  }
+}

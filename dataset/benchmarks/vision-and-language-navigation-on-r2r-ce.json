@@ -1,0 +1,110 @@
+{
+  "title": "vision-and-language-navigation-on-r2r-ce",
+  "task-hierarchy": [
+    "Robotics",
+    "Robot Navigation",
+    "Vision and Language Navigation"
+  ],
+  "dataset-info": {
+    "link": "https://arxiv.org/abs/2004.02857",
+    "paper": "Beyond the Nav-Graph: Vision-and-Language Navigation in Continuous Environments"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Success Rate",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "NE",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "SPL",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "NavGPT-3: Harnessing Context in a Hierarchical Navigation Runtime",
+          "link": "https://arxiv.org/abs/2610.10787"
+        },
+        "c": "https://github.com/metacognitionai/NavGPT-3",
+        "n": "NavGPT-3 GPT-6 Astra",
+        "d": "2026-10-07",
+        "m2": "2.18",
+        "m3": "70.42",
+        "m1": "81.51"
+      },
+      {
+        "p": {
+          "name": "Data-Centric Recursive Self-Improvement for Navigation via Policy-Synchronized Language-Action Dual Bootstrapping",
+          "link": "https://arxiv.org/abs/2610.15782"
+        },
+        "c": "https://github.com/OpenGVLab/RSI-Nav",
+        "n": "RSI-Nav (Ours)",
+        "d": "2026-10-11",
+        "m2": "3.7",
+        "m3": "58.6",
+        "m1": "68.6"
+      },
+      {
+        "p": {
+          "name": "Embodied-Navigator: Point, Think, Memorize, and Align for Efficient Navigation",
+          "link": "https://arxiv.org/abs/2608.17512"
+        },
+        "c": "https://github.com/ZJU-OmniAI/Embodied-Omni",
+        "n": "Embodied-Navigator",
+        "d": "2026-08-18",
+        "m2": "3.85",
+        "m3": "58.8",
+        "m1": "66.2"
+      },
+      {
+        "p": {
+          "name": "Path-level Hindsight Instructions for Semantic Exploration in Vision-Language Navigation",
+          "link": "https://arxiv.org/abs/2607.01754"
+        },
+        "c": "",
+        "n": "Phi-Nav (ETPNav)",
+        "d": "2026-07-02",
+        "m3": "52.74",
+        "m2": "4.29",
+        "m1": "62.58"
+      },
+      {
+        "p": {
+          "name": "LatentPilot: Scene-Aware Vision-and-Language Navigation by Dreaming Ahead with Latent Visual Reasoning",
+          "link": "https://arxiv.org/abs/2603.29165"
+        },
+        "c": "",
+        "n": "LatentPilot",
+        "d": "2026-03-31",
+        "m2": "4.41",
+        "m3": "58.0",
+        "m1": "62.0"
+      }
+    ]
+  }
+}

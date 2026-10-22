@@ -1,0 +1,121 @@
+{
+  "title": "point-tracking-on-tap-vid-rgb-stacking-strided-256-256",
+  "task-hierarchy": [
+    "Object Tracking",
+    "Point Tracking"
+  ],
+  "dataset-info": {
+    "link": "https://tapvid.github.io/",
+    "paper": "TAP-Vid: A Benchmark for Tracking Any Point in a Video"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AJ",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "OA",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "delta_avg",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Dense Optical Tracking: Connecting the Dots",
+          "link": "https://arxiv.org/abs/2312.00786"
+        },
+        "c": "https://github.com/16lemoing/dot",
+        "n": "DOT (CoTracker + RAFT)",
+        "d": "2023-12-01",
+        "m1": "0.835",
+        "m2": "0.957",
+        "m3": "0.914"
+      },
+      {
+        "p": {
+          "name": "Tracking Everything Everywhere All at Once",
+          "link": "https://arxiv.org/abs/2306.05422"
+        },
+        "c": "https://github.com/qianqianwang68/omnimotion",
+        "n": "OmniMotion (RAFT)",
+        "d": "2023-06-08",
+        "m1": "0.775",
+        "m2": "0.935",
+        "m3": "0.87"
+      },
+      {
+        "p": {
+          "name": "BootsTAP: Bootstrapped Training for Tracking-Any-Point",
+          "link": "https://arxiv.org/abs/2402.00847v2"
+        },
+        "c": "https://github.com/google-deepmind/tapnet",
+        "n": "BootsTAPIR+fix+snap+data (extra data)",
+        "d": "2024-02-01",
+        "m1": "0.774",
+        "m2": "0.932",
+        "m3": "0.867"
+      },
+      {
+        "p": {
+          "name": "Local All-Pair Correspondence for Point Tracking",
+          "link": "https://arxiv.org/abs/2407.15420v1"
+        },
+        "c": "https://github.com/cvlab-kaist/locotrack",
+        "n": "LocoTrack-B (extra data)",
+        "d": "2024-07-22",
+        "m1": "0.771",
+        "m2": "0.932",
+        "m3": "0.869"
+      },
+      {
+        "p": {
+          "name": "TAPIR: Tracking Any Point with per-frame Initialization and temporal Refinement",
+          "link": "https://arxiv.org/abs/2306.08637"
+        },
+        "c": "https://github.com/deepmind/tapnet",
+        "n": "TAPIR (MOVi-E)",
+        "d": "2023-06-14",
+        "m1": "0.662",
+        "m2": "0.933",
+        "m3": "0.774"
+      },
+      {
+        "p": {
+          "name": "TAP-Vid: A Benchmark for Tracking Any Point in a Video",
+          "link": "https://arxiv.org/abs/2211.03726"
+        },
+        "c": "https://github.com/google-deepmind/tapnet",
+        "n": "TAP-Net",
+        "d": "2022-11-07",
+        "m1": "0.599",
+        "m2": "0.904",
+        "m3": "0.728"
+      }
+    ]
+  }
+}

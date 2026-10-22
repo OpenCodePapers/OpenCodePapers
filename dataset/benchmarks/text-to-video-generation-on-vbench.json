@@ -1,0 +1,698 @@
+{
+  "title": "text-to-video-generation-on-vbench",
+  "task-hierarchy": [
+    "Video Generation",
+    "Text-to-Video Generation"
+  ],
+  "dataset-info": {
+    "link": "https://vchitect.github.io/VBench-project/",
+    "paper": "VBench: Comprehensive Benchmark Suite for Video Generative Models"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "VBench Total Score",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "VBench Quality Score",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "On-Policy Diffusion Reinforcement Learning Meets Off-Policy Quality Anchoring",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/5113"
+        },
+        "c": "https://github.com/hidream-ai/diffusioncompass",
+        "n": "DiffusionCompass (Wan2.1-14B)+RP",
+        "d": "2026-09-08",
+        "m1": "87.16"
+      },
+      {
+        "p": {
+          "name": "PhyRPR: Training-Free Physics-Constrained Video Generation",
+          "link": "https://arxiv.org/abs/2601.09255"
+        },
+        "c": "",
+        "n": "PhyRPR",
+        "d": "2026-01-14",
+        "m1": "86.36"
+      },
+      {
+        "p": {
+          "name": "Test-Time Noise Guided Adaptation for Realistic Autoregressive Video Generation",
+          "link": "https://arxiv.org/abs/2607.15849"
+        },
+        "c": "https://github.com/mever-team/tango",
+        "n": "TANGO",
+        "d": "2026-07-17",
+        "m1": "86.3",
+        "m2": "86.4"
+      },
+      {
+        "p": {
+          "name": "M4V: Multimodal Mamba for Efficient Text-to-Video Generation",
+          "link": "https://arxiv.org/abs/2506.10915"
+        },
+        "c": "https://github.com/huangjch526/m4v",
+        "n": "M4V* (Wan2.1) (extra data)",
+        "d": "2025-06-12",
+        "m1": "86.14",
+        "m2": "87.56"
+      },
+      {
+        "p": {
+          "name": "GRACE: Generation-aware latent compression for efficient video generation",
+          "link": "https://arxiv.org/abs/2610.10524"
+        },
+        "c": "https://github.com/cvlab-kaist/GRACE",
+        "n": "GRACE",
+        "d": "2026-10-07",
+        "m1": "85.81",
+        "m2": "86.02"
+      },
+      {
+        "p": {
+          "name": "Lance: Unified Multimodal Modeling by Multi-Task Synergy",
+          "link": "https://arxiv.org/abs/2605.18678"
+        },
+        "c": "https://github.com/bytedance/Lance",
+        "n": "Lance (3B)",
+        "d": "2026-05-18",
+        "m1": "85.11"
+      },
+      {
+        "p": {
+          "name": "SALT: Self-Consistent Distribution Matching with Cache-Aware Training for Few-Step Video Generation",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/3473"
+        },
+        "c": "https://github.com/XingtongGe/Salt",
+        "n": "Salt + Causal Forcing",
+        "d": "2026-09-08",
+        "m1": "85.08",
+        "m2": "85.96"
+      },
+      {
+        "p": {
+          "name": "LongLive-2.0: An NVFP4 Parallel Infrastructure for Long Video Generation",
+          "link": "https://arxiv.org/abs/2605.18739"
+        },
+        "c": "https://github.com/NVlabs/LongLive",
+        "n": "LongLive-2.0 (5B, BF16, 4 steps)",
+        "d": "2026-05-18",
+        "m1": "85.06"
+      },
+      {
+        "p": {
+          "name": "Astrolabe: Steering Forward-Process Reinforcement Learning for Distilled Autoregressive Video Models",
+          "link": "https://arxiv.org/abs/2603.17051"
+        },
+        "c": "https://github.com/franklinz233/Astrolabe",
+        "n": "LongLive (Astrolabe)",
+        "d": "2026-03-17",
+        "m1": "84.93"
+      },
+      {
+        "p": {
+          "name": "LongLive: Real-time Interactive Long Video Generation",
+          "link": "https://arxiv.org/abs/2509.22622"
+        },
+        "c": "https://github.com/NVlabs/LongLive",
+        "n": "LongLive",
+        "d": "2025-09-26",
+        "m1": "84.87",
+        "m2": "86.97"
+      },
+      {
+        "p": {
+          "name": "ViRDM: Taming Representation Distribution Matching for Few-Step Causal Video Generation",
+          "link": "https://arxiv.org/abs/2609.28923"
+        },
+        "c": "https://github.com/neu-vi/ViRDM",
+        "n": "ViRDM",
+        "d": "2026-09-24",
+        "m1": "84.87",
+        "m2": "85.82"
+      },
+      {
+        "p": {
+          "name": "Transition Matching Distillation for Fast Video Generation",
+          "link": "https://arxiv.org/abs/2601.09881"
+        },
+        "c": "",
+        "n": "TMD-N2H5 (TMD)",
+        "d": "2026-01-14",
+        "m1": "84.68"
+      },
+      {
+        "p": {
+          "name": "RepForcing: Representation-Space Initialization for Autoregressive Video Distillation",
+          "link": "https://arxiv.org/abs/2610.20111"
+        },
+        "c": "https://github.com/LMIUD/RepForcing",
+        "n": "RepForcing (chunk-wise, 4-step)",
+        "d": "2026-10-14",
+        "m1": "84.66"
+      },
+      {
+        "p": {
+          "name": "Bernini: Latent Semantic Planning for Video Diffusion",
+          "link": "https://arxiv.org/abs/2605.22344"
+        },
+        "c": "",
+        "n": "Bernini",
+        "d": "2026-05-21",
+        "m1": "84.64"
+      },
+      {
+        "p": {
+          "name": "EcoVideo: Entropy-Orchestrated Video Generation Paradigm in Cloud-Edge Dynamics",
+          "link": "https://arxiv.org/abs/2606.30557"
+        },
+        "c": "https://github.com/if-lab-pku/ecovideo",
+        "n": "EcoVideo",
+        "d": "2026-06-29",
+        "m1": "84.6"
+      },
+      {
+        "p": {
+          "name": "Light Forcing: Accelerating Autoregressive Video Diffusion via Sparse Attention",
+          "link": "https://arxiv.org/abs/2602.04789"
+        },
+        "c": "https://github.com/chengtao-lv/LightForcing",
+        "n": "Light Forcing",
+        "d": "2026-02-04",
+        "m1": "84.5"
+      },
+      {
+        "p": {
+          "name": "Streaming Autoregressive Video Generation via Diagonal Distillation",
+          "link": "https://arxiv.org/abs/2603.09488"
+        },
+        "c": "https://github.com/Sphere-AI-Lab/diagdistill",
+        "n": "DiagDistill",
+        "d": "2026-03-10",
+        "m1": "84.48"
+      },
+      {
+        "p": {
+          "name": "Cycle-World: Mitigating Error Accumulation in Long-term Video World Models via Reverse-Prediction Cycle Consistency",
+          "link": "https://arxiv.org/abs/2607.11836"
+        },
+        "c": "",
+        "n": "Cycle-World",
+        "d": "2026-07-13",
+        "m1": "84.36",
+        "m2": "86.14"
+      },
+      {
+        "p": {
+          "name": "Glance Forcing: Making Bidirectional Diffusion Autoregressive at a Glance",
+          "link": "https://arxiv.org/abs/2610.20220"
+        },
+        "c": "https://github.com/CSU-JPG/Glance-Forcing",
+        "n": "Glance Forcing (25k)",
+        "d": "2026-10-14",
+        "m1": "84.33",
+        "m2": "85.01"
+      },
+      {
+        "p": {
+          "name": "HiStream: Efficient High-Resolution Video Generation via Redundancy-Eliminated Streaming",
+          "link": "https://arxiv.org/abs/2512.21338"
+        },
+        "c": "https://github.com/arthur-qiu/HiStream",
+        "n": "HiStream",
+        "d": "2025-12-24",
+        "m1": "84.2"
+      },
+      {
+        "p": {
+          "name": "Causal Forcing++: Scalable Few-Step Autoregressive Diffusion Distillation for Real-Time Interactive Video Generation",
+          "link": "https://arxiv.org/abs/2605.15141"
+        },
+        "c": "https://github.com/thu-ml/Causal-Forcing",
+        "n": "Causal Forcing++ (2-step)",
+        "d": "2026-05-14",
+        "m1": "84.14",
+        "m2": "84.89"
+      },
+      {
+        "p": {
+          "name": "Nexus-Vid: Efficient Frequency Bridging with Homogeneous Latent Space for Video Unified Models",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/5094"
+        },
+        "c": "https://github.com/alibaba-damo-academy/Lumos-Custom",
+        "n": "Lumos-Nexus",
+        "d": "2026-09-08",
+        "m1": "84.12",
+        "m2": "85.03"
+      },
+      {
+        "p": {
+          "name": "Causal Forcing: Autoregressive Diffusion Distillation Done Right for High-Quality Real-Time Interactive Video Generation",
+          "link": "https://arxiv.org/abs/2602.02214"
+        },
+        "c": "https://github.com/thu-ml/Causal-Forcing",
+        "n": "Causal Forcing",
+        "d": "2026-02-02",
+        "m1": "84.04"
+      },
+      {
+        "p": {
+          "name": "MHLA: Restoring Expressivity of Linear Attention via Token-Level Multi-Head",
+          "link": "https://arxiv.org/abs/2601.07832"
+        },
+        "c": "https://github.com/DAGroup-PKU/MHLA",
+        "n": "Wan-MHLA-H (Wan2.1-1.3B)",
+        "d": "2026-01-12",
+        "m1": "83.82"
+      },
+      {
+        "p": {
+          "name": "In-Flight KV Cache with Clean Anchors for Faster Autoregressive Video Diffusion",
+          "link": "https://arxiv.org/abs/2609.32540"
+        },
+        "c": "",
+        "n": "FlashForward",
+        "d": "2026-09-26",
+        "m1": "83.8",
+        "m2": "85.9"
+      },
+      {
+        "p": {
+          "name": "ReHyAt: Recurrent Hybrid Attention for Video Diffusion Transformers",
+          "link": "https://arxiv.org/abs/2601.04342"
+        },
+        "c": "",
+        "n": "Wan2.1 1.3B + ReHyAt (15×Tc=3, To=1)",
+        "d": "2026-01-07",
+        "m1": "83.79"
+      },
+      {
+        "p": {
+          "name": "Motif-Video 2B: Technical Report",
+          "link": "https://arxiv.org/abs/2604.16503"
+        },
+        "c": "",
+        "n": "Motif-Video 2B",
+        "d": "2026-04-14",
+        "m1": "83.76"
+      },
+      {
+        "p": {
+          "name": "OSP-Next: Efficient High-Quality Video Generation with Sparse Sequence Parallelism, HiF8 Quantization, and Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2605.28691"
+        },
+        "c": "https://github.com/PKU-YuanGroup/OSP-Next",
+        "n": "OSP-Next",
+        "d": "2026-05-27",
+        "m1": "83.73",
+        "m2": "85.19"
+      },
+      {
+        "p": {
+          "name": "SANA-Video: Efficient Video Generation with Block Linear Diffusion Transformer",
+          "link": "https://arxiv.org/abs/2509.24695"
+        },
+        "c": "https://github.com/nvlabs/sana",
+        "n": "SANA-Video",
+        "d": "2025-09-29",
+        "m1": "83.71",
+        "m2": "84.35"
+      },
+      {
+        "p": {
+          "name": "Content-Aware Dynamic Patchification for Efficient Video Diffusion",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Li_Content-Aware_Dynamic_Patchification_for_Efficient_Video_Diffusion_CVPR_2026_paper.html"
+        },
+        "c": "https://github.com/shengli99/dynapatch",
+        "n": "DynaPatch (20% token reduction)",
+        "d": "2026-06-03",
+        "m1": "83.56",
+        "m2": "84.79"
+      },
+      {
+        "p": {
+          "name": "SSBP: Stage-Specialized Block Pruning for Video Diffusion Models",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/3369"
+        },
+        "c": "",
+        "n": "SSBP-Wan2.1-1.3B",
+        "d": "2026-09-08",
+        "m1": "83.52",
+        "m2": "85.02"
+      },
+      {
+        "p": {
+          "name": "Surprise Forcing: What to Remember, When to Skip in Long Video Generation",
+          "link": "https://arxiv.org/abs/2607.18436"
+        },
+        "c": "",
+        "n": "Surprise Forcing",
+        "d": "2026-07-20",
+        "m1": "83.4"
+      },
+      {
+        "p": {
+          "name": "PyramidalWan: On Making Pretrained Video Model Pyramidal for Efficient Inference",
+          "link": "https://arxiv.org/abs/2601.04792"
+        },
+        "c": "",
+        "n": "Wan-DMD (4 steps)",
+        "d": "2026-01-08",
+        "m1": "83.33"
+      },
+      {
+        "p": {
+          "name": "ForcingBooster: Adaptive Patch-wise Denoising for Fast Autoregressive Video Diffusion",
+          "link": "https://arxiv.org/abs/2610.12625"
+        },
+        "c": "https://github.com/IGL-HKUST/ForcingBooster",
+        "n": "Wan2.1 14B + ForcingBooster",
+        "d": "2026-10-08",
+        "m1": "83.32",
+        "m2": "84.73"
+      },
+      {
+        "p": {
+          "name": "PixelUMM: Encoder-Free Unified Image and Video Understanding and Generation",
+          "link": "https://arxiv.org/abs/2609.38597"
+        },
+        "c": "https://github.com/nv-tlabs/PixelUMM",
+        "n": "PixelUMM 8B MoT",
+        "d": "2026-09-29",
+        "m1": "83.24",
+        "m2": "84.1"
+      },
+      {
+        "p": {
+          "name": "Speculative Forcing for Efficient Autoregressive Video Generation",
+          "link": "https://arxiv.org/abs/2610.22347"
+        },
+        "c": "https://github.com/naver-ai/speculative-forcing",
+        "n": "Speculative Forcing (learned verifier)",
+        "d": "2026-10-15",
+        "m1": "83.21",
+        "m2": "83.54"
+      },
+      {
+        "p": {
+          "name": "FastSTAR: Spatiotemporal Token Pruning for Efficient Autoregressive Video Synthesis",
+          "link": "https://arxiv.org/abs/2603.07192"
+        },
+        "c": "",
+        "n": "FastSTAR (20%, 30%, 40%, 70%)",
+        "d": "2026-03-07",
+        "m1": "83.18"
+      },
+      {
+        "p": {
+          "name": "VINO: A Unified Visual Generator with Interleaved OmniModal Context",
+          "link": "https://arxiv.org/abs/2601.02358"
+        },
+        "c": "https://github.com/SOTAMak1r/VINO-code",
+        "n": "VINO (with LLM rewriter)",
+        "d": "2026-01-05",
+        "m1": "83.17"
+      },
+      {
+        "p": {
+          "name": "OmniWeaving: Towards Unified Video Generation with Free-form Composition and Reasoning",
+          "link": "https://arxiv.org/abs/2603.24458"
+        },
+        "c": "https://github.com/Tencent-Hunyuan/OmniWeaving",
+        "n": "OmniWeaving",
+        "d": "2026-03-25",
+        "m1": "83.1",
+        "m2": "84.37"
+      },
+      {
+        "p": {
+          "name": "Motion-Aware Caching for Efficient Autoregressive Video Generation",
+          "link": "https://arxiv.org/abs/2605.01725"
+        },
+        "c": "https://github.com/ywlq/MotionCache",
+        "n": "MotionCache (on SkyReels-V2-1.3B)",
+        "d": "2026-05-03",
+        "m1": "82.84"
+      },
+      {
+        "p": {
+          "name": "Mask Forcing: Improving Autoregressive Video Diffusion Distillation via Dual-Noise Masking Rollout",
+          "link": "https://arxiv.org/abs/2609.09123"
+        },
+        "c": "https://github.com/delaprada/Mask-Forcing",
+        "n": "Causal Forcing + Mask Forcing (chunk-wise)",
+        "d": "2026-09-08",
+        "m1": "82.76"
+      },
+      {
+        "p": {
+          "name": "LinCa: Accelerating Diffusion Models via Learnable Decomposed Feature Caching",
+          "link": "https://arxiv.org/abs/2608.17973"
+        },
+        "c": "https://github.com/qhr69/linca",
+        "n": "LinCa (Wan2.1-1.3B, N=6)",
+        "d": "2026-08-18",
+        "m1": "82.56"
+      },
+      {
+        "p": {
+          "name": "Cross-Resolution Distribution Matching for Diffusion Distillation",
+          "link": "https://arxiv.org/abs/2603.06136"
+        },
+        "c": "",
+        "n": "RMD (Wan2.1-T2V-14B)",
+        "d": "2026-03-06",
+        "m2": "84.37",
+        "m1": "82.51"
+      },
+      {
+        "p": {
+          "name": "FIRM-Video: Check Before You Score for Reliable Text-to-Video Reward Modeling",
+          "link": "https://arxiv.org/abs/2608.21839"
+        },
+        "c": "https://github.com/VisionXLab/FIRM-Reward",
+        "n": "FIRM-Video-8B (Qwen3-VL-8B), Best-of-8 on Wan2.1-T2V-1.3B",
+        "d": "2026-08-22",
+        "m1": "82.36",
+        "m2": "84.91"
+      },
+      {
+        "p": {
+          "name": "Routing Policy Optimization for Online Diffusion Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2610.22282"
+        },
+        "c": "",
+        "n": "RPO (Wan2.2-TI2V-5B)",
+        "d": "2026-10-15",
+        "m1": "82.0"
+      },
+      {
+        "p": {
+          "name": "DisRM: Reward Modeling as Discriminative Prediction",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/5189"
+        },
+        "c": "",
+        "n": "Ours-DPO (extra data)",
+        "d": "2026-09-08",
+        "m1": "81.38"
+      },
+      {
+        "p": {
+          "name": "TimeRipples: Accelerating vDiTs by Understanding the Spatio-Temporal Correlations in Latent Space",
+          "link": "https://arxiv.org/abs/2511.12035"
+        },
+        "c": "",
+        "n": "TIMERIPPLE (CogVideoX1.5-5B-T2V, 80% reuse)",
+        "d": "2025-11-15",
+        "m1": "81.16"
+      },
+      {
+        "p": {
+          "name": "DreamWorld: Unified World Modeling in Video Generation",
+          "link": "https://arxiv.org/abs/2603.00466"
+        },
+        "c": "https://github.com/ABU121111/DreamWorld",
+        "n": "DreamWorld",
+        "d": "2026-02-28",
+        "m1": "80.97",
+        "m2": "83.49"
+      },
+      {
+        "p": {
+          "name": "D2Cache: Second-Order Delta Caching for Higher Video Diffusion Acceleration",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Liu_D2Cache_Second-Order_Delta_Caching_for_Higher_Video_Diffusion_Acceleration_CVPR_2026_paper.html"
+        },
+        "c": "https://github.com/vg-huai/d2cache",
+        "n": "D2Cache (Wan2.1, slow)",
+        "d": "2026-06-03",
+        "m1": "80.74",
+        "m2": "84.36"
+      },
+      {
+        "p": {
+          "name": "VDE: Training-Free Accelerating Rectified Flow Model via Velocity Decomposition and Estimation",
+          "link": "https://arxiv.org/abs/2605.23381"
+        },
+        "c": "https://github.com/tan-junwen/vde",
+        "n": "VDE-fast (Wan2.1)",
+        "d": "2026-05-22",
+        "m1": "80.43"
+      },
+      {
+        "p": {
+          "name": "ResilPhase: Plug-and-Play Phase Mapping and Noise-Resilient Macro-Trajectory Extrapolation for Diffusion Acceleration",
+          "link": "https://arxiv.org/abs/2606.26769"
+        },
+        "c": "https://github.com/zqc214/resilphase",
+        "n": "ResilPhase",
+        "d": "2026-06-25",
+        "m1": "80.42"
+      },
+      {
+        "p": {
+          "name": "Accelerating Text-to-Video Generation with Calibrated Sparse Attention",
+          "link": "https://arxiv.org/abs/2603.05503"
+        },
+        "c": "",
+        "n": "CalibAtt (Wan 2.1 14B, 480p)",
+        "d": "2026-03-05",
+        "m1": "80.4",
+        "m2": "82.3"
+      },
+      {
+        "p": {
+          "name": "ResCa: Residual Caching for Diffusion Transformers Acceleration",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Fang_ResCa_Residual_Caching_for_Diffusion_Transformers_Acceleration_CVPR_2026_paper.html"
+        },
+        "c": "https://github.com/fanghaipeng/resca_residual_caching",
+        "n": "ResCa-IE (N=6, K=32)",
+        "d": "2026-06-03",
+        "m1": "79.98"
+      },
+      {
+        "p": {
+          "name": "PhysRVG: Physics-Aware Unified Reinforcement Learning for Video Generative Models",
+          "link": "https://arxiv.org/abs/2601.11087"
+        },
+        "c": "",
+        "n": "PhysRVG",
+        "d": "2026-01-16",
+        "m1": "78.89"
+      },
+      {
+        "p": {
+          "name": "ProPhy: Progressive Physical Alignment for Dynamic World Simulation",
+          "link": "https://arxiv.org/abs/2512.05564"
+        },
+        "c": "https://github.com/zijunwa/prophy",
+        "n": "CogVideoX with ProPhy",
+        "d": "2025-12-05",
+        "m2": "81.0"
+      },
+      {
+        "p": {
+          "name": "FastSTAR: Spatiotemporal Token Pruning for Efficient Autoregressive Video Synthesis",
+          "link": "https://arxiv.org/abs/2603.07192"
+        },
+        "c": "",
+        "n": "FastSTAR (20%, 30%, 50%, 60%)",
+        "d": "2026-03-07",
+        "m2": "83.71"
+      },
+      {
+        "p": {
+          "name": "MosaicMem: Hybrid Spatial Memory for Controllable Video World Models",
+          "link": "https://arxiv.org/abs/2603.17117"
+        },
+        "c": "",
+        "n": "MosaicMem (full)",
+        "d": "2026-03-17",
+        "m2": "81.11"
+      },
+      {
+        "p": {
+          "name": "Reward Lightning: Fast Video Generation via Homologous Preference Distillation",
+          "link": "https://arxiv.org/abs/2607.03960"
+        },
+        "c": "",
+        "n": "Reward Lightning (HPD, 4-NFEs)",
+        "d": "2026-07-04",
+        "m2": "85.83"
+      },
+      {
+        "p": {
+          "name": "Mask Forcing: Improving Autoregressive Video Diffusion Distillation via Dual-Noise Masking Rollout",
+          "link": "https://arxiv.org/abs/2609.09123"
+        },
+        "c": "https://github.com/delaprada/Mask-Forcing",
+        "n": "LongLive + Mask Forcing (chunk-wise)",
+        "d": "2026-09-08",
+        "m2": "83.71"
+      },
+      {
+        "p": {
+          "name": "PhysAlign: Learning Physical Priors for Dynamical Event-Driven Video Generation via Representation Alignment",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/3309"
+        },
+        "c": "",
+        "n": "PhysAlign (extra data)",
+        "d": "2026-09-08",
+        "m2": "79.05"
+      },
+      {
+        "p": {
+          "name": "Simplifying and Improving On-Policy Distillation for Few-Step Diffusion",
+          "link": "https://arxiv.org/abs/2610.18472"
+        },
+        "c": "",
+        "n": "SMD (Wan2.1-T2V-14B, 4-NFE)",
+        "d": "2026-10-13",
+        "m2": "85.72"
+      },
+      {
+        "p": {
+          "name": "RepForcing: Representation-Space Initialization for Autoregressive Video Distillation",
+          "link": "https://arxiv.org/abs/2610.20111"
+        },
+        "c": "https://github.com/LMIUD/RepForcing",
+        "n": "RepForcing (frame-wise, 4-step)",
+        "d": "2026-10-14",
+        "m2": "85.67"
+      },
+      {
+        "p": {
+          "name": "SpecKCast: Spectral Kalman Forecasting for Diffusion Acceleration",
+          "link": "https://arxiv.org/abs/2610.26837"
+        },
+        "c": "",
+        "n": "SpecKCast (Wan2.1-14B, approximately 14 NFE)",
+        "d": "2026-10-19",
+        "m2": "80.86"
+      }
+    ]
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "title": "visual-question-answering-vqa-on-mtvqa",
+  "task-hierarchy": [
+    "Visual Question Answering (VQA)"
+  ],
+  "dataset-info": {
+    "link": "https://arxiv.org/abs/2405.11985",
+    "paper": "MTVQA: Benchmarking Multilingual Text-Centric Visual Question Answering"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Qwen3.8-Max: A New Bar for Coding and Cowork",
+          "link": "https://qwen.ai/blog?id=qwen3.8"
+        },
+        "c": "https://github.com/vllm-project/vllm",
+        "n": "Qwen3.8-Max",
+        "d": "2026-08-03",
+        "m1": "56.6"
+      },
+      {
+        "p": {
+          "name": "InternVL3: Exploring Advanced Training and Test-Time Recipes for Open-Source Multimodal Models",
+          "link": "https://arxiv.org/abs/2504.10479"
+        },
+        "c": "https://github.com/OpenGVLab/InternVL",
+        "n": "InternVL3-78B",
+        "d": "2025-04-14",
+        "m1": "32.5"
+      },
+      {
+        "p": {
+          "name": "Qwen2.5-VL Technical Report",
+          "link": "https://arxiv.org/abs/2502.13923v1"
+        },
+        "c": "https://github.com/qwenlm/qwen2-vl",
+        "n": "Qwen2.5-VL-72B",
+        "d": "2025-02-19",
+        "m1": "31.7"
+      },
+      {
+        "p": {
+          "name": "Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution",
+          "link": "https://arxiv.org/abs/2409.12191v2"
+        },
+        "c": "https://github.com/qwenlm/qwen2-vl",
+        "n": "Qwen2-VL-72B",
+        "d": "2024-09-18",
+        "m1": "30.9"
+      },
+      {
+        "p": {
+          "name": "Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution",
+          "link": "https://arxiv.org/abs/2409.12191v2"
+        },
+        "c": "https://github.com/qwenlm/qwen2-vl",
+        "n": "Qwen2-VL-7B",
+        "d": "2024-09-18",
+        "m1": "25.6"
+      },
+      {
+        "p": {
+          "name": "Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution",
+          "link": "https://arxiv.org/abs/2409.12191v2"
+        },
+        "c": "https://github.com/qwenlm/qwen2-vl",
+        "n": "Qwen2-VL-2B",
+        "d": "2024-09-18",
+        "m1": "18.1"
+      }
+    ]
+  }
+}

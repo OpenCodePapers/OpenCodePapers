@@ -1,0 +1,138 @@
+{
+  "title": "time-series-forecasting-on-fev-bench",
+  "task-hierarchy": [
+    "Time Series Forecasting"
+  ],
+  "dataset-info": {
+    "link": "https://huggingface.co/spaces/autogluon/fev-bench",
+    "paper": "fev-bench: A Realistic Benchmark for Time Series Forecasting"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Skill Score (%)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Timestral: Mistral's time-series foundation models",
+          "link": "https://mistral.ai/news/timestral/"
+        },
+        "c": "https://github.com/mistralai/timestral",
+        "n": "Timestral-209M",
+        "d": "2026-10-15",
+        "m1": "50.39"
+      },
+      {
+        "p": {
+          "name": "PathFM: Fast Generative Forecasting of Multivariate Trajectories",
+          "link": "https://arxiv.org/abs/2610.22358"
+        },
+        "c": "",
+        "n": "PathFM-300M",
+        "d": "2026-10-15",
+        "m1": "47.35"
+      },
+      {
+        "p": {
+          "name": "Chronos-2: From Univariate to Universal Forecasting",
+          "link": "https://arxiv.org/abs/2510.15821"
+        },
+        "c": "https://github.com/amazon-science/chronos-forecasting",
+        "n": "Chronos-2",
+        "d": "2025-10-17",
+        "m1": "47.28"
+      },
+      {
+        "p": {
+          "name": "TabPFN-3: Technical Report",
+          "link": "https://arxiv.org/abs/2605.13986"
+        },
+        "c": "https://github.com/priorlabs/tabpfn",
+        "n": "TabPFN-TS-3",
+        "d": "2026-05-13",
+        "m1": "43.15"
+      },
+      {
+        "p": {
+          "name": "TiRex: Zero-Shot Forecasting Across Long and Short Horizons with Enhanced In-Context Learning",
+          "link": "https://arxiv.org/abs/2505.23719"
+        },
+        "c": "https://github.com/nx-ai/tirex",
+        "n": "TiRex",
+        "d": "2025-05-29",
+        "m1": "42.58"
+      },
+      {
+        "p": {
+          "name": "A decoder-only foundation model for time-series forecasting",
+          "link": "https://arxiv.org/abs/2310.10688v4"
+        },
+        "c": "https://github.com/google-research/timesfm",
+        "n": "TimesFM-2.5",
+        "d": "2023-10-14",
+        "m1": "42.20"
+      },
+      {
+        "p": {
+          "name": "This Time is Different: An Observability Perspective on Time Series Foundation Models",
+          "link": "https://arxiv.org/abs/2505.14766"
+        },
+        "c": "https://github.com/datadog/toto",
+        "n": "Toto Open Base 1.0",
+        "d": "2025-05-20",
+        "m1": "40.76"
+      },
+      {
+        "p": {
+          "name": "FlowState: Sampling Rate Invariant Time Series Forecasting",
+          "link": "https://arxiv.org/abs/2508.05287"
+        },
+        "c": "",
+        "n": "FlowState-r1",
+        "d": "2025-08-07",
+        "m1": "39.91"
+      },
+      {
+        "p": {
+          "name": "Moirai 2.0: When Less Is More for Time Series Forecasting",
+          "link": "https://arxiv.org/abs/2511.11698"
+        },
+        "c": "https://github.com/salesforceairesearch/uni2ts",
+        "n": "Moirai 2.0 R-Small",
+        "d": "2025-11-12",
+        "m1": "39.31"
+      },
+      {
+        "p": {
+          "name": "Sundial: A Family of Highly Capable Time Series Foundation Models",
+          "link": "https://arxiv.org/abs/2502.00816"
+        },
+        "c": "https://github.com/thuml/sundial",
+        "n": "Sundial Base 128M",
+        "d": "2025-02-02",
+        "m1": "33.42"
+      }
+    ]
+  }
+}

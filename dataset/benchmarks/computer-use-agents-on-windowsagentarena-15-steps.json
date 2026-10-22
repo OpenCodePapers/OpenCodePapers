@@ -1,0 +1,129 @@
+{
+  "title": "computer-use-agents-on-windowsagentarena-15-steps",
+  "task-hierarchy": [
+    "Agents",
+    "Computer Use Agents"
+  ],
+  "dataset-info": {
+    "link": "https://microsoft.github.io/WindowsAgentArena/",
+    "paper": "Windows Agent Arena: Evaluating Multi-Modal OS Agents at Scale"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Success Rate",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Recovering Policy-Induced Errors: Benchmarking and Trajectory Synthesis for Robust GUI Agents",
+          "link": "https://arxiv.org/abs/2605.29447"
+        },
+        "c": "https://github.com/AlibabaResearch/RoTS",
+        "n": "RoTS-32B",
+        "d": "2026-05-28",
+        "m1": "35.9"
+      },
+      {
+        "p": {
+          "name": "Scaling Computer-Use Grounding via User Interface Decomposition and Synthesis",
+          "link": "https://arxiv.org/abs/2505.13227"
+        },
+        "c": "https://github.com/xlang-ai/osworld-g",
+        "n": "JEDI-7B w/ GPT-4o",
+        "d": "2025-05-19",
+        "m1": "30.17"
+      },
+      {
+        "p": {
+          "name": "Agent S2: A Compositional Generalist-Specialist Framework for Computer Use Agents",
+          "link": "https://arxiv.org/abs/2504.00906"
+        },
+        "c": "https://github.com/simular-ai/agent-s",
+        "n": "Agent S2 w/ Claude-3.7-Sonnet",
+        "d": "2025-04-01",
+        "m1": "29.8"
+      },
+      {
+        "p": {
+          "name": "Watch and Learn: Learning to Use Computers from Online Videos",
+          "link": "https://arxiv.org/abs/2510.04673"
+        },
+        "c": "",
+        "n": "UI-TARS-1.5-7B (W&L SFT)",
+        "d": "2025-10-06",
+        "m1": "24.0"
+      },
+      {
+        "p": {
+          "name": "UltraCUA: A Foundation Model for Computer Use Agents with Hybrid Action",
+          "link": "https://arxiv.org/abs/2510.17790"
+        },
+        "c": "",
+        "n": "UltraCUA-7B",
+        "d": "2025-10-20",
+        "m1": "21.7"
+      },
+      {
+        "p": {
+          "name": "CoAct-1: Computer-using Multi-Agent System with Coding Actions",
+          "link": "https://arxiv.org/abs/2508.03923"
+        },
+        "c": "",
+        "n": "CoAct-1",
+        "d": "2025-08-05",
+        "m1": "21.4"
+      },
+      {
+        "p": {
+          "name": "ScaleCUA: Scaling Open-Source Computer Use Agents with Cross-Platform Data",
+          "link": "https://arxiv.org/abs/2509.15221"
+        },
+        "c": "https://github.com/OpenGVLab/ScaleCUA",
+        "n": "ScaleCUA-32B",
+        "d": "2025-09-18",
+        "m1": "21.4"
+      },
+      {
+        "p": {
+          "name": "Windows Agent Arena: Evaluating Multi-Modal OS Agents at Scale",
+          "link": "https://arxiv.org/abs/2409.08264"
+        },
+        "c": "https://github.com/microsoft/windowsagentarena",
+        "n": "Navi w/ GPT-4V-1106 (UIA + OmniParser)",
+        "d": "2024-09-12",
+        "m1": "19.5"
+      },
+      {
+        "p": {
+          "name": "Agent S: An Open Agentic Framework that Uses Computers Like a Human",
+          "link": "https://arxiv.org/abs/2410.08164"
+        },
+        "c": "https://github.com/simular-ai/agent-s",
+        "n": "Agent S w/ GPT-4o",
+        "d": "2024-10-10",
+        "m1": "18.2"
+      }
+    ]
+  }
+}

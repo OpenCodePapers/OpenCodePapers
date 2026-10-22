@@ -1,0 +1,378 @@
+{
+  "title": "mathematical-reasoning-on-hmmt-feb-2025",
+  "task-hierarchy": [
+    "Mathematical Reasoning"
+  ],
+  "dataset-info": {
+    "link": "https://matharena.ai/",
+    "paper": "MathArena: Evaluating LLMs on Uncontaminated Math Competitions"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Step 3.5 Flash: Open Frontier-Level Intelligence with 11B Active Parameters",
+          "link": "https://arxiv.org/abs/2602.10604"
+        },
+        "c": "https://huggingface.co/stepfun-ai/Step-3.5-Flash-Base",
+        "n": "Step 3.5 Flash (11B)",
+        "d": "2026-02-11",
+        "m1": "98.4"
+      },
+      {
+        "p": {
+          "name": "Seed2.0 Model Card: Towards Intelligence Frontier for Real-World Complexity",
+          "link": "https://arxiv.org/abs/2607.00248"
+        },
+        "c": "",
+        "n": "Seed2.0 Pro",
+        "d": "2026-06-30",
+        "m1": "97.3"
+      },
+      {
+        "p": {
+          "name": "Kimi K2.5: Visual Agentic Intelligence",
+          "link": "https://arxiv.org/abs/2602.02276"
+        },
+        "c": "https://github.com/MoonshotAI/Kimi-K2.5",
+        "n": "Kimi K2.5",
+        "d": "2026-02-02",
+        "m1": "95.4"
+      },
+      {
+        "p": {
+          "name": "Claim-Level Reliability Assessment for Efficient Test-Time Reasoning",
+          "link": "https://arxiv.org/abs/2608.11994"
+        },
+        "c": "https://github.com/WeiboAI/CLR",
+        "n": "Qwen3.5-27B + CLR@32",
+        "d": "2026-08-12",
+        "m1": "95.0"
+      },
+      {
+        "p": {
+          "name": "Unified Audio Intelligence Without Regressing on Text Intelligence",
+          "link": "https://arxiv.org/abs/2607.05196"
+        },
+        "c": "",
+        "n": "Audex 30B-A3B",
+        "d": "2026-07-06",
+        "m1": "92.2"
+      },
+      {
+        "p": {
+          "name": "STEP3-VL-10B Technical Report",
+          "link": "https://arxiv.org/abs/2601.09668"
+        },
+        "c": "https://github.com/stepfun-ai/Step3-VL-10B",
+        "n": "Step3-VL-10B (PaCoRe)",
+        "d": "2026-01-14",
+        "m1": "92.14"
+      },
+      {
+        "p": {
+          "name": "Limite 1B - Violetto: Technical Report",
+          "link": "https://paradigma.inc/research/limite-1b-violetto/"
+        },
+        "c": "https://github.com/paradigma-inc/limite-violetto",
+        "n": "Limite 1B - Violetto",
+        "d": "2026-10-06",
+        "m1": "91.35"
+      },
+      {
+        "p": {
+          "name": "MiMo-V2-Flash Technical Report",
+          "link": "https://arxiv.org/abs/2601.02780"
+        },
+        "c": "https://github.com/XiaomiMiMo/MiMo-V2-Flash",
+        "n": "MiMo-V2-Flash (Thinking)",
+        "d": "2026-01-06",
+        "m1": "84.4"
+      },
+      {
+        "p": {
+          "name": "Thought-Level Beam Search for Reasoning",
+          "link": "https://arxiv.org/abs/2608.08020"
+        },
+        "c": "https://github.com/Dao-AILab/gambit-parallel-reasoning",
+        "n": "Gambit (Phi-4-reasoning-plus-14B)",
+        "d": "2026-08-11",
+        "m1": "75.8"
+      },
+      {
+        "p": {
+          "name": "PRISM: Pushing the Frontier of Deep Think via Process Reward Model-Guided Inference",
+          "link": "https://arxiv.org/abs/2603.02479"
+        },
+        "c": "https://github.com/Rituraj003/PRISM",
+        "n": "PRISM (gpt-oss-20b; LLM Aggregate)",
+        "d": "2026-03-03",
+        "m1": "75.6"
+      },
+      {
+        "p": {
+          "name": "JudgeRLVR: Judge First, Generate Second for Efficient Reasoning",
+          "link": "https://arxiv.org/abs/2601.08468"
+        },
+        "c": "",
+        "n": "JudgeRLVR (Qwen3-30B-A3B)",
+        "d": "2026-01-13",
+        "m1": "70.0"
+      },
+      {
+        "p": {
+          "name": "Does On-Policy Distillation Really Distill? From Noisy Teacher to Self-Improvement",
+          "link": "https://arxiv.org/abs/2608.31046"
+        },
+        "c": "https://github.com/DripNowhy/On-Policy-Self-Adaptation",
+        "n": "OPSA (Qwen3.5-9B)",
+        "d": "2026-08-31",
+        "m1": "67.4"
+      },
+      {
+        "p": {
+          "name": "Falcon-H1R: Pushing the Reasoning Frontiers with a Hybrid Model for Efficient Test-Time Scaling",
+          "link": "https://arxiv.org/abs/2601.02346"
+        },
+        "c": "https://github.com/tiiuae/falcon-h1r",
+        "n": "Falcon-H1R (7B)",
+        "d": "2026-01-05",
+        "m1": "64.9"
+      },
+      {
+        "p": {
+          "name": "Verify Before You Distill: Prompt-Level Teacher Gating for On-Policy Distillation",
+          "link": "https://arxiv.org/abs/2609.02998"
+        },
+        "c": "",
+        "n": "TGOPD (35B single-domain mask-only)",
+        "d": "2026-09-02",
+        "m1": "64.27"
+      },
+      {
+        "p": {
+          "name": "Lightning Weave: Improving the Accuracy-Efficiency Frontier of Reasoning Models through Capability Composition",
+          "link": "https://arxiv.org/abs/2609.14708"
+        },
+        "c": "",
+        "n": "Lightning Weave (Qwen3.5-4B)",
+        "d": "2026-09-13",
+        "m1": "64"
+      },
+      {
+        "p": {
+          "name": "DoubtLess: Training-Free Contrastive Decoding for Efficient Reasoning",
+          "link": "https://arxiv.org/abs/2610.18862"
+        },
+        "c": "https://github.com/leoluolol/DoubtLess",
+        "n": "DoubtLess (Qwen3-32B steered by Qwen3-0.6B)",
+        "d": "2026-10-13",
+        "m1": "56.7"
+      },
+      {
+        "p": {
+          "name": "Anti-Self-Distillation for Reasoning RL via Pointwise Mutual Information",
+          "link": "https://arxiv.org/abs/2605.11609"
+        },
+        "c": "https://github.com/FloyedShen/AntiSD",
+        "n": "Olmo3-7B-TK + AntiSD",
+        "d": "2026-05-12",
+        "m1": "56.2"
+      },
+      {
+        "p": {
+          "name": "Is Next-Chunk Reasoning RL Really Better than SFT? Revisiting Training Strategies under no-CoT Data",
+          "link": "https://arxiv.org/abs/2608.23256"
+        },
+        "c": "",
+        "n": "Mixed SFT + RLVR",
+        "d": "2026-08-24",
+        "m1": "55.0"
+      },
+      {
+        "p": {
+          "name": "Value-Aware Stochastic KV Cache Eviction for Reasoning Models",
+          "link": "https://arxiv.org/abs/2606.03928"
+        },
+        "c": "https://github.com/terarachang/VaSE",
+        "n": "VaSE-AttnV (Qwen3-14B)",
+        "d": "2026-06-02",
+        "m1": "50.0"
+      },
+      {
+        "p": {
+          "name": "On-Policy Self-Distillation without Any Supervision",
+          "link": "https://arxiv.org/abs/2608.06296"
+        },
+        "c": "https://github.com/williamium3000/u-opsd",
+        "n": "u-OPSD Qwen3-30B-A3B-Instruct-2507",
+        "d": "2026-08-09",
+        "m1": "50.0"
+      },
+      {
+        "p": {
+          "name": "KnowRL: Boosting LLM Reasoning via Reinforcement Learning with Minimal-Sufficient Knowledge Guidance",
+          "link": "https://arxiv.org/abs/2604.12627"
+        },
+        "c": "https://github.com/Hasuer/KnowRL",
+        "n": "KnowRL-Nemotron-1.5B (CSS)",
+        "d": "2026-04-14",
+        "m1": "48.75"
+      },
+      {
+        "p": {
+          "name": "Better Supervision Is Nearby: Neighborhood On-Policy Self-Distillation",
+          "link": "https://arxiv.org/abs/2609.39687"
+        },
+        "c": "",
+        "n": "N-OPSD (Qwen3-8B)",
+        "d": "2026-09-30",
+        "m1": "48.24"
+      },
+      {
+        "p": {
+          "name": "Self-Distillation Zero: Self-Revision Turns Binary Rewards into Dense Supervision",
+          "link": "https://arxiv.org/abs/2604.12002"
+        },
+        "c": "https://github.com/princeton-pli/self-distillation-zero",
+        "n": "SD-Zero (Qwen3-4B-Instruct)",
+        "d": "2026-04-13",
+        "m1": "45.4"
+      },
+      {
+        "p": {
+          "name": "Value-Aware Stochastic KV Cache Eviction for Reasoning Models",
+          "link": "https://arxiv.org/abs/2606.03928"
+        },
+        "c": "https://github.com/terarachang/VaSE",
+        "n": "VaSE-AttnV (Qwen3-4B)",
+        "d": "2026-06-02",
+        "m1": "44.38"
+      },
+      {
+        "p": {
+          "name": "MOPD-Router: Rethinking Teacher Routing in Multi-Teacher On-Policy Distillation",
+          "link": "https://arxiv.org/abs/2609.30837"
+        },
+        "c": "https://github.com/TURLEing/MOPD-Router",
+        "n": "MOPD-Router (ExpertAlign, Qwen3-4B-Non-Thinking student, domain-labeled)",
+        "d": "2026-09-25",
+        "m1": "40.83"
+      },
+      {
+        "p": {
+          "name": "JustRL: Scaling a 1.5B LLM with a Simple RL Recipe",
+          "link": "https://arxiv.org/abs/2512.16649"
+        },
+        "c": "https://github.com/thunlp/JustRL",
+        "n": "JustRL-Nemotron 1.5B",
+        "d": "2025-12-18",
+        "m1": "40.63"
+      },
+      {
+        "p": {
+          "name": "Influence-Directed Distillation: Solving the Diversity Bottleneck in Sampled-Token On-Policy Distillation",
+          "link": "https://arxiv.org/abs/2608.29846"
+        },
+        "c": "",
+        "n": "Qwen3-8B-Non-Thinking + IDA-OPD",
+        "d": "2026-08-30",
+        "m1": "37.6"
+      },
+      {
+        "p": {
+          "name": "Weak-to-Strong On-Policy Distillation",
+          "link": "https://arxiv.org/abs/2607.26246"
+        },
+        "c": "https://github.com/yu-fangxu/w2s-opd",
+        "n": "W2S-OPD (single-teacher contrast)",
+        "d": "2026-07-28",
+        "m1": "35.1"
+      },
+      {
+        "p": {
+          "name": "Filter, Then Reweight: Rethinking Optimization Granularity in On-Policy Distillation",
+          "link": "https://arxiv.org/abs/2606.02684"
+        },
+        "c": "https://github.com/YuYingLi0/FiRe-OPD",
+        "n": "FiRe-OPD",
+        "d": "2026-06-01",
+        "m1": "35.0"
+      },
+      {
+        "p": {
+          "name": "FlowBalance: Verifier-Grounded Self-Improvement from On-Policy Reasoning Experience",
+          "link": "https://arxiv.org/abs/2609.03241"
+        },
+        "c": "https://github.com/alexhuang13/FlowBalance",
+        "n": "Qwen3-8B + FlowBalance",
+        "d": "2026-09-03",
+        "m1": "34.67"
+      },
+      {
+        "p": {
+          "name": "Beyond Domain-Routed Supervision: Cross-Teacher Guarding for Multi-Teacher On-Policy Distillation",
+          "link": "https://arxiv.org/abs/2610.13521"
+        },
+        "c": "",
+        "n": "Road MOPD (Qwen3-4B)",
+        "d": "2026-10-09",
+        "m1": "33.54"
+      },
+      {
+        "p": {
+          "name": "Eliciting Weak-to-Strong Generalization with On-Policy Reverse Distillation",
+          "link": "https://arxiv.org/abs/2609.08798"
+        },
+        "c": "https://github.com/raymin0223/on_policy_reverse_distillation",
+        "n": "Qwen3-8B + OPRD",
+        "d": "2026-09-08",
+        "m1": "31.42"
+      },
+      {
+        "p": {
+          "name": "SAF-OPD: Stable Advantage Fusion for On-Policy Distillation",
+          "link": "https://arxiv.org/abs/2607.29209"
+        },
+        "c": "",
+        "n": "SAF (Qwen3-4B)",
+        "d": "2026-07-31",
+        "m1": "31.15"
+      },
+      {
+        "p": {
+          "name": "MHPO: Modulated Hazard-aware Policy Optimization for Stable Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2603.16929"
+        },
+        "c": "",
+        "n": "MHPO (Qwen2.5-Math-7B-Instruct)",
+        "d": "2026-03-14",
+        "m1": "17.9"
+      }
+    ]
+  }
+}

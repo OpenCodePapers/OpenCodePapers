@@ -1,0 +1,253 @@
+{
+  "title": "scene-text-recognition-on-union14m-benchmark",
+  "task-hierarchy": [
+    "Optical Character Recognition (OCR)",
+    "Scene Text Recognition"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/Mountchicken/Union14M",
+    "paper": "Revisiting Scene Text Recognition: A Data Perspective"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "WAICS (Curve)",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "WAICS (Contextless)",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "WAICS (Multi-Words)",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "WAICS (Artistic)",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "WAICS (Salient)",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "WAICS (General)",
+        "sortable": "true"
+      },
+      {
+        "key": "m7",
+        "label": "WAICS (Multi-Oriented)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "What Is Wrong with Synthetic Data for Scene Text Recognition? A Strong Synthetic Engine with Diverse Simulations and Self-Evolution",
+          "link": "https://arxiv.org/abs/2602.06450"
+        },
+        "c": "https://github.com/YesianRohn/UnionST",
+        "n": "SVTRv2-AR + UnionST-SP + R",
+        "d": "2026-02-06",
+        "m1": "95.42",
+        "m4": "86.67",
+        "m5": "91.09",
+        "m6": "87.74"
+      },
+      {
+        "p": {
+          "name": "Advancing WordArt-Oriented Scene Text Recognition: Datasets and Methods",
+          "link": "https://arxiv.org/abs/2606.24484"
+        },
+        "c": "https://github.com/YesianRohn/WATER",
+        "n": "WATERec-RS (extra data)",
+        "d": "2026-06-23",
+        "m1": "94.27",
+        "m7": "95.54",
+        "m4": "84.11",
+        "m2": "86.91",
+        "m5": "89.89",
+        "m3": "89.32",
+        "m6": "85.6"
+      },
+      {
+        "p": {
+          "name": "Embedding Rotation Invariance for Provable Multi-Oriented Scene Text Recognition",
+          "link": "https://arxiv.org/abs/2608.10684"
+        },
+        "c": "",
+        "n": "RISTER-L (extra data)",
+        "d": "2026-08-11",
+        "m1": "94.1",
+        "m6": "83.7",
+        "m5": "90.3",
+        "m4": "79.4",
+        "m2": "80.6",
+        "m3": "87.4",
+        "m7": "96.6"
+      },
+      {
+        "p": {
+          "name": "SVTRv2: CTC Beats Encoder-Decoder Models in Scene Text Recognition",
+          "link": "https://arxiv.org/abs/2411.15858"
+        },
+        "c": "https://github.com/topdu/openocr",
+        "n": "SVTRv2-B",
+        "d": "2024-11-24",
+        "m1": "90.6",
+        "m7": "89.0",
+        "m4": "79.3",
+        "m2": "86.1",
+        "m5": "86.2",
+        "m3": "86.7",
+        "m6": "85.1"
+      },
+      {
+        "p": {
+          "name": "Linguistics-aware Masked Image Modeling for Self-supervised Scene Text Recognition",
+          "link": "https://arxiv.org/abs/2503.18746"
+        },
+        "c": "",
+        "n": "LMIM (20-epoch, ARD fine-tuning) (extra data)",
+        "d": "2025-03-24",
+        "m1": "90.6",
+        "m7": "86.9",
+        "m6": "85.7"
+      },
+      {
+        "p": {
+          "name": "Revisiting Scene Text Recognition: A Data Perspective",
+          "link": "https://arxiv.org/abs/2307.08723"
+        },
+        "c": "https://github.com/Mountchicken/Union14M",
+        "n": "MAERec-B (Union14M-U PT + Union14M-L FT)",
+        "d": "2023-07-17",
+        "m1": "88.8",
+        "m7": "83.9",
+        "m4": "80.0",
+        "m2": "85.5",
+        "m5": "84.9",
+        "m3": "87.5",
+        "m6": "85.8"
+      },
+      {
+        "p": {
+          "name": "Focus on the Whole Character: Discriminative Character Modeling for Scene Text Recognition",
+          "link": "https://arxiv.org/abs/2407.05562"
+        },
+        "c": "https://github.com/bang123-box/cfe",
+        "n": "CFE-Base (Union14M-L training) (extra data)",
+        "d": "2024-07-08",
+        "m1": "86.8",
+        "m6": "84.4",
+        "m5": "83.5",
+        "m4": "77.5",
+        "m2": "85.5",
+        "m3": "85.9",
+        "m7": "80.4"
+      },
+      {
+        "p": {
+          "name": "OTE: Exploring Accurate Scene Text Recognition Using One Token",
+          "link": "https://openaccess.thecvf.com/content/CVPR2024/html/Xu_OTE_Exploring_Accurate_Scene_Text_Recognition_Using_One_Token_CVPR_2024_paper.html"
+        },
+        "c": "https://github.com/xu-jianjun/ote",
+        "n": "OTE A/SVTR",
+        "d": "2024-06-17",
+        "m1": "83.1",
+        "m6": "82.2",
+        "m5": "79.7",
+        "m4": "73.5",
+        "m2": "73.7",
+        "m3": "70.3",
+        "m7": "82.8"
+      },
+      {
+        "p": {
+          "name": "Context Perception Parallel Decoder for Scene Text Recognition",
+          "link": "https://arxiv.org/abs/2307.12270v2"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleOCR",
+        "n": "NRTR-CPPD",
+        "d": "2023-07-23",
+        "m3": "65.5"
+      },
+      {
+        "p": {
+          "name": "Instruction-Guided Scene Text Recognition",
+          "link": "https://arxiv.org/abs/2401.17851"
+        },
+        "c": "https://github.com/topdu/openocr",
+        "n": "IGTR-PR-PT (extra data)",
+        "d": "2024-01-31",
+        "m2": "83.6"
+      },
+      {
+        "p": {
+          "name": "Linguistics-aware Masked Image Modeling for Self-supervised Scene Text Recognition",
+          "link": "https://arxiv.org/abs/2503.18746"
+        },
+        "c": "",
+        "n": "LMIM (20-epoch, Union14M-L fine-tuning) (extra data)",
+        "d": "2025-03-24",
+        "m4": "80.7",
+        "m2": "85.5",
+        "m5": "88.2",
+        "m3": "87.9"
+      },
+      {
+        "p": {
+          "name": "What Is Wrong with Synthetic Data for Scene Text Recognition? A Strong Synthetic Engine with Diverse Simulations and Self-Evolution",
+          "link": "https://arxiv.org/abs/2602.06450"
+        },
+        "c": "https://github.com/YesianRohn/UnionST",
+        "n": "SVTRv2-AR + UnionST-PR + R",
+        "d": "2026-02-06",
+        "m7": "97.3"
+      },
+      {
+        "p": {
+          "name": "What Is Wrong with Synthetic Data for Scene Text Recognition? A Strong Synthetic Engine with Diverse Simulations and Self-Evolution",
+          "link": "https://arxiv.org/abs/2602.06450"
+        },
+        "c": "https://github.com/YesianRohn/UnionST",
+        "n": "SVTRv2-AR + UnionST-SP + ISR (D_P2 + D_L-hard)",
+        "d": "2026-02-06",
+        "m2": "91.14"
+      },
+      {
+        "p": {
+          "name": "What Is Wrong with Synthetic Data for Scene Text Recognition? A Strong Synthetic Engine with Diverse Simulations and Self-Evolution",
+          "link": "https://arxiv.org/abs/2602.06450"
+        },
+        "c": "https://github.com/YesianRohn/UnionST",
+        "n": "SVTRv2-AR + UnionST-SR + R",
+        "d": "2026-02-06",
+        "m3": "92.48"
+      }
+    ]
+  }
+}

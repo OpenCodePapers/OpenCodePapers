@@ -1,0 +1,248 @@
+{
+  "title": "video-question-answering-on-tempcompass-overall",
+  "task-hierarchy": [
+    "Video Question Answering"
+  ],
+  "dataset-info": {
+    "link": "https://aclanthology.org/2024.findings-acl.517.pdf",
+    "paper": "TempCompass: Do Video LLMs Really Understand Videos?"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "EventLens: Event-Structure Reinforcement Learning for Video Understanding",
+          "link": "https://arxiv.org/abs/2610.16172"
+        },
+        "c": "https://github.com/lostgreen/eventlens",
+        "n": "EventLens-8B",
+        "d": "2026-10-12",
+        "m1": "77.17"
+      },
+      {
+        "p": {
+          "name": "Kwai Keye-VL 1.5 Technical Report",
+          "link": "https://arxiv.org/abs/2509.01563"
+        },
+        "c": "https://github.com/kwai-keye/keye",
+        "n": "Keye-VL-1.5-8B",
+        "d": "2025-09-01",
+        "m1": "75.5"
+      },
+      {
+        "p": {
+          "name": "Puzzle Curriculum GRPO for Vision-Centric Reasoning",
+          "link": "https://arxiv.org/abs/2512.14944"
+        },
+        "c": "https://github.com/SamsungLabs/PC-GRPO",
+        "n": "Qwen2.5-VL-7B (Jigsaw)",
+        "d": "2025-12-16",
+        "m1": "75.4"
+      },
+      {
+        "p": {
+          "name": "Qwen2.5-VL Technical Report",
+          "link": "https://arxiv.org/abs/2502.13923v1"
+        },
+        "c": "https://github.com/qwenlm/qwen2-vl",
+        "n": "Qwen2.5-VL-72B",
+        "d": "2025-02-19",
+        "m1": "74.8"
+      },
+      {
+        "p": {
+          "name": "PointThinker: Point-Incentivized Parallel Thinking for Multimodal Large Language Model",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Hu_PointThinker_Point-Incentivized_Parallel_Thinking_for_Multimodal_Large_Language_Model_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "PointThinker-7B (extra data)",
+        "d": "2026-06-03",
+        "m1": "74.7"
+      },
+      {
+        "p": {
+          "name": "VAST: Video Ability-Stratified Taxonomy for Data-Efficient Video Reasoning",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Wang_VAST_Video_Ability-Stratified_Taxonomy_for_Data-Efficient_Video_Reasoning_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "VideoVAST-7B (extra data)",
+        "d": "2026-06-03",
+        "m1": "74.2"
+      },
+      {
+        "p": {
+          "name": "MotionAtlas: A High-Quality Dataset and Benchmark for Dense Motion Captioning",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/4897"
+        },
+        "c": "https://github.com/kagura-0001/motionatlas",
+        "n": "MotionAtlas-4B",
+        "d": "2026-09-08",
+        "m1": "74.2"
+      },
+      {
+        "p": {
+          "name": "InternVideo3: Agentify Foundation Models with Multimodal Contextual Reasoning",
+          "link": "https://arxiv.org/abs/2606.12195"
+        },
+        "c": "https://github.com/opengvlab/internvideo",
+        "n": "InternVideo3-8B",
+        "d": "2026-06-10",
+        "m1": "74.0"
+      },
+      {
+        "p": {
+          "name": "Taming Hallucinations: Boosting MLLMs' Video Understanding via Counterfactual Video Generation",
+          "link": "https://arxiv.org/abs/2512.24271"
+        },
+        "c": "https://github.com/AMAP-ML/Taming-Hallucinations",
+        "n": "DNA-Train-7B",
+        "d": "2025-12-30",
+        "m1": "73.5"
+      },
+      {
+        "p": {
+          "name": "Ovis2.5 Technical Report",
+          "link": "https://arxiv.org/abs/2508.11737"
+        },
+        "c": "https://github.com/AIDC-AI/Ovis",
+        "n": "Ovis2.5-9B",
+        "d": "2025-08-15",
+        "m1": "72.6"
+      },
+      {
+        "p": {
+          "name": "OmniJigsaw: Enhancing Omni-Modal Reasoning via Modality-Orchestrated Reordering",
+          "link": "https://arxiv.org/abs/2604.08209"
+        },
+        "c": "https://github.com/aim-uofa/OmniJigsaw",
+        "n": "VideoJigsaw",
+        "d": "2026-04-09",
+        "m1": "72.28"
+      },
+      {
+        "p": {
+          "name": "Kwai Keye-VL Technical Report",
+          "link": "https://arxiv.org/abs/2507.01949"
+        },
+        "c": "https://github.com/kwai-keye/keye",
+        "n": "Keye-VL-8B",
+        "d": "2025-07-02",
+        "m1": "71.5"
+      },
+      {
+        "p": {
+          "name": "Structured Causal Video Reasoning via Multi-Objective Alignment",
+          "link": "https://arxiv.org/abs/2604.04415"
+        },
+        "c": "",
+        "n": "STEER-4B",
+        "d": "2026-04-06",
+        "m1": "70.64"
+      },
+      {
+        "p": {
+          "name": "Reinforced Attention Learning",
+          "link": "https://arxiv.org/abs/2602.04884"
+        },
+        "c": "",
+        "n": "On-Policy Distillation + Attention Distillation",
+        "d": "2026-02-04",
+        "m1": "70.3"
+      },
+      {
+        "p": {
+          "name": "Unified Spatio-Temporal Token Scoring for Efficient Video VLMs",
+          "link": "https://arxiv.org/abs/2603.18004"
+        },
+        "c": "https://github.com/allenai/STTS",
+        "n": "Molmo2 (SigLIP2 So400M + Qwen3-4B) baseline",
+        "d": "2026-03-18",
+        "m1": "69.9"
+      },
+      {
+        "p": {
+          "name": "Dynin-Omni: Omnimodal Unified Large Diffusion Language Model",
+          "link": "https://arxiv.org/abs/2604.00007"
+        },
+        "c": "https://github.com/AIDASLab/Dynin-Omni",
+        "n": "Dynin-Omni (8B)",
+        "d": "2026-03-09",
+        "m1": "68.4"
+      },
+      {
+        "p": {
+          "name": "VideoLLaMA 3: Frontier Multimodal Foundation Models for Image and Video Understanding",
+          "link": "https://arxiv.org/abs/2501.13106v3"
+        },
+        "c": "https://github.com/damo-nlp-sg/videollama3",
+        "n": "VideoLLaMA3 7B",
+        "d": "2025-01-22",
+        "m1": "68.1"
+      },
+      {
+        "p": {
+          "name": "Let VLMs Grade Their Own Thoughts: A Self-Quantification Approach to Reasoning-Aware Reward Modeling",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Xi_Let_VLMs_Grade_Their_Own_Thoughts_A_Self-Quantification_Approach_to_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "Video-RAISE-7B",
+        "d": "2026-06-03",
+        "m1": "65.9"
+      },
+      {
+        "p": {
+          "name": "AnchorPrune: Relevance-Anchored Contextual Expansion for Visual Token Pruning",
+          "link": "https://arxiv.org/abs/2607.07033"
+        },
+        "c": "https://github.com/multi-cau/anchorprune",
+        "n": "LLaVA-Video-7B (AnchorPrune, 1,024 tokens)",
+        "d": "2026-07-08",
+        "m1": "65.4"
+      },
+      {
+        "p": {
+          "name": "Mage-VL: An Efficient Codec-Native Streaming Multimodal Foundation Model",
+          "link": "https://arxiv.org/abs/2607.24904"
+        },
+        "c": "https://github.com/microsoft/Mage",
+        "n": "Mage-VL-4B (tc16)",
+        "d": "2026-07-27",
+        "m1": "62.4"
+      },
+      {
+        "p": {
+          "name": "SmolVLM: Redefining small and efficient multimodal models",
+          "link": "https://arxiv.org/abs/2504.05299"
+        },
+        "c": "https://github.com/huggingface/smollm",
+        "n": "SmolVLM 2.2B",
+        "d": "2025-04-07",
+        "m1": "53.7"
+      }
+    ]
+  }
+}

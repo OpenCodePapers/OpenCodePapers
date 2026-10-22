@@ -45,6 +45,16 @@
       },
       {
         "p": {
+          "name": "DINOv3",
+          "link": "https://arxiv.org/abs/2508.10104v1"
+        },
+        "c": "https://github.com/facebookresearch/dinov3",
+        "n": "DINOv3 (7B)",
+        "d": "2025-08-13",
+        "m1": "70.0"
+      },
+      {
+        "p": {
           "name": "MixMAE: Mixed and Masked Autoencoder for Efficient Pretraining of Hierarchical Vision Transformers",
           "link": "https://arxiv.org/abs/2205.13137v4"
         },
@@ -72,6 +82,16 @@
         "n": "MixMIM-B",
         "d": "2022-05-26",
         "m1": "68.3"
+      },
+      {
+        "p": {
+          "name": "DINOv2: Learning Robust Visual Features without Supervision",
+          "link": "https://arxiv.org/abs/2304.07193v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "DINOv2 (ViT-g/14)",
+        "d": "2023-04-14",
+        "m1": "67.5"
       },
       {
         "p": {
@@ -115,6 +135,16 @@
       },
       {
         "p": {
+          "name": "Revisiting Feature Prediction for Learning Visual Representations from Video",
+          "link": "https://arxiv.org/abs/2404.08471"
+        },
+        "c": "https://github.com/facebookresearch/jepa",
+        "n": "V-JEPA ViT-H/16 (384)",
+        "d": "2024-02-15",
+        "m1": "62.8"
+      },
+      {
+        "p": {
           "name": "Self-supervised Pretraining of Visual Features in the Wild",
           "link": "https://arxiv.org/abs/2103.01988v2"
         },
@@ -122,6 +152,16 @@
         "n": "RegNetY-128GF (Supervised)",
         "d": "2021-03-02",
         "m1": "62.7"
+      },
+      {
+        "p": {
+          "name": "Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture",
+          "link": "https://arxiv.org/abs/2301.08243"
+        },
+        "c": "https://github.com/facebookresearch/ijepa",
+        "n": "I-JEPA ViT-G/16",
+        "d": "2023-01-19",
+        "m1": "59.1"
       },
       {
         "p": {

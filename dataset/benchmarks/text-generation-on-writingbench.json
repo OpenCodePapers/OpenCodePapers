@@ -1,0 +1,128 @@
+{
+  "title": "text-generation-on-writingbench",
+  "task-hierarchy": [
+    "Text Generation"
+  ],
+  "dataset-info": {
+    "link": "https://huggingface.co/spaces/WritingBench/WritingBench",
+    "paper": "WritingBench: A Comprehensive Benchmark for Generative Writing"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Score (0-10)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Qwen3-Next",
+          "link": "https://qwenlm.github.io/blog/qwen3_next/"
+        },
+        "c": "",
+        "n": "Qwen3-Next-80B-A3B-Instruct",
+        "d": "2025-09-09",
+        "m1": "8.73"
+      },
+      {
+        "p": {
+          "name": "Qwen3-VL Technical Report",
+          "link": "https://arxiv.org/abs/2511.21631"
+        },
+        "c": "https://github.com/QwenLM/Qwen3-VL",
+        "n": "Qwen3-VL-235B-A22B-Thinking",
+        "d": "2025-11-26",
+        "m1": "8.67"
+      },
+      {
+        "p": {
+          "name": "Qwen3-Omni Technical Report",
+          "link": "https://arxiv.org/abs/2509.17765"
+        },
+        "c": "https://github.com/QwenLM/Qwen3-Omni",
+        "n": "Qwen3-Omni-Flash-Thinking",
+        "d": "2025-09-22",
+        "m1": "8.59"
+      },
+      {
+        "p": {
+          "name": "Qwen3 Technical Report",
+          "link": "https://arxiv.org/abs/2505.09388"
+        },
+        "c": "https://github.com/QwenLM/Qwen3",
+        "n": "Qwen3-235B-A22B (Thinking)",
+        "d": "2025-05-14",
+        "m1": "8.03"
+      },
+      {
+        "p": {
+          "name": "Qwen3 Technical Report",
+          "link": "https://arxiv.org/abs/2505.09388"
+        },
+        "c": "https://github.com/QwenLM/Qwen3",
+        "n": "Qwen3-235B-A22B (Non-thinking)",
+        "d": "2025-05-14",
+        "m1": "7.70"
+      },
+      {
+        "p": {
+          "name": "SEIF: Self-Evolving Reinforcement Learning for Instruction Following",
+          "link": "https://arxiv.org/abs/2605.07465"
+        },
+        "c": "https://github.com/Rainier-rq1/SEIF",
+        "n": "SEIF (R1-0528-Qwen3-8B)",
+        "d": "2026-05-08",
+        "m1": "7.65"
+      },
+      {
+        "p": {
+          "name": "Solar Open Technical Report",
+          "link": "https://arxiv.org/abs/2601.07022"
+        },
+        "c": "https://github.com/upstageai/solar-open",
+        "n": "Solar Open (102B)",
+        "d": "2026-01-11",
+        "m1": "7.51"
+      },
+      {
+        "p": {
+          "name": "Mach-Mind-4-Flash Technical Report",
+          "link": "https://arxiv.org/abs/2607.09375"
+        },
+        "c": "",
+        "n": "Mach-Mind-4-Flash",
+        "d": "2026-07-10",
+        "m1": "7.461"
+      },
+      {
+        "p": {
+          "name": "DPWriter: Reinforcement Learning with Diverse Planning Branching for Creative Writing",
+          "link": "https://arxiv.org/abs/2601.09609"
+        },
+        "c": "https://github.com/aman-4-real/dpwriter",
+        "n": "DPWriter (Qwen3-4B-Base)",
+        "d": "2026-01-14",
+        "m1": "6.43"
+      }
+    ]
+  }
+}

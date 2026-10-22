@@ -1,0 +1,355 @@
+{
+  "title": "text-to-speech-synthesis-on-seed-tts-test-en",
+  "task-hierarchy": [
+    "Speech Synthesis",
+    "Text-To-Speech Synthesis"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/BytedanceSpeech/seed-tts-eval",
+    "paper": "Seed-TTS: A Family of High-Quality Versatile Speech Generation Models"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "WER",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Speaker Similarity",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Fish Audio S2 Technical Report",
+          "link": "https://arxiv.org/abs/2603.08823"
+        },
+        "c": "https://github.com/fishaudio/fish-speech",
+        "n": "Fish Audio S2",
+        "d": "2026-03-09",
+        "m1": "0.99"
+      },
+      {
+        "p": {
+          "name": "AuK Technical Report: An Open-Source Foundational Model for Speech Generation and Editing",
+          "link": "https://arxiv.org/abs/2609.08936"
+        },
+        "c": "https://github.com/Tencent-Hunyuan/AuK",
+        "n": "AuK",
+        "d": "2026-09-08",
+        "m1": "1.02",
+        "m2": "0.788"
+      },
+      {
+        "p": {
+          "name": "AuK Technical Report: An Open-Source Foundational Model for Speech Generation and Editing",
+          "link": "https://arxiv.org/abs/2609.08936"
+        },
+        "c": "https://github.com/Tencent-Hunyuan/AuK",
+        "n": "AuK-Flash",
+        "d": "2026-09-08",
+        "m1": "1.03",
+        "m2": "0.772"
+      },
+      {
+        "p": {
+          "name": "Voxtral TTS",
+          "link": "https://arxiv.org/abs/2603.25551"
+        },
+        "c": "",
+        "n": "Voxtral TTS",
+        "d": "2026-03-26",
+        "m1": "1.23",
+        "m2": "0.628"
+      },
+      {
+        "p": {
+          "name": "Qwen3-TTS Technical Report",
+          "link": "https://arxiv.org/abs/2601.15621"
+        },
+        "c": "https://github.com/QwenLM/Qwen3-TTS",
+        "n": "Qwen3-TTS-12Hz-1.7B-Base",
+        "d": "2026-01-22",
+        "m1": "1.24"
+      },
+      {
+        "p": {
+          "name": "Qwen3.5-Omni Technical Report",
+          "link": "https://arxiv.org/pdf/2604.15804"
+        },
+        "c": "",
+        "n": "Qwen3.5-Omni-Plus",
+        "d": "2026-04-21",
+        "m1": "1.26"
+      },
+      {
+        "p": {
+          "name": "VoXtream2: Full-stream TTS with dynamic speaking rate control",
+          "link": "https://arxiv.org/abs/2603.13518"
+        },
+        "c": "https://github.com/herimor/voxtream",
+        "n": "VoXtream2 (462M)",
+        "d": "2026-03-13",
+        "m1": "1.32"
+      },
+      {
+        "p": {
+          "name": "CosyVoice 3: Towards In-the-wild Speech Generation via Scaling-up and Post-training",
+          "link": "https://arxiv.org/abs/2505.17589"
+        },
+        "c": "https://github.com/funaudiollm/cosyvoice",
+        "n": "CosyVoice 3-1.5B RL",
+        "d": "2025-05-23",
+        "m1": "1.45"
+      },
+      {
+        "p": {
+          "name": "Luna-TTS Family Technical Report",
+          "link": "https://arxiv.org/abs/2608.11593"
+        },
+        "c": "",
+        "n": "Luna-TTS",
+        "d": "2026-08-12",
+        "m1": "1.49",
+        "m2": "0.768"
+      },
+      {
+        "p": {
+          "name": "IndexTTS2: A Breakthrough in Emotionally Expressive and Duration-Controlled Auto-Regressive Zero-Shot Text-to-Speech",
+          "link": "https://arxiv.org/abs/2506.21619"
+        },
+        "c": "",
+        "n": "IndexTTS2",
+        "d": "2025-06-23",
+        "m1": "1.521",
+        "m2": "0.86"
+      },
+      {
+        "p": {
+          "name": "ERNIE 5.0 Technical Report",
+          "link": "https://arxiv.org/abs/2602.04705"
+        },
+        "c": "",
+        "n": "ERNIE 5.0",
+        "d": "2026-02-04",
+        "m1": "1.54"
+      },
+      {
+        "p": {
+          "name": "ZipVoice: Fast and High-Quality Zero-Shot Text-to-Speech with Flow Matching",
+          "link": "https://arxiv.org/abs/2506.13053"
+        },
+        "c": "https://github.com/k2-fsa/ZipVoice",
+        "n": "ZipVoice-Distill (8 NFE)",
+        "d": "2025-06-16",
+        "m1": "1.62",
+        "m2": "0.67"
+      },
+      {
+        "p": {
+          "name": "MiniMax-Speech: Intrinsic Zero-Shot Text-to-Speech with a Learnable Speaker Encoder",
+          "link": "https://arxiv.org/abs/2505.07916"
+        },
+        "c": "",
+        "n": "MiniMax-Speech",
+        "d": "2025-05-12",
+        "m1": "1.65",
+        "m2": "0.692"
+      },
+      {
+        "p": {
+          "name": "Audio8 TTS Preview 0.1B",
+          "link": "https://huggingface.co/Audio8/Audio8-TTS-Preview-0.1b/raw/b476f0208438dfa791abee44d11029f055aeae04/README.md"
+        },
+        "c": "https://github.com/edge0-ai/audio8_tts",
+        "n": "Audio8 TTS Preview 0.1B",
+        "d": "2026-08-19",
+        "m2": "0.567",
+        "m1": "1.662"
+      },
+      {
+        "p": {
+          "name": "ZipVoice: Fast and High-Quality Zero-Shot Text-to-Speech with Flow Matching",
+          "link": "https://arxiv.org/abs/2506.13053"
+        },
+        "c": "https://github.com/k2-fsa/ZipVoice",
+        "n": "ZipVoice",
+        "d": "2025-06-16",
+        "m1": "1.7",
+        "m2": "0.697"
+      },
+      {
+        "p": {
+          "name": "F5-TTS: A Fairytaler that Fakes Fluent and Faithful Speech with Flow Matching",
+          "link": "https://arxiv.org/abs/2410.06885"
+        },
+        "c": "https://github.com/swivid/f5-tts",
+        "n": "F5-TTS (32 NFE)",
+        "d": "2024-10-09",
+        "m1": "1.83",
+        "m2": "0.67"
+      },
+      {
+        "p": {
+          "name": "VoxCPM: Tokenizer-Free TTS for Context-Aware Speech Generation and True-to-Life Voice Cloning",
+          "link": "https://arxiv.org/abs/2509.24650"
+        },
+        "c": "",
+        "n": "VoxCPM",
+        "d": "2025-09-29",
+        "m1": "1.85",
+        "m2": "0.729"
+      },
+      {
+        "p": {
+          "name": "Raon-Speech Technical Report",
+          "link": "https://arxiv.org/abs/2605.23912"
+        },
+        "c": "https://github.com/krafton-ai/raon-speech",
+        "n": "Raon-Speech",
+        "d": "2026-04-08",
+        "m1": "1.93"
+      },
+      {
+        "p": {
+          "name": "Spark-TTS: An Efficient LLM-Based Text-to-Speech Model with Single-Stream Decoupled Speech Tokens",
+          "link": "https://arxiv.org/abs/2503.01710"
+        },
+        "c": "https://github.com/sparkaudio/spark-tts",
+        "n": "Spark-TTS",
+        "d": "2025-03-03",
+        "m1": "1.98",
+        "m2": "0.584"
+      },
+      {
+        "p": {
+          "name": "CosyVoice 3: Towards In-the-wild Speech Generation via Scaling-up and Post-training",
+          "link": "https://arxiv.org/abs/2505.17589"
+        },
+        "c": "https://github.com/funaudiollm/cosyvoice",
+        "n": "E2 TTS (32 NFE)",
+        "d": "2025-05-23",
+        "m1": "2.19",
+        "m2": "0.71"
+      },
+      {
+        "p": {
+          "name": "Seed-TTS: A Family of High-Quality Versatile Speech Generation Models",
+          "link": "https://arxiv.org/abs/2406.02430"
+        },
+        "c": "https://github.com/BytedanceSpeech/seed-tts-eval",
+        "n": "Seed-TTS ICL",
+        "d": "2024-06-04",
+        "m1": "2.249",
+        "m2": "0.762"
+      },
+      {
+        "p": {
+          "name": "CosyVoice 3: Towards In-the-wild Speech Generation via Scaling-up and Post-training",
+          "link": "https://arxiv.org/abs/2505.17589"
+        },
+        "c": "https://github.com/funaudiollm/cosyvoice",
+        "n": "Qwen2.5-Omni-7B RL",
+        "d": "2025-05-23",
+        "m1": "2.33",
+        "m2": "0.641"
+      },
+      {
+        "p": {
+          "name": "CosyVoice 2: Scalable Streaming Speech Synthesis with Large Language Models",
+          "link": "https://arxiv.org/abs/2412.10117"
+        },
+        "c": "https://github.com/funaudiollm/cosyvoice",
+        "n": "CosyVoice 2-S",
+        "d": "2024-12-13",
+        "m1": "2.38",
+        "m2": "0.654"
+      },
+      {
+        "p": {
+          "name": "MiniCPM-o 4.5: Towards Real-Time Full-Duplex Omni-Modal Interaction",
+          "link": "https://arxiv.org/abs/2604.27393"
+        },
+        "c": "https://github.com/OpenBMB/MiniCPM-o",
+        "n": "MiniCPM-o 4.5",
+        "d": "2026-04-30",
+        "m1": "2.38"
+      },
+      {
+        "p": {
+          "name": "MaskGCT: Zero-Shot Text-to-Speech with Masked Generative Codec Transformer",
+          "link": "https://arxiv.org/abs/2409.00750"
+        },
+        "c": "https://github.com/open-mmlab/amphion",
+        "n": "MaskGCT",
+        "d": "2024-09-01",
+        "m1": "2.623",
+        "m2": "0.717"
+      },
+      {
+        "p": {
+          "name": "CosyVoice 3: Towards In-the-wild Speech Generation via Scaling-up and Post-training",
+          "link": "https://arxiv.org/abs/2505.17589"
+        },
+        "c": "https://github.com/funaudiollm/cosyvoice",
+        "n": "Qwen2.5-Omni-7B",
+        "d": "2025-05-23",
+        "m1": "2.72",
+        "m2": "0.632"
+      },
+      {
+        "p": {
+          "name": "VibeVoice Technical Report",
+          "link": "https://arxiv.org/abs/2508.19205"
+        },
+        "c": "https://github.com/microsoft/vibevoice",
+        "n": "VibeVoice-1.5B",
+        "d": "2025-08-26",
+        "m1": "3.04",
+        "m2": "0.689"
+      },
+      {
+        "p": {
+          "name": "CosyVoice 3: Towards In-the-wild Speech Generation via Scaling-up and Post-training",
+          "link": "https://arxiv.org/abs/2505.17589"
+        },
+        "c": "https://github.com/funaudiollm/cosyvoice",
+        "n": "FireRedTTS",
+        "d": "2025-05-23",
+        "m1": "3.82",
+        "m2": "0.46"
+      },
+      {
+        "p": {
+          "name": "CosyVoice 2: Scalable Streaming Speech Synthesis with Large Language Models",
+          "link": "https://arxiv.org/abs/2412.10117"
+        },
+        "c": "https://github.com/funaudiollm/cosyvoice",
+        "n": "CosyVoice",
+        "d": "2024-12-13",
+        "m1": "4.29",
+        "m2": "0.609"
+      }
+    ]
+  }
+}

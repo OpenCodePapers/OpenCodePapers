@@ -1,0 +1,388 @@
+{
+  "title": "video-question-answering-on-video-mme-with-subtitles",
+  "task-hierarchy": [
+    "Video Question Answering"
+  ],
+  "dataset-info": {
+    "link": "https://video-mme.github.io/home_page.html",
+    "paper": "Video-MME: The First-Ever Comprehensive Evaluation Benchmark of Multi-modal LLMs in Video Analysis"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Qwen3.8-Max: A New Bar for Coding and Cowork",
+          "link": "https://qwen.ai/blog?id=qwen3.8"
+        },
+        "c": "https://github.com/vllm-project/vllm",
+        "n": "Qwen3.8-Max",
+        "d": "2026-08-03",
+        "m1": "90.4"
+      },
+      {
+        "p": {
+          "name": "Kimi K3: Open Frontier Intelligence",
+          "link": "https://arxiv.org/abs/2607.24653"
+        },
+        "c": "https://github.com/moonshotai/kimi-k3",
+        "n": "Kimi K3 Max",
+        "d": "2026-07-27",
+        "m1": "90.0"
+      },
+      {
+        "p": {
+          "name": "Qwen3.6",
+          "link": "https://huggingface.co/collections/Qwen/qwen36"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Qwen3.6-27B",
+        "d": "2026-04-21",
+        "m1": "87.7"
+      },
+      {
+        "p": {
+          "name": "Qwen3.5: Towards Native Multimodal Agents",
+          "link": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Qwen3.5-397B-A17B (w/ subtitles)",
+        "d": "2026-02-16",
+        "m1": "87.5"
+      },
+      {
+        "p": {
+          "name": "Kimi K2.5: Visual Agentic Intelligence",
+          "link": "https://arxiv.org/abs/2602.02276"
+        },
+        "c": "https://github.com/MoonshotAI/Kimi-K2.5",
+        "n": "Kimi K2.5",
+        "d": "2026-02-02",
+        "m1": "87.4"
+      },
+      {
+        "p": {
+          "name": "Qwen3.5: Towards Native Multimodal Agents",
+          "link": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Qwen3.5-122B-A10B (w/ subtitles)",
+        "d": "2026-02-16",
+        "m1": "87.3"
+      },
+      {
+        "p": {
+          "name": "Qwen3.5: Towards Native Multimodal Agents",
+          "link": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Qwen3.5-27B (w/ subtitles)",
+        "d": "2026-02-16",
+        "m1": "87.0"
+      },
+      {
+        "p": {
+          "name": "Qwen3.5: Towards Native Multimodal Agents",
+          "link": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Qwen3.5-35B-A3B (w/ subtitles)",
+        "d": "2026-02-16",
+        "m1": "86.6"
+      },
+      {
+        "p": {
+          "name": "Qwen3.6",
+          "link": "https://huggingface.co/collections/Qwen/qwen36"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Qwen3.6-35B-A3B",
+        "d": "2026-04-21",
+        "m1": "86.6"
+      },
+      {
+        "p": {
+          "name": "MiniMax M3: Frontier Coding, 1M Context, Native Multimodality — All in One Model",
+          "link": "https://www.minimax.io/blog/minimax-m3"
+        },
+        "c": "https://github.com/MiniMax-AI/MiniMax-M3",
+        "n": "MiniMax M3 (w/ sub)",
+        "d": "2026-05-31",
+        "m1": "85.4"
+      },
+      {
+        "p": {
+          "name": "Qwen3.5: Towards Native Multimodal Agents",
+          "link": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Qwen3.5-9B (w/ subtitles)",
+        "d": "2026-02-16",
+        "m1": "84.5"
+      },
+      {
+        "p": {
+          "name": "GLM-4.1V-Thinking: Towards Versatile Multimodal Reasoning with Scalable Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2507.01006"
+        },
+        "c": "https://github.com/THUDM/GLM-4.1V-Thinking",
+        "n": "GLM-4.6V (w/ subtitles)",
+        "d": "2025-07-01",
+        "m1": "81.8"
+      },
+      {
+        "p": {
+          "name": "Qwen2.5-VL Technical Report",
+          "link": "https://arxiv.org/abs/2502.13923v1"
+        },
+        "c": "https://github.com/qwenlm/qwen2-vl",
+        "n": "Qwen2.5-VL-72B (w/ subs)",
+        "d": "2025-02-19",
+        "m1": "79.1"
+      },
+      {
+        "p": {
+          "name": "HiMu: Hierarchical Multimodal Frame Selection for Long Video Question Answering",
+          "link": "https://arxiv.org/abs/2603.18558"
+        },
+        "c": "https://github.com/DanBenAmi/HiMu",
+        "n": "GPT-4o + HiMu (16 frames)",
+        "d": "2026-03-19",
+        "m1": "78.18"
+      },
+      {
+        "p": {
+          "name": "Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution",
+          "link": "https://arxiv.org/abs/2409.12191v2"
+        },
+        "c": "https://github.com/qwenlm/qwen2-vl",
+        "n": "Qwen2-VL-72B (w/ subtitles)",
+        "d": "2024-09-18",
+        "m1": "77.8"
+      },
+      {
+        "p": {
+          "name": "InternVL3: Exploring Advanced Training and Test-Time Recipes for Open-Source Multimodal Models",
+          "link": "https://arxiv.org/abs/2504.10479"
+        },
+        "c": "https://github.com/OpenGVLab/InternVL",
+        "n": "InternVL3-78B (w/ subtitles)",
+        "d": "2025-04-14",
+        "m1": "75.7"
+      },
+      {
+        "p": {
+          "name": "MiniCPM-V 4.5: Cooking Efficient MLLMs via Architecture, Data, and Training Recipe",
+          "link": "https://arxiv.org/abs/2509.18154"
+        },
+        "c": "https://github.com/OpenBMB/MiniCPM-V",
+        "n": "MiniCPM-V 4.5",
+        "d": "2025-09-16",
+        "m1": "73.5"
+      },
+      {
+        "p": {
+          "name": "Ovis2.5 Technical Report",
+          "link": "https://arxiv.org/abs/2508.11737"
+        },
+        "c": "https://github.com/AIDC-AI/Ovis",
+        "n": "Ovis2.5-9B (w/ subtitles)",
+        "d": "2025-08-15",
+        "m1": "72.8"
+      },
+      {
+        "p": {
+          "name": "VisReflect: Latent Visual Reflection for Fine-Grained Perception in Long Visual Context",
+          "link": "https://arxiv.org/abs/2606.30288"
+        },
+        "c": "https://github.com/xiaoqian-shen/visreflect",
+        "n": "VisReflect-7B-Video",
+        "d": "2026-06-29",
+        "m1": "72.7"
+      },
+      {
+        "p": {
+          "name": "Kimi-VL Technical Report",
+          "link": "https://arxiv.org/abs/2504.07491"
+        },
+        "c": "https://github.com/moonshotai/kimi-vl",
+        "n": "Kimi-VL-A3B-Instruct (w/ subs)",
+        "d": "2025-04-10",
+        "m1": "72.6"
+      },
+      {
+        "p": {
+          "name": "Qwen2.5-Omni Technical Report",
+          "link": "https://arxiv.org/abs/2503.20215"
+        },
+        "c": "https://github.com/QwenLM/Qwen2.5-Omni",
+        "n": "Qwen2.5-Omni-7B (w/ subtitles)",
+        "d": "2025-03-26",
+        "m1": "72.4"
+      },
+      {
+        "p": {
+          "name": "Aria: An Open Multimodal Native Mixture-of-Experts Model",
+          "link": "https://arxiv.org/abs/2410.05993v4"
+        },
+        "c": "https://github.com/rhymes-ai/aria",
+        "n": "Aria (w/ subtitles)",
+        "d": "2024-10-08",
+        "m1": "72.1"
+      },
+      {
+        "p": {
+          "name": "S3-Prune: Stability-Aware Token Budgeting for Long-Form Video-Language Models",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/5149"
+        },
+        "c": "",
+        "n": "S3-prune (LLaVA-VID-7B, 25% vision-token retention)",
+        "d": "2026-09-08",
+        "m1": "71.96"
+      },
+      {
+        "p": {
+          "name": "Kimi-VL Technical Report",
+          "link": "https://arxiv.org/abs/2504.07491"
+        },
+        "c": "https://github.com/moonshotai/kimi-vl",
+        "n": "Kimi-VL-A3B-Thinking-2506 (w/ subs)",
+        "d": "2025-04-10",
+        "m1": "71.9"
+      },
+      {
+        "p": {
+          "name": "Qwen2.5-VL Technical Report",
+          "link": "https://arxiv.org/abs/2502.13923v1"
+        },
+        "c": "https://github.com/qwenlm/qwen2-vl",
+        "n": "Qwen2.5-VL-7B",
+        "d": "2025-02-19",
+        "m1": "71.6"
+      },
+      {
+        "p": {
+          "name": "Audio-Visual Flamingo: Open Audio-Visual Intelligence for Long and Complex Videos",
+          "link": "https://arxiv.org/abs/2607.16107"
+        },
+        "c": "",
+        "n": "AVF-Instruct",
+        "d": "2026-07-17",
+        "m1": "71.2"
+      },
+      {
+        "p": {
+          "name": "VideoLLaMA 3: Frontier Multimodal Foundation Models for Image and Video Understanding",
+          "link": "https://arxiv.org/abs/2501.13106v3"
+        },
+        "c": "https://github.com/damo-nlp-sg/videollama3",
+        "n": "VideoLLaMA3 7B (w/ subs)",
+        "d": "2025-01-22",
+        "m1": "70.3"
+      },
+      {
+        "p": {
+          "name": "LLaVA-OneVision: Easy Visual Task Transfer",
+          "link": "https://arxiv.org/abs/2408.03326v3"
+        },
+        "c": "https://github.com/evolvinglmms-lab/lmms-eval",
+        "n": "LLaVA-OneVision-72B (w/ subtitles)",
+        "d": "2024-08-06",
+        "m1": "69.5"
+      },
+      {
+        "p": {
+          "name": "CoPE-VideoLM: Codec Primitives For Efficient Video Language Models",
+          "link": "https://arxiv.org/abs/2602.13191"
+        },
+        "c": "",
+        "n": "CoPE 7B",
+        "d": "2026-02-13",
+        "m1": "69.4"
+      },
+      {
+        "p": {
+          "name": "ParaVT: Taming the Tool Prior Paradox for Parallel Tool Use in Agentic Video Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2605.20342"
+        },
+        "c": "https://github.com/EvolvingLMMs-Lab/ParaVT",
+        "n": "ParaVT (Qwen3-VL-8B)",
+        "d": "2026-05-19",
+        "m1": "69.4"
+      },
+      {
+        "p": {
+          "name": "LiteFrame: Efficient Vision Encoders Unlock Frame Scaling in Video LLMs",
+          "link": "https://arxiv.org/abs/2605.17260"
+        },
+        "c": "https://github.com/jjihwan/LiteFrame",
+        "n": "LiteFrame (w/ subtitles)",
+        "d": "2026-05-17",
+        "m1": "68.5"
+      },
+      {
+        "p": {
+          "name": "FlexiVideo: Variation-Aware Temporal Dynamics Modeling for Efficient Video Understanding",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Peng_FlexiVideo_Variation-Aware_Temporal_Dynamics_Modeling_for_Efficient_Video_Understanding_CVPR_2026_paper.html"
+        },
+        "c": "https://github.com/ai9stars/flexivideo",
+        "n": "FlexiVideo-3B (extra data)",
+        "d": "2026-06-03",
+        "m1": "67.7"
+      },
+      {
+        "p": {
+          "name": "Mitigating Object and Action Hallucinations in Multimodal LLMs via Self-Augmented Contrastive Alignment",
+          "link": "https://arxiv.org/abs/2512.04356"
+        },
+        "c": "",
+        "n": "LLaVA-Video + SANTA",
+        "d": "2025-12-04",
+        "m1": "65.6"
+      },
+      {
+        "p": {
+          "name": "AnchorPrune: Relevance-Anchored Contextual Expansion for Visual Token Pruning",
+          "link": "https://arxiv.org/abs/2607.07033"
+        },
+        "c": "https://github.com/multi-cau/anchorprune",
+        "n": "LLaVA-Video-7B (AnchorPrune, 1,024 tokens)",
+        "d": "2026-07-08",
+        "m1": "60.89"
+      },
+      {
+        "p": {
+          "name": "CTEPM: Continuous-Time Event Process Memory for Long-Video Language Models",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/5848"
+        },
+        "c": "",
+        "n": "CTEPM",
+        "d": "2026-09-08",
+        "m1": "55.0"
+      }
+    ]
+  }
+}

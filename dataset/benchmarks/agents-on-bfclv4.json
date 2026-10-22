@@ -1,0 +1,298 @@
+{
+  "title": "agents-on-bfclv4",
+  "task-hierarchy": [
+    "Agents"
+  ],
+  "dataset-info": {
+    "link": "https://gorilla.cs.berkeley.edu/leaderboard.html",
+    "paper": "The Berkeley Function Calling Leaderboard (BFCL): From Tool Use to Agentic Evaluation of Large Language Models"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Qwen3.5: Towards Native Multimodal Agents",
+          "link": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Qwen3.5-397B-A17B",
+        "d": "2026-02-16",
+        "m1": "72.9"
+      },
+      {
+        "p": {
+          "name": "Ling-2.6-1T: A Trillion-Parameter Comprehensive Flagship Model for Complex Tasks",
+          "link": "https://huggingface.co/inclusionAI/Ling-2.6-1T"
+        },
+        "c": "",
+        "n": "Ling-2.6-1T",
+        "d": "2026-04-29",
+        "m1": "70.64"
+      },
+      {
+        "p": {
+          "name": "WEFT: Scaling Tool-Use Post-Training for General-Purpose Agents",
+          "link": "https://arxiv.org/abs/2609.36887"
+        },
+        "c": "",
+        "n": "WEFT-14B",
+        "d": "2026-09-29",
+        "m1": "67.63"
+      },
+      {
+        "p": {
+          "name": "NeoHorse-1: Towards Recursive Self-Improvement via Agentic Post-Training with Routing Harness",
+          "link": "https://arxiv.org/abs/2609.08183"
+        },
+        "c": "https://github.com/TokenRhythm/NeoHorse",
+        "n": "NeoHorse-1-9B",
+        "d": "2026-09-08",
+        "m1": "67.43"
+      },
+      {
+        "p": {
+          "name": "Ling and Ring 2.6 Technical Report: Efficient and Instant Agentic Intelligence at Trillion-Parameter Scale",
+          "link": "https://arxiv.org/abs/2606.15079"
+        },
+        "c": "https://github.com/inclusionai/ling-v2",
+        "n": "Ling-2.6-flash",
+        "d": "2026-06-13",
+        "m1": "66.81"
+      },
+      {
+        "p": {
+          "name": "MiniCPM5-2B",
+          "link": "https://huggingface.co/openbmb/MiniCPM5-2B"
+        },
+        "c": "https://github.com/openbmb/minicpm",
+        "n": "MiniCPM5-2B",
+        "d": "2026-09-07",
+        "m1": "66.6"
+      },
+      {
+        "p": {
+          "name": "ERNIE 5.0 Technical Report",
+          "link": "https://arxiv.org/abs/2602.04705"
+        },
+        "c": "",
+        "n": "ERNIE 5.0",
+        "d": "2026-02-04",
+        "m1": "66.47"
+      },
+      {
+        "p": {
+          "name": "Qwen3.5: Towards Native Multimodal Agents",
+          "link": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Qwen3.5-9B",
+        "d": "2026-02-16",
+        "m1": "66.1"
+      },
+      {
+        "p": {
+          "name": "Kwai Keye-VL-2.0 Technical Report",
+          "link": "https://arxiv.org/abs/2606.10651"
+        },
+        "c": "https://github.com/kwai-keye/keye",
+        "n": "Keye-VL-2.0-30B-A3B",
+        "d": "2026-06-09",
+        "m1": "65.7"
+      },
+      {
+        "p": {
+          "name": "Occamy-1.0: Open Pareto-frontier 35B Intelligence for Co-work",
+          "link": "https://arxiv.org/abs/2609.11977"
+        },
+        "c": "https://github.com/accio-lab/dressage",
+        "n": "Occamy-1.0",
+        "d": "2026-09-04",
+        "m1": "65.4"
+      },
+      {
+        "p": {
+          "name": "LFM2.5-24B-A2B: Built for Fast On-Device Agents",
+          "link": "https://www.liquid.ai/blog/lfm2-5-24b-a2b"
+        },
+        "c": "",
+        "n": "LFM2.5-24B-A2B",
+        "d": "2026-10-13",
+        "m1": "65.01"
+      },
+      {
+        "p": {
+          "name": "Qwen3.5-Omni Technical Report",
+          "link": "https://arxiv.org/pdf/2604.15804"
+        },
+        "c": "",
+        "n": "Qwen3.5-Omni-Plus",
+        "d": "2026-04-21",
+        "m1": "63.3"
+      },
+      {
+        "p": {
+          "name": "Granite 4.2 LLMs: How They're Built",
+          "link": "https://huggingface.co/blog/ibm-granite/granite-4-2"
+        },
+        "c": "https://github.com/ibm-granite/granite-4.2-language-models",
+        "n": "Granite-4.2-30B",
+        "d": "2026-08-25",
+        "m1": "61.39"
+      },
+      {
+        "p": {
+          "name": "CLI-Universe: Towards Verifiable Task Synthesis Engine for Terminal Agents",
+          "link": "https://arxiv.org/abs/2606.22883"
+        },
+        "c": "",
+        "n": "CLI-Universe-32B",
+        "d": "2026-06-22",
+        "m1": "58.0"
+      },
+      {
+        "p": {
+          "name": "LFM2.5-2.6B: Deploy Agents Everywhere",
+          "link": "https://www.liquid.ai/blog/lfm2-5-2-6b"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "LFM2.5-2.6B",
+        "d": "2026-08-04",
+        "m1": "56.88"
+      },
+      {
+        "p": {
+          "name": "Nanbeige4.1-3B: A Small General Model that Reasons, Aligns, and Acts",
+          "link": "https://arxiv.org/abs/2602.13367"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Nanbeige4.1-3B",
+        "d": "2026-02-13",
+        "m1": "56.50"
+      },
+      {
+        "p": {
+          "name": "Agent-World: Scaling Real-World Environment Synthesis for Evolving General Agent Intelligence",
+          "link": "https://arxiv.org/abs/2604.18292"
+        },
+        "c": "",
+        "n": "Agent-World (14B)",
+        "d": "2026-04-20",
+        "m1": "55.8"
+      },
+      {
+        "p": {
+          "name": "Nanbeige4-3B Technical Report: Exploring the Frontier of Small Language Models",
+          "link": "https://arxiv.org/abs/2512.06266"
+        },
+        "c": "https://github.com/vllm-project/vllm",
+        "n": "Nanbeige4-3B-Thinking-2511",
+        "d": "2025-12-06",
+        "m1": "53.8"
+      },
+      {
+        "p": {
+          "name": "Nemotron 3 Nano: Open, Efficient Mixture-of-Experts Hybrid Mamba-Transformer Model for Agentic Reasoning",
+          "link": "https://arxiv.org/abs/2512.20848"
+        },
+        "c": "https://github.com/nvidia-nemo/nemotron",
+        "n": "NVIDIA-Nemotron-3-Nano-30B-A3B-BF16",
+        "d": "2025-12-23",
+        "m1": "53.8"
+      },
+      {
+        "p": {
+          "name": "Nemotron-Cascade 2: Post-Training LLMs with Cascade RL and Multi-Domain On-Policy Distillation",
+          "link": "https://arxiv.org/abs/2603.19220"
+        },
+        "c": "",
+        "n": "Nemotron-Cascade-2-30B-A3B",
+        "d": "2026-03-19",
+        "m1": "52.9"
+      },
+      {
+        "p": {
+          "name": "LFM2.5-8B-A1B: an Even Better on-Device Mixture-of-Experts",
+          "link": "https://www.liquid.ai/blog/lfm2-5-8b-a1b"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "LFM2.5-8B-A1B",
+        "d": "2026-05-28",
+        "m1": "49.73"
+      },
+      {
+        "p": {
+          "name": "ZAYA1-8B Technical Report",
+          "link": "https://arxiv.org/abs/2605.05365"
+        },
+        "c": "https://github.com/zyphra/vllm",
+        "n": "ZAYA1-8B",
+        "d": "2026-05-06",
+        "m1": "39.22"
+      },
+      {
+        "p": {
+          "name": "MiniCPM5-1B",
+          "link": "https://huggingface.co/openbmb/MiniCPM5-1B"
+        },
+        "c": "https://github.com/openbmb/minicpm",
+        "n": "MiniCPM5-1B (Thinking)",
+        "d": "2026-05-25",
+        "m1": "25.15"
+      },
+      {
+        "p": {
+          "name": "LFM2.5-350M: No Size Left Behind",
+          "link": "https://www.liquid.ai/blog/lfm2-5-350m-no-size-left-behind"
+        },
+        "c": "",
+        "n": "LFM2.5-350M",
+        "d": "2026-03-31",
+        "m1": "21.86"
+      },
+      {
+        "p": {
+          "name": "LFM2.5-VL-450M: Structured Visual Intelligence, Edge to Cloud",
+          "link": "https://www.liquid.ai/blog/lfm2-5-vl-450m"
+        },
+        "c": "",
+        "n": "LFM2.5-VL-450M",
+        "d": "2026-04-08",
+        "m1": "21.08"
+      },
+      {
+        "p": {
+          "name": "LFM2.5-230M: Built to Run Anywhere",
+          "link": "https://www.liquid.ai/blog/lfm2-5-230m"
+        },
+        "c": "",
+        "n": "LFM2.5-230M",
+        "d": "2026-06-25",
+        "m1": "21.03"
+      }
+    ]
+  }
+}

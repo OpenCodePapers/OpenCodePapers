@@ -70,6 +70,18 @@
       },
       {
         "p": {
+          "name": "TR-MoE: Temporal Reliability-Aware Mixture-of-Experts for Robust Tracking",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/4745"
+        },
+        "c": "https://github.com/avant1v/tr-moe",
+        "n": "TR-MoE",
+        "d": "2026-09-08",
+        "m1": "77.3",
+        "m2": "86.5",
+        "m3": "85.3"
+      },
+      {
+        "p": {
           "name": "SPMTrack: Spatio-Temporal Parameter-Efficient Fine-Tuning with Mixture of Experts for Scalable Visual Tracking",
           "link": "https://arxiv.org/abs/2503.18338v1"
         },
@@ -160,6 +172,16 @@
         "c": "https://github.com/jovanavidenovic/dam4sam",
         "n": "DAM4SAM",
         "d": "2024-11-26",
+        "m1": "75.1"
+      },
+      {
+        "p": {
+          "name": "ODONet: Online Dynamic Offset Network for Visual Object Tracking",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/4749"
+        },
+        "c": "https://github.com/whitebutterflies/odonet",
+        "n": "ODONet-B384",
+        "d": "2026-09-08",
         "m1": "75.1"
       },
       {
@@ -291,6 +313,16 @@
       },
       {
         "p": {
+          "name": "Efficient Video Object Segmentation and Tracking with Recurrent Dynamic Submodel",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Tang_Efficient_Video_Object_Segmentation_and_Tracking_with_Recurrent_Dynamic_Submodel_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "SAMURAI + RDS 0.7",
+        "d": "2026-06-03",
+        "m1": "72.9"
+      },
+      {
+        "p": {
           "name": "HIPTrack: Visual Tracking with Historical Prompts",
           "link": "https://arxiv.org/abs/2311.02072v2"
         },
@@ -300,6 +332,18 @@
         "m1": "72.7",
         "m2": "82.9",
         "m3": "79.5"
+      },
+      {
+        "p": {
+          "name": "Autoregressive Queries for Adaptive Tracking with Spatio-TemporalTransformers",
+          "link": "https://arxiv.org/abs/2403.10574v1"
+        },
+        "c": "",
+        "n": "AQATrack-384 (extra data)",
+        "d": "2024-03-15",
+        "m1": "72.7",
+        "m2": "82.9",
+        "m3": "80.2"
       },
       {
         "p": {
@@ -324,6 +368,18 @@
         "m1": "72.4",
         "m2": "80.7",
         "m3": "78.9"
+      },
+      {
+        "p": {
+          "name": "DiffusionTrack: Point Set Diffusion Model for Visual Object Tracking",
+          "link": "http://openaccess.thecvf.com//content/CVPR2024/html/Xie_DiffusionTrack_Point_Set_Diffusion_Model_for_Visual_Object_Tracking_CVPR_2024_paper.html"
+        },
+        "c": "https://github.com/vision-sjtu/diffusiontrack",
+        "n": "DiffusionTrack-L256 (1)",
+        "d": "2024-01-01",
+        "m1": "72.3",
+        "m2": "81.8",
+        "m3": "79.1"
       },
       {
         "p": {
@@ -415,6 +471,18 @@
         "m1": "70.6",
         "m2": "80.8",
         "m3": "76.2"
+      },
+      {
+        "p": {
+          "name": "OneTracker: Unifying Visual Object Tracking with Foundation Models and Efficient Tuning",
+          "link": "https://arxiv.org/abs/2403.09634v1"
+        },
+        "c": "",
+        "n": "OneTracker",
+        "d": "2024-03-14",
+        "m1": "70.5",
+        "m2": "79.9",
+        "m3": "76.5"
       },
       {
         "p": {
@@ -518,6 +586,18 @@
         "d": "2022-08-11",
         "m1": "66.8",
         "m2": "75.5"
+      },
+      {
+        "p": {
+          "name": "Adaptive Capacity Autoregressive Visual Tracking",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Lin_Adaptive_Capacity_Autoregressive_Visual_Tracking_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "ARTrack-AC_para",
+        "d": "2026-06-03",
+        "m1": "66.7",
+        "m2": "76.5",
+        "m3": "71.5"
       },
       {
         "p": {
@@ -628,6 +708,17 @@
         "n": "ToMP",
         "d": "2022-03-21",
         "m3": "67.1"
+      },
+      {
+        "p": {
+          "name": "Motion-aware Sparse Pipeline for Lightweight Object Tracking",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/5707"
+        },
+        "c": "",
+        "n": "MaST-small",
+        "d": "2026-09-08",
+        "m2": "74.7",
+        "m3": "70.4"
       }
     ]
   }

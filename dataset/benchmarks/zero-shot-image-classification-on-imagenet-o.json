@@ -1,0 +1,79 @@
+{
+  "title": "zero-shot-image-classification-on-imagenet-o",
+  "task-hierarchy": [
+    "Image Classification",
+    "Zero-Shot Image Classification"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/hendrycks/natural-adv-examples",
+    "paper": "Natural Adversarial Examples"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "MobileCLIP: Fast Image-Text Models through Multi-Modal Reinforced Training",
+          "link": "https://arxiv.org/abs/2311.17049"
+        },
+        "c": "https://github.com/rwightman/pytorch-image-models",
+        "n": "MobileCLIP-S0",
+        "d": "2023-11-28",
+        "m1": "53.8"
+      },
+      {
+        "p": {
+          "name": "Demystifying CLIP Data",
+          "link": "https://arxiv.org/abs/2309.16671"
+        },
+        "c": "https://github.com/facebookresearch/MetaCLIP",
+        "n": "MetaCLIP ViT-B/32 (2.5B data)",
+        "d": "2023-09-28",
+        "m1": "48.3"
+      },
+      {
+        "p": {
+          "name": "Retaining Knowledge and Enhancing Long-Text Representations in CLIP through Dual-Teacher Distillation",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Feng_Retaining_Knowledge_and_Enhancing_Long-Text_Representations_in_CLIP_through_Dual-Teacher_CVPR_2025_paper.html"
+        },
+        "c": "",
+        "n": "LongD-CLIP (ViT-B/16) (extra data)",
+        "d": "2025-06-11",
+        "m1": "41.4"
+      },
+      {
+        "p": {
+          "name": "POGA: Paraphrased and Oppositional Graph Alignment for Fine-Grained Cross-Modal Retrieval",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_POGA_Paraphrased_and_Oppositional_Graph_Alignment_for_Fine-Grained_Cross-Modal_Retrieval_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "POGA (ViT-B/16)",
+        "d": "2026-06-03",
+        "m1": "40.55"
+      }
+    ]
+  }
+}

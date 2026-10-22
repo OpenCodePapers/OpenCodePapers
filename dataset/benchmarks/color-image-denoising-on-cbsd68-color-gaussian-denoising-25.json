@@ -1,0 +1,172 @@
+{
+  "title": "color-image-denoising-on-cbsd68-color-gaussian-denoising-25",
+  "task-hierarchy": [
+    "Image Restoration",
+    "Image Denoising",
+    "Color Image Denoising"
+  ],
+  "dataset-info": {
+    "link": "https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/",
+    "paper": "A Database of Human Segmented Natural Images and its Application to Evaluating Segmentation Algorithms and Measuring Ecological Statistics"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "PSNR",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "SSIM",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "MambaIR: A Simple Baseline for Image Restoration with State-Space Model",
+          "link": "https://arxiv.org/abs/2402.15648v3"
+        },
+        "c": "https://github.com/csguoh/mambair",
+        "n": "MambaIR (Gaussian denoising, σ=25)",
+        "d": "2024-02-23",
+        "m1": "32.24"
+      },
+      {
+        "p": {
+          "name": "Improving Image Restoration through Removing Degradations in Textual Representations",
+          "link": "https://arxiv.org/abs/2312.17334"
+        },
+        "c": "https://github.com/mrluin/textualdegremoval",
+        "n": "TextualDegRemoval + Restormer (Gaussian denoising, σ=25) (extra data)",
+        "d": "2023-12-28",
+        "m1": "31.97"
+      },
+      {
+        "p": {
+          "name": "MaIR: A Locality- and Continuity-Preserving Mamba for Image Restoration",
+          "link": "https://arxiv.org/abs/2412.20066v1"
+        },
+        "c": "https://github.com/XLearning-SCU/2025-CVPR-MaIR",
+        "n": "MaIR+ (Gaussian denoising, σ=25)",
+        "d": "2024-12-28",
+        "m1": "31.88"
+      },
+      {
+        "p": {
+          "name": "SwinIR: Image Restoration Using Swin Transformer",
+          "link": "https://arxiv.org/abs/2108.10257v1"
+        },
+        "c": "https://github.com/XPixelGroup/BasicSR",
+        "n": "SwinIR (color Gaussian denoising, σ=25)",
+        "d": "2021-08-23",
+        "m1": "31.78"
+      },
+      {
+        "p": {
+          "name": "AdaIR: Adaptive All-in-One Image Restoration via Frequency Mining and Modulation",
+          "link": "https://arxiv.org/abs/2403.14614v1"
+        },
+        "c": "https://github.com/c-yn/adair",
+        "n": "AdaIR (single-task Gaussian denoising, σ=25)",
+        "d": "2024-03-21",
+        "m1": "31.72",
+        "m2": "0.897"
+      },
+      {
+        "p": {
+          "name": "PromptIR: Prompting for All-in-One Blind Image Restoration",
+          "link": "https://arxiv.org/abs/2306.13090v1"
+        },
+        "c": "https://github.com/va1shn9v/promptir",
+        "n": "PromptIR (single-task, Gaussian denoising σ=25)",
+        "d": "2023-06-22",
+        "m1": "31.71",
+        "m2": "0.897"
+      },
+      {
+        "p": {
+          "name": "InstructIR: High-Quality Image Restoration Following Human Instructions",
+          "link": "https://arxiv.org/abs/2401.16468"
+        },
+        "c": "https://github.com/mv-lab/InstructIR",
+        "n": "InstructIR-3D (Gaussian denoising, σ=25) (extra data)",
+        "d": "2024-01-29",
+        "m1": "31.52"
+      },
+      {
+        "p": {
+          "name": "Retrieve-to-Restore: Efficient All-in-One Image Restoration with a Retrieval-Based Degradation Bank",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Wang_Retrieve-to-Restore_Efficient_All-in-One_Image_Restoration_with_a_Retrieval-Based_Degradation_Bank_CVPR_2026_paper.html"
+        },
+        "c": "https://github.com/cscxwang/r2r",
+        "n": "R2R",
+        "d": "2026-06-03",
+        "m1": "31.45",
+        "m2": "0.895"
+      },
+      {
+        "p": {
+          "name": "Universal Image Restoration Pre-training via Masked Degradation Classification",
+          "link": "https://arxiv.org/abs/2510.13282"
+        },
+        "c": "https://github.com/MILab-PKU/MaskDCPT",
+        "n": "MaskDCPT-NAFNet (5D joint, Gaussian denoising σ=25) (extra data)",
+        "d": "2025-10-15",
+        "m1": "31.41",
+        "m2": "0.894"
+      },
+      {
+        "p": {
+          "name": "Image Restoration with Mean-Reverting Stochastic Differential Equations",
+          "link": "https://arxiv.org/abs/2301.11699v3"
+        },
+        "c": "https://github.com/algolzw/image-restoration-sde",
+        "n": "Denoising-ODE (Gaussian denoising, σ=25)",
+        "d": "2023-01-27",
+        "m1": "31.14",
+        "m2": "0.8777"
+      },
+      {
+        "p": {
+          "name": "Transfer CLIP for Generalizable Image Denoising",
+          "link": "https://arxiv.org/abs/2403.15132"
+        },
+        "c": "",
+        "n": "CLIPDenoising",
+        "d": "2024-03-22",
+        "m1": "31.02",
+        "m2": "0.878"
+      },
+      {
+        "p": {
+          "name": "Pruning Overparameterized Multi-Task Networks for Degraded Web Image Restoration",
+          "link": "https://arxiv.org/abs/2510.14463"
+        },
+        "c": "https://github.com/Thomkat/MIR-L",
+        "n": "MIR-L-G (all-in-one) (extra data)",
+        "d": "2025-10-16",
+        "m1": "30.83",
+        "m2": "0.8772"
+      }
+    ]
+  }
+}

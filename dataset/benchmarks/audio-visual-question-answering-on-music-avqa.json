@@ -45,11 +45,31 @@
         "m1": "80.7"
       },
       {
+        "p": {
+          "name": "Parameter-Efficient Adaptation for MLLMs via Implicit Modality Decomposition",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_Parameter-Efficient_Adaptation_for_MLLMs_via_Implicit_Modality_Decomposition_CVPR_2026_paper.html"
+        },
+        "c": "https://github.com/mmffzzz/imod",
+        "n": "IMoD (Qwen3-8B) (extra data)",
+        "d": "2026-06-03",
+        "m1": "80.13"
+      },
+      {
         "p": "",
         "c": "",
         "n": "CoQo(Internvideo2)",
         "d": "",
         "m1": "79.6"
+      },
+      {
+        "p": {
+          "name": "MAD: Modality-Adaptive Decoding for Mitigating Cross-Modal Hallucinations in Multimodal Large Language Models",
+          "link": "https://arxiv.org/abs/2601.21181"
+        },
+        "c": "https://github.com/top-yun/mad",
+        "n": "VideoLLaMA2-AV + MAD",
+        "d": "2026-01-29",
+        "m1": "79.1"
       },
       {
         "p": {
@@ -63,6 +83,16 @@
       },
       {
         "p": {
+          "name": "Querying as Prompt: Parameter-Efficient Learning for Multimodal Language Model",
+          "link": "https://openaccess.thecvf.com/content/CVPR2024/html/Liang_Querying_as_Prompt_Parameter-Efficient_Learning_for_Multimodal_Language_Model_CVPR_2024_paper.html"
+        },
+        "c": "https://github.com/rainlt/qap",
+        "n": "QaP (Ours hf)",
+        "d": "2024-06-17",
+        "m1": "78.69"
+      },
+      {
+        "p": {
           "name": "CAD -- Contextual Multi-modal Alignment for Dynamic AVQA",
           "link": "https://arxiv.org/abs/2310.16754v2"
         },
@@ -70,6 +100,16 @@
         "n": "CAD",
         "d": "2023-10-25",
         "m1": "78.26"
+      },
+      {
+        "p": {
+          "name": "Q-TriM: Question-Guided Tri-Modal Attention for Audio–Visual Question Answering",
+          "link": "https://arxiv.org/abs/2607.03825"
+        },
+        "c": "https://github.com/sunghun95/q-trim",
+        "n": "Q-TriM",
+        "d": "2026-07-04",
+        "m1": "77.68"
       },
       {
         "p": {
@@ -90,6 +130,16 @@
         "n": "ST-AVQA",
         "d": "2022-03-26",
         "m1": "71.52"
+      },
+      {
+        "p": {
+          "name": "ChronusOmni: Improving Time Awareness of Omni-Modal Large Language Models",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/4007"
+        },
+        "c": "",
+        "n": "ChronusOmni",
+        "d": "2026-09-08",
+        "m1": "66.0"
       }
     ]
   }

@@ -1,0 +1,121 @@
+{
+  "title": "point-tracking-on-egopoints",
+  "task-hierarchy": [
+    "Object Tracking",
+    "Point Tracking"
+  ],
+  "dataset-info": {
+    "link": "https://ahmaddarkhalil.github.io/EgoPoints/",
+    "paper": "EgoPoints: Advancing Point Tracking for Egocentric Videos"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "delta_avg",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "OA",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "IVA",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "MTE",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "OOVA",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "ReID_delta_avg",
+        "sortable": "true"
+      },
+      {
+        "key": "m7",
+        "label": "delta_avg_star",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Real-World Point Tracking with Verifier-Guided Pseudo-Labeling",
+          "link": "https://arxiv.org/abs/2603.12217"
+        },
+        "c": "https://github.com/gorkaydemir/track_on",
+        "n": "Track-On-R (extra data)",
+        "d": "2026-03-12",
+        "m2": "0.902",
+        "m1": "0.673"
+      },
+      {
+        "p": {
+          "name": "Matching Every Pair to Track Every Point: PairFormer for All-Pairs Tracking and Video Trajectory Fields",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Wu_Matching_Every_Pair_to_Track_Every_Point_PairFormer_for_All-Pairs_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "PairFormer",
+        "d": "2026-06-03",
+        "m1": "0.632"
+      },
+      {
+        "p": {
+          "name": "EgoPoints: Advancing Point Tracking for Egocentric Videos",
+          "link": "https://arxiv.org/abs/2412.04592"
+        },
+        "c": "https://github.com/ahmaddarkhalil/egopoints",
+        "n": "CoTracker (K-EPIC fine-tuned) (extra data)",
+        "d": "2024-12-05",
+        "m2": "0.818",
+        "m3": "0.781",
+        "m4": "40.5",
+        "m5": "0.82",
+        "m1": "0.396",
+        "m6": "0.072",
+        "m7": "0.575"
+      },
+      {
+        "p": {
+          "name": "EgoPoints: Advancing Point Tracking for Egocentric Videos",
+          "link": "https://arxiv.org/abs/2412.04592"
+        },
+        "c": "https://github.com/ahmaddarkhalil/egopoints",
+        "n": "PIPs++ (K-EPIC fine-tuned) (extra data)",
+        "d": "2024-12-05",
+        "m3": "0.899",
+        "m4": "22.2",
+        "m5": "0.52",
+        "m1": "0.366",
+        "m6": "0.168",
+        "m7": "0.581"
+      }
+    ]
+  }
+}

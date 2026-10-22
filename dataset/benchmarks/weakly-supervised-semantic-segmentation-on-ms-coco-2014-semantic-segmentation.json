@@ -1,0 +1,119 @@
+{
+  "title": "weakly-supervised-semantic-segmentation-on-ms-coco-2014-semantic-segmentation",
+  "task-hierarchy": [
+    "Semantic Segmentation",
+    "Weakly-Supervised Semantic Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://cocodataset.org/#home",
+    "paper": "Microsoft COCO: Common Objects in Context"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mIoU",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Leveraging Class Distributions in CLIP for Weakly Supervised Semantic Segmentation",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Yang_Leveraging_Class_Distributions_in_CLIP_for_Weakly_Supervised_Semantic_Segmentation_CVPR_2026_paper.html"
+        },
+        "c": "https://github.com/yay97/cd-clip",
+        "n": "CD-CLIP",
+        "d": "2026-06-03",
+        "m1": "54.1"
+      },
+      {
+        "p": {
+          "name": "Frequency-Aware Affinity for Weakly Supervised Semantic Segmentation",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Yang_Frequency-Aware_Affinity_for_Weakly_Supervised_Semantic_Segmentation_CVPR_2026_paper.html"
+        },
+        "c": "https://github.com/yay97/dfa",
+        "n": "DFA",
+        "d": "2026-06-03",
+        "m1": "51.5"
+      },
+      {
+        "p": {
+          "name": "POT: Prototypical Optimal Transport for Weakly Supervised Semantic Segmentation",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Wang_POT_Prototypical_Optimal_Transport_for_Weakly_Supervised_Semantic_Segmentation_CVPR_2025_paper.html"
+        },
+        "c": "https://github.com/jianwang91/pot",
+        "n": "POT + CLIP-ES",
+        "d": "2025-06-11",
+        "m1": "47.9"
+      },
+      {
+        "p": {
+          "name": "Weakly Supervised Semantic Segmentation via Progressive Confidence Region Expansion",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Xu_Weakly_Supervised_Semantic_Segmentation_via_Progressive_Confidence_Region_Expansion_CVPR_2025_paper.html"
+        },
+        "c": "https://github.com/xxf011/wsss-pcre",
+        "n": "PCRE (ViT-B/16)",
+        "d": "2025-06-11",
+        "m1": "47.2"
+      },
+      {
+        "p": {
+          "name": "Frozen CLIP: A Strong Backbone for Weakly Supervised Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2406.11189"
+        },
+        "c": "https://github.com/zbf1991/weclip",
+        "n": "WeCLIP (weakly-supervised)",
+        "d": "2024-06-17",
+        "m1": "47.1"
+      },
+      {
+        "p": {
+          "name": "Hunting Attributes: Context Prototype-Aware Learning for Weakly Supervised Semantic Segmentation",
+          "link": "https://arxiv.org/abs/2403.07630"
+        },
+        "c": "https://github.com/barrett-python/cpal",
+        "n": "CLIP-ES +CPAL (Ours)",
+        "d": "2024-03-12",
+        "m1": "46.8"
+      },
+      {
+        "p": {
+          "name": "FFR: Frequency Feature Rectification for Weakly Supervised Semantic Segmentation",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Yang_FFR_Frequency_Feature_Rectification_for_Weakly_Supervised_Semantic_Segmentation_CVPR_2025_paper.html"
+        },
+        "c": "https://github.com/yay97/ffr",
+        "n": "FFR",
+        "d": "2025-06-11",
+        "m1": "46.8"
+      },
+      {
+        "p": {
+          "name": "Multi-Label Prototype Visual Spatial Search for Weakly Supervised Semantic Segmentation",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Duan_Multi-Label_Prototype_Visual_Spatial_Search_for_Weakly_Supervised_Semantic_Segmentation_CVPR_2025_paper.html"
+        },
+        "c": "",
+        "n": "MuP-VSS",
+        "d": "2025-06-11",
+        "m1": "46.6"
+      }
+    ]
+  }
+}

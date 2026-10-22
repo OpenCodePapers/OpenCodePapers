@@ -1,0 +1,89 @@
+{
+  "title": "speaker-diarization-on-msdwild-few-val-audio-diarization",
+  "task-hierarchy": [
+    "Speaker Recognition",
+    "Speaker Diarization"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/X-LANCE/MSDWILD",
+    "paper": "MSDWild: Multi-modal Speaker Diarization Dataset in the Wild"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "DER",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "VBx for End-to-End Neural and Clustering-based Diarization",
+          "link": "https://arxiv.org/abs/2510.19572"
+        },
+        "c": "https://github.com/butspeechfit/diarizen",
+        "n": "DiariZen-Large-s80 + cVBx-nofilter",
+        "d": "2025-10-22",
+        "m1": "15.5"
+      },
+      {
+        "p": {
+          "name": "Efficient and Generalizable Speaker Diarization via Structured Pruning of Self-Supervised Models",
+          "link": "https://arxiv.org/abs/2506.18623"
+        },
+        "c": "https://github.com/butspeechfit/diarizen",
+        "n": "diarizen-wavlm-large-s80-md",
+        "d": "2025-06-23",
+        "m1": "15.6"
+      },
+      {
+        "p": {
+          "name": "Pretraining Multi-Speaker Identification for Neural Speaker Diarization",
+          "link": "https://arxiv.org/abs/2505.24545"
+        },
+        "c": "",
+        "n": "ReDimNet-B2 multi-SID + compound DIA pretraining",
+        "d": "2025-05-30",
+        "m1": "21.77"
+      },
+      {
+        "p": {
+          "name": "Mitigating Non-Target Speaker Bias in Guided Speaker Embedding",
+          "link": "https://arxiv.org/abs/2506.12500"
+        },
+        "c": "",
+        "n": "Bias-mitigated guided CAM++ (P2-1) + pyannote 3.1",
+        "d": "2025-06-14",
+        "m1": "24.4"
+      },
+      {
+        "p": {
+          "name": "Powerset multi-class cross entropy loss for neural speaker diarization",
+          "link": "https://arxiv.org/abs/2310.13025"
+        },
+        "c": "https://github.com/frenchkrab/is2023-powerset-diarization",
+        "n": "Powerset (domain-adapted)",
+        "d": "2023-10-19",
+        "m1": "28.5"
+      }
+    ]
+  }
+}

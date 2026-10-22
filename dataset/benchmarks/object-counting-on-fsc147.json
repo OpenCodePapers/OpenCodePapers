@@ -63,6 +63,28 @@
       },
       {
         "p": {
+          "name": "CoDi -- an exemplar-conditioned diffusion model for low-shot counting",
+          "link": "https://arxiv.org/abs/2512.20153"
+        },
+        "c": "https://github.com/gsustar/codi",
+        "n": "CoDi",
+        "d": "2025-12-23",
+        "m1": "5.74",
+        "m3": "30.99"
+      },
+      {
+        "p": {
+          "name": "CountGD++: Generalized Prompting for Open-World Counting",
+          "link": "https://arxiv.org/abs/2512.23351"
+        },
+        "c": "https://github.com/niki-amini-naieni/countgdplusplus",
+        "n": "CountGD++",
+        "d": "2025-12-29",
+        "m1": "5.86",
+        "m3": "18.79"
+      },
+      {
+        "p": {
           "name": "Generalized-Scale Object Counting with Gradual Query Aggregation",
           "link": "https://arxiv.org/pdf/2511.08048"
         },
@@ -73,6 +95,17 @@
         "m2": "9.40",
         "m3": "39.39",
         "m4": "33.28"
+      },
+      {
+        "p": {
+          "name": "CountSE: Soft Exemplar Open-set Object Counting",
+          "link": "https://openaccess.thecvf.com/content/ICCV2025/html/Liu_CountSE_Soft_Exemplar_Open-set_Object_Counting_ICCV_2025_paper.html"
+        },
+        "c": "https://github.com/pppppz22/countse",
+        "n": "CountSE",
+        "d": "2025-10-23",
+        "m1": "7.84",
+        "m3": "82.99"
       },
       {
         "p": {
@@ -110,6 +143,17 @@
         "m2": "8.91",
         "m3": "32.36",
         "m4": "28.08"
+      },
+      {
+        "p": {
+          "name": "SAVE: Self-Attention on Visual Embedding for Zero-Shot Generic Object Counting",
+          "link": "https://www.mdpi.com/2313-433X/11/2/52"
+        },
+        "c": "https://github.com/AhmedZgaren/Save",
+        "n": "SAVE",
+        "d": "2025-02-10",
+        "m1": "8.92",
+        "m3": "80.39"
       },
       {
         "p": {
@@ -202,6 +246,17 @@
       },
       {
         "p": {
+          "name": "Point Segment and Count: A Generalized Framework for Object Counting",
+          "link": "http://openaccess.thecvf.com//content/CVPR2024/html/Huang_Point_Segment_and_Count_A_Generalized_Framework_for_Object_Counting_CVPR_2024_paper.html"
+        },
+        "c": "https://github.com/hzzone/pseco",
+        "n": "PseCo",
+        "d": "2024-01-01",
+        "m1": "13.05",
+        "m3": "112.86"
+      },
+      {
+        "p": {
           "name": "Scale-Prior Deformable Convolution for Exemplar-Guided Class-Agnostic Counting",
           "link": "https://bmvc2022.mpi-inf.mpg.de/313/"
         },
@@ -280,6 +335,17 @@
       },
       {
         "p": {
+          "name": "Point Segment and Count: A Generalized Framework for Object Counting",
+          "link": "http://openaccess.thecvf.com//content/CVPR2024/html/Huang_Point_Segment_and_Count_A_Generalized_Framework_for_Object_Counting_CVPR_2024_paper.html"
+        },
+        "c": "https://github.com/hzzone/pseco",
+        "n": "PseCo (zero-shot)",
+        "d": "2024-01-01",
+        "m1": "16.58",
+        "m3": "129.77"
+      },
+      {
+        "p": {
           "name": "Few-shot Object Counting and Detection",
           "link": "https://arxiv.org/abs/2207.10988v2"
         },
@@ -302,6 +368,17 @@
       },
       {
         "p": {
+          "name": "Mind the Prompt: A Novel Benchmark for Prompt-based Class-Agnostic Counting",
+          "link": "https://arxiv.org/abs/2409.15953"
+        },
+        "c": "https://github.com/ciampluca/praco",
+        "n": "VLCounter",
+        "d": "2024-09-24",
+        "m1": "17.02",
+        "m3": "106.93"
+      },
+      {
+        "p": {
           "name": "Learning to Count Anything: Reference-less Class-agnostic Counting with Weak Supervision",
           "link": "https://arxiv.org/abs/2205.10203v2"
         },
@@ -312,6 +389,17 @@
         "m2": "17.49",
         "m3": "104.53",
         "m4": "58.81"
+      },
+      {
+        "p": {
+          "name": "Mind the Prompt: A Novel Benchmark for Prompt-based Class-Agnostic Counting",
+          "link": "https://arxiv.org/abs/2409.15953"
+        },
+        "c": "https://github.com/ciampluca/praco",
+        "n": "CLIP-Count",
+        "d": "2024-09-24",
+        "m1": "17.59",
+        "m3": "109.97"
       },
       {
         "p": {
@@ -336,6 +424,17 @@
         "m2": "23.75",
         "m3": "99.54",
         "m4": "69.07"
+      },
+      {
+        "p": {
+          "name": "Mind the Prompt: A Novel Benchmark for Prompt-based Class-Agnostic Counting",
+          "link": "https://arxiv.org/abs/2409.15953"
+        },
+        "c": "https://github.com/ciampluca/praco",
+        "n": "TFPOC",
+        "d": "2024-09-24",
+        "m1": "24.79",
+        "m3": "138.11"
       }
     ]
   }

@@ -35,6 +35,16 @@
     "items": [
       {
         "p": {
+          "name": "UL2: Unifying Language Learning Paradigms",
+          "link": "https://arxiv.org/abs/2205.05131v3"
+        },
+        "c": "https://github.com/google-research/google-research",
+        "n": "UL2 20B",
+        "d": "2022-05-10",
+        "m1": "90.7"
+      },
+      {
+        "p": {
           "name": "UNICORN on RAINBOW: A Universal Commonsense Reasoning Model on a New Multitask Benchmark",
           "link": "https://arxiv.org/abs/2103.13009v1"
         },
@@ -52,6 +62,16 @@
         "n": "LLaMA3 8B+MoSLoRA",
         "d": "2024-06-16",
         "m1": "89.7"
+      },
+      {
+        "p": {
+          "name": "Phi-3 Technical Report: A Highly Capable Language Model Locally on Your Phone",
+          "link": "https://arxiv.org/abs/2404.14219v4"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Phi-3.5-MoE (5-shot)",
+        "d": "2024-04-22",
+        "m1": "88.6"
       },
       {
         "p": {
@@ -115,6 +135,16 @@
       },
       {
         "p": {
+          "name": "MassAlloc Attention: Let Attention Allocate Its Own Compute",
+          "link": "https://arxiv.org/abs/2609.32712"
+        },
+        "c": "https://github.com/HKUSTDial/flash-sparse-attention",
+        "n": "MALA (32B)",
+        "d": "2026-09-26",
+        "m1": "85.94"
+      },
+      {
+        "p": {
           "name": "Two is Better than Many? Binary Classification as an Effective Approach to Multi-Choice Question Answering",
           "link": "https://arxiv.org/abs/2210.16495v1"
         },
@@ -122,6 +152,26 @@
         "n": "DeBERTa-Large 304M (classification-based)",
         "d": "2022-10-29",
         "m1": "85.9"
+      },
+      {
+        "p": {
+          "name": "CoWindow Attention: Full Causal Coverage Is a Collective Property",
+          "link": "https://arxiv.org/abs/2609.32704"
+        },
+        "c": "",
+        "n": "CoWA (32B)",
+        "d": "2026-09-26",
+        "m1": "85.75"
+      },
+      {
+        "p": {
+          "name": "A Sovereign, Open-Source Foundation Model for German and English",
+          "link": "https://arxiv.org/abs/2607.09424"
+        },
+        "c": "https://github.com/soofi-project/soofi-pretraining",
+        "n": "Soofi S 30B-A3B Base",
+        "d": "2026-07-10",
+        "m1": "85.7"
       },
       {
         "p": {
@@ -145,6 +195,26 @@
       },
       {
         "p": {
+          "name": "PaLM: Scaling Language Modeling with Pathways",
+          "link": "https://arxiv.org/abs/2204.02311v5"
+        },
+        "c": "https://github.com/lucidrains/CoCa-pytorch",
+        "n": "PaLM 540B",
+        "d": "2022-04-05",
+        "m1": "85.2"
+      },
+      {
+        "p": {
+          "name": "Motif 3: Technical Report",
+          "link": "https://arxiv.org/abs/2608.09119"
+        },
+        "c": "https://github.com/motiftechnologies/motif3-training-example",
+        "n": "Motif 3 Base (zero-shot)",
+        "d": "2026-08-10",
+        "m1": "85.14"
+      },
+      {
+        "p": {
           "name": "PaLM 2 Technical Report",
           "link": "https://arxiv.org/abs/2305.10403v3"
         },
@@ -152,6 +222,26 @@
         "n": "PaLM 2-L (1-shot)",
         "d": "2023-05-17",
         "m1": "85.0"
+      },
+      {
+        "p": {
+          "name": "Nemotron-H: A Family of Accurate and Efficient Hybrid Mamba-Transformer Models",
+          "link": "https://arxiv.org/abs/2504.03624"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Nemotron-H-56B-Base",
+        "d": "2025-04-04",
+        "m1": "85.0"
+      },
+      {
+        "p": {
+          "name": "SQ-format: A Unified Sparse-Quantized Hardware-friendly Data Format for LLMs",
+          "link": "https://arxiv.org/abs/2512.05409"
+        },
+        "c": "",
+        "n": "Llama-3-70B with SQ-format (W4A(SQ6))",
+        "d": "2025-12-05",
+        "m1": "84.06"
       },
       {
         "p": {
@@ -165,12 +255,32 @@
       },
       {
         "p": {
+          "name": "HodgeCover: Higher-Order Topological Coverage Drives Compression of Sparse Mixture-of-Experts",
+          "link": "https://arxiv.org/abs/2605.13997"
+        },
+        "c": "",
+        "n": "Qwen 3.5-122B-A10B (HodgeCover+Wanda)",
+        "d": "2026-05-13",
+        "m1": "83.4"
+      },
+      {
+        "p": {
           "name": "PaLM 2 Technical Report",
           "link": "https://arxiv.org/abs/2305.10403v3"
         },
         "c": "https://github.com/eternityyw/tram-benchmark",
         "n": "PaLM 2-M (1-shot)",
         "d": "2023-05-17",
+        "m1": "83.2"
+      },
+      {
+        "p": {
+          "name": "Jamba: A Hybrid Transformer-Mamba Language Model",
+          "link": "https://arxiv.org/abs/2403.19887"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Jamba (0-shot)",
+        "d": "2024-03-28",
         "m1": "83.2"
       },
       {
@@ -185,6 +295,16 @@
       },
       {
         "p": {
+          "name": "Gemma 2: Improving Open Language Models at a Practical Size",
+          "link": "https://arxiv.org/abs/2408.00118"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Gemma 2 27B",
+        "d": "2024-07-31",
+        "m1": "83.2"
+      },
+      {
+        "p": {
           "name": "Mistral 7B",
           "link": "https://arxiv.org/abs/2310.06825v1"
         },
@@ -192,6 +312,16 @@
         "n": "Mistral 7B (0-shot)",
         "d": "2023-10-10",
         "m1": "83.0"
+      },
+      {
+        "p": {
+          "name": "Routing Drift Alone Does Not Diagnose Failure in Merged MoE LLMs",
+          "link": "https://arxiv.org/abs/2609.32821"
+        },
+        "c": "https://github.com/wyy-code/SRR",
+        "n": "SRR (Qwen3-30B-A3B, Task Arithmetic)",
+        "d": "2026-09-26",
+        "m1": "82.86"
       },
       {
         "p": {
@@ -225,6 +355,36 @@
       },
       {
         "p": {
+          "name": "DeepSeek LLM: Scaling Open-Source Language Models with Longtermism",
+          "link": "https://arxiv.org/abs/2401.02954"
+        },
+        "c": "https://github.com/deepseek-ai/deepseek-llm",
+        "n": "DeepSeek LLM 67B Chat",
+        "d": "2024-01-05",
+        "m1": "82.6"
+      },
+      {
+        "p": {
+          "name": "Nemotron-4 15B Technical Report",
+          "link": "https://arxiv.org/abs/2402.16819"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Nemotron-4 15B",
+        "d": "2024-02-26",
+        "m1": "82.4"
+      },
+      {
+        "p": {
+          "name": "PaLM: Scaling Language Modeling with Pathways",
+          "link": "https://arxiv.org/abs/2204.02311v5"
+        },
+        "c": "https://github.com/lucidrains/CoCa-pytorch",
+        "n": "PaLM 62B",
+        "d": "2022-04-05",
+        "m1": "82.3"
+      },
+      {
+        "p": {
           "name": "LLaMA: Open and Efficient Foundation Language Models",
           "link": "https://arxiv.org/abs/2302.13971v1"
         },
@@ -251,6 +411,16 @@
         "c": "https://github.com/jingyaogong/minimind",
         "n": "Mistral 7B (0-shot)",
         "d": "2024-01-08",
+        "m1": "82.2"
+      },
+      {
+        "p": {
+          "name": "Nemotron-H: A Family of Accurate and Efficient Hybrid Mamba-Transformer Models",
+          "link": "https://arxiv.org/abs/2504.03624"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Nemotron-H-8B-Base",
+        "d": "2025-04-04",
         "m1": "82.2"
       },
       {
@@ -295,6 +465,16 @@
       },
       {
         "p": {
+          "name": "LoopUS: Recasting Pretrained LLMs into Looped Latent Refinement Models",
+          "link": "https://arxiv.org/abs/2605.11011"
+        },
+        "c": "https://github.com/Thrillcrazyer/LoopUS",
+        "n": "Phi-4 (14B) with LoopUS",
+        "d": "2026-05-10",
+        "m1": "81.8"
+      },
+      {
+        "p": {
           "name": "Finetuned Language Models Are Zero-Shot Learners",
           "link": "https://arxiv.org/abs/2109.01652v5"
         },
@@ -302,6 +482,76 @@
         "n": "FLAN 137B (few-shot, k=10)",
         "d": "2021-09-03",
         "m1": "81.7"
+      },
+      {
+        "p": {
+          "name": "ECO: Quantized Training without Full-Precision Master Weights",
+          "link": "https://arxiv.org/abs/2601.22101"
+        },
+        "c": "",
+        "n": "DeepSeek-MoE-16B (INT4 w/o MW ECO + SR)",
+        "d": "2026-01-29",
+        "m1": "81.5"
+      },
+      {
+        "p": {
+          "name": "NCP-ArchPreview Technical Report: Moving towards Latent Space Language Models through Next Concept Prediction",
+          "link": "https://arxiv.org/abs/2609.10715"
+        },
+        "c": "https://github.com/lumia-group/ncp_olmo_eval",
+        "n": "NCP-ArchPreview Stage-2",
+        "d": "2026-09-09",
+        "m1": "81.45"
+      },
+      {
+        "p": {
+          "name": "Zamba: A Compact 7B SSM Hybrid Model",
+          "link": "https://arxiv.org/abs/2405.16712"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Zamba 7B",
+        "d": "2024-05-26",
+        "m1": "81.37"
+      },
+      {
+        "p": {
+          "name": "G^2PTQ: Improving LLM Post-Training Quantization with Generalized Gradient Compensation",
+          "link": "https://arxiv.org/abs/2609.31009"
+        },
+        "c": "https://github.com/G2PTQ/G2PTQ",
+        "n": "G^2PTQ* (Qwen3-32B, W4A16)",
+        "d": "2026-09-25",
+        "m1": "81.34"
+      },
+      {
+        "p": {
+          "name": "RecurrentGemma: Moving Past Transformers for Efficient Open Language Models",
+          "link": "https://arxiv.org/abs/2404.07839"
+        },
+        "c": "https://github.com/google-deepmind/recurrentgemma",
+        "n": "RecurrentGemma-9B",
+        "d": "2024-04-11",
+        "m1": "81.3"
+      },
+      {
+        "p": {
+          "name": "Gemma: Open Models Based on Gemini Research and Technology",
+          "link": "https://arxiv.org/abs/2403.08295"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Gemma 7B",
+        "d": "2024-03-13",
+        "m1": "81.2"
+      },
+      {
+        "p": {
+          "name": "Encoder-Decoder Gemma: Improving the Quality-Efficiency Trade-Off via Adaptation",
+          "link": "https://arxiv.org/abs/2504.06225"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "T5Gemma 9B-9B PrefixLM",
+        "d": "2025-04-08",
+        "m1": "81.1"
       },
       {
         "p": {
@@ -322,6 +572,36 @@
         "n": "GPT-3 175B (0-shot)",
         "d": "2020-05-28",
         "m1": "81.0"
+      },
+      {
+        "p": {
+          "name": "The Zamba2 Suite: Technical Report",
+          "link": "https://arxiv.org/abs/2411.15242"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Zamba2-7B",
+        "d": "2024-11-22",
+        "m1": "81.0"
+      },
+      {
+        "p": {
+          "name": "Every Token Counts: Generalizing 16M Ultra-Long Context in Large Language Models",
+          "link": "https://arxiv.org/abs/2511.23319"
+        },
+        "c": "https://github.com/ant-research/long-context-modeling",
+        "n": "HSA-UltraLong-MoE",
+        "d": "2025-11-28",
+        "m1": "80.69"
+      },
+      {
+        "p": {
+          "name": "Decoding Looped Transformers Better for (Almost) Free",
+          "link": "https://arxiv.org/abs/2610.02185"
+        },
+        "c": "",
+        "n": "LoopCD-Ouro-2.6B (adaptive)",
+        "d": "2026-10-01",
+        "m1": "80.69"
       },
       {
         "p": {
@@ -355,6 +635,26 @@
       },
       {
         "p": {
+          "name": "mHC: Manifold-Constrained Hyper-Connections",
+          "link": "https://arxiv.org/abs/2512.24880"
+        },
+        "c": "",
+        "n": "mHC (27B)",
+        "d": "2025-12-31",
+        "m1": "80.5"
+      },
+      {
+        "p": {
+          "name": "OPT: Open Pre-trained Transformer Language Models",
+          "link": "https://arxiv.org/abs/2205.01068v4"
+        },
+        "c": "https://github.com/facebookresearch/metaseq",
+        "n": "OPT-175B",
+        "d": "2022-05-02",
+        "m1": "80.1"
+      },
+      {
+        "p": {
           "name": "LLaMA: Open and Efficient Foundation Language Models",
           "link": "https://arxiv.org/abs/2302.13971v1"
         },
@@ -365,12 +665,42 @@
       },
       {
         "p": {
+          "name": "Introducing MPT-7B: A New Standard for Open-Source, Commercially Usable LLMs",
+          "link": "https://www.databricks.com/blog/mpt-7b"
+        },
+        "c": "https://github.com/mosaicml/llm-foundry",
+        "n": "MPT-7B",
+        "d": "2023-05-05",
+        "m1": "79.9"
+      },
+      {
+        "p": {
+          "name": "Power Scheduler: A Batch Size and Token Number Agnostic Learning Rate Scheduler",
+          "link": "https://arxiv.org/abs/2408.13359"
+        },
+        "c": "https://github.com/ibm/dolomite-engine",
+        "n": "PowerLM-3B",
+        "d": "2024-08-23",
+        "m1": "79.9"
+      },
+      {
+        "p": {
           "name": "LLaMA: Open and Efficient Foundation Language Models",
           "link": "https://arxiv.org/abs/2302.13971v1"
         },
         "c": "https://github.com/huggingface/transformers",
         "n": "LLaMA 7B (0-shot)",
         "d": "2023-02-27",
+        "m1": "79.8"
+      },
+      {
+        "p": {
+          "name": "OLMoE: Open Mixture-of-Experts Language Models",
+          "link": "https://arxiv.org/abs/2409.02060"
+        },
+        "c": "https://github.com/allenai/OLMoE",
+        "n": "OLMoE-1B-7B (5-shot)",
+        "d": "2024-09-03",
         "m1": "79.8"
       },
       {
@@ -405,6 +735,56 @@
       },
       {
         "p": {
+          "name": "Low-Rank Approximation for Sparse Attention in Multi-Modal LLMs",
+          "link": "https://openaccess.thecvf.com/content/CVPR2024/html/Song_Low-Rank_Approximation_for_Sparse_Attention_in_Multi-Modal_LLMs_CVPR_2024_paper.html"
+        },
+        "c": "",
+        "n": "LoRA-Sparse (LLaMA-7B) (extra data)",
+        "d": "2024-06-17",
+        "m1": "79.4"
+      },
+      {
+        "p": {
+          "name": "CoRe3D: Collaborative Reasoning as a Foundation for 3D Intelligence",
+          "link": "https://arxiv.org/abs/2512.12768"
+        },
+        "c": "",
+        "n": "CoRe3D",
+        "d": "2025-12-14",
+        "m1": "79.4"
+      },
+      {
+        "p": {
+          "name": "T5Gemma 2: Seeing, Reading, and Understanding Longer",
+          "link": "https://arxiv.org/abs/2512.14856"
+        },
+        "c": "",
+        "n": "T5Gemma 2 4B-4B",
+        "d": "2025-12-16",
+        "m1": "79.2"
+      },
+      {
+        "p": {
+          "name": "MobileMoE: Scaling On-Device Mixture of Experts",
+          "link": "https://arxiv.org/abs/2605.27358"
+        },
+        "c": "",
+        "n": "MobileMoE-L (922M)",
+        "d": "2026-05-26",
+        "m1": "78.9"
+      },
+      {
+        "p": {
+          "name": "SmolLM3: smol, multilingual, long-context reasoner",
+          "link": "https://huggingface.co/blog/smollm3"
+        },
+        "c": "https://github.com/huggingface/smollm",
+        "n": "SmolLM3 3B Base",
+        "d": "2025-07-08",
+        "m1": "78.89"
+      },
+      {
+        "p": {
           "name": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
           "link": "https://arxiv.org/abs/2307.09288v2"
         },
@@ -412,6 +792,86 @@
         "n": "LLaMA 2 7B (0-shot)",
         "d": "2023-07-18",
         "m1": "78.8"
+      },
+      {
+        "p": {
+          "name": "GeoPair: Geometry-Preserving Cross-Layer Factorization for Training-Free Transformer Compression",
+          "link": "https://arxiv.org/abs/2609.25963"
+        },
+        "c": "",
+        "n": "GeoPair (Llama3 8B, CR=0.2)",
+        "d": "2026-09-22",
+        "m1": "78.73"
+      },
+      {
+        "p": {
+          "name": "RecurrentGemma: Moving Past Transformers for Efficient Open Language Models",
+          "link": "https://arxiv.org/abs/2404.07839"
+        },
+        "c": "https://github.com/google-deepmind/recurrentgemma",
+        "n": "RecurrentGemma-2B",
+        "d": "2024-04-11",
+        "m1": "78.5"
+      },
+      {
+        "p": {
+          "name": "Improved Large Language Diffusion Models",
+          "link": "https://arxiv.org/abs/2606.25331"
+        },
+        "c": "https://github.com/ml-gsai/llada",
+        "n": "Confidence-based scoring",
+        "d": "2026-06-24",
+        "m1": "78.5"
+      },
+      {
+        "p": {
+          "name": "Improved Large Language Diffusion Models",
+          "link": "https://arxiv.org/abs/2606.25331"
+        },
+        "c": "https://github.com/ml-gsai/llada",
+        "n": "iLLaDA 8B Base",
+        "d": "2026-06-24",
+        "m1": "78.5"
+      },
+      {
+        "p": {
+          "name": "OLMo: Accelerating the Science of Language Models",
+          "link": "https://arxiv.org/abs/2402.00838"
+        },
+        "c": "https://github.com/allenai/olmo",
+        "n": "OLMo 7B",
+        "d": "2024-02-01",
+        "m1": "78.4"
+      },
+      {
+        "p": {
+          "name": "Taylor-Calibrate: Principled Initialization for Hybrid Linear Attention Distillation",
+          "link": "https://arxiv.org/abs/2606.16429"
+        },
+        "c": "https://github.com/FutureMLS-Lab/Taylor-Calibrate",
+        "n": "Taylor-Calibrate qwen2_3b 100M_ga_s2_taylor",
+        "d": "2026-06-15",
+        "m1": "78.4"
+      },
+      {
+        "p": {
+          "name": "ECHO: Efficient Causal Self-Recursion Beyond Auxiliary Multi-Token Prediction",
+          "link": "https://arxiv.org/abs/2610.24766"
+        },
+        "c": "https://github.com/ernie-research/ECHO",
+        "n": "ECHO-1.5(3)",
+        "d": "2026-10-17",
+        "m1": "78.38"
+      },
+      {
+        "p": {
+          "name": "TIDE: Every Layer Knows the Token Beneath the Context",
+          "link": "https://arxiv.org/abs/2605.06216"
+        },
+        "c": "",
+        "n": "TIDE-8E (3B)",
+        "d": "2026-05-07",
+        "m1": "78.3"
       },
       {
         "p": {
@@ -425,6 +885,26 @@
       },
       {
         "p": {
+          "name": "Post-Training Leaves Behavioral Shadows on Unrelated Decisions",
+          "link": "https://arxiv.org/abs/2609.29233"
+        },
+        "c": "https://github.com/myboker/ATD",
+        "n": "ATD student (Qwen2.5-1.5B-Instruct)",
+        "d": "2026-09-24",
+        "m1": "77.71"
+      },
+      {
+        "p": {
+          "name": "Puro-2B: Poor Lab's Qwen2-1.5B Trained on RTX 5090 within $5090",
+          "link": "https://arxiv.org/abs/2608.27370"
+        },
+        "c": "https://github.com/thu-pacman/Puro-Megatron",
+        "n": "Puro-2B UD decay average",
+        "d": "2026-08-27",
+        "m1": "77.69"
+      },
+      {
+        "p": {
           "name": "BloombergGPT: A Large Language Model for Finance",
           "link": "https://arxiv.org/abs/2303.17564v3"
         },
@@ -435,12 +915,132 @@
       },
       {
         "p": {
+          "name": "SmolLM2: When Smol Goes Big -- Data-Centric Training of a Small Language Model",
+          "link": "https://arxiv.org/abs/2502.02737"
+        },
+        "c": "https://github.com/huggingface/smollm",
+        "n": "SmolLM2 1.7B",
+        "d": "2025-02-04",
+        "m1": "77.6"
+      },
+      {
+        "p": {
+          "name": "Phi-4-Mini Technical Report: Compact yet Powerful Multimodal Language Models via Mixture-of-LoRAs",
+          "link": "https://arxiv.org/abs/2503.01743"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Phi-4-Mini (5-shot)",
+        "d": "2025-02-24",
+        "m1": "77.6"
+      },
+      {
+        "p": {
+          "name": "Disentangling Representation Evolution in Transformers through Directional Decomposition",
+          "link": "https://arxiv.org/abs/2609.15975"
+        },
+        "c": "https://github.com/Shwai-He/Transformer-Geometry",
+        "n": "Transformer Geometry 2.7B V-Para (zero-shot)",
+        "d": "2026-09-14",
+        "m1": "77.6"
+      },
+      {
+        "p": {
+          "name": "PaLM: Scaling Language Modeling with Pathways",
+          "link": "https://arxiv.org/abs/2204.02311v5"
+        },
+        "c": "https://github.com/lucidrains/CoCa-pytorch",
+        "n": "PaLM 8B",
+        "d": "2022-04-05",
+        "m1": "77.5"
+      },
+      {
+        "p": {
+          "name": "RWKV: Reinventing RNNs for the Transformer Era",
+          "link": "https://arxiv.org/abs/2305.13048v2"
+        },
+        "c": "https://github.com/BlinkDL/RWKV-LM",
+        "n": "RWKV-4 14B",
+        "d": "2023-05-22",
+        "m1": "77.42"
+      },
+      {
+        "p": {
+          "name": "GPT-NeoX-20B: An Open-Source Autoregressive Language Model",
+          "link": "https://arxiv.org/abs/2204.06745v1"
+        },
+        "c": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
+        "n": "GPT-NeoX-20B (5-shot)",
+        "d": "2022-04-14",
+        "m1": "77.4"
+      },
+      {
+        "p": {
+          "name": "Expert Upcycling: Shifting the Compute-Efficient Frontier of Mixture-of-Experts",
+          "link": "https://arxiv.org/abs/2604.19835"
+        },
+        "c": "https://github.com/amazon-science/expert-upcycling",
+        "n": "Upcycled 32→64 (100% CPT)",
+        "d": "2026-04-21",
+        "m1": "77.4"
+      },
+      {
+        "p": {
+          "name": "Efficient Pre-Training with Token Superposition",
+          "link": "https://arxiv.org/abs/2605.06546"
+        },
+        "c": "https://github.com/bloc97/megatron-lm",
+        "n": "MoE TST (10B A1B)",
+        "d": "2026-05-07",
+        "m1": "77.4"
+      },
+      {
+        "p": {
+          "name": "SmolLM - blazingly fast and remarkably powerful",
+          "link": "https://huggingface.co/blog/smollm"
+        },
+        "c": "https://github.com/huggingface/smollm",
+        "n": "SmolLM 1.7B",
+        "d": "2024-07-16",
+        "m1": "77.3"
+      },
+      {
+        "p": {
+          "name": "daVinci-LLM:Towards the Science of Pretraining",
+          "link": "https://arxiv.org/abs/2603.27164"
+        },
+        "c": "https://github.com/GAIR-NLP/daVinci-LLM",
+        "n": "daVinci-LLM-3B",
+        "d": "2026-03-28",
+        "m1": "77.26"
+      },
+      {
+        "p": {
+          "name": "GPT-SW3: An Autoregressive Language Model for the Nordic Languages",
+          "link": "https://arxiv.org/abs/2305.12987"
+        },
+        "c": "",
+        "n": "GPT-SW3 40B",
+        "d": "2023-05-22",
+        "m1": "77.2"
+      },
+      {
+        "p": {
           "name": "PIQA: Reasoning about Physical Commonsense in Natural Language",
           "link": "https://arxiv.org/abs/1911.11641v1"
         },
         "c": "https://github.com/vered1986/self_talk",
         "n": "RoBERTa-large 355M (fine-tuned)",
         "d": "2019-11-26",
+        "m1": "77.1"
+      },
+      {
+        "p": {
+          "name": "Synthetic Pre-pretraining Survives Scale, but Not as a Grammatical Prior",
+          "link": "https://arxiv.org/abs/2609.39827"
+        },
+        "c": "https://github.com/gucci-j/verify-ppt-at-scale",
+        "n": "PPT (k-Shuffle Dyck), 3B, C4, 100B PT tokens",
+        "d": "2026-09-30",
         "m1": "77.1"
       },
       {
@@ -465,6 +1065,16 @@
       },
       {
         "p": {
+          "name": "Mixture-of-Depths Attention",
+          "link": "https://arxiv.org/abs/2603.15619"
+        },
+        "c": "https://github.com/hustvl/MoDA",
+        "n": "MoDA (1.5B)",
+        "d": "2026-03-16",
+        "m1": "76.82"
+      },
+      {
+        "p": {
           "name": "Pythia: A Suite for Analyzing Large Language Models Across Training and Scaling",
           "link": "https://arxiv.org/abs/2304.01373v2"
         },
@@ -472,6 +1082,56 @@
         "n": "Pythia 12B (5-shot)",
         "d": "2023-04-03",
         "m1": "76.7"
+      },
+      {
+        "p": {
+          "name": "Distributionally Robust Mixture-of-Experts Training",
+          "link": "https://arxiv.org/abs/2610.07207"
+        },
+        "c": "https://github.com/MAPS-research/DRMoET",
+        "n": "DRMoET (1.7B active, 10.3B total, eta=0.01)",
+        "d": "2026-10-05",
+        "m1": "76.66"
+      },
+      {
+        "p": {
+          "name": "GPT-J-6B: A 6 Billion Parameter Autoregressive Language Model",
+          "link": "https://huggingface.co/EleutherAI/gpt-j-6B"
+        },
+        "c": "https://github.com/kingoflolz/mesh-transformer-jax",
+        "n": "GPT-J 6B",
+        "d": "2021-06-04",
+        "m1": "76.5"
+      },
+      {
+        "p": {
+          "name": "Transformers are SSMs: Generalized Models and Efficient Algorithms Through Structured State Space Duality",
+          "link": "https://arxiv.org/abs/2405.21060"
+        },
+        "c": "https://github.com/state-spaces/mamba",
+        "n": "Mamba-2-2.7B",
+        "d": "2024-05-31",
+        "m1": "76.4"
+      },
+      {
+        "p": {
+          "name": "Parallax: Parameterized Local Linear Attention for Language Modeling",
+          "link": "https://arxiv.org/abs/2605.29157"
+        },
+        "c": "https://github.com/Yifei-Zuo/Parallax",
+        "n": "Parallax (1.7B)",
+        "d": "2026-05-27",
+        "m1": "76.39"
+      },
+      {
+        "p": {
+          "name": "LatentLoop: Scaling Looped MoE Models with Asymmetric Compute Allocation",
+          "link": "https://arxiv.org/abs/2610.19975"
+        },
+        "c": "https://github.com/lcqysl/LatentLoop",
+        "n": "LatentLoop (7B / 1B active)",
+        "d": "2026-10-14",
+        "m1": "76.33"
       },
       {
         "p": {
@@ -485,6 +1145,26 @@
       },
       {
         "p": {
+          "name": "Initialisation Determines the Basin: Efficient Codebook Optimisation for Extreme LLM Quantization",
+          "link": "https://arxiv.org/abs/2604.08118"
+        },
+        "c": "https://github.com/kenno94-IK/aqlm-oaem",
+        "n": "OA-EM (Llama 3.2 3B)",
+        "d": "2026-04-09",
+        "m1": "76.2"
+      },
+      {
+        "p": {
+          "name": "Fairy2i: Training Complex LLMs from Real LLMs with All Parameters in {pm 1, pm i}",
+          "link": "https://arxiv.org/abs/2512.02901"
+        },
+        "c": "https://github.com/PKULab1806/Fairy2i-W2",
+        "n": "Fairy2i-W2 (2-bit)",
+        "d": "2025-12-02",
+        "m1": "76.17"
+      },
+      {
+        "p": {
           "name": "Pythia: A Suite for Analyzing Large Language Models Across Training and Scaling",
           "link": "https://arxiv.org/abs/2304.01373v2"
         },
@@ -492,6 +1172,16 @@
         "n": "Pythia 12B (0-shot)",
         "d": "2023-04-03",
         "m1": "76"
+      },
+      {
+        "p": {
+          "name": "Scaling Inherently Interpretable Language Models",
+          "link": "https://arxiv.org/abs/2608.07594"
+        },
+        "c": "https://github.com/guidelabs/steerling",
+        "n": "Steerling-8B",
+        "d": "2026-08-06",
+        "m1": "75.9"
       },
       {
         "p": {
@@ -515,6 +1205,66 @@
       },
       {
         "p": {
+          "name": "Dream 7B: Diffusion Large Language Models",
+          "link": "https://arxiv.org/abs/2508.15487"
+        },
+        "c": "",
+        "n": "Dream 7B",
+        "d": "2025-08-21",
+        "m1": "75.8"
+      },
+      {
+        "p": {
+          "name": "Self-Improving Pretraining: using post-trained models to pretrain better models",
+          "link": "https://arxiv.org/abs/2601.21343"
+        },
+        "c": "",
+        "n": "Self-Improving Pretraining (1.4B)",
+        "d": "2026-01-29",
+        "m1": "75.8"
+      },
+      {
+        "p": {
+          "name": "Cross-Tokenizer LLM Distillation through a Byte-Level Interface",
+          "link": "https://arxiv.org/abs/2604.07466"
+        },
+        "c": "",
+        "n": "Llama3.2 (3B) with BLCTD (transferred to Qwen2 tokenizer)",
+        "d": "2026-04-13",
+        "m1": "75.68"
+      },
+      {
+        "p": {
+          "name": "Cross-Tokenizer LLM Distillation through a Byte-Level Interface",
+          "link": "https://arxiv.org/abs/2604.07466"
+        },
+        "c": "",
+        "n": "BLD",
+        "d": "2026-04-13",
+        "m1": "75.68"
+      },
+      {
+        "p": {
+          "name": "Multi-Head Low-Rank Attention",
+          "link": "https://arxiv.org/abs/2603.02188"
+        },
+        "c": "https://github.com/SongtaoLiu0823/MLRA",
+        "n": "MLRA-2 (2.9B)",
+        "d": "2026-03-02",
+        "m1": "75.52"
+      },
+      {
+        "p": {
+          "name": "Mamba-3: Improved Sequence Modeling using State Space Principles",
+          "link": "https://arxiv.org/abs/2603.15569"
+        },
+        "c": "https://github.com/state-spaces/mamba",
+        "n": "Mamba-3-MIMO-1.5B",
+        "d": "2026-03-16",
+        "m1": "75.3"
+      },
+      {
+        "p": {
           "name": "Pythia: A Suite for Analyzing Large Language Models Across Training and Scaling",
           "link": "https://arxiv.org/abs/2304.01373v2"
         },
@@ -522,6 +1272,176 @@
         "n": "Pythia 6.9B (0-shot)",
         "d": "2023-04-03",
         "m1": "75.2"
+      },
+      {
+        "p": {
+          "name": "Mamba: Linear-Time Sequence Modeling with Selective State Spaces",
+          "link": "https://arxiv.org/abs/2312.00752v2"
+        },
+        "c": "https://github.com/state-spaces/mamba",
+        "n": "Mamba-2.8B",
+        "d": "2023-12-01",
+        "m1": "75.2"
+      },
+      {
+        "p": {
+          "name": "xLSTM: Extended Long Short-Term Memory",
+          "link": "https://arxiv.org/abs/2405.04517"
+        },
+        "c": "https://github.com/nx-ai/xlstm",
+        "n": "xLSTM[7:1] 1.3B",
+        "d": "2024-05-07",
+        "m1": "74.92"
+      },
+      {
+        "p": {
+          "name": "Copy-Paste Language Models",
+          "link": "https://arxiv.org/abs/2610.19247"
+        },
+        "c": "https://github.com/kellerjordan/modded-nanogpt",
+        "n": "Copy-Paste Language Model (1.7B, Full)",
+        "d": "2026-10-13",
+        "m1": "74.86"
+      },
+      {
+        "p": {
+          "name": "SoloQ: Calibration-Free Quantization for Diffusion Language Models",
+          "link": "https://arxiv.org/abs/2610.07121"
+        },
+        "c": "",
+        "n": "SoloQ-N (LLaDA-1.5-8B)",
+        "d": "2026-10-05",
+        "m1": "74.76"
+      },
+      {
+        "p": {
+          "name": "VersatileFFN: Achieving Parameter Efficiency in LLMs via Adaptive Wide-and-Deep Reuse",
+          "link": "https://arxiv.org/abs/2512.14531"
+        },
+        "c": "https://github.com/huawei-noah/noah-research/tree/master/VersatileFFN",
+        "n": "VersatileFFN",
+        "d": "2025-12-16",
+        "m1": "74.65"
+      },
+      {
+        "p": {
+          "name": "Modular TTT: Rethinking Test-Time Training as Composable Modules",
+          "link": "https://arxiv.org/abs/2608.07110"
+        },
+        "c": "https://github.com/bytedance-seed/modular-ttt",
+        "n": "Modular TTT 1.45B (MSE M)",
+        "d": "2026-08-07",
+        "m1": "74.43"
+      },
+      {
+        "p": {
+          "name": "SmolLM2: When Smol Goes Big -- Data-Centric Training of a Small Language Model",
+          "link": "https://arxiv.org/abs/2502.02737"
+        },
+        "c": "https://github.com/huggingface/smollm",
+        "n": "SmolLM2 1.7B Instruct",
+        "d": "2025-02-04",
+        "m1": "74.4"
+      },
+      {
+        "p": {
+          "name": "Kalman Delta Networks: Uncertainty-aware Associative Memory",
+          "link": "https://arxiv.org/abs/2609.07816"
+        },
+        "c": "https://github.com/ngocbh/kalman-delta-networks",
+        "n": "Diagonal KDN (1.3B)",
+        "d": "2026-09-07",
+        "m1": "74.21"
+      },
+      {
+        "p": {
+          "name": "Refuse without Refusal: A Structural Analysis of Safety-Tuning Responses for Reducing False Refusals in Language Models",
+          "link": "https://arxiv.org/abs/2609.04714"
+        },
+        "c": "https://github.com/mz-kim/Refuse-without-Refusal",
+        "n": "Llama-3.1-8B + Rationale-Only",
+        "d": "2026-09-04",
+        "m1": "74.16"
+      },
+      {
+        "p": {
+          "name": "Scaling Laws for Looped Mixture of Experts",
+          "link": "https://arxiv.org/abs/2609.40316"
+        },
+        "c": "",
+        "n": "A0.3B-1.3B LoopMoE (R=5)",
+        "d": "2026-09-30",
+        "m1": "74.0"
+      },
+      {
+        "p": {
+          "name": "Towards Looped Models Done Right, Part II: Rethinking at Fixed Points",
+          "link": "https://arxiv.org/abs/2610.06833"
+        },
+        "c": "https://github.com/ifm-ai/xllm-loop",
+        "n": "LoopedLM-P2 learned-depth lambda_H=0.01 (1.6B)",
+        "d": "2026-10-05",
+        "m1": "73.72"
+      },
+      {
+        "p": {
+          "name": "OLMo: Accelerating the Science of Language Models",
+          "link": "https://arxiv.org/abs/2402.00838"
+        },
+        "c": "https://github.com/allenai/olmo",
+        "n": "OLMo 1B",
+        "d": "2024-02-01",
+        "m1": "73.7"
+      },
+      {
+        "p": {
+          "name": "Mamba-3: Improved Sequence Modeling using State Space Principles",
+          "link": "https://arxiv.org/abs/2603.15569"
+        },
+        "c": "https://github.com/state-spaces/mamba",
+        "n": "Mamba-3-MIMO-880M",
+        "d": "2026-03-16",
+        "m1": "73.7"
+      },
+      {
+        "p": {
+          "name": "Large Language Diffusion Models",
+          "link": "https://arxiv.org/abs/2502.09992"
+        },
+        "c": "https://github.com/ml-gsai/llada",
+        "n": "LLaDA 8B Base",
+        "d": "2025-02-14",
+        "m1": "73.6"
+      },
+      {
+        "p": {
+          "name": "Mamba-3: Improved Sequence Modeling using State Space Principles",
+          "link": "https://arxiv.org/abs/2603.15569"
+        },
+        "c": "https://github.com/state-spaces/mamba",
+        "n": "Mamba-3-SISO-880M",
+        "d": "2026-03-16",
+        "m1": "73.6"
+      },
+      {
+        "p": {
+          "name": "Mamba-3: Improved Sequence Modeling using State Space Principles",
+          "link": "https://arxiv.org/abs/2603.15569"
+        },
+        "c": "https://github.com/state-spaces/mamba",
+        "n": "Mamba-3-SISO-1.5B",
+        "d": "2026-03-16",
+        "m1": "73.6"
+      },
+      {
+        "p": {
+          "name": "Triplet-Block Diffusion RWKV",
+          "link": "https://arxiv.org/abs/2605.25969"
+        },
+        "c": "https://github.com/leonardodalinky/B3D-RWKV",
+        "n": "B3D-RWKV-7.2B",
+        "d": "2026-05-25",
+        "m1": "73.5"
       },
       {
         "p": {
@@ -535,6 +1455,16 @@
       },
       {
         "p": {
+          "name": "In-Place Test-Time Training",
+          "link": "https://arxiv.org/abs/2604.06169"
+        },
+        "c": "https://github.com/ByteDance-Seed/In-Place-TTT",
+        "n": "In-Place TTT (4B, Full Attention)",
+        "d": "2026-04-07",
+        "m1": "73.29"
+      },
+      {
+        "p": {
           "name": "Efficient Language Modeling with Sparse all-MLP",
           "link": "https://arxiv.org/abs/2203.06850v3"
         },
@@ -542,6 +1472,36 @@
         "n": "sMLP - deterministic 9.4B (0-shot)",
         "d": "2022-03-14",
         "m1": "73"
+      },
+      {
+        "p": {
+          "name": "Swift-SVD: Theoretical Optimality Meets Practical Efficiency in Low-Rank LLM Compression",
+          "link": "https://arxiv.org/abs/2604.01609"
+        },
+        "c": "https://github.com/hiahei/swift-svd",
+        "n": "LLaMA-7B with Swift-SVD* (dynamic)",
+        "d": "2026-04-02",
+        "m1": "73.0"
+      },
+      {
+        "p": {
+          "name": "Decouple Searching from Training: Scaling Data Mixing via Model Merging for Large Language Model Pre-training",
+          "link": "https://arxiv.org/abs/2602.00747"
+        },
+        "c": "https://github.com/Lucius-lsr/DeMix",
+        "n": "Qwen3 (1.7B) with DeMix (224 proxies)",
+        "d": "2026-01-31",
+        "m1": "72.94"
+      },
+      {
+        "p": {
+          "name": "ModuleFormer: Modularity Emerges from Mixture-of-Experts",
+          "link": "https://arxiv.org/abs/2306.04640"
+        },
+        "c": "https://github.com/ibm/moduleformer",
+        "n": "MoLM-8B-K2 (0-shot)",
+        "d": "2023-06-07",
+        "m1": "72.91"
       },
       {
         "p": {
@@ -555,6 +1515,76 @@
       },
       {
         "p": {
+          "name": "Language Is Not All You Need: Aligning Perception with Language Models",
+          "link": "https://arxiv.org/abs/2302.14045"
+        },
+        "c": "https://github.com/microsoft/unilm",
+        "n": "KOSMOS-1 (0-shot)",
+        "d": "2023-02-27",
+        "m1": "72.9"
+      },
+      {
+        "p": {
+          "name": "Kosmos-2: Grounding Multimodal Large Language Models to the World",
+          "link": "https://arxiv.org/abs/2306.14824v3"
+        },
+        "c": "https://github.com/microsoft/unilm/tree/master/kosmos-2",
+        "n": "KOSMOS-2",
+        "d": "2023-06-26",
+        "m1": "72.9"
+      },
+      {
+        "p": {
+          "name": "Gated DeltaNet-2: Decoupling Erase and Write in Linear Attention",
+          "link": "https://arxiv.org/abs/2605.22791"
+        },
+        "c": "https://github.com/nvlabs/gateddeltanet-2",
+        "n": "Gated DeltaNet-2 (1.3B)",
+        "d": "2026-05-21",
+        "m1": "72.8"
+      },
+      {
+        "p": {
+          "name": "Maglev: Sliding Recurrent Memory",
+          "link": "https://arxiv.org/abs/2608.02870"
+        },
+        "c": "",
+        "n": "Maglev (separate parameters, lambda=1)",
+        "d": "2026-08-05",
+        "m1": "72.6"
+      },
+      {
+        "p": {
+          "name": "Gated Delta Networks: Improving Mamba2 with Delta Rule",
+          "link": "https://arxiv.org/abs/2412.06464"
+        },
+        "c": "https://github.com/nvlabs/gateddeltanet",
+        "n": "Gated DeltaNet-H1",
+        "d": "2024-12-09",
+        "m1": "72.57"
+      },
+      {
+        "p": {
+          "name": "FactorEngram: Factorized N-gram Memory with Basis-Level Gating for Language Models",
+          "link": "https://arxiv.org/abs/2609.35578"
+        },
+        "c": "",
+        "n": "FactorEngram (1B)",
+        "d": "2026-09-28",
+        "m1": "72.46"
+      },
+      {
+        "p": {
+          "name": "Parcae: Scaling Laws For Stable Looped Language Models",
+          "link": "https://arxiv.org/abs/2604.12946"
+        },
+        "c": "https://github.com/sandyresearch/parcae",
+        "n": "Parcae-1.3B (T=8, 10-shot)",
+        "d": "2026-04-14",
+        "m1": "72.343125"
+      },
+      {
+        "p": {
           "name": "LaMini-LM: A Diverse Herd of Distilled Models from Large-Scale Instructions",
           "link": "https://arxiv.org/abs/2304.14402v3"
         },
@@ -565,6 +1595,96 @@
       },
       {
         "p": {
+          "name": "OPUS: Towards Efficient and Principled Data Selection in Large Language Model Pre-training in Every Iteration",
+          "link": "https://arxiv.org/abs/2602.05400"
+        },
+        "c": "",
+        "n": "GPT-2 XL + OPUS",
+        "d": "2026-02-05",
+        "m1": "72.2"
+      },
+      {
+        "p": {
+          "name": "GPT-Neo: Large Scale Autoregressive Language Modeling with Mesh-Tensorflow",
+          "link": "https://zenodo.org/records/5297715"
+        },
+        "c": "https://github.com/eleutherai/gpt-neo",
+        "n": "GPT-Neo 2.7B",
+        "d": "2021-03-21",
+        "m1": "72.14"
+      },
+      {
+        "p": {
+          "name": "Group Representational Position Encoding",
+          "link": "https://arxiv.org/abs/2512.07805"
+        },
+        "c": "https://github.com/model-architectures/GRAPE",
+        "n": "GRAPE-AP",
+        "d": "2025-12-08",
+        "m1": "71.98"
+      },
+      {
+        "p": {
+          "name": "Sparse-BitNet: 1.58-bit LLMs are Naturally Friendly to Semi-Structured Sparsity",
+          "link": "https://arxiv.org/abs/2603.05168"
+        },
+        "c": "https://github.com/AAzdi/Sparse-BitNet",
+        "n": "Sparse-BitNet (Qwen2.5-3B, 6:8)",
+        "d": "2026-03-05",
+        "m1": "71.93"
+      },
+      {
+        "p": {
+          "name": "Mamba-3: Improved Sequence Modeling using State Space Principles",
+          "link": "https://arxiv.org/abs/2603.15569"
+        },
+        "c": "https://github.com/state-spaces/mamba",
+        "n": "Mamba-3-SISO-440M",
+        "d": "2026-03-16",
+        "m1": "71.9"
+      },
+      {
+        "p": {
+          "name": "The State-Prediction Separation Hypothesis",
+          "link": "https://arxiv.org/abs/2607.01218"
+        },
+        "c": "https://github.com/lil-lab/sps",
+        "n": "SPS XL",
+        "d": "2026-07-01",
+        "m1": "71.9"
+      },
+      {
+        "p": {
+          "name": "MDN: Parallelizing Stepwise Momentum for Delta Linear Attention",
+          "link": "https://arxiv.org/abs/2605.05838"
+        },
+        "c": "https://github.com/HuuYuLong/MomentumDeltaNet",
+        "n": "MDN (1.3B)",
+        "d": "2026-05-07",
+        "m1": "71.87"
+      },
+      {
+        "p": {
+          "name": "Massive Activations in Hybrid Linear Attention Large Language Models: Pre-Attention Spikes and Inter-Spike Plateaus",
+          "link": "https://arxiv.org/abs/2608.12149"
+        },
+        "c": "https://github.com/startluxlabs/massive-activations-hla",
+        "n": "GDN 1.3B (3:1 hybrid, 50B tokens)",
+        "d": "2026-08-12",
+        "m1": "71.55"
+      },
+      {
+        "p": {
+          "name": "Full-bandwidth transformer",
+          "link": "https://arxiv.org/abs/2608.08888"
+        },
+        "c": "",
+        "n": "Full-bandwidth transformer 1B (200B, 1 feedback pass)",
+        "d": "2026-08-09",
+        "m1": "71.49"
+      },
+      {
+        "p": {
           "name": "LaMini-LM: A Diverse Herd of Distilled Models from Large-Scale Instructions",
           "link": "https://arxiv.org/abs/2304.14402v3"
         },
@@ -572,6 +1692,26 @@
         "n": "LaMini-GPT 1.5B",
         "d": "2023-04-27",
         "m1": "71.3"
+      },
+      {
+        "p": {
+          "name": "Mamba-3: Improved Sequence Modeling using State Space Principles",
+          "link": "https://arxiv.org/abs/2603.15569"
+        },
+        "c": "https://github.com/state-spaces/mamba",
+        "n": "Mamba-3-MIMO-440M",
+        "d": "2026-03-16",
+        "m1": "70.8"
+      },
+      {
+        "p": {
+          "name": "Looping Beyond Twice: A Scalable Recipe for Looped Mixture-of-Experts",
+          "link": "https://arxiv.org/abs/2610.01153"
+        },
+        "c": "https://github.com/hed-ucas/LOOM",
+        "n": "LOOM (1.7B, 12 loops)",
+        "d": "2026-10-01",
+        "m1": "70.7"
       },
       {
         "p": {
@@ -605,6 +1745,36 @@
       },
       {
         "p": {
+          "name": "SonicMoE: Accelerating MoE with IO and Tile-aware Optimizations",
+          "link": "https://arxiv.org/abs/2512.14080"
+        },
+        "c": "https://github.com/dao-ailab/sonic-moe",
+        "n": "Token Rounding (1.8B MoE)",
+        "d": "2025-12-16",
+        "m1": "69.6"
+      },
+      {
+        "p": {
+          "name": "Exploring Knowledge Purification in Multi-Teacher Knowledge Distillation for LLMs",
+          "link": "https://arxiv.org/abs/2602.01064"
+        },
+        "c": "",
+        "n": "FLAN-T5 (large, 783M) with Similarity-based Router",
+        "d": "2026-02-01",
+        "m1": "69.53"
+      },
+      {
+        "p": {
+          "name": "UniPool: A Globally Shared Expert Pool for Mixture-of-Experts",
+          "link": "https://arxiv.org/abs/2605.06665"
+        },
+        "c": "https://github.com/Centaurus-Alpha/UniPool",
+        "n": "UniPool (978M)",
+        "d": "2026-05-07",
+        "m1": "69.21"
+      },
+      {
+        "p": {
           "name": "PIQA: Reasoning about Physical Commonsense in Natural Language",
           "link": "https://arxiv.org/abs/1911.11641v1"
         },
@@ -612,6 +1782,26 @@
         "n": "GPT-2-small 124M (fine-tuned)",
         "d": "2019-11-26",
         "m1": "69.2"
+      },
+      {
+        "p": {
+          "name": "Error-Free Linear Attention is a Free Lunch: Exact Solution from Continuous-Time Dynamics",
+          "link": "https://arxiv.org/abs/2512.12602"
+        },
+        "c": "https://github.com/declare-lab/EFLA",
+        "n": "EFLA",
+        "d": "2025-12-14",
+        "m1": "68.9"
+      },
+      {
+        "p": {
+          "name": "Revisiting the Shape Convention of Transformer Language Models",
+          "link": "https://arxiv.org/abs/2602.06471"
+        },
+        "c": "",
+        "n": "Hourglass (1074M)",
+        "d": "2026-02-06",
+        "m1": "68.2"
       },
       {
         "p": {
@@ -635,6 +1825,26 @@
       },
       {
         "p": {
+          "name": "Fast Weight Attention for Continual Learning",
+          "link": "https://arxiv.org/abs/2608.27763"
+        },
+        "c": "https://github.com/yifanzhang-pro/fast-weight-attention",
+        "n": "Falcon-1A.2130M",
+        "d": "2026-08-27",
+        "m1": "67.03"
+      },
+      {
+        "p": {
+          "name": "Safin-1: Safety from Within through Memory-Native State Evolution",
+          "link": "https://arxiv.org/abs/2609.00092"
+        },
+        "c": "https://github.com/AI45Lab/Safin-1",
+        "n": "Gated DeltaNet with MARCH",
+        "d": "2026-08-31",
+        "m1": "66.9"
+      },
+      {
+        "p": {
           "name": "PIQA: Reasoning about Physical Commonsense in Natural Language",
           "link": "https://arxiv.org/abs/1911.11641v1"
         },
@@ -652,6 +1862,106 @@
         "n": "BERT-Large 340M",
         "d": "2018-10-11",
         "m1": "66.7"
+      },
+      {
+        "p": {
+          "name": "The Curse and Blessing of Mean Bias in FP4-Quantized LLM Training",
+          "link": "https://arxiv.org/abs/2603.10444"
+        },
+        "c": "",
+        "n": "Qwen3-0.6B (Averis FP4)",
+        "d": "2026-03-11",
+        "m1": "66.7"
+      },
+      {
+        "p": {
+          "name": "Mamba-3: Improved Sequence Modeling using State Space Principles",
+          "link": "https://arxiv.org/abs/2603.15569"
+        },
+        "c": "https://github.com/state-spaces/mamba",
+        "n": "Mamba-3-MIMO-180M",
+        "d": "2026-03-16",
+        "m1": "66.7"
+      },
+      {
+        "p": {
+          "name": "Sumi: Open Uniform Diffusion Language Model from Scratch",
+          "link": "https://arxiv.org/abs/2606.19005"
+        },
+        "c": "https://github.com/tohoku-nlp/sumi",
+        "n": "Sumi-7B",
+        "d": "2026-06-17",
+        "m1": "66.4"
+      },
+      {
+        "p": {
+          "name": "Mamba-3: Improved Sequence Modeling using State Space Principles",
+          "link": "https://arxiv.org/abs/2603.15569"
+        },
+        "c": "https://github.com/state-spaces/mamba",
+        "n": "Mamba-3-SISO-180M",
+        "d": "2026-03-16",
+        "m1": "66.1"
+      },
+      {
+        "p": {
+          "name": "Gated Recurrent Transformers: Expressive Depth through Recurrent Modulation",
+          "link": "https://arxiv.org/abs/2608.15062"
+        },
+        "c": "https://github.com/Amr-Hegazy1/gated-recurrent-transformer",
+        "n": "GRT Large (isoParams, zero-shot)",
+        "d": "2026-08-15",
+        "m1": "66.05"
+      },
+      {
+        "p": {
+          "name": "Daedalus-150M: A Convolution-Attention Hybrid Designed for CPU Inference",
+          "link": "https://arxiv.org/abs/2608.20210"
+        },
+        "c": "https://github.com/unseen1980/daedalus",
+        "n": "Daedalus-150M",
+        "d": "2026-08-20",
+        "m1": "65.78"
+      },
+      {
+        "p": {
+          "name": "What Makes Recurrence Effective in Looped Language Models?",
+          "link": "https://arxiv.org/abs/2609.36636"
+        },
+        "c": "",
+        "n": "BaseLoop (Llama3.1-1B, 3x4, Muon)",
+        "d": "2026-09-29",
+        "m1": "65.18"
+      },
+      {
+        "p": {
+          "name": "Grouped Query Experts: Mixture-of-Experts on GQA Self-Attention",
+          "link": "https://arxiv.org/abs/2606.20945"
+        },
+        "c": "",
+        "n": "GQE (renorm. scoring + shared head)",
+        "d": "2026-06-18",
+        "m1": "64.69"
+      },
+      {
+        "p": {
+          "name": "Low-Rank Ternary Adaptation for Fine-Tuning Transformers",
+          "link": "https://arxiv.org/abs/2608.24469"
+        },
+        "c": "https://github.com/alexmanoo/ternary_adaptation",
+        "n": "Low-Rank Ternary Adaptation (Llama-3.2-3B)",
+        "d": "2026-08-25",
+        "m1": "64.6"
+      },
+      {
+        "p": {
+          "name": "PLDR-LLMs Reason At Self-Organized Criticality",
+          "link": "https://arxiv.org/abs/2603.23539"
+        },
+        "c": "https://github.com/burcgokden/PLDR-LLM-Self-Organized-Criticality",
+        "n": "PLDRv51-SOC-110M-5",
+        "d": "2026-03-12",
+        "m1": "63.98"
       },
       {
         "p": {
@@ -675,6 +1985,76 @@
       },
       {
         "p": {
+          "name": "Normalized Low-Rank Adaptation",
+          "link": "https://arxiv.org/abs/2608.31036"
+        },
+        "c": "https://github.com/Joluck/NoRA",
+        "n": "MLA342M NoRA-init",
+        "d": "2026-08-31",
+        "m1": "63.76"
+      },
+      {
+        "p": {
+          "name": "Dynamic Linear Attention",
+          "link": "https://arxiv.org/abs/2606.10650"
+        },
+        "c": "",
+        "n": "Mamba-2-780M w/ DLA",
+        "d": "2026-06-09",
+        "m1": "63.7"
+      },
+      {
+        "p": {
+          "name": "WhiteMatter: All-to-All Cross-Layer Connections via KV Source Mixing",
+          "link": "https://arxiv.org/abs/2608.18486"
+        },
+        "c": "https://github.com/Cy-47/White-Matter",
+        "n": "WhiteMatter k=16",
+        "d": "2026-09-27",
+        "m1": "63.55"
+      },
+      {
+        "p": {
+          "name": "LoopFormer: Elastic-Depth Looped Transformers for Latent Reasoning via Shortcut Modulation",
+          "link": "https://arxiv.org/abs/2602.11451"
+        },
+        "c": "https://github.com/armenjeddi/loopformer",
+        "n": "LoopFormer (3x8)",
+        "d": "2026-02-11",
+        "m1": "63.33"
+      },
+      {
+        "p": {
+          "name": "Parcae: Scaling Laws For Stable Looped Language Models",
+          "link": "https://arxiv.org/abs/2604.12946"
+        },
+        "c": "https://github.com/sandyresearch/parcae",
+        "n": "Parcae (350M)",
+        "d": "2026-04-14",
+        "m1": "62.08"
+      },
+      {
+        "p": {
+          "name": "Embeddings Are Overpriced? A Frozen 16 MB Vocabulary for Small and Ternary Language Models",
+          "link": "https://arxiv.org/abs/2610.22428"
+        },
+        "c": "",
+        "n": "B frozen table, float",
+        "d": "2026-10-15",
+        "m1": "61.5"
+      },
+      {
+        "p": {
+          "name": "Circuit Hypernetworks for Quantum-Augmented Diffusion Language Models",
+          "link": "https://arxiv.org/abs/2609.24657"
+        },
+        "c": "",
+        "n": "HyperQ, 64 q",
+        "d": "2026-09-21",
+        "m1": "60.86"
+      },
+      {
+        "p": {
           "name": "LaMini-LM: A Diverse Herd of Distilled Models from Large-Scale Instructions",
           "link": "https://arxiv.org/abs/2304.14402v3"
         },
@@ -682,6 +2062,16 @@
         "n": "T5-Large 738M",
         "d": "2023-04-27",
         "m1": "55.9"
+      },
+      {
+        "p": {
+          "name": "Recover-LoRA: Data-Free Accuracy Recovery of Degraded Language Models via Low-Rank Adaptation",
+          "link": "https://arxiv.org/abs/2510.08600"
+        },
+        "c": "https://github.com/edge0-ai/edge0",
+        "n": "DeepSeek-R1-Distill-Qwen-1.5B + Recover-LoRA",
+        "d": "2025-10-06",
+        "m1": "54.79"
       },
       {
         "p": {

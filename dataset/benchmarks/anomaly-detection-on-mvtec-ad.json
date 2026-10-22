@@ -138,6 +138,29 @@
       },
       {
         "p": {
+          "name": "Dinomaly2: A Unified Framework for Unsupervised Image Anomaly Detection",
+          "link": "https://arxiv.org/abs/2510.17611"
+        },
+        "c": "https://github.com/guojiajeremy/dinomaly2",
+        "n": "Dinomaly2-B",
+        "d": "2025-10-20",
+        "m1": "99.8",
+        "m3": "98.4"
+      },
+      {
+        "p": {
+          "name": "Multi-Prototype Compactness and Boundary-Aware Synthesis for Unsupervised Anomaly Detection",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Liao_Multi-Prototype_Compactness_and_Boundary-Aware_Synthesis_for_Unsupervised_Anomaly_Detection_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "PGBL",
+        "d": "2026-06-03",
+        "m1": "99.8",
+        "m2": "95.0",
+        "m3": "98.1"
+      },
+      {
+        "p": {
           "name": "Dinomaly: The Less Is More Philosophy in Multi-Class Unsupervised Anomaly Detection",
           "link": "https://arxiv.org/abs/2405.14325v4"
         },
@@ -234,6 +257,17 @@
         "d": "2025-05-23",
         "m1": "99.7",
         "m3": "98.4"
+      },
+      {
+        "p": {
+          "name": "A Unified Latent Schrodinger Bridge Diffusion Model for Unsupervised Anomaly Detection and Localization",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Akshay_A_Unified_Latent_Schrodinger_Bridge_Diffusion_Model_for_Unsupervised_Anomaly_CVPR_2025_paper.html"
+        },
+        "c": "https://github.com/akshay-shilhora-as/lasb",
+        "n": "LASB",
+        "d": "2025-06-11",
+        "m1": "99.66",
+        "m3": "99.15"
       },
       {
         "p": {
@@ -559,6 +593,28 @@
         "m1": "99.2",
         "m2": "95.0",
         "m3": "98.2"
+      },
+      {
+        "p": {
+          "name": "Focus the Discrepancy: Intra- and Inter-Correlation Learning for Image Anomaly Detection",
+          "link": "https://arxiv.org/abs/2308.02983"
+        },
+        "c": "https://github.com/xcyao00/fod",
+        "n": "FOD (EfficientNet-B6, class-separated normal-only) (extra data)",
+        "d": "2023-08-06",
+        "m1": "99.2",
+        "m3": "98.3"
+      },
+      {
+        "p": {
+          "name": "Hyperbolic Anomaly Detection",
+          "link": "https://openaccess.thecvf.com/content/CVPR2024/html/Li_Hyperbolic_Anomaly_Detection_CVPR_2024_paper.html"
+        },
+        "c": "",
+        "n": "HypAD",
+        "d": "2024-06-17",
+        "m1": "99.2",
+        "m3": "98.0"
       },
       {
         "p": {
@@ -1730,6 +1786,16 @@
         "n": "CPR(TensorRT)",
         "d": "2023-08-13",
         "m5": "130"
+      },
+      {
+        "p": {
+          "name": "VT-ADL: A Vision Transformer Network for Image Anomaly Detection and Localization",
+          "link": "https://arxiv.org/abs/2104.10036v1"
+        },
+        "c": "https://github.com/pankajmishra000/VT-ADL",
+        "n": "VT-ADL (class-separated, normal-only)",
+        "d": "2021-04-20",
+        "m2": "89.7"
       }
     ]
   }

@@ -1,0 +1,107 @@
+{
+  "title": "zero-shot-anomaly-detection-on-cvc-clinicdb-zero-shot-cross-domain",
+  "task-hierarchy": [
+    "Anomaly Detection",
+    "Zero-Shot Anomaly Detection"
+  ],
+  "dataset-info": {
+    "link": "https://polyp.grand-challenge.org/CVCClinicDB/",
+    "paper": "WM-DOVA maps for accurate polyp highlighting in colonoscopy: Validation vs. saliency maps from physicians"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Segmentation AUROC",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Segmentation AUPRO@30% FPR",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "AA-CLIP: Enhancing Zero-Shot Anomaly Detection via Anomaly-Aware CLIP",
+          "link": "https://arxiv.org/abs/2503.06661"
+        },
+        "c": "https://github.com/mwxinnn/aa-clip",
+        "n": "AA-CLIP",
+        "d": "2025-03-09",
+        "m1": "89.9"
+      },
+      {
+        "p": {
+          "name": "Bayesian Prompt Flow Learning for Zero-Shot Anomaly Detection",
+          "link": "https://arxiv.org/abs/2503.10080"
+        },
+        "c": "https://github.com/xiaozhen228/bayes-pfl",
+        "n": "Bayes-PFL (ViT-L/14@336, 518px, cross-domain zero-shot)",
+        "d": "2025-03-13",
+        "m2": "78.4",
+        "m1": "89.6"
+      },
+      {
+        "p": {
+          "name": "From Attraction to Equilibrium: Physics-Inspired Semantic Gravitons for Zero-Shot Anomaly Detection",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Pan_From_Attraction_to_Equilibrium_Physics-Inspired_Semantic_Gravitons_for_Zero-Shot_Anomaly_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "SGNet",
+        "d": "2026-06-03",
+        "m1": "88.5"
+      },
+      {
+        "p": {
+          "name": "Crane: Context-Guided Prompt Learning and Attention Refinement for Zero-Shot Anomaly Detections",
+          "link": "https://arxiv.org/abs/2504.11055"
+        },
+        "c": "https://github.com/alireza99salehi/crane",
+        "n": "Crane+ (CLIP ViT-L/14@336 + DINOv2-B14, zero-shot)",
+        "d": "2025-04-15",
+        "m1": "88.3",
+        "m2": "74.5"
+      },
+      {
+        "p": {
+          "name": "TIPS Over Tricks: Simple Prompts for Effective Zero-shot Anomaly Detection",
+          "link": "https://arxiv.org/abs/2602.03594"
+        },
+        "c": "https://github.com/alirezasalehy/tipsomaly",
+        "n": "Tipsomaly (TIPS-L/14 HR, Zero-shot)",
+        "d": "2026-02-03",
+        "m1": "87.9",
+        "m2": "77.4"
+      },
+      {
+        "p": {
+          "name": "VisualAD: Language-Free Zero-Shot Anomaly Detection via Vision Transformer",
+          "link": "https://arxiv.org/abs/2603.07952"
+        },
+        "c": "https://github.com/7hhhhh/visualad",
+        "n": "VisualAD DINOv2 (zero-shot)",
+        "d": "2026-03-09",
+        "m1": "85.9"
+      }
+    ]
+  }
+}

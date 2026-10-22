@@ -1,0 +1,97 @@
+{
+  "title": "point-tracking-on-tap-vid-kinetics-strided-256px",
+  "task-hierarchy": [
+    "Object Tracking",
+    "Point Tracking"
+  ],
+  "dataset-info": {
+    "link": "https://tapvid.github.io/",
+    "paper": "TAP-Vid: A Benchmark for Tracking Any Point in a Video"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AJ",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "OA",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "delta_avg",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "BootsTAP: Bootstrapped Training for Tracking-Any-Point",
+          "link": "https://arxiv.org/abs/2402.00847v2"
+        },
+        "c": "https://github.com/google-deepmind/tapnet",
+        "n": "BootsTAPIR+fix+snap+data (extra data)",
+        "d": "2024-02-01",
+        "m1": "0.625",
+        "m2": "0.895",
+        "m3": "0.748"
+      },
+      {
+        "p": {
+          "name": "Local All-Pair Correspondence for Point Tracking",
+          "link": "https://arxiv.org/abs/2407.15420v1"
+        },
+        "c": "https://github.com/cvlab-kaist/locotrack",
+        "n": "LocoTrack-B (extra data)",
+        "d": "2024-07-22",
+        "m1": "0.595",
+        "m2": "0.885",
+        "m3": "0.73"
+      },
+      {
+        "p": {
+          "name": "TAPIR: Tracking Any Point with per-frame Initialization and temporal Refinement",
+          "link": "https://arxiv.org/abs/2306.08637"
+        },
+        "c": "https://github.com/deepmind/tapnet",
+        "n": "TAPIR (Panning MOVi-E) (extra data)",
+        "d": "2023-06-14",
+        "m1": "0.572",
+        "m2": "0.878",
+        "m3": "0.701"
+      },
+      {
+        "p": {
+          "name": "TAP-Vid: A Benchmark for Tracking Any Point in a Video",
+          "link": "https://arxiv.org/abs/2211.03726"
+        },
+        "c": "https://github.com/google-deepmind/tapnet",
+        "n": "TAP-Net",
+        "d": "2022-11-07",
+        "m1": "0.466",
+        "m2": "0.85",
+        "m3": "0.609"
+      }
+    ]
+  }
+}

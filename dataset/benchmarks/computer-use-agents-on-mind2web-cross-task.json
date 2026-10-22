@@ -1,0 +1,119 @@
+{
+  "title": "computer-use-agents-on-mind2web-cross-task",
+  "task-hierarchy": [
+    "Agents",
+    "Computer Use Agents"
+  ],
+  "dataset-info": {
+    "link": "https://osu-nlp-group.github.io/Mind2Web/",
+    "paper": "Mind2Web: Towards a Generalist Agent for the Web"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Element Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Step Success Rate",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "UI-TARS: Pioneering Automated GUI Interaction with Native Agents",
+          "link": "https://arxiv.org/abs/2501.12326"
+        },
+        "c": "https://github.com/bytedance/ui-tars",
+        "n": "UI-TARS-72B-SFT",
+        "d": "2025-01-21",
+        "m1": "74.7",
+        "m2": "68.6"
+      },
+      {
+        "p": {
+          "name": "Aguvis: Unified Pure Vision Agents for Autonomous GUI Interaction",
+          "link": "https://arxiv.org/abs/2412.04454v2"
+        },
+        "c": "https://github.com/xlang-ai/aguvis",
+        "n": "AGUVIS-72B",
+        "d": "2024-12-05",
+        "m1": "69.5",
+        "m2": "64.0"
+      },
+      {
+        "p": {
+          "name": "STEVE: A Step Verification Pipeline for Computer-use Agent Training",
+          "link": "https://arxiv.org/abs/2503.12532"
+        },
+        "c": "https://github.com/fanbinlu/steve",
+        "n": "STEVE UI-Grounding + GPT-4o (extra data)",
+        "d": "2025-03-16",
+        "m1": "46.2",
+        "m2": "40.0"
+      },
+      {
+        "p": {
+          "name": "GUICourse: From General Vision Language Models to Versatile GUI Agents",
+          "link": "https://arxiv.org/abs/2406.11317v2"
+        },
+        "c": "https://github.com/yiye3/guicourse",
+        "n": "MiniCPM-GUI + Larger LM (extra data)",
+        "d": "2024-06-17",
+        "m1": "36.9",
+        "m2": "33.2"
+      },
+      {
+        "p": {
+          "name": "SeeClick: Harnessing GUI Grounding for Advanced Visual GUI Agents",
+          "link": "https://arxiv.org/abs/2401.10935v2"
+        },
+        "c": "https://github.com/njucckevin/seeclick",
+        "n": "SeeClick",
+        "d": "2024-01-17",
+        "m1": "28.3",
+        "m2": "25.5"
+      },
+      {
+        "p": {
+          "name": "CogAgent: A Visual Language Model for GUI Agents",
+          "link": "https://arxiv.org/abs/2312.08914v3"
+        },
+        "c": "https://github.com/thudm/cogvlm",
+        "n": "CogAgent-18B",
+        "d": "2023-12-14",
+        "m2": "62.3"
+      },
+      {
+        "p": {
+          "name": "VisCritic: Visual State Comparison as Process Reward for GUI Agents",
+          "link": "https://arxiv.org/abs/2606.24525"
+        },
+        "c": "",
+        "n": "Qwen2.5-VL Agent + VisCritic",
+        "d": "2026-06-23",
+        "m2": "54.1"
+      }
+    ]
+  }
+}

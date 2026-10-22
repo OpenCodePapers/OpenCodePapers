@@ -1,0 +1,278 @@
+{
+  "title": "visual-question-answering-vqa-on-mmbench-cn",
+  "task-hierarchy": [
+    "Visual Question Answering (VQA)"
+  ],
+  "dataset-info": {
+    "link": "https://arxiv.org/abs/2307.06281",
+    "paper": "MMBench: Is Your Multi-modal Model an All-around Player?"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "STEP3-VL-10B Technical Report",
+          "link": "https://arxiv.org/abs/2601.09668"
+        },
+        "c": "https://github.com/stepfun-ai/Step3-VL-10B",
+        "n": "Step3-VL-10B (PaCoRe)",
+        "d": "2026-01-14",
+        "m1": "91.96"
+      },
+      {
+        "p": {
+          "name": "HopChain: Multi-Hop Data Synthesis for Generalizable Vision-Language Reasoning",
+          "link": "https://arxiv.org/abs/2603.17024"
+        },
+        "c": "",
+        "n": "Qwen3.5-397B-A17B (RLVR w/ Multi-Hop)",
+        "d": "2026-03-17",
+        "m1": "91.72"
+      },
+      {
+        "p": {
+          "name": "ERNIE 4.5 Technical Report",
+          "link": "https://ernie.baidu.com/blog/publication/ERNIE_Technical_Report.pdf"
+        },
+        "c": "https://huggingface.co/baidu/ERNIE-4.5-300B-A47B-PT",
+        "n": "ERNIE-4.5-VL-424B-A47B",
+        "d": "2025-06-30",
+        "m1": "90.9"
+      },
+      {
+        "p": {
+          "name": "Qwen3-VL Technical Report",
+          "link": "https://arxiv.org/abs/2511.21631"
+        },
+        "c": "https://github.com/QwenLM/Qwen3-VL",
+        "n": "Qwen3-VL-235B-A22B-Instruct",
+        "d": "2025-11-26",
+        "m1": "88.9"
+      },
+      {
+        "p": {
+          "name": "InternVL3: Exploring Advanced Training and Test-Time Recipes for Open-Source Multimodal Models",
+          "link": "https://arxiv.org/abs/2504.10479"
+        },
+        "c": "https://github.com/OpenGVLab/InternVL",
+        "n": "InternVL3-78B",
+        "d": "2025-04-14",
+        "m1": "88.7"
+      },
+      {
+        "p": {
+          "name": "GLM-4.1V-Thinking: Towards Versatile Multimodal Reasoning with Scalable Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2507.01006"
+        },
+        "c": "https://github.com/THUDM/GLM-4.1V-Thinking",
+        "n": "GLM-4.6V",
+        "d": "2025-07-01",
+        "m1": "88.2"
+      },
+      {
+        "p": {
+          "name": "Step-GUI Technical Report",
+          "link": "https://arxiv.org/abs/2512.15431"
+        },
+        "c": "https://github.com/stepfun-ai/gelab-zero",
+        "n": "Step-GUI-8B",
+        "d": "2025-12-17",
+        "m1": "88.0"
+      },
+      {
+        "p": {
+          "name": "Qwen2.5-VL Technical Report",
+          "link": "https://arxiv.org/abs/2502.13923v1"
+        },
+        "c": "https://github.com/qwenlm/qwen2-vl",
+        "n": "Qwen2.5-VL-72B",
+        "d": "2025-02-19",
+        "m1": "87.9"
+      },
+      {
+        "p": {
+          "name": "Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution",
+          "link": "https://arxiv.org/abs/2409.12191v2"
+        },
+        "c": "https://github.com/qwenlm/qwen2-vl",
+        "n": "Qwen2-VL-72B",
+        "d": "2024-09-18",
+        "m1": "86.6"
+      },
+      {
+        "p": {
+          "name": "LLaVA-UHD v4: What Makes Efficient Visual Encoding in MLLMs?",
+          "link": "https://arxiv.org/abs/2605.08985"
+        },
+        "c": "https://github.com/THUMAI-Lab/LLaVA-UHD-v4",
+        "n": "LLaVA-UHD v4",
+        "d": "2026-05-09",
+        "m1": "86.5"
+      },
+      {
+        "p": {
+          "name": "Language-guided Frequency Modulation for Large Vision-Language Models",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Ouyang_Language-guided_Frequency_Modulation_for_Large_Vision-Language_Models_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "LFM (w/ Qwen2.5-VL)",
+        "d": "2026-06-03",
+        "m1": "84.7"
+      },
+      {
+        "p": {
+          "name": "Unfold The World: Factorize 4D Properties in Reinforcing Spatial Reasoning",
+          "link": "https://arxiv.org/abs/2609.03729"
+        },
+        "c": "https://github.com/ZimaBlue-WAM/FactoSR",
+        "n": "FactoSR-8B-RL",
+        "d": "2026-09-03",
+        "m1": "84.1"
+      },
+      {
+        "p": {
+          "name": "Unlocking Dense Metric Depth Estimation in VLMs",
+          "link": "https://arxiv.org/abs/2605.15876"
+        },
+        "c": "https://github.com/hanxunyu/DepthVLM",
+        "n": "DepthVLM-8B",
+        "d": "2026-05-15",
+        "m1": "82.3"
+      },
+      {
+        "p": {
+          "name": "LLaDA2.0-Uni: Unifying Multimodal Understanding and Generation with Diffusion Large Language Model",
+          "link": "https://arxiv.org/abs/2604.20796"
+        },
+        "c": "https://github.com/inclusionAI/LLaDA2.0-Uni",
+        "n": "LLaDA2.0-Uni (16B)",
+        "d": "2026-04-22",
+        "m1": "81.2"
+      },
+      {
+        "p": {
+          "name": "A Pocket-Sized MLLM for Ultra-Efficient Image and Video Understanding on Your Phone",
+          "link": "https://huggingface.co/openbmb/MiniCPM-V-4.6"
+        },
+        "c": "",
+        "n": "MiniCPM-V 4.6-Thinking (16x)",
+        "d": "2026-05-13",
+        "m1": "81.0"
+      },
+      {
+        "p": {
+          "name": "Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution",
+          "link": "https://arxiv.org/abs/2409.12191v2"
+        },
+        "c": "https://github.com/qwenlm/qwen2-vl",
+        "n": "Qwen2-VL-7B",
+        "d": "2024-09-18",
+        "m1": "80.5"
+      },
+      {
+        "p": {
+          "name": "LLaVA-NeXT: Improved reasoning, OCR, and world knowledge",
+          "link": "https://llava-vl.github.io/blog/2024-01-30-llava-next/"
+        },
+        "c": "https://github.com/haotian-liu/llava",
+        "n": "LLaVA-NeXT-34B",
+        "d": "2024-01-30",
+        "m1": "79"
+      },
+      {
+        "p": {
+          "name": "LLaDA-UI: Bringing Block-wise Diffusion to Vision-Language GUI Agents",
+          "link": "https://arxiv.org/abs/2609.13287"
+        },
+        "c": "https://github.com/inclusionai/llada-ui",
+        "n": "LLaDA-UI (pre-training)",
+        "d": "2026-09-09",
+        "m1": "77.7"
+      },
+      {
+        "p": {
+          "name": "Ovis: Structural Embedding Alignment for Multimodal Large Language Model",
+          "link": "https://arxiv.org/abs/2405.20797"
+        },
+        "c": "https://github.com/AIDC-AI/Ovis",
+        "n": "Ovis-Qwen1.5-14B",
+        "d": "2024-05-31",
+        "m1": "76.6"
+      },
+      {
+        "p": {
+          "name": "MiniCPM-V: A GPT-4V Level MLLM on Your Phone",
+          "link": "https://arxiv.org/abs/2408.01800v1"
+        },
+        "c": "https://github.com/openbmb/minicpm-v",
+        "n": "MiniCPM-Llama3-V 2.5",
+        "d": "2024-08-03",
+        "m1": "74.2"
+      },
+      {
+        "p": {
+          "name": "Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution",
+          "link": "https://arxiv.org/abs/2409.12191v2"
+        },
+        "c": "https://github.com/qwenlm/qwen2-vl",
+        "n": "Qwen2-VL-2B",
+        "d": "2024-09-18",
+        "m1": "73.5"
+      },
+      {
+        "p": {
+          "name": "DeepSeek-VL: Towards Real-World Vision-Language Understanding",
+          "link": "https://arxiv.org/abs/2403.05525v2"
+        },
+        "c": "https://github.com/deepseek-ai/deepseek-vl",
+        "n": "DeepSeek-VL 7B Chat",
+        "d": "2024-03-08",
+        "m1": "72.8"
+      },
+      {
+        "p": {
+          "name": "Token-level Response-visual Attention Guidance for Multimodal LLMs Knowledge Distillation",
+          "link": "https://arxiv.org/abs/2607.02593"
+        },
+        "c": "https://github.com/jhjangjh/trag",
+        "n": "TRAG (Qwen2.5-1.5B)",
+        "d": "2026-07-01",
+        "m1": "69.3"
+      },
+      {
+        "p": {
+          "name": "Improved Baselines with Visual Instruction Tuning",
+          "link": "https://arxiv.org/abs/2310.03744v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "LLaVA-1.5-7B",
+        "d": "2023-10-05",
+        "m1": "58.3"
+      }
+    ]
+  }
+}

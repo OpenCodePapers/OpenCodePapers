@@ -54,6 +54,16 @@
       },
       {
         "p": {
+          "name": "Perception Encoder: The best visual embeddings are not at the output of the network",
+          "link": "https://arxiv.org/abs/2504.13181v1"
+        },
+        "c": "https://github.com/facebookresearch/perception_models",
+        "n": "PE-Core G",
+        "d": "2025-04-17",
+        "m1": "96.5"
+      },
+      {
+        "p": {
           "name": "PaLI: A Jointly-Scaled Multilingual Language-Image Model",
           "link": "https://arxiv.org/abs/2209.06794v4"
         },
@@ -104,6 +114,16 @@
       },
       {
         "p": {
+          "name": "Demystifying CLIP Data",
+          "link": "https://arxiv.org/abs/2309.16671"
+        },
+        "c": "https://github.com/facebookresearch/MetaCLIP",
+        "n": "MetaCLIP ViT-bigG/14",
+        "d": "2023-09-28",
+        "m1": "94.1"
+      },
+      {
+        "p": {
           "name": "LiT: Zero-Shot Transfer with Locked-image text Tuning",
           "link": "https://arxiv.org/abs/2111.07991v3"
         },
@@ -114,6 +134,16 @@
       },
       {
         "p": {
+          "name": "Conformal Prediction for Zero-Shot Models",
+          "link": "https://arxiv.org/abs/2505.24693"
+        },
+        "c": "https://github.com/jusiro/clip-conformal",
+        "n": "Conf-OT (MetaCLIP ViT-H/14)",
+        "d": "2025-05-30",
+        "m1": "93.4"
+      },
+      {
+        "p": {
           "name": "Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision",
           "link": "https://arxiv.org/abs/2102.05918v2"
         },
@@ -121,6 +151,16 @@
         "n": "ALIGN",
         "d": "2021-02-11",
         "m1": "92.2"
+      },
+      {
+        "p": {
+          "name": "MobileCLIP: Fast Image-Text Models through Multi-Modal Reinforced Training",
+          "link": "https://arxiv.org/abs/2311.17049"
+        },
+        "c": "https://github.com/rwightman/pytorch-image-models",
+        "n": "MobileCLIP-B",
+        "d": "2023-11-28",
+        "m1": "89.6"
       },
       {
         "p": {
@@ -144,6 +184,16 @@
       },
       {
         "p": {
+          "name": "Multi-label Cluster Discrimination for Visual Representation Learning",
+          "link": "https://arxiv.org/abs/2407.17331v2"
+        },
+        "c": "https://github.com/deepglint/unicom",
+        "n": "MLCD ViT-L/14",
+        "d": "2024-07-24",
+        "m1": "85.1"
+      },
+      {
+        "p": {
           "name": "PaLI: A Jointly-Scaled Multilingual Language-Image Model",
           "link": "https://arxiv.org/abs/2209.06794v4"
         },
@@ -151,6 +201,16 @@
         "n": "PaLI",
         "d": "2022-09-14",
         "m1": "81.97"
+      },
+      {
+        "p": {
+          "name": "LAION-BVD: A 10-Million-Hour Open Video Dataset for Multimodal Pre-training",
+          "link": "https://arxiv.org/abs/2608.24845"
+        },
+        "c": "",
+        "n": "CLIP ViT-B/16 (LAION-BVD, zero-shot)",
+        "d": "2026-08-25",
+        "m1": "40"
       }
     ]
   }

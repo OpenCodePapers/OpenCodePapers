@@ -1,0 +1,199 @@
+{
+  "title": "text-to-image-generation-on-longtext-bench-zh",
+  "task-hierarchy": [
+    "Image Generation",
+    "Text-to-Image Generation"
+  ],
+  "dataset-info": {
+    "link": "https://arxiv.org/abs/2507.22058",
+    "paper": "X-Omni: Reinforcement Learning Makes Discrete Autoregressive Image Generative Models Great Again"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "SenseNova-U1.5: Towards Native Unified Visual Intelligence",
+          "link": "https://arxiv.org/abs/2609.11929"
+        },
+        "c": "https://github.com/OpenSenseNova/SenseNova-U1",
+        "n": "SenseNova-U1.5-8B-MoT",
+        "d": "2026-09-10",
+        "m1": "98.9"
+      },
+      {
+        "p": {
+          "name": "GenClaw: Code-Driven Agentic Image Generation",
+          "link": "https://arxiv.org/abs/2605.30248"
+        },
+        "c": "https://github.com/yejy53/GenClaw",
+        "n": "GenClaw",
+        "d": "2026-05-28",
+        "m1": "98.8"
+      },
+      {
+        "p": {
+          "name": "Boogu-Image-0.1: Boosting Open-Source Unified Multimodal Understanding and Generation",
+          "link": "https://arxiv.org/abs/2607.13125"
+        },
+        "c": "https://github.com/boogu-project/Boogu-Image",
+        "n": "Boogu-Image-0.1-Turbo-Thinking",
+        "d": "2026-07-14",
+        "m1": "98.5"
+      },
+      {
+        "p": {
+          "name": "HiDream-O1-Image: A Natively Unified Image Generative Foundation Model with Pixel-level Unified Transformer",
+          "link": "https://arxiv.org/abs/2605.11061"
+        },
+        "c": "https://github.com/hidream-ai/hidream-o1-image",
+        "n": "HiDream-O1-Image-Pro",
+        "d": "2026-05-11",
+        "m1": "98.0"
+      },
+      {
+        "p": {
+          "name": "HiDream-O1-Image: A Natively Unified Image Generative Foundation Model with Pixel-level Unified Transformer",
+          "link": "https://arxiv.org/abs/2605.11061"
+        },
+        "c": "https://github.com/hidream-ai/hidream-o1-image",
+        "n": "HiDream-O1-Image",
+        "d": "2026-05-11",
+        "m1": "97.8"
+      },
+      {
+        "p": {
+          "name": "Decompose Radicals, Then Reward: Fine-Grained Inspection for Accurate Chinese Text Rendering",
+          "link": "https://arxiv.org/abs/2609.37569"
+        },
+        "c": "",
+        "n": "Qwen-Image (IDSpect) (extra data)",
+        "d": "2026-09-29",
+        "m1": "97.2"
+      },
+      {
+        "p": {
+          "name": "Awaking Spatial Intelligence in Unified Multimodal Understanding and Generation",
+          "link": "https://arxiv.org/abs/2605.04128"
+        },
+        "c": "https://github.com/jd-opensource/JoyAI-Image",
+        "n": "JoyAI-Image",
+        "d": "2026-05-05",
+        "m1": "96.3"
+      },
+      {
+        "p": {
+          "name": "SenseNova-U1: Unifying Multimodal Understanding and Generation with NEO-unify Architecture",
+          "link": "https://arxiv.org/abs/2605.12500"
+        },
+        "c": "https://github.com/OpenSenseNova/SenseNova-U1",
+        "n": "SenseNova-U1-8B-MoT",
+        "d": "2026-05-12",
+        "m1": "96.2"
+      },
+      {
+        "p": {
+          "name": "SenseNova-U1: Unifying Multimodal Understanding and Generation with NEO-unify Architecture",
+          "link": "https://arxiv.org/abs/2605.12500"
+        },
+        "c": "https://github.com/OpenSenseNova/SenseNova-U1",
+        "n": "SenseNova-U1 (8BA3B)",
+        "d": "2026-05-12",
+        "m1": "95.5"
+      },
+      {
+        "p": {
+          "name": "Qwen-Image Technical Report",
+          "link": "https://arxiv.org/abs/2508.02324"
+        },
+        "c": "https://huggingface.co/Qwen/Qwen-Image",
+        "n": "Qwen-Image",
+        "d": "2025-08-04",
+        "m1": "94.6"
+      },
+      {
+        "p": {
+          "name": "Pluggable Pruning with Contiguous Layer Distillation for Diffusion Transformers",
+          "link": "https://arxiv.org/abs/2511.16156"
+        },
+        "c": "https://github.com/oppo-mente-lab/qwen-image-pruning",
+        "n": "PPCL (Qwen-Image, 14B)",
+        "d": "2025-11-20",
+        "m1": "94.6"
+      },
+      {
+        "p": {
+          "name": "Z-Image: An Efficient Image Generation Foundation Model with Single-Stream Diffusion Transformer",
+          "link": "https://arxiv.org/abs/2511.22699"
+        },
+        "c": "https://github.com/Tongyi-MAI/Z-Image",
+        "n": "Z-Image",
+        "d": "2025-11-27",
+        "m1": "93.6"
+      },
+      {
+        "p": {
+          "name": "LLaDA-Image: Building Strong Image Generators with Fully Open Training Recipes",
+          "link": "https://arxiv.org/abs/2609.03796"
+        },
+        "c": "https://github.com/inclusionai/llada-image",
+        "n": "LLaDA-Image",
+        "d": "2026-09-03",
+        "m1": "91.3"
+      },
+      {
+        "p": {
+          "name": "LongCat-Next: Lexicalizing Modalities as Discrete Tokens",
+          "link": "https://arxiv.org/abs/2603.27538"
+        },
+        "c": "https://github.com/meituan-longcat/LongCat-Next",
+        "n": "LongCat-Next (A3B, 68.5B)",
+        "d": "2026-03-29",
+        "m1": "89.08"
+      },
+      {
+        "p": {
+          "name": "InternVL-U: Democratizing Unified Multimodal Models for Understanding, Reasoning, Generation and Editing",
+          "link": "https://arxiv.org/abs/2603.09877"
+        },
+        "c": "https://github.com/OpenGVLab/InternVL-U",
+        "n": "InternVL-U (4B)",
+        "d": "2026-03-10",
+        "m1": "86.0"
+      },
+      {
+        "p": {
+          "name": "Mage-Flow: An Efficient Native-Resolution Foundation Model for Image Generation and Editing",
+          "link": "https://arxiv.org/abs/2607.19064"
+        },
+        "c": "https://github.com/microsoft/Mage",
+        "n": "Mage-Flow",
+        "d": "2026-07-21",
+        "m1": "82.3"
+      }
+    ]
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "title": "semi-supervised-video-object-segmentation-on-sa-v-val",
+  "task-hierarchy": [
+    "Video Segmentation",
+    "Semi-Supervised Video Object Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://arxiv.org/abs/2408.00714",
+    "paper": "SAM 2: Segment Anything in Images and Videos"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "J&F",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "SAM 3: Segment Anything with Concepts",
+          "link": "https://arxiv.org/abs/2511.16719"
+        },
+        "c": "https://github.com/facebookresearch/sam3",
+        "n": "SAM 3 (zero-shot) (extra data)",
+        "d": "2025-11-20",
+        "m1": "83.5"
+      },
+      {
+        "p": {
+          "name": "SAM2Long: Enhancing SAM 2 for Long Video Segmentation with a Training-Free Memory Tree",
+          "link": "https://arxiv.org/abs/2410.16268v2"
+        },
+        "c": "https://github.com/mark12ding/sam2long",
+        "n": "SAM2.1Long-L (extra data)",
+        "d": "2024-10-21",
+        "m1": "81.1"
+      },
+      {
+        "p": {
+          "name": "SAM 2: Segment Anything in Images and Videos",
+          "link": "https://arxiv.org/abs/2408.00714v2"
+        },
+        "c": "https://github.com/facebookresearch/segment-anything",
+        "n": "SAM 2 (Hiera-L) (extra data)",
+        "d": "2024-08-01",
+        "m1": "77.9"
+      },
+      {
+        "p": {
+          "name": "Efficient Video Object Segmentation and Tracking with Recurrent Dynamic Submodel",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Tang_Efficient_Video_Object_Segmentation_and_Tracking_with_Recurrent_Dynamic_Submodel_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "SAM2 + RDS 0.9",
+        "d": "2026-06-03",
+        "m1": "77.6"
+      },
+      {
+        "p": {
+          "name": "EdgeTAM: On-Device Track Anything Model",
+          "link": "https://arxiv.org/abs/2501.07256"
+        },
+        "c": "https://github.com/facebookresearch/edgetam",
+        "n": "EdgeTAM (extra data)",
+        "d": "2025-01-13",
+        "m1": "72.3"
+      },
+      {
+        "p": {
+          "name": "MobileSAM2: Lightweight Segment Anything in Images and Videos via Hypergraphical Knowledge Distillation",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/5947"
+        },
+        "c": "",
+        "n": "MobileSAM2-23M",
+        "d": "2026-09-08",
+        "m1": "66.4"
+      }
+    ]
+  }
+}

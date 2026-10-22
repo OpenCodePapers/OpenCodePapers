@@ -1,0 +1,149 @@
+{
+  "title": "computer-use-agents-on-osworld-15-steps",
+  "task-hierarchy": [
+    "Agents",
+    "Computer Use Agents"
+  ],
+  "dataset-info": {
+    "link": "https://os-world.github.io/",
+    "paper": "OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Success Rate",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "When Actions Go Off-Task: Detecting and Correcting Misaligned Actions in Computer-Use Agents",
+          "link": "https://arxiv.org/abs/2602.08995"
+        },
+        "c": "https://github.com/OSU-NLP-Group/Misaligned-Action-Detection",
+        "n": "Claude Sonnet 4.5 + DeAction",
+        "d": "2026-02-09",
+        "m1": "40.7"
+      },
+      {
+        "p": {
+          "name": "ARPO:End-to-End Policy Optimization for GUI Agents with Experience Replay",
+          "link": "https://arxiv.org/abs/2505.16282"
+        },
+        "c": "https://github.com/dvlab-research/arpo",
+        "n": "UI-TARS-1.5-7B + ARPO (extra data)",
+        "d": "2025-05-22",
+        "m1": "29.9"
+      },
+      {
+        "p": {
+          "name": "Agent S2: A Compositional Generalist-Specialist Framework for Computer Use Agents",
+          "link": "https://arxiv.org/abs/2504.00906"
+        },
+        "c": "https://github.com/simular-ai/agent-s",
+        "n": "Agent S2 w/ Claude-3.7-Sonnet",
+        "d": "2025-04-01",
+        "m1": "27.0"
+      },
+      {
+        "p": {
+          "name": "UI-TARS: Pioneering Automated GUI Interaction with Native Agents",
+          "link": "https://arxiv.org/abs/2501.12326"
+        },
+        "c": "https://github.com/bytedance/ui-tars",
+        "n": "UI-TARS-72B-DPO",
+        "d": "2025-01-21",
+        "m1": "22.7"
+      },
+      {
+        "p": {
+          "name": "Agent S: An Open Agentic Framework that Uses Computers Like a Human",
+          "link": "https://arxiv.org/abs/2410.08164"
+        },
+        "c": "https://github.com/simular-ai/agent-s",
+        "n": "Agent S w/ GPT-4o",
+        "d": "2024-10-10",
+        "m1": "20.58"
+      },
+      {
+        "p": {
+          "name": "ZeroGUI: Automating Online GUI Learning at Zero Human Cost",
+          "link": "https://arxiv.org/abs/2505.23762"
+        },
+        "c": "https://github.com/opengvlab/zerogui",
+        "n": "ZeroGUI-OSWorld-7B",
+        "d": "2025-05-29",
+        "m1": "20.2"
+      },
+      {
+        "p": {
+          "name": "UI-TARS: Pioneering Automated GUI Interaction with Native Agents",
+          "link": "https://arxiv.org/abs/2501.12326"
+        },
+        "c": "https://github.com/bytedance/ui-tars",
+        "n": "UI-TARS-7B-DPO",
+        "d": "2025-01-21",
+        "m1": "18.7"
+      },
+      {
+        "p": {
+          "name": "Aguvis: Unified Pure Vision Agents for Autonomous GUI Interaction",
+          "link": "https://arxiv.org/abs/2412.04454v2"
+        },
+        "c": "https://github.com/xlang-ai/aguvis",
+        "n": "GPT-4o + AGUVIS-72B",
+        "d": "2024-12-05",
+        "m1": "17.04"
+      },
+      {
+        "p": {
+          "name": "ScaleCUA: Scaling Open-Source Computer Use Agents with Cross-Platform Data",
+          "link": "https://arxiv.org/abs/2509.15221"
+        },
+        "c": "https://github.com/OpenGVLab/ScaleCUA",
+        "n": "ScaleCUA-32B",
+        "d": "2025-09-18",
+        "m1": "16.5"
+      },
+      {
+        "p": {
+          "name": "Aria-UI: Visual Grounding for GUI Instructions",
+          "link": "https://arxiv.org/abs/2412.16256v1"
+        },
+        "c": "https://github.com/ariaui/aria-ui",
+        "n": "GPT-4o + Aria-UI TH",
+        "d": "2024-12-20",
+        "m1": "15.15"
+      },
+      {
+        "p": {
+          "name": "Cradle: Empowering Foundation Agents Towards General Computer Control",
+          "link": "https://arxiv.org/abs/2403.03186"
+        },
+        "c": "https://github.com/baai-agents/cradle",
+        "n": "Cradle (GPT-4o)",
+        "d": "2024-03-05",
+        "m1": "7.81"
+      }
+    ]
+  }
+}

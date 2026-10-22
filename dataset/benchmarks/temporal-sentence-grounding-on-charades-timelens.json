@@ -1,0 +1,395 @@
+{
+  "title": "temporal-sentence-grounding-on-charades-timelens",
+  "task-hierarchy": [
+    "Visual Grounding",
+    "Video Grounding",
+    "Temporal Sentence Grounding"
+  ],
+  "dataset-info": {
+    "link": "https://timelens-arc-lab.github.io/",
+    "paper": "TimeLens: Rethinking Video Temporal Grounding with Multimodal LLMs"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mIoU",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "R1@0.5",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "R1@0.7",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "R1@0.3",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "VideoJev: System One Model for Video Understanding and Interaction",
+          "link": "https://arxiv.org/abs/2610.18615"
+        },
+        "c": "https://github.com/MCG-NJU/VideoJev",
+        "n": "VideoJev-35B-A3B",
+        "d": "2026-10-13",
+        "m1": "63.7",
+        "m4": "86.1",
+        "m2": "74.8",
+        "m3": "44.5"
+      },
+      {
+        "p": {
+          "name": "Annotations as Rollouts: Efficient and Scalable Reinforcement Learning for Video MLLMs",
+          "link": "https://arxiv.org/abs/2608.20492"
+        },
+        "c": "https://github.com/HVision-NKU/OraRL",
+        "n": "Video-ORA-9B",
+        "d": "2026-08-20",
+        "m1": "61.8",
+        "m4": "84.5",
+        "m2": "71.6",
+        "m3": "42.4"
+      },
+      {
+        "p": {
+          "name": "VideoJev: System One Model for Video Understanding and Interaction",
+          "link": "https://arxiv.org/abs/2610.18615"
+        },
+        "c": "https://github.com/MCG-NJU/VideoJev",
+        "n": "VideoJev-4B",
+        "d": "2026-10-13",
+        "m1": "60.1",
+        "m4": "82.8",
+        "m2": "69.4",
+        "m3": "40.3"
+      },
+      {
+        "p": {
+          "name": "TimeLens2: Generalist Video Temporal Grounding with Multimodal LLMs",
+          "link": "https://arxiv.org/abs/2607.17423"
+        },
+        "c": "https://github.com/MCG-NJU/TimeLens2",
+        "n": "TimeLens2-8B (extra data)",
+        "d": "2026-07-19",
+        "m1": "58.6",
+        "m4": "80.9",
+        "m2": "68.0",
+        "m3": "38.9"
+      },
+      {
+        "p": {
+          "name": "Kwai Keye-VL-2.0 Technical Report",
+          "link": "https://arxiv.org/abs/2606.10651"
+        },
+        "c": "https://github.com/kwai-keye/keye",
+        "n": "Kwai Keye-VL-2.0-30B-A3B",
+        "d": "2026-06-09",
+        "m1": "58.4"
+      },
+      {
+        "p": {
+          "name": "TimeLens: Rethinking Video Temporal Grounding with Multimodal LLMs",
+          "link": "https://arxiv.org/abs/2512.14698"
+        },
+        "c": "https://github.com/tencentarc/timelens",
+        "n": "TimeLens-8B (extra data)",
+        "d": "2025-12-16",
+        "m1": "55.2",
+        "m4": "76.6",
+        "m2": "63.0",
+        "m3": "35.2"
+      },
+      {
+        "p": {
+          "name": "Foresee-to-Ground: From Predictive Temporal Perception to Evidence-Driven Reasoning for Video Temporal Grounding",
+          "link": "https://arxiv.org/abs/2605.21973"
+        },
+        "c": "https://github.com/zelion2003/foresee-to-ground",
+        "n": "F2G (Qwen3-VL-8B, TimeLens-100K) (extra data)",
+        "d": "2026-05-21",
+        "m1": "54.9",
+        "m4": "74.2",
+        "m2": "63.1",
+        "m3": "36.3"
+      },
+      {
+        "p": {
+          "name": "TimeLens: Rethinking Video Temporal Grounding with Multimodal LLMs",
+          "link": "https://arxiv.org/abs/2512.14698"
+        },
+        "c": "https://github.com/tencentarc/timelens",
+        "n": "Gemini-2.5-Pro",
+        "d": "2025-12-16",
+        "m1": "52.8",
+        "m4": "74.1",
+        "m2": "61.1",
+        "m3": "34.0"
+      },
+      {
+        "p": {
+          "name": "Open-o3-Video-v2: Seek, Ground, and Reason with Verifiable Spatio-Temporal Evidence",
+          "link": "https://arxiv.org/abs/2610.17656"
+        },
+        "c": "https://github.com/Multimedia-Semantic-Analytics-Lab/Open-o3-Video-v2",
+        "n": "Open-o3-Video-v2-8B",
+        "d": "2026-10-13",
+        "m1": "51.1"
+      },
+      {
+        "p": {
+          "name": "TimeLens: Rethinking Video Temporal Grounding with Multimodal LLMs",
+          "link": "https://arxiv.org/abs/2512.14698"
+        },
+        "c": "https://github.com/tencentarc/timelens",
+        "n": "TimeLens-7B (extra data)",
+        "d": "2025-12-16",
+        "m1": "48.8",
+        "m4": "70.5",
+        "m2": "55.6",
+        "m3": "28.4"
+      },
+      {
+        "p": {
+          "name": "TimeLens: Rethinking Video Temporal Grounding with Multimodal LLMs",
+          "link": "https://arxiv.org/abs/2512.14698"
+        },
+        "c": "https://github.com/tencentarc/timelens",
+        "n": "Gemini-2.5-Flash",
+        "d": "2025-12-16",
+        "m1": "48.6",
+        "m4": "68.7",
+        "m2": "56.1",
+        "m3": "30.6"
+      },
+      {
+        "p": {
+          "name": "TimeLens: Rethinking Video Temporal Grounding with Multimodal LLMs",
+          "link": "https://arxiv.org/abs/2512.14698"
+        },
+        "c": "https://github.com/tencentarc/timelens",
+        "n": "Qwen3-VL-8B",
+        "d": "2025-12-16",
+        "m1": "48.3",
+        "m4": "69.2",
+        "m2": "53.4",
+        "m3": "27.5"
+      },
+      {
+        "p": {
+          "name": "TimeLens: Rethinking Video Temporal Grounding with Multimodal LLMs",
+          "link": "https://arxiv.org/abs/2512.14698"
+        },
+        "c": "https://github.com/tencentarc/timelens",
+        "n": "Qwen3-VL-235B-A22B",
+        "d": "2025-12-16",
+        "m1": "47.8",
+        "m4": "71.7",
+        "m2": "50.8",
+        "m3": "24.5"
+      },
+      {
+        "p": {
+          "name": "TimeLens: Rethinking Video Temporal Grounding with Multimodal LLMs",
+          "link": "https://arxiv.org/abs/2512.14698"
+        },
+        "c": "https://github.com/tencentarc/timelens",
+        "n": "Gemini-2.0-Flash",
+        "d": "2025-12-16",
+        "m1": "46.7",
+        "m4": "66.4",
+        "m2": "53.5",
+        "m3": "27.1"
+      },
+      {
+        "p": {
+          "name": "TimeLens: Rethinking Video Temporal Grounding with Multimodal LLMs",
+          "link": "https://arxiv.org/abs/2512.14698"
+        },
+        "c": "https://github.com/tencentarc/timelens",
+        "n": "GPT-4o",
+        "d": "2025-12-16",
+        "m1": "41.8",
+        "m4": "60.6",
+        "m2": "44.5",
+        "m3": "23.5"
+      },
+      {
+        "p": {
+          "name": "TimeLens: Rethinking Video Temporal Grounding with Multimodal LLMs",
+          "link": "https://arxiv.org/abs/2512.14698"
+        },
+        "c": "https://github.com/tencentarc/timelens",
+        "n": "GPT-5",
+        "d": "2025-12-16",
+        "m1": "40.5",
+        "m4": "59.3",
+        "m2": "42.0",
+        "m3": "22.0"
+      },
+      {
+        "p": {
+          "name": "TimeLens: Rethinking Video Temporal Grounding with Multimodal LLMs",
+          "link": "https://arxiv.org/abs/2512.14698"
+        },
+        "c": "https://github.com/tencentarc/timelens",
+        "n": "VideoChat-Flash-7B",
+        "d": "2025-12-16",
+        "m1": "39.7",
+        "m4": "60.2",
+        "m2": "37.9",
+        "m3": "17.8"
+      },
+      {
+        "p": {
+          "name": "TimeLens: Rethinking Video Temporal Grounding with Multimodal LLMs",
+          "link": "https://arxiv.org/abs/2512.14698"
+        },
+        "c": "https://github.com/tencentarc/timelens",
+        "n": "MiMo-VL-7B-RL",
+        "d": "2025-12-16",
+        "m1": "39.6",
+        "m4": "57.9",
+        "m2": "42.6",
+        "m3": "20.5"
+      },
+      {
+        "p": {
+          "name": "TimeLens: Rethinking Video Temporal Grounding with Multimodal LLMs",
+          "link": "https://arxiv.org/abs/2512.14698"
+        },
+        "c": "https://github.com/tencentarc/timelens",
+        "n": "Qwen2.5-VL-7B",
+        "d": "2025-12-16",
+        "m1": "39.3",
+        "m4": "59.7",
+        "m2": "37.8",
+        "m3": "16.6"
+      },
+      {
+        "p": {
+          "name": "TimeLens: Rethinking Video Temporal Grounding with Multimodal LLMs",
+          "link": "https://arxiv.org/abs/2512.14698"
+        },
+        "c": "https://github.com/tencentarc/timelens",
+        "n": "TimeSuite",
+        "d": "2025-12-16",
+        "m1": "38.1",
+        "m4": "56.3",
+        "m2": "35.5",
+        "m3": "18.0"
+      },
+      {
+        "p": {
+          "name": "TimeLens: Rethinking Video Temporal Grounding with Multimodal LLMs",
+          "link": "https://arxiv.org/abs/2512.14698"
+        },
+        "c": "https://github.com/tencentarc/timelens",
+        "n": "Time-R1-7B",
+        "d": "2025-12-16",
+        "m1": "36.6",
+        "m4": "57.9",
+        "m2": "32.0",
+        "m3": "16.9"
+      },
+      {
+        "p": {
+          "name": "TimeLens: Rethinking Video Temporal Grounding with Multimodal LLMs",
+          "link": "https://arxiv.org/abs/2512.14698"
+        },
+        "c": "https://github.com/tencentarc/timelens",
+        "n": "VideoChat-R1-7B",
+        "d": "2025-12-16",
+        "m1": "33.7",
+        "m4": "51.9",
+        "m2": "30.8",
+        "m3": "11.7"
+      },
+      {
+        "p": {
+          "name": "TimeLens: Rethinking Video Temporal Grounding with Multimodal LLMs",
+          "link": "https://arxiv.org/abs/2512.14698"
+        },
+        "c": "https://github.com/tencentarc/timelens",
+        "n": "Grounded-VideoLLM",
+        "d": "2025-12-16",
+        "m1": "30.0",
+        "m4": "43.3",
+        "m2": "28.7",
+        "m3": "13.5"
+      },
+      {
+        "p": {
+          "name": "TimeLens: Rethinking Video Temporal Grounding with Multimodal LLMs",
+          "link": "https://arxiv.org/abs/2512.14698"
+        },
+        "c": "https://github.com/tencentarc/timelens",
+        "n": "TRACE-uni",
+        "d": "2025-12-16",
+        "m1": "28.1",
+        "m4": "38.2",
+        "m2": "22.9",
+        "m3": "10.4"
+      },
+      {
+        "p": {
+          "name": "TimeLens: Rethinking Video Temporal Grounding with Multimodal LLMs",
+          "link": "https://arxiv.org/abs/2512.14698"
+        },
+        "c": "https://github.com/tencentarc/timelens",
+        "n": "TRACE",
+        "d": "2025-12-16",
+        "m1": "27.1",
+        "m4": "37.2",
+        "m2": "21.8",
+        "m3": "9.6"
+      },
+      {
+        "p": {
+          "name": "TimeLens: Rethinking Video Temporal Grounding with Multimodal LLMs",
+          "link": "https://arxiv.org/abs/2512.14698"
+        },
+        "c": "https://github.com/tencentarc/timelens",
+        "n": "TimeLens",
+        "d": "2025-12-16",
+        "m2": "63.0"
+      },
+      {
+        "p": {
+          "name": "Structured Causal Video Reasoning via Multi-Objective Alignment",
+          "link": "https://arxiv.org/abs/2604.04415"
+        },
+        "c": "",
+        "n": "Factum-4B",
+        "d": "2026-04-06",
+        "m2": "40.4",
+        "m3": "21.6"
+      }
+    ]
+  }
+}

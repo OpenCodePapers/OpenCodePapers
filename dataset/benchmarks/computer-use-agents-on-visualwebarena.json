@@ -1,0 +1,79 @@
+{
+  "title": "computer-use-agents-on-visualwebarena",
+  "task-hierarchy": [
+    "Agents",
+    "Computer Use Agents"
+  ],
+  "dataset-info": {
+    "link": "https://jykoh.com/vwa",
+    "paper": "VisualWebArena: Evaluating Multimodal Agents on Realistic Visual Web Tasks"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Success Rate",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "PANDO: Efficient Multimodal AI Agents via Online Skill Distillation",
+          "link": "https://arxiv.org/abs/2605.24785"
+        },
+        "c": "",
+        "n": "PANDO (Opus 4.6 + GPT-5.2)",
+        "d": "2026-05-26",
+        "m1": "58.3"
+      },
+      {
+        "p": {
+          "name": "CLIFT: Conformal Self-Verification for Web Agent Training and Test-Time Scaling",
+          "link": "https://arxiv.org/abs/2610.06829"
+        },
+        "c": "",
+        "n": "GPT-5.5 + CLIFT+CTS",
+        "d": "2026-10-05",
+        "m1": "53.7"
+      },
+      {
+        "p": {
+          "name": "WebChallenger: A Reliable and Efficient Generalist Web Agent",
+          "link": "https://arxiv.org/abs/2606.10423"
+        },
+        "c": "https://github.com/jayoohwang1/webchallenger",
+        "n": "WebChallenger (GLM-4-32B)",
+        "d": "2026-06-09",
+        "m1": "48.7"
+      },
+      {
+        "p": {
+          "name": "Structured Distillation of Web Agent Capabilities Enables Generalization",
+          "link": "https://arxiv.org/abs/2604.07776"
+        },
+        "c": "https://github.com/McGill-NLP/agent-as-annotators",
+        "n": "A3-Qwen3.5-9B",
+        "d": "2026-04-09",
+        "m1": "33.9"
+      }
+    ]
+  }
+}

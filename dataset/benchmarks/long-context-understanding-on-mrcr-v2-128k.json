@@ -1,0 +1,119 @@
+{
+  "title": "long-context-understanding-on-mrcr-v2-128k",
+  "task-hierarchy": [
+    "Natural Language Understanding",
+    "Long-Context Understanding"
+  ],
+  "dataset-info": {
+    "link": "https://arxiv.org/abs/2507.06261",
+    "paper": "Gemini 2.5: Pushing the Frontier with Advanced Reasoning, Multimodality, Long Context, and Next Generation Agentic Capabilities"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Introducing Gemini 3.7 Flash",
+          "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/"
+        },
+        "c": "https://github.com/google-antigravity/antigravity-cli",
+        "n": "Gemini 3.7 Flash",
+        "d": "2026-08-13",
+        "m1": "97.0"
+      },
+      {
+        "p": {
+          "name": "Gemini 3.1 Pro: A smarter model for your most complex tasks",
+          "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/"
+        },
+        "c": "",
+        "n": "Gemini 3.1 Pro",
+        "d": "2026-02-19",
+        "m1": "84.9"
+      },
+      {
+        "p": {
+          "name": "Gemma 4 Technical Report",
+          "link": "https://arxiv.org/abs/2607.02770"
+        },
+        "c": "https://github.com/google-deepmind/gemma",
+        "n": "Gemma 4 31B",
+        "d": "2026-07-02",
+        "m1": "66.4"
+      },
+      {
+        "p": {
+          "name": "Gemini 2.5: Pushing the Frontier with Advanced Reasoning, Multimodality, Long Context, and Next Generation Agentic Capabilities",
+          "link": "https://arxiv.org/abs/2507.06261"
+        },
+        "c": "",
+        "n": "Gemini 2.5 Pro",
+        "d": "2025-07-07",
+        "m1": "58.0"
+      },
+      {
+        "p": {
+          "name": "Kimi K2: Open Agentic Intelligence",
+          "link": "https://arxiv.org/abs/2507.20534"
+        },
+        "c": "https://github.com/MoonshotAI/Kimi-K2",
+        "n": "Kimi K2",
+        "d": "2025-07-28",
+        "m1": "55.0"
+      },
+      {
+        "p": {
+          "name": "Gemini 2.5: Pushing the Frontier with Advanced Reasoning, Multimodality, Long Context, and Next Generation Agentic Capabilities",
+          "link": "https://arxiv.org/abs/2507.06261"
+        },
+        "c": "",
+        "n": "Gemini 2.5 Flash",
+        "d": "2025-07-07",
+        "m1": "54.3"
+      },
+      {
+        "p": {
+          "name": "Gemma 4 Technical Report",
+          "link": "https://arxiv.org/abs/2607.02770"
+        },
+        "c": "https://github.com/google-deepmind/gemma",
+        "n": "Gemma 4 12B Unified",
+        "d": "2026-07-02",
+        "m1": "43.4"
+      },
+      {
+        "p": {
+          "name": "DiffusionGemma Technical Report",
+          "link": "https://arxiv.org/abs/2608.00146"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "DiffusionGemma 26B A4B",
+        "d": "2026-07-31",
+        "m1": "32.0"
+      }
+    ]
+  }
+}

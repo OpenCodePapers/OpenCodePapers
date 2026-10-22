@@ -52,6 +52,17 @@
       },
       {
         "p": {
+          "name": "DRCT: Saving Image Super-resolution away from Information Bottleneck",
+          "link": "https://arxiv.org/abs/2404.00722v5"
+        },
+        "c": "https://github.com/ming053l/drct",
+        "n": "DRCT-L",
+        "d": "2024-03-31",
+        "m1": "31.54",
+        "m2": "0.8591"
+      },
+      {
+        "p": {
           "name": "Activating More Pixels in Image Super-Resolution Transformer",
           "link": "https://arxiv.org/abs/2205.04437v3"
         },
@@ -95,6 +106,17 @@
       },
       {
         "p": {
+          "name": "CFAT: Unleashing Triangular Windows for Image Super-resolution",
+          "link": "http://openaccess.thecvf.com//content/CVPR2024/html/Ray_CFAT_Unleashing_Triangular_Windows_for_Image_Super-resolution_CVPR_2024_paper.html"
+        },
+        "c": "https://github.com/rayabhisek123/cfat",
+        "n": "CFAT",
+        "d": "2024-01-01",
+        "m1": "31.32",
+        "m2": "0.8569"
+      },
+      {
+        "p": {
           "name": "SwinFIR: Revisiting the SwinIR with Fast Fourier Convolution and Improved Training for Image Super-Resolution",
           "link": "https://arxiv.org/abs/2208.11247v3"
         },
@@ -117,6 +139,27 @@
       },
       {
         "p": {
+          "name": "Dual Aggregation Transformer for Image Super-Resolution",
+          "link": "https://arxiv.org/abs/2308.03364v2"
+        },
+        "c": "https://github.com/zhengchen1999/dat",
+        "n": "DAT+",
+        "d": "2023-08-07",
+        "m1": "31.17",
+        "m2": "0.8558"
+      },
+      {
+        "p": {
+          "name": "WARP: Wide Attention with Rich Projections for Image Super-Resolution",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/4822"
+        },
+        "c": "",
+        "n": "WARP",
+        "d": "2026-09-08",
+        "m1": "31.16"
+      },
+      {
+        "p": {
           "name": "Channel-Partitioned Windowed Attention And Frequency Learning for Single Image Super-Resolution",
           "link": "https://arxiv.org/abs/2407.16232v2"
         },
@@ -128,6 +171,60 @@
       },
       {
         "p": {
+          "name": "Image Processing GNN: Breaking Rigidity in Super-Resolution",
+          "link": "http://openaccess.thecvf.com//content/CVPR2024/html/Tian_Image_Processing_GNN_Breaking_Rigidity_in_Super-Resolution_CVPR_2024_paper.html"
+        },
+        "c": "https://github.com/huawei-noah/Efficient-Computing",
+        "n": "IPG+",
+        "d": "2024-01-01",
+        "m1": "31.14",
+        "m2": "0.8558"
+      },
+      {
+        "p": {
+          "name": "On Efficient Transformer-Based Image Pre-training for Low-Level Vision",
+          "link": "https://arxiv.org/abs/2112.10175v2"
+        },
+        "c": "https://github.com/fenglinglwb/edt",
+        "n": "EDT-B†",
+        "d": "2021-12-19",
+        "m1": "31.09",
+        "m2": "0.8553"
+      },
+      {
+        "p": {
+          "name": "Accurate Image Restoration with Attention Retractable Transformer",
+          "link": "https://arxiv.org/abs/2210.01427"
+        },
+        "c": "",
+        "n": "ART",
+        "d": "2022-10-04",
+        "m1": "31.02",
+        "m2": "0.8541"
+      },
+      {
+        "p": {
+          "name": "SwinIR: Image Restoration Using Swin Transformer",
+          "link": "https://arxiv.org/abs/2108.10257v1"
+        },
+        "c": "https://github.com/XPixelGroup/BasicSR",
+        "n": "SwinIR",
+        "d": "2021-08-23",
+        "m1": "30.93",
+        "m2": "0.8534"
+      },
+      {
+        "p": {
+          "name": "TSP-Mamba: The Travelling Salesman Problem Meets Mamba for Image Super-resolution and Beyond",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhou_TSP-Mamba_The_Travelling_Salesman_Problem_Meets_Mamba_for_Image_Super-resolution_CVPR_2025_paper.html"
+        },
+        "c": "",
+        "n": "TSP-Mamba",
+        "d": "2025-06-11",
+        "m1": "30.93"
+      },
+      {
+        "p": {
           "name": "Pre-Trained Image Processing Transformer",
           "link": "https://arxiv.org/abs/2012.00364v4"
         },
@@ -135,6 +232,16 @@
         "n": "IPT",
         "d": "2020-12-01",
         "m1": "30.85"
+      },
+      {
+        "p": {
+          "name": "Latent Modulated Function for Computational Optimal Continuous Image Representation",
+          "link": "https://arxiv.org/abs/2404.16451"
+        },
+        "c": "https://github.com/hezongyao/lmf",
+        "n": "LM-CiaoSR (SwinIR encoder)",
+        "d": "2024-04-25",
+        "m1": "30.83"
       },
       {
         "p": {

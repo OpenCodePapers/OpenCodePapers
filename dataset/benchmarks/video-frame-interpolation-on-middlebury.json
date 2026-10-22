@@ -81,6 +81,16 @@
         "m1": "4.479"
       },
       {
+        "p": {
+          "name": "AdaCoF: Adaptive Collaboration of Flows for Video Frame Interpolation",
+          "link": "https://arxiv.org/abs/1907.10244v3"
+        },
+        "c": "https://github.com/HyeongminLEE/AdaCoF-pytorch",
+        "n": "AdaCoF (Ours)",
+        "d": "2019-07-24",
+        "m1": "4.751"
+      },
+      {
         "p": "",
         "c": "",
         "n": "FRUCnet",
@@ -159,6 +169,30 @@
         "m2": "37.14",
         "m3": "0.966",
         "m4": "0.007"
+      },
+      {
+        "p": {
+          "name": "Disentangled Motion Modeling for Video Frame Interpolation",
+          "link": "https://arxiv.org/abs/2406.17256"
+        },
+        "c": "https://github.com/jhlew/momo",
+        "n": "MoMo",
+        "d": "2024-06-25",
+        "m2": "36.77",
+        "m3": "0.9806",
+        "m4": "0.0094"
+      },
+      {
+        "p": {
+          "name": "Frame Interpolation with Consecutive Brownian Bridge Diffusion",
+          "link": "https://arxiv.org/abs/2405.05953"
+        },
+        "c": "https://github.com/zonglinl/consecutivebrownianbridge",
+        "n": "Consec.BB",
+        "d": "2024-05-09",
+        "m2": "36.852",
+        "m3": "0.983",
+        "m4": "0.009"
       }
     ]
   }

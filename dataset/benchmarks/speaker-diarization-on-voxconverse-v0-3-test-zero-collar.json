@@ -1,0 +1,79 @@
+{
+  "title": "speaker-diarization-on-voxconverse-v0-3-test-zero-collar",
+  "task-hierarchy": [
+    "Speaker Recognition",
+    "Speaker Diarization"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/joonson/voxconverse",
+    "paper": "Spot the conversation: speaker diarisation in the wild"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "DER",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "VBx for End-to-End Neural and Clustering-based Diarization",
+          "link": "https://arxiv.org/abs/2510.19572"
+        },
+        "c": "https://github.com/butspeechfit/diarizen",
+        "n": "DiariZen-Large-s80 + VBx",
+        "d": "2025-10-22",
+        "m1": "8.7"
+      },
+      {
+        "p": {
+          "name": "Efficient and Generalizable Speaker Diarization via Structured Pruning of Self-Supervised Models",
+          "link": "https://arxiv.org/abs/2506.18623"
+        },
+        "c": "https://github.com/butspeechfit/diarizen",
+        "n": "diarizen-wavlm-large-s80-md-v2",
+        "d": "2025-06-23",
+        "m1": "9.1"
+      },
+      {
+        "p": {
+          "name": "Powerset multi-class cross entropy loss for neural speaker diarization",
+          "link": "https://arxiv.org/abs/2310.13025"
+        },
+        "c": "https://github.com/frenchkrab/is2023-powerset-diarization",
+        "n": "Powerset (domain-adapted)",
+        "d": "2023-10-19",
+        "m1": "10.4"
+      },
+      {
+        "p": {
+          "name": "Pushing the Limits of End-to-End Diarization",
+          "link": "https://arxiv.org/abs/2509.14737"
+        },
+        "c": "",
+        "n": "EEND-TA + FT",
+        "d": "2025-09-18",
+        "m1": "14.29"
+      }
+    ]
+  }
+}

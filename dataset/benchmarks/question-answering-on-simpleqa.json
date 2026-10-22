@@ -1,0 +1,168 @@
+{
+  "title": "question-answering-on-simpleqa",
+  "task-hierarchy": [
+    "Question Answering"
+  ],
+  "dataset-info": {
+    "link": "https://arxiv.org/abs/2411.04368",
+    "paper": "Measuring short-form factuality in large language models"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Gemini 2.5: Pushing the Frontier with Advanced Reasoning, Multimodality, Long Context, and Next Generation Agentic Capabilities",
+          "link": "https://arxiv.org/abs/2507.06261"
+        },
+        "c": "",
+        "n": "Gemini 2.5 Pro",
+        "d": "2025-07-07",
+        "m1": "54.0"
+      },
+      {
+        "p": {
+          "name": "ERNIE 4.5 Technical Report",
+          "link": "https://ernie.baidu.com/blog/publication/ERNIE_Technical_Report.pdf"
+        },
+        "c": "https://huggingface.co/baidu/ERNIE-4.5-300B-A47B-PT",
+        "n": "ERNIE-4.5-300B-A47B",
+        "d": "2025-06-30",
+        "m1": "45.9"
+      },
+      {
+        "p": {
+          "name": "Kimi K2: Open Agentic Intelligence",
+          "link": "https://arxiv.org/abs/2507.20534"
+        },
+        "c": "https://github.com/MoonshotAI/Kimi-K2",
+        "n": "Kimi K2",
+        "d": "2025-07-28",
+        "m1": "31.0"
+      },
+      {
+        "p": {
+          "name": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2501.12948v1"
+        },
+        "c": "https://github.com/deepseek-ai/deepseek-r1",
+        "n": "DeepSeek-R1-Zero",
+        "d": "2025-01-22",
+        "m1": "30.3"
+      },
+      {
+        "p": {
+          "name": "Gemini 2.5: Pushing the Frontier with Advanced Reasoning, Multimodality, Long Context, and Next Generation Agentic Capabilities",
+          "link": "https://arxiv.org/abs/2507.06261"
+        },
+        "c": "",
+        "n": "Gemini 2.5 Flash",
+        "d": "2025-07-07",
+        "m1": "26.9"
+      },
+      {
+        "p": {
+          "name": "GLM-4.5: Agentic, Reasoning, and Coding (ARC) Foundation Models",
+          "link": "https://arxiv.org/abs/2508.06471"
+        },
+        "c": "https://github.com/zai-org/GLM-4.5",
+        "n": "GLM-4.5 (355B)",
+        "d": "2025-08-08",
+        "m1": "26.4"
+      },
+      {
+        "p": {
+          "name": "DeepSeek-V3 Technical Report",
+          "link": "https://arxiv.org/abs/2412.19437"
+        },
+        "c": "https://github.com/deepseek-ai/DeepSeek-V3",
+        "n": "DeepSeek-V3",
+        "d": "2024-12-27",
+        "m1": "24.9"
+      },
+      {
+        "p": {
+          "name": "Arcee Trinity Large Technical Report",
+          "link": "https://arxiv.org/abs/2602.17004"
+        },
+        "c": "https://github.com/arcee-ai/trinity-large-tech-report",
+        "n": "Trinity Large Preview",
+        "d": "2026-02-19",
+        "m1": "23.92"
+      },
+      {
+        "p": {
+          "name": "MiniMax-01: Scaling Foundation Models with Lightning Attention",
+          "link": "https://arxiv.org/abs/2501.08313"
+        },
+        "c": "https://huggingface.co/MiniMaxAI/MiniMax-Text-01",
+        "n": "MiniMax-Text-01",
+        "d": "2025-01-14",
+        "m1": "23.7"
+      },
+      {
+        "p": {
+          "name": "Gemma 3 Technical Report",
+          "link": "https://arxiv.org/abs/2503.19786"
+        },
+        "c": "https://github.com/google-deepmind/gemma",
+        "n": "Gemma 3 (27B, IT)",
+        "d": "2025-03-25",
+        "m1": "10.0"
+      },
+      {
+        "p": {
+          "name": "dots.llm1 Technical Report",
+          "link": "https://arxiv.org/abs/2506.05767"
+        },
+        "c": "https://huggingface.co/rednote-hilab/dots.llm1.inst",
+        "n": "dots.llm1.inst",
+        "d": "2025-06-06",
+        "m1": "9.3"
+      },
+      {
+        "p": {
+          "name": "Verifiable Rewards Beyond Math and Code: Lightweight Corpus-Grounded Process Supervision for Factual Question Answering",
+          "link": "https://arxiv.org/abs/2605.29648"
+        },
+        "c": "https://github.com/shichengf/CorVer",
+        "n": "Llama-3.1-8B-Instruct (CorVer)",
+        "d": "2026-05-28",
+        "m1": "5.92"
+      },
+      {
+        "p": {
+          "name": "Safety Alignment as Continual Learning: Mitigating the Alignment Tax via Orthogonal Gradient Projection",
+          "link": "https://arxiv.org/abs/2602.07892"
+        },
+        "c": "https://github.com/SunGL001/OGPSA",
+        "n": "Qwen2.5-7B-Instruct with OGPSA (SFT)",
+        "d": "2026-05-12",
+        "m1": "3.61"
+      }
+    ]
+  }
+}

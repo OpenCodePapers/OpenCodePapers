@@ -1,0 +1,97 @@
+{
+  "title": "carla-longest6-on-carla-longest6-privileged",
+  "task-hierarchy": [
+    "Autonomous Driving",
+    "CARLA longest6"
+  ],
+  "dataset-info": {
+    "link": "https://arxiv.org/abs/2205.15997",
+    "paper": "TransFuser: Imitation with Transformer-Based Sensor Fusion for Autonomous Driving"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Driving Score",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Route Completion",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Infraction Penalty",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Robust Autonomy Emerges from Self-Play",
+          "link": "https://arxiv.org/abs/2502.03349"
+        },
+        "c": "",
+        "n": "GIGAFLOW",
+        "d": "2025-02-05",
+        "m1": "92",
+        "m2": "99",
+        "m3": "0.93"
+      },
+      {
+        "p": {
+          "name": "PlanT: Explainable Planning Transformers via Object-Level Representations",
+          "link": "https://arxiv.org/abs/2210.14222v1"
+        },
+        "c": "https://github.com/autonomousvision/plant",
+        "n": "PlanT Medium (3x data)",
+        "d": "2022-10-25",
+        "m1": "81.36",
+        "m2": "93.55",
+        "m3": "0.87"
+      },
+      {
+        "p": {
+          "name": "Hidden Biases of End-to-End Driving Models",
+          "link": "https://arxiv.org/abs/2306.07957v2"
+        },
+        "c": "https://github.com/autonomousvision/carla_garage",
+        "n": "TF++ MPC Expert",
+        "d": "2023-06-13",
+        "m1": "81",
+        "m2": "90",
+        "m3": "0.91"
+      },
+      {
+        "p": {
+          "name": "TransFuser: Imitation with Transformer-Based Sensor Fusion for Autonomous Driving",
+          "link": "https://arxiv.org/abs/2205.15997v1"
+        },
+        "c": "https://github.com/autonomousvision/transfuser",
+        "n": "TransFuser MPC Expert",
+        "d": "2022-05-31",
+        "m1": "76.91",
+        "m2": "88.67",
+        "m3": "0.86"
+      }
+    ]
+  }
+}

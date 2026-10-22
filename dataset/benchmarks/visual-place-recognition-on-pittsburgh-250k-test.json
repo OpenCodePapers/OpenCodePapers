@@ -46,6 +46,18 @@
     "items": [
       {
         "p": {
+          "name": "A^2GC: Asymmetric Aggregation with Geometric Constraints for Locally Aggregated Descriptors",
+          "link": "https://arxiv.org/abs/2511.14109"
+        },
+        "c": "https://github.com/cv4ra/a2gc",
+        "n": "A²GC (DINOv2-G, 33280-D)",
+        "d": "2025-11-18",
+        "m1": "97.3",
+        "m2": "99.7",
+        "m3": "99.3"
+      },
+      {
+        "p": {
           "name": "Focus on Local: Finding Reliable Discriminative Regions for Visual Place Recognition",
           "link": "https://arxiv.org/abs/2504.09881v1"
         },
@@ -55,6 +67,28 @@
         "m1": "97.0",
         "m2": "99.2",
         "m3": "99.5"
+      },
+      {
+        "p": {
+          "name": "SAGE: Spatial-visual Adaptive Graph Exploration for Efficient Visual Place Recognition",
+          "link": "https://arxiv.org/abs/2509.25723"
+        },
+        "c": "https://github.com/chenshunpeng/sage",
+        "n": "SAGE ViT-L (without cross-image encoder)",
+        "d": "2025-09-30",
+        "m1": "96.9",
+        "m2": "99.6",
+        "m3": "99.2"
+      },
+      {
+        "p": {
+          "name": "Region Matters: Efficient and Reliable Region-Aware Visual Place Recognition",
+          "link": "https://arxiv.org/abs/2604.22390"
+        },
+        "c": "https://github.com/chenshunpeng/fol",
+        "n": "FoL++ (ViT-L,reranking,322px)",
+        "d": "2026-04-24",
+        "m1": "96.9"
       },
       {
         "p": {
@@ -80,6 +114,29 @@
       },
       {
         "p": {
+          "name": "UniPR-3D: Towards Universal Visual Place Recognition with Visual Geometry Grounded Transformer",
+          "link": "https://arxiv.org/abs/2512.21078"
+        },
+        "c": "https://github.com/dtc111111/UniPR-3D",
+        "n": "UniPR-3D* (MegaLoc training setting, single frame)",
+        "d": "2025-12-24",
+        "m1": "96.6",
+        "m2": "99.7"
+      },
+      {
+        "p": {
+          "name": "AdaptVPR: Route-Aware Hard Positive Generation for Robust Visual Place Recognition",
+          "link": "https://arxiv.org/abs/2609.04369"
+        },
+        "c": "https://github.com/chenshunpeng/AdaptVPR",
+        "n": "ImAge + AdaptVPR",
+        "d": "2026-09-03",
+        "m1": "96.6",
+        "m2": "99.5",
+        "m3": "99.1"
+      },
+      {
+        "p": {
           "name": "Focus on Local: Finding Reliable Discriminative Regions for Visual Place Recognition",
           "link": "https://arxiv.org/abs/2504.09881v1"
         },
@@ -92,6 +149,49 @@
       },
       {
         "p": {
+          "name": "Towards Implicit Aggregation: Robust Image Representation for Place Recognition in the Transformer Era",
+          "link": "https://arxiv.org/abs/2511.06024"
+        },
+        "c": "https://github.com/lu-feng/image",
+        "n": "ImAge (6144D, GSV-Cities)",
+        "d": "2025-11-08",
+        "m1": "96.5",
+        "m3": "99.1"
+      },
+      {
+        "p": {
+          "name": "MegaLoc: One Retrieval to Place Them All",
+          "link": "https://arxiv.org/abs/2502.17237"
+        },
+        "c": "https://github.com/gmberton/megaloc",
+        "n": "MegaLoc (8448D)",
+        "d": "2025-02-24",
+        "m1": "96.4",
+        "m2": "99.3"
+      },
+      {
+        "p": {
+          "name": "Faster or Stronger: Towards Flexible Visual Place Recognition via Weighted Aggregation and Token Pruning",
+          "link": "https://arxiv.org/abs/2605.20551"
+        },
+        "c": "",
+        "n": "WeiAD + WeiToP (DINOv2 ViT-L, retention 0.95)",
+        "d": "2026-05-19",
+        "m1": "95.9",
+        "m3": "99"
+      },
+      {
+        "p": {
+          "name": "EfficientVPR: Toward Efficient Visual Place Recognition via Scene-Aware Prompt Tuning and Adaptive Feature Enhancement",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Tang_EfficientVPR_Toward_Efficient_Visual_Place_Recognition_via_Scene-Aware_Prompt_Tuning_CVPR_2026_paper.html"
+        },
+        "c": "https://github.com/winitang/efficientvpr",
+        "n": "EfficientVPR (DINOv2-S, 504×504 inference)",
+        "d": "2026-06-01",
+        "m1": "95.8"
+      },
+      {
+        "p": {
           "name": "Towards Seamless Adaptation of Pre-trained Models for Visual Place Recognition",
           "link": "https://arxiv.org/abs/2402.14505v3"
         },
@@ -101,6 +201,29 @@
         "m1": "95.7",
         "m2": "98.8",
         "m3": "99.2"
+      },
+      {
+        "p": {
+          "name": "VLAD-BuFF: Burst-aware Fast Feature Aggregation for Visual Place Recognition",
+          "link": "https://arxiv.org/abs/2409.19293"
+        },
+        "c": "https://github.com/ahmedest61/vlad-buff",
+        "n": "VLAD-BuFF (PCA whitening,8192D)",
+        "d": "2024-09-28",
+        "m1": "95.6",
+        "m3": "98.7"
+      },
+      {
+        "p": {
+          "name": "\"Close, But Not There: Boosting Geographic Distance Sensitivity in Visual Place Recognition\"",
+          "link": "https://arxiv.org/abs/2407.02422"
+        },
+        "c": "https://github.com/serizba/cliquemining",
+        "n": "DINOv2 SALAD + CliqueMining",
+        "d": "2024-07-02",
+        "m1": "95.2",
+        "m2": "99.3",
+        "m3": "98.8"
       },
       {
         "p": {
@@ -125,6 +248,17 @@
         "m1": "95",
         "m2": "99.1",
         "m3": "98.5"
+      },
+      {
+        "p": {
+          "name": "D²-VPR: A Parameter-efficient Visual-foundation-model-based Visual Place Recognition Method via Knowledge Distillation and Deformable Aggregation",
+          "link": "https://arxiv.org/abs/2511.12528"
+        },
+        "c": "https://github.com/tony19980810/d2vpr",
+        "n": "D2-VPR (singleton encoder,10752D)",
+        "d": "2025-11-16",
+        "m1": "94.9",
+        "m3": "98.4"
       },
       {
         "p": {
@@ -194,6 +328,130 @@
         "m1": "91.5",
         "m2": "98.1",
         "m3": "97.2"
+      },
+      {
+        "p": {
+          "name": "Self-supervising Fine-grained Region Similarities for Large-scale Image Localization",
+          "link": "https://arxiv.org/abs/2006.03926"
+        },
+        "c": "https://github.com/yxgeee/openibl",
+        "n": "SFRS",
+        "d": "2020-06-06",
+        "m1": "90.7",
+        "m2": "97.6",
+        "m3": "96.4"
+      },
+      {
+        "p": {
+          "name": "Structured Pruning for Efficient Visual Place Recognition",
+          "link": "https://arxiv.org/abs/2409.07834"
+        },
+        "c": "",
+        "n": "NetVLAD (structured pruning40%,gamma0.00)",
+        "d": "2024-09-12",
+        "m1": "90.3"
+      },
+      {
+        "p": {
+          "name": "Stochastic Attraction-Repulsion Embedding for Large Scale Image Localization",
+          "link": "https://arxiv.org/abs/1808.08779"
+        },
+        "c": "https://github.com/liumouliu/deepibl",
+        "n": "SARE Independent",
+        "d": "2018-08-27",
+        "m1": "88.97",
+        "m2": "96.79",
+        "m3": "95.5"
+      },
+      {
+        "p": {
+          "name": "Semantic Reinforced Attention Learning for Visual Place Recognition",
+          "link": "https://arxiv.org/abs/2108.08443"
+        },
+        "c": "",
+        "n": "SRALNet-SC (VGG16, 4096D PCA-whitened)",
+        "d": "2021-08-19",
+        "m1": "87.8",
+        "m2": "96.3",
+        "m3": "94.8"
+      },
+      {
+        "p": {
+          "name": "NetVLAD: CNN architecture for weakly supervised place recognition",
+          "link": "http://arxiv.org/abs/1511.07247v3"
+        },
+        "c": "https://github.com/Relja/netvlad",
+        "n": "NetVLAD (VGG-16, whitening 4096-D)",
+        "d": "2015-11-23",
+        "m1": "86",
+        "m2": "95.1",
+        "m3": "93.2"
+      },
+      {
+        "p": {
+          "name": "Learned Contextual Feature Reweighting for Image Geo-Localization",
+          "link": "https://openaccess.thecvf.com/content_cvpr_2017/html/Kim_Learned_Contextual_Feature_CVPR_2017_paper.html"
+        },
+        "c": "https://github.com/hyojinie/crn",
+        "n": "CRN (VGG16, Pittsburgh250k training)",
+        "d": "2017-07-01",
+        "m1": "85.5",
+        "m2": "95.5",
+        "m3": "93.5"
+      },
+      {
+        "p": {
+          "name": "Generalized Contrastive Optimization of Siamese Networks for Place Recognition",
+          "link": "https://arxiv.org/abs/2103.06638v4"
+        },
+        "c": "https://github.com/marialeyvallina/generalized_contrastive_loss",
+        "n": "ResNet152-GeM-GCL (PCAw 2048-D)",
+        "d": "2021-03-11",
+        "m1": "83.8",
+        "m2": "96.1",
+        "m3": "93.7"
+      },
+      {
+        "p": {
+          "name": "Attention-based Pyramid Aggregation Network for Visual Place Recognition",
+          "link": "https://arxiv.org/abs/1808.00288"
+        },
+        "c": "",
+        "n": "APANet (VGG-16, PCA-pw)",
+        "d": "2018-08-01",
+        "m1": "83.65",
+        "m2": "94.7",
+        "m3": "92.56"
+      },
+      {
+        "p": {
+          "name": "UniPR-3D: Towards Universal Visual Place Recognition with Visual Geometry Grounded Transformer",
+          "link": "https://arxiv.org/abs/2512.21078"
+        },
+        "c": "https://github.com/dtc111111/UniPR-3D",
+        "n": "UniPR-3D (GSV-Cities single-frame release)",
+        "d": "2025-12-24",
+        "m3": "98.1"
+      },
+      {
+        "p": {
+          "name": "EfficientVPR: Toward Efficient Visual Place Recognition via Scene-Aware Prompt Tuning and Adaptive Feature Enhancement",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Tang_EfficientVPR_Toward_Efficient_Visual_Place_Recognition_via_Scene-Aware_Prompt_Tuning_CVPR_2026_paper.html"
+        },
+        "c": "https://github.com/winitang/efficientvpr",
+        "n": "EfficientVPR (DINOv2-S, 322×322 inference)",
+        "d": "2026-06-01",
+        "m3": "98.8"
+      },
+      {
+        "p": {
+          "name": "D²-VPR: A Parameter-efficient Visual-foundation-model-based Visual Place Recognition Method via Knowledge Distillation and Deformable Aggregation",
+          "link": "https://arxiv.org/abs/2511.12528"
+        },
+        "c": "https://github.com/tony19980810/d2vpr",
+        "n": "D2-VPR (released no encoder)",
+        "d": "2025-11-16",
+        "m2": "98.9"
       }
     ]
   }

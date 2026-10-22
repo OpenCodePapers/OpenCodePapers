@@ -70,6 +70,26 @@
       },
       {
         "p": {
+          "name": "AdaptVPR: Route-Aware Hard Positive Generation for Robust Visual Place Recognition",
+          "link": "https://arxiv.org/abs/2609.04369"
+        },
+        "c": "https://github.com/chenshunpeng/AdaptVPR",
+        "n": "SALAD-DINOv3-B + AdaptVPR",
+        "d": "2026-09-03",
+        "m1": "98.7"
+      },
+      {
+        "p": {
+          "name": "SelaVPR++: Towards Seamless Adaptation of Foundation Models for Efficient Place Recognition",
+          "link": "https://arxiv.org/abs/2502.16601"
+        },
+        "c": "https://github.com/Lu-Feng/SelaVPRplusplus",
+        "n": "SelaVPR++ (DINOv2-L, rerank50)",
+        "d": "2025-02-23",
+        "m1": "98.4"
+      },
+      {
+        "p": {
           "name": "Focus on Local: Finding Reliable Discriminative Regions for Visual Place Recognition",
           "link": "https://arxiv.org/abs/2504.09881v1"
         },
@@ -116,6 +136,86 @@
       },
       {
         "p": {
+          "name": "SAGE: Spatial-visual Adaptive Graph Exploration for Efficient Visual Place Recognition",
+          "link": "https://arxiv.org/abs/2509.25723"
+        },
+        "c": "https://github.com/chenshunpeng/sage",
+        "n": "SAGE ViT-L (without cross-image encoder)",
+        "d": "2025-09-30",
+        "m1": "98.1"
+      },
+      {
+        "p": {
+          "name": "Region Matters: Efficient and Reliable Region-Aware Visual Place Recognition",
+          "link": "https://arxiv.org/abs/2604.22390"
+        },
+        "c": "https://github.com/chenshunpeng/fol",
+        "n": "FoL++ (ViT-L,reranking,322px)",
+        "d": "2026-04-24",
+        "m1": "98.1"
+      },
+      {
+        "p": {
+          "name": "UniPR-3D: Towards Universal Visual Place Recognition with Visual Geometry Grounded Transformer",
+          "link": "https://arxiv.org/abs/2512.21078"
+        },
+        "c": "https://github.com/dtc111111/UniPR-3D",
+        "n": "UniPR-3D* (MegaLoc training setting, single frame)",
+        "d": "2025-12-24",
+        "m1": "97.9"
+      },
+      {
+        "p": {
+          "name": "SuperPlace: The Renaissance of Classical Feature Aggregation for Visual Place Recognition in the Era of Foundation Models",
+          "link": "https://arxiv.org/abs/2506.13073"
+        },
+        "c": "https://github.com/binuxliu/superplace",
+        "n": "SuperPlace NVL-FT2 (DINOv2-B, GSV-Cities, 8192D, 322px)",
+        "d": "2025-06-16",
+        "m1": "97.8"
+      },
+      {
+        "p": {
+          "name": "VLAD-BuFF: Burst-aware Fast Feature Aggregation for Visual Place Recognition",
+          "link": "https://arxiv.org/abs/2409.19293"
+        },
+        "c": "https://github.com/ahmedest61/vlad-buff",
+        "n": "VLAD-BuFF (PrePool192,PCA whitening4096D)",
+        "d": "2024-09-28",
+        "m1": "97.5"
+      },
+      {
+        "p": {
+          "name": "EDTformer: An Efficient Decoder Transformer for Visual Place Recognition",
+          "link": "https://arxiv.org/abs/2412.00784"
+        },
+        "c": "https://github.com/tong-jin01/edtformer",
+        "n": "EDTformer (4096D, 2decoder blocks, 64learned tokens, LoPA rank4)",
+        "d": "2024-12-01",
+        "m1": "97.1"
+      },
+      {
+        "p": {
+          "name": "Towards Implicit Aggregation: Robust Image Representation for Place Recognition in the Transformer Era",
+          "link": "https://arxiv.org/abs/2511.06024"
+        },
+        "c": "https://github.com/lu-feng/image",
+        "n": "ImAge (6144D, unified dataset)",
+        "d": "2025-11-08",
+        "m1": "97.1"
+      },
+      {
+        "p": {
+          "name": "MegaLoc: One Retrieval to Place Them All",
+          "link": "https://arxiv.org/abs/2502.17237"
+        },
+        "c": "https://github.com/gmberton/megaloc",
+        "n": "MegaLoc (8448D)",
+        "d": "2025-02-24",
+        "m1": "96.5"
+      },
+      {
+        "p": {
           "name": "Focus on Local: Finding Reliable Discriminative Regions for Visual Place Recognition",
           "link": "https://arxiv.org/abs/2504.09881v1"
         },
@@ -150,6 +250,26 @@
       },
       {
         "p": {
+          "name": "CricaVPR: Cross-image Correlation-aware Representation Learning for Visual Place Recognition",
+          "link": "https://arxiv.org/abs/2402.19231"
+        },
+        "c": "https://github.com/Lu-Feng/CricaVPR",
+        "n": "CricaVPR (inference batch1,10752D)",
+        "d": "2024-02-29",
+        "m1": "89.5"
+      },
+      {
+        "p": {
+          "name": "$R^{2}$Former: Unified $R$etrieval and $R$eranking Transformer for Place Recognition",
+          "link": "https://arxiv.org/abs/2304.03410"
+        },
+        "c": "https://github.com/bytedance/r2former",
+        "n": "R2Former (ViT-Small, Pitts30k-finetuned, top-100 reranking)",
+        "d": "2023-04-06",
+        "m1": "88.6"
+      },
+      {
+        "p": {
           "name": "ProGEO: Generating Prompts through Image-Text Contrastive Learning for Visual Geo-localization",
           "link": "https://arxiv.org/abs/2406.01906v1"
         },
@@ -158,6 +278,16 @@
         "d": "2024-06-04",
         "m1": "88.6",
         "m2": "93.3"
+      },
+      {
+        "p": {
+          "name": "TeTRA-VPR: A Ternary Transformer Approach for Compact Visual Place Recognition",
+          "link": "https://arxiv.org/abs/2503.02511"
+        },
+        "c": "https://github.com/olivergrainge/tetra-vpr",
+        "n": "TeTRA-BoQ (ternary ViT, binary descriptor)",
+        "d": "2025-03-04",
+        "m1": "88.6"
       },
       {
         "p": {
@@ -173,6 +303,16 @@
       },
       {
         "p": {
+          "name": "Self-supervising Fine-grained Region Similarities for Large-scale Image Localization",
+          "link": "https://arxiv.org/abs/2006.03926"
+        },
+        "c": "https://github.com/yxgeee/openibl",
+        "n": "SFRS",
+        "d": "2020-06-06",
+        "m1": "85.4"
+      },
+      {
+        "p": {
           "name": "Rethinking Visual Geo-localization for Large-Scale Applications",
           "link": "https://arxiv.org/abs/2204.02287v2"
         },
@@ -180,6 +320,46 @@
         "n": "CosPlace",
         "d": "2022-04-05",
         "m1": "82.2"
+      },
+      {
+        "p": {
+          "name": "Stochastic Attraction-Repulsion Embedding for Large Scale Image Localization",
+          "link": "https://arxiv.org/abs/1808.08779"
+        },
+        "c": "https://github.com/liumouliu/deepibl",
+        "n": "SARE Joint",
+        "d": "2018-08-27",
+        "m1": "80.63"
+      },
+      {
+        "p": {
+          "name": "Learned Contextual Feature Reweighting for Image Geo-Localization",
+          "link": "https://openaccess.thecvf.com/content_cvpr_2017/html/Kim_Learned_Contextual_Feature_CVPR_2017_paper.html"
+        },
+        "c": "https://github.com/hyojinie/crn",
+        "n": "CRN (VGG16, TokyoTimeMachine training)",
+        "d": "2017-07-01",
+        "m1": "75.2"
+      },
+      {
+        "p": {
+          "name": "Semantic Reinforced Attention Learning for Visual Place Recognition",
+          "link": "https://arxiv.org/abs/2108.08443"
+        },
+        "c": "",
+        "n": "SRALNet-SC (VGG16, 4096D PCA-whitened)",
+        "d": "2021-08-19",
+        "m1": "72.1"
+      },
+      {
+        "p": {
+          "name": "NetVLAD: CNN architecture for weakly supervised place recognition",
+          "link": "http://arxiv.org/abs/1511.07247v3"
+        },
+        "c": "https://github.com/Relja/netvlad",
+        "n": "NetVLAD (VGG-16, whitening 4096-D)",
+        "d": "2015-11-23",
+        "m1": "71.7"
       },
       {
         "p": {
@@ -203,6 +383,16 @@
         "d": "2022-04-05",
         "m2": "95.9",
         "m3": "96.5"
+      },
+      {
+        "p": {
+          "name": "Attention-based Pyramid Aggregation Network for Visual Place Recognition",
+          "link": "https://arxiv.org/abs/1808.00288"
+        },
+        "c": "",
+        "n": "APANet (VGG-16, PCA-pw)",
+        "d": "2018-08-01",
+        "m1": "66.98"
       }
     ]
   }

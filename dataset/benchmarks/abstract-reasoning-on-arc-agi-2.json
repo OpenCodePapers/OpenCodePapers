@@ -1,0 +1,159 @@
+{
+  "title": "abstract-reasoning-on-arc-agi-2",
+  "task-hierarchy": [
+    "Visual Reasoning",
+    "Abstract Reasoning"
+  ],
+  "dataset-info": {
+    "link": "https://arcprize.org/arc-agi/2",
+    "paper": "ARC-AGI-2: A New Challenge for Frontier AI Reasoning Systems"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "GPT-6 Astra: A new generation of intelligence",
+          "link": "https://openai.com/index/gpt-6-astra/"
+        },
+        "c": "https://github.com/openai/codex",
+        "n": "GPT-6 Astra",
+        "d": "2026-09-03",
+        "m1": "95.0"
+      },
+      {
+        "p": {
+          "name": "Introducing Claude Opus 5",
+          "link": "https://www.anthropic.com/news/claude-opus-5"
+        },
+        "c": "https://github.com/anthropics/claude-code",
+        "n": "Claude Opus 5",
+        "d": "2026-07-24",
+        "m1": "90.42"
+      },
+      {
+        "p": {
+          "name": "Introducing GPT-5.5",
+          "link": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        "c": "",
+        "n": "GPT-5.5",
+        "d": "2026-04-23",
+        "m1": "85.0"
+      },
+      {
+        "p": {
+          "name": "Gemini 3.1 Pro: A smarter model for your most complex tasks",
+          "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/"
+        },
+        "c": "",
+        "n": "Gemini 3.1 Pro",
+        "d": "2026-02-19",
+        "m1": "77.1"
+      },
+      {
+        "p": {
+          "name": "Introducing GPT-5.2",
+          "link": "https://openai.com/index/introducing-gpt-5-2/"
+        },
+        "c": "",
+        "n": "GPT-5.2 Pro",
+        "d": "2025-12-11",
+        "m1": "54.2"
+      },
+      {
+        "p": {
+          "name": "The Optimizer Is the Agent: Reasoning-Driven Search across Prompts, Programs, and ML Workflows",
+          "link": "https://arxiv.org/abs/2608.06714"
+        },
+        "c": "https://github.com/snowflake-ai-research/reasearch",
+        "n": "ReASearch",
+        "d": "2026-08-07",
+        "m1": "50.0"
+      },
+      {
+        "p": {
+          "name": "Inkling-Small",
+          "link": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        "c": "https://github.com/thinking-machines-lab/tinker-cookbook",
+        "n": "Inkling-Small",
+        "d": "2026-07-27",
+        "m1": "40.1"
+      },
+      {
+        "p": {
+          "name": "Introducing Gemini 3 Flash",
+          "link": "https://blog.google/products-and-platforms/products/gemini/gemini-3-flash/"
+        },
+        "c": "",
+        "n": "Google Gemini 3 Flash (Thinking)",
+        "d": "2025-12-17",
+        "m1": "33.6"
+      },
+      {
+        "p": {
+          "name": "Natural Image Pretraining Improves Abstract Reasoning",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/5527"
+        },
+        "c": "",
+        "n": "Nat-ARC ensemble",
+        "d": "2026-09-08",
+        "m1": "13.1"
+      },
+      {
+        "p": {
+          "name": "ARC Is a Vision Problem!",
+          "link": "https://arxiv.org/abs/2511.14761"
+        },
+        "c": "",
+        "n": "VARC (ensemble)",
+        "d": "2025-11-18",
+        "m1": "11.1"
+      },
+      {
+        "p": {
+          "name": "ARC Is a Vision Problem!",
+          "link": "https://arxiv.org/abs/2511.14761"
+        },
+        "c": "",
+        "n": "VARC",
+        "d": "2025-11-18",
+        "m1": "8.3"
+      },
+      {
+        "p": {
+          "name": "Hierarchical Reasoning Model",
+          "link": "https://arxiv.org/abs/2506.21734"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "HRM",
+        "d": "2025-06-26",
+        "m1": "5.0"
+      }
+    ]
+  }
+}

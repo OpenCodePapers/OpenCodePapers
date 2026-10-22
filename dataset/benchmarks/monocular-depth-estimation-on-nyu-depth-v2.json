@@ -164,12 +164,34 @@
       },
       {
         "p": {
+          "name": "GeoWizard: Unleashing the Diffusion Priors for 3D Geometry Estimation from a Single Image",
+          "link": "https://arxiv.org/abs/2403.12013"
+        },
+        "c": "https://github.com/fuxiao0719/GeoWizard",
+        "n": "GeoWizard (zero-shot)",
+        "d": "2024-03-18",
+        "m1": "0.052",
+        "m4": "0.966"
+      },
+      {
+        "p": {
           "name": "Fine-Tuning Image-Conditional Diffusion Models is Easier than You Think",
           "link": "https://arxiv.org/abs/2409.11355v1"
         },
         "c": "https://github.com/VisualComputingInstitute/diffusion-e2e-ft",
         "n": "Marigold + E2E FT(zero-shot)",
         "d": "2024-09-17",
+        "m1": "0.052",
+        "m4": "0.966"
+      },
+      {
+        "p": {
+          "name": "UniGP: Taming Diffusion Transformer for Prior-Preserved Unified Generation and Perception",
+          "link": "https://arxiv.org/abs/2606.30332"
+        },
+        "c": "https://github.com/guoqincode/unigp",
+        "n": "UNIGP",
+        "d": "2026-06-29",
         "m1": "0.052",
         "m4": "0.966"
       },
@@ -291,6 +313,17 @@
       },
       {
         "p": {
+          "name": "DICEPTION: A Generalist Diffusion Model for Visual Perceptual Tasks",
+          "link": "https://arxiv.org/abs/2502.17157v1"
+        },
+        "c": "https://github.com/aim-uofa/diception",
+        "n": "DICEPTION (zero-shot)",
+        "d": "2025-02-24",
+        "m1": "0.061",
+        "m4": "0.960"
+      },
+      {
+        "p": {
           "name": "Text-image Alignment for Diffusion-based Perception",
           "link": "https://arxiv.org/abs/2310.00031v3"
         },
@@ -321,6 +354,17 @@
       },
       {
         "p": {
+          "name": "MODUS: Decoder-Only Any-to-Any Modeling of Diverse Modalities",
+          "link": "https://arxiv.org/abs/2607.25948"
+        },
+        "c": "https://github.com/EPFL-VILAB/Modus",
+        "n": "Modus",
+        "d": "2026-07-28",
+        "m1": "0.065",
+        "m4": "0.958"
+      },
+      {
+        "p": {
           "name": "MeSa: Masked, Geometric, and Supervised Pre-training for Monocular Depth Estimation",
           "link": "https://arxiv.org/abs/2310.04551v1"
         },
@@ -348,6 +392,17 @@
         "m4": "0.969",
         "m5": "0.9958",
         "m6": "0.999"
+      },
+      {
+        "p": {
+          "name": "UniPercept: A Unified Diffusion Model for Generalizable Visual Perception",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhao_UniPercept_A_Unified_Diffusion_Model_for_Generalizable_Visual_Perception_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "UniPercept",
+        "d": "2026-06-03",
+        "m1": "0.067",
+        "m4": "0.954"
       },
       {
         "p": {
@@ -1214,6 +1269,66 @@
         "n": "Eigen et al.",
         "d": "2014-11-18",
         "m2": "0.641"
+      },
+      {
+        "p": {
+          "name": "Depth Anything V2",
+          "link": "https://arxiv.org/abs/2406.09414"
+        },
+        "c": "https://github.com/DepthAnything/Depth-Anything-V2",
+        "n": "Depth Anything V2 (ViT-L) (fine-tuned)",
+        "d": "2024-06-13",
+        "m4": "0.984"
+      },
+      {
+        "p": {
+          "name": "In Pursuit of Pixel Supervision for Visual Pre-training",
+          "link": "https://arxiv.org/abs/2512.15715"
+        },
+        "c": "https://github.com/facebookresearch/pixio",
+        "n": "Pixio-H + DPT",
+        "d": "2025-12-17",
+        "m4": "0.955"
+      },
+      {
+        "p": {
+          "name": "DepthART: Scaling Foundation Monocular Depth to Tiny Models",
+          "link": "https://arxiv.org/abs/2607.17099"
+        },
+        "c": "https://github.com/xuefeng-cvr/depthart",
+        "n": "DepthART-L (fine-tuned)",
+        "d": "2026-07-19",
+        "m4": "0.946"
+      },
+      {
+        "p": {
+          "name": "WorDepth: Variational Language Prior for Monocular Depth Estimation",
+          "link": "https://arxiv.org/abs/2404.03635"
+        },
+        "c": "https://github.com/adonis-galaxy/wordepth",
+        "n": "WorDepth",
+        "d": "2024-04-04",
+        "m4": "0.932"
+      },
+      {
+        "p": {
+          "name": "Improved Monocular Depth Prediction Using Distance Transform Over Pre-semantic Contours with Self-supervised Neural Networks",
+          "link": "https://arxiv.org/abs/2605.08320"
+        },
+        "c": "",
+        "n": "Improved monocular depth prediction using distance transform over pre-semantic contours with self-supervised neural networks",
+        "d": "2026-05-08",
+        "m4": "0.859"
+      },
+      {
+        "p": {
+          "name": "MD2E: Modeling Depth-to-Edge Cues for Monocular Metric Depth Estimation",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Ning_MD2E_Modeling_Depth-to-Edge_Cues_for_Monocular_Metric_Depth_Estimation_CVPR_2026_paper.html"
+        },
+        "c": "https://github.com/2j472no/mde",
+        "n": "MD2E (extra data)",
+        "d": "2026-06-03",
+        "m4": "0.992"
       }
     ]
   }

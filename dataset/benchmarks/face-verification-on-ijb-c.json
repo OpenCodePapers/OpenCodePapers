@@ -385,6 +385,86 @@
         "n": "FaceNet",
         "d": "2015-03-12",
         "m5": "66.5%"
+      },
+      {
+        "p": {
+          "name": "Vision Transformers for Face Recognition Need More Registers",
+          "link": "https://arxiv.org/abs/2606.12036"
+        },
+        "c": "https://github.com/taharchettaoui/vit-fr-registers",
+        "n": "ViT-8R",
+        "d": "2026-06-10",
+        "m3": "97.37%"
+      },
+      {
+        "p": {
+          "name": "LVFace: Large Vision model for Face Recogniton",
+          "link": "https://arxiv.org/abs/2501.13420"
+        },
+        "c": "https://github.com/bytedance/lvface",
+        "n": "LVFace-L (WebFace42M)",
+        "d": "2025-01-23",
+        "m3": "98.06%"
+      },
+      {
+        "p": {
+          "name": "FaceLiVT: Face Recognition using Linear Vision Transformer with Structural Reparameterization For Mobile Device",
+          "link": "https://arxiv.org/abs/2506.10361"
+        },
+        "c": "",
+        "n": "FaceLiVT-M-(LA, 40 epochs)",
+        "d": "2025-06-12",
+        "m3": "95.7%"
+      },
+      {
+        "p": {
+          "name": "EdgeFace: Efficient Face Recognition Model for Edge Devices",
+          "link": "https://arxiv.org/abs/2307.01838v2"
+        },
+        "c": "https://github.com/otroshi/edgeface",
+        "n": "EdgeFace-S (gamma=0.5)",
+        "d": "2023-07-04",
+        "m3": "95.63%"
+      },
+      {
+        "p": {
+          "name": "LAFS: Landmark-based Facial Self-supervised Learning for Face Recognition",
+          "link": "https://arxiv.org/abs/2403.08161"
+        },
+        "c": "https://github.com/szlbiubiubiu/lafs_cvpr2024",
+        "n": "Part fViT, ours (LAFS)",
+        "d": "2024-03-13",
+        "m3": "97.48%"
+      },
+      {
+        "p": {
+          "name": "Sparsity-Inducing Divergence Losses for Biometric Verification",
+          "link": "https://arxiv.org/abs/2606.31664"
+        },
+        "c": "",
+        "n": "Q-Margin",
+        "d": "2026-06-30",
+        "m3": "97.78%"
+      },
+      {
+        "p": {
+          "name": "Learning to Attract and Repel: Dual Quality Margin Learning for Face Recognition (DQM-Face)",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/5862"
+        },
+        "c": "",
+        "n": "DQM-Face α=0.4",
+        "d": "2026-09-08",
+        "m3": "96.58%"
+      },
+      {
+        "p": {
+          "name": "Noise-Robust Face Recognition via Non-target Similarity Distribution Guided Sample Selection",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/5198"
+        },
+        "c": "",
+        "n": "Arc+DDLN (R100)",
+        "d": "2026-09-08",
+        "m3": "96.96%"
       }
     ]
   }

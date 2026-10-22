@@ -1,0 +1,259 @@
+{
+  "title": "deep-research-agents-on-browsecomp-plus",
+  "task-hierarchy": [
+    "Agents",
+    "Deep Research Agents"
+  ],
+  "dataset-info": {
+    "link": "https://arxiv.org/abs/2508.06600",
+    "paper": "BrowseComp-Plus: A More Fair and Transparent Evaluation Benchmark of Deep-Research Agent"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "JevGPT: Thinking Fast and Slow in Autonomous Research",
+          "link": "https://arxiv.org/abs/2610.18272"
+        },
+        "c": "https://github.com/sunyasheng/jevgpt",
+        "n": "JevGPT",
+        "d": "2026-10-13",
+        "m1": "90.48"
+      },
+      {
+        "p": {
+          "name": "Introducing Claude Opus 4.5",
+          "link": "https://www.anthropic.com/news/claude-opus-4-5"
+        },
+        "c": "",
+        "n": "Claude Opus 4.5 (w/ tools)",
+        "d": "2025-11-24",
+        "m1": "85.30"
+      },
+      {
+        "p": {
+          "name": "Masking Stale Observations Helps Search Agents -- Until It Doesn't: A Regime Map and Its Mechanism",
+          "link": "https://arxiv.org/abs/2606.00408"
+        },
+        "c": "https://github.com/i-DeepSearch/observation-masking",
+        "n": "DS-V4-Flash-Max + AgentIR-4B (stale-observation masking, K=5)",
+        "d": "2026-05-29",
+        "m1": "84.3"
+      },
+      {
+        "p": {
+          "name": "Rethinking Agentic Search with Pi-Serini: Is Lexical Retrieval Sufficient?",
+          "link": "https://arxiv.org/abs/2605.10848"
+        },
+        "c": "https://github.com/justram/pi-serini",
+        "n": "PI-SERINI (gpt-5.5)",
+        "d": "2026-05-11",
+        "m1": "83.1"
+      },
+      {
+        "p": {
+          "name": "JIT-Agent: Scaling Harness Intelligence via Just-in-Time Harness Evolution",
+          "link": "https://arxiv.org/abs/2608.25593"
+        },
+        "c": "https://github.com/bingreeky/JIT",
+        "n": "JIT-Agent + GLM-5.2",
+        "d": "2026-08-26",
+        "m1": "78.0"
+      },
+      {
+        "p": {
+          "name": "Agentic Aggregation for Parallel Scaling of Long-Horizon Agentic Tasks",
+          "link": "https://arxiv.org/abs/2604.11753"
+        },
+        "c": "https://github.com/princeton-pli/aggagent",
+        "n": "AggAgent (MiniMax-M2.5)",
+        "d": "2026-04-13",
+        "m1": "77.33"
+      },
+      {
+        "p": {
+          "name": "Self-Evolving Search Index",
+          "link": "https://arxiv.org/abs/2609.19656"
+        },
+        "c": "https://github.com/augustinlib/self-index",
+        "n": "Self-Index (Gemini-3.7-Flash, BM25)",
+        "d": "2026-09-17",
+        "m1": "76.02"
+      },
+      {
+        "p": {
+          "name": "TacoMAS: Test-Time Co-Evolution of Topology and Capability in LLM-based Multi-Agent Systems",
+          "link": "https://arxiv.org/abs/2605.09539"
+        },
+        "c": "https://github.com/chenxu2-gif/TacoMAS-MultiAgent",
+        "n": "TacoMAS",
+        "d": "2026-05-10",
+        "m1": "74.5"
+      },
+      {
+        "p": {
+          "name": "Adaptive Consistency Graph for Long-Horizon Agents",
+          "link": "https://arxiv.org/abs/2609.32754"
+        },
+        "c": "https://github.com/yunsaijc/Adaptive-Consistency-Graph",
+        "n": "ACG (GPT-5.6-luna)",
+        "d": "2026-09-26",
+        "m1": "73.5"
+      },
+      {
+        "p": {
+          "name": "Dr-DCI: Scaling Direct Corpus Interaction via Dynamic Workspace Expansion",
+          "link": "https://arxiv.org/abs/2606.14885"
+        },
+        "c": "https://github.com/EigenTom/DR-DCI",
+        "n": "DR-DCI + Workspace-Preserving Context Reset",
+        "d": "2026-06-12",
+        "m1": "73.25"
+      },
+      {
+        "p": {
+          "name": "KARL: Knowledge Agents via Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2603.05218"
+        },
+        "c": "",
+        "n": "KARL-BCP (VGS N=17)",
+        "d": "2026-03-05",
+        "m1": "70.4"
+      },
+      {
+        "p": {
+          "name": "QUEST: Training Frontier Deep Research Agents with Fully Synthetic Tasks",
+          "link": "https://arxiv.org/abs/2605.24218"
+        },
+        "c": "https://github.com/OSU-NLP-Group/QUEST",
+        "n": "QUEST-35B",
+        "d": "2026-05-22",
+        "m1": "69.5"
+      },
+      {
+        "p": {
+          "name": "FABLE: Forest-Based Adaptive Bi-Path LLM-Enhanced Retrieval for Multi-Document Reasoning",
+          "link": "https://arxiv.org/abs/2601.18116"
+        },
+        "c": "",
+        "n": "TDR-30B-A3B (with FABLE retriever)",
+        "d": "2026-01-26",
+        "m1": "66.6"
+      },
+      {
+        "p": {
+          "name": "Deep Search with Hierarchical Meta-Cognitive Monitoring Inspired by Cognitive Neuroscience",
+          "link": "https://arxiv.org/abs/2601.23188"
+        },
+        "c": "",
+        "n": "DS-MCM (with Tongyi-DeepResearch backbone; memory=BrowseComp)",
+        "d": "2026-01-30",
+        "m1": "62.0"
+      },
+      {
+        "p": {
+          "name": "DAGent: Evaluate-then-Grow Planning for Deep Research Agents",
+          "link": "https://arxiv.org/abs/2609.39154"
+        },
+        "c": "https://github.com/hanwenliu6825/DAGent",
+        "n": "DAGent (Qwen3-235B-A22B)",
+        "d": "2026-09-30",
+        "m1": "61.3"
+      },
+      {
+        "p": {
+          "name": "Context Language Models",
+          "link": "https://arxiv.org/abs/2609.37725"
+        },
+        "c": "https://github.com/facebookresearch/context-language-models",
+        "n": "CLM (Qwen3.6-27B)",
+        "d": "2026-09-29",
+        "m1": "59.4"
+      },
+      {
+        "p": {
+          "name": "ContextPilot: Teaching Agents for Proactive Context Management via Fine-grained RL",
+          "link": "https://arxiv.org/abs/2608.28476"
+        },
+        "c": "https://github.com/Tencent/ContextPilot",
+        "n": "ContextPilot-14B-RL",
+        "d": "2026-08-28",
+        "m1": "55.5"
+      },
+      {
+        "p": {
+          "name": "OpenResearcher: A Fully Open Pipeline for Long-Horizon Deep Research Trajectory Synthesis",
+          "link": "https://arxiv.org/abs/2603.20278"
+        },
+        "c": "https://github.com/TIGER-AI-Lab/OpenResearcher",
+        "n": "OpenResearcher-30B-A3B",
+        "d": "2026-03-17",
+        "m1": "54.8"
+      },
+      {
+        "p": {
+          "name": "SearchJev: A Fast and Calibrated System-1 Model for Search Agents",
+          "link": "https://arxiv.org/abs/2610.05107"
+        },
+        "c": "https://github.com/EvoScientist/SearchJev",
+        "n": "SearchJev-4B",
+        "d": "2026-10-04",
+        "m1": "54.0"
+      },
+      {
+        "p": {
+          "name": "LACUNA: Safe Agents as Recursive Program Holes",
+          "link": "https://arxiv.org/abs/2605.28617"
+        },
+        "c": "https://github.com/noti0na1/lacuna",
+        "n": "Lacuna (DeepSeek-V4-Flash)",
+        "d": "2026-05-27",
+        "m1": "27.1"
+      },
+      {
+        "p": {
+          "name": "LFM2.5-2.6B: Deploy Agents Everywhere",
+          "link": "https://www.liquid.ai/blog/lfm2-5-2-6b"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "LFM2.5-2.6B (OpenClaw)",
+        "d": "2026-08-04",
+        "m1": "26.89"
+      },
+      {
+        "p": {
+          "name": "WideSeek: Advancing Wide Research via Multi-Agent Scaling",
+          "link": "https://arxiv.org/abs/2602.02636"
+        },
+        "c": "https://github.com/hzy312/WideSeek",
+        "n": "WideSeek-8B-RL",
+        "d": "2026-02-02",
+        "m1": "26.42"
+      }
+    ]
+  }
+}

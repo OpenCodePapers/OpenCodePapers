@@ -35,6 +35,16 @@
     "items": [
       {
         "p": {
+          "name": "Region-Level Policy Optimization for Fine-grained MLLM Perception",
+          "link": "https://arxiv.org/abs/2609.19745"
+        },
+        "c": "https://github.com/YuHengsss/VisionRL2",
+        "n": "Vision-RL² (Qwen3.5-9B)",
+        "d": "2026-09-17",
+        "m1": "95.3"
+      },
+      {
+        "p": {
           "name": "FOCUS: Internal MLLM Representations for Efficient Fine-Grained Visual Question Answering",
           "link": "https://arxiv.org/abs/2506.21710"
         },
@@ -42,6 +52,36 @@
         "n": "LLaVA-OneVision7B w. FOCUS",
         "d": "2025-06-25",
         "m1": "92.15"
+      },
+      {
+        "p": {
+          "name": "Self-Supervised Visual On-Policy Distillation",
+          "link": "https://arxiv.org/abs/2608.14144"
+        },
+        "c": "",
+        "n": "S^2VOPD (Qwen3.5-4B, FineVision-12K) (extra data)",
+        "d": "2026-08-14",
+        "m1": "91.48"
+      },
+      {
+        "p": {
+          "name": "From Illusion to Intention: Visual Rationale Learning for Reliable Evidence Acquisition",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/5432"
+        },
+        "c": "",
+        "n": "ViRL 4B",
+        "d": "2026-09-08",
+        "m1": "90.8"
+      },
+      {
+        "p": {
+          "name": "Scaffolding Minds: Optimizing Latent Visual Target Representations for Multimodal Reasoning",
+          "link": "https://arxiv.org/abs/2608.19669"
+        },
+        "c": "",
+        "n": "Scaffolding Encoder+RL",
+        "d": "2026-09-29",
+        "m1": "90.6"
       },
       {
         "p": {
@@ -55,6 +95,136 @@
       },
       {
         "p": {
+          "name": "Penguin-VL: Exploring the Efficiency Limits of VLM with LLM-based Vision Encoders",
+          "link": "https://arxiv.org/abs/2603.06569"
+        },
+        "c": "https://github.com/tencent-ailab/Penguin-VL",
+        "n": "Penguin-VL 8B",
+        "d": "2026-03-06",
+        "m1": "90.1"
+      },
+      {
+        "p": {
+          "name": "Vero: An Open RL Recipe for General Visual Reasoning",
+          "link": "https://arxiv.org/abs/2604.04917"
+        },
+        "c": "https://github.com/zlab-princeton/vero",
+        "n": "Vero-Qwen3I-8B",
+        "d": "2026-04-06",
+        "m1": "89.5"
+      },
+      {
+        "p": {
+          "name": "Step-GUI Technical Report",
+          "link": "https://arxiv.org/abs/2512.15431"
+        },
+        "c": "https://github.com/stepfun-ai/gelab-zero",
+        "n": "Step-GUI-8B",
+        "d": "2025-12-17",
+        "m1": "89.0"
+      },
+      {
+        "p": {
+          "name": "Learning Active Perception for Pixel-Space Reasoning via Visual-Intent Stratified GRPO",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/3757"
+        },
+        "c": "",
+        "n": "VIS-GRPO",
+        "d": "2026-09-08",
+        "m1": "88.5"
+      },
+      {
+        "p": {
+          "name": "Xiaomi-Lens-0 Technical Report",
+          "link": "https://arxiv.org/abs/2610.23279"
+        },
+        "c": "https://github.com/SeerRay-Lab/Xiaomi-Lens-0",
+        "n": "Xiaomi-Lens-0",
+        "d": "2026-10-16",
+        "m1": "87.4"
+      },
+      {
+        "p": {
+          "name": "LLaVA-OneVision-2: Towards Next-Generation Perceptual Intelligence",
+          "link": "https://arxiv.org/abs/2605.25979"
+        },
+        "c": "https://github.com/evolvinglmms-lab/llava-onevision-2",
+        "n": "LLaVA-OneVision-2 (8B)",
+        "d": "2026-05-25",
+        "m1": "85.9"
+      },
+      {
+        "p": {
+          "name": "Starve to Perceive: Taming Lazy Perception in VLMs with Constrained Visual Bandwidth",
+          "link": "https://arxiv.org/abs/2605.18603"
+        },
+        "c": "",
+        "n": "Starve to Perceive",
+        "d": "2026-05-18",
+        "m1": "85.86"
+      },
+      {
+        "p": {
+          "name": "SwimBird: Eliciting Switchable Reasoning Mode in Hybrid Autoregressive MLLMs",
+          "link": "https://arxiv.org/abs/2602.06040"
+        },
+        "c": "https://github.com/Accio-Lab/SwimBird",
+        "n": "SwimBird",
+        "d": "2026-02-05",
+        "m1": "85.5"
+      },
+      {
+        "p": {
+          "name": "Visual Para-Thinker: Divide-and-Conquer Reasoning for Visual Comprehension",
+          "link": "https://arxiv.org/abs/2602.13310"
+        },
+        "c": "https://github.com/xuhaoran1/Visual-Para-Thinker",
+        "n": "Visual Para-Thinker-7B",
+        "d": "2026-02-10",
+        "m1": "85.4"
+      },
+      {
+        "p": {
+          "name": "VisReflect: Latent Visual Reflection for Fine-Grained Perception in Long Visual Context",
+          "link": "https://arxiv.org/abs/2606.30288"
+        },
+        "c": "https://github.com/xiaoqian-shen/visreflect",
+        "n": "VisReflect-7B-Image",
+        "d": "2026-06-29",
+        "m1": "84.9"
+      },
+      {
+        "p": {
+          "name": "VisionLeaf: Entropy-Guided Leaf-First Reasoning for Efficient and Accurate Think-with-Image",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Gui_VisionLeaf_Entropy-Guided_Leaf-First_Reasoning_for_Efficient_and_Accurate_Think-with-Image_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "VisionLeaf (7B)",
+        "d": "2026-06-03",
+        "m1": "84.8"
+      },
+      {
+        "p": {
+          "name": "Monet: Reasoning in Latent Visual Space Beyond Images and Language",
+          "link": "https://arxiv.org/abs/2511.21395"
+        },
+        "c": "https://github.com/novaglow646/monet",
+        "n": "Monet-7B",
+        "d": "2025-11-26",
+        "m1": "83.25"
+      },
+      {
+        "p": {
+          "name": "Innovator-VL: A Multimodal Large Language Model for Scientific Discovery",
+          "link": "https://arxiv.org/abs/2601.19325"
+        },
+        "c": "https://github.com/InnovatorLM/Innovator-VL",
+        "n": "Innovator-VL (8B-Thinking)",
+        "d": "2026-01-27",
+        "m1": "81.68"
+      },
+      {
+        "p": {
           "name": "Instruction-Guided Visual Masking",
           "link": "https://arxiv.org/abs/2405.19783v2"
         },
@@ -62,6 +232,26 @@
         "n": "IVM-Enhanced GPT4-V",
         "d": "2024-05-30",
         "m1": "81.2"
+      },
+      {
+        "p": {
+          "name": "Reason Through the Latent! Making Latent Visual Reasoning Necessary",
+          "link": "https://arxiv.org/abs/2609.06746"
+        },
+        "c": "https://github.com/dmis-lab/CVRR",
+        "n": "CVRR (Qwen2.5-VL-7B)",
+        "d": "2026-09-06",
+        "m1": "81.2"
+      },
+      {
+        "p": {
+          "name": "ProLaViT: Learning Progressive Latent Visual Thoughts in Structured Latent Space",
+          "link": "https://arxiv.org/abs/2607.02907"
+        },
+        "c": "https://github.com/tencentbac/prolavit",
+        "n": "ProLaViT (Full)",
+        "d": "2026-07-03",
+        "m1": "80.11"
       },
       {
         "p": {
@@ -75,6 +265,16 @@
       },
       {
         "p": {
+          "name": "Penguin-VL: Exploring the Efficiency Limits of VLM with LLM-based Vision Encoders",
+          "link": "https://arxiv.org/abs/2603.06569"
+        },
+        "c": "https://github.com/tencent-ailab/Penguin-VL",
+        "n": "Penguin-VL 2B",
+        "d": "2026-03-06",
+        "m1": "74.9"
+      },
+      {
+        "p": {
           "name": "LLaVA-OneVision: Easy Visual Task Transfer",
           "link": "https://arxiv.org/abs/2408.03326v3"
         },
@@ -82,6 +282,46 @@
         "n": "LLaVA-OneVision7B",
         "d": "2024-08-06",
         "m1": "74.46"
+      },
+      {
+        "p": {
+          "name": "PerceptionDLM: Parallel Region Perception with Multimodal Diffusion Language Models",
+          "link": "https://arxiv.org/abs/2606.19534"
+        },
+        "c": "https://github.com/MSALab-PKU/PerceptionDLM",
+        "n": "PerceptionDLM-Base (8B)",
+        "d": "2026-06-17",
+        "m1": "73.3"
+      },
+      {
+        "p": {
+          "name": "Visual Para-Thinker: Divide-and-Conquer Reasoning for Visual Comprehension",
+          "link": "https://arxiv.org/abs/2602.13310"
+        },
+        "c": "https://github.com/xuhaoran1/Visual-Para-Thinker",
+        "n": "Visual Para-Thinker-3B",
+        "d": "2026-02-10",
+        "m1": "72.6"
+      },
+      {
+        "p": {
+          "name": "Look Where It Matters: High-Resolution Crops Retrieval for Efficient VLMs",
+          "link": "https://arxiv.org/abs/2603.16932"
+        },
+        "c": "https://github.com/NimrodShabtay/AwaRes",
+        "n": "AwaRes",
+        "d": "2026-03-14",
+        "m1": "71.2"
+      },
+      {
+        "p": {
+          "name": "Kwai Keye-VL Technical Report",
+          "link": "https://arxiv.org/abs/2507.01949"
+        },
+        "c": "https://github.com/kwai-keye/keye",
+        "n": "Keye-VL-8B",
+        "d": "2025-07-02",
+        "m1": "69.6"
       }
     ]
   }

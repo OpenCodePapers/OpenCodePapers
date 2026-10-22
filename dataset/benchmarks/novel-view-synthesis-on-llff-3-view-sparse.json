@@ -1,0 +1,252 @@
+{
+  "title": "novel-view-synthesis-on-llff-3-view-sparse",
+  "task-hierarchy": [
+    "Novel View Synthesis"
+  ],
+  "dataset-info": {
+    "link": "https://arxiv.org/abs/1905.00889",
+    "paper": "Local Light Field Fusion: Practical View Synthesis with Prescriptive Sampling Guidelines"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "PSNR",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "SSIM",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "LPIPS",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Generative Sparse-View Gaussian Splatting",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Kong_Generative_Sparse-View_Gaussian_Splatting_CVPR_2025_paper.html"
+        },
+        "c": "",
+        "n": "GS-GS",
+        "d": "2025-06-11",
+        "m1": "24.82",
+        "m2": "0.737",
+        "m3": "0.105"
+      },
+      {
+        "p": {
+          "name": "StereoGS: Sparse-View 3D Gaussian Splatting via Stereo Priors",
+          "link": "https://arxiv.org/abs/2606.30545"
+        },
+        "c": "https://github.com/stringerywh00/stereogs",
+        "n": "StereoGS (Ours*)",
+        "d": "2026-06-29",
+        "m1": "22.05",
+        "m2": "0.783",
+        "m3": "0.147"
+      },
+      {
+        "p": {
+          "name": "Confidence-Guided Multi-Scale Aggregation for Sparse-View High-Resolution 3D Gaussian Splatting",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhou_Confidence-Guided_Multi-Scale_Aggregation_for_Sparse-View_High-Resolution_3D_Gaussian_Splatting_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "CAGS",
+        "d": "2026-06-03",
+        "m1": "20.98",
+        "m2": "0.718",
+        "m3": "0.195"
+      },
+      {
+        "p": {
+          "name": "Improving Sparse-View 3DGS Generalization via Flat Minima Optimization",
+          "link": "https://arxiv.org/abs/2607.00885"
+        },
+        "c": "https://github.com/kangrnin/flatmings",
+        "n": "FlatMinGS",
+        "d": "2026-07-01",
+        "m1": "20.88",
+        "m2": "0.731",
+        "m3": "0.184"
+      },
+      {
+        "p": {
+          "name": "DropGaussian: Structural Regularization for Sparse-view Gaussian Splatting",
+          "link": "https://arxiv.org/abs/2504.00773"
+        },
+        "c": "",
+        "n": "DropGaussian",
+        "d": "2025-04-01",
+        "m1": "20.76",
+        "m2": "0.713",
+        "m3": "0.200"
+      },
+      {
+        "p": {
+          "name": "See In Detail: Enhancing Sparse-view 3D Gaussian Splatting with Local Depth and Semantic Regularization",
+          "link": "https://arxiv.org/abs/2501.11508"
+        },
+        "c": "",
+        "n": "SIDGaussian (extra data)",
+        "d": "2025-01-20",
+        "m1": "20.71",
+        "m2": "0.708",
+        "m3": "0.205"
+      },
+      {
+        "p": {
+          "name": "CoR-GS: Sparse-View 3D Gaussian Splatting via Co-Regularization",
+          "link": "https://arxiv.org/abs/2405.12110"
+        },
+        "c": "",
+        "n": "CoR-GS",
+        "d": "2024-05-20",
+        "m1": "20.45",
+        "m2": "0.712",
+        "m3": "0.196"
+      },
+      {
+        "p": {
+          "name": "FSGS: Real-Time Few-shot View Synthesis using Gaussian Splatting",
+          "link": "https://arxiv.org/abs/2312.00451"
+        },
+        "c": "https://github.com/vita-group/fsgs",
+        "n": "FSGS (extra data)",
+        "d": "2023-12-01",
+        "m1": "20.31",
+        "m2": "0.652",
+        "m3": "0.288"
+      },
+      {
+        "p": {
+          "name": "SparseNeRF: Distilling Depth Ranking for Few-shot Novel View Synthesis",
+          "link": "https://arxiv.org/abs/2303.16196"
+        },
+        "c": "https://github.com/Wanggcong/SparseNeRF",
+        "n": "SparseNeRF (extra data)",
+        "d": "2023-03-28",
+        "m1": "19.86",
+        "m2": "0.624",
+        "m3": "0.328"
+      },
+      {
+        "p": {
+          "name": "Uncertainty-guided Optimal Transport in Depth Supervised Sparse-View 3D Gaussian",
+          "link": "https://arxiv.org/abs/2405.19657"
+        },
+        "c": "",
+        "n": "UGOT (extra data)",
+        "d": "2024-05-30",
+        "m1": "19.77",
+        "m2": "0.625",
+        "m3": "0.273"
+      },
+      {
+        "p": {
+          "name": "FreeNeRF: Improving Few-shot Neural Rendering with Free Frequency Regularization",
+          "link": "https://arxiv.org/abs/2303.07418"
+        },
+        "c": "",
+        "n": "FreeNeRF",
+        "d": "2023-03-13",
+        "m1": "19.63",
+        "m2": "0.612",
+        "m3": "0.308"
+      },
+      {
+        "p": {
+          "name": "FlipNeRF: Flipped Reflection Rays for Few-shot Novel View Synthesis",
+          "link": "https://arxiv.org/abs/2306.17723"
+        },
+        "c": "https://github.com/shawn615/FlipNeRF",
+        "n": "FlipNeRF",
+        "d": "2023-06-30",
+        "m1": "19.34",
+        "m2": "0.631",
+        "m3": "0.235"
+      },
+      {
+        "p": {
+          "name": "Dense-SfM: Structure from Motion with Dense Consistent Matching",
+          "link": "https://arxiv.org/abs/2501.14277"
+        },
+        "c": "https://github.com/icetea-cv/densesfm-refine",
+        "n": "Dense-SfM (RoMa+Ours)",
+        "d": "2025-01-24",
+        "m1": "19.27",
+        "m2": "0.66",
+        "m3": "0.332"
+      },
+      {
+        "p": {
+          "name": "Learning with Unreliability: Fast Few-shot Voxel Radiance Fields with Relative Geometric Consistency",
+          "link": "https://arxiv.org/abs/2403.17638"
+        },
+        "c": "https://github.com/hkclynn/revorf",
+        "n": "ReVoRF",
+        "d": "2024-03-26",
+        "m1": "19.26",
+        "m2": "0.644",
+        "m3": "0.316"
+      },
+      {
+        "p": {
+          "name": "DNGaussian: Optimizing Sparse-View 3D Gaussian Radiance Fields with Global-Local Depth Normalization",
+          "link": "https://arxiv.org/abs/2403.06912"
+        },
+        "c": "",
+        "n": "DNGaussian (extra data)",
+        "d": "2024-03-11",
+        "m1": "19.12",
+        "m2": "0.591",
+        "m3": "0.294"
+      },
+      {
+        "p": {
+          "name": "RegNeRF: Regularizing Neural Radiance Fields for View Synthesis from Sparse Inputs",
+          "link": "https://arxiv.org/abs/2112.00724"
+        },
+        "c": "https://github.com/google-research/google-research/tree/master/regnerf",
+        "n": "RegNeRF (extra data)",
+        "d": "2021-12-01",
+        "m1": "19.08",
+        "m2": "0.587",
+        "m3": "0.336"
+      },
+      {
+        "p": {
+          "name": "EAP-GS: Efficient Augmentation of Pointcloud for 3D Gaussian Splatting in Few-shot Scene Reconstruction",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Dai_EAP-GS_Efficient_Augmentation_of_Pointcloud_for_3D_Gaussian_Splatting_in_CVPR_2025_paper.html"
+        },
+        "c": "https://github.com/osierddr/eap-gs",
+        "n": "EAP-GS",
+        "d": "2025-06-11",
+        "m1": "18.93",
+        "m2": "0.6399",
+        "m3": "0.1792"
+      }
+    ]
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "title": "navsim-on-navsim-v2-navhard",
+  "task-hierarchy": [
+    "Autonomous Driving",
+    "NavSim"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/autonomousvision/navsim",
+    "paper": "Pseudo-Simulation for Autonomous Driving"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "EPDMS",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Plug-and-Play Traffic Element Awareness for End-to-End Autonomous Driving",
+          "link": "https://arxiv.org/abs/2608.18035"
+        },
+        "c": "https://github.com/zzongzheng0918/te-aware-e2e-ad",
+        "n": "DrivoR (+SimScale) + Ours",
+        "d": "2026-08-18",
+        "m1": "57.9"
+      },
+      {
+        "p": {
+          "name": "DriveZero: End-to-End Driving Beyond Human Demonstrations",
+          "link": "https://arxiv.org/abs/2609.06055"
+        },
+        "c": "https://github.com/XiaomiAutoL3/DriveZero",
+        "n": "DriveZero-Scale",
+        "d": "2026-09-05",
+        "m1": "57.1"
+      },
+      {
+        "p": {
+          "name": "PriorEye: Geospatial Visual Priors for End-to-End Autonomous Driving",
+          "link": "https://arxiv.org/abs/2606.31830"
+        },
+        "c": "https://github.com/ori-mrg/prioreye",
+        "n": "DrivoR + PriorEye",
+        "d": "2026-06-30",
+        "m1": "49.6"
+      },
+      {
+        "p": {
+          "name": "SimScale: Learning to Drive via Real-World Simulation at Scale",
+          "link": "https://arxiv.org/abs/2511.23369"
+        },
+        "c": "https://github.com/opendrivelab/simscale",
+        "n": "GTRS-Dense (V2-99) with SimScale (reward-only scoring)",
+        "d": "2025-11-28",
+        "m1": "48.0"
+      },
+      {
+        "p": {
+          "name": "SimWAM: A Simple World Action Model for End-to-End Autonomous Driving",
+          "link": "https://arxiv.org/abs/2608.07468"
+        },
+        "c": "https://github.com/H-EmbodVis/SimWAM",
+        "n": "SimWAM",
+        "d": "2026-08-07",
+        "m1": "37.6"
+      },
+      {
+        "p": {
+          "name": "HAD: Combining Hierarchical Diffusion with Metric-Decoupled RL for End-to-End Driving",
+          "link": "https://arxiv.org/abs/2604.03581"
+        },
+        "c": "",
+        "n": "HAD-L",
+        "d": "2026-04-04",
+        "m1": "32.3"
+      }
+    ]
+  }
+}

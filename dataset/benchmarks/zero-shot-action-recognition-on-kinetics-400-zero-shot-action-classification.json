@@ -1,0 +1,89 @@
+{
+  "title": "zero-shot-action-recognition-on-kinetics-400-zero-shot-action-classification",
+  "task-hierarchy": [
+    "Action Recognition",
+    "Zero-Shot Action Recognition"
+  ],
+  "dataset-info": {
+    "link": "https://arxiv.org/abs/1705.06950",
+    "paper": "The Kinetics Human Action Video Dataset"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Pushing the Frontier of Audiovisual Perception with Large-Scale Multimodal Correspondence Learning",
+          "link": "https://arxiv.org/abs/2512.19687"
+        },
+        "c": "https://github.com/facebookresearch/perception_models",
+        "n": "PE-AV Large (30 fps, zero-shot) (extra data)",
+        "d": "2025-12-22",
+        "m1": "78.9"
+      },
+      {
+        "p": {
+          "name": "MoE-ViE: Mixture of Experts Vision Encoder for Efficient Image and Video Understanding",
+          "link": "https://arxiv.org/abs/2608.17402"
+        },
+        "c": "https://github.com/facebookresearch/moe_vie",
+        "n": "MoE-ViE-H/14",
+        "d": "2026-08-18",
+        "m1": "76.9"
+      },
+      {
+        "p": {
+          "name": "Action100M: A Large-scale Video Action Dataset",
+          "link": "https://arxiv.org/abs/2601.10592"
+        },
+        "c": "https://github.com/facebookresearch/Action100M",
+        "n": "VL-JEPA Stage 3 ViT-L/256 (32 frames, zero-shot) (extra data)",
+        "d": "2026-01-15",
+        "m1": "64.8"
+      },
+      {
+        "p": {
+          "name": "BT-Adapter: Video Conversation is Feasible Without Video Instruction Tuning",
+          "link": "https://arxiv.org/abs/2309.15785v2"
+        },
+        "c": "https://github.com/farewellthree/BT-Adapter",
+        "n": "BT-Adapter",
+        "d": "2023-09-27",
+        "m1": "64.3"
+      },
+      {
+        "p": {
+          "name": "InternVideo: General Video Foundation Models via Generative and Discriminative Learning",
+          "link": "https://arxiv.org/abs/2212.03191v2"
+        },
+        "c": "https://github.com/opengvlab/internvideo",
+        "n": "InternVideo (zero-shot)",
+        "d": "2022-12-06",
+        "m1": "64.25"
+      }
+    ]
+  }
+}

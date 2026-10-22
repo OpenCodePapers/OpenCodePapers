@@ -1,0 +1,122 @@
+{
+  "title": "single-image-deraining-on-rain100l-rgb",
+  "task-hierarchy": [
+    "Image Restoration",
+    "Rain Removal",
+    "Single Image Deraining"
+  ],
+  "dataset-info": {
+    "link": "http://www.icst.pku.edu.cn/struct/Projects/joint_rain_removal.html",
+    "paper": "Deep Joint Rain Detection and Removal from a Single Image"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "PSNR",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "SSIM",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Universal Image Restoration Pre-training via Masked Degradation Classification",
+          "link": "https://arxiv.org/abs/2510.13282"
+        },
+        "c": "https://github.com/MILab-PKU/MaskDCPT",
+        "n": "MaskDCPT-NAFNet (5D joint) (extra data)",
+        "d": "2025-10-15",
+        "m1": "39.92",
+        "m2": "0.986"
+      },
+      {
+        "p": {
+          "name": "AdaIR: Adaptive All-in-One Image Restoration via Frequency Mining and Modulation",
+          "link": "https://arxiv.org/abs/2403.14614v1"
+        },
+        "c": "https://github.com/c-yn/adair",
+        "n": "AdaIR (single-task deraining)",
+        "d": "2024-03-21",
+        "m1": "38.90",
+        "m2": "0.985"
+      },
+      {
+        "p": {
+          "name": "RAM++: Robust Representation Learning via Adaptive Mask for All-in-One Image Restoration",
+          "link": "https://arxiv.org/abs/2509.12039"
+        },
+        "c": "https://github.com/DragonisCV/RAM",
+        "n": "RAM++ (3-task, 100% fine-tuned) (extra data)",
+        "d": "2025-09-15",
+        "m1": "38.87",
+        "m2": "0.985"
+      },
+      {
+        "p": {
+          "name": "InstructIR: High-Quality Image Restoration Following Human Instructions",
+          "link": "https://arxiv.org/abs/2401.16468"
+        },
+        "c": "https://github.com/mv-lab/InstructIR",
+        "n": "InstructIR-3D (extra data)",
+        "d": "2024-01-29",
+        "m1": "37.98",
+        "m2": "0.978"
+      },
+      {
+        "p": {
+          "name": "PromptIR: Prompting for All-in-One Blind Image Restoration",
+          "link": "https://arxiv.org/abs/2306.13090v1"
+        },
+        "c": "https://github.com/va1shn9v/promptir",
+        "n": "PromptIR (single-task)",
+        "d": "2023-06-22",
+        "m1": "37.04",
+        "m2": "0.979"
+      },
+      {
+        "p": {
+          "name": "Controlling Vision-Language Models for Multi-Task Image Restoration",
+          "link": "https://arxiv.org/abs/2310.01018v2"
+        },
+        "c": "https://github.com/algolzw/daclip-uir",
+        "n": "IR-SDE + DA-CLIP (extra data)",
+        "d": "2023-10-02",
+        "m1": "36.61",
+        "m2": "0.967"
+      },
+      {
+        "p": {
+          "name": "PixWizard: Versatile Image-to-Image Visual Assistant with Open-Language Instructions",
+          "link": "https://arxiv.org/abs/2409.15278"
+        },
+        "c": "https://github.com/afeng-x/pixwizard",
+        "n": "PixWizard (extra data)",
+        "d": "2024-09-23",
+        "m1": "31.43",
+        "m2": "0.917"
+      }
+    ]
+  }
+}

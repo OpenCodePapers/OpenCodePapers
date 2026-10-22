@@ -1,0 +1,197 @@
+{
+  "title": "text-to-speech-synthesis-on-seed-tts-test-hard",
+  "task-hierarchy": [
+    "Speech Synthesis",
+    "Text-To-Speech Synthesis"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/BytedanceSpeech/seed-tts-eval",
+    "paper": "Seed-TTS: A Family of High-Quality Versatile Speech Generation Models"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "CER",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Speaker Similarity",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "CosyVoice 3: Towards In-the-wild Speech Generation via Scaling-up and Post-training",
+          "link": "https://arxiv.org/abs/2505.17589"
+        },
+        "c": "https://github.com/funaudiollm/cosyvoice",
+        "n": "CosyVoice 3-0.5B RL",
+        "d": "2025-05-23",
+        "m1": "5.09",
+        "m2": "0.75"
+      },
+      {
+        "p": {
+          "name": "AuK Technical Report: An Open-Source Foundational Model for Speech Generation and Editing",
+          "link": "https://arxiv.org/abs/2609.08936"
+        },
+        "c": "https://github.com/Tencent-Hunyuan/AuK",
+        "n": "AuK",
+        "d": "2026-09-08",
+        "m1": "5.91",
+        "m2": "0.782"
+      },
+      {
+        "p": {
+          "name": "Fish Audio S2 Technical Report",
+          "link": "https://arxiv.org/abs/2603.08823"
+        },
+        "c": "https://github.com/fishaudio/fish-speech",
+        "n": "Fish Audio S2",
+        "d": "2026-03-09",
+        "m1": "5.99"
+      },
+      {
+        "p": {
+          "name": "AuK Technical Report: An Open-Source Foundational Model for Speech Generation and Editing",
+          "link": "https://arxiv.org/abs/2609.08936"
+        },
+        "c": "https://github.com/Tencent-Hunyuan/AuK",
+        "n": "AuK-Flash",
+        "d": "2026-09-08",
+        "m2": "0.784",
+        "m1": "6.43"
+      },
+      {
+        "p": {
+          "name": "CosyVoice 3: Towards In-the-wild Speech Generation via Scaling-up and Post-training",
+          "link": "https://arxiv.org/abs/2505.17589"
+        },
+        "c": "https://github.com/funaudiollm/cosyvoice",
+        "n": "Qwen2.5-Omni-7B RL",
+        "d": "2025-05-23",
+        "m1": "6.54",
+        "m2": "0.752"
+      },
+      {
+        "p": {
+          "name": "CosyVoice 2: Scalable Streaming Speech Synthesis with Large Language Models",
+          "link": "https://arxiv.org/abs/2412.10117"
+        },
+        "c": "https://github.com/funaudiollm/cosyvoice",
+        "n": "CosyVoice 2",
+        "d": "2024-12-13",
+        "m1": "6.83",
+        "m2": "0.724"
+      },
+      {
+        "p": {
+          "name": "CosyVoice 3: Towards In-the-wild Speech Generation via Scaling-up and Post-training",
+          "link": "https://arxiv.org/abs/2505.17589"
+        },
+        "c": "https://github.com/funaudiollm/cosyvoice",
+        "n": "Seed-TTS",
+        "d": "2025-05-23",
+        "m1": "7.59",
+        "m2": "0.776"
+      },
+      {
+        "p": {
+          "name": "CosyVoice 3: Towards In-the-wild Speech Generation via Scaling-up and Post-training",
+          "link": "https://arxiv.org/abs/2505.17589"
+        },
+        "c": "https://github.com/funaudiollm/cosyvoice",
+        "n": "Qwen2.5-Omni-7B",
+        "d": "2025-05-23",
+        "m1": "7.97",
+        "m2": "0.747"
+      },
+      {
+        "p": {
+          "name": "CosyVoice 3: Towards In-the-wild Speech Generation via Scaling-up and Post-training",
+          "link": "https://arxiv.org/abs/2505.17589"
+        },
+        "c": "https://github.com/funaudiollm/cosyvoice",
+        "n": "F5-TTS (32 NFE)",
+        "d": "2025-05-23",
+        "m1": "8.67",
+        "m2": "0.713"
+      },
+      {
+        "p": {
+          "name": "CosyVoice 3: Towards In-the-wild Speech Generation via Scaling-up and Post-training",
+          "link": "https://arxiv.org/abs/2505.17589"
+        },
+        "c": "https://github.com/funaudiollm/cosyvoice",
+        "n": "F5R-TTS",
+        "d": "2025-05-23",
+        "m1": "8.79",
+        "m2": "0.718"
+      },
+      {
+        "p": {
+          "name": "VoxCPM: Tokenizer-Free TTS for Context-Aware Speech Generation and True-to-Life Voice Cloning",
+          "link": "https://arxiv.org/abs/2509.24650"
+        },
+        "c": "",
+        "n": "VoxCPM",
+        "d": "2025-09-29",
+        "m1": "8.87",
+        "m2": "0.73"
+      },
+      {
+        "p": {
+          "name": "CosyVoice 3: Towards In-the-wild Speech Generation via Scaling-up and Post-training",
+          "link": "https://arxiv.org/abs/2505.17589"
+        },
+        "c": "https://github.com/funaudiollm/cosyvoice",
+        "n": "MaskGCT",
+        "d": "2025-05-23",
+        "m1": "10.27",
+        "m2": "0.748"
+      },
+      {
+        "p": {
+          "name": "CosyVoice 3: Towards In-the-wild Speech Generation via Scaling-up and Post-training",
+          "link": "https://arxiv.org/abs/2505.17589"
+        },
+        "c": "https://github.com/funaudiollm/cosyvoice",
+        "n": "CosyVoice",
+        "d": "2025-05-23",
+        "m1": "11.75",
+        "m2": "0.709"
+      },
+      {
+        "p": {
+          "name": "CosyVoice 3: Towards In-the-wild Speech Generation via Scaling-up and Post-training",
+          "link": "https://arxiv.org/abs/2505.17589"
+        },
+        "c": "https://github.com/funaudiollm/cosyvoice",
+        "n": "FireRedTTS",
+        "d": "2025-05-23",
+        "m1": "17.45",
+        "m2": "0.621"
+      }
+    ]
+  }
+}

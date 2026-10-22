@@ -1,0 +1,108 @@
+{
+  "title": "question-answering-on-c-simpleqa",
+  "task-hierarchy": [
+    "Question Answering"
+  ],
+  "dataset-info": {
+    "link": "https://huggingface.co/datasets/OpenStellarTeam/Chinese-SimpleQA",
+    "paper": "Chinese SimpleQA: A Chinese Factuality Evaluation for Large Language Models"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence",
+          "link": "https://arxiv.org/abs/2606.19348"
+        },
+        "c": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+        "n": "DeepSeek-V4-Pro Max",
+        "d": "2026-04-26",
+        "m1": "84.4"
+      },
+      {
+        "p": {
+          "name": "Ling and Ring 2.6 Technical Report: Efficient and Instant Agentic Intelligence at Trillion-Parameter Scale",
+          "link": "https://arxiv.org/abs/2606.15079"
+        },
+        "c": "https://github.com/inclusionai/ling-v2",
+        "n": "Ling-2.6-1T",
+        "d": "2026-06-13",
+        "m1": "76.53"
+      },
+      {
+        "p": {
+          "name": "MiniMax-01: Scaling Foundation Models with Lightning Attention",
+          "link": "https://arxiv.org/abs/2501.08313"
+        },
+        "c": "https://huggingface.co/MiniMaxAI/MiniMax-Text-01",
+        "n": "MiniMax-Text-01",
+        "d": "2025-01-14",
+        "m1": "67.4"
+      },
+      {
+        "p": {
+          "name": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2501.12948v1"
+        },
+        "c": "https://github.com/deepseek-ai/deepseek-r1",
+        "n": "DeepSeek-R1-Zero",
+        "d": "2025-01-22",
+        "m1": "66.4"
+      },
+      {
+        "p": {
+          "name": "DeepSeek-V3 Technical Report",
+          "link": "https://arxiv.org/abs/2412.19437"
+        },
+        "c": "https://github.com/deepseek-ai/DeepSeek-V3",
+        "n": "DeepSeek-V3",
+        "d": "2024-12-27",
+        "m1": "64.8"
+      },
+      {
+        "p": {
+          "name": "Ling and Ring 2.6 Technical Report: Efficient and Instant Agentic Intelligence at Trillion-Parameter Scale",
+          "link": "https://arxiv.org/abs/2606.15079"
+        },
+        "c": "https://github.com/inclusionai/ling-v2",
+        "n": "Ling-2.6-flash",
+        "d": "2026-06-13",
+        "m1": "60.23"
+      },
+      {
+        "p": {
+          "name": "dots.llm1 Technical Report",
+          "link": "https://arxiv.org/abs/2506.05767"
+        },
+        "c": "https://huggingface.co/rednote-hilab/dots.llm1.inst",
+        "n": "dots.llm1.inst",
+        "d": "2025-06-06",
+        "m1": "56.7"
+      }
+    ]
+  }
+}

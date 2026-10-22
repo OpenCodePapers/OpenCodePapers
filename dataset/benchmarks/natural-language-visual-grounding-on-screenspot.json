@@ -36,6 +36,16 @@
     "items": [
       {
         "p": {
+          "name": "Vero: An Open RL Recipe for General Visual Reasoning",
+          "link": "https://arxiv.org/abs/2604.04917"
+        },
+        "c": "https://github.com/zlab-princeton/vero",
+        "n": "Vero-Qwen3I-8B",
+        "d": "2026-04-06",
+        "m1": "93.6"
+      },
+      {
+        "p": {
           "name": "GUI-G$^2$: Gaussian Reward Modeling for GUI Grounding",
           "link": "https://arxiv.org/abs/2507.15846"
         },
@@ -76,6 +86,66 @@
       },
       {
         "p": {
+          "name": "UItron: Foundational GUI Agent with Advanced Perception and Planning",
+          "link": "https://arxiv.org/abs/2508.21767"
+        },
+        "c": "https://github.com/UITron-hub/UItron",
+        "n": "UItron-72B",
+        "d": "2025-08-29",
+        "m1": "90.3"
+      },
+      {
+        "p": {
+          "name": "Nemotron 3 Nano Omni: Efficient and Open Multimodal Intelligence",
+          "link": "https://arxiv.org/abs/2604.24954"
+        },
+        "c": "https://github.com/nvidia-nemo/megatron-bridge",
+        "n": "Nemotron 3 Nano Omni",
+        "d": "2026-04-27",
+        "m1": "90.3"
+      },
+      {
+        "p": {
+          "name": "GUI-Actor: Coordinate-Free Visual Grounding for GUI Agents",
+          "link": "https://arxiv.org/abs/2506.03143"
+        },
+        "c": "https://github.com/microsoft/gui-actor",
+        "n": "GUI-Actor-7B-Qwen2-VL + Verifier",
+        "d": "2025-06-03",
+        "m1": "89.7"
+      },
+      {
+        "p": {
+          "name": "UI-TARS: Pioneering Automated GUI Interaction with Native Agents",
+          "link": "https://arxiv.org/abs/2501.12326"
+        },
+        "c": "https://github.com/bytedance/ui-tars",
+        "n": "UI-TARS-7B-SFT",
+        "d": "2025-01-21",
+        "m1": "89.5"
+      },
+      {
+        "p": {
+          "name": "UI-R1: Enhancing Efficient Action Prediction of GUI Agents by Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2503.21620"
+        },
+        "c": "https://github.com/lll6gg/ui-r1",
+        "n": "UI-R1-E-3B",
+        "d": "2025-03-27",
+        "m1": "89.2"
+      },
+      {
+        "p": {
+          "name": "MolmoWeb: Open Visual Web Agent and Open Data for the Open Web",
+          "link": "https://arxiv.org/abs/2604.08516"
+        },
+        "c": "https://github.com/allenai/molmoweb",
+        "n": "MolmoWeb-Ground (8B)",
+        "d": "2026-04-09",
+        "m1": "88.7"
+      },
+      {
+        "p": {
           "name": "Enhancing Trustworthy GUI Grounding via Self-Critiqued Reinforcement Learning",
           "link": "https://arxiv.org/abs/2510.27266"
         },
@@ -86,6 +156,36 @@
       },
       {
         "p": {
+          "name": "Enhancing Visual Grounding for GUI Agents via Self-Evolutionary Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2505.12370"
+        },
+        "c": "https://github.com/yxb-nku/se-gui",
+        "n": "SE-GUI-7B (extra data)",
+        "d": "2025-05-18",
+        "m1": "88.2"
+      },
+      {
+        "p": {
+          "name": "InfiGUI-R1: Advancing Multimodal GUI Agents from Reactive Actors to Deliberative Reasoners",
+          "link": "https://arxiv.org/abs/2504.14239"
+        },
+        "c": "https://github.com/reallm-labs/infigui-r1",
+        "n": "InfiGUI-R1-3B (extra data)",
+        "d": "2025-04-19",
+        "m1": "87.5"
+      },
+      {
+        "p": {
+          "name": "MiMo-VL Technical Report",
+          "link": "https://arxiv.org/abs/2506.03569"
+        },
+        "c": "https://github.com/xiaomimimo/mimo-vl",
+        "n": "MiMo-VL-7B-SFT",
+        "d": "2025-06-04",
+        "m1": "87.3"
+      },
+      {
+        "p": {
           "name": "BTL-UI: Blink-Think-Link Reasoning Model for GUI Agent",
           "link": "https://arxiv.org/abs/2509.15566"
         },
@@ -93,6 +193,16 @@
         "n": "BTL-UI (7B)",
         "d": "2025-09-19",
         "m1": "87.2"
+      },
+      {
+        "p": {
+          "name": "Fara-7B: An Efficient Agentic Model for Computer Use",
+          "link": "https://arxiv.org/abs/2511.19663"
+        },
+        "c": "https://github.com/microsoft/fara",
+        "n": "Fara-7B",
+        "d": "2025-11-24",
+        "m1": "86.7"
       },
       {
         "p": {
@@ -176,6 +286,26 @@
       },
       {
         "p": {
+          "name": "Continual GUI Agents",
+          "link": "https://arxiv.org/abs/2601.20732"
+        },
+        "c": "https://github.com/xavierliu34/gui-aif",
+        "n": "GUI-AiF (Qwen2.5VL-3B)",
+        "d": "2026-01-28",
+        "m1": "78.9"
+      },
+      {
+        "p": {
+          "name": "GoClick: Lightweight Element Grounding Model for Autonomous GUI Interaction",
+          "link": "https://arxiv.org/abs/2604.23941"
+        },
+        "c": "https://github.com/ZJULiHongxin/GoClick",
+        "n": "GoClick-L (0.8B)",
+        "d": "2026-04-27",
+        "m1": "78.5"
+      },
+      {
+        "p": {
           "name": "Navigating the Digital World as Humans Do: Universal Visual Grounding for GUI Agents",
           "link": "https://arxiv.org/abs/2410.05243v1"
         },
@@ -183,6 +313,16 @@
         "n": "UGround-V1-2B",
         "d": "2024-10-07",
         "m1": "77.67"
+      },
+      {
+        "p": {
+          "name": "InfiGUIAgent: A Multimodal Generalist GUI Agent with Native Reasoning and Reflection",
+          "link": "https://arxiv.org/abs/2501.04575"
+        },
+        "c": "https://github.com/reallm-labs/infiguiagent",
+        "n": "InfiGUIAgent-2B",
+        "d": "2025-01-08",
+        "m1": "76.3"
       },
       {
         "p": {

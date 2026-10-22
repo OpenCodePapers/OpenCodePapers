@@ -1,0 +1,149 @@
+{
+  "title": "audio-visual-question-answering-on-omnivideobench",
+  "task-hierarchy": [
+    "Audio Question Answering",
+    "Audio-visual Question Answering"
+  ],
+  "dataset-info": {
+    "link": "https://omnivideobench.github.io/omnivideobench_home/",
+    "paper": "OmniVideoBench: Towards Audio-Visual Understanding Evaluation for Omni MLLMs"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "OmniAgent: Audio-Guided Active Perception Agent for Omnimodal Audio-Video Understanding",
+          "link": "https://arxiv.org/abs/2512.23646"
+        },
+        "c": "https://github.com/kd-tao/omniagent",
+        "n": "OmniAgent",
+        "d": "2025-12-29",
+        "m1": "59.1"
+      },
+      {
+        "p": {
+          "name": "OmniReasoning: Pushing the Limits of Audio-Visual Joint Reasoning",
+          "link": "https://arxiv.org/abs/2609.39490"
+        },
+        "c": "https://github.com/PKU-VaLuE-Lab/OmniReasoning",
+        "n": "OmniReasoning-30B-A3B (extra data)",
+        "d": "2026-09-30",
+        "m1": "50.0"
+      },
+      {
+        "p": {
+          "name": "OmniSeek: Native Tool Integration for Multi-turn Audio-Visual Reasoning",
+          "link": "https://arxiv.org/abs/2610.02181"
+        },
+        "c": "",
+        "n": "OmniSeek (ours)",
+        "d": "2026-10-01",
+        "m1": "47.7"
+      },
+      {
+        "p": {
+          "name": "Omni-Streaming Thinking",
+          "link": "https://arxiv.org/abs/2609.15128"
+        },
+        "c": "https://github.com/enjundu/ost",
+        "n": "OST",
+        "d": "2026-09-14",
+        "m1": "46.6"
+      },
+      {
+        "p": {
+          "name": "OmniJigsaw: Enhancing Omni-Modal Reasoning via Modality-Orchestrated Reordering",
+          "link": "https://arxiv.org/abs/2604.08209"
+        },
+        "c": "https://github.com/aim-uofa/OmniJigsaw",
+        "n": "OmniJigsaw (CMM)",
+        "d": "2026-04-09",
+        "m1": "40.50"
+      },
+      {
+        "p": {
+          "name": "Realtime-Venus: A full-duplex interaction system with asynchronous delegation",
+          "link": "https://arxiv.org/abs/2609.13814"
+        },
+        "c": "",
+        "n": "Realtime-Venus-Omni",
+        "d": "2026-09-12",
+        "m1": "39.2"
+      },
+      {
+        "p": {
+          "name": "CogniRoute: Learning to Route Social Evidence in Omni-Modal Models",
+          "link": "https://arxiv.org/abs/2606.20970"
+        },
+        "c": "",
+        "n": "CogniRoute",
+        "d": "2026-06-18",
+        "m1": "38.9"
+      },
+      {
+        "p": {
+          "name": "Native Active Perception as Reasoning for Omni-Modal Understanding",
+          "link": "https://arxiv.org/abs/2606.19341"
+        },
+        "c": "https://github.com/harryhsing/OmniAgent",
+        "n": "OmniAgent-RL-7B",
+        "d": "2026-06-17",
+        "m1": "37.1"
+      },
+      {
+        "p": {
+          "name": "FutureOmni: Evaluating Future Forecasting from Omni-Modal Context for Multimodal LLMs",
+          "link": "https://arxiv.org/abs/2601.13836"
+        },
+        "c": "https://github.com/OpenMOSS/FutureOmni",
+        "n": "Ola (7B) +OFF",
+        "d": "2026-01-20",
+        "m1": "36.9"
+      },
+      {
+        "p": {
+          "name": "LatentOmni: Rethinking Omni-Modal Understanding via Unified Audio-Visual Latent Reasoning",
+          "link": "https://arxiv.org/abs/2605.22012"
+        },
+        "c": "https://github.com/yfanDai/LatentOmni",
+        "n": "LatentOmni",
+        "d": "2026-05-21",
+        "m1": "35.4"
+      },
+      {
+        "p": {
+          "name": "Uni-MoE-2.0-Omni: Scaling Language-Centric Omnimodal Large Model with Advanced MoE, Training and Data",
+          "link": "https://arxiv.org/abs/2511.12609"
+        },
+        "c": "https://github.com/HITsz-TMG/Uni-MoE",
+        "n": "Uni-MoE-2.0-Omni",
+        "d": "2025-11-16",
+        "m1": "35.1"
+      }
+    ]
+  }
+}

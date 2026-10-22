@@ -1,0 +1,79 @@
+{
+  "title": "image-super-resolution-on-urban100-2x-upscaling-lightweight",
+  "task-hierarchy": [
+    "Super-Resolution",
+    "Image Super-Resolution"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/jbhuang0604/SelfExSR",
+    "paper": ""
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "PSNR",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "CUST : Clustered Unit-level Similarity Transformer for Lightweight Image Super-Resolution",
+          "link": "https://arxiv.org/abs/2607.11088"
+        },
+        "c": "https://github.com/jwgdmkj/cust",
+        "n": "CUST-Base",
+        "d": "2026-07-13",
+        "m1": "33.25"
+      },
+      {
+        "p": {
+          "name": "TSP-Mamba: The Travelling Salesman Problem Meets Mamba for Image Super-resolution and Beyond",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhou_TSP-Mamba_The_Travelling_Salesman_Problem_Meets_Mamba_for_Image_Super-resolution_CVPR_2025_paper.html"
+        },
+        "c": "",
+        "n": "TSP-Mamba-Small",
+        "d": "2025-06-11",
+        "m1": "33.18"
+      },
+      {
+        "p": {
+          "name": "Image Processing GNN: Breaking Rigidity in Super-Resolution",
+          "link": "http://openaccess.thecvf.com//content/CVPR2024/html/Tian_Image_Processing_GNN_Breaking_Rigidity_in_Super-Resolution_CVPR_2024_paper.html"
+        },
+        "c": "https://github.com/huawei-noah/Efficient-Computing",
+        "n": "IPG-Tiny",
+        "d": "2024-01-01",
+        "m1": "33.04"
+      },
+      {
+        "p": {
+          "name": "IAFMNet: Information-Aware Feature Modulation for Efficient Super-Resolution",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Xu_IAFMNet_Information-Aware_Feature_Modulation_for_Efficient_Super-Resolution_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "IAFMNet",
+        "d": "2026-06-03",
+        "m1": "32.52"
+      }
+    ]
+  }
+}

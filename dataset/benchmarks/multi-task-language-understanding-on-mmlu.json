@@ -36,6 +36,16 @@
     "items": [
       {
         "p": {
+          "name": "GLM-4.5: Agentic, Reasoning, and Coding (ARC) Foundation Models",
+          "link": "https://arxiv.org/abs/2508.06471"
+        },
+        "c": "https://github.com/zai-org/GLM-4.5",
+        "n": "GLM-4.5 (355B)",
+        "d": "2025-08-08",
+        "m1": "90.0"
+      },
+      {
+        "p": {
           "name": "GPT-4o as the Gold Standard: A Scalable and General Purpose Approach to Filter Language Model Pretraining Data",
           "link": "https://arxiv.org/abs/2410.02755v3"
         },
@@ -43,6 +53,16 @@
         "n": "GPT-4 o1(300b)",
         "d": "2024-10-03",
         "m1": "87"
+      },
+      {
+        "p": {
+          "name": "Introspective Diffusion Language Models",
+          "link": "https://arxiv.org/abs/2604.11035"
+        },
+        "c": "https://github.com/Introspective-Diffusion/I-DLM",
+        "n": "I-DLM-32B",
+        "d": "2026-04-13",
+        "m1": "86.8"
       },
       {
         "p": {
@@ -90,6 +110,26 @@
       },
       {
         "p": {
+          "name": "Apertus 1.5: From Open Text Models to Open Multimodal Reasoners",
+          "link": "https://arxiv.org/abs/2610.15542"
+        },
+        "c": "",
+        "n": "Apertus 1.5 70B",
+        "d": "2026-10-11",
+        "m1": "77.2"
+      },
+      {
+        "p": {
+          "name": "MiniCPM-o 4.5: Towards Real-Time Full-Duplex Omni-Modal Interaction",
+          "link": "https://arxiv.org/abs/2604.27393"
+        },
+        "c": "https://github.com/OpenBMB/MiniCPM-o",
+        "n": "MiniCPM-o 4.5-Instruct",
+        "d": "2026-04-30",
+        "m1": "77.0"
+      },
+      {
+        "p": {
           "name": "The Claude 3 Model Family: Opus, Sonnet, Haiku",
           "link": "https://www.anthropic.com/news/claude-3-family"
         },
@@ -97,6 +137,26 @@
         "n": "Claude 3 Haiku (5-shot)",
         "d": "2024-03-04",
         "m1": "75.2"
+      },
+      {
+        "p": {
+          "name": "Improved Large Language Diffusion Models",
+          "link": "https://arxiv.org/abs/2606.25331"
+        },
+        "c": "https://github.com/ml-gsai/llada",
+        "n": "iLLaDA 8B Base",
+        "d": "2026-06-24",
+        "m1": "74.8"
+      },
+      {
+        "p": {
+          "name": "PRISM: PRIvileged Sibling-guided Multi-Agent Topology Design",
+          "link": "https://arxiv.org/abs/2610.20628"
+        },
+        "c": "",
+        "n": "PRISM",
+        "d": "2026-09-29",
+        "m1": "73.94"
       },
       {
         "p": {
@@ -130,6 +190,16 @@
       },
       {
         "p": {
+          "name": "Improved Large Language Diffusion Models",
+          "link": "https://arxiv.org/abs/2606.25331"
+        },
+        "c": "https://github.com/ml-gsai/llada",
+        "n": "iLLaDA 8B Instruct",
+        "d": "2026-06-24",
+        "m1": "71.6"
+      },
+      {
+        "p": {
           "name": "Mixtral of Experts",
           "link": "https://arxiv.org/abs/2401.04088v1"
         },
@@ -150,6 +220,26 @@
       },
       {
         "p": {
+          "name": "Dream 7B: Diffusion Large Language Models",
+          "link": "https://arxiv.org/abs/2508.15487"
+        },
+        "c": "",
+        "n": "Dream 7B (5-shot)",
+        "d": "2025-08-21",
+        "m1": "69.5"
+      },
+      {
+        "p": {
+          "name": "PaLM: Scaling Language Modeling with Pathways",
+          "link": "https://arxiv.org/abs/2204.02311v5"
+        },
+        "c": "https://github.com/lucidrains/CoCa-pytorch",
+        "n": "PaLM 540B",
+        "d": "2022-04-05",
+        "m1": "69.3"
+      },
+      {
+        "p": {
           "name": "LLaMA: Open and Efficient Foundation Language Models",
           "link": "https://arxiv.org/abs/2302.13971v1"
         },
@@ -160,6 +250,16 @@
       },
       {
         "p": {
+          "name": "Stay Unique, Stay Efficient: Preserving Model Personality in Multi-Task Merging",
+          "link": "https://arxiv.org/abs/2512.01461"
+        },
+        "c": "https://github.com/krumpguo/dts",
+        "n": "DTS-D (Qwen-14B)",
+        "d": "2025-12-01",
+        "m1": "68.32"
+      },
+      {
+        "p": {
           "name": "Training Compute-Optimal Large Language Models",
           "link": "https://arxiv.org/abs/2203.15556v1"
         },
@@ -167,6 +267,56 @@
         "n": "chatgpt/gpt3.5(20B)",
         "d": "2022-03-29",
         "m1": "67.5"
+      },
+      {
+        "p": {
+          "name": "Dream 7B: Diffusion Large Language Models",
+          "link": "https://arxiv.org/abs/2508.15487"
+        },
+        "c": "",
+        "n": "Dream-Instruct 7B (4-shot)",
+        "d": "2025-08-21",
+        "m1": "67.0"
+      },
+      {
+        "p": {
+          "name": "Towards Looped Models Done Right, Part I: Topology, Input Injection, Recurrent-State Design",
+          "link": "https://arxiv.org/abs/2610.23036"
+        },
+        "c": "https://github.com/ifm-ai/xllm-loop",
+        "n": "Huginn MoE (8.0B resident, 0.8B active)",
+        "d": "2026-10-16",
+        "m1": "66.81"
+      },
+      {
+        "p": {
+          "name": "Large Language Diffusion Models",
+          "link": "https://arxiv.org/abs/2502.09992"
+        },
+        "c": "https://github.com/ml-gsai/llada",
+        "n": "LLaDA 8B Base (5-shot)",
+        "d": "2025-02-14",
+        "m1": "65.9"
+      },
+      {
+        "p": {
+          "name": "Large Language Diffusion Models",
+          "link": "https://arxiv.org/abs/2502.09992"
+        },
+        "c": "https://github.com/ml-gsai/llada",
+        "n": "LLaDA 8B Instruct (5-shot)",
+        "d": "2025-02-14",
+        "m1": "65.5"
+      },
+      {
+        "p": {
+          "name": "Stepped MoE: Segment-Level Routing with Configurable Inference Complexity",
+          "link": "https://arxiv.org/abs/2610.07348"
+        },
+        "c": "",
+        "n": "Flexible S-MoE 4B/20B",
+        "d": "2026-10-05",
+        "m1": "65.0"
       },
       {
         "p": {
@@ -207,6 +357,16 @@
         "n": "Mistral 7B (5-shot)",
         "d": "2023-10-10",
         "m1": "60.1"
+      },
+      {
+        "p": {
+          "name": "Scaling Language Models: Methods, Analysis & Insights from Training Gopher",
+          "link": "https://arxiv.org/abs/2112.11446v2"
+        },
+        "c": "https://github.com/allenai/dolma",
+        "n": "Gopher 280B (5-shot)",
+        "d": "2021-12-08",
+        "m1": "60.0"
       },
       {
         "p": {
@@ -257,6 +417,16 @@
       },
       {
         "p": {
+          "name": "PaLM: Scaling Language Modeling with Pathways",
+          "link": "https://arxiv.org/abs/2204.02311v5"
+        },
+        "c": "https://github.com/lucidrains/CoCa-pytorch",
+        "n": "PaLM 62B",
+        "d": "2022-04-05",
+        "m1": "53.7"
+      },
+      {
+        "p": {
           "name": "Branch-Train-MiX: Mixing Expert LLMs into a Mixture-of-Experts LLM",
           "link": "https://arxiv.org/abs/2403.07816v1"
         },
@@ -274,6 +444,16 @@
         "n": "GAL 120B (zero-shot)",
         "d": "2022-11-16",
         "m1": "52.6"
+      },
+      {
+        "p": {
+          "name": "TimeBraid: Unifying Time Series and Language for Understanding and Forecasting",
+          "link": "https://arxiv.org/abs/2609.29792"
+        },
+        "c": "https://github.com/CharonWangg/TimeBraid",
+        "n": "TimeBraid-2.5B",
+        "d": "2026-09-24",
+        "m1": "50.68"
       },
       {
         "p": {
@@ -444,6 +624,16 @@
       },
       {
         "p": {
+          "name": "Scaling Language Models: Methods, Analysis & Insights from Training Gopher",
+          "link": "https://arxiv.org/abs/2112.11446v2"
+        },
+        "c": "https://github.com/allenai/dolma",
+        "n": "Gopher 7.1B (5-shot)",
+        "d": "2021-12-08",
+        "m1": "29.5"
+      },
+      {
+        "p": {
           "name": "Scaling Instruction-Finetuned Language Models",
           "link": "https://arxiv.org/abs/2210.11416v5"
         },
@@ -461,6 +651,36 @@
         "n": "Falcon 7B (5-shot)",
         "d": "2023-11-28",
         "m1": "28.0"
+      },
+      {
+        "p": {
+          "name": "Scaling Language Models: Methods, Analysis & Insights from Training Gopher",
+          "link": "https://arxiv.org/abs/2112.11446v2"
+        },
+        "c": "https://github.com/allenai/dolma",
+        "n": "Gopher 1.4B (5-shot)",
+        "d": "2021-12-08",
+        "m1": "27.3"
+      },
+      {
+        "p": {
+          "name": "Scaling Language Models: Methods, Analysis & Insights from Training Gopher",
+          "link": "https://arxiv.org/abs/2112.11446v2"
+        },
+        "c": "https://github.com/allenai/dolma",
+        "n": "Gopher 417M (5-shot)",
+        "d": "2021-12-08",
+        "m1": "25.7"
+      },
+      {
+        "p": {
+          "name": "PaLM: Scaling Language Modeling with Pathways",
+          "link": "https://arxiv.org/abs/2204.02311v5"
+        },
+        "c": "https://github.com/lucidrains/CoCa-pytorch",
+        "n": "PaLM 8B",
+        "d": "2022-04-05",
+        "m1": "25.3"
       }
     ]
   }

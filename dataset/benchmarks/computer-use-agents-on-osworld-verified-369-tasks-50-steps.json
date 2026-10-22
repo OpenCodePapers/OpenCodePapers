@@ -1,0 +1,79 @@
+{
+  "title": "computer-use-agents-on-osworld-verified-369-tasks-50-steps",
+  "task-hierarchy": [
+    "Agents",
+    "Computer Use Agents"
+  ],
+  "dataset-info": {
+    "link": "https://xlang.ai/blog/osworld-verified",
+    "paper": "Introducing OSWorld-Verified"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Success Rate",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "EvoCUA: Evolving Computer Use Agents via Learning from Scalable Synthetic Experience",
+          "link": "https://arxiv.org/abs/2601.15876"
+        },
+        "c": "https://github.com/meituan/EvoCUA",
+        "n": "EvoCUA-32B",
+        "d": "2026-01-22",
+        "m1": "56.7"
+      },
+      {
+        "p": {
+          "name": "RLAnything: Forge Environment, Policy, and Reward Model in Completely Dynamic RL System",
+          "link": "https://arxiv.org/abs/2602.02488"
+        },
+        "c": "https://github.com/Gen-Verse/Open-AgentRL",
+        "n": "RLAnything-OS-8B",
+        "d": "2026-02-02",
+        "m1": "40.2"
+      },
+      {
+        "p": {
+          "name": "OpenCUA: Open Foundations for Computer-Use Agents",
+          "link": "https://arxiv.org/abs/2508.09123"
+        },
+        "c": "https://github.com/xlang-ai/OpenCUA",
+        "n": "OpenCUA-7B",
+        "d": "2025-08-12",
+        "m1": "28.1"
+      },
+      {
+        "p": {
+          "name": "OpenCUA: Open Foundations for Computer-Use Agents",
+          "link": "https://arxiv.org/abs/2508.09123"
+        },
+        "c": "https://github.com/xlang-ai/OpenCUA",
+        "n": "OpenCUA-A3B",
+        "d": "2025-08-12",
+        "m1": "19.94"
+      }
+    ]
+  }
+}

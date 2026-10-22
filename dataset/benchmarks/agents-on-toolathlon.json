@@ -1,0 +1,168 @@
+{
+  "title": "agents-on-toolathlon",
+  "task-hierarchy": [
+    "Agents"
+  ],
+  "dataset-info": {
+    "link": "https://toolathlon.xyz",
+    "paper": "The Tool Decathlon: Benchmarking Language Agents for Diverse, Realistic, and Long-Horizon Task Execution"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Pass@1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "GPT-5.6: Frontier intelligence that scales with your ambition",
+          "link": "https://openai.com/index/gpt-5-6/"
+        },
+        "c": "https://github.com/openai/codex",
+        "n": "GPT-5.6 Sol",
+        "d": "2026-07-09",
+        "m1": "0.58"
+      },
+      {
+        "p": {
+          "name": "Introducing GPT-5.5",
+          "link": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        "c": "",
+        "n": "GPT-5.5",
+        "d": "2026-04-23",
+        "m1": "0.556"
+      },
+      {
+        "p": {
+          "name": "Introducing GPT-5.4",
+          "link": "https://openai.com/index/introducing-gpt-5-4/"
+        },
+        "c": "",
+        "n": "GPT-5.4",
+        "d": "2026-03-05",
+        "m1": "0.546"
+      },
+      {
+        "p": {
+          "name": "DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence",
+          "link": "https://arxiv.org/abs/2606.19348"
+        },
+        "c": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+        "n": "DeepSeek-V4-Pro Max",
+        "d": "2026-04-26",
+        "m1": "0.518"
+      },
+      {
+        "p": {
+          "name": "Seed2.1 Model Card: Agentic Intelligence for Productivity",
+          "link": "https://seed.bytedance.com/en/blog/seed2-1-officially-released-advancing-ai-productivity"
+        },
+        "c": "",
+        "n": "Seed2.1 Pro",
+        "d": "2026-06-23",
+        "m1": "0.506"
+      },
+      {
+        "p": {
+          "name": "Step 3.7 Flash",
+          "link": "https://static.stepfun.com/blog/step-3.7-flash/"
+        },
+        "c": "https://github.com/stepfun-ai/Step-3.7-Flash",
+        "n": "Step 3.7 Flash",
+        "d": "2026-05-29",
+        "m1": "0.4951"
+      },
+      {
+        "p": {
+          "name": "Gemini 3.1 Pro: A smarter model for your most complex tasks",
+          "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/"
+        },
+        "c": "",
+        "n": "Gemini 3.1 Pro",
+        "d": "2026-02-19",
+        "m1": "0.488"
+      },
+      {
+        "p": {
+          "name": "Hy3",
+          "link": "https://hy.tencent.com/research/hy3"
+        },
+        "c": "https://github.com/Tencent-Hunyuan/Hy3",
+        "n": "Hy3",
+        "d": "2026-07-02",
+        "m1": "0.485"
+      },
+      {
+        "p": {
+          "name": "GLM-5.2: Built for Long-Horizon Tasks",
+          "link": "https://z.ai/blog/glm-5.2"
+        },
+        "c": "https://github.com/zai-org/GLM-5",
+        "n": "GLM-5.2",
+        "d": "2026-06-16",
+        "m1": "0.482"
+      },
+      {
+        "p": {
+          "name": "Introducing GPT-5.2",
+          "link": "https://openai.com/index/introducing-gpt-5-2/"
+        },
+        "c": "",
+        "n": "GPT-5.2",
+        "d": "2025-12-11",
+        "m1": "0.463"
+      },
+      {
+        "p": {
+          "name": "The MiniMax-M2 Series: Mini Activations Unleashing Max Real-World Intelligence",
+          "link": "https://arxiv.org/abs/2605.26494"
+        },
+        "c": "https://huggingface.co/MiniMaxAI/MiniMax-M2.7",
+        "n": "MiniMax-M2.7",
+        "d": "2026-05-26",
+        "m1": "0.463"
+      },
+      {
+        "p": {
+          "name": "GLM-5.1: Towards Long-Horizon Tasks",
+          "link": "https://z.ai/blog/glm-5.1"
+        },
+        "c": "https://github.com/zai-org/GLM-5",
+        "n": "GLM-5.1",
+        "d": "2026-04-03",
+        "m1": "0.407"
+      },
+      {
+        "p": {
+          "name": "DIVE: Scaling Diversity in Agentic Task Synthesis for Generalizable Tool Use",
+          "link": "https://arxiv.org/abs/2603.11076"
+        },
+        "c": "https://github.com/sheep333c/DIVE",
+        "n": "Dive-8B (RL)",
+        "d": "2026-03-10",
+        "m1": "0.083"
+      }
+    ]
+  }
+}

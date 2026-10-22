@@ -1,0 +1,99 @@
+{
+  "title": "image-editing-on-kris-bench",
+  "task-hierarchy": [
+    "Image Generation",
+    "Image Editing"
+  ],
+  "dataset-info": {
+    "link": "https://yongliang-wu.github.io/kris_bench_project_page/",
+    "paper": "KRIS-Bench: Benchmarking Next-Level Intelligent Image Editing Models"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "KRIS-Bench Overall",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Reasoning-Informed Visual Editing",
+          "link": "https://arxiv.org/abs/2610.12343"
+        },
+        "c": "https://github.com/VisionXLab/RISEBench",
+        "n": "RISE-Agent",
+        "d": "2026-10-08",
+        "m1": "88.12"
+      },
+      {
+        "p": {
+          "name": "OmniHarness: Harnessing Generalizable Visual Generation via Symbolic Policy Learning",
+          "link": "https://arxiv.org/abs/2609.16057"
+        },
+        "c": "https://github.com/OmniHarness/OmniHarness",
+        "n": "OmniHarness",
+        "d": "2026-09-13",
+        "m1": "77.33"
+      },
+      {
+        "p": {
+          "name": "ThinkRL-Edit: Thinking in Reinforcement Learning for Reasoning-Centric Image Editing",
+          "link": "https://arxiv.org/abs/2601.03467"
+        },
+        "c": "",
+        "n": "ThinkRL-Edit",
+        "d": "2026-01-06",
+        "m1": "71.65"
+      },
+      {
+        "p": {
+          "name": "Uncovering Understanding-Generation Synergy in Native Unified Multimodal Models: From Representation, Task to System",
+          "link": "https://arxiv.org/abs/2609.01607"
+        },
+        "c": "",
+        "n": "Native UMM Synergy: End-to-end UMM",
+        "d": "2026-09-01",
+        "m1": "68.33"
+      },
+      {
+        "p": {
+          "name": "REASONEDIT: Towards Reasoning-Enhanced Image Editing Models",
+          "link": "https://arxiv.org/abs/2511.22625"
+        },
+        "c": "https://github.com/stepfun-ai/Step1X-Edit?tab=readme-ov-file#step1x-edit-v1p2-v12",
+        "n": "ReasonEdit-Q (thinking + reflection)",
+        "d": "2025-11-27",
+        "m1": "61.57"
+      },
+      {
+        "p": {
+          "name": "Emerging Properties in Unified Multimodal Pretraining",
+          "link": "https://arxiv.org/abs/2505.14683v1"
+        },
+        "c": "https://github.com/ByteDance-Seed/Bagel",
+        "n": "BAGEL (7B active / 14B total MoT) with Self-CoT",
+        "d": "2025-05-20",
+        "m1": "60.18"
+      }
+    ]
+  }
+}

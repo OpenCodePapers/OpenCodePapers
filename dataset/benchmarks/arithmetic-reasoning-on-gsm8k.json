@@ -51,6 +51,26 @@
       },
       {
         "p": {
+          "name": "Learning More by Training Less: Uncertainty-Guided Progressive Contraction for Efficient Reasoning Post-Training",
+          "link": "https://arxiv.org/abs/2610.12933"
+        },
+        "c": "https://github.com/Jackbrocp/Learning-More-by-Training-Less",
+        "n": "Qwen3.5-9B (rho=5%)",
+        "d": "2026-10-09",
+        "m1": "97.7"
+      },
+      {
+        "p": {
+          "name": "SecOPD: Mitigating Adaptive Prompt Injections by On-Policy Distillation",
+          "link": "https://arxiv.org/abs/2608.21500"
+        },
+        "c": "https://github.com/pppyb/SecOPD",
+        "n": "SecOPD (Qwen3.6-27B)",
+        "d": "2026-08-21",
+        "m1": "97.4"
+      },
+      {
+        "p": {
           "name": "Achieving >97% on GSM8K: Deeply Understanding the Problems Makes LLMs Better Solvers for Math Word Problems",
           "link": "https://arxiv.org/abs/2404.14963v5"
         },
@@ -58,6 +78,26 @@
         "n": "DUP prompt upon GPT-4",
         "d": "2024-04-23",
         "m1": "97.1"
+      },
+      {
+        "p": {
+          "name": "Introducing Llama 3.1: Our most capable models to date",
+          "link": "https://ai.meta.com/blog/meta-llama-3-1/"
+        },
+        "c": "https://github.com/meta-llama/llama-models",
+        "n": "Llama 3.1 (405B, Instruct) (8-shot)",
+        "d": "2024-07-23",
+        "m1": "96.8"
+      },
+      {
+        "p": {
+          "name": "ThoughtFold: Folding Reasoning Chains via Introspective Preference Learning",
+          "link": "https://arxiv.org/abs/2606.03503"
+        },
+        "c": "https://github.com/ziyanliux/ThoughtFold",
+        "n": "ThoughtFold (Qwen3-14B)",
+        "d": "2026-06-02",
+        "m1": "96.8"
       },
       {
         "p": {
@@ -71,12 +111,62 @@
         "m2": "72"
       },
       {
+        "p": {
+          "name": "ERNIE 4.5 Technical Report",
+          "link": "https://ernie.baidu.com/blog/publication/ERNIE_Technical_Report.pdf"
+        },
+        "c": "https://huggingface.co/baidu/ERNIE-4.5-300B-A47B-PT",
+        "n": "ERNIE-4.5-300B-A47B",
+        "d": "2025-06-30",
+        "m1": "96.6"
+      },
+      {
+        "p": {
+          "name": "Introducing efficiency focused \"Thinking CAP\" model series",
+          "link": "https://www.bottlecapai.com/thinkingcap-qwen3-6-27b"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "ThinkingCap-Qwen3.6-27B",
+        "d": "2026-07-06",
+        "m1": "96.5"
+      },
+      {
         "p": "",
         "c": "",
         "n": "SFT-Mistral-7B (Metamath, OVM, Smart Ensemble)",
         "d": "",
         "m1": "96.4",
         "m2": "7"
+      },
+      {
+        "p": {
+          "name": "Introducing Claude 3.5 Sonnet",
+          "link": "https://www.anthropic.com/news/claude-3-5-sonnet"
+        },
+        "c": "",
+        "n": "Claude 3.5 Sonnet",
+        "d": "2024-06-20",
+        "m1": "96.4"
+      },
+      {
+        "p": {
+          "name": "CopT: Contrastive On-Policy Thinking with Continuous Spaces for General and Agentic Reasoning",
+          "link": "https://arxiv.org/abs/2605.20075"
+        },
+        "c": "https://github.com/sdc17/CopT",
+        "n": "CopT (Qwen3-8B)",
+        "d": "2026-05-19",
+        "m1": "96.36"
+      },
+      {
+        "p": {
+          "name": "LLaDA2.0: Scaling Up Diffusion Language Models to 100B",
+          "link": "https://arxiv.org/abs/2512.15745"
+        },
+        "c": "https://github.com/inclusionAI/LLaDA2.0",
+        "n": "LLaDA2.0-flash",
+        "d": "2025-12-10",
+        "m1": "96.06"
       },
       {
         "p": {
@@ -87,6 +177,106 @@
         "n": "OpenMath2-Llama3.1-70B (majority@256)",
         "d": "2024-10-02",
         "m1": "96.0"
+      },
+      {
+        "p": {
+          "name": "Qwen2.5 Technical Report",
+          "link": "https://arxiv.org/abs/2412.15115v2"
+        },
+        "c": "https://github.com/qwenlm/qwen1.5",
+        "n": "Qwen2.5-Plus",
+        "d": "2024-12-19",
+        "m1": "96.0"
+      },
+      {
+        "p": {
+          "name": "Gemma 3 Technical Report",
+          "link": "https://arxiv.org/abs/2503.19786"
+        },
+        "c": "https://github.com/google-deepmind/gemma",
+        "n": "Gemma 3 (27B, IT)",
+        "d": "2025-03-25",
+        "m1": "95.9"
+      },
+      {
+        "p": {
+          "name": "Geometry Conflict: Explaining and Controlling Forgetting in LLM Continual Post-Training",
+          "link": "https://arxiv.org/abs/2605.09608"
+        },
+        "c": "https://github.com/wyy-code/GCWM",
+        "n": "Qwen3-14B with GCWM",
+        "d": "2026-05-10",
+        "m1": "95.8"
+      },
+      {
+        "p": {
+          "name": "Rethinking Training-Inference Mismatch in LLM Reinforcement Learning: Where It Arises and How to Correct It",
+          "link": "https://arxiv.org/abs/2609.32444"
+        },
+        "c": "https://github.com/kzhao5/CIS-RL",
+        "n": "Qwen3-30B-A3B + CIS",
+        "d": "2026-09-26",
+        "m1": "95.6"
+      },
+      {
+        "p": {
+          "name": "HyperCLOVA X THINK Technical Report",
+          "link": "https://arxiv.org/abs/2506.22403"
+        },
+        "c": "https://huggingface.co/naver-hyperclovax/HyperCLOVAX-SEED-Think-14B",
+        "n": "HyperCLOVA X SEED 14B Think",
+        "d": "2025-06-27",
+        "m1": "95.53"
+      },
+      {
+        "p": {
+          "name": "Post-Trained MoE Can Skip Half Experts via Self-Distillation",
+          "link": "https://arxiv.org/abs/2605.18643"
+        },
+        "c": "https://github.com/TsinghuaC3I/ZEDA",
+        "n": "ZEDA (Qwen3-30B-A3B)",
+        "d": "2026-05-18",
+        "m1": "95.5"
+      },
+      {
+        "p": {
+          "name": "Explore Broadly, Reason Sharply: Push Small Models toward the Frontier via Sampling",
+          "link": "https://arxiv.org/abs/2609.38104"
+        },
+        "c": "",
+        "n": "Qwen3-8B",
+        "d": "2026-09-29",
+        "m1": "95.5"
+      },
+      {
+        "p": {
+          "name": "CritICL: Inference-Time Weak-to-Strong Generalization from Small Language Model Failure Modes",
+          "link": "https://arxiv.org/abs/2608.27455"
+        },
+        "c": "https://github.com/umwyf/criticl",
+        "n": "CritICL-static (Qwen2.5-72B-Instruct)",
+        "d": "2026-08-27",
+        "m1": "95.4"
+      },
+      {
+        "p": {
+          "name": "Unlocking Lossless Speedups in LLMs via Discrete Diffusion",
+          "link": "https://arxiv.org/abs/2609.04010"
+        },
+        "c": "https://github.com/ifm-ai/uno",
+        "n": "Uno (K2-Horizon-7B-Uno)",
+        "d": "2026-09-03",
+        "m1": "95.4"
+      },
+      {
+        "p": {
+          "name": "Qwen2.5-VL Technical Report",
+          "link": "https://arxiv.org/abs/2502.13923v1"
+        },
+        "c": "https://github.com/qwenlm/qwen2-vl",
+        "n": "Qwen2.5-VL-72B",
+        "d": "2025-02-19",
+        "m1": "95.3"
       },
       {
         "p": "",
@@ -106,6 +296,16 @@
       },
       {
         "p": {
+          "name": "Introducing Llama 3.1: Our most capable models to date",
+          "link": "https://ai.meta.com/blog/meta-llama-3-1/"
+        },
+        "c": "https://github.com/meta-llama/llama-models",
+        "n": "Llama 3.1 (70B, Instruct) (8-shot)",
+        "d": "2024-07-23",
+        "m1": "95.1"
+      },
+      {
+        "p": {
           "name": "The Claude 3 Model Family: Opus, Sonnet, Haiku",
           "link": "https://www.anthropic.com/news/claude-3-family"
         },
@@ -113,6 +313,26 @@
         "n": "Claude 3 Opus (0-shot chain-of-thought)",
         "d": "2024-03-04",
         "m1": "95"
+      },
+      {
+        "p": {
+          "name": "Introducing the next generation of Claude",
+          "link": "https://www.anthropic.com/news/claude-3-family"
+        },
+        "c": "",
+        "n": "Claude 3 Opus",
+        "d": "2024-03-04",
+        "m1": "95.0"
+      },
+      {
+        "p": {
+          "name": "Introspective Diffusion Language Models",
+          "link": "https://arxiv.org/abs/2604.11035"
+        },
+        "c": "https://github.com/Introspective-Diffusion/I-DLM",
+        "n": "I-DLM (8B)",
+        "d": "2026-04-13",
+        "m1": "95.0"
       },
       {
         "p": {
@@ -135,6 +355,116 @@
         "m1": "94.8"
       },
       {
+        "p": {
+          "name": "MiniMax-01: Scaling Foundation Models with Lightning Attention",
+          "link": "https://arxiv.org/abs/2501.08313"
+        },
+        "c": "https://huggingface.co/MiniMaxAI/MiniMax-Text-01",
+        "n": "MiniMax-Text-01",
+        "d": "2025-01-14",
+        "m1": "94.8"
+      },
+      {
+        "p": {
+          "name": "LYNX: Learning Dynamic Exits for Confidence-Controlled Reasoning",
+          "link": "https://arxiv.org/abs/2512.05325"
+        },
+        "c": "https://github.com/farukakgul/LYNX",
+        "n": "LYNX (QwQ-32B)",
+        "d": "2025-12-05",
+        "m1": "94.77"
+      },
+      {
+        "p": {
+          "name": "iGRPO: Self-Feedback-Driven LLM Reasoning",
+          "link": "https://arxiv.org/abs/2602.09000"
+        },
+        "c": "",
+        "n": "OpenMath-Nemotron-14B + iGRPO",
+        "d": "2026-02-09",
+        "m1": "94.69"
+      },
+      {
+        "p": {
+          "name": "Heterogeneous Agent Collaborative Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2603.02604"
+        },
+        "c": "",
+        "n": "Qwen3-4B-Instruct (HACPO)",
+        "d": "2026-03-03",
+        "m1": "94.6"
+      },
+      {
+        "p": {
+          "name": "MiniCPM-o 4.5: Towards Real-Time Full-Duplex Omni-Modal Interaction",
+          "link": "https://arxiv.org/abs/2604.27393"
+        },
+        "c": "https://github.com/OpenBMB/MiniCPM-o",
+        "n": "MiniCPM-o 4.5-Instruct",
+        "d": "2026-04-30",
+        "m1": "94.5"
+      },
+      {
+        "p": {
+          "name": "When Should Models Change Their Minds? Contextual Belief Management in Large Language Models",
+          "link": "https://arxiv.org/abs/2605.30219"
+        },
+        "c": "",
+        "n": "Qwen3.5-9B (RL-RD)",
+        "d": "2026-05-28",
+        "m1": "94.5"
+      },
+      {
+        "p": {
+          "name": "Think Again or Think Longer? Selective Verification for Budget-Aware Reasoning",
+          "link": "https://arxiv.org/abs/2606.19808"
+        },
+        "c": "https://github.com/Sajib-006/SEVRA",
+        "n": "Selective active verify (Qwen3-1.7B gate)",
+        "d": "2026-06-18",
+        "m1": "94.47"
+      },
+      {
+        "p": {
+          "name": "PretrainZero: Reinforcement Active Pretraining",
+          "link": "https://arxiv.org/abs/2512.03442"
+        },
+        "c": "",
+        "n": "PretrainZero (Qwen3-30B-A3B-MoE-Base)",
+        "d": "2025-12-03",
+        "m1": "94.4"
+      },
+      {
+        "p": {
+          "name": "Cactus: Accelerating Auto-Regressive Decoding with Constrained Acceptance Speculative Sampling",
+          "link": "https://arxiv.org/abs/2604.04987"
+        },
+        "c": "https://github.com/MANGA-UOFA/Cactus",
+        "n": "Cactus (δ=1.0; Qwen 3 32B verifier + Qwen 3 1.7B drafter)",
+        "d": "2026-04-05",
+        "m1": "94.4"
+      },
+      {
+        "p": {
+          "name": "Qwen3 Technical Report",
+          "link": "https://arxiv.org/abs/2505.09388"
+        },
+        "c": "https://github.com/QwenLM/Qwen3",
+        "n": "Qwen3-235B-A22B (Base)",
+        "d": "2025-05-14",
+        "m1": "94.39"
+      },
+      {
+        "p": {
+          "name": "SAGE: Mitigating Long-Horizon Reasoning Biases via Topological Guidance",
+          "link": "https://arxiv.org/abs/2609.30192"
+        },
+        "c": "https://github.com/Susan571/SAGE-NeurIPS2026",
+        "n": "Qwen3.5-35B w/SAGE",
+        "d": "2026-09-24",
+        "m1": "94.16"
+      },
+      {
         "p": "",
         "c": "",
         "n": "SFT-Mistral-7B (Metamath + ovm +ensemble)",
@@ -154,6 +484,26 @@
       },
       {
         "p": {
+          "name": "DiagEvo: Diagnosis-Guided Self-Evolution via Hierarchical Error Memory",
+          "link": "https://arxiv.org/abs/2609.00768"
+        },
+        "c": "",
+        "n": "DiagEvo (Qwen3-8B, 235B-A22B diagnostician)",
+        "d": "2026-09-01",
+        "m1": "94.1"
+      },
+      {
+        "p": {
+          "name": "See What I See, Know What I Think: Dense Latent Communication Across Heterogeneous Agents",
+          "link": "https://arxiv.org/abs/2606.13594"
+        },
+        "c": "",
+        "n": "Dense alignment (cross-model KV-cache transformation)",
+        "d": "2026-06-11",
+        "m1": "94.09"
+      },
+      {
+        "p": {
           "name": "Step-DPO: Step-wise Preference Optimization for Long-chain Reasoning of LLMs",
           "link": "https://arxiv.org/abs/2406.18629v1"
         },
@@ -163,12 +513,232 @@
         "m1": "94.0"
       },
       {
+        "p": {
+          "name": "Guided Self-Evolving LLMs with Minimal Human Supervision",
+          "link": "https://arxiv.org/abs/2512.02472"
+        },
+        "c": "",
+        "n": "Qwen3-8B-Base (R-Few 1%)",
+        "d": "2025-12-02",
+        "m1": "94.0"
+      },
+      {
+        "p": {
+          "name": "DARC: Decoupled Asymmetric Reasoning Curriculum for LLM Evolution",
+          "link": "https://arxiv.org/abs/2601.13761"
+        },
+        "c": "https://github.com/RUCBM/DARC",
+        "n": "DARC (Qwen3-8B-Base)",
+        "d": "2026-01-20",
+        "m1": "94.0"
+      },
+      {
+        "p": {
+          "name": "Motif 3: Technical Report",
+          "link": "https://arxiv.org/abs/2608.09119"
+        },
+        "c": "https://github.com/motiftechnologies/motif3-training-example",
+        "n": "Motif 3 Base (8-shot CoT)",
+        "d": "2026-08-10",
+        "m1": "93.93"
+      },
+      {
+        "p": {
+          "name": "Data-Efficient Autoregressive-to-Diffusion Language Models via On-Policy Distillation",
+          "link": "https://arxiv.org/abs/2606.06712"
+        },
+        "c": "https://github.com/divelab/OPDLM",
+        "n": "OPDLM-MATH-8B-Thinking",
+        "d": "2026-06-04",
+        "m1": "93.8"
+      },
+      {
+        "p": {
+          "name": "Nemotron-Labs-Diffusion: A Tri-Mode Language Model Unifying Autoregressive, Diffusion, and Self-Speculation Decoding",
+          "link": "https://arxiv.org/abs/2607.05722"
+        },
+        "c": "",
+        "n": "Nemotron-Labs-Diffusion-14B (Diff.)",
+        "d": "2026-07-07",
+        "m1": "93.71"
+      },
+      {
+        "p": {
+          "name": "Nemotron-H: A Family of Accurate and Efficient Hybrid Mamba-Transformer Models",
+          "link": "https://arxiv.org/abs/2504.03624"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Nemotron-H-56B-Base (8-shot)",
+        "d": "2025-04-04",
+        "m1": "93.7"
+      },
+      {
+        "p": {
+          "name": "Rethinking Cross-Tokenizer On-Policy Distillation: From Alignment Coverage to Supervision Reliability",
+          "link": "https://arxiv.org/abs/2610.08448"
+        },
+        "c": "",
+        "n": "Strict top-16 (Qwen3-235B-A22B-Instruct-2507 -> Granite-4.1-8B)",
+        "d": "2026-10-06",
+        "m1": "93.69"
+      },
+      {
+        "p": {
+          "name": "CERA-MoA: Co-Evolving Routing Mechanisms with Continually Learning LLM Agents",
+          "link": "https://arxiv.org/abs/2609.18779"
+        },
+        "c": "https://github.com/michaeljiang0530/CERA-MoA",
+        "n": "CERA-MoA (Qwen3-4B)",
+        "d": "2026-09-16",
+        "m1": "93.5"
+      },
+      {
+        "p": {
+          "name": "ChatGLM: A Family of Large Language Models from GLM-130B to GLM-4 All Tools",
+          "link": "https://arxiv.org/abs/2406.12793"
+        },
+        "c": "https://github.com/zai-org/GLM-4",
+        "n": "GLM-4 (0520)",
+        "d": "2024-06-18",
+        "m1": "93.3"
+      },
+      {
+        "p": {
+          "name": "MixSD: Mixed Contextual Self-Distillation for Knowledge Injection",
+          "link": "https://arxiv.org/abs/2605.16865"
+        },
+        "c": "",
+        "n": "Qwen3-8B with MixSD (lambda=0.5)",
+        "d": "2026-05-16",
+        "m1": "93.3"
+      },
+      {
+        "p": {
+          "name": "Cliff: Learning Process Rewards from the First Mistake",
+          "link": "https://arxiv.org/abs/2609.02817"
+        },
+        "c": "",
+        "n": "Qwen3-4B + Cliff (lambda1)",
+        "d": "2026-09-02",
+        "m1": "93.252"
+      },
+      {
         "p": "",
         "c": "",
         "n": "DAMOMath-7B(MetaMath, OVM, Ensemble)",
         "d": "",
         "m1": "93.2",
         "m2": "7"
+      },
+      {
+        "p": {
+          "name": "APPO: Agentic Procedural Policy Optimization",
+          "link": "https://arxiv.org/abs/2606.12384"
+        },
+        "c": "https://github.com/AMAP-ML/APPO",
+        "n": "APPO (Qwen2.5-7B-Instruct)",
+        "d": "2026-06-10",
+        "m1": "93.2"
+      },
+      {
+        "p": {
+          "name": "DiRL: An Efficient Post-Training Framework for Diffusion Language Models",
+          "link": "https://arxiv.org/abs/2512.22234"
+        },
+        "c": "https://github.com/OpenMOSS/DiRL",
+        "n": "DiRL-8B-Instruct",
+        "d": "2025-12-23",
+        "m1": "93.1"
+      },
+      {
+        "p": {
+          "name": "Reasoning Palette: Modulating Reasoning via Latent Contextualization for Controllable Exploration for (V)LMs",
+          "link": "https://arxiv.org/abs/2512.17206"
+        },
+        "c": "",
+        "n": "Qwen3-8B-Base with Reasoning Palette (RLOO, Linear Decay)",
+        "d": "2025-12-19",
+        "m1": "93.03"
+      },
+      {
+        "p": {
+          "name": "DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression",
+          "link": "https://arxiv.org/abs/2609.19969"
+        },
+        "c": "https://github.com/deepseek-ai/deepseek-recipe",
+        "n": "DeepSeek-V4.1-Flash Base",
+        "d": "2026-09-17",
+        "m1": "93.0"
+      },
+      {
+        "p": {
+          "name": "Reading, Not Thinking: Understanding and Bridging the Modality Gap When Text Becomes Pixels in Multimodal LLMs",
+          "link": "https://arxiv.org/abs/2603.09095"
+        },
+        "c": "",
+        "n": "Qwen3-VL-8B (LM-only, self-distilled)",
+        "d": "2026-03-10",
+        "m1": "92.72"
+      },
+      {
+        "p": {
+          "name": "Sharpen Without Search: On-Policy Distillation of Sequence-Level Power Distribution",
+          "link": "https://arxiv.org/abs/2610.06804"
+        },
+        "c": "https://github.com/ArminAzizi98/OPPD",
+        "n": "OPPD (Qwen2.5-Math-7B, seed 1)",
+        "d": "2026-10-05",
+        "m1": "92.63"
+      },
+      {
+        "p": {
+          "name": "Questioning the Questions: Sustaining Self-Evolution in Reasoning Models",
+          "link": "https://arxiv.org/abs/2610.04299"
+        },
+        "c": "https://github.com/jinyuanli0012/r-quest",
+        "n": "R-Quest (Qwen3-4B-Base)",
+        "d": "2026-10-03",
+        "m1": "92.57"
+      },
+      {
+        "p": {
+          "name": "Off-the-Shelf LLMs as Process Scorers: Training-Free Alternative to PRMs for Mathematical Reasoning",
+          "link": "https://arxiv.org/abs/2606.01682"
+        },
+        "c": "",
+        "n": "CGS (Qwen2.5-1.5B → Qwen2.5-32B)",
+        "d": "2026-06-01",
+        "m1": "92.5"
+      },
+      {
+        "p": {
+          "name": "DEVA: Fine-tuning Multimodal Large Language Models for Visual Perception Tasks",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Das_DEVA_Fine-tuning_Multimodal_Large_Language_Models_for_Visual_Perception_Tasks_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "DEVA (Qwen2.5-14B)",
+        "d": "2026-06-03",
+        "m1": "92.5"
+      },
+      {
+        "p": {
+          "name": "Stabilizing Reinforcement Learning for Diffusion Language Models",
+          "link": "https://arxiv.org/abs/2603.06743"
+        },
+        "c": "https://github.com/JianyuanZhong/StableDRL",
+        "n": "StableDRL (SDAR-8B, static sampling)",
+        "d": "2026-03-06",
+        "m1": "92.4"
+      },
+      {
+        "p": {
+          "name": "Nemotron 3 Nano: Open, Efficient Mixture-of-Experts Hybrid Mamba-Transformer Model for Agentic Reasoning",
+          "link": "https://arxiv.org/abs/2512.20848"
+        },
+        "c": "https://github.com/nvidia-nemo/nemotron",
+        "n": "Nemotron 3 Nano 30B-A3B Base",
+        "d": "2025-12-23",
+        "m1": "92.34"
       },
       {
         "p": {
@@ -182,6 +752,96 @@
       },
       {
         "p": {
+          "name": "Introducing the next generation of Claude",
+          "link": "https://www.anthropic.com/news/claude-3-family"
+        },
+        "c": "",
+        "n": "Claude 3 Sonnet",
+        "d": "2024-03-04",
+        "m1": "92.3"
+      },
+      {
+        "p": {
+          "name": "Nemotron-4 340B Technical Report",
+          "link": "https://arxiv.org/abs/2406.11704"
+        },
+        "c": "https://github.com/nvidia/nemo-aligner",
+        "n": "Nemotron-4-340B-Instruct",
+        "d": "2024-06-17",
+        "m1": "92.3"
+      },
+      {
+        "p": {
+          "name": "MiMo-V2-Flash Technical Report",
+          "link": "https://arxiv.org/abs/2601.02780"
+        },
+        "c": "https://github.com/XiaomiMiMo/MiMo-V2-Flash",
+        "n": "MiMo-V2-Flash (Base)",
+        "d": "2026-01-06",
+        "m1": "92.3"
+      },
+      {
+        "p": {
+          "name": "CharacterFlywheel: Scaling Iterative Improvement of Engaging and Steerable LLMs in Production",
+          "link": "https://arxiv.org/abs/2603.01973"
+        },
+        "c": "",
+        "n": "CharacterFlywheel V7 (Llama 3.1 70B)",
+        "d": "2026-03-02",
+        "m1": "92.3"
+      },
+      {
+        "p": {
+          "name": "Understanding Evolution Strategies for LLM Reasoning: Broader Reasoning Coverage than GRPO",
+          "link": "https://arxiv.org/abs/2608.27351"
+        },
+        "c": "",
+        "n": "Qwen2.5-7B-Instruct (GRPO to ES)",
+        "d": "2026-08-27",
+        "m1": "92.3"
+      },
+      {
+        "p": {
+          "name": "HuatuoGPT-3: RL-Only Domain Adaptation from Base Models",
+          "link": "https://arxiv.org/abs/2610.05966"
+        },
+        "c": "https://github.com/FreedomIntelligence/HuatuoGPT-3",
+        "n": "OnePO (Qwen3-8B-Base) (extra data)",
+        "d": "2026-10-05",
+        "m1": "92.3"
+      },
+      {
+        "p": {
+          "name": "DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model",
+          "link": "https://arxiv.org/abs/2405.04434"
+        },
+        "c": "https://github.com/deepseek-ai/DeepSeek-V2",
+        "n": "DeepSeek-V2 Chat (RL) (8-shot)",
+        "d": "2024-05-07",
+        "m1": "92.2"
+      },
+      {
+        "p": {
+          "name": "DMax: Aggressive Parallel Decoding for dLLMs",
+          "link": "https://arxiv.org/abs/2604.08302"
+        },
+        "c": "https://github.com/czg1225/DMax",
+        "n": "DMax-Math",
+        "d": "2026-04-09",
+        "m1": "92.1"
+      },
+      {
+        "p": {
+          "name": "Representation-Space MMD for Diffusion Language Models",
+          "link": "https://arxiv.org/abs/2610.06648"
+        },
+        "c": "https://github.com/yandex-research/dlm-mmd",
+        "n": "DMax-Math-MMD",
+        "d": "2026-10-05",
+        "m1": "92.1"
+      },
+      {
+        "p": {
           "name": "Toward Self-Improvement of LLMs via Imagination, Searching, and Criticizing",
           "link": "https://arxiv.org/abs/2404.12253v2"
         },
@@ -190,6 +850,36 @@
         "d": "2024-04-18",
         "m1": "92",
         "m2": "70"
+      },
+      {
+        "p": {
+          "name": "Multi-Block Diffusion Language Models",
+          "link": "https://arxiv.org/abs/2606.29215"
+        },
+        "c": "https://github.com/SJTU-DENG-Lab/mbd-lms",
+        "n": "MBD-LLaDA2-Mini",
+        "d": "2026-06-30",
+        "m1": "91.96"
+      },
+      {
+        "p": {
+          "name": "Rethinking RL for LLM Reasoning: It's Sparse Policy Selection, Not Capability Learning",
+          "link": "https://arxiv.org/abs/2605.06241"
+        },
+        "c": "https://github.com/farukakgul/ReasonMaxxer",
+        "n": "ReasonMaxxer (Qwen3-4B)",
+        "d": "2026-05-07",
+        "m1": "91.9"
+      },
+      {
+        "p": {
+          "name": "NGM: A Plug-and-Play Training-Free Memory Module for LLMs",
+          "link": "https://arxiv.org/abs/2605.16893"
+        },
+        "c": "https://github.com/PioneerQyw/NGM",
+        "n": "Qwen3-14B + NGM",
+        "d": "2026-05-16",
+        "m1": "91.74"
       },
       {
         "p": {
@@ -213,12 +903,62 @@
       },
       {
         "p": {
+          "name": "Scalable Prompt Routing via Fine-Grained Latent Task Discovery",
+          "link": "https://arxiv.org/abs/2603.19415"
+        },
+        "c": "",
+        "n": "FineRouter",
+        "d": "2026-03-19",
+        "m1": "91.6"
+      },
+      {
+        "p": {
+          "name": "Guiding LLM Post-training Data Engineering with Model Internals from Sparse Autoencoders",
+          "link": "https://arxiv.org/abs/2605.27354"
+        },
+        "c": "",
+        "n": "Qwen2.5-Math-7B (SaeRL, GRPO)",
+        "d": "2026-05-26",
+        "m1": "91.5"
+      },
+      {
+        "p": {
           "name": "PaLM 2 Technical Report",
           "link": "https://arxiv.org/abs/2305.10403v3"
         },
         "c": "https://github.com/eternityyw/tram-benchmark",
         "n": "PaLM 2 (few-shot, k=8, SC)",
         "d": "2023-05-17",
+        "m1": "91.0"
+      },
+      {
+        "p": {
+          "name": "Phi-3 Technical Report: A Highly Capable Language Model Locally on Your Phone",
+          "link": "https://arxiv.org/abs/2404.14219v4"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Phi-3-Medium (8-shot)",
+        "d": "2024-04-22",
+        "m1": "91.0"
+      },
+      {
+        "p": {
+          "name": "From Next-Token to Next-Block: A Principled Adaptation Path for Diffusion LLMs",
+          "link": "https://arxiv.org/abs/2512.06776"
+        },
+        "c": "https://github.com/yuchuantian/nbdiff",
+        "n": "NBDiff-7B (Instruct)",
+        "d": "2025-12-07",
+        "m1": "91.0"
+      },
+      {
+        "p": {
+          "name": "Illusions of Confidence? Diagnosing LLM Truthfulness via Neighborhood Consistency",
+          "link": "https://arxiv.org/abs/2601.05905"
+        },
+        "c": "https://github.com/zjunlp/belief",
+        "n": "Qwen-2.5-32B-Instruct (Structure-Aware Training)",
+        "d": "2026-01-09",
         "m1": "91.0"
       },
       {
@@ -244,6 +984,36 @@
       },
       {
         "p": {
+          "name": "Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context",
+          "link": "https://arxiv.org/abs/2403.05530v5"
+        },
+        "c": "https://github.com/dlvuldet/primevul",
+        "n": "Gemini 1.5 Pro (11-shot)",
+        "d": "2024-03-08",
+        "m1": "90.8"
+      },
+      {
+        "p": {
+          "name": "Nemotron 3 Super: Open, Efficient Mixture-of-Experts Hybrid Mamba-Transformer Model for Agentic Reasoning",
+          "link": "https://arxiv.org/abs/2604.12374"
+        },
+        "c": "https://github.com/nvidia-nemo/nemotron",
+        "n": "Nemotron 3 Super (120B-A12B Base)",
+        "d": "2026-04-14",
+        "m1": "90.67"
+      },
+      {
+        "p": {
+          "name": "InternVL3: Exploring Advanced Training and Test-Time Recipes for Open-Source Multimodal Models",
+          "link": "https://arxiv.org/abs/2504.10479"
+        },
+        "c": "https://github.com/OpenGVLab/InternVL",
+        "n": "InternVL3-78B",
+        "d": "2025-04-14",
+        "m1": "90.5"
+      },
+      {
+        "p": {
           "name": "DART-Math: Difficulty-Aware Rejection Tuning for Mathematical Problem-Solving",
           "link": "https://arxiv.org/abs/2407.13690v2"
         },
@@ -252,6 +1022,26 @@
         "d": "2024-06-18",
         "m1": "90.4",
         "m2": "70"
+      },
+      {
+        "p": {
+          "name": "The Molecular Structure of Thought: Mapping the Topology of Long Chain-of-Thought Reasoning",
+          "link": "https://arxiv.org/abs/2601.06002"
+        },
+        "c": "",
+        "n": "Llama-3.1-8B-Instruct + 35K QwQ-Mole-Syn + RL",
+        "d": "2026-01-09",
+        "m1": "90.3"
+      },
+      {
+        "p": {
+          "name": "Beyond Policy Rollouts: Embedding-Space Directional Exploration with Anchored Noise for LLM RLVR",
+          "link": "https://arxiv.org/abs/2610.16105"
+        },
+        "c": "",
+        "n": "EDEN (Qwen2.5-Math-7B)",
+        "d": "2026-10-12",
+        "m1": "90.3"
       },
       {
         "p": {
@@ -276,6 +1066,36 @@
       },
       {
         "p": {
+          "name": "The Flexibility Trap: Why Arbitrary Order Limits Reasoning Potential in Diffusion Language Models",
+          "link": "https://arxiv.org/abs/2601.15165"
+        },
+        "c": "https://github.com/LeapLabTHU/JustGRPO",
+        "n": "JustGRPO (LLaDA 8B Instruct)",
+        "d": "2026-01-21",
+        "m1": "89.8"
+      },
+      {
+        "p": {
+          "name": "S2D2: Fast Decoding for Diffusion LLMs via Training-Free Self-Speculation",
+          "link": "https://arxiv.org/abs/2603.25702"
+        },
+        "c": "https://github.com/phymhan/S2D2",
+        "n": "S2D2 (LLaDA2.1-Mini)",
+        "d": "2026-03-26",
+        "m1": "89.8"
+      },
+      {
+        "p": {
+          "name": "ProFit: Leveraging High-Value Signals in SFT via Probability-Guided Token Selection",
+          "link": "https://arxiv.org/abs/2601.09195"
+        },
+        "c": "https://github.com/Utaotao/ProFit",
+        "n": "ProFit (Qwen3-14B-Base)",
+        "d": "2026-01-14",
+        "m1": "89.62"
+      },
+      {
+        "p": {
           "name": "DART-Math: Difficulty-Aware Rejection Tuning for Mathematical Problem-Solving",
           "link": "https://arxiv.org/abs/2407.13690v2"
         },
@@ -284,6 +1104,66 @@
         "d": "2024-06-18",
         "m1": "89.6",
         "m2": "70"
+      },
+      {
+        "p": {
+          "name": "When Reasoning Meets Its Laws",
+          "link": "https://arxiv.org/abs/2512.17901"
+        },
+        "c": "https://github.com/ASTRAL-Group/LoRe",
+        "n": "DeepSeek-R1-8B (SFT-Compo)",
+        "d": "2025-12-19",
+        "m1": "89.5"
+      },
+      {
+        "p": {
+          "name": "Thinking Before Constraining: A Unified Decoding Framework for Large Language Models",
+          "link": "https://arxiv.org/abs/2601.07525"
+        },
+        "c": "https://github.com/Nokia-Bell-Labs/InWriting",
+        "n": "Qwen3-8B (In-Writing-Base)",
+        "d": "2026-05-28",
+        "m1": "89.5"
+      },
+      {
+        "p": {
+          "name": "EpiCaR: Knowing What You Don't Know Matters for Better Reasoning in LLMs",
+          "link": "https://arxiv.org/abs/2601.06786"
+        },
+        "c": "",
+        "n": "EpiCaR (Qwen-3, 8B)",
+        "d": "2026-01-11",
+        "m1": "89.46"
+      },
+      {
+        "p": {
+          "name": "Prefill-Free Cross-Family KV Cache Transfer for Heterogeneous Multi-Agent LLMs",
+          "link": "https://arxiv.org/abs/2609.32259"
+        },
+        "c": "https://github.com/daniel-eai/prefill-free-multi-agent-llms",
+        "n": "HeteroFold (Ministral-3-14B to Qwen3-4B)",
+        "d": "2026-09-29",
+        "m1": "89.23"
+      },
+      {
+        "p": {
+          "name": "Demystifying Hidden-State Recurrence: Switchable Latent Reasoning with On-Policy Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2606.13106"
+        },
+        "c": "",
+        "n": "Switch (ours, after Switch-GRPO)",
+        "d": "2026-06-11",
+        "m1": "89.2"
+      },
+      {
+        "p": {
+          "name": "daVinci-Env: Open SWE Environment Synthesis at Scale",
+          "link": "https://arxiv.org/abs/2603.13023"
+        },
+        "c": "https://github.com/GAIR-NLP/OpenSWE",
+        "n": "OpenSWE-72B (Qwen2.5-72B-Base)",
+        "d": "2026-03-13",
+        "m1": "89.16"
       },
       {
         "p": {
@@ -317,6 +1197,26 @@
       },
       {
         "p": {
+          "name": "Improved Large Language Diffusion Models",
+          "link": "https://arxiv.org/abs/2606.25331"
+        },
+        "c": "https://github.com/ml-gsai/llada",
+        "n": "iLLaDA 8B Instruct",
+        "d": "2026-06-24",
+        "m1": "89.0"
+      },
+      {
+        "p": {
+          "name": "Distillation Defenses Easily Break After Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2609.35699"
+        },
+        "c": "",
+        "n": "Qwen2.5-Math-7B (Distill) (extra data)",
+        "d": "2026-09-28",
+        "m1": "89.0"
+      },
+      {
+        "p": {
           "name": "The Claude 3 Model Family: Opus, Sonnet, Haiku",
           "link": "https://www.anthropic.com/news/claude-3-family"
         },
@@ -324,6 +1224,76 @@
         "n": "Claude 3 Haiku (0-shot chain-of-thought)",
         "d": "2024-03-04",
         "m1": "88.9"
+      },
+      {
+        "p": {
+          "name": "Introducing the next generation of Claude",
+          "link": "https://www.anthropic.com/news/claude-3-family"
+        },
+        "c": "",
+        "n": "Claude 3 Haiku",
+        "d": "2024-03-04",
+        "m1": "88.9"
+      },
+      {
+        "p": {
+          "name": "From Imitation to Discrimination: Toward A Generalized Curriculum Advantage Mechanism Enhancing Cross-Domain Reasoning Tasks",
+          "link": "https://arxiv.org/abs/2512.02580"
+        },
+        "c": "",
+        "n": "GRPO (with CAPO) (Qwen2.5-7B-Math)",
+        "d": "2025-12-02",
+        "m1": "88.9"
+      },
+      {
+        "p": {
+          "name": "Multi-Stream LLMs: Unblocking Language Models with Parallel Streams of Thoughts, Inputs and Outputs",
+          "link": "https://arxiv.org/abs/2605.12460"
+        },
+        "c": "https://github.com/seal-rg/streaming",
+        "n": "Qwen3-4B (Stream)",
+        "d": "2026-05-12",
+        "m1": "88.85"
+      },
+      {
+        "p": {
+          "name": "Qwen2.5-Omni Technical Report",
+          "link": "https://arxiv.org/abs/2503.20215"
+        },
+        "c": "https://github.com/QwenLM/Qwen2.5-Omni",
+        "n": "Qwen2.5-Omni-7B",
+        "d": "2025-03-26",
+        "m1": "88.7"
+      },
+      {
+        "p": {
+          "name": "Phi-4-Mini Technical Report: Compact yet Powerful Multimodal Language Models via Mixture-of-LoRAs",
+          "link": "https://arxiv.org/abs/2503.01743"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Phi-4-Mini (8-shot, CoT)",
+        "d": "2025-02-24",
+        "m1": "88.6"
+      },
+      {
+        "p": {
+          "name": "Encoder-Decoder Gemma: Improving the Quality-Efficiency Trade-Off via Adaptation",
+          "link": "https://arxiv.org/abs/2504.06225"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "T5Gemma 9B-9B PrefixLM IT",
+        "d": "2025-04-08",
+        "m1": "88.6"
+      },
+      {
+        "p": {
+          "name": "T5Gemma 2: Seeing, Reading, and Understanding Longer",
+          "link": "https://arxiv.org/abs/2512.14856"
+        },
+        "c": "",
+        "n": "T5Gemma 2 4B-4B (post-trained)",
+        "d": "2025-12-16",
+        "m1": "88.6"
       },
       {
         "p": {
@@ -335,6 +1305,16 @@
         "d": "2023-09-29",
         "m1": "88.3",
         "m2": "70"
+      },
+      {
+        "p": {
+          "name": "LightThinker++: From Reasoning Compression to Memory Management",
+          "link": "https://arxiv.org/abs/2604.03679"
+        },
+        "c": "",
+        "n": "LThinker (tho) (Llama3.1-8B)",
+        "d": "2026-04-04",
+        "m1": "88.25"
       },
       {
         "p": {
@@ -360,6 +1340,36 @@
       },
       {
         "p": {
+          "name": "Step 3.5 Flash: Open Frontier-Level Intelligence with 11B Active Parameters",
+          "link": "https://arxiv.org/abs/2602.10604"
+        },
+        "c": "https://huggingface.co/stepfun-ai/Step-3.5-Flash-Base",
+        "n": "Step-3.5-Flash Base",
+        "d": "2026-02-11",
+        "m1": "88.2"
+      },
+      {
+        "p": {
+          "name": "CLIPO: Contrastive Learning in Policy Optimization Generalizes RLVR",
+          "link": "https://arxiv.org/abs/2603.10101"
+        },
+        "c": "https://github.com/Qwen-Applications/CLIPO",
+        "n": "GRPO + CLIPO",
+        "d": "2026-03-10",
+        "m1": "88.02"
+      },
+      {
+        "p": {
+          "name": "PRISM: PRIvileged Sibling-guided Multi-Agent Topology Design",
+          "link": "https://arxiv.org/abs/2610.20628"
+        },
+        "c": "",
+        "n": "PRISM",
+        "d": "2026-09-29",
+        "m1": "88.02"
+      },
+      {
+        "p": {
           "name": "Model Card and Evaluations for Claude Models",
           "link": "https://www-files.anthropic.com/production/images/Model-Card-Claude-2.pdf"
         },
@@ -367,6 +1377,16 @@
         "n": "Claude 2 (0-shot chain-of-thought)",
         "d": "2023-07-11",
         "m1": "88"
+      },
+      {
+        "p": {
+          "name": "Claude 2",
+          "link": "https://www.anthropic.com/news/claude-2"
+        },
+        "c": "",
+        "n": "Claude 2",
+        "d": "2023-07-11",
+        "m1": "88.0"
       },
       {
         "p": {
@@ -380,12 +1400,62 @@
         "m2": "34"
       },
       {
+        "p": {
+          "name": "WildReward: Learning Reward Models from In-the-Wild Human Interactions",
+          "link": "https://arxiv.org/abs/2602.08829"
+        },
+        "c": "https://github.com/THU-KEG/WildReward",
+        "n": "Llama3.1-8B-Instruct (online DPO with WildReward)",
+        "d": "2026-02-09",
+        "m1": "87.9"
+      },
+      {
+        "p": {
+          "name": "FourierSampler: Unlocking Non-Autoregressive Potential in Diffusion Language Models via Frequency-Guided Generation",
+          "link": "https://arxiv.org/abs/2601.23182"
+        },
+        "c": "https://github.com/ShirleYoung/FourierSampler",
+        "n": "SDAR-4B-Chat (with FourierSampler)",
+        "d": "2026-01-30",
+        "m1": "87.64"
+      },
+      {
+        "p": {
+          "name": "2 OLMo 2 Furious",
+          "link": "https://arxiv.org/abs/2501.00656"
+        },
+        "c": "https://github.com/allenai/olmo",
+        "n": "OLMo 2 32B Instruct (8-shot)",
+        "d": "2024-12-31",
+        "m1": "87.6"
+      },
+      {
+        "p": {
+          "name": "Dynin-Omni: Omnimodal Unified Large Diffusion Language Model",
+          "link": "https://arxiv.org/abs/2604.00007"
+        },
+        "c": "https://github.com/AIDASLab/Dynin-Omni",
+        "n": "Dynin-Omni (8B)",
+        "d": "2026-03-09",
+        "m1": "87.6"
+      },
+      {
         "p": "",
         "c": "",
         "n": "Shivaay-4B (8-shot chain-of-thought)",
         "d": "",
         "m1": "87.41",
         "m2": "4"
+      },
+      {
+        "p": {
+          "name": "2 OLMo 2 Furious",
+          "link": "https://arxiv.org/abs/2501.00656"
+        },
+        "c": "https://github.com/allenai/olmo",
+        "n": "OLMo 2 13B Instruct (8-shot)",
+        "d": "2024-12-31",
+        "m1": "87.4"
       },
       {
         "p": {
@@ -428,6 +1498,26 @@
         "c": "https://github.com/microsoft/guidance",
         "n": "GPT-4",
         "d": "2023-03-22",
+        "m1": "87.1"
+      },
+      {
+        "p": {
+          "name": "Nemotron-H: A Family of Accurate and Efficient Hybrid Mamba-Transformer Models",
+          "link": "https://arxiv.org/abs/2504.03624"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Nemotron-H-8B-Base (8-shot)",
+        "d": "2025-04-04",
+        "m1": "87.1"
+      },
+      {
+        "p": {
+          "name": "Neural Thickets: Diverse Task Experts Are Dense Around Pretrained Weights",
+          "link": "https://arxiv.org/abs/2603.12228"
+        },
+        "c": "https://github.com/sunrainyg/RandOpt",
+        "n": "Qwen2.5-3B-Inst with RandOpt",
+        "d": "2026-03-12",
         "m1": "87.1"
       },
       {
@@ -485,11 +1575,81 @@
         "m1": "86.5"
       },
       {
+        "p": {
+          "name": "A Sovereign, Open-Source Foundation Model for German and English",
+          "link": "https://arxiv.org/abs/2607.09424"
+        },
+        "c": "https://github.com/soofi-project/soofi-pretraining",
+        "n": "Soofi S 30B-A3B Base",
+        "d": "2026-07-10",
+        "m1": "86.1"
+      },
+      {
+        "p": {
+          "name": "NeuPAT: Neuron-aware Plasticity Allocation Tuning for Language-Preserving MLLMs",
+          "link": "https://arxiv.org/abs/2608.08107"
+        },
+        "c": "",
+        "n": "NeuPAT (Qwen3-4B-Instruct-2507) (extra data)",
+        "d": "2026-08-08",
+        "m1": "85.97"
+      },
+      {
+        "p": {
+          "name": "LFM2.5-1.2B-Thinking: On-Device Reasoning Under 1GB",
+          "link": "https://www.liquid.ai/blog/lfm2-5-1-2b-thinking-on-device-reasoning-under-1gb"
+        },
+        "c": "",
+        "n": "LFM2.5-1.2B-Thinking",
+        "d": "2026-01-20",
+        "m1": "85.60"
+      },
+      {
+        "p": {
+          "name": "BEAM: Binary Expert Activation Masking for Dynamic Routing in MoE",
+          "link": "https://arxiv.org/abs/2605.14438"
+        },
+        "c": "",
+        "n": "Qwen3-30B-A3B (BEAM, beta=0.01)",
+        "d": "2026-05-14",
+        "m1": "85.52"
+      },
+      {
         "p": "",
         "c": "",
         "n": "Codex (Self-Evaluation Guided Decoding, PAL, multiple reasoning chains, 9-shot gen, 5-shot eval)",
         "d": "",
         "m1": "85.5"
+      },
+      {
+        "p": {
+          "name": "Co-RL: Unsupervised Reasoning Emerges from Diverse Cohort in Multi-agent RL",
+          "link": "https://arxiv.org/abs/2608.17253"
+        },
+        "c": "https://github.com/DrStranded/Co-RL",
+        "n": "Co-RL (Llama-3.1-8B-Instruct, Different family+)",
+        "d": "2026-08-19",
+        "m1": "85.4"
+      },
+      {
+        "p": {
+          "name": "FineRMoE: Dimension Expansion for Finer-Grained Expert with Its Upcycling Approach",
+          "link": "https://arxiv.org/abs/2603.13364"
+        },
+        "c": "https://github.com/liaoning97/FineRMoE",
+        "n": "FineRMoE (Qwen2.5-7B)",
+        "d": "2026-03-09",
+        "m1": "85.37"
+      },
+      {
+        "p": {
+          "name": "LoopRPT: Reinforcement Pre-Training for Looped Language Models",
+          "link": "https://arxiv.org/abs/2603.19714"
+        },
+        "c": "",
+        "n": "Ouro (2.6B) LoopRPT",
+        "d": "2026-03-20",
+        "m1": "85.36"
       },
       {
         "p": {
@@ -514,6 +1674,36 @@
       },
       {
         "p": {
+          "name": "2 OLMo 2 Furious",
+          "link": "https://arxiv.org/abs/2501.00656"
+        },
+        "c": "https://github.com/allenai/olmo",
+        "n": "OLMo 2 7B Instruct (8-shot)",
+        "d": "2024-12-31",
+        "m1": "85.1"
+      },
+      {
+        "p": {
+          "name": "ReFusion: A Diffusion Large Language Model with Parallel Autoregressive Decoding",
+          "link": "https://arxiv.org/abs/2512.13586"
+        },
+        "c": "https://github.com/ML-GSAI/ReFusion",
+        "n": "ReFusion",
+        "d": "2025-12-15",
+        "m1": "84.91"
+      },
+      {
+        "p": {
+          "name": "Safety at One Shot: Patching Fine-Tuned LLMs with A Single Instance",
+          "link": "https://arxiv.org/abs/2601.01887"
+        },
+        "c": "",
+        "n": "Llama3 8B (One-shot FT)",
+        "d": "2026-01-05",
+        "m1": "84.9"
+      },
+      {
+        "p": {
           "name": "OpenMathInstruct-1: A 1.8 Million Math Instruction Tuning Dataset",
           "link": "https://arxiv.org/abs/2402.10176v2"
         },
@@ -522,6 +1712,16 @@
         "d": "2024-02-15",
         "m1": "84.8",
         "m2": "7"
+      },
+      {
+        "p": {
+          "name": "HyperThink: Text-to-Parameter Hypernetworks for Efficient Reasoning",
+          "link": "https://arxiv.org/abs/2610.03039"
+        },
+        "c": "",
+        "n": "HyperThink (SmolLM3-3B) (extra data)",
+        "d": "2026-10-02",
+        "m1": "84.75"
       },
       {
         "p": {
@@ -547,6 +1747,26 @@
       },
       {
         "p": {
+          "name": "Group Sequence Policy Optimization",
+          "link": "https://arxiv.org/abs/2507.18071"
+        },
+        "c": "",
+        "n": "AliceAI-T5-35B-A0.6B-Base",
+        "d": "2025-07-24",
+        "m1": "84.7"
+      },
+      {
+        "p": {
+          "name": "HRM-Text: Efficient Pretraining Beyond Scaling",
+          "link": "https://arxiv.org/abs/2605.20613"
+        },
+        "c": "https://github.com/sapientinc/hrm-text",
+        "n": "HRM-Text-1B",
+        "d": "2026-05-20",
+        "m1": "84.7"
+      },
+      {
+        "p": {
           "name": "OpenMathInstruct-1: A 1.8 Million Math Instruction Tuning Dataset",
           "link": "https://arxiv.org/abs/2402.10176v2"
         },
@@ -569,6 +1789,46 @@
       },
       {
         "p": {
+          "name": "Introducing Llama 3.1: Our most capable models to date",
+          "link": "https://ai.meta.com/blog/meta-llama-3-1/"
+        },
+        "c": "https://github.com/meta-llama/llama-models",
+        "n": "Llama 3.1 (8B, Instruct) (8-shot)",
+        "d": "2024-07-23",
+        "m1": "84.5"
+      },
+      {
+        "p": {
+          "name": "The Llama 3 Herd of Models",
+          "link": "https://arxiv.org/abs/2407.21783v3"
+        },
+        "c": "https://github.com/zhuzilin/ring-flash-attention",
+        "n": "Llama 3.1 (8B, Instruct)",
+        "d": "2024-07-31",
+        "m1": "84.5"
+      },
+      {
+        "p": {
+          "name": "SeKV: Resolution-Adaptive KV Cache with Hierarchical Semantic Memory for Long-Context LLM Inference",
+          "link": "https://arxiv.org/abs/2606.31145"
+        },
+        "c": "https://github.com/AmirAbaskohi/SeKV",
+        "n": "SeKV (Qwen2.5-14B-Instruct)",
+        "d": "2026-06-30",
+        "m1": "84.5"
+      },
+      {
+        "p": {
+          "name": "LFM2 Technical Report",
+          "link": "https://arxiv.org/abs/2511.23404"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "LFM2-8B-A1B (5-shot)",
+        "d": "2025-11-28",
+        "m1": "84.38"
+      },
+      {
+        "p": {
           "name": "ToRA: A Tool-Integrated Reasoning Agent for Mathematical Problem Solving",
           "link": "https://arxiv.org/abs/2309.17452v4"
         },
@@ -580,12 +1840,32 @@
       },
       {
         "p": {
+          "name": "Dynamic Latent Routing",
+          "link": "https://arxiv.org/abs/2605.14323"
+        },
+        "c": "",
+        "n": "Dynamic Latent Routing (DLR) (Qwen3-8B)",
+        "d": "2026-05-14",
+        "m1": "84.3"
+      },
+      {
+        "p": {
           "name": "Can Large Models Teach Student Models to Solve Mathematical Problems Like Human Beings? A Reasoning Distillation Method via Multi-LoRA Interaction",
           "link": "https://arxiv.org/abs/2508.13037"
         },
         "c": "https://github.com/Xinhe-Li/LoRID",
         "n": "LoRID (Mistral)",
         "d": "2025-08-18",
+        "m1": "84.2"
+      },
+      {
+        "p": {
+          "name": "Laguna M.1/XS.2 Technical Report",
+          "link": "https://arxiv.org/abs/2605.27605"
+        },
+        "c": "https://github.com/poolsideai/pool",
+        "n": "Laguna XS.2",
+        "d": "2026-05-26",
         "m1": "84.2"
       },
       {
@@ -601,6 +1881,26 @@
       },
       {
         "p": {
+          "name": "DeepSeek LLM: Scaling Open-Source Language Models with Longtermism",
+          "link": "https://arxiv.org/abs/2401.02954"
+        },
+        "c": "https://github.com/deepseek-ai/deepseek-llm",
+        "n": "DeepSeek LLM 67B Chat",
+        "d": "2024-01-05",
+        "m1": "84.1"
+      },
+      {
+        "p": {
+          "name": "LLaDA MoE v2: Scaling Mixture-of-Experts Diffusion Language Models",
+          "link": "https://arxiv.org/abs/2608.03457"
+        },
+        "c": "",
+        "n": "LLaDA MoE v2 Base",
+        "d": "2026-08-04",
+        "m1": "83.93"
+      },
+      {
+        "p": {
           "name": "MathCoder: Seamless Code Integration in LLMs for Enhanced Mathematical Reasoning",
           "link": "https://arxiv.org/abs/2310.03731v1"
         },
@@ -609,6 +1909,46 @@
         "d": "2023-10-05",
         "m1": "83.9",
         "m2": "70"
+      },
+      {
+        "p": {
+          "name": "Falcon-H1: A Family of Hybrid-Head Language Models Redefining Efficiency and Performance",
+          "link": "https://arxiv.org/abs/2507.22448"
+        },
+        "c": "https://huggingface.co/tiiuae/Falcon-H1-34B-Instruct",
+        "n": "Falcon-H1-34B-Instruct (5-shot)",
+        "d": "2025-07-30",
+        "m1": "83.62"
+      },
+      {
+        "p": {
+          "name": "Who Should Lead Decoding Now? Tracking Reliable Trajectories for Ensembling Masked Diffusion Language Models",
+          "link": "https://arxiv.org/abs/2606.16281"
+        },
+        "c": "",
+        "n": "TIE (LLaDA + Dream; Entropy)",
+        "d": "2026-06-15",
+        "m1": "83.62"
+      },
+      {
+        "p": {
+          "name": "Towards Looped Models Done Right, Part I: Topology, Input Injection, Recurrent-State Design",
+          "link": "https://arxiv.org/abs/2610.23036"
+        },
+        "c": "https://github.com/ifm-ai/xllm-loop",
+        "n": "Huginn MoE (8.0B resident, 0.8B active)",
+        "d": "2026-10-16",
+        "m1": "83.62"
+      },
+      {
+        "p": {
+          "name": "The Optimizer Is the Agent: Reasoning-Driven Search across Prompts, Programs, and ML Workflows",
+          "link": "https://arxiv.org/abs/2608.06714"
+        },
+        "c": "https://github.com/snowflake-ai-research/reasearch",
+        "n": "ReASearch (Llama3.1-8B optimized prompt)",
+        "d": "2026-08-07",
+        "m1": "83.4"
       },
       {
         "p": {
@@ -631,6 +1971,26 @@
         "d": "2023-08-18",
         "m1": "83.2",
         "m2": "7"
+      },
+      {
+        "p": {
+          "name": "NCP-ArchPreview Technical Report: Moving towards Latent Space Language Models through Next Concept Prediction",
+          "link": "https://arxiv.org/abs/2609.10715"
+        },
+        "c": "https://github.com/lumia-group/ncp_olmo_eval",
+        "n": "NCP-ArchPreview Stage-2",
+        "d": "2026-09-09",
+        "m1": "83.02"
+      },
+      {
+        "p": {
+          "name": "Every Token Counts: Generalizing 16M Ultra-Long Context in Large Language Models",
+          "link": "https://arxiv.org/abs/2511.23319"
+        },
+        "c": "https://github.com/ant-research/long-context-modeling",
+        "n": "HSA-UltraLong-Inst",
+        "d": "2025-11-28",
+        "m1": "82.94"
       },
       {
         "p": {
@@ -677,6 +2037,16 @@
       },
       {
         "p": {
+          "name": "Attention Residuals",
+          "link": "https://arxiv.org/abs/2603.15031"
+        },
+        "c": "https://github.com/MoonshotAI/Attention-Residuals",
+        "n": "Kimi Linear (48B) with Block AttnRes",
+        "d": "2026-03-16",
+        "m1": "82.4"
+      },
+      {
+        "p": {
           "name": "MetaMath: Bootstrap Your Own Mathematical Questions for Large Language Models",
           "link": "https://arxiv.org/abs/2309.12284v4"
         },
@@ -710,6 +2080,46 @@
       },
       {
         "p": {
+          "name": "Linear Ensembles Wash Away Watermarks: On the Fragility of Distributional Perturbations in LLMs",
+          "link": "https://arxiv.org/abs/2605.30501"
+        },
+        "c": "https://github.com/kunhao18/wash",
+        "n": "WASH (N=4) on Ministral3-8B",
+        "d": "2026-05-28",
+        "m1": "82.1"
+      },
+      {
+        "p": {
+          "name": "Token-Level LLM Collaboration via FusionRoute",
+          "link": "https://arxiv.org/abs/2601.05106"
+        },
+        "c": "",
+        "n": "FusionRoute (Llama-3.1-8B)",
+        "d": "2026-01-08",
+        "m1": "82.0"
+      },
+      {
+        "p": {
+          "name": "C^2DLM: Causal Concept-Guided Diffusion Large Language Models",
+          "link": "https://arxiv.org/abs/2511.22146"
+        },
+        "c": "https://github.com/kairong-han/c-2-dlm",
+        "n": "C2DLM",
+        "d": "2025-11-27",
+        "m1": "81.96"
+      },
+      {
+        "p": {
+          "name": "Improved Large Language Diffusion Models",
+          "link": "https://arxiv.org/abs/2606.25331"
+        },
+        "c": "https://github.com/ml-gsai/llada",
+        "n": "iLLaDA 8B Base",
+        "d": "2026-06-24",
+        "m1": "81.9"
+      },
+      {
+        "p": {
           "name": "MathCoder: Seamless Code Integration in LLMs for Enhanced Mathematical Reasoning",
           "link": "https://arxiv.org/abs/2310.03731v1"
         },
@@ -718,6 +2128,16 @@
         "d": "2023-10-05",
         "m1": "81.7",
         "m2": "34"
+      },
+      {
+        "p": {
+          "name": "Mellum2 Technical Report",
+          "link": "https://arxiv.org/abs/2605.31268"
+        },
+        "c": "https://github.com/jetbrains/mellum",
+        "n": "Mellum 2 (base)",
+        "d": "2026-05-29",
+        "m1": "81.7"
       },
       {
         "p": {
@@ -740,6 +2160,16 @@
         "d": "2023-12-14",
         "m1": "81.5",
         "m2": "2.6"
+      },
+      {
+        "p": {
+          "name": "Fine-tuning Multi-modal LLMs with ART: Art-based Reinforcement Training",
+          "link": "https://arxiv.org/abs/2606.11854"
+        },
+        "c": "",
+        "n": "ART (Optimized Image) — Qwen3.5-2B",
+        "d": "2026-06-10",
+        "m1": "81.2"
       },
       {
         "p": {
@@ -775,6 +2205,16 @@
       },
       {
         "p": {
+          "name": "Beyond Hard Masks: Progressive Token Evolution for Diffusion Language Models",
+          "link": "https://arxiv.org/abs/2601.07351"
+        },
+        "c": "https://github.com/aim-uofa/EvoTokenDLM",
+        "n": "EvoToken-DLM (LLaDA-Instruct-8B, 10k FT)",
+        "d": "2026-01-12",
+        "m1": "80.74"
+      },
+      {
+        "p": {
           "name": "PaLM 2 Technical Report",
           "link": "https://arxiv.org/abs/2305.10403v3"
         },
@@ -807,6 +2247,16 @@
       },
       {
         "p": {
+          "name": "dLLM: Simple Diffusion Language Modeling",
+          "link": "https://arxiv.org/abs/2602.22661"
+        },
+        "c": "https://github.com/ZHZisZZ/dllm",
+        "n": "LLaDA-Instruct (reasoning SFT)",
+        "d": "2026-02-26",
+        "m1": "80.59"
+      },
+      {
+        "p": {
           "name": "An Empirical Study of Data Ability Boundary in LLMs' Math Reasoning",
           "link": "https://arxiv.org/abs/2403.00799v1"
         },
@@ -815,6 +2265,16 @@
         "d": "2024-02-23",
         "m1": "80.5",
         "m2": "7"
+      },
+      {
+        "p": {
+          "name": "MatryoshkaLoRA: Learning Accurate Hierarchical Low-Rank Representations for LLM Fine-Tuning",
+          "link": "https://arxiv.org/abs/2605.07850"
+        },
+        "c": "https://github.com/IST-DASLab/MatryoshkaLoRA",
+        "n": "MatryoshkaLora (Llama-3.1-8B-Instruct)",
+        "d": "2026-05-08",
+        "m1": "80.5"
       },
       {
         "p": {
@@ -844,6 +2304,36 @@
         "n": "Self-Evaluation Guided Decoding (Codex, PAL, single reasoning chain, 9-shot gen, 5-shot eval)",
         "d": "",
         "m1": "80.2"
+      },
+      {
+        "p": {
+          "name": "Knowledge Distillation During Mid-Training Favors Reasoning over Factual Recall",
+          "link": "https://arxiv.org/abs/2609.01532"
+        },
+        "c": "https://github.com/facebookresearch/midtraining-distillation",
+        "n": "Switch Distillation (1B; 7B teacher, full post-training)",
+        "d": "2026-09-01",
+        "m1": "79.8"
+      },
+      {
+        "p": {
+          "name": "Pivot-SD: Efficient Self-Distillation for Masked Diffusion Language Models",
+          "link": "https://arxiv.org/abs/2610.03665"
+        },
+        "c": "https://github.com/sunwoohong/pivot-sd",
+        "n": "Pivot-SD",
+        "d": "2026-10-02",
+        "m1": "79.51"
+      },
+      {
+        "p": {
+          "name": "Stop the Flip-Flop: Context-Preserving Verification for Fast Revocable Diffusion Decoding",
+          "link": "https://arxiv.org/abs/2602.06161"
+        },
+        "c": "",
+        "n": "COVER (Dream-7B-Instruct)",
+        "d": "2026-02-05",
+        "m1": "79.3"
       },
       {
         "p": {
@@ -899,6 +2389,16 @@
       },
       {
         "p": {
+          "name": "Fast-Decoding Diffusion Language Models via Progress-Aware Confidence Schedules",
+          "link": "https://arxiv.org/abs/2512.02892"
+        },
+        "c": "https://github.com/amr-mohamedd/SchED",
+        "n": "Dream (Base) with SchED (Exp k=2, τhigh=7.5, τlow=2.5)",
+        "d": "2025-12-02",
+        "m1": "77.71"
+      },
+      {
+        "p": {
           "name": "MetaMath: Bootstrap Your Own Mathematical Questions for Large Language Models",
           "link": "https://arxiv.org/abs/2309.12284v4"
         },
@@ -910,6 +2410,56 @@
       },
       {
         "p": {
+          "name": "Llama 3.2: Revolutionizing edge AI and vision with open, customizable models",
+          "link": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/"
+        },
+        "c": "https://github.com/meta-llama/llama-models",
+        "n": "Llama 3.2 3B Instruct",
+        "d": "2024-09-25",
+        "m1": "77.7"
+      },
+      {
+        "p": {
+          "name": "SLPO: Scaling Latent Reasoning via a Surrogate Policy",
+          "link": "https://arxiv.org/abs/2607.19691"
+        },
+        "c": "https://github.com/ModalityDance/SLPO",
+        "n": "SLPO (Llama-3.2-3B-Instruct)",
+        "d": "2026-07-22",
+        "m1": "77.63"
+      },
+      {
+        "p": {
+          "name": "Apertus: Democratizing Open and Compliant LLMs for Global Language Environments",
+          "link": "https://arxiv.org/abs/2509.14233"
+        },
+        "c": "https://github.com/swiss-ai/apertus-tech-report",
+        "n": "Apertus-70B-Instruct",
+        "d": "2025-09-17",
+        "m1": "77.6"
+      },
+      {
+        "p": {
+          "name": "Youtu-LLM: Unlocking the Native Agentic Potential for Lightweight Large Language Models",
+          "link": "https://arxiv.org/abs/2512.24618"
+        },
+        "c": "https://huggingface.co/tencent/Youtu-LLM-2B",
+        "n": "Youtu-LLM (2B, base)",
+        "d": "2025-12-31",
+        "m1": "77.6"
+      },
+      {
+        "p": {
+          "name": "Beyond Length Scaling: Synergizing Breadth and Depth for Generative Reward Models",
+          "link": "https://arxiv.org/abs/2603.01571"
+        },
+        "c": "https://github.com/Don-Joey/Mix-GRM",
+        "n": "Mix-GRM (used in DPO)",
+        "d": "2026-03-02",
+        "m1": "77.6"
+      },
+      {
+        "p": {
           "name": "OpenChat: Advancing Open-source Language Models with Mixed-Quality Data",
           "link": "https://arxiv.org/abs/2309.11235v2"
         },
@@ -918,6 +2468,26 @@
         "d": "2023-09-20",
         "m1": "77.3",
         "m2": "7"
+      },
+      {
+        "p": {
+          "name": "POP: Prefill-Only Pruning for Efficient Large Model Inference",
+          "link": "https://arxiv.org/abs/2602.03295"
+        },
+        "c": "",
+        "n": "POP (Llama-3.1-8B-Instruct)",
+        "d": "2026-02-03",
+        "m1": "77.26"
+      },
+      {
+        "p": {
+          "name": "When Confidence Misleads: Suffix Anchoring and Anchor-Proximity Confidence Modulation for Diffusion Language Models",
+          "link": "https://arxiv.org/abs/2605.28181"
+        },
+        "c": "",
+        "n": "Suffix-Anchored Confidence Modulation (LLaDA 8B-Instruct, top-probability decoding)",
+        "d": "2026-05-27",
+        "m1": "76.88"
       },
       {
         "p": {
@@ -940,6 +2510,26 @@
       },
       {
         "p": {
+          "name": "AdaPreLoRA: Adafactor Preconditioned Low-Rank Adaptation",
+          "link": "https://arxiv.org/abs/2605.08734"
+        },
+        "c": "",
+        "n": "Qwen2-7B + AdaPreLoRA AdamW",
+        "d": "2026-05-09",
+        "m1": "76.4"
+      },
+      {
+        "p": {
+          "name": "Liquid Foundation Models: Our First Series of Generative AI Models",
+          "link": "https://www.liquid.ai/blog/liquid-foundation-models-our-first-series-of-generative-ai-models"
+        },
+        "c": "",
+        "n": "LFM-40B Preview (5-shot)",
+        "d": "2024-09-30",
+        "m1": "76.04"
+      },
+      {
+        "p": {
           "name": "OpenMathInstruct-1: A 1.8 Million Math Instruction Tuning Dataset",
           "link": "https://arxiv.org/abs/2402.10176v2"
         },
@@ -951,6 +2541,16 @@
       },
       {
         "p": {
+          "name": "LastOPD: Taming Collapse in Latent On-Policy Distillation",
+          "link": "https://arxiv.org/abs/2609.28845"
+        },
+        "c": "https://github.com/Muyiiiii/LastOPD",
+        "n": "LastOPD (Qwen3-4B -> Qwen3-1.7B-Base)",
+        "d": "2026-09-23",
+        "m1": "75.82"
+      },
+      {
+        "p": {
           "name": "ToRA: A Tool-Integrated Reasoning Agent for Mathematical Problem Solving",
           "link": "https://arxiv.org/abs/2309.17452v4"
         },
@@ -959,6 +2559,26 @@
         "d": "2023-09-29",
         "m1": "75.8",
         "m2": "13"
+      },
+      {
+        "p": {
+          "name": "River-LLM: Large Language Model Seamless Exit Based on KV Share",
+          "link": "https://arxiv.org/abs/2604.18396"
+        },
+        "c": "",
+        "n": "River-LLM (Llama3.1 8B, τ=0.7)",
+        "d": "2026-04-20",
+        "m1": "75.6"
+      },
+      {
+        "p": {
+          "name": "Agon: Competitive Cross-Model RL with Implicit Rival Grading of Reasoning",
+          "link": "https://arxiv.org/abs/2607.07690"
+        },
+        "c": "",
+        "n": "Agon",
+        "d": "2026-07-08",
+        "m1": "75.0"
       },
       {
         "p": "",
@@ -992,6 +2612,26 @@
       },
       {
         "p": {
+          "name": "Mixtral of Experts",
+          "link": "https://arxiv.org/abs/2401.04088v1"
+        },
+        "c": "https://github.com/jingyaogong/minimind",
+        "n": "Mixtral 8x7B (8-shot)",
+        "d": "2024-01-08",
+        "m1": "74.4"
+      },
+      {
+        "p": {
+          "name": "The Master Key Hypothesis: Unlocking Cross-Model Capability Transfer via Linear Subspace Alignment",
+          "link": "https://arxiv.org/abs/2604.06377"
+        },
+        "c": "https://github.com/rishabbala/steering-vector-transfer",
+        "n": "Qwen1.5-14B + Unlock",
+        "d": "2026-04-07",
+        "m1": "74.4"
+      },
+      {
+        "p": {
           "name": "TinyGSM: achieving >80% on GSM8k with small language models",
           "link": "https://arxiv.org/abs/2312.09241v1"
         },
@@ -1022,6 +2662,16 @@
         "d": "2023-10-09",
         "m1": "74",
         "m2": "13"
+      },
+      {
+        "p": {
+          "name": "Gemma 2: Improving Open Language Models at a Practical Size",
+          "link": "https://arxiv.org/abs/2408.00118"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Gemma 2 27B (5-shot)",
+        "d": "2024-07-31",
+        "m1": "74.0"
       },
       {
         "p": {
@@ -1090,6 +2740,26 @@
       },
       {
         "p": {
+          "name": "daVinci-LLM:Towards the Science of Pretraining",
+          "link": "https://arxiv.org/abs/2603.27164"
+        },
+        "c": "https://github.com/GAIR-NLP/daVinci-LLM",
+        "n": "daVinci-LLM-3B",
+        "d": "2026-03-28",
+        "m1": "72.86"
+      },
+      {
+        "p": {
+          "name": "Encoder-Decoder Gemma: Improving the Quality-Efficiency Trade-Off via Adaptation",
+          "link": "https://arxiv.org/abs/2504.06225"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "T5Gemma 9B-9B PrefixLM",
+        "d": "2025-04-08",
+        "m1": "72.8"
+      },
+      {
+        "p": {
           "name": "ToRA: A Tool-Integrated Reasoning Agent for Mathematical Problem Solving",
           "link": "https://arxiv.org/abs/2309.17452v4"
         },
@@ -1118,11 +2788,31 @@
         "m1": "72.3"
       },
       {
+        "p": {
+          "name": "CADENCE: Closing the Reasoning Gap via Coverage-Adaptive On-Policy Distillation",
+          "link": "https://arxiv.org/abs/2607.16955"
+        },
+        "c": "",
+        "n": "CADENCE (3B teacher)",
+        "d": "2026-07-18",
+        "m1": "72.1"
+      },
+      {
         "p": "",
         "c": "",
         "n": "Self-Evaluation Guided Decoding (Codex, CoT, single reasoning chain, 9-shot gen, 5-shot eval)",
         "d": "",
         "m1": "71.9"
+      },
+      {
+        "p": {
+          "name": "Triplet-Block Diffusion RWKV",
+          "link": "https://arxiv.org/abs/2605.25969"
+        },
+        "c": "https://github.com/leonardodalinky/B3D-RWKV",
+        "n": "B3D-RWKV-7.2B",
+        "d": "2026-05-25",
+        "m1": "71.5"
       },
       {
         "p": {
@@ -1134,6 +2824,16 @@
         "d": "2023-09-21",
         "m1": "71.0",
         "m2": "13"
+      },
+      {
+        "p": {
+          "name": "Trust-Region Behavior Blending for On-Policy Distillation",
+          "link": "https://arxiv.org/abs/2605.31159"
+        },
+        "c": "",
+        "n": "Trust-Region behavior Blending (Qwen3-0.6B-Base ← Qwen3-4B)",
+        "d": "2026-05-29",
+        "m1": "70.1"
       },
       {
         "p": {
@@ -1170,6 +2870,16 @@
       },
       {
         "p": {
+          "name": "SkillFactory: Self-Distillation For Learning Cognitive Behaviors",
+          "link": "https://arxiv.org/abs/2512.04072"
+        },
+        "c": "https://github.com/Zayne-sprague/SkillFactory",
+        "n": "Qwen2.5-1.5B-Instruct (SkillFactory → GRPO)",
+        "d": "2025-12-03",
+        "m1": "68.2"
+      },
+      {
+        "p": {
           "name": "Least-to-Most Prompting Enables Complex Reasoning in Large Language Models",
           "link": "https://arxiv.org/abs/2205.10625v3"
         },
@@ -1191,6 +2901,26 @@
         "m2": "7"
       },
       {
+        "p": {
+          "name": "SmolLM3: smol, multilingual, long-context reasoner",
+          "link": "https://huggingface.co/blog/smollm3"
+        },
+        "c": "https://github.com/huggingface/smollm",
+        "n": "SmolLM3 3B Base (5-shot)",
+        "d": "2025-07-08",
+        "m1": "67.63"
+      },
+      {
+        "p": {
+          "name": "Beyond the Assistant Turn: User Turn Generation as a Probe of Interaction Awareness in Language Models",
+          "link": "https://arxiv.org/abs/2604.02315"
+        },
+        "c": "",
+        "n": "Qwen3.5-2B (RL)",
+        "d": "2026-04-03",
+        "m1": "67.4"
+      },
+      {
         "p": "",
         "c": "",
         "n": "DBRX Instruct 132B",
@@ -1207,6 +2937,36 @@
         "d": "2023-09-21",
         "m1": "66.4",
         "m2": "7"
+      },
+      {
+        "p": {
+          "name": "Pion: A Spectrum-Preserving Optimizer via Orthogonal Equivalence Transformation",
+          "link": "https://arxiv.org/abs/2605.12492"
+        },
+        "c": "https://github.com/Sphere-AI-Lab/pion",
+        "n": "Pion (Qwen2.5-1.5B finetuning)",
+        "d": "2026-05-12",
+        "m1": "65.76"
+      },
+      {
+        "p": {
+          "name": "ReMix: Reinforcement routing for mixtures of LoRAs in LLM finetuning",
+          "link": "https://arxiv.org/abs/2603.10160"
+        },
+        "c": "",
+        "n": "ReMix (Llama 3 8B)",
+        "d": "2026-03-10",
+        "m1": "65.66"
+      },
+      {
+        "p": {
+          "name": "What Matters for Latent Reasoning with Flow Matching",
+          "link": "https://arxiv.org/abs/2610.06666"
+        },
+        "c": "",
+        "n": "FLaRe, stage 2 (Llama-3.2-3B-Instruct) (extra data)",
+        "d": "2026-10-05",
+        "m1": "65.2"
       },
       {
         "p": {
@@ -1264,6 +3024,26 @@
       },
       {
         "p": {
+          "name": "Cross-Tokenizer LLM Distillation through a Byte-Level Interface",
+          "link": "https://arxiv.org/abs/2604.07466"
+        },
+        "c": "",
+        "n": "Gemma2 (2B) with BLD (distilled from OpenMath2-Llama3.1-8B)",
+        "d": "2026-04-13",
+        "m1": "62.55"
+      },
+      {
+        "p": {
+          "name": "Chameleon: Mixed-Modal Early-Fusion Foundation Models",
+          "link": "https://arxiv.org/abs/2405.09818"
+        },
+        "c": "https://github.com/facebookresearch/chameleon",
+        "n": "Chameleon 34B",
+        "d": "2024-05-16",
+        "m1": "61.4"
+      },
+      {
+        "p": {
           "name": "The Unreasonable Effectiveness of Eccentric Automatic Prompts",
           "link": "https://arxiv.org/abs/2402.10949v2"
         },
@@ -1282,6 +3062,16 @@
         "n": "Qwen2.5-32B + CAPO",
         "d": "2025-04-22",
         "m1": "60.2"
+      },
+      {
+        "p": {
+          "name": "Jamba: A Hybrid Transformer-Mamba Language Model",
+          "link": "https://arxiv.org/abs/2403.19887"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Jamba (3-shot CoT)",
+        "d": "2024-03-28",
+        "m1": "59.9"
       },
       {
         "p": {
@@ -1318,6 +3108,16 @@
       },
       {
         "p": {
+          "name": "BitNet b1.58 2B4T Technical Report",
+          "link": "https://arxiv.org/abs/2504.12285"
+        },
+        "c": "https://github.com/microsoft/bitnet",
+        "n": "BitNet b1.58 2B4T",
+        "d": "2025-04-16",
+        "m1": "58.38"
+      },
+      {
+        "p": {
           "name": "Large Language Models are Zero-Shot Reasoners",
           "link": "https://arxiv.org/abs/2205.11916v4"
         },
@@ -1336,6 +3136,16 @@
         "n": "GPT-3.5 (few-shot, k=5)",
         "d": "2023-03-15",
         "m1": "57.1"
+      },
+      {
+        "p": {
+          "name": "Refuse without Refusal: A Structural Analysis of Safety-Tuning Responses for Reducing False Refusals in Language Models",
+          "link": "https://arxiv.org/abs/2609.04714"
+        },
+        "c": "https://github.com/mz-kim/Refuse-without-Refusal",
+        "n": "Llama-3.1-8B + Rationale-Only",
+        "d": "2026-09-04",
+        "m1": "57.01"
       },
       {
         "p": {
@@ -1383,6 +3193,16 @@
       },
       {
         "p": {
+          "name": "Training Verifiers to Solve Math Word Problems",
+          "link": "https://arxiv.org/abs/2110.14168"
+        },
+        "c": "https://github.com/openai/grade-school-math",
+        "n": "GPT-3 175B + Verifier",
+        "d": "2021-10-27",
+        "m1": "55.9"
+      },
+      {
+        "p": {
           "name": "Scaling Relationship on Learning Mathematical Reasoning with Large Language Models",
           "link": "https://arxiv.org/abs/2308.01825v2"
         },
@@ -1405,6 +3225,16 @@
       },
       {
         "p": {
+          "name": "DeepSeek-VL: Towards Real-World Vision-Language Understanding",
+          "link": "https://arxiv.org/abs/2403.05525v2"
+        },
+        "c": "https://github.com/deepseek-ai/deepseek-vl",
+        "n": "DeepSeek-VL 7B Chat",
+        "d": "2024-03-08",
+        "m1": "55.0"
+      },
+      {
+        "p": {
           "name": "WizardMath: Empowering Mathematical Reasoning for Large Language Models via Reinforced Evol-Instruct",
           "link": "https://arxiv.org/abs/2308.09583v2"
         },
@@ -1416,6 +3246,26 @@
       },
       {
         "p": {
+          "name": "Falcon2-11B Technical Report",
+          "link": "https://arxiv.org/abs/2407.14885"
+        },
+        "c": "",
+        "n": "Falcon2-11B (5-shot)",
+        "d": "2024-07-20",
+        "m1": "53.83"
+      },
+      {
+        "p": {
+          "name": "mHC: Manifold-Constrained Hyper-Connections",
+          "link": "https://arxiv.org/abs/2512.24880"
+        },
+        "c": "",
+        "n": "mHC (27B)",
+        "d": "2025-12-31",
+        "m1": "53.8"
+      },
+      {
+        "p": {
           "name": "LLaMA: Open and Efficient Foundation Language Models",
           "link": "https://arxiv.org/abs/2302.13971v1"
         },
@@ -1424,6 +3274,16 @@
         "d": "2023-02-27",
         "m1": "53.1",
         "m2": "33"
+      },
+      {
+        "p": {
+          "name": "Falcon Mamba: The First Competitive Attention-free 7B Language Model",
+          "link": "https://arxiv.org/abs/2410.05355"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Falcon Mamba 7B (5-shot)",
+        "d": "2024-10-07",
+        "m1": "52.54"
       },
       {
         "p": {
@@ -1471,6 +3331,16 @@
       },
       {
         "p": {
+          "name": "Compact Language Models via Pruning and Knowledge Distillation",
+          "link": "https://arxiv.org/abs/2407.14679"
+        },
+        "c": "https://github.com/nvlabs/minitron",
+        "n": "Minitron 8B",
+        "d": "2024-07-19",
+        "m1": "51.3"
+      },
+      {
+        "p": {
           "name": "Scaling Relationship on Learning Mathematical Reasoning with Large Language Models",
           "link": "https://arxiv.org/abs/2308.01825v2"
         },
@@ -1493,6 +3363,56 @@
       },
       {
         "p": {
+          "name": "Learnable Multipliers: Freeing the Scale of Language Model Matrix Layers",
+          "link": "https://arxiv.org/abs/2601.04890"
+        },
+        "c": "https://github.com/tiiuae/falcon-h1",
+        "n": "Falcon-H1-0.5B with Learnable Multipliers (Muon)",
+        "d": "2026-01-08",
+        "m1": "50.63"
+      },
+      {
+        "p": {
+          "name": "Universal YOCO for Efficient Depth Scaling",
+          "link": "https://arxiv.org/abs/2604.01220"
+        },
+        "c": "",
+        "n": "YOCO-U (Equal Steps)",
+        "d": "2026-04-01",
+        "m1": "50.57"
+      },
+      {
+        "p": {
+          "name": "Power Scheduler: A Batch Size and Token Number Agnostic Learning Rate Scheduler",
+          "link": "https://arxiv.org/abs/2408.13359"
+        },
+        "c": "https://github.com/ibm/dolomite-engine",
+        "n": "PowerLM-3B (8-shot CoT)",
+        "d": "2024-08-23",
+        "m1": "49.7"
+      },
+      {
+        "p": {
+          "name": "SmolLM2: When Smol Goes Big -- Data-Centric Training of a Small Language Model",
+          "link": "https://arxiv.org/abs/2502.02737"
+        },
+        "c": "https://github.com/huggingface/smollm",
+        "n": "SmolLM2 1.7B Instruct",
+        "d": "2025-02-04",
+        "m1": "48.8"
+      },
+      {
+        "p": {
+          "name": "Expert Upcycling: Shifting the Compute-Efficient Frontier of Mixture-of-Experts",
+          "link": "https://arxiv.org/abs/2604.19835"
+        },
+        "c": "https://github.com/amazon-science/expert-upcycling",
+        "n": "Upcycled 32→64 (100% CPT)",
+        "d": "2026-04-21",
+        "m1": "48.3"
+      },
+      {
+        "p": {
           "name": "Orca 2: Teaching Small Language Models How to Reason",
           "link": "https://arxiv.org/abs/2311.11045v2"
         },
@@ -1504,6 +3424,66 @@
       },
       {
         "p": {
+          "name": "Flux Attention: Context-Aware Hybrid Attention for Efficient LLMs Inference",
+          "link": "https://arxiv.org/abs/2604.07394"
+        },
+        "c": "https://github.com/qqtang-code/FluxAttention",
+        "n": "FluxAttn (FA-TA) (Llama-3.1-8B-Instruct)",
+        "d": "2026-04-08",
+        "m1": "46.9"
+      },
+      {
+        "p": {
+          "name": "Gemma: Open Models Based on Gemini Research and Technology",
+          "link": "https://arxiv.org/abs/2403.08295"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Gemma 7B",
+        "d": "2024-03-13",
+        "m1": "46.4"
+      },
+      {
+        "p": {
+          "name": "Nemotron-4 15B Technical Report",
+          "link": "https://arxiv.org/abs/2402.16819"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Nemotron-4 15B (8-shot)",
+        "d": "2024-02-26",
+        "m1": "46.0"
+      },
+      {
+        "p": {
+          "name": "Coupling Experts and Routers in Mixture-of-Experts via an Auxiliary Loss",
+          "link": "https://arxiv.org/abs/2512.23447"
+        },
+        "c": "",
+        "n": "MoE + ERC",
+        "d": "2025-12-29",
+        "m1": "45.8"
+      },
+      {
+        "p": {
+          "name": "OLMoE: Open Mixture-of-Experts Language Models",
+          "link": "https://arxiv.org/abs/2409.02060"
+        },
+        "c": "https://github.com/allenai/OLMoE",
+        "n": "OLMoE-1B-7B-Instruct (8-shot)",
+        "d": "2024-09-03",
+        "m1": "45.5"
+      },
+      {
+        "p": {
+          "name": "Scaling Inherently Interpretable Language Models",
+          "link": "https://arxiv.org/abs/2608.07594"
+        },
+        "c": "https://github.com/guidelabs/steerling",
+        "n": "Steerling-8B",
+        "d": "2026-08-06",
+        "m1": "44.4"
+      },
+      {
+        "p": {
           "name": "The Unreasonable Effectiveness of Eccentric Automatic Prompts",
           "link": "https://arxiv.org/abs/2402.10949v2"
         },
@@ -1512,6 +3492,26 @@
         "d": "2024-02-09",
         "m1": "43",
         "m2": "13"
+      },
+      {
+        "p": {
+          "name": "RecurrentGemma: Moving Past Transformers for Efficient Open Language Models",
+          "link": "https://arxiv.org/abs/2404.07839"
+        },
+        "c": "https://github.com/google-deepmind/recurrentgemma",
+        "n": "RecurrentGemma-9B",
+        "d": "2024-04-11",
+        "m1": "42.6"
+      },
+      {
+        "p": {
+          "name": "How Lossless Is Lossless Speculative Decoding? The Role of Numerical Precision in Orthrus",
+          "link": "https://arxiv.org/abs/2609.15504"
+        },
+        "c": "",
+        "n": "Orthrus-1.7B-final",
+        "d": "2026-09-14",
+        "m1": "41.47"
       },
       {
         "p": {
@@ -1558,6 +3558,16 @@
       },
       {
         "p": {
+          "name": "From Reweighting to Rewriting: Unlocking the Intervention Effects of Influential Samples in Training Data Attribution",
+          "link": "https://arxiv.org/abs/2609.02771"
+        },
+        "c": "",
+        "n": "OLMo2-1B + influence rewriting (Opposed Helpful)",
+        "d": "2026-09-02",
+        "m1": "37.07"
+      },
+      {
+        "p": {
           "name": "Llemma: An Open Language Model For Mathematics",
           "link": "https://arxiv.org/abs/2310.10631v3"
         },
@@ -1591,6 +3601,26 @@
       },
       {
         "p": {
+          "name": "Code Llama: Open Foundation Models for Code",
+          "link": "https://arxiv.org/abs/2308.12950v3"
+        },
+        "c": "https://github.com/facebookresearch/codellama",
+        "n": "Code Llama - Python 34B",
+        "d": "2023-08-24",
+        "m1": "34.420"
+      },
+      {
+        "p": {
+          "name": "Copy-Paste Language Models",
+          "link": "https://arxiv.org/abs/2610.19247"
+        },
+        "c": "https://github.com/kellerjordan/modded-nanogpt",
+        "n": "Copy-Paste Language Model (1.7B, Full)",
+        "d": "2026-10-13",
+        "m1": "33.1"
+      },
+      {
+        "p": {
           "name": "Solving Quantitative Reasoning Problems with Language Models",
           "link": "https://arxiv.org/abs/2206.14858v2"
         },
@@ -1599,6 +3629,26 @@
         "d": "2022-06-29",
         "m1": "33.0",
         "m2": "62"
+      },
+      {
+        "p": {
+          "name": "Sumi: Open Uniform Diffusion Language Model from Scratch",
+          "link": "https://arxiv.org/abs/2606.19005"
+        },
+        "c": "https://github.com/tohoku-nlp/sumi",
+        "n": "Sumi-7B (4-shot)",
+        "d": "2026-06-17",
+        "m1": "32.8"
+      },
+      {
+        "p": {
+          "name": "Queryable LoRA: Instruction-Regularized Routing Over Shared Low-Rank Update Atoms",
+          "link": "https://arxiv.org/abs/2605.08423"
+        },
+        "c": "",
+        "n": "Instruction-Queryable LoRA",
+        "d": "2026-05-08",
+        "m1": "32.4"
       },
       {
         "p": {
@@ -1613,6 +3663,16 @@
       },
       {
         "p": {
+          "name": "SmolLM2: When Smol Goes Big -- Data-Centric Training of a Small Language Model",
+          "link": "https://arxiv.org/abs/2502.02737"
+        },
+        "c": "https://github.com/huggingface/smollm",
+        "n": "SmolLM2 1.7B",
+        "d": "2025-02-04",
+        "m1": "31.1"
+      },
+      {
+        "p": {
           "name": "LLaMA: Open and Efficient Foundation Language Models",
           "link": "https://arxiv.org/abs/2302.13971v1"
         },
@@ -1624,6 +3684,16 @@
       },
       {
         "p": {
+          "name": "Latent Chain-of-Thought as Planning: Decoupling Reasoning from Verbalization",
+          "link": "https://arxiv.org/abs/2601.21358"
+        },
+        "c": "",
+        "n": "PLaT",
+        "d": "2026-01-29",
+        "m1": "28.66"
+      },
+      {
+        "p": {
           "name": "Solving Quantitative Reasoning Problems with Language Models",
           "link": "https://arxiv.org/abs/2206.14858v2"
         },
@@ -1632,6 +3702,36 @@
         "d": "2022-06-29",
         "m1": " 28.4",
         "m2": "8"
+      },
+      {
+        "p": {
+          "name": "Compact Language Models via Pruning and Knowledge Distillation",
+          "link": "https://arxiv.org/abs/2407.14679"
+        },
+        "c": "https://github.com/nvlabs/minitron",
+        "n": "Minitron 4B",
+        "d": "2024-07-19",
+        "m1": "24.1"
+      },
+      {
+        "p": {
+          "name": "How Does Reasoning Flow? Tracing Attention-Induced Information Flow for Targeted RL in LLMs",
+          "link": "https://arxiv.org/abs/2606.10646"
+        },
+        "c": "",
+        "n": "FlowTracer (Llama-3.1-8B)",
+        "d": "2026-06-09",
+        "m1": "21.1"
+      },
+      {
+        "p": {
+          "name": "Decouple Searching from Training: Scaling Data Mixing via Model Merging for Large Language Model Pre-training",
+          "link": "https://arxiv.org/abs/2602.00747"
+        },
+        "c": "https://github.com/Lucius-lsr/DeMix",
+        "n": "Qwen3 (1.7B) with DeMix (224 proxies)",
+        "d": "2026-01-31",
+        "m1": "20.98"
       },
       {
         "p": {
@@ -1734,6 +3834,16 @@
       },
       {
         "p": {
+          "name": "RecurrentGemma: Moving Past Transformers for Efficient Open Language Models",
+          "link": "https://arxiv.org/abs/2404.07839"
+        },
+        "c": "https://github.com/google-deepmind/recurrentgemma",
+        "n": "RecurrentGemma-2B",
+        "d": "2024-04-11",
+        "m1": "13.4"
+      },
+      {
+        "p": {
           "name": "Composing Ensembles of Pre-trained Models via Iterative Consensus",
           "link": "https://arxiv.org/abs/2210.11522v1"
         },
@@ -1767,6 +3877,16 @@
       },
       {
         "p": {
+          "name": "OLMo: Accelerating the Science of Language Models",
+          "link": "https://arxiv.org/abs/2402.00838"
+        },
+        "c": "https://github.com/allenai/olmo",
+        "n": "OLMo 7B (8-shot)",
+        "d": "2024-02-01",
+        "m1": "8.5"
+      },
+      {
+        "p": {
           "name": "Learning Math Reasoning from Self-Sampled Correct and Partially-Correct Solutions",
           "link": "https://arxiv.org/abs/2205.14318v2"
         },
@@ -1786,6 +3906,16 @@
         "d": "2022-05-10",
         "m1": "4.4",
         "m2": "20"
+      },
+      {
+        "p": {
+          "name": "Training Language Models via Neural Cellular Automata",
+          "link": "https://arxiv.org/abs/2603.10055"
+        },
+        "c": "https://github.com/danihyunlee/nca-pre-pretraining",
+        "n": "NCA-pretrained 1.6B",
+        "d": "2026-03-09",
+        "m1": "4.4"
       },
       {
         "p": {

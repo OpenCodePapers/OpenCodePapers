@@ -1,0 +1,78 @@
+{
+  "title": "visual-question-answering-vqa-on-erqa",
+  "task-hierarchy": [
+    "Visual Question Answering (VQA)"
+  ],
+  "dataset-info": {
+    "link": "https://arxiv.org/abs/2503.20020",
+    "paper": "Gemini Robotics: Bringing AI into the Physical World"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Qwen3.8-Flash-Next",
+          "link": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next"
+        },
+        "c": "https://github.com/qwenlm/qwen3.8-flash-next",
+        "n": "Qwen3.8-Flash-Next",
+        "d": "2026-08-24",
+        "m1": "72.3"
+      },
+      {
+        "p": {
+          "name": "CoWorld Reasoner: Agentic Multimodal Reasoning with the Evolving Video World Model-Driven Harness",
+          "link": "https://arxiv.org/abs/2610.21910"
+        },
+        "c": "https://github.com/ModalityDance/CoWorld-Reasoner",
+        "n": "CoWorld Reasoner",
+        "d": "2026-10-15",
+        "m1": "58.5"
+      },
+      {
+        "p": {
+          "name": "OpenVLHarness: Real World Visual Agentic Tool-Use with Multimodal Memory",
+          "link": "https://arxiv.org/abs/2610.26860"
+        },
+        "c": "https://github.com/uclanlp/OpenVLHarness",
+        "n": "Qwen3-VL-32B + OpenVLHarness",
+        "d": "2026-10-19",
+        "m1": "48.0"
+      },
+      {
+        "p": {
+          "name": "MJev-Spatial: System One Spatial Intelligence via Native Attention Matching",
+          "link": "https://arxiv.org/abs/2610.22276"
+        },
+        "c": "https://github.com/Fr0zenCrane/MJev-Spatial",
+        "n": "MJev-Spatial",
+        "d": "2026-10-15",
+        "m1": "46.75"
+      }
+    ]
+  }
+}

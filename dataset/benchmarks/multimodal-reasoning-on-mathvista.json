@@ -1,0 +1,1549 @@
+{
+  "title": "multimodal-reasoning-on-mathvista",
+  "task-hierarchy": [
+    "Visual Reasoning",
+    "Multimodal Reasoning"
+  ],
+  "dataset-info": {
+    "link": "https://mathvista.github.io/",
+    "paper": "MathVista: Evaluating Mathematical Reasoning of Foundation Models in Visual Contexts"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Qwen3.5: Towards Native Multimodal Agents",
+          "link": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Qwen3.5-397B-A17B",
+        "d": "2026-02-16",
+        "m1": "90.3"
+      },
+      {
+        "p": {
+          "name": "Kimi K2.5: Visual Agentic Intelligence",
+          "link": "https://arxiv.org/abs/2602.02276"
+        },
+        "c": "https://github.com/MoonshotAI/Kimi-K2.5",
+        "n": "Kimi K2.5",
+        "d": "2026-02-02",
+        "m1": "90.1"
+      },
+      {
+        "p": {
+          "name": "HopChain: Multi-Hop Data Synthesis for Generalizable Vision-Language Reasoning",
+          "link": "https://arxiv.org/abs/2603.17024"
+        },
+        "c": "",
+        "n": "Qwen3.5-397B-A17B (RLVR w/ Multi-Hop)",
+        "d": "2026-03-17",
+        "m1": "89"
+      },
+      {
+        "p": {
+          "name": "Qwen3.5: Towards Native Multimodal Agents",
+          "link": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Qwen3.5-27B",
+        "d": "2026-02-16",
+        "m1": "87.8"
+      },
+      {
+        "p": {
+          "name": "Qwen3.5: Towards Native Multimodal Agents",
+          "link": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Qwen3.5-122B-A10B",
+        "d": "2026-02-16",
+        "m1": "87.4"
+      },
+      {
+        "p": {
+          "name": "Qwen3.6",
+          "link": "https://huggingface.co/collections/Qwen/qwen36"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Qwen3.6-27B",
+        "d": "2026-04-21",
+        "m1": "87.4"
+      },
+      {
+        "p": {
+          "name": "Introducing OpenAI o3 and o4-mini",
+          "link": "https://openai.com/index/introducing-o3-and-o4-mini/"
+        },
+        "c": "https://github.com/openai/codex",
+        "n": "OpenAI o3",
+        "d": "2025-04-16",
+        "m1": "86.8"
+      },
+      {
+        "p": {
+          "name": "Scalable Visual Pretraining for Language Intelligence",
+          "link": "https://arxiv.org/abs/2607.09657"
+        },
+        "c": "",
+        "n": "Qwen3.5-35B-A3B + VP",
+        "d": "2026-07-10",
+        "m1": "86.70"
+      },
+      {
+        "p": {
+          "name": "Beyond Correctness: Benchmarking and Aligning Response Behaviors in Hybrid-Thinking MLLMs",
+          "link": "https://arxiv.org/abs/2608.12781"
+        },
+        "c": "",
+        "n": "Qwen3-VL-8B + PatternRL",
+        "d": "2026-08-17",
+        "m1": "86.61"
+      },
+      {
+        "p": {
+          "name": "Qwen3.6",
+          "link": "https://huggingface.co/collections/Qwen/qwen36"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Qwen3.6-35B-A3B",
+        "d": "2026-04-21",
+        "m1": "86.4"
+      },
+      {
+        "p": {
+          "name": "Qwen3.5: Towards Native Multimodal Agents",
+          "link": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Qwen3.5-35B-A3B",
+        "d": "2026-02-16",
+        "m1": "86.2"
+      },
+      {
+        "p": {
+          "name": "Qwen3.5-Omni Technical Report",
+          "link": "https://arxiv.org/pdf/2604.15804"
+        },
+        "c": "",
+        "n": "Qwen3.5-Omni-Plus",
+        "d": "2026-04-21",
+        "m1": "86.1"
+      },
+      {
+        "p": {
+          "name": "SenseNova-U1.5: Towards Native Unified Visual Intelligence",
+          "link": "https://arxiv.org/abs/2609.11929"
+        },
+        "c": "https://github.com/OpenSenseNova/SenseNova-U1",
+        "n": "SenseNova-U1.5 8B-Think",
+        "d": "2026-09-10",
+        "m1": "85.85"
+      },
+      {
+        "p": {
+          "name": "Qwen3-VL Technical Report",
+          "link": "https://arxiv.org/abs/2511.21631"
+        },
+        "c": "https://github.com/QwenLM/Qwen3-VL",
+        "n": "Qwen3-VL-235B-A22B-Thinking",
+        "d": "2025-11-26",
+        "m1": "85.8"
+      },
+      {
+        "p": {
+          "name": "Thinking with Comics: Enhancing Multimodal Reasoning through Structured Visual Storytelling",
+          "link": "https://arxiv.org/abs/2602.02453"
+        },
+        "c": "https://github.com/andongBlue/Think-with-Comics",
+        "n": "TwC - Img & Txt (Generate-then-Reason)",
+        "d": "2026-02-02",
+        "m1": "85.8"
+      },
+      {
+        "p": {
+          "name": "Qwen3.5: Towards Native Multimodal Agents",
+          "link": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Qwen3.5-9B",
+        "d": "2026-02-16",
+        "m1": "85.7"
+      },
+      {
+        "p": {
+          "name": "MAXS: Meta-Adaptive Exploration with LLM Agents",
+          "link": "https://arxiv.org/abs/2601.09259"
+        },
+        "c": "https://github.com/exoskeletonzj/MAXS",
+        "n": "MAXS (MiMo-VL-7B-SFT)",
+        "d": "2026-01-14",
+        "m1": "85.5"
+      },
+      {
+        "p": {
+          "name": "STEP3-VL-10B Technical Report",
+          "link": "https://arxiv.org/abs/2601.09668"
+        },
+        "c": "https://github.com/stepfun-ai/Step3-VL-10B",
+        "n": "Step3-VL-10B (PaCoRe)",
+        "d": "2026-01-14",
+        "m1": "85.5"
+      },
+      {
+        "p": {
+          "name": "SenseNova-U1: Unifying Multimodal Understanding and Generation with NEO-unify Architecture",
+          "link": "https://arxiv.org/abs/2605.12500"
+        },
+        "c": "https://github.com/OpenSenseNova/SenseNova-U1",
+        "n": "SenseNova-U1-A3B-MoT",
+        "d": "2026-05-12",
+        "m1": "85.30"
+      },
+      {
+        "p": {
+          "name": "GLM-4.1V-Thinking: Towards Versatile Multimodal Reasoning with Scalable Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2507.01006"
+        },
+        "c": "https://github.com/THUDM/GLM-4.1V-Thinking",
+        "n": "GLM-4.6V",
+        "d": "2025-07-01",
+        "m1": "85.2"
+      },
+      {
+        "p": {
+          "name": "Masking Teacher and Reinforcing Student for Distilling Vision-Language Models",
+          "link": "https://arxiv.org/abs/2512.22238"
+        },
+        "c": "",
+        "n": "InternVL3.5 - Masters",
+        "d": "2025-12-23",
+        "m1": "85.0"
+      },
+      {
+        "p": {
+          "name": "EXAONE 4.5 Technical Report",
+          "link": "https://arxiv.org/abs/2604.08644"
+        },
+        "c": "https://github.com/LG-AI-EXAONE/EXAONE-4.5",
+        "n": "EXAONE 4.5 (Reasoning)",
+        "d": "2026-04-09",
+        "m1": "85.0"
+      },
+      {
+        "p": {
+          "name": "Group Entropy-Controlled Policy Optimization",
+          "link": "https://arxiv.org/abs/2607.16850"
+        },
+        "c": "",
+        "n": "GEPO (Qwen3.5-9B)",
+        "d": "2026-07-18",
+        "m1": "84.9"
+      },
+      {
+        "p": {
+          "name": "ERNIE 5.0 Technical Report",
+          "link": "https://arxiv.org/abs/2602.04705"
+        },
+        "c": "",
+        "n": "ERNIE 5.0",
+        "d": "2026-02-04",
+        "m1": "84.8"
+      },
+      {
+        "p": {
+          "name": "Evidence-RL: Towards Evidence-intensive Visual Reasoning",
+          "link": "https://arxiv.org/abs/2608.08021"
+        },
+        "c": "",
+        "n": "Evidence-RL (Qwen3.5-9B)",
+        "d": "2026-08-08",
+        "m1": "83.75"
+      },
+      {
+        "p": {
+          "name": "Ovis2.5 Technical Report",
+          "link": "https://arxiv.org/abs/2508.11737"
+        },
+        "c": "https://github.com/AIDC-AI/Ovis",
+        "n": "Ovis2.5-9B",
+        "d": "2025-08-15",
+        "m1": "83.4"
+      },
+      {
+        "p": {
+          "name": "LongCat-Next: Lexicalizing Modalities as Discrete Tokens",
+          "link": "https://arxiv.org/abs/2603.27538"
+        },
+        "c": "https://github.com/meituan-longcat/LongCat-Next",
+        "n": "LongCat-Next (A3B, 68.5B)",
+        "d": "2026-03-29",
+        "m1": "83.1"
+      },
+      {
+        "p": {
+          "name": "Kwai Keye-VL-2.0 Technical Report",
+          "link": "https://arxiv.org/abs/2606.10651"
+        },
+        "c": "https://github.com/kwai-keye/keye",
+        "n": "Keye-VL-2.0-30B-A3B",
+        "d": "2026-06-09",
+        "m1": "82.9"
+      },
+      {
+        "p": {
+          "name": "Nemotron 3 Nano Omni: Efficient and Open Multimodal Intelligence",
+          "link": "https://arxiv.org/abs/2604.24954"
+        },
+        "c": "https://github.com/nvidia-nemo/megatron-bridge",
+        "n": "Nemotron 3 Nano Omni (Reasoning)",
+        "d": "2026-04-27",
+        "m1": "82.8"
+      },
+      {
+        "p": {
+          "name": "Self-Supervised Visual On-Policy Distillation",
+          "link": "https://arxiv.org/abs/2608.14144"
+        },
+        "c": "",
+        "n": "S^2VOPD (Qwen3.5-4B, Vision-OPD-6K) (extra data)",
+        "d": "2026-08-14",
+        "m1": "81.5"
+      },
+      {
+        "p": {
+          "name": "V-Rubrics: Visual Faithfulness via Rubric-Based Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2608.25580"
+        },
+        "c": "https://github.com/shulin16/v-rubrics",
+        "n": "V-Rubrics (GRPO w/ rubrics) (extra data)",
+        "d": "2026-08-26",
+        "m1": "81.3"
+      },
+      {
+        "p": {
+          "name": "Kwai Keye-VL 1.5 Technical Report",
+          "link": "https://arxiv.org/abs/2509.01563"
+        },
+        "c": "https://github.com/kwai-keye/keye",
+        "n": "Keye-VL-1.5-8B",
+        "d": "2025-09-01",
+        "m1": "81.2"
+      },
+      {
+        "p": {
+          "name": "Qwen3-Omni Technical Report",
+          "link": "https://arxiv.org/abs/2509.17765"
+        },
+        "c": "https://github.com/QwenLM/Qwen3-Omni",
+        "n": "Qwen3-Omni-Flash-Thinking",
+        "d": "2025-09-22",
+        "m1": "81.2"
+      },
+      {
+        "p": {
+          "name": "AnE: Pushing the Reasoning Frontier of Multimodal LLMs via Anchor Evolution",
+          "link": "https://arxiv.org/abs/2605.25571"
+        },
+        "c": "https://github.com/wangzehao0704/ane",
+        "n": "AnE-3rd",
+        "d": "2026-05-25",
+        "m1": "81.2"
+      },
+      {
+        "p": {
+          "name": "Kwai Keye-VL Technical Report",
+          "link": "https://arxiv.org/abs/2507.01949"
+        },
+        "c": "https://github.com/kwai-keye/keye",
+        "n": "Keye-VL-8B",
+        "d": "2025-07-02",
+        "m1": "80.7"
+      },
+      {
+        "p": {
+          "name": "Command A+",
+          "link": "https://cohere.com/blog/command-a-plus"
+        },
+        "c": "",
+        "n": "Command A+",
+        "d": "2026-05-20",
+        "m1": "80.6"
+      },
+      {
+        "p": {
+          "name": "See Less, See Right: Bi-directional Perceptual Shaping For Multimodal Reasoning",
+          "link": "https://arxiv.org/abs/2512.22120"
+        },
+        "c": "https://github.com/zss02/bips",
+        "n": "BiPS (Qwen3-VL-8B-Thinking)",
+        "d": "2025-12-26",
+        "m1": "80.4"
+      },
+      {
+        "p": {
+          "name": "EvoCUA: Evolving Computer Use Agents via Learning from Scalable Synthetic Experience",
+          "link": "https://arxiv.org/abs/2601.15876"
+        },
+        "c": "https://github.com/meituan/EvoCUA",
+        "n": "EvoCUA-32B",
+        "d": "2026-01-22",
+        "m1": "80.40"
+      },
+      {
+        "p": {
+          "name": "Kimi-VL Technical Report",
+          "link": "https://arxiv.org/abs/2504.07491"
+        },
+        "c": "https://github.com/moonshotai/kimi-vl",
+        "n": "Kimi-VL-A3B-Thinking-2506",
+        "d": "2025-04-10",
+        "m1": "80.1"
+      },
+      {
+        "p": {
+          "name": "MiniCPM-o 4.5: Towards Real-Time Full-Duplex Omni-Modal Interaction",
+          "link": "https://arxiv.org/abs/2604.27393"
+        },
+        "c": "https://github.com/OpenBMB/MiniCPM-o",
+        "n": "MiniCPM-o 4.5-Instruct",
+        "d": "2026-04-30",
+        "m1": "80.1"
+      },
+      {
+        "p": {
+          "name": "MiniCPM-V 4.5: Cooking Efficient MLLMs via Architecture, Data, and Training Recipe",
+          "link": "https://arxiv.org/abs/2509.18154"
+        },
+        "c": "https://github.com/OpenBMB/MiniCPM-V",
+        "n": "MiniCPM-V 4.5",
+        "d": "2025-09-16",
+        "m1": "79.9"
+      },
+      {
+        "p": {
+          "name": "Context-Aware RL for Agentic and Multimodal LLMs",
+          "link": "https://arxiv.org/abs/2606.17053"
+        },
+        "c": "https://github.com/xupy2003/ContextAwareRL",
+        "n": "ContextRL (trained from Qwen3-VL-8B)",
+        "d": "2026-06-15",
+        "m1": "79.8"
+      },
+      {
+        "p": {
+          "name": "OpenVLThinkerV2: A Generalist Multimodal Reasoning Model for Multi-domain Visual Tasks",
+          "link": "https://arxiv.org/abs/2604.08539"
+        },
+        "c": "https://github.com/uclanlp/OpenVLThinker",
+        "n": "OpenVLThinkerV2 (Ours)",
+        "d": "2026-04-09",
+        "m1": "79.5"
+      },
+      {
+        "p": {
+          "name": "Near-Future Policy Optimization",
+          "link": "https://arxiv.org/abs/2604.20733"
+        },
+        "c": "",
+        "n": "AutoNPO",
+        "d": "2026-04-22",
+        "m1": "79.2"
+      },
+      {
+        "p": {
+          "name": "Learning Consistency in Reward Modeling for Multi-Modal Reasoning",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/5859"
+        },
+        "c": "",
+        "n": "CRM-RL-8B (Ours, soft-reward)",
+        "d": "2026-09-08",
+        "m1": "79.2"
+      },
+      {
+        "p": {
+          "name": "Can We Trust the Teacher? Decoupled Credit Direction-Magnitude for Self-Distillation",
+          "link": "https://arxiv.org/abs/2609.34848"
+        },
+        "c": "",
+        "n": "DCSD (Qwen3-VL-8B-Instruct)",
+        "d": "2026-09-28",
+        "m1": "79.2"
+      },
+      {
+        "p": {
+          "name": "InternVL3: Exploring Advanced Training and Test-Time Recipes for Open-Source Multimodal Models",
+          "link": "https://arxiv.org/abs/2504.10479"
+        },
+        "c": "https://github.com/OpenGVLab/InternVL",
+        "n": "InternVL3-78B",
+        "d": "2025-04-14",
+        "m1": "79.0"
+      },
+      {
+        "p": {
+          "name": "ERNIE 4.5 Technical Report",
+          "link": "https://ernie.baidu.com/blog/publication/ERNIE_Technical_Report.pdf"
+        },
+        "c": "https://huggingface.co/baidu/ERNIE-4.5-300B-A47B-PT",
+        "n": "ERNIE-4.5-VL-424B-A47B",
+        "d": "2025-06-30",
+        "m1": "78.9"
+      },
+      {
+        "p": {
+          "name": "Self-Distilled RLVR",
+          "link": "https://arxiv.org/abs/2604.03128"
+        },
+        "c": "",
+        "n": "RLSD (Qwen3-VL-8B-Instruct)",
+        "d": "2026-04-03",
+        "m1": "78.1"
+      },
+      {
+        "p": {
+          "name": "Act Wisely: Cultivating Meta-Cognitive Tool Use in Agentic Multimodal Models",
+          "link": "https://arxiv.org/abs/2604.08545"
+        },
+        "c": "https://github.com/Accio-Lab/Metis",
+        "n": "Metis",
+        "d": "2026-04-09",
+        "m1": "78.0"
+      },
+      {
+        "p": {
+          "name": "OneThinker: All-in-one Reasoning Model for Image and Video",
+          "link": "https://arxiv.org/abs/2512.03043"
+        },
+        "c": "https://github.com/tulerfeng/onethinker",
+        "n": "OneThinker-8B",
+        "d": "2025-12-02",
+        "m1": "77.6"
+      },
+      {
+        "p": {
+          "name": "Insight-V++: Towards Advanced Long-Chain Visual Reasoning with Multimodal Large Language Models",
+          "link": "https://arxiv.org/abs/2603.18118"
+        },
+        "c": "",
+        "n": "Insight-V++",
+        "d": "2026-03-18",
+        "m1": "77.6"
+      },
+      {
+        "p": {
+          "name": "Penguin-VL: Exploring the Efficiency Limits of VLM with LLM-based Vision Encoders",
+          "link": "https://arxiv.org/abs/2603.06569"
+        },
+        "c": "https://github.com/tencent-ailab/Penguin-VL",
+        "n": "Penguin-VL 8B",
+        "d": "2026-03-06",
+        "m1": "77.2"
+      },
+      {
+        "p": {
+          "name": "LLaVA-UHD v4: What Makes Efficient Visual Encoding in MLLMs?",
+          "link": "https://arxiv.org/abs/2605.08985"
+        },
+        "c": "https://github.com/THUMAI-Lab/LLaVA-UHD-v4",
+        "n": "LLaVA-UHD v4",
+        "d": "2026-05-09",
+        "m1": "76.9"
+      },
+      {
+        "p": {
+          "name": "Dynamic Important Example Mining for Reinforcement Finetuning",
+          "link": "https://arxiv.org/abs/2608.29252"
+        },
+        "c": "https://github.com/hrtan/DIEM",
+        "n": "Qwen2.5-VL-32B + DIEM",
+        "d": "2026-08-29",
+        "m1": "76.9"
+      },
+      {
+        "p": {
+          "name": "CogFlow: Bridging Perception and Reasoning through Knowledge Internalization for Visual Mathematical Problem Solving",
+          "link": "https://arxiv.org/abs/2601.01874"
+        },
+        "c": "https://github.com/shchen233/cogflow_code",
+        "n": "CogFlow (7B)",
+        "d": "2026-01-05",
+        "m1": "76.8"
+      },
+      {
+        "p": {
+          "name": "Co-Evolving Policy Distillation",
+          "link": "https://arxiv.org/abs/2604.27083"
+        },
+        "c": "",
+        "n": "CoPD",
+        "d": "2026-04-29",
+        "m1": "76.8"
+      },
+      {
+        "p": {
+          "name": "Thinking in Uncertainty: Mitigating Hallucinations in MLRMs with Latent Entropy-Aware Decoding",
+          "link": "https://arxiv.org/abs/2603.13366"
+        },
+        "c": "https://github.com/mlrm-lead/mlrm-lead",
+        "n": "VL-Cogito-7B with LEAD",
+        "d": "2026-03-09",
+        "m1": "76.3"
+      },
+      {
+        "p": {
+          "name": "CodePercept: Code-Grounded Visual STEM Perception for MLLMs",
+          "link": "https://arxiv.org/abs/2603.10757"
+        },
+        "c": "https://github.com/tongkunguan/qwen-codepercept",
+        "n": "CodePercept (32B, S1)",
+        "d": "2026-03-11",
+        "m1": "75.9"
+      },
+      {
+        "p": {
+          "name": "From Seeing to Thinking: Decoupling Perception and Reasoning Improves Post-Training of Vision-Language Models",
+          "link": "https://arxiv.org/abs/2605.20177"
+        },
+        "c": "https://github.com/UCSC-VLAA/VLM-CapCurriculum",
+        "n": "Qwen3-VL-8B (staged training)",
+        "d": "2026-05-19",
+        "m1": "75.9"
+      },
+      {
+        "p": {
+          "name": "Beyond Layer-Wise Merging: Chain-of-Merging for Vision-Language Models",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_Beyond_Layer-Wise_Merging_Chain-of-Merging_for_Vision-Language_Models_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "CoM (Qwen2.5-VL-72B + Qwen2.5-Math-72B)",
+        "d": "2026-06-03",
+        "m1": "75.9"
+      },
+      {
+        "p": {
+          "name": "Beyond Where to Look: Trajectory-Guided Reinforcement Learning for Multimodal RLVR",
+          "link": "https://arxiv.org/abs/2603.26126"
+        },
+        "c": "",
+        "n": "TGRL-DAPO (Qwen2.5-VL-7B, 39K)",
+        "d": "2026-03-27",
+        "m1": "75.0"
+      },
+      {
+        "p": {
+          "name": "Unlocking Token Rewards via Training-Free Reward Attribution",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Wu_Unlocking_Token_Rewards_via_Training-Free_Reward_Attribution_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "Qwen2.5-VL-7B-Instruct + GRPO (P2T token reward) (extra data)",
+        "d": "2026-06-03",
+        "m1": "75.0"
+      },
+      {
+        "p": {
+          "name": "Qwen2.5-VL Technical Report",
+          "link": "https://arxiv.org/abs/2502.13923v1"
+        },
+        "c": "https://github.com/qwenlm/qwen2-vl",
+        "n": "Qwen2.5-VL-72B",
+        "d": "2025-02-19",
+        "m1": "74.8"
+      },
+      {
+        "p": {
+          "name": "From Narrow to Panoramic Vision: Attention-Guided Cold-Start Reshapes Multimodal Reasoning",
+          "link": "https://arxiv.org/abs/2603.03825"
+        },
+        "c": "https://github.com/lrlbbzl/Qwen-AVAR",
+        "n": "AVAR-Thinker",
+        "d": "2026-03-04",
+        "m1": "74.7"
+      },
+      {
+        "p": {
+          "name": "AdaTooler-V: Adaptive Tool-Use for Images and Videos",
+          "link": "https://arxiv.org/abs/2512.16918"
+        },
+        "c": "https://github.com/CYWang735/AdaTooler-V",
+        "n": "AdaTooler-V-7B",
+        "d": "2025-12-18",
+        "m1": "74.5"
+      },
+      {
+        "p": {
+          "name": "Step-GUI Technical Report",
+          "link": "https://arxiv.org/abs/2512.15431"
+        },
+        "c": "https://github.com/stepfun-ai/gelab-zero",
+        "n": "Step-GUI-8B",
+        "d": "2025-12-17",
+        "m1": "74.4"
+      },
+      {
+        "p": {
+          "name": "Length-Unbiased Sequence Policy Optimization: Revealing and Controlling Response Length Variation in RLVR",
+          "link": "https://arxiv.org/abs/2602.05261"
+        },
+        "c": "https://github.com/murphy4122/LUSPO",
+        "n": "Qwen2.5-VL-7B-Instruct (LUSPO)",
+        "d": "2026-02-05",
+        "m1": "74.4"
+      },
+      {
+        "p": {
+          "name": "Awaking Spatial Intelligence in Unified Multimodal Understanding and Generation",
+          "link": "https://arxiv.org/abs/2605.04128"
+        },
+        "c": "https://github.com/jd-opensource/JoyAI-Image",
+        "n": "JoyAI-Image-Und",
+        "d": "2026-05-05",
+        "m1": "74.4"
+      },
+      {
+        "p": {
+          "name": "SPOT-E: Test-Time Entropy Shaping with Visual Spotlights for Frozen VLMs",
+          "link": "https://arxiv.org/abs/2606.20244"
+        },
+        "c": "https://github.com/yinbo0927/spot-e",
+        "n": "SPOT-E (InternVL3-8B)",
+        "d": "2026-06-18",
+        "m1": "74.4"
+      },
+      {
+        "p": {
+          "name": "Uni-Edit: Intelligent Editing Is A General Task For Unified Model Tuning",
+          "link": "https://arxiv.org/abs/2605.21487"
+        },
+        "c": "https://github.com/zhengdian1/Uni-Edit",
+        "n": "BAGEL-Uni-Edit (stage 2)",
+        "d": "2026-05-20",
+        "m1": "74.3"
+      },
+      {
+        "p": {
+          "name": "Uncovering Understanding-Generation Synergy in Native Unified Multimodal Models: From Representation, Task to System",
+          "link": "https://arxiv.org/abs/2609.01607"
+        },
+        "c": "",
+        "n": "Native UMM Synergy: Und+Gen geometry",
+        "d": "2026-09-01",
+        "m1": "74.3"
+      },
+      {
+        "p": {
+          "name": "PointThinker: Point-Incentivized Parallel Thinking for Multimodal Large Language Model",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Hu_PointThinker_Point-Incentivized_Parallel_Thinking_for_Multimodal_Large_Language_Model_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "PointThinker-7B (extra data)",
+        "d": "2026-06-03",
+        "m1": "74.2"
+      },
+      {
+        "p": {
+          "name": "Before Thinking, Learn to Decide: Proactive Routing for Efficient Visual Reasoning",
+          "link": "https://arxiv.org/abs/2606.30217"
+        },
+        "c": "",
+        "n": "PRP (JRL, 7B)",
+        "d": "2026-06-29",
+        "m1": "74.2"
+      },
+      {
+        "p": {
+          "name": "Introducing OpenAI o1",
+          "link": "https://openai.com/o1/"
+        },
+        "c": "",
+        "n": "OpenAI o1",
+        "d": "2024-09-12",
+        "m1": "73.9"
+      },
+      {
+        "p": {
+          "name": "The Llama 4 herd: The beginning of a new era of natively multimodal AI innovation",
+          "link": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/"
+        },
+        "c": "https://github.com/meta-llama/llama-cookbook",
+        "n": "Llama 4 Maverick",
+        "d": "2025-04-05",
+        "m1": "73.7"
+      },
+      {
+        "p": {
+          "name": "VideoAuto-R1: Video Auto Reasoning via Thinking Once, Answering Twice",
+          "link": "https://arxiv.org/abs/2601.05175"
+        },
+        "c": "https://github.com/ivul-kaust/videoauto-r1",
+        "n": "VideoAuto-R1 (Qwen2.5-VL-7B)",
+        "d": "2026-01-08",
+        "m1": "73.7"
+      },
+      {
+        "p": {
+          "name": "Introducing Command A Vision: Multimodal AI built for business",
+          "link": "https://cohere.com/blog/command-a-vision"
+        },
+        "c": "",
+        "n": "Command A Vision",
+        "d": "2025-07-31",
+        "m1": "73.5"
+      },
+      {
+        "p": {
+          "name": "Emerging Properties in Unified Multimodal Pretraining",
+          "link": "https://arxiv.org/abs/2505.14683v1"
+        },
+        "c": "https://github.com/ByteDance-Seed/Bagel",
+        "n": "BAGEL (7B MoT)",
+        "d": "2025-05-20",
+        "m1": "73.1"
+      },
+      {
+        "p": {
+          "name": "LASER: A Corrective Lens for LVLMs via Visual Attention Preservation and Sink Suppression",
+          "link": "https://arxiv.org/abs/2607.01707"
+        },
+        "c": "https://github.com/kevinyuan0314/laser",
+        "n": "LASER",
+        "d": "2026-07-02",
+        "m1": "72.9"
+      },
+      {
+        "p": {
+          "name": "CPPO: Contrastive Perception for Vision Language Policy Optimization",
+          "link": "https://arxiv.org/abs/2601.00501"
+        },
+        "c": "https://github.com/vbdi/cppo",
+        "n": "CPPO (Qwen2.5-VL-7B)",
+        "d": "2026-01-01",
+        "m1": "72.2"
+      },
+      {
+        "p": {
+          "name": "UniPath: Adaptive Coordination of Understanding and Generation for Unified Multimodal Reasoning",
+          "link": "https://arxiv.org/abs/2605.11400"
+        },
+        "c": "",
+        "n": "UniPath (BAGEL backbone)",
+        "d": "2026-05-12",
+        "m1": "72.2"
+      },
+      {
+        "p": {
+          "name": "Improving Vision-language Models with Perception-centric Process Reward Models",
+          "link": "https://arxiv.org/abs/2604.24583"
+        },
+        "c": "https://github.com/rucaibox/perceval",
+        "n": "Qwen2.5-VL (7B) with Perceval",
+        "d": "2026-04-27",
+        "m1": "72.0"
+      },
+      {
+        "p": {
+          "name": "CodeV: Code with Images for Faithful Visual Reasoning via Tool-Aware Policy Optimization",
+          "link": "https://arxiv.org/abs/2511.19661"
+        },
+        "c": "https://github.com/renlyh/codev",
+        "n": "CodeV-7B-RL",
+        "d": "2025-11-24",
+        "m1": "71.8"
+      },
+      {
+        "p": {
+          "name": "Puzzle Curriculum GRPO for Vision-Centric Reasoning",
+          "link": "https://arxiv.org/abs/2512.14944"
+        },
+        "c": "https://github.com/SamsungLabs/PC-GRPO",
+        "n": "Qwen2.5-VL-7B (Rotation)",
+        "d": "2025-12-16",
+        "m1": "71.7"
+      },
+      {
+        "p": {
+          "name": "SVR-R1: Bootstrapping Multi-modal Reasoning with Self-verification in Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2607.10966"
+        },
+        "c": "",
+        "n": "SVR-R1 (7B ThinkLite)",
+        "d": "2026-07-13",
+        "m1": "71.6"
+      },
+      {
+        "p": {
+          "name": "Infinity-Parser2-Pro",
+          "link": "https://huggingface.co/infly/Infinity-Parser2-Pro"
+        },
+        "c": "",
+        "n": "Infinity-Parser2-Pro",
+        "d": "2026-05-11",
+        "m1": "71.4"
+      },
+      {
+        "p": {
+          "name": "Generation as Auxiliary Supervision: Enhancing Visual Understanding at Zero Inference Overhead via Decoupled Embedding Prediction",
+          "link": "https://arxiv.org/abs/2608.12209"
+        },
+        "c": "",
+        "n": "GAS (2B after pretraining)",
+        "d": "2026-08-12",
+        "m1": "71.2"
+      },
+      {
+        "p": {
+          "name": "Co-RL: Unsupervised Reasoning Emerges from Diverse Cohort in Multi-agent RL",
+          "link": "https://arxiv.org/abs/2608.17253"
+        },
+        "c": "https://github.com/DrStranded/Co-RL",
+        "n": "Co-RL (Qwen2.5-VL-7B, Different family)",
+        "d": "2026-08-19",
+        "m1": "71.0"
+      },
+      {
+        "p": {
+          "name": "The Llama 4 herd: The beginning of a new era of natively multimodal AI innovation",
+          "link": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/"
+        },
+        "c": "https://github.com/meta-llama/llama-cookbook",
+        "n": "Llama 4 Scout",
+        "d": "2025-04-05",
+        "m1": "70.7"
+      },
+      {
+        "p": {
+          "name": "Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution",
+          "link": "https://arxiv.org/abs/2409.12191v2"
+        },
+        "c": "https://github.com/qwenlm/qwen2-vl",
+        "n": "Qwen2-VL-72B",
+        "d": "2024-09-18",
+        "m1": "70.5"
+      },
+      {
+        "p": {
+          "name": "LLaDA-UI: Bringing Block-wise Diffusion to Vision-Language GUI Agents",
+          "link": "https://arxiv.org/abs/2609.13287"
+        },
+        "c": "https://github.com/inclusionai/llada-ui",
+        "n": "LLaDA-UI (pre-training)",
+        "d": "2026-09-09",
+        "m1": "70.5"
+      },
+      {
+        "p": {
+          "name": "Intern Lumina U2: A Multi-Codebook Diffusion Large Language Model for Omni-Visual Understanding and Image Generation",
+          "link": "https://arxiv.org/abs/2610.20818"
+        },
+        "c": "https://github.com/InternLM/InternLumina-U2",
+        "n": "Intern Lumina U2 (NVIDIA)",
+        "d": "2026-10-14",
+        "m1": "70.4"
+      },
+      {
+        "p": {
+          "name": "ARM-Thinker: Reinforcing Multimodal Generative Reward Models with Agentic Tool Use and Visual Reasoning",
+          "link": "https://arxiv.org/abs/2512.05111"
+        },
+        "c": "https://github.com/InternLM/ARM-Thinker",
+        "n": "ARM-Thinker-7B",
+        "d": "2025-12-04",
+        "m1": "70.2"
+      },
+      {
+        "p": {
+          "name": "Language-guided Frequency Modulation for Large Vision-Language Models",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Ouyang_Language-guided_Frequency_Modulation_for_Large_Vision-Language_Models_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "LFM (w/ Qwen2.5-VL)",
+        "d": "2026-06-03",
+        "m1": "69.8"
+      },
+      {
+        "p": {
+          "name": "Kimi-VL Technical Report",
+          "link": "https://arxiv.org/abs/2504.07491"
+        },
+        "c": "https://github.com/moonshotai/kimi-vl",
+        "n": "Kimi-VL-A3B-Instruct",
+        "d": "2025-04-10",
+        "m1": "68.7"
+      },
+      {
+        "p": {
+          "name": "MiniMax-01: Scaling Foundation Models with Lightning Attention",
+          "link": "https://arxiv.org/abs/2501.08313"
+        },
+        "c": "https://huggingface.co/MiniMaxAI/MiniMax-Text-01",
+        "n": "MiniMax-VL-01",
+        "d": "2025-01-14",
+        "m1": "68.6"
+      },
+      {
+        "p": {
+          "name": "Decouple to Generalize: Context-First Self-Evolving Learning for Data-Scarce Vision-Language Reasoning",
+          "link": "https://arxiv.org/abs/2512.06835"
+        },
+        "c": "https://github.com/opendatalab-raiser/doge",
+        "n": "DoGe-7B (Iter3)",
+        "d": "2025-12-07",
+        "m1": "68.3"
+      },
+      {
+        "p": {
+          "name": "Qwen2.5-VL Technical Report",
+          "link": "https://arxiv.org/abs/2502.13923v1"
+        },
+        "c": "https://github.com/qwenlm/qwen2-vl",
+        "n": "Qwen2.5-VL-7B",
+        "d": "2025-02-19",
+        "m1": "68.2"
+      },
+      {
+        "p": {
+          "name": "LLaDA2.0-Uni: Unifying Multimodal Understanding and Generation with Diffusion Large Language Model",
+          "link": "https://arxiv.org/abs/2604.20796"
+        },
+        "c": "https://github.com/inclusionAI/LLaDA2.0-Uni",
+        "n": "LLaDA2.0-Uni (16B)",
+        "d": "2026-04-22",
+        "m1": "68.1"
+      },
+      {
+        "p": {
+          "name": "Qwen2.5-Omni Technical Report",
+          "link": "https://arxiv.org/abs/2503.20215"
+        },
+        "c": "https://github.com/QwenLM/Qwen2.5-Omni",
+        "n": "Qwen2.5-Omni-7B",
+        "d": "2025-03-26",
+        "m1": "67.9"
+      },
+      {
+        "p": {
+          "name": "Learning from Primitive: Probing Visual Reasoning of LVLMs via Counting",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/4811"
+        },
+        "c": "",
+        "n": "Qwen3-VL-8B (Learning from Primitive) (extra data)",
+        "d": "2026-09-08",
+        "m1": "67.9"
+      },
+      {
+        "p": {
+          "name": "Introducing Claude 3.5 Sonnet",
+          "link": "https://www.anthropic.com/news/claude-3-5-sonnet"
+        },
+        "c": "",
+        "n": "Claude 3.5 Sonnet",
+        "d": "2024-06-20",
+        "m1": "67.7"
+      },
+      {
+        "p": {
+          "name": "Gemma 3 Technical Report",
+          "link": "https://arxiv.org/abs/2503.19786"
+        },
+        "c": "https://github.com/google-deepmind/gemma",
+        "n": "Gemma 3 (27B, IT)",
+        "d": "2025-03-25",
+        "m1": "67.6"
+      },
+      {
+        "p": {
+          "name": "LLaVA-OneVision: Easy Visual Task Transfer",
+          "link": "https://arxiv.org/abs/2408.03326v3"
+        },
+        "c": "https://github.com/evolvinglmms-lab/lmms-eval",
+        "n": "LLaVA-OneVision-72B",
+        "d": "2024-08-06",
+        "m1": "67.5"
+      },
+      {
+        "p": {
+          "name": "VideoLLaMA 3: Frontier Multimodal Foundation Models for Image and Video Understanding",
+          "link": "https://arxiv.org/abs/2501.13106v3"
+        },
+        "c": "https://github.com/damo-nlp-sg/videollama3",
+        "n": "VideoLLaMA3 7B",
+        "d": "2025-01-22",
+        "m1": "67.1"
+      },
+      {
+        "p": {
+          "name": "Reasoning Within the Mind: Dynamic Multimodal Interleaving in Latent Space",
+          "link": "https://arxiv.org/abs/2512.12623"
+        },
+        "c": "https://github.com/ucsb-ai/dmlr",
+        "n": "Qwen3-VL-8B + DMLR",
+        "d": "2025-12-14",
+        "m1": "66.9"
+      },
+      {
+        "p": {
+          "name": "HyperVL: An Efficient and Dynamic Multimodal Large Language Model for Edge Devices",
+          "link": "https://arxiv.org/abs/2512.14052"
+        },
+        "c": "",
+        "n": "HyperVL",
+        "d": "2025-12-16",
+        "m1": "66.2"
+      },
+      {
+        "p": {
+          "name": "Aria: An Open Multimodal Native Mixture-of-Experts Model",
+          "link": "https://arxiv.org/abs/2410.05993v4"
+        },
+        "c": "https://github.com/rhymes-ai/aria",
+        "n": "Aria",
+        "d": "2024-10-08",
+        "m1": "66.1"
+      },
+      {
+        "p": {
+          "name": "LLaDA-o: An Effective and Length-Adaptive Omni Diffusion Model",
+          "link": "https://arxiv.org/abs/2603.01068"
+        },
+        "c": "https://github.com/ML-GSAI/LLaDA-o",
+        "n": "LLaDA-o",
+        "d": "2026-03-01",
+        "m1": "66.1"
+      },
+      {
+        "p": {
+          "name": "AdaptVision: Efficient Vision-Language Models via Adaptive Visual Acquisition",
+          "link": "https://arxiv.org/abs/2512.03794"
+        },
+        "c": "https://github.com/adaptvision/adaptvision",
+        "n": "AdaptVision (Qwen2.5-VL-7B-Instruct)",
+        "d": "2025-12-03",
+        "m1": "65.9"
+      },
+      {
+        "p": {
+          "name": "PerceptionDLM: Parallel Region Perception with Multimodal Diffusion Language Models",
+          "link": "https://arxiv.org/abs/2606.19534"
+        },
+        "c": "https://github.com/MSALab-PKU/PerceptionDLM",
+        "n": "PerceptionDLM-Base (8B)",
+        "d": "2026-06-17",
+        "m1": "65.5"
+      },
+      {
+        "p": {
+          "name": "InfiniteVL: Synergizing Linear and Sparse Attention for Highly-Efficient, Unlimited-Input Vision-Language Models",
+          "link": "https://arxiv.org/abs/2512.08829"
+        },
+        "c": "https://github.com/hustvl/InfiniteVL",
+        "n": "InfiniteVL-Base",
+        "d": "2025-12-09",
+        "m1": "65.4"
+      },
+      {
+        "p": {
+          "name": "Label-free steering: Compressing test-time reinforcement learning into bias-only subspaces",
+          "link": "https://arxiv.org/abs/2609.18587"
+        },
+        "c": "https://github.com/OLAResearch/LabelFreeSteering",
+        "n": "Qwen2.5-VL-7B-Instruct + Label-Free Bias-Only TTRL",
+        "d": "2026-09-28",
+        "m1": "65.4"
+      },
+      {
+        "p": {
+          "name": "DiffusionVL: Translating Any Autoregressive Models into Diffusion Vision Language Models",
+          "link": "https://arxiv.org/abs/2512.15713"
+        },
+        "c": "https://github.com/hustvl/DiffusionVL",
+        "n": "DiffusionVL",
+        "d": "2025-12-17",
+        "m1": "64.3"
+      },
+      {
+        "p": {
+          "name": "NaVLM-PVC: Progressive Visual Compression for Efficient Native-Resolution Encoding in MLLMs",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/4176"
+        },
+        "c": "",
+        "n": "NaVLM-PVC",
+        "d": "2026-09-08",
+        "m1": "64.2"
+      },
+      {
+        "p": {
+          "name": "ZAYA1-VL-8B Technical Report",
+          "link": "https://www.zyphra.com/zaya1-vl-8b-technical-report"
+        },
+        "c": "https://github.com/Zyphra/transformers/tree/zaya1-vl",
+        "n": "ZAYA1-VL-8B",
+        "d": "2026-05-08",
+        "m1": "64.0"
+      },
+      {
+        "p": {
+          "name": "Process Rewards with Learned Reliability",
+          "link": "https://arxiv.org/abs/2605.15529"
+        },
+        "c": "https://github.com/JinYuanLi0012/Beta-Binomial-PRM",
+        "n": "ACA with BetaPRM (Qwen2.5-VL-7B)",
+        "d": "2026-05-15",
+        "m1": "64.0"
+      },
+      {
+        "p": {
+          "name": "Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context",
+          "link": "https://arxiv.org/abs/2403.05530v5"
+        },
+        "c": "https://github.com/dlvuldet/primevul",
+        "n": "Gemini 1.5 Pro",
+        "d": "2024-03-08",
+        "m1": "63.9"
+      },
+      {
+        "p": {
+          "name": "Hello GPT-4o",
+          "link": "https://openai.com/index/hello-gpt-4o/"
+        },
+        "c": "",
+        "n": "GPT-4o",
+        "d": "2024-05-13",
+        "m1": "63.8"
+      },
+      {
+        "p": {
+          "name": "Dream-VL & Dream-VLA: Open Vision-Language and Vision-Language-Action Models with Diffusion Language Model Backbone",
+          "link": "https://arxiv.org/abs/2512.22615"
+        },
+        "c": "https://github.com/DreamLM/Dream-VLX",
+        "n": "Dream-VL",
+        "d": "2025-12-27",
+        "m1": "63.1"
+      },
+      {
+        "p": {
+          "name": "VisionFoundry: Teaching VLMs Visual Perception with Synthetic Images",
+          "link": "https://arxiv.org/abs/2604.09531"
+        },
+        "c": "https://github.com/zlab-princeton/visionfoundry",
+        "n": "Qwen2.5-VL-3B-Instruct + VisionFoundry-10K",
+        "d": "2026-04-10",
+        "m1": "62.9"
+      },
+      {
+        "p": {
+          "name": "Phi-4-Mini Technical Report: Compact yet Powerful Multimodal Language Models via Mixture-of-LoRAs",
+          "link": "https://arxiv.org/abs/2503.01743"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Phi-4-Multimodal",
+        "d": "2025-02-24",
+        "m1": "62.4"
+      },
+      {
+        "p": {
+          "name": "Wake up for Touch! Mask-isolated Tactile Alignment Learning in MLLMs",
+          "link": "https://arxiv.org/abs/2607.00302"
+        },
+        "c": "https://github.com/ewha-mmai/splash",
+        "n": "Splash (3B)",
+        "d": "2026-07-01",
+        "m1": "62.3"
+      },
+      {
+        "p": {
+          "name": "LFM2 Technical Report",
+          "link": "https://arxiv.org/abs/2511.23404"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "LFM2-VL-3B",
+        "d": "2025-11-28",
+        "m1": "62.20"
+      },
+      {
+        "p": {
+          "name": "Penguin-VL: Exploring the Efficiency Limits of VLM with LLM-based Vision Encoders",
+          "link": "https://arxiv.org/abs/2603.06569"
+        },
+        "c": "https://github.com/tencent-ailab/Penguin-VL",
+        "n": "Penguin-VL 2B",
+        "d": "2026-03-06",
+        "m1": "61.3"
+      },
+      {
+        "p": {
+          "name": "VideoLLaMA 3: Frontier Multimodal Foundation Models for Image and Video Understanding",
+          "link": "https://arxiv.org/abs/2501.13106v3"
+        },
+        "c": "https://github.com/damo-nlp-sg/videollama3",
+        "n": "VideoLLaMA3 2B",
+        "d": "2025-01-22",
+        "m1": "59.2"
+      },
+      {
+        "p": {
+          "name": "Training Data Efficiency in Multimodal Process Reward Models",
+          "link": "https://arxiv.org/abs/2602.04145"
+        },
+        "c": "https://github.com/JinYuanLi0012/Balanced-Info-MPRM",
+        "n": "InternVL2.5-8B with MPRM (BIS-25%)",
+        "d": "2026-02-04",
+        "m1": "59.0"
+      },
+      {
+        "p": {
+          "name": "Molmo2: Open Weights and Data for Vision-Language Models with Video Understanding and Grounding",
+          "link": "https://arxiv.org/abs/2601.10611"
+        },
+        "c": "https://github.com/allenai/molmo2",
+        "n": "Molmo2-8B",
+        "d": "2026-01-15",
+        "m1": "58.9"
+      },
+      {
+        "p": {
+          "name": "Molmo and PixMo: Open Weights and Open Data for State-of-the-Art Vision-Language Models",
+          "link": "https://arxiv.org/abs/2409.17146"
+        },
+        "c": "https://github.com/allenai/molmo",
+        "n": "Molmo 72B",
+        "d": "2024-09-25",
+        "m1": "58.6"
+      },
+      {
+        "p": {
+          "name": "Building and better understanding vision-language models: insights and future directions",
+          "link": "https://arxiv.org/abs/2408.12637"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Idefics3-8B",
+        "d": "2024-08-22",
+        "m1": "58.4"
+      },
+      {
+        "p": {
+          "name": "Pixtral 12B",
+          "link": "https://arxiv.org/abs/2410.07073"
+        },
+        "c": "https://github.com/mistralai/mistral-inference",
+        "n": "Pixtral 12B",
+        "d": "2024-10-09",
+        "m1": "58.3"
+      },
+      {
+        "p": {
+          "name": "Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution",
+          "link": "https://arxiv.org/abs/2409.12191v2"
+        },
+        "c": "https://github.com/qwenlm/qwen2-vl",
+        "n": "Qwen2-VL-7B",
+        "d": "2024-09-18",
+        "m1": "58.2"
+      },
+      {
+        "p": {
+          "name": "Llama 3.2: Revolutionizing edge AI and vision with open, customizable models",
+          "link": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/"
+        },
+        "c": "https://github.com/meta-llama/llama-models",
+        "n": "Llama 3.2 90B Vision Instruct",
+        "d": "2024-09-25",
+        "m1": "57.3"
+      },
+      {
+        "p": {
+          "name": "Sparse-LaViDa: Sparse Multimodal Discrete Diffusion Language Models",
+          "link": "https://arxiv.org/abs/2512.14008"
+        },
+        "c": "",
+        "n": "Sparse-LaViDa",
+        "d": "2025-12-16",
+        "m1": "56.7"
+      },
+      {
+        "p": {
+          "name": "MiniCPM-V: A GPT-4V Level MLLM on Your Phone",
+          "link": "https://arxiv.org/abs/2408.01800v1"
+        },
+        "c": "https://github.com/openbmb/minicpm-v",
+        "n": "MiniCPM-Llama3-V 2.5",
+        "d": "2024-08-03",
+        "m1": "54.3"
+      },
+      {
+        "p": {
+          "name": "LoMo: Local Modality Substitution for Deeper Vision-Language Fusion",
+          "link": "https://arxiv.org/abs/2605.30265"
+        },
+        "c": "https://github.com/Maplebb/LoMo",
+        "n": "LoMo (LLaVA-OneVision-1.5-8B)",
+        "d": "2026-05-28",
+        "m1": "53.9"
+      },
+      {
+        "p": {
+          "name": "AutoNeural: Co-Designing Vision-Language Models for NPU Inference",
+          "link": "https://arxiv.org/abs/2512.02924"
+        },
+        "c": "",
+        "n": "AutoNeural",
+        "d": "2025-12-02",
+        "m1": "53.1"
+      },
+      {
+        "p": {
+          "name": "Gemini: A Family of Highly Capable Multimodal Models",
+          "link": "https://arxiv.org/abs/2312.11805v5"
+        },
+        "c": "https://github.com/valdecy/pybibx",
+        "n": "Gemini Ultra",
+        "d": "2023-12-19",
+        "m1": "53.0"
+      },
+      {
+        "p": {
+          "name": "What matters when building vision-language models?",
+          "link": "https://arxiv.org/abs/2405.02246v1"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Idefics2 (w/o image split)",
+        "d": "2024-05-03",
+        "m1": "51.6"
+      },
+      {
+        "p": {
+          "name": "SmolVLM: Redefining small and efficient multimodal models",
+          "link": "https://arxiv.org/abs/2504.05299"
+        },
+        "c": "https://github.com/huggingface/smollm",
+        "n": "SmolVLM 2.2B",
+        "d": "2025-04-07",
+        "m1": "51.5"
+      },
+      {
+        "p": {
+          "name": "Cheers: Decoupling Patch Details from Semantic Representations Enables Unified Multimodal Comprehension and Generation",
+          "link": "https://arxiv.org/abs/2603.12793"
+        },
+        "c": "https://huggingface.co/ai9stars/Cheers",
+        "n": "Cheers (1.5B)",
+        "d": "2026-03-13",
+        "m1": "50.5"
+      },
+      {
+        "p": {
+          "name": "Learning Adaptive Reasoning Paths for Efficient Visual Reasoning",
+          "link": "https://arxiv.org/abs/2604.14568"
+        },
+        "c": "https://github.com/RunRiotComeOn/AVR",
+        "n": "AVR-8B",
+        "d": "2026-04-16",
+        "m1": "50.2"
+      },
+      {
+        "p": {
+          "name": "LLaVA-NeXT: Improved reasoning, OCR, and world knowledge",
+          "link": "https://llava-vl.github.io/blog/2024-01-30-llava-next/"
+        },
+        "c": "https://github.com/haotian-liu/llava",
+        "n": "LLaVA-NeXT-34B",
+        "d": "2024-01-30",
+        "m1": "46.5"
+      },
+      {
+        "p": {
+          "name": "Phi-3 Technical Report: A Highly Capable Language Model Locally on Your Phone",
+          "link": "https://arxiv.org/abs/2404.14219v4"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Phi-3.5-Vision",
+        "d": "2024-04-22",
+        "m1": "43.9"
+      },
+      {
+        "p": {
+          "name": "Ministral 3",
+          "link": "https://arxiv.org/abs/2601.08584"
+        },
+        "c": "",
+        "n": "Ministral 3 (14B)",
+        "d": "2026-01-13",
+        "m1": "43.6"
+      },
+      {
+        "p": {
+          "name": "Ovis: Structural Embedding Alignment for Multimodal Large Language Model",
+          "link": "https://arxiv.org/abs/2405.20797"
+        },
+        "c": "https://github.com/AIDC-AI/Ovis",
+        "n": "Ovis-Qwen1.5-14B",
+        "d": "2024-05-31",
+        "m1": "43.4"
+      },
+      {
+        "p": {
+          "name": "Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution",
+          "link": "https://arxiv.org/abs/2409.12191v2"
+        },
+        "c": "https://github.com/qwenlm/qwen2-vl",
+        "n": "Qwen2-VL-2B",
+        "d": "2024-09-18",
+        "m1": "43.0"
+      },
+      {
+        "p": {
+          "name": "Falcon2-11B Technical Report",
+          "link": "https://arxiv.org/abs/2407.14885"
+        },
+        "c": "",
+        "n": "Falcon2-11B VLM",
+        "d": "2024-07-20",
+        "m1": "37.2"
+      },
+      {
+        "p": {
+          "name": "DeepSeek-VL: Towards Real-World Vision-Language Understanding",
+          "link": "https://arxiv.org/abs/2403.05525v2"
+        },
+        "c": "https://github.com/deepseek-ai/deepseek-vl",
+        "n": "DeepSeek-VL 7B Chat",
+        "d": "2024-03-08",
+        "m1": "36.1"
+      },
+      {
+        "p": {
+          "name": "Rethinking Projector Training in Multimodal LLMs",
+          "link": "https://arxiv.org/abs/2610.18598"
+        },
+        "c": "https://github.com/mlbio-epfl/PORTAL",
+        "n": "PORTAL (Qwen 2.5 7B + CLIP)",
+        "d": "2026-10-13",
+        "m1": "31.9"
+      }
+    ]
+  }
+}

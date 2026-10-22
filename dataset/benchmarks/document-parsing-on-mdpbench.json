@@ -1,0 +1,383 @@
+{
+  "title": "document-parsing-on-mdpbench",
+  "task-hierarchy": [
+    "Document Understanding",
+    "Document Parsing"
+  ],
+  "dataset-info": {
+    "link": "https://arxiv.org/abs/2603.28130",
+    "paper": "MDPBench: A Benchmark for Multilingual Document Parsing in Real-World Scenarios"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "MDPBench Overall",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "MDPBench Latin",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "MDPBench Private",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "MDPBench Non-Latin",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "MDPBench: A Benchmark for Multilingual Document Parsing in Real-World Scenarios",
+          "link": "https://arxiv.org/abs/2603.28130"
+        },
+        "c": "https://github.com/yuliang-liu/multimodalocr",
+        "n": "Gemini-3-pro-preview",
+        "d": "2026-03-30",
+        "m2": "84.1",
+        "m1": "88.4",
+        "m3": "89.8",
+        "m4": "82.1"
+      },
+      {
+        "p": {
+          "name": "PolyOCR-Venus: Unified OCR Foundation Models for Text-Centric Visual Intelligence",
+          "link": "https://arxiv.org/abs/2609.37712"
+        },
+        "c": "https://github.com/inclusionAI/PolyOCR-Venus",
+        "n": "PolyOCR-2.7B (extra data)",
+        "d": "2026-09-29",
+        "m1": "87.0"
+      },
+      {
+        "p": {
+          "name": "MonkeyOCRv2: A Visual-Text Foundation Model for Document AI",
+          "link": "https://arxiv.org/abs/2607.11562"
+        },
+        "c": "https://github.com/yuliang-liu/monkeyocrv2",
+        "n": "MonkeyOCRv2-B-Parsing",
+        "d": "2026-07-13",
+        "m1": "83.3"
+      },
+      {
+        "p": {
+          "name": "MonkeyOCRv2: A Visual-Text Foundation Model for Document AI",
+          "link": "https://arxiv.org/abs/2607.11562"
+        },
+        "c": "https://github.com/yuliang-liu/monkeyocrv2",
+        "n": "MonkeyOCRv2-S-Parsing",
+        "d": "2026-07-13",
+        "m1": "82.5"
+      },
+      {
+        "p": {
+          "name": "MDPBench: A Benchmark for Multilingual Document Parsing in Real-World Scenarios",
+          "link": "https://arxiv.org/abs/2603.28130"
+        },
+        "c": "https://github.com/yuliang-liu/multimodalocr",
+        "n": "dots.mocr",
+        "d": "2026-03-30",
+        "m2": "79.2",
+        "m1": "81.7",
+        "m3": "82.8",
+        "m4": "79.6"
+      },
+      {
+        "p": {
+          "name": "MDPBench: A Benchmark for Multilingual Document Parsing in Real-World Scenarios",
+          "link": "https://arxiv.org/abs/2603.28130"
+        },
+        "c": "https://github.com/yuliang-liu/multimodalocr",
+        "n": "kimi-K2.5",
+        "d": "2026-03-30",
+        "m2": "72.9",
+        "m1": "81.6",
+        "m3": "81.2",
+        "m4": "78.6"
+      },
+      {
+        "p": {
+          "name": "MDPBench: A Benchmark for Multilingual Document Parsing in Real-World Scenarios",
+          "link": "https://arxiv.org/abs/2603.28130"
+        },
+        "c": "https://github.com/yuliang-liu/multimodalocr",
+        "n": "PaddleOCR-VL-1.5",
+        "d": "2026-03-30",
+        "m2": "74.9",
+        "m1": "81.2",
+        "m3": "80.7",
+        "m4": "75.7"
+      },
+      {
+        "p": {
+          "name": "MDPBench: A Benchmark for Multilingual Document Parsing in Real-World Scenarios",
+          "link": "https://arxiv.org/abs/2603.28130"
+        },
+        "c": "https://github.com/yuliang-liu/multimodalocr",
+        "n": "Claude-Sonnet-4.6",
+        "d": "2026-03-30",
+        "m2": "66.2",
+        "m1": "79.2",
+        "m3": "77.6",
+        "m4": "65.1"
+      },
+      {
+        "p": {
+          "name": "MDPBench: A Benchmark for Multilingual Document Parsing in Real-World Scenarios",
+          "link": "https://arxiv.org/abs/2603.28130"
+        },
+        "c": "https://github.com/yuliang-liu/multimodalocr",
+        "n": "dots.ocr",
+        "d": "2026-03-30",
+        "m2": "73.5",
+        "m1": "79.1",
+        "m3": "79.7",
+        "m4": "76.2"
+      },
+      {
+        "p": {
+          "name": "MDPBench: A Benchmark for Multilingual Document Parsing in Real-World Scenarios",
+          "link": "https://arxiv.org/abs/2603.28130"
+        },
+        "c": "https://github.com/yuliang-liu/multimodalocr",
+        "n": "GLM-OCR",
+        "d": "2026-03-30",
+        "m2": "54.3",
+        "m1": "78.7",
+        "m3": "68.8",
+        "m4": "76.7"
+      },
+      {
+        "p": {
+          "name": "MDPBench: A Benchmark for Multilingual Document Parsing in Real-World Scenarios",
+          "link": "https://arxiv.org/abs/2603.28130"
+        },
+        "c": "https://github.com/yuliang-liu/multimodalocr",
+        "n": "olmOCR2",
+        "d": "2026-03-30",
+        "m2": "63.3",
+        "m1": "76.7",
+        "m3": "76.1",
+        "m4": "63.4"
+      },
+      {
+        "p": {
+          "name": "MDPBench: A Benchmark for Multilingual Document Parsing in Real-World Scenarios",
+          "link": "https://arxiv.org/abs/2603.28130"
+        },
+        "c": "https://github.com/yuliang-liu/multimodalocr",
+        "n": "Doubao-2.0-pro",
+        "d": "2026-03-30",
+        "m2": "72.5",
+        "m1": "75.7",
+        "m3": "79.5",
+        "m4": "75.2"
+      },
+      {
+        "p": {
+          "name": "MDPBench: A Benchmark for Multilingual Document Parsing in Real-World Scenarios",
+          "link": "https://arxiv.org/abs/2603.28130"
+        },
+        "c": "https://github.com/yuliang-liu/multimodalocr",
+        "n": "ChatGPT-5.2-2025-12-11",
+        "d": "2026-03-30",
+        "m2": "61.1",
+        "m1": "75.2",
+        "m3": "74.0",
+        "m4": "58.7"
+      },
+      {
+        "p": {
+          "name": "MDPBench: A Benchmark for Multilingual Document Parsing in Real-World Scenarios",
+          "link": "https://arxiv.org/abs/2603.28130"
+        },
+        "c": "https://github.com/yuliang-liu/multimodalocr",
+        "n": "Qwen3-VL-Instruct-8b",
+        "d": "2026-03-30",
+        "m2": "62.5",
+        "m1": "73.6",
+        "m3": "70.8",
+        "m4": "73.8"
+      },
+      {
+        "p": {
+          "name": "MDPBench: A Benchmark for Multilingual Document Parsing in Real-World Scenarios",
+          "link": "https://arxiv.org/abs/2603.28130"
+        },
+        "c": "https://github.com/yuliang-liu/multimodalocr",
+        "n": "Qwen3.5-Instruct-9B",
+        "d": "2026-03-30",
+        "m2": "58.2",
+        "m1": "72.5",
+        "m3": "68.9",
+        "m4": "67.5"
+      },
+      {
+        "p": {
+          "name": "MDPBench: A Benchmark for Multilingual Document Parsing in Real-World Scenarios",
+          "link": "https://arxiv.org/abs/2603.28130"
+        },
+        "c": "https://github.com/yuliang-liu/multimodalocr",
+        "n": "HunyuanOCR",
+        "d": "2026-03-30",
+        "m2": "63.7",
+        "m1": "72.4",
+        "m3": "68.6",
+        "m4": "64.2"
+      },
+      {
+        "p": {
+          "name": "MDPBench: A Benchmark for Multilingual Document Parsing in Real-World Scenarios",
+          "link": "https://arxiv.org/abs/2603.28130"
+        },
+        "c": "https://github.com/yuliang-liu/multimodalocr",
+        "n": "PaddleOCR-VL",
+        "d": "2026-03-30",
+        "m2": "66.7",
+        "m1": "72.1",
+        "m3": "70.9",
+        "m4": "68.5"
+      },
+      {
+        "p": {
+          "name": "MDPBench: A Benchmark for Multilingual Document Parsing in Real-World Scenarios",
+          "link": "https://arxiv.org/abs/2603.28130"
+        },
+        "c": "https://github.com/yuliang-liu/multimodalocr",
+        "n": "Nanonets-ocr2-3B",
+        "d": "2026-03-30",
+        "m2": "56.2",
+        "m1": "71.4",
+        "m3": "67.6",
+        "m4": "65.1"
+      },
+      {
+        "p": {
+          "name": "MDPBench: A Benchmark for Multilingual Document Parsing in Real-World Scenarios",
+          "link": "https://arxiv.org/abs/2603.28130"
+        },
+        "c": "https://github.com/yuliang-liu/multimodalocr",
+        "n": "Nanonets-OCR-s",
+        "d": "2026-03-30",
+        "m2": "55.0",
+        "m1": "71.3",
+        "m3": "66.6",
+        "m4": "61.5"
+      },
+      {
+        "p": {
+          "name": "MDPBench: A Benchmark for Multilingual Document Parsing in Real-World Scenarios",
+          "link": "https://arxiv.org/abs/2603.28130"
+        },
+        "c": "https://github.com/yuliang-liu/multimodalocr",
+        "n": "MonkeyOCRv1.5",
+        "d": "2026-03-30",
+        "m2": "62.4",
+        "m1": "67.4",
+        "m3": "69.0",
+        "m4": "64.1"
+      },
+      {
+        "p": {
+          "name": "MDPBench: A Benchmark for Multilingual Document Parsing in Real-World Scenarios",
+          "link": "https://arxiv.org/abs/2603.28130"
+        },
+        "c": "https://github.com/yuliang-liu/multimodalocr",
+        "n": "MonkeyOCR-pro-3B",
+        "d": "2026-03-30",
+        "m2": "37.6",
+        "m1": "65.1",
+        "m3": "53.6",
+        "m4": "52.4"
+      },
+      {
+        "p": {
+          "name": "MDPBench: A Benchmark for Multilingual Document Parsing in Real-World Scenarios",
+          "link": "https://arxiv.org/abs/2603.28130"
+        },
+        "c": "https://github.com/yuliang-liu/multimodalocr",
+        "n": "MinerU-2.5-VLM",
+        "d": "2026-03-30",
+        "m2": "27.4",
+        "m1": "63.0",
+        "m3": "48.7",
+        "m4": "62.2"
+      },
+      {
+        "p": {
+          "name": "MDPBench: A Benchmark for Multilingual Document Parsing in Real-World Scenarios",
+          "link": "https://arxiv.org/abs/2603.28130"
+        },
+        "c": "https://github.com/yuliang-liu/multimodalocr",
+        "n": "PP-StructureV3",
+        "d": "2026-03-30",
+        "m2": "28.9",
+        "m1": "59.8",
+        "m3": "49.6",
+        "m4": "59.1"
+      },
+      {
+        "p": {
+          "name": "MDPBench: A Benchmark for Multilingual Document Parsing in Real-World Scenarios",
+          "link": "https://arxiv.org/abs/2603.28130"
+        },
+        "c": "https://github.com/yuliang-liu/multimodalocr",
+        "n": "DeepSeek-OCR",
+        "d": "2026-03-30",
+        "m2": "48.9",
+        "m1": "54.5",
+        "m3": "54.5",
+        "m4": "59.2"
+      },
+      {
+        "p": {
+          "name": "MDPBench: A Benchmark for Multilingual Document Parsing in Real-World Scenarios",
+          "link": "https://arxiv.org/abs/2603.28130"
+        },
+        "c": "https://github.com/yuliang-liu/multimodalocr",
+        "n": "InternVL-3.5-8B",
+        "d": "2026-03-30",
+        "m2": "30.6",
+        "m1": "53.4",
+        "m3": "45.3",
+        "m4": "59.3"
+      },
+      {
+        "p": {
+          "name": "MDPBench: A Benchmark for Multilingual Document Parsing in Real-World Scenarios",
+          "link": "https://arxiv.org/abs/2603.28130"
+        },
+        "c": "https://github.com/yuliang-liu/multimodalocr",
+        "n": "MinerU-2.5-pipeline",
+        "d": "2026-03-30",
+        "m2": "18.7",
+        "m1": "46.5",
+        "m3": "36.2",
+        "m4": "47.2"
+      }
+    ]
+  }
+}

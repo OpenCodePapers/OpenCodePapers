@@ -45,6 +45,26 @@
       },
       {
         "p": {
+          "name": "PaliGemma: A versatile 3B VLM for transfer",
+          "link": "https://arxiv.org/abs/2407.07726"
+        },
+        "c": "https://github.com/google-research/big_vision",
+        "n": "PaliGemma",
+        "d": "2024-07-10",
+        "m1": "90"
+      },
+      {
+        "p": {
+          "name": "Once-Tuning-Multiple-Variants: Tuning Once and Expanded as Multiple Vision-Language Model Variants",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Yu_Once-Tuning-Multiple-Variants_Tuning_Once_and_Expanded_as_Multiple_Vision-Language_Model_Variants_CVPR_2025_paper.html"
+        },
+        "c": "",
+        "n": "BEiT-3 (Large)-OTMV",
+        "d": "2025-06-11",
+        "m1": "89.96"
+      },
+      {
+        "p": {
           "name": "X$^2$-VLM: All-In-One Pre-trained Model For Vision-Language Tasks",
           "link": "https://arxiv.org/abs/2211.12402v2"
         },
@@ -115,6 +135,16 @@
       },
       {
         "p": {
+          "name": "MADTP: Multimodal Alignment-Guided Dynamic Token Pruning for Accelerating Vision-Language Transformer",
+          "link": "https://arxiv.org/abs/2403.02991"
+        },
+        "c": "https://github.com/double125/madtp",
+        "n": "MADTP",
+        "d": "2024-03-05",
+        "m1": "83.2"
+      },
+      {
+        "p": {
           "name": "BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation",
           "link": "https://arxiv.org/abs/2201.12086v2"
         },
@@ -172,6 +202,16 @@
         "n": "ViLT-B/32",
         "d": "2021-02-05",
         "m1": "76.13"
+      },
+      {
+        "p": {
+          "name": "VisualBERT: A Simple and Performant Baseline for Vision and Language",
+          "link": "https://arxiv.org/abs/1908.03557v1"
+        },
+        "c": "https://github.com/uclanlp/visualbert",
+        "n": "VisualBERT",
+        "d": "2019-08-09",
+        "m1": "67.0"
       }
     ]
   }

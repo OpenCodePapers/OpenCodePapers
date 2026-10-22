@@ -56,6 +56,26 @@
     "items": [
       {
         "p": {
+          "name": "LVMT: Video Mask Transformer for Long-term Video Segmentation",
+          "link": "https://arxiv.org/abs/2609.34895"
+        },
+        "c": "https://github.com/tue-mps/lvmt",
+        "n": "LVMT ViT-L (DINOv2)",
+        "d": "2026-09-29",
+        "m1": "66.4"
+      },
+      {
+        "p": {
+          "name": "Latest Object Memory Management for Temporally Consistent Video Instance Segmentation",
+          "link": "https://arxiv.org/abs/2507.19754"
+        },
+        "c": "https://github.com/seung-hun-lee/lomm",
+        "n": "LOMM ViT-L (offline) (extra data)",
+        "d": "2025-07-26",
+        "m1": "66.2"
+      },
+      {
+        "p": {
           "name": "Context-Aware Video Instance Segmentation",
           "link": "https://arxiv.org/abs/2407.03010v1"
         },
@@ -84,6 +104,16 @@
       },
       {
         "p": {
+          "name": "PMT: Plain Mask Transformer for Image and Video Segmentation with Frozen Vision Encoders",
+          "link": "https://arxiv.org/abs/2603.25398"
+        },
+        "c": "https://github.com/tue-mps/pmt",
+        "n": "PMT-L (DINOv3-L frozen, online VIS) (extra data)",
+        "d": "2026-03-26",
+        "m1": "64.3"
+      },
+      {
+        "p": {
           "name": "DVIS++: Improved Decoupled Framework for Universal Video Segmentation",
           "link": "https://arxiv.org/abs/2312.13305v1"
         },
@@ -98,6 +128,16 @@
       },
       {
         "p": {
+          "name": "VidEoMT: Your ViT is Secretly Also a Video Segmentation Model",
+          "link": "https://arxiv.org/abs/2602.17807"
+        },
+        "c": "https://github.com/tue-mps/videomt",
+        "n": "VidEoMT",
+        "d": "2026-02-19",
+        "m1": "63.1"
+      },
+      {
+        "p": {
           "name": "DVIS++: Improved Decoupled Framework for Universal Video Segmentation",
           "link": "https://arxiv.org/abs/2312.13305v1"
         },
@@ -109,6 +149,16 @@
         "m3": "70.2",
         "m4": "49.5",
         "m5": "68.0"
+      },
+      {
+        "p": {
+          "name": "MiNQVIS: Mitigating Noisy Queries for Robust Online Video Instance Segmentation",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/3617"
+        },
+        "c": "",
+        "n": "MiNQVIS (Swin-L)",
+        "d": "2026-09-08",
+        "m1": "61.6"
       },
       {
         "p": {
@@ -305,6 +355,16 @@
         "m3": "59.6",
         "m4": "44.8",
         "m5": "61.0"
+      },
+      {
+        "p": {
+          "name": "Mask2Former for Video Instance Segmentation",
+          "link": "https://arxiv.org/abs/2112.10764v1"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Mask2Former Swin-L",
+        "d": "2021-12-20",
+        "m1": "52.6"
       },
       {
         "p": {

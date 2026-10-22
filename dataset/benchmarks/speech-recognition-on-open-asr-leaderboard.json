@@ -1,0 +1,164 @@
+{
+  "title": "speech-recognition-on-open-asr-leaderboard",
+  "task-hierarchy": [
+    "Speech Recognition"
+  ],
+  "dataset-info": {
+    "link": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard",
+    "paper": "Open ASR Leaderboard: Towards Reproducible and Transparent Multilingual and Long-Form Speech Recognition Evaluation"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "WER",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "RTFx",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Training and Inference Efficiency of Encoder-Decoder Speech Models",
+          "link": "https://arxiv.org/abs/2503.05931"
+        },
+        "c": "https://github.com/NVIDIA/NeMo",
+        "n": "nvidia/canary-qwen-2.5b",
+        "d": "2025-03-07",
+        "m1": "5.23",
+        "m2": "867.09"
+      },
+      {
+        "p": {
+          "name": "Data-Efficient On-Policy Distillation for Automatic Speech Recognition",
+          "link": "https://arxiv.org/abs/2605.28139"
+        },
+        "c": "https://github.com/AutoArk/open-audio-opd",
+        "n": "Edge0/ARK-ASR-0.6B",
+        "d": "2026-06-22",
+        "m1": "5.27",
+        "m2": "663.92"
+      },
+      {
+        "p": {
+          "name": "Granite-speech: open-source speech-aware LLMs with strong English ASR capabilities",
+          "link": "https://arxiv.org/abs/2505.08699"
+        },
+        "c": "https://github.com/ibm-granite/granite-speech-models",
+        "n": "ibm-granite/granite-speech-4.1-2b",
+        "d": "2025-06-19",
+        "m1": "5.43",
+        "m2": "545.65"
+      },
+      {
+        "p": {
+          "name": "Granite-speech: open-source speech-aware LLMs with strong English ASR capabilities",
+          "link": "https://arxiv.org/abs/2505.08699"
+        },
+        "c": "https://github.com/ibm-granite/granite-speech-models",
+        "n": "ibm-granite/granite-speech-4.1-2b-nar",
+        "d": "2025-06-19",
+        "m1": "5.6",
+        "m2": "2073.52"
+      },
+      {
+        "p": {
+          "name": "NLE: Non-autoregressive LLM-based ASR by Transcript Editing",
+          "link": "https://arxiv.org/abs/2603.08397"
+        },
+        "c": "https://github.com/ibm-granite/granite-speech-models",
+        "n": "NLE++",
+        "d": "2026-04-01",
+        "m1": "5.67",
+        "m2": "1630"
+      },
+      {
+        "p": {
+          "name": "Voxtral",
+          "link": "https://arxiv.org/abs/2507.13264"
+        },
+        "c": "https://github.com/mistralai/mistral-common",
+        "n": "mistralai/Voxtral-Small-24B-2507",
+        "d": "2025-07-15",
+        "m1": "5.79",
+        "m2": "101.27"
+      },
+      {
+        "p": {
+          "name": "Granite-speech: open-source speech-aware LLMs with strong English ASR capabilities",
+          "link": "https://arxiv.org/abs/2505.08699"
+        },
+        "c": "https://github.com/ibm-granite/granite-speech-models",
+        "n": "ibm-granite/granite-4.0-1b-speech",
+        "d": "2025-06-19",
+        "m1": "5.85",
+        "m2": "666.15"
+      },
+      {
+        "p": {
+          "name": "Granite-speech: open-source speech-aware LLMs with strong English ASR capabilities",
+          "link": "https://arxiv.org/abs/2505.08699"
+        },
+        "c": "https://github.com/ibm-granite/granite-speech-models",
+        "n": "ibm-granite/granite-speech-3.3-8b",
+        "d": "2025-06-19",
+        "m1": "6.12",
+        "m2": "262.79"
+      },
+      {
+        "p": {
+          "name": "Granite-speech: open-source speech-aware LLMs with strong English ASR capabilities",
+          "link": "https://arxiv.org/abs/2505.08699"
+        },
+        "c": "https://github.com/ibm-granite/granite-speech-models",
+        "n": "ibm-granite/granite-speech-3.3-2b",
+        "d": "2025-06-19",
+        "m1": "6.24",
+        "m2": "509.35"
+      },
+      {
+        "p": {
+          "name": "Voxtral",
+          "link": "https://arxiv.org/abs/2507.13264"
+        },
+        "c": "https://github.com/mistralai/mistral-common",
+        "n": "mistralai/Voxtral-Mini-3B-2507",
+        "d": "2025-07-15",
+        "m1": "6.4",
+        "m2": "180.93"
+      },
+      {
+        "p": {
+          "name": "VibeVoice-ASR Technical Report",
+          "link": "https://arxiv.org/abs/2601.18184"
+        },
+        "c": "https://github.com/microsoft/VibeVoice",
+        "n": "microsoft/VibeVoice-ASR-HF",
+        "d": "2026-03-02",
+        "m1": "7.03",
+        "m2": "218.57"
+      }
+    ]
+  }
+}

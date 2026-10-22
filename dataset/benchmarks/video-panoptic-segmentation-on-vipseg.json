@@ -41,6 +41,16 @@
     "items": [
       {
         "p": {
+          "name": "LVMT: Video Mask Transformer for Long-term Video Segmentation",
+          "link": "https://arxiv.org/abs/2609.34895"
+        },
+        "c": "https://github.com/tue-mps/lvmt",
+        "n": "LVMT ViT-L (DINOv3)",
+        "d": "2026-09-29",
+        "m1": "60.3"
+      },
+      {
+        "p": {
           "name": "Context-Aware Video Instance Segmentation",
           "link": "https://arxiv.org/abs/2407.03010v1"
         },
@@ -84,6 +94,16 @@
       },
       {
         "p": {
+          "name": "DVIS-DAQ: Improving Video Segmentation via Dynamic Anchor Queries",
+          "link": "https://arxiv.org/abs/2404.00086v5"
+        },
+        "c": "https://github.com/zhang-tao-whu/DVIS",
+        "n": "DVIS-DAQ ViT-L (online) (extra data)",
+        "d": "2024-03-29",
+        "m1": "57.4"
+      },
+      {
+        "p": {
           "name": "A Simple Video Segmenter by Tracking Objects Along Axial Trajectories",
           "link": "https://arxiv.org/abs/2311.18537v2"
         },
@@ -91,6 +111,26 @@
         "n": "MaXTron (ConvNeXt-L)",
         "d": "2023-11-30",
         "m1": "57.1"
+      },
+      {
+        "p": {
+          "name": "PMT: Plain Mask Transformer for Image and Video Segmentation with Frozen Vision Encoders",
+          "link": "https://arxiv.org/abs/2603.25398"
+        },
+        "c": "https://github.com/tue-mps/pmt",
+        "n": "PMT-L (DINOv3-L frozen, online VPS) (extra data)",
+        "d": "2026-03-26",
+        "m1": "55.5"
+      },
+      {
+        "p": {
+          "name": "VidEoMT: Your ViT is Secretly Also a Video Segmentation Model",
+          "link": "https://arxiv.org/abs/2602.17807"
+        },
+        "c": "https://github.com/tue-mps/videomt",
+        "n": "VidEoMT",
+        "d": "2026-02-19",
+        "m1": "55.2"
       },
       {
         "p": {
@@ -102,6 +142,16 @@
         "d": "2023-09-07",
         "m1": "55.0",
         "m2": "52.2"
+      },
+      {
+        "p": {
+          "name": "OMG-Seg: Is One Model Good Enough For All Segmentation?",
+          "link": "https://arxiv.org/abs/2401.10229"
+        },
+        "c": "https://github.com/lxtgh/omg-seg",
+        "n": "OMG-Seg ConvNeXt-XX-Large (24 epochs) (extra data)",
+        "d": "2024-01-18",
+        "m1": "53.3"
       },
       {
         "p": {

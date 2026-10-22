@@ -1,0 +1,119 @@
+{
+  "title": "medical-question-answering-on-medxpertqa-text",
+  "task-hierarchy": [
+    "Question Answering",
+    "Medical Question Answering"
+  ],
+  "dataset-info": {
+    "link": "https://medicalsphere.ai/benchmarks/medxpertqa",
+    "paper": "MedXpertQA: Benchmarking Expert-Level Medical Reasoning and Understanding"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "HuatuoGPT-3: RL-Only Domain Adaptation from Base Models",
+          "link": "https://arxiv.org/abs/2610.05966"
+        },
+        "c": "https://github.com/FreedomIntelligence/HuatuoGPT-3",
+        "n": "HuatuoGPT-3-27B (extra data)",
+        "d": "2026-10-05",
+        "m1": "48.1"
+      },
+      {
+        "p": {
+          "name": "Rethinking Retrieval-Augmented Generation for Medicine: A Large-Scale, Systematic Expert Evaluation and Practical Insights",
+          "link": "https://arxiv.org/abs/2511.06738"
+        },
+        "c": "",
+        "n": "GPT-4o + Enhanced RAG (MedCPT k=16)",
+        "d": "2025-11-10",
+        "m1": "35.4"
+      },
+      {
+        "p": {
+          "name": "MedGemma Technical Report",
+          "link": "https://arxiv.org/abs/2507.05201"
+        },
+        "c": "https://github.com/google-gemini/gemma-cookbook",
+        "n": "MedGemma 27B Text (test-time scaling)",
+        "d": "2025-07-07",
+        "m1": "25.7"
+      },
+      {
+        "p": {
+          "name": "TARo: Token-level Adaptive Routing for LLM Test-time Alignment",
+          "link": "https://arxiv.org/abs/2603.18411"
+        },
+        "c": "",
+        "n": "Llama-3.1-70B + TARo (transferred router)",
+        "d": "2026-03-19",
+        "m1": "22.7"
+      },
+      {
+        "p": {
+          "name": "Rethinking Retrieval-Augmented Generation for Medicine: A Large-Scale, Systematic Expert Evaluation and Practical Insights",
+          "link": "https://arxiv.org/abs/2511.06738"
+        },
+        "c": "",
+        "n": "Llama-3.1-8B + Enhanced RAG (MedCPT k=16)",
+        "d": "2025-11-10",
+        "m1": "21.8"
+      },
+      {
+        "p": {
+          "name": "MedGemma 1.5 Technical Report",
+          "link": "https://arxiv.org/abs/2604.05081"
+        },
+        "c": "https://github.com/google-health/medgemma",
+        "n": "MedGemma 1.5 4B",
+        "d": "2026-04-06",
+        "m1": "16.4"
+      },
+      {
+        "p": {
+          "name": "Scaling Medical Reasoning Verification via Tool-Integrated Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2601.20221"
+        },
+        "c": "",
+        "n": "Med-TIV (Qwen2.5-7B guided search) (extra data)",
+        "d": "2026-01-28",
+        "m1": "16.04"
+      },
+      {
+        "p": {
+          "name": "Beyond Domain-Routed Supervision: Cross-Teacher Guarding for Multi-Teacher On-Policy Distillation",
+          "link": "https://arxiv.org/abs/2610.13521"
+        },
+        "c": "",
+        "n": "Road MOPD (Qwen3-4B)",
+        "d": "2026-10-09",
+        "m1": "15.96"
+      }
+    ]
+  }
+}

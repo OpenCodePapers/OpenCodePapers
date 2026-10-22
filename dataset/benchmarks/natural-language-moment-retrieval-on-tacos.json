@@ -67,6 +67,32 @@
     "items": [
       {
         "p": {
+          "name": "HieraMamba: Video Temporal Grounding via Hierarchical Anchor-Mamba Pooling",
+          "link": "https://arxiv.org/abs/2510.23043"
+        },
+        "c": "https://github.com/jbistanbul/hieramamba",
+        "n": "HieraMamba (extra data)",
+        "d": "2025-10-27",
+        "m1": "59.59",
+        "m2": "48.99",
+        "m5": "83.75",
+        "m6": "74.28"
+      },
+      {
+        "p": {
+          "name": "CVA: Context-aware Video-text Alignment for Video Temporal Grounding",
+          "link": "https://arxiv.org/abs/2603.24934"
+        },
+        "c": "",
+        "n": "CVA (extra data)",
+        "d": "2026-03-26",
+        "m1": "58.80",
+        "m2": "43.21",
+        "m3": "27.73",
+        "m7": "41.07"
+      },
+      {
+        "p": {
           "name": "Saliency-Guided DETR for Moment Retrieval and Highlight Detection",
           "link": "https://arxiv.org/abs/2410.01615v1"
         },
@@ -132,6 +158,19 @@
       },
       {
         "p": {
+          "name": "SnAG: Scalable and Accurate Video Grounding",
+          "link": "https://arxiv.org/abs/2404.02257"
+        },
+        "c": "https://github.com/fmu2/snag_release",
+        "n": "SnAG",
+        "d": "2024-04-02",
+        "m1": "56.44",
+        "m2": "44.86",
+        "m5": "81.15",
+        "m6": "70.66"
+      },
+      {
+        "p": {
           "name": "FlashVTG: Feature Layering and Adaptive Score Handling Network for Video Temporal Grounding",
           "link": "https://arxiv.org/abs/2412.13441v1"
         },
@@ -181,6 +220,56 @@
         "m2": "34.97",
         "m3": "21.07",
         "m7": "35.76"
+      },
+      {
+        "p": {
+          "name": "SE-DETR: Explicit Semantic Exploration for Generalizability and Distinguishability in Video Temporal Grounding",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/5708"
+        },
+        "c": "https://github.com/hu-cheng-yang/eccv26-se-detr",
+        "n": "SE-DETR+",
+        "d": "2026-09-08",
+        "m1": "50.6",
+        "m2": "39.2",
+        "m3": "22.6",
+        "m7": "36.2"
+      },
+      {
+        "p": {
+          "name": "Background-aware Moment Detection for Video Moment Retrieval",
+          "link": "https://arxiv.org/abs/2306.02728v3"
+        },
+        "c": "https://github.com/minjoong507/bm-detr",
+        "n": "BM-DETR (C3D + BERT) (extra data)",
+        "d": "2023-06-05",
+        "m1": "50.46",
+        "m2": "35.87"
+      },
+      {
+        "p": {
+          "name": "Beyond Uncertainty: Evidential Deep Learning for Robust Video Temporal Grounding",
+          "link": "https://arxiv.org/abs/2408.16272"
+        },
+        "c": "https://github.com/kaijingofficial/sram_vtg",
+        "n": "SRAM-Base",
+        "d": "2024-08-29",
+        "m1": "50.2",
+        "m2": "37.3",
+        "m3": "19.4",
+        "m7": "33.9"
+      },
+      {
+        "p": {
+          "name": "VideoMind: A Chain-of-LoRA Agent for Long Video Reasoning",
+          "link": "https://arxiv.org/abs/2503.13444v2"
+        },
+        "c": "https://github.com/yeliudev/VideoMind",
+        "n": "VideoMind 7B (extra data)",
+        "d": "2025-03-17",
+        "m1": "49.5",
+        "m2": "36.2",
+        "m3": "21.4",
+        "m7": "34.4"
       },
       {
         "p": {

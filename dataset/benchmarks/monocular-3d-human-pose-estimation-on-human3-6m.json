@@ -62,6 +62,76 @@
     "items": [
       {
         "p": {
+          "name": "StarPose: 3D Human Pose Estimation via Spatial-Temporal Autoregressive Diffusion",
+          "link": "https://arxiv.org/abs/2508.02056"
+        },
+        "c": "https://github.com/wileychan/StarPose",
+        "n": "StarPose (Predicted intrinsics, CPN, T=243, mean N=5) (extra data)",
+        "d": "2025-08-04",
+        "m1": "30.5"
+      },
+      {
+        "p": {
+          "name": "FinePOSE: Fine-Grained Prompt-Driven 3D Human Pose Estimation via Diffusion Models",
+          "link": "https://arxiv.org/abs/2405.05216"
+        },
+        "c": "https://github.com/PKU-ICST-MIPL/FinePOSE_CVPR2024",
+        "n": "FinePOSE + JPMA (CPN, T=243, H=20, K=10)",
+        "d": "2024-05-08",
+        "m1": "31.9"
+      },
+      {
+        "p": {
+          "name": "CHAMP: Conformalized 3D Human Multi-Hypothesis Pose Estimators",
+          "link": "https://arxiv.org/abs/2407.06141"
+        },
+        "c": "",
+        "n": "CHAMP-Agg",
+        "d": "2024-05-27",
+        "m1": "34.8"
+      },
+      {
+        "p": {
+          "name": "A Structure-aware and Motion-adaptive Framework for 3D Human Pose Estimation with Mamba",
+          "link": "https://arxiv.org/abs/2507.19852"
+        },
+        "c": "",
+        "n": "SAMA-L (SHNet, T=351, seq2seq)",
+        "d": "2025-07-26",
+        "m1": "36.5"
+      },
+      {
+        "p": {
+          "name": "LangPose: Language-Aligned Motion for Robust 3D Human Pose Estimation",
+          "link": "https://arxiv.org/abs/2409.00449"
+        },
+        "c": "",
+        "n": "LangPose (SH, T=243) (extra data)",
+        "d": "2024-08-31",
+        "m1": "36.7"
+      },
+      {
+        "p": {
+          "name": "HiPART: Hierarchical Pose AutoRegressive Transformer for Occluded 3D Human Pose Estimation",
+          "link": "https://arxiv.org/abs/2503.23331"
+        },
+        "c": "",
+        "n": "HiPART + MixSTE (f=243)",
+        "d": "2025-03-30",
+        "m1": "36.7"
+      },
+      {
+        "p": {
+          "name": "DiffPose: Toward More Reliable 3D Pose Estimation",
+          "link": "https://arxiv.org/abs/2211.16940v3"
+        },
+        "c": "https://github.com/GONGJIA0208/Diffpose",
+        "n": "DiffPose GMM-Diff M=5 (CPN, T=243, mean N=5)",
+        "d": "2022-11-30",
+        "m1": "36.9"
+      },
+      {
+        "p": {
           "name": "MotionBERT: A Unified Perspective on Learning Human Motion Representations",
           "link": "https://arxiv.org/abs/2210.06551v5"
         },
@@ -73,6 +143,16 @@
         "m3": "243",
         "m4": "No",
         "m6": "SH"
+      },
+      {
+        "p": {
+          "name": "TCPFormer: Learning Temporal Correlation with Implicit Pose Proxy for 3D Human Pose Estimation",
+          "link": "https://arxiv.org/abs/2501.01770v1"
+        },
+        "c": "https://github.com/asukacamellia/tcpformer",
+        "n": "TCPFormer (SH, T=243, seq2seq)",
+        "d": "2025-01-03",
+        "m1": "37.9"
       },
       {
         "p": {
@@ -101,6 +181,16 @@
         "m3": "243",
         "m4": "No",
         "m6": "SH"
+      },
+      {
+        "p": {
+          "name": "Hourglass Tokenizer for Efficient Transformer-Based 3D Human Pose Estimation",
+          "link": "https://arxiv.org/abs/2311.12028"
+        },
+        "c": "https://github.com/nationalgailab/hot",
+        "n": "TPC w. MotionBERT (SH, F=243, n=2, f=121, seq2frame)",
+        "d": "2023-11-20",
+        "m1": "39.0"
       },
       {
         "p": {
@@ -143,6 +233,16 @@
         "m3": "243",
         "m4": "No",
         "m6": "CPN"
+      },
+      {
+        "p": {
+          "name": "SasMamba: A Lightweight Structure-Aware Stride State Space Model for 3D Human Pose Estimation",
+          "link": "https://arxiv.org/abs/2511.08872"
+        },
+        "c": "",
+        "n": "SasMamba-large (Stacked Hourglass, T=243, seq2seq)",
+        "d": "2025-11-12",
+        "m1": "39.77"
       },
       {
         "p": {
@@ -225,6 +325,16 @@
       },
       {
         "p": {
+          "name": "MPM: A Unified 2D-3D Human Pose Representation via Masked Pose Modeling",
+          "link": "https://arxiv.org/abs/2306.17201"
+        },
+        "c": "",
+        "n": "MPM (CPN, T=243) (extra data)",
+        "d": "2023-06-29",
+        "m1": "42.3"
+      },
+      {
+        "p": {
           "name": "MotionAGFormer: Enhancing 3D Human Pose Estimation with a Transformer-GCNFormer Network",
           "link": "https://arxiv.org/abs/2310.16288v1"
         },
@@ -236,6 +346,16 @@
         "m3": "81",
         "m4": "No",
         "m6": "SH"
+      },
+      {
+        "p": {
+          "name": "MHFormer: Multi-Hypothesis Transformer for 3D Human Pose Estimation",
+          "link": "https://arxiv.org/abs/2111.12707v4"
+        },
+        "c": "https://github.com/Vegetebird/MHFormer",
+        "n": "MHFormer (CPN, T=351)",
+        "d": "2021-11-24",
+        "m1": "43.0"
       },
       {
         "p": {
@@ -279,6 +399,16 @@
       },
       {
         "p": {
+          "name": "GLA-GCN: Global-local Adaptive Graph Convolutional Network for 3D Human Pose Estimation from Monocular Video",
+          "link": "https://arxiv.org/abs/2307.05853v2"
+        },
+        "c": "https://github.com/bruceyo/GLA-GCN",
+        "n": "GLA-GCN (CPN, T=243)",
+        "d": "2023-07-12",
+        "m1": "44.4"
+      },
+      {
+        "p": {
           "name": "Attention Mechanism Exploits Temporal Contexts: Real-Time 3D Human Pose Reconstruction",
           "link": "http://openaccess.thecvf.com/content_CVPR_2020/html/Liu_Attention_Mechanism_Exploits_Temporal_Contexts_Real-Time_3D_Human_Pose_Reconstruction_CVPR_2020_paper.html"
         },
@@ -304,6 +434,16 @@
         "m3": "27",
         "m4": "No",
         "m6": "SH"
+      },
+      {
+        "p": {
+          "name": "PoseFormerV2: Exploring Frequency Domain for Efficient and Robust 3D Human Pose Estimation",
+          "link": "https://arxiv.org/abs/2303.17472v1"
+        },
+        "c": "https://github.com/zczcwh/DL-HPE",
+        "n": "PoseFormerV2 (f=27, n=27, sequence=243)",
+        "d": "2023-03-30",
+        "m1": "45.2"
       },
       {
         "p": {
@@ -379,6 +519,26 @@
         "m2": "No",
         "m3": "1",
         "m4": "No"
+      },
+      {
+        "p": {
+          "name": "Occlusion Resilient 3D Human Pose Estimation",
+          "link": "https://arxiv.org/abs/2402.11036"
+        },
+        "c": "",
+        "n": "Occlusion Resilient 3D Human Pose Estimation (Ours)",
+        "d": "2024-02-16",
+        "m1": "51.0"
+      },
+      {
+        "p": {
+          "name": "Skeleton-in-Context: Unified Skeleton Sequence Modeling with In-Context Learning",
+          "link": "https://arxiv.org/abs/2312.03703"
+        },
+        "c": "https://github.com/fanglaosi/skeleton-in-context",
+        "n": "Static-SiC",
+        "d": "2023-12-06",
+        "m1": "51.6"
       },
       {
         "p": {

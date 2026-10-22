@@ -46,6 +46,29 @@
     "items": [
       {
         "p": {
+          "name": "Towards Implicit Aggregation: Robust Image Representation for Place Recognition in the Transformer Era",
+          "link": "https://arxiv.org/abs/2511.06024"
+        },
+        "c": "https://github.com/lu-feng/image",
+        "n": "ImAge (6144D, unified dataset)",
+        "d": "2025-11-08",
+        "m1": "97.7",
+        "m2": "99.3",
+        "m3": "99.6"
+      },
+      {
+        "p": {
+          "name": "SelaVPR++: Towards Seamless Adaptation of Foundation Models for Efficient Place Recognition",
+          "link": "https://arxiv.org/abs/2502.16601"
+        },
+        "c": "https://github.com/Lu-Feng/SelaVPRplusplus",
+        "n": "SelaVPR++ (DINOv2-B, BoQ12288D, unified training)",
+        "d": "2025-02-23",
+        "m1": "97.6",
+        "m2": "99.2"
+      },
+      {
+        "p": {
           "name": "Query-Based Adaptive Aggregation for Multi-Dataset Joint Training Toward Universal Visual Place Recognition",
           "link": "https://arxiv.org/abs/2507.03831v1"
         },
@@ -53,6 +76,18 @@
         "n": "QAA-DINOv2-B-8192",
         "d": "2025-07-04",
         "m1": "96.7"
+      },
+      {
+        "p": {
+          "name": "AdaptVPR: Route-Aware Hard Positive Generation for Robust Visual Place Recognition",
+          "link": "https://arxiv.org/abs/2609.04369"
+        },
+        "c": "https://github.com/chenshunpeng/AdaptVPR",
+        "n": "BoQ + AdaptVPR",
+        "d": "2026-09-03",
+        "m1": "95.9",
+        "m2": "98.5",
+        "m3": "99.1"
       },
       {
         "p": {
@@ -64,6 +99,18 @@
         "d": "2024-05-28",
         "m1": "95.0",
         "m2": "98.6"
+      },
+      {
+        "p": {
+          "name": "SAGE: Spatial-visual Adaptive Graph Exploration for Efficient Visual Place Recognition",
+          "link": "https://arxiv.org/abs/2509.25723"
+        },
+        "c": "https://github.com/chenshunpeng/sage",
+        "n": "SAGE ViT-L (without cross-image encoder)",
+        "d": "2025-09-30",
+        "m1": "94.8",
+        "m2": "98.2",
+        "m3": "98.9"
       },
       {
         "p": {
@@ -79,6 +126,16 @@
       },
       {
         "p": {
+          "name": "SuperPlace: The Renaissance of Classical Feature Aggregation for Visual Place Recognition in the Era of Foundation Models",
+          "link": "https://arxiv.org/abs/2506.13073"
+        },
+        "c": "https://github.com/binuxliu/superplace",
+        "n": "SuperPlace SP-NVL-FT2 (DINOv2-B, GPMS, 8192D, 322px)",
+        "d": "2025-06-16",
+        "m1": "91.4"
+      },
+      {
+        "p": {
           "name": "BoQ: A Place is Worth a Bag of Learnable Queries",
           "link": "https://arxiv.org/abs/2405.07364v3"
         },
@@ -88,6 +145,18 @@
         "m1": "90.6",
         "m2": "96.0",
         "m3": "97.5"
+      },
+      {
+        "p": {
+          "name": "EDTformer: An Efficient Decoder Transformer for Visual Place Recognition",
+          "link": "https://arxiv.org/abs/2412.00784"
+        },
+        "c": "https://github.com/tong-jin01/edtformer",
+        "n": "EDTformer (4096D, 2decoder blocks, 64learned tokens, LoPA rank4)",
+        "d": "2024-12-01",
+        "m1": "88.3",
+        "m2": "95.3",
+        "m3": "97"
       },
       {
         "p": {
@@ -135,6 +204,17 @@
       },
       {
         "p": {
+          "name": "D²-VPR: A Parameter-efficient Visual-foundation-model-based Visual Place Recognition Method via Knowledge Distillation and Deformable Aggregation",
+          "link": "https://arxiv.org/abs/2511.12528"
+        },
+        "c": "https://github.com/tony19980810/d2vpr",
+        "n": "D2-VPR (no encoder)",
+        "d": "2025-11-16",
+        "m1": "78",
+        "m2": "89.1"
+      },
+      {
+        "p": {
           "name": "MixVPR: Feature Mixing for Visual Place Recognition",
           "link": "https://arxiv.org/abs/2303.02190v1"
         },
@@ -143,6 +223,18 @@
         "d": "2023-03-03",
         "m1": "76.0",
         "m2": "89.2"
+      },
+      {
+        "p": {
+          "name": "EigenPlaces: Training Viewpoint Robust Models for Visual Place Recognition",
+          "link": "https://arxiv.org/abs/2308.10832v1"
+        },
+        "c": "https://github.com/stschubert/vpr_tutorial",
+        "n": "EigenPlaces (ResNet-50, 2048D)",
+        "d": "2023-08-21",
+        "m1": "71.2",
+        "m2": "83.8",
+        "m3": "88.1"
       },
       {
         "p": {
@@ -187,6 +279,26 @@
         "d": "2021-07-06",
         "m1": "38.2",
         "m2": "54.8"
+      },
+      {
+        "p": {
+          "name": "SelaVPR++: Towards Seamless Adaptation of Foundation Models for Efficient Place Recognition",
+          "link": "https://arxiv.org/abs/2502.16601"
+        },
+        "c": "https://github.com/Lu-Feng/SelaVPRplusplus",
+        "n": "SelaVPR++ (DINOv2-L, float4096D direct retrieval)",
+        "d": "2025-02-23",
+        "m3": "99.5"
+      },
+      {
+        "p": {
+          "name": "D²-VPR: A Parameter-efficient Visual-foundation-model-based Visual Place Recognition Method via Knowledge Distillation and Deformable Aggregation",
+          "link": "https://arxiv.org/abs/2511.12528"
+        },
+        "c": "https://github.com/tony19980810/d2vpr",
+        "n": "D2-VPR (released no encoder)",
+        "d": "2025-11-16",
+        "m3": "91.9"
       }
     ]
   }

@@ -96,6 +96,16 @@
       },
       {
         "p": {
+          "name": "Decoder Pre-Training with only Text for Scene Text Recognition",
+          "link": "https://arxiv.org/abs/2408.05706"
+        },
+        "c": "https://github.com/topdu/openocr",
+        "n": "PARSeq + DPTR (real-data training) (extra data)",
+        "d": "2024-08-11",
+        "m1": "90.8"
+      },
+      {
+        "p": {
           "name": "CLIP4STR: A Simple Baseline for Scene Text Recognition with Pre-trained Vision-Language Model",
           "link": "https://arxiv.org/abs/2305.14014v4"
         },
@@ -113,6 +123,26 @@
         "n": "PARSeq",
         "d": "2022-07-14",
         "m1": "89.6±0.3"
+      },
+      {
+        "p": {
+          "name": "Revisiting Scene Text Recognition: A Data Perspective",
+          "link": "https://arxiv.org/abs/2307.08723"
+        },
+        "c": "https://github.com/Mountchicken/Union14M",
+        "n": "MAERec-B (Union14M-U PT + Union14M-L FT)",
+        "d": "2023-07-17",
+        "m1": "89.5"
+      },
+      {
+        "p": {
+          "name": "OTE: Exploring Accurate Scene Text Recognition Using One Token",
+          "link": "https://openaccess.thecvf.com/content/CVPR2024/html/Xu_OTE_Exploring_Accurate_Scene_Text_Recognition_Using_One_Token_CVPR_2024_paper.html"
+        },
+        "c": "https://github.com/xu-jianjun/ote",
+        "n": "OTE A/SVTR",
+        "d": "2024-06-17",
+        "m1": "89.1"
       },
       {
         "p": {
@@ -156,6 +186,16 @@
       },
       {
         "p": {
+          "name": "TPS++: Attention-Enhanced Thin-Plate Spline for Scene Text Recognition",
+          "link": "https://arxiv.org/abs/2305.05322v1"
+        },
+        "c": "https://github.com/simplify23/tps_pp",
+        "n": "ABINet-LV + TPS++",
+        "d": "2023-05-09",
+        "m1": "86.5"
+      },
+      {
+        "p": {
           "name": "CDistNet: Perceiving Multi-Domain Character Distance for Robust Text Recognition",
           "link": "https://arxiv.org/abs/2111.11011v5"
         },
@@ -193,6 +233,26 @@
         "n": "ViTSTR + TEACH",
         "d": "2025-08-02",
         "m1": "84.8"
+      },
+      {
+        "p": {
+          "name": "TrOCR: Transformer-based Optical Character Recognition with Pre-trained Models",
+          "link": "https://arxiv.org/abs/2109.10282v5"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "TrOCR Large (Syn+Benchmark) (extra data)",
+        "d": "2021-09-21",
+        "m1": "84.1"
+      },
+      {
+        "p": {
+          "name": "IterVM: Iterative Vision Modeling Module for Scene Text Recognition",
+          "link": "https://arxiv.org/abs/2204.02630"
+        },
+        "c": "https://github.com/VDIGPKU/IterNet",
+        "n": "IterNet (3× IterVM, 3× IterLM) (extra data)",
+        "d": "2022-04-06",
+        "m1": "84.0"
       },
       {
         "p": {
@@ -236,6 +296,16 @@
       },
       {
         "p": {
+          "name": "MASTER: Multi-Aspect Non-local Network for Scene Text Recognition",
+          "link": "https://arxiv.org/abs/1910.02562"
+        },
+        "c": "https://github.com/wenwenyu/MASTER-pytorch",
+        "n": "MASTER (h=4, N=3) (extra data)",
+        "d": "2019-10-07",
+        "m1": "79.6"
+      },
+      {
+        "p": {
           "name": "TextScanner: Reading Characters in Order for Robust Scene Text Recognition",
           "link": "https://arxiv.org/abs/1912.12422v2"
         },
@@ -243,6 +313,16 @@
         "n": "TextScanner",
         "d": "2019-12-28",
         "m1": "79.4"
+      },
+      {
+        "p": {
+          "name": "RobustScanner: Dynamically Enhancing Positional Clues for Robust Text Recognition",
+          "link": "https://arxiv.org/abs/2007.07542"
+        },
+        "c": "",
+        "n": "RobustScanner (MJ + ST + real training) (extra data)",
+        "d": "2020-07-15",
+        "m1": "79.2"
       },
       {
         "p": {
@@ -293,6 +373,16 @@
         "n": "AON",
         "d": "2017-11-12",
         "m1": "73.0"
+      },
+      {
+        "p": {
+          "name": "Data Augmentation for Scene Text Recognition",
+          "link": "https://arxiv.org/abs/2108.06949"
+        },
+        "c": "https://github.com/roatienza/straug",
+        "n": "TRBA + STRAug (extra data)",
+        "d": "2021-08-16",
+        "m1": "72.70"
       },
       {
         "p": {

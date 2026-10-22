@@ -1,0 +1,369 @@
+{
+  "title": "robot-manipulation-on-robotwin-2-0-easy-50-tasks",
+  "task-hierarchy": [
+    "Robotics",
+    "Robot Manipulation"
+  ],
+  "dataset-info": {
+    "link": "https://robotwin-platform.github.io/",
+    "paper": "RoboTwin 2.0: A Scalable Data Generator and Benchmark with Strong Domain Randomization for Robust Bimanual Robotic Manipulation"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Success Rate",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "ZimaBlue: Evolving Generalizable World Action Models through Scalable Video Pre-training",
+          "link": "https://arxiv.org/abs/2609.00188"
+        },
+        "c": "https://github.com/ZimaBlue-WAM/ZimaBlue",
+        "n": "ZimaBlue (Slow System)",
+        "d": "2026-08-31",
+        "m1": "94.7"
+      },
+      {
+        "p": {
+          "name": "Long-WAM: Scaling the Context of World-Action Models",
+          "link": "https://arxiv.org/abs/2610.10528"
+        },
+        "c": "https://github.com/NVlabs/LongLive",
+        "n": "Long-WAM (IDM)",
+        "d": "2026-10-07",
+        "m1": "94.7"
+      },
+      {
+        "p": {
+          "name": "World Action Learning via Interaction-Centric Spectral Latent Guidance",
+          "link": "https://arxiv.org/abs/2610.03607"
+        },
+        "c": "",
+        "n": "WING",
+        "d": "2026-10-02",
+        "m1": "94.56"
+      },
+      {
+        "p": {
+          "name": "OpenWAM: An Open, Modular Exploration Towards Systematic World-Action Model Pretraining",
+          "link": "https://arxiv.org/abs/2609.07398"
+        },
+        "c": "https://github.com/OpenWAM-Official/OpenWAM",
+        "n": "OpenWAM-alpha (extra data)",
+        "d": "2026-09-07",
+        "m1": "93.74"
+      },
+      {
+        "p": {
+          "name": "From Foundation to Application: Improving VLA Models in Practice",
+          "link": "https://arxiv.org/abs/2607.06403"
+        },
+        "c": "https://github.com/robbyant/lingbot-vla-v2",
+        "n": "LingBot-VLA 2.0",
+        "d": "2026-07-07",
+        "m1": "93.52"
+      },
+      {
+        "p": {
+          "name": "Rolling-WAM: World Action Models with Rolling Imagination",
+          "link": "https://arxiv.org/abs/2609.30247"
+        },
+        "c": "https://github.com/zyinghua/Rolling-WAM",
+        "n": "Rolling-WAM",
+        "d": "2026-09-24",
+        "m1": "93.5"
+      },
+      {
+        "p": {
+          "name": "ImageWAM: Do World Action Models Really Need Video Generation, or Just Image Editing?",
+          "link": "https://arxiv.org/abs/2606.19531"
+        },
+        "c": "https://github.com/yuyangalin/ImageWAM",
+        "n": "ImageWAM (FLUX.2 4B)",
+        "d": "2026-06-17",
+        "m1": "93.20"
+      },
+      {
+        "p": {
+          "name": "InternW0: A Foundational Physical World Model for Efficient Real-World Interactions",
+          "link": "https://arxiv.org/abs/2609.27656"
+        },
+        "c": "",
+        "n": "InternW0 (extra data)",
+        "d": "2026-09-23",
+        "m1": "93.2"
+      },
+      {
+        "p": {
+          "name": "Beyond Data Scaling: Representation-Centric Continued Pre-training for Vision-Language-Action Models",
+          "link": "https://arxiv.org/abs/2608.27550"
+        },
+        "c": "https://github.com/starVLA/VLAct",
+        "n": "VLAct (PI, data scaling)",
+        "d": "2026-08-27",
+        "m1": "93"
+      },
+      {
+        "p": {
+          "name": "RealtimeWAM: One-Step Asynchronous World Action Models",
+          "link": "https://arxiv.org/abs/2610.06617"
+        },
+        "c": "https://github.com/ModelTC/LightX2V",
+        "n": "RealtimeWAM†",
+        "d": "2026-10-05",
+        "m1": "92.98"
+      },
+      {
+        "p": {
+          "name": "UNITAS: A 3D-Native World Action Model for Embodied Manipulation",
+          "link": "https://arxiv.org/abs/2610.12099"
+        },
+        "c": "https://github.com/DexForce/UNITAS",
+        "n": "UNITAS",
+        "d": "2026-10-08",
+        "m1": "92.94"
+      },
+      {
+        "p": {
+          "name": "Causal World Modeling for Robot Control",
+          "link": "https://arxiv.org/abs/2601.21998"
+        },
+        "c": "https://github.com/robbyant/lingbot-va",
+        "n": "LingBot-VA",
+        "d": "2026-01-29",
+        "m1": "92.93"
+      },
+      {
+        "p": {
+          "name": "Acting Through Registers",
+          "link": "https://arxiv.org/abs/2610.17638"
+        },
+        "c": "https://github.com/Z1zyw/RegisterWAM",
+        "n": "RegisterWAM",
+        "d": "2026-10-13",
+        "m1": "92.9"
+      },
+      {
+        "p": {
+          "name": "AnyStep-WAM: Budget-Aligned Distillation and Adaptive Inference for World Action Models",
+          "link": "https://arxiv.org/abs/2609.33748"
+        },
+        "c": "https://github.com/RuiWang724/AnyStep-WAM",
+        "n": "AnyStep-LingBotVA",
+        "d": "2026-09-27",
+        "m1": "92.74"
+      },
+      {
+        "p": {
+          "name": "Enfold: Folding World Model Imagination into Predictive Representations for Ultra-Efficient Embodied Control",
+          "link": "https://arxiv.org/abs/2607.26657"
+        },
+        "c": "https://github.com/zwl666666/enfold",
+        "n": "Enfold-Flash",
+        "d": "2026-08-06",
+        "m1": "91.96"
+      },
+      {
+        "p": {
+          "name": "Fast-WAM: Do World Action Models Need Test-time Future Imagination?",
+          "link": "https://arxiv.org/abs/2603.16666"
+        },
+        "c": "https://github.com/yuantianyuan01/fastwam",
+        "n": "Fast-WAM",
+        "d": "2026-03-17",
+        "m1": "91.88"
+      },
+      {
+        "p": {
+          "name": "WAVE-0: Bridging VLA Policies and WAMs with Lightweight Latent Future Prediction",
+          "link": "https://arxiv.org/abs/2610.18568"
+        },
+        "c": "https://github.com/AutoLab-SAI-SJTU/WAVE-0",
+        "n": "WAVE-0",
+        "d": "2026-10-13",
+        "m1": "91.46"
+      },
+      {
+        "p": {
+          "name": "ACE-Ego-0: Unifying Egocentric Human and Robotic Data for VLA Pretraining",
+          "link": "https://arxiv.org/abs/2606.17200"
+        },
+        "c": "https://github.com/ACERobotics-VLA/ACE-Ego-0",
+        "n": "ACE-Ego-0",
+        "d": "2026-06-15",
+        "m1": "91.12"
+      },
+      {
+        "p": {
+          "name": "Dream4ACT: A Shared Visual Action Interface for Multi-Embodiment Video-Action Modeling",
+          "link": "https://arxiv.org/abs/2609.40153"
+        },
+        "c": "",
+        "n": "Dream4ACT",
+        "d": "2026-09-30",
+        "m1": "90.5"
+      },
+      {
+        "p": {
+          "name": "VLA-Δ: Learning Physical State Transition for Vision-Language-Action Models",
+          "link": "https://arxiv.org/abs/2610.21306"
+        },
+        "c": "https://github.com/ZJU-OmniAI/VLA-Delta",
+        "n": "VLA-Δ",
+        "d": "2026-10-15",
+        "m1": "90.06"
+      },
+      {
+        "p": {
+          "name": "BridgeWAM: Bridging Video and Action Experts via Latent Bridge Queries",
+          "link": "https://arxiv.org/abs/2610.14746"
+        },
+        "c": "https://github.com/jxfang04/BridgeWAM-code",
+        "n": "BridgeWAM",
+        "d": "2026-10-10",
+        "m1": "89.84"
+      },
+      {
+        "p": {
+          "name": "StarVLA: A Lego-like Codebase for Vision-Language-Action Model Developing",
+          "link": "https://arxiv.org/abs/2604.05014"
+        },
+        "c": "https://github.com/starvla/starvla",
+        "n": "StarVLA (generalist)",
+        "d": "2026-04-06",
+        "m1": "88.7"
+      },
+      {
+        "p": {
+          "name": "Less is More: Reducing Complexity in Vision-Language-Action Systems",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/3351"
+        },
+        "c": "https://github.com/starvla/starvla-alpha",
+        "n": "StarVLA-α (Generalist)",
+        "d": "2026-09-08",
+        "m1": "88.7"
+      },
+      {
+        "p": {
+          "name": "Native Action-Prior Learning from Videos for World Action Models",
+          "link": "https://arxiv.org/abs/2610.03391"
+        },
+        "c": "",
+        "n": "NAVA-WAM",
+        "d": "2026-10-02",
+        "m1": "88.5"
+      },
+      {
+        "p": {
+          "name": "Flash-WAM: Modality-Aware Distillation for World Action Models",
+          "link": "https://arxiv.org/abs/2606.05254"
+        },
+        "c": "https://github.com/nu-world-model-embodied-ai/flash-wam",
+        "n": "Flash-WAM (1v/2a)",
+        "d": "2026-06-03",
+        "m1": "88.42"
+      },
+      {
+        "p": {
+          "name": "TurboVLA: Real-Time Vision-Language-Action Model at 32 Hz on an RTX 4090 with <1 GB VRAM",
+          "link": "https://arxiv.org/abs/2607.27205"
+        },
+        "c": "https://github.com/H-EmbodVis/TurboVLA",
+        "n": "TurboVLA (DINOv3 ViT-L)",
+        "d": "2026-07-29",
+        "m1": "88.02"
+      },
+      {
+        "p": {
+          "name": "GreenWAM: A World Foundation Model for Robotics",
+          "link": "https://arxiv.org/abs/2610.18774"
+        },
+        "c": "https://github.com/greenvla/GreenWAM",
+        "n": "GreenWAM",
+        "d": "2026-10-13",
+        "m1": "86.98"
+      },
+      {
+        "p": {
+          "name": "REKI: Registering Knowledge in VLAs",
+          "link": "https://arxiv.org/abs/2610.22178"
+        },
+        "c": "https://github.com/kyutai-labs/reki",
+        "n": "REKI",
+        "d": "2026-10-15",
+        "m1": "85.9"
+      },
+      {
+        "p": {
+          "name": "PerturBot: Breaking Shortcut Priors in Vision-Language-Action Models with Perturbative Training",
+          "link": "https://arxiv.org/abs/2610.04616"
+        },
+        "c": "https://github.com/aim-uofa/PerturBot",
+        "n": "Perturbot (extra data)",
+        "d": "2026-10-03",
+        "m1": "85.6"
+      },
+      {
+        "p": {
+          "name": "Rethinking World-Action Model for Compositional and In-Context Robotic Manipulation",
+          "link": "https://arxiv.org/abs/2610.02368"
+        },
+        "c": "https://github.com/dagroup-pku/vigar",
+        "n": "ViGAR",
+        "d": "2026-10-01",
+        "m1": "82.0"
+      },
+      {
+        "p": {
+          "name": "PINT: A Unified Model with Shared Predictive Intent for Robot Manipulation",
+          "link": "https://arxiv.org/abs/2610.16355"
+        },
+        "c": "https://github.com/ZGCA-HMI-Lab/PINT",
+        "n": "PINT-VA",
+        "d": "2026-10-12",
+        "m1": "71.9"
+      },
+      {
+        "p": {
+          "name": "VLA-Rolling: Fewer Denoising Steps, Better Control via Adaptive Action Reuse",
+          "link": "https://arxiv.org/abs/2610.25043"
+        },
+        "c": "https://github.com/ZJU-OmniAI/VLA-Rolling",
+        "n": "VLA-Rolling (pi0.5)",
+        "d": "2026-10-18",
+        "m1": "67.26"
+      },
+      {
+        "p": {
+          "name": "GigaBrain-0.7: Scaling Embodied Foundation Models to Emergent Capabilities with a Three-System Architecture",
+          "link": "https://arxiv.org/abs/2608.15875"
+        },
+        "c": "https://github.com/open-gigaai/giga-brain-0",
+        "n": "GigaBrain-0.7 3.5B (Co-Train)",
+        "d": "2026-08-16",
+        "m1": "66.8"
+      }
+    ]
+  }
+}

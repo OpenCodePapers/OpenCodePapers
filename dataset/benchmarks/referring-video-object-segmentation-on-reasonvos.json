@@ -1,0 +1,159 @@
+{
+  "title": "referring-video-object-segmentation-on-reasonvos",
+  "task-hierarchy": [
+    "Video Segmentation",
+    "Referring Video Object Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/showlab/VideoLISA/blob/main/BENCHMARK.md",
+    "paper": "One Token to Seg Them All: Language Instructed Reasoning Segmentation in Videos"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "J&F",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Think Visually Across Space and Time: Grounded Reasoning for Video Segmentation",
+          "link": "https://arxiv.org/abs/2610.25090"
+        },
+        "c": "https://github.com/victor-wjw/tcovp",
+        "n": "TCoVP-4B (extra data)",
+        "d": "2026-10-18",
+        "m1": "72.1"
+      },
+      {
+        "p": {
+          "name": "ReVSeg: Incentivizing the Reasoning Chain for Video Segmentation with Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2512.02835"
+        },
+        "c": "https://github.com/Clementine24/ReVSeg",
+        "n": "ReVSeg-7B",
+        "d": "2025-12-02",
+        "m1": "64.8"
+      },
+      {
+        "p": {
+          "name": "Locate Anything in Videos: Rethinking Efficient Generative Spatio-Temporal Video Grounding",
+          "link": "https://arxiv.org/abs/2608.28192"
+        },
+        "c": "https://github.com/mbzuai-oryx/ParallelTubeDecoding",
+        "n": "PTD Qwen3-VL-4B + SAM3",
+        "d": "2026-08-28",
+        "m1": "64.7"
+      },
+      {
+        "p": {
+          "name": "Annotations as Rollouts: Efficient and Scalable Reinforcement Learning for Video MLLMs",
+          "link": "https://arxiv.org/abs/2608.20492"
+        },
+        "c": "https://github.com/HVision-NKU/OraRL",
+        "n": "Video-ORA-4B",
+        "d": "2026-08-20",
+        "m1": "63.8"
+      },
+      {
+        "p": {
+          "name": "Seg-ReSearch: Segmentation with Interleaved Reasoning and External Search",
+          "link": "https://arxiv.org/abs/2602.04454"
+        },
+        "c": "https://github.com/iSEE-Laboratory/Seg-ReSearch",
+        "n": "Seg-ReSearch-8B",
+        "d": "2026-02-04",
+        "m1": "63.2"
+      },
+      {
+        "p": {
+          "name": "MomentSeg: Moment-Centric Sampling for Enhanced Referring Video Object Segmentation",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/3213"
+        },
+        "c": "",
+        "n": "MomentSeg-7B",
+        "d": "2026-09-08",
+        "m1": "62.7"
+      },
+      {
+        "p": {
+          "name": "Don't Guess, Just Ask: Resolving Ambiguity in Referring Segmentation via Multi-turn Clarification",
+          "link": "https://arxiv.org/abs/2605.17531"
+        },
+        "c": "https://github.com/isee-laboratory/ic-seg",
+        "n": "IC-Seg (8B)",
+        "d": "2026-05-17",
+        "m1": "60.9"
+      },
+      {
+        "p": {
+          "name": "Decomposed Attention Fusion in MLLMs for Training-Free Video Reasoning Segmentation",
+          "link": "https://arxiv.org/abs/2510.19592"
+        },
+        "c": "https://github.com/HYUNJS/DecAF",
+        "n": "DecAF (training-free, Qwen2.5-VL-7B + SAM2) (extra data)",
+        "d": "2025-10-22",
+        "m1": "59.7"
+      },
+      {
+        "p": {
+          "name": "OneThinker: All-in-one Reasoning Model for Image and Video",
+          "link": "https://arxiv.org/abs/2512.03043"
+        },
+        "c": "https://github.com/tulerfeng/onethinker",
+        "n": "OneThinker-8B",
+        "d": "2025-12-02",
+        "m1": "54.9"
+      },
+      {
+        "p": {
+          "name": "STAC: Selective Spatiotemporal Aggregation and Compression for Video Reasoning Segmentation",
+          "link": "https://arxiv.org/abs/2607.02922"
+        },
+        "c": "https://github.com/mcg-nku/nku-video",
+        "n": "STAC",
+        "d": "2026-07-03",
+        "m1": "52.3"
+      },
+      {
+        "p": {
+          "name": "GLUS: Global-Local Reasoning Unified into A Single Large Language Model for Video Segmentation",
+          "link": "https://arxiv.org/abs/2504.07962v1"
+        },
+        "c": "https://github.com/GLUS-video/GLUS",
+        "n": "GLUS-A (Additional-SFT) (extra data)",
+        "d": "2025-04-10",
+        "m1": "49.9"
+      },
+      {
+        "p": {
+          "name": "One Token to Seg Them All: Language Instructed Reasoning Segmentation in Videos",
+          "link": "https://arxiv.org/abs/2409.19603v1"
+        },
+        "c": "https://github.com/showlab/videolisa",
+        "n": "VideoLISA-3.8B (Post-optimization) (extra data)",
+        "d": "2024-09-29",
+        "m1": "47.5"
+      }
+    ]
+  }
+}

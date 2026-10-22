@@ -1,0 +1,228 @@
+{
+  "title": "relative-pose-estimation-on-megadepth-1500",
+  "task-hierarchy": [
+    "Image Matching",
+    "Relative Pose Estimation"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/zju3dv/LoFTR",
+    "paper": "LoFTR: Detector-Free Local Feature Matching with Transformers"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AUC@5",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "AUC@10",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "AUC@20",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "RoMa v2: Harder Better Faster Denser Feature Matching",
+          "link": "https://arxiv.org/abs/2511.15706"
+        },
+        "c": "https://github.com/Parskatt/romav2",
+        "n": "RoMa v2",
+        "d": "2025-11-19",
+        "m1": "62.8",
+        "m2": "77.0",
+        "m3": "86.6"
+      },
+      {
+        "p": {
+          "name": "RoMa: Robust Dense Feature Matching",
+          "link": "https://arxiv.org/abs/2305.15404v2"
+        },
+        "c": "https://github.com/parskatt/roma",
+        "n": "RoMa",
+        "d": "2023-05-24",
+        "m1": "62.6",
+        "m2": "76.7",
+        "m3": "86.3"
+      },
+      {
+        "p": {
+          "name": "DeDoDe: Detect, Don't Describe - Describe, Don't Detect for Local Feature Matching",
+          "link": "https://arxiv.org/abs/2308.08479"
+        },
+        "c": "https://github.com/parskatt/dedode",
+        "n": "DeDoDe-G",
+        "d": "2023-08-16",
+        "m1": "60.2",
+        "m2": "73.8",
+        "m3": "83.9"
+      },
+      {
+        "p": {
+          "name": "Multi-Session SLAM with Differentiable Wide-Baseline Pose Optimization",
+          "link": "https://arxiv.org/abs/2404.15263"
+        },
+        "c": "https://github.com/princeton-vl/multislam_diffpose",
+        "n": "MultiSlam-DiffPose",
+        "d": "2024-04-23",
+        "m1": "60.2",
+        "m2": "72.3",
+        "m3": "81.0"
+      },
+      {
+        "p": {
+          "name": "Unified and Efficient Point-Line Local Features",
+          "link": "https://arxiv.org/abs/2608.19894"
+        },
+        "c": "https://github.com/francois141/upal",
+        "n": "UPAL",
+        "d": "2026-08-20",
+        "m1": "58.2",
+        "m2": "70.8",
+        "m3": "79.4"
+      },
+      {
+        "p": {
+          "name": "TextFM: Robust Semi-dense Feature Matching with Language Guidance",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Zheng_TextFM_Robust_Semi-dense_Feature_Matching_with_Language_Guidance_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "TextFM",
+        "d": "2026-06-03",
+        "m1": "58.0",
+        "m2": "73.6",
+        "m3": "84.6"
+      },
+      {
+        "p": {
+          "name": "Scalable Feature Matching via State Space Modeling and Sparse Correlation",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Choo_Scalable_Feature_Matching_via_State_Space_Modeling_and_Sparse_Correlation_CVPR_2026_paper.html"
+        },
+        "c": "https://github.com/band-127/slim",
+        "n": "SLiM",
+        "d": "2026-06-03",
+        "m1": "57.9",
+        "m2": "72.8",
+        "m3": "83.5"
+      },
+      {
+        "p": {
+          "name": "MATCHA: Towards Matching Anything",
+          "link": "https://arxiv.org/abs/2501.14945"
+        },
+        "c": "https://github.com/feixue94/matcha",
+        "n": "MATCHA-Light + SP",
+        "d": "2025-01-24",
+        "m1": "57.1",
+        "m2": "70.9",
+        "m3": "81.2"
+      },
+      {
+        "p": {
+          "name": "LoMa: Local Feature Matching Revisited",
+          "link": "https://arxiv.org/abs/2604.04931"
+        },
+        "c": "",
+        "n": "LoMa-L",
+        "d": "2026-04-06",
+        "m1": "56.5",
+        "m2": "72.7",
+        "m3": "84.3"
+      },
+      {
+        "p": {
+          "name": "LoFTR: Detector-Free Local Feature Matching with Transformers",
+          "link": "https://arxiv.org/abs/2104.00680v1"
+        },
+        "c": "https://github.com/kornia/kornia",
+        "n": "LoFTR-DS",
+        "d": "2021-04-01",
+        "m1": "52.8",
+        "m2": "69.19",
+        "m3": "81.18"
+      },
+      {
+        "p": {
+          "name": "Steerers: A Framework for Rotation Equivariant Keypoint Descriptors",
+          "link": "https://arxiv.org/abs/2312.02152"
+        },
+        "c": "https://github.com/georg-bn/rotation-steerers",
+        "n": "C4-Perm-G",
+        "d": "2023-12-04",
+        "m1": "52",
+        "m2": "69",
+        "m3": "81"
+      },
+      {
+        "p": {
+          "name": "SemLight: Distilled Semantic–Geometric Fusion for Efficient Local Feature Matching",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/5382"
+        },
+        "c": "",
+        "n": "SemLight",
+        "d": "2026-09-08",
+        "m1": "50.2",
+        "m2": "62.5",
+        "m3": "72.7"
+      },
+      {
+        "p": {
+          "name": "LightGlue: Local Feature Matching at Light Speed",
+          "link": "https://arxiv.org/abs/2306.13643v1"
+        },
+        "c": "https://github.com/cvg/lightglue",
+        "n": "SuperPoint + LightGlue",
+        "d": "2023-06-23",
+        "m1": "49.9",
+        "m2": "67.0",
+        "m3": "80.1"
+      },
+      {
+        "p": {
+          "name": "XFeat Revisited: Reproducibility and Evaluation of a Lightweight Image Matcher",
+          "link": "https://arxiv.org/abs/2608.09519"
+        },
+        "c": "https://github.com/galaxyghz/xfeat-revisited",
+        "n": "XFeat* Reproduced",
+        "d": "2026-08-10",
+        "m3": "78.1",
+        "m1": "49.8",
+        "m2": "65.7"
+      },
+      {
+        "p": {
+          "name": "A Streamlined Attention-based Network for Descriptor Extraction",
+          "link": "https://arxiv.org/abs/2601.13126"
+        },
+        "c": "",
+        "n": "DeDoDe + SANDesc",
+        "d": "2026-01-19",
+        "m1": "46.2",
+        "m2": "62.5"
+      }
+    ]
+  }
+}

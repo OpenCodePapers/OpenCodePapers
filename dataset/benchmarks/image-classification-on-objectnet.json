@@ -40,6 +40,46 @@
     "items": [
       {
         "p": {
+          "name": "Perception Encoder: The best visual embeddings are not at the output of the network",
+          "link": "https://arxiv.org/abs/2504.13181v1"
+        },
+        "c": "https://github.com/facebookresearch/perception_models",
+        "n": "PE-Core G",
+        "d": "2025-04-17",
+        "m1": "88.2"
+      },
+      {
+        "p": {
+          "name": "SigLIP 2: Multilingual Vision-Language Encoders with Improved Semantic Understanding, Localization, and Dense Features",
+          "link": "https://arxiv.org/abs/2502.14786"
+        },
+        "c": "https://github.com/google-research/big_vision",
+        "n": "SigLIP 2 (g/16)",
+        "d": "2025-02-20",
+        "m1": "88.0"
+      },
+      {
+        "p": {
+          "name": "MoE-ViE: Mixture of Experts Vision Encoder for Efficient Image and Video Understanding",
+          "link": "https://arxiv.org/abs/2608.17402"
+        },
+        "c": "https://github.com/facebookresearch/moe_vie",
+        "n": "MoE-ViE-H/14",
+        "d": "2026-08-18",
+        "m1": "87.0"
+      },
+      {
+        "p": {
+          "name": "Sigmoid Loss for Language Image Pre-Training",
+          "link": "https://arxiv.org/abs/2303.15343"
+        },
+        "c": "https://github.com/google-research/big_vision",
+        "n": "SigLIP SO",
+        "d": "2023-03-27",
+        "m1": "82.9"
+      },
+      {
+        "p": {
           "name": "CoCa: Contrastive Captioners are Image-Text Foundation Models",
           "link": "https://arxiv.org/abs/2205.01917v2"
         },
@@ -90,6 +130,16 @@
       },
       {
         "p": {
+          "name": "DINOv3",
+          "link": "https://arxiv.org/abs/2508.10104v1"
+        },
+        "c": "https://github.com/facebookresearch/dinov3",
+        "n": "DINOv3 (7B)",
+        "d": "2025-08-13",
+        "m1": "79.0"
+      },
+      {
+        "p": {
           "name": "Model soups: averaging weights of multiple fine-tuned models improves accuracy without increasing inference time",
           "link": "https://arxiv.org/abs/2203.05482v3"
         },
@@ -107,6 +157,16 @@
         "n": "MAWS (ViT-6.5B)",
         "d": "2023-03-23",
         "m1": "77.9"
+      },
+      {
+        "p": {
+          "name": "Demystifying CLIP Data",
+          "link": "https://arxiv.org/abs/2309.16671"
+        },
+        "c": "https://github.com/facebookresearch/MetaCLIP",
+        "n": "MetaCLIP ViT-bigG/14",
+        "d": "2023-09-28",
+        "m1": "77.2"
       },
       {
         "p": {
@@ -190,6 +250,16 @@
       },
       {
         "p": {
+          "name": "MobileCLIP: Fast Image-Text Models through Multi-Modal Reinforced Training",
+          "link": "https://arxiv.org/abs/2311.17049"
+        },
+        "c": "https://github.com/rwightman/pytorch-image-models",
+        "n": "MobileCLIP-B",
+        "d": "2023-11-28",
+        "m1": "69.4"
+      },
+      {
+        "p": {
           "name": "Scaling Vision Transformers",
           "link": "https://arxiv.org/abs/2106.04560v2"
         },
@@ -207,6 +277,26 @@
         "n": "RegNetY 128GF (Platt)",
         "d": "2022-01-20",
         "m1": "64.3"
+      },
+      {
+        "p": {
+          "name": "EVA-02: A Visual Representation for Neon Genesis",
+          "link": "https://arxiv.org/abs/2303.11331"
+        },
+        "c": "https://github.com/baaivision/eva",
+        "n": "EVA-02-L",
+        "d": "2023-03-20",
+        "m1": "62.8"
+      },
+      {
+        "p": {
+          "name": "Multi-label Cluster Discrimination for Visual Representation Learning",
+          "link": "https://arxiv.org/abs/2407.17331v2"
+        },
+        "c": "https://github.com/deepglint/unicom",
+        "n": "MLCD ViT-L/14",
+        "d": "2024-07-24",
+        "m1": "62.7"
       },
       {
         "p": {
@@ -251,6 +341,16 @@
       },
       {
         "p": {
+          "name": "Patch n' Pack: NaViT, a Vision Transformer for any Aspect Ratio and Resolution",
+          "link": "https://arxiv.org/abs/2307.06304"
+        },
+        "c": "https://github.com/lucidrains/vit-pytorch",
+        "n": "NaViT-L/16",
+        "d": "2023-07-12",
+        "m1": "57.9"
+      },
+      {
+        "p": {
           "name": "Revisiting Weakly Supervised Pre-Training of Visual Perception Models",
           "link": "https://arxiv.org/abs/2201.08371v2"
         },
@@ -258,6 +358,26 @@
         "n": "ViT L/16 (Platt)",
         "d": "2022-01-20",
         "m1": "57.3"
+      },
+      {
+        "p": {
+          "name": "Image Captioners Are Scalable Vision Learners Too",
+          "link": "https://arxiv.org/abs/2306.07915"
+        },
+        "c": "https://github.com/google-research/big_vision",
+        "n": "CapPa L/14 + MLP",
+        "d": "2023-06-13",
+        "m1": "56.8"
+      },
+      {
+        "p": {
+          "name": "Anchor-based Robust Finetuning of Vision-Language Models",
+          "link": "https://arxiv.org/abs/2404.06244"
+        },
+        "c": "",
+        "n": "ARF",
+        "d": "2024-04-09",
+        "m1": "55.8"
       },
       {
         "p": {

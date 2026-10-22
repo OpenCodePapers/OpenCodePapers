@@ -51,6 +51,16 @@
     "items": [
       {
         "p": {
+          "name": "Volume Transformer: Revisiting Vanilla Transformers for 3D Scene Understanding",
+          "link": "https://arxiv.org/abs/2604.19609"
+        },
+        "c": "https://github.com/yilmazkadir/volt",
+        "n": "Volt-B + SPFormer",
+        "d": "2026-04-21",
+        "m1": "82.7"
+      },
+      {
+        "p": {
           "name": "Relation3D : Enhancing Relation Modeling for Point Cloud Instance Segmentation",
           "link": "http://openaccess.thecvf.com//content/CVPR2025/html/Lu_Relation3D__Enhancing_Relation_Modeling_for_Point_Cloud_Instance_Segmentation_CVPR_2025_paper.html"
         },
@@ -240,6 +250,26 @@
       },
       {
         "p": {
+          "name": "TAMM: TriAdapter Multi-Modal Learning for 3D Shape Understanding",
+          "link": "https://arxiv.org/abs/2402.18490"
+        },
+        "c": "https://github.com/alanzhangcs/tamm_code",
+        "n": "TAMM",
+        "d": "2024-02-28",
+        "m1": "68.0"
+      },
+      {
+        "p": {
+          "name": "SAMosaic3D: Modular Scene Assembly for Real-Time 3D Segment Anything",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Wang_SAMosaic3D_Modular_Scene_Assembly_for_Real-Time_3D_Segment_Anything_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "SAMosaic3D (Ours) dagger",
+        "d": "2026-06-03",
+        "m1": "67.7"
+      },
+      {
+        "p": {
           "name": "MaskGroup: Hierarchical Point Grouping and Masking for 3D Instance Segmentation",
           "link": "https://arxiv.org/abs/2203.14662v1"
         },
@@ -292,6 +322,36 @@
         "d": "2021-07-07",
         "m1": "63.5",
         "m3": "43.6"
+      },
+      {
+        "p": {
+          "name": "ESAM++: Efficient Online 3D Perception on the Edge",
+          "link": "https://arxiv.org/abs/2605.29505"
+        },
+        "c": "",
+        "n": "ESAM++ Large",
+        "d": "2026-05-28",
+        "m1": "63.5"
+      },
+      {
+        "p": {
+          "name": "GroupContrast: Semantic-aware Self-supervised Representation Learning for 3D Understanding",
+          "link": "https://arxiv.org/abs/2403.09639"
+        },
+        "c": "https://github.com/dvlab-research/groupcontrast",
+        "n": "GroupContrast",
+        "d": "2024-03-14",
+        "m1": "62.3"
+      },
+      {
+        "p": {
+          "name": "Memory-based Adapters for Online 3D Scene Perception",
+          "link": "https://arxiv.org/abs/2403.06974"
+        },
+        "c": "",
+        "n": "TD3D-SV+Ours",
+        "d": "2024-03-11",
+        "m1": "60.5"
       },
       {
         "p": {

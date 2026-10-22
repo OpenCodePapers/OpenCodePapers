@@ -1,0 +1,79 @@
+{
+  "title": "audio-visual-question-answering-on-futureomni",
+  "task-hierarchy": [
+    "Audio Question Answering",
+    "Audio-visual Question Answering"
+  ],
+  "dataset-info": {
+    "link": "https://arxiv.org/abs/2601.13836",
+    "paper": "FutureOmni: Evaluating Future Forecasting from Omni-Modal Context for Multimodal LLMs"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "OmniSeek: Native Tool Integration for Multi-turn Audio-Visual Reasoning",
+          "link": "https://arxiv.org/abs/2610.02181"
+        },
+        "c": "",
+        "n": "OmniSeek (ours)",
+        "d": "2026-10-01",
+        "m1": "58.3"
+      },
+      {
+        "p": {
+          "name": "MiniCPM-o 4.5: Towards Real-Time Full-Duplex Omni-Modal Interaction",
+          "link": "https://arxiv.org/abs/2604.27393"
+        },
+        "c": "https://github.com/OpenBMB/MiniCPM-o",
+        "n": "MiniCPM-o 4.5-Instruct",
+        "d": "2026-04-30",
+        "m1": "56.1"
+      },
+      {
+        "p": {
+          "name": "Training-Free Speech-Centric Omni Understanding with Frozen VLMs",
+          "link": "https://arxiv.org/abs/2609.04242"
+        },
+        "c": "https://github.com/mbzuai-oryx/OmniEvalKit",
+        "n": "Qwen3-VL-30B-A3B-TFO",
+        "d": "2026-08-07",
+        "m1": "54.0"
+      },
+      {
+        "p": {
+          "name": "FutureOmni: Evaluating Future Forecasting from Omni-Modal Context for Multimodal LLMs",
+          "link": "https://arxiv.org/abs/2601.13836"
+        },
+        "c": "https://github.com/OpenMOSS/FutureOmni",
+        "n": "Ola (7B) +OFF",
+        "d": "2026-01-20",
+        "m1": "50.19"
+      }
+    ]
+  }
+}

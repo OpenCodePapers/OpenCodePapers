@@ -45,6 +45,16 @@
     "items": [
       {
         "p": {
+          "name": "Representation Fréchet Loss for Visual Generation",
+          "link": "https://arxiv.org/abs/2604.28190"
+        },
+        "c": "https://github.com/Jiawei-Yang/FD-Loss",
+        "n": "pMF-H + FD-loss (SIM)",
+        "d": "2026-04-30",
+        "m1": "0.78"
+      },
+      {
+        "p": {
           "name": "MixFlow Training: Alleviating Exposure Bias with Slowed Interpolation Mixture",
           "link": "https://arxiv.org/abs/2512.19311"
         },
@@ -56,6 +66,16 @@
       },
       {
         "p": {
+          "name": "Diffusion Transformers with Representation Autoencoders",
+          "link": "https://arxiv.org/abs/2510.11690"
+        },
+        "c": "https://github.com/bytetriper/RAE",
+        "n": "DiT^DH-XL (DINOv2-B)",
+        "d": "2025-10-13",
+        "m1": "1.13"
+      },
+      {
+        "p": {
           "name": "Direct Discriminative Optimization: Your Likelihood-Based Visual Generative Model is Secretly a GAN Discriminator",
           "link": "https://arxiv.org/abs/2503.01103v2"
         },
@@ -64,6 +84,17 @@
         "d": "2025-03-03",
         "m1": "1.21",
         "m2": "50"
+      },
+      {
+        "p": {
+          "name": "GenFirst: Generation Before Reconstruction for Stable End-to-End Latent Generative Modeling",
+          "link": "https://arxiv.org/abs/2608.29335"
+        },
+        "c": "",
+        "n": "GenFirst EiT (675M, 400 epochs)",
+        "d": "2026-08-29",
+        "m1": "1.23",
+        "m3": "286.1"
       },
       {
         "p": {
@@ -96,6 +127,17 @@
         "d": "2025-05-12",
         "m1": "1.25",
         "m2": "200"
+      },
+      {
+        "p": {
+          "name": "Hi-DiT: Hybrid Latent-Pixel Diffusion Transformer for Image Generation",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/4794"
+        },
+        "c": "",
+        "n": "Hi-DiT (CFG=4.6)",
+        "d": "2026-09-08",
+        "m1": "1.26",
+        "m3": "295.0"
       },
       {
         "p": {
@@ -174,6 +216,17 @@
       },
       {
         "p": {
+          "name": "PixelDiT2: Representation-Grounded Pixel Diffusion Transformers",
+          "link": "https://arxiv.org/abs/2609.24919"
+        },
+        "c": "https://github.com/nvlabs/pixeldit",
+        "n": "PixelDiT2-H/16",
+        "d": "2026-09-21",
+        "m1": "1.48",
+        "m3": "295.7"
+      },
+      {
+        "p": {
           "name": "Adversarial Score identity Distillation: Rapidly Surpassing the Teacher in One Step",
           "link": "https://arxiv.org/abs/2410.14919v4"
         },
@@ -185,6 +238,38 @@
       },
       {
         "p": {
+          "name": "SpeeDiff: Scalable Pixel-Anchored End-to-End Latent Diffusion Model",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_SpeeDiff_Scalable_Pixel-Anchored_End-to-End_Latent_Diffusion_Model_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "SpeeDiff-XL (w/ REPA++)",
+        "d": "2026-06-03",
+        "m1": "1.53",
+        "m3": "258.47"
+      },
+      {
+        "p": {
+          "name": "Condition Errors Refinement in Autoregressive Image Generation with Diffusion Loss",
+          "link": "https://arxiv.org/abs/2602.07022"
+        },
+        "c": "",
+        "n": "Autoregressive Condition Optimization (ACO) (≈481M)",
+        "d": "2026-02-02",
+        "m1": "1.58",
+        "m3": "302.3"
+      },
+      {
+        "p": {
+          "name": "Energy-Guided Flow Matching",
+          "link": "https://arxiv.org/abs/2608.05811"
+        },
+        "c": "https://github.com/ysng123/eg-fm",
+        "n": "HyperDiT-H + EG-FM",
+        "d": "2026-08-06",
+        "m1": "1.58"
+      },
+      {
+        "p": {
           "name": "Adversarial Score identity Distillation: Rapidly Surpassing the Teacher in One Step",
           "link": "https://arxiv.org/abs/2410.14919v4"
         },
@@ -193,6 +278,17 @@
         "d": "2024-10-19",
         "m1": "1.669",
         "m2": "1"
+      },
+      {
+        "p": {
+          "name": "Hyperspherical Latents Improve Continuous-Token Autoregressive Generation",
+          "link": "https://arxiv.org/abs/2509.24335"
+        },
+        "c": "https://github.com/guolinke/SphereAR",
+        "n": "SphereAR-L",
+        "d": "2025-09-29",
+        "m1": "1.67",
+        "m3": "292.5"
       },
       {
         "p": {
@@ -246,6 +342,28 @@
       },
       {
         "p": {
+          "name": "Learning Representations to Guide Pixel Diffusion Transformers",
+          "link": "https://arxiv.org/abs/2610.12978"
+        },
+        "c": "https://github.com/Pan-Zihao/Representation-Guidance",
+        "n": "RG-XL/16",
+        "d": "2026-10-09",
+        "m1": "1.74",
+        "m3": "287.5"
+      },
+      {
+        "p": {
+          "name": "Back to Basics: Let Denoising Generative Models Denoise",
+          "link": "https://arxiv.org/abs/2511.13720"
+        },
+        "c": "https://github.com/lth14/jit",
+        "n": "JiT-G/32",
+        "d": "2025-11-17",
+        "m1": "1.78",
+        "m3": "306.8"
+      },
+      {
+        "p": {
           "name": "PaGoDA: Progressive Growing of a One-Step Generator from a Low-Resolution Diffusion Teacher",
           "link": "https://arxiv.org/abs/2405.14822v2"
         },
@@ -267,6 +385,28 @@
       },
       {
         "p": {
+          "name": "Exposure Bias Can Alleviate Itself via Directional and Frequency Rectification in Flow Matching",
+          "link": "https://arxiv.org/abs/2606.28226"
+        },
+        "c": "",
+        "n": "DEFAR (DDT-XL/2)",
+        "d": "2026-06-26",
+        "m1": "1.82",
+        "m3": "285.42"
+      },
+      {
+        "p": {
+          "name": "A Frozen Pixel-Space Diffusion Model Can Guide Itself with Its Own Samples",
+          "link": "https://arxiv.org/abs/2607.29122"
+        },
+        "c": "https://github.com/zfu006/ssg",
+        "n": "JiT-H/32 + SSG",
+        "d": "2026-07-31",
+        "m1": "1.84",
+        "m3": "305.2"
+      },
+      {
+        "p": {
           "name": "Analyzing and Improving the Training Dynamics of Diffusion Models",
           "link": "https://arxiv.org/abs/2312.02696v2"
         },
@@ -275,6 +415,16 @@
         "d": "2023-12-05",
         "m1": "1.85",
         "m2": "126"
+      },
+      {
+        "p": {
+          "name": "Registers Matter for Pixel-Space Diffusion Transformers",
+          "link": "https://arxiv.org/abs/2605.16147"
+        },
+        "c": "https://github.com/quickjkee/register-guidance",
+        "n": "JiT-H/32 with Register Guidance + CFG",
+        "d": "2026-07-06",
+        "m1": "1.87"
       },
       {
         "p": {
@@ -322,6 +472,17 @@
       },
       {
         "p": {
+          "name": "PixelU: A U-Shaped Transformer for Efficient End-to-End Pixel Diffusion",
+          "link": "https://arxiv.org/abs/2606.27760"
+        },
+        "c": "https://github.com/gzp6688/pixelu",
+        "n": "PixelU-H/32 (extra data)",
+        "d": "2026-06-26",
+        "m1": "1.92",
+        "m3": "322.1"
+      },
+      {
+        "p": {
           "name": "Adversarial Score identity Distillation: Rapidly Surpassing the Teacher in One Step",
           "link": "https://arxiv.org/abs/2410.14919v4"
         },
@@ -363,6 +524,28 @@
         "d": "2024-10-19",
         "m1": "2.06",
         "m2": "1"
+      },
+      {
+        "p": {
+          "name": "Representation Alignment for Generation: Training Diffusion Transformers Is Easier Than You Think",
+          "link": "https://arxiv.org/abs/2410.06940v2"
+        },
+        "c": "https://github.com/sihyun-yu/REPA",
+        "n": "SiT-XL/2 + REPA (200 epochs, w=1.35) (extra data)",
+        "d": "2024-10-09",
+        "m1": "2.08",
+        "m3": "274.6"
+      },
+      {
+        "p": {
+          "name": "From SRA to Self-Flow: Data Augmentation or Self-Supervision?",
+          "link": "https://arxiv.org/abs/2607.02508"
+        },
+        "c": "",
+        "n": "SiT (XL/2) with self-representation alignment + dual-timestep scheduling + Attention Separation",
+        "d": "2026-07-02",
+        "m1": "2.08",
+        "m3": "282.7"
       },
       {
         "p": {
@@ -460,6 +643,16 @@
       },
       {
         "p": {
+          "name": "Optimizing Visual Generative Models via Distribution-wise Rewards",
+          "link": "https://arxiv.org/abs/2607.02291"
+        },
+        "c": "",
+        "n": "EDM2-S (post-hoc model merging with RL)",
+        "d": "2026-07-02",
+        "m1": "2.52"
+      },
+      {
+        "p": {
           "name": "Locality-aware Parallel Decoding for Efficient Autoregressive Image Generation",
           "link": "https://arxiv.org/abs/2507.01957"
         },
@@ -468,6 +661,28 @@
         "d": "2025-07-02",
         "m1": "2.54",
         "m3": "292.2"
+      },
+      {
+        "p": {
+          "name": "SiT: Exploring Flow and Diffusion-based Generative Models with Scalable Interpolant Transformers",
+          "link": "https://arxiv.org/abs/2401.08740"
+        },
+        "c": "https://github.com/willisma/sit",
+        "n": "SiT-XL/2 (cfg=1.5, SDE) (extra data)",
+        "d": "2024-01-16",
+        "m1": "2.62",
+        "m3": "252.21"
+      },
+      {
+        "p": {
+          "name": "Visual Autoregressive Modeling: Scalable Image Generation via Next-Scale Prediction",
+          "link": "https://arxiv.org/abs/2404.02905v2"
+        },
+        "c": "https://github.com/FoundationVision/VAR",
+        "n": "VAR-d36-s (extra data)",
+        "d": "2024-04-03",
+        "m1": "2.63",
+        "m3": "303.2"
       },
       {
         "p": {
@@ -493,6 +708,17 @@
       },
       {
         "p": {
+          "name": "QuadTok: Quadtree Visual Tokenizer for Autoregressive Image Generation",
+          "link": "https://arxiv.org/abs/2610.10497"
+        },
+        "c": "https://github.com/myc634/QuadTok",
+        "n": "QuadTok",
+        "d": "2026-10-07",
+        "m1": "2.734",
+        "m3": "268.01"
+      },
+      {
+        "p": {
           "name": "SA-Solver: Stochastic Adams Solver for Fast Sampling of Diffusion Models",
           "link": "https://arxiv.org/abs/2309.05019v2"
         },
@@ -500,6 +726,16 @@
         "n": "DiT-XL/2 with SA-Solver",
         "d": "2023-09-10",
         "m1": "2.80"
+      },
+      {
+        "p": {
+          "name": "Diffusion Model is Effectively Its Own Teacher",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Ma_Diffusion_Model_is_Effectively_Its_Own_Teacher_CVPR_2025_paper.html"
+        },
+        "c": "",
+        "n": "DiT-XL/2 + iSSD",
+        "d": "2025-06-11",
+        "m1": "2.86"
       },
       {
         "p": {
@@ -534,6 +770,16 @@
       },
       {
         "p": {
+          "name": "Flow Straighter and Faster: Efficient One-Step Generative Modeling via MeanFlow on Rectified Trajectories",
+          "link": "https://arxiv.org/abs/2511.23342"
+        },
+        "c": "https://github.com/Xinxi-Zhang/Re-MeanFlow",
+        "n": "Re-Meanflow (EDM2-S, 280.5M)",
+        "d": "2025-11-28",
+        "m1": "3.03"
+      },
+      {
+        "p": {
           "name": "Scalable Diffusion Models with Transformers",
           "link": "https://arxiv.org/abs/2212.09748v2"
         },
@@ -553,6 +799,27 @@
         "d": "2023-10-09",
         "m1": "3.07",
         "m3": "213.1"
+      },
+      {
+        "p": {
+          "name": "Dino Forcing Flow Models: Do not denoise what you can predict",
+          "link": "https://arxiv.org/abs/2610.11751"
+        },
+        "c": "",
+        "n": "DF-SiT-XL/2",
+        "d": "2026-10-08",
+        "m1": "3.11",
+        "m3": "274.5"
+      },
+      {
+        "p": {
+          "name": "MeanFlow Transformers with Representation Autoencoders",
+          "link": "https://arxiv.org/abs/2511.13019"
+        },
+        "c": "https://github.com/sony/mf-rae",
+        "n": "MF-RAE (1 NFE) (extra data)",
+        "d": "2025-11-17",
+        "m1": "3.23"
       },
       {
         "p": {
@@ -589,6 +856,17 @@
       },
       {
         "p": {
+          "name": "Revisiting Non-Autoregressive Transformers for Efficient Image Synthesis",
+          "link": "https://arxiv.org/abs/2406.05478"
+        },
+        "c": "https://github.com/leaplabthu/improvednat",
+        "n": "AutoNAT-L",
+        "d": "2024-06-08",
+        "m1": "3.74",
+        "m3": "286.2"
+      },
+      {
+        "p": {
           "name": "Polynomial Implicit Neural Representations For Large Diverse Datasets",
           "link": "https://arxiv.org/abs/2303.11424v1"
         },
@@ -607,6 +885,28 @@
         "d": "2021-05-11",
         "m1": "3.85",
         "m3": "221.72"
+      },
+      {
+        "p": {
+          "name": "Revisiting Diffusion Model Predictions Through Dimensionality",
+          "link": "https://arxiv.org/abs/2601.21419"
+        },
+        "c": "",
+        "n": "k-Diff (JiT-B/32)",
+        "d": "2026-01-29",
+        "m1": "4.03",
+        "m3": "277.1"
+      },
+      {
+        "p": {
+          "name": "Speedrunning ImageNet Diffusion",
+          "link": "https://arxiv.org/abs/2512.12386"
+        },
+        "c": "https://github.com/swaystar123/speedrundit",
+        "n": "SR-DiT-B/1",
+        "d": "2025-12-13",
+        "m1": "4.23",
+        "m3": "192.34"
       },
       {
         "p": {
@@ -654,6 +954,17 @@
       },
       {
         "p": {
+          "name": "Residual Learning in Diffusion Models",
+          "link": "https://openaccess.thecvf.com/content/CVPR2024/html/Zhang_Residual_Learning_in_Diffusion_Models_CVPR_2024_paper.html"
+        },
+        "c": "",
+        "n": "Residual Learning in Diffusion Models (ADM-G)",
+        "d": "2024-06-17",
+        "m1": "7.65",
+        "m3": "180.62"
+      },
+      {
+        "p": {
           "name": "Diffusion Models Beat GANs on Image Synthesis",
           "link": "https://arxiv.org/abs/2105.05233v4"
         },
@@ -662,6 +973,16 @@
         "d": "2021-05-11",
         "m1": "7.72",
         "m3": "172.71"
+      },
+      {
+        "p": {
+          "name": "Energy-Guided Flow Matching",
+          "link": "https://arxiv.org/abs/2608.05811"
+        },
+        "c": "https://github.com/ysng123/eg-fm",
+        "n": "PixelDiT-XL + EG-FM",
+        "d": "2026-08-06",
+        "m3": "295.5"
       }
     ]
   }

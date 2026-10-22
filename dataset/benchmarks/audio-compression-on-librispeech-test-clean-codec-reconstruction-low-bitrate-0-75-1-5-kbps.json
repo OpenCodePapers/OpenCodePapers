@@ -1,0 +1,105 @@
+{
+  "title": "audio-compression-on-librispeech-test-clean-codec-reconstruction-low-bitrate-0-75-1-5-kbps",
+  "task-hierarchy": [
+    "Audio Compression"
+  ],
+  "dataset-info": {
+    "link": "https://arxiv.org/abs/2602.10934",
+    "paper": "MOSS-Audio-Tokenizer: Scaling Audio Tokenizers for Future Audio Foundation Models"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "PESQ-NB",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "SIM",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "STOI",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "PESQ-WB",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "MOSS-Audio-Tokenizer: Scaling Audio Tokenizers for Future Audio Foundation Models",
+          "link": "https://arxiv.org/abs/2602.10934"
+        },
+        "c": "https://github.com/OpenMOSS/MOSS-Audio-Tokenizer",
+        "n": "MOSS-Audio-Tokenizer (1.0 kbps, 12.5 tokens/s, 8 RVQ)",
+        "d": "2026-02-11",
+        "m2": "0.88",
+        "m3": "0.94",
+        "m1": "3.38",
+        "m4": "2.87"
+      },
+      {
+        "p": {
+          "name": "BigCodec: Pushing the Limits of Low-Bitrate Neural Speech Codec",
+          "link": "https://arxiv.org/abs/2409.05377"
+        },
+        "c": "https://github.com/aria-k-alethia/bigcodec",
+        "n": "BigCodec",
+        "d": "2024-09-09",
+        "m1": "3.27",
+        "m4": "2.68",
+        "m2": "0.84",
+        "m3": "0.93"
+      },
+      {
+        "p": {
+          "name": "SAC: Neural Speech Codec with Semantic-Acoustic Dual-Stream Quantization",
+          "link": "https://arxiv.org/abs/2510.16841"
+        },
+        "c": "https://github.com/Soul-AILab/SAC",
+        "n": "SAC (62.5 Hz)",
+        "d": "2025-10-19",
+        "m1": "3.15",
+        "m4": "2.59",
+        "m2": "0.86",
+        "m3": "0.93"
+      },
+      {
+        "p": {
+          "name": "XY-Tokenizer: Mitigating the Semantic-Acoustic Conflict in Low-Bitrate Speech Codecs",
+          "link": "https://arxiv.org/abs/2506.23325"
+        },
+        "c": "https://github.com/gyt1145028706/XY-Tokenizer",
+        "n": "XY-Tokenizer",
+        "d": "2025-06-29",
+        "m1": "3.0",
+        "m4": "2.41",
+        "m2": "0.83",
+        "m3": "0.91"
+      }
+    ]
+  }
+}

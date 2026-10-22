@@ -1,0 +1,110 @@
+{
+  "title": "weakly-supervised-video-anomaly-detection-on-ucf-crime-standard-frame-level",
+  "task-hierarchy": [
+    "Anomaly Detection",
+    "Video Anomaly Detection",
+    "Weakly-supervised Video Anomaly Detection"
+  ],
+  "dataset-info": {
+    "link": "https://www.crcv.ucf.edu/projects/real-world/",
+    "paper": "Real-world Anomaly Detection in Surveillance Videos"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Frame AUC",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "TLMA: Mitigating the Impact of Weakly Labeled Information for Video Anomaly Detection",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Xu_TLMA_Mitigating_the_Impact_of_Weakly_Labeled_Information_for_Video_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "TLMA",
+        "d": "2026-06-03",
+        "m1": "89.47"
+      },
+      {
+        "p": {
+          "name": "CLUE-VAD: Structured Semantic Clues for Understanding Explainable Events in Video Anomaly Detection",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/4744"
+        },
+        "c": "",
+        "n": "CLUE-VAD",
+        "d": "2026-09-08",
+        "m1": "89.47"
+      },
+      {
+        "p": {
+          "name": "Alert-CLIP: Abnormality-aware Latent-Enhanced Representation Tuning of CLIP for Video Anomaly Detection",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhu_Alert-CLIP_Abnormality-aware_Latent-Enhanced_Representation_Tuning_of_CLIP_for_Video_Anomaly_CVPR_2026_paper.html"
+        },
+        "c": "https://github.com/clarkzhu216/alert-clip_dataset",
+        "n": "Alert-CLIP (Full)",
+        "d": "2026-06-03",
+        "m1": "89.32"
+      },
+      {
+        "p": {
+          "name": "Fine-VAD: Towards Fine-Grained Video Anomaly Detection via Progressive Cross-Granularity Learning",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_Fine-VAD_Towards_Fine-Grained_Video_Anomaly_Detection_via_Progressive_Cross-Granularity_Learning_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "Fine-VAD",
+        "d": "2026-06-03",
+        "m1": "88.79"
+      },
+      {
+        "p": {
+          "name": "Joint Learning of General and Diverse Patterns with Mixture of Memory Experts for Weakly-Supervised Video Anomaly Detection",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Sun_Joint_Learning_of_General_and_Diverse_Patterns_with_Mixture_of_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "MoME",
+        "d": "2026-06-03",
+        "m1": "88.32"
+      },
+      {
+        "p": {
+          "name": "Text Prompt with Normality Guidance for Weakly Supervised Video Anomaly Detection",
+          "link": "https://arxiv.org/abs/2404.08531"
+        },
+        "c": "",
+        "n": "TPWNG",
+        "d": "2024-04-12",
+        "m1": "87.79"
+      },
+      {
+        "p": {
+          "name": "Prompt-Enhanced Multiple Instance Learning for Weakly Supervised Video Anomaly Detection",
+          "link": "https://openaccess.thecvf.com/content/CVPR2024/html/Chen_Prompt-Enhanced_Multiple_Instance_Learning_for_Weakly_Supervised_Video_Anomaly_Detection_CVPR_2024_paper.html"
+        },
+        "c": "https://github.com/junxi-chen/pe-mil",
+        "n": "PE-MIL",
+        "d": "2024-06-17",
+        "m1": "86.83"
+      }
+    ]
+  }
+}

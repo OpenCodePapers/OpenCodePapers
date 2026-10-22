@@ -1,0 +1,139 @@
+{
+  "title": "audio-visual-question-answering-on-omnibench",
+  "task-hierarchy": [
+    "Audio Question Answering",
+    "Audio-visual Question Answering"
+  ],
+  "dataset-info": {
+    "link": "https://m-a-p.ai/OmniBench",
+    "paper": "OmniBench: Towards The Future of Universal Omni-Language Models"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "InteractiveOmni: A Unified Omni-modal Model for Audio-Visual Multi-turn Dialogue",
+          "link": "https://arxiv.org/abs/2510.13747"
+        },
+        "c": "https://github.com/SenseTime-FVG/InteractiveOmni",
+        "n": "InteractiveOmni-8B",
+        "d": "2025-10-15",
+        "m1": "60.33"
+      },
+      {
+        "p": {
+          "name": "CogniRoute: Learning to Route Social Evidence in Omni-Modal Models",
+          "link": "https://arxiv.org/abs/2606.20970"
+        },
+        "c": "",
+        "n": "CogniRoute",
+        "d": "2026-06-18",
+        "m1": "56.7"
+      },
+      {
+        "p": {
+          "name": "Qwen2.5-Omni Technical Report",
+          "link": "https://arxiv.org/abs/2503.20215"
+        },
+        "c": "https://github.com/QwenLM/Qwen2.5-Omni",
+        "n": "Qwen2.5-Omni-7B",
+        "d": "2025-03-26",
+        "m1": "56.13"
+      },
+      {
+        "p": {
+          "name": "Omni-Modal LLMs Know More Than They Say",
+          "link": "https://arxiv.org/abs/2610.16135"
+        },
+        "c": "",
+        "n": "OMNI-CATALYST (Qwen2.5-Omni-7B)",
+        "d": "2026-10-12",
+        "m1": "51.7"
+      },
+      {
+        "p": {
+          "name": "Audio-Visual Flamingo: Open Audio-Visual Intelligence for Long and Complex Videos",
+          "link": "https://arxiv.org/abs/2607.16107"
+        },
+        "c": "",
+        "n": "AVF-Think",
+        "d": "2026-07-17",
+        "m1": "50.6"
+      },
+      {
+        "p": {
+          "name": "Omni-R1: Reinforcement Learning for Omnimodal Reasoning via Two-System Collaboration",
+          "link": "https://arxiv.org/abs/2505.20256"
+        },
+        "c": "https://github.com/aim-uofa/omni-r1",
+        "n": "Omni-R1-7B",
+        "d": "2025-05-26",
+        "m1": "49.3"
+      },
+      {
+        "p": {
+          "name": "Uni-MoE-2.0-Omni: Scaling Language-Centric Omnimodal Large Model with Advanced MoE, Training and Data",
+          "link": "https://arxiv.org/abs/2511.12609"
+        },
+        "c": "https://github.com/HITsz-TMG/Uni-MoE",
+        "n": "Uni-MoE-2.0-Omni",
+        "d": "2025-11-16",
+        "m1": "47.1"
+      },
+      {
+        "p": {
+          "name": "OmniVinci: Enhancing Architecture and Data for Omni-Modal Understanding LLM",
+          "link": "https://arxiv.org/abs/2510.15870"
+        },
+        "c": "https://github.com/NVlabs/OmniVinci",
+        "n": "OmniVinci",
+        "d": "2025-10-17",
+        "m1": "46.47"
+      },
+      {
+        "p": {
+          "name": "Baichuan-Omni-1.5 Technical Report",
+          "link": "https://arxiv.org/abs/2501.15368"
+        },
+        "c": "https://github.com/baichuan-inc/baichuan-omni-1.5",
+        "n": "Baichuan-Omni-1.5",
+        "d": "2025-01-26",
+        "m1": "42.9"
+      },
+      {
+        "p": {
+          "name": "MAD: Modality-Adaptive Decoding for Mitigating Cross-Modal Hallucinations in Multimodal Large Language Models",
+          "link": "https://arxiv.org/abs/2601.21181"
+        },
+        "c": "https://github.com/top-yun/mad",
+        "n": "VideoLLaMA2-AV + MAD",
+        "d": "2026-01-29",
+        "m1": "36.8"
+      }
+    ]
+  }
+}

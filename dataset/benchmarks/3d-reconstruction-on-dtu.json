@@ -45,6 +45,16 @@
     "items": [
       {
         "p": {
+          "name": "SPE-MVS: Spatial Position Encoding Enhanced Multi-View Stereo with Monocular Depth Priors",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Wang_SPE-MVS_Spatial_Position_Encoding_Enhanced_Multi-View_Stereo_with_Monocular_Depth_CVPR_2026_paper.html"
+        },
+        "c": "https://github.com/bdwsq1996/spe-mvs",
+        "n": "SPE-MVS",
+        "d": "2026-06-03",
+        "m1": "0.272"
+      },
+      {
+        "p": {
           "name": "MonoMVSNet: Monocular Priors Guided Multi-View Stereo Network",
           "link": "https://arxiv.org/abs/2507.11333"
         },
@@ -213,6 +223,16 @@
       },
       {
         "p": {
+          "name": "MoCha-Stereo: Motif Channel Attention Network for Stereo Matching",
+          "link": "https://arxiv.org/abs/2404.06842"
+        },
+        "c": "https://github.com/zyangchen/mocha-stereo",
+        "n": "MoCha-MVS",
+        "d": "2024-04-10",
+        "m1": "0.319"
+      },
+      {
+        "p": {
           "name": "IB-MVS: An Iterative Algorithm for Deep Multi-View Stereo based on Binary Decisions",
           "link": "https://arxiv.org/abs/2111.14420v1"
         },
@@ -318,6 +338,36 @@
         "m1": "0.365",
         "m2": "0.369",
         "m3": "0.361"
+      },
+      {
+        "p": {
+          "name": "DINOv3",
+          "link": "https://arxiv.org/abs/2508.10104v1"
+        },
+        "c": "https://github.com/facebookresearch/dinov3",
+        "n": "DINOv3 + VGGT",
+        "d": "2025-08-13",
+        "m1": "0.368"
+      },
+      {
+        "p": {
+          "name": "VGGT: Visual Geometry Grounded Transformer",
+          "link": "https://arxiv.org/abs/2503.11651"
+        },
+        "c": "https://github.com/facebookresearch/vggt",
+        "n": "VGGT (feed-forward)",
+        "d": "2025-03-14",
+        "m1": "0.382"
+      },
+      {
+        "p": {
+          "name": "Recurrent MVSNet for High-resolution Multi-view Stereo Depth Inference",
+          "link": "https://arxiv.org/abs/1902.10556"
+        },
+        "c": "https://github.com/yoyo000/mvsnet",
+        "n": "R-MVSNet (D=512)",
+        "d": "2019-02-27",
+        "m1": "0.417"
       },
       {
         "p": {

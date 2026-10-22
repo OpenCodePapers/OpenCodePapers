@@ -1,0 +1,179 @@
+{
+  "title": "audio-understanding-reasoning-on-mmar",
+  "task-hierarchy": [
+    "Audio Question Answering",
+    "Audio Understanding Reasoning"
+  ],
+  "dataset-info": {
+    "link": "https://arxiv.org/abs/2505.13032",
+    "paper": "MMAR: A Challenging Benchmark for Deep Reasoning in Speech, Audio, Music, and Their Mix"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Qwen3.5-Omni Technical Report",
+          "link": "https://arxiv.org/pdf/2604.15804"
+        },
+        "c": "",
+        "n": "Qwen3.5-Omni-Plus",
+        "d": "2026-04-21",
+        "m1": "80.0"
+      },
+      {
+        "p": {
+          "name": "OmniJigsaw: Enhancing Omni-Modal Reasoning via Modality-Orchestrated Reordering",
+          "link": "https://arxiv.org/abs/2604.08209"
+        },
+        "c": "https://github.com/aim-uofa/OmniJigsaw",
+        "n": "OmniJigsaw (CMM)",
+        "d": "2026-04-09",
+        "m1": "71.0"
+      },
+      {
+        "p": {
+          "name": "Qwen-Audio-Jev: A Unified Interface for Audio Decisions",
+          "link": "https://arxiv.org/abs/2610.21614"
+        },
+        "c": "",
+        "n": "Qwen-Audio-Jev",
+        "d": "2026-10-15",
+        "m1": "69.9"
+      },
+      {
+        "p": {
+          "name": "AudioToolAgent: An Agentic Framework for Audio-Language Models",
+          "link": "https://arxiv.org/abs/2510.02995"
+        },
+        "c": "https://github.com/GLJS/AudioToolAgent",
+        "n": "AudioToolAgent",
+        "d": "2025-10-03",
+        "m1": "68.80"
+      },
+      {
+        "p": {
+          "name": "Reinforcement Learning with Evolving Rubrics as Rewards for Audio Reasoning",
+          "link": "https://arxiv.org/abs/2608.02831"
+        },
+        "c": "https://github.com/tianyi-lab/AudioRubrics",
+        "n": "AudioRubrics Qwen2.5-Omni-7B (length penalty 0.1)",
+        "d": "2026-08-03",
+        "m1": "65.8"
+      },
+      {
+        "p": {
+          "name": "Realtime-Venus: A full-duplex interaction system with asynchronous delegation",
+          "link": "https://arxiv.org/abs/2609.13814"
+        },
+        "c": "",
+        "n": "Realtime-Venus-Audio",
+        "d": "2026-09-12",
+        "m1": "65.6"
+      },
+      {
+        "p": {
+          "name": "MiMo-Audio: Audio Language Models are Few-Shot Learners",
+          "link": "https://arxiv.org/abs/2512.23808"
+        },
+        "c": "https://github.com/XiaomiMiMo/MiMo-Audio/",
+        "n": "MiMo-Audio-7B-Instruct",
+        "d": "2025-09-01",
+        "m1": "63.60"
+      },
+      {
+        "p": {
+          "name": "Unified Audio Intelligence Without Regressing on Text Intelligence",
+          "link": "https://arxiv.org/abs/2607.05196"
+        },
+        "c": "",
+        "n": "Audex 30B-A3B",
+        "d": "2026-07-06",
+        "m1": "63.2"
+      },
+      {
+        "p": {
+          "name": "Audio Flamingo 3: Advancing Audio Intelligence with Fully Open Large Audio Language Models",
+          "link": "https://www.arxiv.org/abs/2507.08128"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Audio Flamingo 3 (+Think)",
+        "d": "2025-07-10",
+        "m1": "60.1"
+      },
+      {
+        "p": {
+          "name": "Beyond Transcription: Unified Audio Schema for Perception-Aware AudioLLMs",
+          "link": "https://arxiv.org/abs/2604.12506"
+        },
+        "c": "",
+        "n": "UAS-Audio",
+        "d": "2026-04-14",
+        "m1": "60.1"
+      },
+      {
+        "p": {
+          "name": "Audio-Visual Flamingo: Open Audio-Visual Intelligence for Long and Complex Videos",
+          "link": "https://arxiv.org/abs/2607.16107"
+        },
+        "c": "",
+        "n": "AVF-Instruct",
+        "d": "2026-07-17",
+        "m1": "60.1"
+      },
+      {
+        "p": {
+          "name": "AHA: Aligning Large Audio-Language Models for Reasoning Hallucinations via Counterfactual Hard Negatives",
+          "link": "https://arxiv.org/abs/2512.24052"
+        },
+        "c": "https://github.com/LLM-VLM-GSL/AHA",
+        "n": "Qwen-Audio-AHA",
+        "d": "2025-12-30",
+        "m1": "59.7"
+      },
+      {
+        "p": {
+          "name": "Covo-Audio Technical Report",
+          "link": "https://arxiv.org/abs/2602.09823"
+        },
+        "c": "",
+        "n": "Covo-Audio",
+        "d": "2026-02-10",
+        "m1": "55.30"
+      },
+      {
+        "p": {
+          "name": "DIFFA-2: A Practical Diffusion Large Language Model for General Audio Understanding",
+          "link": "https://arxiv.org/abs/2601.23161"
+        },
+        "c": "",
+        "n": "DIFFA-2 (8B)",
+        "d": "2026-01-30",
+        "m1": "50.8"
+      }
+    ]
+  }
+}

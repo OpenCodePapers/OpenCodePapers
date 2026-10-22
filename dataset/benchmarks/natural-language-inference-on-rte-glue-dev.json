@@ -1,0 +1,188 @@
+{
+  "title": "natural-language-inference-on-rte-glue-dev",
+  "task-hierarchy": [
+    "Natural Language Inference"
+  ],
+  "dataset-info": {
+    "link": "https://gluebenchmark.com/tasks",
+    "paper": "GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "DeBERTa: Decoding-enhanced BERT with Disentangled Attention",
+          "link": "https://arxiv.org/abs/2006.03654v6"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "DeBERTa Large",
+        "d": "2020-06-05",
+        "m1": "88.3"
+      },
+      {
+        "p": {
+          "name": "ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators",
+          "link": "https://arxiv.org/abs/2003.10555v1"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "ELECTRA-1.75M",
+        "d": "2020-03-23",
+        "m1": "88.0"
+      },
+      {
+        "p": {
+          "name": "MPNet: Masked and Permuted Pre-training for Language Understanding",
+          "link": "https://arxiv.org/abs/2004.09297v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "MPNet Large",
+        "d": "2020-04-20",
+        "m1": "88.0"
+      },
+      {
+        "p": {
+          "name": "ReFTA: Breaking the Weight Reconstruction Bottleneck in Tensorized Parameter-Efficient Fine-Tuning",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Zheng_ReFTA_Breaking_the_Weight_Reconstruction_Bottleneck_in_Tensorized_Parameter-Efficient_Fine-Tuning_CVPR_2026_paper.html"
+        },
+        "c": "https://github.com/jzheng20/refta",
+        "n": "ReFTA (RoBERTa-Large)",
+        "d": "2026-06-03",
+        "m1": "87.1"
+      },
+      {
+        "p": {
+          "name": "I-BERT: Integer-only BERT Quantization",
+          "link": "https://arxiv.org/abs/2101.01321"
+        },
+        "c": "https://github.com/huggingface/transformers/tree/master/src/transformers/models/ibert",
+        "n": "I-BERT RoBERTa-Large",
+        "d": "2021-01-05",
+        "m1": "87.0"
+      },
+      {
+        "p": {
+          "name": "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+          "link": "https://arxiv.org/abs/1907.11692v1"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "RoBERTa",
+        "d": "2019-07-26",
+        "m1": "86.6"
+      },
+      {
+        "p": {
+          "name": "Model soups: averaging weights of multiple fine-tuned models improves accuracy without increasing inference time",
+          "link": "https://arxiv.org/abs/2203.05482v3"
+        },
+        "c": "https://github.com/mlfoundations/model-soups",
+        "n": "T5-large (Greedy soup)",
+        "d": "2022-03-10",
+        "m1": "84.8"
+      },
+      {
+        "p": {
+          "name": "GLU Variants Improve Transformer",
+          "link": "https://arxiv.org/abs/2002.05202"
+        },
+        "c": "https://github.com/code-implementation1/Code4",
+        "n": "FFN GLU",
+        "d": "2020-02-12",
+        "m1": "84.12"
+      },
+      {
+        "p": {
+          "name": "ERNIE-Gram: Pre-Training with Explicitly N-Gram Masked Language Modeling for Natural Language Understanding",
+          "link": "https://arxiv.org/abs/2010.12148"
+        },
+        "c": "https://github.com/PaddlePaddle/PaddleNLP/blob/develop/paddlenlp/transformers/ernie_gram/modeling.py",
+        "n": "ERNIE-Gram",
+        "d": "2020-10-23",
+        "m1": "83.8"
+      },
+      {
+        "p": {
+          "name": "MVP: Multi-task Supervised Pre-training for Natural Language Generation",
+          "link": "https://arxiv.org/abs/2206.12131"
+        },
+        "c": "https://github.com/rucaibox/mvp",
+        "n": "MVP",
+        "d": "2022-06-24",
+        "m1": "82.87"
+      },
+      {
+        "p": {
+          "name": "LFM2.5-Encoders: Fast at Long Context, Even on CPU",
+          "link": "https://www.liquid.ai/blog/lfm2-5-encoders"
+        },
+        "c": "https://github.com/liquid4all/cookbook",
+        "n": "LFM2.5-Encoder-350M",
+        "d": "2026-07-28",
+        "m1": "75.23"
+      },
+      {
+        "p": {
+          "name": "Sheared Backpropagation for Fine-tuning Foundation Models",
+          "link": "https://openaccess.thecvf.com/content/CVPR2024/html/Yu_Sheared_Backpropagation_for_Fine-tuning_Foundation_Models_CVPR_2024_paper.html"
+        },
+        "c": "",
+        "n": "PREBR@80% (batch size 8)",
+        "d": "2024-06-17",
+        "m1": "72.92"
+      },
+      {
+        "p": {
+          "name": "Resource-Efficient Transformer Pruning for Finetuning of Large Models",
+          "link": "https://openaccess.thecvf.com/content/CVPR2024/html/Ilhan_Resource-Efficient_Transformer_Pruning_for_Finetuning_of_Large_Models_CVPR_2024_paper.html"
+        },
+        "c": "https://github.com/git-disl/recap",
+        "n": "RECAP (BERT-base, 50% pruning)",
+        "d": "2024-06-17",
+        "m1": "65.98"
+      },
+      {
+        "p": {
+          "name": "DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter",
+          "link": "https://arxiv.org/abs/1910.01108v4"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "DistilBERT",
+        "d": "2019-10-02",
+        "m1": "59.9"
+      },
+      {
+        "p": {
+          "name": "FLAVA: A Foundational Language And Vision Alignment Model",
+          "link": "https://arxiv.org/abs/2112.04482v3"
+        },
+        "c": "https://github.com/facebookresearch/multimodal",
+        "n": "FLAVA",
+        "d": "2021-12-08",
+        "m1": "57.8"
+      }
+    ]
+  }
+}

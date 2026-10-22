@@ -1,0 +1,88 @@
+{
+  "title": "agents-on-alfworld",
+  "task-hierarchy": [
+    "Agents"
+  ],
+  "dataset-info": {
+    "link": "https://alfworld.github.io/",
+    "paper": "ALFWorld: Aligning Text and Embodied Environments for Interactive Learning"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Success Rate",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "More Memory, Worse Agents: Error Reproduction and Anti-Persistence in LLM Agents",
+          "link": "https://arxiv.org/abs/2610.27406"
+        },
+        "c": "",
+        "n": "Anti-Persistence",
+        "d": "2026-10-19",
+        "m1": "97.3"
+      },
+      {
+        "p": {
+          "name": "Co-Evolving Acting and Forecasting for Language Agents",
+          "link": "https://arxiv.org/abs/2610.20597"
+        },
+        "c": "https://github.com/ulab-uiuc/CoPE",
+        "n": "CoPE",
+        "d": "2026-10-15",
+        "m1": "95.5"
+      },
+      {
+        "p": {
+          "name": "Predicting Privileged Information Effectiveness for On-Policy Self-Distillation",
+          "link": "https://arxiv.org/abs/2610.22512"
+        },
+        "c": "https://github.com/zkjzou/PI-OPSD",
+        "n": "PI-OPSD (Qwen3-4B-Instruct-2507)",
+        "d": "2026-10-15",
+        "m1": "95.13"
+      },
+      {
+        "p": {
+          "name": "WALL-EVE: World Alignment with Rule Learning in Visual Environments",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/4314"
+        },
+        "c": "https://github.com/elated-sawyer/wall-eve",
+        "n": "WALL-EVE (text environment)",
+        "d": "2026-09-08",
+        "m1": "95"
+      },
+      {
+        "p": {
+          "name": "TGRL: Temperature-Grouped Reinforcement Learning for Efficient Exploration in LLMs",
+          "link": "https://arxiv.org/abs/2609.33589"
+        },
+        "c": "https://github.com/1229095296/TGRL",
+        "n": "TGRL (Qwen2.5-7B-Instruct) (extra data)",
+        "d": "2026-09-27",
+        "m1": "86.7"
+      }
+    ]
+  }
+}

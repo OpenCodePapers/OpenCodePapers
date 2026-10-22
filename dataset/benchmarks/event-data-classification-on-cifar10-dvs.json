@@ -36,6 +36,36 @@
     "items": [
       {
         "p": {
+          "name": "Temporal Interaction in Spiking Transformers with Multi-Delay Mixer",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Shi_Temporal_Interaction_in_Spiking_Transformers_with_Multi-Delay_Mixer_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "MD-Mixer+ QKFormer-2-256",
+        "d": "2026-06-03",
+        "m1": "85.2"
+      },
+      {
+        "p": {
+          "name": "Rethinking Spiking Self-Attention Mechanism: Implementing a-XNOR Similarity Calculation in Spiking Transformers",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Xiao_Rethinking_Spiking_Self-Attention_Mechanism_Implementing_a-XNOR_Similarity_Calculation_in_Spiking_CVPR_2025_paper.html"
+        },
+        "c": "",
+        "n": "M-ViT + α-SSA (α=0.5)",
+        "d": "2025-06-11",
+        "m1": "82.24"
+      },
+      {
+        "p": {
+          "name": "STAA-SNN: Spatial-Temporal Attention Aggregator for Spiking Neural Networks",
+          "link": "https://arxiv.org/abs/2503.02689"
+        },
+        "c": "",
+        "n": "STAA-SNN (VGG-13, T=16)",
+        "d": "2025-03-04",
+        "m1": "82.1"
+      },
+      {
+        "p": {
           "name": "Neuromorphic Data Augmentation for Training Spiking Neural Networks",
           "link": "https://arxiv.org/abs/2203.06145v2"
         },
@@ -53,6 +83,26 @@
         "n": "STL-SNN",
         "d": "2022-06-10",
         "m1": "78.50"
+      },
+      {
+        "p": {
+          "name": "Intrinsically Stable Spiking Neural Networks: Overcoming the Performance Barrier in the Absence of Batch Normalization",
+          "link": "https://arxiv.org/abs/2606.31695"
+        },
+        "c": "",
+        "n": "IS-SNN VGGSNN (T=8)",
+        "d": "2026-06-30",
+        "m1": "77.7"
+      },
+      {
+        "p": {
+          "name": "Robust Spiking Neural Networks by Temporal Mutual Information",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Xu_Robust_Spiking_Neural_Networks_by_Temporal_Mutual_Information_CVPR_2026_paper.html"
+        },
+        "c": "https://github.com/zju-bmi-lab/snn_tmi_code",
+        "n": "STBP-TMI",
+        "d": "2026-06-03",
+        "m1": "77.5"
       },
       {
         "p": {

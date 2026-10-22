@@ -66,12 +66,62 @@
     "items": [
       {
         "p": {
+          "name": "MPO: Single-Stream Policy Optimization for Efficient Text-to-Image Alignment",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/3963"
+        },
+        "c": "",
+        "n": "FLUX.1 Dev + MPO",
+        "d": "2026-09-08",
+        "m1": "0.98"
+      },
+      {
+        "p": {
+          "name": "On-Policy Diffusion Reinforcement Learning Meets Off-Policy Quality Anchoring",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/5113"
+        },
+        "c": "https://github.com/hidream-ai/diffusioncompass",
+        "n": "DiffusionCompass",
+        "d": "2026-09-08",
+        "m1": "0.97"
+      },
+      {
+        "p": {
+          "name": "UDM-GRPO: Stable and Efficient Group Relative Policy Optimization for Uniform Discrete Diffusion Models",
+          "link": "https://arxiv.org/abs/2604.18518"
+        },
+        "c": "https://github.com/Yovecent/UDM-GRPO",
+        "n": "URSA (1.7B, UDM-GRPO)",
+        "d": "2026-04-20",
+        "m1": "0.96"
+      },
+      {
+        "p": {
+          "name": "DiffusionOPD: A Unified Perspective of On-Policy Distillation in Diffusion Models",
+          "link": "https://arxiv.org/abs/2605.15055"
+        },
+        "c": "https://github.com/ali-vilab/diffusionopd",
+        "n": "DiffusionOPD",
+        "d": "2026-05-14",
+        "m1": "0.96"
+      },
+      {
+        "p": {
           "name": "Flow-GRPO: Training Flow Matching Models via Online RL",
           "link": "https://arxiv.org/abs/2505.05470v2"
         },
         "c": "https://github.com/yifan123/flow_grpo",
         "n": "SD3.5-Medium+Flow-GRPO",
         "d": "2025-05-08",
+        "m1": "0.95"
+      },
+      {
+        "p": {
+          "name": "GARDO: Reinforcing Diffusion Models without Reward Hacking",
+          "link": "https://arxiv.org/abs/2512.24138"
+        },
+        "c": "https://github.com/tinnerhrhe/GARDO",
+        "n": "GARDO (SD3.5-M, β=0.04, 2000 steps)",
+        "d": "2025-12-30",
         "m1": "0.95"
       },
       {
@@ -86,12 +136,122 @@
       },
       {
         "p": {
+          "name": "PromptRL: Prompt Matters in RL for Flow-Based Image Generation",
+          "link": "https://arxiv.org/abs/2602.01382"
+        },
+        "c": "https://github.com/G-U-N/UniRL",
+        "n": "PromptRL (without prompt enhancement)",
+        "d": "2026-02-01",
+        "m1": "0.94"
+      },
+      {
+        "p": {
+          "name": "Reinforcing Few-step Generators via Reward-Tilted Distribution Matching",
+          "link": "https://arxiv.org/abs/2605.26108"
+        },
+        "c": "https://github.com/Harahan/RTDMD",
+        "n": "RTDMD (SD3.5-M)",
+        "d": "2026-05-25",
+        "m1": "0.94"
+      },
+      {
+        "p": {
+          "name": "TDM-R1: Reinforcing Few-Step Diffusion Models with Non-Differentiable Reward",
+          "link": "https://arxiv.org/abs/2603.07700"
+        },
+        "c": "https://github.com/Luo-Yihong/TDM-R1",
+        "n": "TDM-R1",
+        "d": "2026-03-08",
+        "m1": "0.92"
+      },
+      {
+        "p": {
+          "name": "Flow-OPD: On-Policy Distillation for Flow Matching Models",
+          "link": "https://arxiv.org/abs/2605.08063"
+        },
+        "c": "https://github.com/CostaliyA/Flow-OPD",
+        "n": "Flow-OPD",
+        "d": "2026-05-08",
+        "m1": "0.92"
+      },
+      {
+        "p": {
+          "name": "HiDream-O1-Image: A Natively Unified Image Generative Foundation Model with Pixel-level Unified Transformer",
+          "link": "https://arxiv.org/abs/2605.11061"
+        },
+        "c": "https://github.com/hidream-ai/hidream-o1-image",
+        "n": "HiDream-O1-Image-Pro",
+        "d": "2026-05-11",
+        "m1": "0.92"
+      },
+      {
+        "p": {
+          "name": "GR-GRPO: Graph-Diffused Credit for Autoregressive Image RL Alignment",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/4453"
+        },
+        "c": "https://github.com/vivocameraresearch/gr-grpo",
+        "n": "GR-GRPO-7B",
+        "d": "2026-09-08",
+        "m1": "0.92"
+      },
+      {
+        "p": {
+          "name": "SenseNova-U1.5: Towards Native Unified Visual Intelligence",
+          "link": "https://arxiv.org/abs/2609.11929"
+        },
+        "c": "https://github.com/OpenSenseNova/SenseNova-U1",
+        "n": "SenseNova-U1.5",
+        "d": "2026-09-10",
+        "m1": "0.92"
+      },
+      {
+        "p": {
+          "name": "Qwen-Image Technical Report",
+          "link": "https://arxiv.org/abs/2508.02324"
+        },
+        "c": "https://huggingface.co/Qwen/Qwen-Image",
+        "n": "Qwen-Image-RL",
+        "d": "2025-08-04",
+        "m1": "0.91"
+      },
+      {
+        "p": {
+          "name": "Lumina-DiMOO: An Omni Diffusion Large Language Model for Multi-Modal Generation and Understanding",
+          "link": "https://arxiv.org/abs/2510.06308"
+        },
+        "c": "https://github.com/Alpha-VLLM/Lumina-DiMOO",
+        "n": "Lumina-DiMOO w/ Self-GRPO",
+        "d": "2025-10-07",
+        "m1": "0.91"
+      },
+      {
+        "p": {
+          "name": "BLIP3o-NEXT: Next Frontier of Native Image Generation",
+          "link": "https://arxiv.org/abs/2510.15857"
+        },
+        "c": "https://github.com/jiuhaichen/blip3o",
+        "n": "BLIP3o-NEXT-GRPO-GenEval (3B)",
+        "d": "2025-10-17",
+        "m1": "0.91"
+      },
+      {
+        "p": {
           "name": "LightFusion: A Light-weighted, Double Fusion Framework for Unified Multimodal Understanding and Generation",
           "link": "https://arxiv.org/abs/2510.22946"
         },
         "c": "",
         "n": "LightFusion",
         "d": "2025-10-27",
+        "m1": "0.91"
+      },
+      {
+        "p": {
+          "name": "EMMA: Efficient Multimodal Understanding, Generation, and Editing with a Unified Architecture",
+          "link": "https://arxiv.org/abs/2512.04810"
+        },
+        "c": "https://github.com/umm-emma/emma",
+        "n": "EMMA (4B, original prompts)",
+        "d": "2025-12-04",
         "m1": "0.91"
       },
       {
@@ -116,12 +276,42 @@
       },
       {
         "p": {
+          "name": "RewardFlow: Generate Images by Optimizing What You Reward",
+          "link": "https://arxiv.org/abs/2604.08536"
+        },
+        "c": "",
+        "n": "Qwen + RewardFlow",
+        "d": "2026-04-09",
+        "m1": "0.91"
+      },
+      {
+        "p": {
           "name": "Refinement via Regeneration: Enlarging Modification Space Boosts Image Refinement in Unified Multimodal Models",
           "link": "https://arxiv.org/abs/2604.25636"
         },
         "c": "https://github.com/LeapLabTHU/RvR",
         "n": "BAGEL-RvR",
         "d": "2026-04-28",
+        "m1": "0.91"
+      },
+      {
+        "p": {
+          "name": "SenseNova-U1: Unifying Multimodal Understanding and Generation with NEO-unify Architecture",
+          "link": "https://arxiv.org/abs/2605.12500"
+        },
+        "c": "https://github.com/OpenSenseNova/SenseNova-U1",
+        "n": "SenseNova-U1-A3B-MoT",
+        "d": "2026-05-12",
+        "m1": "0.91"
+      },
+      {
+        "p": {
+          "name": "SPAR: Semantic-Pixel Self-Alignment and Adaptive Routing for Unified Multimodal Models",
+          "link": "https://arxiv.org/abs/2606.23041"
+        },
+        "c": "",
+        "n": "SPAR-3B (extra data)",
+        "d": "2026-06-22",
         "m1": "0.91"
       },
       {
@@ -146,6 +336,16 @@
       },
       {
         "p": {
+          "name": "Reconstruction Alignment Improves Unified Multimodal Models",
+          "link": "https://arxiv.org/abs/2509.07295"
+        },
+        "c": "https://github.com/HorizonWind2004/reconstruction-alignment",
+        "n": "Harmon-1.5B-RecA-plus (extra data)",
+        "d": "2025-09-08",
+        "m1": "0.90"
+      },
+      {
+        "p": {
           "name": "TUNA: Taming Unified Visual Representations for Native Unified Multimodal Models",
           "link": "https://arxiv.org/abs/2512.02014"
         },
@@ -153,6 +353,26 @@
         "n": "Tuna (7B)",
         "d": "2025-12-01",
         "m1": "0.90"
+      },
+      {
+        "p": {
+          "name": "Understanding and Harnessing Sparsity in Unified Multimodal Models",
+          "link": "https://arxiv.org/abs/2512.02351"
+        },
+        "c": "https://github.com/Shwai-He/SparseUnifiedModel",
+        "n": "Qwen-Image with Neuron Partition (50%)",
+        "d": "2025-12-02",
+        "m1": "0.9"
+      },
+      {
+        "p": {
+          "name": "TwinFlow: Realizing One-step Generation on Large Models with Self-adversarial Flows",
+          "link": "https://arxiv.org/abs/2512.05150"
+        },
+        "c": "https://github.com/inclusionAI/TwinFlow",
+        "n": "Qwen-Image-TwinFlow (full, longer training)",
+        "d": "2025-12-03",
+        "m1": "0.9"
       },
       {
         "p": {
@@ -167,6 +387,96 @@
         "m4": "0.82",
         "m6": "0.82",
         "m7": "0.88"
+      },
+      {
+        "p": {
+          "name": "UniGRPO: Unified Policy Optimization for Reasoning-Driven Visual Generation",
+          "link": "https://arxiv.org/abs/2603.23500"
+        },
+        "c": "",
+        "n": "UniGRPO",
+        "d": "2026-03-24",
+        "m1": "0.9"
+      },
+      {
+        "p": {
+          "name": "Extending One-Step Image Generation from Class Labels to Text via Discriminative Text Representation",
+          "link": "https://arxiv.org/abs/2604.18168"
+        },
+        "c": "https://github.com/amap-ml/emf",
+        "n": "EMF (3B)",
+        "d": "2026-04-20",
+        "m1": "0.9"
+      },
+      {
+        "p": {
+          "name": "HiDream-O1-Image: A Natively Unified Image Generative Foundation Model with Pixel-level Unified Transformer",
+          "link": "https://arxiv.org/abs/2605.11061"
+        },
+        "c": "https://github.com/hidream-ai/hidream-o1-image",
+        "n": "HiDream-O1-Image",
+        "d": "2026-05-11",
+        "m1": "0.90"
+      },
+      {
+        "p": {
+          "name": "Lance: Unified Multimodal Modeling by Multi-Task Synergy",
+          "link": "https://arxiv.org/abs/2605.18678"
+        },
+        "c": "https://github.com/bytedance/Lance",
+        "n": "Lance (3B)",
+        "d": "2026-05-18",
+        "m1": "0.9"
+      },
+      {
+        "p": {
+          "name": "Nemotron-Labs-Diffusion-Image: Advancing Masked Discrete Diffusion for High-Resolution Image Synthesis",
+          "link": "https://arxiv.org/abs/2606.29814"
+        },
+        "c": "",
+        "n": "Nemotron-Labs-Diffusion-Image",
+        "d": "2026-06-29",
+        "m1": "0.90"
+      },
+      {
+        "p": {
+          "name": "Mage-Flow: An Efficient Native-Resolution Foundation Model for Image Generation and Editing",
+          "link": "https://arxiv.org/abs/2607.19064"
+        },
+        "c": "https://github.com/microsoft/Mage",
+        "n": "Mage-Flow",
+        "d": "2026-07-21",
+        "m1": "0.90"
+      },
+      {
+        "p": {
+          "name": "GenFirst: Generation Before Reconstruction for Stable End-to-End Latent Generative Modeling",
+          "link": "https://arxiv.org/abs/2608.29335"
+        },
+        "c": "",
+        "n": "GenFirst EiT1.3B CLIPtextencoder",
+        "d": "2026-08-29",
+        "m1": "0.9"
+      },
+      {
+        "p": {
+          "name": "Read It Back: Pretrained MLLMs Are Zero-Shot Reward Models for Text-to-Image Generation",
+          "link": "https://arxiv.org/abs/2607.11886"
+        },
+        "c": "https://github.com/huangrh99/AlphaGRPO",
+        "n": "Self-SpectraReward",
+        "d": "2026-07-13",
+        "m1": "0.898"
+      },
+      {
+        "p": {
+          "name": "Echo-4o: Harnessing the Power of GPT-4o Synthetic Images for Improved Image Generation",
+          "link": "https://arxiv.org/abs/2508.09987"
+        },
+        "c": "https://github.com/yejy53/Echo-4o",
+        "n": "Echo-4o",
+        "d": "2025-08-13",
+        "m1": "0.895"
       },
       {
         "p": {
@@ -187,6 +497,96 @@
         "n": "APEX 20B (LoRA, r=64)",
         "d": "2026-04-14",
         "m1": "0.89"
+      },
+      {
+        "p": {
+          "name": "LLaDA2.0-Uni: Unifying Multimodal Understanding and Generation with Diffusion Large Language Model",
+          "link": "https://arxiv.org/abs/2604.20796"
+        },
+        "c": "https://github.com/inclusionAI/LLaDA2.0-Uni",
+        "n": "LLaDA2.0-Uni (16B)",
+        "d": "2026-04-22",
+        "m1": "0.89"
+      },
+      {
+        "p": {
+          "name": "Uni-Edit: Intelligent Editing Is A General Task For Unified Model Tuning",
+          "link": "https://arxiv.org/abs/2605.21487"
+        },
+        "c": "https://github.com/zhengdian1/Uni-Edit",
+        "n": "BAGEL-Uni-Edit (Ours)",
+        "d": "2026-05-20",
+        "m1": "0.89"
+      },
+      {
+        "p": {
+          "name": "Guidance Contrastive Token Credit Assignment for Discrete Policy Optimization",
+          "link": "https://arxiv.org/abs/2605.29198"
+        },
+        "c": "https://github.com/jacklishufan/gcpo",
+        "n": "Janus-Pro-R1-7B + GCPO",
+        "d": "2026-05-28",
+        "m1": "0.89"
+      },
+      {
+        "p": {
+          "name": "Learning Representations to Guide Pixel Diffusion Transformers",
+          "link": "https://arxiv.org/abs/2610.12978"
+        },
+        "c": "https://github.com/Pan-Zihao/Representation-Guidance",
+        "n": "RG-T2I-L/16",
+        "d": "2026-10-09",
+        "m1": "0.89"
+      },
+      {
+        "p": {
+          "name": "Intern Lumina U2: A Multi-Codebook Diffusion Large Language Model for Omni-Visual Understanding and Image Generation",
+          "link": "https://arxiv.org/abs/2610.20818"
+        },
+        "c": "https://github.com/InternLM/InternLumina-U2",
+        "n": "Intern Lumina U2 (Ascend)",
+        "d": "2026-10-14",
+        "m1": "0.89"
+      },
+      {
+        "p": {
+          "name": "Enhancing Alignment for Unified Multimodal Models via Semantically-Grounded Supervision",
+          "link": "https://arxiv.org/abs/2603.19807"
+        },
+        "c": "",
+        "n": "SeGroS-Harmon-1.5B (extra data)",
+        "d": "2026-03-20",
+        "m1": "0.8866"
+      },
+      {
+        "p": {
+          "name": "IV-CoT: Implicit Visual Chain-of-Thought for Structure-Aware Text-to-Image Generation",
+          "link": "https://arxiv.org/abs/2606.24849"
+        },
+        "c": "",
+        "n": "Full IV-CoT (OpenUni-L-1024, 512 queries)",
+        "d": "2026-06-23",
+        "m1": "0.885"
+      },
+      {
+        "p": {
+          "name": "MiniT2I: A Minimalist Baseline for Text-to-Image Generation",
+          "link": "https://peppaking8.github.io/#/post/minit2i"
+        },
+        "c": "https://github.com/hope7happiness/minit2i-torch",
+        "n": "MiniT2I-L/16",
+        "d": "2026-06-14",
+        "m1": "0.883"
+      },
+      {
+        "p": {
+          "name": "UniEvo-VL: An On-policy Self-Distillation Training Recipe for Multimodal Model Self-improvement",
+          "link": "https://arxiv.org/abs/2609.38721"
+        },
+        "c": "",
+        "n": "UniEvo-VL (GPT5.6-Luna)",
+        "d": "2026-09-30",
+        "m1": "0.882"
       },
       {
         "p": {
@@ -220,6 +620,16 @@
       },
       {
         "p": {
+          "name": "Chain-of-Trajectories: Unlocking the Intrinsic Generative Optimality of Diffusion Models via Graph-Theoretic Planning",
+          "link": "https://arxiv.org/abs/2603.14704"
+        },
+        "c": "https://github.com/UnicomAI/CoTj",
+        "n": "CoTj + Qwen-Image (50 steps)",
+        "d": "2026-03-16",
+        "m1": "0.88"
+      },
+      {
+        "p": {
           "name": "Self-Adversarial One Step Generation via Condition Shifting",
           "link": "https://arxiv.org/abs/2604.12322"
         },
@@ -230,12 +640,102 @@
       },
       {
         "p": {
+          "name": "DuoGen: Towards Autonomous Interleaved Multimodal Generation",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Shi_DuoGen_Towards_Autonomous_Interleaved_Multimodal_Generation_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "DuoGen",
+        "d": "2026-06-03",
+        "m1": "0.88"
+      },
+      {
+        "p": {
+          "name": "HiRAE: Hierarchical Representation Autoencoding with Residual Budgets",
+          "link": "https://arxiv.org/abs/2609.37775"
+        },
+        "c": "",
+        "n": "HiRAE-24",
+        "d": "2026-09-29",
+        "m1": "0.877"
+      },
+      {
+        "p": {
+          "name": "Aligned but Stereotypical? The Hidden Influence of System Prompts on Social Bias in LVLM-Based Text-to-Image Models",
+          "link": "https://arxiv.org/abs/2512.04981"
+        },
+        "c": "https://github.com/nahyeonkaty/fairpro",
+        "n": "Qwen-Image + FairPro",
+        "d": "2025-12-04",
+        "m1": "0.874"
+      },
+      {
+        "p": {
+          "name": "BudgetPix: Compute-Adaptive Tokenization for Pixel-Space Image Diffusion",
+          "link": "https://arxiv.org/abs/2610.12307"
+        },
+        "c": "https://github.com/ozgurkara99/budgetpix",
+        "n": "BudgetPix (MiniT2I-L/16, 25% budget)",
+        "d": "2026-10-08",
+        "m1": "0.874"
+      },
+      {
+        "p": {
+          "name": "Simplifying and Improving On-Policy Distillation for Few-Step Diffusion",
+          "link": "https://arxiv.org/abs/2610.18472"
+        },
+        "c": "",
+        "n": "SMD (Qwen-Image, 4-NFE)",
+        "d": "2026-10-13",
+        "m1": "0.873"
+      },
+      {
+        "p": {
+          "name": "ParaUni: Enhance Generation in Unified Multimodal Model with Reinforcement-driven Hierarchical Parallel Information Interaction",
+          "link": "https://arxiv.org/abs/2512.05422"
+        },
+        "c": "https://github.com/josephtitan/parauni",
+        "n": "ParaUni",
+        "d": "2025-12-05",
+        "m1": "0.87"
+      },
+      {
+        "p": {
+          "name": "LongCat-Image Technical Report",
+          "link": "https://arxiv.org/abs/2512.07584"
+        },
+        "c": "https://huggingface.co/meituan-longcat/LongCat-Image",
+        "n": "LongCat-Image",
+        "d": "2025-12-08",
+        "m1": "0.87"
+      },
+      {
+        "p": {
+          "name": "DeepGen 1.0: A Lightweight Unified Multimodal Model for Advancing Image Generation and Editing",
+          "link": "https://arxiv.org/abs/2602.12205"
+        },
+        "c": "https://github.com/DeepGenTeam/DeepGen",
+        "n": "DeepGen-1.0 (RL)",
+        "d": "2026-02-12",
+        "m1": "0.87"
+      },
+      {
+        "p": {
           "name": "Dynin-Omni: Omnimodal Unified Large Diffusion Language Model",
           "link": "https://arxiv.org/abs/2604.00007"
         },
         "c": "https://github.com/AIDASLab/Dynin-Omni",
         "n": "Dynin-Omni",
         "d": "2026-03-09",
+        "m1": "0.87"
+      },
+      {
+        "p": {
+          "name": "UniCom: Unified Multimodal Modeling via Compressed Continuous Semantic Representations",
+          "link": "https://arxiv.org/abs/2603.10702"
+        },
+        "c": "",
+        "n": "UniCom",
+        "d": "2026-03-11",
         "m1": "0.87"
       },
       {
@@ -280,6 +780,96 @@
       },
       {
         "p": {
+          "name": "Tuna-2: Pixel Embeddings Beat Vision Encoders for Multimodal Understanding and Generation",
+          "link": "https://arxiv.org/abs/2604.24763"
+        },
+        "c": "https://github.com/facebookresearch/tuna-2",
+        "n": "Tuna-2 7B",
+        "d": "2026-04-27",
+        "m1": "0.87"
+      },
+      {
+        "p": {
+          "name": "Unlocking Complex Visual Generation via Closed-Loop Verified Reasoning",
+          "link": "https://arxiv.org/abs/2605.14876"
+        },
+        "c": "",
+        "n": "FLUX.2 4B + CLVR + PPRL + DSWM",
+        "d": "2026-05-14",
+        "m1": "0.87"
+      },
+      {
+        "p": {
+          "name": "RepFusion: Leveraging Multimodal Priors for Denoising in Representation Space",
+          "link": "https://arxiv.org/abs/2606.14700"
+        },
+        "c": "",
+        "n": "RepFusion-SFT w/ Diffusion Decoder",
+        "d": "2026-06-12",
+        "m1": "0.87"
+      },
+      {
+        "p": {
+          "name": "UniDDT: Unifying Multimodal Understanding and Generation with Decoupled Diffusion Transformer",
+          "link": "https://arxiv.org/abs/2606.16255"
+        },
+        "c": "",
+        "n": "VLM-UniDDT",
+        "d": "2026-06-15",
+        "m1": "0.87"
+      },
+      {
+        "p": {
+          "name": "Multi-Resolution Flow Matching: Training-Free Diffusion Acceleration via Staged Sampling",
+          "link": "https://arxiv.org/abs/2607.01642"
+        },
+        "c": "https://github.com/Xingyu-Zheng/MrFlow",
+        "n": "MrFlow + Qwen-Image (20+1 steps)",
+        "d": "2026-07-02",
+        "m1": "0.87"
+      },
+      {
+        "p": {
+          "name": "Skywork UniPic: Unified Autoregressive Modeling for Visual Understanding and Generation",
+          "link": "https://arxiv.org/abs/2508.03320"
+        },
+        "c": "https://huggingface.co/Skywork/Skywork-UniPic-1.5B",
+        "n": "Skywork UniPic",
+        "d": "2025-08-05",
+        "m1": "0.86"
+      },
+      {
+        "p": {
+          "name": "Emu3.5: Native Multimodal Models are World Learners",
+          "link": "https://arxiv.org/abs/2510.26583"
+        },
+        "c": "https://github.com/baaivision/Emu3.5",
+        "n": "Emu3.5 (34B, AR)",
+        "d": "2025-10-30",
+        "m1": "0.86"
+      },
+      {
+        "p": {
+          "name": "DeCo: Frequency-Decoupled Pixel Diffusion for End-to-End Image Generation",
+          "link": "https://arxiv.org/abs/2511.19365"
+        },
+        "c": "https://github.com/zehong-ma/deco",
+        "n": "DeCo-XXL/16",
+        "d": "2025-11-24",
+        "m1": "0.86"
+      },
+      {
+        "p": {
+          "name": "DraCo: Draft as CoT for Text-to-Image Preview and Rare Concept Generation",
+          "link": "https://arxiv.org/abs/2512.05112"
+        },
+        "c": "https://github.com/CaraJ7/DraCo",
+        "n": "DraCo",
+        "d": "2025-12-04",
+        "m1": "0.86"
+      },
+      {
+        "p": {
           "name": "STAR: STacked AutoRegressive Scheme for Unified Multimodal Learning",
           "link": "https://arxiv.org/abs/2512.13752"
         },
@@ -287,6 +877,66 @@
         "n": "STAR-3B",
         "d": "2025-12-15",
         "m1": "0.86"
+      },
+      {
+        "p": {
+          "name": "CoF-T2I: Video Models as Pure Visual Reasoners for Text-to-Image Generation",
+          "link": "https://arxiv.org/abs/2601.10061"
+        },
+        "c": "https://github.com/VisionChengzhuo/CoF-T2I",
+        "n": "CoF-T2I (14B)",
+        "d": "2026-01-15",
+        "m1": "0.86"
+      },
+      {
+        "p": {
+          "name": "BitDance: Scaling Autoregressive Generative Models with Binary Tokens",
+          "link": "https://arxiv.org/abs/2602.14041"
+        },
+        "c": "https://github.com/shallowdream204/BitDance",
+        "n": "BitDance-14B-16x",
+        "d": "2026-02-15",
+        "m1": "0.86"
+      },
+      {
+        "p": {
+          "name": "RebRL: Reinforcing Discrete Visual Diffusion Models with Rebalanced Timestep Credits",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_RebRL_Reinforcing_Discrete_Visual_Diffusion_Models_with_Rebalanced_Timestep_Credits_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "MMaDA-8B-Base w/ RebRL (ours) (extra data)",
+        "d": "2026-06-03",
+        "m1": "0.86"
+      },
+      {
+        "p": {
+          "name": "ARM: An AutoRegressive Large Multimodal Model with Unified Discrete Representations",
+          "link": "https://arxiv.org/abs/2606.11188"
+        },
+        "c": "https://github.com/wdrink/ARM",
+        "n": "ARM-RL-7B",
+        "d": "2026-06-09",
+        "m1": "0.86"
+      },
+      {
+        "p": {
+          "name": "Parallel Decoding Distillation for Fast Image and Video Generation",
+          "link": "https://arxiv.org/abs/2607.26004"
+        },
+        "c": "https://github.com/NVlabs/fastgen",
+        "n": "PDD Midpoint (Qwen-Image, 4 NFE)",
+        "d": "2026-07-28",
+        "m1": "0.86"
+      },
+      {
+        "p": {
+          "name": "APT: Feedback-Driven Agentic Post-Training for Text-to-Image Generation",
+          "link": "https://arxiv.org/abs/2610.18097"
+        },
+        "c": "https://github.com/siruizhang30/APT",
+        "n": "Lens (w/ APT)",
+        "d": "2026-10-13",
+        "m1": "0.859"
       },
       {
         "p": {
@@ -310,12 +960,32 @@
       },
       {
         "p": {
+          "name": "Generating an Image From 1,000 Words: Enhancing Text-to-Image With Structured Captions",
+          "link": "https://arxiv.org/abs/2511.06876"
+        },
+        "c": "https://github.com/Bria-AI/FIBO",
+        "n": "FIBO",
+        "d": "2025-11-10",
+        "m1": "0.85"
+      },
+      {
+        "p": {
           "name": "ChatUMM: Robust Context Tracking for Conversational Interleaved Generation",
           "link": "https://arxiv.org/abs/2602.06442"
         },
         "c": "",
         "n": "ChatUMM",
         "d": "2026-02-06",
+        "m1": "0.85"
+      },
+      {
+        "p": {
+          "name": "InternVL-U: Democratizing Unified Multimodal Models for Understanding, Reasoning, Generation and Editing",
+          "link": "https://arxiv.org/abs/2603.09877"
+        },
+        "c": "https://github.com/OpenGVLab/InternVL-U",
+        "n": "InternVL-U (4B)",
+        "d": "2026-03-10",
         "m1": "0.85"
       },
       {
@@ -340,6 +1010,116 @@
       },
       {
         "p": {
+          "name": "Unified Multimodal Autoregressive Modeling with Shared Context-Visual Tokenizer is Key to Unification",
+          "link": "https://arxiv.org/abs/2606.18249"
+        },
+        "c": "https://github.com/ShareLab-SII/UniAR",
+        "n": "UniAR (original prompts)",
+        "d": "2026-06-16",
+        "m1": "0.85"
+      },
+      {
+        "p": {
+          "name": "Illuminating Unified Multimodal Model for Free-form Interleaved Text-Image Generation",
+          "link": "https://arxiv.org/abs/2606.30054"
+        },
+        "c": "https://github.com/ChonghuinanWang/ILLUME-X",
+        "n": "ILLUME-X",
+        "d": "2026-06-29",
+        "m1": "0.85"
+      },
+      {
+        "p": {
+          "name": "Boogu-Image-0.1: Boosting Open-Source Unified Multimodal Understanding and Generation",
+          "link": "https://arxiv.org/abs/2607.13125"
+        },
+        "c": "https://github.com/boogu-project/Boogu-Image",
+        "n": "Boogu-Image-0.1-Base",
+        "d": "2026-07-14",
+        "m1": "0.85"
+      },
+      {
+        "p": {
+          "name": "Energy-Guided Flow Matching",
+          "link": "https://arxiv.org/abs/2608.05811"
+        },
+        "c": "https://github.com/ysng123/eg-fm",
+        "n": "EG-FM-T2I",
+        "d": "2026-08-06",
+        "m1": "0.85"
+      },
+      {
+        "p": {
+          "name": "LinCa: Accelerating Diffusion Models via Learnable Decomposed Feature Caching",
+          "link": "https://arxiv.org/abs/2608.17973"
+        },
+        "c": "https://github.com/qhr69/linca",
+        "n": "LinCa (Qwen-Image-Lightning, N=3)",
+        "d": "2026-08-18",
+        "m1": "0.85"
+      },
+      {
+        "p": {
+          "name": "LLaDA-Image: Building Strong Image Generators with Fully Open Training Recipes",
+          "link": "https://arxiv.org/abs/2609.03796"
+        },
+        "c": "https://github.com/inclusionai/llada-image",
+        "n": "LLaDA-Image",
+        "d": "2026-09-03",
+        "m1": "0.85"
+      },
+      {
+        "p": {
+          "name": "DanceOPD: On-Policy Generative Field Distillation",
+          "link": "https://arxiv.org/abs/2606.27377"
+        },
+        "c": "https://github.com/worldbench/danceopd",
+        "n": "DanceOPD (Ours)",
+        "d": "2026-06-25",
+        "m1": "0.849"
+      },
+      {
+        "p": {
+          "name": "Pluggable Pruning with Contiguous Layer Distillation for Diffusion Transformers",
+          "link": "https://arxiv.org/abs/2511.16156"
+        },
+        "c": "https://github.com/oppo-mente-lab/qwen-image-pruning",
+        "n": "PPCL (Qwen-Image, 14B)",
+        "d": "2025-11-20",
+        "m1": "0.847"
+      },
+      {
+        "p": {
+          "name": "RubricRL: Simple Generalizable Rewards for Text-to-Image Generation",
+          "link": "https://arxiv.org/abs/2511.20651"
+        },
+        "c": "",
+        "n": "RubricRL (Phi3-3.8B) (extra data)",
+        "d": "2025-11-25",
+        "m1": "0.8468"
+      },
+      {
+        "p": {
+          "name": "Lens: Rethinking Training Efficiency for Foundational Text-to-Image Models",
+          "link": "https://arxiv.org/abs/2605.21573"
+        },
+        "c": "https://github.com/microsoft/Lens",
+        "n": "Lens (20-step, no reasoner)",
+        "d": "2026-05-20",
+        "m1": "0.843"
+      },
+      {
+        "p": {
+          "name": "BLIP3-o: A Family of Fully Open Unified Multimodal Models-Architecture, Training and Dataset",
+          "link": "https://arxiv.org/abs/2505.09568"
+        },
+        "c": "https://github.com/jiuhaichen/blip3o",
+        "n": "BLIP3-o (8B)",
+        "d": "2025-05-14",
+        "m1": "0.84"
+      },
+      {
+        "p": {
           "name": "UniWorld-V1: High-Resolution Semantic Encoders for Unified Visual Understanding and Generation",
           "link": "https://arxiv.org/abs/2506.03147v3"
         },
@@ -353,6 +1133,36 @@
         "m5": "0.90",
         "m6": "0.81",
         "m7": "0.74"
+      },
+      {
+        "p": {
+          "name": "WEAVE: Unleashing and Benchmarking the In-context Interleaved Comprehension and Generation",
+          "link": "https://arxiv.org/abs/2511.11434"
+        },
+        "c": "https://github.com/weichow23/weave",
+        "n": "Bagel + WEAVE-100k",
+        "d": "2025-11-14",
+        "m1": "0.84"
+      },
+      {
+        "p": {
+          "name": "Z-Image: An Efficient Image Generation Foundation Model with Single-Stream Diffusion Transformer",
+          "link": "https://arxiv.org/abs/2511.22699"
+        },
+        "c": "https://github.com/Tongyi-MAI/Z-Image",
+        "n": "Z-Image",
+        "d": "2025-11-27",
+        "m1": "0.84"
+      },
+      {
+        "p": {
+          "name": "Ovis-Image Technical Report",
+          "link": "https://arxiv.org/abs/2511.22982"
+        },
+        "c": "https://github.com/AIDC-AI/Ovis-Image",
+        "n": "Ovis-Image (2B+7B)",
+        "d": "2025-11-28",
+        "m1": "0.84"
       },
       {
         "p": {
@@ -373,6 +1183,56 @@
         "n": "LongCat-Next",
         "d": "2026-03-29",
         "m1": "0.84"
+      },
+      {
+        "p": {
+          "name": "Representation Forcing for Bottleneck-Free Unified Multimodal Models",
+          "link": "https://arxiv.org/abs/2605.31604"
+        },
+        "c": "",
+        "n": "RF-Pixel (original prompts)",
+        "d": "2026-05-29",
+        "m1": "0.84"
+      },
+      {
+        "p": {
+          "name": "UniSpace: Unified Visual Representation and Scalable Multimodal Modeling",
+          "link": "https://arxiv.org/abs/2608.08676"
+        },
+        "c": "https://github.com/yjb6/UniSpace",
+        "n": "UniSpace",
+        "d": "2026-08-09",
+        "m1": "0.84"
+      },
+      {
+        "p": {
+          "name": "Learning Native Reflection in Unified Models with Interleaved Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2609.35767"
+        },
+        "c": "https://github.com/waltstephen/UMM-Reflection",
+        "n": "UMM-Reflection",
+        "d": "2026-09-28",
+        "m1": "0.84"
+      },
+      {
+        "p": {
+          "name": "DC-SAE: Deep Compression Semantic Autoencoder for Faster Diffusion Convergence",
+          "link": "https://arxiv.org/abs/2609.39222"
+        },
+        "c": "https://github.com/DAGroup-PKU/DCSAE",
+        "n": "1.6B-DiT (extra data)",
+        "d": "2026-09-30",
+        "m1": "0.84"
+      },
+      {
+        "p": {
+          "name": "FLAT: Resampling Image and Text into 1D Flexible-Length Aligned Transmodal Tokens for Retrieval and Generation",
+          "link": "https://arxiv.org/abs/2609.16591"
+        },
+        "c": "",
+        "n": "FLAT",
+        "d": "2026-09-15",
+        "m1": "0.831"
       },
       {
         "p": {
@@ -422,6 +1282,36 @@
       },
       {
         "p": {
+          "name": "Representation Distribution Matching for One-Step Visual Generation",
+          "link": "https://arxiv.org/abs/2607.02375"
+        },
+        "c": "https://github.com/vita-epfl/RDM",
+        "n": "iRDM (1-step)",
+        "d": "2026-07-02",
+        "m1": "0.826"
+      },
+      {
+        "p": {
+          "name": "RxBrain: Embodied Cognition Foundation Model with Joint Language-Visual Reasoning and Imagination",
+          "link": "https://arxiv.org/abs/2607.14187"
+        },
+        "c": "https://github.com/tencent-hunyuan/hy-embodied-rxbrain-1.0",
+        "n": "RxBrain",
+        "d": "2026-07-15",
+        "m1": "0.824"
+      },
+      {
+        "p": {
+          "name": "Emerging Properties in Unified Multimodal Pretraining",
+          "link": "https://arxiv.org/abs/2505.14683v1"
+        },
+        "c": "https://github.com/ByteDance-Seed/Bagel",
+        "n": "BAGEL (7B MoT)",
+        "d": "2025-05-20",
+        "m1": "0.82"
+      },
+      {
+        "p": {
           "name": "Uni-X: Mitigating Modality Conflict with a Two-End-Separated Architecture for Unified Multimodal Models",
           "link": "https://arxiv.org/abs/2509.24365"
         },
@@ -429,6 +1319,136 @@
         "n": "Uni-X (140B)",
         "d": "2025-09-29",
         "m1": "0.82"
+      },
+      {
+        "p": {
+          "name": "UniCorn: Towards Self-Improving Unified Multimodal Models through Self-Generated Supervision",
+          "link": "https://arxiv.org/abs/2601.03193"
+        },
+        "c": "https://github.com/Hungryyan1/UniCorn",
+        "n": "UniCorn",
+        "d": "2026-01-06",
+        "m1": "0.82"
+      },
+      {
+        "p": {
+          "name": "LLaDA-o: An Effective and Length-Adaptive Omni Diffusion Model",
+          "link": "https://arxiv.org/abs/2603.01068"
+        },
+        "c": "https://github.com/ML-GSAI/LLaDA-o",
+        "n": "LLaDA-o",
+        "d": "2026-03-01",
+        "m1": "0.82"
+      },
+      {
+        "p": {
+          "name": "STARFlow2: Bridging Language Models and Normalizing Flows for Unified Multimodal Generation",
+          "link": "https://arxiv.org/abs/2605.08029"
+        },
+        "c": "",
+        "n": "STARFlow2 (10.6B)",
+        "d": "2026-05-08",
+        "m1": "0.82"
+      },
+      {
+        "p": {
+          "name": "Normalizing Trajectory Models",
+          "link": "https://arxiv.org/abs/2605.08078"
+        },
+        "c": "",
+        "n": "NTM (from scratch, 256×256)",
+        "d": "2026-05-08",
+        "m1": "0.82"
+      },
+      {
+        "p": {
+          "name": "Asymmetric Flow Models",
+          "link": "https://arxiv.org/abs/2605.12964"
+        },
+        "c": "https://github.com/Lakonik/LakonLab",
+        "n": "AsymFLUX.2 klein",
+        "d": "2026-05-13",
+        "m1": "0.82"
+      },
+      {
+        "p": {
+          "name": "InsightTok: Improving Text and Face Fidelity in Discrete Tokenization for Autoregressive Image Generation",
+          "link": "https://arxiv.org/abs/2605.14333"
+        },
+        "c": "https://github.com/LeapLabTHU/InsightTok",
+        "n": "InsightAR",
+        "d": "2026-05-14",
+        "m1": "0.82"
+      },
+      {
+        "p": {
+          "name": "Chimera: Designing and Chinchilla-Scaling Hybrid Visual Diffusion Transformers",
+          "link": "https://arxiv.org/abs/2607.28611"
+        },
+        "c": "",
+        "n": "Chimera",
+        "d": "2026-07-30",
+        "m1": "0.82"
+      },
+      {
+        "p": {
+          "name": "MANGO: Unleashing Image Generation Capability of Unified Multimodal Models",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/3300"
+        },
+        "c": "",
+        "n": "MANGO-4B",
+        "d": "2026-09-08",
+        "m1": "0.82"
+      },
+      {
+        "p": {
+          "name": "Multimodal Flow: Unified Flow Modeling of Language and Vision in Embedding Spaces",
+          "link": "https://arxiv.org/abs/2609.40362"
+        },
+        "c": "https://github.com/hustvl/Multimodal-Flow",
+        "n": "MF-1",
+        "d": "2026-09-30",
+        "m1": "0.82"
+      },
+      {
+        "p": {
+          "name": "OmniVerifier-C1: Decomposed Graded Verifier for Rule-Governed Generative World Modeling",
+          "link": "https://arxiv.org/abs/2610.22355"
+        },
+        "c": "https://github.com/Cominclip/OmniVerifier",
+        "n": "Qwen-Image-2512 + RL(Decomposed Graded Verifier)",
+        "d": "2026-10-15",
+        "m1": "0.82"
+      },
+      {
+        "p": {
+          "name": "An Empirical Study of Training Pixel-Space Text-to-Image Diffusion Models",
+          "link": "https://arxiv.org/abs/2608.16887"
+        },
+        "c": "",
+        "n": "Ours-Turbo (FLUX2-klein pixel-space) (extra data)",
+        "d": "2026-08-17",
+        "m1": "0.8185"
+      },
+      {
+        "p": {
+          "name": "Self-Evaluation Unlocks Any-Step Text-to-Image Generation",
+          "link": "https://arxiv.org/abs/2512.22374"
+        },
+        "c": "",
+        "n": "Self-E",
+        "d": "2025-12-26",
+        "m1": "0.8151"
+      },
+      {
+        "p": {
+          "name": "Internalizing Agent Experience into Diffusion Model Weights via On-Policy Context Distillation",
+          "link": "https://arxiv.org/abs/2610.07250"
+        },
+        "c": "https://github.com/Yummytanmo/D-OPCD-CoEvolution",
+        "n": "D-OPCD generator",
+        "d": "2026-10-05",
+        "m1": "0.8128"
       },
       {
         "p": {
@@ -449,6 +1469,36 @@
         "n": "Janus-Pro + AIA",
         "d": "2025-11-27",
         "m1": "0.81"
+      },
+      {
+        "p": {
+          "name": "MODUS: Decoder-Only Any-to-Any Modeling of Diverse Modalities",
+          "link": "https://arxiv.org/abs/2607.25948"
+        },
+        "c": "https://github.com/EPFL-VILAB/Modus",
+        "n": "MODUS (original prompts, no self-verification)",
+        "d": "2026-07-28",
+        "m1": "0.81"
+      },
+      {
+        "p": {
+          "name": "Semantic Generative Tuning for Unified Multimodal Models",
+          "link": "https://arxiv.org/abs/2605.18714"
+        },
+        "c": "https://github.com/song2yu/SGT",
+        "n": "SGT-BAGEL (original prompts)",
+        "d": "2026-05-18",
+        "m1": "0.8095"
+      },
+      {
+        "p": {
+          "name": "PixelDense: Dense Prediction as Representation Alignment for Pixel Diffusion",
+          "link": "https://arxiv.org/abs/2610.00483"
+        },
+        "c": "https://github.com/Hansxsourse/PixelDense",
+        "n": "PixelDense",
+        "d": "2026-09-30",
+        "m1": "0.8093"
       },
       {
         "p": {
@@ -498,6 +1548,66 @@
       },
       {
         "p": {
+          "name": "Autoregressive Image Generation Needs Only a Few Lines of Cached Tokens",
+          "link": "https://arxiv.org/abs/2512.04857"
+        },
+        "c": "https://github.com/zr2223/linear",
+        "n": "LineAR (Janus-Pro-7B, 1/4 cache)",
+        "d": "2025-12-04",
+        "m1": "0.8"
+      },
+      {
+        "p": {
+          "name": "Auto-Rubric as Reward: From Implicit Preferences to Explicit Multimodal Generative Criteria",
+          "link": "https://arxiv.org/abs/2605.08354"
+        },
+        "c": "https://github.com/OpenEnvision/AutoRubric-as-Reward",
+        "n": "FLUX.1-dev + ARR-RPO (Gemini 3.1 Pro judge)",
+        "d": "2026-05-08",
+        "m1": "0.8"
+      },
+      {
+        "p": {
+          "name": "UniPath: Adaptive Coordination of Understanding and Generation for Unified Multimodal Reasoning",
+          "link": "https://arxiv.org/abs/2605.11400"
+        },
+        "c": "",
+        "n": "UniPath (BAGEL backbone)",
+        "d": "2026-05-12",
+        "m1": "0.8"
+      },
+      {
+        "p": {
+          "name": "Aligning One-Step Generative Models with Reward-Weighted Transport Distillation",
+          "link": "https://arxiv.org/abs/2609.30840"
+        },
+        "c": "https://github.com/austin-k-wang/Reward-Weighted-Transport-Distillation",
+        "n": "RWTD (SANA Sprint 1.6B)",
+        "d": "2026-09-25",
+        "m1": "0.8"
+      },
+      {
+        "p": {
+          "name": "Iris-3B: Going Beyond the Latent with Pixel-Space Diffusion Training, Conversion and Fine-Tuning",
+          "link": "https://arxiv.org/abs/2610.09450"
+        },
+        "c": "https://github.com/speridlabs/iris-3b",
+        "n": "Iris-3B",
+        "d": "2026-10-07",
+        "m1": "0.798"
+      },
+      {
+        "p": {
+          "name": "On the Diffusibility of High-Dimensional Latents",
+          "link": "https://arxiv.org/abs/2609.28473"
+        },
+        "c": "",
+        "n": "On the Diffusibility of High-Dimensional Latents (Ours, 512)",
+        "d": "2026-09-23",
+        "m1": "0.7969"
+      },
+      {
+        "p": {
           "name": "Lumos-1: On Autoregressive Video Generation with Discrete Diffusion from a Unified Model Perspective",
           "link": "https://arxiv.org/abs/2507.08801"
         },
@@ -508,6 +1618,66 @@
       },
       {
         "p": {
+          "name": "PixelGen: Pixel Diffusion Beats Latent Diffusion with Perceptual Loss",
+          "link": "https://arxiv.org/abs/2602.02493"
+        },
+        "c": "https://github.com/Zehong-Ma/PixelGen",
+        "n": "PixelGen-XXL/16",
+        "d": "2026-02-02",
+        "m1": "0.79"
+      },
+      {
+        "p": {
+          "name": "Channel-wise Vector Quantization",
+          "link": "https://arxiv.org/abs/2605.26089"
+        },
+        "c": "https://github.com/songweii/CVQ",
+        "n": "CAR-8B",
+        "d": "2026-05-25",
+        "m1": "0.79"
+      },
+      {
+        "p": {
+          "name": "Spectral Progressive Diffusion for Efficient Image and Video Generation",
+          "link": "https://arxiv.org/abs/2605.18736"
+        },
+        "c": "https://github.com/howardhx/speed",
+        "n": "Spectral Progressive Diffusion (PixelGen, TF)",
+        "d": "2026-05-18",
+        "m1": "0.782"
+      },
+      {
+        "p": {
+          "name": "PixelDiT: Pixel Diffusion Transformers for Image Generation",
+          "link": "https://arxiv.org/abs/2511.20645"
+        },
+        "c": "https://github.com/nvlabs/pixeldit",
+        "n": "PixelDiT-T2I",
+        "d": "2025-11-25",
+        "m1": "0.78"
+      },
+      {
+        "p": {
+          "name": "Sparse-LaViDa: Sparse Multimodal Discrete Diffusion Language Models",
+          "link": "https://arxiv.org/abs/2512.14008"
+        },
+        "c": "",
+        "n": "Sparse-LaViDa",
+        "d": "2025-12-16",
+        "m1": "0.78"
+      },
+      {
+        "p": {
+          "name": "StageVAR: Stage-Aware Acceleration for Visual Autoregressive Models",
+          "link": "https://arxiv.org/abs/2512.16483"
+        },
+        "c": "https://github.com/sen-mao/fastervar",
+        "n": "Infinity-8B + StageVAR",
+        "d": "2025-12-18",
+        "m1": "0.78"
+      },
+      {
+        "p": {
           "name": "Cheers: Decoupling Patch Details from Semantic Representations Enables Unified Multimodal Comprehension and Generation",
           "link": "https://arxiv.org/abs/2603.12793"
         },
@@ -515,6 +1685,36 @@
         "n": "Cheers",
         "d": "2026-03-13",
         "m1": "0.78"
+      },
+      {
+        "p": {
+          "name": "SNCE: Geometry-Aware Supervision for Scalable Discrete Image Generation",
+          "link": "https://arxiv.org/abs/2603.15150"
+        },
+        "c": "",
+        "n": "LaViDa-O (10B, Adaptation, SNCE)",
+        "d": "2026-03-16",
+        "m1": "0.78"
+      },
+      {
+        "p": {
+          "name": "DRM: Diffusion-based Reward Model With Step-wise Guidance",
+          "link": "https://arxiv.org/abs/2605.25661"
+        },
+        "c": "https://github.com/jjaxonx/drm",
+        "n": "SD3.5-M + DRM Step-GRPO",
+        "d": "2026-05-25",
+        "m1": "0.78"
+      },
+      {
+        "p": {
+          "name": "Both Semantics and Reconstruction Matter: Making Representation Encoders Ready for Text-to-Image Generation and Editing",
+          "link": "https://arxiv.org/abs/2512.17909"
+        },
+        "c": "",
+        "n": "PS-VAE (96c, SigLIP2-so400m/14)",
+        "d": "2025-12-19",
+        "m1": "0.7714"
       },
       {
         "p": {
@@ -538,6 +1738,36 @@
       },
       {
         "p": {
+          "name": "Visual Generation Tuning",
+          "link": "https://arxiv.org/abs/2511.23469"
+        },
+        "c": "https://github.com/hustvl/VGT",
+        "n": "VGT (Qwen2.5-VL)",
+        "d": "2025-11-28",
+        "m1": "0.77"
+      },
+      {
+        "p": {
+          "name": "Trust Your Critic: Robust Reward Modeling and Reinforcement Learning for Faithful Image Editing and Generation",
+          "link": "https://arxiv.org/abs/2603.12247"
+        },
+        "c": "https://github.com/VisionXLab/FIRM-Reward",
+        "n": "FIRM-SD3.5",
+        "d": "2026-03-12",
+        "m1": "0.77"
+      },
+      {
+        "p": {
+          "name": "PixelUMM: Encoder-Free Unified Image and Video Understanding and Generation",
+          "link": "https://arxiv.org/abs/2609.38597"
+        },
+        "c": "https://github.com/nv-tlabs/PixelUMM",
+        "n": "PixelUMM 8B MoT",
+        "d": "2026-09-29",
+        "m1": "0.77"
+      },
+      {
+        "p": {
           "name": "Show-o2: Improved Native Unified Multimodal Models",
           "link": "https://arxiv.org/abs/2506.15564"
         },
@@ -545,6 +1775,56 @@
         "n": "Show-o2 (7B)",
         "d": "2025-06-18",
         "m1": "0.76"
+      },
+      {
+        "p": {
+          "name": "VQRAE: Representation Quantization Autoencoders for Multimodal Understanding, Generation and Reconstruction",
+          "link": "https://arxiv.org/abs/2511.23386"
+        },
+        "c": "",
+        "n": "VQRAE",
+        "d": "2025-11-28",
+        "m1": "0.76"
+      },
+      {
+        "p": {
+          "name": "SnapGen++: Unleashing Diffusion Transformers for Efficient High-Fidelity Image Generation on Edge Devices",
+          "link": "https://arxiv.org/abs/2601.08303"
+        },
+        "c": "",
+        "n": "SnapGen++ (full, 1.6B)",
+        "d": "2026-01-13",
+        "m1": "0.76"
+      },
+      {
+        "p": {
+          "name": "L2P: Unlocking Latent Potential for Pixel Generation",
+          "link": "https://arxiv.org/abs/2605.12013"
+        },
+        "c": "https://github.com/tencentyouturesearch/t2i-l2p",
+        "n": "L2P",
+        "d": "2026-05-12",
+        "m1": "0.76"
+      },
+      {
+        "p": {
+          "name": "Text Template Tokens Are Implicit Semantic Registers in Diffusion Transformers",
+          "link": "https://arxiv.org/abs/2607.19139"
+        },
+        "c": "https://github.com/Met4physics/DiT-Interpretability",
+        "n": "Qwen-Image-2512 with training-free head pruning (rank by image-to-semantic attention m_S, K=216)",
+        "d": "2026-07-21",
+        "m1": "0.758"
+      },
+      {
+        "p": {
+          "name": "High-Fidelity Two-Step Image Generation via Teacher-Aligned End-to-End Distillation",
+          "link": "https://arxiv.org/abs/2606.12575"
+        },
+        "c": "",
+        "n": "Z-Image Turbo++",
+        "d": "2026-06-10",
+        "m1": "0.757"
       },
       {
         "p": {
@@ -558,6 +1838,26 @@
       },
       {
         "p": {
+          "name": "VA-π: Variational Policy Alignment for Pixel-Aware Autoregressive Generation",
+          "link": "https://arxiv.org/abs/2512.19680"
+        },
+        "c": "https://github.com/Lil-Shake/VA-Pi",
+        "n": "VA-π (Janus-Pro 1B)",
+        "d": "2025-12-22",
+        "m1": "0.744"
+      },
+      {
+        "p": {
+          "name": "LeapAlign: Post-Training Flow Matching Models at Any Generation Step by Building Two-Step Trajectories",
+          "link": "https://arxiv.org/abs/2604.15311"
+        },
+        "c": "",
+        "n": "FLUX.1-dev + LeapAlign",
+        "d": "2026-04-16",
+        "m1": "0.742"
+      },
+      {
+        "p": {
           "name": "Mobile-O: Unified Multimodal Understanding and Generation on Mobile Device",
           "link": "https://arxiv.org/abs/2602.20161"
         },
@@ -565,6 +1865,26 @@
         "n": "Mobile-O-0.5B",
         "d": "2026-02-23",
         "m1": "0.74"
+      },
+      {
+        "p": {
+          "name": "Xiaomi-Robotics-U0: Unified Embodied Synthesis with World Foundation Model",
+          "link": "https://arxiv.org/abs/2607.11643"
+        },
+        "c": "https://github.com/xiaomirobotics/xiaomi-robotics-u0",
+        "n": "Xiaomi-Robotics-U0-AR",
+        "d": "2026-07-13",
+        "m1": "0.74"
+      },
+      {
+        "p": {
+          "name": "Poly-OPD: Heterogeneous Multi-Teacher On-Policy Distillation for Capability-Selectable Flow Models",
+          "link": "https://arxiv.org/abs/2608.04349"
+        },
+        "c": "",
+        "n": "Poly-OPD (SD3.5-Medium, composition mode)",
+        "d": "2026-08-05",
+        "m1": "0.733"
       },
       {
         "p": {
@@ -598,6 +1918,26 @@
       },
       {
         "p": {
+          "name": "PixNerd: Pixel Neural Field Diffusion",
+          "link": "https://arxiv.org/abs/2507.23268"
+        },
+        "c": "https://github.com/MCG-NJU/PixNerd",
+        "n": "PixNerd-XXL/16",
+        "d": "2025-07-31",
+        "m1": "0.73"
+      },
+      {
+        "p": {
+          "name": "Offline Preference Optimization for Rectified Flow with Noise-Tracked Pairs",
+          "link": "https://arxiv.org/abs/2605.09433"
+        },
+        "c": "",
+        "n": "PNAPO (SD3-M)",
+        "d": "2026-05-10",
+        "m1": "0.73"
+      },
+      {
+        "p": {
           "name": "Lumos-1: On Autoregressive Video Generation with Discrete Diffusion from a Unified Model Perspective",
           "link": "https://arxiv.org/abs/2507.08801"
         },
@@ -605,6 +1945,16 @@
         "n": "Lumos-1 (512x512) (1.5B)",
         "d": "2025-07-11",
         "m1": "0.725"
+      },
+      {
+        "p": {
+          "name": "Anchoring and Steering Diffusion: Enhancing the Faithfulness of Text-to-Image Generation at Inference Time",
+          "link": "https://arxiv.org/abs/2607.26647"
+        },
+        "c": "",
+        "n": "AnchorSteer (HunyuanDiT-v1.2)",
+        "d": "2026-07-29",
+        "m1": "0.7247"
       },
       {
         "p": {
@@ -617,6 +1967,56 @@
         "m1": "0.72",
         "m2": "0.99",
         "m3": "0.85"
+      },
+      {
+        "p": {
+          "name": "DreamLite: A Lightweight On-Device Unified Model for Image Generation and Editing",
+          "link": "https://arxiv.org/abs/2603.28713"
+        },
+        "c": "https://github.com/ByteVisionLab/DreamLite",
+        "n": "DreamLite",
+        "d": "2026-03-30",
+        "m1": "0.72"
+      },
+      {
+        "p": {
+          "name": "HYDRA-X: Native Unified Multimodal Models with Holistic Visual Tokenizers",
+          "link": "https://arxiv.org/abs/2606.13289"
+        },
+        "c": "",
+        "n": "Hydra-XTok (img distill; Decompressor distilled with video teacher)",
+        "d": "2026-06-11",
+        "m1": "0.72"
+      },
+      {
+        "p": {
+          "name": "TexTailor: Inference-Time Textual Guidance Tailoring for Multimodal Diffusion Transformers",
+          "link": "https://arxiv.org/abs/2601.02211"
+        },
+        "c": "",
+        "n": "TexTailor (SD3.5)",
+        "d": "2026-01-05",
+        "m1": "0.7163"
+      },
+      {
+        "p": {
+          "name": "SynVAR: Synergizing Spatial and Semantic Alignment in Visual Autoregressive Model",
+          "link": "https://arxiv.org/abs/2608.07948"
+        },
+        "c": "https://github.com/nju-pcalab/synvar",
+        "n": "Infinity + SynVAR",
+        "d": "2026-08-08",
+        "m1": "0.7079"
+      },
+      {
+        "p": {
+          "name": "Pref-GRPO: Pairwise Preference Reward-based GRPO for Stable Text-to-Image Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2508.20751"
+        },
+        "c": "https://github.com/CodeGoat24/Pref-GRPO",
+        "n": "FLUX.1-dev + Pref-GRPO",
+        "d": "2025-08-28",
+        "m1": "0.7053"
       },
       {
         "p": {
@@ -636,6 +2036,46 @@
       },
       {
         "p": {
+          "name": "The Image as Its Own Reward: Reinforcement Learning with Adversarial Reward for Image Generation",
+          "link": "https://arxiv.org/abs/2511.20256"
+        },
+        "c": "https://github.com/showlab/adv-grpo",
+        "n": "Adv-GRPO (DINO)",
+        "d": "2025-11-25",
+        "m1": "0.69"
+      },
+      {
+        "p": {
+          "name": "Linearizing Vision Transformer with Test-Time Training",
+          "link": "https://arxiv.org/abs/2605.02772"
+        },
+        "c": "https://github.com/LeapLabTHU/Transformer-to-TTT",
+        "n": "SD3.5-T 5",
+        "d": "2026-05-28",
+        "m1": "0.69"
+      },
+      {
+        "p": {
+          "name": "RADAR: VQ-VAE Decoder of VAR is a Good Student for Restoring Against Degradation by Acceleration",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Wang_RADAR_VQ-VAE_Decoder_of_VAR_is_a_Good_Student_for_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "Infinity + RADAR",
+        "d": "2026-06-03",
+        "m1": "0.69"
+      },
+      {
+        "p": {
+          "name": "LazyVAR: Accelerating Visual Autoregressive Models via Scale-wise Token Pruning and Parallel Group Decoding",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Mao_LazyVAR_Accelerating_Visual_Autoregressive_Models_via_Scale-wise_Token_Pruning_and_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "Infinity + LazyVAR",
+        "d": "2026-06-03",
+        "m1": "0.6864"
+      },
+      {
+        "p": {
           "name": "Show-o: One Single Transformer to Unify Multimodal Understanding and Generation",
           "link": "https://arxiv.org/abs/2408.12528v6"
         },
@@ -646,6 +2086,36 @@
       },
       {
         "p": {
+          "name": "Uniform Discrete Diffusion with Metric Path for Video Generation",
+          "link": "https://arxiv.org/abs/2510.24717"
+        },
+        "c": "https://github.com/baaivision/URSA",
+        "n": "URSA-1.7B (1024x1024, original prompts)",
+        "d": "2025-10-28",
+        "m1": "0.68"
+      },
+      {
+        "p": {
+          "name": "UltraGen: Efficient Ultra-High-Resolution Image Generation with Hierarchical Local Attention",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/3514"
+        },
+        "c": "",
+        "n": "UltraImageGen (4K)",
+        "d": "2026-09-08",
+        "m1": "0.67"
+      },
+      {
+        "p": {
+          "name": "Analyzing and Improving Training-Free Fast Sampling of Text-to-Image Diffusion Models",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/3912"
+        },
+        "c": "https://github.com/zju-pi/tors",
+        "n": "TORS (Flux.1-Dev)",
+        "d": "2026-09-08",
+        "m1": "0.67"
+      },
+      {
+        "p": {
           "name": "Lumos-1: On Autoregressive Video Generation with Discrete Diffusion from a Unified Model Perspective",
           "link": "https://arxiv.org/abs/2507.08801"
         },
@@ -653,6 +2123,16 @@
         "n": "Lumos-1 (352x352) (3.6B)",
         "d": "2025-07-11",
         "m1": "0.664"
+      },
+      {
+        "p": {
+          "name": "DiverseVAR: Balancing Diversity and Quality of Next-Scale Visual Autoregressive Models",
+          "link": "https://arxiv.org/abs/2511.21415"
+        },
+        "c": "",
+        "n": "DIVERSEVAR",
+        "d": "2025-11-26",
+        "m1": "0.662"
       },
       {
         "p": {
@@ -676,6 +2156,36 @@
       },
       {
         "p": {
+          "name": "Drift-AR: Single-Step Visual Autoregressive Generation via Anti-Symmetric Drifting",
+          "link": "https://arxiv.org/abs/2603.28049"
+        },
+        "c": "https://github.com/asleepytree/drift-ar",
+        "n": "Drift-AR (NextStep-1)",
+        "d": "2026-03-30",
+        "m1": "0.66"
+      },
+      {
+        "p": {
+          "name": "Importance-Aware Low-Rank Distillation of Diffusion Transformers",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/4565"
+        },
+        "c": "",
+        "n": "SVDtrunc-m",
+        "d": "2026-09-08",
+        "m1": "0.645"
+      },
+      {
+        "p": {
+          "name": "LogCD: Local-to-global Consistency Distillation for Few-step Image Generation",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Xie_LogCD_Local-to-global_Consistency_Distillation_for_Few-step_Image_Generation_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "LogCM (FLUX.1-dev, 4-step)",
+        "d": "2026-06-03",
+        "m1": "0.64"
+      },
+      {
+        "p": {
           "name": "JanusFlow: Harmonizing Autoregression and Rectified Flow for Unified Multimodal Understanding and Generation",
           "link": "https://arxiv.org/abs/2411.07975v2"
         },
@@ -683,6 +2193,56 @@
         "n": "JanusFlow",
         "d": "2024-11-12",
         "m1": "0.63"
+      },
+      {
+        "p": {
+          "name": "NextStep-1: Toward Autoregressive Image Generation with Continuous Tokens at Scale",
+          "link": "https://arxiv.org/abs/2508.10711"
+        },
+        "c": "https://github.com/stepfun-ai/NextStep-1",
+        "n": "NextStep-1",
+        "d": "2025-08-14",
+        "m1": "0.63"
+      },
+      {
+        "p": {
+          "name": "Denoising, Fast and Slow: Difficulty-Aware Adaptive Sampling for Image Generation",
+          "link": "https://arxiv.org/abs/2604.19141"
+        },
+        "c": "https://github.com/compvis/patch-forcing",
+        "n": "PFT-1.2B + Look-Ahead",
+        "d": "2026-04-21",
+        "m1": "0.63"
+      },
+      {
+        "p": {
+          "name": "RoAR-VAE: Improving Latent Diffusability through Robust Prediction",
+          "link": "https://arxiv.org/abs/2610.26216"
+        },
+        "c": "https://github.com/LeapLabTHU/RoAR-VAE",
+        "n": "RoAR-VAE",
+        "d": "2026-10-19",
+        "m1": "0.6222"
+      },
+      {
+        "p": {
+          "name": "Compositional Text-to-Image Generation Via Region-aware Bimodal Direct Preference Optimization",
+          "link": "https://arxiv.org/abs/2605.28615"
+        },
+        "c": "https://github.com/anzeameol/bidpo",
+        "n": "SDXL-BiDPO",
+        "d": "2026-05-27",
+        "m1": "0.62"
+      },
+      {
+        "p": {
+          "name": "Janus: Decoupling Visual Encoding for Unified Multimodal Understanding and Generation",
+          "link": "https://arxiv.org/abs/2410.13848v1"
+        },
+        "c": "https://github.com/deepseek-ai/janus",
+        "n": "Janus",
+        "d": "2024-10-17",
+        "m1": "0.61"
       },
       {
         "p": {
@@ -706,6 +2266,86 @@
       },
       {
         "p": {
+          "name": "PixelFlow: Pixel-Space Generative Models with Flow",
+          "link": "https://arxiv.org/abs/2504.07963v1"
+        },
+        "c": "https://github.com/shoufachen/pixelflow",
+        "n": "PixelFlow (original prompts)",
+        "d": "2025-04-10",
+        "m1": "0.6"
+      },
+      {
+        "p": {
+          "name": "VINO: A Unified Visual Generator with Interleaved OmniModal Context",
+          "link": "https://arxiv.org/abs/2601.02358"
+        },
+        "c": "https://github.com/SOTAMak1r/VINO-code",
+        "n": "VINO (original prompts)",
+        "d": "2026-01-05",
+        "m1": "0.59"
+      },
+      {
+        "p": {
+          "name": "Learning from Noisy Preferences: A Semi-Supervised Learning Approach to Direct Preference Optimization",
+          "link": "https://arxiv.org/abs/2604.24952"
+        },
+        "c": "https://github.com/l-codingspace/semi-dpo",
+        "n": "Semi-DPO (SDXL)",
+        "d": "2026-04-27",
+        "m1": "0.5841"
+      },
+      {
+        "p": {
+          "name": "Optimizing Few-Step Generation with Adaptive Matching Distillation",
+          "link": "https://arxiv.org/abs/2602.07345"
+        },
+        "c": "",
+        "n": "SDXL-AMD",
+        "d": "2026-02-07",
+        "m1": "0.57"
+      },
+      {
+        "p": {
+          "name": "SCALE: Semantic-Calibrated Guidance Enhancement for Prompt-Faithful Diffusion",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/5514"
+        },
+        "c": "https://github.com/sudongcai/scale",
+        "n": "SCALE",
+        "d": "2026-09-08",
+        "m1": "0.5641"
+      },
+      {
+        "p": {
+          "name": "Generation Enhances Understanding in Unified Multimodal Models via Multi-Representation Generation",
+          "link": "https://arxiv.org/abs/2601.21406"
+        },
+        "c": "https://github.com/Sugewud/UniMRG",
+        "n": "OpenUni-3.6B + UniMRG",
+        "d": "2026-01-29",
+        "m1": "0.558"
+      },
+      {
+        "p": {
+          "name": "Scaling Text-to-Image Diffusion Transformers with Representation Autoencoders",
+          "link": "https://arxiv.org/abs/2601.16208"
+        },
+        "c": "https://github.com/ZitengWangNYU/Scale-RAE",
+        "n": "RAE (Qwen-2.5 7B + DiT 5.5B, without TTS)",
+        "d": "2026-01-22",
+        "m1": "0.555"
+      },
+      {
+        "p": {
+          "name": "Text-to-Image Generative Modeling Without Language Pretraining",
+          "link": "https://arxiv.org/abs/2610.26863"
+        },
+        "c": "",
+        "n": "Halcyon-1.60B",
+        "d": "2026-10-19",
+        "m1": "0.5348"
+      },
+      {
+        "p": {
           "name": "PixArt-Σ: Weak-to-Strong Training of Diffusion Transformer for 4K Text-to-Image Generation",
           "link": "https://arxiv.org/abs/2403.04692v2"
         },
@@ -716,6 +2356,16 @@
       },
       {
         "p": {
+          "name": "Few-Step Distillation for Text-to-Image Generation: A Practical Guide",
+          "link": "https://arxiv.org/abs/2512.13006"
+        },
+        "c": "https://github.com/alibaba-damo-academy/T2I-Distill",
+        "n": "sCM (2 NFE) (extra data)",
+        "d": "2025-12-15",
+        "m1": "0.5281"
+      },
+      {
+        "p": {
           "name": "DiffMoE: Dynamic Token Selection for Scalable Diffusion Transformers",
           "link": "https://arxiv.org/abs/2503.14487v1"
         },
@@ -723,6 +2373,26 @@
         "n": "DiffMoE-E16-T2I-Flow (w SFT)",
         "d": "2025-03-18",
         "m1": "0.51"
+      },
+      {
+        "p": {
+          "name": "Beyond Language Modeling: An Exploration of Multimodal Pretraining",
+          "link": "https://arxiv.org/abs/2603.03276"
+        },
+        "c": "",
+        "n": "MoE (Per-Modality Shared Expert)",
+        "d": "2026-03-03",
+        "m1": "0.367"
+      },
+      {
+        "p": {
+          "name": "Alchemist: Unlocking Efficiency in Text-to-Image Model Training via Meta-Gradient Data Selection",
+          "link": "https://arxiv.org/abs/2512.16905"
+        },
+        "c": "https://github.com/KlingTeam/Alchemist",
+        "n": "STAR-0.3B (trained with Alchemist selection, 15M)",
+        "d": "2025-12-18",
+        "m1": "0.2645"
       },
       {
         "p": {

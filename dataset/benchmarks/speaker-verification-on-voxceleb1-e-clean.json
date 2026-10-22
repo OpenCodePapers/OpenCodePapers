@@ -1,0 +1,186 @@
+{
+  "title": "speaker-verification-on-voxceleb1-e-clean",
+  "task-hierarchy": [
+    "Speaker Recognition",
+    "Speaker Verification"
+  ],
+  "dataset-info": {
+    "link": "https://www.robots.ox.ac.uk/~vgg/data/voxceleb/vox1.html",
+    "paper": "VoxCeleb2: Deep Speaker Recognition"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "EER",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "minDCF (P_target=0.01)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Enhancing Speaker Verification with w2v-BERT 2.0 and Knowledge Distillation guided Structured Pruning",
+          "link": "https://arxiv.org/abs/2510.04213"
+        },
+        "c": "",
+        "n": "w2v-BERT 2.0 LoRA Adapter MFA + LMFT + calibration (extra data)",
+        "d": "2025-10-05",
+        "m1": "0.27",
+        "m2": "0.028"
+      },
+      {
+        "p": {
+          "name": "ReDimNet2: Scaling Speaker Verification via Time-Pooled Dimension Reshaping",
+          "link": "https://arxiv.org/abs/2603.11841"
+        },
+        "c": "https://github.com/palabraai/redimnet2",
+        "n": "ReDimNet2-B6 (VoxBlink2 + VoxCeleb2) (extra data)",
+        "d": "2026-03-12",
+        "m1": "0.35"
+      },
+      {
+        "p": {
+          "name": "ECAPA2: A Hybrid Neural Network Architecture and Training Strategy for Robust Speaker Embeddings",
+          "link": "https://arxiv.org/abs/2401.08342"
+        },
+        "c": "",
+        "n": "ECAPA2",
+        "d": "2024-01-16",
+        "m1": "0.52",
+        "m2": "0.058"
+      },
+      {
+        "p": {
+          "name": "Reshape Dimensions Network for Speaker Recognition",
+          "link": "https://arxiv.org/abs/2407.18223v2"
+        },
+        "c": "https://github.com/IDRnD/ReDimNet",
+        "n": "ReDimNet-B6-SF2-LM-ASNorm",
+        "d": "2024-07-25",
+        "m1": "0.53",
+        "m2": "0.051"
+      },
+      {
+        "p": {
+          "name": "Kiwano: A Cutting-Edge Open-Source Toolkit for Speaker Verification",
+          "link": "https://arxiv.org/abs/2606.22369"
+        },
+        "c": "",
+        "n": "Kiwano fwSE-ResNet-200 (full refinement)",
+        "d": "2026-06-21",
+        "m1": "0.54",
+        "m2": "0.047"
+      },
+      {
+        "p": {
+          "name": "Wespeaker: A Research and Production oriented Speaker Embedding Learning Toolkit",
+          "link": "https://arxiv.org/abs/2210.17016"
+        },
+        "c": "",
+        "n": "WeSpeaker ResNet293",
+        "d": "2022-10-31",
+        "m1": "0.657",
+        "m2": "0.066"
+      },
+      {
+        "p": {
+          "name": "ERes2NetV2: Boosting Short-Duration Speaker Verification Performance with Computational Efficiency",
+          "link": "https://arxiv.org/abs/2406.02167"
+        },
+        "c": "https://github.com/modelscope/3D-Speaker",
+        "n": "ERes2NetV2",
+        "d": "2024-06-04",
+        "m1": "0.76",
+        "m2": "0.082"
+      },
+      {
+        "p": {
+          "name": "Golden Gemini is All You Need: Finding the Sweet Spots for Speaker Verification",
+          "link": "https://arxiv.org/abs/2312.03620"
+        },
+        "c": "",
+        "n": "Gemini DF-ResNet183",
+        "d": "2023-12-06",
+        "m1": "0.806",
+        "m2": "0.090"
+      },
+      {
+        "p": {
+          "name": "CAM++: A Fast and Efficient Network for Speaker Verification Using Context-Aware Masking",
+          "link": "https://arxiv.org/abs/2303.00332"
+        },
+        "c": "",
+        "n": "CAM++",
+        "d": "2023-03-01",
+        "m1": "0.89",
+        "m2": "0.0995"
+      },
+      {
+        "p": {
+          "name": "An Enhanced Res2Net with Local and Global Feature Fusion for Speaker Verification",
+          "link": "https://arxiv.org/abs/2305.12838"
+        },
+        "c": "https://github.com/alibaba-damo-academy/3D-Speaker",
+        "n": "ERes2Net (LMT)",
+        "d": "2023-05-22",
+        "m1": "0.94",
+        "m2": "0.104"
+      },
+      {
+        "p": {
+          "name": "ECAPA-TDNN: Emphasized Channel Attention, Propagation and Aggregation in TDNN Based Speaker Verification",
+          "link": "https://arxiv.org/abs/2005.07143"
+        },
+        "c": "https://github.com/LKLQQ/ecapa_tdnn",
+        "n": "ECAPA-TDNN (C=1024)",
+        "d": "2020-05-14",
+        "m1": "1.12",
+        "m2": "0.1318"
+      },
+      {
+        "p": {
+          "name": "ExPO: Explainable Phonetic Trait-Oriented Network for Speaker Verification",
+          "link": "https://arxiv.org/abs/2501.05729"
+        },
+        "c": "",
+        "n": "ExPO (LAAM)",
+        "d": "2025-01-10",
+        "m1": "1.515",
+        "m2": "0.184"
+      },
+      {
+        "p": {
+          "name": "UniPET-SPK: A Unified Framework for Parameter-Efficient Tuning of Pre-trained Speech Models for Robust Speaker Verification",
+          "link": "https://arxiv.org/abs/2501.16542"
+        },
+        "c": "",
+        "n": "UniPET-SPK (WavLM Base+ + TDNN)",
+        "d": "2025-01-27",
+        "m1": "1.74",
+        "m2": "0.138"
+      }
+    ]
+  }
+}

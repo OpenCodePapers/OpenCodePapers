@@ -125,6 +125,16 @@
       },
       {
         "p": {
+          "name": "WQuatNet: Wide range quaternion-based head pose estimation",
+          "link": "https://doi.org/10.1007/s44443-025-00034-1"
+        },
+        "c": "",
+        "n": "WQuatNet (RepVGG-D2se) (extra data)",
+        "d": "2025-04-15",
+        "m1": "3.75"
+      },
+      {
+        "p": {
           "name": "SADRNet: Self-Aligned Dual Face Regression Networks for Robust 3D Dense Face Alignment and Reconstruction",
           "link": "https://arxiv.org/abs/2106.03021v1"
         },
@@ -187,6 +197,16 @@
       },
       {
         "p": {
+          "name": "MFDNet: Collaborative Poses Perception and Matrix Fisher Distribution for Head Pose Estimation",
+          "link": "https://doi.org/10.1109/TMM.2021.3081873"
+        },
+        "c": "",
+        "n": "MFDNet (EfficientNet-B0, α=2, β=3)",
+        "d": "2022-01-01",
+        "m1": "4.38"
+      },
+      {
+        "p": {
           "name": "2D Image head pose estimation via latent space regression under occlusion settings",
           "link": "https://arxiv.org/abs/2311.06038v1"
         },
@@ -194,6 +214,16 @@
         "n": "LSR",
         "d": "2023-11-10",
         "m1": "4.412"
+      },
+      {
+        "p": {
+          "name": "QuatNet: Quaternion-Based Head Pose Estimation With Multiregression Loss",
+          "link": "https://doi.org/10.1109/TMM.2018.2866770"
+        },
+        "c": "",
+        "n": "QuatNet (extra data)",
+        "d": "2019-04-01",
+        "m1": "4.503"
       },
       {
         "p": {
@@ -226,6 +256,26 @@
         "d": "2019-06-01",
         "m1": "5.07",
         "m3": "8.16"
+      },
+      {
+        "p": {
+          "name": "Unsupervised Discovery of Facial Landmarks and Head Pose",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Tourani_Unsupervised_Discovery_of_Facial_Landmarks_and_Head_Pose_CVPR_2025_paper.html"
+        },
+        "c": "https://github.com/touranisatyajit/cvpr2025-uld-headpose",
+        "n": "Ours (K=10)",
+        "d": "2025-06-11",
+        "m1": "5.28"
+      },
+      {
+        "p": {
+          "name": "GADS: A Super Lightweight Model for Head Pose Estimation",
+          "link": "https://arxiv.org/abs/2504.15751"
+        },
+        "c": "",
+        "n": "GADS",
+        "d": "2025-04-22",
+        "m1": "5.30"
       },
       {
         "p": {

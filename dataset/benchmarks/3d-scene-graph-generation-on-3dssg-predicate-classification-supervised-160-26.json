@@ -1,0 +1,160 @@
+{
+  "title": "3d-scene-graph-generation-on-3dssg-predicate-classification-supervised-160-26",
+  "task-hierarchy": [
+    "Scene Understanding",
+    "Scene Graph Generation",
+    "3D Scene Graph Generation"
+  ],
+  "dataset-info": {
+    "link": "https://3dssg.github.io/",
+    "paper": "Learning 3D Semantic Scene Graphs from 3D Indoor Reconstructions"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "mR@20",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "mR@50",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "mR@100",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "R@20 (Graph Constraint)",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "R@50 (Graph Constraint)",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "R@100 (Graph Constraint)",
+        "sortable": "true"
+      },
+      {
+        "key": "m7",
+        "label": "ngcR@20",
+        "sortable": "true"
+      },
+      {
+        "key": "m8",
+        "label": "ngcR@50",
+        "sortable": "true"
+      },
+      {
+        "key": "m9",
+        "label": "ngcR@100",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Edge-Centric Relational Reasoning for 3D Scene Graph Prediction",
+          "link": "https://arxiv.org/abs/2511.15288"
+        },
+        "c": "",
+        "n": "3DHetSGP + LEO",
+        "d": "2025-11-19",
+        "m1": "65.8",
+        "m2": "68.5",
+        "m3": "68.9",
+        "m7": "73.3",
+        "m8": "90.1",
+        "m9": "95.1",
+        "m4": "62.9",
+        "m5": "65.8",
+        "m6": "65.8"
+      },
+      {
+        "p": {
+          "name": "ToLL: Topological Layout Learning with Asymmetric Cross-View Structural Distillation for 3D Scene Graph Generation Pretraining",
+          "link": "https://arxiv.org/abs/2603.28178"
+        },
+        "c": "",
+        "n": "VL-SAT-PointTransformer + Decoupled ToLL++",
+        "d": "2026-03-30",
+        "m1": "60.2",
+        "m2": "69.4"
+      },
+      {
+        "p": {
+          "name": "Edge-Centric Relational Reasoning for 3D Scene Graph Prediction",
+          "link": "https://arxiv.org/abs/2511.15288"
+        },
+        "c": "",
+        "n": "KISGP + LEO",
+        "d": "2025-11-19",
+        "m1": "59.0",
+        "m2": "64.7",
+        "m3": "64.8",
+        "m7": "64.4",
+        "m8": "80.3",
+        "m9": "89.6",
+        "m4": "61.5",
+        "m5": "66.8",
+        "m6": "66.9"
+      },
+      {
+        "p": {
+          "name": "From Scene-Centric to Observer-Centric: Modeling Observer-Aware Relations for 3D Scene Graph Generation",
+          "link": "https://arxiv.org/abs/2606.27412"
+        },
+        "c": "",
+        "n": "OAR",
+        "d": "2026-06-25",
+        "m1": "58.8",
+        "m2": "66.7",
+        "m3": "67.1",
+        "m4": "73.1",
+        "m5": "86.0",
+        "m6": "86.4"
+      },
+      {
+        "p": {
+          "name": "VL-SAT: Visual-Linguistic Semantics Assisted Training for 3D Semantic Scene Graph Prediction in Point Cloud",
+          "link": "https://arxiv.org/abs/2303.14408"
+        },
+        "c": "https://github.com/wz7in/cvpr2023-vlsat",
+        "n": "VL-SAT",
+        "d": "2023-03-25",
+        "m1": "57.8",
+        "m2": "64.2",
+        "m3": "64.3",
+        "m7": "70.5",
+        "m8": "85.0",
+        "m9": "92.5",
+        "m4": "67.8",
+        "m5": "79.9",
+        "m6": "80.8"
+      }
+    ]
+  }
+}

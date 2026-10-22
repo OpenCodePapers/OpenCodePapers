@@ -1,0 +1,89 @@
+{
+  "title": "computer-use-agents-on-osworld-2-0-0808-offline-82-tasks",
+  "task-hierarchy": [
+    "Agents",
+    "Computer Use Agents"
+  ],
+  "dataset-info": {
+    "link": "https://osworld-v2.xlang.ai/",
+    "paper": "OSWorld2.0: Benchmarking Computer Use Agents on Long-Horizon Real-World Tasks"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Partial",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "RSIAgent: Autonomous Exploration for Recursive Self-improvement in New Environments",
+          "link": "https://arxiv.org/abs/2609.15364"
+        },
+        "c": "https://github.com/AetherLabsAI/RSIAgent",
+        "n": "RSIAgent",
+        "d": "2026-09-14",
+        "m1": "78.98"
+      },
+      {
+        "p": {
+          "name": "Introducing GPT-6.1 Sol",
+          "link": "https://openai.com/index/introducing-gpt-6-1-sol/"
+        },
+        "c": "",
+        "n": "GPT-6.1 Sol",
+        "d": "2026-09-29",
+        "m1": "71.42"
+      },
+      {
+        "p": {
+          "name": "Gemini 4 Argon: our next era of frontier intelligence",
+          "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+        },
+        "c": "https://github.com/google-gemini/gemini-cli",
+        "n": "Gemini 4 Argon",
+        "d": "2026-09-30",
+        "m1": "69.2"
+      },
+      {
+        "p": {
+          "name": "Introducing GPT-6 Sol and Luna",
+          "link": "https://openai.com/index/introducing-gpt-6-sol-and-luna/"
+        },
+        "c": "",
+        "n": "GPT-6 Sol",
+        "d": "2026-09-22",
+        "m1": "64.43"
+      },
+      {
+        "p": {
+          "name": "Introducing GPT-6 Sol and Luna",
+          "link": "https://openai.com/index/introducing-gpt-6-sol-and-luna/"
+        },
+        "c": "",
+        "n": "GPT-6 Luna",
+        "d": "2026-09-22",
+        "m1": "52.68"
+      }
+    ]
+  }
+}

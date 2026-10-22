@@ -40,6 +40,196 @@
     "items": [
       {
         "p": {
+          "name": "Qwen3-VL Technical Report",
+          "link": "https://arxiv.org/abs/2511.21631"
+        },
+        "c": "https://github.com/QwenLM/Qwen3-VL",
+        "n": "Qwen3-VL-235B-A22B-Instruct",
+        "d": "2025-11-26",
+        "m1": "0.971"
+      },
+      {
+        "p": {
+          "name": "Visual Document Understanding and Question Answering: A Multi-Agent Collaboration Framework with Test-Time Scaling",
+          "link": "https://arxiv.org/abs/2508.03404"
+        },
+        "c": "https://github.com/yu-deep/mact",
+        "n": "MACT Qwen2.5-VL Series 24B (Agent-Wise Adaptive TTS) (extra data)",
+        "d": "2025-08-05",
+        "m1": "0.966"
+      },
+      {
+        "p": {
+          "name": "Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution",
+          "link": "https://arxiv.org/abs/2409.12191v2"
+        },
+        "c": "https://github.com/qwenlm/qwen2-vl",
+        "n": "Qwen2-VL-72B",
+        "d": "2024-09-18",
+        "m1": "0.965"
+      },
+      {
+        "p": {
+          "name": "MiniMax-01: Scaling Foundation Models with Lightning Attention",
+          "link": "https://arxiv.org/abs/2501.08313"
+        },
+        "c": "https://huggingface.co/MiniMaxAI/MiniMax-Text-01",
+        "n": "MiniMax-VL-01",
+        "d": "2025-01-14",
+        "m1": "0.964"
+      },
+      {
+        "p": {
+          "name": "Qwen2.5-VL Technical Report",
+          "link": "https://arxiv.org/abs/2502.13923v1"
+        },
+        "c": "https://github.com/qwenlm/qwen2-vl",
+        "n": "Qwen2.5-VL-72B",
+        "d": "2025-02-19",
+        "m1": "0.964"
+      },
+      {
+        "p": {
+          "name": "Penguin-VL: Exploring the Efficiency Limits of VLM with LLM-based Vision Encoders",
+          "link": "https://arxiv.org/abs/2603.06569"
+        },
+        "c": "https://github.com/tencent-ailab/Penguin-VL",
+        "n": "Penguin-VL 8B",
+        "d": "2026-03-06",
+        "m1": "0.961"
+      },
+      {
+        "p": {
+          "name": "Introducing Command A Vision: Multimodal AI built for business",
+          "link": "https://cohere.com/blog/command-a-vision"
+        },
+        "c": "",
+        "n": "Command A Vision",
+        "d": "2025-07-31",
+        "m1": "0.959"
+      },
+      {
+        "p": {
+          "name": "Nemotron 3 Nano Omni: Efficient and Open Multimodal Intelligence",
+          "link": "https://arxiv.org/abs/2604.24954"
+        },
+        "c": "https://github.com/nvidia-nemo/megatron-bridge",
+        "n": "Nemotron 3 Nano Omni (Reasoning)",
+        "d": "2026-04-27",
+        "m1": "0.956"
+      },
+      {
+        "p": {
+          "name": "InternVL3: Exploring Advanced Training and Test-Time Recipes for Open-Source Multimodal Models",
+          "link": "https://arxiv.org/abs/2504.10479"
+        },
+        "c": "https://github.com/OpenGVLab/InternVL",
+        "n": "InternVL3-78B",
+        "d": "2025-04-14",
+        "m1": "0.954"
+      },
+      {
+        "p": {
+          "name": "Introducing Claude 3.5 Sonnet",
+          "link": "https://www.anthropic.com/news/claude-3-5-sonnet"
+        },
+        "c": "",
+        "n": "Claude 3.5 Sonnet",
+        "d": "2024-06-20",
+        "m1": "0.952"
+      },
+      {
+        "p": {
+          "name": "Qwen2.5-Omni Technical Report",
+          "link": "https://arxiv.org/abs/2503.20215"
+        },
+        "c": "https://github.com/QwenLM/Qwen2.5-Omni",
+        "n": "Qwen2.5-Omni-7B",
+        "d": "2025-03-26",
+        "m1": "0.952"
+      },
+      {
+        "p": {
+          "name": "LLaVA-OneVision-2: Towards Next-Generation Perceptual Intelligence",
+          "link": "https://arxiv.org/abs/2605.25979"
+        },
+        "c": "https://github.com/evolvinglmms-lab/llava-onevision-2",
+        "n": "LLaVA-OneVision-2-8B",
+        "d": "2026-05-25",
+        "m1": "0.952"
+      },
+      {
+        "p": {
+          "name": "Mage-VL: An Efficient Codec-Native Streaming Multimodal Foundation Model",
+          "link": "https://arxiv.org/abs/2607.24904"
+        },
+        "c": "https://github.com/microsoft/Mage",
+        "n": "Mage-VL-4B",
+        "d": "2026-07-27",
+        "m1": "0.9514"
+      },
+      {
+        "p": {
+          "name": "VideoLLaMA 3: Frontier Multimodal Foundation Models for Image and Video Understanding",
+          "link": "https://arxiv.org/abs/2501.13106v3"
+        },
+        "c": "https://github.com/damo-nlp-sg/videollama3",
+        "n": "VideoLLaMA3 7B",
+        "d": "2025-01-22",
+        "m1": "0.949"
+      },
+      {
+        "p": {
+          "name": "MiniCPM-V 4.5: Cooking Efficient MLLMs via Architecture, Data, and Training Recipe",
+          "link": "https://arxiv.org/abs/2509.18154"
+        },
+        "c": "https://github.com/OpenBMB/MiniCPM-V",
+        "n": "MiniCPM-V 4.5",
+        "d": "2025-09-16",
+        "m1": "0.947"
+      },
+      {
+        "p": {
+          "name": "NVIDIA Nemotron Nano V2 VL",
+          "link": "https://arxiv.org/abs/2511.03929"
+        },
+        "c": "https://github.com/NVIDIA-NeMo/Curator",
+        "n": "Nemotron Nano V2 VL (Reasoning off) (extra data)",
+        "d": "2025-11-06",
+        "m1": "0.947"
+      },
+      {
+        "p": {
+          "name": "Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution",
+          "link": "https://arxiv.org/abs/2409.12191v2"
+        },
+        "c": "https://github.com/qwenlm/qwen2-vl",
+        "n": "Qwen2-VL-7B",
+        "d": "2024-09-18",
+        "m1": "0.945"
+      },
+      {
+        "p": {
+          "name": "The Llama 4 herd: The beginning of a new era of natively multimodal AI innovation",
+          "link": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/"
+        },
+        "c": "https://github.com/meta-llama/llama-cookbook",
+        "n": "Llama 4 Scout",
+        "d": "2025-04-05",
+        "m1": "0.944"
+      },
+      {
+        "p": {
+          "name": "The Llama 4 herd: The beginning of a new era of natively multimodal AI innovation",
+          "link": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/"
+        },
+        "c": "https://github.com/meta-llama/llama-cookbook",
+        "n": "Llama 4 Maverick",
+        "d": "2025-04-05",
+        "m1": "0.944"
+      },
+      {
+        "p": {
           "name": "DocVQA: A Dataset for VQA on Document Images",
           "link": "https://arxiv.org/abs/2007.00398v3"
         },
@@ -47,6 +237,176 @@
         "n": "Human",
         "d": "2020-07-01",
         "m1": "0.9436"
+      },
+      {
+        "p": {
+          "name": "Molmo and PixMo: Open Weights and Open Data for State-of-the-Art Vision-Language Models",
+          "link": "https://arxiv.org/abs/2409.17146"
+        },
+        "c": "https://github.com/allenai/molmo",
+        "n": "Molmo 72B",
+        "d": "2024-09-25",
+        "m1": "0.935"
+      },
+      {
+        "p": {
+          "name": "Penguin-VL: Exploring the Efficiency Limits of VLM with LLM-based Vision Encoders",
+          "link": "https://arxiv.org/abs/2603.06569"
+        },
+        "c": "https://github.com/tencent-ailab/Penguin-VL",
+        "n": "Penguin-VL 2B",
+        "d": "2026-03-06",
+        "m1": "0.933"
+      },
+      {
+        "p": {
+          "name": "FastVLM: Efficient Vision Encoding for Vision Language Models",
+          "link": "https://arxiv.org/abs/2412.13303"
+        },
+        "c": "https://github.com/apple/ml-fastvlm",
+        "n": "FastVLM-7B",
+        "d": "2024-12-17",
+        "m1": "0.932"
+      },
+      {
+        "p": {
+          "name": "Phi-4-Mini Technical Report: Compact yet Powerful Multimodal Language Models via Mixture-of-LoRAs",
+          "link": "https://arxiv.org/abs/2503.01743"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Phi-4-Multimodal",
+        "d": "2025-02-24",
+        "m1": "0.932"
+      },
+      {
+        "p": {
+          "name": "Molmo2: Open Weights and Data for Vision-Language Models with Video Understanding and Grounding",
+          "link": "https://arxiv.org/abs/2601.10611"
+        },
+        "c": "https://github.com/allenai/molmo2",
+        "n": "Molmo2-8B",
+        "d": "2026-01-15",
+        "m1": "0.932"
+      },
+      {
+        "p": {
+          "name": "Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context",
+          "link": "https://arxiv.org/abs/2403.05530v5"
+        },
+        "c": "https://github.com/dlvuldet/primevul",
+        "n": "Gemini 1.5 Pro",
+        "d": "2024-03-08",
+        "m1": "0.931"
+      },
+      {
+        "p": {
+          "name": "Hello GPT-4o",
+          "link": "https://openai.com/index/hello-gpt-4o/"
+        },
+        "c": "",
+        "n": "GPT-4o",
+        "d": "2024-05-13",
+        "m1": "0.928"
+      },
+      {
+        "p": {
+          "name": "Qianfan-OCR: A Unified End-to-End Model for Document Intelligence",
+          "link": "https://arxiv.org/abs/2603.13398"
+        },
+        "c": "https://github.com/baidubce/Qianfan-VL",
+        "n": "Qianfan-OCR",
+        "d": "2026-03-11",
+        "m1": "0.928"
+      },
+      {
+        "p": {
+          "name": "Oryx MLLM: On-Demand Spatial-Temporal Understanding at Arbitrary Resolution",
+          "link": "https://arxiv.org/abs/2409.12961v3"
+        },
+        "c": "https://github.com/oryx-mllm/oryx",
+        "n": "Oryx-1.5 32B",
+        "d": "2024-09-19",
+        "m1": "0.927"
+      },
+      {
+        "p": {
+          "name": "The Llama 3 Herd of Models",
+          "link": "https://arxiv.org/abs/2407.21783v3"
+        },
+        "c": "https://github.com/zhuzilin/ring-flash-attention",
+        "n": "Llama 3-V (405B)",
+        "d": "2024-07-31",
+        "m1": "0.926"
+      },
+      {
+        "p": {
+          "name": "Aria: An Open Multimodal Native Mixture-of-Experts Model",
+          "link": "https://arxiv.org/abs/2410.05993v4"
+        },
+        "c": "https://github.com/rhymes-ai/aria",
+        "n": "Aria",
+        "d": "2024-10-08",
+        "m1": "0.926"
+      },
+      {
+        "p": {
+          "name": "Beyond Correctness: Benchmarking and Aligning Response Behaviors in Hybrid-Thinking MLLMs",
+          "link": "https://arxiv.org/abs/2608.12781"
+        },
+        "c": "",
+        "n": "Qwen3-VL-8B + PatternRL",
+        "d": "2026-08-17",
+        "m1": "0.9254"
+      },
+      {
+        "p": {
+          "name": "ZAYA1-VL-8B Technical Report",
+          "link": "https://www.zyphra.com/zaya1-vl-8b-technical-report"
+        },
+        "c": "https://github.com/Zyphra/transformers/tree/zaya1-vl",
+        "n": "ZAYA1-VL-8B",
+        "d": "2026-05-08",
+        "m1": "0.925"
+      },
+      {
+        "p": {
+          "name": "VideoLLaMA 3: Frontier Multimodal Foundation Models for Image and Video Understanding",
+          "link": "https://arxiv.org/abs/2501.13106v3"
+        },
+        "c": "https://github.com/damo-nlp-sg/videollama3",
+        "n": "VideoLLaMA3 2B",
+        "d": "2025-01-22",
+        "m1": "0.919"
+      },
+      {
+        "p": {
+          "name": "From Pixels to Words -- Towards Native One-Vision Models at Scale",
+          "link": "https://arxiv.org/abs/2605.28820"
+        },
+        "c": "https://github.com/EvolvingLMMs-Lab/NEO",
+        "n": "NEO-ov 9B",
+        "d": "2026-05-27",
+        "m1": "0.919"
+      },
+      {
+        "p": {
+          "name": "Multimodal OCR: Parse Anything from Documents",
+          "link": "https://arxiv.org/abs/2603.13032"
+        },
+        "c": "https://github.com/rednote-hilab/dots.mocr",
+        "n": "dots.mocr",
+        "d": "2026-03-13",
+        "m1": "0.9185"
+      },
+      {
+        "p": {
+          "name": "InfiniteVL: Synergizing Linear and Sparse Attention for Highly-Efficient, Unlimited-Input Vision-Language Models",
+          "link": "https://arxiv.org/abs/2512.08829"
+        },
+        "c": "https://github.com/hustvl/InfiniteVL",
+        "n": "InfiniteVL-Base (extra data)",
+        "d": "2025-12-09",
+        "m1": "0.917"
       },
       {
         "p": {
@@ -60,6 +420,36 @@
       },
       {
         "p": {
+          "name": "LLaDA-UI: Bringing Block-wise Diffusion to Vision-Language GUI Agents",
+          "link": "https://arxiv.org/abs/2609.13287"
+        },
+        "c": "https://github.com/inclusionai/llada-ui",
+        "n": "LLaDA-UI (pre-training)",
+        "d": "2026-09-09",
+        "m1": "0.915"
+      },
+      {
+        "p": {
+          "name": "LLaVA-OneVision: Easy Visual Task Transfer",
+          "link": "https://arxiv.org/abs/2408.03326v3"
+        },
+        "c": "https://github.com/evolvinglmms-lab/lmms-eval",
+        "n": "LLaVA-OneVision-72B",
+        "d": "2024-08-06",
+        "m1": "0.913"
+      },
+      {
+        "p": {
+          "name": "Gemini: A Family of Highly Capable Multimodal Models",
+          "link": "https://arxiv.org/abs/2312.11805v5"
+        },
+        "c": "https://github.com/valdecy/pybibx",
+        "n": "Gemini Ultra",
+        "d": "2023-12-19",
+        "m1": "0.909"
+      },
+      {
+        "p": {
           "name": "Omni-SMoLA: Boosting Generalist Multimodal Models with Soft Mixture of Low-rank Experts",
           "link": "https://arxiv.org/abs/2312.00968v2"
         },
@@ -67,6 +457,16 @@
         "n": "SMoLA-PaLI-X Specialist",
         "d": "2023-12-01",
         "m1": "0.908"
+      },
+      {
+        "p": {
+          "name": "Pixtral 12B",
+          "link": "https://arxiv.org/abs/2410.07073"
+        },
+        "c": "https://github.com/mistralai/mistral-inference",
+        "n": "Pixtral 12B",
+        "d": "2024-10-09",
+        "m1": "0.907"
       },
       {
         "p": {
@@ -80,6 +480,26 @@
       },
       {
         "p": {
+          "name": "Cosmos 3: Omnimodal World Models for Physical AI",
+          "link": "https://arxiv.org/abs/2606.02800"
+        },
+        "c": "https://github.com/nvidia/cosmos",
+        "n": "Cosmos3-Super",
+        "d": "2026-06-01",
+        "m1": "0.904"
+      },
+      {
+        "p": {
+          "name": "MoE-ViE: Mixture of Experts Vision Encoder for Efficient Image and Video Understanding",
+          "link": "https://arxiv.org/abs/2608.17402"
+        },
+        "c": "https://github.com/facebookresearch/moe_vie",
+        "n": "MoE-ViE-H/14 + Llama 3.1 8B (42M alignment)",
+        "d": "2026-08-18",
+        "m1": "0.904"
+      },
+      {
+        "p": {
           "name": "Qwen-VL: A Versatile Vision-Language Model for Understanding, Localization, Text Reading, and Beyond",
           "link": "https://arxiv.org/abs/2308.12966v3"
         },
@@ -87,6 +507,46 @@
         "n": "Qwen-VL-Plus",
         "d": "2023-08-24",
         "m1": "0.9024"
+      },
+      {
+        "p": {
+          "name": "MODUS: Decoder-Only Any-to-Any Modeling of Diverse Modalities",
+          "link": "https://arxiv.org/abs/2607.25948"
+        },
+        "c": "https://github.com/EPFL-VILAB/Modus",
+        "n": "Modus",
+        "d": "2026-07-28",
+        "m1": "0.9011"
+      },
+      {
+        "p": {
+          "name": "Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution",
+          "link": "https://arxiv.org/abs/2409.12191v2"
+        },
+        "c": "https://github.com/qwenlm/qwen2-vl",
+        "n": "Qwen2-VL-2B",
+        "d": "2024-09-18",
+        "m1": "0.901"
+      },
+      {
+        "p": {
+          "name": "Llama 3.2: Revolutionizing edge AI and vision with open, customizable models",
+          "link": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/"
+        },
+        "c": "https://github.com/meta-llama/llama-models",
+        "n": "Llama 3.2 90B Vision Instruct",
+        "d": "2024-09-25",
+        "m1": "0.901"
+      },
+      {
+        "p": {
+          "name": "From Pixels to Words -- Towards Native Vision-Language Primitives at Scale",
+          "link": "https://arxiv.org/abs/2510.14979"
+        },
+        "c": "https://github.com/EvolvingLMMs-Lab/NEO",
+        "n": "NEO-2.2B",
+        "d": "2025-10-16",
+        "m1": "0.899"
       },
       {
         "p": {
@@ -120,6 +580,16 @@
       },
       {
         "p": {
+          "name": "GPT-4 Technical Report",
+          "link": "https://arxiv.org/abs/2303.08774v5"
+        },
+        "c": "https://github.com/openai/evals",
+        "n": "GPT-4 (vision, 0-shot pixel-only)",
+        "d": "2023-03-15",
+        "m1": "0.884"
+      },
+      {
+        "p": {
           "name": "Layout and Task Aware Instruction Prompt for Zero-shot Document Image Question Answering",
           "link": "https://arxiv.org/abs/2306.00526v4"
         },
@@ -150,6 +620,16 @@
       },
       {
         "p": {
+          "name": "Building and better understanding vision-language models: insights and future directions",
+          "link": "https://arxiv.org/abs/2408.12637"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Idefics3-8B",
+        "d": "2024-08-22",
+        "m1": "0.877"
+      },
+      {
+        "p": {
           "name": "PaLI-3 Vision Language Models: Smaller, Faster, Stronger",
           "link": "https://arxiv.org/abs/2310.09199v2"
         },
@@ -157,6 +637,16 @@
         "n": "PaLI-3",
         "d": "2023-10-13",
         "m1": "0.876"
+      },
+      {
+        "p": {
+          "name": "Mini-Monkey: Alleviating the Semantic Sawtooth Effect for Lightweight MLLMs via Complementary Image Pyramid",
+          "link": "https://arxiv.org/abs/2408.02034"
+        },
+        "c": "https://github.com/yuliang-liu/monkey",
+        "n": "Mini-Monkey (extra data)",
+        "d": "2024-08-04",
+        "m1": "0.874"
       },
       {
         "p": {
@@ -200,6 +690,26 @@
       },
       {
         "p": {
+          "name": "PaliGemma: A versatile 3B VLM for transfer",
+          "link": "https://arxiv.org/abs/2407.07726"
+        },
+        "c": "https://github.com/google-research/big_vision",
+        "n": "PaliGemma",
+        "d": "2024-07-10",
+        "m1": "0.848"
+      },
+      {
+        "p": {
+          "name": "MiniCPM-V: A GPT-4V Level MLLM on Your Phone",
+          "link": "https://arxiv.org/abs/2408.01800v1"
+        },
+        "c": "https://github.com/openbmb/minicpm-v",
+        "n": "MiniCPM-Llama3-V 2.5",
+        "d": "2024-08-03",
+        "m1": "0.848"
+      },
+      {
+        "p": {
           "name": "Unifying Vision, Text, and Layout for Universal Document Processing",
           "link": "https://arxiv.org/abs/2212.02623v3"
         },
@@ -217,6 +727,16 @@
         "n": "TILT-Base",
         "d": "2021-02-18",
         "m1": "0.8392"
+      },
+      {
+        "p": {
+          "name": "LayoutLMv3: Pre-training for Document AI with Unified Text and Image Masking",
+          "link": "https://arxiv.org/abs/2204.08387v3"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "LayoutLMv3 Large",
+        "d": "2022-04-18",
+        "m1": "0.8337"
       },
       {
         "p": {
@@ -240,6 +760,26 @@
       },
       {
         "p": {
+          "name": "mPLUG-DocOwl 1.5: Unified Structure Learning for OCR-free Document Understanding",
+          "link": "https://arxiv.org/abs/2403.12895"
+        },
+        "c": "https://github.com/x-plug/mplug-docowl",
+        "n": "DocOwl 1.5 Chat (extra data)",
+        "d": "2024-03-19",
+        "m1": "0.822"
+      },
+      {
+        "p": {
+          "name": "KOSMOS-2.5: A Multimodal Literate Model",
+          "link": "https://arxiv.org/abs/2309.11419"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Kosmos-2.5-chat",
+        "d": "2023-09-20",
+        "m1": "0.811"
+      },
+      {
+        "p": {
           "name": "PaLI-X: On Scaling up a Multilingual Vision and Language Model",
           "link": "https://arxiv.org/abs/2305.18565v1"
         },
@@ -247,6 +787,16 @@
         "n": "PaLI-X (Multi-task FT)",
         "d": "2023-05-29",
         "m1": "0.809"
+      },
+      {
+        "p": {
+          "name": "mPLUG-DocOwl2: High-resolution Compressing for OCR-free Multi-page Document Understanding",
+          "link": "https://arxiv.org/abs/2409.03420"
+        },
+        "c": "https://github.com/x-plug/mplug-docowl",
+        "n": "DocOwl2",
+        "d": "2024-09-05",
+        "m1": "0.807"
       },
       {
         "p": {
@@ -270,6 +820,26 @@
       },
       {
         "p": {
+          "name": "SmolVLM: Redefining small and efficient multimodal models",
+          "link": "https://arxiv.org/abs/2504.05299"
+        },
+        "c": "https://github.com/huggingface/smollm",
+        "n": "SmolVLM 2.2B",
+        "d": "2025-04-07",
+        "m1": "0.800"
+      },
+      {
+        "p": {
+          "name": "LLaVA-NeXT-Interleave: Tackling Multi-image, Video, and 3D in Large Multimodal Models",
+          "link": "https://arxiv.org/abs/2407.07895v2"
+        },
+        "c": "https://github.com/LLaVA-VL/LLaVA-NeXT",
+        "n": "LLaVA-NeXT-Interleave 14B",
+        "d": "2024-07-10",
+        "m1": "0.789"
+      },
+      {
+        "p": {
           "name": "DUBLIN -- Document Understanding By Language-Image Network",
           "link": "https://arxiv.org/abs/2305.14218v4"
         },
@@ -290,6 +860,16 @@
       },
       {
         "p": {
+          "name": "Falcon2-11B Technical Report",
+          "link": "https://arxiv.org/abs/2407.14885"
+        },
+        "c": "",
+        "n": "Falcon2-11B VLM",
+        "d": "2024-07-20",
+        "m1": "0.769"
+      },
+      {
+        "p": {
           "name": "Pix2Struct: Screenshot Parsing as Pretraining for Visual Language Understanding",
           "link": "https://arxiv.org/abs/2210.03347v2"
         },
@@ -297,6 +877,46 @@
         "n": "Pix2Struct-large",
         "d": "2022-10-07",
         "m1": "0.766"
+      },
+      {
+        "p": {
+          "name": "Emu3: Next-Token Prediction is All You Need",
+          "link": "https://arxiv.org/abs/2409.18869v1"
+        },
+        "c": "https://github.com/baaivision/emu3",
+        "n": "Emu3",
+        "d": "2024-09-27",
+        "m1": "0.763"
+      },
+      {
+        "p": {
+          "name": "On the Design Fundamentals of Pixel Text Representation Learning",
+          "link": "https://arxiv.org/abs/2609.01147"
+        },
+        "c": "https://github.com/pixel-linguist/pixel-linguist-2",
+        "n": "Pixel Linguist II + Qwen2.5-7B-Instruct (30% visual tokens)",
+        "d": "2026-09-01",
+        "m1": "0.7541"
+      },
+      {
+        "p": {
+          "name": "T5Gemma 2: Seeing, Reading, and Understanding Longer",
+          "link": "https://arxiv.org/abs/2512.14856"
+        },
+        "c": "",
+        "n": "T5Gemma 2 4B-4B (post-trained)",
+        "d": "2025-12-16",
+        "m1": "0.752"
+      },
+      {
+        "p": {
+          "name": "LayoutLLM: Layout Instruction Tuning with Large Language Models for Document Understanding",
+          "link": "https://arxiv.org/abs/2404.05225"
+        },
+        "c": "https://github.com/alibabaresearch/advancedliteratemachinery",
+        "n": "LayoutLLM 7B (Vicuna-1.5)",
+        "d": "2024-04-08",
+        "m1": "0.7427"
       },
       {
         "p": {
@@ -310,6 +930,26 @@
       },
       {
         "p": {
+          "name": "What matters when building vision-language models?",
+          "link": "https://arxiv.org/abs/2405.02246v1"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Idefics2 (w/ image split)",
+        "d": "2024-05-03",
+        "m1": "0.740"
+      },
+      {
+        "p": {
+          "name": "XDoc: Unified Pre-training for Cross-Format Document Understanding",
+          "link": "https://arxiv.org/abs/2210.02849v1"
+        },
+        "c": "https://github.com/microsoft/unilm/tree/master/xdoc",
+        "n": "XDoc 1M",
+        "d": "2022-10-06",
+        "m1": "0.727"
+      },
+      {
+        "p": {
           "name": "Pix2Struct: Screenshot Parsing as Pretraining for Visual Language Understanding",
           "link": "https://arxiv.org/abs/2210.03347v2"
         },
@@ -317,6 +957,16 @@
         "n": "Pix2Struct-base",
         "d": "2022-10-07",
         "m1": "0.721"
+      },
+      {
+        "p": {
+          "name": "VISion On Request: Enhanced VLLM efficiency with sparse, dynamically selected, vision-language interactions",
+          "link": "https://arxiv.org/abs/2603.23495"
+        },
+        "c": "",
+        "n": "VISOR",
+        "d": "2026-03-24",
+        "m1": "0.689"
       },
       {
         "p": {
@@ -368,6 +1018,16 @@
         "n": "Qwen-VL-Chat",
         "d": "2023-08-24",
         "m1": "0.626"
+      },
+      {
+        "p": {
+          "name": "mPLUG-DocOwl: Modularized Multimodal Large Language Model for Document Understanding",
+          "link": "https://arxiv.org/abs/2307.02499"
+        },
+        "c": "https://github.com/x-plug/mplug-docowl",
+        "n": "mPLUG-DocOwl (extra data)",
+        "d": "2023-07-04",
+        "m1": "0.622"
       }
     ]
   }

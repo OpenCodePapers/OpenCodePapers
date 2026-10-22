@@ -68,6 +68,28 @@
       },
       {
         "p": {
+          "name": "DreamTrack: Dreaming the Future for Multimodal Visual Object Tracking",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Guo_DreamTrack_Dreaming_the_Future_for_Multimodal_Visual_Object_Tracking_CVPR_2025_paper.html"
+        },
+        "c": "",
+        "n": "DreamTrack-L 384",
+        "d": "2025-06-11",
+        "m1": "87.9",
+        "m2": "91.3",
+        "m3": "86.8"
+      },
+      {
+        "p": {
+          "name": "ODONet: Online Dynamic Offset Network for Visual Object Tracking",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/4749"
+        },
+        "c": "https://github.com/whitebutterflies/odonet",
+        "n": "ODONet-B384",
+        "d": "2026-09-08",
+        "m1": "87.4"
+      },
+      {
+        "p": {
           "name": "SPMTrack: Spatio-Temporal Parameter-Efficient Fine-Tuning with Mixture of Experts for Scalable Visual Tracking",
           "link": "https://arxiv.org/abs/2503.18338v1"
         },
@@ -277,6 +299,18 @@
       },
       {
         "p": {
+          "name": "DiffusionTrack: Point Set Diffusion Model for Visual Object Tracking",
+          "link": "http://openaccess.thecvf.com//content/CVPR2024/html/Xie_DiffusionTrack_Point_Set_Diffusion_Model_for_Visual_Object_Tracking_CVPR_2024_paper.html"
+        },
+        "c": "https://github.com/vision-sjtu/diffusiontrack",
+        "n": "DiffusionTrack-L256 (1)",
+        "d": "2024-01-01",
+        "m1": "85.2",
+        "m2": "89.6",
+        "m3": "84.8"
+      },
+      {
+        "p": {
           "name": "ODTrack: Online Dense Temporal Token Learning for Visual Tracking",
           "link": "https://arxiv.org/abs/2401.01686v1"
         },
@@ -296,6 +330,18 @@
         "m1": "85.0",
         "m2": "89.3",
         "m3": "84.5"
+      },
+      {
+        "p": {
+          "name": "Autoregressive Queries for Adaptive Tracking with Spatio-TemporalTransformers",
+          "link": "https://arxiv.org/abs/2403.10574v1"
+        },
+        "c": "",
+        "n": "AQATrack-384 (extra data)",
+        "d": "2024-03-15",
+        "m1": "84.8",
+        "m2": "89.3",
+        "m3": "84.3"
       },
       {
         "p": {
@@ -358,6 +404,18 @@
       },
       {
         "p": {
+          "name": "OneTracker: Unifying Visual Object Tracking with Foundation Models and Efficient Tuning",
+          "link": "https://arxiv.org/abs/2403.09634v1"
+        },
+        "c": "",
+        "n": "OneTracker",
+        "d": "2024-03-14",
+        "m1": "83.7",
+        "m2": "88.4",
+        "m3": "82.7"
+      },
+      {
+        "p": {
           "name": "Integrating Boxes and Masks: A Multi-Object Framework for Unified Visual Tracking and Segmentation",
           "link": "https://arxiv.org/abs/2308.13266v3"
         },
@@ -376,6 +434,16 @@
         "m1": "83.4",
         "m2": "88.1",
         "m3": "81.6"
+      },
+      {
+        "p": {
+          "name": "Efficient Video Object Segmentation and Tracking with Recurrent Dynamic Submodel",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Tang_Efficient_Video_Object_Segmentation_and_Tracking_with_Recurrent_Dynamic_Submodel_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "SAMURAI + RDS 0.7",
+        "d": "2026-06-03",
+        "m1": "83.1"
       },
       {
         "p": {
@@ -427,6 +495,18 @@
       },
       {
         "p": {
+          "name": "Adaptive Capacity Autoregressive Visual Tracking",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Lin_Adaptive_Capacity_Autoregressive_Visual_Tracking_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "ARTrack-AC_seq",
+        "d": "2026-06-03",
+        "m1": "82.6",
+        "m2": "87.7",
+        "m3": "80.0"
+      },
+      {
+        "p": {
           "name": "Learning Spatio-Temporal Transformer for Visual Tracking",
           "link": "https://arxiv.org/abs/2103.17154v1"
         },
@@ -436,6 +516,18 @@
         "m1": "82.0",
         "m2": "86.9",
         "m3": "79.1"
+      },
+      {
+        "p": {
+          "name": "Transformer Tracking",
+          "link": "https://arxiv.org/abs/2103.15436v1"
+        },
+        "c": "https://github.com/chenxin-dlut/TransT",
+        "n": "TransT-N4 (extra data)",
+        "d": "2021-03-29",
+        "m1": "81.4",
+        "m2": "86.7",
+        "m3": "80.3"
       },
       {
         "p": {
@@ -615,6 +707,17 @@
         "m2": "80.1",
         "m3": "69.7",
         "m4": "74.5"
+      },
+      {
+        "p": {
+          "name": "Motion-aware Sparse Pipeline for Lightweight Object Tracking",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/5707"
+        },
+        "c": "",
+        "n": "MaST-small",
+        "d": "2026-09-08",
+        "m2": "87.1",
+        "m3": "80.5"
       }
     ]
   }

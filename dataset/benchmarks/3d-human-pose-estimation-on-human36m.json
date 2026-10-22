@@ -669,6 +669,16 @@
       },
       {
         "p": {
+          "name": "HyperDiff: Hypergraph Guided Diffusion Model for 3D Human Pose Estimation",
+          "link": "https://arxiv.org/abs/2508.14431"
+        },
+        "c": "https://github.com/ihenl/hyperdiff",
+        "n": "HyperDiff + JPMA (CPN, T=1, H=10, K=5)",
+        "d": "2025-08-20",
+        "m1": "46.0"
+      },
+      {
+        "p": {
           "name": "Double-chain Constraints for 3D Human Pose Estimation in Images and Videos",
           "link": "https://arxiv.org/abs/2308.05298v1"
         },
@@ -690,6 +700,16 @@
         "m1": "46.6",
         "m2": "No",
         "m3": "Monocular"
+      },
+      {
+        "p": {
+          "name": "Uncertainty-Aware Testing-Time Optimization for 3D Human Pose Estimation",
+          "link": "https://arxiv.org/abs/2402.02339"
+        },
+        "c": "https://github.com/xiu-cs/UAO-Pose3D",
+        "n": "GUMLP + UAO (CPN, T=1)",
+        "d": "2024-02-04",
+        "m1": "46.7"
       },
       {
         "p": {
@@ -748,6 +768,16 @@
         "m1": "47.4",
         "m2": "No",
         "m3": "Monocular"
+      },
+      {
+        "p": {
+          "name": "Interweaved Graph and Attention Network for 3D Human Pose Estimation",
+          "link": "https://arxiv.org/abs/2304.14045"
+        },
+        "c": "https://github.com/xiu-cs/iganet",
+        "n": "IGANet + Refinement Module (CPN, T=1)",
+        "d": "2023-04-27",
+        "m1": "47.7"
       },
       {
         "p": {
@@ -1219,6 +1249,146 @@
         "m1": "74.3",
         "m2": "No",
         "m3": "MultiView"
+      },
+      {
+        "p": {
+          "name": "MotionAGFormer: Enhancing 3D Human Pose Estimation with a Transformer-GCNFormer Network",
+          "link": "https://arxiv.org/abs/2310.16288v1"
+        },
+        "c": "https://github.com/taatiteam/motionagformer",
+        "n": "MotionAGFormer-L",
+        "d": "2023-10-25",
+        "m4": "32.5"
+      },
+      {
+        "p": {
+          "name": "PoseFormerV2: Exploring Frequency Domain for Efficient and Robust 3D Human Pose Estimation",
+          "link": "https://arxiv.org/abs/2303.17472v1"
+        },
+        "c": "https://github.com/zczcwh/DL-HPE",
+        "n": "PoseFormerV2 (f=27, n=27, sequence=243)",
+        "d": "2023-03-30",
+        "m4": "35.6"
+      },
+      {
+        "p": {
+          "name": "CHAMP: Conformalized 3D Human Multi-Hypothesis Pose Estimators",
+          "link": "https://arxiv.org/abs/2407.06141"
+        },
+        "c": "",
+        "n": "CHAMP-Agg",
+        "d": "2024-05-27",
+        "m4": "27.9"
+      },
+      {
+        "p": {
+          "name": "LangPose: Language-Aligned Motion for Robust 3D Human Pose Estimation",
+          "link": "https://arxiv.org/abs/2409.00449"
+        },
+        "c": "",
+        "n": "LangPose (SH, T=243) (extra data)",
+        "d": "2024-08-31",
+        "m4": "31.3"
+      },
+      {
+        "p": {
+          "name": "Diffusion-Based 3D Human Pose Estimation with Multi-Hypothesis Aggregation",
+          "link": "https://arxiv.org/abs/2303.11579v2"
+        },
+        "c": "https://github.com/patrick-swk/d3dp",
+        "n": "D3DP + JPMA (N=243, H=20, K=10)",
+        "d": "2023-03-21",
+        "m4": "31.6"
+      },
+      {
+        "p": {
+          "name": "MPM: A Unified 2D-3D Human Pose Representation via Masked Pose Modeling",
+          "link": "https://arxiv.org/abs/2306.17201"
+        },
+        "c": "",
+        "n": "MPM (CPN, T=243) (extra data)",
+        "d": "2023-06-29",
+        "m4": "34.4"
+      },
+      {
+        "p": {
+          "name": "DiffPose: Toward More Reliable 3D Pose Estimation",
+          "link": "https://arxiv.org/abs/2211.16940v3"
+        },
+        "c": "https://github.com/GONGJIA0208/Diffpose",
+        "n": "DiffPose GMM-Diff M=5 (CPN, T=243, mean N=5)",
+        "d": "2022-11-30",
+        "m4": "28.7"
+      },
+      {
+        "p": {
+          "name": "FinePOSE: Fine-Grained Prompt-Driven 3D Human Pose Estimation via Diffusion Models",
+          "link": "https://arxiv.org/abs/2405.05216"
+        },
+        "c": "https://github.com/PKU-ICST-MIPL/FinePOSE_CVPR2024",
+        "n": "FinePOSE + JPMA (CPN, T=243, H=20, K=10)",
+        "d": "2024-05-08",
+        "m4": "25.0"
+      },
+      {
+        "p": {
+          "name": "GLA-GCN: Global-local Adaptive Graph Convolutional Network for 3D Human Pose Estimation from Monocular Video",
+          "link": "https://arxiv.org/abs/2307.05853v2"
+        },
+        "c": "https://github.com/bruceyo/GLA-GCN",
+        "n": "GLA-GCN (CPN, T=243)",
+        "d": "2023-07-12",
+        "m4": "34.8"
+      },
+      {
+        "p": {
+          "name": "Disentangled Diffusion-Based 3D Human Pose Estimation with Hierarchical Spatial and Temporal Denoiser",
+          "link": "https://arxiv.org/abs/2403.04444v1"
+        },
+        "c": "https://github.com/Andyen512/DDHPose",
+        "n": "DDHPose + J-Agg (CPN, T=243, H=5, W=50)",
+        "d": "2024-03-07",
+        "m4": "31.1"
+      },
+      {
+        "p": {
+          "name": "SasMamba: A Lightweight Structure-Aware Stride State Space Model for 3D Human Pose Estimation",
+          "link": "https://arxiv.org/abs/2511.08872"
+        },
+        "c": "",
+        "n": "SasMamba-large (Stacked Hourglass, T=243, seq2seq)",
+        "d": "2025-11-12",
+        "m4": "33.61"
+      },
+      {
+        "p": {
+          "name": "TCPFormer: Learning Temporal Correlation with Implicit Pose Proxy for 3D Human Pose Estimation",
+          "link": "https://arxiv.org/abs/2501.01770v1"
+        },
+        "c": "https://github.com/asukacamellia/tcpformer",
+        "n": "TCPFormer (SH, T=243, seq2seq)",
+        "d": "2025-01-03",
+        "m4": "31.7"
+      },
+      {
+        "p": {
+          "name": "A Structure-aware and Motion-adaptive Framework for 3D Human Pose Estimation with Mamba",
+          "link": "https://arxiv.org/abs/2507.19852"
+        },
+        "c": "",
+        "n": "SAMA-L (SHNet, T=351, seq2seq)",
+        "d": "2025-07-26",
+        "m4": "31.0"
+      },
+      {
+        "p": {
+          "name": "Occlusion Resilient 3D Human Pose Estimation",
+          "link": "https://arxiv.org/abs/2402.11036"
+        },
+        "c": "",
+        "n": "Occlusion Resilient 3D Human Pose Estimation (Ours)",
+        "d": "2024-02-16",
+        "m4": "39.4"
       }
     ]
   }

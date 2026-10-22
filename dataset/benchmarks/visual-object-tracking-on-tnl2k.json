@@ -56,6 +56,17 @@
       },
       {
         "p": {
+          "name": "TGTrack: Temporal Generative Learning for Unified Single Object Tracking",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Geng_TGTrack_Temporal_Generative_Learning_for_Unified_Single_Object_Tracking_CVPR_2026_paper.html"
+        },
+        "c": "https://github.com/wtg1/tgtrack",
+        "n": "TGTrack-L384 (extra data)",
+        "d": "2026-06-03",
+        "m1": "68.6",
+        "m2": "72.8"
+      },
+      {
+        "p": {
           "name": "Uni-MDTrack: Learning Decoupled Memory and Dynamic States for Parameter-Efficient Visual Tracking in All Modality",
           "link": "https://arxiv.org/abs/2603.14452"
         },
@@ -128,6 +139,27 @@
         "n": "DTPTrack-L 378",
         "d": "2026-04-03",
         "m1": "63.7"
+      },
+      {
+        "p": {
+          "name": "TR-MoE: Temporal Reliability-Aware Mixture-of-Experts for Robust Tracking",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/4745"
+        },
+        "c": "https://github.com/avant1v/tr-moe",
+        "n": "TR-MoE",
+        "d": "2026-09-08",
+        "m1": "63.6",
+        "m2": "69.9"
+      },
+      {
+        "p": {
+          "name": "ODONet: Online Dynamic Offset Network for Visual Object Tracking",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/4749"
+        },
+        "c": "https://github.com/whitebutterflies/odonet",
+        "n": "ODONet-B384",
+        "d": "2026-09-08",
+        "m1": "63.1"
       },
       {
         "p": {
@@ -236,6 +268,28 @@
       },
       {
         "p": {
+          "name": "Autoregressive Queries for Adaptive Tracking with Spatio-TemporalTransformers",
+          "link": "https://arxiv.org/abs/2403.10574v1"
+        },
+        "c": "",
+        "n": "AQATrack-384 (extra data)",
+        "d": "2024-03-15",
+        "m1": "59.3",
+        "m2": "62.3"
+      },
+      {
+        "p": {
+          "name": "OneTracker: Unifying Visual Object Tracking with Foundation Models and Efficient Tuning",
+          "link": "https://arxiv.org/abs/2403.09634v1"
+        },
+        "c": "",
+        "n": "OneTracker",
+        "d": "2024-03-14",
+        "m1": "58.0",
+        "m2": "59.1"
+      },
+      {
+        "p": {
           "name": "Unified Sequence-to-Sequence Learning for Single- and Multi-Modal Visual Object Tracking",
           "link": "https://arxiv.org/abs/2304.14394v3"
         },
@@ -243,6 +297,17 @@
         "n": "SeqTrack-L384",
         "d": "2023-04-27",
         "m1": "57.8"
+      },
+      {
+        "p": {
+          "name": "MVLM: Template-Free Tracking via Vision-Language Margin Confidence and Memory-Gated Tracking",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Park_MVLM_Template-Free_Tracking_via_Vision-Language_Margin_Confidence_and_Memory-Gated_Tracking_CVPR_2026_paper.html"
+        },
+        "c": "https://github.com/inha-vllab/mvlm",
+        "n": "MVLM (language-only)",
+        "d": "2026-06-03",
+        "m1": "57.8",
+        "m2": "60.9"
       },
       {
         "p": "",
@@ -272,6 +337,47 @@
         "n": "AdaSwitcher",
         "d": "2021-03-31",
         "m2": "0.42|0.50|0.42"
+      },
+      {
+        "p": {
+          "name": "DiffusionTrack: Point Set Diffusion Model for Visual Object Tracking",
+          "link": "http://openaccess.thecvf.com//content/CVPR2024/html/Xie_DiffusionTrack_Point_Set_Diffusion_Model_for_Visual_Object_Tracking_CVPR_2024_paper.html"
+        },
+        "c": "https://github.com/vision-sjtu/diffusiontrack",
+        "n": "DiffusionTrack-L256 (1)",
+        "d": "2024-01-01",
+        "m1": "56.8",
+        "m2": "72.8"
+      },
+      {
+        "p": {
+          "name": "Joint Feature Learning and Relation Modeling for Tracking: A One-Stream Framework",
+          "link": "https://arxiv.org/abs/2203.11991v4"
+        },
+        "c": "https://github.com/botaoye/ostrack",
+        "n": "OSTrack-384 (extra data)",
+        "d": "2022-03-22",
+        "m1": "55.9"
+      },
+      {
+        "p": {
+          "name": "Transformer Tracking",
+          "link": "https://arxiv.org/abs/2103.15436v1"
+        },
+        "c": "https://github.com/chenxin-dlut/TransT",
+        "n": "TransT-N4 (extra data)",
+        "d": "2021-03-29",
+        "m1": "51.0"
+      },
+      {
+        "p": {
+          "name": "DreamTrack: Dreaming the Future for Multimodal Visual Object Tracking",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Guo_DreamTrack_Dreaming_the_Future_for_Multimodal_Visual_Object_Tracking_CVPR_2025_paper.html"
+        },
+        "c": "",
+        "n": "DreamTrack-L 384",
+        "d": "2025-06-11",
+        "m2": "67.4"
       }
     ]
   }

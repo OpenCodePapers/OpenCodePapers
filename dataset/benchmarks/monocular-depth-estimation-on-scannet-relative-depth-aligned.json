@@ -1,0 +1,119 @@
+{
+  "title": "monocular-depth-estimation-on-scannet-relative-depth-aligned",
+  "task-hierarchy": [
+    "Depth Estimation",
+    "Monocular Depth Estimation"
+  ],
+  "dataset-info": {
+    "link": "http://www.scan-net.org/",
+    "paper": "ScanNet: Richly-annotated 3D Reconstructions of Indoor Scenes"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AbsRel",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "delta1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "UniGP: Taming Diffusion Transformer for Prior-Preserved Unified Generation and Perception",
+          "link": "https://arxiv.org/abs/2606.30332"
+        },
+        "c": "https://github.com/guoqincode/unigp",
+        "n": "UNIGP",
+        "d": "2026-06-29",
+        "m1": "0.055",
+        "m2": "0.979"
+      },
+      {
+        "p": {
+          "name": "Fine-Tuning Image-Conditional Diffusion Models is Easier than You Think",
+          "link": "https://arxiv.org/abs/2409.11355v1"
+        },
+        "c": "https://github.com/VisualComputingInstitute/diffusion-e2e-ft",
+        "n": "Marigold + E2E FT (zero-shot)",
+        "d": "2024-09-17",
+        "m1": "0.058"
+      },
+      {
+        "p": {
+          "name": "GeoWizard: Unleashing the Diffusion Priors for 3D Geometry Estimation from a Single Image",
+          "link": "https://arxiv.org/abs/2403.12013"
+        },
+        "c": "https://github.com/fuxiao0719/GeoWizard",
+        "n": "GeoWizard (zero-shot)",
+        "d": "2024-03-18",
+        "m1": "0.061",
+        "m2": "0.953"
+      },
+      {
+        "p": {
+          "name": "Repurposing Diffusion-Based Image Generators for Monocular Depth Estimation",
+          "link": "https://arxiv.org/abs/2312.02145v2"
+        },
+        "c": "https://github.com/prs-eth/marigold",
+        "n": "Marigold (ensemble)",
+        "d": "2023-12-04",
+        "m1": "0.064",
+        "m2": "0.951"
+      },
+      {
+        "p": {
+          "name": "MODUS: Decoder-Only Any-to-Any Modeling of Diverse Modalities",
+          "link": "https://arxiv.org/abs/2607.25948"
+        },
+        "c": "https://github.com/EPFL-VILAB/Modus",
+        "n": "Modus",
+        "d": "2026-07-28",
+        "m1": "0.067",
+        "m2": "0.957"
+      },
+      {
+        "p": {
+          "name": "DICEPTION: A Generalist Diffusion Model for Visual Perceptual Tasks",
+          "link": "https://arxiv.org/abs/2502.17157v1"
+        },
+        "c": "https://github.com/aim-uofa/diception",
+        "n": "DICEPTION (zero-shot)",
+        "d": "2025-02-24",
+        "m1": "0.072",
+        "m2": "0.944"
+      },
+      {
+        "p": {
+          "name": "Fine-Tuning Image-Conditional Diffusion Models is Easier than You Think",
+          "link": "https://arxiv.org/abs/2409.11355v1"
+        },
+        "c": "https://github.com/VisualComputingInstitute/diffusion-e2e-ft",
+        "n": "Stable Diffusion + E2E FT (zero-shot)",
+        "d": "2024-09-17",
+        "m2": "0.965"
+      }
+    ]
+  }
+}

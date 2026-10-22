@@ -1,0 +1,209 @@
+{
+  "title": "video-to-sound-generation-on-vggsound-v2a",
+  "task-hierarchy": [
+    "Audio Generation",
+    "Video-to-Sound Generation"
+  ],
+  "dataset-info": {
+    "link": "https://arxiv.org/abs/2004.14368",
+    "paper": "VGGSound: A Large-scale Audio-Visual Dataset"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "FD (PaSST)",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "KL (PaSST)",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "ImageBind Score",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "De-Sync",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "KL (PANNs)",
+        "sortable": "true"
+      },
+      {
+        "key": "m6",
+        "label": "FD (PANNs)",
+        "sortable": "true"
+      },
+      {
+        "key": "m7",
+        "label": "FD (VGGish)",
+        "sortable": "true"
+      },
+      {
+        "key": "m8",
+        "label": "IS (PANNs)",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "PAVAS: Physics-Aware Video-to-Audio Synthesis",
+          "link": "https://arxiv.org/abs/2512.08282"
+        },
+        "c": "https://github.com/sonyresearch/pavas",
+        "n": "PAVAS-L",
+        "d": "2025-12-09",
+        "m4": "0.446",
+        "m6": "3.99",
+        "m1": "47.38",
+        "m5": "1.55",
+        "m2": "1.35",
+        "m7": "1.15",
+        "m3": "35.41"
+      },
+      {
+        "p": {
+          "name": "Hear What You See: Video-to-Audio Generation with Diffusion Transformer and Semantic-Temporal Alignment-Ranked Direct Preference Optimization",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Wang_Hear_What_You_See_Video-to-Audio_Generation_with_Diffusion_Transformer_and_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "VisioSonic w/ STAR-DPO (44.1kHz)",
+        "d": "2026-06-03",
+        "m4": "0.41",
+        "m6": "4.36",
+        "m1": "55.48",
+        "m8": "18.41",
+        "m5": "1.44",
+        "m2": "1.29",
+        "m7": "0.99",
+        "m3": "33.1"
+      },
+      {
+        "p": {
+          "name": "MMAudio: Taming Multimodal Joint Training for High-Quality Video-to-Audio Synthesis",
+          "link": "https://arxiv.org/abs/2412.15322v2"
+        },
+        "c": "https://github.com/hkchengrex/MMAudio",
+        "n": "MMAudio-L-44.1kHz (extra data)",
+        "d": "2024-12-19",
+        "m4": "0.442",
+        "m6": "4.72",
+        "m1": "60.6",
+        "m8": "17.4",
+        "m5": "1.65",
+        "m2": "1.4",
+        "m7": "0.97",
+        "m3": "33.22"
+      },
+      {
+        "p": {
+          "name": "MMAudio: Taming Multimodal Joint Training for High-Quality Video-to-Audio Synthesis",
+          "link": "https://arxiv.org/abs/2412.15322v2"
+        },
+        "c": "https://github.com/hkchengrex/MMAudio",
+        "n": "MMAudio-M-44.1kHz (extra data)",
+        "d": "2024-12-19",
+        "m4": "0.443",
+        "m6": "4.74",
+        "m1": "61.88",
+        "m8": "17.41",
+        "m5": "1.66",
+        "m2": "1.41",
+        "m7": "1.13",
+        "m3": "32.99"
+      },
+      {
+        "p": {
+          "name": "MMAudio: Taming Multimodal Joint Training for High-Quality Video-to-Audio Synthesis",
+          "link": "https://arxiv.org/abs/2412.15322v2"
+        },
+        "c": "https://github.com/hkchengrex/MMAudio",
+        "n": "MMAudio-S-44.1kHz (extra data)",
+        "d": "2024-12-19",
+        "m4": "0.444",
+        "m6": "5.55",
+        "m1": "65.25",
+        "m8": "18.02",
+        "m5": "1.67",
+        "m2": "1.44",
+        "m7": "1.66",
+        "m3": "32.27"
+      },
+      {
+        "p": {
+          "name": "MMAudio: Taming Multimodal Joint Training for High-Quality Video-to-Audio Synthesis",
+          "link": "https://arxiv.org/abs/2412.15322v2"
+        },
+        "c": "https://github.com/hkchengrex/MMAudio",
+        "n": "MMAudio-S-16kHz (extra data)",
+        "d": "2024-12-19",
+        "m4": "0.483",
+        "m6": "5.22",
+        "m1": "70.19",
+        "m8": "14.44",
+        "m5": "1.65",
+        "m2": "1.59",
+        "m7": "0.79",
+        "m3": "29.13"
+      },
+      {
+        "p": {
+          "name": "Foley-Flow: Coordinated Video-to-Audio Generation with Masked Audio-Visual Alignment and Dynamic Conditional Flows",
+          "link": "https://arxiv.org/abs/2603.08126"
+        },
+        "c": "",
+        "n": "Foley-Flow",
+        "d": "2026-03-09",
+        "m2": "0.97"
+      },
+      {
+        "p": {
+          "name": "Benchmarking Single-Factor Physical Video-to-Audio Generation",
+          "link": "https://arxiv.org/abs/2605.30339"
+        },
+        "c": "",
+        "n": "MMAudio-Phys (w/ Caption) (extra data)",
+        "d": "2026-05-28",
+        "m4": "0.405",
+        "m5": "1.37",
+        "m3": "34.89"
+      },
+      {
+        "p": {
+          "name": "Precise Video-to-Audio Generation with Cross-Modal Alignment in Latent Space",
+          "link": "https://arxiv.org/abs/2607.06405"
+        },
+        "c": "https://github.com/fsoft-aic/flowley",
+        "n": "Flowley + SoundCap",
+        "d": "2026-07-07",
+        "m8": "19.68",
+        "m2": "1.56",
+        "m3": "30.07"
+      }
+    ]
+  }
+}

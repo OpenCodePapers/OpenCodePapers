@@ -1,0 +1,120 @@
+{
+  "title": "world-models-on-worldscore",
+  "task-hierarchy": [
+    "World Models"
+  ],
+  "dataset-info": {
+    "link": "https://haoyi-duan.github.io/WorldScore/",
+    "paper": "WorldScore: A Unified Evaluation Benchmark for World Generation"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "WorldScore-Static",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "WorldScore-Dynamic",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "UniWorld-View: Large-Baseline View Synthesis via Video Diffusion Models",
+          "link": "https://arxiv.org/abs/2608.04701"
+        },
+        "c": "https://github.com/PKU-YuanGroup/UniWorld-View",
+        "n": "UniWorld-View",
+        "d": "2026-08-05",
+        "m1": "85.53",
+        "m2": "76.09"
+      },
+      {
+        "p": {
+          "name": "INSPATIO-WORLD: A Real-Time 4D World Simulator via Spatiotemporal Autoregressive Modeling",
+          "link": "https://arxiv.org/abs/2604.07209"
+        },
+        "c": "https://github.com/inspatio/inspatio-world",
+        "n": "InSpatio-World",
+        "d": "2026-04-08",
+        "m2": "68.72",
+        "m1": "75.81"
+      },
+      {
+        "p": {
+          "name": "Latent Spatial Memory for Video World Models",
+          "link": "https://arxiv.org/abs/2606.09828"
+        },
+        "c": "https://github.com/microsoft/LatentSpatialMemory",
+        "n": "Mirage",
+        "d": "2026-06-08",
+        "m1": "73.60",
+        "m2": "67.11"
+      },
+      {
+        "p": {
+          "name": "4LC: 4D Latent Cache for Efficient Conditioning in Dynamic World Modeling",
+          "link": "https://arxiv.org/abs/2610.17625"
+        },
+        "c": "https://github.com/ZGCA-HMI-Lab/4LC",
+        "n": "4LC-Video",
+        "d": "2026-10-13",
+        "m1": "72.18",
+        "m2": "64.73"
+      },
+      {
+        "p": {
+          "name": "Honeycomb: Constant-Size Scene Memory Representation for Video World Models",
+          "link": "https://arxiv.org/abs/2609.37690"
+        },
+        "c": "https://github.com/kaichen-z/HoneyComb",
+        "n": "Honeycomb",
+        "d": "2026-09-30",
+        "m2": "63.03",
+        "m1": "68.01"
+      },
+      {
+        "p": {
+          "name": "WorldCache: Accelerating World Models for Free via Heterogeneous Token Caching",
+          "link": "https://arxiv.org/abs/2603.06331"
+        },
+        "c": "https://github.com/FofGofx/WorldCache",
+        "n": "HunyuanVoyager-13B + WorldCache",
+        "d": "2026-03-06",
+        "m1": "64.89",
+        "m2": "45.43"
+      },
+      {
+        "p": {
+          "name": "DreamWorld: Unified World Modeling in Video Generation",
+          "link": "https://arxiv.org/abs/2603.00466"
+        },
+        "c": "https://github.com/ABU121111/DreamWorld",
+        "n": "DreamWorld",
+        "d": "2026-02-28",
+        "m1": "54.09",
+        "m2": "45.41"
+      }
+    ]
+  }
+}

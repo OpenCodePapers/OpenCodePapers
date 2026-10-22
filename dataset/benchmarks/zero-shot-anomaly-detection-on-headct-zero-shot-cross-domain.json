@@ -1,0 +1,106 @@
+{
+  "title": "zero-shot-anomaly-detection-on-headct-zero-shot-cross-domain",
+  "task-hierarchy": [
+    "Anomaly Detection",
+    "Zero-Shot Anomaly Detection"
+  ],
+  "dataset-info": {
+    "link": "https://www.kaggle.com/datasets/felipekitamura/head-ct-hemorrhage",
+    "paper": "AnomalyCLIP: Object-agnostic Prompt Learning for Zero-shot Anomaly Detection"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Detection AUROC",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Detection F1-max",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Detection AP",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Bayesian Prompt Flow Learning for Zero-Shot Anomaly Detection",
+          "link": "https://arxiv.org/abs/2503.10080"
+        },
+        "c": "https://github.com/xiaozhen228/bayes-pfl",
+        "n": "Bayes-PFL (ViT-L/14@336, 518px, cross-domain zero-shot)",
+        "d": "2025-03-13",
+        "m1": "96.5",
+        "m2": "92.9",
+        "m3": "95.5"
+      },
+      {
+        "p": {
+          "name": "Crane: Context-Guided Prompt Learning and Attention Refinement for Zero-Shot Anomaly Detections",
+          "link": "https://arxiv.org/abs/2504.11055"
+        },
+        "c": "https://github.com/alireza99salehi/crane",
+        "n": "Crane (CLIP ViT-L/14@336, zero-shot)",
+        "d": "2025-04-15",
+        "m1": "95.3",
+        "m2": "91.1",
+        "m3": "95.7"
+      },
+      {
+        "p": {
+          "name": "DLVP-CLIP: Enhancing Fine-Grained Zero-Shot Anomaly Detection via Dynamic Local Visual Prompting",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_DLVP-CLIP_Enhancing_Fine-Grained_Zero-Shot_Anomaly_Detection_via_Dynamic_Local_Visual_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "DLVP-CLIP",
+        "d": "2026-06-03",
+        "m1": "95.0"
+      },
+      {
+        "p": {
+          "name": "AnomalyVFM -- Transforming Vision Foundation Models into Zero-Shot Anomaly Detectors",
+          "link": "https://arxiv.org/abs/2601.20524"
+        },
+        "c": "https://github.com/MaticFuc/AnomalyVFM",
+        "n": "AnomalyVFM (RADIOv2.5 ViT-L, synthetic-only zero-shot)",
+        "d": "2026-04-09",
+        "m2": "90.5",
+        "m1": "94.8"
+      },
+      {
+        "p": {
+          "name": "TIPS Over Tricks: Simple Prompts for Effective Zero-shot Anomaly Detection",
+          "link": "https://arxiv.org/abs/2602.03594"
+        },
+        "c": "https://github.com/alirezasalehy/tipsomaly",
+        "n": "Tipsomaly (TIPS-L/14 HR, Zero-shot)",
+        "d": "2026-02-03",
+        "m3": "89.4",
+        "m2": "87.4",
+        "m1": "92.7"
+      }
+    ]
+  }
+}

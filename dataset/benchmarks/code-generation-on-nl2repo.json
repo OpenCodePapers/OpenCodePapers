@@ -1,0 +1,279 @@
+{
+  "title": "code-generation-on-nl2repo",
+  "task-hierarchy": [
+    "Code Intelligence",
+    "Code Generation"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/EnvCommons/NL2RepoBench",
+    "paper": "NL2Repo-Bench: Towards Long-Horizon Repository Generation Evaluation of Coding Agents"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression",
+          "link": "https://arxiv.org/abs/2609.19969"
+        },
+        "c": "https://github.com/deepseek-ai/deepseek-recipe",
+        "n": "DeepSeek-V4.1-Flash-1017",
+        "d": "2026-09-17",
+        "m1": "68.2"
+      },
+      {
+        "p": {
+          "name": "DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression",
+          "link": "https://arxiv.org/abs/2609.19969"
+        },
+        "c": "https://github.com/deepseek-ai/deepseek-recipe",
+        "n": "DeepSeek-V4.1-Flash Max",
+        "d": "2026-09-17",
+        "m1": "65.4"
+      },
+      {
+        "p": {
+          "name": "DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence",
+          "link": "https://arxiv.org/abs/2606.19348"
+        },
+        "c": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+        "n": "DeepSeek-V4-Pro-0813 (Max)",
+        "d": "2026-04-26",
+        "m1": "61.5"
+      },
+      {
+        "p": {
+          "name": "Hy4 preview",
+          "link": "https://github.com/Tencent-Hunyuan/Hy4-preview/blob/1296fab2674cb5a645ccfe53e9a8dc225dbe69f2/README.md"
+        },
+        "c": "https://github.com/tencent-hunyuan/hy4-preview",
+        "n": "Hy4 preview",
+        "d": "2026-08-28",
+        "m1": "58.9"
+      },
+      {
+        "p": {
+          "name": "GLM-5.3: Frontier Coding with Emergent Cyber Capabilities",
+          "link": "https://z.ai/blog/glm-5.3"
+        },
+        "c": "https://github.com/zai-org/glm-5",
+        "n": "GLM-5.3",
+        "d": "2026-08-14",
+        "m1": "58.0"
+      },
+      {
+        "p": {
+          "name": "On the Limitations of Non-GPU AI Accelerators for Large-Model Inference: A Field Study of MoE and Multimodal Serving on Huawei Ascend",
+          "link": "https://arxiv.org/abs/2607.08215"
+        },
+        "c": "",
+        "n": "DeepSeek-V4-Flash-Vision-Exp",
+        "d": "2026-07-09",
+        "m1": "57.7"
+      },
+      {
+        "p": {
+          "name": "GLM-5.3-Flash: Frontier Intelligence, Flash Cost",
+          "link": "https://z.ai/blog/glm-5.3-flash"
+        },
+        "c": "https://github.com/zai-org/glm-5",
+        "n": "GLM-5.3-Flash",
+        "d": "2026-08-26",
+        "m1": "56.3"
+      },
+      {
+        "p": {
+          "name": "Qwen3.8-Max: A New Bar for Coding and Cowork",
+          "link": "https://qwen.ai/blog?id=qwen3.8"
+        },
+        "c": "https://github.com/vllm-project/vllm",
+        "n": "Qwen3.8-Max",
+        "d": "2026-08-03",
+        "m1": "55.9"
+      },
+      {
+        "p": {
+          "name": "DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence",
+          "link": "https://arxiv.org/abs/2606.19348"
+        },
+        "c": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+        "n": "DeepSeek-V4-Flash-0731 (Max)",
+        "d": "2026-04-26",
+        "m1": "54.2"
+      },
+      {
+        "p": {
+          "name": "Introducing GPT-5.5",
+          "link": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        "c": "",
+        "n": "GPT-5.5 (Max)",
+        "d": "2026-04-23",
+        "m1": "50.7"
+      },
+      {
+        "p": {
+          "name": "dots3-note Preview: A Small but Mighty Step Toward Long-Horizon Agency in Real Life",
+          "link": "https://studio.dots.ai/dots/dots3-en.html"
+        },
+        "c": "https://github.com/studio-dots-ai/dots3-note-prev",
+        "n": "dots3-note Preview",
+        "d": "2026-08-13",
+        "m1": "49.82"
+      },
+      {
+        "p": {
+          "name": "GLM-5.2: Built for Long-Horizon Tasks",
+          "link": "https://z.ai/blog/glm-5.2"
+        },
+        "c": "https://github.com/zai-org/GLM-5",
+        "n": "GLM-5.2 (Max)",
+        "d": "2026-06-16",
+        "m1": "48.9"
+      },
+      {
+        "p": {
+          "name": "Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding",
+          "link": "https://deep-reinforce.com/ornith_1_0.html"
+        },
+        "c": "https://github.com/deepreinforce-ai/Ornith-1",
+        "n": "Ornith-1.0-397B",
+        "d": "2026-06-21",
+        "m1": "48.2"
+      },
+      {
+        "p": {
+          "name": "On the Design of Qwen3.8-Next Architecture: Evaluation, Efficiency, and Training Stability",
+          "link": "https://arxiv.org/abs/2608.30320"
+        },
+        "c": "https://github.com/qwenlm/flashqla",
+        "n": "Qwen3.8-Flash-Next",
+        "d": "2026-08-31",
+        "m1": "48.1"
+      },
+      {
+        "p": {
+          "name": "Seed2.1 Model Card: Agentic Intelligence for Productivity",
+          "link": "https://seed.bytedance.com/en/blog/seed2-1-officially-released-advancing-ai-productivity"
+        },
+        "c": "",
+        "n": "Seed2.1 Pro",
+        "d": "2026-06-23",
+        "m1": "47.0"
+      },
+      {
+        "p": {
+          "name": "Ornith-1.5: From Self-Scaffolding to Self-Improvement",
+          "link": "https://ornith.ai/ornith_1_5.html"
+        },
+        "c": "",
+        "n": "Ornith-1.5-35B-A3B",
+        "d": "2026-08-20",
+        "m1": "46.2"
+      },
+      {
+        "p": {
+          "name": "Hy3",
+          "link": "https://hy.tencent.com/research/hy3"
+        },
+        "c": "https://github.com/Tencent-Hunyuan/Hy3",
+        "n": "Hy3",
+        "d": "2026-07-02",
+        "m1": "45.6"
+      },
+      {
+        "p": {
+          "name": "GLM-5.1: Towards Long-Horizon Tasks",
+          "link": "https://z.ai/blog/glm-5.1"
+        },
+        "c": "https://github.com/zai-org/GLM-5",
+        "n": "GLM-5.1 (Max)",
+        "d": "2026-04-03",
+        "m1": "42.7"
+      },
+      {
+        "p": {
+          "name": "Qwen3.8-27B",
+          "link": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        "c": "https://github.com/vllm-project/vllm",
+        "n": "Qwen3.8-27B",
+        "d": "2026-08-05",
+        "m1": "42.3"
+      },
+      {
+        "p": {
+          "name": "The MiniMax-M2 Series: Mini Activations Unleashing Max Real-World Intelligence",
+          "link": "https://arxiv.org/abs/2605.26494"
+        },
+        "c": "https://huggingface.co/MiniMaxAI/MiniMax-M2.7",
+        "n": "MiniMax-M2.7 (229.9B total, 9.8B activated)",
+        "d": "2026-05-26",
+        "m1": "39.8"
+      },
+      {
+        "p": {
+          "name": "Marathoner: Ultra-Long-Horizon Autonomous Intelligence",
+          "link": "https://arxiv.org/abs/2609.34378"
+        },
+        "c": "",
+        "n": "Marathoner-9B",
+        "d": "2026-09-28",
+        "m1": "34.7"
+      },
+      {
+        "p": {
+          "name": "Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding",
+          "link": "https://deep-reinforce.com/ornith_1_0.html"
+        },
+        "c": "https://github.com/deepreinforce-ai/Ornith-1",
+        "n": "Ornith-1.0-35B",
+        "d": "2026-06-21",
+        "m1": "34.6"
+      },
+      {
+        "p": {
+          "name": "Gemini 3.1 Pro: A smarter model for your most complex tasks",
+          "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/"
+        },
+        "c": "",
+        "n": "Gemini 3.1 Pro (Max)",
+        "d": "2026-02-19",
+        "m1": "33.4"
+      },
+      {
+        "p": {
+          "name": "Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding",
+          "link": "https://deep-reinforce.com/ornith_1_0.html"
+        },
+        "c": "https://github.com/deepreinforce-ai/Ornith-1",
+        "n": "Ornith-1.0-9B",
+        "d": "2026-06-21",
+        "m1": "27.2"
+      }
+    ]
+  }
+}

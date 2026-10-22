@@ -1,0 +1,110 @@
+{
+  "title": "few-shot-anomaly-detection-on-mvtec-ad-one-shot",
+  "task-hierarchy": [
+    "Anomaly Detection",
+    "Few-Shot Anomaly Detection"
+  ],
+  "dataset-info": {
+    "link": "https://www.mvtec.com/company/research/datasets/mvtec-ad/",
+    "paper": "MVTec AD -- A Comprehensive Real-World Dataset for Unsupervised Anomaly Detection"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Detection AUROC",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Segmentation AUROC",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Anomaly as Non-Conformity via Training-Free Graph Laplacian Energy Minimization",
+          "link": "https://arxiv.org/abs/2605.28428"
+        },
+        "c": "",
+        "n": "ANoCo (1-shot)",
+        "d": "2026-05-27",
+        "m1": "97.9",
+        "m2": "97.7"
+      },
+      {
+        "p": {
+          "name": "Defect Cue-Preserved Structural Feature Refinement for Few-Shot Anomaly Detection",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Jiang_Defect_Cue-Preserved_Structural_Feature_Refinement_for_Few-Shot_Anomaly_Detection_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "DCP-SFR",
+        "d": "2026-06-03",
+        "m1": "97.3",
+        "m2": "96.9"
+      },
+      {
+        "p": {
+          "name": "SubspaceAD: Training-Free Few-Shot Anomaly Detection via Subspace Modeling",
+          "link": "https://arxiv.org/abs/2602.23013"
+        },
+        "c": "",
+        "n": "SubspaceAD (DINOv2-G, 672)",
+        "d": "2026-04-05",
+        "m1": "97.1",
+        "m2": "97.5"
+      },
+      {
+        "p": {
+          "name": "AnomalyDINO: Boosting Patch-based Few-shot Anomaly Detection with DINOv2",
+          "link": "https://arxiv.org/abs/2405.14529v2"
+        },
+        "c": "https://github.com/dammsi/AnomalyDINO",
+        "n": "AnomalyDINO-S (672)",
+        "d": "2024-05-23",
+        "m1": "96.6",
+        "m2": "96.8"
+      },
+      {
+        "p": {
+          "name": "PromptAD: Learning Prompts with only Normal Samples for Few-Shot Anomaly Detection",
+          "link": "https://arxiv.org/abs/2404.05231"
+        },
+        "c": "https://github.com/funz-0/promptad",
+        "n": "PromptAD",
+        "d": "2024-04-08",
+        "m1": "94.6",
+        "m2": "95.9"
+      },
+      {
+        "p": {
+          "name": "FastRef: Fast Prototype Refinement for Few-shot Industrial Anomaly Detection",
+          "link": "https://arxiv.org/abs/2506.21398"
+        },
+        "c": "",
+        "n": "WinCLIP+",
+        "d": "2025-06-26",
+        "m1": "93.8",
+        "m2": "95.7"
+      }
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "title": "code-generation-on-swe-bench-multimodal",
+  "task-hierarchy": [
+    "Code Intelligence",
+    "Code Generation"
+  ],
+  "dataset-info": {
+    "link": "https://www.swebench.com/multimodal.html",
+    "paper": "SWE-bench Multimodal: Do AI Systems Generalize to Visual Software Domains?"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Introducing Claude Opus 5.5",
+          "link": "https://www.anthropic.com/claude-opus-5-5"
+        },
+        "c": "https://github.com/anthropics/claude-code",
+        "n": "Claude Opus 5.5 (max effort)",
+        "d": "2026-09-22",
+        "m1": "61.4"
+      },
+      {
+        "p": {
+          "name": "Introducing Claude Fable 5.1 and Claude Mythos 5.1",
+          "link": "https://www.anthropic.com/claude-fable-and-mythos-5-1"
+        },
+        "c": "",
+        "n": "Claude Fable 5.1 (max effort)",
+        "d": "2026-09-01",
+        "m1": "54.7"
+      },
+      {
+        "p": {
+          "name": "Introducing Claude Sonnet 5.5",
+          "link": "https://www.anthropic.com/claude-sonnet-5-5"
+        },
+        "c": "https://github.com/anthropics/claude-code",
+        "n": "Claude Sonnet 5.5 (max effort)",
+        "d": "2026-09-28",
+        "m1": "54.3"
+      },
+      {
+        "p": {
+          "name": "Introducing Claude Haiku 5.5",
+          "link": "https://www.anthropic.com/claude-haiku-5-5"
+        },
+        "c": "",
+        "n": "Claude Haiku 5.5 (max effort)",
+        "d": "2026-10-07",
+        "m1": "30.7"
+      }
+    ]
+  }
+}

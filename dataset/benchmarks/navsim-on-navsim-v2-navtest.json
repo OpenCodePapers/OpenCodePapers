@@ -1,0 +1,159 @@
+{
+  "title": "navsim-on-navsim-v2-navtest",
+  "task-hierarchy": [
+    "Autonomous Driving",
+    "NavSim"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/autonomousvision/navsim/blob/v2.2/docs/metrics.md",
+    "paper": "Pseudo-Simulation for Autonomous Driving"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "EPDMS",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Do Better Visual Representations Always Lead to Better End-to-End Autonomous Driving?",
+          "link": "https://arxiv.org/abs/2610.09695"
+        },
+        "c": "https://github.com/OpenDriveLab/ViRA",
+        "n": "ViRA-Diffusion",
+        "d": "2026-10-07",
+        "m1": "92.3"
+      },
+      {
+        "p": {
+          "name": "DriveStack-VLA: Render-Teacher Alignment for BEV-Based DeepStack Vision-Language-Action Model",
+          "link": "https://arxiv.org/abs/2606.24051"
+        },
+        "c": "",
+        "n": "DriveStack-VLA",
+        "d": "2026-06-23",
+        "m1": "91.0"
+      },
+      {
+        "p": {
+          "name": "RISE: Adaptive Imagination for World Action Models",
+          "link": "https://arxiv.org/abs/2608.20430"
+        },
+        "c": "https://github.com/COOWAI/RISE",
+        "n": "RISE (extra data)",
+        "d": "2026-08-20",
+        "m1": "90.8"
+      },
+      {
+        "p": {
+          "name": "SimWAM: A Simple World Action Model for End-to-End Autonomous Driving",
+          "link": "https://arxiv.org/abs/2608.07468"
+        },
+        "c": "https://github.com/H-EmbodVis/SimWAM",
+        "n": "SimWAM",
+        "d": "2026-08-07",
+        "m1": "90.2"
+      },
+      {
+        "p": {
+          "name": "Beyond Imitation: Learning Safe End-to-End Autonomous Driving from Hard Negatives",
+          "link": "https://arxiv.org/abs/2605.19771"
+        },
+        "c": "https://github.com/wjl2244/beyonddrive",
+        "n": "LTFv7",
+        "d": "2026-05-19",
+        "m1": "90.1"
+      },
+      {
+        "p": {
+          "name": "PriorEye: Geospatial Visual Priors for End-to-End Autonomous Driving",
+          "link": "https://arxiv.org/abs/2606.31830"
+        },
+        "c": "https://github.com/ori-mrg/prioreye",
+        "n": "DrivoR + PriorEye",
+        "d": "2026-06-30",
+        "m1": "89.9"
+      },
+      {
+        "p": {
+          "name": "FlowR2A: Learning Reward-to-Action Distribution for Multimodal Driving Planning",
+          "link": "https://arxiv.org/abs/2606.24231"
+        },
+        "c": "https://github.com/lixirui142/FlowR2A",
+        "n": "FlowR2A (ResNet-34)",
+        "d": "2026-06-23",
+        "m1": "88.9"
+      },
+      {
+        "p": {
+          "name": "DriveDreamer-Policy: A Geometry-Grounded World-Action Model for Unified Generation and Planning",
+          "link": "https://arxiv.org/abs/2604.01765"
+        },
+        "c": "https://github.com/youngzhou1999/DriveDreamer-Policy",
+        "n": "DriveDreamer-Policy",
+        "d": "2026-04-02",
+        "m1": "88.7"
+      },
+      {
+        "p": {
+          "name": "HAD: Combining Hierarchical Diffusion with Metric-Decoupled RL for End-to-End Driving",
+          "link": "https://arxiv.org/abs/2604.03581"
+        },
+        "c": "",
+        "n": "HAD",
+        "d": "2026-04-04",
+        "m1": "88.6"
+      },
+      {
+        "p": {
+          "name": "SimVTA: Simulation-Grounded Video-Trajectory Alignment for Driving World Action Models",
+          "link": "https://arxiv.org/abs/2610.13781"
+        },
+        "c": "https://github.com/OpenDriveLab/SimVTA",
+        "n": "SimVTA (extra data)",
+        "d": "2026-10-09",
+        "m1": "88.2"
+      },
+      {
+        "p": {
+          "name": "Drive-JEPA: Video JEPA Meets Multimodal Trajectory Distillation for End-to-End Driving",
+          "link": "https://arxiv.org/abs/2601.22032"
+        },
+        "c": "https://github.com/linhanwang/Drive-JEPA",
+        "n": "Drive-JEPA ViT/L (extra data)",
+        "d": "2026-01-29",
+        "m1": "87.8"
+      },
+      {
+        "p": {
+          "name": "SimScale: Learning to Drive via Real-World Simulation at Scale",
+          "link": "https://arxiv.org/abs/2511.23369"
+        },
+        "c": "https://github.com/opendrivelab/simscale",
+        "n": "SimScale DiffusionDrive (pseudo-expert co-training) (extra data)",
+        "d": "2025-11-28",
+        "m1": "85.9"
+      }
+    ]
+  }
+}

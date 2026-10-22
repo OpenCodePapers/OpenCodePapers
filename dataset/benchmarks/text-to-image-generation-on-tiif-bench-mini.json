@@ -1,0 +1,139 @@
+{
+  "title": "text-to-image-generation-on-tiif-bench-mini",
+  "task-hierarchy": [
+    "Image Generation",
+    "Text-to-Image Generation"
+  ],
+  "dataset-info": {
+    "link": "https://a113n-w3i.github.io/TIIF_Bench/",
+    "paper": "TIIF-Bench: How Does Your T2I Model Follow Your Instructions?"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "SenseNova-U1: Unifying Multimodal Understanding and Generation with NEO-unify Architecture",
+          "link": "https://arxiv.org/abs/2605.12500"
+        },
+        "c": "https://github.com/OpenSenseNova/SenseNova-U1",
+        "n": "SenseNova-U1-8B-MoT",
+        "d": "2026-05-12",
+        "m1": "89.74"
+      },
+      {
+        "p": {
+          "name": "Emu3.5: Native Multimodal Models are World Learners",
+          "link": "https://arxiv.org/abs/2510.26583"
+        },
+        "c": "https://github.com/baaivision/Emu3.5",
+        "n": "Emu3.5 (34B)",
+        "d": "2025-10-30",
+        "m1": "89.48"
+      },
+      {
+        "p": {
+          "name": "Scaling Properties of Text Conditioning in Visual Generation",
+          "link": "https://arxiv.org/abs/2607.29679"
+        },
+        "c": "https://github.com/heheyas/context-scaling",
+        "n": "Qwen-Image + Structured Prompter",
+        "d": "2026-07-31",
+        "m1": "89.1"
+      },
+      {
+        "p": {
+          "name": "Qwen-Image Technical Report",
+          "link": "https://arxiv.org/abs/2508.02324"
+        },
+        "c": "https://huggingface.co/Qwen/Qwen-Image",
+        "n": "Qwen-Image",
+        "d": "2025-08-04",
+        "m1": "86.14"
+      },
+      {
+        "p": {
+          "name": "Read It Back: Pretrained MLLMs Are Zero-Shot Reward Models for Text-to-Image Generation",
+          "link": "https://arxiv.org/abs/2607.11886"
+        },
+        "c": "https://github.com/huangrh99/AlphaGRPO",
+        "n": "SpectraReward (512px)",
+        "d": "2026-07-13",
+        "m1": "85.23"
+      },
+      {
+        "p": {
+          "name": "GLM-Image: Auto-regressive for Dense-knowledge and High-fidelity Image Generation",
+          "link": "https://z.ai/blog/glm-image"
+        },
+        "c": "https://github.com/zai-org/glm-image",
+        "n": "GLM-Image",
+        "d": "2026-01-14",
+        "m1": "81.01"
+      },
+      {
+        "p": {
+          "name": "Z-Image: An Efficient Image Generation Foundation Model with Single-Stream Diffusion Transformer",
+          "link": "https://arxiv.org/abs/2511.22699"
+        },
+        "c": "https://github.com/Tongyi-MAI/Z-Image",
+        "n": "Z-Image",
+        "d": "2025-11-27",
+        "m1": "80.20"
+      },
+      {
+        "p": {
+          "name": "Interleaving Reasoning for Better Text-to-Image Generation",
+          "link": "https://arxiv.org/abs/2509.06945"
+        },
+        "c": "https://github.com/Osilly/Interleaving-Reasoning-Generation",
+        "n": "IRG",
+        "d": "2025-09-08",
+        "m1": "76.00"
+      },
+      {
+        "p": {
+          "name": "UniCorn: Towards Self-Improving Unified Multimodal Models through Self-Generated Supervision",
+          "link": "https://arxiv.org/abs/2601.03193"
+        },
+        "c": "https://github.com/Hungryyan1/UniCorn",
+        "n": "UniCorn",
+        "d": "2026-01-06",
+        "m1": "74.7"
+      },
+      {
+        "p": {
+          "name": "Lumina-DiMOO: An Omni Diffusion Large Language Model for Multi-Modal Generation and Understanding",
+          "link": "https://arxiv.org/abs/2510.06308"
+        },
+        "c": "https://github.com/Alpha-VLLM/Lumina-DiMOO",
+        "n": "Lumina-DiMOO",
+        "d": "2025-10-07",
+        "m1": "71.27"
+      }
+    ]
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "title": "optical-flow-estimation-on-kitti-2012-optical-flow-test",
+  "task-hierarchy": [
+    "Optical Flow Estimation"
+  ],
+  "dataset-info": {
+    "link": "https://www.cvlibs.net/datasets/kitti/eval_stereo_flow.php?benchmark=flow",
+    "paper": "Are we ready for autonomous driving? The KITTI vision benchmark suite"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Average End-Point Error",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "MaskFlownet: Asymmetric Feature Matching with Learnable Occlusion Mask",
+          "link": "https://arxiv.org/abs/2003.10955v2"
+        },
+        "c": "https://github.com/open-mmlab/mmflow",
+        "n": "MaskFlownet (extra data)",
+        "d": "2020-03-24",
+        "m1": "1.1"
+      },
+      {
+        "p": {
+          "name": "PWC-Net: CNNs for Optical Flow Using Pyramid, Warping, and Cost Volume",
+          "link": "http://arxiv.org/abs/1709.02371v3"
+        },
+        "c": "https://github.com/NVlabs/PWC-Net",
+        "n": "PWC-Net-ft (extra data)",
+        "d": "2017-09-07",
+        "m1": "1.7"
+      },
+      {
+        "p": {
+          "name": "FlowNet 2.0: Evolution of Optical Flow Estimation with Deep Networks",
+          "link": "http://arxiv.org/abs/1612.01925v1"
+        },
+        "c": "https://github.com/NVIDIA/flownet2-pytorch",
+        "n": "FlowNet2-ft-kitti (extra data)",
+        "d": "2016-12-06",
+        "m1": "1.8"
+      },
+      {
+        "p": {
+          "name": "Optical Flow Estimation using a Spatial Pyramid Network",
+          "link": "http://arxiv.org/abs/1611.00850v2"
+        },
+        "c": "https://github.com/philferriere/tfoptflow",
+        "n": "SPyNet+ft (Driving + Monkaa) (extra data)",
+        "d": "2016-11-03",
+        "m1": "4.7"
+      },
+      {
+        "p": {
+          "name": "FlowNet: Learning Optical Flow with Convolutional Networks",
+          "link": "https://arxiv.org/abs/1504.06852"
+        },
+        "c": "",
+        "n": "FlowNetS+ft+v (Sintel fine-tuned, variational refinement) (extra data)",
+        "d": "2015-04-26",
+        "m1": "7.6"
+      }
+    ]
+  }
+}

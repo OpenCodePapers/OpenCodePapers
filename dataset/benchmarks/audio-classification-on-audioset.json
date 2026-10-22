@@ -132,6 +132,16 @@
       },
       {
         "p": {
+          "name": "CED: Consistent ensemble distillation for audio tagging",
+          "link": "https://arxiv.org/abs/2308.11957"
+        },
+        "c": "https://github.com/RicherMans/CED",
+        "n": "CED-Base",
+        "d": "2023-08-22",
+        "m1": "0.500"
+      },
+      {
+        "p": {
           "name": "Efficient Large-scale Audio Tagging via Transformer-to-CNN Knowledge Distillation",
           "link": "https://arxiv.org/abs/2211.04772v3"
         },
@@ -441,6 +451,26 @@
       },
       {
         "p": {
+          "name": "Perceiver IO: A General Architecture for Structured Inputs & Outputs",
+          "link": "https://arxiv.org/abs/2107.14795v3"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Perceiver IO (mel-spectrogram + video)",
+        "d": "2021-07-30",
+        "m1": "0.449"
+      },
+      {
+        "p": {
+          "name": "PolyViT: Co-training Vision Transformers on Images, Videos and Audio",
+          "link": "https://arxiv.org/abs/2111.12993"
+        },
+        "c": "",
+        "n": "PolyViT-B",
+        "d": "2021-11-25",
+        "m1": "0.445"
+      },
+      {
+        "p": {
           "name": "PSLA: Improving Audio Tagging with Pretraining, Sampling, Labeling, and Aggregation",
           "link": "https://arxiv.org/abs/2102.01243v3"
         },
@@ -525,6 +555,16 @@
         "n": "Multi-Format Contrastive",
         "d": "2021-03-11",
         "m1": "0.376"
+      },
+      {
+        "p": {
+          "name": "Audio Mamba: Bidirectional State Space Model for Audio Representation Learning",
+          "link": "https://arxiv.org/abs/2406.03344"
+        },
+        "c": "https://github.com/kaistmm/Audio-Mamba-AuM",
+        "n": "AuM-B/16",
+        "d": "2024-06-05",
+        "m1": "0.3274"
       },
       {
         "p": {

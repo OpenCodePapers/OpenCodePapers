@@ -56,6 +56,17 @@
       },
       {
         "p": {
+          "name": "SuperPlace: The Renaissance of Classical Feature Aggregation for Visual Place Recognition in the Era of Foundation Models",
+          "link": "https://arxiv.org/abs/2506.13073"
+        },
+        "c": "https://github.com/binuxliu/superplace",
+        "n": "SuperPlace SP-NVL-FT2 (DINOv2-L, GPMS, 8192D, 322px)",
+        "d": "2025-06-16",
+        "m1": "84.8",
+        "m3": "94.2"
+      },
+      {
+        "p": {
           "name": "Towards Implicit Aggregation: Robust Image Representation for Place Recognition in the Transformer Era",
           "link": "https://arxiv.org/abs/2511.06024"
         },
@@ -65,6 +76,30 @@
         "m1": "84.5",
         "m2": "93.8",
         "m3": "95.4"
+      },
+      {
+        "p": {
+          "name": "SelaVPR++: Towards Seamless Adaptation of Foundation Models for Efficient Place Recognition",
+          "link": "https://arxiv.org/abs/2502.16601"
+        },
+        "c": "https://github.com/Lu-Feng/SelaVPRplusplus",
+        "n": "SelaVPR++ (DINOv2-L, binary512D + float4096D, rerank100)",
+        "d": "2025-02-23",
+        "m1": "84",
+        "m2": "93.7",
+        "m3": "94.4"
+      },
+      {
+        "p": {
+          "name": "\"Close, But Not There: Boosting Geographic Distance Sensitivity in Visual Place Recognition\"",
+          "link": "https://arxiv.org/abs/2407.02422"
+        },
+        "c": "https://github.com/serizba/cliquemining",
+        "n": "DINOv2 SALAD + CliqueMining",
+        "d": "2024-07-02",
+        "m1": "82.7",
+        "m2": "91.2",
+        "m3": "92.7"
       },
       {
         "p": {
@@ -89,6 +124,18 @@
         "m1": "81.7",
         "m2": "92.2",
         "m3": "94.5"
+      },
+      {
+        "p": {
+          "name": "A^2GC: Asymmetric Aggregation with Geometric Constraints for Locally Aggregated Descriptors",
+          "link": "https://arxiv.org/abs/2511.14109"
+        },
+        "c": "https://github.com/cv4ra/a2gc",
+        "n": "A²GC (DINOv2-G, 33280-D)",
+        "d": "2025-11-18",
+        "m1": "80.6",
+        "m2": "90.9",
+        "m3": "92.5"
       },
       {
         "p": {
@@ -152,6 +199,40 @@
       },
       {
         "p": {
+          "name": "EDTformer: An Efficient Decoder Transformer for Visual Place Recognition",
+          "link": "https://arxiv.org/abs/2412.00784"
+        },
+        "c": "https://github.com/tong-jin01/edtformer",
+        "n": "EDTformer (4096D, 2decoder blocks, 64learned tokens, LoPA rank4)",
+        "d": "2024-12-01",
+        "m1": "78.4",
+        "m2": "89.8",
+        "m3": "91.9"
+      },
+      {
+        "p": {
+          "name": "Faster or Stronger: Towards Flexible Visual Place Recognition via Weighted Aggregation and Token Pruning",
+          "link": "https://arxiv.org/abs/2605.20551"
+        },
+        "c": "",
+        "n": "WeiAD + WeiToP (DINOv2 ViT-B, retention 0.95)",
+        "d": "2026-05-19",
+        "m1": "76.3",
+        "m2": "87.9"
+      },
+      {
+        "p": {
+          "name": "UniPR-3D: Towards Universal Visual Place Recognition with Visual Geometry Grounded Transformer",
+          "link": "https://arxiv.org/abs/2512.21078"
+        },
+        "c": "https://github.com/dtc111111/UniPR-3D",
+        "n": "UniPR-3D* (MegaLoc training setting, single frame)",
+        "d": "2025-12-24",
+        "m1": "75.9",
+        "m3": "91.8"
+      },
+      {
+        "p": {
           "name": "Optimal Transport Aggregation for Visual Place Recognition",
           "link": "https://arxiv.org/abs/2311.15937v2"
         },
@@ -164,6 +245,18 @@
       },
       {
         "p": {
+          "name": "LaVPR: Benchmarking Language and Vision for Place Recognition",
+          "link": "https://arxiv.org/abs/2602.03253"
+        },
+        "c": "https://github.com/oferidan1/lavpr",
+        "n": "La-SALAD+BGE-L (ADS+LLP) [Gemini2.5Flash image captions]",
+        "d": "2026-02-03",
+        "m1": "74.6",
+        "m2": "88.8",
+        "m3": "91.2"
+      },
+      {
+        "p": {
           "name": "Towards Seamless Adaptation of Pre-trained Models for Visual Place Recognition",
           "link": "https://arxiv.org/abs/2402.14505v3"
         },
@@ -173,6 +266,41 @@
         "m1": "73.5",
         "m2": "87.5",
         "m3": "90.6"
+      },
+      {
+        "p": {
+          "name": "$R^{2}$Former: Unified $R$etrieval and $R$eranking Transformer for Place Recognition",
+          "link": "https://arxiv.org/abs/2304.03410"
+        },
+        "c": "https://github.com/bytedance/r2former",
+        "n": "R2Former (ViT-Small, MSLS-trained, top-100 reranking)",
+        "d": "2023-04-06",
+        "m1": "73",
+        "m2": "85.9",
+        "m3": "88.8"
+      },
+      {
+        "p": {
+          "name": "StructVPR++: Distill Structural and Semantic Knowledge with Weighting Samples for Visual Place Recognition",
+          "link": "https://arxiv.org/abs/2503.06601"
+        },
+        "c": "https://github.com/shenyanqing1105/structvpr",
+        "n": "StructVPR++ + SuperPoint-SuperGlue (top100 reranking)",
+        "d": "2025-03-09",
+        "m1": "72.5",
+        "m2": "85.1",
+        "m3": "87.9"
+      },
+      {
+        "p": {
+          "name": "StructVPR++: Distill Structural and Semantic Knowledge with Weighting Samples for Visual Place Recognition",
+          "link": "https://arxiv.org/abs/2503.06601"
+        },
+        "c": "https://github.com/shenyanqing1105/structvpr",
+        "n": "StructVPR++ (global retrieval)",
+        "d": "2025-03-09",
+        "m1": "65.7",
+        "m3": "85.3"
       },
       {
         "p": {
@@ -200,6 +328,18 @@
       },
       {
         "p": {
+          "name": "Deep Homography Estimation for Visual Place Recognition",
+          "link": "https://arxiv.org/abs/2402.16086"
+        },
+        "c": "https://github.com/lu-feng/dhe-vpr",
+        "n": "DHE-VPR (jointly fine-tuned)",
+        "d": "2024-02-25",
+        "m1": "61.7",
+        "m2": "78.2",
+        "m3": "82.6"
+      },
+      {
+        "p": {
           "name": "Generalized Contrastive Optimization of Siamese Networks for Place Recognition",
           "link": "https://arxiv.org/abs/2103.06638v4"
         },
@@ -209,6 +349,38 @@
         "m1": "56.0",
         "m2": "70.8",
         "m3": "75.1"
+      },
+      {
+        "p": {
+          "name": "UniPR-3D: Towards Universal Visual Place Recognition with Visual Geometry Grounded Transformer",
+          "link": "https://arxiv.org/abs/2512.21078"
+        },
+        "c": "https://github.com/dtc111111/UniPR-3D",
+        "n": "UniPR-3D (GSV-Cities single-frame release)",
+        "d": "2025-12-24",
+        "m2": "87.5"
+      },
+      {
+        "p": {
+          "name": "SuperPlace: The Renaissance of Classical Feature Aggregation for Visual Place Recognition in the Era of Foundation Models",
+          "link": "https://arxiv.org/abs/2506.13073"
+        },
+        "c": "https://github.com/binuxliu/superplace",
+        "n": "SuperPlace SALAD-SLA (DINOv2-B, GSV-Cities+MSLS, 8448D, 224px)",
+        "d": "2025-06-16",
+        "m2": "93.5"
+      },
+      {
+        "p": {
+          "name": "Patch-NetVLAD: Multi-Scale Fusion of Locally-Global Descriptors for Place Recognition",
+          "link": "https://arxiv.org/abs/2103.01486v1"
+        },
+        "c": "https://github.com/QVPR/Patch-NetVLAD",
+        "n": "Patch-NetVLAD (Multi-RANSAC, 4096-D)",
+        "d": "2021-03-02",
+        "m1": "48.1",
+        "m2": "57.6",
+        "m3": "60.5"
       }
     ]
   }

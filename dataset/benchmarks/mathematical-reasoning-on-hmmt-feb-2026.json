@@ -1,0 +1,198 @@
+{
+  "title": "mathematical-reasoning-on-hmmt-feb-2026",
+  "task-hierarchy": [
+    "Mathematical Reasoning"
+  ],
+  "dataset-info": {
+    "link": "https://arxiv.org/abs/2605.00674",
+    "paper": "Beyond Benchmarks: MathArena as an Evaluation Platform for Mathematics with LLMs"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence",
+          "link": "https://arxiv.org/abs/2606.19348"
+        },
+        "c": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+        "n": "DeepSeek-V4-Pro Max",
+        "d": "2026-04-26",
+        "m1": "95.2"
+      },
+      {
+        "p": {
+          "name": "GLM-5.2: Built for Long-Horizon Tasks",
+          "link": "https://z.ai/blog/glm-5.2"
+        },
+        "c": "https://github.com/zai-org/GLM-5",
+        "n": "GLM-5.2",
+        "d": "2026-06-16",
+        "m1": "92.5"
+      },
+      {
+        "p": {
+          "name": "Intern-S2-Preview: Scientific Agentic Foundation Model",
+          "link": "https://arxiv.org/abs/2608.13505"
+        },
+        "c": "https://github.com/internlm/intern-s1",
+        "n": "Intern-S2-Preview-397B",
+        "d": "2026-08-13",
+        "m1": "91.57"
+      },
+      {
+        "p": {
+          "name": "Inkling-Small",
+          "link": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        "c": "https://github.com/thinking-machines-lab/tinker-cookbook",
+        "n": "Inkling-Small",
+        "d": "2026-07-27",
+        "m1": "90.2"
+      },
+      {
+        "p": {
+          "name": "Intern-S2-Mobius: Foundation Model with Decoupled Knowledge and Reasoning",
+          "link": "https://arxiv.org/abs/2608.14290"
+        },
+        "c": "https://github.com/internlm/intern-s2-mobius",
+        "n": "Intern-S2-Mobius-35B",
+        "d": "2026-08-14",
+        "m1": "85.51"
+      },
+      {
+        "p": {
+          "name": "MAI-Thinking-1: Building a Hill-Climbing Machine",
+          "link": "https://microsoft.ai/wp-content/uploads/2026/06/main_20260602_2.pdf"
+        },
+        "c": "",
+        "n": "MAI-Thinking-1",
+        "d": "2026-06-02",
+        "m1": "84.9"
+      },
+      {
+        "p": {
+          "name": "Limite 1B - Violetto: Technical Report",
+          "link": "https://paradigma.inc/research/limite-1b-violetto/"
+        },
+        "c": "https://github.com/paradigma-inc/limite-violetto",
+        "n": "Limite 1B - Violetto",
+        "d": "2026-10-06",
+        "m1": "83.62"
+      },
+      {
+        "p": {
+          "name": "AgentMercury: Your Agent Can Synthesize Verifiable Environments for Business Scenarios at scale",
+          "link": "https://arxiv.org/abs/2608.20634"
+        },
+        "c": "",
+        "n": "Qwen3.5-35B-A3B + SAO + Ours",
+        "d": "2026-08-21",
+        "m1": "83.3"
+      },
+      {
+        "p": {
+          "name": "Nanbeige4.2-3B: Unlocking Agentic Capabilities in a Compact Model",
+          "link": "https://huggingface.co/Nanbeige/Nanbeige4.2-3B/blob/main/Nanbeige42_report.pdf"
+        },
+        "c": "https://github.com/vllm-project/vllm",
+        "n": "Nanbeige4.2-3B",
+        "d": "2026-07-21",
+        "m1": "82.8"
+      },
+      {
+        "p": {
+          "name": "Introducing K2 Horizon: Frontier Performance, Radically Open",
+          "link": "https://ifm.ai/blog/k2/"
+        },
+        "c": "https://github.com/ifm-ai/xllm",
+        "n": "K2-Horizon-7B",
+        "d": "2026-09-03",
+        "m1": "73.3"
+      },
+      {
+        "p": {
+          "name": "Data Science and Technology Towards AGI Part I: Tiered Data Management",
+          "link": "https://arxiv.org/abs/2602.09003"
+        },
+        "c": "https://github.com/UltraData-OpenBMB/UltraData-Math",
+        "n": "MiniCPM5-2B",
+        "d": "2026-02-09",
+        "m1": "63.8"
+      },
+      {
+        "p": {
+          "name": "Is Next-Chunk Reasoning RL Really Better than SFT? Revisiting Training Strategies under no-CoT Data",
+          "link": "https://arxiv.org/abs/2608.23256"
+        },
+        "c": "",
+        "n": "Mixed SFT + RLVR",
+        "d": "2026-08-24",
+        "m1": "51.52"
+      },
+      {
+        "p": {
+          "name": "Surprising Success, Repeated Failure: Entropy-Guided Credit Assignment for Exploration in LLM Reasoning",
+          "link": "https://arxiv.org/abs/2609.33781"
+        },
+        "c": "https://github.com/wgcyeo/EAPO",
+        "n": "Olmo-3-7B-Think-DPO + EAPO",
+        "d": "2026-09-27",
+        "m1": "45.5"
+      },
+      {
+        "p": {
+          "name": "Self-Organizing Agent Teams Learn to Reason Together",
+          "link": "https://arxiv.org/abs/2609.22682"
+        },
+        "c": "",
+        "n": "Self-Organizing Agent Teams (SAT)",
+        "d": "2026-09-19",
+        "m1": "39.4"
+      },
+      {
+        "p": {
+          "name": "Where the Model Changes Its Mind: Hindsight-Divergence Localization for Efficient Reinforcement Learning with Verifiable Rewards",
+          "link": "https://arxiv.org/abs/2609.36864"
+        },
+        "c": "",
+        "n": "HDL (Llama3.1-8B)",
+        "d": "2026-09-29",
+        "m1": "29.04"
+      },
+      {
+        "p": {
+          "name": "MiniCPM5-1B",
+          "link": "https://huggingface.co/openbmb/MiniCPM5-1B"
+        },
+        "c": "https://github.com/openbmb/minicpm",
+        "n": "MiniCPM5-1B (Thinking)",
+        "d": "2026-05-25",
+        "m1": "25.76"
+      }
+    ]
+  }
+}

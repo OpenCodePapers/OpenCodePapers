@@ -1,0 +1,109 @@
+{
+  "title": "long-context-understanding-on-mrcr-v2-1m",
+  "task-hierarchy": [
+    "Natural Language Understanding",
+    "Long-Context Understanding"
+  ],
+  "dataset-info": {
+    "link": "https://arxiv.org/abs/2507.06261",
+    "paper": "Gemini 2.5: Pushing the Frontier with Advanced Reasoning, Multimodality, Long Context, and Next Generation Agentic Capabilities"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence",
+          "link": "https://arxiv.org/abs/2606.19348"
+        },
+        "c": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+        "n": "DeepSeek-V4-Pro Max",
+        "d": "2026-04-26",
+        "m1": "83.5"
+      },
+      {
+        "p": {
+          "name": "DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence",
+          "link": "https://arxiv.org/abs/2606.19348"
+        },
+        "c": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+        "n": "DeepSeek-V4-Flash Max",
+        "d": "2026-04-26",
+        "m1": "78.7"
+      },
+      {
+        "p": {
+          "name": "Introducing LongCat-2.0",
+          "link": "https://longcat.chat/blog/longcat-2.0/"
+        },
+        "c": "https://huggingface.co/meituan-longcat/LongCat-2.0",
+        "n": "LongCat-2.0",
+        "d": "2026-07-05",
+        "m1": "63.7"
+      },
+      {
+        "p": {
+          "name": "Introducing Muse Spark 1.1",
+          "link": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/"
+        },
+        "c": "https://github.com/meta-models/meta-model-cookbook",
+        "n": "Muse Spark 1.1",
+        "d": "2026-07-09",
+        "m1": "54.1"
+      },
+      {
+        "p": {
+          "name": "Gemini 3.1 Pro: A smarter model for your most complex tasks",
+          "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/"
+        },
+        "c": "",
+        "n": "Gemini 3.1 Pro",
+        "d": "2026-02-19",
+        "m1": "26.3"
+      },
+      {
+        "p": {
+          "name": "Gemini 2.5: Pushing the Frontier with Advanced Reasoning, Multimodality, Long Context, and Next Generation Agentic Capabilities",
+          "link": "https://arxiv.org/abs/2507.06261"
+        },
+        "c": "",
+        "n": "Gemini 2.5 Flash",
+        "d": "2025-07-07",
+        "m1": "21.0"
+      },
+      {
+        "p": {
+          "name": "Gemini 2.5: Pushing the Frontier with Advanced Reasoning, Multimodality, Long Context, and Next Generation Agentic Capabilities",
+          "link": "https://arxiv.org/abs/2507.06261"
+        },
+        "c": "",
+        "n": "Gemini 2.5 Pro",
+        "d": "2025-07-07",
+        "m1": "16.4"
+      }
+    ]
+  }
+}

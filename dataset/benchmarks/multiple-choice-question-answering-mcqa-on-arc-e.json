@@ -1,0 +1,359 @@
+{
+  "title": "multiple-choice-question-answering-mcqa-on-arc-e",
+  "task-hierarchy": [
+    "Question Answering",
+    "Multiple Choice Question Answering (MCQA)"
+  ],
+  "dataset-info": {
+    "link": "https://arxiv.org/abs/1803.05457",
+    "paper": "Think you have Solved Question Answering? Try ARC, the AI2 Reasoning Challenge"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "PaLM: Scaling Language Modeling with Pathways",
+          "link": "https://arxiv.org/abs/2204.02311v5"
+        },
+        "c": "https://github.com/lucidrains/CoCa-pytorch",
+        "n": "PaLM 540B",
+        "d": "2022-04-05",
+        "m1": "88.4"
+      },
+      {
+        "p": {
+          "name": "Dream 7B: Diffusion Large Language Models",
+          "link": "https://arxiv.org/abs/2508.15487"
+        },
+        "c": "",
+        "n": "Dream 7B",
+        "d": "2025-08-21",
+        "m1": "83.9"
+      },
+      {
+        "p": {
+          "name": "PaLM: Scaling Language Modeling with Pathways",
+          "link": "https://arxiv.org/abs/2204.02311v5"
+        },
+        "c": "https://github.com/lucidrains/CoCa-pytorch",
+        "n": "PaLM 62B",
+        "d": "2022-04-05",
+        "m1": "80.6"
+      },
+      {
+        "p": {
+          "name": "Mamba-3: Improved Sequence Modeling using State Space Principles",
+          "link": "https://arxiv.org/abs/2603.15569"
+        },
+        "c": "https://github.com/state-spaces/mamba",
+        "n": "Mamba-3-MIMO-1.5B",
+        "d": "2026-03-16",
+        "m1": "76.5"
+      },
+      {
+        "p": {
+          "name": "Mamba-3: Improved Sequence Modeling using State Space Principles",
+          "link": "https://arxiv.org/abs/2603.15569"
+        },
+        "c": "https://github.com/state-spaces/mamba",
+        "n": "Mamba-3-SISO-1.5B",
+        "d": "2026-03-16",
+        "m1": "75.9"
+      },
+      {
+        "p": {
+          "name": "Mamba-3: Improved Sequence Modeling using State Space Principles",
+          "link": "https://arxiv.org/abs/2603.15569"
+        },
+        "c": "https://github.com/state-spaces/mamba",
+        "n": "Mamba-3-MIMO-880M",
+        "d": "2026-03-16",
+        "m1": "74.7"
+      },
+      {
+        "p": {
+          "name": "Modular TTT: Rethinking Test-Time Training as Composable Modules",
+          "link": "https://arxiv.org/abs/2608.07110"
+        },
+        "c": "https://github.com/bytedance-seed/modular-ttt",
+        "n": "Modular TTT 1.45B (inner-product M-SiLU)",
+        "d": "2026-08-07",
+        "m1": "73.74"
+      },
+      {
+        "p": {
+          "name": "Mamba-3: Improved Sequence Modeling using State Space Principles",
+          "link": "https://arxiv.org/abs/2603.15569"
+        },
+        "c": "https://github.com/state-spaces/mamba",
+        "n": "Mamba-3-SISO-880M",
+        "d": "2026-03-16",
+        "m1": "72.7"
+      },
+      {
+        "p": {
+          "name": "Distributionally Robust Mixture-of-Experts Training",
+          "link": "https://arxiv.org/abs/2610.07207"
+        },
+        "c": "https://github.com/MAPS-research/DRMoET",
+        "n": "DRMoET (1.7B active, 10.3B total, eta=0.01)",
+        "d": "2026-10-05",
+        "m1": "72.1"
+      },
+      {
+        "p": {
+          "name": "PaLM: Scaling Language Modeling with Pathways",
+          "link": "https://arxiv.org/abs/2204.02311v5"
+        },
+        "c": "https://github.com/lucidrains/CoCa-pytorch",
+        "n": "PaLM 8B",
+        "d": "2022-04-05",
+        "m1": "71.3"
+      },
+      {
+        "p": {
+          "name": "Language Models are Few-Shot Learners",
+          "link": "https://arxiv.org/abs/2005.14165v4"
+        },
+        "c": "https://github.com/ggml-org/llama.cpp",
+        "n": "GPT-3 175B (few-shot)",
+        "d": "2020-05-28",
+        "m1": "70.1"
+      },
+      {
+        "p": {
+          "name": "Maglev: Sliding Recurrent Memory",
+          "link": "https://arxiv.org/abs/2608.02870"
+        },
+        "c": "",
+        "n": "Maglev (lambda=0.1)",
+        "d": "2026-08-05",
+        "m1": "70.0"
+      },
+      {
+        "p": {
+          "name": "Language Models are Few-Shot Learners",
+          "link": "https://arxiv.org/abs/2005.14165v4"
+        },
+        "c": "https://github.com/ggml-org/llama.cpp",
+        "n": "GPT-3 13B (few-shot)",
+        "d": "2020-05-28",
+        "m1": "69.1"
+      },
+      {
+        "p": {
+          "name": "Mamba-3: Improved Sequence Modeling using State Space Principles",
+          "link": "https://arxiv.org/abs/2603.15569"
+        },
+        "c": "https://github.com/state-spaces/mamba",
+        "n": "Mamba-3-SISO-440M",
+        "d": "2026-03-16",
+        "m1": "68.9"
+      },
+      {
+        "p": {
+          "name": "Language Models are Few-Shot Learners",
+          "link": "https://arxiv.org/abs/2005.14165v4"
+        },
+        "c": "https://github.com/ggml-org/llama.cpp",
+        "n": "GPT-3 175B (zero-shot)",
+        "d": "2020-05-28",
+        "m1": "68.8"
+      },
+      {
+        "p": {
+          "name": "Copy-Paste Language Models",
+          "link": "https://arxiv.org/abs/2610.19247"
+        },
+        "c": "https://github.com/kellerjordan/modded-nanogpt",
+        "n": "Copy-Paste Language Model (1.7B, Full)",
+        "d": "2026-10-13",
+        "m1": "68.1"
+      },
+      {
+        "p": {
+          "name": "Language Models are Few-Shot Learners",
+          "link": "https://arxiv.org/abs/2005.14165v4"
+        },
+        "c": "https://github.com/ggml-org/llama.cpp",
+        "n": "GPT-3 6.7B (few-shot)",
+        "d": "2020-05-28",
+        "m1": "65.8"
+      },
+      {
+        "p": {
+          "name": "Scaling Laws for Looped Mixture of Experts",
+          "link": "https://arxiv.org/abs/2609.40316"
+        },
+        "c": "",
+        "n": "A0.3B-1.3B LoopMoE (R=5)",
+        "d": "2026-09-30",
+        "m1": "64.3"
+      },
+      {
+        "p": {
+          "name": "Grouped Value Attention: Efficient KV Caching via On-Demand Key Reconstruction",
+          "link": "https://arxiv.org/abs/2609.13285"
+        },
+        "c": "",
+        "n": "GVA + DRoPE d_r=16",
+        "d": "2026-09-08",
+        "m1": "63.81"
+      },
+      {
+        "p": {
+          "name": "Language Models are Few-Shot Learners",
+          "link": "https://arxiv.org/abs/2005.14165v4"
+        },
+        "c": "https://github.com/ggml-org/llama.cpp",
+        "n": "GPT-3 13B (zero-shot)",
+        "d": "2020-05-28",
+        "m1": "63.8"
+      },
+      {
+        "p": {
+          "name": "Mamba-3: Improved Sequence Modeling using State Space Principles",
+          "link": "https://arxiv.org/abs/2603.15569"
+        },
+        "c": "https://github.com/state-spaces/mamba",
+        "n": "Mamba-3-MIMO-180M",
+        "d": "2026-03-16",
+        "m1": "60.6"
+      },
+      {
+        "p": {
+          "name": "Language Models are Few-Shot Learners",
+          "link": "https://arxiv.org/abs/2005.14165v4"
+        },
+        "c": "https://github.com/ggml-org/llama.cpp",
+        "n": "GPT-3 6.7B (zero-shot)",
+        "d": "2020-05-28",
+        "m1": "60.2"
+      },
+      {
+        "p": {
+          "name": "Language Models are Few-Shot Learners",
+          "link": "https://arxiv.org/abs/2005.14165v4"
+        },
+        "c": "https://github.com/ggml-org/llama.cpp",
+        "n": "GPT-3 XL (few-shot)",
+        "d": "2020-05-28",
+        "m1": "59.1"
+      },
+      {
+        "p": {
+          "name": "Circuit Hypernetworks for Quantum-Augmented Diffusion Language Models",
+          "link": "https://arxiv.org/abs/2609.24657"
+        },
+        "c": "",
+        "n": "HyperQ, 64 q",
+        "d": "2026-09-21",
+        "m1": "55.5"
+      },
+      {
+        "p": {
+          "name": "Language Models are Few-Shot Learners",
+          "link": "https://arxiv.org/abs/2005.14165v4"
+        },
+        "c": "https://github.com/ggml-org/llama.cpp",
+        "n": "GPT-3 XL (zero-shot)",
+        "d": "2020-05-28",
+        "m1": "53.8"
+      },
+      {
+        "p": {
+          "name": "Daedalus-150M: A Convolution-Attention Hybrid Designed for CPU Inference",
+          "link": "https://arxiv.org/abs/2608.20210"
+        },
+        "c": "https://github.com/unseen1980/daedalus",
+        "n": "Daedalus-150M",
+        "d": "2026-08-20",
+        "m1": "50.42"
+      },
+      {
+        "p": {
+          "name": "ParameterNet: Parameters Are All You Need for Large-scale Visual Pretraining of Mobile Networks",
+          "link": "https://openaccess.thecvf.com/content/CVPR2024/html/Han_ParameterNet_Parameters_Are_All_You_Need_for_Large-scale_Visual_Pretraining_CVPR_2024_paper.html"
+        },
+        "c": "https://github.com/huawei-noah/efficient-ai-backbones",
+        "n": "ParameterNet-MoE-up-proj-8",
+        "d": "2024-06-17",
+        "m1": "49.58"
+      },
+      {
+        "p": {
+          "name": "WhiteMatter: All-to-All Cross-Layer Connections via KV Source Mixing",
+          "link": "https://arxiv.org/abs/2608.18486"
+        },
+        "c": "https://github.com/Cy-47/White-Matter",
+        "n": "WhiteMatter k=16",
+        "d": "2026-09-27",
+        "m1": "46.21"
+      },
+      {
+        "p": {
+          "name": "Embeddings Are Overpriced? A Frozen 16 MB Vocabulary for Small and Ternary Language Models",
+          "link": "https://arxiv.org/abs/2610.22428"
+        },
+        "c": "",
+        "n": "A learned table, float",
+        "d": "2026-10-15",
+        "m1": "45.9"
+      },
+      {
+        "p": {
+          "name": "Gated Recurrent Transformers: Expressive Depth through Recurrent Modulation",
+          "link": "https://arxiv.org/abs/2608.15062"
+        },
+        "c": "https://github.com/Amr-Hegazy1/gated-recurrent-transformer",
+        "n": "GRT Large (isoParams, zero-shot)",
+        "d": "2026-08-15",
+        "m1": "45.54"
+      },
+      {
+        "p": {
+          "name": "Language Models are Few-Shot Learners",
+          "link": "https://arxiv.org/abs/2005.14165v4"
+        },
+        "c": "https://github.com/ggml-org/llama.cpp",
+        "n": "GPT-3 Small (zero-shot)",
+        "d": "2020-05-28",
+        "m1": "43.6"
+      },
+      {
+        "p": {
+          "name": "Language Models are Few-Shot Learners",
+          "link": "https://arxiv.org/abs/2005.14165v4"
+        },
+        "c": "https://github.com/ggml-org/llama.cpp",
+        "n": "GPT-3 Small (few-shot)",
+        "d": "2020-05-28",
+        "m1": "42.7"
+      }
+    ]
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "title": "agents-on-gaia-text-only-103-validation-tasks",
+  "task-hierarchy": [
+    "Agents"
+  ],
+  "dataset-info": {
+    "link": "https://huggingface.co/spaces/gaia-benchmark/leaderboard",
+    "paper": "GAIA: a benchmark for General AI Assistants"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "AREX-2: Advancing Self-Improving Agents through Long-Horizon Reflective Tasks",
+          "link": "https://arxiv.org/abs/2609.38288"
+        },
+        "c": "https://github.com/VectorSpaceLab/AREX-2",
+        "n": "AREX-2",
+        "d": "2026-09-29",
+        "m1": "92.2"
+      },
+      {
+        "p": {
+          "name": "QUEST: Training Frontier Deep Research Agents with Fully Synthetic Tasks",
+          "link": "https://arxiv.org/abs/2605.24218"
+        },
+        "c": "https://github.com/OSU-NLP-Group/QUEST",
+        "n": "QUEST-35B",
+        "d": "2026-05-22",
+        "m1": "80.8"
+      },
+      {
+        "p": {
+          "name": "DIVE: Scaling Diversity in Agentic Task Synthesis for Generalizable Tool Use",
+          "link": "https://arxiv.org/abs/2603.11076"
+        },
+        "c": "https://github.com/sheep333c/DIVE",
+        "n": "Dive-8B (RL)",
+        "d": "2026-03-10",
+        "m1": "61.2"
+      },
+      {
+        "p": {
+          "name": "ANTMAN: Adaptive Need Tracking for Multi-Agent Navigation in Large Information Spaces",
+          "link": "https://arxiv.org/abs/2609.33326"
+        },
+        "c": "",
+        "n": "ANTMAN",
+        "d": "2026-09-27",
+        "m1": "58.3"
+      },
+      {
+        "p": {
+          "name": "ContextPilot: Teaching Agents for Proactive Context Management via Fine-grained RL",
+          "link": "https://arxiv.org/abs/2608.28476"
+        },
+        "c": "https://github.com/Tencent/ContextPilot",
+        "n": "ContextPilot",
+        "d": "2026-08-28",
+        "m1": "57.93"
+      },
+      {
+        "p": {
+          "name": "IterSynth: Rethinking Deep Search Agents via Role-Decoupled Iterative Synthesis",
+          "link": "https://arxiv.org/abs/2609.29444"
+        },
+        "c": "https://github.com/Tencent/IterSynth",
+        "n": "IterSynth-8B",
+        "d": "2026-09-24",
+        "m1": "55.3"
+      },
+      {
+        "p": {
+          "name": "Learning Agentic Policy from Action Guidance",
+          "link": "https://arxiv.org/abs/2605.12004"
+        },
+        "c": "https://github.com/AMAP-ML/ActGuide-RL",
+        "n": "ActGuide-RL (Qwen3-8B)",
+        "d": "2026-05-12",
+        "m1": "41.74"
+      }
+    ]
+  }
+}

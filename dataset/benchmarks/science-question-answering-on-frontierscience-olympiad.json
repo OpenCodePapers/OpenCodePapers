@@ -1,0 +1,119 @@
+{
+  "title": "science-question-answering-on-frontierscience-olympiad",
+  "task-hierarchy": [
+    "Question Answering",
+    "Science Question Answering"
+  ],
+  "dataset-info": {
+    "link": "https://arxiv.org/abs/2601.21165",
+    "paper": "FrontierScience: Evaluating AI's Ability to Perform Expert-Level Scientific Tasks"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Sage-A1.5: From Long-Horizon Execution to Scientific Exploration with Capability Composition",
+          "link": "https://arxiv.org/abs/2610.28578"
+        },
+        "c": "https://github.com/InternScience/Agents-A1",
+        "n": "Sage-A1.5",
+        "d": "2026-10-20",
+        "m1": "81.0"
+      },
+      {
+        "p": {
+          "name": "Scaling the Horizon, Not the Parameters: Reaching Trillion-Parameter Performance with a 35B Agent",
+          "link": "https://arxiv.org/abs/2606.30616"
+        },
+        "c": "https://github.com/InternScience/Agents-A1",
+        "n": "Agents-A1",
+        "d": "2026-06-29",
+        "m1": "79.0"
+      },
+      {
+        "p": {
+          "name": "InternAgent-1.5: A Unified Agentic Framework for Long-Horizon Autonomous Scientific Discovery",
+          "link": "https://arxiv.org/abs/2602.08990"
+        },
+        "c": "https://github.com/InternScience/InternAgent",
+        "n": "InternAgent-1.5",
+        "d": "2026-02-09",
+        "m1": "77.2"
+      },
+      {
+        "p": {
+          "name": "Hy3",
+          "link": "https://hy.tencent.com/research/hy3"
+        },
+        "c": "https://github.com/Tencent-Hunyuan/Hy3",
+        "n": "Hy3",
+        "d": "2026-07-02",
+        "m1": "74.8"
+      },
+      {
+        "p": {
+          "name": "Hy3 preview",
+          "link": "https://huggingface.co/tencent/Hy3-preview"
+        },
+        "c": "https://github.com/tencent-hunyuan/hy3-preview",
+        "n": "Hy3 preview",
+        "d": "2026-04-23",
+        "m1": "70.0"
+      },
+      {
+        "p": {
+          "name": "Achieving Gold-Medal-Level Olympiad Reasoning via Simple and Unified Scaling",
+          "link": "https://arxiv.org/abs/2605.13301"
+        },
+        "c": "https://github.com/Simplified-Reasoning/SU-01",
+        "n": "SU-01",
+        "d": "2026-05-13",
+        "m1": "61.5"
+      },
+      {
+        "p": {
+          "name": "SimpleOPD: Simple Tokenizer-Agnostic On-Policy Distillation for Long-Context Reasoning",
+          "link": "https://arxiv.org/abs/2608.14277"
+        },
+        "c": "https://github.com/hhnqqq/SimpleOPD",
+        "n": "Intern-S2-OPD",
+        "d": "2026-08-14",
+        "m1": "60.9"
+      },
+      {
+        "p": {
+          "name": "Rufus-Air: An Open LLM Post-Training Recipe",
+          "link": "https://arxiv.org/abs/2609.29421"
+        },
+        "c": "",
+        "n": "Rufus-Air",
+        "d": "2026-09-24",
+        "m1": "54.6"
+      }
+    ]
+  }
+}

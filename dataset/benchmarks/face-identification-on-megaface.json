@@ -67,6 +67,16 @@
       },
       {
         "p": {
+          "name": "ElasticFace: Elastic Margin Loss for Deep Face Recognition",
+          "link": "https://arxiv.org/abs/2109.09416v4"
+        },
+        "c": "https://github.com/fdbtrs/ElasticFace",
+        "n": "ElasticFace-Arc (MegaFace R)",
+        "d": "2021-09-20",
+        "m1": "98.81%"
+      },
+      {
+        "p": {
           "name": "Deep Polynomial Neural Networks",
           "link": "https://arxiv.org/abs/2006.13026v2"
         },
@@ -77,6 +87,26 @@
       },
       {
         "p": {
+          "name": "CurricularFace: Adaptive Curriculum Learning Loss for Deep Face Recognition",
+          "link": "https://arxiv.org/abs/2004.00288v1"
+        },
+        "c": "https://github.com/HuangYG123/CurricularFace",
+        "n": "CurricularFace (MS1MV2, ResNet100, refined)",
+        "d": "2020-04-01",
+        "m1": "98.71%"
+      },
+      {
+        "p": {
+          "name": "LAFS: Landmark-based Facial Self-supervised Learning for Face Recognition",
+          "link": "https://arxiv.org/abs/2403.08161"
+        },
+        "c": "https://github.com/szlbiubiubiu/lafs_cvpr2024",
+        "n": "Part fViT, ours (LAFS)",
+        "d": "2024-03-13",
+        "m1": "98.66%"
+      },
+      {
+        "p": {
           "name": "GhostFaceNets: Lightweight Face Recognition Model From Cheap Operations",
           "link": "https://ieeexplore.ieee.org/document/10098610"
         },
@@ -84,6 +114,16 @@
         "n": "GhostFaceNetV2-1",
         "d": "2023-04-10",
         "m1": "98.64%"
+      },
+      {
+        "p": {
+          "name": "SFace: Sigmoid-Constrained Hypersphere Loss for Robust Face Recognition",
+          "link": "https://arxiv.org/abs/2205.12010"
+        },
+        "c": "https://github.com/zhongyy/SFace",
+        "n": "SFace (MS1MV2, ResNet100, refined)",
+        "d": "2022-05-24",
+        "m1": "98.50%"
       },
       {
         "p": {
@@ -114,6 +154,16 @@
         "n": "SV-AM-Softmax",
         "d": "2018-12-29",
         "m1": "97.2%"
+      },
+      {
+        "p": {
+          "name": "FaceX-Zoo: A PyTorch Toolbox for Face Recognition",
+          "link": "https://arxiv.org/abs/2101.04407"
+        },
+        "c": "",
+        "n": "MobileFaceNet + MV-Softmax",
+        "d": "2021-01-12",
+        "m1": "90.39%"
       },
       {
         "p": {

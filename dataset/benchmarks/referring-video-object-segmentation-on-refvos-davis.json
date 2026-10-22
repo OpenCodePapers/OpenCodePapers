@@ -1,0 +1,129 @@
+{
+  "title": "referring-video-object-segmentation-on-refvos-davis",
+  "task-hierarchy": [
+    "Video Segmentation",
+    "Referring Video Object Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://www.mpi-inf.mpg.de/de/departments/computer-vision-and-machine-learning/research/video-segmentation/video-object-segmentation-with-language-referring-expressions",
+    "paper": "Video Object Segmentation with Language Referring Expressions"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "J&F",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Towards Streaming Referring Video Segmentation via Large Language Model",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_Towards_Streaming_Referring_Video_Segmentation_via_Large_Language_Model_CVPR_2026_paper.html"
+        },
+        "c": "https://github.com/wkzhang636/streamingrvos",
+        "n": "StreamingRVOS-4B",
+        "d": "2026-06-03",
+        "m1": "76.6"
+      },
+      {
+        "p": {
+          "name": "Video Generation Models are General-Purpose Vision Learners",
+          "link": "https://arxiv.org/abs/2607.09024"
+        },
+        "c": "",
+        "n": "GenCeption Specialist-L",
+        "d": "2026-07-10",
+        "m1": "76.4"
+      },
+      {
+        "p": {
+          "name": "ReferEverything: Towards Segmenting Everything We Can Speak of in Videos",
+          "link": "https://arxiv.org/abs/2410.23287"
+        },
+        "c": "",
+        "n": "REM Wan-14B",
+        "d": "2024-10-30",
+        "m1": "75.0"
+      },
+      {
+        "p": {
+          "name": "DTOS: Dynamic Time Object Sensing with Large Multimodal Model",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Tian_DTOS_Dynamic_Time_Object_Sensing_with_Large_Multimodal_Model_CVPR_2025_paper.html"
+        },
+        "c": "https://github.com/maulog/open-dtos-lmm",
+        "n": "DTOS-9B",
+        "d": "2025-06-11",
+        "m1": "74.88"
+      },
+      {
+        "p": {
+          "name": "STAC: Selective Spatiotemporal Aggregation and Compression for Video Reasoning Segmentation",
+          "link": "https://arxiv.org/abs/2607.02922"
+        },
+        "c": "https://github.com/mcg-nku/nku-video",
+        "n": "STAC",
+        "d": "2026-07-03",
+        "m1": "73.6"
+      },
+      {
+        "p": {
+          "name": "Boosting Text-Driven Video Segmentation via Geometry-Aware Distillation",
+          "link": "https://arxiv.org/abs/2606.24464"
+        },
+        "c": "https://github.com/tony1882880/geolav",
+        "n": "GeoLaV",
+        "d": "2026-06-23",
+        "m1": "72.5"
+      },
+      {
+        "p": {
+          "name": "HyperSeg: Hybrid Segmentation Assistant with Fine-grained Visual Perceiver",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Wei_HyperSeg_Hybrid_Segmentation_Assistant_with_Fine-grained_Visual_Perceiver_CVPR_2025_paper.html"
+        },
+        "c": "https://github.com/congvvc/hyperseg",
+        "n": "HyperSeg-3B",
+        "d": "2025-06-11",
+        "m1": "71.2"
+      },
+      {
+        "p": {
+          "name": "VISA: Reasoning Video Object Segmentation via Large Language Models",
+          "link": "https://arxiv.org/abs/2407.11325v1"
+        },
+        "c": "https://github.com/cilinyan/VISA",
+        "n": "VISA Chat-UniVi-13B",
+        "d": "2024-07-16",
+        "m1": "70.4"
+      },
+      {
+        "p": {
+          "name": "Language as Queries for Referring Video Object Segmentation",
+          "link": "https://arxiv.org/abs/2201.00487v2"
+        },
+        "c": "https://github.com/wjn922/referformer",
+        "n": "ReferFormer Video-Swin-B",
+        "d": "2022-01-03",
+        "m1": "61.1"
+      }
+    ]
+  }
+}

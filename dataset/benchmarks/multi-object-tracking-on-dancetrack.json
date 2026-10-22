@@ -98,6 +98,18 @@
       },
       {
         "p": {
+          "name": "Mode-Conditioned Residual Calibration for Multi-Object Tracking",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/5156"
+        },
+        "c": "",
+        "n": "CAMEL+MCRC",
+        "d": "2026-09-08",
+        "m1": "72.0",
+        "m2": "91.6",
+        "m3": "76.2"
+      },
+      {
+        "p": {
           "name": "Multiple Object Tracking as ID Prediction",
           "link": "https://arxiv.org/abs/2403.16848v1"
         },
@@ -109,6 +121,18 @@
         "m3": "76.3",
         "m4": "62.8",
         "m5": "81.3"
+      },
+      {
+        "p": {
+          "name": "HieDG: A Hierarchical Discrete Geometry-Guided Framework for Multi-Animal Tracking",
+          "link": "https://arxiv.org/abs/2607.00494"
+        },
+        "c": "",
+        "n": "HieDG",
+        "d": "2026-07-01",
+        "m1": "70.3",
+        "m2": "90.9",
+        "m3": "75.4"
       },
       {
         "p": {
@@ -150,6 +174,18 @@
       },
       {
         "p": {
+          "name": "SelfMOTR: Revisiting MOTR with Self-Generating Detection Priors",
+          "link": "https://arxiv.org/abs/2511.20279"
+        },
+        "c": "",
+        "n": "SelfMOTR",
+        "d": "2025-11-25",
+        "m1": "69.2",
+        "m2": "89.9",
+        "m3": "72.5"
+      },
+      {
+        "p": {
           "name": "MeMOTR: Long-Term Memory-Augmented Transformer for Multi-Object Tracking",
           "link": "https://arxiv.org/abs/2307.15700v3"
         },
@@ -175,6 +211,18 @@
         "m3": "72.2",
         "m4": "57.6",
         "m5": "79.4"
+      },
+      {
+        "p": {
+          "name": "No Train Yet Gain: Towards Generic Multi-Object Tracking in Sports and Beyond",
+          "link": "https://arxiv.org/abs/2506.01373"
+        },
+        "c": "https://github.com/tstanczyk95/mcbyte",
+        "n": "McByte",
+        "d": "2025-06-02",
+        "m1": "67.1",
+        "m2": "92.9",
+        "m3": "68.1"
       },
       {
         "p": {
@@ -284,6 +332,18 @@
       },
       {
         "p": {
+          "name": "DiffMOT: A Real-time Diffusion-based Multiple Object Tracker with Non-linear Prediction",
+          "link": "https://arxiv.org/abs/2403.02075v2"
+        },
+        "c": "https://github.com/kroery/diffmot",
+        "n": "DiffMOT",
+        "d": "2024-03-04",
+        "m1": "63.4",
+        "m2": "92.7",
+        "m3": "64.0"
+      },
+      {
+        "p": {
           "name": "Occlusion-Aware SORT: Observing Occlusion for Robust Multi-Object Tracking",
           "link": "https://arxiv.org/abs/2603.06034"
         },
@@ -339,6 +399,18 @@
       },
       {
         "p": {
+          "name": "ARC-SORT: Adaptive, Robust, Compensated Multi-Object Tracking with Interacting Multiple Models",
+          "link": "https://arxiv.org/abs/2610.22306"
+        },
+        "c": "https://github.com/Athlitix/arcsort",
+        "n": "ARC-SORT",
+        "d": "2026-10-15",
+        "m1": "62.1",
+        "m2": "92.4",
+        "m3": "66.5"
+      },
+      {
+        "p": {
           "name": "A Confidence-Aware Matching Strategy For Generalized Multi-Object Tracking",
           "link": "https://ieeexplore.ieee.org/document/10647729"
         },
@@ -390,6 +462,18 @@
         "m2": "91.4",
         "m3": "60.8",
         "m4": "44.9"
+      },
+      {
+        "p": {
+          "name": "Towards Generalizable Multi-Object Tracking",
+          "link": "https://arxiv.org/abs/2406.00429"
+        },
+        "c": "https://github.com/qinzheng2000/generaltrack",
+        "n": "GeneralTrack",
+        "d": "2024-06-01",
+        "m1": "59.2",
+        "m2": "91.8",
+        "m3": "59.7"
       },
       {
         "p": {
@@ -475,6 +559,18 @@
       },
       {
         "p": {
+          "name": "FeatureSORT: Essential Features for Effective Tracking",
+          "link": "https://arxiv.org/abs/2407.04249v1"
+        },
+        "c": "",
+        "n": "FeatureSORTv7 (extra data)",
+        "d": "2024-07-05",
+        "m1": "56.1",
+        "m2": "92.2",
+        "m3": "55.0"
+      },
+      {
+        "p": {
           "name": "When to Extract ReID Features: A Selective Approach for Improved Multiple Object Tracking",
           "link": "https://arxiv.org/abs/2409.06617v2"
         },
@@ -501,6 +597,16 @@
       },
       {
         "p": {
+          "name": "StrongSORT: Make DeepSORT Great Again",
+          "link": "https://arxiv.org/abs/2202.13514v2"
+        },
+        "c": "https://github.com/mikel-brostrom/boxmot",
+        "n": "StrongSORT++",
+        "d": "2022-02-28",
+        "m1": "55.6"
+      },
+      {
+        "p": {
           "name": "Observation-Centric SORT: Rethinking SORT for Robust Multi-Object Tracking",
           "link": "https://arxiv.org/abs/2203.14360v3"
         },
@@ -511,6 +617,18 @@
         "m2": "89.4",
         "m3": "54.2",
         "m4": "38.0"
+      },
+      {
+        "p": {
+          "name": "iKUN: Speak to Trackers without Retraining",
+          "link": "https://arxiv.org/abs/2312.16245"
+        },
+        "c": "https://github.com/dyhbupt/ikun",
+        "n": "NeuralSORT",
+        "d": "2023-12-25",
+        "m1": "54.52",
+        "m2": "89.37",
+        "m3": "54.67"
       },
       {
         "p": {

@@ -1,0 +1,146 @@
+{
+  "title": "zero-shot-anomaly-detection-on-mpdd-zero-shot-cross-domain",
+  "task-hierarchy": [
+    "Anomaly Detection",
+    "Zero-Shot Anomaly Detection"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/stepanje/MPDD",
+    "paper": "Deep learning-based defect detection of metal parts: evaluating current methods in complex conditions"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Detection AUROC",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Segmentation AUROC",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Detection AP",
+        "sortable": "true"
+      },
+      {
+        "key": "m4",
+        "label": "Detection F1-max",
+        "sortable": "true"
+      },
+      {
+        "key": "m5",
+        "label": "Segmentation F1-max",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Crane: Context-Guided Prompt Learning and Attention Refinement for Zero-Shot Anomaly Detections",
+          "link": "https://arxiv.org/abs/2504.11055"
+        },
+        "c": "https://github.com/alireza99salehi/crane",
+        "n": "Crane (CLIP ViT-L/14@336, zero-shot) (extra data)",
+        "d": "2025-04-15",
+        "m1": "81.4",
+        "m3": "84.8",
+        "m4": "81.6",
+        "m2": "97.0",
+        "m5": "38.2"
+      },
+      {
+        "p": {
+          "name": "Defect-aware Hybrid Prompt Optimization for Zero-Shot Multi-type Anomaly Detection and Segmentation",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/5970"
+        },
+        "c": "",
+        "n": "DAPO",
+        "d": "2026-09-08",
+        "m3": "83.6",
+        "m1": "81.2",
+        "m2": "95.1"
+      },
+      {
+        "p": {
+          "name": "Crane: Context-Guided Prompt Learning and Attention Refinement for Zero-Shot Anomaly Detections",
+          "link": "https://arxiv.org/abs/2504.11055"
+        },
+        "c": "https://github.com/alireza99salehi/crane",
+        "n": "Crane+ (CLIP ViT-L/14@336 + DINOv2-B14, zero-shot) (extra data)",
+        "d": "2025-04-15",
+        "m4": "83.0",
+        "m2": "97.6",
+        "m5": "42.0",
+        "m1": "81.0",
+        "m3": "84.1"
+      },
+      {
+        "p": {
+          "name": "From Attraction to Equilibrium: Physics-Inspired Semantic Gravitons for Zero-Shot Anomaly Detection",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Pan_From_Attraction_to_Equilibrium_Physics-Inspired_Semantic_Gravitons_for_Zero-Shot_Anomaly_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "SGNet",
+        "d": "2026-06-03",
+        "m1": "80.8",
+        "m2": "97.5"
+      },
+      {
+        "p": {
+          "name": "TIPS Over Tricks: Simple Prompts for Effective Zero-shot Anomaly Detection",
+          "link": "https://arxiv.org/abs/2602.03594"
+        },
+        "c": "https://github.com/alirezasalehy/tipsomaly",
+        "n": "Tipsomaly (TIPS-L/14 HR, Zero-shot) (extra data)",
+        "d": "2026-02-03",
+        "m3": "76.8",
+        "m1": "74.7",
+        "m4": "79.7",
+        "m2": "95.9",
+        "m5": "36.1"
+      },
+      {
+        "p": {
+          "name": "Proximity-CLIP: Text-Guided Semantic Proximity Learning for Zero-Shot Anomaly Detection",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/4954"
+        },
+        "c": "",
+        "n": "Proximity-CLIP (extra data)",
+        "d": "2026-09-08",
+        "m1": "74.1",
+        "m2": "96.2"
+      },
+      {
+        "p": {
+          "name": "AdaCLIP: Adapting CLIP with Hybrid Learnable Prompts for Zero-Shot Anomaly Detection",
+          "link": "https://arxiv.org/abs/2407.15795v1"
+        },
+        "c": "https://github.com/caoyunkang/adaclip",
+        "n": "AdaCLIP (zero-shot) (extra data)",
+        "d": "2024-07-22",
+        "m4": "82.5",
+        "m5": "34.9"
+      }
+    ]
+  }
+}

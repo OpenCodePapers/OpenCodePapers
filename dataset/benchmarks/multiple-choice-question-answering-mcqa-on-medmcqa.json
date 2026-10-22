@@ -41,6 +41,26 @@
     "items": [
       {
         "p": {
+          "name": "MedGemma Technical Report",
+          "link": "https://arxiv.org/abs/2507.05201"
+        },
+        "c": "https://github.com/google-gemini/gemma-cookbook",
+        "n": "MedGemma 27B Text (test-time scaling)",
+        "d": "2025-07-07",
+        "m1": "0.742"
+      },
+      {
+        "p": {
+          "name": "ClinFusion: A Vision-Centric Multimodal LLM System for Holistic Medical Understanding",
+          "link": "https://arxiv.org/abs/2607.24743"
+        },
+        "c": "https://github.com/alibaba-damo-academy/ClinFusion",
+        "n": "ClinFusion-32B + Agentic tools",
+        "d": "2026-07-27",
+        "m1": "0.740"
+      },
+      {
+        "p": {
           "name": "Towards Expert-Level Medical Question Answering with Large Language Models",
           "link": "https://arxiv.org/abs/2305.09617v1"
         },
@@ -71,6 +91,56 @@
       },
       {
         "p": {
+          "name": "Eliciting Medical Reasoning with Knowledge-enhanced Data Synthesis: A Semi-Supervised Reinforcement Learning Approach",
+          "link": "https://arxiv.org/abs/2604.11547"
+        },
+        "c": "https://github.com/tdlhl/MedSSR",
+        "n": "Qwen3-8B-Base + MedSSR",
+        "d": "2026-04-13",
+        "m1": "0.6779"
+      },
+      {
+        "p": {
+          "name": "Process Reward Agents for Steering Knowledge-Intensive Reasoning",
+          "link": "https://arxiv.org/abs/2604.09482"
+        },
+        "c": "",
+        "n": "PRA (Qwen3-4B-Instruct)",
+        "d": "2026-04-10",
+        "m1": "0.662"
+      },
+      {
+        "p": {
+          "name": "Healthcare AI GYM for Medical Agents",
+          "link": "https://arxiv.org/abs/2605.02943"
+        },
+        "c": "https://github.com/minstar/Healthcare_GYM",
+        "n": "TT-OPD (Qwen3.5-9B)",
+        "d": "2026-05-01",
+        "m1": "0.662"
+      },
+      {
+        "p": {
+          "name": "Scaling Medical Reasoning Verification via Tool-Integrated Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2601.20221"
+        },
+        "c": "",
+        "n": "Med-TIV (Qwen2.5-7B guided search) (extra data)",
+        "d": "2026-01-28",
+        "m1": "0.6470"
+      },
+      {
+        "p": {
+          "name": "Beyond Domain-Routed Supervision: Cross-Teacher Guarding for Multi-Teacher On-Policy Distillation",
+          "link": "https://arxiv.org/abs/2610.13521"
+        },
+        "c": "",
+        "n": "Road MOPD (Qwen3-4B)",
+        "d": "2026-10-09",
+        "m1": "0.6311"
+      },
+      {
+        "p": {
           "name": "Variational Open-Domain Question Answering",
           "link": "https://arxiv.org/abs/2210.06345v2"
         },
@@ -90,6 +160,26 @@
         "d": "2022-07-17",
         "m1": "0.627",
         "m2": "0.597"
+      },
+      {
+        "p": {
+          "name": "MedGemma 1.5 Technical Report",
+          "link": "https://arxiv.org/abs/2604.05081"
+        },
+        "c": "https://github.com/google-health/medgemma",
+        "n": "MedGemma 1.5 4B",
+        "d": "2026-04-06",
+        "m1": "0.598"
+      },
+      {
+        "p": {
+          "name": "Continually Post-training Small Models via Synthetic Self-distillation",
+          "link": "https://arxiv.org/abs/2610.13113"
+        },
+        "c": "",
+        "n": "SynthSelf (Qwen2.5-3B, SS-1)",
+        "d": "2026-10-09",
+        "m1": "0.573"
       },
       {
         "p": {

@@ -99,6 +99,20 @@
       },
       {
         "p": {
+          "name": "Decoupling Moment from Event for Video Temporal Grounding",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/4663"
+        },
+        "c": "",
+        "n": "ME-DETR",
+        "d": "2026-09-08",
+        "m1": "53.87",
+        "m2": "70.1",
+        "m3": "55.13",
+        "m4": "71.41",
+        "m5": "55.52"
+      },
+      {
+        "p": {
           "name": "Sparse-Dense Side-Tuner for efficient Video Temporal Grounding",
           "link": "https://arxiv.org/abs/2507.07744"
         },
@@ -150,6 +164,20 @@
         "m3": "53.96",
         "m4": "72.33",
         "m5": "53.85"
+      },
+      {
+        "p": {
+          "name": "DE2TR: Dual Evidence Detection Transformer for Video Temporal Grounding",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/5412"
+        },
+        "c": "https://github.com/ivanz106/de2tr",
+        "n": "DE2TR‡",
+        "d": "2026-09-08",
+        "m1": "49.87",
+        "m2": "67.98",
+        "m3": "52.46",
+        "m4": "68.36",
+        "m5": "51.24"
       },
       {
         "p": {
@@ -221,6 +249,34 @@
       },
       {
         "p": {
+          "name": "CVA: Context-aware Video-text Alignment for Video Temporal Grounding",
+          "link": "https://arxiv.org/abs/2603.24934"
+        },
+        "c": "",
+        "n": "CVA (extra data)",
+        "d": "2026-03-26",
+        "m1": "47.49",
+        "m2": "70.05",
+        "m3": "55.32",
+        "m4": "69.49",
+        "m5": "48.45"
+      },
+      {
+        "p": {
+          "name": "Moment Quantization for Video Temporal Grounding",
+          "link": "https://arxiv.org/abs/2504.02286"
+        },
+        "c": "https://github.com/tensorssun/mqvtg",
+        "n": "MQVTG (extra data)",
+        "d": "2025-04-03",
+        "m1": "47.08",
+        "m2": "66.28",
+        "m3": "50.00",
+        "m4": "67.98",
+        "m5": "48.55"
+      },
+      {
+        "p": {
           "name": "Sim-DETR: Unlock DETR for Temporal Sentence Grounding",
           "link": "https://arxiv.org/abs/2509.23867"
         },
@@ -247,6 +303,20 @@
       },
       {
         "p": {
+          "name": "The Devil is in the Spurious Correlations: Boosting Moment Retrieval with Dynamic Learning",
+          "link": "https://arxiv.org/abs/2501.07305"
+        },
+        "c": "https://github.com/xyangzhou/td-detr",
+        "n": "TD-DETR (extra data)",
+        "d": "2025-01-13",
+        "m1": "46.69",
+        "m2": "64.53",
+        "m3": "50.37",
+        "m4": "66.21",
+        "m5": "47.32"
+      },
+      {
+        "p": {
           "name": "BAM-DETR: Boundary-Aligned Moment Detection Transformer for Temporal Sentence Grounding in Videos",
           "link": "https://arxiv.org/abs/2312.00083v2"
         },
@@ -258,6 +328,20 @@
         "m3": "47.92",
         "m4": "66.33",
         "m5": "48.22"
+      },
+      {
+        "p": {
+          "name": "SE-DETR: Explicit Semantic Exploration for Generalizability and Distinguishability in Video Temporal Grounding",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/5708"
+        },
+        "c": "https://github.com/hu-cheng-yang/eccv26-se-detr",
+        "n": "SE-DETR+",
+        "d": "2026-09-08",
+        "m1": "46.42",
+        "m2": "68.22",
+        "m3": "49.96",
+        "m4": "69.74",
+        "m5": "49.16"
       },
       {
         "p": {
@@ -411,6 +495,20 @@
       },
       {
         "p": {
+          "name": "DTOS: Dynamic Time Object Sensing with Large Multimodal Model",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Tian_DTOS_Dynamic_Time_Object_Sensing_with_Large_Multimodal_Model_CVPR_2025_paper.html"
+        },
+        "c": "https://github.com/maulog/open-dtos-lmm",
+        "n": "DTOS-TCS",
+        "d": "2025-06-11",
+        "m1": "40.98",
+        "m2": "72.24",
+        "m3": "49.22",
+        "m4": "64.75",
+        "m5": "41.78"
+      },
+      {
+        "p": {
           "name": "Query-Dependent Video Representation for Moment Retrieval and Highlight Detection",
           "link": "https://arxiv.org/abs/2303.13874v1"
         },
@@ -422,6 +520,20 @@
         "m3": "46.1",
         "m4": "64.3",
         "m5": "40.5"
+      },
+      {
+        "p": {
+          "name": "Beyond Uncertainty: Evidential Deep Learning for Robust Video Temporal Grounding",
+          "link": "https://arxiv.org/abs/2408.16272"
+        },
+        "c": "https://github.com/kaijingofficial/sram_vtg",
+        "n": "SRAM-Large",
+        "d": "2024-08-29",
+        "m1": "40.6",
+        "m2": "62.26",
+        "m3": "45.53",
+        "m4": "61.2",
+        "m5": "41.8"
       },
       {
         "p": {
@@ -478,6 +590,19 @@
         "m3": "44.98",
         "m4": "62.52",
         "m5": "39.88"
+      },
+      {
+        "p": {
+          "name": "Mitigating Modality and Language-Style Gaps for Zero-Shot Video Moment Retrieval",
+          "link": "https://arxiv.org/abs/2607.19027"
+        },
+        "c": "",
+        "n": "Self-SiMS",
+        "d": "2026-07-21",
+        "m1": "38.3",
+        "m2": "59.7",
+        "m3": "42.2",
+        "m4": "59.2"
       },
       {
         "p": {
@@ -568,6 +693,20 @@
         "d": "2023-04-06",
         "m2": "59.27",
         "m3": "45.07"
+      },
+      {
+        "p": {
+          "name": "VTG-GPT: Tuning-Free Zero-Shot Video Temporal Grounding with GPT",
+          "link": "https://arxiv.org/abs/2403.02076"
+        },
+        "c": "https://github.com/YoucanBaby/VTG-GPT",
+        "n": "VTG-GPT (zero-shot) (extra data)",
+        "d": "2024-03-04",
+        "m1": "30.5",
+        "m2": "53.81",
+        "m3": "38.13",
+        "m4": "54.13",
+        "m5": "29.24"
       }
     ]
   }

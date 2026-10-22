@@ -1,0 +1,97 @@
+{
+  "title": "closed-loop-autonomous-driving-on-hugsim",
+  "task-hierarchy": [
+    "Autonomous Driving",
+    "Closed-Loop Autonomous Driving"
+  ],
+  "dataset-info": {
+    "link": "https://xiaomiautol3.github.io/DriveZero/",
+    "paper": "DriveZero: End-to-End Driving Beyond Human Demonstrations"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "HD-Score",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "RC",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "DriveZero: End-to-End Driving Beyond Human Demonstrations",
+          "link": "https://arxiv.org/abs/2609.06055"
+        },
+        "c": "https://github.com/XiaomiAutoL3/DriveZero",
+        "n": "DriveZero-Scale",
+        "d": "2026-09-05",
+        "m1": "46.6"
+      },
+      {
+        "p": {
+          "name": "SimVTA: Simulation-Grounded Video-Trajectory Alignment for Driving World Action Models",
+          "link": "https://arxiv.org/abs/2610.13781"
+        },
+        "c": "https://github.com/OpenDriveLab/SimVTA",
+        "n": "SimVTA (extra data)",
+        "d": "2026-10-09",
+        "m2": "51.5",
+        "m1": "38.8"
+      },
+      {
+        "p": {
+          "name": "Beyond Imitation: Learning Safe End-to-End Autonomous Driving from Hard Negatives",
+          "link": "https://arxiv.org/abs/2605.19771"
+        },
+        "c": "https://github.com/wjl2244/beyonddrive",
+        "n": "LTFv7",
+        "d": "2026-05-19",
+        "m2": "46.2",
+        "m1": "34.8"
+      },
+      {
+        "p": {
+          "name": "HAD: Combining Hierarchical Diffusion with Metric-Decoupled RL for End-to-End Driving",
+          "link": "https://arxiv.org/abs/2604.03581"
+        },
+        "c": "",
+        "n": "HAD-L",
+        "d": "2026-04-04",
+        "m2": "47.5",
+        "m1": "30.8"
+      },
+      {
+        "p": {
+          "name": "Do Better Visual Representations Always Lead to Better End-to-End Autonomous Driving?",
+          "link": "https://arxiv.org/abs/2610.09695"
+        },
+        "c": "https://github.com/OpenDriveLab/ViRA",
+        "n": "DiffusionDrive-ViRA",
+        "d": "2026-10-07",
+        "m1": "28.6"
+      }
+    ]
+  }
+}

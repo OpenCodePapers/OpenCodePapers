@@ -1,0 +1,230 @@
+{
+  "title": "video-super-resolution-on-reds4-4x-upscaling-bi-degradation",
+  "task-hierarchy": [
+    "Super-Resolution",
+    "Video Super-Resolution"
+  ],
+  "dataset-info": {
+    "link": "https://seungjunnah.github.io/Datasets/reds.html",
+    "paper": "NTIRE 2019 Challenge on Video Deblurring and Super-Resolution: Dataset and Study"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "PSNR",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "SSIM",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "VSRM: A Robust Mamba-Based Framework for Video Super-Resolution",
+          "link": "https://arxiv.org/abs/2506.22762"
+        },
+        "c": "",
+        "n": "VSRM",
+        "d": "2025-06-28",
+        "m1": "33.11",
+        "m2": "0.9162"
+      },
+      {
+        "p": {
+          "name": "Enhancing Video Super-Resolution via Implicit Resampling-based Alignment",
+          "link": "https://arxiv.org/abs/2305.00163v2"
+        },
+        "c": "https://github.com/kai422/iart",
+        "n": "IA-RT",
+        "d": "2023-04-29",
+        "m1": "32.9",
+        "m2": "0.9138"
+      },
+      {
+        "p": {
+          "name": "Recurrent Video Restoration Transformer with Guided Deformable Attention",
+          "link": "https://arxiv.org/abs/2206.02146v3"
+        },
+        "c": "https://github.com/jingyunliang/rvrt",
+        "n": "RVRT",
+        "d": "2022-06-05",
+        "m1": "32.75",
+        "m2": "0.9113"
+      },
+      {
+        "p": {
+          "name": "Gather-Scatter Mamba: Accelerating Propagation with Efficient State Space Model",
+          "link": "https://arxiv.org/abs/2510.00862"
+        },
+        "c": "https://github.com/Ko-Lani/GSMamba",
+        "n": "GSMamba (extra data)",
+        "d": "2025-10-01",
+        "m1": "32.69",
+        "m2": "0.9105"
+      },
+      {
+        "p": {
+          "name": "BasicVSR++: Improving Video Super-Resolution with Enhanced Propagation and Alignment",
+          "link": "https://arxiv.org/abs/2104.13371v1"
+        },
+        "c": "https://github.com/open-mmlab/mmediting",
+        "n": "BasicVSR++",
+        "d": "2021-04-27",
+        "m1": "32.39",
+        "m2": "0.9069"
+      },
+      {
+        "p": {
+          "name": "BasicVSR++: Improving Video Super-Resolution with Enhanced Propagation and Alignment",
+          "link": "https://arxiv.org/abs/2104.13371v1"
+        },
+        "c": "https://github.com/open-mmlab/mmediting",
+        "n": "BasicVSR++ (S)",
+        "d": "2021-04-27",
+        "m1": "32.24"
+      },
+      {
+        "p": {
+          "name": "VRT: A Video Restoration Transformer",
+          "link": "https://arxiv.org/abs/2201.12288v2"
+        },
+        "c": "https://github.com/jingyunliang/vrt",
+        "n": "VRT",
+        "d": "2022-01-28",
+        "m1": "32.19",
+        "m2": "0.9006"
+      },
+      {
+        "p": {
+          "name": "Learning Trajectory-Aware Transformer for Video Super-Resolution",
+          "link": "https://arxiv.org/abs/2204.04216v3"
+        },
+        "c": "https://github.com/researchmm/TTVSR",
+        "n": "TTVSR",
+        "d": "2022-04-08",
+        "m1": "32.12",
+        "m2": "0.9021"
+      },
+      {
+        "p": {
+          "name": "BasicVSR: The Search for Essential Components in Video Super-Resolution and Beyond",
+          "link": "https://arxiv.org/abs/2012.02181v2"
+        },
+        "c": "https://github.com/XPixelGroup/BasicSR",
+        "n": "IconVSR",
+        "d": "2020-12-03",
+        "m1": "31.67",
+        "m2": "0.8948"
+      },
+      {
+        "p": {
+          "name": "Learning Spatial Adaptation and Temporal Coherence in Diffusion Models for Video Super-Resolution",
+          "link": "https://arxiv.org/abs/2403.17000v1"
+        },
+        "c": "",
+        "n": "SATeCo",
+        "d": "2024-03-25",
+        "m1": "31.62",
+        "m2": "0.8932"
+      },
+      {
+        "p": {
+          "name": "BasicVSR: The Search for Essential Components in Video Super-Resolution and Beyond",
+          "link": "https://arxiv.org/abs/2012.02181v2"
+        },
+        "c": "https://github.com/XPixelGroup/BasicSR",
+        "n": "BasicVSR",
+        "d": "2020-12-03",
+        "m1": "31.42",
+        "m2": "0.8909"
+      },
+      {
+        "p": {
+          "name": "EDVR: Video Restoration with Enhanced Deformable Convolutional Networks",
+          "link": "https://arxiv.org/abs/1905.02716v1"
+        },
+        "c": "https://github.com/open-mmlab/mmsr",
+        "n": "EDVR",
+        "d": "2019-05-07",
+        "m1": "31.09",
+        "m2": "0.8800"
+      },
+      {
+        "p": {
+          "name": "VideoGigaGAN: Towards Detail-rich Video Super-Resolution",
+          "link": "https://arxiv.org/abs/2404.12388v2"
+        },
+        "c": "",
+        "n": "VideoGigaGAN",
+        "d": "2024-04-18",
+        "m1": "30.46",
+        "m2": "0.8718"
+      },
+      {
+        "p": {
+          "name": "NanoVSR: Towards Real-Time Video Super-Resolution on Edge Devices",
+          "link": "https://arxiv.org/abs/2607.10495"
+        },
+        "c": "https://github.com/filippawlicki/nanovsr",
+        "n": "NanoVSR-5.4M",
+        "d": "2026-07-11",
+        "m1": "29.73",
+        "m2": "0.8526"
+      },
+      {
+        "p": {
+          "name": "AVSR-Diff: Scale-Agnostic Diffusion Priors for Temporally Consistent Arbitrary-Scale Video Super-Resolution",
+          "link": "https://arxiv.org/abs/2607.00987"
+        },
+        "c": "https://github.com/kaist-viclab/avsr-diff",
+        "n": "AVSR-Diff",
+        "d": "2026-07-01",
+        "m1": "28.75",
+        "m2": "0.8204"
+      },
+      {
+        "p": {
+          "name": "Rethinking Diffusion Model-Based Video Super-Resolution: Leveraging Dense Guidance from Aligned Features",
+          "link": "https://arxiv.org/abs/2511.16928"
+        },
+        "c": "",
+        "n": "DGAF-VSR (extra data)",
+        "d": "2025-11-21",
+        "m1": "28.17",
+        "m2": "0.804"
+      },
+      {
+        "p": {
+          "name": "Enhancing Perceptual Quality in Video Super-Resolution through Temporally-Consistent Detail Synthesis using Diffusion Models",
+          "link": "https://arxiv.org/abs/2311.15908"
+        },
+        "c": "https://github.com/claudiom4sir/stablevsr",
+        "n": "StableVSR",
+        "d": "2023-11-27",
+        "m1": "27.97",
+        "m2": "0.800"
+      }
+    ]
+  }
+}

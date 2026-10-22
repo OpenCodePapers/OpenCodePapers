@@ -59,6 +59,17 @@
       },
       {
         "p": {
+          "name": "CogSENet: Blind Image Deblurring with Blur-Conditioned Semantic Routing and Explicit Frequency Fusion",
+          "link": "https://arxiv.org/abs/2606.30030"
+        },
+        "c": "",
+        "n": "CogSENet (hybrid, 19.4M)",
+        "d": "2026-06-29",
+        "m1": "32.42",
+        "m2": "0.9533"
+      },
+      {
+        "p": {
           "name": "AdaRevD: Adaptive Patch Exiting Reversible Decoder Pushes the Limit of Image Deblurring",
           "link": "https://arxiv.org/abs/2406.09135v1"
         },
@@ -78,6 +89,28 @@
         "d": "2025-08-17",
         "m1": "32.22",
         "m2": "0.953"
+      },
+      {
+        "p": {
+          "name": "DeepRFTv2: Kernel-level Learning for Image Deblurring",
+          "link": "https://arxiv.org/abs/2511.21132"
+        },
+        "c": "https://github.com/DeepMed-Lab-ECNU/Single-Image-Deblur",
+        "n": "DeepRFTv2",
+        "d": "2025-11-26",
+        "m1": "32.22",
+        "m2": "0.953"
+      },
+      {
+        "p": {
+          "name": "Efficient Visual State Space Model for Image Deblurring",
+          "link": "https://arxiv.org/abs/2405.14343v1"
+        },
+        "c": "https://github.com/kkkls/evssm",
+        "n": "EVSSM (trained on GoPro)",
+        "d": "2024-05-23",
+        "m1": "31.97",
+        "m2": "0.9501"
       },
       {
         "p": {
@@ -125,6 +158,39 @@
       },
       {
         "p": {
+          "name": "A Polarization-Aided Transformer for Image Deblurring via Motion Vector Decomposition",
+          "link": "http://openaccess.thecvf.com//content/CVPR2025/html/Chen_A_Polarization-Aided_Transformer_for_Image_Deblurring_via_Motion_Vector_Decomposition_CVPR_2025_paper.html"
+        },
+        "c": "https://github.com/calvin11311/mdt",
+        "n": "MDT",
+        "d": "2025-01-01",
+        "m1": "31.84",
+        "m2": "0.948"
+      },
+      {
+        "p": {
+          "name": "A Comparative Study of Image Restoration Networks for General Backbone Network Design",
+          "link": "https://arxiv.org/abs/2310.11881"
+        },
+        "c": "https://github.com/andrew0613/x-restormer",
+        "n": "X-Restormer (trained on GoPro)",
+        "d": "2023-10-18",
+        "m1": "31.76",
+        "m2": "0.930"
+      },
+      {
+        "p": {
+          "name": "BlurDM: A Blur Diffusion Model for Image Deblurring",
+          "link": "https://arxiv.org/abs/2512.03979"
+        },
+        "c": "https://github.com/Jin-Ting-He/BlurDM",
+        "n": "BlurDM (FFTformer, trained on GoPro)",
+        "d": "2025-12-03",
+        "m1": "31.76",
+        "m2": "0.947"
+      },
+      {
+        "p": {
           "name": "XYScanNet: A State Space Model for Single Image Deblurring",
           "link": "https://arxiv.org/abs/2412.10338v3"
         },
@@ -169,6 +235,17 @@
       },
       {
         "p": {
+          "name": "Motion-adaptive Separable Collaborative Filters for Blind Motion Deblurring",
+          "link": "https://arxiv.org/abs/2404.13153"
+        },
+        "c": "https://github.com/chengxuliu/miscfilter",
+        "n": "MISC Filter (trained on GoPro)",
+        "d": "2024-04-19",
+        "m1": "31.66",
+        "m2": "0.946"
+      },
+      {
+        "p": {
           "name": "Efficient Frequency Domain-based Transformers for High-Quality Image Deblurring",
           "link": "https://arxiv.org/abs/2211.12250v1"
         },
@@ -193,6 +270,16 @@
       },
       {
         "p": {
+          "name": "MaIR: A Locality- and Continuity-Preserving Mamba for Image Restoration",
+          "link": "https://arxiv.org/abs/2412.20066v1"
+        },
+        "c": "https://github.com/XLearning-SCU/2025-CVPR-MaIR",
+        "n": "MaIR (trained on GoPro)",
+        "d": "2024-12-28",
+        "m1": "31.57"
+      },
+      {
+        "p": {
           "name": "DiNAT-IR: Exploring Dilated Neighborhood Attention for High-Quality Image Restoration",
           "link": "https://arxiv.org/abs/2507.17892"
         },
@@ -201,6 +288,28 @@
         "d": "2025-07-23",
         "m1": "31.57",
         "m2": "0.945"
+      },
+      {
+        "p": {
+          "name": "DiffIR: Efficient Diffusion Model for Image Restoration",
+          "link": "https://arxiv.org/abs/2303.09472"
+        },
+        "c": "https://github.com/zj-binxia/diffir",
+        "n": "DiffIR S2 (trained on GoPro)",
+        "d": "2023-03-16",
+        "m1": "31.55",
+        "m2": "0.947"
+      },
+      {
+        "p": {
+          "name": "Universal Image Restoration Pre-training via Masked Degradation Classification",
+          "link": "https://arxiv.org/abs/2510.13282"
+        },
+        "c": "https://github.com/MILab-PKU/MaskDCPT",
+        "n": "MaskDCPT-Restormer (trained on GoPro) (extra data)",
+        "d": "2025-10-15",
+        "m1": "31.55",
+        "m2": "0.946"
       },
       {
         "p": {
@@ -227,6 +336,17 @@
       },
       {
         "p": {
+          "name": "Fast and Accurate Image Restoration with Rank Enhanced Linear Attention",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/5618"
+        },
+        "c": "https://github.com/shallowdream204/laformer",
+        "n": "LAformer-B",
+        "d": "2026-09-08",
+        "m1": "31.49",
+        "m2": "0.945"
+      },
+      {
+        "p": {
           "name": "DeblurDiNAT: A Compact Model with Exceptional Generalization and Visual Fidelity on Unseen Domains",
           "link": "https://arxiv.org/abs/2403.13163v5"
         },
@@ -236,6 +356,17 @@
         "m1": "31.47",
         "m2": "0.944",
         "m3": "16.1"
+      },
+      {
+        "p": {
+          "name": "Hierarchical Integration Diffusion Model for Realistic Image Deblurring",
+          "link": "https://arxiv.org/abs/2305.12966"
+        },
+        "c": "https://github.com/zhengchen1999/hi-diff",
+        "n": "HI-Diff (trained on GoPro)",
+        "d": "2023-05-22",
+        "m1": "31.46",
+        "m2": "0.945"
       },
       {
         "p": {
@@ -380,6 +511,17 @@
         "m1": "28.36",
         "m2": "0.915",
         "m3": "8.06"
+      },
+      {
+        "p": {
+          "name": "Compound Multi-branch Feature Fusion for Real Image Restoration",
+          "link": "https://arxiv.org/abs/2206.02748"
+        },
+        "c": "https://github.com/FanChiMao/CMFNet",
+        "n": "CMFNet (trained on GoPro)",
+        "d": "2022-06-02",
+        "m1": "28.23",
+        "m2": "0.882"
       },
       {
         "p": {

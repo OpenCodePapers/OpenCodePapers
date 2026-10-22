@@ -1,0 +1,249 @@
+{
+  "title": "code-generation-on-livecodebench-v5",
+  "task-hierarchy": [
+    "Code Intelligence",
+    "Code Generation"
+  ],
+  "dataset-info": {
+    "link": "https://livecodebench.github.io/",
+    "paper": "LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Pass@1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "InCoder-32B-Thinking: Industrial Code World Model for Thinking",
+          "link": "https://arxiv.org/abs/2604.03144"
+        },
+        "c": "https://github.com/CSJianYang/Industrial-Coder",
+        "n": "InCoder-32B-Thinking",
+        "d": "2026-04-03",
+        "m1": "81.3"
+      },
+      {
+        "p": {
+          "name": "NVIDIA Nemotron 3: Efficient and Open Intelligence",
+          "link": "https://arxiv.org/abs/2512.20856"
+        },
+        "c": "https://github.com/nvidia-nemo/nemotron",
+        "n": "Nemotron 3 Super",
+        "d": "2025-12-24",
+        "m1": "81.19"
+      },
+      {
+        "p": {
+          "name": "Gemini 2.5: Pushing the Frontier with Advanced Reasoning, Multimodality, Long Context, and Next Generation Agentic Capabilities",
+          "link": "https://arxiv.org/abs/2507.06261"
+        },
+        "c": "",
+        "n": "Gemini 2.5 Pro",
+        "d": "2025-07-07",
+        "m1": "74.2"
+      },
+      {
+        "p": {
+          "name": "GLM-4.5: Agentic, Reasoning, and Coding (ARC) Foundation Models",
+          "link": "https://arxiv.org/abs/2508.06471"
+        },
+        "c": "https://github.com/zai-org/GLM-4.5",
+        "n": "GLM-4.5 (355B)",
+        "d": "2025-08-08",
+        "m1": "72.9"
+      },
+      {
+        "p": {
+          "name": "Apriel-Reasoner: RL Post-Training for General-Purpose and Efficient Reasoning",
+          "link": "https://arxiv.org/abs/2604.02007"
+        },
+        "c": "https://github.com/servicenow/pipelinerl",
+        "n": "Apriel-1.5-OpenReasoner",
+        "d": "2026-04-02",
+        "m1": "70.8"
+      },
+      {
+        "p": {
+          "name": "Qwen3 Technical Report",
+          "link": "https://arxiv.org/abs/2505.09388"
+        },
+        "c": "https://github.com/QwenLM/Qwen3",
+        "n": "Qwen3-235B-A22B (Thinking)",
+        "d": "2025-05-14",
+        "m1": "70.7"
+      },
+      {
+        "p": {
+          "name": "GLM-4.5: Agentic, Reasoning, and Coding (ARC) Foundation Models",
+          "link": "https://arxiv.org/abs/2508.06471"
+        },
+        "c": "https://github.com/zai-org/GLM-4.5",
+        "n": "GLM-4.5-Air",
+        "d": "2025-08-08",
+        "m1": "70.7"
+      },
+      {
+        "p": {
+          "name": "Embarrassingly Simple Self-Distillation Improves Code Generation",
+          "link": "https://arxiv.org/abs/2604.01193"
+        },
+        "c": "https://github.com/apple/ml-ssd",
+        "n": "GPT-OSS-20B (high) + SSD",
+        "d": "2026-04-01",
+        "m1": "70.7"
+      },
+      {
+        "p": {
+          "name": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2501.12948v1"
+        },
+        "c": "https://github.com/deepseek-ai/deepseek-r1",
+        "n": "DeepSeek-R1",
+        "d": "2025-01-22",
+        "m1": "65.9"
+      },
+      {
+        "p": {
+          "name": "Nemotron 3 Nano Omni: Efficient and Open Multimodal Intelligence",
+          "link": "https://arxiv.org/abs/2604.24954"
+        },
+        "c": "https://github.com/nvidia-nemo/megatron-bridge",
+        "n": "Nemotron 3 Nano Omni",
+        "d": "2026-04-27",
+        "m1": "63.2"
+      },
+      {
+        "p": {
+          "name": "How to Fine-Tune a Reasoning Model? A Teacher-Student Cooperation Framework to Synthesize Student-Consistent SFT Data",
+          "link": "https://arxiv.org/abs/2604.14164"
+        },
+        "c": "https://github.com/CoopReason/TESSY",
+        "n": "TESSY",
+        "d": "2026-03-23",
+        "m1": "62.87"
+      },
+      {
+        "p": {
+          "name": "Lightning OPD: Efficient Post-Training for Large Reasoning Models with Offline On-Policy Distillation",
+          "link": "https://arxiv.org/abs/2604.13010"
+        },
+        "c": "https://github.com/jet-ai-projects/lightning-opd",
+        "n": "Lightning OPD (Qwen3-30B-A3B)",
+        "d": "2026-04-14",
+        "m1": "60.8"
+      },
+      {
+        "p": {
+          "name": "Gemini 2.5: Pushing the Frontier with Advanced Reasoning, Multimodality, Long Context, and Next Generation Agentic Capabilities",
+          "link": "https://arxiv.org/abs/2507.06261"
+        },
+        "c": "",
+        "n": "Gemini 2.5 Flash",
+        "d": "2025-07-07",
+        "m1": "59.3"
+      },
+      {
+        "p": {
+          "name": "Post-Trained MoE Can Skip Half Experts via Self-Distillation",
+          "link": "https://arxiv.org/abs/2605.18643"
+        },
+        "c": "https://github.com/TsinghuaC3I/ZEDA",
+        "n": "ZEDA (Qwen3-30B-A3B)",
+        "d": "2026-05-18",
+        "m1": "58.2"
+      },
+      {
+        "p": {
+          "name": "InCoder-32B: Code Foundation Model for Industrial Scenarios",
+          "link": "https://arxiv.org/abs/2603.16790"
+        },
+        "c": "https://github.com/CSJianYang/Industrial-Coder",
+        "n": "InCoder-32B (32B)",
+        "d": "2026-03-17",
+        "m1": "53.3"
+      },
+      {
+        "p": {
+          "name": "The Llama 4 herd: The beginning of a new era of natively multimodal AI innovation",
+          "link": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/"
+        },
+        "c": "https://github.com/meta-llama/llama-cookbook",
+        "n": "Llama 4 Maverick",
+        "d": "2025-04-05",
+        "m1": "43.4"
+      },
+      {
+        "p": {
+          "name": "Nanbeige4-3B Technical Report: Exploring the Frontier of Small Language Models",
+          "link": "https://arxiv.org/abs/2512.06266"
+        },
+        "c": "https://github.com/vllm-project/vllm",
+        "n": "Nanbeige4-3B-Base + OpenThoughts3 SFT (extra data)",
+        "d": "2025-12-06",
+        "m1": "40.9"
+      },
+      {
+        "p": {
+          "name": "Qwen3 Technical Report",
+          "link": "https://arxiv.org/abs/2505.09388"
+        },
+        "c": "https://github.com/QwenLM/Qwen3",
+        "n": "Qwen3-235B-A22B (Non-thinking)",
+        "d": "2025-05-14",
+        "m1": "35.3"
+      },
+      {
+        "p": {
+          "name": "The Llama 4 herd: The beginning of a new era of natively multimodal AI innovation",
+          "link": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/"
+        },
+        "c": "https://github.com/meta-llama/llama-cookbook",
+        "n": "Llama 4 Scout",
+        "d": "2025-04-05",
+        "m1": "32.8"
+      },
+      {
+        "p": {
+          "name": "dots.llm1 Technical Report",
+          "link": "https://arxiv.org/abs/2506.05767"
+        },
+        "c": "https://huggingface.co/rednote-hilab/dots.llm1.inst",
+        "n": "dots.llm1.inst",
+        "d": "2025-06-06",
+        "m1": "32.0"
+      },
+      {
+        "p": {
+          "name": "NGM: A Plug-and-Play Training-Free Memory Module for LLMs",
+          "link": "https://arxiv.org/abs/2605.16893"
+        },
+        "c": "https://github.com/PioneerQyw/NGM",
+        "n": "Qwen3-14B + NGM",
+        "d": "2026-05-16",
+        "m1": "29.94"
+      }
+    ]
+  }
+}

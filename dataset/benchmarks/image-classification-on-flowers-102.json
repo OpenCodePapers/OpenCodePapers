@@ -90,12 +90,32 @@
       },
       {
         "p": {
+          "name": "DINOv2: Learning Robust Visual Features without Supervision",
+          "link": "https://arxiv.org/abs/2304.07193v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "DINOv2 (ViT-g/14)",
+        "d": "2023-04-14",
+        "m1": "99.7"
+      },
+      {
+        "p": {
           "name": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
           "link": "https://arxiv.org/abs/2010.11929v2"
         },
         "c": "https://github.com/huggingface/transformers",
         "n": "",
         "d": "2020-10-22",
+        "m1": "99.68"
+      },
+      {
+        "p": {
+          "name": "Enhance Image Classification via Inter-Class Image Mixup with Diffusion Model",
+          "link": "https://arxiv.org/abs/2403.19600"
+        },
+        "c": "https://github.com/zhicaiwww/diff-mix",
+        "n": "Diff-Mix + CutMix (ViT-B/16@384) (extra data)",
+        "d": "2024-03-28",
         "m1": "99.68"
       },
       {
@@ -130,6 +150,16 @@
       },
       {
         "p": {
+          "name": "Stabilizing Feature Geometry in Noisy Pretrained Models for Robust Downstream Tasks",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_Stabilizing_Feature_Geometry_in_Noisy_Pretrained_Models_for_Robust_Downstream_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "FGS (Swin-L, ImageNet-21K)",
+        "d": "2026-06-03",
+        "m1": "99.54"
+      },
+      {
+        "p": {
           "name": "ConvMLP: Hierarchical Convolutional MLPs for Vision",
           "link": "https://arxiv.org/abs/2109.04454v2"
         },
@@ -160,6 +190,16 @@
       },
       {
         "p": {
+          "name": "AdapterTune: Zero-Initialized Low-Rank Adapters for Frozen Vision Transformers",
+          "link": "https://arxiv.org/abs/2603.14706"
+        },
+        "c": "https://github.com/salimkhazem/adaptertune",
+        "n": "AdapterTune (ViT-B/16)",
+        "d": "2026-03-16",
+        "m1": "99.43"
+      },
+      {
+        "p": {
           "name": "Big Transfer (BiT): General Visual Representation Learning",
           "link": "https://arxiv.org/abs/1912.11370v3"
         },
@@ -177,6 +217,36 @@
         "n": "Wide-ResNet-101 (Spinal FC)",
         "d": "2020-07-07",
         "m1": "99.30"
+      },
+      {
+        "p": {
+          "name": "Dense Vision Transformer Compression with Few Samples",
+          "link": "https://arxiv.org/abs/2403.18708"
+        },
+        "c": "",
+        "n": "DC-ViT-B (extra data)",
+        "d": "2024-03-27",
+        "m1": "99.3"
+      },
+      {
+        "p": {
+          "name": "Multi-label Cluster Discrimination for Visual Representation Learning",
+          "link": "https://arxiv.org/abs/2407.17331v2"
+        },
+        "c": "https://github.com/deepglint/unicom",
+        "n": "MLCD ViT-L/14 (linear probe)",
+        "d": "2024-07-24",
+        "m1": "99.3"
+      },
+      {
+        "p": {
+          "name": "Sensitivity-Aware Efficient Fine-Tuning via Compact Dynamic-Rank Adaptation",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Chen_Sensitivity-Aware_Efficient_Fine-Tuning_via_Compact_Dynamic-Rank_Adaptation_CVPR_2025_paper.html"
+        },
+        "c": "",
+        "n": "CDRA-SPT",
+        "d": "2025-06-11",
+        "m1": "99.3"
       },
       {
         "p": {
@@ -210,6 +280,16 @@
       },
       {
         "p": {
+          "name": "Adaptive Parameter Selection for Tuning Vision-Language Models",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhang_Adaptive_Parameter_Selection_for_Tuning_Vision-Language_Models_CVPR_2025_paper.html"
+        },
+        "c": "",
+        "n": "CLIP-AST (ViT-L/14)",
+        "d": "2025-06-11",
+        "m1": "99.06"
+      },
+      {
+        "p": {
           "name": "Domain Adaptive Transfer Learning on Visual Attention Aware Data Augmentation for Fine-grained Visual Categorization",
           "link": "https://arxiv.org/abs/2010.03071v1"
         },
@@ -217,6 +297,16 @@
         "n": "DAT",
         "d": "2020-10-06",
         "m1": "98.9%"
+      },
+      {
+        "p": {
+          "name": "Image Captioners Are Scalable Vision Learners Too",
+          "link": "https://arxiv.org/abs/2306.07915"
+        },
+        "c": "https://github.com/google-research/big_vision",
+        "n": "CapPa L/14 + MAP",
+        "d": "2023-06-13",
+        "m1": "98.9"
       },
       {
         "p": {
@@ -440,6 +530,26 @@
       },
       {
         "p": {
+          "name": "ViTAE: Vision Transformer Advanced by Exploring Intrinsic Inductive Bias",
+          "link": "https://arxiv.org/abs/2106.03348v4"
+        },
+        "c": "https://github.com/ViTAE-Transformer/ViTAE-Transformer",
+        "n": "ViTAE-S",
+        "d": "2021-06-07",
+        "m1": "97.8"
+      },
+      {
+        "p": {
+          "name": "ViTAEv2: Vision Transformer Advanced by Exploring Inductive Bias for Image Recognition and Beyond",
+          "link": "https://arxiv.org/abs/2202.10108v2"
+        },
+        "c": "https://github.com/ViTAE-Transformer/ViTDet",
+        "n": "ViTAE-S",
+        "d": "2022-02-21",
+        "m1": "97.8"
+      },
+      {
+        "p": {
           "name": "LeViT: a Vision Transformer in ConvNet's Clothing for Faster Inference",
           "link": "https://arxiv.org/abs/2104.01136v2"
         },
@@ -490,6 +600,16 @@
       },
       {
         "p": {
+          "name": "FLAVA: A Foundational Language And Vision Alignment Model",
+          "link": "https://arxiv.org/abs/2112.04482v3"
+        },
+        "c": "https://github.com/facebookresearch/multimodal",
+        "n": "FLAVA",
+        "d": "2021-12-08",
+        "m1": "96.37"
+      },
+      {
+        "p": {
           "name": "Vision Models Are More Robust And Fair When Pretrained On Uncurated Images Without Supervision",
           "link": "https://arxiv.org/abs/2202.08360v2"
         },
@@ -500,6 +620,16 @@
       },
       {
         "p": {
+          "name": "MULTIFLOW: Shifting Towards Task-Agnostic Vision-Language Pruning",
+          "link": "https://arxiv.org/abs/2404.05621"
+        },
+        "c": "https://github.com/farinamatteo/multiflow",
+        "n": "MULTIFLOW (DINO_B/16, 63% sparsity) (extra data)",
+        "d": "2024-04-08",
+        "m1": "96.2"
+      },
+      {
+        "p": {
           "name": "With a Little Help from My Friends: Nearest-Neighbor Contrastive Learning of Visual Representations",
           "link": "https://arxiv.org/abs/2104.14548v2"
         },
@@ -507,6 +637,26 @@
         "n": "NNCLR",
         "d": "2021-04-29",
         "m1": "95.1"
+      },
+      {
+        "p": {
+          "name": "$λ$-JEPA Spectral Anti-Collapse Regularization for Self-Supervised Learning",
+          "link": "https://arxiv.org/abs/2609.35288"
+        },
+        "c": "https://github.com/berkerdemirel/lambda-jepa",
+        "n": "λ-JEPA ViT-B/16, 100 ep (linear probe)",
+        "d": "2026-09-28",
+        "m1": "92.2"
+      },
+      {
+        "p": {
+          "name": "Closest Neighbors are Harmful for Lightweight Masked Auto-encoders",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Meng_Closest_Neighbors_are_Harmful_for_Lightweight_Masked_Auto-encoders_CVPR_2025_paper.html"
+        },
+        "c": "https://github.com/seolabcornell/nor-mae",
+        "n": "NoR-MAE (ViT-Small)",
+        "d": "2025-06-11",
+        "m1": "91.85"
       },
       {
         "p": {
@@ -598,6 +748,26 @@
         "d": "2020-05-12",
         "m2": "152M",
         "m3": "3.3M"
+      },
+      {
+        "p": {
+          "name": "GeoStack: A Framework for Quasi-Abelian Knowledge Composition in VLMs",
+          "link": "https://arxiv.org/abs/2605.06477"
+        },
+        "c": "https://github.com/QuantitativeImagingLaboratory/GeoStack",
+        "n": "GeoStack",
+        "d": "2026-05-07",
+        "m1": "85.8"
+      },
+      {
+        "p": {
+          "name": "HeBA: Heterogeneous Bottleneck Adapters for Robust Vision-Language Models",
+          "link": "https://arxiv.org/abs/2603.16653"
+        },
+        "c": "https://github.com/Jahid12012021/VLM-HeBA",
+        "n": "HeBA",
+        "d": "2026-03-17",
+        "m1": "73.04"
       }
     ]
   }

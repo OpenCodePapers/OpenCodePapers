@@ -1,0 +1,628 @@
+{
+  "title": "question-answering-on-humanity-s-last-exam-hle",
+  "task-hierarchy": [
+    "Question Answering"
+  ],
+  "dataset-info": {
+    "link": "https://lastexam.ai/",
+    "paper": "Humanity's Last Exam"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Claude Fable 5 and Claude Mythos 5",
+          "link": "https://www.anthropic.com/news/claude-fable-5-mythos-5"
+        },
+        "c": "https://github.com/anthropics/claude-code",
+        "n": "Claude Mythos 5",
+        "d": "2026-06-09",
+        "m1": "59.0"
+      },
+      {
+        "p": {
+          "name": "Gemini 3.1 Pro: A smarter model for your most complex tasks",
+          "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/"
+        },
+        "c": "",
+        "n": "Gemini 3.1 Pro",
+        "d": "2026-02-19",
+        "m1": "45.0"
+      },
+      {
+        "p": {
+          "name": "Kimi K3: Open Frontier Intelligence",
+          "link": "https://arxiv.org/abs/2607.24653"
+        },
+        "c": "https://github.com/moonshotai/kimi-k3",
+        "n": "Kimi K3 (max)",
+        "d": "2026-07-27",
+        "m1": "43.5"
+      },
+      {
+        "p": {
+          "name": "Introducing GPT-5.4",
+          "link": "https://openai.com/index/introducing-gpt-5-4/"
+        },
+        "c": "",
+        "n": "GPT-5.4 Pro",
+        "d": "2026-03-05",
+        "m1": "42.7"
+      },
+      {
+        "p": {
+          "name": "Introducing GPT-5.5",
+          "link": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        "c": "",
+        "n": "GPT-5.5",
+        "d": "2026-04-23",
+        "m1": "41.4"
+      },
+      {
+        "p": {
+          "name": "A new era of intelligence with Gemini 3",
+          "link": "https://blog.google/products-and-platforms/products/gemini/gemini-3"
+        },
+        "c": "",
+        "n": "Gemini 3 Deep Think",
+        "d": "2025-11-18",
+        "m1": "41.0"
+      },
+      {
+        "p": {
+          "name": "GLM-5.2: Built for Long-Horizon Tasks",
+          "link": "https://z.ai/blog/glm-5.2"
+        },
+        "c": "https://github.com/zai-org/GLM-5",
+        "n": "GLM-5.2",
+        "d": "2026-06-16",
+        "m1": "40.5"
+      },
+      {
+        "p": {
+          "name": "DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence",
+          "link": "https://arxiv.org/abs/2606.19348"
+        },
+        "c": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+        "n": "DeepSeek-V4-Pro Max",
+        "d": "2026-04-26",
+        "m1": "37.7"
+      },
+      {
+        "p": {
+          "name": "Motif 3: Technical Report",
+          "link": "https://arxiv.org/abs/2608.09119"
+        },
+        "c": "https://github.com/motiftechnologies/motif3-training-example",
+        "n": "Motif 3",
+        "d": "2026-08-10",
+        "m1": "37.0"
+      },
+      {
+        "p": {
+          "name": "Introducing GPT-5.2",
+          "link": "https://openai.com/index/introducing-gpt-5-2/"
+        },
+        "c": "",
+        "n": "GPT-5.2 Pro",
+        "d": "2025-12-11",
+        "m1": "36.6"
+      },
+      {
+        "p": {
+          "name": "Introducing Beam: Reflection's 501B open-weight model",
+          "link": "https://reflection.ai/blog/introducing-beam"
+        },
+        "c": "",
+        "n": "Beam",
+        "d": "2026-10-05",
+        "m1": "36.2"
+      },
+      {
+        "p": {
+          "name": "Qwen3.8-Flash-Next",
+          "link": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next"
+        },
+        "c": "https://github.com/qwenlm/qwen3.8-flash-next",
+        "n": "Qwen3.8-Flash-Next",
+        "d": "2026-08-24",
+        "m1": "35.9"
+      },
+      {
+        "p": {
+          "name": "DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence",
+          "link": "https://arxiv.org/abs/2606.19348"
+        },
+        "c": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+        "n": "DeepSeek-V4-Flash Max",
+        "d": "2026-04-26",
+        "m1": "34.8"
+      },
+      {
+        "p": {
+          "name": "Kimi K2.6",
+          "link": "https://www.kimi.com/blog/kimi-k2-6"
+        },
+        "c": "https://huggingface.co/moonshotai/Kimi-K2.6",
+        "n": "Kimi K2.6",
+        "d": "2026-04-20",
+        "m1": "34.7"
+      },
+      {
+        "p": {
+          "name": "Ornith-1.5: From Self-Scaffolding to Self-Improvement",
+          "link": "https://ornith.ai/ornith_1_5.html"
+        },
+        "c": "",
+        "n": "Ornith-1.5-35B-A3B",
+        "d": "2026-08-20",
+        "m1": "33.4"
+      },
+      {
+        "p": {
+          "name": "GLM-5.1: Towards Long-Horizon Tasks",
+          "link": "https://z.ai/blog/glm-5.1"
+        },
+        "c": "https://github.com/zai-org/GLM-5",
+        "n": "GLM-5.1",
+        "d": "2026-04-03",
+        "m1": "31.0"
+      },
+      {
+        "p": {
+          "name": "Qwen3.8-27B",
+          "link": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        "c": "https://github.com/vllm-project/vllm",
+        "n": "Qwen3.8-27B",
+        "d": "2026-08-05",
+        "m1": "30.8"
+      },
+      {
+        "p": {
+          "name": "Efficient Agentic Reasoning Through Self-Regulated Simulative Planning",
+          "link": "https://arxiv.org/abs/2605.22138"
+        },
+        "c": "https://github.com/sailing-lab/sr2am-self-regulated-planning",
+        "n": "SR 2 AM-v1.0-30B",
+        "d": "2026-05-21",
+        "m1": "30.4"
+      },
+      {
+        "p": {
+          "name": "Kimi K2.5: Visual Agentic Intelligence",
+          "link": "https://arxiv.org/abs/2602.02276"
+        },
+        "c": "https://github.com/MoonshotAI/Kimi-K2.5",
+        "n": "Kimi K2.5",
+        "d": "2026-02-02",
+        "m1": "30.1"
+      },
+      {
+        "p": {
+          "name": "Hy3 preview",
+          "link": "https://huggingface.co/tencent/Hy3-preview"
+        },
+        "c": "https://github.com/tencent-hunyuan/hy3-preview",
+        "n": "Hy3 preview",
+        "d": "2026-04-23",
+        "m1": "30.0"
+      },
+      {
+        "p": {
+          "name": "Qwen3.5: Towards Native Multimodal Agents",
+          "link": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Qwen3.5-397B-A17B",
+        "d": "2026-02-16",
+        "m1": "28.7"
+      },
+      {
+        "p": {
+          "name": "The MiniMax-M2 Series: Mini Activations Unleashing Max Real-World Intelligence",
+          "link": "https://arxiv.org/abs/2605.26494"
+        },
+        "c": "https://huggingface.co/MiniMaxAI/MiniMax-M2.7",
+        "n": "MiniMax-M2.7",
+        "d": "2026-05-26",
+        "m1": "28.0"
+      },
+      {
+        "p": {
+          "name": "Step 3.5 Flash: Open Frontier-Level Intelligence with 11B Active Parameters",
+          "link": "https://arxiv.org/abs/2602.10604"
+        },
+        "c": "https://huggingface.co/stepfun-ai/Step-3.5-Flash-Base",
+        "n": "Step-3.5-Flash PaCoRe",
+        "d": "2026-02-11",
+        "m1": "27.9"
+      },
+      {
+        "p": {
+          "name": "Streaming Communication in Multi-Agent Reasoning",
+          "link": "https://arxiv.org/abs/2606.05158"
+        },
+        "c": "https://github.com/EnVision-Research/StreamMA",
+        "n": "STREAM-MA (Claude Opus 4.6, Graph)",
+        "d": "2026-06-03",
+        "m1": "27.68"
+      },
+      {
+        "p": {
+          "name": "Qwen3.5: Towards Native Multimodal Agents",
+          "link": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Qwen3.5-122B-A10B (w/ CoT)",
+        "d": "2026-02-16",
+        "m1": "25.3"
+      },
+      {
+        "p": {
+          "name": "GLM-4.5: Agentic, Reasoning, and Coding (ARC) Foundation Models",
+          "link": "https://arxiv.org/abs/2508.06471"
+        },
+        "c": "https://github.com/zai-org/GLM-4.5",
+        "n": "GLM-4.7",
+        "d": "2025-08-08",
+        "m1": "24.8"
+      },
+      {
+        "p": {
+          "name": "Qwen3.5: Towards Native Multimodal Agents",
+          "link": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Qwen3.5-27B (w/ CoT)",
+        "d": "2026-02-16",
+        "m1": "24.3"
+      },
+      {
+        "p": {
+          "name": "Qwen3.6",
+          "link": "https://huggingface.co/collections/Qwen/qwen36"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Qwen3.6-27B",
+        "d": "2026-04-21",
+        "m1": "24.0"
+      },
+      {
+        "p": {
+          "name": "Step 3.5 Flash: Open Frontier-Level Intelligence with 11B Active Parameters",
+          "link": "https://arxiv.org/abs/2602.10604"
+        },
+        "c": "https://huggingface.co/stepfun-ai/Step-3.5-Flash-Base",
+        "n": "Step-3.5-Flash",
+        "d": "2026-02-11",
+        "m1": "23.1"
+      },
+      {
+        "p": {
+          "name": "Kwai Keye-VL-2.0 Technical Report",
+          "link": "https://arxiv.org/abs/2606.10651"
+        },
+        "c": "https://github.com/kwai-keye/keye",
+        "n": "Keye-VL-2.0-30B-A3B (w/ CoT)",
+        "d": "2026-06-09",
+        "m1": "22.9"
+      },
+      {
+        "p": {
+          "name": "Qwen3.5: Towards Native Multimodal Agents",
+          "link": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Qwen3.5-35B-A3B (w/ CoT)",
+        "d": "2026-02-16",
+        "m1": "22.4"
+      },
+      {
+        "p": {
+          "name": "Muse Glimmer 30B: An On-Device Agentic Model",
+          "link": "https://arxiv.org/abs/2610.24628"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Muse Glimmer-30B (High Reasoning, text-only)",
+        "d": "2026-10-17",
+        "m1": "22.0"
+      },
+      {
+        "p": {
+          "name": "Gemini 2.5: Pushing the Frontier with Advanced Reasoning, Multimodality, Long Context, and Next Generation Agentic Capabilities",
+          "link": "https://arxiv.org/abs/2507.06261"
+        },
+        "c": "",
+        "n": "Gemini 2.5 Pro",
+        "d": "2025-07-07",
+        "m1": "21.6"
+      },
+      {
+        "p": {
+          "name": "Kolibri: A Sovereign European Model on the Pareto Frontier",
+          "link": "https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model/"
+        },
+        "c": "https://github.com/aleph-alpha/aleph-alpha-inference",
+        "n": "Kolibri",
+        "d": "2026-10-03",
+        "m1": "21.5"
+      },
+      {
+        "p": {
+          "name": "Qwen3.6",
+          "link": "https://huggingface.co/collections/Qwen/qwen36"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Qwen3.6-35B-A3B",
+        "d": "2026-04-21",
+        "m1": "21.4"
+      },
+      {
+        "p": {
+          "name": "Introducing OpenAI o3 and o4-mini",
+          "link": "https://openai.com/index/introducing-o3-and-o4-mini/"
+        },
+        "c": "https://github.com/openai/codex",
+        "n": "OpenAI o3",
+        "d": "2025-04-16",
+        "m1": "20.32"
+      },
+      {
+        "p": {
+          "name": "MiniMax-M2.5",
+          "link": "https://huggingface.co/MiniMaxAI/MiniMax-M2.5"
+        },
+        "c": "https://github.com/minimax-ai/minimax-m2.5",
+        "n": "MiniMax-M2.5",
+        "d": "2026-02-12",
+        "m1": "19.4"
+      },
+      {
+        "p": {
+          "name": "Intern-S2-Mobius: Foundation Model with Decoupled Knowledge and Reasoning",
+          "link": "https://arxiv.org/abs/2608.14290"
+        },
+        "c": "https://github.com/internlm/intern-s2-mobius",
+        "n": "Intern-S2-Mobius-35B",
+        "d": "2026-08-14",
+        "m1": "19.11"
+      },
+      {
+        "p": {
+          "name": "Introducing K2 Horizon: Frontier Performance, Radically Open",
+          "link": "https://ifm.ai/blog/k2/"
+        },
+        "c": "https://github.com/ifm-ai/xllm",
+        "n": "K2-Horizon-7B",
+        "d": "2026-09-03",
+        "m1": "18.6"
+      },
+      {
+        "p": {
+          "name": "DIVE: Scaling Diversity in Agentic Task Synthesis for Generalizable Tool Use",
+          "link": "https://arxiv.org/abs/2603.11076"
+        },
+        "c": "https://github.com/sheep333c/DIVE",
+        "n": "Dive-8B (RL)",
+        "d": "2026-03-10",
+        "m1": "17.8"
+      },
+      {
+        "p": {
+          "name": "Nanbeige4.2-3B: Unlocking Agentic Capabilities in a Compact Model",
+          "link": "https://huggingface.co/Nanbeige/Nanbeige4.2-3B/blob/main/Nanbeige42_report.pdf"
+        },
+        "c": "https://github.com/vllm-project/vllm",
+        "n": "Nanbeige4.2-3B (w/o search)",
+        "d": "2026-07-21",
+        "m1": "17.8"
+      },
+      {
+        "p": {
+          "name": "Deeper is Not Always Better: Mitigating the Alignment Tax via Confident Layer Decoding",
+          "link": "https://arxiv.org/abs/2606.21906"
+        },
+        "c": "https://github.com/QwenLM/Confident-Decoding",
+        "n": "Confident Decoding (Qwen3.5-27B)",
+        "d": "2026-06-20",
+        "m1": "16.8"
+      },
+      {
+        "p": {
+          "name": "Scalable Visual Pretraining for Language Intelligence",
+          "link": "https://arxiv.org/abs/2607.09657"
+        },
+        "c": "",
+        "n": "Qwen3.5-35B-A3B + VP",
+        "d": "2026-07-10",
+        "m1": "16.67"
+      },
+      {
+        "p": {
+          "name": "INTELLECT-3: Technical Report",
+          "link": "https://arxiv.org/abs/2512.16144"
+        },
+        "c": "https://github.com/PrimeIntellect-ai/prime-rl",
+        "n": "INTELLECT-3",
+        "d": "2025-12-18",
+        "m1": "14.6"
+      },
+      {
+        "p": {
+          "name": "GLM-4.5: Agentic, Reasoning, and Coding (ARC) Foundation Models",
+          "link": "https://arxiv.org/abs/2508.06471"
+        },
+        "c": "https://github.com/zai-org/GLM-4.5",
+        "n": "GLM-4.5 (355B)",
+        "d": "2025-08-08",
+        "m1": "14.4"
+      },
+      {
+        "p": {
+          "name": "Thomson: Continual Learning of Frontier Models for SovereignAI",
+          "link": "https://huggingface.co/spaces/tri-fair-lab/publications/resolve/main/Thomson_1_0_Technical_Report.pdf"
+        },
+        "c": "",
+        "n": "Thomson-1.0-Small",
+        "d": "2026-08-24",
+        "m1": "13.4"
+      },
+      {
+        "p": {
+          "name": "NVIDIA Nemotron 3.5 Lightning",
+          "link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16"
+        },
+        "c": "https://github.com/NVIDIA/Megatron-LM",
+        "n": "NVIDIA Nemotron 3.5 Lightning 30B-A3B",
+        "d": "2026-08-11",
+        "m1": "11.72"
+      },
+      {
+        "p": {
+          "name": "Falcon-H1R: Pushing the Reasoning Frontiers with a Hybrid Model for Efficient Test-Time Scaling",
+          "link": "https://arxiv.org/abs/2601.02346"
+        },
+        "c": "https://github.com/tiiuae/falcon-h1r",
+        "n": "Falcon-H1R (7B)",
+        "d": "2026-01-05",
+        "m1": "11.1"
+      },
+      {
+        "p": {
+          "name": "Gemini 2.5: Pushing the Frontier with Advanced Reasoning, Multimodality, Long Context, and Next Generation Agentic Capabilities",
+          "link": "https://arxiv.org/abs/2507.06261"
+        },
+        "c": "",
+        "n": "Gemini 2.5 Flash",
+        "d": "2025-07-07",
+        "m1": "11.0"
+      },
+      {
+        "p": {
+          "name": "DiffusionGemma Technical Report",
+          "link": "https://arxiv.org/abs/2608.00146"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "DiffusionGemma 26B A4B",
+        "d": "2026-07-31",
+        "m1": "11.0"
+      },
+      {
+        "p": {
+          "name": "GLM-4.5: Agentic, Reasoning, and Coding (ARC) Foundation Models",
+          "link": "https://arxiv.org/abs/2508.06471"
+        },
+        "c": "https://github.com/zai-org/GLM-4.5",
+        "n": "GLM-4.5-Air",
+        "d": "2025-08-08",
+        "m1": "10.6"
+      },
+      {
+        "p": {
+          "name": "Is Next-Chunk Reasoning RL Really Better than SFT? Revisiting Training Strategies under no-CoT Data",
+          "link": "https://arxiv.org/abs/2608.23256"
+        },
+        "c": "",
+        "n": "Mixed SFT + RLVR",
+        "d": "2026-08-24",
+        "m1": "9.24"
+      },
+      {
+        "p": {
+          "name": "CHIMERA: Compact Synthetic Data for Generalizable LLM Reasoning",
+          "link": "https://arxiv.org/abs/2603.00889"
+        },
+        "c": "",
+        "n": "Qwen3-4B-Thinking-2507 (4B) fine-tuned on Chimera (SFT+RL)",
+        "d": "2026-03-01",
+        "m1": "9.0"
+      },
+      {
+        "p": {
+          "name": "Gemma 4 Technical Report",
+          "link": "https://arxiv.org/abs/2607.02770"
+        },
+        "c": "https://github.com/google-deepmind/gemma",
+        "n": "Gemma 4 26B-A4B",
+        "d": "2026-07-02",
+        "m1": "8.7"
+      },
+      {
+        "p": {
+          "name": "LFM2.5-24B-A2B: Built for Fast On-Device Agents",
+          "link": "https://www.liquid.ai/blog/lfm2-5-24b-a2b"
+        },
+        "c": "",
+        "n": "LFM2.5-24B-A2B",
+        "d": "2026-10-13",
+        "m1": "7.40"
+      },
+      {
+        "p": {
+          "name": "Gemma 4 Technical Report",
+          "link": "https://arxiv.org/abs/2607.02770"
+        },
+        "c": "https://github.com/google-deepmind/gemma",
+        "n": "Gemma 4 12B Unified",
+        "d": "2026-07-02",
+        "m1": "5.2"
+      },
+      {
+        "p": {
+          "name": "Zone of Proximal Policy Optimization: Teacher in Prompts, Not Gradients",
+          "link": "https://arxiv.org/abs/2606.18216"
+        },
+        "c": "",
+        "n": "ZPPO (Qwen3.5-2B)",
+        "d": "2026-06-16",
+        "m1": "5.1"
+      },
+      {
+        "p": {
+          "name": "Kimi K2: Open Agentic Intelligence",
+          "link": "https://arxiv.org/abs/2507.20534"
+        },
+        "c": "https://github.com/MoonshotAI/Kimi-K2",
+        "n": "Kimi K2",
+        "d": "2025-07-28",
+        "m1": "4.7"
+      },
+      {
+        "p": {
+          "name": "Memory-Efficient Looped Transformer: Decoupling Compute from Memory in Looped Language Models",
+          "link": "https://arxiv.org/abs/2605.07721"
+        },
+        "c": "",
+        "n": "MELT-1.6B",
+        "d": "2026-05-08",
+        "m1": "2.0"
+      }
+    ]
+  }
+}

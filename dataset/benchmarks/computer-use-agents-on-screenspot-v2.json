@@ -1,0 +1,559 @@
+{
+  "title": "computer-use-agents-on-screenspot-v2",
+  "task-hierarchy": [
+    "Agents",
+    "Computer Use Agents"
+  ],
+  "dataset-info": {
+    "link": "https://arxiv.org/abs/2410.23218",
+    "paper": "OS-ATLAS: A Foundation Action Model for Generalist GUI Agents"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Qwen-UI-Agent Technical Report: Toward Next-Generation Real-World Centric Foundation GUI Agents",
+          "link": "https://arxiv.org/abs/2607.28227"
+        },
+        "c": "",
+        "n": "Qwen-UI-Agent (27B)",
+        "d": "2026-07-30",
+        "m1": "97.5"
+      },
+      {
+        "p": {
+          "name": "MAI-UI Technical Report: Real-World Centric Foundation GUI Agents",
+          "link": "https://arxiv.org/abs/2512.22047"
+        },
+        "c": "https://github.com/Tongyi-MAI/MAI-UI",
+        "n": "MAI-UI-32B",
+        "d": "2025-12-26",
+        "m1": "96.5"
+      },
+      {
+        "p": {
+          "name": "OmegaUse: Building a General-Purpose GUI Agent for Autonomous Task Execution",
+          "link": "https://arxiv.org/abs/2601.20380"
+        },
+        "c": "",
+        "n": "OmegaUse-G",
+        "d": "2026-01-28",
+        "m1": "96.3"
+      },
+      {
+        "p": {
+          "name": "UI-Venus-1.5 Technical Report",
+          "link": "https://arxiv.org/abs/2602.09082"
+        },
+        "c": "https://github.com/inclusionai/ui-venus",
+        "n": "UI-Venus-1.5-30B-A3B",
+        "d": "2026-02-09",
+        "m1": "96.2"
+      },
+      {
+        "p": {
+          "name": "GroundingPI: A Grounding Foundation Model towards Physical Intelligence with Visual Primitives",
+          "link": "https://arxiv.org/abs/2609.39601"
+        },
+        "c": "https://github.com/groundingpi/GroundingPI",
+        "n": "GroundingPI",
+        "d": "2026-09-30",
+        "m1": "96.15"
+      },
+      {
+        "p": {
+          "name": "Holo2: Foundational Models for Navigation and Computer Use Agents",
+          "link": "https://huggingface.co/Hcompany/Holo2-235B-A22B"
+        },
+        "c": "",
+        "n": "Holo2-235B-A22B",
+        "d": "2026-02-03",
+        "m1": "95.9"
+      },
+      {
+        "p": {
+          "name": "POINTS-GUI-G: GUI-Grounding Journey",
+          "link": "https://arxiv.org/abs/2602.06391"
+        },
+        "c": "https://github.com/Tencent/POINTS-GUI",
+        "n": "POINTS-GUI-G-8B",
+        "d": "2026-02-06",
+        "m1": "95.7"
+      },
+      {
+        "p": {
+          "name": "Trust the Right Teacher: Quality-Aware Self-Distillation for GUI Grounding",
+          "link": "https://arxiv.org/abs/2606.18101"
+        },
+        "c": "",
+        "n": "Quality-Aware Self-Distillation",
+        "d": "2026-06-16",
+        "m1": "95.68"
+      },
+      {
+        "p": {
+          "name": "GroundAnything: Reconciling Parallel Decoding with Precise Visual Grounding at Flash Speed",
+          "link": "https://arxiv.org/abs/2609.39600"
+        },
+        "c": "https://github.com/groundingpi/GroundAnything",
+        "n": "GroundAnything",
+        "d": "2026-09-30",
+        "m1": "95.6"
+      },
+      {
+        "p": {
+          "name": "Mobile-Agent-v3.5: Multi-platform Fundamental GUI Agents",
+          "link": "https://arxiv.org/abs/2602.16855"
+        },
+        "c": "https://github.com/x-plug/mobileagent",
+        "n": "GUI-Owl-1.5-32B-Instruct",
+        "d": "2026-02-15",
+        "m1": "95.3"
+      },
+      {
+        "p": {
+          "name": "Seed1.5-VL Technical Report",
+          "link": "https://arxiv.org/abs/2505.07062v1"
+        },
+        "c": "https://github.com/bytedance-seed/seed1.5-vl",
+        "n": "Seed1.5-VL (thinking)",
+        "d": "2025-05-11",
+        "m1": "95.2"
+      },
+      {
+        "p": {
+          "name": "GTA1: GUI Test-time Scaling Agent",
+          "link": "https://arxiv.org/abs/2507.05791"
+        },
+        "c": "https://github.com/Yan98/GTA1",
+        "n": "GTA1-32B",
+        "d": "2025-07-08",
+        "m1": "95.2"
+      },
+      {
+        "p": {
+          "name": "GroundGUI: GUI Grounding by High-Quality Data and Distillation-to-Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2610.19100"
+        },
+        "c": "https://github.com/PrentisAI/GroundGUI",
+        "n": "GroundGUI-8B",
+        "d": "2026-10-13",
+        "m1": "95.2"
+      },
+      {
+        "p": {
+          "name": "Step-GUI Technical Report",
+          "link": "https://arxiv.org/abs/2512.15431"
+        },
+        "c": "https://github.com/stepfun-ai/gelab-zero",
+        "n": "Step-GUI-8B",
+        "d": "2025-12-17",
+        "m1": "95.1"
+      },
+      {
+        "p": {
+          "name": "GUI-Libra: Training Native GUI Agents to Reason and Act with Action-aware Supervision and Partially Verifiable RL",
+          "link": "https://arxiv.org/abs/2602.22190"
+        },
+        "c": "https://github.com/GUI-Libra/GUI-Libra",
+        "n": "GUI-Libra-8B + Mix Grounding 20K (extra data)",
+        "d": "2026-02-25",
+        "m1": "94.8"
+      },
+      {
+        "p": {
+          "name": "ScaleCUA: Scaling Open-Source Computer Use Agents with Cross-Platform Data",
+          "link": "https://arxiv.org/abs/2509.15221"
+        },
+        "c": "https://github.com/OpenGVLab/ScaleCUA",
+        "n": "ScaleCUA-32B",
+        "d": "2025-09-18",
+        "m1": "94.7"
+      },
+      {
+        "p": {
+          "name": "Fara-1.5: Scalable Learning Environments for Computer Use Agents",
+          "link": "https://arxiv.org/abs/2606.20785"
+        },
+        "c": "https://github.com/microsoft/fara",
+        "n": "Fara1.5-27B",
+        "d": "2026-06-18",
+        "m1": "94.4"
+      },
+      {
+        "p": {
+          "name": "UI-TARS: Pioneering Automated GUI Interaction with Native Agents",
+          "link": "https://arxiv.org/abs/2501.12326"
+        },
+        "c": "https://github.com/bytedance/ui-tars",
+        "n": "UI-TARS-1.5 (early access)",
+        "d": "2025-01-21",
+        "m1": "94.2"
+      },
+      {
+        "p": {
+          "name": "MolmoPoint: Better Pointing for VLMs with Grounding Tokens",
+          "link": "https://arxiv.org/abs/2603.28069"
+        },
+        "c": "https://github.com/allenai/molmopoint-guisyn",
+        "n": "MolmoPoint-GUI-8B (64crops)",
+        "d": "2026-03-30",
+        "m1": "93.9"
+      },
+      {
+        "p": {
+          "name": "Intern-S1-Pro: Scientific Multimodal Foundation Model at Trillion Scale",
+          "link": "https://arxiv.org/abs/2603.25040"
+        },
+        "c": "",
+        "n": "Intern-S1-Pro",
+        "d": "2026-03-26",
+        "m1": "93.6"
+      },
+      {
+        "p": {
+          "name": "InfiGUI-G1: Advancing GUI Grounding with Adaptive Exploration Policy Optimization",
+          "link": "https://arxiv.org/abs/2508.05731"
+        },
+        "c": "https://github.com/InfiXAI/InfiGUI-G1",
+        "n": "InfiGUI-G1-7B (extra data)",
+        "d": "2025-08-07",
+        "m1": "93.5"
+      },
+      {
+        "p": {
+          "name": "EvoCUA: Evolving Computer Use Agents via Learning from Scalable Synthetic Experience",
+          "link": "https://arxiv.org/abs/2601.15876"
+        },
+        "c": "https://github.com/meituan/EvoCUA",
+        "n": "EvoCUA-OpenCUA-72B",
+        "d": "2026-01-22",
+        "m1": "93.47"
+      },
+      {
+        "p": {
+          "name": "OpenCUA: Open Foundations for Computer-Use Agents",
+          "link": "https://arxiv.org/abs/2508.09123"
+        },
+        "c": "https://github.com/xlang-ai/OpenCUA",
+        "n": "OpenCUA-32B",
+        "d": "2025-08-12",
+        "m1": "93.4"
+      },
+      {
+        "p": {
+          "name": "Nemotron 3 Nano Omni: Efficient and Open Multimodal Intelligence",
+          "link": "https://arxiv.org/abs/2604.24954"
+        },
+        "c": "https://github.com/nvidia-nemo/megatron-bridge",
+        "n": "Nemotron 3 Nano Omni",
+        "d": "2026-04-27",
+        "m1": "93.4"
+      },
+      {
+        "p": {
+          "name": "GUI-G$^2$: Gaussian Reward Modeling for GUI Grounding",
+          "link": "https://arxiv.org/abs/2507.15846"
+        },
+        "c": "https://github.com/zju-real/GUI-G2",
+        "n": "GUI-G²-7B",
+        "d": "2025-07-21",
+        "m1": "93.3"
+      },
+      {
+        "p": {
+          "name": "Mobile-Agent-v3: Fundamental Agents for GUI Automation",
+          "link": "https://arxiv.org/abs/2508.15144"
+        },
+        "c": "https://github.com/X-PLUG/MobileAgent/tree/main/Mobile-Agent-v3",
+        "n": "GUI-Owl-32B",
+        "d": "2025-08-21",
+        "m1": "93.2"
+      },
+      {
+        "p": {
+          "name": "FocusUI: Efficient UI Grounding via Position-Preserving Visual Token Selection",
+          "link": "https://arxiv.org/abs/2601.03928"
+        },
+        "c": "https://github.com/showlab/focusui",
+        "n": "FocusUI-7B (r=100%)",
+        "d": "2026-01-07",
+        "m1": "93.1"
+      },
+      {
+        "p": {
+          "name": "Kimi-VL Technical Report",
+          "link": "https://arxiv.org/abs/2504.07491"
+        },
+        "c": "https://github.com/moonshotai/kimi-vl",
+        "n": "Kimi-VL-A3B-Instruct",
+        "d": "2025-04-10",
+        "m1": "92.8"
+      },
+      {
+        "p": {
+          "name": "STEP3-VL-10B Technical Report",
+          "link": "https://arxiv.org/abs/2601.09668"
+        },
+        "c": "https://github.com/stepfun-ai/Step3-VL-10B",
+        "n": "Step3-VL-10B",
+        "d": "2026-01-14",
+        "m1": "92.61"
+      },
+      {
+        "p": {
+          "name": "UItron: Foundational GUI Agent with Advanced Perception and Planning",
+          "link": "https://arxiv.org/abs/2508.21767"
+        },
+        "c": "https://github.com/UITron-hub/UItron",
+        "n": "UItron-72B",
+        "d": "2025-08-29",
+        "m1": "92.0"
+      },
+      {
+        "p": {
+          "name": "MolmoWeb: Open Visual Web Agent and Open Data for the Open Web",
+          "link": "https://arxiv.org/abs/2604.08516"
+        },
+        "c": "https://github.com/allenai/molmoweb",
+        "n": "MolmoWeb-Ground (8B)",
+        "d": "2026-04-09",
+        "m1": "91.8"
+      },
+      {
+        "p": {
+          "name": "Scaling Computer-Use Grounding via User Interface Decomposition and Synthesis",
+          "link": "https://arxiv.org/abs/2505.13227"
+        },
+        "c": "https://github.com/xlang-ai/osworld-g",
+        "n": "Jedi-7B",
+        "d": "2025-05-19",
+        "m1": "91.7"
+      },
+      {
+        "p": {
+          "name": "GAIA: A Data Flywheel System for Training GUI Test-Time Scaling Critic Models",
+          "link": "https://arxiv.org/abs/2601.18197"
+        },
+        "c": "https://github.com/seerray-lab/gaia",
+        "n": "UI-TARS 1.5* + ICM-r2",
+        "d": "2026-01-26",
+        "m1": "91.0"
+      },
+      {
+        "p": {
+          "name": "UI-MOPD: Multi-Platform On-Policy Distillation for Continual GUI Agent Learning",
+          "link": "https://arxiv.org/abs/2607.04425"
+        },
+        "c": "https://github.com/elispectre/ui-mopd",
+        "n": "UI-MOPD",
+        "d": "2026-07-05",
+        "m1": "90.88"
+      },
+      {
+        "p": {
+          "name": "LLaDA-UI: Bringing Block-wise Diffusion to Vision-Language GUI Agents",
+          "link": "https://arxiv.org/abs/2609.13287"
+        },
+        "c": "https://github.com/inclusionai/llada-ui",
+        "n": "LLaDA-UI",
+        "d": "2026-09-09",
+        "m1": "90.7"
+      },
+      {
+        "p": {
+          "name": "PixelPrune: Pixel-Level Adaptive Visual Token Reduction via Predictive Coding",
+          "link": "https://arxiv.org/abs/2604.00886"
+        },
+        "c": "https://github.com/OPPO-Mente-Lab/PixelPrune",
+        "n": "Qwen3-VL (2B) with PixelPrune (+KD)",
+        "d": "2026-04-01",
+        "m1": "90.6"
+      },
+      {
+        "p": {
+          "name": "MiMo-VL Technical Report",
+          "link": "https://arxiv.org/abs/2506.03569"
+        },
+        "c": "https://github.com/xiaomimimo/mimo-vl",
+        "n": "MiMo-VL-7B-RL",
+        "d": "2025-06-04",
+        "m1": "90.5"
+      },
+      {
+        "p": {
+          "name": "Grounding Computer Use Agents on Human Demonstrations",
+          "link": "https://arxiv.org/abs/2511.07332"
+        },
+        "c": "https://github.com/ServiceNow/GroundCUA/",
+        "n": "GroundNext-7B (RL)",
+        "d": "2025-11-10",
+        "m1": "90.4"
+      },
+      {
+        "p": {
+          "name": "DeskForge: Dense Supervision from Desktop Environments for Computer-Use Agents",
+          "link": "https://arxiv.org/abs/2610.02320"
+        },
+        "c": "https://github.com/Saidgurbuz/deskforge",
+        "n": "DeskForge-Qwen3.5-4B",
+        "d": "2026-10-01",
+        "m1": "90.33"
+      },
+      {
+        "p": {
+          "name": "Enhancing Visual Grounding for GUI Agents via Self-Evolutionary Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2505.12370"
+        },
+        "c": "https://github.com/yxb-nku/se-gui",
+        "n": "SE-GUI-7B (extra data)",
+        "d": "2025-05-18",
+        "m1": "90.3"
+      },
+      {
+        "p": {
+          "name": "UI-Copilot: Advancing Long-Horizon GUI Automation via Tool-Integrated Policy Optimization",
+          "link": "https://arxiv.org/abs/2604.13822"
+        },
+        "c": "https://github.com/ZJU-REAL/UI-Copilot",
+        "n": "UI-Copilot-7B",
+        "d": "2026-04-15",
+        "m1": "90.0"
+      },
+      {
+        "p": {
+          "name": "UI-R1: Enhancing Efficient Action Prediction of GUI Agents by Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2503.21620"
+        },
+        "c": "https://github.com/lll6gg/ui-r1",
+        "n": "UI-R1-E-3B",
+        "d": "2025-03-27",
+        "m1": "89.5"
+      },
+      {
+        "p": {
+          "name": "Fara-7B: An Efficient Agentic Model for Computer Use",
+          "link": "https://arxiv.org/abs/2511.19663"
+        },
+        "c": "https://github.com/microsoft/fara",
+        "n": "Fara-7B",
+        "d": "2025-11-24",
+        "m1": "89.3"
+      },
+      {
+        "p": {
+          "name": "BTL-UI: Blink-Think-Link Reasoning Model for GUI Agent",
+          "link": "https://arxiv.org/abs/2509.15566"
+        },
+        "c": "https://github.com/xiaomi-research/btl-ui",
+        "n": "BTL-UI 7B",
+        "d": "2025-09-19",
+        "m1": "89.1"
+      },
+      {
+        "p": {
+          "name": "Detect Anything via Next Point Prediction",
+          "link": "https://arxiv.org/abs/2510.12798"
+        },
+        "c": "https://github.com/idea-research/rex-omni",
+        "n": "Rex-Omni",
+        "d": "2025-10-14",
+        "m1": "88.4"
+      },
+      {
+        "p": {
+          "name": "LongCat-Next: Lexicalizing Modalities as Discrete Tokens",
+          "link": "https://arxiv.org/abs/2603.27538"
+        },
+        "c": "https://github.com/meituan-longcat/LongCat-Next",
+        "n": "LongCat-Next (A3B, 68.5B)",
+        "d": "2026-03-29",
+        "m1": "88.3"
+      },
+      {
+        "p": {
+          "name": "Phi-4-reasoning-vision-15B Technical Report",
+          "link": "https://arxiv.org/abs/2603.03975"
+        },
+        "c": "https://github.com/microsoft/Phi-4-reasoning-vision-15B",
+        "n": "Phi-4-reasoning-vision-15B",
+        "d": "2026-03-04",
+        "m1": "88.2"
+      },
+      {
+        "p": {
+          "name": "AutoWebWorld: Synthesizing Infinite Verifiable Web Environments via Finite State Machines",
+          "link": "https://arxiv.org/abs/2602.14296"
+        },
+        "c": "https://github.com/evanwu1125/autowebworld",
+        "n": "AutoWebWorld 7B",
+        "d": "2026-02-15",
+        "m1": "86.16"
+      },
+      {
+        "p": {
+          "name": "Vision as Unified Multimodal Generation",
+          "link": "https://arxiv.org/abs/2607.06560"
+        },
+        "c": "https://github.com/OpenSenseNova/SenseNova-Vision",
+        "n": "SenseNova-Vision",
+        "d": "2026-07-07",
+        "m1": "85.9"
+      },
+      {
+        "p": {
+          "name": "OS-ATLAS: A Foundation Action Model for Generalist GUI Agents",
+          "link": "https://arxiv.org/abs/2410.23218v1"
+        },
+        "c": "https://github.com/njucckevin/seeclick",
+        "n": "OS-Atlas-Base-7B",
+        "d": "2024-10-30",
+        "m1": "84.12"
+      },
+      {
+        "p": {
+          "name": "Continual GUI Agents",
+          "link": "https://arxiv.org/abs/2601.20732"
+        },
+        "c": "https://github.com/xavierliu34/gui-aif",
+        "n": "GUI-AiF (Qwen2.5VL-3B)",
+        "d": "2026-01-28",
+        "m1": "81.2"
+      },
+      {
+        "p": {
+          "name": "GoClick: Lightweight Element Grounding Model for Autonomous GUI Interaction",
+          "link": "https://arxiv.org/abs/2604.23941"
+        },
+        "c": "https://github.com/ZJULiHongxin/GoClick",
+        "n": "GoClick-L (0.8B)",
+        "d": "2026-04-27",
+        "m1": "81.1"
+      }
+    ]
+  }
+}

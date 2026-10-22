@@ -1,0 +1,248 @@
+{
+  "title": "video-question-answering-on-videommmu",
+  "task-hierarchy": [
+    "Video Question Answering"
+  ],
+  "dataset-info": {
+    "link": "https://videommmu.github.io/",
+    "paper": "Video-MMMU: Evaluating Knowledge Acquisition from Multi-Discipline Professional Videos"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "VideoLoop: Looped Working Memory Against Semantic Thrashing in Long-Form Video Agents",
+          "link": "https://arxiv.org/abs/2609.38119"
+        },
+        "c": "https://github.com/philipxjm/videoloop",
+        "n": "VideoLoop (Gemini 3.1 Pro)",
+        "d": "2026-09-29",
+        "m1": "88.8"
+      },
+      {
+        "p": {
+          "name": "Seed2.0 Model Card: Towards Intelligence Frontier for Real-World Complexity",
+          "link": "https://arxiv.org/abs/2607.00248"
+        },
+        "c": "",
+        "n": "Seed2.0 Pro",
+        "d": "2026-06-30",
+        "m1": "86.9"
+      },
+      {
+        "p": {
+          "name": "HopChain: Multi-Hop Data Synthesis for Generalizable Vision-Language Reasoning",
+          "link": "https://arxiv.org/abs/2603.17024"
+        },
+        "c": "",
+        "n": "Qwen3.5-397B-A17B",
+        "d": "2026-03-17",
+        "m1": "80.0"
+      },
+      {
+        "p": {
+          "name": "Less from More: Reinforcing Sparse Video Reasoning from Dense References",
+          "link": "https://arxiv.org/abs/2610.10893"
+        },
+        "c": "https://github.com/lmsdss/SAVER",
+        "n": "SAVER-4B (0.1 fps) (extra data)",
+        "d": "2026-10-07",
+        "m1": "72.7"
+      },
+      {
+        "p": {
+          "name": "SAGE: Training Smart Any-Horizon Agents for Long Video Reasoning with Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2512.13874"
+        },
+        "c": "https://github.com/allenai/SAGE",
+        "n": "SAGE-Flash (SAGE-MM: Qwen3-VL-8B-Instruct [+SFT] [+RL])",
+        "d": "2025-12-15",
+        "m1": "68.1"
+      },
+      {
+        "p": {
+          "name": "OneThinker: All-in-one Reasoning Model for Image and Video",
+          "link": "https://arxiv.org/abs/2512.03043"
+        },
+        "c": "https://github.com/tulerfeng/onethinker",
+        "n": "OneThinker-8B",
+        "d": "2025-12-02",
+        "m1": "66.2"
+      },
+      {
+        "p": {
+          "name": "VideoAuto-R1: Video Auto Reasoning via Thinking Once, Answering Twice",
+          "link": "https://arxiv.org/abs/2601.05175"
+        },
+        "c": "https://github.com/ivul-kaust/videoauto-r1",
+        "n": "VideoAuto-R1 (Qwen3-VL-8B)",
+        "d": "2026-01-08",
+        "m1": "65.0"
+      },
+      {
+        "p": {
+          "name": "VideoKR: Towards Knowledge- and Reasoning-Intensive Video Understanding",
+          "link": "https://arxiv.org/abs/2606.05259"
+        },
+        "c": "https://github.com/Fu-Fu-Fu-Fu/VideoKR",
+        "n": "VideoKR (SFT + RL) on Qwen3-VL-8B-Instruct (Frames=128)",
+        "d": "2026-06-03",
+        "m1": "63.0"
+      },
+      {
+        "p": {
+          "name": "Open-o3-Video-v2: Seek, Ground, and Reason with Verifiable Spatio-Temporal Evidence",
+          "link": "https://arxiv.org/abs/2610.17656"
+        },
+        "c": "https://github.com/Multimedia-Semantic-Analytics-Lab/Open-o3-Video-v2",
+        "n": "Open-o3-Video-v2-8B",
+        "d": "2026-10-13",
+        "m1": "63.0"
+      },
+      {
+        "p": {
+          "name": "Enhancing Video Vision Language Model with Hippocampal Sensing",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Cao_Enhancing_Video_Vision_Language_Model_with_Hippocampal_Sensing_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "HippoVLM-8B",
+        "d": "2026-06-03",
+        "m1": "62.7"
+      },
+      {
+        "p": {
+          "name": "ResAdapt: Adaptive Resolution for Efficient Multimodal Reasoning",
+          "link": "https://arxiv.org/abs/2603.28610"
+        },
+        "c": "https://github.com/Xnhyacinth/ResAdapt",
+        "n": "ResAdapt (Qwen3-VL-8B, 128 frames)",
+        "d": "2026-03-30",
+        "m1": "59.6"
+      },
+      {
+        "p": {
+          "name": "Insight-V++: Towards Advanced Long-Chain Visual Reasoning with Multimodal Large Language Models",
+          "link": "https://arxiv.org/abs/2603.18118"
+        },
+        "c": "",
+        "n": "Insight-V++ (Self-Evolving, Qwen2.5-VL, 7B)",
+        "d": "2026-03-18",
+        "m1": "57.6"
+      },
+      {
+        "p": {
+          "name": "AdaTooler-V: Adaptive Tool-Use for Images and Videos",
+          "link": "https://arxiv.org/abs/2512.16918"
+        },
+        "c": "https://github.com/CYWang735/AdaTooler-V",
+        "n": "AdaTooler-V-7B",
+        "d": "2025-12-18",
+        "m1": "56.8"
+      },
+      {
+        "p": {
+          "name": "VisionCoach: Reinforcing Grounded Video Reasoning via Visual-Perception Prompting",
+          "link": "https://arxiv.org/abs/2603.14659"
+        },
+        "c": "https://github.com/daeunni/VisionCoach",
+        "n": "VisionCoach-7B",
+        "d": "2026-03-15",
+        "m1": "54.4"
+      },
+      {
+        "p": {
+          "name": "Let VLMs Grade Their Own Thoughts: A Self-Quantification Approach to Reasoning-Aware Reward Modeling",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Xi_Let_VLMs_Grade_Their_Own_Thoughts_A_Self-Quantification_Approach_to_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "Video-RAISE-7B",
+        "d": "2026-06-03",
+        "m1": "53.6"
+      },
+      {
+        "p": {
+          "name": "PointThinker: Point-Incentivized Parallel Thinking for Multimodal Large Language Model",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Hu_PointThinker_Point-Incentivized_Parallel_Thinking_for_Multimodal_Large_Language_Model_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "PointThinker-7B (extra data)",
+        "d": "2026-06-03",
+        "m1": "53.0"
+      },
+      {
+        "p": {
+          "name": "From Pixels to Words -- Towards Native One-Vision Models at Scale",
+          "link": "https://arxiv.org/abs/2605.28820"
+        },
+        "c": "https://github.com/EvolvingLMMs-Lab/NEO",
+        "n": "NEO-ov (8B)",
+        "d": "2026-05-27",
+        "m1": "51.6"
+      },
+      {
+        "p": {
+          "name": "VAST: Video Ability-Stratified Taxonomy for Data-Efficient Video Reasoning",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Wang_VAST_Video_Ability-Stratified_Taxonomy_for_Data-Efficient_Video_Reasoning_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "VideoVAST-7B (extra data)",
+        "d": "2026-06-03",
+        "m1": "50.6"
+      },
+      {
+        "p": {
+          "name": "Watch Before You Answer: Learning from Visually Grounded Post-Training",
+          "link": "https://arxiv.org/abs/2604.05117"
+        },
+        "c": "https://github.com/reacher-z/vidground",
+        "n": "VidGround (64 frames)",
+        "d": "2026-04-06",
+        "m1": "49.4"
+      },
+      {
+        "p": {
+          "name": "Puzzle Curriculum GRPO for Vision-Centric Reasoning",
+          "link": "https://arxiv.org/abs/2512.14944"
+        },
+        "c": "https://github.com/SamsungLabs/PC-GRPO",
+        "n": "Qwen2.5-VL-7B (Mix)",
+        "d": "2025-12-16",
+        "m1": "42.66"
+      },
+      {
+        "p": {
+          "name": "OmniStream: Mastering Perception, Reconstruction and Action in Continuous Streams",
+          "link": "https://arxiv.org/abs/2603.12265"
+        },
+        "c": "https://github.com/Go2Heart/OmniStream",
+        "n": "OmniStream-7B",
+        "d": "2026-03-12",
+        "m1": "40.0"
+      }
+    ]
+  }
+}

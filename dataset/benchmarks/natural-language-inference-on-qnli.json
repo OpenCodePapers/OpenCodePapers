@@ -114,6 +114,26 @@
         "m1": "96%"
       },
       {
+        "p": {
+          "name": "ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators",
+          "link": "https://arxiv.org/abs/2003.10555v1"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "ELECTRA-1.75M",
+        "d": "2020-03-23",
+        "m1": "95.8%"
+      },
+      {
+        "p": {
+          "name": "Funnel-Transformer: Filtering out Sequential Redundancy for Efficient Language Processing",
+          "link": "https://arxiv.org/abs/2006.03236v1"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Funnel-Transformer Large",
+        "d": "2020-06-05",
+        "m1": "95.8%"
+      },
+      {
         "p": "",
         "c": "",
         "n": "ELECTRA",
@@ -138,6 +158,16 @@
         "c": "https://github.com/huggingface/transformers",
         "n": "XLNet (single model)",
         "d": "2019-06-19",
+        "m1": "94.9%"
+      },
+      {
+        "p": {
+          "name": "BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension",
+          "link": "https://arxiv.org/abs/1910.13461v1"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "BART",
+        "d": "2019-10-29",
         "m1": "94.9%"
       },
       {
@@ -242,6 +272,16 @@
       },
       {
         "p": {
+          "name": "MPNet: Masked and Permuted Pre-training for Language Understanding",
+          "link": "https://arxiv.org/abs/2004.09297v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "MPNet Base",
+        "d": "2020-04-20",
+        "m1": "93.1%"
+      },
+      {
+        "p": {
           "name": "Q-BERT: Hessian Based Ultra Low Precision Quantization of BERT",
           "link": "https://arxiv.org/abs/1909.05840v2"
         },
@@ -299,6 +339,16 @@
         "n": "RealFormer",
         "d": "2020-12-21",
         "m1": "91.89%"
+      },
+      {
+        "p": {
+          "name": "MobileBERT: a Compact Task-Agnostic BERT for Resource-Limited Devices",
+          "link": "https://arxiv.org/abs/2004.02984v2"
+        },
+        "c": "https://github.com/tensorflow/models/tree/master/official/nlp/projects/mobilebert",
+        "n": "MobileBERT w/o OPT",
+        "d": "2020-04-06",
+        "m1": "91.6%"
       },
       {
         "p": {
@@ -409,6 +459,16 @@
         "n": "Nyströmformer",
         "d": "2021-02-07",
         "m1": "88.7%"
+      },
+      {
+        "p": {
+          "name": "Improving Language Understanding by Generative Pre-Training",
+          "link": "https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "GPT-1",
+        "d": "2018-06-11",
+        "m1": "88.1%"
       },
       {
         "p": {

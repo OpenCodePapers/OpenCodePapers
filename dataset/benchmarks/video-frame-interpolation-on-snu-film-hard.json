@@ -61,6 +61,28 @@
       },
       {
         "p": {
+          "name": "MASS: Motion-Aligned Selective Scan for Flow-Based Video Frame Interpolation",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/3303"
+        },
+        "c": "",
+        "n": "MASS",
+        "d": "2026-09-08",
+        "m1": "31.09",
+        "m2": "0.9407"
+      },
+      {
+        "p": {
+          "name": "Following Motion for Sequential Modeling in Video Frame Interpolation",
+          "link": "https://arxiv.org/abs/2608.22861"
+        },
+        "c": "",
+        "n": "MGMVFI",
+        "d": "2026-08-24",
+        "m1": "31.04",
+        "m2": "0.9411"
+      },
+      {
+        "p": {
           "name": "VFIMamba: Video Frame Interpolation with State Space Models",
           "link": "https://arxiv.org/abs/2407.02315v2"
         },
@@ -69,6 +91,17 @@
         "d": "2024-07-02",
         "m1": "30.99",
         "m2": "0.9401"
+      },
+      {
+        "p": {
+          "name": "Aligning Anything: Hierarchical Motion Estimation for Video Frame Interpolation",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/5280"
+        },
+        "c": "",
+        "n": "Aligning Anything (AMT-G)",
+        "d": "2026-09-08",
+        "m1": "30.97",
+        "m2": "0.9384"
       },
       {
         "p": {
@@ -105,6 +138,61 @@
       },
       {
         "p": {
+          "name": "IQ-VFI: Implicit Quadratic Motion Estimation for Video Frame Interpolation",
+          "link": "https://openaccess.thecvf.com/content/CVPR2024/html/Hu_IQ-VFI_Implicit_Quadratic_Motion_Estimation_for_Video_Frame_Interpolation_CVPR_2024_paper.html"
+        },
+        "c": "",
+        "n": "IQ-VFI (Ours)",
+        "d": "2024-06-17",
+        "m1": "30.83",
+        "m2": "0.938"
+      },
+      {
+        "p": {
+          "name": "AMT: All-Pairs Multi-Field Transforms for Efficient Frame Interpolation",
+          "link": "https://arxiv.org/abs/2304.09790"
+        },
+        "c": "https://github.com/mcg-nku/amt",
+        "n": "AMT-G (extra data)",
+        "d": "2023-04-19",
+        "m1": "30.78",
+        "m2": "0.939"
+      },
+      {
+        "p": {
+          "name": "AMT: All-Pairs Multi-Field Transforms for Efficient Frame Interpolation",
+          "link": "https://arxiv.org/abs/2304.09790"
+        },
+        "c": "https://github.com/mcg-nku/amt",
+        "n": "AMT-L (extra data)",
+        "d": "2023-04-19",
+        "m1": "30.75",
+        "m2": "0.938"
+      },
+      {
+        "p": {
+          "name": "LC-Mamba: Local and Continuous Mamba with Shifted Windows for Frame Interpolation",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Jeong_LC-Mamba_Local_and_Continuous_Mamba_with_Shifted_Windows_for_Frame_CVPR_2025_paper.html"
+        },
+        "c": "https://github.com/miinuuu/lc-mamba",
+        "n": "LC-Mamba (Ours-P)",
+        "d": "2025-06-11",
+        "m1": "30.72",
+        "m2": "0.9382"
+      },
+      {
+        "p": {
+          "name": "Video Frame Interpolation with Transformer",
+          "link": "https://arxiv.org/abs/2205.07230v1"
+        },
+        "c": "https://github.com/dvlab-research/vfiformer",
+        "n": "VFIformer (extra data)",
+        "d": "2022-05-15",
+        "m1": "30.67",
+        "m2": "0.9378"
+      },
+      {
+        "p": {
           "name": "Learning Cross-Video Neural Representations for High-Quality Frame Interpolation",
           "link": "https://arxiv.org/abs/2203.00137v1"
         },
@@ -124,6 +212,94 @@
         "d": "2022-06-17",
         "m1": "30.64",
         "m2": "0.937"
+      },
+      {
+        "p": {
+          "name": "IFRNet: Intermediate Feature Refine Network for Efficient Frame Interpolation",
+          "link": "https://arxiv.org/abs/2205.14620v1"
+        },
+        "c": "https://github.com/ltkong218/ifrnet",
+        "n": "IFRNet-large (extra data)",
+        "d": "2022-05-29",
+        "m1": "30.63",
+        "m2": "0.9368"
+      },
+      {
+        "p": {
+          "name": "IFRNet: Intermediate Feature Refine Network for Efficient Frame Interpolation",
+          "link": "https://arxiv.org/abs/2205.14620v1"
+        },
+        "c": "https://github.com/ltkong218/ifrnet",
+        "n": "IFRNet (extra data)",
+        "d": "2022-05-29",
+        "m1": "30.41",
+        "m2": "0.9358"
+      },
+      {
+        "p": {
+          "name": "IFRNet: Intermediate Feature Refine Network for Efficient Frame Interpolation",
+          "link": "https://arxiv.org/abs/2205.14620v1"
+        },
+        "c": "https://github.com/ltkong218/ifrnet",
+        "n": "IFRNet-small (extra data)",
+        "d": "2022-05-29",
+        "m1": "30.36",
+        "m2": "0.9357"
+      },
+      {
+        "p": {
+          "name": "Disentangled Motion Modeling for Video Frame Interpolation",
+          "link": "https://arxiv.org/abs/2406.17256"
+        },
+        "c": "https://github.com/jhlew/momo",
+        "n": "MoMo (extra data)",
+        "d": "2024-06-25",
+        "m1": "30.12",
+        "m2": "0.9312"
+      },
+      {
+        "p": {
+          "name": "EDEN: Enhanced Diffusion for High-quality Large-motion Video Frame Interpolation",
+          "link": "https://arxiv.org/abs/2503.15831"
+        },
+        "c": "https://github.com/bbldcver/eden",
+        "n": "EDEN (extra data)",
+        "d": "2025-03-20",
+        "m1": "29.6254",
+        "m2": "0.9282"
+      },
+      {
+        "p": {
+          "name": "Frame Interpolation with Consecutive Brownian Bridge Diffusion",
+          "link": "https://arxiv.org/abs/2405.05953"
+        },
+        "c": "https://github.com/zonglinl/consecutivebrownianbridge",
+        "n": "Consec.BB (extra data)",
+        "d": "2024-05-09",
+        "m1": "29.615",
+        "m2": "0.929"
+      },
+      {
+        "p": {
+          "name": "TLB-VFI: Temporal-Aware Latent Brownian Bridge Diffusion for Video Frame Interpolation",
+          "link": "https://arxiv.org/abs/2507.04984"
+        },
+        "c": "https://github.com/ZonglinL/TLBVFI",
+        "n": "TLB-VFI",
+        "d": "2025-07-07",
+        "m1": "29.529",
+        "m2": "0.929"
+      },
+      {
+        "p": {
+          "name": "SPEED: One-Step Pixel Diffusion for High-quality Video Frame Interpolation",
+          "link": "https://arxiv.org/abs/2607.15585"
+        },
+        "c": "https://github.com/bbldcver/speed",
+        "n": "SPEED (extra data)",
+        "d": "2026-07-17",
+        "m1": "29.4148",
+        "m2": "0.9258"
       }
     ]
   }

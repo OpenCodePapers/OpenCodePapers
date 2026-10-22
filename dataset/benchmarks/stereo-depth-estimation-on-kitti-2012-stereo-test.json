@@ -1,0 +1,259 @@
+{
+  "title": "stereo-depth-estimation-on-kitti-2012-stereo-test",
+  "task-hierarchy": [
+    "Depth Estimation",
+    "Stereo Depth Estimation"
+  ],
+  "dataset-info": {
+    "link": "https://www.cvlibs.net/datasets/kitti/eval_stereo.php",
+    "paper": "Are we ready for autonomous driving? The KITTI vision benchmark suite"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Out-Noc 3px",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "MonSter: Marry Monodepth to Stereo Unleashes Power",
+          "link": "https://arxiv.org/abs/2501.08643"
+        },
+        "c": "",
+        "n": "MonSter++ (extra data)",
+        "d": "2025-01-15",
+        "m1": "0.79"
+      },
+      {
+        "p": {
+          "name": "MatchAttention: Embedding Explicit Matching Constraints into Attention for Efficient Stereo Matching",
+          "link": "https://arxiv.org/abs/2510.14260"
+        },
+        "c": "https://github.com/TingmanYan/MatchAttention",
+        "n": "MatchAttentionXL (extra data)",
+        "d": "2025-10-16",
+        "m1": "0.87"
+      },
+      {
+        "p": {
+          "name": "IGEV++: Iterative Multi-range Geometry Encoding Volumes for Stereo Matching",
+          "link": "https://arxiv.org/abs/2409.00638"
+        },
+        "c": "https://github.com/gangweix/igev-plusplus",
+        "n": "IGEV++ (DepthAnythingV2-Large backbone) (extra data)",
+        "d": "2024-09-01",
+        "m1": "0.89"
+      },
+      {
+        "p": {
+          "name": "Pip-Stereo: Progressive Iterations Pruner for Iterative Optimization based Stereo Matching",
+          "link": "https://arxiv.org/abs/2602.20496"
+        },
+        "c": "",
+        "n": "PipStereo (1 iteration) (extra data)",
+        "d": "2026-02-24",
+        "m1": "0.92"
+      },
+      {
+        "p": {
+          "name": "DEFOM-Stereo: Depth Foundation Model Based Stereo Matching",
+          "link": "https://arxiv.org/abs/2501.09466"
+        },
+        "c": "https://github.com/Insta360-Research-Team/DEFOM-Stereo",
+        "n": "DEFOM-Stereo (ViT-L) (extra data)",
+        "d": "2025-01-16",
+        "m1": "0.94"
+      },
+      {
+        "p": {
+          "name": "Adaptive Multi-Modal Cross-Entropy Loss for Stereo Matching",
+          "link": "https://arxiv.org/abs/2306.15612"
+        },
+        "c": "https://github.com/xxxupeng/adl",
+        "n": "GANet+Ours",
+        "d": "2023-06-27",
+        "m1": "0.98"
+      },
+      {
+        "p": {
+          "name": "OpenStereo: A Comprehensive Benchmark for Stereo Matching and Strong Baseline",
+          "link": "https://arxiv.org/abs/2312.00343"
+        },
+        "c": "https://github.com/xiandaguo/openstereo",
+        "n": "StereoBase (extra data)",
+        "d": "2023-12-01",
+        "m1": "1.0"
+      },
+      {
+        "p": {
+          "name": "Global Regulation and Excitation via Attention Tuning for Stereo Matching",
+          "link": "https://arxiv.org/abs/2509.15891"
+        },
+        "c": "",
+        "n": "GREAT-Selective (extra data)",
+        "d": "2025-09-19",
+        "m1": "1.0"
+      },
+      {
+        "p": {
+          "name": "Neural Markov Random Field for Stereo Matching",
+          "link": "https://arxiv.org/abs/2403.11193"
+        },
+        "c": "https://github.com/aeolusguan/nmrf",
+        "n": "NMRF-Stereo",
+        "d": "2024-03-17",
+        "m1": "1.01"
+      },
+      {
+        "p": {
+          "name": "Selective-Stereo: Adaptive Frequency Information Selection for Stereo Matching",
+          "link": "https://arxiv.org/abs/2403.00486"
+        },
+        "c": "https://github.com/windsrain/selective-stereo",
+        "n": "Selective-IGEV",
+        "d": "2024-03-01",
+        "m1": "1.07"
+      },
+      {
+        "p": {
+          "name": "Generalized Geometry Encoding Volume for Real-time Stereo Matching",
+          "link": "https://arxiv.org/abs/2512.06793"
+        },
+        "c": "",
+        "n": "GGEV (ViT-S, 8 iterations) (extra data)",
+        "d": "2025-12-07",
+        "m1": "1.1"
+      },
+      {
+        "p": {
+          "name": "Iterative Geometry Encoding Volume for Stereo Matching",
+          "link": "https://arxiv.org/abs/2303.06615v2"
+        },
+        "c": "https://github.com/gangweix/igev",
+        "n": "IGEV-Stereo (extra data)",
+        "d": "2023-03-12",
+        "m1": "1.12"
+      },
+      {
+        "p": {
+          "name": "Lite Any Stereo V2: Faster and Stronger Efficient Zero-Shot Stereo Matching",
+          "link": "https://arxiv.org/abs/2606.24457"
+        },
+        "c": "https://github.com/TomTomTommi/LiteAnyStereo",
+        "n": "LAS2-M (extra data)",
+        "d": "2026-06-23",
+        "m1": "1.13"
+      },
+      {
+        "p": {
+          "name": "Practical Stereo Matching via Cascaded Recurrent Network with Adaptive Correlation",
+          "link": "https://arxiv.org/abs/2203.11483"
+        },
+        "c": "https://github.com/megvii-research/crestereo",
+        "n": "CREStereo (extra data)",
+        "d": "2022-03-22",
+        "m1": "1.14"
+      },
+      {
+        "p": {
+          "name": "BANet: Bilateral Aggregation Network for Mobile Stereo Matching",
+          "link": "https://arxiv.org/abs/2503.03259"
+        },
+        "c": "https://github.com/gangweix/banet",
+        "n": "BANet-3D (extra data)",
+        "d": "2025-03-05",
+        "m1": "1.27"
+      },
+      {
+        "p": {
+          "name": "MC-Stereo: Multi-Peak Lookup and Cascade Search Range for Stereo Matching",
+          "link": "https://arxiv.org/abs/2311.02340"
+        },
+        "c": "",
+        "n": "MC-Stereo",
+        "d": "2023-11-04",
+        "m1": "1.34"
+      },
+      {
+        "p": {
+          "name": "MAFNet:Multi-frequency Adaptive Fusion Network for Real-time Stereo Matching",
+          "link": "https://arxiv.org/abs/2512.04358"
+        },
+        "c": "",
+        "n": "MAFNet (extra data)",
+        "d": "2025-12-04",
+        "m1": "1.36"
+      },
+      {
+        "p": {
+          "name": "LoS: Local Structure-Guided Stereo Matching",
+          "link": "https://openaccess.thecvf.com/content/CVPR2024/html/Li_LoS_Local_Structure-Guided_Stereo_Matching_CVPR_2024_paper.html"
+        },
+        "c": "",
+        "n": "LoS",
+        "d": "2024-06-17",
+        "m1": "1.38"
+      },
+      {
+        "p": {
+          "name": "Uncertainty Guided Adaptive Warping for Robust and Efficient Stereo Matching",
+          "link": "https://arxiv.org/abs/2307.14071"
+        },
+        "c": "",
+        "n": "Lite-CREStereo++ (extra data)",
+        "d": "2023-07-26",
+        "m1": "1.43"
+      },
+      {
+        "p": {
+          "name": "MoCha-Stereo: Motif Channel Attention Network for Stereo Matching",
+          "link": "https://arxiv.org/abs/2404.06842"
+        },
+        "c": "https://github.com/zyangchen/mocha-stereo",
+        "n": "MoCha-Stereo",
+        "d": "2024-04-10",
+        "m1": "1.44"
+      },
+      {
+        "p": {
+          "name": "Pyramid Stereo Matching Network",
+          "link": "http://arxiv.org/abs/1803.08669v1"
+        },
+        "c": "https://github.com/JiaRenChang/PSMNet",
+        "n": "PSMNet (extra data)",
+        "d": "2018-03-23",
+        "m1": "1.49"
+      },
+      {
+        "p": {
+          "name": "AANet: Adaptive Aggregation Network for Efficient Stereo Matching",
+          "link": "https://arxiv.org/abs/2004.09548v1"
+        },
+        "c": "https://github.com/haofeixu/aanet",
+        "n": "AANet+ (extra data)",
+        "d": "2020-04-20",
+        "m1": "1.55"
+      }
+    ]
+  }
+}

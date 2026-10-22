@@ -73,6 +73,79 @@
       },
       {
         "p": {
+          "name": "TempSamp-R1: Effective Temporal Sampling with Reinforcement Fine-Tuning for Video LLMs",
+          "link": "https://arxiv.org/abs/2509.18056"
+        },
+        "c": "https://github.com/HVision-NKU/TempSamp-R1",
+        "n": "TempSamp-R1 (CoT)",
+        "d": "2025-09-22",
+        "m1": "74.1",
+        "m2": "52.9",
+        "m5": "83.6",
+        "m6": "62.1"
+      },
+      {
+        "p": {
+          "name": "SARL-STG: A Spatially Aware Reinforcement Learning Framework for Refining MLLMs in Spatio-Temporal Video Grounding",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Gao_SARL-STG_A_Spatially_Aware_Reinforcement_Learning_Framework_for_Refining_MLLMs_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "SARL-STG",
+        "d": "2026-06-03",
+        "m1": "73.6",
+        "m2": "49.1",
+        "m6": "61.3"
+      },
+      {
+        "p": {
+          "name": "The Devil is in the Spurious Correlations: Boosting Moment Retrieval with Dynamic Learning",
+          "link": "https://arxiv.org/abs/2501.07305"
+        },
+        "c": "https://github.com/xyangzhou/td-detr",
+        "n": "TD-DETR (InternVideo2) (extra data)",
+        "d": "2025-01-13",
+        "m1": "73.49",
+        "m2": "53.01"
+      },
+      {
+        "p": {
+          "name": "Invert4TVG: A Temporal Video Grounding Framework with Inversion Tasks Preserving Action Understanding Ability",
+          "link": "https://arxiv.org/abs/2508.07388"
+        },
+        "c": "https://github.com/nian1125/invert4tvg",
+        "n": "Invert4TVG 7B (extra data)",
+        "d": "2025-08-10",
+        "m1": "72.5",
+        "m2": "51.4",
+        "m5": "83.0"
+      },
+      {
+        "p": {
+          "name": "TimeZero: Temporal Video Grounding with Reasoning-Guided LVLM",
+          "link": "https://arxiv.org/abs/2503.13377"
+        },
+        "c": "https://github.com/www-ye/timezero",
+        "n": "Time-R1-7B (fine-tuned) (extra data)",
+        "d": "2025-03-17",
+        "m1": "72.2",
+        "m2": "50.1",
+        "m5": "82.8",
+        "m6": "60.9"
+      },
+      {
+        "p": {
+          "name": "Sparse-Dense Side-Tuner for efficient Video Temporal Grounding",
+          "link": "https://arxiv.org/abs/2507.07744"
+        },
+        "c": "https://github.com/davidpujol/SDST",
+        "n": "SDST (InternVideo2)",
+        "d": "2025-07-10",
+        "m1": "72.0",
+        "m2": "52.6",
+        "m6": "61.2"
+      },
+      {
+        "p": {
           "name": "See More, Store Less: Memory-Efficient Resolution for Video Moment Retrieval",
           "link": "https://arxiv.org/abs/2601.09350"
         },
@@ -103,6 +176,19 @@
         "d": "2024-11-21",
         "m1": "70.65",
         "m2": "49.58"
+      },
+      {
+        "p": {
+          "name": "Incentivizing Versatile Video Reasoning in MLLMs via Data-Efficient Reinforcement Learning",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Wang_Incentivizing_Versatile_Video_Reasoning_in_MLLMs_via_Data-Efficient_Reinforcement_Learning_CVPR_2026_paper.html"
+        },
+        "c": "https://github.com/wang-xiaodong1899/videoreasoner",
+        "n": "VideoReasoner",
+        "d": "2026-06-03",
+        "m1": "70.4",
+        "m2": "45.7",
+        "m5": "81.9",
+        "m6": "59.1"
       },
       {
         "p": {
@@ -139,6 +225,66 @@
       },
       {
         "p": {
+          "name": "VideoLoom: A Video Large Language Model for Joint Spatial-Temporal Understanding",
+          "link": "https://arxiv.org/abs/2601.07290"
+        },
+        "c": "https://github.com/JPShi12/VideoLoom",
+        "n": "VideoLoom-8B",
+        "d": "2026-01-12",
+        "m1": "70.0",
+        "m2": "48.3"
+      },
+      {
+        "p": {
+          "name": "DTOS: Dynamic Time Object Sensing with Large Multimodal Model",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Tian_DTOS_Dynamic_Time_Object_Sensing_with_Large_Multimodal_Model_CVPR_2025_paper.html"
+        },
+        "c": "https://github.com/maulog/open-dtos-lmm",
+        "n": "DTOS-TCS",
+        "d": "2025-06-11",
+        "m1": "69.81",
+        "m2": "43.2",
+        "m5": "81.29",
+        "m6": "58.0"
+      },
+      {
+        "p": {
+          "name": "DeCafNet: Delegate and Conquer for Efficient Temporal Grounding in Long Videos",
+          "link": "https://arxiv.org/abs/2505.16376v1"
+        },
+        "c": "https://github.com/zijialewislu/cvpr2025-decafnet",
+        "n": "DeCaf-Grounder (extra data)",
+        "d": "2025-05-22",
+        "m1": "68.79",
+        "m2": "47.55",
+        "m3": "91.53",
+        "m4": "72.96"
+      },
+      {
+        "p": {
+          "name": "Measure Twice, Cut Once: Grasping Video Structures and Event Semantics with LLMs for Video Temporal Localization",
+          "link": "https://arxiv.org/abs/2503.09027"
+        },
+        "c": "https://github.com/pangzss/meco",
+        "n": "MeCo (QWen2VL 7B) (extra data)",
+        "d": "2025-03-12",
+        "m1": "68.5",
+        "m2": "41.6",
+        "m5": "82.3"
+      },
+      {
+        "p": {
+          "name": "Knowing Where to Focus: Event-aware Transformer for Video Grounding",
+          "link": "https://arxiv.org/abs/2308.06947"
+        },
+        "c": "https://github.com/jinhyunj/eatr",
+        "n": "EaTR",
+        "d": "2023-08-14",
+        "m1": "68.47",
+        "m2": "44.92"
+      },
+      {
+        "p": {
           "name": "InternVideo2: Scaling Foundation Models for Multimodal Video Understanding",
           "link": "https://arxiv.org/abs/2403.15377v4"
         },
@@ -147,6 +293,31 @@
         "d": "2024-03-22",
         "m1": "68.36",
         "m2": "45.03"
+      },
+      {
+        "p": {
+          "name": "Temporal-Aware Reasoning Optimization for Video Temporal Grounding",
+          "link": "https://arxiv.org/abs/2606.09248"
+        },
+        "c": "https://github.com/oceanflowlab/taro",
+        "n": "TaRO 8B (extra data)",
+        "d": "2026-06-08",
+        "m1": "67.8",
+        "m2": "41.9",
+        "m5": "83.2"
+      },
+      {
+        "p": {
+          "name": "SlotVTG: Object-Centric Adapter for Generalizable Video Temporal Grounding",
+          "link": "https://arxiv.org/abs/2603.25733"
+        },
+        "c": "",
+        "n": "SlotVTG 7B (extra data)",
+        "d": "2026-03-26",
+        "m1": "67.6",
+        "m2": "46.7",
+        "m5": "79.5",
+        "m6": "58.3"
       },
       {
         "p": {
@@ -161,6 +332,19 @@
       },
       {
         "p": {
+          "name": "VideoTG-R1: Boosting Video Temporal Grounding via Curriculum Reinforcement Learning on Reflected Boundary Annotations",
+          "link": "https://arxiv.org/abs/2510.23397"
+        },
+        "c": "https://github.com/ldong1111/VideoTG-R1",
+        "n": "VideoTG-R1 (extra data)",
+        "d": "2025-10-27",
+        "m1": "64.8",
+        "m2": "39.2",
+        "m5": "79.5",
+        "m6": "55.9"
+      },
+      {
+        "p": {
           "name": "UniMD: Towards Unifying Moment Retrieval and Temporal Action Detection",
           "link": "https://arxiv.org/abs/2404.04933v2"
         },
@@ -171,6 +355,42 @@
         "m2": "44.46",
         "m3": "91.94",
         "m4": "67.72"
+      },
+      {
+        "p": {
+          "name": "SpaceVLLM: Endowing Multimodal Large Language Model with Spatio-Temporal Video Grounding Capability",
+          "link": "https://arxiv.org/abs/2503.13983"
+        },
+        "c": "https://github.com/Jayce1kk/SpaceVLLM",
+        "n": "SpaceVLLM 7B (extra data)",
+        "d": "2025-03-18",
+        "m1": "63.6",
+        "m2": "38.5"
+      },
+      {
+        "p": {
+          "name": "OmniVTG: A Large-Scale Dataset and Training Paradigm for Open-World Video Temporal Grounding",
+          "link": "https://arxiv.org/abs/2604.25276"
+        },
+        "c": "https://github.com/oceanflowlab/omnivtg",
+        "n": "OmniVTG-7B (zero-shot) (extra data)",
+        "d": "2026-04-28",
+        "m1": "63.2",
+        "m2": "37.0",
+        "m5": "78.3"
+      },
+      {
+        "p": {
+          "name": "CVA: Context-aware Video-text Alignment for Video Temporal Grounding",
+          "link": "https://arxiv.org/abs/2603.24934"
+        },
+        "c": "",
+        "n": "CVA (extra data)",
+        "d": "2026-03-26",
+        "m1": "62.61",
+        "m2": "40.78",
+        "m5": "74.19",
+        "m6": "53.35"
       },
       {
         "p": {
@@ -200,6 +420,41 @@
       },
       {
         "p": {
+          "name": "TRACE: Temporal Grounding Video LLM via Causal Event Modeling",
+          "link": "https://arxiv.org/abs/2410.05643"
+        },
+        "c": "https://github.com/gyxxyg/trace",
+        "n": "TRACE (extra data)",
+        "d": "2024-10-08",
+        "m1": "61.7",
+        "m2": "41.4"
+      },
+      {
+        "p": {
+          "name": "Keeping the Evidence Chain: Semantic Evidence Allocation for Training-Free Token Pruning in Video Temporal Grounding",
+          "link": "https://arxiv.org/abs/2603.05663"
+        },
+        "c": "https://github.com/jiaqili404/semvid",
+        "n": "SemVID (Qwen3-VL-4B, 25% visual-token retention)",
+        "d": "2026-03-05",
+        "m1": "61.08",
+        "m2": "33.17",
+        "m5": "76.91",
+        "m6": "52.31"
+      },
+      {
+        "p": {
+          "name": "HERO: Hierarchical Embedding-Refinement for Open-Vocabulary Temporal Sentence Grounding in Videos",
+          "link": "https://arxiv.org/abs/2603.06732"
+        },
+        "c": "",
+        "n": "HERO (extra data)",
+        "d": "2026-03-06",
+        "m1": "61.05",
+        "m2": "41.29"
+      },
+      {
+        "p": {
           "name": "UnLoc: A Unified Framework for Video Localization Tasks",
           "link": "https://arxiv.org/abs/2308.11062v1"
         },
@@ -213,6 +468,58 @@
       },
       {
         "p": {
+          "name": "T2SGrid: Temporal-to-Spatial Gridification for Video Temporal Grounding",
+          "link": "https://arxiv.org/abs/2603.06973"
+        },
+        "c": "",
+        "n": "Qwen2-VL-7B + T2SGrid-FT (extra data)",
+        "d": "2026-03-07",
+        "m1": "60.6",
+        "m2": "35.9",
+        "m5": "76.9",
+        "m6": "53.2"
+      },
+      {
+        "p": {
+          "name": "Beyond Uncertainty: Evidential Deep Learning for Robust Video Temporal Grounding",
+          "link": "https://arxiv.org/abs/2408.16272"
+        },
+        "c": "https://github.com/kaijingofficial/sram_vtg",
+        "n": "SRAM-Base",
+        "d": "2024-08-29",
+        "m1": "60.2",
+        "m2": "38.0",
+        "m5": "71.6",
+        "m6": "51.6"
+      },
+      {
+        "p": {
+          "name": "SE-DETR: Explicit Semantic Exploration for Generalizability and Distinguishability in Video Temporal Grounding",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/5708"
+        },
+        "c": "https://github.com/hu-cheng-yang/eccv26-se-detr",
+        "n": "SE-DETR+",
+        "d": "2026-09-08",
+        "m1": "60.2",
+        "m2": "39.7",
+        "m5": "71.1",
+        "m6": "51.2"
+      },
+      {
+        "p": {
+          "name": "UniVTG: Towards Unified Video-Language Temporal Grounding",
+          "link": "https://arxiv.org/abs/2307.16715v2"
+        },
+        "c": "https://github.com/showlab/univtg",
+        "n": "UniVTG w/ PT (extra data)",
+        "d": "2023-07-31",
+        "m1": "60.19",
+        "m2": "38.55",
+        "m5": "72.63",
+        "m6": "52.17"
+      },
+      {
+        "p": {
           "name": "BAM-DETR: Boundary-Aligned Moment Detection Transformer for Temporal Sentence Grounding in Videos",
           "link": "https://arxiv.org/abs/2312.00083v2"
         },
@@ -221,6 +528,19 @@
         "d": "2023-11-30",
         "m1": "59.95",
         "m2": "39.38"
+      },
+      {
+        "p": {
+          "name": "$R^2$-Tuning: Efficient Image-to-Video Transfer Learning for Video Temporal Grounding",
+          "link": "https://arxiv.org/abs/2404.00801v2"
+        },
+        "c": "https://github.com/yeliudev/R2-Tuning",
+        "n": "R2-Tuning",
+        "d": "2024-03-31",
+        "m1": "59.78",
+        "m2": "37.02",
+        "m5": "70.91",
+        "m6": "50.86"
       },
       {
         "p": {
@@ -246,6 +566,32 @@
       },
       {
         "p": {
+          "name": "VideoMind: A Chain-of-LoRA Agent for Long Video Reasoning",
+          "link": "https://arxiv.org/abs/2503.13444v2"
+        },
+        "c": "https://github.com/yeliudev/VideoMind",
+        "n": "VideoMind 7B (zero-shot) (extra data)",
+        "d": "2025-03-17",
+        "m1": "59.1",
+        "m2": "31.2",
+        "m5": "73.5",
+        "m6": "50.2"
+      },
+      {
+        "p": {
+          "name": "Moment Quantization for Video Temporal Grounding",
+          "link": "https://arxiv.org/abs/2504.02286"
+        },
+        "c": "https://github.com/tensorssun/mqvtg",
+        "n": "MQVTG (extra data)",
+        "d": "2025-04-03",
+        "m1": "58.84",
+        "m2": "38.84",
+        "m5": "70.97",
+        "m6": "51.10"
+      },
+      {
+        "p": {
           "name": "Correlation-Guided Query-Dependency Calibration for Video Temporal Grounding",
           "link": "https://arxiv.org/abs/2311.08835v4"
         },
@@ -254,6 +600,19 @@
         "d": "2023-11-15",
         "m1": "58.44",
         "m2": "36.34"
+      },
+      {
+        "p": {
+          "name": "Locate Anything in Videos: Rethinking Efficient Generative Spatio-Temporal Video Grounding",
+          "link": "https://arxiv.org/abs/2608.28192"
+        },
+        "c": "https://github.com/mbzuai-oryx/ParallelTubeDecoding",
+        "n": "PTD Qwen3-VL-4B",
+        "d": "2026-08-28",
+        "m1": "58.4",
+        "m2": "30.1",
+        "m5": "78.9",
+        "m6": "52.4"
       },
       {
         "p": {
@@ -268,6 +627,32 @@
       },
       {
         "p": {
+          "name": "HawkEye: Training Video-Text LLMs for Grounding Text in Videos",
+          "link": "https://arxiv.org/abs/2403.10228v1"
+        },
+        "c": "https://github.com/yellow-binary-tree/hawkeye",
+        "n": "HawkEye 7B (fine-tuned) (extra data)",
+        "d": "2024-03-15",
+        "m1": "58.3",
+        "m2": "28.8",
+        "m5": "72.5",
+        "m6": "49.3"
+      },
+      {
+        "p": {
+          "name": "MomentSeg: Moment-Centric Sampling for Enhanced Referring Video Object Segmentation",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/3213"
+        },
+        "c": "",
+        "n": "MomentSeg-3B",
+        "d": "2026-09-08",
+        "m1": "58.2",
+        "m2": "25.8",
+        "m5": "76.1",
+        "m6": "50.2"
+      },
+      {
+        "p": {
           "name": "UnLoc: A Unified Framework for Video Localization Tasks",
           "link": "https://arxiv.org/abs/2308.11062v1"
         },
@@ -278,6 +663,30 @@
         "m2": "35.4",
         "m3": "87.4",
         "m4": "59.1"
+      },
+      {
+        "p": {
+          "name": "VTG-LLM: Integrating Timestamp Knowledge into Video LLMs for Enhanced Video Temporal Grounding",
+          "link": "https://arxiv.org/abs/2405.13382"
+        },
+        "c": "https://github.com/gyxxyg/vtg-llm",
+        "n": "VTG-LLM (τ=0.1) (extra data)",
+        "d": "2024-05-22",
+        "m1": "57.8",
+        "m2": "33.9"
+      },
+      {
+        "p": {
+          "name": "GroundVTS: Visual Token Sampling in Multimodal Large Language Models for Video Temporal Grounding",
+          "link": "https://arxiv.org/abs/2604.02093"
+        },
+        "c": "https://github.com/florence365/groundvts",
+        "n": "GroundVTS-Q (extra data)",
+        "d": "2026-04-02",
+        "m1": "57.5",
+        "m2": "34.2",
+        "m5": "71.5",
+        "m6": "50.1"
       },
       {
         "p": {
@@ -303,6 +712,64 @@
       },
       {
         "p": {
+          "name": "Multi-Modal Interaction Graph Convolutional Network for Temporal Language Localization in Videos",
+          "link": "https://arxiv.org/abs/2110.06058"
+        },
+        "c": "https://github.com/zmzhang2000/MIGCN",
+        "n": "MIGCN (I3D)",
+        "d": "2021-10-12",
+        "m1": "57.10",
+        "m2": "34.54"
+      },
+      {
+        "p": {
+          "name": "Task-Driven Exploration: Decoupling and Inter-Task Feedback for Joint Moment Retrieval and Highlight Detection",
+          "link": "https://arxiv.org/abs/2404.09263"
+        },
+        "c": "https://github.com/edengabriel/taskweave",
+        "n": "TaskWeave (VGG)",
+        "d": "2024-04-14",
+        "m1": "56.51",
+        "m2": "33.66"
+      },
+      {
+        "p": {
+          "name": "Penguin-VL: Exploring the Efficiency Limits of VLM with LLM-based Vision Encoders",
+          "link": "https://arxiv.org/abs/2603.06569"
+        },
+        "c": "https://github.com/tencent-ailab/Penguin-VL",
+        "n": "Penguin-VL 8B",
+        "d": "2026-03-06",
+        "m1": "56.0"
+      },
+      {
+        "p": {
+          "name": "Grounded-VideoLLM: Sharpening Fine-grained Temporal Grounding in Video Large Language Models",
+          "link": "https://arxiv.org/abs/2410.03290"
+        },
+        "c": "https://github.com/whb139426/grounded-video-llm",
+        "n": "Grounded-VideoLLM Phi-3.5 (task-tuned) (extra data)",
+        "d": "2024-10-04",
+        "m1": "55.9",
+        "m2": "33.2",
+        "m5": "70.2",
+        "m6": "49.4"
+      },
+      {
+        "p": {
+          "name": "MomentSeg: Moment-Centric Sampling for Enhanced Video Pixel Understanding",
+          "link": "https://arxiv.org/abs/2510.09274"
+        },
+        "c": "https://github.com/Dmmm1997/MomentSeg",
+        "n": "MomentSeg-3B (θ=0.3) (extra data)",
+        "d": "2025-10-10",
+        "m1": "55.9",
+        "m2": "25.3",
+        "m5": "78.9",
+        "m6": "50.7"
+      },
+      {
+        "p": {
           "name": "QVHighlights: Detecting Moments and Highlights in Videos via Natural Language Queries",
           "link": "https://arxiv.org/abs/2107.09609v2"
         },
@@ -311,6 +778,16 @@
         "d": "2021-07-20",
         "m1": "55.65",
         "m2": "34.17"
+      },
+      {
+        "p": {
+          "name": "Penguin-VL: Exploring the Efficiency Limits of VLM with LLM-based Vision Encoders",
+          "link": "https://arxiv.org/abs/2603.06569"
+        },
+        "c": "https://github.com/tencent-ailab/Penguin-VL",
+        "n": "Penguin-VL 2B",
+        "d": "2026-03-06",
+        "m1": "54.5"
       },
       {
         "p": {
@@ -325,6 +802,45 @@
       },
       {
         "p": {
+          "name": "Training-free Uncertainty Guidance for Complex Visual Tasks with MLLMs",
+          "link": "https://arxiv.org/abs/2510.00705"
+        },
+        "c": "https://github.com/explainableml/ug-framework",
+        "n": "UG-Ground (InternVideo2.5-8B)",
+        "d": "2025-10-01",
+        "m1": "52.5",
+        "m2": "32.6",
+        "m5": "74.7",
+        "m6": "51.0"
+      },
+      {
+        "p": {
+          "name": "DART: Difficulty-Adaptive Routing for Zero-Shot Video Temporal Grounding",
+          "link": "https://arxiv.org/abs/2607.00672"
+        },
+        "c": "",
+        "n": "DART",
+        "d": "2026-07-01",
+        "m1": "52.04",
+        "m2": "29.45",
+        "m5": "70.98",
+        "m6": "48.93"
+      },
+      {
+        "p": {
+          "name": "Foresee-to-Ground: From Predictive Temporal Perception to Evidence-Driven Reasoning for Video Temporal Grounding",
+          "link": "https://arxiv.org/abs/2605.21973"
+        },
+        "c": "https://github.com/zelion2003/foresee-to-ground",
+        "n": "F2G (Qwen3-VL-8B, zero-shot) (extra data)",
+        "d": "2026-05-21",
+        "m1": "50.4",
+        "m2": "25.7",
+        "m5": "71.3",
+        "m6": "47.2"
+      },
+      {
+        "p": {
           "name": "UMT: Unified Multi-modal Transformers for Joint Video Moment Retrieval and Highlight Detection",
           "link": "https://arxiv.org/abs/2203.12745v2"
         },
@@ -335,6 +851,20 @@
         "m2": "26.16",
         "m3": "89.41",
         "m4": "54.95"
+      },
+      {
+        "p": {
+          "name": "Explore-And-Match: Bridging Proposal-Based and Proposal-Free With Transformer for Sentence Grounding in Videos",
+          "link": "https://arxiv.org/abs/2201.10168"
+        },
+        "c": "https://github.com/sangminwoo/explore-and-match",
+        "n": "LVTR-CLIP (extra data)",
+        "d": "2022-01-25",
+        "m1": "49.11",
+        "m2": "26.59",
+        "m3": "88.5",
+        "m4": "55.99",
+        "m6": "47.13"
       },
       {
         "p": {
@@ -363,6 +893,32 @@
       },
       {
         "p": {
+          "name": "SnAG: Scalable and Accurate Video Grounding",
+          "link": "https://arxiv.org/abs/2404.02257"
+        },
+        "c": "https://github.com/fmu2/snag_release",
+        "n": "SnAG",
+        "d": "2024-04-02",
+        "m1": "46.26",
+        "m2": "33.52",
+        "m3": "92.55",
+        "m4": "71.94"
+      },
+      {
+        "p": {
+          "name": "LLaVA-ST: A Multimodal Large Language Model for Fine-Grained Spatial-Temporal Understanding",
+          "link": "https://arxiv.org/abs/2501.08282"
+        },
+        "c": "https://github.com/appletea233/llava-st",
+        "n": "LLaVA-ST (extra data)",
+        "d": "2025-01-14",
+        "m1": "44.8",
+        "m2": "23.4",
+        "m5": "63.1",
+        "m6": "42.4"
+      },
+      {
+        "p": {
           "name": "SimVTP: Simple Video Text Pre-training with Masked Autoencoders",
           "link": "https://arxiv.org/abs/2212.03490v1"
         },
@@ -373,6 +929,239 @@
         "m2": "26.3",
         "m3": "83.7",
         "m4": "55.1"
+      },
+      {
+        "p": {
+          "name": "ARC-Hunyuan-Video-7B: Structured Video Comprehension of Real-World Shorts",
+          "link": "https://arxiv.org/abs/2507.20939"
+        },
+        "c": "https://github.com/TencentARC/ARC-Hunyuan-Video-7B",
+        "n": "ARC-Hunyuan-Video-7B (extra data)",
+        "d": "2025-07-28",
+        "m6": "54.8"
+      },
+      {
+        "p": {
+          "name": "Text-Visual Prompting for Efficient 2D Temporal Video Grounding",
+          "link": "https://arxiv.org/abs/2303.04995"
+        },
+        "c": "https://github.com/intel/TVP",
+        "n": "TVP (extra data)",
+        "d": "2023-03-09",
+        "m1": "44.39",
+        "m2": "21.51",
+        "m5": "65.92"
+      },
+      {
+        "p": {
+          "name": "Text-Visual Prompting for Efficient 2D Temporal Video Grounding",
+          "link": "https://arxiv.org/abs/2303.04995"
+        },
+        "c": "https://github.com/intel/TVP",
+        "n": "TVP",
+        "d": "2023-03-09",
+        "m1": "44.39"
+      },
+      {
+        "p": {
+          "name": "VTG-GPT: Tuning-Free Zero-Shot Video Temporal Grounding with GPT",
+          "link": "https://arxiv.org/abs/2403.02076"
+        },
+        "c": "https://github.com/YoucanBaby/VTG-GPT",
+        "n": "VTG-GPT (zero-shot) (extra data)",
+        "d": "2024-03-04",
+        "m1": "43.68",
+        "m2": "25.94",
+        "m5": "59.48",
+        "m6": "39.81"
+      },
+      {
+        "p": {
+          "name": "VideoLLM Knows When to Speak: Enhancing Time-Sensitive Video Comprehension with Video-Text Duet Interaction Format",
+          "link": "https://arxiv.org/abs/2411.17991"
+        },
+        "c": "https://github.com/yellow-binary-tree/mmduet",
+        "n": "MMDuet (zero-shot) (extra data)",
+        "d": "2024-11-27",
+        "m1": "42.4",
+        "m2": "18.0"
+      },
+      {
+        "p": {
+          "name": "Number it: Temporal Grounding Videos like Flipping Manga",
+          "link": "https://arxiv.org/abs/2411.10332v2"
+        },
+        "c": "https://github.com/yongliang-wu/numpro",
+        "n": "LongVA-7B-DPO + NumPro-FT (extra data)",
+        "d": "2024-11-15",
+        "m1": "42.0",
+        "m2": "20.6",
+        "m5": "63.8",
+        "m6": "41.4"
+      },
+      {
+        "p": {
+          "name": "D3G: Exploring Gaussian Prior for Temporal Sentence Grounding with Glance Annotation",
+          "link": "https://arxiv.org/abs/2308.04197v1"
+        },
+        "c": "https://github.com/solicucu/d3g",
+        "n": "D3G (glance-supervised)",
+        "d": "2023-08-08",
+        "m1": "41.64",
+        "m2": "19.60",
+        "m3": "79.25",
+        "m4": "49.30"
+      },
+      {
+        "p": {
+          "name": "Learning 2D Temporal Adjacent Networks for Moment Localization with Natural Language",
+          "link": "https://arxiv.org/abs/1912.03590"
+        },
+        "c": "https://github.com/microsoft/2d-tan",
+        "n": "2D-TAN (Conv)",
+        "d": "2019-12-08",
+        "m1": "39.81",
+        "m2": "23.25",
+        "m3": "79.33",
+        "m4": "52.15"
+      },
+      {
+        "p": {
+          "name": "Mitigating Modality and Language-Style Gaps for Zero-Shot Video Moment Retrieval",
+          "link": "https://arxiv.org/abs/2607.19027"
+        },
+        "c": "",
+        "n": "Self-SiMS",
+        "d": "2026-07-21",
+        "m1": "39.7",
+        "m2": "21.0",
+        "m5": "62.7",
+        "m6": "41.9"
+      },
+      {
+        "p": {
+          "name": "Seq2Time: Sequential Knowledge Transfer for Video LLM Temporal Grounding",
+          "link": "https://arxiv.org/abs/2411.16932"
+        },
+        "c": "",
+        "n": "TimeChat + Seq2Time (extra data)",
+        "d": "2024-11-25",
+        "m1": "31.2",
+        "m2": "13.7"
+      },
+      {
+        "p": {
+          "name": "Joint Moment Retrieval and Highlight Detection Via Natural Language Queries",
+          "link": "https://arxiv.org/abs/2305.04961"
+        },
+        "c": "https://github.com/skyline-9/visionary-vids",
+        "n": "VisionaryVid (video + audio)",
+        "d": "2023-05-08",
+        "m1": "25.97",
+        "m2": "13.25",
+        "m3": "84.87",
+        "m4": "40.38"
+      },
+      {
+        "p": {
+          "name": "VideoTemp-o3: Harmonizing Temporal Grounding and Video Understanding in Agentic Thinking-with-Videos",
+          "link": "https://arxiv.org/abs/2602.07801"
+        },
+        "c": "",
+        "n": "VideoTemp-o3-7B-RL (extra data)",
+        "d": "2026-02-08",
+        "m2": "33.0",
+        "m6": "57.8"
+      },
+      {
+        "p": {
+          "name": "Reinforcement Learning Tuning for VideoLLMs: Reward Design and Data Efficiency",
+          "link": "https://arxiv.org/abs/2506.01908"
+        },
+        "c": "https://github.com/appletea233/temporal-r1",
+        "n": "Temporal-RLT (4096 video tokens) (extra data)",
+        "d": "2025-06-02",
+        "m6": "58.0"
+      },
+      {
+        "p": {
+          "name": "TimeChat-Captioner: Scripting Multi-Scene Videos with Time-Aware and Structural Audio-Visual Captions",
+          "link": "https://arxiv.org/abs/2602.08711"
+        },
+        "c": "https://github.com/yaolinli/TimeChat-Captioner",
+        "n": "TimeChat-Captioner (7B, GRPO)",
+        "d": "2026-02-09",
+        "m6": "58.8"
+      },
+      {
+        "p": {
+          "name": "VideoAuto-R1: Video Auto Reasoning via Thinking Once, Answering Twice",
+          "link": "https://arxiv.org/abs/2601.05175"
+        },
+        "c": "https://github.com/ivul-kaust/videoauto-r1",
+        "n": "VideoAuto-R1 (Qwen3-VL-8B)",
+        "d": "2026-01-08",
+        "m6": "63.7"
+      },
+      {
+        "p": {
+          "name": "VisionCoach: Reinforcing Grounded Video Reasoning via Visual-Perception Prompting",
+          "link": "https://arxiv.org/abs/2603.14659"
+        },
+        "c": "https://github.com/daeunni/VisionCoach",
+        "n": "VisionCoach-7B",
+        "d": "2026-03-15",
+        "m6": "42.7"
+      },
+      {
+        "p": {
+          "name": "ResAdapt: Adaptive Resolution for Efficient Multimodal Reasoning",
+          "link": "https://arxiv.org/abs/2603.28610"
+        },
+        "c": "https://github.com/Xnhyacinth/ResAdapt",
+        "n": "ResAdapt (Qwen2.5-VL-7B, 128 frames)",
+        "d": "2026-03-30",
+        "m6": "42.0"
+      },
+      {
+        "p": {
+          "name": "ParaVT: Taming the Tool Prior Paradox for Parallel Tool Use in Agentic Video Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2605.20342"
+        },
+        "c": "https://github.com/EvolvingLMMs-Lab/ParaVT",
+        "n": "ParaVT (Qwen3-VL-8B)",
+        "d": "2026-05-19",
+        "m6": "50.1"
+      },
+      {
+        "p": {
+          "name": "DRIFT: A Residual Flow Adapter for Decoding Continuous Outputs in Vision-Language Models",
+          "link": "https://arxiv.org/abs/2606.05758"
+        },
+        "c": "https://github.com/dragonlzm/DRIFT",
+        "n": "DRIFT (ET-Chat)",
+        "d": "2026-06-04",
+        "m6": "43.8"
+      },
+      {
+        "p": {
+          "name": "Less from More: Reinforcing Sparse Video Reasoning from Dense References",
+          "link": "https://arxiv.org/abs/2610.10893"
+        },
+        "c": "https://github.com/lmsdss/SAVER",
+        "n": "SAVER-4B (extra data)",
+        "d": "2026-10-07",
+        "m6": "54.8"
+      },
+      {
+        "p": {
+          "name": "EventLens: Event-Structure Reinforcement Learning for Video Understanding",
+          "link": "https://arxiv.org/abs/2610.16172"
+        },
+        "c": "https://github.com/lostgreen/eventlens",
+        "n": "EventLens-8B",
+        "d": "2026-10-12",
+        "m6": "48.25"
       }
     ]
   }

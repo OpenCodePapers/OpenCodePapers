@@ -1,0 +1,289 @@
+{
+  "title": "audio-visual-question-answering-on-worldsense",
+  "task-hierarchy": [
+    "Audio Question Answering",
+    "Audio-visual Question Answering"
+  ],
+  "dataset-info": {
+    "link": "https://jaaackhongggg.github.io/WorldSense/",
+    "paper": "WorldSense: Evaluating Real-world Omnimodal Understanding for Multimodal LLMs"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Qwen3.5-Omni Technical Report",
+          "link": "https://arxiv.org/pdf/2604.15804"
+        },
+        "c": "",
+        "n": "Qwen3.5-Omni-Plus",
+        "d": "2026-04-21",
+        "m1": "62.8"
+      },
+      {
+        "p": {
+          "name": "OmniSeek: Native Tool Integration for Multi-turn Audio-Visual Reasoning",
+          "link": "https://arxiv.org/abs/2610.02181"
+        },
+        "c": "",
+        "n": "OmniSeek (ours)",
+        "d": "2026-10-01",
+        "m1": "62.4"
+      },
+      {
+        "p": {
+          "name": "OmniAgent: Audio-Guided Active Perception Agent for Omnimodal Audio-Video Understanding",
+          "link": "https://arxiv.org/abs/2512.23646"
+        },
+        "c": "https://github.com/kd-tao/omniagent",
+        "n": "OmniAgent",
+        "d": "2025-12-29",
+        "m1": "61.2"
+      },
+      {
+        "p": {
+          "name": "LongCat-Flash-Omni Technical Report",
+          "link": "https://arxiv.org/abs/2511.00279"
+        },
+        "c": "https://github.com/meituan-longcat/LongCat-Flash-Omni",
+        "n": "LongCat-Flash-Omni Instruct",
+        "d": "2025-10-31",
+        "m1": "60.89"
+      },
+      {
+        "p": {
+          "name": "Omni-Decision: Evidence-Ledger Planning for Omni-Modal Agents",
+          "link": "https://arxiv.org/abs/2607.11433"
+        },
+        "c": "",
+        "n": "Omni-Decision",
+        "d": "2026-09-24",
+        "m1": "58.32"
+      },
+      {
+        "p": {
+          "name": "MiniCPM-o 4.5: Towards Real-Time Full-Duplex Omni-Modal Interaction",
+          "link": "https://arxiv.org/abs/2604.27393"
+        },
+        "c": "https://github.com/OpenBMB/MiniCPM-o",
+        "n": "MiniCPM-o 4.5-Instruct",
+        "d": "2026-04-30",
+        "m1": "55.7"
+      },
+      {
+        "p": {
+          "name": "Nemotron 3 Nano Omni: Efficient and Open Multimodal Intelligence",
+          "link": "https://arxiv.org/abs/2604.24954"
+        },
+        "c": "https://github.com/nvidia-nemo/megatron-bridge",
+        "n": "Nemotron 3 Nano Omni (Reasoning)",
+        "d": "2026-04-27",
+        "m1": "55.4"
+      },
+      {
+        "p": {
+          "name": "Qwen3-Omni Technical Report",
+          "link": "https://arxiv.org/abs/2509.17765"
+        },
+        "c": "https://github.com/QwenLM/Qwen3-Omni",
+        "n": "Qwen3-Omni-30B-A3B-Instruct",
+        "d": "2025-09-22",
+        "m1": "54.0"
+      },
+      {
+        "p": {
+          "name": "Realtime-Venus: A full-duplex interaction system with asynchronous delegation",
+          "link": "https://arxiv.org/abs/2609.13814"
+        },
+        "c": "",
+        "n": "Realtime-Venus-Omni",
+        "d": "2026-09-12",
+        "m1": "54"
+      },
+      {
+        "p": {
+          "name": "CogniRoute: Learning to Route Social Evidence in Omni-Modal Models",
+          "link": "https://arxiv.org/abs/2606.20970"
+        },
+        "c": "",
+        "n": "CogniRoute",
+        "d": "2026-06-18",
+        "m1": "53.8"
+      },
+      {
+        "p": {
+          "name": "Audio-Visual Flamingo: Open Audio-Visual Intelligence for Long and Complex Videos",
+          "link": "https://arxiv.org/abs/2607.16107"
+        },
+        "c": "",
+        "n": "AVF-Think",
+        "d": "2026-07-17",
+        "m1": "51.6"
+      },
+      {
+        "p": {
+          "name": "When Vision Speaks for Sound",
+          "link": "https://arxiv.org/abs/2605.16403"
+        },
+        "c": "https://github.com/rakanWen/wvs-code",
+        "n": "Qwen3-Omni-30B + Thud",
+        "d": "2026-05-13",
+        "m1": "50.3"
+      },
+      {
+        "p": {
+          "name": "Omni Interaction Agent Technical Report",
+          "link": "https://arxiv.org/abs/2609.08977"
+        },
+        "c": "https://github.com/Omni-Interaction-Gander/Omni-Interaction-Agent",
+        "n": "Gander",
+        "d": "2026-09-08",
+        "m1": "49.62"
+      },
+      {
+        "p": {
+          "name": "OmniCap-IF: Benchmarking and Improving Instruction Following Abilities for Omni-Video Captioning",
+          "link": "https://arxiv.org/abs/2606.08572"
+        },
+        "c": "https://github.com/NJU-LINK/omnicap-if",
+        "n": "OmniCaptioner-IF-7B",
+        "d": "2026-06-07",
+        "m1": "49.4"
+      },
+      {
+        "p": {
+          "name": "LatentOmni: Rethinking Omni-Modal Understanding via Unified Audio-Visual Latent Reasoning",
+          "link": "https://arxiv.org/abs/2605.22012"
+        },
+        "c": "https://github.com/yfanDai/LatentOmni",
+        "n": "LatentOmni",
+        "d": "2026-05-21",
+        "m1": "48.9"
+      },
+      {
+        "p": {
+          "name": "FutureOmni: Evaluating Future Forecasting from Omni-Modal Context for Multimodal LLMs",
+          "link": "https://arxiv.org/abs/2601.13836"
+        },
+        "c": "https://github.com/OpenMOSS/FutureOmni",
+        "n": "video-SALMONN 2 (7B) +OFF",
+        "d": "2026-01-20",
+        "m1": "48.77"
+      },
+      {
+        "p": {
+          "name": "OmniVinci: Enhancing Architecture and Data for Omni-Modal Understanding LLM",
+          "link": "https://arxiv.org/abs/2510.15870"
+        },
+        "c": "https://github.com/NVlabs/OmniVinci",
+        "n": "OmniVinci",
+        "d": "2025-10-17",
+        "m1": "48.23"
+      },
+      {
+        "p": {
+          "name": "ChronusOmni: Improving Time Awareness of Omni-Modal Large Language Models",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/4007"
+        },
+        "c": "",
+        "n": "ChronusOmni",
+        "d": "2026-09-08",
+        "m1": "47.8"
+      },
+      {
+        "p": {
+          "name": "Native Active Perception as Reasoning for Omni-Modal Understanding",
+          "link": "https://arxiv.org/abs/2606.19341"
+        },
+        "c": "https://github.com/harryhsing/OmniAgent",
+        "n": "OmniAgent-RL-7B",
+        "d": "2026-06-17",
+        "m1": "47.2"
+      },
+      {
+        "p": {
+          "name": "HumanOmniV2: From Understanding to Omni-Modal Reasoning with Context",
+          "link": "https://arxiv.org/abs/2506.21277"
+        },
+        "c": "https://github.com/HumanMLLM/HumanOmniV2",
+        "n": "HumanOmniV2-7B",
+        "d": "2025-06-26",
+        "m1": "47.1"
+      },
+      {
+        "p": {
+          "name": "Open-o3-Video-v2: Seek, Ground, and Reason with Verifiable Spatio-Temporal Evidence",
+          "link": "https://arxiv.org/abs/2610.17656"
+        },
+        "c": "https://github.com/Multimedia-Semantic-Analytics-Lab/Open-o3-Video-v2",
+        "n": "Open-o3-Video-v2-4B",
+        "d": "2026-10-13",
+        "m1": "46.3"
+      },
+      {
+        "p": {
+          "name": "Omni-Modal LLMs Know More Than They Say",
+          "link": "https://arxiv.org/abs/2610.16135"
+        },
+        "c": "",
+        "n": "OMNI-CATALYST (Qwen2.5-Omni-7B)",
+        "d": "2026-10-12",
+        "m1": "45.7"
+      },
+      {
+        "p": {
+          "name": "Uni-MoE-2.0-Omni: Scaling Language-Centric Omnimodal Large Model with Advanced MoE, Training and Data",
+          "link": "https://arxiv.org/abs/2511.12609"
+        },
+        "c": "https://github.com/HITsz-TMG/Uni-MoE",
+        "n": "Uni-MoE-2.0-Omni",
+        "d": "2025-11-16",
+        "m1": "44.7"
+      },
+      {
+        "p": {
+          "name": "VisionCoach: Reinforcing Grounded Video Reasoning via Visual-Perception Prompting",
+          "link": "https://arxiv.org/abs/2603.14659"
+        },
+        "c": "https://github.com/daeunni/VisionCoach",
+        "n": "VisionCoach-7B",
+        "d": "2026-03-15",
+        "m1": "43.8"
+      },
+      {
+        "p": {
+          "name": "MAD: Modality-Adaptive Decoding for Mitigating Cross-Modal Hallucinations in Multimodal Large Language Models",
+          "link": "https://arxiv.org/abs/2601.21181"
+        },
+        "c": "https://github.com/top-yun/mad",
+        "n": "VideoLLaMA2-AV + MAD",
+        "d": "2026-01-29",
+        "m1": "25.6"
+      }
+    ]
+  }
+}

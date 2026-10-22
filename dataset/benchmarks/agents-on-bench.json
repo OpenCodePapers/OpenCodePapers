@@ -1,0 +1,448 @@
+{
+  "title": "agents-on-bench",
+  "task-hierarchy": [
+    "Agents"
+  ],
+  "dataset-info": {
+    "link": "https://taubench.com/",
+    "paper": "$τ^2$-Bench: Evaluating Conversational Agents in a Dual-Control Environment"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "GLM-5: From Vibe Coding to Agentic Engineering",
+          "link": "https://z.ai/blog/glm-5"
+        },
+        "c": "https://github.com/zai-org/GLM-5",
+        "n": "GLM-5",
+        "d": "2026-02-11",
+        "m1": "89.7"
+      },
+      {
+        "p": {
+          "name": "Step 3.5 Flash: Open Frontier-Level Intelligence with 11B Active Parameters",
+          "link": "https://arxiv.org/abs/2602.10604"
+        },
+        "c": "https://huggingface.co/stepfun-ai/Step-3.5-Flash-Base",
+        "n": "Step-3.5-Flash",
+        "d": "2026-02-11",
+        "m1": "88.2"
+      },
+      {
+        "p": {
+          "name": "Qwen3.5: Towards Native Multimodal Agents",
+          "link": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Qwen3.5-397B-A17B",
+        "d": "2026-02-16",
+        "m1": "86.7"
+      },
+      {
+        "p": {
+          "name": "Ling and Ring 2.6 Technical Report: Efficient and Instant Agentic Intelligence at Trillion-Parameter Scale",
+          "link": "https://arxiv.org/abs/2606.15079"
+        },
+        "c": "https://github.com/inclusionai/ling-v2",
+        "n": "Ring-2.6-1T (high)",
+        "d": "2026-06-13",
+        "m1": "84.26"
+      },
+      {
+        "p": {
+          "name": "Kwai Keye-VL-2.0 Technical Report",
+          "link": "https://arxiv.org/abs/2606.10651"
+        },
+        "c": "https://github.com/kwai-keye/keye",
+        "n": "Keye-VL-2.0-30B-A3B",
+        "d": "2026-06-09",
+        "m1": "82.6"
+      },
+      {
+        "p": {
+          "name": "Qwen3.5: Towards Native Multimodal Agents",
+          "link": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Qwen3.5-35B-A3B",
+        "d": "2026-02-16",
+        "m1": "81.2"
+      },
+      {
+        "p": {
+          "name": "Intern-S1-Pro: Scientific Multimodal Foundation Model at Trillion Scale",
+          "link": "https://arxiv.org/abs/2603.25040"
+        },
+        "c": "",
+        "n": "Intern-S1-Pro",
+        "d": "2026-03-26",
+        "m1": "80.9"
+      },
+      {
+        "p": {
+          "name": "DeepSeek-V3.2 Technical Report",
+          "link": "https://arxiv.org/abs/2512.02556"
+        },
+        "c": "https://github.com/deepseek-ai/DeepSeek-V3.2-Exp",
+        "n": "DeepSeek-V3.2",
+        "d": "2025-12-02",
+        "m1": "80.3"
+      },
+      {
+        "p": {
+          "name": "MiMo-V2-Flash Technical Report",
+          "link": "https://arxiv.org/abs/2601.02780"
+        },
+        "c": "https://github.com/XiaomiMiMo/MiMo-V2-Flash",
+        "n": "MiMo-V2-Flash (Thinking)",
+        "d": "2026-01-06",
+        "m1": "80.3"
+      },
+      {
+        "p": {
+          "name": "ToolOrchestra: Elevating Intelligence via Efficient Model and Tool Orchestration",
+          "link": "https://arxiv.org/abs/2511.21689"
+        },
+        "c": "https://github.com/NVlabs/ToolOrchestra/",
+        "n": "Orchestrator",
+        "d": "2025-11-26",
+        "m1": "80.2"
+      },
+      {
+        "p": {
+          "name": "Mach-Mind-4-Flash Technical Report",
+          "link": "https://arxiv.org/abs/2607.09375"
+        },
+        "c": "",
+        "n": "Mach-Mind-4-Flash",
+        "d": "2026-07-10",
+        "m1": "80.04"
+      },
+      {
+        "p": {
+          "name": "Scaling the Horizon, Not the Parameters: Reaching Trillion-Parameter Performance with a 35B Agent",
+          "link": "https://arxiv.org/abs/2606.30616"
+        },
+        "c": "https://github.com/InternScience/Agents-A1",
+        "n": "Agents-A1",
+        "d": "2026-06-29",
+        "m1": "79.8"
+      },
+      {
+        "p": {
+          "name": "Qwen3.5: Towards Native Multimodal Agents",
+          "link": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Qwen3.5-122B-A10B",
+        "d": "2026-02-16",
+        "m1": "79.5"
+      },
+      {
+        "p": {
+          "name": "Qwen3.5: Towards Native Multimodal Agents",
+          "link": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Qwen3.5-9B",
+        "d": "2026-02-16",
+        "m1": "79.1"
+      },
+      {
+        "p": {
+          "name": "Qwen3.5: Towards Native Multimodal Agents",
+          "link": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Qwen3.5-27B",
+        "d": "2026-02-16",
+        "m1": "79.0"
+      },
+      {
+        "p": {
+          "name": "ERNIE 5.0 Technical Report",
+          "link": "https://arxiv.org/abs/2602.04705"
+        },
+        "c": "",
+        "n": "ERNIE 5.0",
+        "d": "2026-02-04",
+        "m1": "78.79"
+      },
+      {
+        "p": {
+          "name": "Ling and Ring 2.6 Technical Report: Efficient and Instant Agentic Intelligence at Trillion-Parameter Scale",
+          "link": "https://arxiv.org/abs/2606.15079"
+        },
+        "c": "https://github.com/inclusionai/ling-v2",
+        "n": "Ling-2.6-1T",
+        "d": "2026-06-13",
+        "m1": "78.36"
+      },
+      {
+        "p": {
+          "name": "Gemma 4 Technical Report",
+          "link": "https://arxiv.org/abs/2607.02770"
+        },
+        "c": "https://github.com/google-deepmind/gemma",
+        "n": "Gemma 4 31B",
+        "d": "2026-07-02",
+        "m1": "76.9"
+      },
+      {
+        "p": {
+          "name": "Ling and Ring 2.6 Technical Report: Efficient and Instant Agentic Intelligence at Trillion-Parameter Scale",
+          "link": "https://arxiv.org/abs/2606.15079"
+        },
+        "c": "https://github.com/inclusionai/ling-v2",
+        "n": "Ling-2.6-flash",
+        "d": "2026-06-13",
+        "m1": "76.36"
+      },
+      {
+        "p": {
+          "name": "LACUNA: Safe Agents as Recursive Program Holes",
+          "link": "https://arxiv.org/abs/2605.28617"
+        },
+        "c": "https://github.com/noti0na1/lacuna",
+        "n": "Lacuna (deepseek-v4-flash)",
+        "d": "2026-05-27",
+        "m1": "76.0"
+      },
+      {
+        "p": {
+          "name": "SenseNova-U1: Unifying Multimodal Understanding and Generation with NEO-unify Architecture",
+          "link": "https://arxiv.org/abs/2605.12500"
+        },
+        "c": "https://github.com/OpenSenseNova/SenseNova-U1",
+        "n": "SenseNova-U1-A3B-MoT",
+        "d": "2026-05-12",
+        "m1": "75.39"
+      },
+      {
+        "p": {
+          "name": "WEFT: Scaling Tool-Use Post-Training for General-Purpose Agents",
+          "link": "https://arxiv.org/abs/2609.36887"
+        },
+        "c": "",
+        "n": "WEFT-35B-A3B",
+        "d": "2026-09-29",
+        "m1": "74.34"
+      },
+      {
+        "p": {
+          "name": "Announcing Bonsai 27B: The First 27B-Class Model to Run on a Phone",
+          "link": "https://prismml.com/news/bonsai-27b"
+        },
+        "c": "https://github.com/prismml-eng/bonsai-demo",
+        "n": "Ternary Bonsai 27B",
+        "d": "2026-07-14",
+        "m1": "73.61"
+      },
+      {
+        "p": {
+          "name": "EXAONE 4.5 Technical Report",
+          "link": "https://arxiv.org/abs/2604.08644"
+        },
+        "c": "https://github.com/LG-AI-EXAONE/EXAONE-4.5",
+        "n": "EXAONE 4.5 (Reasoning)",
+        "d": "2026-04-09",
+        "m1": "72.0"
+      },
+      {
+        "p": {
+          "name": "Gemma 4 Technical Report",
+          "link": "https://arxiv.org/abs/2607.02770"
+        },
+        "c": "https://github.com/google-deepmind/gemma",
+        "n": "Gemma 4 12B Unified",
+        "d": "2026-07-02",
+        "m1": "69.0"
+      },
+      {
+        "p": {
+          "name": "Kimi K2: Open Agentic Intelligence",
+          "link": "https://arxiv.org/abs/2507.20534"
+        },
+        "c": "https://github.com/MoonshotAI/Kimi-K2",
+        "n": "Kimi K2",
+        "d": "2025-07-28",
+        "m1": "66.1"
+      },
+      {
+        "p": {
+          "name": "Agent-World: Scaling Real-World Environment Synthesis for Evolving General Agent Intelligence",
+          "link": "https://arxiv.org/abs/2604.18292"
+        },
+        "c": "",
+        "n": "Agent-World (14B)",
+        "d": "2026-04-20",
+        "m1": "65.4"
+      },
+      {
+        "p": {
+          "name": "PivotRL: High Accuracy Agentic Post-Training at Low Compute Cost",
+          "link": "https://arxiv.org/abs/2603.21383"
+        },
+        "c": "",
+        "n": "Qwen3-30B-A3B-Thinking-2507 + PivotRL",
+        "d": "2026-03-22",
+        "m1": "63.81"
+      },
+      {
+        "p": {
+          "name": "ASTRA: Automated Synthesis of agentic Trajectories and Reinforcement Arenas",
+          "link": "https://arxiv.org/abs/2601.21558"
+        },
+        "c": "https://github.com/LianjiaTech/astra",
+        "n": "ASTRA-32B-thinking-v1",
+        "d": "2026-01-29",
+        "m1": "63.7"
+      },
+      {
+        "p": {
+          "name": "NVIDIA Nemotron 3: Efficient and Open Intelligence",
+          "link": "https://arxiv.org/abs/2512.20856"
+        },
+        "c": "https://github.com/nvidia-nemo/nemotron",
+        "n": "Nemotron 3 Super",
+        "d": "2025-12-24",
+        "m1": "61.15"
+      },
+      {
+        "p": {
+          "name": "Nemotron-Cascade 2: Post-Training LLMs with Cascade RL and Multi-Domain On-Policy Distillation",
+          "link": "https://arxiv.org/abs/2603.19220"
+        },
+        "c": "",
+        "n": "Nemotron-Cascade-2-30B-A3B",
+        "d": "2026-03-19",
+        "m1": "58.9"
+      },
+      {
+        "p": {
+          "name": "Unified Audio Intelligence Without Regressing on Text Intelligence",
+          "link": "https://arxiv.org/abs/2607.05196"
+        },
+        "c": "",
+        "n": "Audex 30B-A3B",
+        "d": "2026-07-06",
+        "m1": "57.2"
+      },
+      {
+        "p": {
+          "name": "DiffusionGemma Technical Report",
+          "link": "https://arxiv.org/abs/2608.00146"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "DiffusionGemma 26B A4B",
+        "d": "2026-07-31",
+        "m1": "56.2"
+      },
+      {
+        "p": {
+          "name": "Nanbeige4.1-3B: A Small General Model that Reasons, Aligns, and Acts",
+          "link": "https://arxiv.org/abs/2602.13367"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Nanbeige4.1-3B",
+        "d": "2026-02-13",
+        "m1": "48.57"
+      },
+      {
+        "p": {
+          "name": "Reinforcement World Model Learning for LLM-based Agents",
+          "link": "https://arxiv.org/abs/2602.05842"
+        },
+        "c": "",
+        "n": "RWML + Policy RL (Qwen3-8B)",
+        "d": "2026-02-05",
+        "m1": "43.7"
+      },
+      {
+        "p": {
+          "name": "ARC: Fair Relative Advantage Comparison in Open-Ended Real-World Interaction",
+          "link": "https://arxiv.org/abs/2608.13622"
+        },
+        "c": "",
+        "n": "GRPO + ARC (Qwen3-8B)",
+        "d": "2026-08-13",
+        "m1": "38.22"
+      },
+      {
+        "p": {
+          "name": "From Production Traffic to Post-Training: Building a Self-Hosted LLM That Covers the Corporate Request Mix",
+          "link": "https://arxiv.org/abs/2609.01572"
+        },
+        "c": "",
+        "n": "T-pro2.1 (internal, non-reasoning)",
+        "d": "2026-09-01",
+        "m1": "37.6"
+      },
+      {
+        "p": {
+          "name": "EnvACE: Internalizing Environment Dynamics via World Rehearsal for Agentic Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2608.06197"
+        },
+        "c": "https://github.com/Within-yao/EnvACE",
+        "n": "EnvACE-8B",
+        "d": "2026-08-06",
+        "m1": "36.7"
+      },
+      {
+        "p": {
+          "name": "EnvFactory: Scaling Tool-Use Agents via Executable Environments Synthesis and Robust RL",
+          "link": "https://arxiv.org/abs/2605.18703"
+        },
+        "c": "https://github.com/LARK-AI-Lab/EnvFactory",
+        "n": "Qwen3-8B (EnvFactory)",
+        "d": "2026-05-18",
+        "m1": "33.67"
+      },
+      {
+        "p": {
+          "name": "SEAL: Synergistic Co-Evolution of Agents and Learning Environments",
+          "link": "https://arxiv.org/abs/2605.24426"
+        },
+        "c": "https://github.com/yihaohu0118/SEAL",
+        "n": "Qwen2.5-7B-Instruct (SEAL)",
+        "d": "2026-05-23",
+        "m1": "20.79"
+      },
+      {
+        "p": {
+          "name": "Youtu-LLM: Unlocking the Native Agentic Potential for Lightweight Large Language Models",
+          "link": "https://arxiv.org/abs/2512.24618"
+        },
+        "c": "https://huggingface.co/tencent/Youtu-LLM-2B",
+        "n": "Youtu-LLM 2B",
+        "d": "2025-12-31",
+        "m1": "15.0"
+      }
+    ]
+  }
+}

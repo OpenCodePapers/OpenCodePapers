@@ -1,0 +1,88 @@
+{
+  "title": "monocular-depth-estimation-on-kitti-relative-log-aligned",
+  "task-hierarchy": [
+    "Depth Estimation",
+    "Monocular Depth Estimation"
+  ],
+  "dataset-info": {
+    "link": "https://www.cvlibs.net/datasets/kitti/",
+    "paper": "Are we ready for autonomous driving? The KITTI vision benchmark suite"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AbsRel",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "delta1",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Marigold V2: Revisiting Diffusion Transformers for Monocular Depth Estimation",
+          "link": "https://arxiv.org/abs/2609.08084"
+        },
+        "c": "https://github.com/huawei-bayerlab/marigold-v2",
+        "n": "Marigold V2 (Log-stage2)",
+        "d": "2026-09-08",
+        "m1": "0.054",
+        "m2": "0.974"
+      },
+      {
+        "p": {
+          "name": "From RGB Generation to Dense Field Readout: Pixel-Space Dense Prediction with Text-to-Image Models",
+          "link": "https://arxiv.org/abs/2607.06553v1"
+        },
+        "c": "https://github.com/xmz111/ReChannel",
+        "n": "ReChannel-9B",
+        "d": "2026-07-07",
+        "m1": "0.063",
+        "m2": "0.959"
+      },
+      {
+        "p": {
+          "name": "Iris-3B: Going Beyond the Latent with Pixel-Space Diffusion Training, Conversion and Fine-Tuning",
+          "link": "https://arxiv.org/abs/2610.09450"
+        },
+        "c": "https://github.com/speridlabs/iris-3b",
+        "n": "Iris-3B",
+        "d": "2026-10-07",
+        "m1": "0.083",
+        "m2": "0.927"
+      },
+      {
+        "p": {
+          "name": "DepthFM: Fast Monocular Depth Estimation with Flow Matching",
+          "link": "https://arxiv.org/abs/2403.13788"
+        },
+        "c": "https://github.com/CompVis/depth-fm",
+        "n": "DepthFM-ID (zero-shot)",
+        "d": "2024-03-20",
+        "m1": "0.089",
+        "m2": "0.913"
+      }
+    ]
+  }
+}

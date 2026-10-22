@@ -1,0 +1,99 @@
+{
+  "title": "speaker-diarization-on-alimeeting-far-diarization-test",
+  "task-hierarchy": [
+    "Speaker Recognition",
+    "Speaker Diarization"
+  ],
+  "dataset-info": {
+    "link": "https://openslr.org/119/",
+    "paper": "M2MeT: The ICASSP 2022 Multi-Channel Multi-Party Meeting Transcription Challenge"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "DER",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Efficient and Generalizable Speaker Diarization via Structured Pruning of Self-Supervised Models",
+          "link": "https://arxiv.org/abs/2506.18623"
+        },
+        "c": "https://github.com/butspeechfit/diarizen",
+        "n": "diarizen-wavlm-large-s80-md-v2",
+        "d": "2025-06-23",
+        "m1": "10.8"
+      },
+      {
+        "p": {
+          "name": "VBx for End-to-End Neural and Clustering-based Diarization",
+          "link": "https://arxiv.org/abs/2510.19572"
+        },
+        "c": "https://github.com/butspeechfit/diarizen",
+        "n": "DiariZen-Large-s80 + cVBx",
+        "d": "2025-10-22",
+        "m1": "12.4"
+      },
+      {
+        "p": {
+          "name": "Fine-tune Before Structured Pruning: Towards Compact and Accurate Self-Supervised Models for Speaker Diarization",
+          "link": "https://arxiv.org/abs/2505.24111"
+        },
+        "c": "https://github.com/butspeechfit/diarizen",
+        "n": "DiariZen WavLM-Large 80% pruned (3-domain)",
+        "d": "2025-05-30",
+        "m1": "15.8"
+      },
+      {
+        "p": {
+          "name": "Diarization-Guided Multi-Speaker Embeddings",
+          "link": "https://www.isca-archive.org/interspeech_2025/kalda25_interspeech.html"
+        },
+        "c": "https://github.com/joonaskalda/multi-speaker-embeddings",
+        "n": "Diarization-Guided Multi-Speaker Embeddings (MSE)",
+        "d": "2025-08-17",
+        "m1": "15.9"
+      },
+      {
+        "p": {
+          "name": "PixIT: Joint Training of Speaker Diarization and Speech Separation from Real-world Multi-speaker Recordings",
+          "link": "https://arxiv.org/abs/2403.02288"
+        },
+        "c": "https://github.com/joonaskalda/pixit",
+        "n": "PixIT (lambda=1, diarization only)",
+        "d": "2024-03-04",
+        "m1": "19.5"
+      },
+      {
+        "p": {
+          "name": "Powerset multi-class cross entropy loss for neural speaker diarization",
+          "link": "https://arxiv.org/abs/2310.13025"
+        },
+        "c": "https://github.com/frenchkrab/is2023-powerset-diarization",
+        "n": "Powerset (compound training)",
+        "d": "2023-10-19",
+        "m1": "23.3"
+      }
+    ]
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "title": "deep-research-agents-on-browsecomp-zh",
+  "task-hierarchy": [
+    "Agents",
+    "Deep Research Agents"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/PALIN2018/BrowseComp-ZH",
+    "paper": "BrowseComp-ZH: Benchmarking Web Browsing Ability of Large Language Models in Chinese"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "MiroThinker-1.7 & H1: Towards Heavy-Duty Research Agents via Verification",
+          "link": "https://arxiv.org/abs/2603.15726"
+        },
+        "c": "",
+        "n": "MiroThinker-H1",
+        "d": "2026-03-16",
+        "m1": "84.4"
+      },
+      {
+        "p": {
+          "name": "dots3-note Preview: A Small but Mighty Step Toward Long-Horizon Agency in Real Life",
+          "link": "https://studio.dots.ai/dots/dots3-en.html"
+        },
+        "c": "https://github.com/studio-dots-ai/dots3-note-prev",
+        "n": "dots3-note Preview",
+        "d": "2026-08-13",
+        "m1": "75.78"
+      },
+      {
+        "p": {
+          "name": "Masking Stale Observations Helps Search Agents -- Until It Doesn't: A Regime Map and Its Mechanism",
+          "link": "https://arxiv.org/abs/2606.00408"
+        },
+        "c": "https://github.com/i-DeepSearch/observation-masking",
+        "n": "DS-V4-Flash-Max + Serper API (stale-observation masking, K=5)",
+        "d": "2026-05-29",
+        "m1": "73.4"
+      },
+      {
+        "p": {
+          "name": "AgentSwing: Adaptive Parallel Context Management Routing for Long-Horizon Web Agents",
+          "link": "https://arxiv.org/abs/2603.27490"
+        },
+        "c": "",
+        "n": "AgentSwing (DeepSeek-v3.2)",
+        "d": "2026-03-29",
+        "m1": "71.3"
+      },
+      {
+        "p": {
+          "name": "DeepSeek-V3.2 Technical Report",
+          "link": "https://arxiv.org/abs/2512.02556"
+        },
+        "c": "https://github.com/deepseek-ai/DeepSeek-V3.2-Exp",
+        "n": "DeepSeek-V3.2",
+        "d": "2025-12-02",
+        "m1": "65.0"
+      },
+      {
+        "p": {
+          "name": "ERNIE 5.0 Technical Report",
+          "link": "https://arxiv.org/abs/2602.04705"
+        },
+        "c": "",
+        "n": "ERNIE 5.0",
+        "d": "2026-02-04",
+        "m1": "64.71"
+      },
+      {
+        "p": {
+          "name": "SAM: State-Adaptive Memory for Long-Horizon Reasoning Agent",
+          "link": "https://arxiv.org/abs/2605.24468"
+        },
+        "c": "https://github.com/qhjqhj00/cabeza",
+        "n": "GLM-4.7 with SAM",
+        "d": "2026-05-23",
+        "m1": "64.2"
+      },
+      {
+        "p": {
+          "name": "Table-as-Search: Formulate Long-Horizon Agentic Information Seeking as Table Completion",
+          "link": "https://arxiv.org/abs/2602.06724"
+        },
+        "c": "https://github.com/aidc-ai/marco-deepresearch",
+        "n": "GPT-5 Medium-Think (TaS)",
+        "d": "2026-02-06",
+        "m1": "63.7"
+      },
+      {
+        "p": {
+          "name": "OpenSeeker-v2: Pushing the Limits of Search Agents with Informative and High-Difficulty Trajectories",
+          "link": "https://arxiv.org/abs/2605.04036"
+        },
+        "c": "https://github.com/PolarSeeker/OpenSeeker",
+        "n": "OpenSeeker-v2 (30B, SFT)",
+        "d": "2026-05-05",
+        "m1": "58.1"
+      },
+      {
+        "p": {
+          "name": "IterSynth: Rethinking Deep Search Agents via Role-Decoupled Iterative Synthesis",
+          "link": "https://arxiv.org/abs/2609.29444"
+        },
+        "c": "https://github.com/Tencent/IterSynth",
+        "n": "IterSynth-8B",
+        "d": "2026-09-24",
+        "m1": "55.4"
+      },
+      {
+        "p": {
+          "name": "ABSeeker: Training Long-Horizon Search Agents via Answer-Backtracked Credit Assignment",
+          "link": "https://arxiv.org/abs/2608.05102"
+        },
+        "c": "",
+        "n": "ABSeeker (Qwen3.5-4B, context management)",
+        "d": "2026-08-05",
+        "m1": "52.9"
+      },
+      {
+        "p": {
+          "name": "OpenSeeker: Democratizing Frontier Search Agents by Fully Open-Sourcing Training Data",
+          "link": "https://arxiv.org/abs/2603.15594"
+        },
+        "c": "https://github.com/rui-ye/OpenSeeker",
+        "n": "OpenSeeker-v1-30B-SFT",
+        "d": "2026-03-16",
+        "m1": "48.4"
+      },
+      {
+        "p": {
+          "name": "Marco DeepResearch: Unlocking Efficient Deep Research Agents via Verification-Centric Design",
+          "link": "https://arxiv.org/abs/2603.28376"
+        },
+        "c": "https://github.com/aidc-ai/marco-deepresearch",
+        "n": "Marco-DeepResearch-8B",
+        "d": "2026-03-30",
+        "m1": "47.1"
+      },
+      {
+        "p": {
+          "name": "Mind DeepResearch Technical Report",
+          "link": "https://arxiv.org/abs/2604.14518"
+        },
+        "c": "",
+        "n": "MindDR-v1.5-30B-A3B",
+        "d": "2026-04-17",
+        "m1": "45.7"
+      },
+      {
+        "p": {
+          "name": "MiniCPM5-2B",
+          "link": "https://huggingface.co/openbmb/MiniCPM5-2B"
+        },
+        "c": "https://github.com/openbmb/minicpm",
+        "n": "MiniCPM5-2B",
+        "d": "2026-09-07",
+        "m1": "43.5"
+      },
+      {
+        "p": {
+          "name": "Nested Browser-Use Learning for Agentic Information Seeking",
+          "link": "https://arxiv.org/abs/2512.23647"
+        },
+        "c": "",
+        "n": "NestBrowse-30B-A3B",
+        "d": "2025-12-29",
+        "m1": "42.6"
+      },
+      {
+        "p": {
+          "name": "LightThinker++: From Reasoning Compression to Memory Management",
+          "link": "https://arxiv.org/abs/2604.03679"
+        },
+        "c": "",
+        "n": "LThinker++ (Qwen3-30B-A3B)",
+        "d": "2026-04-04",
+        "m1": "36.9"
+      },
+      {
+        "p": {
+          "name": "Learning Agentic Policy from Action Guidance",
+          "link": "https://arxiv.org/abs/2605.12004"
+        },
+        "c": "https://github.com/AMAP-ML/ActGuide-RL",
+        "n": "ActGuide-RL (Qwen3-8B)",
+        "d": "2026-05-12",
+        "m1": "26.64"
+      },
+      {
+        "p": {
+          "name": "Let It Flow: Agentic Crafting on Rock and Roll, Building the ROME Model within an Open Agentic Learning Ecosystem",
+          "link": "https://arxiv.org/abs/2512.24873"
+        },
+        "c": "https://github.com/alibaba/roll",
+        "n": "ROME (30B MoE, activated 3B)",
+        "d": "2025-12-31",
+        "m1": "14.19"
+      }
+    ]
+  }
+}

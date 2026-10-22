@@ -1,0 +1,107 @@
+{
+  "title": "sign-language-translation-on-how2sign",
+  "task-hierarchy": [
+    "Sign Language Recognition",
+    "Sign Language Translation"
+  ],
+  "dataset-info": {
+    "link": "https://how2sign.github.io/",
+    "paper": "How2Sign: A Large-scale Multimodal Dataset for Continuous American Sign Language"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "BLEU-4 (%)",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "BLEU-1 (%)",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "ROUGE-L",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "SIGNET: Motion-Level Knowledge Transfer for Cross-Language Sign Language Translation",
+          "link": "https://arxiv.org/abs/2606.28626"
+        },
+        "c": "https://github.com/elsobhano/signet",
+        "n": "SIGNET (extra data)",
+        "d": "2026-06-26",
+        "m3": "53.05",
+        "m2": "54.1",
+        "m1": "27.82"
+      },
+      {
+        "p": {
+          "name": "SignBind-LLM: Multi-Stage Modality Fusion for Sign Language Translation",
+          "link": "https://arxiv.org/abs/2509.00030"
+        },
+        "c": "",
+        "n": "MultiStream-LLM",
+        "d": "2025-08-20",
+        "m2": "46.0",
+        "m1": "23.5"
+      },
+      {
+        "p": {
+          "name": "Video-Text Alignment Model for Sign Language Translation",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/3633"
+        },
+        "c": "",
+        "n": "VTaMo",
+        "d": "2026-09-08",
+        "m3": "37.14",
+        "m2": "46.67",
+        "m1": "18.47"
+      },
+      {
+        "p": {
+          "name": "Q-BridgeNet: A Quantization Network for Cross-Lingual Sign Language Translation",
+          "link": "https://arxiv.org/abs/2607.11215"
+        },
+        "c": "https://github.com/fengliq/q-bridgenet",
+        "n": "Q-BridgeNet (extra data)",
+        "d": "2026-07-13",
+        "m2": "41.81",
+        "m1": "16.55"
+      },
+      {
+        "p": {
+          "name": "Learning Effective Sign Features without Text for Gloss-free Sign Language Translation",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Gan_Learning_Effective_Sign_Features_without_Text_for_Gloss-free_Sign_Language_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "SignDINO",
+        "d": "2026-06-03",
+        "m3": "36.14",
+        "m2": "40.51",
+        "m1": "15.47"
+      }
+    ]
+  }
+}

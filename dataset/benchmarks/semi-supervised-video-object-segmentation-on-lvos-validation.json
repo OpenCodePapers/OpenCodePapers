@@ -1,0 +1,89 @@
+{
+  "title": "semi-supervised-video-object-segmentation-on-lvos-validation",
+  "task-hierarchy": [
+    "Video Segmentation",
+    "Semi-Supervised Video Object Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://lingyihongfd.github.io/lvos.github.io/",
+    "paper": "LVOS: A Benchmark for Long-term Video Object Segmentation"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "J&F",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "SAM2Long: Enhancing SAM 2 for Long Video Segmentation with a Training-Free Memory Tree",
+          "link": "https://arxiv.org/abs/2410.16268v2"
+        },
+        "c": "https://github.com/mark12ding/sam2long",
+        "n": "SAM2.1Long-L (extra data)",
+        "d": "2024-10-21",
+        "m1": "83.4"
+      },
+      {
+        "p": {
+          "name": "Efficient Track Anything",
+          "link": "https://arxiv.org/abs/2411.18933"
+        },
+        "c": "https://github.com/yformer/efficienttam",
+        "n": "EfficientTAM-S (extra data)",
+        "d": "2024-11-28",
+        "m1": "73.4"
+      },
+      {
+        "p": {
+          "name": "MobileSAM2: Lightweight Segment Anything in Images and Videos via Hypergraphical Knowledge Distillation",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/5947"
+        },
+        "c": "",
+        "n": "MobileSAM2-23M",
+        "d": "2026-09-08",
+        "m1": "69.0"
+      },
+      {
+        "p": {
+          "name": "RMem: Restricted Memory Banks Improve Video Object Segmentation",
+          "link": "https://arxiv.org/abs/2406.08476"
+        },
+        "c": "https://github.com/restricted-memory/rmem",
+        "n": "AOT + RMem (extra data)",
+        "d": "2024-06-12",
+        "m1": "66.1"
+      },
+      {
+        "p": {
+          "name": "Putting the Object Back into Video Object Segmentation",
+          "link": "https://arxiv.org/abs/2310.12982v2"
+        },
+        "c": "https://github.com/hkchengrex/Cutie",
+        "n": "Cutie-base LT (MEGA) (extra data)",
+        "d": "2023-10-19",
+        "m1": "66.0"
+      }
+    ]
+  }
+}

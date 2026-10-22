@@ -51,6 +51,16 @@
     "items": [
       {
         "p": {
+          "name": "SAM 3: Segment Anything with Concepts",
+          "link": "https://arxiv.org/abs/2511.16719"
+        },
+        "c": "https://github.com/facebookresearch/sam3",
+        "n": "SAM 3 (zero-shot) (extra data)",
+        "d": "2025-11-20",
+        "m1": "78.4"
+      },
+      {
+        "p": {
           "name": "SAM 2: Segment Anything in Images and Videos",
           "link": "https://arxiv.org/abs/2408.00714v2"
         },
@@ -58,6 +68,26 @@
         "n": "SAM2",
         "d": "2024-08-01",
         "m1": "77.9"
+      },
+      {
+        "p": {
+          "name": "SeC: Advancing Complex Video Object Segmentation via Progressive Concept Construction",
+          "link": "https://arxiv.org/abs/2507.15852"
+        },
+        "c": "https://github.com/OpenIXCLab/SeC",
+        "n": "SeC-4B (extra data)",
+        "d": "2025-07-21",
+        "m1": "75.3"
+      },
+      {
+        "p": {
+          "name": "SAM2Long: Enhancing SAM 2 for Long Video Segmentation with a Training-Free Memory Tree",
+          "link": "https://arxiv.org/abs/2410.16268v2"
+        },
+        "c": "https://github.com/mark12ding/sam2long",
+        "n": "SAM2.1Long-L (extra data)",
+        "d": "2024-10-21",
+        "m1": "75.2"
       },
       {
         "p": {
@@ -74,6 +104,16 @@
       },
       {
         "p": {
+          "name": "Efficient Track Anything",
+          "link": "https://arxiv.org/abs/2411.18933"
+        },
+        "c": "https://github.com/yformer/efficienttam",
+        "n": "EfficientTAM-S (extra data)",
+        "d": "2024-11-28",
+        "m1": "71.4"
+      },
+      {
+        "p": {
           "name": "Putting the Object Back into Video Object Segmentation",
           "link": "https://arxiv.org/abs/2310.12982v2"
         },
@@ -84,6 +124,16 @@
         "m2": "66.0",
         "m3": "74.5",
         "m4": "20.6"
+      },
+      {
+        "p": {
+          "name": "EdgeTAM: On-Device Track Anything Model",
+          "link": "https://arxiv.org/abs/2501.07256"
+        },
+        "c": "https://github.com/facebookresearch/edgetam",
+        "n": "EdgeTAM (extra data)",
+        "d": "2025-01-13",
+        "m1": "70.0"
       },
       {
         "p": {
@@ -149,6 +199,16 @@
         "m2": "62.3",
         "m3": "70.8",
         "m4": "25.3"
+      },
+      {
+        "p": {
+          "name": "MobileSAM2: Lightweight Segment Anything in Images and Videos via Hypergraphical Knowledge Distillation",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/5947"
+        },
+        "c": "",
+        "n": "MobileSAM2-23M",
+        "d": "2026-09-08",
+        "m1": "65.8"
       },
       {
         "p": {
@@ -260,6 +320,26 @@
         "m1": "48.8",
         "m2": "44.6",
         "m3": "52.9"
+      },
+      {
+        "p": {
+          "name": "SegGPT: Segmenting Everything In Context",
+          "link": "https://arxiv.org/abs/2304.03284v1"
+        },
+        "c": "https://github.com/baaivision/painter",
+        "n": "SegGPT (extra data)",
+        "d": "2023-04-06",
+        "m1": "45.1"
+      },
+      {
+        "p": {
+          "name": "Segment Anything Meets Point Tracking",
+          "link": "https://arxiv.org/abs/2307.01197"
+        },
+        "c": "https://github.com/syscv/sam-pt",
+        "n": "SAM-PT (TAPIR) (extra data)",
+        "d": "2023-07-03",
+        "m1": "42.9"
       }
     ]
   }

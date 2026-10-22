@@ -1,0 +1,108 @@
+{
+  "title": "image-captioning-on-textcaps",
+  "task-hierarchy": [
+    "Image Captioning"
+  ],
+  "dataset-info": {
+    "link": "https://textvqa.org/textcaps/",
+    "paper": "TextCaps: a Dataset for Image Captioning with Reading Comprehension"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "CIDEr",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "PaliGemma 2: A Family of Versatile VLMs for Transfer",
+          "link": "https://arxiv.org/abs/2412.03555"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "PaliGemma 2 10B",
+        "d": "2024-12-04",
+        "m1": "157.7"
+      },
+      {
+        "p": {
+          "name": "PaliGemma: A versatile 3B VLM for transfer",
+          "link": "https://arxiv.org/abs/2407.07726"
+        },
+        "c": "https://github.com/google-research/big_vision",
+        "n": "PaliGemma",
+        "d": "2024-07-10",
+        "m1": "153.9"
+      },
+      {
+        "p": {
+          "name": "Florence-2: Advancing a Unified Representation for a Variety of Vision Tasks",
+          "link": "https://arxiv.org/abs/2311.06242v1"
+        },
+        "c": "https://github.com/retkowsky/florence-2",
+        "n": "Florence-2-L",
+        "d": "2023-11-10",
+        "m1": "151.1"
+      },
+      {
+        "p": {
+          "name": "GIT: A Generative Image-to-text Transformer for Vision and Language",
+          "link": "https://arxiv.org/abs/2205.14100v5"
+        },
+        "c": "https://github.com/microsoft/GenerativeImage2Text",
+        "n": "GIT2",
+        "d": "2022-05-27",
+        "m1": "145.0"
+      },
+      {
+        "p": {
+          "name": "mPLUG-DocOwl2: High-resolution Compressing for OCR-free Multi-page Document Understanding",
+          "link": "https://arxiv.org/abs/2409.03420"
+        },
+        "c": "https://github.com/x-plug/mplug-docowl",
+        "n": "DocOwl2",
+        "d": "2024-09-05",
+        "m1": "131.8"
+      },
+      {
+        "p": {
+          "name": "Pix2Struct: Screenshot Parsing as Pretraining for Visual Language Understanding",
+          "link": "https://arxiv.org/abs/2210.03347v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "Pix2Struct Large",
+        "d": "2022-10-07",
+        "m1": "95.5"
+      },
+      {
+        "p": {
+          "name": "MatCha: Enhancing Visual Language Pretraining with Math Reasoning and Chart Derendering",
+          "link": "https://arxiv.org/abs/2212.09662v2"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "MATCHA",
+        "d": "2022-12-19",
+        "m1": "92.4"
+      }
+    ]
+  }
+}

@@ -56,6 +56,30 @@
       },
       {
         "p": {
+          "name": "\"Close, But Not There: Boosting Geographic Distance Sensitivity in Visual Place Recognition\"",
+          "link": "https://arxiv.org/abs/2407.02422"
+        },
+        "c": "https://github.com/serizba/cliquemining",
+        "n": "DINOv2 SALAD + CliqueMining",
+        "d": "2024-07-02",
+        "m1": "90.7",
+        "m2": "96.6",
+        "m3": "97.5"
+      },
+      {
+        "p": {
+          "name": "AdaptVPR: Route-Aware Hard Positive Generation for Robust Visual Place Recognition",
+          "link": "https://arxiv.org/abs/2609.04369"
+        },
+        "c": "https://github.com/chenshunpeng/AdaptVPR",
+        "n": "BoQ + AdaptVPR",
+        "d": "2026-09-03",
+        "m1": "89.6",
+        "m2": "96.6",
+        "m3": "97.7"
+      },
+      {
+        "p": {
           "name": "Focus on Local: Finding Reliable Discriminative Regions for Visual Place Recognition",
           "link": "https://arxiv.org/abs/2504.09881v1"
         },
@@ -80,6 +104,17 @@
       },
       {
         "p": {
+          "name": "UniPR-3D: Towards Universal Visual Place Recognition with Visual Geometry Grounded Transformer",
+          "link": "https://arxiv.org/abs/2512.21078"
+        },
+        "c": "https://github.com/dtc111111/UniPR-3D",
+        "n": "UniPR-3D* (MegaLoc training setting, single frame)",
+        "d": "2025-12-24",
+        "m1": "78.9",
+        "m3": "92.4"
+      },
+      {
+        "p": {
           "name": "Focus on Local: Finding Reliable Discriminative Regions for Visual Place Recognition",
           "link": "https://arxiv.org/abs/2504.09881v1"
         },
@@ -89,6 +124,81 @@
         "m1": "78.3",
         "m2": "90.8",
         "m3": "94.0"
+      },
+      {
+        "p": {
+          "name": "VLAD-BuFF: Burst-aware Fast Feature Aggregation for Visual Place Recognition",
+          "link": "https://arxiv.org/abs/2409.19293"
+        },
+        "c": "https://github.com/ahmedest61/vlad-buff",
+        "n": "VLAD-BuFF (PCA whitening,8192D)",
+        "d": "2024-09-28",
+        "m1": "78",
+        "m2": "90.4"
+      },
+      {
+        "p": {
+          "name": "Optimal Transport Aggregation for Visual Place Recognition",
+          "link": "https://arxiv.org/abs/2311.15937v2"
+        },
+        "c": "https://github.com/serizba/salad",
+        "n": "DINOv2 SALAD (8448D)",
+        "d": "2023-11-27",
+        "m1": "76",
+        "m2": "89.2",
+        "m3": "92"
+      },
+      {
+        "p": {
+          "name": "MixVPR: Feature Mixing for Visual Place Recognition",
+          "link": "https://arxiv.org/abs/2303.02190v1"
+        },
+        "c": "https://github.com/amaralibey/mixvpr",
+        "n": "MixVPR (ResNet-50,4096D)",
+        "d": "2023-03-03",
+        "m1": "58.4",
+        "m2": "74.6",
+        "m3": "80"
+      },
+      {
+        "p": {
+          "name": "GSV-Cities: Toward Appropriate Supervised Visual Place Recognition",
+          "link": "https://arxiv.org/abs/2210.10239v1"
+        },
+        "c": "https://github.com/amaralibey/gsv-cities",
+        "n": "Conv-AP (released ResNet50,8192D)",
+        "d": "2022-10-19",
+        "m1": "42.7"
+      },
+      {
+        "p": {
+          "name": "GSV-Cities: Toward Appropriate Supervised Visual Place Recognition",
+          "link": "https://arxiv.org/abs/2210.10239v1"
+        },
+        "c": "https://github.com/amaralibey/gsv-cities",
+        "n": "Conv-AP (released ResNet50,4096D)",
+        "d": "2022-10-19",
+        "m2": "59.8"
+      },
+      {
+        "p": {
+          "name": "GSV-Cities: Toward Appropriate Supervised Visual Place Recognition",
+          "link": "https://arxiv.org/abs/2210.10239v1"
+        },
+        "c": "https://github.com/amaralibey/gsv-cities",
+        "n": "Conv-AP (released ResNet50,2048D)",
+        "d": "2022-10-19",
+        "m3": "63.19"
+      },
+      {
+        "p": {
+          "name": "UniPR-3D: Towards Universal Visual Place Recognition with Visual Geometry Grounded Transformer",
+          "link": "https://arxiv.org/abs/2512.21078"
+        },
+        "c": "https://github.com/dtc111111/UniPR-3D",
+        "n": "UniPR-3D (GSV-Cities single-frame release)",
+        "d": "2025-12-24",
+        "m2": "87.3"
       }
     ]
   }

@@ -1,0 +1,89 @@
+{
+  "title": "sudoku-solving-on-sudoku-extreme",
+  "task-hierarchy": [
+    "Logical Reasoning",
+    "Sudoku Solving"
+  ],
+  "dataset-info": {
+    "link": "https://arxiv.org/abs/2506.21734",
+    "paper": "Hierarchical Reasoning Model"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Equilibrium Reasoners: Learning Attractors Enables Scalable Reasoning",
+          "link": "https://arxiv.org/abs/2605.21488"
+        },
+        "c": "https://github.com/locuslab/eqr",
+        "n": "EqR (D=64, B=128)",
+        "d": "2026-05-20",
+        "m1": "99.8"
+      },
+      {
+        "p": {
+          "name": "Scaling to Tens of Thousands of Test-Time Iterations with Loop-Native Attention Residuals",
+          "link": "https://arxiv.org/abs/2610.11570"
+        },
+        "c": "https://github.com/pixeli99/InfiLoop",
+        "n": "InfiLoop",
+        "d": "2026-10-08",
+        "m1": "97.9"
+      },
+      {
+        "p": {
+          "name": "Breaking Diffusion: Parallel Reasoning with Draft Refinement",
+          "link": "https://arxiv.org/abs/2610.26542"
+        },
+        "c": "",
+        "n": "DRLM (6M)",
+        "d": "2026-10-19",
+        "m1": "93.9"
+      },
+      {
+        "p": {
+          "name": "Solve the Loop: Attractor Models for Language and Reasoning",
+          "link": "https://arxiv.org/abs/2605.12466"
+        },
+        "c": "https://github.com/jacobfa/Attractor",
+        "n": "Attractor Model (27M)",
+        "d": "2026-05-12",
+        "m1": "91.4"
+      },
+      {
+        "p": {
+          "name": "Hierarchical Reasoning Model",
+          "link": "https://arxiv.org/abs/2506.21734"
+        },
+        "c": "https://github.com/huggingface/transformers",
+        "n": "HRM",
+        "d": "2025-06-26",
+        "m1": "55.0"
+      }
+    ]
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "title": "deepfake-detection-on-genimage-cross-generator",
+  "task-hierarchy": [
+    "Image Manipulation Detection",
+    "DeepFake Detection"
+  ],
+  "dataset-info": {
+    "link": "https://arxiv.org/abs/2306.08571",
+    "paper": "GenImage: A Million-Scale Benchmark for Detecting AI-Generated Image"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "PPM-CLIP: Probabilistic Prompt Modeling for Generalizable AI-Generated Image Detection",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Wang_PPM-CLIP_Probabilistic_Prompt_Modeling_for_Generalizable_AI-Generated_Image_Detection_CVPR_2026_paper.html"
+        },
+        "c": "https://github.com/bandaidssssss/ppm_clip",
+        "n": "PPM-CLIP",
+        "d": "2026-06-03",
+        "m1": "99.6"
+      },
+      {
+        "p": {
+          "name": "Cross-modal Representation Learning for Diffusion-generated Image Detection",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Gong_Cross-modal_Representation_Learning_for_Diffusion-generated_Image_Detection_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "SDID",
+        "d": "2026-06-03",
+        "m1": "98.4"
+      },
+      {
+        "p": {
+          "name": "Enabling Supervised Learning of Generative Signatures for Generalized AI-Generated Images Detection",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Fei_Enabling_Supervised_Learning_of_Generative_Signatures_for_Generalized_AI-Generated_Images_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "GenSign",
+        "d": "2026-06-03",
+        "m1": "96.6"
+      },
+      {
+        "p": {
+          "name": "Beyond Generation: A Diffusion-based Low-level Feature Extractor for Detecting AI-generated Images",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhong_Beyond_Generation_A_Diffusion-based_Low-level_Feature_Extractor_for_Detecting_AI-generated_CVPR_2025_paper.html"
+        },
+        "c": "",
+        "n": "Beyond Generation (Ours-ft)",
+        "d": "2025-06-11",
+        "m1": "95.27"
+      },
+      {
+        "p": {
+          "name": "FAIR: Feature-Augmented Implicit Regularization for AI-generated Fake Image Detection",
+          "link": "https://arxiv.org/abs/2607.22087"
+        },
+        "c": "",
+        "n": "AIDE + FAIR",
+        "d": "2026-07-24",
+        "m1": "91.01"
+      },
+      {
+        "p": {
+          "name": "DRCT: Diffusion Reconstruction Contrastive Training towards Universal Detection of Diffusion Generated Images",
+          "link": "https://proceedings.mlr.press/v235/chen24ay.html"
+        },
+        "c": "https://github.com/beibuwandeluori/drct",
+        "n": "DRCT/UnivFD",
+        "d": "2024-07-08",
+        "m1": "89.49"
+      },
+      {
+        "p": {
+          "name": "Towards Universal AI-Generated Image Detection by Variational Information Bottleneck Network",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhang_Towards_Universal_AI-Generated_Image_Detection_by_Variational_Information_Bottleneck_Network_CVPR_2025_paper.html"
+        },
+        "c": "https://github.com/oceanzhf/vibaigcdetect",
+        "n": "VIB-Net",
+        "d": "2025-06-11",
+        "m1": "85.83"
+      }
+    ]
+  }
+}

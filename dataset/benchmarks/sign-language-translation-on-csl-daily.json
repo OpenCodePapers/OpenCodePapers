@@ -24,6 +24,16 @@
         "sortable": "true"
       },
       {
+        "key": "m2",
+        "label": "BLEU-1 (%)",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "ROUGE-L",
+        "sortable": "true"
+      },
+      {
         "key": "n",
         "label": "ModelName"
       },
@@ -34,6 +44,53 @@
       }
     ],
     "items": [
+      {
+        "p": {
+          "name": "BoostSLT: Boosting Sign Language Translation via a Plug-and-Play Diffusion-Based Semantic Enhancer",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Han_BoostSLT_Boosting_Sign_Language_Translation_via_a_Plug-and-Play_Diffusion-Based_Semantic_CVPR_2026_paper.html"
+        },
+        "c": "https://github.com/k1sna/boostslt",
+        "n": "BoostSLT [CV-SLT]",
+        "d": "2026-06-03",
+        "m1": "32.49",
+        "m2": "62.2",
+        "m3": "61.79"
+      },
+      {
+        "p": {
+          "name": "SIGNET: Motion-Level Knowledge Transfer for Cross-Language Sign Language Translation",
+          "link": "https://arxiv.org/abs/2606.28626"
+        },
+        "c": "https://github.com/elsobhano/signet",
+        "n": "SIGNET (extra data)",
+        "d": "2026-06-26",
+        "m1": "28.51",
+        "m2": "56.77",
+        "m3": "58.66"
+      },
+      {
+        "p": {
+          "name": "Video-Text Alignment Model for Sign Language Translation",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/3633"
+        },
+        "c": "",
+        "n": "VTaMo",
+        "d": "2026-09-08",
+        "m1": "27.16",
+        "m2": "57.64",
+        "m3": "57.28"
+      },
+      {
+        "p": {
+          "name": "Q-BridgeNet: A Quantization Network for Cross-Lingual Sign Language Translation",
+          "link": "https://arxiv.org/abs/2607.11215"
+        },
+        "c": "https://github.com/fengliq/q-bridgenet",
+        "n": "Q-BridgeNet",
+        "d": "2026-07-13",
+        "m1": "26.91",
+        "m2": "57.39"
+      },
       {
         "p": {
           "name": "Two-Stream Network for Sign Language Recognition and Translation",
@@ -53,6 +110,18 @@
         "n": "MSKA-SLT",
         "d": "2024-05-09",
         "m1": "25.52"
+      },
+      {
+        "p": {
+          "name": "Learning Effective Sign Features without Text for Gloss-free Sign Language Translation",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Gan_Learning_Effective_Sign_Features_without_Text_for_Gloss-free_Sign_Language_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "SignDINO",
+        "d": "2026-06-03",
+        "m1": "25.46",
+        "m2": "52.13",
+        "m3": "52.75"
       },
       {
         "p": {

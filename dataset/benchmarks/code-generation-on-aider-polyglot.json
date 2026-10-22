@@ -1,0 +1,139 @@
+{
+  "title": "code-generation-on-aider-polyglot",
+  "task-hierarchy": [
+    "Code Intelligence",
+    "Code Generation"
+  ],
+  "dataset-info": {
+    "link": "https://aider.chat/2024/12/21/polyglot.html",
+    "paper": "o1 tops aider's new polyglot leaderboard"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Introducing GPT-5",
+          "link": "https://openai.com/index/introducing-gpt-5/"
+        },
+        "c": "",
+        "n": "GPT-5 (High)",
+        "d": "2025-08-07",
+        "m1": "88"
+      },
+      {
+        "p": {
+          "name": "Introducing OpenAI o3 and o4-mini",
+          "link": "https://openai.com/index/introducing-o3-and-o4-mini/"
+        },
+        "c": "https://github.com/openai/codex",
+        "n": "OpenAI o3 (High)",
+        "d": "2025-04-16",
+        "m1": "81.3"
+      },
+      {
+        "p": {
+          "name": "Qwen3-Coder-Next Technical Report",
+          "link": "https://arxiv.org/abs/2603.00729"
+        },
+        "c": "https://github.com/QwenLM/Qwen3-Coder",
+        "n": "Qwen3-Coder-Next",
+        "d": "2026-02-28",
+        "m1": "66.2"
+      },
+      {
+        "p": {
+          "name": "Introducing OpenAI o1",
+          "link": "https://openai.com/o1/"
+        },
+        "c": "",
+        "n": "OpenAI o1 (High)",
+        "d": "2024-09-12",
+        "m1": "64.4"
+      },
+      {
+        "p": {
+          "name": "Kimi K2: Open Agentic Intelligence",
+          "link": "https://arxiv.org/abs/2507.20534"
+        },
+        "c": "https://github.com/MoonshotAI/Kimi-K2",
+        "n": "Kimi K2",
+        "d": "2025-07-28",
+        "m1": "60.0"
+      },
+      {
+        "p": {
+          "name": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2501.12948v1"
+        },
+        "c": "https://github.com/deepseek-ai/deepseek-r1",
+        "n": "DeepSeek-R1",
+        "d": "2025-01-22",
+        "m1": "53.3"
+      },
+      {
+        "p": {
+          "name": "Qwen3-Next",
+          "link": "https://qwenlm.github.io/blog/qwen3_next/"
+        },
+        "c": "",
+        "n": "Qwen3-Next-80B-A3B-Instruct",
+        "d": "2025-09-09",
+        "m1": "49.8"
+      },
+      {
+        "p": {
+          "name": "DeepSeek-V3 Technical Report",
+          "link": "https://arxiv.org/abs/2412.19437"
+        },
+        "c": "https://github.com/deepseek-ai/DeepSeek-V3",
+        "n": "DeepSeek-V3",
+        "d": "2024-12-27",
+        "m1": "49.6"
+      },
+      {
+        "p": {
+          "name": "gpt-oss-120b & gpt-oss-20b Model Card",
+          "link": "https://arxiv.org/abs/2508.10925"
+        },
+        "c": "",
+        "n": "gpt-oss-120b (High)",
+        "d": "2025-08-08",
+        "m1": "44.4"
+      },
+      {
+        "p": {
+          "name": "OpenThoughts-Agent: Data Recipes for Agentic Models",
+          "link": "https://arxiv.org/abs/2606.24855"
+        },
+        "c": "https://github.com/open-thoughts/openthoughts-agent",
+        "n": "OpenThinkerAgent-32B",
+        "d": "2026-06-23",
+        "m1": "32.4"
+      }
+    ]
+  }
+}

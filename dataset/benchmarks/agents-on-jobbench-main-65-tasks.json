@@ -1,0 +1,78 @@
+{
+  "title": "agents-on-jobbench-main-65-tasks",
+  "task-hierarchy": [
+    "Agents"
+  ],
+  "dataset-info": {
+    "link": "https://job-bench.github.io/",
+    "paper": "JobBench: Aligning Agent Work With Human Will"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Score",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Muse Wonder: A Frontier Model For Personal & Professional AI Agents",
+          "link": "https://research.meta.ai/blog/muse-wonder"
+        },
+        "c": "",
+        "n": "Muse Wonder Full (max) (OpenCode)",
+        "d": "2026-10-12",
+        "m1": "75.3"
+      },
+      {
+        "p": {
+          "name": "Muse Wonder: A Frontier Model For Personal & Professional AI Agents",
+          "link": "https://research.meta.ai/blog/muse-wonder"
+        },
+        "c": "",
+        "n": "Muse Wonder (max) (OpenCode)",
+        "d": "2026-10-12",
+        "m1": "70.5"
+      },
+      {
+        "p": {
+          "name": "Introducing Muse Spark Open, The Most Capable US Open-Weight Model to Date",
+          "link": "https://research.meta.ai/blog/muse-spark-open"
+        },
+        "c": "https://github.com/meta-models/meta-model-cookbook",
+        "n": "Muse Spark Open",
+        "d": "2026-10-15",
+        "m1": "61.8"
+      },
+      {
+        "p": {
+          "name": "Qwen3.8-Flash-Next",
+          "link": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next"
+        },
+        "c": "https://github.com/qwenlm/qwen3.8-flash-next",
+        "n": "Qwen3.8-Flash-Next",
+        "d": "2026-08-24",
+        "m1": "55.7"
+      }
+    ]
+  }
+}

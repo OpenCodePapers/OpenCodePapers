@@ -1,0 +1,98 @@
+{
+  "title": "zero-shot-anomaly-detection-on-mvtec-ad-zero-shot-cross-domain",
+  "task-hierarchy": [
+    "Anomaly Detection",
+    "Zero-Shot Anomaly Detection"
+  ],
+  "dataset-info": {
+    "link": "https://www.mvtec.com/research-teaching/datasets/mvtec-ad",
+    "paper": "MVTec AD -- A Comprehensive Real-World Dataset for Unsupervised Anomaly Detection"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Detection AUROC",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Segmentation AUROC",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "DLVP-CLIP: Enhancing Fine-Grained Zero-Shot Anomaly Detection via Dynamic Local Visual Prompting",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_DLVP-CLIP_Enhancing_Fine-Grained_Zero-Shot_Anomaly_Detection_via_Dynamic_Local_Visual_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "DLVP-CLIP",
+        "d": "2026-06-03",
+        "m1": "94.2",
+        "m2": "90.4"
+      },
+      {
+        "p": {
+          "name": "AnomalyCLIP: Object-agnostic Prompt Learning for Zero-shot Anomaly Detection",
+          "link": "https://arxiv.org/abs/2310.18961v9"
+        },
+        "c": "https://github.com/zqhang/anomalyclip",
+        "n": "AnomalyCLIP (damaged prompt, zero-shot) (extra data)",
+        "d": "2023-10-29",
+        "m1": "91.5",
+        "m2": "91.1"
+      },
+      {
+        "p": {
+          "name": "FiLo: Zero-Shot Anomaly Detection by Fine-Grained Description and High-Quality Localization",
+          "link": "https://arxiv.org/abs/2404.13671"
+        },
+        "c": "https://github.com/casia-iva-lab/filo",
+        "n": "FiLo (ViT-L/14@336, trained on VisA, zero-shot) (extra data)",
+        "d": "2024-04-21",
+        "m1": "91.2",
+        "m2": "92.3"
+      },
+      {
+        "p": {
+          "name": "AA-CLIP: Enhancing Zero-Shot Anomaly Detection via Anomaly-Aware CLIP",
+          "link": "https://arxiv.org/abs/2503.06661"
+        },
+        "c": "https://github.com/mwxinnn/aa-clip",
+        "n": "AA-CLIP",
+        "d": "2025-03-09",
+        "m1": "90.5"
+      },
+      {
+        "p": {
+          "name": "Robust Zero-shot Anomaly Detection under Limited Auxiliary Anomaly Priors",
+          "link": "https://arxiv.org/abs/2606.29428"
+        },
+        "c": "https://github.com/zhouf-ecnu/dive",
+        "n": "DIVE (extra data)",
+        "d": "2026-06-28",
+        "m1": "89.3",
+        "m2": "90.5"
+      }
+    ]
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "title": "monocular-depth-estimation-on-da-2k",
+  "task-hierarchy": [
+    "Depth Estimation",
+    "Monocular Depth Estimation"
+  ],
+  "dataset-info": {
+    "link": "https://depth-anything-v2.github.io",
+    "paper": "Depth Anything V2"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Accuracy",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Depth Anything V2",
+          "link": "https://arxiv.org/abs/2406.09414"
+        },
+        "c": "https://github.com/DepthAnything/Depth-Anything-V2",
+        "n": "Depth Anything V2 (ViT-G)",
+        "d": "2024-06-13",
+        "m1": "97.4"
+      },
+      {
+        "p": {
+          "name": "In Pursuit of Pixel Supervision for Visual Pre-training",
+          "link": "https://arxiv.org/abs/2512.15715"
+        },
+        "c": "https://github.com/facebookresearch/pixio",
+        "n": "Pixio-H + DPT",
+        "d": "2025-12-17",
+        "m1": "97.3"
+      },
+      {
+        "p": {
+          "name": "The 3D Mirage: Probing and Taming 3D Hallucinations",
+          "link": "https://arxiv.org/abs/2512.15423"
+        },
+        "c": "",
+        "n": "Grounded Self-Distill",
+        "d": "2025-12-17",
+        "m1": "96.08"
+      },
+      {
+        "p": {
+          "name": "HY-Embodied-0.5: Embodied Foundation Models for Real-World Agents",
+          "link": "https://arxiv.org/abs/2604.07430"
+        },
+        "c": "https://github.com/Tencent-Hunyuan/HY-Embodied",
+        "n": "HY-Embodied-0.5 MoE-A32B",
+        "d": "2026-04-08",
+        "m1": "90.2"
+      },
+      {
+        "p": {
+          "name": "RxBrain: Embodied Cognition Foundation Model with Joint Language-Visual Reasoning and Imagination",
+          "link": "https://arxiv.org/abs/2607.14187"
+        },
+        "c": "https://github.com/tencent-hunyuan/hy-embodied-rxbrain-1.0",
+        "n": "RxBrain",
+        "d": "2026-07-15",
+        "m1": "83.4"
+      }
+    ]
+  }
+}

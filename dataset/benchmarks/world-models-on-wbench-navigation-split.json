@@ -1,0 +1,118 @@
+{
+  "title": "world-models-on-wbench-navigation-split",
+  "task-hierarchy": [
+    "World Models"
+  ],
+  "dataset-info": {
+    "link": "https://meituan-longcat.github.io/WBench/",
+    "paper": "WBench: A Comprehensive Multi-turn Benchmark for Interactive Video World Model Evaluation"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "WBench Navigation Average",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "WorldPlay2: Extending Real-Time Interactive World Models in Control and Horizon",
+          "link": "https://arxiv.org/abs/2609.35560"
+        },
+        "c": "https://github.com/WorldPlay2/WorldPlay2",
+        "n": "WorldPlay2 (extra data)",
+        "d": "2026-09-28",
+        "m1": "83.1"
+      },
+      {
+        "p": {
+          "name": "Generative World Simulation with DAO and JING",
+          "link": "https://arxiv.org/abs/2610.19726"
+        },
+        "c": "https://github.com/XGEN-Labs/XGEN-JING",
+        "n": "XGEN-JING (bidirectional)",
+        "d": "2026-10-14",
+        "m1": "81.9"
+      },
+      {
+        "p": {
+          "name": "EchoWM: Open and Enterable Omnimodal World Models",
+          "link": "https://arxiv.org/abs/2608.23189"
+        },
+        "c": "https://github.com/jd-opensource/JoyAI-Echo",
+        "n": "EchoWM",
+        "d": "2026-08-24",
+        "m1": "81.7"
+      },
+      {
+        "p": {
+          "name": "Zing-0.5: Toward Playable Worlds with Real-Time Joint Action and Text Control",
+          "link": "https://arxiv.org/abs/2609.17909"
+        },
+        "c": "https://github.com/seedleap/zing-world-model",
+        "n": "Zing-0.5, 5B, 4-step",
+        "d": "2026-09-15",
+        "m1": "81.0"
+      },
+      {
+        "p": {
+          "name": "Alaya-EVOKE: From Linear-Scaling Supervision to Endless World",
+          "link": "https://arxiv.org/abs/2608.13546"
+        },
+        "c": "https://github.com/sii-yuanyangyin/evoke",
+        "n": "Evoke (3 step)",
+        "d": "2026-08-13",
+        "m1": "80.8"
+      },
+      {
+        "p": {
+          "name": "HelixWorld: A Real-time Interactive Audio-Visual World Model",
+          "link": "https://arxiv.org/abs/2609.38123"
+        },
+        "c": "https://github.com/NoizAI/HelixWorld",
+        "n": "HelixWorld",
+        "d": "2026-09-29",
+        "m1": "79.9"
+      },
+      {
+        "p": {
+          "name": "State World Models: Execute the Rules, Generate the Pixels",
+          "link": "https://arxiv.org/abs/2610.26811"
+        },
+        "c": "https://github.com/Zhangyr2022/StateWorldModel",
+        "n": "Stateful Harness",
+        "d": "2026-10-19",
+        "m1": "79.0"
+      },
+      {
+        "p": {
+          "name": "Velox: Spatial Memory Makes World Models Efficient",
+          "link": "https://arxiv.org/abs/2610.22311"
+        },
+        "c": "",
+        "n": "Velox",
+        "d": "2026-10-15",
+        "m1": "73.51"
+      }
+    ]
+  }
+}

@@ -157,6 +157,17 @@
       },
       {
         "p": {
+          "name": "Mode-Conditioned Residual Calibration for Multi-Object Tracking",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/5156"
+        },
+        "c": "",
+        "n": "ByteTrack+MCRC",
+        "d": "2026-09-08",
+        "m1": "63.7",
+        "m2": "78.6"
+      },
+      {
+        "p": {
           "name": "SMILEtrack: SiMIlarity LEarning for Occlusion-Aware Multiple Object Tracking",
           "link": "https://arxiv.org/abs/2211.08824v4"
         },
@@ -181,6 +192,18 @@
       },
       {
         "p": {
+          "name": "FeatureSORT: Essential Features for Effective Tracking",
+          "link": "https://arxiv.org/abs/2407.04249v1"
+        },
+        "c": "",
+        "n": "FeatureSORTv7 (extra data)",
+        "d": "2024-07-05",
+        "m1": "63.4",
+        "m2": "77.9",
+        "m3": "75.0"
+      },
+      {
+        "p": {
           "name": "BoT-SORT: Robust Associations Multi-Pedestrian Tracking",
           "link": "https://arxiv.org/abs/2206.14651v2"
         },
@@ -201,6 +224,18 @@
         "d": "2023-12-14",
         "m1": "62.8",
         "m3": "77.4"
+      },
+      {
+        "p": {
+          "name": "GateMOT: Q-Gated Attention for Dense Object Tracking",
+          "link": "https://arxiv.org/abs/2604.26353"
+        },
+        "c": "",
+        "n": "GateMOT",
+        "d": "2026-04-29",
+        "m1": "62.8",
+        "m2": "77.6",
+        "m3": "77.3"
       },
       {
         "p": {
@@ -228,6 +263,30 @@
       },
       {
         "p": {
+          "name": "DiffMOT: A Real-time Diffusion-based Multiple Object Tracker with Non-linear Prediction",
+          "link": "https://arxiv.org/abs/2403.02075v2"
+        },
+        "c": "https://github.com/kroery/diffmot",
+        "n": "DiffMOT",
+        "d": "2024-03-04",
+        "m1": "61.7",
+        "m2": "76.7",
+        "m3": "74.9"
+      },
+      {
+        "p": {
+          "name": "Towards Generalizable Multi-Object Tracking",
+          "link": "https://arxiv.org/abs/2406.00429"
+        },
+        "c": "https://github.com/qinzheng2000/generaltrack",
+        "n": "GeneralTrack",
+        "d": "2024-06-01",
+        "m1": "61.4",
+        "m2": "77.2",
+        "m3": "74.0"
+      },
+      {
+        "p": {
           "name": "ByteTrack: Multi-Object Tracking by Associating Every Detection Box",
           "link": "https://arxiv.org/abs/2110.06864v3"
         },
@@ -248,6 +307,18 @@
         "d": "2024-09-10",
         "m1": "61.2",
         "m3": "75.4"
+      },
+      {
+        "p": {
+          "name": "MOTRv2: Bootstrapping End-to-End Multi-Object Tracking by Pretrained Object Detectors",
+          "link": "https://arxiv.org/abs/2211.09791v2"
+        },
+        "c": "https://github.com/megvii-research/MOTRv2",
+        "n": "MOTRv2 (MOT17 joint training) (extra data)",
+        "d": "2022-11-17",
+        "m1": "61.0",
+        "m2": "76.2",
+        "m3": "73.1"
       },
       {
         "p": {
@@ -396,6 +467,17 @@
         "n": "HopTrack[Embedded GPU]",
         "d": "2024-11-01",
         "m2": "45.6"
+      },
+      {
+        "p": {
+          "name": "DeconfuseTrack: Dealing with Confusion for Multi-Object Tracking",
+          "link": "https://arxiv.org/abs/2403.02767"
+        },
+        "c": "",
+        "n": "DeconfuseTrack",
+        "d": "2024-03-05",
+        "m2": "78.1",
+        "m3": "77.6"
       }
     ]
   }

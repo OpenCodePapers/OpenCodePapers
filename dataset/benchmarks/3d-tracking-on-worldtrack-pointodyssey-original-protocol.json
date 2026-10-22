@@ -1,0 +1,87 @@
+{
+  "title": "3d-tracking-on-worldtrack-pointodyssey-original-protocol",
+  "task-hierarchy": [
+    "Object Tracking",
+    "Point Tracking",
+    "3D Tracking"
+  ],
+  "dataset-info": {
+    "link": "https://st4rtrack.github.io/",
+    "paper": "St4RTrack: Simultaneous 4D Reconstruction and Tracking in the World"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "APD3D",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "EPE3D",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Marrying Optimal Transport and ODEs for Unified Continuous-Time 4D Reconstruction and Tracking",
+          "link": "https://arxiv.org/abs/2608.09613"
+        },
+        "c": "",
+        "n": "Uni4R",
+        "d": "2026-08-10",
+        "m1": "0.8159"
+      },
+      {
+        "p": {
+          "name": "Gen4P: Video Generators are 4D Perceivers",
+          "link": "https://arxiv.org/abs/2610.22371"
+        },
+        "c": "https://github.com/yitongx/Gen4P",
+        "n": "Gen4P (Ours-II)",
+        "d": "2026-10-15",
+        "m2": "0.196",
+        "m1": "0.7811"
+      },
+      {
+        "p": {
+          "name": "Flow4R: Unifying 4D Reconstruction and Tracking with Scene Flow",
+          "link": "https://arxiv.org/abs/2602.14021"
+        },
+        "c": "",
+        "n": "Flow4R",
+        "d": "2026-02-15",
+        "m1": "0.711"
+      },
+      {
+        "p": {
+          "name": "St4RTrack: Simultaneous 4D Reconstruction and Tracking in the World",
+          "link": "https://arxiv.org/abs/2504.13152"
+        },
+        "c": "",
+        "n": "St4RTrack",
+        "d": "2025-04-17",
+        "m2": "0.3140",
+        "m1": "0.6795"
+      }
+    ]
+  }
+}

@@ -538,6 +538,36 @@
         "n": "res15 w/ SSN(S=4, A=Sub) (2019)",
         "d": "2021-03-25",
         "m12": "97.5% ±0.15"
+      },
+      {
+        "p": {
+          "name": "BEATs: Audio Pre-Training with Acoustic Tokenizers",
+          "link": "https://arxiv.org/abs/2212.09058v1"
+        },
+        "c": "https://github.com/microsoft/unilm/tree/master/beats",
+        "n": "BEATs (iter3)",
+        "d": "2022-12-18",
+        "m5": "98.3"
+      },
+      {
+        "p": {
+          "name": "Audio Mamba: Bidirectional State Space Model for Audio Representation Learning",
+          "link": "https://arxiv.org/abs/2406.03344"
+        },
+        "c": "https://github.com/kaistmm/Audio-Mamba-AuM",
+        "n": "AuM-B/16 (AudioSet pretrained)",
+        "d": "2024-06-05",
+        "m5": "94.82"
+      },
+      {
+        "p": {
+          "name": "SSAST: Self-Supervised Audio Spectrogram Transformer",
+          "link": "https://arxiv.org/abs/2110.09784v2"
+        },
+        "c": "https://github.com/YuanGongND/ast",
+        "n": "SSAST 250",
+        "d": "2021-10-19",
+        "m5": "98.1"
       }
     ]
   }

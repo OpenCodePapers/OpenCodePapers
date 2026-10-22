@@ -1,0 +1,119 @@
+{
+  "title": "text-to-image-generation-on-hpsv3",
+  "task-hierarchy": [
+    "Image Generation",
+    "Text-to-Image Generation"
+  ],
+  "dataset-info": {
+    "link": "https://huggingface.co/spaces/zzliang/HPSv3",
+    "paper": "HPSv3: Towards Wide-Spectrum Human Preference Score"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "HPSv3 Score",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "On-Policy Self-Distillation in Diffusion Models",
+          "link": "https://arxiv.org/abs/2608.24646"
+        },
+        "c": "https://github.com/worldbench/DiffusionOPSD",
+        "n": "DiffusionOPSD* (Z-Image-Turbo)",
+        "d": "2026-08-25",
+        "m1": "14.87"
+      },
+      {
+        "p": {
+          "name": "On-Policy Self-Distillation in Diffusion Models",
+          "link": "https://arxiv.org/abs/2608.24646"
+        },
+        "c": "https://github.com/worldbench/DiffusionOPSD",
+        "n": "DiffusionOPSD* (SD3.5-M)",
+        "d": "2026-08-25",
+        "m1": "14.76"
+      },
+      {
+        "p": {
+          "name": "Decoupled DMD: CFG Augmentation as the Spear, Distribution Matching as the Shield",
+          "link": "https://arxiv.org/abs/2511.22677"
+        },
+        "c": "https://github.com/Tongyi-MAI/Z-Image/tree/main",
+        "n": "Lumina-Image-2.0 + Decoupled DMD (Decoupled-Hybrid)",
+        "d": "2025-11-27",
+        "m1": "11.59"
+      },
+      {
+        "p": {
+          "name": "Asymmetric Flow Models",
+          "link": "https://arxiv.org/abs/2605.12964"
+        },
+        "c": "https://github.com/Lakonik/LakonLab",
+        "n": "AsymFLUX.2 klein",
+        "d": "2026-05-13",
+        "m1": "10.66"
+      },
+      {
+        "p": {
+          "name": "VAR RL Done Right: Tackling Asynchronous Policy Conflicts in Visual Autoregressive Generation",
+          "link": "https://arxiv.org/abs/2601.02256"
+        },
+        "c": "https://github.com/bytevisionlab/nextflow",
+        "n": "NextFlow-RL",
+        "d": "2026-01-05",
+        "m1": "10.64"
+      },
+      {
+        "p": {
+          "name": "Cross-Space Distillation: Teaching One-Step Students with Modern Diffusion Teachers",
+          "link": "https://arxiv.org/abs/2606.32020"
+        },
+        "c": "",
+        "n": "SD 1.5 + Bridge (Merged)",
+        "d": "2026-06-30",
+        "m1": "10.53"
+      },
+      {
+        "p": {
+          "name": "HiDream-O1-Image: A Natively Unified Image Generative Foundation Model with Pixel-level Unified Transformer",
+          "link": "https://arxiv.org/abs/2605.11061"
+        },
+        "c": "https://github.com/hidream-ai/hidream-o1-image",
+        "n": "HiDream-O1-Image-Pro",
+        "d": "2026-05-11",
+        "m1": "10.47"
+      },
+      {
+        "p": {
+          "name": "HiDream-O1-Image: A Natively Unified Image Generative Foundation Model with Pixel-level Unified Transformer",
+          "link": "https://arxiv.org/abs/2605.11061"
+        },
+        "c": "https://github.com/hidream-ai/hidream-o1-image",
+        "n": "HiDream-O1-Image",
+        "d": "2026-05-11",
+        "m1": "10.37"
+      }
+    ]
+  }
+}

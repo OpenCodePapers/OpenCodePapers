@@ -1,0 +1,209 @@
+{
+  "title": "computer-use-agents-on-osworld-verified",
+  "task-hierarchy": [
+    "Agents",
+    "Computer Use Agents"
+  ],
+  "dataset-info": {
+    "link": "https://xlang.ai/blog/osworld-verified",
+    "paper": "Introducing OSWorld-Verified"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Success Rate",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Qwen3.8-Max: A New Bar for Coding and Cowork",
+          "link": "https://qwen.ai/blog?id=qwen3.8"
+        },
+        "c": "https://github.com/vllm-project/vllm",
+        "n": "Qwen3.8-Max",
+        "d": "2026-08-03",
+        "m1": "86.1"
+      },
+      {
+        "p": {
+          "name": "Kimi K3: Open Frontier Intelligence",
+          "link": "https://arxiv.org/abs/2607.24653"
+        },
+        "c": "https://github.com/moonshotai/kimi-k3",
+        "n": "Kimi K3 Max",
+        "d": "2026-07-27",
+        "m1": "84.8"
+      },
+      {
+        "p": {
+          "name": "Qwen3.8-27B",
+          "link": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        "c": "https://github.com/vllm-project/vllm",
+        "n": "Qwen3.8-27B",
+        "d": "2026-08-05",
+        "m1": "84.3"
+      },
+      {
+        "p": {
+          "name": "NexForge: Scaling Agent Capabilities through Requirement-Driven Task Synthesis for LLMs",
+          "link": "https://arxiv.org/abs/2607.14186"
+        },
+        "c": "https://github.com/nex-agi/nex-n2.5",
+        "n": "Nex-N2.5-Pro",
+        "d": "2026-07-17",
+        "m1": "82.2"
+      },
+      {
+        "p": {
+          "name": "MiMo-V2.6: Scaling Reinforcement Learning Towards Self-Improvement",
+          "link": "https://arxiv.org/abs/2610.11959"
+        },
+        "c": "https://github.com/vllm-project/vllm",
+        "n": "MiMo-V2.6-Pro-RL",
+        "d": "2026-10-08",
+        "m1": "82.0"
+      },
+      {
+        "p": {
+          "name": "Qwen-UI-Agent Technical Report: Toward Next-Generation Real-World Centric Foundation GUI Agents",
+          "link": "https://arxiv.org/abs/2607.28227"
+        },
+        "c": "",
+        "n": "Qwen-UI-Agent (27B)",
+        "d": "2026-07-30",
+        "m1": "79.5"
+      },
+      {
+        "p": {
+          "name": "VLAA-GUI: Knowing When to Stop, Recover, and Search, A Modular Framework for GUI Automation",
+          "link": "https://arxiv.org/abs/2604.21375"
+        },
+        "c": "https://github.com/UCSC-VLAA/VLAA-GUI",
+        "n": "VLAA-GUI (Opus 4.6)",
+        "d": "2026-04-23",
+        "m1": "77.45"
+      },
+      {
+        "p": {
+          "name": "UI-Mate: Advancing Open-Weight Foundation GUI Agents with In-Context Demonstrations",
+          "link": "https://arxiv.org/abs/2608.15930"
+        },
+        "c": "https://github.com/Tencent/UI-Mate",
+        "n": "UI-Mate-27B",
+        "d": "2026-08-16",
+        "m1": "77.0"
+      },
+      {
+        "p": {
+          "name": "CUA-Gym: Scaling Verifiable Training Environments and Tasks for Computer-Use Agents",
+          "link": "https://arxiv.org/abs/2605.25624"
+        },
+        "c": "https://github.com/xlang-ai/CUA-Gym",
+        "n": "CUA-GYM-A17B",
+        "d": "2026-05-25",
+        "m1": "72.6"
+      },
+      {
+        "p": {
+          "name": "GTA1: GUI Test-time Scaling Agent",
+          "link": "https://arxiv.org/abs/2507.05791"
+        },
+        "c": "https://github.com/Yan98/GTA1",
+        "n": "GTA1-32B + GPT-5 planner/judge",
+        "d": "2025-07-08",
+        "m1": "63.4"
+      },
+      {
+        "p": {
+          "name": "Introducing Claude Sonnet 4.5",
+          "link": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        "c": "",
+        "n": "Claude Sonnet 4.5",
+        "d": "2025-09-29",
+        "m1": "61.4"
+      },
+      {
+        "p": {
+          "name": "Priming Base Models for Agentic Post-Training: An Open Midtraining Recipe",
+          "link": "https://arxiv.org/abs/2610.22019"
+        },
+        "c": "",
+        "n": "NVIDIA Nemotron 3.5 Super VL 120B-A12B BF16",
+        "d": "2026-10-15",
+        "m1": "51.14"
+      },
+      {
+        "p": {
+          "name": "OpenCUA: Open Foundations for Computer-Use Agents",
+          "link": "https://arxiv.org/abs/2508.09123"
+        },
+        "c": "https://github.com/xlang-ai/OpenCUA",
+        "n": "OpenCUA-72B",
+        "d": "2025-08-12",
+        "m1": "45.0"
+      },
+      {
+        "p": {
+          "name": "Anticipatory Planning for Multimodal AI Agents",
+          "link": "https://arxiv.org/abs/2603.16777"
+        },
+        "c": "",
+        "n": "TraceR1 (Qwen3-VL-32B-Thinking)",
+        "d": "2026-03-17",
+        "m1": "41.2"
+      },
+      {
+        "p": {
+          "name": "OpenCUA: Open Foundations for Computer-Use Agents",
+          "link": "https://arxiv.org/abs/2508.09123"
+        },
+        "c": "https://github.com/xlang-ai/OpenCUA",
+        "n": "OpenCUA-32B",
+        "d": "2025-08-12",
+        "m1": "34.8"
+      },
+      {
+        "p": {
+          "name": "LLaDA-UI: Bringing Block-wise Diffusion to Vision-Language GUI Agents",
+          "link": "https://arxiv.org/abs/2609.13287"
+        },
+        "c": "https://github.com/inclusionai/llada-ui",
+        "n": "LLaDA-UI",
+        "d": "2026-09-09",
+        "m1": "29.4"
+      },
+      {
+        "p": {
+          "name": "OpenCUA: Open Foundations for Computer-Use Agents",
+          "link": "https://arxiv.org/abs/2508.09123"
+        },
+        "c": "https://github.com/xlang-ai/OpenCUA",
+        "n": "OpenCUA-Qwen2-7B",
+        "d": "2025-08-12",
+        "m1": "23.06"
+      }
+    ]
+  }
+}

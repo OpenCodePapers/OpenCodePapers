@@ -1,0 +1,89 @@
+{
+  "title": "speaker-diarization-on-dihard-ii-full-eval-system-sad",
+  "task-hierarchy": [
+    "Speaker Recognition",
+    "Speaker Diarization"
+  ],
+  "dataset-info": {
+    "link": "https://dihardchallenge.github.io/dihard2/",
+    "paper": "The Second DIHARD Diarization Challenge: Dataset, task, and baselines"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "DER",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Encoder-Decoder Based Attractors for End-to-End Neural Diarization",
+          "link": "https://arxiv.org/abs/2106.10654"
+        },
+        "c": "https://github.com/hitachi-speech/eend",
+        "n": "EEND-EDA (iterative inference+)",
+        "d": "2021-06-20",
+        "m1": "28.52"
+      },
+      {
+        "p": {
+          "name": "DiaPer: End-to-End Neural Diarization with Perceiver-Based Attractors",
+          "link": "https://arxiv.org/abs/2312.04324"
+        },
+        "c": "https://github.com/butspeechfit/diaper",
+        "n": "DiaPer 20-attractor + compound FT 5min",
+        "d": "2023-12-07",
+        "m1": "29.1"
+      },
+      {
+        "p": {
+          "name": "End-to-End Speaker Diarization for an Unknown Number of Speakers with Encoder-Decoder Based Attractors",
+          "link": "https://arxiv.org/abs/2005.09921"
+        },
+        "c": "https://github.com/hitachi-speech/eend",
+        "n": "SA-EEND + EDA (shuffled)",
+        "d": "2020-05-20",
+        "m1": "32.59"
+      },
+      {
+        "p": {
+          "name": "pyannote.audio: neural building blocks for speaker diarization",
+          "link": "https://arxiv.org/abs/1911.01255"
+        },
+        "c": "https://github.com/pyannote/pyannote-audio",
+        "n": "pyannote.audio (2019 diarization pipeline)",
+        "d": "2019-11-04",
+        "m1": "34.4"
+      },
+      {
+        "p": {
+          "name": "The Second DIHARD Diarization Challenge: Dataset, task, and baselines",
+          "link": "https://arxiv.org/abs/1906.07839"
+        },
+        "c": "https://github.com/iiscleap/dihard_2019_baseline_alltracks",
+        "n": "DIHARD II Baseline (Enhancement + x-vector + AHC) (extra data)",
+        "d": "2019-06-18",
+        "m1": "40.86"
+      }
+    ]
+  }
+}

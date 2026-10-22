@@ -1,0 +1,167 @@
+{
+  "title": "visual-document-retrieval-on-vidore-v3",
+  "task-hierarchy": [
+    "Document Understanding",
+    "Visual Document Retrieval"
+  ],
+  "dataset-info": {
+    "link": "https://huggingface.co/vidore",
+    "paper": "ViDoRe V3: A Comprehensive Evaluation of Retrieval Augmented Generation in Complex Real-World Scenarios"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "NDCG@10",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "NDCG@5",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "EVIE: High-Performance Multilingual Visual Document Retrieval with Matryoshka Embeddings and Token Compression",
+          "link": "https://github.com/Tencent/EVIE"
+        },
+        "c": "https://github.com/tencent/evie",
+        "n": "EVIE-8B",
+        "d": "2026-09-07",
+        "m2": "64.16",
+        "m1": "66.75"
+      },
+      {
+        "p": {
+          "name": "Nemotron ColEmbed V2: Top-Performing Late Interaction embedding models for Visual Document Retrieval",
+          "link": "https://arxiv.org/abs/2602.03992"
+        },
+        "c": "",
+        "n": "Nemotron ColEmbed VL 8B V2",
+        "d": "2026-02-03",
+        "m1": "63.53"
+      },
+      {
+        "p": {
+          "name": "Nemotron ColEmbed V2: Top-Performing Late Interaction embedding models for Visual Document Retrieval",
+          "link": "https://arxiv.org/abs/2602.03992"
+        },
+        "c": "",
+        "n": "Llama NemoRetriever ColEmbed 3B v1",
+        "d": "2026-02-03",
+        "m1": "57.07"
+      },
+      {
+        "p": {
+          "name": "NeoMME: A Single-Tower Multimodal-Native Multilingual Foundation Encoder for Efficient Fine-Tuning and Inference",
+          "link": "https://arxiv.org/abs/2609.01657"
+        },
+        "c": "",
+        "n": "NeoMME-800M-Retriever (late interaction)",
+        "d": "2026-08-31",
+        "m2": "53.29",
+        "m1": "55.6"
+      },
+      {
+        "p": {
+          "name": "Nemotron ColEmbed V2: Top-Performing Late Interaction embedding models for Visual Document Retrieval",
+          "link": "https://arxiv.org/abs/2602.03992"
+        },
+        "c": "",
+        "n": "Llama NemoRetriever ColEmbed 1B v1",
+        "d": "2026-02-03",
+        "m1": "55.48"
+      },
+      {
+        "p": {
+          "name": "MINER: Mining Multimodal Internal Representation for Efficient Retrieval",
+          "link": "https://arxiv.org/abs/2605.06460"
+        },
+        "c": "",
+        "n": "MINER-Jina",
+        "d": "2026-05-07",
+        "m1": "49.7"
+      },
+      {
+        "p": {
+          "name": "jina-embeddings-v5-omni: Text-Geometry-Preserving Multimodal Embeddings via Frozen-Tower Composition",
+          "link": "https://arxiv.org/abs/2605.08384"
+        },
+        "c": "https://github.com/huggingface/sentence-transformers",
+        "n": "jina-embeddings-v5-omni-small",
+        "d": "2026-05-08",
+        "m1": "45.71"
+      },
+      {
+        "p": {
+          "name": "CausalEmbed: Auto-Regressive Multi-Vector Generation in Latent Space for Visual Document Embedding",
+          "link": "https://arxiv.org/abs/2601.21262"
+        },
+        "c": "https://github.com/Z1zs/Causal-Embed",
+        "n": "CausalQwen",
+        "d": "2026-01-29",
+        "m2": "42.6",
+        "m1": "45.55"
+      },
+      {
+        "p": {
+          "name": "NanoVDR: Distilling a 2B Vision-Language Retriever into a 70M Text-Only Encoder for Visual Document Retrieval",
+          "link": "https://arxiv.org/abs/2603.12824"
+        },
+        "c": "",
+        "n": "NanoVDR-S-Multi",
+        "d": "2026-03-13",
+        "m2": "46.5"
+      },
+      {
+        "p": {
+          "name": "Hydra: Unifying Document Retrieval and Generation in a Single Vision-Language Model",
+          "link": "https://arxiv.org/abs/2603.28554"
+        },
+        "c": "",
+        "n": "Hydra-4B",
+        "d": "2026-03-30",
+        "m2": "56.39"
+      },
+      {
+        "p": {
+          "name": "DistilVDR: A Compact End-to-End Visual Document Retriever via Dual-Student Distillation",
+          "link": "https://arxiv.org/abs/2608.10636"
+        },
+        "c": "https://github.com/Ryenhails/NanoVDR",
+        "n": "DistilVDR-HiRes",
+        "d": "2026-08-11",
+        "m2": "47.07"
+      },
+      {
+        "p": {
+          "name": "ColNanoVDR: Document-Free Query Distillation for Multi-Vector Visual Document Retrieval via Optimal Transport",
+          "link": "https://arxiv.org/abs/2609.34899"
+        },
+        "c": "https://github.com/Ryenhails/NanoVDR",
+        "n": "ColNanoVDR (from ColVec1.1-8b)",
+        "d": "2026-09-28",
+        "m2": "60.1"
+      }
+    ]
+  }
+}

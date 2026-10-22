@@ -1,0 +1,88 @@
+{
+  "title": "computer-use-agents-on-osworld-2-1-108-tasks",
+  "task-hierarchy": [
+    "Agents",
+    "Computer Use Agents"
+  ],
+  "dataset-info": {
+    "link": "https://osworld-v2.xlang.ai/",
+    "paper": "OSWorld2.0: Benchmarking Computer Use Agents on Long-Horizon Real-World Tasks"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Partial",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Binary",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Introducing Claude Opus 5.5",
+          "link": "https://www.anthropic.com/claude-opus-5-5"
+        },
+        "c": "https://github.com/anthropics/claude-code",
+        "n": "Claude Opus 5.5 (max effort)",
+        "d": "2026-09-22",
+        "m2": "48.7",
+        "m1": "81.8"
+      },
+      {
+        "p": {
+          "name": "Introducing Claude Sonnet 5.5",
+          "link": "https://www.anthropic.com/claude-sonnet-5-5"
+        },
+        "c": "https://github.com/anthropics/claude-code",
+        "n": "Claude Sonnet 5.5 (max effort)",
+        "d": "2026-09-28",
+        "m2": "43.5",
+        "m1": "80.1"
+      },
+      {
+        "p": {
+          "name": "Muse Wonder: A Frontier Model For Personal & Professional AI Agents",
+          "link": "https://research.meta.ai/blog/muse-wonder"
+        },
+        "c": "",
+        "n": "Muse Wonder Full (max)",
+        "d": "2026-10-12",
+        "m2": "39.4",
+        "m1": "78.4"
+      },
+      {
+        "p": {
+          "name": "Muse Wonder: A Frontier Model For Personal & Professional AI Agents",
+          "link": "https://research.meta.ai/blog/muse-wonder"
+        },
+        "c": "",
+        "n": "Muse Wonder (max)",
+        "d": "2026-10-12",
+        "m2": "34.3",
+        "m1": "72.6"
+      }
+    ]
+  }
+}

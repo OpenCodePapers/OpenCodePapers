@@ -1,0 +1,108 @@
+{
+  "title": "rgb-3d-anomaly-detection-and-segmentation-on-mvtec-3d-ad-rgb-3d-fusion",
+  "task-hierarchy": [
+    "Anomaly Detection",
+    "3D Anomaly Detection",
+    "RGB+3D Anomaly Detection and Segmentation"
+  ],
+  "dataset-info": {
+    "link": "https://www.mvtec.com/research-teaching/datasets/mvtec-3d-ad",
+    "paper": "The MVTec 3D-AD Dataset for Unsupervised 3D Anomaly Detection and Localization"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Detection AUROC",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "Segmentation AUPRO@30% FPR",
+        "sortable": "true"
+      },
+      {
+        "key": "m3",
+        "label": "Segmentation AUROC",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Complementary Prototype Mapping for Efficient Multimodal Anomaly Detection",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhao_Complementary_Prototype_Mapping_for_Efficient_Multimodal_Anomaly_Detection_CVPR_2026_paper.html"
+        },
+        "c": "https://github.com/yuanzhao-cvlab/cpmad",
+        "n": "CPMAD",
+        "d": "2026-06-03",
+        "m1": "97.8",
+        "m2": "97.9"
+      },
+      {
+        "p": {
+          "name": "Dinomaly2: A Unified Framework for Unsupervised Image Anomaly Detection",
+          "link": "https://arxiv.org/abs/2510.17611"
+        },
+        "c": "https://github.com/guojiajeremy/dinomaly2",
+        "n": "Dinomaly2-L",
+        "d": "2025-10-20",
+        "m1": "97.4",
+        "m3": "99.6",
+        "m2": "98.6"
+      },
+      {
+        "p": {
+          "name": "G^{2}SF-MIAD: Geometry-Guided Score Fusion for Multimodal Industrial Anomaly Detection",
+          "link": "https://arxiv.org/abs/2503.10091"
+        },
+        "c": "https://github.com/ctaoaa/g2sf",
+        "n": "G2SF (DINO ViT-B/8 + Point-MAE) (extra data)",
+        "d": "2025-03-13",
+        "m1": "97.1",
+        "m3": "99.7",
+        "m2": "97.9"
+      },
+      {
+        "p": {
+          "name": "GPFlow: Gaussian Prototype Probability Flow for Unsupervised Multi-Modal Anomaly Detection",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Li_GPFlow_Gaussian_Prototype_Probability_Flow_for_Unsupervised_Multi-Modal_Anomaly_Detection_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "GPFlow (All-shot, RGB+3D Fusion)",
+        "d": "2026-06-03",
+        "m1": "97.0",
+        "m2": "97.6"
+      },
+      {
+        "p": {
+          "name": "Back to the Feature: Classical 3D Features are (Almost) All You Need for 3D Anomaly Detection",
+          "link": "https://arxiv.org/abs/2203.05550v3"
+        },
+        "c": "https://github.com/eliahuhorwitz/3D-ADS",
+        "n": "BTF (RGB PatchCore + FPFH) (extra data)",
+        "d": "2022-03-10",
+        "m1": "87.3",
+        "m3": "99.3",
+        "m2": "96.4"
+      }
+    ]
+  }
+}

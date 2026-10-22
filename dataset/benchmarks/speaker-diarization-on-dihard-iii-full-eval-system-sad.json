@@ -1,0 +1,139 @@
+{
+  "title": "speaker-diarization-on-dihard-iii-full-eval-system-sad",
+  "task-hierarchy": [
+    "Speaker Recognition",
+    "Speaker Diarization"
+  ],
+  "dataset-info": {
+    "link": "https://dihardchallenge.github.io/dihard3/",
+    "paper": "The Third DIHARD Diarization Challenge"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "DER",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Pushing the Limits of End-to-End Diarization",
+          "link": "https://arxiv.org/abs/2509.14737"
+        },
+        "c": "",
+        "n": "EEND-TA + FT",
+        "d": "2025-09-18",
+        "m1": "14.49"
+      },
+      {
+        "p": {
+          "name": "Efficient and Generalizable Speaker Diarization via Structured Pruning of Self-Supervised Models",
+          "link": "https://arxiv.org/abs/2506.18623"
+        },
+        "c": "https://github.com/butspeechfit/diarizen",
+        "n": "diarizen-wavlm-large-s80-md-v2",
+        "d": "2025-06-23",
+        "m1": "14.5"
+      },
+      {
+        "p": {
+          "name": "VBx for End-to-End Neural and Clustering-based Diarization",
+          "link": "https://arxiv.org/abs/2510.19572"
+        },
+        "c": "https://github.com/butspeechfit/diarizen",
+        "n": "DiariZen-Large-s80 + cVBx",
+        "d": "2025-10-22",
+        "m1": "14.6"
+      },
+      {
+        "p": {
+          "name": "Speaker Diarization with Overlapping Community Detection Using Graph Attention Networks and Label Propagation Algorithm",
+          "link": "https://arxiv.org/abs/2506.02610"
+        },
+        "c": "",
+        "n": "OCDGALP (ResNet + GAT + LPA-OCD) (extra data)",
+        "d": "2025-06-03",
+        "m1": "15.94"
+      },
+      {
+        "p": {
+          "name": "End-to-end speaker segmentation for overlap-aware resegmentation",
+          "link": "https://arxiv.org/abs/2104.04045"
+        },
+        "c": "https://github.com/pyannote/pyannote-audio",
+        "n": "VBx + pyannote 2.0 VAD and resegmentation",
+        "d": "2021-04-08",
+        "m1": "19.3"
+      },
+      {
+        "p": {
+          "name": "Encoder-Decoder Based Attractors for End-to-End Neural Diarization",
+          "link": "https://arxiv.org/abs/2106.10654"
+        },
+        "c": "https://github.com/hitachi-speech/eend",
+        "n": "EEND-EDA (iterative inference+, Hitachi-JHU SAD)",
+        "d": "2021-06-20",
+        "m1": "19.53"
+      },
+      {
+        "p": {
+          "name": "DiaPer: End-to-End Neural Diarization with Perceiver-Based Attractors",
+          "link": "https://arxiv.org/abs/2312.04324"
+        },
+        "c": "https://github.com/butspeechfit/diaper",
+        "n": "DiaPer 20-attractor + compound FT 5min",
+        "d": "2023-12-07",
+        "m1": "21.1"
+      },
+      {
+        "p": {
+          "name": "Mitigating Non-Target Speaker Bias in Guided Speaker Embedding",
+          "link": "https://arxiv.org/abs/2506.12500"
+        },
+        "c": "",
+        "n": "Bias-mitigated guided CAM++ (P2-1) + pyannote 3.1",
+        "d": "2025-06-14",
+        "m1": "21.18"
+      },
+      {
+        "p": {
+          "name": "Powerset multi-class cross entropy loss for neural speaker diarization",
+          "link": "https://arxiv.org/abs/2310.13025"
+        },
+        "c": "https://github.com/frenchkrab/is2023-powerset-diarization",
+        "n": "Powerset (domain-adapted)",
+        "d": "2023-10-19",
+        "m1": "21.3"
+      },
+      {
+        "p": {
+          "name": "The Third DIHARD Diarization Challenge",
+          "link": "https://arxiv.org/abs/2012.01477"
+        },
+        "c": "https://github.com/dihardchallenge/dihard3_baseline",
+        "n": "DIHARD III Baseline (x-vector + VB-HMM) (extra data)",
+        "d": "2020-12-02",
+        "m1": "25.36"
+      }
+    ]
+  }
+}

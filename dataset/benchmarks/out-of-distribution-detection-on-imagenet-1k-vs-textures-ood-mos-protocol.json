@@ -1,0 +1,109 @@
+{
+  "title": "out-of-distribution-detection-on-imagenet-1k-vs-textures-ood-mos-protocol",
+  "task-hierarchy": [
+    "Out-of-Distribution Detection"
+  ],
+  "dataset-info": {
+    "link": "https://github.com/deeplearning-wisc/large_scale_ood",
+    "paper": "MOS: Towards Scaling Out-of-distribution Detection for Large Semantic Space"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "AUROC",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "FPR95",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "UNI-OOD: Unified Object- and Image-level Out-of-Distribution Detection via Cross-Context Attentive Vision-Language Modeling",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Li_UNI-OOD_Unified_Object-_and_Image-level_Out-of-Distribution_Detection_via_Cross-Context_Attentive_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "UNI-OOD",
+        "d": "2026-06-03",
+        "m1": "96.52",
+        "m2": "16.91"
+      },
+      {
+        "p": {
+          "name": "Local-Prompt: Extensible Local Prompts for Few-Shot Out-of-Distribution Detection",
+          "link": "https://arxiv.org/abs/2409.04796"
+        },
+        "c": "https://github.com/AuroraZengfh/Local-Prompt",
+        "n": "Local-Prompt+LoCoOp (16-shot) (extra data)",
+        "d": "2024-09-07",
+        "m1": "92.29",
+        "m2": "34.5"
+      },
+      {
+        "p": {
+          "name": "Learning Transferable Negative Prompts for Out-of-Distribution Detection",
+          "link": "https://arxiv.org/abs/2404.03248"
+        },
+        "c": "https://github.com/mala-lab/negprompt",
+        "n": "NegPrompt (CLIP-B/16, Full)",
+        "d": "2024-04-04",
+        "m1": "91.6",
+        "m2": "35.21"
+      },
+      {
+        "p": {
+          "name": "LoCoOp: Few-Shot Out-of-Distribution Detection via Prompt Learning",
+          "link": "https://arxiv.org/abs/2306.01293"
+        },
+        "c": "https://github.com/atsumiyai/locoop",
+        "n": "LoCoOp MCM (16-shot) (extra data)",
+        "d": "2023-06-02",
+        "m1": "91.32",
+        "m2": "40.23"
+      },
+      {
+        "p": {
+          "name": "Overcoming Shortcut Problem in VLM for Robust Out-of-Distribution Detection",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Xu_Overcoming_Shortcut_Problem_in_VLM_for_Robust_Out-of-Distribution_Detection_CVPR_2025_paper.html"
+        },
+        "c": "https://github.com/haiv-lab/ospcoop_imagenet-bg",
+        "n": "OSPCoOp (ViT-B/16, 16-shot)",
+        "d": "2025-06-11",
+        "m1": "91.13",
+        "m2": "41.26"
+      },
+      {
+        "p": {
+          "name": "STAR: Test-Time Adaptation Can Enhance Universal Prompt Learning for Vision-Language Models",
+          "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Fu_STAR_Test-Time_Adaptation_Can_Enhance_Universal_Prompt_Learning_for_Vision-Language_CVPR_2026_paper.html"
+        },
+        "c": "",
+        "n": "STAR L (16-shot)",
+        "d": "2026-06-03",
+        "m1": "89.98",
+        "m2": "41.54"
+      }
+    ]
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "title": "computer-use-agents-on-online-mind2web",
+  "task-hierarchy": [
+    "Agents",
+    "Computer Use Agents"
+  ],
+  "dataset-info": {
+    "link": "https://tiancixue.notion.site/An-Illusion-of-Progress-Assessing-the-Current-State-of-Web-Agents-1ac6cd2b9aac80719cd6f68374aaf4b4?pvs=4",
+    "paper": "An Illusion of Progress? Assessing the Current State of Web Agents"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "Success Rate",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "Introducing GPT-5.4",
+          "link": "https://openai.com/index/introducing-gpt-5-4/"
+        },
+        "c": "",
+        "n": "GPT-5.4",
+        "d": "2026-03-05",
+        "m1": "92.8"
+      },
+      {
+        "p": {
+          "name": "UI-TARS-2 Technical Report: Advancing GUI Agent with Multi-Turn Reinforcement Learning",
+          "link": "https://arxiv.org/abs/2509.02544"
+        },
+        "c": "https://github.com/bytedance/ui-tars",
+        "n": "UI-TARS-2",
+        "d": "2025-09-02",
+        "m1": "88.2"
+      },
+      {
+        "p": {
+          "name": "UI-TARS: Pioneering Automated GUI Interaction with Native Agents",
+          "link": "https://arxiv.org/abs/2501.12326"
+        },
+        "c": "https://github.com/bytedance/ui-tars",
+        "n": "UI-TARS-1.5 (early access)",
+        "d": "2025-01-21",
+        "m1": "75.8"
+      },
+      {
+        "p": {
+          "name": "Fara-1.5: Scalable Learning Environments for Computer Use Agents",
+          "link": "https://arxiv.org/abs/2606.20785"
+        },
+        "c": "https://github.com/microsoft/fara",
+        "n": "Fara1.5-27B",
+        "d": "2026-06-18",
+        "m1": "72.3"
+      },
+      {
+        "p": {
+          "name": "OpenWebRL: Demystifying Online Multi-turn Reinforcement Learning for Visual Web Agents",
+          "link": "https://arxiv.org/abs/2606.02031"
+        },
+        "c": "https://github.com/OpenWebRL/OpenWebRL",
+        "n": "OpenWebRL-8B",
+        "d": "2026-06-01",
+        "m1": "69.7"
+      },
+      {
+        "p": {
+          "name": "Orchard: An Open-Source Agentic Modeling Framework",
+          "link": "https://arxiv.org/abs/2605.15040"
+        },
+        "c": "https://github.com/microsoft/Orchard",
+        "n": "Orchard-GUI-4B (SFT + RL)",
+        "d": "2026-05-14",
+        "m1": "67.0"
+      },
+      {
+        "p": {
+          "name": "Mobile-Agent-v3.5: Multi-platform Fundamental GUI Agents",
+          "link": "https://arxiv.org/abs/2602.16855"
+        },
+        "c": "https://github.com/x-plug/mobileagent",
+        "n": "GUI-Owl-1.5-8B-Thinking",
+        "d": "2026-02-15",
+        "m1": "48.6"
+      },
+      {
+        "p": {
+          "name": "MolmoWeb: Open Visual Web Agent and Open Data for the Open Web",
+          "link": "https://arxiv.org/abs/2604.08516"
+        },
+        "c": "https://github.com/allenai/molmoweb",
+        "n": "MolmoWeb-8B",
+        "d": "2026-04-09",
+        "m1": "35.3"
+      },
+      {
+        "p": {
+          "name": "Fara-7B: An Efficient Agentic Model for Computer Use",
+          "link": "https://arxiv.org/abs/2511.19663"
+        },
+        "c": "https://github.com/microsoft/fara",
+        "n": "Fara-7B",
+        "d": "2025-11-24",
+        "m1": "34.1"
+      },
+      {
+        "p": {
+          "name": "GUI-Libra: Training Native GUI Agents to Reason and Act with Action-aware Supervision and Partially Verifiable RL",
+          "link": "https://arxiv.org/abs/2602.22190"
+        },
+        "c": "https://github.com/GUI-Libra/GUI-Libra",
+        "n": "GUI-Libra-8B",
+        "d": "2026-02-25",
+        "m1": "19.3"
+      }
+    ]
+  }
+}

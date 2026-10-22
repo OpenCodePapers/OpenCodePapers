@@ -1,0 +1,165 @@
+{
+  "title": "video-super-resolution-on-vimeo-90k-t-4x-upscaling-bi",
+  "task-hierarchy": [
+    "Super-Resolution",
+    "Video Super-Resolution"
+  ],
+  "dataset-info": {
+    "link": "https://toflow.csail.mit.edu/",
+    "paper": "Video Enhancement with Task-Oriented Flow"
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "key": "p",
+        "label": "Paper"
+      },
+      {
+        "key": "c",
+        "label": "Code"
+      },
+      {
+        "key": "m1",
+        "label": "PSNR",
+        "sortable": "true"
+      },
+      {
+        "key": "m2",
+        "label": "SSIM",
+        "sortable": "true"
+      },
+      {
+        "key": "n",
+        "label": "ModelName"
+      },
+      {
+        "key": "d",
+        "label": "ReleaseDate",
+        "sortable": "true"
+      }
+    ],
+    "items": [
+      {
+        "p": {
+          "name": "VSRM: A Robust Mamba-Based Framework for Video Super-Resolution",
+          "link": "https://arxiv.org/abs/2506.22762"
+        },
+        "c": "",
+        "n": "VSRM",
+        "d": "2025-06-28",
+        "m1": "38.33",
+        "m2": "0.9543"
+      },
+      {
+        "p": {
+          "name": "Gather-Scatter Mamba: Accelerating Propagation with Efficient State Space Model",
+          "link": "https://arxiv.org/abs/2510.00862"
+        },
+        "c": "https://github.com/Ko-Lani/GSMamba",
+        "n": "GSMamba (extra data)",
+        "d": "2025-10-01",
+        "m1": "38.25",
+        "m2": "0.9534"
+      },
+      {
+        "p": {
+          "name": "VRT: A Video Restoration Transformer",
+          "link": "https://arxiv.org/abs/2201.12288v2"
+        },
+        "c": "https://github.com/jingyunliang/vrt",
+        "n": "VRT",
+        "d": "2022-01-28",
+        "m1": "38.20",
+        "m2": "0.9530"
+      },
+      {
+        "p": {
+          "name": "Recurrent Video Restoration Transformer with Guided Deformable Attention",
+          "link": "https://arxiv.org/abs/2206.02146v3"
+        },
+        "c": "https://github.com/jingyunliang/rvrt",
+        "n": "RVRT",
+        "d": "2022-06-05",
+        "m1": "38.15",
+        "m2": "0.9527"
+      },
+      {
+        "p": {
+          "name": "Enhancing Video Super-Resolution via Implicit Resampling-based Alignment",
+          "link": "https://arxiv.org/abs/2305.00163v2"
+        },
+        "c": "https://github.com/kai422/iart",
+        "n": "IA-RT",
+        "d": "2023-04-29",
+        "m1": "38.14",
+        "m2": "0.9528"
+      },
+      {
+        "p": {
+          "name": "BasicVSR++: Improving Video Super-Resolution with Enhanced Propagation and Alignment",
+          "link": "https://arxiv.org/abs/2104.13371v1"
+        },
+        "c": "https://github.com/open-mmlab/mmediting",
+        "n": "BasicVSR++",
+        "d": "2021-04-27",
+        "m1": "37.79",
+        "m2": "0.9500"
+      },
+      {
+        "p": {
+          "name": "EDVR: Video Restoration with Enhanced Deformable Convolutional Networks",
+          "link": "https://arxiv.org/abs/1905.02716v1"
+        },
+        "c": "https://github.com/open-mmlab/mmsr",
+        "n": "EDVR",
+        "d": "2019-05-07",
+        "m1": "37.61",
+        "m2": "0.9489"
+      },
+      {
+        "p": {
+          "name": "BasicVSR: The Search for Essential Components in Video Super-Resolution and Beyond",
+          "link": "https://arxiv.org/abs/2012.02181v2"
+        },
+        "c": "https://github.com/XPixelGroup/BasicSR",
+        "n": "IconVSR",
+        "d": "2020-12-03",
+        "m1": "37.47",
+        "m2": "0.9476"
+      },
+      {
+        "p": {
+          "name": "BasicVSR: The Search for Essential Components in Video Super-Resolution and Beyond",
+          "link": "https://arxiv.org/abs/2012.02181v2"
+        },
+        "c": "https://github.com/XPixelGroup/BasicSR",
+        "n": "BasicVSR",
+        "d": "2020-12-03",
+        "m1": "37.18",
+        "m2": "0.9450"
+      },
+      {
+        "p": {
+          "name": "VideoGigaGAN: Towards Detail-rich Video Super-Resolution",
+          "link": "https://arxiv.org/abs/2404.12388v2"
+        },
+        "c": "",
+        "n": "VideoGigaGAN",
+        "d": "2024-04-18",
+        "m1": "35.97",
+        "m2": "0.9238"
+      },
+      {
+        "p": {
+          "name": "NanoVSR: Towards Real-Time Video Super-Resolution on Edge Devices",
+          "link": "https://arxiv.org/abs/2607.10495"
+        },
+        "c": "https://github.com/filippawlicki/nanovsr",
+        "n": "NanoVSR-5.4M",
+        "d": "2026-07-11",
+        "m1": "35.85",
+        "m2": "0.9335"
+      }
+    ]
+  }
+}

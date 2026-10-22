@@ -85,6 +85,27 @@
       },
       {
         "p": {
+          "name": "CFAT: Unleashing Triangular Windows for Image Super-resolution",
+          "link": "http://openaccess.thecvf.com//content/CVPR2024/html/Ray_CFAT_Unleashing_Triangular_Windows_for_Image_Super-resolution_CVPR_2024_paper.html"
+        },
+        "c": "https://github.com/rayabhisek123/cfat",
+        "n": "CFAT",
+        "d": "2024-01-01",
+        "m1": "35.01",
+        "m2": "0.9498"
+      },
+      {
+        "p": {
+          "name": "WARP: Wide Attention with Rich Projections for Image Super-Resolution",
+          "link": "https://eccv.ecva.net/virtual/2026/poster/4822"
+        },
+        "c": "",
+        "n": "WARP",
+        "d": "2026-09-08",
+        "m1": "34.99"
+      },
+      {
+        "p": {
           "name": "SwinFIR: Revisiting the SwinIR with Fast Fourier Convolution and Improved Training for Image Super-Resolution",
           "link": "https://arxiv.org/abs/2208.11247v3"
         },
@@ -128,6 +149,26 @@
       },
       {
         "p": {
+          "name": "Transcending the Limit of Local Window: Advanced Super-Resolution Transformer with Adaptive Token Dictionary",
+          "link": "https://arxiv.org/abs/2401.08209v2"
+        },
+        "c": "https://github.com/labshuhanggu/adaptive-token-dictionary",
+        "n": "ATD",
+        "d": "2024-01-16",
+        "m1": "34.70"
+      },
+      {
+        "p": {
+          "name": "Recursive Generalization Transformer for Image Super-Resolution",
+          "link": "https://arxiv.org/abs/2303.06373v4"
+        },
+        "c": "https://github.com/zhengchen1999/rgt",
+        "n": "RGT+",
+        "d": "2023-03-11",
+        "m1": "34.63"
+      },
+      {
+        "p": {
           "name": "SwinFIR: Revisiting the SwinIR with Fast Fourier Convolution and Improved Training for Image Super-Resolution",
           "link": "https://arxiv.org/abs/2208.11247v3"
         },
@@ -139,6 +180,17 @@
       },
       {
         "p": {
+          "name": "Image Processing GNN: Breaking Rigidity in Super-Resolution",
+          "link": "http://openaccess.thecvf.com//content/CVPR2024/html/Tian_Image_Processing_GNN_Breaking_Rigidity_in_Super-Resolution_CVPR_2024_paper.html"
+        },
+        "c": "https://github.com/huawei-noah/Efficient-Computing",
+        "n": "IPG+",
+        "d": "2024-01-01",
+        "m1": "34.54",
+        "m2": "0.9468"
+      },
+      {
+        "p": {
           "name": "DRCT: Saving Image Super-resolution away from Information Bottleneck",
           "link": "https://arxiv.org/abs/2404.00722v5"
         },
@@ -147,6 +199,100 @@
         "d": "2024-03-31",
         "m1": "34.54",
         "m2": "0.9474"
+      },
+      {
+        "p": {
+          "name": "Dual Aggregation Transformer for Image Super-Resolution",
+          "link": "https://arxiv.org/abs/2308.03364v2"
+        },
+        "c": "https://github.com/zhengchen1999/dat",
+        "n": "DAT+",
+        "d": "2023-08-07",
+        "m1": "34.47",
+        "m2": "0.9465"
+      },
+      {
+        "p": {
+          "name": "Accurate Image Restoration with Attention Retractable Transformer",
+          "link": "https://arxiv.org/abs/2210.01427"
+        },
+        "c": "",
+        "n": "ART",
+        "d": "2022-10-04",
+        "m1": "34.30",
+        "m2": "0.9452"
+      },
+      {
+        "p": {
+          "name": "On Efficient Transformer-Based Image Pre-training for Low-Level Vision",
+          "link": "https://arxiv.org/abs/2112.10175v2"
+        },
+        "c": "https://github.com/fenglinglwb/edt",
+        "n": "EDT-B†",
+        "d": "2021-12-19",
+        "m1": "34.27",
+        "m2": "0.9456"
+      },
+      {
+        "p": {
+          "name": "ADD: Attribution-Driven Data Augmentation Framework for Boosting Image Super-Resolution",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Mi_ADD_Attribution-Driven_Data_Augmentation_Framework_for_Boosting_Image_Super-Resolution_CVPR_2025_paper.html"
+        },
+        "c": "",
+        "n": "SwinIR + ADD+",
+        "d": "2025-06-11",
+        "m1": "33.9"
+      },
+      {
+        "p": {
+          "name": "Swin2SR: SwinV2 Transformer for Compressed Image Super-Resolution and Restoration",
+          "link": "https://arxiv.org/abs/2209.11345"
+        },
+        "c": "https://github.com/mv-lab/swin2sr",
+        "n": "Swin2SR",
+        "d": "2022-09-22",
+        "m1": "33.89"
+      },
+      {
+        "p": {
+          "name": "SwinIR: Image Restoration Using Swin Transformer",
+          "link": "https://arxiv.org/abs/2108.10257v1"
+        },
+        "c": "https://github.com/XPixelGroup/BasicSR",
+        "n": "SwinIR",
+        "d": "2021-08-23",
+        "m1": "33.81",
+        "m2": "0.9427"
+      },
+      {
+        "p": {
+          "name": "Pre-Trained Image Processing Transformer",
+          "link": "https://arxiv.org/abs/2012.00364v4"
+        },
+        "c": "https://github.com/huawei-noah/Pretrained-IPT",
+        "n": "IPT",
+        "d": "2020-12-01",
+        "m1": "33.76"
+      },
+      {
+        "p": {
+          "name": "Latent Modulated Function for Computational Optimal Continuous Image Representation",
+          "link": "https://arxiv.org/abs/2404.16451"
+        },
+        "c": "https://github.com/hezongyao/lmf",
+        "n": "LM-CiaoSR (SwinIR encoder)",
+        "d": "2024-04-25",
+        "m1": "33.65"
+      },
+      {
+        "p": {
+          "name": "TSP-Mamba: The Travelling Salesman Problem Meets Mamba for Image Super-resolution and Beyond",
+          "link": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhou_TSP-Mamba_The_Travelling_Salesman_Problem_Meets_Mamba_for_Image_Super-resolution_CVPR_2025_paper.html"
+        },
+        "c": "",
+        "n": "TSP-Mamba",
+        "d": "2025-06-11",
+        "m1": "33.57"
       },
       {
         "p": {
@@ -212,6 +358,16 @@
         "d": "2024-08-19",
         "m1": "33.04",
         "m2": "0.937"
+      },
+      {
+        "p": {
+          "name": "Enhanced Deep Residual Networks for Single Image Super-Resolution",
+          "link": "http://arxiv.org/abs/1707.02921v1"
+        },
+        "c": "https://github.com/sanghyun-son/EDSR-PyTorch",
+        "n": "EDSR",
+        "d": "2017-07-10",
+        "m1": "32.93"
       },
       {
         "p": {
@@ -347,6 +503,16 @@
         "n": "DnCNN-3",
         "d": "2016-08-13",
         "m1": "30.74"
+      },
+      {
+        "p": {
+          "name": "Single Image Super-Resolution From Transformed Self-Exemplars",
+          "link": "https://ieeexplore.ieee.org/document/7298657"
+        },
+        "c": "https://github.com/jbhuang0604/selfexsr",
+        "n": "SelfExSR",
+        "d": "2015-01-01",
+        "m1": "29.38"
       }
     ]
   }

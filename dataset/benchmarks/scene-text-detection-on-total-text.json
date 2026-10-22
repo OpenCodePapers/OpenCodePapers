@@ -51,6 +51,17 @@
     "items": [
       {
         "p": {
+          "name": "Kernel Adaptive Convolution for Scene Text Detection via Distance Map Prediction",
+          "link": "https://openaccess.thecvf.com/content/CVPR2024/html/Zheng_Kernel_Adaptive_Convolution_for_Scene_Text_Detection_via_Distance_Map_CVPR_2024_paper.html"
+        },
+        "c": "",
+        "n": "KAC-ResNet50",
+        "d": "2024-06-17",
+        "m1": "90.98%",
+        "m2": "94.1"
+      },
+      {
+        "p": {
           "name": "MixNet: Toward Accurate Detection of Challenging Scene Text in the Wild",
           "link": "https://arxiv.org/abs/2308.12817v2"
         },
@@ -73,6 +84,16 @@
         "m1": "90.0%",
         "m2": "92.2%",
         "m3": "87.9%"
+      },
+      {
+        "p": {
+          "name": "TextDS: Parameter-Efficient Representation Alignment for Scene Text Detection under Distribution Shifts",
+          "link": "https://arxiv.org/abs/2606.28077"
+        },
+        "c": "https://github.com/zchendang/textds",
+        "n": "TextDS",
+        "d": "2026-06-26",
+        "m1": "89.1%"
       },
       {
         "p": {
