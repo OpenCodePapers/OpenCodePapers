@@ -12,7 +12,7 @@ import re
 import sys
 from typing import List, Optional
 
-import utils
+import hfpwc_utils as utils
 
 # ==================================================================================================
 

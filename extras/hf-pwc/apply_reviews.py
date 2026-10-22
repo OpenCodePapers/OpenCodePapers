@@ -12,12 +12,11 @@ import glob
 import os
 import sys
 
-import utils
+import hfpwc_utils as utils
 
 # ==================================================================================================
 
-REVIEW_DIR = utils.REVIEW_DIR
-APPLIED_DIR = "data/review/applied/"
+APPLIED_DIR = os.path.join(utils.REVIEW_DIR, "applied")
 MATCHES_PATH = "data/matches.json"
 
 # ==================================================================================================
@@ -97,27 +96,28 @@ def check_split(dec: dict, shown: dict, benchmarks: dict) -> str:
         if group.get("decision") == "merge":
             error = check_mapping(key, group, benchmarks)
         elif group.get("decision") == "new":
-            error = check_hierarchy(key, group.get("task_hierarchy"))
-            if not error and not isinstance(group.get("dataset"), str):
-                error = f"{key}: new group without dataset name"
-            labels = group.get("metrics", {})
-            if not error and (
-                not isinstance(labels, dict)
-                or not all(
-                    isinstance(v, str) and 0 < len(v) <= 64 for v in labels.values()
-                )
-            ):
-                error = f"{key}: invalid column labels {labels}"
-            if not error:
-                title = utils.benchmark_name(
-                    group["task_hierarchy"][-1], group["dataset"]
-                )
-                if title in benchmarks:
-                    error = f"{key}: {title} exists, merge instead"
+            error = check_new_group(key, group, benchmarks)
         else:
             error = f"{key}: unknown group decision {group.get('decision')}"
         if error:
             return error
+    return ""
+
+
+def check_new_group(key: str, group: dict, benchmarks: dict) -> str:
+    error = check_hierarchy(key, group.get("task_hierarchy"))
+    if error:
+        return error
+    if not isinstance(group.get("dataset"), str):
+        return f"{key}: new group without dataset name"
+    labels = group.get("metrics", {})
+    if not isinstance(labels, dict) or not all(
+        isinstance(v, str) and 0 < len(v) <= 64 for v in labels.values()
+    ):
+        return f"{key}: invalid column labels {labels}"
+    title = utils.benchmark_name(group["task_hierarchy"][-1], group["dataset"])
+    if title in benchmarks:
+        return f"{key}: {title} exists, merge instead"
     return ""
 
 
@@ -153,7 +153,9 @@ def load_decisions(path: str):
 def apply_matches(overrides: dict, matches: dict, benchmarks: dict):
     entries = {o["leaderboard"]: o for o in overrides.get("leaderboards", [])}
     n = 0
-    for path in sorted(glob.glob(os.path.join(REVIEW_DIR, "matches_*.decisions.json"))):
+    for path in sorted(
+        glob.glob(os.path.join(utils.REVIEW_DIR, "matches_*.decisions.json"))
+    ):
         decisions = load_decisions(path)
         if decisions is None:
             continue
@@ -182,7 +184,7 @@ def apply_entry_reviews(
     new_benchmarks = {o["leaderboard"]: o for o in overrides.get("new_benchmarks", [])}
     n_decisions, n_ids = 0, 0
     for path in sorted(
-        glob.glob(os.path.join(REVIEW_DIR, f"{prefix}_*.decisions.json"))
+        glob.glob(os.path.join(utils.REVIEW_DIR, f"{prefix}_*.decisions.json"))
     ):
         input_path = path.replace(".decisions.json", ".json")
         if not os.path.isfile(input_path):
@@ -229,7 +231,9 @@ def apply_splits(overrides: dict, matches: dict, benchmarks: dict, reviewed: dic
     """Entries of split leaderboards are accepted if they are in a group."""
     splits = {o["leaderboard"]: o for o in overrides.get("splits", [])}
     n_decisions, n_accepted, n_excluded = 0, 0, 0
-    for path in sorted(glob.glob(os.path.join(REVIEW_DIR, "split_*.decisions.json"))):
+    for path in sorted(
+        glob.glob(os.path.join(utils.REVIEW_DIR, "split_*.decisions.json"))
+    ):
         input_path = path.replace(".decisions.json", ".json")
         if not os.path.isfile(input_path):
             print(f"{path}: review file {input_path} not found")

@@ -7,7 +7,7 @@ import os
 import re
 
 import hfpwc_api
-import utils
+import hfpwc_utils as utils
 
 # ==================================================================================================
 

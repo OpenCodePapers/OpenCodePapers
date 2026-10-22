@@ -22,7 +22,7 @@ import re
 import statistics
 from typing import Dict, List, Set
 
-import utils
+import hfpwc_utils as utils
 
 # ==================================================================================================
 
@@ -32,6 +32,8 @@ SPLIT_BATCH_ENTRIES = 250
 MAX_SPLIT_CANDIDATES = 6
 # dataset links used by more benchmarks don't identify a dataset (like cocodataset.org)
 MAX_LINK_BENCHMARKS = 10
+# fields of a matched leaderboard, replaced by the groups of a split one
+MATCH_FIELDS = ("benchmark", "mapping", "candidates", "evidence", "also_accepted")
 
 MIN_AGREEING_PAPERS = 3
 MAX_CONFLICT_SHARE = 0.25
@@ -389,9 +391,20 @@ def candidate_info(cand: dict, index: BenchIndex) -> dict:
     }
 
 
-def split_candidates(cands: List[dict], variants: Dict[str, float]) -> List[dict]:
-    """Benchmarks of a similar dataset name or with agreeing values first, then other
-    benchmarks of the dataset (protocol variants)."""
+def split_candidates(index, dataset, cands, names, papers) -> List[dict]:
+    """
+    Candidates of a split review: benchmarks of a similar dataset name or with agreeing
+    values first, then other benchmarks of the dataset (protocol variants, or with the
+    dataset's link).
+    """
+    variants = index.variant_candidates(dataset)
+    for bench in index.link_candidates(dataset):
+        variants[bench] = max(variants.get(bench, 0), 0.5)
+    variants.update({b: 1.0 for b in names})
+    scored = {c["benchmark"] for c in cands}
+    cands = cands + [
+        score_candidate(index, b, papers) for b in sorted(set(variants) - scored)
+    ]
     similar = [
         c
         for c in cands
@@ -411,21 +424,23 @@ def split_review_info(key, evals, cands, index, *, tasks, datasets, reason) -> d
     with the same or another value."""
     task_id, dataset_id = key.split("/")
     ds = datasets.get(dataset_id, {})
+    fields = {
+        c["benchmark"]: metric_fields(index.benchmarks[c["benchmark"]]) for c in cands
+    }
     rows = []
     for e in sorted(evals, key=lambda e: (e["paper_published_date"] or "", e["id"])):
         same, other = [], []
-        for cand in cands:
-            data = index.benchmarks[cand["benchmark"]]
-            items = index.paper_items(cand["benchmark"], paper_key(e))
+        for bench, keys in fields.items():
+            items = index.paper_items(bench, paper_key(e))
             if not items:
                 continue
             agree = any(
                 utils.values_agree(v, it.get(k)) is not None
                 for v in e["metrics"].values()
                 for it in items
-                for k in metric_fields(data)
+                for k in keys
             )
-            (same if agree else other).append(cand["benchmark"])
+            (same if agree else other).append(bench)
         leaderboard = utils.leaderboard_source(e)
         reporting = utils.reporting_paper_ref(e)
         row = {
@@ -580,31 +595,17 @@ def main():
             apply_override(entry, overrides[key], index)
 
         if key in splits:
-            for k in (
-                "benchmark",
-                "mapping",
-                "candidates",
-                "evidence",
-                "also_accepted",
-            ):
+            for k in MATCH_FIELDS:
                 entry.pop(k, None)
             entry.update(status="split", groups=splits[key]["groups"])
         elif len(evals) >= utils.MIN_ENTRIES and (
             (entry["status"] == "drop" and entry.get("reviewed")) or key in dropped_new
         ):
-            variants = index.variant_candidates(dataset)
-            for bench in index.link_candidates(dataset):
-                variants[bench] = max(variants.get(bench, 0), 0.5)
-            variants.update({b: 1.0 for b in names})
-            cands += [
-                score_candidate(index, b, papers)
-                for b in sorted(set(variants) - cand_benches)
-            ]
             split_review.append(
                 split_review_info(
                     key,
                     evals,
-                    split_candidates(cands, variants),
+                    split_candidates(index, dataset, cands, names, papers),
                     index,
                     tasks=tasks,
                     datasets=datasets,

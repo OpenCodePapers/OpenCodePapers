@@ -20,8 +20,8 @@ Rules:
 
 - Results are credited to the evaluated model's paper, or to the paper that reports them.
   Results of official test servers count as the method's own. Results of the benchmark
-  leaderboards listed in `utils.py` are credited to the leaderboard (as a snapshot), other
-  websites (aggregators, arenas, vendor reports) are dropped.
+  leaderboards listed in `hfpwc_utils.py` are credited to the leaderboard (as a snapshot),
+  other websites (aggregators, arenas, vendor reports) are dropped.
 - A leaderboard is merged into an existing benchmark if both list the same results for
   several papers. Weaker matches are reviewed, to avoid duplicate benchmarks.
 - Leaderboards that mix protocols (like zero-shot and fine-tuned results) are split by a

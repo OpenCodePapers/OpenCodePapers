@@ -25,7 +25,7 @@ from typing import Dict, List, Optional, Tuple
 
 import fetch_leaderboard_info
 import fetch_paper_details
-import utils
+import hfpwc_utils as utils
 
 sys.path.insert(0, "../../tests/")
 from test_benchmark_files import (  # noqa: E402 pylint: disable=wrong-import-position,wrong-import-order
@@ -639,6 +639,66 @@ def collect_entries(leaderboards, matches, known, details, skipped):
     return merge_entries, new_entries, split_new
 
 
+def plan_new_benchmarks(
+    kept, split_new, *, new_entries, reviewed_new, benchmarks, datasets, skipped
+):
+    """
+    Hierarchy, keys and entries of the new benchmarks by title: kept leaderboards of the
+    same dataset as one, and the new groups of split leaderboards. An existing benchmark
+    of the same dataset name and top-level task is a duplicate.
+    """
+    taken = set(benchmarks)
+    existing = collections.defaultdict(list)
+    for b, data in benchmarks.items():
+        root = data["task-hierarchy"][0] if data["task-hierarchy"] else ""
+        existing[(utils.compact_name(utils.bench_dataset_part(b)), root)].append(b)
+    planned = {}
+    for dataset_id, keys in kept.items():
+        dataset = datasets[dataset_id]
+        hierarchies_used = collections.Counter(
+            tuple(reviewed_new[k]["task_hierarchy"]) for k in keys
+        )
+        hierarchy = list(hierarchies_used.most_common(1)[0][0])
+        duplicate = existing.get(
+            (utils.compact_name(utils.slugify(dataset["name"])), hierarchy[0])
+        )
+        if duplicate:
+            skipped.append(
+                {"reason": f"new benchmark may duplicate {duplicate}", "target": keys}
+            )
+            continue
+        title = benchmark_title(hierarchy, dataset, taken)
+        taken.add(title)
+        planned[title] = {
+            "hierarchy": hierarchy,
+            "dataset_id": dataset_id,
+            "keys": keys,
+            "entries": [e for k in keys for e in new_entries[k]],
+        }
+    # parts of split leaderboards, their title names the protocol
+    existing_titles = {utils.compact_name(b) for b in benchmarks}
+    for title, plan in split_new.items():
+        if utils.compact_name(title) in existing_titles:
+            skipped.append(
+                {"reason": f"new benchmark {title} exists", "target": plan["keys"]}
+            )
+        elif title in planned:
+            planned[title]["keys"] += plan["keys"]
+            planned[title]["entries"] += plan["entries"]
+        else:
+            planned[title] = plan
+    return planned
+
+
+def labelled_info(info: dict, labels: dict) -> dict:
+    """Leaderboard info for the metrics renamed by a split review, the first is primary."""
+    directions = info.get("metrics") or {}
+    return {
+        "primary": next(iter(labels.values())),
+        "metrics": {label: directions.get(m) for m, label in reversed(labels.items())},
+    }
+
+
 def main():
     tasks, datasets, evaluations = utils.load_catalog()
     matches = utils.load_json(MATCHES_PATH)
@@ -728,60 +788,20 @@ def main():
             continue
         new_reviews.append(new_review(key, built, hierarchies, tasks, datasets))
 
-    # an existing benchmark of the same dataset name and top-level task is a duplicate
-    taken = set(benchmarks)
-    existing = collections.defaultdict(list)
-    for b, data in benchmarks.items():
-        root = data["task-hierarchy"][0] if data["task-hierarchy"] else ""
-        existing[(utils.compact_name(utils.bench_dataset_part(b)), root)].append(b)
-    planned = {}
-    for dataset_id, keys in kept.items():
-        dataset = datasets[dataset_id]
-        hierarchies_used = collections.Counter(
-            tuple(reviewed_new[k]["task_hierarchy"]) for k in keys
-        )
-        hierarchy = list(hierarchies_used.most_common(1)[0][0])
-        duplicate = existing.get(
-            (utils.compact_name(utils.slugify(dataset["name"])), hierarchy[0])
-        )
-        if duplicate:
-            skipped.append(
-                {"reason": f"new benchmark may duplicate {duplicate}", "target": keys}
-            )
-            continue
-        title = benchmark_title(hierarchy, dataset, taken)
-        taken.add(title)
-        planned[title] = {
-            "hierarchy": hierarchy,
-            "dataset_id": dataset_id,
-            "keys": keys,
-            "entries": [e for k in keys for e in new_entries[k]],
-        }
-    # parts of split leaderboards, their title names the protocol
-    existing_titles = {utils.compact_name(b) for b in benchmarks}
-    for title, plan in split_new.items():
-        if utils.compact_name(title) in existing_titles:
-            skipped.append(
-                {"reason": f"new benchmark {title} exists", "target": plan["keys"]}
-            )
-        elif title in planned:
-            planned[title]["keys"] += plan["keys"]
-            planned[title]["entries"] += plan["entries"]
-        else:
-            planned[title] = plan
-
+    planned = plan_new_benchmarks(
+        kept,
+        split_new,
+        new_entries=new_entries,
+        reviewed_new=reviewed_new,
+        benchmarks=benchmarks,
+        datasets=datasets,
+        skipped=skipped,
+    )
     for title, plan in planned.items():
         dataset, keys = datasets[plan["dataset_id"]], plan["keys"]
         info = leaderboard_info(keys)
         if plan.get("labels"):
-            directions = info.get("metrics") or {}
-            info = {
-                "primary": next(iter(plan["labels"].values())),
-                "metrics": {
-                    label: directions.get(m)
-                    for m, label in reversed(plan["labels"].items())
-                },
-            }
+            info = labelled_info(info, plan["labels"])
         built, reason = build_new(combine(plan["entries"], skipped), info)
         if not built:
             skipped.append({"reason": f"new benchmark {reason}", "target": keys})

@@ -6,7 +6,7 @@ new benchmarks (also in parts, when split), to data/leaderboards/.
 import os
 
 import hfpwc_api
-import utils
+import hfpwc_utils as utils
 
 # ==================================================================================================
 
