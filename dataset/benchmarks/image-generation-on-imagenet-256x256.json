@@ -156,6 +156,16 @@
       },
       {
         "p": {
+          "name": "RiT: Vanilla Diffusion Transformers Suffice in Representation Space",
+          "link": "https://arxiv.org/abs/2605.21981"
+        },
+        "c": "https://github.com/lezhang7/RiT",
+        "n": "RiT-XL",
+        "d": "2026-05-21",
+        "m1": "1.14"
+      },
+      {
+        "p": {
           "name": "CMuon: Accelerating and Stabilizing Diffusion Transformer Training via Chunked Momentum Orthogonalization",
           "link": "https://arxiv.org/abs/2608.02502"
         },
@@ -163,6 +173,16 @@
         "n": "CMuon (DiT-XL)",
         "d": "2026-08-03",
         "m1": "1.18"
+      },
+      {
+        "p": {
+          "name": "Equivalent Flows, Unequal Learning: Clean-Latent Prediction in Transformers",
+          "link": "https://arxiv.org/abs/2605.27102"
+        },
+        "c": "https://github.com/akatsuki-neo/JLT",
+        "n": "JLT-H/1 (L_v)",
+        "d": "2026-05-26",
+        "m1": "1.19"
       },
       {
         "p": {
@@ -525,6 +545,16 @@
       },
       {
         "p": {
+          "name": "Autoregressive Visual Generation Needs a Prologue",
+          "link": "https://arxiv.org/abs/2605.06137"
+        },
+        "c": "",
+        "n": "Prologue L–XL",
+        "d": "2026-05-07",
+        "m1": "1.46"
+      },
+      {
+        "p": {
           "name": "PixelDiT2: Representation-Grounded Pixel Diffusion Transformers",
           "link": "https://arxiv.org/abs/2609.24919"
         },
@@ -581,6 +611,16 @@
         "c": "https://github.com/markweberdev/maskbit",
         "n": "MaskBit",
         "d": "2024-09-24",
+        "m1": "1.52"
+      },
+      {
+        "p": {
+          "name": "Autoregressive Visual Generation Needs a Prologue",
+          "link": "https://arxiv.org/abs/2605.06137"
+        },
+        "c": "",
+        "n": "Prologue L–L",
+        "d": "2026-05-07",
         "m1": "1.52"
       },
       {
@@ -1006,6 +1046,16 @@
       },
       {
         "p": {
+          "name": "WiT: Waypoint Diffusion Transformers for Alleviating Trajectory Conflict in Pixel-Space Image Generation",
+          "link": "https://arxiv.org/abs/2603.15132"
+        },
+        "c": "",
+        "n": "WiT-H/16",
+        "d": "2026-03-16",
+        "m1": "1.79"
+      },
+      {
+        "p": {
           "name": "Registers Matter for Pixel-Space Diffusion Transformers",
           "link": "https://arxiv.org/abs/2605.16147"
         },
@@ -1367,6 +1417,16 @@
       },
       {
         "p": {
+          "name": "Vision Foundation Models as Generalist Tokenizers for Image Generation",
+          "link": "https://arxiv.org/abs/2605.18390"
+        },
+        "c": "https://github.com/CVMI-Lab/VFMTok",
+        "n": "VFMTok-2B(SigLIP)",
+        "d": "2026-05-18",
+        "m1": "2.05"
+      },
+      {
+        "p": {
           "name": "Rethinking Cross-Layer Information Routing in Diffusion Transformers",
           "link": "https://arxiv.org/abs/2605.20708"
         },
@@ -1407,12 +1467,32 @@
       },
       {
         "p": {
+          "name": "Adversarial Error Correction for Visual Autoregressive Generation",
+          "link": "https://arxiv.org/abs/2605.24843"
+        },
+        "c": "https://github.com/bijiw515/AID-VAR",
+        "n": "AID-VAR-d24",
+        "d": "2026-05-24",
+        "m1": "2.08"
+      },
+      {
+        "p": {
           "name": "WiT: Waypoint Diffusion Transformers via Trajectory Conflict Navigation",
           "link": "https://arxiv.org/abs/2603.15132"
         },
         "c": "https://github.com/hainuo-wang/WiT",
         "n": "WiT-XL/16",
         "d": "2026-03-16",
+        "m1": "2.09"
+      },
+      {
+        "p": {
+          "name": "Vision Foundation Models as Generalist Tokenizers for Image Generation",
+          "link": "https://arxiv.org/abs/2605.18390"
+        },
+        "c": "https://github.com/CVMI-Lab/VFMTok",
+        "n": "VFMTok-2B(DINOv2)",
+        "d": "2026-05-18",
         "m1": "2.09"
       },
       {
@@ -1507,6 +1587,16 @@
       },
       {
         "p": {
+          "name": "Autoregressive Visual Generation Needs a Prologue",
+          "link": "https://arxiv.org/abs/2605.06137"
+        },
+        "c": "",
+        "n": "Prologue L–B",
+        "d": "2026-05-07",
+        "m1": "2.15"
+      },
+      {
+        "p": {
           "name": "Vision Foundation Models as Effective Visual Tokenizers for Autoregressive Image Generation",
           "link": "https://arxiv.org/abs/2507.08441"
         },
@@ -1524,6 +1614,16 @@
         "n": "PixNerd-XL/16 (Adam2-50)",
         "d": "2025-07-31",
         "m1": "2.16"
+      },
+      {
+        "p": {
+          "name": "Vision Foundation Models as Generalist Tokenizers for Image Generation",
+          "link": "https://arxiv.org/abs/2605.18390"
+        },
+        "c": "https://github.com/CVMI-Lab/VFMTok",
+        "n": "VFMTok-2B(SigLIP2)",
+        "d": "2026-05-18",
+        "m1": "2.17"
       },
       {
         "p": {
@@ -1727,6 +1827,26 @@
       },
       {
         "p": {
+          "name": "Vision Foundation Models as Generalist Tokenizers for Image Generation",
+          "link": "https://arxiv.org/abs/2605.18390"
+        },
+        "c": "https://github.com/CVMI-Lab/VFMTok",
+        "n": "VFMTok-XL(DINOv2)",
+        "d": "2026-05-18",
+        "m1": "2.41"
+      },
+      {
+        "p": {
+          "name": "Autoregressive Visual Generation Needs a Prologue",
+          "link": "https://arxiv.org/abs/2605.06137"
+        },
+        "c": "",
+        "n": "Prologue B–XL",
+        "d": "2026-05-07",
+        "m1": "2.43"
+      },
+      {
+        "p": {
           "name": "Autoregressive Image Generation with Randomized Parallel Decoding",
           "link": "https://arxiv.org/abs/2503.10568v1"
         },
@@ -1783,6 +1903,16 @@
         "c": "",
         "n": "SemTok-AR-XL",
         "d": "2026-03-17",
+        "m1": "2.54"
+      },
+      {
+        "p": {
+          "name": "Adversarial Error Correction for Visual Autoregressive Generation",
+          "link": "https://arxiv.org/abs/2605.24843"
+        },
+        "c": "https://github.com/bijiw515/AID-VAR",
+        "n": "AID-VAR-d20",
+        "d": "2026-05-24",
         "m1": "2.54"
       },
       {
@@ -1864,6 +1994,16 @@
         "n": "PixNerd-L/16 (Euler-50)",
         "d": "2025-07-31",
         "m1": "2.64"
+      },
+      {
+        "p": {
+          "name": "Autoregressive Visual Generation Needs a Prologue",
+          "link": "https://arxiv.org/abs/2605.06137"
+        },
+        "c": "",
+        "n": "Prologue B–L",
+        "d": "2026-05-07",
+        "m1": "2.67"
       },
       {
         "p": {
@@ -2082,6 +2222,16 @@
         "n": "IBQ-B (846M, SNCE)",
         "d": "2026-03-16",
         "m1": "3.2"
+      },
+      {
+        "p": {
+          "name": "Adversarial Error Correction for Visual Autoregressive Generation",
+          "link": "https://arxiv.org/abs/2605.24843"
+        },
+        "c": "https://github.com/bijiw515/AID-VAR",
+        "n": "AID-VAR-d16",
+        "d": "2026-05-24",
+        "m1": "3.24"
       },
       {
         "p": {
@@ -2323,6 +2473,16 @@
         "n": "ADM-G + EDS + ECT (ED-DPM, classifier_scale=1.0)",
         "d": "2022-06-23",
         "m1": "4.09"
+      },
+      {
+        "p": {
+          "name": "Autoregressive Visual Generation Needs a Prologue",
+          "link": "https://arxiv.org/abs/2605.06137"
+        },
+        "c": "",
+        "n": "Prologue B–B",
+        "d": "2026-05-07",
+        "m1": "4.11"
       },
       {
         "p": {

@@ -106,6 +106,16 @@
       },
       {
         "p": {
+          "name": "PriorVLA: Prior-Preserving Adaptation for Vision-Language-Action Models",
+          "link": "https://arxiv.org/abs/2605.10925"
+        },
+        "c": "",
+        "n": "PriorVLA",
+        "d": "2026-05-11",
+        "m1": "99.4"
+      },
+      {
+        "p": {
           "name": "PhysBrain 1.0 Technical Report",
           "link": "https://arxiv.org/abs/2605.15298"
         },
@@ -156,6 +166,16 @@
       },
       {
         "p": {
+          "name": "FutureVLA: Joint Visuomotor Prediction for Vision-Language-Action Model",
+          "link": "https://arxiv.org/abs/2603.10712"
+        },
+        "c": "",
+        "n": "FutureVLA-OT",
+        "d": "2026-03-11",
+        "m1": "99.2"
+      },
+      {
+        "p": {
           "name": "Interactive Post-Training for Vision-Language-Action Models",
           "link": "https://arxiv.org/abs/2505.17016"
         },
@@ -186,12 +206,32 @@
       },
       {
         "p": {
+          "name": "CORAL: Scalable Multi-Task Robot Learning via LoRA Experts",
+          "link": "https://arxiv.org/abs/2603.09298"
+        },
+        "c": "",
+        "n": "CORAL (SimVLA)",
+        "d": "2026-03-10",
+        "m1": "99.0"
+      },
+      {
+        "p": {
           "name": "SnapFlow: One-Step Action Generation for Flow-Matching VLAs via Progressive Self-Distillation",
           "link": "https://arxiv.org/abs/2604.05656"
         },
         "c": "",
         "n": "π0.5 + SnapFlow (1-step)",
         "d": "2026-04-07",
+        "m1": "99.0"
+      },
+      {
+        "p": {
+          "name": "Learning Action Manifold with Multi-view Latent Priors for Robotic Manipulation",
+          "link": "https://arxiv.org/abs/2605.11832"
+        },
+        "c": "",
+        "n": "AML",
+        "d": "2026-05-12",
         "m1": "99.0"
       },
       {
@@ -276,6 +316,16 @@
       },
       {
         "p": {
+          "name": "AttenA+: Rectifying Action Inequality in Robotic Foundation Models",
+          "link": "https://arxiv.org/abs/2605.13548"
+        },
+        "c": "",
+        "n": "AttenA+OFT",
+        "d": "2026-05-13",
+        "m1": "98.8"
+      },
+      {
+        "p": {
           "name": "ImageWAM: Do World Action Models Really Need Video Generation, or Just Image Editing?",
           "link": "https://arxiv.org/abs/2606.19531"
         },
@@ -296,6 +346,16 @@
       },
       {
         "p": {
+          "name": "ElasticFlow: One-Step Physics-Consistent Policy with Elastic Time Horizons for Language-Guided Manipulation",
+          "link": "https://arxiv.org/abs/2605.08799"
+        },
+        "c": "",
+        "n": "ElasticFlow",
+        "d": "2026-05-09",
+        "m1": "98.7"
+      },
+      {
+        "p": {
           "name": "SimVLA: A Simple VLA Baseline for Robotic Manipulation",
           "link": "https://arxiv.org/abs/2602.18224"
         },
@@ -306,12 +366,52 @@
       },
       {
         "p": {
+          "name": "CORAL: Scalable Multi-Task Robot Learning via LoRA Experts",
+          "link": "https://arxiv.org/abs/2603.09298"
+        },
+        "c": "",
+        "n": "CORAL (π0.5)",
+        "d": "2026-03-10",
+        "m1": "98.6"
+      },
+      {
+        "p": {
+          "name": "DiT4DiT: Jointly Modeling Video Dynamics and Actions for Generalizable Robot Control",
+          "link": "https://arxiv.org/abs/2603.10448"
+        },
+        "c": "",
+        "n": "DiT4DiT (from scratch)",
+        "d": "2026-03-11",
+        "m1": "98.6"
+      },
+      {
+        "p": {
+          "name": "FutureVLA: Joint Visuomotor Prediction for Vision-Language-Action Model",
+          "link": "https://arxiv.org/abs/2603.10712"
+        },
+        "c": "",
+        "n": "FutureVLA-GT",
+        "d": "2026-03-11",
+        "m1": "98.6"
+      },
+      {
+        "p": {
           "name": "StarVLA: A Lego-like Codebase for Vision-Language-Action Model Developing",
           "link": "https://arxiv.org/abs/2604.05014"
         },
         "c": "https://github.com/starvla/starvla",
         "n": "StarVLA (generalist)",
         "d": "2026-04-06",
+        "m1": "98.6"
+      },
+      {
+        "p": {
+          "name": "Robotic Manipulation is Vision-to-Geometry Mapping: Vision-Geometry Backbones over Language and Video Models",
+          "link": "https://arxiv.org/abs/2604.12908"
+        },
+        "c": "",
+        "n": "VGA",
+        "d": "2026-04-14",
         "m1": "98.6"
       },
       {
@@ -343,6 +443,46 @@
         "n": "StarVLA-OFT (specialist)",
         "d": "2026-04-06",
         "m1": "98.5"
+      },
+      {
+        "p": {
+          "name": "MolmoAct2: Action Reasoning Models for Real-world Deployment",
+          "link": "https://arxiv.org/abs/2605.02881"
+        },
+        "c": "",
+        "n": "MolmoAct2-Think",
+        "d": "2026-05-04",
+        "m1": "98.5"
+      },
+      {
+        "p": {
+          "name": "PokeVLA: Empowering Pocket-Sized Vision-Language-Action Model with Comprehensive World Knowledge Guidance",
+          "link": "https://arxiv.org/abs/2604.20834"
+        },
+        "c": "",
+        "n": "PokeVLA",
+        "d": "2026-04-22",
+        "m1": "98.4"
+      },
+      {
+        "p": {
+          "name": "PRTS: A Primitive Reasoning and Tasking System via Contrastive Representations",
+          "link": "https://arxiv.org/abs/2604.27472"
+        },
+        "c": "https://github.com/TeleHuman/PRTS",
+        "n": "PRTS (bs=32, 30K steps)",
+        "d": "2026-04-30",
+        "m1": "98.4"
+      },
+      {
+        "p": {
+          "name": "Point Tracking Improves World Action Models",
+          "link": "https://arxiv.org/abs/2605.23856"
+        },
+        "c": "",
+        "n": "JOPAT",
+        "d": "2026-05-22",
+        "m1": "98.4"
       },
       {
         "p": {
@@ -476,6 +616,36 @@
       },
       {
         "p": {
+          "name": "Long-Horizon Manipulation via Trace-Conditioned VLA Planning",
+          "link": "https://arxiv.org/abs/2604.21924"
+        },
+        "c": "",
+        "n": "LoHo-Manip",
+        "d": "2026-04-23",
+        "m1": "98.0"
+      },
+      {
+        "p": {
+          "name": "Libra-VLA: Achieving Learning Equilibrium via Asynchronous Coarse-to-Fine Dual-System",
+          "link": "https://arxiv.org/abs/2604.24921"
+        },
+        "c": "",
+        "n": "Libra-VLA",
+        "d": "2026-04-27",
+        "m1": "98.0"
+      },
+      {
+        "p": {
+          "name": "ConsisVLA-4D: Advancing Spatiotemporal Consistency in Efficient 3D-Perception and 4D-Reasoning for Robotic Manipulation",
+          "link": "https://arxiv.org/abs/2605.05126"
+        },
+        "c": "https://github.com/JiuTian-VL/ConsisVLA-4D",
+        "n": "ConsisVLA-4D",
+        "d": "2026-05-06",
+        "m1": "98.0"
+      },
+      {
+        "p": {
           "name": "StableVLA: Towards Robust Vision-Language-Action Models without Extra Data",
           "link": "https://arxiv.org/abs/2605.18287"
         },
@@ -532,6 +702,16 @@
         "c": "https://github.com/2toinf/x-vla",
         "n": "X-VLA-0.9B",
         "d": "2025-10-11",
+        "m1": "97.8"
+      },
+      {
+        "p": {
+          "name": "MolmoAct2: Action Reasoning Models for Real-world Deployment",
+          "link": "https://arxiv.org/abs/2605.02881"
+        },
+        "c": "",
+        "n": "MolmoAct2",
+        "d": "2026-05-04",
         "m1": "97.8"
       },
       {
@@ -636,6 +816,26 @@
       },
       {
         "p": {
+          "name": "From Noise to Intent: Anchoring Generative VLA Policies with Residual Bridges",
+          "link": "https://arxiv.org/abs/2604.21391"
+        },
+        "c": "",
+        "n": "ResVLA",
+        "d": "2026-04-23",
+        "m1": "97.4"
+      },
+      {
+        "p": {
+          "name": "OA-WAM: Object-Addressable World Action Model for Robust Robot Manipulation",
+          "link": "https://arxiv.org/abs/2605.06481"
+        },
+        "c": "",
+        "n": "OA-WAM",
+        "d": "2026-05-07",
+        "m1": "97.4"
+      },
+      {
+        "p": {
           "name": "TBD-VLA: Temporal Block Diffusion Vision Language Action Model",
           "link": "https://arxiv.org/abs/2606.07895"
         },
@@ -722,6 +922,16 @@
         "c": "https://github.com/ginwind/VLA-JEPA",
         "n": "VLA-JEPA",
         "d": "2026-02-10",
+        "m1": "97.2"
+      },
+      {
+        "p": {
+          "name": "$M^2$-VLA: Boosting Vision-Language Models for Generalizable Manipulation via Layer Mixture and Meta-Skills",
+          "link": "https://arxiv.org/abs/2604.24182"
+        },
+        "c": "https://github.com/ShowiBin/M2-VLA",
+        "n": "M2-VLA",
+        "d": "2026-04-27",
         "m1": "97.2"
       },
       {
@@ -1033,6 +1243,16 @@
         "n": "NORA-1.5 (DPO) (LIBERO-Goal)",
         "d": "2025-11-18",
         "m1": "95.4"
+      },
+      {
+        "p": {
+          "name": "VLA-Thinker: Boosting Vision-Language-Action Models through Thinking-with-Image Reasoning",
+          "link": "https://arxiv.org/abs/2603.14523"
+        },
+        "c": "",
+        "n": "VLA-Thinker",
+        "d": "2026-03-15",
+        "m1": "95.2"
       },
       {
         "p": {
