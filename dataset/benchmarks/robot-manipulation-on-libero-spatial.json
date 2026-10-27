@@ -36,6 +36,16 @@
     "items": [
       {
         "p": {
+          "name": "3DThinkVLA: Endowing Vision-Language-Action Models with Latent 3D Priors via 3D-Thinking-Guided Co-training",
+          "link": "https://arxiv.org/abs/2606.04436"
+        },
+        "c": "",
+        "n": "3DThinkVLA",
+        "d": "2026-06-03",
+        "m1": "100.0"
+      },
+      {
+        "p": {
           "name": "ABot-M0.5: Unified Mobility-and-Manipulation World Action Model",
           "link": "https://arxiv.org/abs/2607.00678"
         },
@@ -52,6 +62,16 @@
         "c": "",
         "n": "CORAL (π0.5)",
         "d": "2026-03-10",
+        "m1": "99.8"
+      },
+      {
+        "p": {
+          "name": "dVLA-RL: Reinforcement Learning over Denoising Trajectories for Discrete Diffusion Vision-Language-Action Models",
+          "link": "https://arxiv.org/abs/2606.23623"
+        },
+        "c": "",
+        "n": "dVLA-RL",
+        "d": "2026-06-22",
         "m1": "99.8"
       },
       {
@@ -156,6 +176,16 @@
       },
       {
         "p": {
+          "name": "MPCoT: Reward-Guided Multi-Path Latent Reasoning for Test-Time Scalable Vision-Language-Action",
+          "link": "https://arxiv.org/abs/2606.06245"
+        },
+        "c": "https://github.com/EDGSCOUT/MPCoT",
+        "n": "MPCoT",
+        "d": "2026-06-04",
+        "m1": "99.5"
+      },
+      {
+        "p": {
           "name": "SimpleVLA-RL: Scaling VLA Training via Reinforcement Learning",
           "link": "https://arxiv.org/abs/2509.09674"
         },
@@ -202,6 +232,16 @@
         "c": "https://github.com/RLinf/LaWAM",
         "n": "LaWAM (LIBERO-SFT)",
         "d": "2026-06-14",
+        "m1": "99.4"
+      },
+      {
+        "p": {
+          "name": "PearlVLA: Progressive Embodied Action-Plan Refinement in Latent Space",
+          "link": "https://arxiv.org/abs/2606.17924"
+        },
+        "c": "",
+        "n": "PearlVLA + CRG-PRL",
+        "d": "2026-06-16",
         "m1": "99.4"
       },
       {
@@ -262,6 +302,16 @@
         "c": "https://github.com/SJTU-DENG-Lab/WLA",
         "n": "WLA-0 +TTS (LIBERO-Spatial)",
         "d": "2026-06-04",
+        "m1": "99.2"
+      },
+      {
+        "p": {
+          "name": "PearlVLA: Progressive Embodied Action-Plan Refinement in Latent Space",
+          "link": "https://arxiv.org/abs/2606.17924"
+        },
+        "c": "",
+        "n": "PearlVLA",
+        "d": "2026-06-16",
         "m1": "99.2"
       },
       {
@@ -382,6 +432,26 @@
         "c": "https://github.com/zhaorw02/GEM",
         "n": "GEM-VLA",
         "d": "2026-05-27",
+        "m1": "99.0"
+      },
+      {
+        "p": {
+          "name": "Denoising Tells When to Replan: Denoising-Variance Adaptive Chunking for Flow-Based Robot Policies",
+          "link": "https://arxiv.org/abs/2606.03847"
+        },
+        "c": "",
+        "n": "DVAC",
+        "d": "2026-06-02",
+        "m1": "99.0"
+      },
+      {
+        "p": {
+          "name": "$ω$-EVA: Envision, Verify, and Act with Latent Interactive World Models",
+          "link": "https://arxiv.org/abs/2606.09457"
+        },
+        "c": "",
+        "n": "ω-EVA (Stage 3)",
+        "d": "2026-06-08",
         "m1": "99.0"
       },
       {
@@ -542,6 +612,26 @@
         "c": "https://github.com/dragonlzm/DRIFT",
         "n": "DRIFT (Qwen3-VL-2B)",
         "d": "2026-06-04",
+        "m1": "98.8"
+      },
+      {
+        "p": {
+          "name": "Coarse-to-Control: Action-Token Planning for Vision-Language-Action Models",
+          "link": "https://arxiv.org/abs/2606.07107"
+        },
+        "c": "",
+        "n": "Coarse-to-Control",
+        "d": "2026-06-05",
+        "m1": "98.8"
+      },
+      {
+        "p": {
+          "name": "$ω$-EVA: Envision, Verify, and Act with Latent Interactive World Models",
+          "link": "https://arxiv.org/abs/2606.09457"
+        },
+        "c": "",
+        "n": "ω-EVA (Stage 2)",
+        "d": "2026-06-08",
         "m1": "98.8"
       },
       {
@@ -776,6 +866,16 @@
       },
       {
         "p": {
+          "name": "S$^2$-VLA: State-Space Guided Vision-Language-Action Models for Long-Horizon Manipulation",
+          "link": "https://arxiv.org/abs/2606.27872"
+        },
+        "c": "",
+        "n": "S2-VLA",
+        "d": "2026-06-26",
+        "m1": "98.4"
+      },
+      {
+        "p": {
           "name": "LEAP-VLA: Latent-Enhanced Action Prototyping via Continuous Residual Latent Spaces for Vision-Language-Action Models",
           "link": "https://eccv.ecva.net/virtual/2026/poster/3297"
         },
@@ -846,6 +946,16 @@
       },
       {
         "p": {
+          "name": "Learning Transferable Dynamics Priors from Action to World Modeling",
+          "link": "https://arxiv.org/abs/2606.29501"
+        },
+        "c": "",
+        "n": "A2World-policy",
+        "d": "2026-06-28",
+        "m1": "98.2"
+      },
+      {
+        "p": {
           "name": "SimpleMemVLA: A Simple but Effective Native-Video Memory for Vision-Language-Action Models",
           "link": "https://arxiv.org/abs/2609.05533"
         },
@@ -912,6 +1022,16 @@
         "c": "",
         "n": "LoHo-Manip",
         "d": "2026-04-23",
+        "m1": "98.0"
+      },
+      {
+        "p": {
+          "name": "Dreaming when Necessary: Advancing World Action Models with Adaptive Multi-Modal Reasoning",
+          "link": "https://arxiv.org/abs/2606.07089"
+        },
+        "c": "",
+        "n": "AdaWAM",
+        "d": "2026-06-05",
         "m1": "98.0"
       },
       {
@@ -1082,6 +1202,16 @@
         "c": "https://github.com/RenMing-Huang/MINT",
         "n": "MINT-4B",
         "d": "2026-03-28",
+        "m1": "97.4"
+      },
+      {
+        "p": {
+          "name": "Training Vision-Language-Action Models with Dense Embodied Chain-of-Thought Supervision",
+          "link": "https://arxiv.org/abs/2606.30552"
+        },
+        "c": "https://github.com/RUCKBReasoning/ZR-0",
+        "n": "ZR-0",
+        "d": "2026-06-29",
         "m1": "97.4"
       },
       {
@@ -1282,6 +1412,16 @@
         "c": "",
         "n": "StableVLA (0.5B, clean)",
         "d": "2026-05-18",
+        "m1": "96.2"
+      },
+      {
+        "p": {
+          "name": "MotionVLA: Injecting Geometric Motion into Vision-Language-Action Model",
+          "link": "https://arxiv.org/abs/2606.08288"
+        },
+        "c": "",
+        "n": "MotionVLA",
+        "d": "2026-06-06",
         "m1": "96.2"
       },
       {

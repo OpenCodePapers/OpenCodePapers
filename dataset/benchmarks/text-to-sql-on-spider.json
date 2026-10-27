@@ -83,6 +83,36 @@
       },
       {
         "p": {
+          "name": "ZAS-SQL: Distilling Rules from Failures for Zero-Shot Text-to-SQL",
+          "link": "https://arxiv.org/abs/2606.08245"
+        },
+        "c": "",
+        "n": "ZAS-SQL + Qwen2.5-Coder-14B",
+        "d": "2026-06-06",
+        "m1": "88.6"
+      },
+      {
+        "p": {
+          "name": "ZAS-SQL: Distilling Rules from Failures for Zero-Shot Text-to-SQL",
+          "link": "https://arxiv.org/abs/2606.08245"
+        },
+        "c": "",
+        "n": "ZAS-SQL + Qwen3-8B",
+        "d": "2026-06-06",
+        "m1": "87.9"
+      },
+      {
+        "p": {
+          "name": "ZAS-SQL: Distilling Rules from Failures for Zero-Shot Text-to-SQL",
+          "link": "https://arxiv.org/abs/2606.08245"
+        },
+        "c": "",
+        "n": "ZAS-SQL + DeepSeek-V3",
+        "d": "2026-06-06",
+        "m1": "87.8"
+      },
+      {
+        "p": {
           "name": "PET-SQL: A Prompt-Enhanced Two-Round Refinement of Text-to-SQL with Cross-consistency",
           "link": "https://arxiv.org/abs/2403.09732v4"
         },
@@ -91,6 +121,16 @@
         "d": "2024-03-13",
         "m1": "87.6",
         "m2": "66.6"
+      },
+      {
+        "p": {
+          "name": "ZAS-SQL: Distilling Rules from Failures for Zero-Shot Text-to-SQL",
+          "link": "https://arxiv.org/abs/2606.08245"
+        },
+        "c": "",
+        "n": "ZAS-SQL + Qwen2.5-14B-Instruct",
+        "d": "2026-06-06",
+        "m1": "87.6"
       },
       {
         "p": {
@@ -291,6 +331,16 @@
         "n": "MAPO + TABERTLarge (K = 3)",
         "d": "2020-05-17",
         "m4": "64.5"
+      },
+      {
+        "p": {
+          "name": "ZAS-SQL: Distilling Rules from Failures for Zero-Shot Text-to-SQL",
+          "link": "https://arxiv.org/abs/2606.08245"
+        },
+        "c": "",
+        "n": "ZAS-SQL + Qwen2.5-3B-Instruct",
+        "d": "2026-06-06",
+        "m1": "69.7"
       }
     ]
   }

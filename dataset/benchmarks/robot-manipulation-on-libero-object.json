@@ -146,11 +146,31 @@
       },
       {
         "p": {
+          "name": "GeoSem-WAM: Geometry- and Semantic-Aware World Action Models",
+          "link": "https://arxiv.org/abs/2606.03188"
+        },
+        "c": "",
+        "n": "GeoSem-WAM",
+        "d": "2026-06-02",
+        "m1": "100.0"
+      },
+      {
+        "p": {
           "name": "DynBridge: Bridging Imagination and Control through Interaction Dynamics for Robot Manipulation",
           "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Wang_DynBridge_Bridging_Imagination_and_Control_through_Interaction_Dynamics_for_Robot_CVPR_2026_paper.html"
         },
         "c": "https://github.com/wang-alexz/dynbridge",
         "n": "DynBridge",
+        "d": "2026-06-03",
+        "m1": "100.0"
+      },
+      {
+        "p": {
+          "name": "3DThinkVLA: Endowing Vision-Language-Action Models with Latent 3D Priors via 3D-Thinking-Guided Co-training",
+          "link": "https://arxiv.org/abs/2606.04436"
+        },
+        "c": "",
+        "n": "3DThinkVLA",
         "d": "2026-06-03",
         "m1": "100.0"
       },
@@ -162,6 +182,26 @@
         "c": "https://github.com/SJTU-DENG-Lab/WLA",
         "n": "WLA-0 +TTS (LIBERO-Object)",
         "d": "2026-06-04",
+        "m1": "100.0"
+      },
+      {
+        "p": {
+          "name": "Coarse-to-Control: Action-Token Planning for Vision-Language-Action Models",
+          "link": "https://arxiv.org/abs/2606.07107"
+        },
+        "c": "",
+        "n": "Coarse-to-Control",
+        "d": "2026-06-05",
+        "m1": "100.0"
+      },
+      {
+        "p": {
+          "name": "dVLA-RL: Reinforcement Learning over Denoising Trajectories for Discrete Diffusion Vision-Language-Action Models",
+          "link": "https://arxiv.org/abs/2606.23623"
+        },
+        "c": "",
+        "n": "dVLA-RL",
+        "d": "2026-06-22",
         "m1": "100.0"
       },
       {
@@ -342,6 +382,36 @@
         "c": "",
         "n": "FM-Steer (π0)",
         "d": "2026-06-03",
+        "m1": "99.8"
+      },
+      {
+        "p": {
+          "name": "MPCoT: Reward-Guided Multi-Path Latent Reasoning for Test-Time Scalable Vision-Language-Action",
+          "link": "https://arxiv.org/abs/2606.06245"
+        },
+        "c": "https://github.com/EDGSCOUT/MPCoT",
+        "n": "MPCoT",
+        "d": "2026-06-04",
+        "m1": "99.8"
+      },
+      {
+        "p": {
+          "name": "PearlVLA: Progressive Embodied Action-Plan Refinement in Latent Space",
+          "link": "https://arxiv.org/abs/2606.17924"
+        },
+        "c": "",
+        "n": "PearlVLA",
+        "d": "2026-06-16",
+        "m1": "99.8"
+      },
+      {
+        "p": {
+          "name": "PearlVLA: Progressive Embodied Action-Plan Refinement in Latent Space",
+          "link": "https://arxiv.org/abs/2606.17924"
+        },
+        "c": "",
+        "n": "PearlVLA + CRG-PRL",
+        "d": "2026-06-16",
         "m1": "99.8"
       },
       {
@@ -596,6 +666,16 @@
       },
       {
         "p": {
+          "name": "Dreaming when Necessary: Advancing World Action Models with Adaptive Multi-Modal Reasoning",
+          "link": "https://arxiv.org/abs/2606.07089"
+        },
+        "c": "",
+        "n": "AdaWAM",
+        "d": "2026-06-05",
+        "m1": "99.6"
+      },
+      {
+        "p": {
           "name": "Light-WAM: Efficient World Action Models with State-Fusion Action Decoding",
           "link": "https://arxiv.org/abs/2606.08242"
         },
@@ -622,6 +702,26 @@
         "c": "https://github.com/cvlab-kaist/Geometric-Action-Model",
         "n": "GAM",
         "d": "2026-06-15",
+        "m1": "99.6"
+      },
+      {
+        "p": {
+          "name": "UniFS: Unified Fast-to-Slow Hierarchical Architecture for Vision-Language-Action Models",
+          "link": "https://arxiv.org/abs/2606.22794"
+        },
+        "c": "https://github.com/linsun449/UniFS",
+        "n": "UniFS",
+        "d": "2026-06-22",
+        "m1": "99.6"
+      },
+      {
+        "p": {
+          "name": "S$^2$-VLA: State-Space Guided Vision-Language-Action Models for Long-Horizon Manipulation",
+          "link": "https://arxiv.org/abs/2606.27872"
+        },
+        "c": "",
+        "n": "S2-VLA",
+        "d": "2026-06-26",
         "m1": "99.6"
       },
       {
@@ -792,6 +892,16 @@
         "c": "https://github.com/yuyangalin/ImageWAM",
         "n": "ImageWAM (FLUX.2 4B)",
         "d": "2026-06-17",
+        "m1": "99.2"
+      },
+      {
+        "p": {
+          "name": "Learning Transferable Dynamics Priors from Action to World Modeling",
+          "link": "https://arxiv.org/abs/2606.29501"
+        },
+        "c": "",
+        "n": "A2World-policy",
+        "d": "2026-06-28",
         "m1": "99.2"
       },
       {
@@ -1196,6 +1306,26 @@
       },
       {
         "p": {
+          "name": "Denoising Tells When to Replan: Denoising-Variance Adaptive Chunking for Flow-Based Robot Policies",
+          "link": "https://arxiv.org/abs/2606.03847"
+        },
+        "c": "",
+        "n": "DVAC",
+        "d": "2026-06-02",
+        "m1": "98.0"
+      },
+      {
+        "p": {
+          "name": "MotionVLA: Injecting Geometric Motion into Vision-Language-Action Model",
+          "link": "https://arxiv.org/abs/2606.08288"
+        },
+        "c": "",
+        "n": "MotionVLA",
+        "d": "2026-06-06",
+        "m1": "98.0"
+      },
+      {
+        "p": {
           "name": "Knowledge Insulating Vision-Language-Action Models: Train Fast, Run Fast, Generalize Better",
           "link": "https://arxiv.org/abs/2505.23705"
         },
@@ -1263,6 +1393,16 @@
         "n": "VisualThink-VLA",
         "d": "2026-05-28",
         "m1": "97.74"
+      },
+      {
+        "p": {
+          "name": "LARA: Latent Action Representation Alignment for Vision-Language-Action Models",
+          "link": "https://arxiv.org/abs/2606.07100"
+        },
+        "c": "https://github.com/lmy1001/LARA",
+        "n": "GR00T-N1.6-LARA",
+        "d": "2026-06-05",
+        "m1": "97.5"
       },
       {
         "p": {
