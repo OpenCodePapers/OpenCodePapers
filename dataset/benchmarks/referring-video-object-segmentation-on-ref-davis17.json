@@ -46,12 +46,52 @@
     "items": [
       {
         "p": {
+          "name": "SetCon: Towards Open-Ended Referring Segmentation via Set-Level Concept Prediction",
+          "link": "https://arxiv.org/abs/2605.20110"
+        },
+        "c": "https://github.com/rookiexiong7/SetCon",
+        "n": "SetCon",
+        "d": "2026-05-19",
+        "m1": "80.8"
+      },
+      {
+        "p": {
+          "name": "VideoSEG-O3: A Multi-turn Reinforcement Learning Framework for Reasoning Video Object Segmentation",
+          "link": "https://arxiv.org/abs/2606.06819"
+        },
+        "c": "https://github.com/Dmmm1997/VideoSEG-O3",
+        "n": "VideoSEG-O3-2B",
+        "d": "2026-06-05",
+        "m1": "80.0"
+      },
+      {
+        "p": {
+          "name": "VIRST: Video-Instructed Reasoning Assistant for SpatioTemporal Segmentation",
+          "link": "https://arxiv.org/abs/2603.27060"
+        },
+        "c": "https://github.com/AIDASLab/VIRST",
+        "n": "VIRST",
+        "d": "2026-03-28",
+        "m1": "79.5"
+      },
+      {
+        "p": {
           "name": "Sa2VA: Marrying SAM2 with LLaVA for Dense Grounded Understanding of Images and Videos",
           "link": "https://arxiv.org/abs/2501.04001"
         },
         "c": "https://github.com/magic-research/sa2va",
         "n": "Sa2VA-Qwen2.5VL-7B (extra data)",
         "d": "2025-01-07",
+        "m1": "79.4"
+      },
+      {
+        "p": {
+          "name": "VideoSEG-O3: A Multi-turn Reinforcement Learning Framework for Reasoning Video Object Segmentation",
+          "link": "https://arxiv.org/abs/2606.06819"
+        },
+        "c": "https://github.com/Dmmm1997/VideoSEG-O3",
+        "n": "VideoSEG-O3-4B",
+        "d": "2026-06-05",
         "m1": "79.4"
       },
       {
@@ -100,6 +140,18 @@
       },
       {
         "p": {
+          "name": "STAC: Selective Spatiotemporal Aggregation and Compression for Video Reasoning Segmentation",
+          "link": "https://arxiv.org/abs/2607.02922"
+        },
+        "c": "https://github.com/MCG-NKU/nku-video",
+        "n": "STAC",
+        "d": "2026-07-03",
+        "m1": "73.6",
+        "m2": "70.1",
+        "m3": "77.2"
+      },
+      {
+        "p": {
           "name": "Deforming Videos to Masks: Flow Matching for Referring Video Segmentation",
           "link": "https://arxiv.org/abs/2510.06139"
         },
@@ -107,6 +159,18 @@
         "n": "FlowRVS (Wan 2.1 T2V 1.3B DiT, zero-shot) (extra data)",
         "d": "2025-10-07",
         "m1": "73.3"
+      },
+      {
+        "p": {
+          "name": "G$^2$TAM: Geometry Grounded Track Anything Model",
+          "link": "https://arxiv.org/abs/2607.03789"
+        },
+        "c": "",
+        "n": "G2TAM",
+        "d": "2026-07-04",
+        "m1": "71.7",
+        "m2": "68.2",
+        "m3": "75.1"
       },
       {
         "p": {
