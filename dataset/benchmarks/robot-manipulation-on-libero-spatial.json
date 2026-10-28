@@ -56,6 +56,16 @@
       },
       {
         "p": {
+          "name": "ACE-Brain-0.5: A Unified Embodied Foundational Model for Physical Agentic AI",
+          "link": "https://arxiv.org/abs/2607.04426"
+        },
+        "c": "",
+        "n": "ACE-Brain-0.5",
+        "d": "2026-07-05",
+        "m1": "100.0"
+      },
+      {
+        "p": {
           "name": "CORAL: Scalable Multi-Task Robot Learning via LoRA Experts",
           "link": "https://arxiv.org/abs/2603.09298"
         },
@@ -246,6 +256,16 @@
       },
       {
         "p": {
+          "name": "WSA$_1$: a 3D-Centric World-Spatial-Action Model for Generalizable Robot Control",
+          "link": "https://arxiv.org/abs/2607.03941"
+        },
+        "c": "https://github.com/zaleni/WSA",
+        "n": "WSA1-L",
+        "d": "2026-07-04",
+        "m1": "99.4"
+      },
+      {
+        "p": {
           "name": "Magic-W0: A Structured World-Action Foundation Model for Physical Intelligence",
           "link": "https://arxiv.org/abs/2609.39870"
         },
@@ -312,6 +332,16 @@
         "c": "",
         "n": "PearlVLA",
         "d": "2026-06-16",
+        "m1": "99.2"
+      },
+      {
+        "p": {
+          "name": "SAM3D-Guided Object-Centric Representation Alignment for Vision-Language-Action Models",
+          "link": "https://arxiv.org/abs/2607.25912"
+        },
+        "c": "",
+        "n": "SAM3D-VLA",
+        "d": "2026-07-28",
         "m1": "99.2"
       },
       {
@@ -452,6 +482,16 @@
         "c": "",
         "n": "ω-EVA (Stage 3)",
         "d": "2026-06-08",
+        "m1": "99.0"
+      },
+      {
+        "p": {
+          "name": "ST-WAM: Semantic-Temporal World Action Model for Robust Manipulation under Visual Distribution Shifts",
+          "link": "https://arxiv.org/abs/2607.28993"
+        },
+        "c": "",
+        "n": "ST-WAM",
+        "d": "2026-07-31",
         "m1": "99.0"
       },
       {
@@ -656,6 +696,16 @@
       },
       {
         "p": {
+          "name": "LEEVLA: Seeing What Matters in Latent Environment Evolution for Vision-Language-Action",
+          "link": "https://arxiv.org/abs/2607.08182"
+        },
+        "c": "https://github.com/LyuQi127/LEEVLA",
+        "n": "LEEVLA-large",
+        "d": "2026-07-09",
+        "m1": "98.8"
+      },
+      {
+        "p": {
           "name": "StreamPI: Streaming Multimodal Temporal Modeling for Vision-Language-Action Models",
           "link": "https://arxiv.org/abs/2608.26067"
         },
@@ -786,12 +836,32 @@
       },
       {
         "p": {
+          "name": "WSA$_1$: a 3D-Centric World-Spatial-Action Model for Generalizable Robot Control",
+          "link": "https://arxiv.org/abs/2607.03941"
+        },
+        "c": "https://github.com/zaleni/WSA",
+        "n": "WSA1-B",
+        "d": "2026-07-04",
+        "m1": "98.6"
+      },
+      {
+        "p": {
           "name": "InternVLA-A1.5: Unifying Understanding, Latent Foresight, and Action for Compositional Generalization",
           "link": "https://arxiv.org/abs/2607.04988"
         },
         "c": "https://github.com/internrobotics/internvla-a-series",
         "n": "InternVLA-A1.5-Libero",
         "d": "2026-07-06",
+        "m1": "98.6"
+      },
+      {
+        "p": {
+          "name": "LEEVLA: Seeing What Matters in Latent Environment Evolution for Vision-Language-Action",
+          "link": "https://arxiv.org/abs/2607.08182"
+        },
+        "c": "https://github.com/LyuQi127/LEEVLA",
+        "n": "LEEVLA-mini",
+        "d": "2026-07-09",
         "m1": "98.6"
       },
       {
@@ -872,6 +942,16 @@
         "c": "",
         "n": "S2-VLA",
         "d": "2026-06-26",
+        "m1": "98.4"
+      },
+      {
+        "p": {
+          "name": "FoMoVLA: Bridging Visual Foresight and Motion Guidance for Vision-Language-Action Models",
+          "link": "https://arxiv.org/abs/2607.14739"
+        },
+        "c": "",
+        "n": "FoMoVLA",
+        "d": "2026-07-16",
         "m1": "98.4"
       },
       {
@@ -1043,6 +1123,16 @@
         "n": "WorldDiT",
         "d": "2026-07-27",
         "m1": "98.0"
+      },
+      {
+        "p": {
+          "name": "A Causality-aware Infer-diagnose-refine Framework for Test-time Modality Adaptation in VLA Models",
+          "link": "https://arxiv.org/abs/2607.25516"
+        },
+        "c": "",
+        "n": "π0.5 + IDR",
+        "d": "2026-07-28",
+        "m1": "98.00"
       },
       {
         "p": {
@@ -1326,6 +1416,26 @@
       },
       {
         "p": {
+          "name": "A Causality-aware Infer-diagnose-refine Framework for Test-time Modality Adaptation in VLA Models",
+          "link": "https://arxiv.org/abs/2607.25516"
+        },
+        "c": "",
+        "n": "X-VLA + IDR",
+        "d": "2026-07-28",
+        "m1": "97.00"
+      },
+      {
+        "p": {
+          "name": "A Causality-aware Infer-diagnose-refine Framework for Test-time Modality Adaptation in VLA Models",
+          "link": "https://arxiv.org/abs/2607.25516"
+        },
+        "c": "",
+        "n": "VLA-Adapter + IDR",
+        "d": "2026-07-28",
+        "m1": "97.00"
+      },
+      {
+        "p": {
           "name": "Enfold: Folding World Model Imagination into Predictive Representations for Ultra-Efficient Embodied Control",
           "link": "https://arxiv.org/abs/2607.26657"
         },
@@ -1523,6 +1633,16 @@
         "n": "mimic-video",
         "d": "2025-12-17",
         "m1": "94.2"
+      },
+      {
+        "p": {
+          "name": "A Causality-aware Infer-diagnose-refine Framework for Test-time Modality Adaptation in VLA Models",
+          "link": "https://arxiv.org/abs/2607.25516"
+        },
+        "c": "",
+        "n": "OpenVLA-OFT + IDR",
+        "d": "2026-07-28",
+        "m1": "94.20"
       },
       {
         "p": {
